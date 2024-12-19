@@ -114,7 +114,7 @@ msgstr ""
 msgid ""
 "A link to reach the online quotation from where the customer can"
 "                                                confirm and sign it."
-msgstr ""
+msgstr "ลิงก์สำหรับเข้ารับใบเสนอราคาออนไลน์ซึ่งลูกค้าสามารถยืนยันและลงนามได้"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -122,6 +122,8 @@ msgid ""
 "All these components will give you an accurate overview on the project\n"
 "                                profitability."
 msgstr ""
+"ส่วนประกอบทั้งหมดเหล่านี้จะให้ภาพรวมที่ถูกต้องแม่นยำเกี่ยวกับผลกำไรของ\n"
+"                                โปรเจ็กต์"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -175,6 +177,8 @@ msgid ""
 "Assign the tasks to the right responsible and easily check the progress\n"
 "                                in the Kanban view."
 msgstr ""
+"มอบหมายงานให้ผู้รับผิดชอบทราบและตรวจสอบความคืบหน้าได้อย่างง่ายดาย\n"
+"                                ผ่านมุมมองคัมบัง"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -257,6 +261,8 @@ msgid ""
 "Create an opportunity each time you faced a potential customer,\n"
 "                                        receive a phone call, etc."
 msgstr ""
+"สร้างโอกาสทุกครั้งที่คุณเผชิญหน้ากับลูกค้าที่มีศักยภาพ\n"
+"                                        รับสายโทรศัพท์ ฯลฯ"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -384,7 +390,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Inventory 📦"
-msgstr ""
+msgstr "สินค้าคงคลัง 📦"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -394,7 +400,7 @@ msgstr "การแจ้งหนี้"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Invoicing 📈"
-msgstr ""
+msgstr "การออกใบแจ้งหนี้ 📈"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -433,6 +439,8 @@ msgid ""
 "Manage recurring products and automate renewal with the <strong><font "
 "class=\"text-o-color-1\">Subscription</font></strong> app."
 msgstr ""
+"จัดการผลิตภัณฑ์ที่เกิดขึ้นซ้ำและต่ออายุอัตโนมัติด้วยแอป <strong><font "
+"class=\"text-o-color-1\">Subscription</font></strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -620,6 +628,8 @@ msgid ""
 "                                        customer. The personalized email "
 "provides:"
 msgstr ""
+"ประหยัดเวลาด้วยการส่งใบเสนอราคาทางอีเมลถึงลูกค้าของคุณโดยตรง "
+"อีเมลส่วนบุคคลจะมอบสิ่งต่อไปนี้:"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body

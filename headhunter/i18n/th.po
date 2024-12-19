@@ -451,6 +451,9 @@ msgid ""
 "bold);\">Documentation:</strong> Create and maintain technical "
 "documentation, including code comments and user guides."
 msgstr ""
+"<strong style=\"font-weight: 600; color: var(--tw-prose-"
+"bold);\">เอกสารประกอบ:</strong> สร้างและดูแลรักษาเอกสารทางเทคนิค "
+"รวมถึงความคิดเห็นของโค้ดและคู่มือผู้ใช้"
 
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_6
@@ -756,6 +759,8 @@ msgid ""
 "Every company need to find the perfect worker.<br/>\n"
 "                                            Every worker deserves the best opportunities.&amp;nbsp;"
 msgstr ""
+"ทุกบริษัทจำเป็นต้องค้นหาคนงานที่สมบูรณ์แบบ<br/>\n"
+"                                            พนักงานทุกคนสมควรได้รับโอกาสที่ดีที่สุด &amp;nbsp;"
 
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_10
@@ -1219,6 +1224,8 @@ msgid ""
 "Trust us&amp;nbsp;to be your strategic partner in talent acquisition. "
 "Elevate your organization with exceptional professionals today!<br/>"
 msgstr ""
+"ไว้วางใจเราให้เป็นพาร์ทเนอร์เชิงกลยุทธ์ในการสรรหาบุคลากร "
+"ยกระดับองค์กรของคุณด้วยมืออาชีพที่โดดเด่นวันนี้!<br/>"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.ir_ui_view_1834
@@ -1250,6 +1257,7 @@ msgid ""
 "We have a history of successfully placing candidates in key positions across"
 " various industries.&amp;nbsp;"
 msgstr ""
+"เรามีประวัติความสำเร็จในการจัดหาผู้สมัครเข้ารับตำแหน่งสำคัญในอุตสาหกรรมต่างๆ&amp;nbsp;"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.services
@@ -1257,6 +1265,8 @@ msgid ""
 "We help you acquire new talents from the market, based on your needs and "
 "specifications.&amp;nbsp;"
 msgstr ""
+"เราช่วยคุณได้รับบุคลากรที่มีความสามารถใหม่ๆ "
+"จากตลาดโดยอิงตามความต้องการและข้อกำหนดของคุณ &amp;nbsp;"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.services
@@ -1264,6 +1274,8 @@ msgid ""
 "We prioritize discretion in all our dealings, providing a secure and "
 "confidential recruitment process.&amp;nbsp;"
 msgstr ""
+"เราให้ความสำคัญกับความรอบคอบในทุกการติดต่อของเรา "
+"โดยจัดให้มีกระบวนการสรรหาบุคลากรที่ปลอดภัยและเป็นส่วนตัว&amp;nbsp;"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.services
@@ -1292,6 +1304,8 @@ msgid ""
 "With an extensive international network, we can source talent from around "
 "the world"
 msgstr ""
+"ด้วยเครือข่ายระหว่างประเทศที่กว้างขวาง "
+"เราจึงสามารถสรรหาบุคลากรที่มีความสามารถจากทั่วโลกได้"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.services
