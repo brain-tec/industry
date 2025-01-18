@@ -9,7 +9,6 @@
     'depends': [
         'hr_hourly_cost',
         'knowledge',
-        'pos_discount',
         'pos_sale',
         'product_email_template',
         'purchase_stock',
@@ -22,7 +21,6 @@
         'website_sale_comparison',
         'website_sale_loyalty',
         'website_sale_wishlist',
-        'theme_artists',
     ],
     'data': [
         'data/res_config_settings.xml',
