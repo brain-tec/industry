@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 14:20+0000\n"
+"POT-Creation-Date: 2025-03-27 11:01+0000\n"
 "PO-Revision-Date: 2025-02-02 04:40+0000\n"
 "Last-Translator: Tony Ng, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
@@ -21,512 +21,881 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid ""
-"<b>Book a consultation online</b>\n"
-"                                            <br/>"
-msgstr ""
-"<b>網上預約諮詢</b>\n"
-"                                            <br/>"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ", and feel free to"
+msgstr "，亦歡迎隨時"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"<b>Lawyers &amp;amp; associates</b>\n"
-"                                    <br/>"
+"2.2. Retainer\n"
+"A retainer of [amount]€ is required upon signing this agreement. This amount will be deducted from the final billing."
 msgstr ""
-"<b>律師及合夥人</b>\n"
-"                                    <br/>"
+"2.2. 聘用訂金\n"
+"簽署本協議時，需支付 [金額]€ 聘用訂金。該金額將從最終賬單中扣除。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<em><strong>Milestone: </strong>First Hearing</em>"
+msgstr "<strong>里程碑：</strong>首次聆訊<em></em>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Add a new line to register a new Timesheet on the Administration Task of the"
-" project manually."
-msgstr "新增一個資料行，以手動在專案的「管理任務」內，登記新一張工時表。"
+"<em><strong>Tasks</strong>: Prepare Legal Arguments, Review Submissions and "
+"Arguments from Opposing Counsel</em>"
+msgstr "<strong>任務</strong>：準備法律論據、審閱對方律師呈交的文件及論點<em></em>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Add another Sale Order line using the Administration fees product."
-msgstr "使用「管理費用」產品，新增另一行銷售單資料行。"
+msgid "<em>Example:</em>"
+msgstr "<em>例子：</em>"
 
 #. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_6_product_template
-msgid "Administration fees"
-msgstr "行政費用"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Aline Turner, Immigration lawyer"
-msgstr "Aline Turner，移民律師"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"display-1-fs\">⚖️</span>"
+msgstr "<span class=\"display-1-fs\">⚖️</span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h1-fs\"><strong>Basics</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>基礎知識</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>想再進一步嗎？</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Use Case</strong></span>"
+msgstr "<span class=\"h2-fs\"><strong>使用案例</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h1-fs\">Odoo for Law Firms</span></strong>"
+msgstr "<strong><span class=\"h1-fs\">Odoo 律師事務所數據套裝</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Managing documents:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">管理文件：</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Managing projects:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">管理專案：</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Tracking time:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">追蹤工時：</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Invoice Clients</strong>"
+msgstr "<strong>向客戶開立發票</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Aline is one of the iconic people in life who can say they love what\n"
-"                                                    they do. She acquired experience in immigration law and human rights\n"
-"                                                    law thanks to several experiences in the non-profit sector. She\n"
-"                                                    worked as a legal adviser in nationality law with the Objectif\n"
-"                                                    non-profit."
-msgstr ""
-"Aline 是日常生活中可以自認熱愛自己所做事情的那種標誌人物。\n"
-"                                                    她在非營利界別有過一些工作，\n"
-"                                                    擁有處理移民法及人權法事宜的經驗。\n"
-"                                                    她曾在 Objectif 非營利組織擔任\n"
-"                                                    國籍法法律顧問。"
+"<strong>Invoice the client</strong>: Compile logged hours, document "
+"preparation costs, and travel expenses into the invoice."
+msgstr "<strong>向客戶開立發票</strong>：將記錄到的工時、文件準備費用、交通開支等，綜合在發票列出。"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Assign the responsible user."
-msgstr "指派負責的使用者。"
+msgid ""
+"<strong>Log your time</strong> directly in the 'Timesheet' tab of a specific"
+" task, or use the timer to track the time spent on that task."
+msgstr "<strong>直接在特定任務的「工時表」分頁中，記錄你的工時</strong>，或使用計時器追蹤該任務所花費的工時。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Log your time</strong>: Track hours spent on each task in the "
+"Timesheet tab."
+msgstr "<strong>記錄你的工時</strong>：在工時表分頁中，追蹤每個任務所花費的工時。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Manage documents</strong>: Upload and organize case documents in the"
+" project’s document folder."
+msgstr "<strong>管理文件</strong>：上載案件文件至專案的文件資料夾，並加以整理。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Manage tasks</strong> by organizing them into stages such as 'To "
+"Do,' 'In Progress,' and 'Done' to keep track of progress."
+msgstr "<strong>管理任務</strong>，將它們整理至「待辦」、「進行中」、「已完成」等階段，以追蹤進度。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Manage your agenda with the calendar app</strong>"
+msgstr "<strong>使用日曆應用程式，管理你的日程</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Open a new client case</strong>"
+msgstr "<strong>開啟新的客戶案件</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Open the case</strong>: Create a new project for the case."
+msgstr "<strong>開啟案件</strong>：為案件建立一個新的專案。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Organize case files in projects and documents</strong>"
+msgstr "<strong>整理專案及文件管理中的案件檔案</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Organize tasks</strong>: Set up tasks for the case, such as "
+"\"Document Drafting\" and \"Legal Research.\""
+msgstr "<strong>組織任務</strong>：為案件設定任務，例如「文件起草」、「法律研究」等。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Schedule the first consultation</strong>: Add a consultation with "
+"John Doe to your calendar."
+msgstr "<strong>安排第一次諮詢</strong>：將與 John Doe 的諮詢加入至你的日曆。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Steps to create a new case:</strong>"
+msgstr "<strong>建立新案件的步驟：</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Synchronizing external calendars:</strong> If lawyers or secretaries"
+" use tools like Google Calendar or Outlook, follow these steps to sync them "
+"with Odoo:"
+msgstr ""
+"<strong>同步外部日曆</strong>：如果律師或秘書使用 Google 日曆或 Outlook 等工具，請按照以下步驟將其與 Odoo 同步："
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Workflow Example</strong>"
+msgstr "<strong>工作流程範例</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>👉 </strong>"
+msgstr "<strong>👉 </strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"A free, personalized, integrated<strong><font class=\"text-o-color-1\"> "
+"Website </font></strong>in a few clicks. Get new clients or direct "
+"appointment online in a few clicks."
+msgstr ""
+"簡單按幾下，即可製作免費、個人化、整合全面功能的<strong><font class=\"text-o-"
+"color-1\">網店及網站</font></strong>，獲取新的客戶，以及直接進行線上預約。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"APPLICABLE LAW AND JURISDICTION\n"
+"This agreement is governed by Belgian law. Any disputes will be submitted to the courts of [city]."
+msgstr ""
+"【適用法律及司法管轄權】\n"
+"本協議受比利時法律管轄。任何爭議將提交至 [城市] 的法院處理。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"ATTORNEY'S OBLIGATIONS\n"
+"The Attorney commits to:"
+msgstr ""
+"【律師責任】\n"
+"律師承諾會："
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Access documents via the <strong>smart button</strong> on the project page; "
+"each project automatically generates a dedicated folder for organizing case-"
+"related documents."
+msgstr "你可透過專案頁面上的<strong>智能按鈕</strong>存取文件；每個專案都會自動產生一個專門的資料夾，用作整理案件相關文件。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Adapt your <strong>Terms &amp; Conditions</strong> directly on the "
+"quotation, and the customers will be able to sign it through their Odoo "
+"portal, or create or use the template of the <strong>Engagement "
+"Letter</strong> in the <strong>Sign App</strong>, and request the client's "
+"signature for the agreement."
+msgstr ""
+"你可直接在報價單上，調整你的<strong>條款及條件</strong>細則，而客戶將可透過 Odoo "
+"客戶門戶網站進行簽署。或者，使用<strong>電子簽名應用程式</strong>建立或使用<strong>委託書</strong>的範本，然後請求客戶簽署協議。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Add documents directly to project folder within the <strong>Documents "
+"app</strong>, or on the tasks or projects themselves."
+msgstr "將文件直接新增至<strong>文件管理應用程式</strong>內的專案資料夾，或新增至任務或專案本身。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Administrative costs: 80€/hour"
+msgstr "行政費用：80€/每小時"
 
 #. module: industry_lawyer
 #: model:product.template,name:industry_lawyer.product_product_8_product_template
-msgid "Audience with a colleague"
-msgstr "願意聆聽的同事"
-
-#. module: industry_lawyer
-#: model:project.project,name:industry_lawyer.project_project_2
-msgid "Base project"
-msgstr "基本專案"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Business Flows"
-msgstr "業務流程"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_2_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_1
-msgid "Case opening"
-msgstr "入稟開案"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Check the created appointment."
-msgstr "檢查已建立的預約。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Check the user agenda, a meeting is created."
-msgstr "看看使用者的日程，會見到已建立一個會議。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Complete the Customer information."
-msgstr "完成填寫客戶資料。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Confirm the Sale Order which will create the related Project and Tasks"
-msgstr "確認銷售單，之後系統將會建立相關的專案及任務"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_5_product_template
-msgid "Consultation"
-msgstr "諮詢"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Contact us and find out why."
-msgstr "聯絡我們，找出原因。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Create a Regular Invoice."
-msgstr "建立一張一般發票。"
+msgid "Administrative fees"
+msgstr "行政費用"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Create a Sale Order using the Standard Lawyer service Quotation template."
-msgstr "使用「標準律師」服務的報價單範本，建立銷售單。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Domains"
-msgstr "範疇"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_7_product_template
-msgid "Down payment"
-msgstr "首期付款"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Excellence since 2008"
-msgstr "2008 年至今卓越成就"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid ""
-"Excellence, privacy and reliability are the corner\n"
-"                                                    stones\n"
-"                                                    of our services."
+"Alternatively, you can access the Timesheet app via the <strong>smart button"
+" </strong>on the project page to view an overview of timesheets related to "
+"that project, with the same option available for a specific task."
 msgstr ""
-"卓越、私隱及可靠，是\n"
-"                                                    我們\n"
-"                                                    服務的基石。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Expropriation law"
-msgstr "徵收法"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Family reunification"
-msgstr "家庭團聚"
-
-#. module: industry_lawyer
-#: model_terms:appointment.type,message_intro:industry_lawyer.appointment_type_1
-msgid "Fee: 100€<br>Check our domains of competences on our website."
-msgstr "收費：€100<br>請到我們的網站，看看我們的專業範疇。"
-
-#. module: industry_lawyer
-#: model_terms:appointment.type,message_intro:industry_lawyer.appointment_type_2
-msgid "Fee: 100€<br>The fee includes the opening of the case."
-msgstr "收費：€100<br>費用包括入稟開案的費用。"
+"或者，你可透過專案頁面上的<strong>智能按鈕</strong>，存取工時表應用程式，以查看與該專案相關的工時表概覽。此功能也可在任何特定任務中使用。"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Flow 1: Get an appointment on the website"
-msgstr "流程 1：在網站上進行預約"
+msgid "Assign <strong>responsible users</strong>."
+msgstr "指派<strong>負責的使用者</strong>。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Avoid any conflicts of interest"
+msgstr "避免任何利益衝突"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Base hourly rate for a Junior Lawyer: 120€/hour"
+msgstr "初級律師每小時基本收費率：120€/每小時"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Base hourly rate for a Senior Lawyer: 200€/hour"
+msgstr "資深律師每小時基本收費率：200€/每小時"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Flow 2: Open a new file, start registering Timesheets."
-msgstr "流程 2：建立一個新檔案，開始登記工時表資料。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Flow 3: Create an invoice of"
-msgstr "流程 3：建立發票："
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
 msgid ""
-"Founder and chief visionary, Tony is the driving force behind the\n"
-"                                                    cabinet."
+"By creating an invoice for the quotation, you can record the down payment "
+"based on a percentage of the total or a fixed amount (e.g., €1000, upfront "
+"for the Legal Services)."
+msgstr "透過為報價單建立發票，你可根據總額的某個百分比去記錄預先付款，或按固定金額記錄（例如：預先繳付的法律服務費用 €1000）。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"By uploading this module's demo data, your database has been filled with a "
+"few contacts."
+msgstr "上載此模組的模擬數據後，資料庫現已載入幾名聯絡人的資料。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"By using this module, you’ll gain access to essential features such as case "
+"management, invoicing, and time tracking. These tools streamline the "
+"workflow from initial consultations to billing, allowing law firms to focus "
+"on delivering high-quality legal services."
 msgstr ""
-"作為創辦人兼首席遠見者，Tony 是團隊背後的\n"
-"                                                    推動力。"
+"安裝此模組後，你將可使用多項重要功能，包括案件管理、開立發票、工時追蹤等。這些工具為你簡化由初步諮詢到開立賬單的工作流程，讓律師事務所能夠專注提供高質素的法律服務。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "From the Sales app:"
-msgstr "在銷售應用程式中："
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Go in the Timesheets tab, register a new Timesheet manually."
-msgstr "進入「工時表」分頁，手動登記新一張工時表。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"Help you throughout your procedure and provide you\n"
-"                                                    our\n"
-"                                                    experience at an affordable price."
+"CLIENT'S OBLIGATIONS\n"
+"The Client commits to:"
 msgstr ""
-"在整個法律程序中為你提供協助，\n"
-"                                                    並以\n"
-"                                                    實惠價錢向你提供服務和意見。"
+"【客戶責任】\n"
+"客戶承諾會："
 
 #. module: industry_lawyer
-#: model:appointment.type,name:industry_lawyer.appointment_type_1
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Immigration"
-msgstr "移民"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "In the Backend:"
-msgstr "在後端介面中："
+#: model:project.project,name:industry_lawyer.project_project_3
+msgid "Case Template"
+msgstr "案件範本"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Input the amount of delivered dactylographied pages and travel expenses "
-"incurred."
-msgstr "輸入已交付的已蓋指紋文件頁數，以及已產生的差旅費。"
+"Centralize all case activities and documents using the "
+"<strong>Project</strong> and <strong>Documents</strong> apps."
+msgstr "使用<strong>專案管理</strong>及<strong>文件管理</strong>應用程式，集中處理所有案件活動及文件。"
 
 #. module: industry_lawyer
-#: model:project.project,name:industry_lawyer.project_project_1
-msgid "Internal"
-msgstr "內部"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Iris Joe, Public Rights lawyer"
-msgstr "Iris Joe，公法權利律師"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Is it possible to obtain a residence permit for my parents, for a person\n"
-"                                                with whom I am not married, for a minor under guardianship, for a\n"
-"                                                homosexual couple, for a dependent…? Every individual has, in principle,\n"
-"                                                the right to live with their family. However this right is not absolute."
+"Centralize case files and tasks with the <strong><font class=\"text-o-"
+"color-1\">Project &amp; Documents App</font>.</strong>"
 msgstr ""
-"我的父母、未婚伴侶、\n"
-"                                                受監護的未成年人、同性戀夫婦、受養人等，\n"
-"                                                是否可以獲得居留許可？原則上，每個人都有權利\n"
-"                                                與家人一起生活。但這種權利並非絕對。"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_1_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_2
-msgid "Lawyer fees"
-msgstr "律師費用"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Lawyer firms"
-msgstr "律師事務所"
+"使用<strong><font class=\"text-o-"
+"color-1\">專案管理、文件管理應用程式</font></strong>，集中處理案件檔案及任務。"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Lawyers have open / public consultations for people to reach out and get "
-"advice on their situation."
-msgstr "律師會進行開放/公開的諮詢，讓人們就自己的情況尋求建議。"
+"Check other lawyers’ availability by selecting their calendars to coordinate"
+" meetings."
+msgstr "選擇其他律師的日曆，查看他們的空閒時段，以協調會議時間。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Learn more"
-msgstr "了解更多"
+#: model:sign.template,redirect_url_text:industry_lawyer.sign_template_7
+msgid "Close"
+msgstr "關閉"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Look at the available tasks, select the Lawyer Services task."
-msgstr "查看可用的任務，然後選擇「律師服務」任務。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Mich Stark, Founder"
-msgstr "Mich Stark，創辦人"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
 msgid ""
-"Mich loves taking on challenges. With his multi-year experience as\n"
-"                                                    lawyer in Immigration, Mich has helped the cabinet to get where it\n"
-"                                                    is today. Mich is among the best minds."
+"Confirm the Sale Order, which will automatically generate the related "
+"<strong>Project</strong> and <strong>Tasks</strong>."
+msgstr "確認銷售單，然後系統會自動產生相關的<strong>專案</strong>及<strong>任務</strong>。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Confirm the quotation to generate an invoice automatically."
+msgstr "確認報價單，以自動產生發票。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Cooperate in good faith"
+msgstr "以誠信合作"
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_2
+#: model:project.tags,name:industry_lawyer.project_tags_1
+msgid "Corporate Law"
+msgstr "公司法"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Create a Sale Order from scratch or use the<strong> Standard Lawyer Service "
+"Quotation</strong> template."
+msgstr "由零開始建立銷售單，或採用<strong>標準律師服務報價單</strong>範本。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"DATA PROTECTION\n"
+"Personal data processing is conducted in accordance with GDPR and the firm's privacy policy."
 msgstr ""
-"Mich 喜歡接受挑戰。 憑藉多年擔任\n"
-"                                                    移民法律師的經驗，Mich 幫助團隊取得了今天的成就。\n"
-"                                                    Mich 是最聰明的人之一。"
+"【資料保護】\n"
+"個人資料將依照 GDPR 及律師行的私隱政策處理。"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "On the Website:"
-msgstr "在網站上："
+msgid "Discover more about Odoo by diving into our"
+msgstr "發掘更多有關 Odoo 的資訊，深入了解我們的"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_3
+msgid "Done"
+msgstr "完成"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Open the Timesheet app:"
-msgstr "開啟工時管理應用程式："
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Open the related Project:"
-msgstr "開啟相關的專案項目："
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid ""
-"Our cabinet is born in 2008 at the initiative of our founders, Lawyers &amp;amp;\n"
-"                                            Associates, from a desire to provide a new center of excellence in our\n"
-"                                            domains,\n"
-"                                            Immigration and Civil Rights. Since then, we have helped over 1500 clients\n"
-"                                            in\n"
-"                                            their\n"
-"                                            procedure."
+"Ease your invoicing process with the <strong><font class=\"text-o-"
+"color-1\">Invoice App</font></strong>."
 msgstr ""
-"我們團隊於 2008 年，在創辦人 Lawyers &amp;amp;\n"
-"                                            Associates 的倡議下誕生，願景是建立一個新的卓越服務中心，\n"
-"                                            提供\n"
-"                                            我們擅長的移民及民權法服務，自此已幫助超過 1,500 名客戶\n"
-"                                            處理\n"
-"                                            法律\n"
-"                                            程序。"
-
-#. module: industry_lawyer
-#: model:website.menu,name:industry_lawyer.website_menu_9
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Our lawyers"
-msgstr "我們的律師"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our mission"
-msgstr "我們的使命"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our team"
-msgstr "我們的團隊"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our values"
-msgstr "我們的價值觀"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Pharmaceutical law"
-msgstr "藥劑法"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid ""
-"Pharmaceutics are not perfect, and in some extreme cases, they can have a\n"
-"                                                tremendous impact on the life of people. We guide you through your\n"
-"                                                procedure and help us clair your rights."
-msgstr ""
-"藥劑業並非完美，在某些極端情況下，可能會對人們的生活\n"
-"                                                產生巨大影響。我們會指導你完成整個法律程序，\n"
-"                                                協助你維護自己的權利。"
-
-#. module: industry_lawyer
-#: model:appointment.type,name:industry_lawyer.appointment_type_2
-msgid "Public Right"
-msgstr "公權利"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Public right"
-msgstr "公權利"
+"使用<strong><font class=\"text-o-color-1\">發票應用程式</font></strong>，簡化你處理發票的流程。"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Put it In Progress, open it."
-msgstr "將它設為「進行中」，然後開啟它。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Researcher"
-msgstr "研究人員"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Schedule an appointment"
-msgstr "預約會面"
+msgid ""
+"Easily create and manage a new case for your client using Odoo’s streamlined"
+" workflow."
+msgstr "利用 Odoo 的簡化工作流程，輕鬆為客戶建立及管理新案件。"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Select the domain, then the lawyer, and select an available slot."
-msgstr "選擇專業範疇，之後選擇律師，然後選擇可用時段。"
+msgid ""
+"Ensure every billable hour and expense is accurately accounted for and "
+"invoiced."
+msgstr "確保精準記錄所有收費工時及工作開支，並開立準確的發票。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"FEES AND EXPENSES\n"
+"2.1. Calculation Basis\n"
+"Fees are calculated according to the following terms:"
+msgstr ""
+"費用及開支\n"
+"2.1. 計算基準\n"
+"費用依照以下條款計算："
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"FILE RETENTION AND DOCUMENT STORAGE\n"
+"Files will be retained for 5 years after the end of the engagement. Beyond this period, they may be destroyed unless expressly requested otherwise by the Client."
+msgstr ""
+"【檔案保留及文件儲存】\n"
+"服務結束後，文件及檔案將保留 5 年。超過此期限之後，除非客戶另行作出明確要求，否則它們可能會被銷毀。"
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_1
+msgid "Family Law"
+msgstr "家事法"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Select the project SO."
-msgstr "選擇專案項目的銷售單。"
-
-#. module: industry_lawyer
-#: model:website.menu,name:industry_lawyer.website_menu_10
-msgid "Services"
-msgstr "服務介紹"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
 msgid ""
-"Some people have difficulties obtaining the equivalence of their diploma\n"
-"                                                or don’t know whether the solicited higher education institution allows\n"
-"                                                to be granted a visa or residence permit in Belgium."
-msgstr ""
-"有些人很難取得同等文憑，\n"
-"                                                或不知道所申請的高等教育機構\n"
-"                                                是否允許批出比利時簽證或居留許可。"
+"Final payment: Once the case is closed, invoice the client for the remaining"
+" balance based on the time tracked in the timesheets."
+msgstr "最終付款：案件結案後，根據工時表記錄到的工時，向客戶開立剩餘金額的發票。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "GENERAL TERMS AND CONDITIONS OF ENGAGEMENT"
+msgstr "聘用一般條款及條件"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Google Calendar Integration"
+msgstr "Google 日曆整合"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "How to build your court bundle:"
+msgstr "如何建立你的法庭文件卷宗："
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Implement best expertise"
+msgstr "實踐最佳專業知識"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_2
+msgid "In Progress"
+msgstr "進行中"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Inform the Attorney of any relevant changes"
+msgstr "通知律師任何相關變更"
+
+#. module: industry_lawyer
+#: model:hr.job,name:industry_lawyer.hr_job_2
+msgid "Junior Associate"
+msgstr "初級助理"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_10_product_template
+msgid "Junior Legal Services"
+msgstr "初級法律服務"
+
+#. module: industry_lawyer
+#: model:crm.stage,name:industry_lawyer.stage_lead_1
+msgid "KYC Assessment"
+msgstr "KYC（了解客戶）評估"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"Strict legal conditions must be met in order to be considered a <strong>\n"
-"                                                researcher\n"
-"                                            </strong> and to be eligible for a work and residence permit.\n"
-"                                                If you are a foreigner and wish to obtain a residence permit in the <strong>\n"
-"                                                United States\n"
-"                                            </strong> as part of a study, research, or academical service, carefully\n"
-"                                                prepare your file and ask for advice from specialized lawyers."
+"LIABILITY\n"
+"The Attorney maintains professional liability insurance with [insurance company name]."
 msgstr ""
-"申請人必須符合嚴格的法律條件，才會被視為<strong>\n"
-"                                                研究人員\n"
-"                                            </strong>，及有資格獲取工作及居留許可。\n"
-"                                                如果你是外國人，並希望在<strong>\n"
-"                                                美國\n"
-"                                            </strong>取得居留許可，作為學習、研究或學術服務的一部份，\n"
-"                                                請仔細準備你的文件，並尋求專業律師的建議。"
+"【責任】\n"
+"律師已向 [保險公司名稱] 投保專業責任保險。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Students"
-msgstr "學生"
+#: model:hr.job,name:industry_lawyer.hr_job_3
+msgid "Legal Assistant"
+msgstr "法律助理"
 
 #. module: industry_lawyer
-#: model:project.project,label_tasks:industry_lawyer.project_project_1
-#: model:project.project,label_tasks:industry_lawyer.project_project_2
+#: model:product.template,name:industry_lawyer.product_product_12_product_template
+msgid "Legal Services"
+msgstr "法律服務"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Link each user’s external calendar to the Odoo Calendar app."
+msgstr "將每個使用者的外部日曆，連結至 Odoo 日曆應用程式。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"MEDIATION\n"
+"In case of dispute, parties commit to attempting mediation before any legal action."
+msgstr ""
+"【調解】\n"
+"如有爭議，雙方承諾在採取任何法律行動之前，先嘗試調解。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Maintain attorney-client privilege"
+msgstr "維護律師客戶特權"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Make and receive calls, and send SMS or WhatsApp messages directly through "
+"Odoo by adding our <font class=\"text-o-color-1\"><strong>VoIP and WhatsApp "
+"module</strong></font>."
+msgstr ""
+"安裝 <font class=\"text-o-color-1\"><strong>VoIP 及 WhatsApp "
+"模組</strong></font>，直接在 Odoo 撥打及接聽電話，及發送短訊或 WhatsApp 訊息。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage client assessment with <strong><font class=\"text-o-color-1\">CRM "
+"App</font></strong> and handle quotations and contracts with <font "
+"class=\"text-o-color-1\"><strong>Sales App</strong></font>."
+msgstr ""
+"使用<strong><font class=\"text-o-"
+"color-1\">客戶關係應用程式</font></strong>管理客戶評估，以及使用<font class=\"text-o-"
+"color-1\"><strong>銷售應用程式</strong></font>處理報價單及合約。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage your accounting easier than ever with a completely integrated "
+"environment thanks to our <strong><font class=\"text-o-color-1\">Accounting "
+"App</font></strong>."
+msgstr ""
+"我們的<strong><font class=\"text-o-"
+"color-1\">會計應用程式</font></strong>提供完全整合的環境，讓你比以往任何時間，都更輕鬆地管理會計工作。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage your team's and integrate them in all processes by adding "
+"the<strong><font class=\"text-o-color-1\"> Employees App</font></strong>."
+msgstr ""
+"使用<strong><font class=\"text-o-"
+"color-1\">員工應用程式</font></strong>，管理你的團隊，並將成員整合至所有流程中。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Manually add a new line to register time on specific tasks if needed."
+msgstr "如有需要，可手動加入一個新的資料行，去記錄特定任務所花費的工時。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Mark your essential documents as favorites."
+msgstr "將重要文件標記為最愛。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Merge them into a single document, ready to be submitted to the judge."
+msgstr "將它們合併為單一份文件，以便隨時呈交法官。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Navigate to <strong>Settings &gt; Calendar &gt; Sync External "
+"Calendar</strong>."
+msgstr "前往<strong>設定 &gt; 日曆 &gt; 同步外部日曆</strong>。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Odoo is entirely integrated into an App. Download it to turn your phone to "
+"manage your entire business in it."
+msgstr "Odoo 系統已完全整合至這個應用程式中。下載使用，可將你的手機變成管理整個業務的工具。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Of course, this is just an overview of the features included in this "
+"package. Feel free to add new apps, delete/modify demo data, and test "
+"everything around!"
+msgstr "當然，這只是此軟體套裝所涵蓋功能的概述。你可隨意加入新的應用程式、刪除或修改模擬資料，並在不同介面盡情測試！"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the <strong>Calendar</strong> app."
+msgstr "開啟<strong>日曆</strong>應用程式。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the <strong>Timesheet</strong> app."
+msgstr "開啟<strong>工時表</strong>應用程式。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the related <strong>Project</strong>."
+msgstr "開啟相關的<strong>專案</strong>。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Organize tasks by Milestones and assign specific dates to key stages in the "
+"case."
+msgstr "按里程碑整理任務，並為個別專案的不同關鍵階段，指定具體日期。"
+
+#. module: industry_lawyer
+#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_6
+msgid "Other Costs"
+msgstr "其他費用"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Outlook Integration"
+msgstr "Outlook 整合"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Pay fees within agreed timeframes"
+msgstr "在同意的時間內支付費用"
+
+#. module: industry_lawyer
+#: model:project.project,name:industry_lawyer.project_project_5
+msgid "Procedural Request - Drafting and Filing "
+msgstr "程序請求 - 草擬及存檔"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_3_product_template
+msgid "Procedural request - Drafting and Filing"
+msgstr "程序請求 - 草擬及存檔"
+
+#. module: industry_lawyer
+#: model:project.project.stage,name:industry_lawyer.project_project_stage_5
+msgid "Project Templates"
+msgstr "專案範本"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Provide all necessary information and documents"
+msgstr "提供全部必要資訊及文件"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Refer to the following guides for detailed steps:"
+msgstr "詳細步驟請參考以下指引："
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Regularly inform the Client of case developments"
+msgstr "定期向客戶通報案件進展"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"SCOPE OF ENGAGEMENT\n"
+"The Client engages the Attorney to provide legal counsel and/or court representation. The Attorney commits to implementing all necessary means to best defend the Client's interests."
+msgstr ""
+"【聘用服務範圍】\n"
+"客戶聘請律師提供法律顧問服務及/或代表出庭。律師承諾會採取一切必要方法，盡力維護客戶的權益。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Schedule a demo"
+msgstr "預約示範"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Schedule your meetings, deadlines, or court appearances by clicking on an "
+"empty time slot."
+msgstr "按一下空白的時段，以安排會議、設定工作期限、出庭日期等。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Select all your favorite documents."
+msgstr "選取所有最愛文件。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Send the invoice directly to the client from Odoo."
+msgstr "在 Odoo 直接將發票傳送給客戶。"
+
+#. module: industry_lawyer
+#: model:hr.job,name:industry_lawyer.hr_job_1
+msgid "Senior Lawyer"
+msgstr "資深律師"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_11_product_template
+msgid "Senior Legal Services"
+msgstr "資深法律服務"
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_3
+#: model:project.tags,name:industry_lawyer.project_tags_2
+msgid "Social Law"
+msgstr "社會法"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Stay organized by keeping track of all appointments, deadlines, and internal"
+" tasks using the Calendar app. Legal assistants can easily assign meetings "
+"by accessing the calendars of individual lawyers."
+msgstr "使用日曆應用程式，追蹤所有預約、截止日期及內部任務，保持井然有序。法律助理可查閱個別律師的日曆，輕鬆安排會議時間。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Streamline legal research and collaboration with the<strong><font "
+"class=\"text-o-color-1\"> Knowledge App</font> </strong>by centralizing case"
+" law, legal texts, and internal guides for efficient retrieval, "
+"collaboration, and compliance."
+msgstr ""
+"使用<strong><font class=\"text-o-"
+"color-1\">知識庫應用程式</font></strong>，集中處理過往判例、法律文本及內部指引，務求提升檢索、協作及合規工作的效率，簡化法律研究與協作。"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"TERMINATION\n"
+"Either party may terminate the engagement with 15 days written notice, subject to payment for services already rendered."
+msgstr ""
+"【終止聘用】\n"
+"任何一方均可提供 15 天書面通知以終止聘用，但須就已提供服務支付費用。"
+
+#. module: industry_lawyer
+#: model:project.project,label_tasks:industry_lawyer.project_project_3
+#: model:project.project,label_tasks:industry_lawyer.project_project_5
 msgid "Tasks"
 msgstr "任務"
 
 #. module: industry_lawyer
-#: model_terms:appointment.type,message_confirmation:industry_lawyer.appointment_type_1
-msgid "Thank you for your trust !"
-msgstr "感謝你的信賴！"
-
-#. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"This setup is for lawyers firms. They represent their clients and defend "
-"their interest during juridical procedures."
-msgstr "此設定適用於律師事務所。他們提供的服務，是代表客戶在司法程序中，捍衛客戶的利益。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Tony Fred, Founder"
-msgstr "Tony Fred，創辦人"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_4_product_template
-msgid "Travelling expenses"
-msgstr "差旅費用"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_3_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_3
-msgid "Typed pages"
-msgstr "打字頁數"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid ""
-"Use the quick Timesheet functionality to start counting time on the Lawyer "
-"Services Task of the project."
-msgstr "使用快速工時表功能，立即開始為專案中的「律師服務」任務，計算工時。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid ""
-"Visit the Appointment page where the open consultations slots for all the "
-"lawyers are accessible."
-msgstr "前往預約頁面，可存取所有律師可供預約的開放諮詢時段。"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "We advocate for your rights"
-msgstr "為你捍衛權利"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid ""
-"We have built a strong team of lawyers with\n"
-"                                                    renowned\n"
-"                                                    experience in our domains."
+"The <strong><font class=\"text-o-color-1\">Calendar App</font></strong> "
+"manages your schedule and appointments."
 msgstr ""
-"我們建立了一支強大的律師團隊，\n"
-"                                                    他們在\n"
-"                                                    我們的領域擁有良好聲譽和豐富經驗。"
+"<strong><font class=\"text-o-color-1\">日曆應用程式</font></strong>可協助你管理日程安排及預約。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"The <strong><font class=\"text-o-color-1\">Timesheet App</font></strong> "
+"tracks billable hours and time spent."
+msgstr ""
+"<strong><font class=\"text-o-"
+"color-1\">工時表應用程式</font></strong>可追蹤收費工時及已花費的時間。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"The Sign App offers <strong>three levels of signatures</strong>, allowing "
+"you to choose the appropriate level based on the document’s importance and "
+"legal requirements."
+msgstr "電子簽名應用程式提供<strong>三種級別的簽名方式</strong>，你可根據文件的重要程度及法律要求，選擇適當的等級。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"This ensures that appointments made outside of Odoo automatically appear in "
+"the Odoo calendar."
+msgstr "這可確保在 Odoo 以外進行的預約，會自動在 Odoo 日曆中出現。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"This module provides a comprehensive suite of tools designed specifically "
+"for law firms, enabling efficient management of time, appointments, "
+"deadlines, cases, and client relationships. Lawyers represent their clients "
+"and protect their interests during legal proceedings."
+msgstr "此模組提供專為律師事務所設計的全面工具套裝，可有效管理工時、預約、工作限期、案件、客戶關係等。律師在法律程序中代表客戶，維護客戶的權益。"
+
+#. module: industry_lawyer
+#: model_terms:product.template,description:industry_lawyer.product_product_12_product_template
+msgid ""
+"This product will be used to bill clients for the time spent by lawyers on "
+"legal services, based on the number of hours worked as tracked through "
+"<strong>Timesheets</strong>."
+msgstr "此產品用作根據<strong>工時表</strong>所追蹤的工作時數，向客戶就律師提供法律服務所花費的時間，收取服務費用。"
+
+#. module: industry_lawyer
+#: model:project.tags,name:industry_lawyer.project_tags_3
+msgid "Timesheet Task"
+msgstr "工時表任務"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_1
+msgid "To Do"
+msgstr "待辦事項"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_7_product_template
+msgid "Travel Expenses"
+msgstr "交通開支"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Travel expenses: 80€/hour"
+msgstr "交通開支：80€/每小時"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>CRM app</strong> to manage client interactions and conduct "
+"the required <strong>Know Your Customer (KYC) assessment</strong> before "
+"accepting a case."
+msgstr ""
+"使用<strong>客戶關係應用程式</strong>，管理客戶互動及溝通，並在接手處理案件之前，進行必要的「<strong>了解客戶（KYC）評估</strong>」。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>Sign App</strong> to request a signature from the partner to"
+" approve the completed legal documents before delivery and invoicing the "
+"client."
+msgstr "運用<strong>電子簽名應用程式</strong>，要求合作夥伴簽署並批核已完成的法律文件，然後才送交文件及向客戶開立發票。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>timer functionality</strong> to track time spent on a "
+"specific client case."
+msgstr "使用<strong>計時器功能</strong>，追蹤處理特定客戶案件所花費的時間。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the<strong> <font class=\"text-o-color-1\">Sign App</font></strong> to "
+"securely sign engagement letters and legal documents, ensuring clear "
+"agreements before or after legal work."
+msgstr ""
+"使用<strong><font class=\"text-o-"
+"color-1\">電子簽名應用程式</font></strong>，為委聘書及法律文件進行安全的電子簽署，確保法律工作展開之前或完成之後，都能夠達成明確的協議。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Using down payment for provision:"
+msgstr "使用首期付款作為準備金："
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Welcome to the <strong><font class=\"text-o-color-1\">Odoo Law Firm "
+"package</font></strong>!"
+msgstr ""
+"歡迎使用 <strong><font class=\"text-o-color-1\">Odoo 律師事務所數據套裝</font></strong>！"
 
 #. module: industry_lawyer
 #: model_terms:web_tour.tour,rainbow_man_message:industry_lawyer.knowledge_tour
@@ -536,50 +905,73 @@ msgstr "歡迎！請享受探索過程。"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"When a case he opened and a contract is signed between them and their "
-"clients, they will typically execute a certain amount of tasks related to "
-"the case, and invoice their services on a given rate."
-msgstr "接手案件及與客戶簽訂合約後，通常會執行一定數量、與該案相關的任務，並按照協定的收費率，為提供的服務開立發票。"
+"With the Appointment app, you can easily schedule client meetings by sharing"
+" a booking link. Clients can select a time directly from your calendar that "
+"works for both of you, saving time and avoiding back-and-forth "
+"communication."
+msgstr "利用預約應用程式，你可分享預約連結，輕鬆安排客戶會議。客戶可直接在你的日曆中，選擇雙方都方便的時間，從中避免多番來回溝通，節省時間。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr "想與我們討論如何設定你的 Odoo 配置，甚至更進一步嗎？"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Whether you are landlord that want to execute an expropriation, or a\n"
-"                                                tenant that needs to be defended against an abusive expropriation, our\n"
-"                                                experienced lawyers can help."
-msgstr ""
-"無論你是想執行收樓的房東，\n"
-"                                                或是需要對濫用收樓行為作出辯護的租客，\n"
-"                                                我們經驗豐富的律師都可以提供協助。"
+"You can access every installed App in your Odoo database on your main "
+"dashboard."
+msgstr "你可在主要 Dashboard 上，存取 Odoo 資料庫內所有已安裝的應用程式。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"With a Master’s degree in public and administrative law and a\n"
-"                                                    Bachelor’s degree in criminology, Iris Joe decided to take the next\n"
-"                                                    step in her career. In January 2017, she joined the cabinet for her\n"
-"                                                    internship to become legal counsel.\n"
-"\n"
-"                                                    <br/>"
-msgstr ""
-"擁有公共及行政法碩士學位\n"
-"                                                    以及犯罪學學士學位的 Iris Joe，決定邁出\n"
-"                                                    職業生涯的下一步。2017 年 1 月，\n"
-"                                                    她加入團隊實習，準備成為法律顧問。\n"
-"\n"
-"                                                    <br/>"
+"You can set up a <strong>Billing Time Target per month</strong> per employee"
+" to keep track of billable hours and ensure targets are met."
+msgstr "你可以為每位員工，設定<strong>每月收費工時目標</strong>，以追蹤收費工時時數，確保收入達標。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "brown wooden smoking pipe on white surface"
-msgstr "棕色木質煙斗放在白色表面上"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You completed that demo use case! There are millions of other ways to adapt "
+"your Odoo setup to fit your business needs."
+msgstr "你已完成該演示使用案例！除此之外，還有千百種其他方法去調整 Odoo 設定，以滿足你業務的特別需求。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "low angle photography of beige building"
-msgstr "米色建築物，低角度攝影照片"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
+" &gt; Upgrade your Law Firm package and check the related box."
+msgstr "還未匯入模擬數據？現在仍可執行此操作。請前往應用程式 &gt; 行業 &gt; 升級你的「律師事務所」套裝，然後勾選相關方格。"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "three women sitting beside table"
-msgstr "三個女人坐在桌子旁邊"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You should be able to execute the following flows to have an overview of "
+"various flows you can quickly execute with this package using Odoo."
+msgstr "你應該能夠執行以下流程，概覽你在 Odoo 內可使用此套裝去快速執行的各種流程。"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "academy"
+msgstr "學院"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "and"
+msgstr "及"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "documentation"
+msgstr "系統使用說明"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "if you need help!"
+msgstr "以尋求協助！"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "request a demo"
+msgstr "預約功能演示"
