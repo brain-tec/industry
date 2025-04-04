@@ -318,13 +318,16 @@ msgid ""
 "                            <span style=\"font-weight: normal;\"><font class=\"text-o-color-4\"><span style=\"font-weight: normal;\">Welcome to</span></font>&amp;nbsp;<span class=\"o_text_highlight o_translate_inline o_text_highlight_bold o_text_highlight_fill\" style=\"--text-highlight-width: 3px; --text-highlight-color: #FFC300;\">Zinneke Studio</span>&amp;nbsp;, a Brussels marketing agency where creativity and strategy intertwine to bring bold brands to life. Our human-sized team, made up of five passionate professionals, designs tailor-made campaigns that captivate, engage and transform.</span>\n"
 "                        </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"                            <span style=\"font-weight: normal;\"><font class=\"text-o-color-4\"><span style=\"font-weight: normal;\">欢迎进入</span></font> <span class=\"o_text_highlight o_translate_inline o_text_highlight_bold o_text_highlight_fill\" style=\"--text-highlight-width: 3px; --text-highlight-color: #FFC300;\">Zinneke Studio</span>，我们是布鲁塞尔的一间市场推广公司，揉合创意与策略，让您的品牌大放异彩。团队由五位充满热情的专业人士组成，合作紧密，为你度身设计惹人注目、吸引受众互动、提升品牌形象的推广计划。</span>\n"
+"                        </font>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<font style=\"color: rgb(41, 82, 24);\"><strong>Tips for "
 "Success</strong></font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(41, 82, 24);\"><strong>成功秘诀</strong></font>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3354
@@ -415,6 +418,9 @@ msgid ""
 "width: 4px;\">Zinneke Studio</span>,</strong> creative boldness at the "
 "service of your brand.</span>"
 msgstr ""
+"<span class=\"h3-fs\"><strong><span class=\"o_text_highlight "
+"o_translate_inline o_text_highlight_scribble_1\" style=\"--text-highlight-"
+"width: 4px;\">Zinneke Studio</span></strong> － 大胆创意，为您的品牌服务。</span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -423,6 +429,9 @@ msgid ""
 "                            <strong>\" Working with Zinneke Studio was a revelation! Their strategic and creative approach completely transformed our brand image. Thanks to their expertise in social media and artistic direction, we've gained visibility and engagement. A talented, responsive, and passionate team - I recommend them without hesitation!&amp;nbsp;\"</strong>\n"
 "                            </span>"
 msgstr ""
+"<span class=\"h5-fs\">\n"
+"                            <strong>“与 Zinneke Studio 合作是一次令人耳目一新的体验！他们独具匠心的策略和创意，彻底重塑了我们的品牌形象。借助他们在社交媒体和艺术指导方面的专业知识，我们显著提升了品牌知名度和粉丝互动。这是一支才华横溢、反应迅速、充满热情的团队，我毫不犹豫地向大家推荐他们！”</strong>\n"
+"                            </span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3356
@@ -430,6 +439,7 @@ msgid ""
 "<span class=\"o_footer_copyright_name me-2\">Copyright ©&amp;nbsp;Marketing "
 "Agencies by Odoo</span>"
 msgstr ""
+"<span class=\"o_footer_copyright_name me-2\">板权所有 © Odoo 市场推广公司数据套装</span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -444,6 +454,15 @@ msgid ""
 "                                </span>\n"
 "                            </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                                <strong>\n"
+"                                <font class=\"text-o-color-1\">Iris DOE</font>\n"
+"                                </strong>\n"
+"                                <br/>\n"
+"                                <span class=\"text-muted\">\n"
+"                                <span class=\"o_small-fs\">MyCompany 经理</span>\n"
+"                                </span>\n"
+"                            </span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3353
@@ -453,6 +472,10 @@ msgid ""
 "style=\"width: 40px;\">\t</span>​<span class=\"oe-tabs\" style=\"width: "
 "40px;\">\t</span>​"
 msgstr ""
+"<span class=\"oe-tabs\" style=\"width: 11.5px;\">\t</span>​<span class=\"oe-"
+"tabs\" style=\"width: 40px;\">\t</span>​<span class=\"oe-tabs\" "
+"style=\"width: 40px;\">\t</span>​<span class=\"oe-tabs\" style=\"width: "
+"40px;\">\t</span>​"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3354
@@ -474,6 +497,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Company</span>\n"
 "                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">您的公司</span>\n"
+"                                    <span class=\"s_website_form_mark\"> *（必填）</span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3354
@@ -481,6 +506,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">您的电邮地址</span>\n"
+"                                    <span class=\"s_website_form_mark\"> *（必填）</span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3354
@@ -488,6 +515,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">您的名字</span>\n"
+"                                    <span class=\"s_website_form_mark\"> *（必填）</span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3354
@@ -495,6 +524,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Question</span>\n"
 "                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">您的问题</span>\n"
+"                                    <span class=\"s_website_form_mark\"> *（必填）</span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -502,59 +533,61 @@ msgid ""
 "<span style=\"font-weight: normal;\">Our <span class=\"o_text_highlight o_translate_inline o_text_highlight_scribble_1\" style=\"--text-highlight-width: 4px; --text-highlight-color: var(--o-color-2);\">services</span></span>\n"
 "                        <br/>"
 msgstr ""
+"<span style=\"font-weight: normal;\">我们的<span class=\"o_text_highlight o_translate_inline o_text_highlight_scribble_1\" style=\"--text-highlight-width: 4px; --text-highlight-color: var(--o-color-2);\">服务</span></span>\n"
+"                        <br/>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "<span style=\"font-weight: normal;\">Use cases</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">使用案例</span>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Accounting</strong>: Gain complete financial visibility with "
 "integrated bookkeeping, financial reporting, and tax management."
-msgstr ""
+msgstr "<strong>会计</strong>：通过整合记账、财务报告和税务管理，全面掌握完整财务数据。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Appointment</strong>: Manage appointments synchronised with your "
 "calendar in a few clicks with the Appointment App."
-msgstr ""
+msgstr "<strong>预约</strong>：使用预约应用程序，只需点击几下即可管理与日历同步的预约。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "<strong>Artistic Direction</strong>"
-msgstr ""
+msgstr "<strong>艺术指导</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "<strong>Audit</strong>"
-msgstr ""
+msgstr "<strong>审计</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Automate Reporting</strong>: Schedule automated reports for clients "
 "showing campaign performance, hours worked, and project progress."
-msgstr ""
+msgstr "<strong>自动化报告</strong>：为客户预订自动化报告，显示活动绩效、已花费工时和项目进度。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>CRM App</strong>: Track leads and opportunities, manage your sales "
 "pipeline, and never miss a potential client."
-msgstr ""
+msgstr "<strong>客户关系应用程序</strong>：追踪潜在客户和商机，管理销售管道，决不放过任何商机。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
 msgid "<strong>Celebrate Success, Strategize for Growth</strong>"
-msgstr ""
+msgstr "<strong>迈向成功，制定增长策略</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "<strong>Conception</strong>"
-msgstr ""
+msgstr "<strong>构思</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -563,45 +596,46 @@ msgid ""
 "(like \"Brand Launch\" or \"Digital Presence\") to streamline your sales "
 "process and upsell clients."
 msgstr ""
+"<strong>创建服务套装</strong>：将不同服务捆绑成成套餐（例如“品牌开张” 或“数码可见度”），以简化您的销售流程，并向客户作出追加销售。"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "<strong>Deliverables:</strong>"
-msgstr ""
+msgstr "<strong>可交付成果：</strong>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
 msgid "<strong>Event Flow:</strong>"
-msgstr ""
+msgstr "<strong>活动流程：</strong>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "<strong>Event Schedule:</strong>"
-msgstr ""
+msgstr "<strong>活动时间表：</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Events App</strong>: Organise client workshops, training sessions, "
 "and marketing events."
-msgstr ""
+msgstr "<strong>活动应用程序</strong>：举办客户研讨会、培训课程、推广活动等。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "<strong>Harness the Power of Authentic Influence</strong>"
-msgstr ""
+msgstr "<strong>好好运用真实影响力的力量</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Helpdesk</strong>: Provide exceptional client support with ticket "
 "tracking, SLAs, and knowledge bases."
-msgstr ""
+msgstr "<strong>服务台</strong>：通过工单追踪、服务级别协议和知识库提供卓越的客户支持。"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "<strong>Included in Scope:</strong>"
-msgstr ""
+msgstr "<strong>服务范围包括；</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -609,97 +643,97 @@ msgid ""
 "<strong>Integrate Everything</strong>: Link your CRM opportunities to "
 "projects, timesheets to invoices, and subscriptions to recurring services "
 "for a seamless workflow."
-msgstr ""
+msgstr "<strong>全面整合</strong>：将您的客户关系管理机会链接到项目，工时表链接到发票，订阅链接到循环服务，实现无缝工作流程"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Invoicing App</strong>: Bill clients professionally and track "
 "payments."
-msgstr ""
+msgstr "<strong>开票应用</strong>：专业地向客户开具账单并跟踪付款。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Leverage Subscriptions</strong>: Convert project clients to retainer"
 " relationships using the Subscriptions app for predictable revenue."
-msgstr ""
+msgstr "<strong>利用订阅计划的潜力</strong>：使用订阅应用程序，将项目客户转换为长期合作关系，获得可预测的收入。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Marketing Automation</strong>: Create sophisticated nurture "
 "campaigns for your own agency's lead generation."
-msgstr ""
+msgstr "<strong>营销自动化</strong>：为您自己的公司的潜在客户，创建成熟、精细的培养计划。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "<strong>Master the Channel that Drives Your Growth</strong>"
-msgstr ""
+msgstr "<strong>掌握推动公司增长的渠道</strong>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "<strong>Masterclass Experience:</strong>"
-msgstr ""
+msgstr "<strong>大师班体验：</strong>"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "<strong>Not Included:</strong>"
-msgstr ""
+msgstr "<strong>不包括：</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Planning App</strong>: Schedule your team's workload and manage "
 "resource allocation."
-msgstr ""
+msgstr "<strong>排期应用：</strong>安排您团队的工作量并管理资源分配。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Project App</strong>: Plan and track all your client projects with "
 "task management and milestones."
-msgstr ""
+msgstr "<strong>项目管理应用程序</strong>：通过任务管理和里程碑，规划和追踪所有客户项目。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Purchase</strong>: Manage freelancers and subcontractors with "
 "purchase orders and vendor bills."
-msgstr ""
+msgstr "<strong>采购</strong>：通过采购订单和供应商账单，管理自由职业者和分包商。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Recruitment</strong>: Find and hire top creative talent with "
 "applicant tracking and interview management."
-msgstr ""
+msgstr "<strong>招聘</strong>：通过申请人追踪和面试管理，寻找并雇用顶尖创意人才。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Sales App</strong>: Create professional proposals and manage your "
 "service offerings."
-msgstr ""
+msgstr "<strong>销售应用程序</strong>：创建专业美观的建议书，并管理您的服务产品。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Social Marketing App</strong>: Manage social media campaigns for "
 "your clients from one dashboard."
-msgstr ""
+msgstr "<strong>社交媒体推广应用程序</strong>：通过整合所有资料的仪表板，轻松管理客户的社交媒体活动。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "<strong>Social Media</strong>"
-msgstr ""
+msgstr "<strong>社交媒体</strong>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Subscriptions App</strong>: Set up recurring revenue streams for "
 "retainer clients."
-msgstr ""
+msgstr "<strong>订阅应用程序</strong>：为常客提供定期订购项目，建立经常性收入来源。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
@@ -707,6 +741,8 @@ msgid ""
 "<strong>The Masterclass Experience:</strong>\n"
 "This hands-on training takes place in a creative studio environment where theory meets practice. You'll analyze successful case studies, participate in platform-specific breakout sessions, and develop a customized influencer strategy blueprint for your brand. Our expert instructors bring insights from managing influencer campaigns across diverse industries and budget levels."
 msgstr ""
+"<strong>大师班体验：</strong>\n"
+"这项实践培训在创意工作室环境中进行，理论与实践相结合。您将分析成功案例，参与针对不同平台的分组讨论，并为您的品牌定制专属的网红营销策略蓝图。我们的专家讲师，会就各行各业、不同预算水平的网红营销活动，分享深入见解。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
@@ -714,18 +750,20 @@ msgid ""
 "<strong>The Showcase Experience:</strong>\n"
 "Hosted in an elegant setting, the Results Showcase combines insightful presentations with interactive discussions. We transform complex data into clear visualizations that tell the story of your marketing performance. The event culminates in a collaborative planning session where we identify key initiatives for the coming quarter."
 msgstr ""
+"<strong>展示体验：</strong>\n"
+"成果展示将会在优雅的环境中举办，结合富有洞察力的演讲与互动讨论。我们会将复杂数据，以清晰的可视化形式呈现，向您讲解推广工作的成效。活动最后是一个协作规划会议，届时我们会确定下一季度的关键计划。"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "<strong>Timeline:</strong> 6-8 weeks from project kickoff to launch"
-msgstr ""
+msgstr "<strong>时间线：</strong>项目启动到上线，需要 6 至 8 星期"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "<strong>Timesheets App</strong>: Track time spent on client work for "
 "accurate billing and resource planning."
-msgstr ""
+msgstr "<strong>工时单应用程序</strong>：追踪在客户工作上花费的时间，实现准确计费和资源规划。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -733,12 +771,12 @@ msgid ""
 "<strong>Track Profitability</strong>: Monitor project profitability by "
 "comparing estimated hours to actual time spent using the Timesheets and "
 "Project apps."
-msgstr ""
+msgstr "<strong>追踪盈利能力</strong>：利用工时单和项目管理应用程序，比较预计小时数与实际工时，监察项目盈利能力。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "<strong>Training Journey:</strong>"
-msgstr ""
+msgstr "<strong>培训历程：</strong>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
@@ -771,6 +809,8 @@ msgid ""
 "<strong>What Sets Our Masterclass Apart:</strong>\n"
 "Unlike generic courses, our masterclass provides a tailored learning experience with pre-event assessments, live account analysis, and a focus on your specific industry challenges. Our instructors are practicing experts who share insider knowledge gained from managing millions in digital ad spend and generating measurable results."
 msgstr ""
+"<strong>我们大师班的独特之处：</strong>\n"
+"与通用课程不同，我们的大师班提供定制化学习体验，包括活动前评估、实时账户分析，并专注于您所在行业的特定挑战。我们的讲师都是实践专家，会分享如何管理数百万数字广告预算、如何产生可衡量成果的实战秘诀。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
@@ -778,31 +818,33 @@ msgid ""
 "<strong>What You'll Take Away:</strong>\n"
 "A customized trend application playbook, exclusive industry research report, and priority access to our quarterly insight briefings."
 msgstr ""
+"<strong>您将获得的收获：</strong>\n"
+"定制化趋势应用手册、独家行业研究报告，以及季度洞察简报的优先访问权。"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "<strong>Why Attend:</strong>"
-msgstr ""
+msgstr "<strong>为何参加：</strong>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "<strong>Why Master This Channel:</strong>"
-msgstr ""
+msgstr "<strong>为何掌握此渠道：</strong>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
 msgid "<strong>Why This Matters:</strong>"
-msgstr ""
+msgstr "<strong>为何这很重要：</strong>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "<strong>Why This Training Matters:</strong>"
-msgstr ""
+msgstr "<strong>为何此培训很重要：</strong>"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_3
 msgid "AD"
-msgstr ""
+msgstr "广告"
 
 #. module: marketing_agency
 #: model:res.partner.category,name:marketing_agency.res_partner_category_9
@@ -817,12 +859,12 @@ msgstr "管理员用户"
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Administrator access to content management system"
-msgstr ""
+msgstr "内容管理系统的管理员权限"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
 msgid "Align marketing activities with business objectives"
-msgstr ""
+msgstr "将营销活动与业务目标保持一致"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_15
@@ -832,7 +874,7 @@ msgstr "分析"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Analyze your conversion rates and sales performance"
-msgstr ""
+msgstr "分析您的转化率和销售业绩"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_11
@@ -842,19 +884,19 @@ msgstr "应用程序"
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_19
 msgid "Artistic"
-msgstr ""
+msgstr "艺术"
 
 #. module: marketing_agency
 #: model:planning.role,name:marketing_agency.planning_role_2
 #: model:product.template,name:marketing_agency.product_product_14_product_template
 #: model:product.template,name:marketing_agency.product_product_5_product_template
 msgid "Artistic Direction"
-msgstr ""
+msgstr "艺术指导"
 
 #. module: marketing_agency
 #: model:project.project,name:marketing_agency.project_project_5
 msgid "Artistic Direction 📷"
-msgstr ""
+msgstr "艺术指导 📷"
 
 #. module: marketing_agency
 #: model:planning.role,name:marketing_agency.planning_role_1
@@ -867,7 +909,7 @@ msgstr "审计"
 #. module: marketing_agency
 #: model:project.project,name:marketing_agency.project_project_6
 msgid "Audits 🔎"
-msgstr ""
+msgstr "审计 🔎"
 
 #. module: marketing_agency
 #: model:res.partner.category,name:marketing_agency.res_partner_category_2
@@ -887,39 +929,39 @@ msgstr "后端"
 #. module: marketing_agency
 #: model:product.template,name:marketing_agency.product_product_7_product_template
 msgid "Backend Development"
-msgstr ""
+msgstr "后端开发"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Basic SEO setup (meta tags, site structure)"
-msgstr ""
+msgstr "基础搜索引擎优化设置（元标签、网站结构）"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Basic training for content updates"
-msgstr ""
+msgstr "内容更新的基础培训"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "Bloom &amp;amp; Brew Revival"
-msgstr ""
+msgstr "Bloom &amp;amp; Brew 更新设计"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_8
 msgid "Branding"
-msgstr ""
+msgstr "品牌建设"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Build a professional portfolio website"
-msgstr ""
+msgstr "建立专业作品集网站"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid ""
 "Built authentic brand voice that propelled eco-fashion label to 50,000 "
 "engaged followers in 90 days."
-msgstr ""
+msgstr "打造真实品牌声音，短短 90 天内，推动生态时尚品牌知名度，吸引5 万名忠实粉丝。"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_15
@@ -929,7 +971,7 @@ msgstr "企业战略"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "CRM App 🎯"
-msgstr ""
+msgstr "客户关系管理应用程序 🎯"
 
 #. module: marketing_agency
 #: model:project.task.type,name:marketing_agency.project_task_type_24
@@ -939,7 +981,7 @@ msgstr "已取消"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Capture and qualify incoming leads"
-msgstr ""
+msgstr "捕捉潜在客户及评定是否合适"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -979,17 +1021,17 @@ msgstr "全方位社交媒体管理，包括内容创作、日程安排、社区
 msgid ""
 "Comprehensive analysis of current brand assets and positioning to identify "
 "strengths, weaknesses, and market opportunities."
-msgstr ""
+msgstr "全面分析当前品牌资产和定位，以识别优势、劣势和市场机会。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Confirm this Quotation and navigate to the created project."
-msgstr ""
+msgstr "确认此报价并导航至已创建的项目。"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Contact form integration"
-msgstr ""
+msgstr "联系表单整合"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3353
@@ -1003,6 +1045,8 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                        We'll do our best to get back to you as soon as possible."
 msgstr ""
+"如有任何关于我们公司或服务的问题，欢迎联系我们。<br/>\n"
+"                                        我们将尽快回复您。"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_22
@@ -1012,17 +1056,17 @@ msgstr "内容"
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_6
 msgid "Content Creation"
-msgstr ""
+msgstr "内容创作"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Content creation (text, images)"
-msgstr ""
+msgstr "内容创作（文字、图片）"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Content management system implementation"
-msgstr ""
+msgstr "实施内容管理系统（CMS）"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3347
@@ -1032,39 +1076,39 @@ msgstr "覆盖"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Create beautiful, branded proposals for clients"
-msgstr ""
+msgstr "为客户创作精美、附有品牌设计的计划书"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Create content calendars for clients"
-msgstr ""
+msgstr "为客户创建内容日历"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Create professional proposals and manage recurring revenue:"
-msgstr ""
+msgstr "创建专业美观的计划书，并管理经常性收入："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Create project templates for common marketing services"
-msgstr ""
+msgstr "为常见营销服务创建项目模板"
 
 #. module: marketing_agency
 #: model:sale.order.template.line,name:marketing_agency.sale_order_template_line_3
 msgid ""
 "Creation of versatile brand elements with multiple format exports and "
 "variations for consistent implementation across all touchpoints."
-msgstr ""
+msgstr "创建多功能品牌元素，提供多种格式导出和变体，确保在所有接触点实现一致的实施。"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Cross-browser compatibility testing"
-msgstr ""
+msgstr "跨浏览器兼容性测试"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Custom functionality beyond specified requirements"
-msgstr ""
+msgstr "超出指定要求的自定义功能"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_1
@@ -1075,6 +1119,7 @@ msgid ""
 "payment due upon commencement, 50% upon delivery. Additional revisions "
 "billed at hourly rate. Client owns rights upon full payment."
 msgstr ""
+"交付成果包括品牌指南（PDF）、标志文件（AI、EPS、JPG、PNG）和色彩规范。每个元素包含两轮修改。最终交付成果将在项目启动后30天内提供。50%款项在开始时支付，50%在交付时支付。额外修改按小时费率计费。客户在全额付款后拥有所有权。"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_13
@@ -1098,23 +1143,23 @@ msgstr "设计"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Design custom service packages and retainer options"
-msgstr ""
+msgstr "设计定制服务套餐和长期合作选项"
 
 #. module: marketing_agency
 #: model:project.project,name:marketing_agency.project_project_7
 msgid "Design 🎨"
-msgstr ""
+msgstr "设计 🎨"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "Develop a strategic roadmap for immediate implementation"
-msgstr ""
+msgstr "制定可立即实施的战略路线图"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid ""
 "Develop strategies that turn influencer content into lasting brand equity"
-msgstr ""
+msgstr "开发将网红内容转化为持久品牌价值的策略"
 
 #. module: marketing_agency
 #: model:planning.role,name:marketing_agency.planning_role_4
@@ -1125,7 +1170,7 @@ msgstr "开发"
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Development of up to 8 unique page templates"
-msgstr ""
+msgstr "开发多达8个独特的页面模板"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_2
@@ -1135,13 +1180,13 @@ msgstr "数字营销"
 #. module: marketing_agency
 #: model:event.event,name:marketing_agency.event_event_3
 msgid "Digital Marketing Masterclass "
-msgstr ""
+msgstr "数字营销大师班"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid ""
 "Discover how to identify influencers who truly align with your brand values"
-msgstr ""
+msgstr "了解如何识别真正符合您品牌价值观的网红"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_7
@@ -1157,6 +1202,7 @@ msgid ""
 "strategic insights with practical implementation techniques to elevate your "
 "influencer campaigns."
 msgstr ""
+"深入探索充满活力的网红营销世界，参加我们全面的大师班，帮助您的品牌与完美的内容创作者建立有意义的合作关系。这个为期一天的密集培训将战略洞察与实用实施技巧相结合，提升您的网红营销活动效果。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1171,7 +1217,7 @@ msgstr "文档"
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Documentation for content updates"
-msgstr ""
+msgstr "内容更新流程说明文件"
 
 #. module: marketing_agency
 #: model:project.task.type,name:marketing_agency.project_task_type_23
@@ -1211,7 +1257,7 @@ msgstr "端到端协调您的品牌重塑计划，确保及时交付、质量控
 msgid ""
 "Expert creative guidance to establish cohesive visual identity, ensuring "
 "brand elements align with your vision and market positioning."
-msgstr ""
+msgstr "专业的创意指导，建立统一的视觉形象，确保品牌元素与您的愿景和市场定位保持一致。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -1221,12 +1267,12 @@ msgstr "探索"
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Extensive SEO campaigns or marketing"
-msgstr ""
+msgstr "广泛的搜索引擎优化活动或营销"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Facilitate registrations and attendee management"
-msgstr ""
+msgstr "简化登记流程和参与者管理"
 
 #. module: marketing_agency
 #: model:uom.uom,name:marketing_agency.uom_uom_31
@@ -1246,13 +1292,14 @@ msgid ""
 "impactful identity. Inspired by Brussels' cosmopolitan spirit, we cultivate "
 "a free and innovative mindset to help you tell your story in a unique way."
 msgstr ""
+"从营销审计到艺术指导，再到传播策略和社交媒体管理，我们助力企业打造强大且富有影响力的品牌形象。受布鲁塞尔国际化精神的启发，我们培养自由创新的思维方式，帮助您以独特的方式讲述您的品牌故事。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "From there, create a quotation for this customer and select the \"Website\" "
 "quotation template."
-msgstr ""
+msgstr "随后，为该客户创建报价单并选择“网站”报价模板。"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_20
@@ -1262,22 +1309,22 @@ msgstr "前端"
 #. module: marketing_agency
 #: model:product.template,name:marketing_agency.product_product_6_product_template
 msgid "Frontend Development"
-msgstr ""
+msgstr "前端开发"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Fully functional responsive website"
-msgstr ""
+msgstr "完全功能的响应式网站"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "Gain insider knowledge on emerging trends before your competitors"
-msgstr ""
+msgstr "在竞争对手之前获取有关新兴趋势的内部知识"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Generate comprehensive analytics reports"
-msgstr ""
+msgstr "生成全面的分析报告"
 
 #. module: marketing_agency
 #: model:project.project.stage,name:marketing_agency.project_project_stage_6
@@ -1288,44 +1335,44 @@ msgstr "全局"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Global are projects that are not client-specific"
-msgstr ""
+msgstr "全球项目是非特定客户的项目"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Go to the website, and post a contact form for a new opportunity."
-msgstr ""
+msgstr "前往网站，并提交联系表单创建新机会。"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Google Analytics integration"
-msgstr ""
+msgstr "Google Analytics 分析数据整合"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_10
 msgid "Graphic Design"
-msgstr ""
+msgstr "平面设计"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "Green Horizon Launch"
-msgstr ""
+msgstr "Green Horizon 开幕"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid ""
 "Helped SaaS startup capture 15% market share in 6 months through targeted "
 "content strategy"
-msgstr ""
+msgstr "通过有针对性的内容策略，帮助 SaaS 初创公司在 6 个月内获得15%的市场份额"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Highlight client success stories and case studies"
-msgstr ""
+msgstr "展示客户成功案例和案例研究"
 
 #. module: marketing_agency
 #: model:product.template,name:marketing_agency.product_product_12_product_template
 msgid "Hosting & Maintenance"
-msgstr ""
+msgstr "托管与维护"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1339,7 +1386,7 @@ msgstr "如果您想轻松了解该软件包的所有功能，请尝试下载演
 msgid ""
 "If you want to test &amp; explore this industry package, you can try to "
 "execute this flow:"
-msgstr ""
+msgstr "如果您想测试和探索这个行业套件，可以尝试执行以下流程："
 
 #. module: marketing_agency
 #: model:project.task.type,name:marketing_agency.project_task_type_22
@@ -1352,32 +1399,32 @@ msgstr "进行中"
 msgid ""
 "Increased senior care provider's qualified leads by 85% while reducing costs"
 " through empathetic storytelling."
-msgstr ""
+msgstr "通过富有同理心的故事讲述，帮助老年护理提供商的合格潜在客户增加85%，同时降低成本。"
 
 #. module: marketing_agency
 #: model:event.event,name:marketing_agency.event_event_1
 msgid "Industry Insight Workshop"
-msgstr ""
+msgstr "行业见解研讨会"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "Influencer Marketing Masterclass"
-msgstr ""
+msgstr "网络红人推广大师班"
 
 #. module: marketing_agency
 #: model:event.event,name:marketing_agency.event_event_2
 msgid "Influencer Marketing Masterclass "
-msgstr ""
+msgstr "网络红人推广大师班"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Initial discovery and requirements gathering"
-msgstr ""
+msgstr "初步简介及收集需求"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "Jean&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Jean <br/>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
@@ -1388,11 +1435,12 @@ msgid ""
 "designed to give your business a competitive edge in an ever-evolving "
 "marketplace."
 msgstr ""
+"加入我们的沉浸式半天工作坊，我们将深入探讨重塑您所在行业的最新营销趋势和策略。这场独家活动将专业知识与实际应用相结合，旨在让您的企业在不断发展的市场中获得竞争优势。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "Juliette&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Juliette <br/>"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1409,27 +1457,27 @@ msgstr "线索生成"
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
 msgid "Learn advanced techniques not covered in typical training"
-msgstr ""
+msgstr "学习典型培训中未涵盖的高级技术"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "Learn from real-world case studies relevant to your specific industry"
-msgstr ""
+msgstr "从与您特定行业相关的真实案例中学习"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "Learn to measure ROI beyond simple engagement metrics"
-msgstr ""
+msgstr "学习如何衡量超越简单互动指标的投资回报率"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "Leave with actionable strategies you can implement immediately"
-msgstr ""
+msgstr "带走可立即实施的实用策略"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Log time spent on client projects"
-msgstr ""
+msgstr "记录已花费在客户项目的工时"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3353
@@ -1439,6 +1487,9 @@ msgid ""
 "o_text_highlight_scribble_1\">&amp;nbsp;reference</span>&amp;nbsp;with&amp;nbsp;Zinneke"
 " Studio."
 msgstr ""
+"让您的品牌通过 Zinneke Studio 成为<span style=\"--text-highlight-width: 3px; --text-"
+"highlight-color: #FFC300;\" class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_scribble_1\">行业标杆</span>。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1463,32 +1514,32 @@ msgstr "推广成果展示"
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_2
 msgid "Master the art of building authentic, long-term creator relationships"
-msgstr ""
+msgstr "掌握与创作者建立真诚长久合作关系的艺术"
 
 #. module: marketing_agency
 #: model:event.tag,name:marketing_agency.event_tag_2
 msgid "Masterclass"
-msgstr ""
+msgstr "大师班"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_4
 msgid "Media Relations"
-msgstr ""
+msgstr "媒体关系"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_1
 msgid "Mobile Marketing"
-msgstr ""
+msgstr "移动推广"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Monitor engagement and track campaign performance"
-msgstr ""
+msgstr "监察互动并追踪活动表现"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Monitor team utilization and availability"
-msgstr ""
+msgstr "监察团队人手运用和员工空档"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_3354
@@ -1498,12 +1549,12 @@ msgstr "我的公司"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Navigate to the corresponding opportunity in your CRM"
-msgstr ""
+msgstr "导航至 CRM 中相应的商机"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_1
 msgid "Network with fellow industry leaders and marketing innovators"
-msgstr ""
+msgstr "与行业领袖和营销创新者建立人脉"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -1514,7 +1565,7 @@ msgstr "下一页"
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "Odoo offers you infinite possibilities to expand your agency operations:"
-msgstr ""
+msgstr "Odoo 为您提供无限可能，助您拓展代理机构业务："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1524,22 +1575,22 @@ msgstr "Odoo.com/trial"
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Ongoing maintenance (available as separate service)"
-msgstr ""
+msgstr "持续维护（以单独服务形式提供）"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Organise client workshops and marketing events"
-msgstr ""
+msgstr "举办客户研讨会及推广活动"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Organize client work and deliver projects on time:"
-msgstr ""
+msgstr "组织客户工作，按时交付项目："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Organize your sales pipeline for different types of clients"
-msgstr ""
+msgstr "为不同类型的客户安排销售渠道"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -1548,6 +1599,9 @@ msgid ""
 "o_text_highlight_freehand_3 o_text_highlight_fill\" style=\"--text-"
 "highlight-width: 5px;\">talented</span> team"
 msgstr ""
+"我们<span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_freehand_3 o_text_highlight_fill\" style=\"--text-"
+"highlight-width: 5px;\">才华横溢</span>的团队"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -1556,6 +1610,9 @@ msgid ""
 "o_text_highlight_circle_2 o_text_highlight_fill\" style=\"--text-highlight-"
 "width: 5px;\">projects</span>"
 msgstr ""
+"我们的<span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_circle_2 o_text_highlight_fill\" style=\"--text-highlight-"
+"width: 5px;\">最新项目</span>"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_3
@@ -1565,6 +1622,7 @@ msgid ""
 "different specialty—from SEO to social media, email marketing to content "
 "strategy—providing you with expert knowledge and hands-on practice."
 msgstr ""
+"我们专业的数字营销大师班提供对单一高影响力营销渠道的深度培训。每个季度，我们聚焦不同的专业领域——从搜索引擎优化到社交媒体，从电子邮件营销到内容策略——为您提供专业知识和实操练习。"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_9
@@ -1751,7 +1809,7 @@ msgstr "设置自动化跟进工作，培养潜在客户"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Set up subscription plans for ongoing client retainers"
-msgstr ""
+msgstr "为持续客户合作设立订阅计划"
 
 #. module: marketing_agency
 #: model:sale.order.template.line,name:marketing_agency.sale_order_template_line_9
@@ -1761,32 +1819,32 @@ msgstr "设置"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Share progress with clients through client portals"
-msgstr ""
+msgstr "通过客户门户与客户分享进展"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Showcase your agency's work and organise marketing events:"
-msgstr ""
+msgstr "展示您机构的工作并组织营销活动："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "Silver Care Connection"
-msgstr ""
+msgstr "Silver Care 连接"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Site architecture and user experience planning"
-msgstr ""
+msgstr "网站架构和用户体验规划"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_2
 msgid "SoMe"
-msgstr ""
+msgstr "社媒"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Social Marketing 📱"
-msgstr ""
+msgstr "社交媒体推广 📱"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_13
@@ -1797,17 +1855,17 @@ msgstr "社交媒体"
 #. module: marketing_agency
 #: model:product.template,name:marketing_agency.product_product_11_product_template
 msgid "Social Media + Community Management"
-msgstr ""
+msgstr "社交媒体 + 社群管理"
 
 #. module: marketing_agency
 #: model:product.template,name:marketing_agency.product_product_10_product_template
 msgid "Social Media Audit"
-msgstr ""
+msgstr "社交媒体审计"
 
 #. module: marketing_agency
 #: model:project.project,name:marketing_agency.project_project_4
 msgid "Social Media 📢"
-msgstr ""
+msgstr "社交媒体 📢"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_9
@@ -1837,7 +1895,7 @@ msgstr "任务"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "TechPulse Takeover"
-msgstr ""
+msgstr "TechPulse 收购"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_1
@@ -1854,7 +1912,7 @@ msgstr "模板"
 msgid ""
 "Templates are placed in the corresponding stage. These are the projects that"
 " will be duplicated when you sell the related product."
-msgstr ""
+msgstr "模板放置在相应的阶段。当您销售相关产品时，这些项目将被复制。"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_23
@@ -1869,12 +1927,13 @@ msgid ""
 "transparent performance insights, and collaboratively charts the course for "
 "your next quarter of growth."
 msgstr ""
+"季度营销成果展示会是数据与庆祝相结合的场合。这个高管级别的活动突出展示您的营销成功案例，提供透明的绩效洞察，并共同规划您下一季度的增长路线。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "The rest are client's projects, different for each kind of prestations."
-msgstr ""
+msgstr "其余是客户的项目，根据每种服务类型而异。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1885,7 +1944,7 @@ msgstr "这些都是您当前订阅中的免费内容；请随意浏览！🙃"
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
 msgid "Third-party integrations unless specifically outlined"
-msgstr ""
+msgstr "第三方整合（除非特别说明）"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
@@ -1895,11 +1954,12 @@ msgid ""
 "business objectives. Our comprehensive approach ensures a seamless user "
 "experience across all devices while supporting your marketing goals."
 msgstr ""
+"这个项目包括设计和开发一个专业、响应式的网站，有效展示您的品牌并满足您的业务目标。我们全面的方法确保在所有设备上提供无缝的用户体验，同时支持您的营销目标。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Timesheets &amp; Planning 🗓️"
-msgstr ""
+msgstr "工时单及工作规划 🗓️"
 
 #. module: marketing_agency
 #: model:project.task.type,name:marketing_agency.project_task_type_21
@@ -1910,46 +1970,46 @@ msgstr "待办"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Track billable hours and manage your team's workload:"
-msgstr ""
+msgstr "追踪计费工时，管理团队工作量："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Track leads and manage client relationships:"
-msgstr ""
+msgstr "追踪潜在客户、管理客户关系："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Track recurring revenue and client renewals"
-msgstr ""
+msgstr "追踪经常收入及客户续订情况"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Track tasks, deadlines, and team responsibilities"
-msgstr ""
+msgstr "追踪任务、截止日期及团队职责"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid ""
 "Transformed family coffee roastery into trending brand with 300% sales "
 "increase through strategic rebranding"
-msgstr ""
+msgstr "通过战略性品牌重塑，将家族咖啡烘焙厂转变为热门品牌，销售额增长300%"
 
 #. module: marketing_agency
 #: model:res.partner.category,name:marketing_agency.res_partner_category_5
 msgid "US Company"
-msgstr ""
+msgstr "美国公司"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
 msgid "Understand performance trends and emerging opportunities"
-msgstr ""
+msgstr "了解绩效趋势和新兴机会"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid ""
 "Use the Quote Calculator to select the features you want to include in this "
 "website."
-msgstr ""
+msgstr "使用报价计算器选择您想要的功能"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -1992,7 +2052,7 @@ msgid ""
 "Welcome to your new Odoo Marketing Agency package! This guide will help you "
 "navigate the key features and get your agency operations running "
 "efficiently."
-msgstr ""
+msgstr "欢迎使用您的新 Odoo 营销代理机构套餐！本指南将帮助您了解关键功能，高效运营您的代理机构业务。"
 
 #. module: marketing_agency
 #: model_terms:web_tour.tour,rainbow_man_message:marketing_agency.knowledge_tour
@@ -2002,7 +2062,7 @@ msgstr "欢迎！祝您探索愉快。"
 #. module: marketing_agency
 #: model:event.tag,name:marketing_agency.event_tag_1
 msgid "Workshops"
-msgstr ""
+msgstr "工作坊"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -2013,7 +2073,7 @@ msgstr "您想与我们讨论您的 Odoo 设置或了解更多功能吗？"
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "You can see 3 kinds of project in your Project Dashboard:"
-msgstr ""
+msgstr "您可以在项目仪表板中看到 3 种类型的项目："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -2025,7 +2085,7 @@ msgstr "您仍然可以通过升级应用程序中的软件包来实现。"
 msgid ""
 "Your Odoo for Marketing Agencies package includes the essential apps to "
 "manage your client relationships, projects, and agency operations:"
-msgstr ""
+msgstr "您的 Odoo 营销代理机构服务套装，包括管理客户关系、项目和代理机构运营的必要应用程序："
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -2036,31 +2096,32 @@ msgid ""
 "for any service your agency offers, making proposal creation fast and "
 "consistent."
 msgstr ""
+"您的套装包含一个带有内置报价计算器的“网站”报价模板。只需勾选不同网站功能的复选框，计算器就会自动更新价格。这个系统可以针对您代理机构提供的任何服务进行定制，使提案创建既快速又一致。"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "Zuzanna"
-msgstr ""
+msgstr "Zuzanna"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "aerial photography of curved road"
-msgstr ""
+msgstr "弯曲道路的航拍照片"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "coffee bean lot"
-msgstr ""
+msgstr "一批咖啡豆"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "man in brown coat wearing black sunglasses"
-msgstr ""
+msgstr "穿棕色外套、戴黑色太阳镜的男子"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
 msgid "man wearing medical mask and robe"
-msgstr ""
+msgstr "戴医用口罩、穿长袍的男子"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
