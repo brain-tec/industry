@@ -3,17 +3,17 @@
 # 	* industry_lawyer
 # 
 # Translators:
-# Wil Odoo, 2024
-# Daye Jeong, 2024
-# Sarah Park, 2024
+# Wil Odoo, 2025
+# Daye Jeong, 2025
+# Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 10:44+0000\n"
+"POT-Creation-Date: 2025-03-27 11:01+0000\n"
 "PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Sarah Park, 2024\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,513 +22,912 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid ""
-"<b>Book a consultation online</b>\n"
-"                                            <br/>"
-msgstr ""
-"<b>온라인 상담 예약하기</b>\n"
-"                                            <br/>"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ", and feel free to"
+msgstr ", 자유롭게"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"<b>Lawyers &amp;amp; associates</b>\n"
-"                                    <br/>"
+"2.2. Retainer\n"
+"A retainer of [amount]€ is required upon signing this agreement. This amount will be deducted from the final billing."
 msgstr ""
-"<b>변호사 & 직원</b>\n"
-"                                    <br/>"
+"2.2. 계약금\n"
+"이 계약서에 서명하려면 [금액]€의 계약금이 필요합니다. 이 금액은 최종 청구서에서 공제됩니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<em><strong>Milestone: </strong>First Hearing</em>"
+msgstr "<em><strong>마일스톤: </strong>첫 공판</em>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Add a new line to register a new Timesheet on the Administration Task of the"
-" project manually."
-msgstr "프로젝트의 관리 작업에 새로운 작업시간표를 수동으로 등록할 수 있도록 새 줄을 추가합니다."
+"<em><strong>Tasks</strong>: Prepare Legal Arguments, Review Submissions and "
+"Arguments from Opposing Counsel</em>"
+msgstr "<em><strong>업무</strong>: 법률 문서 준비, 상대 변호사 제출 자료 및 내용 검토</em>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Add another Sale Order line using the Administration fees product."
-msgstr "판매주문서에 행정 수수료 품목을 넣어서 다른 줄을 추가합니다."
+msgid "<em>Example:</em>"
+msgstr "<em>예시:</em>"
 
 #. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_6_product_template
-msgid "Administration fees"
-msgstr "관리비"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Aline Turner, Immigration lawyer"
-msgstr "앨린 터너, 이민 전문 변호사"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"display-1-fs\">⚖️</span>"
+msgstr "<span class=\"display-1-fs\">⚖️</span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h1-fs\"><strong>Basics</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>베이직</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>더 자세히 알아보시겠습니까?</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Use Case</strong></span>"
+msgstr "<span class=\"h2-fs\"><strong>사례</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h1-fs\">Odoo for Law Firms</span></strong>"
+msgstr "<strong><span class=\"h1-fs\">Odoo 법률 사무소</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Managing documents:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">문서 관리:</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Managing projects:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">프로젝트 관리:</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Tracking time:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">시간 추적:</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Invoice Clients</strong>"
+msgstr "<strong>고객에게 청구서 발행</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Aline is one of the iconic people in life who can say they love what\n"
-"                                                    they do. She acquired experience in immigration law and human rights\n"
-"                                                    law thanks to several experiences in the non-profit sector. She\n"
-"                                                    worked as a legal adviser in nationality law with the Objectif\n"
-"                                                    non-profit."
-msgstr ""
-"Aline은 자신이 하는 일을 진정으로 사랑하는 보기 드문 사람 중 한 명입니다.\n"
-"                                                    이민 및 인권법 분야에서 폭넓은 경험을 쌓은 그녀는 비영리 분야에서\n"
-"                                                    다양한 역할을 수행하며 귀중한 통찰력을 얻었습니다. Objectif에서\n"
-"                                                    국적법 법률 고문으로 일하면서 그녀의 전문성과 열정이 더욱 빛을 발하고\n"
-"                                                    있습니다."
+"<strong>Invoice the client</strong>: Compile logged hours, document "
+"preparation costs, and travel expenses into the invoice."
+msgstr "<strong>클라이언트에게 청구서 발행</strong>: 기록 시간, 문서 준비 비용, 출장비를 청구서에 모두 기재합니다."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Assign the responsible user."
-msgstr "사용자 중 담당자를 지정합니다."
+msgid ""
+"<strong>Log your time</strong> directly in the 'Timesheet' tab of a specific"
+" task, or use the timer to track the time spent on that task."
+msgstr ""
+"특정 작업의 '작업시간표' 탭에 직접 <strong>시간을 기록</strong>하거나 타이머를 사용하여 해당 작업에 소요된 시간을 "
+"추적하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Log your time</strong>: Track hours spent on each task in the "
+"Timesheet tab."
+msgstr "<strong>시간 기록</strong>: 작업시간표 탭에서 각 업무에 소요된 시간을 추적합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Manage documents</strong>: Upload and organize case documents in the"
+" project’s document folder."
+msgstr "<strong>문서 관리</strong>: 프로젝트의 문서 폴더에 사건 문서를 업로드하고 정리합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Manage tasks</strong> by organizing them into stages such as 'To "
+"Do,' 'In Progress,' and 'Done' to keep track of progress."
+msgstr ""
+"<strong>작업 관리가 편해집니다.</strong> 작업을 '할 일', '진행 중', '완료' 등의 단계로 정리하여 진행 상황을 "
+"추적하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Manage your agenda with the calendar app</strong>"
+msgstr "<strong>캘린더 앱으로 모든 아젠다를 관리하세요</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Open a new client case</strong>"
+msgstr "<strong>신규 고객 사례 열기</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Open the case</strong>: Create a new project for the case."
+msgstr "<strong>케이스 열기</strong>: 케이스 관련된 새 프로젝트를 생성합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Organize case files in projects and documents</strong>"
+msgstr "<strong>프로젝트 및 문서에서 사건 파일을 체계적으로 정리하세요</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Organize tasks</strong>: Set up tasks for the case, such as "
+"\"Document Drafting\" and \"Legal Research.\""
+msgstr "<strong>작업 체계화</strong>: “문서 초안 작성” 및 ‘법률 조사’와 같이 사건에 대한 작업을 설정합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Schedule the first consultation</strong>: Add a consultation with "
+"John Doe to your calendar."
+msgstr "<strong>첫 번째 상담 예약</strong>: 캘린더에 John Doe 고객과 상담을 추가합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Steps to create a new case:</strong>"
+msgstr "<strong>신규 사건 생성 절차:</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Synchronizing external calendars:</strong> If lawyers or secretaries"
+" use tools like Google Calendar or Outlook, follow these steps to sync them "
+"with Odoo:"
+msgstr ""
+"<strong>외부 캘린더 동기화:</strong> 변호사나 비서가 Google 캘린더나 Outlook과 같은 도구를 활용하게 할 경우 "
+"다음 단계에 따라 Odoo와 동기화하세요:"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Workflow Example</strong>"
+msgstr "<strong>워크플로우 예시</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>👉 </strong>"
+msgstr "<strong>👉 </strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"A free, personalized, integrated<strong><font class=\"text-o-color-1\"> "
+"Website </font></strong>in a few clicks. Get new clients or direct "
+"appointment online in a few clicks."
+msgstr ""
+"무료로 개인 맞춤형 통합 <strong><font class=\"text-o-color-1\">웹사이트</font></strong>를 "
+"클릭 몇 번만으로 만들어 보세요. 신규 고객 확보나 즉각적인 온라인 예약을 몇 번의 클릭만으로 진행해 보세요."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"APPLICABLE LAW AND JURISDICTION\n"
+"This agreement is governed by Belgian law. Any disputes will be submitted to the courts of [city]."
+msgstr ""
+"준거법 및 관할권\n"
+"이 계약은 벨기에 법의 적용을 받습니다. 쟁의 시 [지역] 법원에 제출됩니다."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"ATTORNEY'S OBLIGATIONS\n"
+"The Attorney commits to:"
+msgstr ""
+"변호사의 의무\n"
+"변호사는 다음과 같은 내용을 약속합니다:"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Access documents via the <strong>smart button</strong> on the project page; "
+"each project automatically generates a dedicated folder for organizing case-"
+"related documents."
+msgstr ""
+"프로젝트 페이지의 <strong>스마트 버튼</strong>을 통해 문서에 액세스해 보세요. 각 프로젝트별로 자동으로 전용 폴더가 "
+"생성되어 사건 관련 문서를 정리할 수 있습니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Adapt your <strong>Terms &amp; Conditions</strong> directly on the "
+"quotation, and the customers will be able to sign it through their Odoo "
+"portal, or create or use the template of the <strong>Engagement "
+"Letter</strong> in the <strong>Sign App</strong>, and request the client's "
+"signature for the agreement."
+msgstr ""
+"견적서에 <strong>이용약관</strong>을 직접 기재할 경우, 클라이언트가 Odoo 포털을 통해 서명할 수 있습니다. 혹은 "
+"<strong>전자 서명 앱</strong>에서 <strong>계약서</strong> 템플릿을 생성하거나 기존 템플릿을 활용하여 계약서에"
+" 클라이언트가 서명하도록 요청할 수 있습니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Add documents directly to project folder within the <strong>Documents "
+"app</strong>, or on the tasks or projects themselves."
+msgstr "<strong>문서 앱</strong>에 있는 프로젝트 폴더 혹은 프로젝트 자체에 문서를 직접 추가하세요."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Administrative costs: 80€/hour"
+msgstr "행정 비용: 80€/hour"
 
 #. module: industry_lawyer
 #: model:product.template,name:industry_lawyer.product_product_8_product_template
-msgid "Audience with a colleague"
-msgstr "동료와 함께 듣기"
-
-#. module: industry_lawyer
-#: model:project.project,name:industry_lawyer.project_project_2
-msgid "Base project"
-msgstr "기본 프로젝트"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Business Flows"
-msgstr "업무 흐름"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_2_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_1
-msgid "Case opening"
-msgstr "사례 열기"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Check the created appointment."
-msgstr "생성되어 있는 약속을 확인합니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Check the user agenda, a meeting is created."
-msgstr "사용자 아젠다 확인 후 회의가 생성됩니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Complete the Customer information."
-msgstr "고객 정보를 입력합니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Confirm the Sale Order which will create the related Project and Tasks"
-msgstr "판매주문서를 확정하면 관련 프로젝트와 작업이 생성됩니다."
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_5_product_template
-msgid "Consultation"
-msgstr "상담"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Contact us and find out why."
-msgstr "당사에 문의하여 그 이유를 알아보세요."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Create a Regular Invoice."
-msgstr "일반 청구서를 생성합니다."
+msgid "Administrative fees"
+msgstr "행정 수수료"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Create a Sale Order using the Standard Lawyer service Quotation template."
-msgstr "표준 변호 서비스 견적서 템플릿을 사용하여 판매주문서를 생성합니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Domains"
-msgstr "도메인"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_7_product_template
-msgid "Down payment"
-msgstr "선결제 금액"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Excellence since 2008"
-msgstr "2008년부터 이어진 우수성"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid ""
-"Excellence, privacy and reliability are the corner\n"
-"                                                    stones\n"
-"                                                    of our services."
+"Alternatively, you can access the Timesheet app via the <strong>smart button"
+" </strong>on the project page to view an overview of timesheets related to "
+"that project, with the same option available for a specific task."
 msgstr ""
-"우수성, 개인정보 보호, 신뢰성은 저희 서비스의\n"
-"                                                    기본\n"
-"                                                    방침입니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Expropriation law"
-msgstr "수용 법률"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Family reunification"
-msgstr "가족 재결합"
-
-#. module: industry_lawyer
-#: model_terms:appointment.type,message_intro:industry_lawyer.appointment_type_1
-msgid "Fee: 100€<br>Check our domains of competences on our website."
-msgstr "요금: 100€<br>웹사이트에서 당사의 전문 분야를 확인하세요."
-
-#. module: industry_lawyer
-#: model_terms:appointment.type,message_intro:industry_lawyer.appointment_type_2
-msgid "Fee: 100€<br>The fee includes the opening of the case."
-msgstr "수수료: 100€<br>수수료에는 케이스 개봉 비용이 포함되어 있습니다."
+"또는 프로젝트 페이지의 <strong>스마트 버튼</strong>을 통해 작업 기록 앱에 액세스하여 해당 프로젝트와 관련된 작업시간표를 "
+"전체보기로 볼 수 있으며, 지정된 작업에 대해서도 동일한 옵션을 사용할 수 있습니다."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Flow 1: Get an appointment on the website"
-msgstr "흐름 1: 웹사이트에서 예약하기"
+msgid "Assign <strong>responsible users</strong>."
+msgstr "<strong>담당자</strong>를 지정합니다."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Avoid any conflicts of interest"
+msgstr "이해 상충을 피합니다"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Base hourly rate for a Junior Lawyer: 120€/hour"
+msgstr "주니어 변호사의 기본 시간당 요율: 120€/시간"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Base hourly rate for a Senior Lawyer: 200€/hour"
+msgstr "시니어 변호사의 기본 시간당 요율: 200€/시간"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Flow 2: Open a new file, start registering Timesheets."
-msgstr "흐름 2: 새 파일을 열고 작업시간표 등록 시작하기"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Flow 3: Create an invoice of"
-msgstr "흐름 3: 청구서 만들기"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
 msgid ""
-"Founder and chief visionary, Tony is the driving force behind the\n"
-"                                                    cabinet."
+"By creating an invoice for the quotation, you can record the down payment "
+"based on a percentage of the total or a fixed amount (e.g., €1000, upfront "
+"for the Legal Services)."
 msgstr ""
-"창립자이자 수석 비전가인 Tony는 이사회를 이끄는\n"
-"                                                    원동력입니다."
+"견적서에 대해 청구서를 생성하면 총 금액의 일정 비율 또는 고정 금액(예: 법률 서비스의 경우 선불 €1000) 기준으로 계약금을 기록할"
+" 수 있습니다."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "From the Sales app:"
-msgstr "판매 앱에서:"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Go in the Timesheets tab, register a new Timesheet manually."
-msgstr "작업시간표 탭으로 이동하여 새로운 작업시간표를 수동으로 등록합니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid ""
-"Help you throughout your procedure and provide you\n"
-"                                                    our\n"
-"                                                    experience at an affordable price."
+"By uploading this module's demo data, your database has been filled with a "
+"few contacts."
+msgstr "이 모듈의 데모 데이터를 업로드하면 데이터베이스가 몇 개의 연락처로 채워집니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"By using this module, you’ll gain access to essential features such as case "
+"management, invoicing, and time tracking. These tools streamline the "
+"workflow from initial consultations to billing, allowing law firms to focus "
+"on delivering high-quality legal services."
 msgstr ""
-"절차 전반에 걸쳐 도움을 드리며 합리적인\n"
-"                                                    가격으로\n"
-"                                                    전문 지식을 제공합니다."
+"이 모듈을 통해 사건 관리, 청구서 발행, 시간 추적과 같은 필수 기능에 액세스할 수 있습니다. 이러한 도구는 초기 상담부터 청구서 "
+"발행까지 워크플로우를 간소화하여 법률 사무소에서 고품질 법률 서비스 제공에만 집중할 수 있도록 도와줍니다."
 
 #. module: industry_lawyer
-#: model:appointment.type,name:industry_lawyer.appointment_type_1
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Immigration"
-msgstr "이민"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "In the Backend:"
-msgstr "백엔드에서:"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"Input the amount of delivered dactylographied pages and travel expenses "
-"incurred."
-msgstr "전달된 속기록 페이지 수와 출장비 금액을 입력합니다."
-
-#. module: industry_lawyer
-#: model:project.project,name:industry_lawyer.project_project_1
-msgid "Internal"
-msgstr "내부"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Iris Joe, Public Rights lawyer"
-msgstr "Iris Joe, 공익 변호사"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid ""
-"Is it possible to obtain a residence permit for my parents, for a person\n"
-"                                                with whom I am not married, for a minor under guardianship, for a\n"
-"                                                homosexual couple, for a dependent…? Every individual has, in principle,\n"
-"                                                the right to live with their family. However this right is not absolute."
+"CLIENT'S OBLIGATIONS\n"
+"The Client commits to:"
 msgstr ""
-"일반적으로 부모, 미혼 파트너, 후견인 보호를 받는 미성년자, 동성 커플 등\n"
-"                                                다양한 개인이 거주 허가를 받을 수 있습니다.\n"
-"                                                그러나 가족과 함께 살 권리는 절대적인 것이 아니며 특정 규정과\n"
-"                                                요건에 따라 달라집니다. 각 사례마다 다른 기준과 법적 고려 사항이 적용됩니다."
+"고객의 의무\n"
+"고객은 다음과 같은 내용을 약속합니다:"
 
 #. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_1_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_2
-msgid "Lawyer fees"
-msgstr "변호사 비용"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Lawyer firms"
-msgstr "법무법인"
+#: model:project.project,name:industry_lawyer.project_project_3
+msgid "Case Template"
+msgstr "케이스 템플릿"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Lawyers have open / public consultations for people to reach out and get "
-"advice on their situation."
-msgstr "변호사 공개 / 일반 상담을 통해 일반인이 자신의 상황에 대한 조언을 구할 수 있습니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Learn more"
-msgstr "추가 정보"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Look at the available tasks, select the Lawyer Services task."
-msgstr "사용할 수 있는 작업을 확인한 후 변호사 서비스 작업을 선택합니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Mich Stark, Founder"
-msgstr "Mich Stark, 설립자"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid ""
-"Mich loves taking on challenges. With his multi-year experience as\n"
-"                                                    lawyer in Immigration, Mich has helped the cabinet to get where it\n"
-"                                                    is today. Mich is among the best minds."
+"Centralize all case activities and documents using the "
+"<strong>Project</strong> and <strong>Documents</strong> apps."
 msgstr ""
-"Mich는 열정을 가지고 도전을 받아들입니다. 이민법 변호사로서의\n"
-"                                                    폭넓은 경험을 바탕으로 정부 내각의 발전을 이끌었습니다.\n"
-"                                                    그는 해당 분야의 최고 전문가 중 한 명으로 꼽힙니다."
+"사건에 대한 작업 및 문서를 중앙 집중 관리하는 데 <strong>프로젝트</strong> 및 <strong>문서</strong> 앱을 "
+"활용하세요."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "On the Website:"
-msgstr "웹사이트에서:"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Open the Timesheet app:"
-msgstr "작업 기록 앱을 엽니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Open the related Project:"
-msgstr "관련 프로젝트를 엽니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid ""
-"Our cabinet is born in 2008 at the initiative of our founders, Lawyers &amp;amp;\n"
-"                                            Associates, from a desire to provide a new center of excellence in our\n"
-"                                            domains,\n"
-"                                            Immigration and Civil Rights. Since then, we have helped over 1500 clients\n"
-"                                            in\n"
-"                                            their\n"
-"                                            procedure."
+"Centralize case files and tasks with the <strong><font class=\"text-o-"
+"color-1\">Project &amp; Documents App</font>.</strong>"
 msgstr ""
-"저희 로펌은 이민 및 민권 분야의 새로운 우수 센터를 만들겠다는 목표로\n"
-"                                            2008년 설립자인 Lawyers &amp;amp;Associates 에 의해 설립되었습니다.\n"
-"                                            그 이후로\n"
-"                                            1,500명이 넘는 고객의 소송을\n"
-"                                            끊임없지\n"
-"                                            지원\n"
-"                                            했습니다."
-
-#. module: industry_lawyer
-#: model:website.menu,name:industry_lawyer.website_menu_9
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Our lawyers"
-msgstr "변호사"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our mission"
-msgstr "우리의 미션"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our team"
-msgstr "당사 팀"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our values"
-msgstr "우리의 가치"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Pharmaceutical law"
-msgstr "약사법"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid ""
-"Pharmaceutics are not perfect, and in some extreme cases, they can have a\n"
-"                                                tremendous impact on the life of people. We guide you through your\n"
-"                                                procedure and help us clair your rights."
-msgstr ""
-"의약품은 완벽하지 않으며, 극단적인 경우 사람들의 생명에\n"
-"                                                중대한 영향을 미칠 수 있습니다. 당사는 절차를 안내하고\n"
-"                                                귀하의 권리를 명확히 할 수 있도록 지원합니다."
-
-#. module: industry_lawyer
-#: model:appointment.type,name:industry_lawyer.appointment_type_2
-msgid "Public Right"
-msgstr "공공의 권리"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Public right"
-msgstr "공공의 권리"
+"사건에 대한 파일 및 작업을 중앙 집중 관리하는 데 <strong><font class=\"text-o-color-1\">프로젝트 및 "
+"문서 앱</font></strong>을 활용하세요."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Put it In Progress, open it."
-msgstr "진행 중으로 설정하고 엽니다."
+msgid ""
+"Check other lawyers’ availability by selecting their calendars to coordinate"
+" meetings."
+msgstr "다른 변호사의 캘린더를 선택하여 미팅 가능 여부를 확인하고 미팅 일정을 조율하세요."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Researcher"
-msgstr "연구자"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Schedule an appointment"
-msgstr "미팅 예약하기"
+#: model:sign.template,redirect_url_text:industry_lawyer.sign_template_7
+msgid "Close"
+msgstr "닫기"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Select the domain, then the lawyer, and select an available slot."
-msgstr "도메인을 선택한 다음 변호사를 선택하고 사용 가능한 슬롯을 선택합니다."
+msgid ""
+"Confirm the Sale Order, which will automatically generate the related "
+"<strong>Project</strong> and <strong>Tasks</strong>."
+msgstr ""
+"판매주문서를 확정하면 관련 <strong>프로젝트</strong>와 <strong>작업</strong>이 자동으로 생성됩니다."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid "Select the project SO."
-msgstr "프로젝트 SO (판매주문서)를 선택합니다."
+msgid "Confirm the quotation to generate an invoice automatically."
+msgstr "견적서가 확정되면여 자동으로 청구서가 생성됩니다."
 
 #. module: industry_lawyer
-#: model:website.menu,name:industry_lawyer.website_menu_10
-msgid "Services"
-msgstr "서비스"
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Cooperate in good faith"
+msgstr "최선을 다합니다"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model:crm.tag,name:industry_lawyer.crm_tag_2
+#: model:project.tags,name:industry_lawyer.project_tags_1
+msgid "Corporate Law"
+msgstr "회사법"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Some people have difficulties obtaining the equivalence of their diploma\n"
-"                                                or don’t know whether the solicited higher education institution allows\n"
-"                                                to be granted a visa or residence permit in Belgium."
-msgstr ""
-"일부 개인은 졸업장과 동등한 학위를 취득하는 데\n"
-"                                                어려움을 겪거나 지원한 고등 교육 기관이 벨기에에서 비자 또는 거주 허가를\n"
-"                                                받을 수 있는지 확신할 수 없습니다."
+"Create a Sale Order from scratch or use the<strong> Standard Lawyer Service "
+"Quotation</strong> template."
+msgstr "판매주문서를 처음부터 새로 만들거나 <strong>표준 변호사 서비스 견적서 템플릿</strong>을 활용하세요."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"Strict legal conditions must be met in order to be considered a <strong>\n"
-"                                                researcher\n"
-"                                            </strong> and to be eligible for a work and residence permit.\n"
-"                                                If you are a foreigner and wish to obtain a residence permit in the <strong>\n"
-"                                                United States\n"
-"                                            </strong> as part of a study, research, or academical service, carefully\n"
-"                                                prepare your file and ask for advice from specialized lawyers."
+"DATA PROTECTION\n"
+"Personal data processing is conducted in accordance with GDPR and the firm's privacy policy."
 msgstr ""
-"연구원으로 분류되어 취업 및 거주 허가를 받으려면<strong>\n"
-"                                                엄격한 법적 조건을\n"
-"                                            </strong> 충족해야 합니다. 유학, 연구 또는 학술 목적으로\n"
-"                                                미국에서 거주 허가를 받고자 하는<strong>\n"
-"                                                외국인의 경우\n"
-"                                            </strong>신청서를  꼼꼼하게 준비하고\n"
-"                                                전문 변호사와 상담하여 지침을 받는 것이 좋습니다."
+"데이터 보호\n"
+"개인정보 데이터 처리는 GDPR 및 회사의 개인정보 처리방침에 따라 진행됩니다."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Students"
-msgstr "학생"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Discover more about Odoo by diving into our"
+msgstr "Odoo에 대해 자세히 알아보세요."
 
 #. module: industry_lawyer
-#: model:project.project,label_tasks:industry_lawyer.project_project_1
-#: model:project.project,label_tasks:industry_lawyer.project_project_2
+#: model:project.task.type,name:industry_lawyer.project_task_type_3
+msgid "Done"
+msgstr "완료"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Ease your invoicing process with the <strong><font class=\"text-o-"
+"color-1\">Invoice App</font></strong>."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">청구서 앱</font></strong>으로 인보이스 발행 프로세스를"
+" 간편하게 처리하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Easily create and manage a new case for your client using Odoo’s streamlined"
+" workflow."
+msgstr "Odoo의 간소화된 워크플로우를 통해 클라이언트를 위하여 새 사건을 쉽게 생성하고 관리합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Ensure every billable hour and expense is accurately accounted for and "
+"invoiced."
+msgstr "청구 가능한 시간과 경비가 모두 정확하게 계산 및 청구되었는지 확인하세요."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"FEES AND EXPENSES\n"
+"2.1. Calculation Basis\n"
+"Fees are calculated according to the following terms:"
+msgstr ""
+"수수료 및 경비\n"
+"2.1. 계산 기준\n"
+"수수료는 다음 조건에 따라 계산합니다:"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"FILE RETENTION AND DOCUMENT STORAGE\n"
+"Files will be retained for 5 years after the end of the engagement. Beyond this period, they may be destroyed unless expressly requested otherwise by the Client."
+msgstr ""
+"파일 보존 및 문서 보관파일은 계약 종료 후 5년 동안 보관됩니다. 이 기간이 지나면 클라이언트가 명시적으로 달리 요청하지 않는 한 "
+"파기될 수 있습니다."
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_1
+msgid "Family Law"
+msgstr "가족법"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Final payment: Once the case is closed, invoice the client for the remaining"
+" balance based on the time tracked in the timesheets."
+msgstr "최종 결제: 케이스가 종결되면 작업시간표에 추적된 시간을 기준으로 나머지 잔액에 대한 청구서를 발행합니다."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "GENERAL TERMS AND CONDITIONS OF ENGAGEMENT"
+msgstr "일반 계약 조건"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Google Calendar Integration"
+msgstr "Google 캘린더 통합"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "How to build your court bundle:"
+msgstr "법원 번들을 구성 방법:"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Implement best expertise"
+msgstr "최고의 전문성 구현"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_2
+msgid "In Progress"
+msgstr "진행 중"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Inform the Attorney of any relevant changes"
+msgstr "관련 변경 사항을 변호사에게 알리기"
+
+#. module: industry_lawyer
+#: model:hr.job,name:industry_lawyer.hr_job_2
+msgid "Junior Associate"
+msgstr "주니어 어소시에이트"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_10_product_template
+msgid "Junior Legal Services"
+msgstr "주니어 법률 서비스"
+
+#. module: industry_lawyer
+#: model:crm.stage,name:industry_lawyer.stage_lead_1
+msgid "KYC Assessment"
+msgstr "KYC 평가"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"LIABILITY\n"
+"The Attorney maintains professional liability insurance with [insurance company name]."
+msgstr ""
+"책임\n"
+"[보험 회사 이름] 로펌의 변호사는 에서 전문 책임 보험에 가입되어 있습니다."
+
+#. module: industry_lawyer
+#: model:hr.job,name:industry_lawyer.hr_job_3
+msgid "Legal Assistant"
+msgstr "법률 보조원"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_12_product_template
+msgid "Legal Services"
+msgstr "법률 서비스"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Link each user’s external calendar to the Odoo Calendar app."
+msgstr "각 사용자의 외부 캘린더를 Odoo 캘린더 앱으로 연결합니다."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"MEDIATION\n"
+"In case of dispute, parties commit to attempting mediation before any legal action."
+msgstr ""
+"중재\n"
+"분쟁이 발생할 경우, 당사자가 법적 조치를 취하기 전에 중재를 시도하도록 최선을 다합니다."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Maintain attorney-client privilege"
+msgstr "변호사의 비밀유지특권 보유"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Make and receive calls, and send SMS or WhatsApp messages directly through "
+"Odoo by adding our <font class=\"text-o-color-1\"><strong>VoIP and WhatsApp "
+"module</strong></font>."
+msgstr ""
+"Odoo를 통해 직접 전화를 송수신해 보세요. VoIP 및 WhatsApp 모듈을 추가하면 SMS 또는 WhatsApp 메시지를 보낼 수"
+" 있습니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage client assessment with <strong><font class=\"text-o-color-1\">CRM "
+"App</font></strong> and handle quotations and contracts with <font "
+"class=\"text-o-color-1\"><strong>Sales App</strong></font>."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">CRM 앱</font></strong>으로 고객 평가를 관리하고 "
+"<font class=\"text-o-color-1\"><strong>판매 앱</strong></font>으로 견적서와 계약서를 "
+"처리하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage your accounting easier than ever with a completely integrated "
+"environment thanks to our <strong><font class=\"text-o-color-1\">Accounting "
+"App</font></strong>."
+msgstr ""
+"완전히 통합된 환경에서 쉽고 간단하게 회계를 관리해 보세요. Odoo <strong><font class=\"text-o-"
+"color-1\">회계 앱</font></strong>이라면 모두 가능합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage your team's and integrate them in all processes by adding "
+"the<strong><font class=\"text-o-color-1\"> Employees App</font></strong>."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">직원 앱</font></strong>을 추가하여 팀을 관리하고 모든"
+" 프로세스에 통합하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Manually add a new line to register time on specific tasks if needed."
+msgstr "필요한 경우 수동으로 새 줄을 추가하여 특정 작업 시간을 등록합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Mark your essential documents as favorites."
+msgstr "필수 문서를 즐겨찾기에 표시하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Merge them into a single document, ready to be submitted to the judge."
+msgstr "하나의 문서로 병합하여 판사 제출용으로 준비합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Navigate to <strong>Settings &gt; Calendar &gt; Sync External "
+"Calendar</strong>."
+msgstr "<strong>설정 &gt; 캘린더 &gt; 외부 캘린더 동기화</strong>로 이동합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Odoo is entirely integrated into an App. Download it to turn your phone to "
+"manage your entire business in it."
+msgstr "Odoo는 모바일 앱과도 완벽하게 통합되어 있습니다. 스마트폰에 앱을 다운로드하여 비즈니스 전체를 관리하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Of course, this is just an overview of the features included in this "
+"package. Feel free to add new apps, delete/modify demo data, and test "
+"everything around!"
+msgstr ""
+"이 개요에서는 이 패키지에 포함된 기능을 중점적으로 설명합니다. 자유롭게 새 앱을 추가하고, 데모 데이터를 수정 또는 삭제하고, 모든 "
+"기능을 테스트해 보세요!"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the <strong>Calendar</strong> app."
+msgstr "<strong>캘린더</strong> 앱을 여세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the <strong>Timesheet</strong> app."
+msgstr "<strong>작업 기록</strong> 앱을 여세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the related <strong>Project</strong>."
+msgstr "관련 <strong>프로젝트</strong>를 여세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Organize tasks by Milestones and assign specific dates to key stages in the "
+"case."
+msgstr "작업을 마일스톤별로 설정하고 작업 주요 단계에 특정 날짜를 지정합니다."
+
+#. module: industry_lawyer
+#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_6
+msgid "Other Costs"
+msgstr "기타 비용"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Outlook Integration"
+msgstr "Outlook 통합"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Pay fees within agreed timeframes"
+msgstr "계약 기간 내 수수료를 결제하세요"
+
+#. module: industry_lawyer
+#: model:project.project,name:industry_lawyer.project_project_5
+msgid "Procedural Request - Drafting and Filing "
+msgstr "절차 요청 - 초안 작성 및 제출"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_3_product_template
+msgid "Procedural request - Drafting and Filing"
+msgstr "절차 요청 - 초안 작성 및 제출"
+
+#. module: industry_lawyer
+#: model:project.project.stage,name:industry_lawyer.project_project_stage_5
+msgid "Project Templates"
+msgstr "프로젝트 템플릿"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Provide all necessary information and documents"
+msgstr "모든 필수 정보와 문서를 제공합니다"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Refer to the following guides for detailed steps:"
+msgstr "자세한 절차는 다음 가이드를 참조하세요:"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Regularly inform the Client of case developments"
+msgstr "사건 진행 상황을 고객에게 정기적으로 알리기"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"SCOPE OF ENGAGEMENT\n"
+"The Client engages the Attorney to provide legal counsel and/or court representation. The Attorney commits to implementing all necessary means to best defend the Client's interests."
+msgstr ""
+"계약 범위\n"
+"클라이언트는 변호사를 고용하여 법률 자문 및/또는 법정 대리인 역할을 수행합니다. 변호사는 클라이언트의 이익을 방어하기 위해 최선을 다하여 필요한 모든 수단을 실행할 것을 약속합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Schedule a demo"
+msgstr "데모 예약하기"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Schedule your meetings, deadlines, or court appearances by clicking on an "
+"empty time slot."
+msgstr "빈 시간대를 클릭하여 회의, 마감일 또는 법두 출두 일정을 예약합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Select all your favorite documents."
+msgstr "모든 즐겨찾기 문서를 선택하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Send the invoice directly to the client from Odoo."
+msgstr "Odoo에서 직접 클라이언트에게 청구서를 발송해 보세요."
+
+#. module: industry_lawyer
+#: model:hr.job,name:industry_lawyer.hr_job_1
+msgid "Senior Lawyer"
+msgstr "시니어 변호사"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_11_product_template
+msgid "Senior Legal Services"
+msgstr "시니어 법률 서비스"
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_3
+#: model:project.tags,name:industry_lawyer.project_tags_2
+msgid "Social Law"
+msgstr "사회법"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Stay organized by keeping track of all appointments, deadlines, and internal"
+" tasks using the Calendar app. Legal assistants can easily assign meetings "
+"by accessing the calendars of individual lawyers."
+msgstr ""
+"캘린더 앱을 활용하여 모든 약속, 마감일 및 내부 업무를 추적하여 체계적으로 관리해 보세요. 법률 보조원이 개별 변호사의 캘린더에 "
+"액세스하여 쉽게 회의 설정을 할 수 있습니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Streamline legal research and collaboration with the<strong><font "
+"class=\"text-o-color-1\"> Knowledge App</font> </strong>by centralizing case"
+" law, legal texts, and internal guides for efficient retrieval, "
+"collaboration, and compliance."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">지식센터 앱</font></strong>으로 판례, 법률 문건, "
+"내부 가이드를 중앙 집중화하여 효율적인 검색과 협업, 규정 준수를 통해 법률 연구와 협업을 간소화하세요."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"TERMINATION\n"
+"Either party may terminate the engagement with 15 days written notice, subject to payment for services already rendered."
+msgstr ""
+"계약 해지\n"
+"양 당사자는15일 전 서면 통지를 통해 계약을 해지할 수 있으며, 이미 제공된 서비스에 대한 금액을 지불하는 조건으로 가능합니다."
+
+#. module: industry_lawyer
+#: model:project.project,label_tasks:industry_lawyer.project_project_3
+#: model:project.project,label_tasks:industry_lawyer.project_project_5
 msgid "Tasks"
 msgstr "작업"
 
 #. module: industry_lawyer
-#: model_terms:appointment.type,message_confirmation:industry_lawyer.appointment_type_1
-msgid "Thank you for your trust !"
-msgstr "신뢰해 주셔서 감사합니다!"
-
-#. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"This setup is for lawyers firms. They represent their clients and defend "
-"their interest during juridical procedures."
-msgstr "이 설정은 법무법인용 메뉴입니다. 고객을 대리하고 사법 절차가 진행될 때 고객의 이익을 보호합니다."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Tony Fred, Founder"
-msgstr "Tony Fred, 설립자"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_4_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_4
-msgid "Travelling expenses"
-msgstr "여행 경비"
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_3_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_3
-msgid "Typed pages"
-msgstr "타이핑 페이지"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid ""
-"Use the quick Timesheet functionality to start counting time on the Lawyer "
-"Services Task of the project."
-msgstr "빠른 작업시간표 기능을 활용하여 프로젝트의 변호 서비스 작업에서 시간 계산을 시작하세요."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
-msgid ""
-"Visit the Appointment page where the open consultations slots for all the "
-"lawyers are accessible."
-msgstr "전체 변호사의 가능한 상담 예약 시간을 확인할 수 있는 예약 페이지를 방문해 보세요."
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "We advocate for your rights"
-msgstr "사용자의 권리를 옹호합니다 "
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid ""
-"We have built a strong team of lawyers with\n"
-"                                                    renowned\n"
-"                                                    experience in our domains."
+"The <strong><font class=\"text-o-color-1\">Calendar App</font></strong> "
+"manages your schedule and appointments."
 msgstr ""
-"저희는 해당 분야에서 명성이 높은 변호사들로\n"
-"                                                    구성된\n"
-"                                                    우수한 팀을 갖추고 있습니다. "
+"<strong><font class=\"text-o-color-1\">캘린더 앱</font></strong>에서 일정과 약속을 "
+"관리합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"The <strong><font class=\"text-o-color-1\">Timesheet App</font></strong> "
+"tracks billable hours and time spent."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">작업 기록 앱</font></strong>을 통해 청구 가능한 시간"
+" 및 소요 시간을 추적합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"The Sign App offers <strong>three levels of signatures</strong>, allowing "
+"you to choose the appropriate level based on the document’s importance and "
+"legal requirements."
+msgstr ""
+"전자 서명 앱에서는 <strong>세 가지 수준으로 서명을 제공</strong>하여 문서의 중요도와 법적 요건에 따라 적절한 수준을 "
+"선택할 수 있습니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"This ensures that appointments made outside of Odoo automatically appear in "
+"the Odoo calendar."
+msgstr "이렇게 하면 Odoo 외부에서 예약한 약속이 Odoo 캘린더에 자동으로 표시됩니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"This module provides a comprehensive suite of tools designed specifically "
+"for law firms, enabling efficient management of time, appointments, "
+"deadlines, cases, and client relationships. Lawyers represent their clients "
+"and protect their interests during legal proceedings."
+msgstr ""
+"이 모듈에는 법률 사무소용으로 종합 도구 모음이 특별히 설계되어 있어서 시간, 약속, 마감일, 사건 및 클라이언트와의 관계를 효율적으로 "
+"관리할 수 있습니다. 변호사는 소송 절차 중에 클라이언트를 대리하고 이익을 보호합니다."
+
+#. module: industry_lawyer
+#: model_terms:product.template,description:industry_lawyer.product_product_12_product_template
+msgid ""
+"This product will be used to bill clients for the time spent by lawyers on "
+"legal services, based on the number of hours worked as tracked through "
+"<strong>Timesheets</strong>."
+msgstr ""
+"이 제품으로 <strong>작업시간표</strong>를 통해 추적된 근무 시간을 기준으로 변호사가 법률 서비스를 진행한 시간을 "
+"클라이언트에게 청구합니다."
+
+#. module: industry_lawyer
+#: model:project.tags,name:industry_lawyer.project_tags_3
+msgid "Timesheet Task"
+msgstr "작업시간표 작업"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_1
+msgid "To Do"
+msgstr "할 일"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_7_product_template
+msgid "Travel Expenses"
+msgstr "출장 경비"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Travel expenses: 80€/hour"
+msgstr "출장비: 80€/시간"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>CRM app</strong> to manage client interactions and conduct "
+"the required <strong>Know Your Customer (KYC) assessment</strong> before "
+"accepting a case."
+msgstr ""
+"<strong>CRM 앱</strong>을 통해 고객과의 소통을 관리하고 사건을 수임하기 전에 필요한 <strong>고객 파악(KYC) "
+"평가</strong>를 수행하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>Sign App</strong> to request a signature from the partner to"
+" approve the completed legal documents before delivery and invoicing the "
+"client."
+msgstr ""
+"<strong>전자 서명 앱</strong>으로 파트너에게 서명을 요청하여 법률 문서 완성본을 승인한 후 고객에게 전송하고 청구서를 "
+"발행할 수 있습니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>timer functionality</strong> to track time spent on a "
+"specific client case."
+msgstr "<strong>타이머 기능</strong>을 활용하여 특정 클라이언트와 관련된 사건에 소요된 시간을 추적하세요."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the<strong> <font class=\"text-o-color-1\">Sign App</font></strong> to "
+"securely sign engagement letters and legal documents, ensuring clear "
+"agreements before or after legal work."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">전자 서명 앱</font></strong>으로 계약서 및 법률 "
+"문서에 안전하게 서명하고 법률 업무 진행 전후에 명확하게 계약서를 작성할 수 있도록 합니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Using down payment for provision:"
+msgstr "가계약용 선금 사용:"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Welcome to the <strong><font class=\"text-o-color-1\">Odoo Law Firm "
+"package</font></strong>!"
+msgstr ""
+"<strong><font class=\"text-o-color-1\">Odoo 법률 사무소 패키지</font></strong>에 오신 "
+"것을 환영합니다!"
 
 #. module: industry_lawyer
 #: model_terms:web_tour.tour,rainbow_man_message:industry_lawyer.knowledge_tour
@@ -538,52 +937,79 @@ msgstr "환영합니다! 마음껏 둘러 보세요."
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"When a case he opened and a contract is signed between them and their "
-"clients, they will typically execute a certain amount of tasks related to "
-"the case, and invoice their services on a given rate."
+"With the Appointment app, you can easily schedule client meetings by sharing"
+" a booking link. Clients can select a time directly from your calendar that "
+"works for both of you, saving time and avoiding back-and-forth "
+"communication."
 msgstr ""
-"해당 사건을 수임하여 회사와 고객 간에 계약이 체결되면, 일반적으로 사건과 관련되어 착수한 업무량에 대해 지정된 요율에 따라 수임료를 "
-"청구합니다."
+"일정 예약 앱으로 예약 링크를 공유하여 클라이언트와의 회의를 쉽게 예약할 수 있습니다. 클라이언트는 양측 모두에게 적합한 시간을 "
+"캘린더에서 직접 선택할 수 있으므로 시간을 절약하고 약속 때문에 계속 연락이 오가야 하는 상황을 피할 수 있습니다."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr "Odoo 설정에 대해 논의하거나 추가 기능을 살펴보고 싶으신가요?"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Whether you are landlord that want to execute an expropriation, or a\n"
-"                                                tenant that needs to be defended against an abusive expropriation, our\n"
-"                                                experienced lawyers can help."
-msgstr ""
-"강제 수용을 집행하려는 임대인이든, 부당한 수용에 맞서\n"
-"                                                방어가 필요한 세입자든, 경험이 풍부한 변호사가\n"
-"                                                도움을 드릴 수 있습니다. "
+"You can access every installed App in your Odoo database on your main "
+"dashboard."
+msgstr "메인 대시보드에서 Odoo 데이터베이스에 설치된 모든 앱에 액세스하세요."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"With a Master’s degree in public and administrative law and a\n"
-"                                                    Bachelor’s degree in criminology, Iris Joe decided to take the next\n"
-"                                                    step in her career. In January 2017, she joined the cabinet for her\n"
-"                                                    internship to become legal counsel.\n"
-"\n"
-"                                                    <br/>"
+"You can set up a <strong>Billing Time Target per month</strong> per employee"
+" to keep track of billable hours and ensure targets are met."
 msgstr ""
-"공법 및 행정법 석사 학위와 범죄학 학사 학위를 취득한\n"
-"                                                    아이리스 조는 자신의 경력을 발전시키기로\n"
-"                                                    결심했습니다. 2017년 1월, 그녀는 법률 고문으로 일하기 위해\n"
-"                                                    인턴 자격으로 내각에 합류했습니다.\n"
-"\n"
-"                                                    <br/>"
+"직원당 <strong>월별 청구 목표 시간</strong>을 설정하여 청구 가능 시간을 추적하고 목표 달성 여부를 확인할 수 있습니다."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "brown wooden smoking pipe on white surface"
-msgstr "흰색 표면에 갈색 목재 흡연 파이프"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You completed that demo use case! There are millions of other ways to adapt "
+"your Odoo setup to fit your business needs."
+msgstr "데모 사용 사례를 완료했습니다! 비즈니스 요구에 맞게 Odoo 설정을 조정할 수 있는 다른 방법은 무수히 많습니다."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "low angle photography of beige building"
-msgstr "베이지 색 건물의 로우 앵글 사진"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
+" &gt; Upgrade your Law Firm package and check the related box."
+msgstr ""
+"데모 데이터를 아직 가져오지 않으셨나요? 지금 바로 가져올 수 있습니다. 앱 &gt; 인더스트리 &gt; 법률 사무소 패키지 업그레이드로"
+" 이동하여 해당 확인란에 표시합니다."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "three women sitting beside table"
-msgstr "테이블 옆에 앉은 세 명의 여성"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You should be able to execute the following flows to have an overview of "
+"various flows you can quickly execute with this package using Odoo."
+msgstr ""
+"다음 플로우를 실행하면 Odoo를 사용하여 이 패키지로 효율적으로 실행할 수 있는 다양한 프로세스에 대한 개요를 확인할 수 있습니다."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "academy"
+msgstr "아카데미"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "and"
+msgstr "및"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "documentation"
+msgstr "관련 문서"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "if you need help!"
+msgstr "도움이 필요하시면!"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "request a demo"
+msgstr "데모 요청하기"
