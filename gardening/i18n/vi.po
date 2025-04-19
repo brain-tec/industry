@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Wil Odoo, 2024
-# Thi Huong Nguyen, 2024
+# Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-10 11:35+0000\n"
 "PO-Revision-Date: 2024-09-29 02:45+0000\n"
-"Last-Translator: Thi Huong Nguyen, 2024\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -232,7 +232,7 @@ msgid ""
 "                                product."
 msgstr ""
 "Trước khi bắt đầu dự án, hãy đảm bảo bạn có đủ hàng tồn kho. Việc\n"
-"xác nhận báo giá cũng kích hoạt việc tạo phiếu xuất kho\n"
+"xác nhận báo giá cũng kích hoạt việc tạo lệnh giao hàng\n"
 "trong ứng dụng <strong>\n"
 "<font class=\"text-o-color-1\">Tồn kho</font>\n"
 "</strong>,\n"
@@ -761,7 +761,7 @@ msgid ""
 msgstr ""
 "Để quản lý các nhiệm vụ khác không cần đến trong dự án (Cắt cỏ, tỉa cành...), hãy trực tiếp tạo một\n"
 "nhiệm vụ trong dự án<strong>\n"
-"<font class=\"text-o-color-1\">Dịch vụ Hiện trường</font>\n"
+"<font class=\"text-o-color-1\">Dịch vụ hiện trường</font>\n"
 "</strong>\n"
 ". Sau đó, phân công và lên lịch cho nhiệm vụ đó vào thời điểm phù hợp với bạn trong kế hoạch chính. Nhân viên của bạn sẽ có thể sử dụng một số\n"
 "vật liệu để thực hiện các nhiệm vụ và tìm thấy tất cả thông tin có liên quan trong đó. Sau đó, những vật liệu này và thời gian đã bỏ ra\n"
@@ -794,7 +794,7 @@ msgid ""
 "                                and when they have to work. Easily manage shift\n"
 "                                conflicts, workload, and replacements in case of leaves."
 msgstr ""
-"Sử dụng Kế hoạch trong ứng dụng Dịch vụ Hiện trường <strong><font class=\"text-o-color-1\"></font>\n"
+"Sử dụng Kế hoạch trong ứng dụng Dịch vụ hiện trường <strong><font class=\"text-o-color-1\"></font>\n"
 "</strong>\n"
 "để sắp xếp công việc của nhân viên. Xác định dự án nào\n"
 "và khi nào họ phải làm việc. Dễ dàng quản lý xung đột\n"
@@ -884,7 +884,7 @@ msgid ""
 "                                         Field Service"
 msgstr ""
 "🎓\n"
-"                                         Dịch vụ Hiện trường"
+"                                         Dịch vụ hiện trường"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
