@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Wil Odoo, 2024
-# Manon Rondou, 2024
+# Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-10 15:03+0000\n"
 "PO-Revision-Date: 2024-08-23 07:58+0000\n"
-"Last-Translator: Manon Rondou, 2024\n"
+"Last-Translator: Manon Rondou, 2025\n"
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -433,16 +433,6 @@ msgstr ""
 "été ajoutés à votre base de données."
 
 #. module: industry_restaurant
-#: model:pos.payment.method,name:industry_restaurant.pos_payment_method_3
-msgid "Cash"
-msgstr "Espèces"
-
-#. module: industry_restaurant
-#: model:account.journal,name:industry_restaurant.cash
-msgid "Cash (Restaurant)"
-msgstr "Espèces (Restaurant)"
-
-#. module: industry_restaurant
 #: model:product.template,name:industry_restaurant.product_product_56_product_template
 msgid "Cheese 250gr"
 msgstr "Fromage 250 g"
@@ -799,18 +789,13 @@ msgstr ""
 "\"Partager\"."
 
 #. module: industry_restaurant
-#: model:pos.payment.method,name:industry_restaurant.pos_payment_method_1
-msgid "Sodexo Card Payment"
-msgstr "Paiement par carte Sodexo"
-
-#. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
 "Start receiving orders directly in Odoo or go live with your <font "
 "class=\"text-o-color-1\"><strong>E-shop</strong></font> in a few minutes."
 msgstr ""
 "Commencez à recevoir des commandes directement dans Odoo ou lancez votre "
-"<font class=\"text-o-color-1\"><strong>eShop</strong></font> en quelques "
+"<font class=\"text-o-color-1\"><strong>E-shop</strong></font> en quelques "
 "minutes."
 
 #. module: industry_restaurant

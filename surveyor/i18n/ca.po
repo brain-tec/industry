@@ -79,6 +79,8 @@ msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 msgstr ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -86,6 +88,8 @@ msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
@@ -146,6 +150,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Assumpte</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -158,6 +164,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">El teu correu electrònic</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -165,6 +173,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">El teu nom</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -172,6 +182,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Question</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">La teva pregunta</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
 #: model:website.menu,name:surveyor.website_menu_9
@@ -262,6 +274,8 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                                                        We'll do our best to get back to you as soon as possible."
 msgstr ""
+"Contacta amb nosaltres si tens qualsevol consulta sobre la nostra empresa o els nostres serveis.<br/>\n"
+"                                                                        Farem tot el possible per respondre al més aviat possible."
 
 #. module: surveyor
 #: model:ir.actions.server,name:surveyor.action_add_call_next_activity_on_new_lead
