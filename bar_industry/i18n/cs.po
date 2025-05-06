@@ -23,7 +23,7 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
+msgstr ", a neváhejte"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -200,12 +200,12 @@ msgstr ""
 #. module: bar_industry
 #: model:uom.uom,name:bar_industry.uom_uom_1
 msgid "Bin"
-msgstr ""
+msgstr "Koš"
 
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_26_product_template
 msgid "Blond Beer"
-msgstr ""
+msgstr "Světlé pivo"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -229,7 +229,7 @@ msgstr ""
 #. module: bar_industry
 #: model:project.project,name:bar_industry.project_project_2
 msgid "Cleaning"
-msgstr ""
+msgstr "Čistění"
 
 #. module: bar_industry
 #: model:product.pricelist,name:bar_industry.product_pricelist_1
@@ -239,7 +239,7 @@ msgstr "Výchozí"
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Objevte více o Odoo a ponořte se do našeho"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -247,6 +247,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
+"Objevte základy tohoto balíčku a prozkoumejte všechny možnosti, které Odoo "
+"nabízí pro zlepšení vašich zkušeností."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -285,7 +287,7 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "Ahoj!"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -324,6 +326,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting "
 "App</font></strong>)"
 msgstr ""
+"Spravujte své účetnictví snadněji než kdykoli předtím díky plně "
+"integrovanému prostředí. (<strong><font class=\"text-o-color-1\">Aplikace "
+"Účetnictví</font></strong>)"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -344,6 +349,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"Samozřejmě se jedná pouze o přehled funkcí obsažených v tomto balíčku. "
+"Můžete přidávat nové aplikace, mazat/upravovat demo data a vše vyzkoušet!"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -358,6 +365,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong>"
 " <font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"Organizujte své události a spojte se se svými zákazníky prostřednictvím "
+"aplikace <strong> <font class=\"text-o-color-1\">Události</font></strong>."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -367,7 +376,7 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Kontaktujte nás"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -419,6 +428,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"Všechny jsou v rámci vašeho aktuálního předplatného zdarma, tak je můžete "
+"vyzkoušet! 🙃"
 
 #. module: bar_industry
 #: model:project.task.type,name:bar_industry.project_task_type_1
@@ -469,12 +480,12 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:web_tour.tour,rainbow_man_message:bar_industry.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr ""
+msgstr "Vítejte! Hodně štěstí při testování."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
+msgstr "Chcete s námi prodiskutovat nastavení Odoo nebo jít ještě dál?"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -482,6 +493,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
+"Všechny nainstalované aplikace v databázi Odoo jsou přístupné na hlavním "
+"ovládacím panelu."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -510,6 +523,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"Dokončili jste ukázkový případ použití! Existují miliony dalších způsobů, "
+"jak přizpůsobit nastavení Odoo vašim obchodním potřebám."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -546,11 +561,14 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
+"Měli byste být schopni projít následujícími postupy, abyste získali přehled "
+"o různých procesech, které lze s tímto balíčkem v Odoo rychle a snadno "
+"realizovat."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "akademie"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -570,4 +588,4 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "požádejte o demo"
