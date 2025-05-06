@@ -23,7 +23,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
+msgstr ", a neváhejte"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -192,7 +192,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "<strong>Basics:</strong>"
-msgstr ""
+msgstr "<strong>Základy:</strong>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -235,17 +235,17 @@ msgstr ""
 #. module: fast_food
 #: model:uom.uom,name:fast_food.uom_uom_1
 msgid "Bin"
-msgstr ""
+msgstr "Koš"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_59_product_template
 msgid "Blond Beer"
-msgstr ""
+msgstr "Světlé pivo"
 
 #. module: fast_food
 #: model:product.template,name:fast_food.product_product_55_product_template
 msgid "Butter"
-msgstr ""
+msgstr "Máslo"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -281,7 +281,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Objevte více o Odoo a ponořte se do našeho"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -289,6 +289,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
+"Objevte základy tohoto balíčku a prozkoumejte všechny možnosti, které Odoo "
+"nabízí pro zlepšení vašich zkušeností."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -327,7 +329,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "Ahoj!"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -389,6 +391,12 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
+"Spravujte všechny své komunikační kanály na jednom místě pomocí Odoo "
+"<strong><font class=\"text-o-color-1\">Automatizace "
+"marketingu</font></strong>, <strong><font class=\"text-o-color-1\">E-mailový"
+" marketing</font></strong>, <strong><font class=\"text-o-color-1\">Marketing"
+" v sociálních sítích</font></strong> a <strong><font class=\"text-o-"
+"color-1\">SMS marketing</font></strong>."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -404,6 +412,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting "
 "App</font></strong>)"
 msgstr ""
+"Spravujte své účetnictví snadněji než kdykoli předtím díky plně "
+"integrovanému prostředí. (<strong><font class=\"text-o-color-1\">Aplikace "
+"Účetnictví</font></strong>)"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -423,7 +434,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr ""
+msgstr "Odoo vám nabízí nekonečné možnosti, jako například:"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -432,6 +443,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"Samozřejmě se jedná pouze o přehled funkcí obsažených v tomto balíčku. "
+"Můžete přidávat nové aplikace, mazat/upravovat demo data a vše vyzkoušet!"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -451,6 +464,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong>"
 " <font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"Organizujte své události a spojte se se svými zákazníky prostřednictvím "
+"aplikace <strong> <font class=\"text-o-color-1\">Události</font></strong>."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -460,7 +475,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Kontaktujte nás"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -518,6 +533,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"Všechny jsou v rámci vašeho aktuálního předplatného zdarma, tak je můžete "
+"vyzkoušet! 🙃"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -559,12 +576,12 @@ msgstr ""
 #. module: fast_food
 #: model_terms:web_tour.tour,rainbow_man_message:fast_food.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr ""
+msgstr "Vítejte! Hodně štěstí při testování."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
+msgstr "Chcete s námi prodiskutovat nastavení Odoo nebo jít ještě dál?"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -572,6 +589,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
+"Všechny nainstalované aplikace v databázi Odoo jsou přístupné na hlavním "
+"ovládacím panelu."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -600,6 +619,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"Dokončili jste ukázkový případ použití! Existují miliony dalších způsobů, "
+"jak přizpůsobit nastavení Odoo vašim obchodním potřebám."
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -654,7 +675,7 @@ msgstr ""
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "akademie"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
@@ -669,9 +690,9 @@ msgstr "dokumentace"
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "if you need help! <br/>"
-msgstr ""
+msgstr "pokud potřebujete pomoc! <br/>"
 
 #. module: fast_food
 #: model_terms:ir.ui.view,arch_db:fast_food.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "požádejte o demo"
