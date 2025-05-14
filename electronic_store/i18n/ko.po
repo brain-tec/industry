@@ -3,17 +3,18 @@
 # 	* electronic_store
 # 
 # Translators:
-# Martin Trigaux, 2024
-# Wil Odoo, 2024
-# Daye Jeong, 2024
+# Martin Trigaux, 2025
+# Wil Odoo, 2025
+# Daye Jeong, 2025
+# Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-13 07:11+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Daye Jeong, 2024\n"
+"POT-Creation-Date: 2025-02-18 09:07+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +36,17 @@ msgstr "3년 보증 연장"
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
 msgid "73455 Twentynine Palms Highway,"
 msgstr "73455 Twentynine Palms Highway,"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"<font style=\"color: var(--color) !important;\">Assign serial numbers</font>"
+msgstr "<font style=\"color: var(--color) !important;\">일련번호 지정</font>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<font style=\"color: var(--color) !important;\">Go to the reception</font>"
+msgstr "<font style=\"color: var(--color) !important;\">접수로 이동</font>"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -220,6 +232,13 @@ msgstr ""
 "                                                                    <span class=\"s_website_form_mark\">*</span>"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"<strong style=\"font-weight: 500;\">Flow 4: Field Service Installation - "
+"AC</strong>"
+msgstr "<strong style=\"font-weight: 500;\">흐름 4: 현장 서비스 설치 - AC</strong>"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
 msgid ""
 "<strong>\n"
@@ -229,6 +248,21 @@ msgstr ""
 "<strong>\n"
 "                                        <font class=\"text-o-color-4\">축제 전용 혜택</font>\n"
 "                                    </strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 1. Purchase </strong>"
+msgstr "<strong>흐름 1. 매입</strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 2. Sale with serial number</strong>"
+msgstr "<strong>흐름 2. 일련번호로 판매</strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 3. Delivery</strong>"
+msgstr "<strong>흐름 3. 배송</strong>"
 
 #. module: electronic_store
 #: model:website.menu,name:electronic_store.website_menu_10
@@ -257,10 +291,19 @@ msgid "Add details about your intervention..."
 msgstr "중재에 관한 세부 정보 추가..."
 
 #. module: electronic_store
-#: model:documents.folder,name:electronic_store.documents_folder_7
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Add the products to the cart"
+msgstr "장바구니에 품목 담기"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "After completion of the work, update the remarks"
+msgstr "작업 완료 후 메모 업데이트"
+
+#. module: electronic_store
+#: model:documents.document,name:electronic_store.documents_folder_7
 #: model:product.template,name:electronic_store.product_product_1043_product_template
 #: model:project.project,name:electronic_store.project_project_3
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_4
 msgid "Air Conditioner Installation"
 msgstr "에어컨 설치"
 
@@ -295,6 +338,11 @@ msgid "Bruce Porter"
 msgstr "Bruce Porter"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Business Flow"
+msgstr "업무 흐름"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
 msgid "CA&amp; 92277"
 msgstr "CA&amp; 92277"
@@ -310,9 +358,29 @@ msgid "Cash (Electronic Store)"
 msgstr "현금 (전자 상점)"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Check with My Tasks"
+msgstr "내 작업에서 확인"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Click on the first delivery order"
+msgstr "첫 번째 배송지시서를 클릭합니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Click the \"validate\" barcode"
+msgstr "바코드 승인을 클릭합니다."
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
 msgid "Comments"
 msgstr "의견"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Confirm the RFQ"
+msgstr "견적요청서 확정"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -331,9 +399,34 @@ msgstr ""
 "                                             최대한 빨리 답변드릴 수 있도록 하겠습니다."
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Create a quotation with:"
+msgstr "다음 견적서를 생성합니다.:"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Create the purchase order"
+msgstr "매입발주서 만들기"
+
+#. module: electronic_store
 #: model:pos.payment.method,name:electronic_store.pos_payment_method_2
 msgid "Customer Account"
 msgstr "고객 계정"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Customer can register their complaint for the existing purchased products "
+"with serial numbers from the website:"
+msgstr "고객은 웹사이트에서 일련번호가 있는 기존 구매품에 대해 불만을 등록할 수 있습니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Customers are either visiting the store to discover new products, either "
+"exploring the webshop looking for great offers and discounts / cheapest "
+"costs,."
+msgstr "고객이 새로운 제품을 찾으려고 매장을 방문하거나, 웹사이트 매장을 둘러보며 각종 혜택 및 할인/최저가를 찾고 있습니다."
 
 #. module: electronic_store
 #: model:account.analytic.plan,name:electronic_store.account_analytic_plan_1
@@ -354,19 +447,92 @@ msgstr ""
 "위의 이미지를 삭제하거나 메시지를 삽입한 사진으로 바꾸꿉니다. <em>둥근 모서리</em> 스타일을 변경하려면 그림을 클릭합니다."
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Document - Guidelines of Installation"
+msgstr "문서 - 설치 지침"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1040_product_template
 msgid "Dyson Purifier Cool (White/Silver) - TP07"
 msgstr "다이슨 퓨리파이어 쿨 (화이트/실버) - TP07"
 
 #. module: electronic_store
-#: model:ir.actions.server,name:electronic_store.ir_act_server_1
-msgid "Execute Code"
-msgstr "코드 실행"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "ELECTRONICS STORE"
+msgstr "전자제품 매장"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Electronic Store"
+msgstr "전자제품 매장"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Enter the product <font style=\"color: rgb(156, 0, 255);\">LG Dual Inverter "
+"Window Air Conditioner</font>"
+msgstr "LG 듀얼 인버터 윈도우 에어컨<font style=\"color: rgb(156, 0, 255);\">제품 입력</font>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Every day, the logistic manager reserves products that should be delivered today (reservation is set to manual for this location, so that he has a control of what he wants to send today). If a delivery order should be delivered\n"
+"            today but products are not available, he informs the customer using the chatter on the delivery order."
+msgstr ""
+"매일 물류 관리자는 오늘 배송이 예정된 제품을 예약합니다(예약은 이 위치에 대해 수동으로 설정되어 있어 발송할 제품을 제어할 수 있음). 배송 주문이\n"
+"            오늘 배송되어야 하지만 제품을 사용할 수 없는 경우 배송 주문의 채팅 기능을 사용하여 고객에게 알립니다."
 
 #. module: electronic_store
 #: model:account.analytic.account,name:electronic_store.account_analytic_account_2
 msgid "Field Service"
 msgstr "현장 서비스"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Field service engineer checking daily activity with mobile app:"
+msgstr "현장 서비스 엔지니어가 모바일 앱으로 일일 활동을 확인합니다:"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Field service engineer will visit the client place and start working on "
+"installation."
+msgstr "현장 서비스 엔지니어가 고객사를 방문하여 설치 작업을 시작합니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Fill the form:"
+msgstr "양식을 작성합니다:"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 1. Purchase"
+msgstr "흐름 1. 구매"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 2. Sale with serial number"
+msgstr "흐름 2. 일련번호로 판매"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 3. Delivery"
+msgstr "흐름 3. 배송"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 4: Field Service Installation - AC"
+msgstr "흐름 4: 현장 서비스 설치 - AC"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 5: Website Complaint"
+msgstr "흐름 5: 웹사이트 불만 사항"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 6: POS Shopping"
+msgstr "흐름 6: POS 쇼핑"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
@@ -390,6 +556,16 @@ msgid "Frigidaire Top-Freezer Refrigerator"
 msgstr "프리지데어 탑 냉동고 냉장고"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "From the POS Shop:"
+msgstr "POS 상점에서:"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "From the website, click on the menu Helpdesk"
+msgstr "웹사이트에서 헬프데스크 메뉴를 클릭합니다."
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1036_product_template
 msgid "GE Profile Over-the-Range Microwave"
 msgstr "GE 프로필 오버레인지 전자레인지"
@@ -398,6 +574,16 @@ msgstr "GE 프로필 오버레인지 전자레인지"
 #: model:product.template,name:electronic_store.product_product_1047_product_template
 msgid "Gift Card"
 msgstr "기프트 카드"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Go to mobile odoo app \"Air Conditioner Installation\""
+msgstr "모바일 Odoo 앱 \"에어컨 설치\"로 이동합니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Go to project \"Air Conditioner Installation\""
+msgstr "프로젝트 중 \"에어컨 설치\"로 이동합니다."
 
 #. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_9
@@ -413,6 +599,12 @@ msgstr "가전제품"
 #: model:product.template,name:electronic_store.product_product_1039_product_template
 msgid "Honeywell QuietSet Tower Fan"
 msgstr "Honeywell QuietSet 타워형 팬"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"In the office, the service manager assigns tasks to installers. To do so"
+msgstr "사무실에서 서비스 관리자가 설치 담당자에게 작업을 배정합니다. 진행하려면"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.field_installation_date
@@ -487,6 +679,11 @@ msgid "LG Top-Load Washer with TurboWash"
 msgstr "터보워시가 탑재된 LG 탑로드 세탁기"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Let's buy some items that are tracked by serial numbers."
+msgstr "일련번호로 추적되는 몇 가지 품목을 구매해 보겠습니다."
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1027_product_template
 msgid "Maytag Front-Load Washer"
 msgstr "Maytag 드럼 세탁기"
@@ -504,6 +701,16 @@ msgid "Model Number"
 msgstr "모델 번호"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Move the task \"<font style=\"color: rgb(156, 0, 255);\">In "
+"Progress</font>\" and then \"<font style=\"color: rgb(156, 0, "
+"255);\">Done</font>\" when it's finished and sign the service report."
+msgstr ""
+"작업을 \"<font style=\"color: rgb(156, 0, 255);\">진행 중</font>\"으로 이동한 다음 완료되면 "
+"\"<font style=\"color: rgb(156, 0, 255);\">완료</font>\"로 이동하고 서비스 보고서에 서명합니다."
+
+#. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.x_name_record
 msgid "Name"
 msgstr "이름"
@@ -512,6 +719,16 @@ msgstr "이름"
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Next"
 msgstr "다음"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Odoo will generate 1 task for the Air Conditioner installation."
+msgstr "Odoo에서는 에어컨 설치용으로 1건의 작업을 생성합니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Once the order is confirmed:"
+msgstr "주문이 확정되면:"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
@@ -524,9 +741,19 @@ msgid "Panasonic Genius Sensor Microwave Oven"
 msgstr "파나소닉 지니어스 센서 전자렌지"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Plan to visit customer location"
+msgstr "고객 위치로 방문 계획 수립"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Previous"
 msgstr "이전"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Product wise guidelines and steps given for the Service Engineer"
+msgstr "서비스 엔지니어를 위한 제품별 가이드라인 및 단계 제시"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
@@ -539,10 +766,16 @@ msgid "Products on Tasks"
 msgstr "작업 제품"
 
 #. module: electronic_store
-#: model:documents.folder,name:electronic_store.documents_folder_10
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Provide the serial number <font style=\"color: rgb(156, 0, "
+"255);\">804KCPY43321</font>"
+msgstr "일련번호 <font style=\"color: rgb(156, 0, 255);\">804KCPY43321</font> 제공"
+
+#. module: electronic_store
+#: model:documents.document,name:electronic_store.documents_folder_10
 #: model:product.template,name:electronic_store.product_product_1042_product_template
 #: model:project.project,name:electronic_store.project_project_4
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_2
 msgid "Refrigerator Installation"
 msgstr "냉장고 설치"
 
@@ -565,6 +798,39 @@ msgstr "삼성 전자식 드럼 세탁기"
 #: model:product.template,name:electronic_store.product_product_1023_product_template
 msgid "Samsung Side-by-Side Refrigerator"
 msgstr "Samsung 양문형 냉장고"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Scan product <strong><font style=\"color: rgb(255, 0, 255);\">LG Dual "
+"Inverter Window Air Conditioner</font></strong>"
+msgstr ""
+"<strong><font style=\"color: rgb(255, 0, 255);\">LG 듀얼 인버터 윈도우 "
+"에어컨</font></strong>제품 스캔"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Scan the serial number"
+msgstr "일련번호 스캔"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Select any of the payment methods and proceed to the payment."
+msgstr "결제 방법 중 하나를 선택한 후 결제를 진행합니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Select product <strong><font style=\"color: rgb(156, 0, 255);\">LG Dual "
+"Inverter Window Air Conditioner</font></strong>"
+msgstr ""
+"<strong><font style=\"color: rgb(156, 0, 255);\"> LG 듀얼 인버터 윈도우 "
+"에어컨</font></strong>제품 선택"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Select the customer"
+msgstr "고객 선택하기"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
@@ -595,6 +861,16 @@ msgid "Submit a Ticket"
 msgstr "상담 요청"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Submit the ticket."
+msgstr "티켓을 제출합니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Switch tasks to Gantt view"
+msgstr "작업을 간트 보기로 전환"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1053_product_template
 msgid "TV LED"
 msgstr "TV LED"
@@ -612,9 +888,42 @@ msgid "Tasks"
 msgstr "작업"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "The delivery order will be created for the LG Dual Inverter"
+msgstr "LG 듀얼 인버터에 대한 배송 주문이 생성됩니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"The salesperson sets the \"expected delivery date\" based on customer "
+"availability"
+msgstr "영업 담당자는 고객이 가능한 날짜에 따라 \"예상 배송일\"을 설정합니다."
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Theia Hayward"
 msgstr "Theia Hayward"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Then, the worker processes all delivery orders that are ready, using the "
+"barcode interface. From delivery orders:"
+msgstr "그런 다음 작업자가 바코드 인터페이스를 통해 준비가 완료된 모든 배송 주문을 처리합니다. 배송 주문에서:"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"They generally require the functionalities of several apps to manage their "
+"business workflow."
+msgstr "일반적으로 비즈니스 워크플로우를 관리하기 위해서는 여러 가지 앱 기능이 필요합니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"This Business setup for Electronics store where they can sell their "
+"electronics items like Home Appliances, Kitchen Appliances, etc..."
+msgstr "가전제품, 주방용품 등의 전자제품을 판매할 수 있는 전자제품 매장을 위한 비즈니스 설정"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
@@ -625,6 +934,11 @@ msgid ""
 msgstr ""
 "네 번째 열을 추가하려면 각 블록의 오른쪽 아이콘을 사용하여 이 세 열의 크기를 줄이십시오. 그런 다음 열 중 하나를 복제하여 복사본으로"
 " 새 열을 만듭니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "To speed up the creation of the quotation, use a quotation template."
+msgstr "빠르게 견적서를 작성하려면 견적서 템플릿을 사용하세요."
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1034_product_template
@@ -643,6 +957,11 @@ msgid "Update warranty date on serial number"
 msgstr "일련번호의 보증 날짜 업데이트"
 
 #. module: electronic_store
+#: model:ir.actions.server,name:electronic_store.ir_act_server_1
+msgid "Update warranty date on serial number - Server Action"
+msgstr "일련번호 보증 날짜 업데이트 - 서버 작업"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
 msgid ""
 "Upgrade Your Gear: Black Friday's Tech Delights Await!. Bring home smart "
@@ -650,6 +969,21 @@ msgid ""
 msgstr ""
 "장비를 업그레이드하세요: 블랙 프라이데이의 혜택이 기다리고 있습니다! 블랙 프라이데이 특별 혜택이 제공되는 스마트 제품을 집으로 "
 "가져가세요."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Use Ship Later option before the checkout for shipping later"
+msgstr "결제 전에 나중에 배송 옵션을 선택하면 나중에 배송됩니다."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Use the magnifier 🔎 icon to select tasks to assign"
+msgstr "돋보기 🔎 아이콘을 사용하여 배정할 작업 선택"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Validate the Receipt"
+msgstr "입고 승인"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.new_field_to_set_warranty_month
@@ -679,6 +1013,21 @@ msgid "We are in good company."
 msgstr "우리는 좋은 회사에 있습니다."
 
 #. module: electronic_store
+#: model_terms:web_tour.tour,rainbow_man_message:electronic_store.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "환영합니다! 마음껏 둘러 보세요."
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"When selling electronics, most items are tracked with serial numbers. To "
+"deliver the installation service, we use the project management app, with "
+"one task per installation to do."
+msgstr ""
+"전자제품을 판매할 때 대부분의 품목은 일련번호를 통해 추적을 합니다. 설치 서비스를 진행할 경우 프로젝트 관리 앱을 사용하며, 설치당 "
+"하나의 작업이 수행됩니다."
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1024_product_template
 msgid "Whirlpool Bottom-Freezer Refrigerator"
 msgstr "월풀 하단 냉동고 냉장고"
@@ -699,6 +1048,11 @@ msgid "Wilson Holt"
 msgstr "Wilson Holt"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Worksheet will help for the installation report"
+msgstr "설치 보고서 작성에 참고할 수 있는 워크시트"
+
+#. module: electronic_store
 #: model:ir.actions.act_window,name:electronic_store.x_project_task_worksheet_template_1_ir_actions_act_window_1
 msgid "Worksheets"
 msgstr "작업 계획표"
@@ -708,14 +1062,30 @@ msgstr "작업 계획표"
 msgid ""
 "Write a quote here from one of your customers. Quotes are a great way to "
 "build confidence in your products or services."
-msgstr "고객 중 한 명이 여기에 견적을 작성합니다. 따옴표는 제품이나 서비스에 대한 자신감을 키울 수 있는 좋은 방법입니다."
+msgstr "고객 중 한 명이 여기에 견적을 작성합니다. 견적서는 제품이나 서비스에 대한 자신감을 키울 수 있는 좋은 방법입니다."
 
 #. module: electronic_store
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_1
-msgid "[REF-002] Samsung Side-by-Side Refrigerator"
-msgstr "[REF-002] 삼성 양문형 냉장고"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"payment term: <strong><font style=\"color: rgb(156, 0, 255);\">30 % Advance "
+"Rest on Installment</font></strong>"
+msgstr ""
+"지급 조건: <strong><font style=\"color: rgb(156, 0, 255);\">선납 30%, 잔여 금액 할부 "
+"결제</font></strong>"
 
 #. module: electronic_store
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_3
-msgid "[RW-Q18WWZA] LG Dual Inverter Window Air Conditioner"
-msgstr "[RW-Q18WWZA] LG 듀얼 인버터 창문형 에어컨"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"product: <strong><font style=\"color: rgb(156, 0, 255);\">Air Conditioner "
+"Installation</font></strong>"
+msgstr ""
+"제품: <strong><font style=\"color: rgb(156, 0, 255);\">에어컨 설치</font></strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"product: <strong><font style=\"color: rgb(156, 0, 255);\">LG Dual Inverter "
+"Window Air Conditioner </font></strong>"
+msgstr ""
+"제품: <strong><font style=\"color: rgb(156, 0, 255);\">LG 듀얼 인버터 윈도우 "
+"에어컨</font></strong>"

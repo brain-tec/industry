@@ -3,16 +3,16 @@
 # 	* bar_industry
 # 
 # Translators:
-# Malaz Abuidris <msea@odoo.com>, 2024
-# Wil Odoo, 2024
+# Wil Odoo, 2025
+# Malaz Abuidris <msea@odoo.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-04 14:54+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2025-02-14 14:14+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,6 +68,8 @@ msgid ""
 "2. To make it more interesting, feel free to create a second order. For this one, you can simulate an Happy Hour. To do so, click the \"More\" button in the order summary, and choose the pricelist \"Happy Hour\" instead of the Default one.\n"
 "                You will see that if you take twice the same drink, it'll cost half the price."
 msgstr ""
+"2. لجعل الأمر أكثر تشويقاً، لا تتردد في إنشاء طلب ثانٍ. في هذا الطلب، يمكنك محاكاة ”Happy Hour“. للقيام بذلك، اضغط على زر ”المزيد“ في ملخص الطلب، وقم بتحديد قائمة الأسعار ” Happy Hour“ عوضاً عن القائمة الافتراضية.\n"
+"                ستجد أنك إذا تناولت المشروب نفسه مرتين، سيكلفك ذلك نصف السعر. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -76,6 +78,9 @@ msgid ""
 "backend by clicking the \"Backend\" menu in the right corner, then switch to"
 " the Kitchen Display App."
 msgstr ""
+"3. بعد تقديم طلباتك، ألق نظرة على تطبيق شاشة المطبخ. قم بالذهاب إلى واجهتك "
+"الخلفية عن طريق الضغط على قائمة \"الواجهة الخلفية\" في الزاوية اليمنى، ثم "
+"انتقل إلى تطبيق شاشة المطبخ. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -101,6 +106,8 @@ msgid ""
 " can now mark as done either line by line, or the entire order by clicking "
 "on the top."
 msgstr ""
+"4. افتح شاشة التحضير. ستجد طلباتك هناك. يمكنك الآن تحديد الطلبات كجاهزة إما "
+"بنداً تلو الآخر أو عند اكتمال الطلب بأكمله عن طريق الضغط على الجزء العلوي. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -144,17 +151,17 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Basics:</strong></span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\"><strong>الأساسيات:</strong></span> "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\"><strong>أترغب في التعمق أكثر؟</strong></span>"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Use case:</strong></span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\"><strong>حالة استخدام:</strong></span>"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -183,7 +190,7 @@ msgstr ""
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "<strong><span class=\"display-4-fs\">Bar</span></strong><br/>"
-msgstr ""
+msgstr "<strong><span class=\"display-4-fs\">الحانة</span></strong><br/> "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -191,6 +198,8 @@ msgid ""
 "A free, personalized, integrated <strong><font class=\"text-o-color-1\">Website</font></strong> in a few clicks. Start receiving orders directly in Odoo or go live with your \n"
 "                        <strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">موقع إلكتروني</font></strong> مجاني ومخصص ومتكامل ببضع نقرات. ابدأ في تلقي الطلبات مباشرةً في أودو، أو أطلِق\n"
+"                        <strong><font class=\"text-o-color-1\">متجرك الإلكتروني</font></strong> خلال دقائق قليلة. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -211,12 +220,17 @@ msgstr "الشريط "
 #. module: bar_industry
 #: model:planning.role,name:bar_industry.planning_role_3
 msgid "Bar & Service"
-msgstr ""
+msgstr "الحانة والخدمات "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Basics:"
 msgstr "الأساسيات "
+
+#. module: bar_industry
+#: model:uom.uom,name:bar_industry.uom_uom_1
+msgid "Bin"
+msgstr "صندوق "
 
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_26_product_template
@@ -243,6 +257,8 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products."
 msgstr ""
+"عند رفع البيانات التجريبية لهذا التطبيق، سيتم ملء قاعدة البيانات الخاصة بك "
+"ببضع منتجات تجريبية. "
 
 #. module: bar_industry
 #: model:project.project,name:bar_industry.project_project_2
@@ -454,6 +470,8 @@ msgid ""
 "The <strong><font class=\"text-o-color-1\">Kitchen Display</font></strong> "
 "will ensure a great follow up of every order in your bar and kitchen."
 msgstr ""
+"ستضمن <strong><font class=\"text-o-color-1\">شاشة المطبخ</font></strong> "
+"متابعة رائعة لكل طلب في الحانة والمطبخ. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -486,6 +504,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong>"
 " to manage your stock and receive products."
 msgstr ""
+"استخدم <strong><font class=\"text-o-color-1\">تطبيق المخزون</font></strong> "
+"لإدارة مخزونك واستلام المنتجات. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -493,6 +513,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Planning App</font></strong> "
 "to schedule your shifts and share it with your employees."
 msgstr ""
+"استخدم <strong><font class=\"text-o-color-1\">تطبيق التخطيط</font></strong> "
+"لجدولة نوبات عملك ومشاركتها مع موظفيك. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -501,6 +523,9 @@ msgid ""
 " for your sales at the desk. You can also download the Odoo Mobile App on "
 "any phone to take orders."
 msgstr ""
+"استخدم <strong><font class=\"text-o-color-1\">نقطة البيع</font></strong> عند"
+" مكتب المبيعات الخاص بك. يمكنك أيضاً تنزيل تطبيق أودو على الهاتف المحمول على"
+" أي هاتف لتلقي الطلبات. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -508,6 +533,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Project App</font></strong> "
 "to never miss a reordering or a cleaning task."
 msgstr ""
+"استخدم <strong><font class=\"text-o-color-1\">تطبيق المشاريع</font></strong>"
+" لكي لا تفوت أبداً مهمة التنظيف أو إعادة الطلب. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -515,6 +542,13 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
 "to reorder your products."
 msgstr ""
+"استخدم <strong><font class=\"text-o-color-1\">تطبيق "
+"المشتريات</font></strong> لإعادة طلب منتجاتك. "
+
+#. module: bar_industry
+#: model_terms:web_tour.tour,rainbow_man_message:bar_industry.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "أهلاً وسهلاً بك! نتمنى لك رحلة استكشافية سعيدة. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -536,6 +570,9 @@ msgid ""
 "You can easily edit the floor map by clicking \"Edit plan\" in the top-right"
 " menu when on the table selection of your Point of Sale."
 msgstr ""
+"بإمكانك تعديل خريطة الطابق بسهولة من خلال النقر على \"تعديل الخطة\" في "
+"القائمة الموجودة في أعلى اليمين أثناء وجودك في خطوة اختيار الجدول في نقطة "
+"البيع الخاصة بك."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -552,6 +589,8 @@ msgid ""
 "You can see that there is a reordering rule configured for this product if "
 "you go to Inventory  &amp;gt; Products  &amp;gt; Blond Beer"
 msgstr ""
+"ستجد أنه توجد قاعدة إعادة طلب تمت تهيئتها لهذا المنتج في المخزون > المنتجات "
+"> البيرة "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -559,8 +598,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"لقد أكملت حالة الاستخدام التجريبية هذه! هناك ملايين الطرق الأخرى لتكييف "
-"إعدادات Odoo لتناسب احتياجات عملك. "
+"لقد أكملت حالة الاستخدام التوضيحية هذه! توجد ملايين الطرق الأخرى لتكييف "
+"إعدادات أودو لتناسب احتياجات عملك. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -579,6 +618,9 @@ msgid ""
 "Industries  &amp;gt; Upgrade your Bar  &amp; Pub package and check the "
 "related box"
 msgstr ""
+"لم تقم باستيراد البيانات التجريبية؟ لا يزال بإمكانك القيام بذلك. اذهب إلى "
+"التطبيقات ثم قطاعات العمل ثم قم بترقية باقة الحانة الخاصة بك وقم بتحديد "
+"المربع ذو الصلة. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -592,6 +634,8 @@ msgid ""
 "You just installed the Odoo for Bar package. By doing so, we have installed "
 "a bunch of necessary apps to run your bar efficiently."
 msgstr ""
+"لقد قمت للتو بتثبيت باقة أودو للحانات. وبذلك تكون قد قمت بتثبيت مجموعة من "
+"التطبيقات الضرورية لتشغيل الحانة الخاصة بك بكفاءة. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -599,9 +643,9 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"يجب أن تكون قادرًا على تنفيذ التدفقات التالية للحصول على نظرة عامة على "
-"التدفقات المختلفة التي يمكنك تنفيذها بسرعة باستخدام هذه الحزمة باستخدام "
-"Odoo. "
+"من المفترض أن تكون قادراً على تنفيذ العمليات التالية حتى تحصل على نظرة عامة "
+"على الإجراءات المختلفة التي يمكنك تنفيذها بسرعة باستخدام هذه الباقة باستخدام"
+" أودو. "
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body

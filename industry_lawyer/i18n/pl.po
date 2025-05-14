@@ -3,15 +3,16 @@
 # 	* industry_lawyer
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Odoo, 2025
+# Marta Wacławek, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 10:00+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2025-03-27 14:30+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,345 +21,1073 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ", and feel free to"
+msgstr "i nie wahaj się"
+
+#. module: industry_lawyer
+#: model:documents.document,name:industry_lawyer.documents_document_1
+msgid "10_1.pdf"
+msgstr "10_1.pdf"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"<b>Book a consultation online</b>\n"
-"                                            <br/>"
+"2.2. Retainer\n"
+"A retainer of [amount]€ is required upon signing this agreement. This amount will be deducted from the final billing."
 msgstr ""
+"2.2. Zaliczka\n"
+"W momencie podpisania niniejszej umowy wymagana jest zaliczka w wysokości [amount]€. Kwota ta zostanie odliczona od końcowego rozliczenia."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<em><strong>Milestone: </strong>First Hearing</em>"
+msgstr "<em><strong>Kamień milowy: </strong>Pierwsza rozprawa</em>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"<b>Lawyers &amp;amp; associates</b>\n"
-"                                    <br/>"
+"<em><strong>Tasks</strong>: Prepare Legal Arguments, Review Submissions and "
+"Arguments from Opposing Counsel</em>"
 msgstr ""
+"<em><strong>Zadania</strong>: Przygotowanie argumentacji prawnej, analiza "
+"pism procesowych oraz argumentów przedstawionych przez stronę przeciwną</em>"
 
 #. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_6_product_template
-msgid "Administration fees"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<em>Example:</em>"
+msgstr "<em>Przykład:</em>"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Aline Turner, Immigration lawyer"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"display-1-fs\">⚖️</span>"
+msgstr "<span class=\"display-1-fs\">⚖️</span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h1-fs\"><strong>Basics</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>Podstawy</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>Czy chcesz przejść dalej?</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Use Case</strong></span>"
+msgstr "<span class=\"h2-fs\"><strong>Przypadek użycia</strong></span>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h1-fs\">Odoo for Law Firms</span></strong>"
+msgstr "<strong><span class=\"h1-fs\">Odoo dla firm prawniczych</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Managing documents:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">Zarządzanie dokumentami:</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Managing projects:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">Zarządzanie projektami:</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong><span class=\"h4-fs\">Tracking time:</span></strong>"
+msgstr "<strong><span class=\"h4-fs\">Monitorowanie czasu:</span></strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Invoice Clients</strong>"
+msgstr "<strong>Fakturowanie klientów</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Aline is one of the iconic people in life who can say they love what\n"
-"                                                    they do. She acquired experience in immigration law and human rights\n"
-"                                                    law thanks to several experiences in the non-profit sector. She\n"
-"                                                    worked as a legal adviser in nationality law with the Objectif\n"
-"                                                    non-profit."
+"<strong>Invoice the client</strong>: Compile logged hours, document "
+"preparation costs, and travel expenses into the invoice."
 msgstr ""
+"<strong>Wystaw fakturę klientowi</strong>: Zawrzyj na fakturze "
+"zarejestrowane godziny, koszty przygotowania dokumentów i koszty przejazdów."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Log your time</strong> directly in the 'Timesheet' tab of a specific"
+" task, or use the timer to track the time spent on that task."
+msgstr ""
+"<strong>Zarejestruj swój czas</strong> bezpośrednio w zakładce \"Ewidencja "
+"czasu\" konkretnego zadania, lub skorzystaj z timera, aby śledzić czas "
+"spędzony na tym zadaniu."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Log your time</strong>: Track hours spent on each task in the "
+"Timesheet tab."
+msgstr ""
+"<strong>Zarejestruj swój czas</strong>: Monitoruj godziny spędzone na każdym"
+" zadaniu w zakładce Ewidencja czasu."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Manage documents</strong>: Upload and organize case documents in the"
+" project’s document folder."
+msgstr ""
+"<strong>Zarządzaj dokumentami</strong>: Przesyłaj i organizuj dokumenty "
+"sprawy w zakładce dokumenty w konkretnym projekcie. "
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Manage tasks</strong> by organizing them into stages such as 'To "
+"Do,' 'In Progress,' and 'Done' to keep track of progress."
+msgstr ""
+"<strong>Zarządzaj zadaniami</strong> organizując je w etapy, takie jak \"Do "
+"zrobienia\", \"W toku\" i \"Gotowe\", aby monitorować postęp."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Manage your agenda with the calendar app</strong>"
+msgstr "<strong>Zarządzaj swoim harmonogramem w aplikacji kalendarz</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Open a new client case</strong>"
+msgstr "<strong>Otwórz nową sprawę klienta</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Open the case</strong>: Create a new project for the case."
+msgstr "<strong>Otwórz sprawę</strong>: Stwórz nowy projekt dla sprawy."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Organize case files in projects and documents</strong>"
+msgstr "<strong>Organizuj pliki sprawy w projektach i dokumentach</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Organize tasks</strong>: Set up tasks for the case, such as "
+"\"Document Drafting\" and \"Legal Research.\""
+msgstr ""
+"<strong>Organizuj zadania</strong>: Skonfiguruj zdania dla sprawy, takie jak"
+" \"Sporządzanie dokumentów\" i \"Analiza prawna\"."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Schedule the first consultation</strong>: Add a consultation with "
+"John Doe to your calendar."
+msgstr ""
+"<strong>Zaplanuj pierwszą konsultację</strong>: Dodaj konsultację z Janem "
+"Testowym do swojego kalendarza."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Steps to create a new case:</strong>"
+msgstr "<strong>Kroki do stworzenia nowej sprawy:</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"<strong>Synchronizing external calendars:</strong> If lawyers or secretaries"
+" use tools like Google Calendar or Outlook, follow these steps to sync them "
+"with Odoo:"
+msgstr ""
+"<strong>Synchronizacja z zewnętrznymi kalendarzami:</strong> Jeśli prawnicy "
+"lub sekretarki używają narzędzi, takich jak Kalendarz Google lub Outlook, "
+"skorzystaj z tych kroków, aby zsynchronizować je z Odoo:"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>Workflow Example</strong>"
+msgstr "<strong>Przykład przebiegu pracy</strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "<strong>👉 </strong>"
+msgstr "<strong>👉 </strong>"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"A free, personalized, integrated<strong><font class=\"text-o-color-1\"> "
+"Website </font></strong>in a few clicks. Get new clients or direct "
+"appointment online in a few clicks."
+msgstr ""
+"Bezpłatna, spersonalizowana i zintegrowana <strong><font class=\"text-o-"
+"color-1\">Strona internetowa</font></strong> w kilka kliknięć. Łatwo "
+"pozyskuj nowych klientów, lub bezpośrednie spotkania online."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"APPLICABLE LAW AND JURISDICTION\n"
+"This agreement is governed by Belgian law. Any disputes will be submitted to the courts of [city]."
+msgstr ""
+"PRAWO WŁAŚCIWE I JURYSDYKCJA\n"
+"Niniejsza umowa podlega prawu belgijskiemu. Wszelkie spory będą rozstrzygane przez sądy właściwe dla [city]."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"ATTORNEY'S OBLIGATIONS\n"
+"The Attorney commits to:"
+msgstr ""
+"ZOBOWIĄZANIA PRAWNIKA\n"
+"Prawnik zobowiązuje się:"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Access documents via the <strong>smart button</strong> on the project page; "
+"each project automatically generates a dedicated folder for organizing case-"
+"related documents."
+msgstr ""
+"Uzyskaj dostęp do dokumentów przy użyciu <strong>inteligentnego "
+"przycisku</strong> na stronie projektu; każdy projekt automatycznie generuje"
+" dedykowany folder do organizowania dokumentów powiązanych ze sprawą."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Adapt your <strong>Terms &amp; Conditions</strong> directly on the "
+"quotation, and the customers will be able to sign it through their Odoo "
+"portal, or create or use the template of the <strong>Engagement "
+"Letter</strong> in the <strong>Sign App</strong>, and request the client's "
+"signature for the agreement."
+msgstr ""
+"Dostosuj swoje <strong>Warunki i Zasady</strong> bezpośrednio w ofercie,\n"
+" a klienci będą mogli je podpisać za pośrednictwem swojego portalu Odoo. Możesz także utworzyć lub skorzystać z gotowego szablonu <strong>Listu Intencyjnego</strong> w aplikacji <strong>Podpisy</strong> i poprosić klienta o podpisanie umowy."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Add documents directly to project folder within the <strong>Documents "
+"app</strong>, or on the tasks or projects themselves."
+msgstr ""
+"Dodawaj dokumenty bezpośrednio do folderu projektu w <strong>aplikacji "
+"Dokumenty</strong>, lub w samych zadaniach albo projektach."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Administrative costs: 80€/hour"
+msgstr "Koszty administracyjne: 80€/h"
 
 #. module: industry_lawyer
 #: model:product.template,name:industry_lawyer.product_product_8_product_template
-msgid "Audience with a colleague"
-msgstr ""
+msgid "Administrative fees"
+msgstr "Koszty administracyjne"
 
 #. module: industry_lawyer
-#: model:documents.folder,name:industry_lawyer.documents_folder_9
-msgid "Base Project"
-msgstr ""
-
-#. module: industry_lawyer
-#: model:project.project,name:industry_lawyer.project_project_2
-msgid "Base project"
-msgstr ""
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_2_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_1
-msgid "Case opening"
-msgstr ""
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_5_product_template
-msgid "Consultation"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Contact us and find out why."
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Domains"
-msgstr ""
-
-#. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_7_product_template
-msgid "Down payment"
-msgstr "Zaliczka"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Excellence since 2008"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Excellence, privacy and reliability are the corner\n"
-"                                                    stones\n"
-"                                                    of our services."
+"Alternatively, you can access the Timesheet app via the <strong>smart button"
+" </strong>on the project page to view an overview of timesheets related to "
+"that project, with the same option available for a specific task."
 msgstr ""
+"Alternatywnie możesz przejść do aplikacji Ewidencja czasu pracy, korzystając"
+" z <strong>inteligentnego przycisku</strong> na stronie projektu, aby "
+"wyświetlić zestawienie przepracowanych godzin powiązanych z tym projektem. "
+"Ta sama opcja jest dostępna również na poziomie konkretnego zadania."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Expropriation law"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Assign <strong>responsible users</strong>."
+msgstr "Przypisz <strong>odpowiedzialnych użytkowników</strong>."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Family reunification"
-msgstr ""
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Avoid any conflicts of interest"
+msgstr "Unikaj konfliktu interesów"
 
 #. module: industry_lawyer
-#: model_terms:appointment.type,message_intro:industry_lawyer.appointment_type_1
-msgid "Fee: 100€<br>Check our domains of competences on our website."
-msgstr ""
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Base hourly rate for a Junior Lawyer: 120€/hour"
+msgstr "Podstawowa stawka godzinowa młodszego prawnika: 120€/h"
 
 #. module: industry_lawyer
-#: model_terms:appointment.type,message_intro:industry_lawyer.appointment_type_2
-msgid "Fee: 100€<br>The fee includes the opening of the case."
-msgstr ""
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Base hourly rate for a Senior Lawyer: 200€/hour"
+msgstr "Podstawowa stawka godzinowa starszego prawnika: 200€/h"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Founder and chief visionary, Tony is the driving force behind the\n"
-"                                                    cabinet."
+"By creating an invoice for the quotation, you can record the down payment "
+"based on a percentage of the total or a fixed amount (e.g., €1000, upfront "
+"for the Legal Services)."
 msgstr ""
+"Tworząc fakturę na podstawie oferty, możesz zarejestrować zaliczkę obliczoną"
+" jako procent kwoty całkowitej lub jako wartość stałą (no. 1000€, płatne z "
+"góry za usługi prawne)."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Help you throughout your procedure and provide you\n"
-"                                                    our\n"
-"                                                    experience at an affordable price."
+"By uploading this module's demo data, your database has been filled with a "
+"few contacts."
 msgstr ""
+"Przesyłając dane demo tego modułu, Twoja baza danych została wypełniona "
+"kilkoma kontaktami."
 
 #. module: industry_lawyer
-#: model:appointment.type,name:industry_lawyer.appointment_type_1
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Immigration"
-msgstr ""
-
-#. module: industry_lawyer
-#: model:documents.folder,name:industry_lawyer.documents_folder_8
-#: model:project.project,name:industry_lawyer.project_project_1
-msgid "Internal"
-msgstr "Wewnętrzne"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Iris Joe, Public Rights lawyer"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Is it possible to obtain a residence permit for my parents, for a person\n"
-"                                                with whom I am not married, for a minor under guardianship, for a\n"
-"                                                homosexual couple, for a dependent…? Every individual has, in principle,\n"
-"                                                the right to live with their family. However this right is not absolute."
+"By using this module, you’ll gain access to essential features such as case "
+"management, invoicing, and time tracking. These tools streamline the "
+"workflow from initial consultations to billing, allowing law firms to focus "
+"on delivering high-quality legal services."
 msgstr ""
+"Korzystając z tego modułu, zyskasz dostęp do niezbędnych funkcji takich jak "
+"zarządzanie sprawami, fakturowanie i monitorowanie czasu. Narzędzia te "
+"ułatwiają przepływ pracy od konsultacji wstępnych po wystawianie rachunku, "
+"pozwalając firmom prawniczym skupić się na dostarczaniu wysokiej jakości "
+"usług."
 
 #. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_1_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_2
-msgid "Lawyer fees"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Learn more"
-msgstr "Dowiedz się więcej"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Mich Stark, Founder"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"Mich loves taking on challenges. With his multi-year experience as\n"
-"                                                    lawyer in Immigration, Mich has helped the cabinet to get where it\n"
-"                                                    is today. Mich is among the best minds."
+"CLIENT'S OBLIGATIONS\n"
+"The Client commits to:"
 msgstr ""
+"ZOBOWIĄZANIA KLIENTA\n"
+"Klient zobowiązuje się do:"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model:project.project,name:industry_lawyer.project_project_3
+msgid "Case Template"
+msgstr "Szablon sprawy"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Our cabinet is born in 2008 at the initiative of our founders, Lawyers &amp;amp;\n"
-"                                            Associates, from a desire to provide a new center of excellence in our\n"
-"                                            domains,\n"
-"                                            Immigration and Civil Rights. Since then, we have helped over 1500 clients\n"
-"                                            in\n"
-"                                            their\n"
-"                                            procedure."
+"Centralize all case activities and documents using the "
+"<strong>Project</strong> and <strong>Documents</strong> apps."
 msgstr ""
+"Scentralizuj wszystkie działania i dokumenty związane ze sprawą korzystając "
+"z aplikacji <strong>Projekt</strong> oraz <strong>Dokumenty</strong>."
 
 #. module: industry_lawyer
-#: model:website.menu,name:industry_lawyer.website_menu_9
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Our lawyers"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our mission"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our team"
-msgstr "Nasz zespół"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Our values"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Pharmaceutical law"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Pharmaceutics are not perfect, and in some extreme cases, they can have a\n"
-"                                                tremendous impact on the life of people. We guide you through your\n"
-"                                                procedure and help us clair your rights."
+"Centralize case files and tasks with the <strong><font class=\"text-o-"
+"color-1\">Project &amp; Documents App</font>.</strong>"
 msgstr ""
+"Scentralizuj wszystkie pliki i zadania związane ze sprawą w <strong><font "
+"class=\"text-o-color-1\">aplikacjach Projekt i Dokumenty</font></strong>."
 
 #. module: industry_lawyer
-#: model:appointment.type,name:industry_lawyer.appointment_type_2
-msgid "Public Right"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Public right"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Researcher"
-msgstr ""
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "Schedule an appointment"
-msgstr "Zaplanuj spotkanie"
-
-#. module: industry_lawyer
-#: model:website.menu,name:industry_lawyer.website_menu_10
-msgid "Services"
-msgstr "Usługi"
-
-#. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Some people have difficulties obtaining the equivalence of their diploma\n"
-"                                                or don’t know whether the solicited higher education institution allows\n"
-"                                                to be granted a visa or residence permit in Belgium."
+"Check other lawyers’ availability by selecting their calendars to coordinate"
+" meetings."
 msgstr ""
+"Sprawdź dostępność innych prawników, wybierając ich kalendarze, aby "
+"zaplanować spotkania."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model:sign.template,redirect_url_text:industry_lawyer.sign_template_7
+msgid "Close"
+msgstr "Zamknij"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Strict legal conditions must be met in order to be considered a <strong>\n"
-"                                                researcher\n"
-"                                            </strong> and to be eligible for a work and residence permit.\n"
-"                                                If you are a foreigner and wish to obtain a residence permit in the <strong>\n"
-"                                                United States\n"
-"                                            </strong> as part of a study, research, or academical service, carefully\n"
-"                                                prepare your file and ask for advice from specialized lawyers."
+"Confirm the Sale Order, which will automatically generate the related "
+"<strong>Project</strong> and <strong>Tasks</strong>."
+msgstr ""
+"Potwierdź Zamówienie Sprzedaży, które automatycznie wygeneruje powiązany "
+"<strong>Projekt</strong> i <strong>Zadania</strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Confirm the quotation to generate an invoice automatically."
+msgstr "Potwierdź ofertę, aby automatycznie wygenerować fakturę."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Cooperate in good faith"
+msgstr "Współpracuj w dobrej wierze"
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_2
+#: model:project.tags,name:industry_lawyer.project_tags_1
+msgid "Corporate Law"
+msgstr "Prawo korporacyjne"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Create a Sale Order from scratch or use the<strong> Standard Lawyer Service "
+"Quotation</strong> template."
+msgstr ""
+"Stwórz Zamówienie Sprzedaży od podstaw, lub skorzystaj z szablonu "
+"<strong>Wyceny standardowych usług prawniczych</strong>."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"DATA PROTECTION\n"
+"Personal data processing is conducted in accordance with GDPR and the firm's privacy policy."
+msgstr ""
+"OCHRONA DANYCH\n"
+"Przetwarzanie danych osobowych przebiega w zgodzie z RODO i polityką prywatności firmy."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Discover more about Odoo by diving into our"
+msgstr "Odkryj więcej na temat Odoo, zapoznając się z naszą"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_3
+msgid "Done"
+msgstr "Wykonano"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Ease your invoicing process with the <strong><font class=\"text-o-"
+"color-1\">Invoice App</font></strong>."
+msgstr ""
+"Uprość swój proces fakturowania z <strong><font class=\"text-o-"
+"color-1\">aplikacją Fakturowanie</font></strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Easily create and manage a new case for your client using Odoo’s streamlined"
+" workflow."
+msgstr ""
+"Z łatwością stwórz nową sprawą klienta i zarządzaj nią, korzystając z "
+"ułatwionego przepływu pracy Odoo."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Ensure every billable hour and expense is accurately accounted for and "
+"invoiced."
+msgstr ""
+"Upewnij się, że każda rozliczana godzina i wydatek są poprawnie zaksięgowane"
+" i zafakturowane."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"FEES AND EXPENSES\n"
+"2.1. Calculation Basis\n"
+"Fees are calculated according to the following terms:"
+msgstr ""
+"OPŁATY I WYDATKI\n"
+"2.1. Podstawa wyliczenia\n"
+"Opłaty są wyliczane na podstawie następujących zasad:"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"FILE RETENTION AND DOCUMENT STORAGE\n"
+"Files will be retained for 5 years after the end of the engagement. Beyond this period, they may be destroyed unless expressly requested otherwise by the Client."
+msgstr ""
+"PRZECHOWYWANIE PLIKÓW I DOKUMENTACJI\n"
+"Pliki będą przechowywane przez 5 lat po zakończeniu współpracy. Po upływie tego okresu mogą zostać zniszczone, o ile Klient nie zażąda ich dalszego przechowywania."
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_1
+msgid "Family Law"
+msgstr "Prawo rodzinne"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Final payment: Once the case is closed, invoice the client for the remaining"
+" balance based on the time tracked in the timesheets."
+msgstr ""
+"Płatność końcowa: Po zamknięciu sprawy wystaw klientowi fakturę na pozostałą"
+" kwotę na podstawie czasu zarejestrowanego w ewidencji czasu pracy."
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "GENERAL TERMS AND CONDITIONS OF ENGAGEMENT"
+msgstr "OGÓLNE WARUNKI I ZASADY WSPÓŁPRACY"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Google Calendar Integration"
+msgstr "Integracja Kalendarza Google"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "How to build your court bundle:"
+msgstr "Jak stworzyć pakiet sądowy:"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Implement best expertise"
+msgstr "Wdrażaj specjalistyczną wiedzę"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_2
+msgid "In Progress"
+msgstr "W toku"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Inform the Attorney of any relevant changes"
+msgstr "Poinformuj Adwokata o wszelkich istotnych zmianach"
+
+#. module: industry_lawyer
+#: model:hr.job,name:industry_lawyer.hr_job_2
+msgid "Junior Associate"
+msgstr "Młodszy Współpracownik"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_10_product_template
+msgid "Junior Legal Services"
 msgstr ""
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
-msgid "Students"
+#: model:crm.stage,name:industry_lawyer.stage_lead_1
+msgid "KYC Assessment"
+msgstr "Weryfikacja klienta (KYC)"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"LIABILITY\n"
+"The Attorney maintains professional liability insurance with [insurance company name]."
 msgstr ""
+"ODPOWIEDZIALNOŚĆ\n"
+"Adwokat posiada ubezpieczenie od odpowiedzialności zawodowej z [Nazwa firmy ubezpieczeniowej]"
 
 #. module: industry_lawyer
-#: model:project.project,label_tasks:industry_lawyer.project_project_1
-#: model:project.project,label_tasks:industry_lawyer.project_project_2
-msgid "Tasks"
-msgstr "Zadania"
+#: model:hr.job,name:industry_lawyer.hr_job_3
+msgid "Legal Assistant"
+msgstr "Asystent prawny"
 
 #. module: industry_lawyer
-#: model_terms:appointment.type,message_confirmation:industry_lawyer.appointment_type_1
-msgid "Thank you for your trust !"
+#: model:product.template,name:industry_lawyer.product_product_12_product_template
+msgid "Legal Services"
+msgstr "Usługi prawne"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Link each user’s external calendar to the Odoo Calendar app."
 msgstr ""
+"Połącz zewnętrzny kalendarz każdego użytkownika z aplikacją Kalendarz Odoo."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
-msgid "Tony Fred, Founder"
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"MEDIATION\n"
+"In case of dispute, parties commit to attempting mediation before any legal action."
 msgstr ""
+"MEDIACJA\n"
+"W przypadku dysputy, strony zobowiązują się do mediacji przed podjęciem działań prawnych."
 
 #. module: industry_lawyer
-#: model:product.template,name:industry_lawyer.product_product_4_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_4
-msgid "Travelling expenses"
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Maintain attorney-client privilege"
+msgstr "Zachowaj tajemnicę adwokacką"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Make and receive calls, and send SMS or WhatsApp messages directly through "
+"Odoo by adding our <font class=\"text-o-color-1\"><strong>VoIP and WhatsApp "
+"module</strong></font>."
+msgstr ""
+"Wykonuj i odbieraj połączenia, wysyłaj SMS lub wiadomości WhatsApp "
+"bezpośrednio w Odoo, dodając nasz <font class=\"text-o-"
+"color-1\"><strong>moduł VoIP i WhatsApp</strong></font>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage client assessment with <strong><font class=\"text-o-color-1\">CRM "
+"App</font></strong> and handle quotations and contracts with <font "
+"class=\"text-o-color-1\"><strong>Sales App</strong></font>."
+msgstr ""
+"Zarządzaj oceną klienta za pomocą <strong><font class=\"text-o-"
+"color-1\">aplikacji CRM</font></strong> oraz obsługuj oferty i umowy przy "
+"użyciu <font class=\"text-o-color-1\"><strong>aplikacji "
+"Sprzedaż</strong></font>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage your accounting easier than ever with a completely integrated "
+"environment thanks to our <strong><font class=\"text-o-color-1\">Accounting "
+"App</font></strong>."
+msgstr ""
+"Zarządzaj swoją księgowością łatwiej niż kiedykolwiek dotąd w kompletnie "
+"zintegrowanym środowisku dzięki naszej <strong><font class=\"text-o-"
+"color-1\">Aplikacji Księgowość</font></strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Manage your team's and integrate them in all processes by adding "
+"the<strong><font class=\"text-o-color-1\"> Employees App</font></strong>."
+msgstr ""
+"Zarządzaj swoim zespołem i angażuj ich we wszystkie procesy dodając "
+"<strong><font class=\"text-o-color-1\">aplikację Pracownicy</font></strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Manually add a new line to register time on specific tasks if needed."
+msgstr ""
+"Dodaj nową linię ręcznie, aby w razie potrzeby rejestrować czas na "
+"konkretnych zadaniach."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Mark your essential documents as favorites."
+msgstr "Oznacz swoje niezbędne dokumenty jako ulubione."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Merge them into a single document, ready to be submitted to the judge."
+msgstr "Scal je w jeden dokument, gotowy do przesłania sędzi."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Navigate to <strong>Settings &gt; Calendar &gt; Sync External "
+"Calendar</strong>."
+msgstr ""
+"Przejdź na <strong>Ustawień &gt; Kalendarz &gt; Zsynchronizuj zewnętrzny "
+"kalendarz</strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Odoo is entirely integrated into an App. Download it to turn your phone to "
+"manage your entire business in it."
+msgstr ""
+"Odoo jest całkowicie zintegrowane w jednej aplikacji. Pobierz ją na telefon "
+"i zarządzaj całą swoją firmą."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Of course, this is just an overview of the features included in this "
+"package. Feel free to add new apps, delete/modify demo data, and test "
+"everything around!"
+msgstr ""
+"Oczywiście, to tylko przegląd funkcji zawartych w tym pakiecie. Śmiało "
+"dodawaj nowe aplikacje, usuwaj/modyfikuj dane demo i testuj wszystko, co "
+"chcesz!"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the <strong>Calendar</strong> app."
+msgstr "Otwórz aplikację <strong>Kalendarz</strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the <strong>Timesheet</strong> app."
+msgstr "Otwórz aplikację <strong>Ewidencja czasu pracy</strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Open the related <strong>Project</strong>."
+msgstr "Otwórz powiązany <strong>Projekt</strong>."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Organize tasks by Milestones and assign specific dates to key stages in the "
+"case."
+msgstr ""
+"Organizuj zadania według Kamieni milowych i przypisuj konkretne daty "
+"kluczowym etapom w sprawie."
+
+#. module: industry_lawyer
+#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_6
+msgid "Other Costs"
+msgstr "Inne koszty"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Outlook Integration"
+msgstr "Integracja Outlook"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Pay fees within agreed timeframes"
+msgstr "Uiszczaj opłaty w umówionych ramach czasowych"
+
+#. module: industry_lawyer
+#: model:project.project,name:industry_lawyer.project_project_5
+msgid "Procedural Request - Drafting and Filing "
 msgstr ""
 
 #. module: industry_lawyer
 #: model:product.template,name:industry_lawyer.product_product_3_product_template
-#: model:sale.order.template.line,name:industry_lawyer.sale_order_template_line_3
-msgid "Typed pages"
+msgid "Procedural request - Drafting and Filing"
 msgstr ""
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "We advocate for your rights"
-msgstr ""
+#: model:project.project.stage,name:industry_lawyer.project_project_stage_5
+msgid "Project Templates"
+msgstr "Szablony projektów"
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Provide all necessary information and documents"
+msgstr "Dostarcz wszystkie niezbędne informacje i dokumenty"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Refer to the following guides for detailed steps:"
+msgstr "Szczegółowe instrukcje znajdziesz w poniższych przewodnikach:"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Regularly inform the Client of case developments"
+msgstr "Regularnie informuj klienta o postępach w sprawie"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid ""
-"We have built a strong team of lawyers with\n"
-"                                                    renowned\n"
-"                                                    experience in our domains."
+"SCOPE OF ENGAGEMENT\n"
+"The Client engages the Attorney to provide legal counsel and/or court representation. The Attorney commits to implementing all necessary means to best defend the Client's interests."
 msgstr ""
+"ZAKRES WSPÓŁPRACY\n"
+"Klient zleca Prawnikowi świadczenie usług doradztwa prawnego i/lub reprezentację przed sądem. Prawnik zobowiązuje się do podjęcia wszelkich niezbędnych działań w celu jak najlepszego zabezpieczenia interesów Klienta."
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.our_services
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Schedule a demo"
+msgstr "Zaplanuj demo"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"Whether you are landlord that want to execute an expropriation, or a\n"
-"                                                tenant that needs to be defended against an abusive expropriation, our\n"
-"                                                experienced lawyers can help."
+"Schedule your meetings, deadlines, or court appearances by clicking on an "
+"empty time slot."
 msgstr ""
+"Zaplanuj swoje spotkania, terminy lub wystąpienia w sądzie klikając w pusty "
+"przedział czasowy. "
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.about_us
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Select all your favorite documents."
+msgstr "Zaznacz wszystkie swoje ulubione dokumenty."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Send the invoice directly to the client from Odoo."
+msgstr "Wyślij fakturę do klienta bezpośrednio z Odoo."
+
+#. module: industry_lawyer
+#: model:hr.job,name:industry_lawyer.hr_job_1
+msgid "Senior Lawyer"
+msgstr "Starszy Prawnik"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_11_product_template
+msgid "Senior Legal Services"
+msgstr "Usługi młodszego prawnika"
+
+#. module: industry_lawyer
+#: model:crm.tag,name:industry_lawyer.crm_tag_3
+#: model:project.tags,name:industry_lawyer.project_tags_2
+msgid "Social Law"
+msgstr "Prawo Społeczne"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid ""
-"With a Master’s degree in public and administrative law and a\n"
-"                                                    Bachelor’s degree in criminology, Iris Joe decided to take the next\n"
-"                                                    step in her career. In January 2017, she joined the cabinet for her\n"
-"                                                    internship to become legal counsel.\n"
-"\n"
-"                                                    <br/>"
+"Stay organized by keeping track of all appointments, deadlines, and internal"
+" tasks using the Calendar app. Legal assistants can easily assign meetings "
+"by accessing the calendars of individual lawyers."
+msgstr ""
+"Zachowaj porządek, śledząc wszystkie spotkania, terminy i wewnętrzne zadania"
+" za pomocą aplikacji Kalendarz. Asystenci prawni mogą z łatwością "
+"przydzielać spotkania, korzystając z dostępu do kalendarzy poszczególnych "
+"prawników."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Streamline legal research and collaboration with the<strong><font "
+"class=\"text-o-color-1\"> Knowledge App</font> </strong>by centralizing case"
+" law, legal texts, and internal guides for efficient retrieval, "
+"collaboration, and compliance."
 msgstr ""
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "brown wooden smoking pipe on white surface"
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid ""
+"TERMINATION\n"
+"Either party may terminate the engagement with 15 days written notice, subject to payment for services already rendered."
+msgstr ""
+"ZAKOŃCZENIE\n"
+"Każda ze stron może zakończyć współpracę za 15-dniowym pisemnym wypowiedzeniem, pod warunkiem zapłaty za już wykonane usługi."
+
+#. module: industry_lawyer
+#: model:project.project,label_tasks:industry_lawyer.project_project_3
+#: model:project.project,label_tasks:industry_lawyer.project_project_5
+msgid "Tasks"
+msgstr "Zadania"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"The <strong><font class=\"text-o-color-1\">Calendar App</font></strong> "
+"manages your schedule and appointments."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">Aplikacja Kalendarz</font></strong> "
+"zarządza Twoim harmonogramem i spotkaniami."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"The <strong><font class=\"text-o-color-1\">Timesheet App</font></strong> "
+"tracks billable hours and time spent."
+msgstr ""
+"<strong><font class=\"text-o-color-1\">Aplikacja Ewidencja czasu "
+"pracy</font></strong> monitoruje rozliczane godziny i przepracowany czas."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"The Sign App offers <strong>three levels of signatures</strong>, allowing "
+"you to choose the appropriate level based on the document’s importance and "
+"legal requirements."
 msgstr ""
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "low angle photography of beige building"
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"This ensures that appointments made outside of Odoo automatically appear in "
+"the Odoo calendar."
+msgstr ""
+"To zapewni, że spotkania odbywające się poza Odoo automatycznie pojawią się "
+"w kalendarzu Odoo."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"This module provides a comprehensive suite of tools designed specifically "
+"for law firms, enabling efficient management of time, appointments, "
+"deadlines, cases, and client relationships. Lawyers represent their clients "
+"and protect their interests during legal proceedings."
+msgstr ""
+"Ten moduł zapewnia kompleksowy zestaw narzędzi zaprojektowanych specjalnie "
+"dla firm prawniczych, pozwalający na efektywne zarządzanie czasem, "
+"spotkaniami, terminami, sprawami sądowymi i relacjami z klientami. Prawnicy "
+"reprezentują swoich klientów i bronią ich interesów podczas procesów "
+"sądowych."
+
+#. module: industry_lawyer
+#: model_terms:product.template,description:industry_lawyer.product_product_12_product_template
+msgid ""
+"This product will be used to bill clients for the time spent by lawyers on "
+"legal services, based on the number of hours worked as tracked through "
+"<strong>Timesheets</strong>."
 msgstr ""
 
 #. module: industry_lawyer
-#: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
-msgid "three women sitting beside table"
+#: model:project.tags,name:industry_lawyer.project_tags_3
+msgid "Timesheet Task"
+msgstr "Mierz czas zadania"
+
+#. module: industry_lawyer
+#: model:project.task.type,name:industry_lawyer.project_task_type_1
+msgid "To Do"
+msgstr "Do zrobienia"
+
+#. module: industry_lawyer
+#: model:product.template,name:industry_lawyer.product_product_7_product_template
+msgid "Travel Expenses"
+msgstr "Wydatki na dojazd"
+
+#. module: industry_lawyer
+#: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
+msgid "Travel expenses: 80€/hour"
+msgstr "Wydatki na dojazd: 80€/h"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>CRM app</strong> to manage client interactions and conduct "
+"the required <strong>Know Your Customer (KYC) assessment</strong> before "
+"accepting a case."
 msgstr ""
+"Używaj <strong>aplikacji CRM</strong> do zarządzania interakcjami z klientem"
+" i przeprowadzania wymaganej <strong>weryfikacji klienta (KYC)</strong> "
+"przed przyjęciem sprawy."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>Sign App</strong> to request a signature from the partner to"
+" approve the completed legal documents before delivery and invoicing the "
+"client."
+msgstr ""
+"Korzystaj z <strong>aplikacji Podpisy</strong>, aby poprosić o podpis od "
+"partnera, aby zaakceptował zebrane akty prawne przed dostarczeniem i "
+"zafakturowaniem klienta."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the <strong>timer functionality</strong> to track time spent on a "
+"specific client case."
+msgstr ""
+"Korzystaj z <strong>funkcji timera</strong>, aby monitorować czas spędzony "
+"na konkretnej sprawie klienta."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Use the<strong> <font class=\"text-o-color-1\">Sign App</font></strong> to "
+"securely sign engagement letters and legal documents, ensuring clear "
+"agreements before or after legal work."
+msgstr ""
+"Korzystaj z <strong><font class=\"text-o-color-1\">aplikacji "
+"Podpisy</font></strong>, aby bezpiecznie podpisywać listy intencyjne i "
+"dokumenty prawne, zapewniając przejrzyste ustalenia przed rozpoczęciem lub "
+"po zakończeniu usług prawnych."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Using down payment for provision:"
+msgstr ""
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"Welcome to the <strong><font class=\"text-o-color-1\">Odoo Law Firm "
+"package</font></strong>!"
+msgstr ""
+"Witamy w <strong><font class=\"text-o-color-1\">pakiecie Kancelarii "
+"Adwokackiej Odoo</font></strong>!"
+
+#. module: industry_lawyer
+#: model_terms:web_tour.tour,rainbow_man_message:industry_lawyer.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "Witaj! Miłego zwiedzania."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"With the Appointment app, you can easily schedule client meetings by sharing"
+" a booking link. Clients can select a time directly from your calendar that "
+"works for both of you, saving time and avoiding back-and-forth "
+"communication."
+msgstr ""
+"Dzięki aplikacji Spotkania możesz z łatwością umawiać spotkania z klientami,"
+" udostępniając im link do rezerwacji. Klienci mogą samodzielnie wybrać "
+"dogodny termin bezpośrednio z Twojego kalendarza, co pozwala zaoszczędzić "
+"czas i uniknąć zbędnej wymiany wiadomości."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr ""
+"Czy chciałbyś omówić swoją konfigurację Odoo z nami lub pójść o krok dalej?"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You can access every installed App in your Odoo database on your main "
+"dashboard."
+msgstr ""
+"Z konsoli głównej możesz przejść do każdej Aplikacji zainstalowanej w Twojej"
+" bazie danych Odoo."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You can set up a <strong>Billing Time Target per month</strong> per employee"
+" to keep track of billable hours and ensure targets are met."
+msgstr ""
+"Możesz skonfigurować <strong>Cel naliczania czasu na miesiac</strong> według"
+" pracownika, aby mieć przegląd rozliczanych godzin i zapewnić, że cele są "
+"osiągane."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You completed that demo use case! There are millions of other ways to adapt "
+"your Odoo setup to fit your business needs."
+msgstr ""
+"Ukończyłeś tę sprawę demo! Istnieją miliony innych sposobów, aby dostosować "
+"konfigurację Odoo do potrzeb Twojego biznesu."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
+" &gt; Upgrade your Law Firm package and check the related box."
+msgstr ""
+"Nie zaimportowałeś danych demo? Nadal możesz to zrobić. Przejdź do Aplikacje"
+" &gt; Gałęzie przemysłu &gt; Zaktualizuj swój pakiet Kancelarii Adwokackiej "
+"i zaznacz odpowiednie pole."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid ""
+"You should be able to execute the following flows to have an overview of "
+"various flows you can quickly execute with this package using Odoo."
+msgstr ""
+"Wykonaj poniższe procesy, aby zobaczyć, jakie działania możesz szybko "
+"przeprowadzić z tym pakietem w Odoo."
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "academy"
+msgstr "akademią"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "and"
+msgstr "i"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "documentation"
+msgstr "dokumentacja"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "if you need help!"
+msgstr "jeśli potrzebujesz pomocy!"
+
+#. module: industry_lawyer
+#: model:documents.document,name:industry_lawyer.documents_document_2
+msgid "lettre-de-mission-altalaw-01-04-2018-.pdf"
+msgstr "lettre-de-mission-altalaw-01-04-2018-.pdf"
+
+#. module: industry_lawyer
+#: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
+msgid "request a demo"
+msgstr "poprosić o demo"

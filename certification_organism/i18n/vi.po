@@ -3,22 +3,67 @@
 # 	* certification_organism
 # 
 # Translators:
-# Thi Huong Nguyen, 2024
-# Wil Odoo, 2024
+# Thi Huong Nguyen, 2025
+# Wil Odoo, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 09:28+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2024-10-08 10:25+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "1) Get opportunities from your website"
+msgstr "1) Nhận cơ hội từ trang web"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "2) Transform your opportunities into sales deals 💪"
+msgstr "2) Biến cơ hội thành các giao dịch bán hàng 💪"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "3) Confirm your Sales Order"
+msgstr "3) Xác nhận Đơn bán hàng"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "4) Time to plan your Field Service task"
+msgstr "4) Tạo nhiệm vụ dịch vụ hiện trường"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "5) Time to get this certification done 🚀"
+msgstr "5) Hoàn thành chứng nhận 🚀"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "6) Send the certification to the customer ✉️"
+msgstr "6) Gửi chứng nhận cho khách hàng ✉️"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "7) Time to get your money 💰"
+msgstr "7) Nhận tiền 💰"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "8) Analyze your performance &amp;amp; track your profitability"
+msgstr "8) Phân tích hiệu suất và theo dõi lợi nhuận của bạn"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "9) Ready to go one step further?"
+msgstr "9) Bạn đã sẵn sàng tiến xa hơn chưa?"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -50,7 +95,7 @@ msgstr ""
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
 msgid "<span class=\"s_website_form_label_content\">City</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Thành phố</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -60,7 +105,7 @@ msgstr "<span class=\"s_website_form_label_content\">Số điện thoại</span>
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
 msgid "<span class=\"s_website_form_label_content\">Street</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Đường</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -106,13 +151,60 @@ msgstr ""
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
 msgid "<span class=\"s_website_form_label_content\">Zip</span>"
+msgstr "<span class=\"s_website_form_label_content\">Mã zip</span>"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "<strong>Expand your business</strong> with the following apps:"
+msgstr "<strong>Thúc đẩy hoạt động kinh doanh</strong> với các ứng dụng sau:"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Accounting"
+msgstr "Kế toán"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"After seeing how wonderful your website is, potential leads can contact you "
+"through a <strong>website form</strong> for more information about your "
+"services."
 msgstr ""
+"Sau khi thấy trang web tuyệt vời của bạn, lead có thể liên hệ thông qua "
+"<strong>biểu mẫu trên trang web</strong> để tìm hiểu thêm thông tin về các "
+"dịch vụ mà bạn cung cấp."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Alright, let's fill in this <strong>worksheet</strong>!"
+msgstr "Hãy điền <strong>bảng công tác</strong> này!"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Analyze the <strong>profitability</strong> of your services with "
+"<strong>project updates</strong>. (Install the 'Accounting' app and enable "
+"the 'Analytic Accounting' feature.)"
+msgstr ""
+"Phân tích <strong>lợi nhuận</strong> của các dịch vụ của bạn với <strong>cập"
+" nhật dự án</strong>. (Cài đặt ứng dụng 'Kế toán' và bật tính năng 'Kế toán "
+"phân tích'.)"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_file_installatio_2cc1cd0a-1f0c-473e-93ff-cfbf112ce880
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Annexes"
+msgstr "Phụ lục"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"At last, <strong>send a message</strong> to your customer informing them of "
+"the scheduled date of their intervention from the chatter of your task."
 msgstr ""
+"Cuối cùng, <strong>gửi tin nhắn</strong> cho khách hàng để thông báo cho họ "
+"về ngày dự kiến ​​tiến hành cuộc xử lý từ cửa sổ trò chuyện trong nhiệm vụ "
+"của bạn."
 
 #. module: certification_organism
 #: model:crm.tag,name:certification_organism.crm_tag_6
@@ -123,7 +215,7 @@ msgstr "B2B"
 #: model:crm.tag,name:certification_organism.crm_tag_4
 #: model:project.tags,name:certification_organism.project_tags_2
 msgid "B2C"
-msgstr ""
+msgstr "B2C"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_20
@@ -144,7 +236,7 @@ msgstr "Chứng nhận"
 #. module: certification_organism
 #: model:product.template,name:certification_organism.product_product_3_product_template
 msgid "Charging Station Certification"
-msgstr ""
+msgstr "Chứng nhận trạm sạc"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -152,13 +244,34 @@ msgid ""
 "Circuit\n"
 "                            Breaker Bandwidth Test"
 msgstr ""
+"Kiểm tra\n"
+"băng thông của máy cắt mạch"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_38c7f1b2-1c72-4cad-a3bd-0089bf65f4e1
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Circuit Breaker Bandwidth Test"
+msgstr "Kiểm tra băng thông của máy cắt mạch"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Click on the ➕ icon to create new tasks, or the 🔍 icon to <strong>schedule "
+"existing tasks</strong>."
 msgstr ""
+"Nhấp vào biểu tượng ➕ để tạo nhiệm vụ mới hoặc biểu tượng 🔍 để <strong>lên "
+"lịch cho các nhiệm vụ hiện có</strong>."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Click on the<strong> 'New Quotation' </strong>button from your CRM "
+"opportunity. <strong>Send it to your customer by email</strong> once it's "
+"ready."
+msgstr ""
+"Nhấp vào nút <strong>'Báo giá mới'</strong> từ cơ hội CRM của bạn. "
+"<strong>Gửi báo giá cho khách hàng qua email</strong> khi đã sẵn sàng."
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_html_installatio_59802a97-4667-42d4-8658-f04a466fb512
@@ -186,6 +299,8 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                                                        We'll do our best to get back to you as soon as possible."
 msgstr ""
+"Hãy liên hệ khi bạn gặp bất cứ vấn đề nào liên quan đến công ty hoặc dịch vụ của chúng tôi.<br/>\n"
+"                                    Chúng tôi sẽ cố gắng phản hồi trong thời gian sớm nhất."
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_many2one_install_63f73c9f-d07b-45e8-bb81-0078b7fb97be
@@ -200,6 +315,8 @@ msgid ""
 "Control\n"
 "                            Date"
 msgstr ""
+"Ngày\n"
+"kiểm soát"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -207,6 +324,8 @@ msgid ""
 "Control\n"
 "                            Location"
 msgstr ""
+"Vị trí\n"
+"kiểm soát"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -214,6 +333,8 @@ msgid ""
 "Control\n"
 "                            Type"
 msgstr ""
+"Loại hình\n"
+"kiểm soát"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_date_installatio_bea4dd93-6b43-412f-8b05-a0364fa90293
@@ -226,20 +347,41 @@ msgstr "Ngày kiểm soát"
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_5a396d3d-7953-4770-a4b7-a69459e388f1
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid "Control Location"
-msgstr ""
+msgstr "Vị trí kiểm soát"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_selection_instal_4d4b88fd-9b8d-43c4-ac2b-baf736781d26
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Control Type"
+msgstr "Loại hình kiểm soát"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Create as many templates as you need from the 'Configuration &amp;gt; "
+"Worksheet Templates' menu. Here, we would recommend creating one template "
+"<strong>per type of certification</strong>."
 msgstr ""
+"Tạo nhiều mẫu tùy theo nhu cầu của bạn từ menu 'Cấu hình &amp;gt; Mẫu bảng "
+"công tác'. Ở đây, chúng tôi khuyên bạn nên tạo một mẫu <strong>cho mỗi loại "
+"chứng nhận</strong>."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_3
 msgid "Created on"
 msgstr "Được tạo vào"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Curious to get <strong>customer feedback</strong> on your services? Enable "
+"the 'Customer Ratings' feature in the settings of Project."
+msgstr ""
+"Bạn có muốn nhận <strong>phản hồi của khách hàng</strong> về dịch vụ của "
+"mình không? Hãy bật tính năng 'Đánh giá của khách hàng' trong phần cài đặt "
+"Dự án."
 
 #. module: certification_organism
 #: model:account.analytic.plan,name:certification_organism.account_analytic_plan_1
@@ -251,21 +393,21 @@ msgstr "Mặc định"
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Diagrams"
-msgstr ""
+msgstr "Biểu đồ"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_fa307386-1f6a-4b86-bd5b-94d072589284
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Differential Protection"
-msgstr ""
+msgstr "Bảo vệ vi sai"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_1d268a1f-8476-496a-84b0-42153d64d396
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Distribution Network Provider"
-msgstr ""
+msgstr "Nhà cung cấp mạng lưới phân phối"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_3
@@ -286,6 +428,8 @@ msgid ""
 "Email\n"
 "                            Address"
 msgstr ""
+"Địa chỉ\n"
+"                            email"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_7ac1d42b-d321-4e8e-9aa8-f6d19f01a153
@@ -305,13 +449,97 @@ msgid ""
 "Fixed\n"
 "                            Material"
 msgstr ""
+"Vật liệu\n"
+"cố định"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_9210cacd-48ce-4e3e-b4e7-efc01c3fc7bd
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Fixed Material"
+msgstr "Vật liệu cố định"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"From the <strong>map view</strong>, your agents see where they need to head "
+"for their interventions of the day. This visual aid will also help you plan "
+"tasks so that each agent covers a specific area."
 msgstr ""
+"Từ <strong>chế độ xem bản đồ</strong>, các nhân viên của bạn sẽ thấy họ cần "
+"phải đi đâu để thực hiện các cuộc xử lý trong ngày. Công cụ hỗ trợ trực quan"
+" này cũng sẽ giúp bạn lập kế hoạch nhiệm vụ để mỗi nhân viên phụ trách một "
+"khu vực nhất định."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Get an <strong>overview of the ratings</strong> you are receiving from the "
+"'Field Service &amp;gt; Reporting &amp;gt; Customer Ratings' menu."
+msgstr ""
+"Xem <strong>tổng quan về đánh giá</strong> bạn nhận được từ menu 'Dịch vụ "
+"hiện trường &amp;gt; Báo cáo &amp;gt; Đánh giá của khách hàng'."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Get reporting on the various fields you are tracking during your "
+"interventions. Identify recurring sources of issues and detect warning signs"
+" of future potential issues."
+msgstr ""
+"Nhận báo cáo về các lĩnh vực khác nhau mà bạn đang theo dõi trong quá trình "
+"xử lý. Xác định các nguồn vấn đề thường xuyên xảy ra và phát hiện các dấu "
+"hiệu cảnh báo về các vấn đề tiềm ẩn trong tương lai."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go back to the Quotation you had previously created, and hit that "
+"'<strong>Confirm</strong>' button. Your Quotation is now a <strong>Sales "
+"Order.</strong>"
+msgstr ""
+"Quay lại Báo giá bạn đã tạo trước đó và nhấn nút '<strong>Xác "
+"nhận</strong>'. Báo giá của bạn sẽ trở thành <strong>Đơn bán hàng</strong>."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to 'Configuration &amp;gt; Worksheet Templates' and click on "
+"'<strong>Analysis</strong>' from your '<strong>Worksheet Template</strong>' "
+"form view."
+msgstr ""
+"Đi đến 'Cấu hình &amp;gt; Mẫu bảng công tác' và nhấp vào '<strong>Phân "
+"tích</strong>' từ chế độ xem biểu mẫu '<strong>Mẫu bảng công tác</strong>' "
+"của bạn."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to 'Dashboards &amp;gt; Projects' to get an overview of your tasks. <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\">Use predefined </span>\n"
+"                    <span style=\"color: inherit; font-style: normal; background-color: inherit;\"><strong>dashboards</strong></span>\n"
+"                    <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\"> or build your own with the advanced reporting engine. Share filters with the team.</span>"
+msgstr ""
+"Truy cập 'Trang chủ &amp;gt; Dự án' để xem tổng quan về các nhiệm vụ của bạn. <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\">Sử dụng </span>\n"
+"                    <span style=\"color: inherit; font-style: normal; background-color: inherit;\"><strong>trang chủ</strong></span>\n"
+"                    <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\"> được xác định trước hoặc tự tạo trang chủ của riêng bạn bằng công cụ báo cáo nâng cao. Chia sẻ bộ lọc với bộ phận.</span>"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to Reporting &amp;gt; <strong>Tasks Analysis</strong> to get statistics "
+"on your tasks and to analyze the performance of your projects."
+msgstr ""
+"Đi đến Báo cáo &amp;gt; <strong>Phân tích nhiệm vụ</strong> để lấy số liệu "
+"thống kê về nhiệm vụ của bạn và phân tích hiệu suất dự án."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to the 'Configuration &amp;gt; Stages' menu. Then define a '<strong>Rating Email Template</strong>' on your 'Done' stage (or any other one you'd like). This will automatically send a <strong>rating request</strong> to the\n"
+"                    customer once the task reaches this stage."
+msgstr ""
+"Đi đến menu 'Cấu hình &amp;gt; Giai đoạn'. Sau đó, xác định '<strong>Mẫu email đánh giá</strong>' ở giai đoạn 'Hoàn tất' (hoặc bất kỳ giai đoạn nào khác mà bạn muốn). Thao tác này sẽ tự động gửi <strong>lời mời đánh giá</strong> đến\n"
+"                        khách hàng khi nhiệm vụ đạt đến giai đoạn này."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -319,13 +547,15 @@ msgid ""
 "Ground\n"
 "                            Resistance (Ω)"
 msgstr ""
+"Điện trở\n"
+"đất (Ω)"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_e3180eac-14c7-407d-8954-87d9f5bce7c6
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Ground Resistance (Ω)"
-msgstr ""
+msgstr "Điện trở đất (Ω)"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -333,11 +563,13 @@ msgid ""
 "Grounded\n"
 "                            Socket"
 msgstr ""
+"Ổ cắm\n"
+"nối đất"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_4fcfeac5-d596-4291-a9b9-ad0e519d1671
 msgid "Grounded Socket"
-msgstr ""
+msgstr "Ổ cắm nối đất"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -345,18 +577,50 @@ msgid ""
 "Grounding\n"
 "                            Diagram"
 msgstr ""
+"Sơ đồ\n"
+"nối đất"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_909d67ad-c9bf-4dbe-a309-25678cac2316
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Grounding Diagram"
+msgstr "Sơ đồ nối đất"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Guide to the Certification Auditors Industry"
+msgstr "Hướng Dẫn Cho Ngành Kiểm Tra Chứng Nhận"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Here, we will be <strong>invoicing</strong> our customer after our intervention is done (see the 'Invoicing Policy' defined as 'Based on Delivered Quantity (Manual)'. However, you could also bill your customer right away by\n"
+"                    configuring the 'Invoicing Policy' as 'Fixed Price/Prepaid'."
 msgstr ""
+"Tại đây, bạn sẽ <strong>lập hóa đơn</strong> cho khách hàng sau khi hoàn tất cuộc xử lý (xem 'Chính sách lập hóa đơn' là 'Dựa trên số lượng đã giao (Thủ công)'. Tuy nhiên, bạn cũng có thể lập hóa đơn cho khách hàng ngay lập tức bằng cách\n"
+"cấu hình 'Chính sách lập hóa đơn' là 'Giá cố định/Trả trước'."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Human Resources"
+msgstr "Nhân sự"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_2
 msgid "In Progress"
 msgstr "Đang thực hiện"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"In this article, you will discover how to best use Odoo to fit your needs. "
+"We will go from the first customer contact all the way to invoicing them "
+"your services. Let's go 🚀"
+msgstr ""
+"Trong bài viết này, bạn sẽ khám phá cách sử dụng Odoo hiệu quả nhất cho phù "
+"hợp với nhu cầu của mình. Chúng ta sẽ đi từ lần liên hệ đầu tiên với khách "
+"hàng cho đến khi lập hóa đơn dịch vụ của bạn cho họ. Bắt đầu nào! 🚀"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_14
@@ -366,39 +630,64 @@ msgstr "Hộp thư đến"
 #. module: certification_organism
 #: model:ir.model,name:certification_organism.x_control_charging_station_ir_model_1
 msgid "Installation Control of Residential Charging Stations"
-msgstr ""
+msgstr "Kiểm soát lắp đặt trạm sạc dân dụng"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_date_installatio_efbdb6ce-50de-48e4-8992-1f5e72e65380
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Installation Date"
-msgstr ""
+msgstr "Ngày lắp đặt"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_html_installatio_b8a358e7-77a4-4e10-8e7c-91584f9401a0
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Installation Description"
-msgstr ""
+msgstr "Mô tả lắp đặt"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_many2one_install_a963bdf3-1118-458a-b056-85422bafe0ec
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Installer"
-msgstr ""
+msgstr "Thợ lắp đặt"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_c533a573-29b4-4d52-9721-11aa04014346
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid "Isolation"
-msgstr ""
+msgstr "Cách điện"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_18
 msgid "Later"
 msgstr "Để sau"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Let's <strong>create and confirm the invoice</strong> 🙌"
+msgstr "Hãy <strong>tạo và xác nhận hoá đơn</strong> 🙌"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Let's move to the 'Planning by User' menu in Field Service. From the "
+"<strong>Gantt view</strong>, you see at a glance the agents that are "
+"<strong>available</strong> (notice that Fiona is off this week 🏖️)."
+msgstr ""
+"Hãy chuyển đến menu 'Lập kế hoạch theo Người dùng' trong Dịch vụ hiện "
+"trường. Từ <strong>chế độ xem Gantt</strong>, bạn có thể thấy ngay các nhân "
+"viên <strong>sẵn sàng</strong> (lưu ý rằng Fiona nghỉ làm tuần này 🏖️)."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Luckily, our customer was amazed by our offer and accepted it. We can thus "
+"<strong>mark our CRM opportunity as won</strong> 🥳"
+msgstr ""
+"Thật may là khách hàng đã rất vui vẻ với báo giá và chấp nhận báo giá này. "
+"Do đó, chúng ta có thể <strong>đánh dấu cơ hội CRM là đã đạt</strong> 🥳"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_many2one_install_414eae17-7a9f-4a2f-858c-36218ca2a64c
@@ -408,18 +697,25 @@ msgid "Manufacturer"
 msgstr "Nhà sản xuất"
 
 #. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Marketing"
+msgstr "Marketing"
+
+#. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid ""
 "Max.\n"
 "                            Protection"
 msgstr ""
+"Bảo vệ\n"
+"tối đa"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_e8935d3c-93ab-4b0c-bd54-6ffe77c00882
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Max. Protection"
-msgstr ""
+msgstr "Bảo vệ tối đa"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -427,6 +723,8 @@ msgid ""
 "Meter\n"
 "                            Number"
 msgstr ""
+"Mã\n"
+"công tơ"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_5f0f247a-a0c8-4fcc-b2e5-5a60d2904967
@@ -457,13 +755,15 @@ msgid ""
 "Nameplate\n"
 "                            Capacity (kW)"
 msgstr ""
+"Công suất\n"
+"thiết bị (kW)"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_7be3783d-b74a-4eda-8671-130e1c312bbf
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Nameplate Capacity (kW)"
-msgstr ""
+msgstr "Công suất thiết bị (kW)"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_0
@@ -476,13 +776,49 @@ msgid ""
 "Next\n"
 "                            Control Before"
 msgstr ""
+"Lần kiểm soát\n"
+"tiếp theo trước"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_date_installatio_879fcac2-2f44-4d3f-b789-b1f61e97edef
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Next Control Before"
+msgstr "Lần kiểm soát tiếp theo trước"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Notice how the <strong>service</strong> we are offering has been configured:"
 msgstr ""
+"Lưu ý cách <strong>dịch vụ</strong> chúng ta cung cấp đã được cấu hình:"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Now that the certification is complete and sent to the customer, we can "
+"<strong>mark the task as done</strong>."
+msgstr ""
+"Giờ đây, chứng nhận đã hoàn thành và được gửi đến khách hàng, chúng ta có "
+"thể <strong>đánh dấu nhiệm vụ là đã hoàn tất</strong>."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Now, <strong>register their payment</strong>. (Note: your customer can also "
+"directly pay from their portal 💡)"
+msgstr ""
+"Bây giờ, hãy <strong>ghi nhận thanh toán của họ</strong>. (Lưu ý: khách hàng"
+" cũng có thể thanh toán trực tiếp từ cổng thông tin của họ 💡)"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Once you're done filling in the worksheet, simply click on 'Send Report' to "
+"<strong>send your customer the certification</strong>."
+msgstr ""
+"Sau khi hoàn tất việc điền vào bảng công tác, bạn chỉ cần nhấp vào \"Gửi báo"
+" cáo\" để <strong>gửi chứng nhận cho khách hàng</strong>."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -490,13 +826,15 @@ msgid ""
 "Operating\n"
 "                            Voltage"
 msgstr ""
+"Điện áp\n"
+"hoạt động"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_7c3fe422-e483-4f9c-b9b8-ca9daca8ae17
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Operating Voltage"
-msgstr ""
+msgstr "Điện áp hoạt động"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -504,24 +842,26 @@ msgid ""
 "Owner\n"
 "                            Address"
 msgstr ""
+"Địa chỉ\n"
+"                            người sở hữu"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_d424d6c6-250b-4e2b-b02c-909d624d9e36
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Owner Address"
-msgstr ""
+msgstr "Địa chỉ người sở hữu"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_image_installati_7bb7ef76-751f-4749-8832-1da0ff83bec0
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid "Pictures"
-msgstr ""
+msgstr "Hình ảnh"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_1
 msgid "Planned"
-msgstr "Đã lên kế hoạch"
+msgstr "Đã lập kế hoạch"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -529,18 +869,20 @@ msgid ""
 "Power\n"
 "                            Supply"
 msgstr ""
+"Nguồn\n"
+"                            điện"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_ead54bd7-5601-45b5-9360-47cd843cc177
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Power Supply"
-msgstr ""
+msgstr "Nguồn điện"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_0cd78554-7c1d-46a5-be12-2b31668b7957
 msgid "Premises Type"
-msgstr ""
+msgstr "Loại địa điểm"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -548,6 +890,8 @@ msgid ""
 "Protection\n"
 "                            (A)"
 msgstr ""
+"Bảo vệ\n"
+"                            (A)"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -555,6 +899,8 @@ msgid ""
 "Protection\n"
 "                            6mA DC"
 msgstr ""
+"Bảo vệ\n"
+"                            6mA DC"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -562,6 +908,8 @@ msgid ""
 "Protection\n"
 "                            Against Direct Contacts"
 msgstr ""
+"Bảo vệ\n"
+"chống tiếp xúc trực tiếp"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -569,6 +917,8 @@ msgid ""
 "Protection\n"
 "                            Against Indirect Contacts"
 msgstr ""
+"Bảo vệ\n"
+"chống tiếp xúc gián tiếp"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -576,41 +926,43 @@ msgid ""
 "Protection\n"
 "                            Against Overintensity"
 msgstr ""
+"Bảo vệ\n"
+"chống quá tải"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_6185d132-f0ca-45ce-811e-7d9f7e816414
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection (A)"
-msgstr ""
+msgstr "Bảo vệ (A)"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_b4dca44c-3589-48b4-8b44-63468cedcc86
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection 6mA DC"
-msgstr ""
+msgstr "Bảo vệ 6mA DC"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_1da09a59-1725-4ec7-a6a9-3fd88f1c69a0
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection Against Direct Contacts"
-msgstr ""
+msgstr "Bảo vệ chống tiếp xúc trực tiếp"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_07b49038-6246-41fa-a8ec-119909ba7be3
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection Against Indirect Contacts"
-msgstr ""
+msgstr "Bảo vệ chống tiếp xúc gián tiếp"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_8ffbf2f2-43b1-4eb7-93dd-a8ddff7b1ec4
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection Against Overintensity"
-msgstr ""
+msgstr "Bảo vệ chống quá tải"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_datetime_install_2bbd9d49-f78f-4318-bf29-2f0ff5f8ddb1
@@ -623,7 +975,16 @@ msgstr "Ngày báo cáo"
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Report Number"
+msgstr "Mã báo cáo"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Send your customer the <strong>invoice</strong>. Note that it will also be "
+"available in their <strong>portal</strong>."
 msgstr ""
+"Gửi <strong>hóa đơn</strong> cho khách hàng của bạn. Lưu ý rằng hóa đơn cũng"
+" sẽ có trên <strong>cổng thông tin</strong> của họ."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -631,6 +992,8 @@ msgid ""
 "Serial\n"
 "                            Number"
 msgstr ""
+"Số\n"
+"                            sê-ri"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_38923213-00f8-4249-9e45-a08efb7f9976
@@ -645,13 +1008,15 @@ msgid ""
 "State\n"
 "                            Control"
 msgstr ""
+"Kiểm soát\n"
+"                            trạng thái"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_1a7f02cf-8f6a-4d98-9d7b-b81d70f5b91d
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "State Control"
-msgstr ""
+msgstr "Kiểm soát trạng thái"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -669,6 +1034,38 @@ msgid "Tasks"
 msgstr "Nhiệm vụ"
 
 #. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Thanks to Studio, you can entirely <strong>customize the report</strong> to "
+"fit your needs. Add as many fields of any type as you'd like."
+msgstr ""
+"Nhờ Studio, bạn có thể <strong>tùy chỉnh hoàn toàn báo cáo</strong> cho phù "
+"hợp với nhu cầu của mình. Bạn được phép thêm nhiều trường thuộc bất kỳ loại "
+"nào tùy ý."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Thanks to the '<strong>Worksheet Template</strong>' we selected for the "
+"product and on the task, our form has all of the necessary fields for this "
+"kind of certification."
+msgstr ""
+"Nhờ có '<strong>Mẫu bảng công tác</strong>' mà chúng ta đã chọn cho sản phẩm"
+" và nhiệm vụ, biểu mẫu của chúng ta có tất cả các trường cần thiết cho loại "
+"chứng nhận này."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"The certification will remain available to your customer at any time in their <strong>portal</strong>, where they will be able to download and print the report if needed. Click on the 'C<strong>ustomer Preview</strong>' button to\n"
+"                    get a sneak peek of what it'll look like for your customer."
+msgstr ""
+"Chứng nhận sẽ luôn có trên <strong>cổng thông tin</strong> của khách hàng, "
+"nơi họ có thể tải xuống và in báo cáo nếu cần. Nhấp vào nút '<strong>Xem "
+"trước giao diện khách hàng</strong>' để xem trước giao diện của báo cáo hiện"
+" thị từ phía khách hàng của bạn."
+
+#. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_17
 msgid "This Month"
 msgstr "Tháng này"
@@ -679,6 +1076,16 @@ msgid "This Week"
 msgstr "Tuần này"
 
 #. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"This task will directly get the right certification form for this type of "
+"intervention thanks to the '<strong>Worksheet Template</strong>' selected on"
+" the product."
+msgstr ""
+"Nhiệm vụ này sẽ trực tiếp nhận được mẫu chứng nhận phù hợp cho loại cuộc xử "
+"lý này nhờ vào <strong>'Mẫu bảng công tác'</strong> được chọn trên sản phẩm."
+
+#. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_15
 msgid "Today"
 msgstr "Hôm nay"
@@ -686,7 +1093,7 @@ msgstr "Hôm nay"
 #. module: certification_organism
 #: model:website.menu,name:certification_organism.website_menu_4
 msgid "Top Menu for Website 1"
-msgstr ""
+msgstr "Top Menu cho trang web 1"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -694,6 +1101,8 @@ msgid ""
 "Visiting\n"
 "                            Agent"
 msgstr ""
+"Nhân viên\n"
+"                            thực hiện"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -701,20 +1110,54 @@ msgid ""
 "Visiting\n"
 "                            Agent Signature"
 msgstr ""
+"Chữ ký\n"
+"                            nhân viên thực hiện"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_eb7af591-0632-4fc9-8555-3e0bda3b9939
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Visiting Agent"
-msgstr ""
+msgstr "Nhân viên thực hiện"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_signature_instal_d7e23d6e-e60a-4561-9db6-d85fef213749
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Visiting Agent Signature"
+msgstr "Chữ ký nhân viên thực hiện"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"We're now at the customer's place for their certification. Open your task "
+"and click on the '<strong>Worksheet</strong>' button."
 msgstr ""
+"Bây giờ chúng ta đang ở địa điểm của khách hàng để chứng nhận. Mở nhiệm vụ "
+"và nhấp vào nút '<strong>Bảng công tác</strong>'."
+
+#. module: certification_organism
+#: model_terms:web_tour.tour,rainbow_man_message:certification_organism.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "Chào mừng bạn! Chúc bạn một chuyến khám phá bổ ích!"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"When the Sales Order is confirmed, a <strong>task is automatically "
+"generated</strong> in our 'Certifications' project."
+msgstr ""
+"Khi Đơn bán hàng được xác nhận, một <strong>nhiệm vụ sẽ tự động được "
+"tạo</strong> trong dự án 'Chứng nhận'."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"When the form is submitted, an <strong>opportunity</strong> is automatically"
+" generated in your CRM.<br/>"
+msgstr ""
+"Khi biểu mẫu được gửi đi, một <strong>cơ hội</strong> sẽ tự động được tạo "
+"trong CRM của bạn.<br/>"
 
 #. module: certification_organism
 #: model:ir.actions.act_window,name:certification_organism.x_control_charging_station_ir_actions_act_window_1
@@ -725,21 +1168,32 @@ msgstr "Bảng công tác"
 #: model:crm.tag,name:certification_organism.crm_tag_2
 #: model:project.tags,name:certification_organism.project_tags_1
 msgid "charging station"
-msgstr ""
+msgstr "trạm sạc"
 
 #. module: certification_organism
 #: model:crm.tag,name:certification_organism.crm_tag_5
 msgid "electrical installation"
-msgstr ""
+msgstr "lắp đặt điện"
 
 #. module: certification_organism
 #: model:crm.tag,name:certification_organism.crm_tag_3
 msgid "gas installation"
-msgstr ""
+msgstr "lắp đặt gas"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_756f305b-2979-4d4d-baf3-a1076dfb5a68
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "ΔIn"
+msgstr "ΔIn"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"💡 This process can be <strong>automated</strong> by setting an 'Email "
+"Template' on the 'Planned' stage of your project (or any other stage you'd "
+"like). A pre-made email template is available to you."
 msgstr ""
+"💡 Quá trình này có thể được <strong>tự động hóa</strong> bằng cách thiết lập"
+" 'Mẫu email' ở giai đoạn 'Đã lập kế hoạch' của dự án (hoặc bất kỳ giai đoạn "
+"nào khác mà bạn muốn). Bạn có thể sử dụng mẫu email được tạo sẵn."

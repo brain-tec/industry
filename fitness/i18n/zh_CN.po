@@ -1,0 +1,1181 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fitness
+# 
+# Translators:
+# Tiffany Chang, 2025
+# 何彬 <vnsoft.he@gmail.com>, 2025
+# Wil Odoo, 2025
+# Raymond Yu <cl_yu@hotmail.com>, 2025
+# Chloe Wang, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-08 05:43+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Chloe Wang, 2025\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+", and feel free\n"
+"                    to"
+msgstr ""
+"随时\n"
+"                        请"
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_14_product_template
+#: model:project.project,name:fitness.project_project_1
+msgid "20-Day Beginner Fitness Program"
+msgstr "20 天初学者健身计划"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "24/7 Customer Support"
+msgstr "24/7 客户支持"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "24/7 Customer Support<br/>"
+msgstr "24/7 客户支持<br/>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "30-day trial, satisfaction guaranteed."
+msgstr "30 天试用期，保证满意。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<b><u>Add Resources</u></b>: Easily add resources like classes or coaches to"
+" your system."
+msgstr "<b><u>添加资源</u></b>: 在系统中轻松添加课程或教练等资源。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<b><u>Comprehensive Scheduling</u></b>: Plan and manage schedules, allowing "
+"customers to book appointments directly from your website, manage classes "
+"and sessions, and track attendance."
+msgstr "<b><u>综合调度</u></b>:计划和管理日程安排，允许客户直接从网站上预约、管理课程和时段并跟踪出勤情况。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<b><u>Customize Availability</u></b>: Set availability for different "
+"resources, ensuring that your scheduling system is always up-to-date."
+msgstr "<b><u>自定义可用性</u></b>：设置不同资源的可用性，确保调度系统始终保持最新状态。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<b><u>Link to Courses</u></b>: Connect resources to specific courses that "
+"can be either free or paid, depending on the user’s subscription status."
+msgstr "<b><u>关联课程</u></b>：根据用户的订阅情况，将资源连接到免费或付费的特定课程。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<b><u>Website Integration</u></b>: Seamlessly integrate all these features "
+"into your website, providing a unified experience for your customers to book"
+" appointments, view class schedules, and manage subscriptions online."
+msgstr "<b><u>网站整合</u></b>：将所有这些功能无缝整合到网站中，为客户提供统一的在线预约、查看课程表和管理订阅的体验。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "<small>/ month</small>"
+msgstr "<small>/ 月</small>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "<small>/month</small>"
+msgstr "<small>/ 月</small>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<span class=\"display-4-fs\"><strong>Fitness Center by Odoo</strong></span>"
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 健身中心</strong></span>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
+msgstr "<span class=\"h1-fs\">想更进一步吗？</span>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid ""
+"<span class=\"s_comparisons_currency\">$</span>\n"
+"                                                        <span class=\"s_comparisons_price\">\n"
+"                                                            <b>125</b>\n"
+"                                                        </span>\n"
+"                                                        <span class=\"s_comparisons_decimal\">.00</span>"
+msgstr ""
+"<span class=\"s_comparisons_currency\">$</span>\n"
+"                                                        <span class=\"s_comparisons_price\">\n"
+"                                                            <b>125</b>\n"
+"                                                        </span>\n"
+"                                                        <span class=\"s_comparisons_decimal\">.00</span>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid ""
+"<span class=\"s_comparisons_currency\">$</span>\n"
+"                                                        <span class=\"s_comparisons_price\">\n"
+"                                                            <b>35</b>\n"
+"                                                        </span>\n"
+"                                                        <span class=\"s_comparisons_decimal\">.00</span>"
+msgstr ""
+"<span class=\"s_comparisons_currency\">$</span>\n"
+"                                                        <span class=\"s_comparisons_price\">\n"
+"                                                            <b>35</b>\n"
+"                                                        </span>\n"
+"                                                        <span class=\"s_comparisons_decimal\">.00</span>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid ""
+"<span class=\"s_comparisons_currency\">$</span>\n"
+"                                                        <span class=\"s_comparisons_price\">\n"
+"                                                            <b>65</b>\n"
+"                                                        </span>\n"
+"                                                        <span class=\"s_comparisons_decimal\">.00</span>"
+msgstr ""
+"<span class=\"s_comparisons_currency\">$</span>\n"
+"                                                        <span class=\"s_comparisons_price\">\n"
+"                                                            <b>65</b>\n"
+"                                                        </span>\n"
+"                                                        <span class=\"s_comparisons_decimal\">.00</span>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Appointment booking <strong>🗓️</strong></strong>"
+msgstr "<strong>预约 <strong>🗓️</strong></strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Assign Personnel</strong>: Assign maintenance tasks to specific "
+"employees or teams, ensuring that the right person is handling the repair."
+msgstr "<strong>指派人员</strong>：将维护任务分配给特定的员工或团队，确保由合适的人员进行维修。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Automate Your Reordering Process 🚀</strong>"
+msgstr "<strong>自动化您的重新订购流程 🚀</strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Check Stock Levels</strong>:"
+msgstr "<strong>检查库存水平</strong>："
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Choose Your Vendors</strong>: Select the vendors you want to reorder"
+" from. You can also add bulk pricing options to save time and money."
+msgstr "<strong>选择您的供应商</strong>：选择要重新订购的供应商。您还可以添加批量定价选项，以节省时间和金钱。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Confirm Orders</strong>: When an order is confirmed, a delivery is automatically created in the Inventory app. This allows you to keep track of stock levels and ensure you have enough inventory for your daily\n"
+"                        operations."
+msgstr ""
+"<strong>确认订单</strong>：订单确认后，会自动在库存应用程序中创建交付。这样，您就可以跟踪库存水平，确保有足够的库存用于日常运营\n"
+"                       操作。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Create Maintenance Requests</strong>: Easily generate maintenance "
+"requests when equipment needs repair or servicing. These requests can be "
+"categorized and prioritized based on urgency."
+msgstr "<strong>创建维护请求</strong>：当设备需要维修或保养时，可轻松生成维护请求。可根据紧急程度对这些请求进行分类和优先级排序。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Create Reordering Rules</strong>: Click on the Products menu and "
+"select Reordering Rules. Here, you can set minimum and maximum quantities "
+"for each product to trigger automatic reordering."
+msgstr ""
+"<strong>创建重新排序规则</strong>：点击产品菜单，选择重新订购规则。在这里，您可以为每种产品设置最小和最大数量，以触发自动重新订购。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Create Tailor-Made Subscriptions and Sell Products Effortlessly "
+"🛒</strong>"
+msgstr "<strong>创建定制订阅，轻松销售产品 🛒</strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Define Equipment</strong>: Create detailed profiles for each piece "
+"of equipment, including specifications, usage history,emplacement,  and "
+"maintenance requirements."
+msgstr "<strong>定义设备</strong>：为每台设备创建详细的配置文件，包括规格、使用历史记录、放置和维护要求。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Effortlessly manage your Point of Sale 💵</strong>"
+msgstr "<strong>轻松管理销售点💵</strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Effortlessly manage your eCommerce 💵</strong>"
+msgstr "<strong>轻松管理您的电子商务💵</strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Equipment Definition and Maintenance Requests</strong> 🛠️🔧"
+msgstr "<strong>设备定义和维护请求</strong> 🛠️🔧"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>If you want to execute a practical guided tour of this module, you "
+"should Import demo data and try the features described in this "
+"article.</strong>"
+msgstr "<strong>如果您想对该模块进行实际操作指导，则应导入演示数据并试用本文中介绍的功能。</strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Integration with Employee Management</strong>: Link maintenance "
+"tasks to employee schedules, ensuring efficient allocation of resources."
+msgstr "<strong>与员工管理集成</strong>：将维护任务与员工日程表联系起来，确保有效分配资源。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Navigate to the Inventory App</strong>: Go to the Inventory app in "
+"Odoo."
+msgstr "<strong>导航至 “库存” 应用程序</strong>：进入 Odoo 中的 “库存”应用程序。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Resupply as Needed</strong>: If stock levels are low, create a "
+"purchase order from the Purchase app. Link it to the right vendor to ensure "
+"timely replenishment."
+msgstr "<strong>按需补货</strong>：如果库存水平较低，可从 “采购” 应用程序创建采购订单。将其链接到正确的供应商，确保及时补货。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Scheduling and Resource Allocation 🏋️‍♂️</strong>"
+msgstr "<strong>编排时间和资源分配 🏋️‍♂️</strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "<strong>Set Up Automatic Reordering</strong>:"
+msgstr "<strong>设置自动重新订购</strong>："
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Thanks</strong> to the invoicing policy that you can modify, the "
+"generated invoice is always the reflect of the reality on the field and it "
+"is fair for the customer."
+msgstr "<strong>由于</strong>您可以修改开票政策，因此生成的发票总是反映现场的实际情况，对客户也是公平的。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"<strong>Track Progress</strong>: Monitor the status of maintenance requests "
+"in real-time, from creation to completion, ensuring nothing falls through "
+"the cracks."
+msgstr "<strong>跟踪进度</strong>：从创建到完成，实时监控维护请求的状态，确保万无一失。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"A free, personalized, integrated <strong><font class=\"text-o-color-1\">Website</font></strong> in a few clicks. Start receiving orders directly in Odoo and go live with your \n"
+"                <strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
+msgstr ""
+"免费、个性化、集成式 <strong><font class=\"text-o-color-1\">网站</font></strong>只需点击几下。直接在 Odoo 中接收订单，并与您的 \n"
+"                <strong><font class=\"text-o-color-1\">电子商店</font></strong>只需几分钟。"
+
+#. module: fitness
+#: model:website.menu,name:fitness.website_menu_11
+msgid "About Us"
+msgstr "关于我们"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "About us"
+msgstr "关于我们"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "Adaptable"
+msgstr "适应性强"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Aline Turner, Head Trainer"
+msgstr "Aline Turner，首席教练"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid ""
+"Aline is one of the iconic people in life who can say they love what they "
+"do. She mentors 100+ in-house trainers and looks after the community of "
+"fitness enthusiasts."
+msgstr "艾琳是生活中的标志性人物之一，她可以说自己热爱自己所做的事情。她指导培训超过 100 位内部教练，同时悉心照料着整个健身爱好者社群。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Appointment, classes &amp; courses"
+msgstr "预约、班级 &amp; 课程"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"As the first invoicing step, create a down payment from the sales order. This will generate the first invoice in the\n"
+"            <strong>\n"
+"                <font class=\"text-o-color-1\">Invoicing</font>\n"
+"            </strong>\n"
+"            app. Then, schedule one or several \"Invoicing Schedule\" activities on the sales order with the aim to never forget to send an intermediary invoice in order to sustain your cash flow"
+msgstr ""
+"作为开票的第一步，从销售订单中创建首期付款。这将在\n"
+"            <strong>\n"
+"                <font class=\"text-o-color-1\">开票</font>\n"
+"            </strong>\n"
+"            应用程序中生成第一张发票。然后，在销售订单上安排一个或多个 \"开票计划 \"活动，目的是永远不要忘记发送中间发票，以维持现金流"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"At any time, create customized subscriptions for your members that clearly "
+"display pricing, discounts, and details of each:"
+msgstr "随时为您的会员创建自定义订阅，清晰显示每种订阅的定价、折扣和详细信息："
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid ""
+"At our fitness center, we believe that fitness is not just about working "
+"out. It's about creating a lifestyle that promotes health and wellness. Let "
+"us help you achieve your fitness goals and live your best life."
+msgstr "在我们的健身中心，我们相信健身不仅仅是锻炼。而是要创造一种促进健康的生活方式。让我们帮助您实现健身目标，过上最美好的生活。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid ""
+"At our gym club, we offer a diverse range of classes and programs tailored "
+"to meet your fitness needs. Whether you are a beginner looking to start your"
+" fitness journey or a seasoned athlete aiming to enhance your performance, "
+"we have something for everyone. Our classes include yoga, personal training "
+"sessions, and various group fitness activities designed to keep you "
+"motivated and engaged. Join us to experience a supportive community and "
+"achieve your fitness goals in a fun and effective way."
+msgstr ""
+"在我们的健身俱乐部，我们提供各种课程和计划，以满足您的健身需求。无论您是希望开始健身之旅的初学者，还是希望提高运动成绩的资深运动员，我们都能为您提供适合您的课程。我们的课程包括瑜伽、个人训练课程和各种团体健身活动，旨在激发您的积极性和参与性。加入我们，体验一个相互支持的社区，以有趣而有效的方式实现你的健身目标。"
+
+#. module: fitness
+#: model:project.task.type,name:fitness.project_task_type_1
+msgid "Backlog"
+msgstr "待办列表"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Basic fitness programs &amp;amp; training for all levels"
+msgstr "基本健身计划及训练，适合各种水平的人群"
+
+#. module: fitness
+#: model:pos.payment.method,name:fitness.pos_payment_method_1
+msgid "Cash"
+msgstr "现金"
+
+#. module: fitness
+#: model:account.journal,name:fitness.cash
+msgid "Cash (Fitness Center)"
+msgstr "现金（健身中心）"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Complete Fitness Solutions for Everyone"
+msgstr "为每个人提供完整的健身解决方案"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "Creative Studio"
+msgstr "创意工作室"
+
+#. module: fitness
+#: model:pos.payment.method,name:fitness.pos_payment_method_2
+msgid "Customer Account"
+msgstr "客户帐号"
+
+#. module: fitness
+#: model:product.pricelist,name:fitness.product_pricelist_1
+msgid "Default Website Pricelist"
+msgstr "默认网站价目表"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Diamond"
+msgstr "钻石"
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_9_product_template
+msgid "Diamond membership"
+msgstr "钻石会员"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Discover more about Odoo by diving into our"
+msgstr "发掘有关 Odoo 的更多信息，请了解我们的"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Do you want to go further?"
+msgstr "想再进一步吗？"
+
+#. module: fitness
+#: model:project.task.type,name:fitness.project_task_type_2
+msgid "Done sessions"
+msgstr "已完成课程"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "Durable"
+msgstr "耐用"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Ensuring your equipment is always in top-notch condition is crucial for smooth operations. Odoo's <strong><font class=\"text-o-color-1\">Maintenance</font></strong> app provides a comprehensive solution for managing all your maintenance\n"
+"            needs. From defining equipment to creating maintenance requests and assigning repair tasks, Odoo simplifies every aspect of maintenance management. Let’s dive into how Odoo can transform your maintenance processes."
+msgstr ""
+"确保您的设备始终处于最佳状态对于顺利运营至关重要。奥杜的 <strong><font class=\"text-o-color-1\">维护</font></strong>应用程序提供了一个全面的解决方案来管理您所有的维护\n"
+"            需求。从定义设备到创建维护请求和分配维修任务，Odoo 简化了维护管理的方方面面。让我们深入了解 Odoo 如何改变您的维护流程。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Feel free to create all the needed products you often sell, such as "
+"supplements and workout gear. This will save you time for the next "
+"subscriptions."
+msgstr "随意创建您经常销售的所有所需产品，如保健品和健身器材。这将为您下次订阅节省时间。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Fitness Center"
+msgstr "健身中心"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Fitness Center by Odoo"
+msgstr "Odoo 健身中心"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Fitness Programs <strong>🏋️‍♂️</strong>"
+msgstr "健身项目<strong>🏋️‍♂️</strong>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Fitness Programs 🏋️‍♂️"
+msgstr "健身项目🏋️‍♂️"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Fitness classes and personal training sessions"
+msgstr "健身课程和个人培训课程"
+
+#. module: fitness
+#: model:pos.category,name:fitness.pos_category_7
+msgid "Food"
+msgstr "食品"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid ""
+"Founder and head coach, Tony is the driving force behind the fitness center."
+" He loves to keep his hands full by participating in the development of "
+"fitness programs, marketing, and customer experience strategies."
+msgstr "作为创始人兼首席教练，Tony 是健身中心背后的推动力。 他喜欢参与健身计划设计、推广及客户体验策略，来保持忙碌。"
+
+#. module: fitness
+#: model:product.pricelist,name:fitness.product_pricelist_2
+msgid "Free courses"
+msgstr "免费课程"
+
+#. module: fitness
+#: model:ir.actions.server,name:fitness.update_customer_price_server_action
+msgid "Free courses for subs - Server Actions"
+msgstr "订阅者的免费课程 - 服务器操作"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"From maintaining equipment and scheduling appointments to managing "
+"subscriptions and running a smooth point-of-sale system with products and "
+"stock management, everything is covered."
+msgstr "从维护设备和安排预约，到管理订阅，以及通过产品和库存管理顺利运行销售点系统，一切都包括在内。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Get access to all fitness programs"
+msgstr "访问所有健身计划"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Get access to all fitness programs and classes"
+msgstr "参加所有健身计划和课程"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid ""
+"Get fit and healthy with Company edu-test's new fitness center. Our "
+"personalized approach ensures that every member gets the attention they need"
+" to achieve their fitness goals. Join us today and start your journey to a "
+"healthier you!"
+msgstr ""
+"在 Company edu-test's "
+"的新健身中心锻炼身体，保持健康。我们的个性化服务确保每位会员都能得到所需的关注，从而实现自己的健身目标。今天就加入我们，开始您的健康之旅！"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Gold"
+msgstr "黄金"
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_8_product_template
+msgid "Gold Membership"
+msgstr "黄金会员"
+
+#. module: fitness
+#: model:planning.role,name:fitness.planning_role_2
+msgid "Hit 45' Stars"
+msgstr "打到 45' 为高级"
+
+#. module: fitness
+#: model:appointment.type,name:fitness.appointment_type_1
+#: model:product.template,name:fitness.default_booking_product_product_template
+msgid "Hit Course"
+msgstr "热门课程"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"If the customer replies to the email, the response is automatically logged in the chatter on the right of the screen. All discussions regarding the quotation, updates, and fine-tuning are attached, making it easy for all involved users\n"
+"            to consult the history."
+msgstr ""
+"如果客户回复了电子邮件，回复会自动记录在屏幕右侧的聊天记录中。所有与报价、更新和微调有关的讨论都会被附在后面，方便所有相关用户\n"
+"            查阅历史记录。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "Intuitive"
+msgstr "直观"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Inventory 📦"
+msgstr "库存 📦"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Invoicing 📈"
+msgstr "开具发票 📈"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Iris Joe, Head of Finance"
+msgstr "Iris Joe, 财务负责人"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid ""
+"Iris, with her international experience, helps us easily understand the "
+"Fitness Center and improves our programs. She is determined to drive success"
+" and delivers her professional acumen to bring the fitness center to the "
+"next level."
+msgstr "Iris 拥有丰富的国际经验，能帮助我们轻松了解健身中心并改进我们的项目。她决心推动成功，并以她的专业敏锐性将健身中心带入一个新的水平。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Join Now"
+msgstr "立即加入"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Join Us Now"
+msgstr "立即加入我们"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "Join the Fitness Revolution"
+msgstr "加入健身变革"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Learn more"
+msgstr "了解更多"
+
+#. module: fitness
+#: model:maintenance.equipment,name:fitness.maintenance_equipment_1
+msgid "Lifiting machine A1"
+msgstr "推举机 A1"
+
+#. module: fitness
+#: model:maintenance.equipment,name:fitness.maintenance_equipment_2
+msgid "Lifting Machine A2"
+msgstr "推举机 A2"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Maintenance of your equipments"
+msgstr "设备保养"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Manage all your communication channels in one place with Odoo <strong><font class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font class=\"text-o-color-1\">Email Marketing</font></strong>, \n"
+"                <strong><font class=\"text-o-color-1\">Social Media Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
+msgstr ""
+"采用以下程序，集中一处管理所有通讯管道：Odoo <strong><font class=\"text-o-color-1\">自动化推广</font></strong>、<strong><font class=\"text-o-color-1\">电子邮件推广</font></strong>、\n"
+"                        <strong><font class=\"text-o-color-1\">社交媒体推广</font></strong>、<strong><font class=\"text-o-color-1\">短信推广</font></strong>。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Manage in the Planning App the schedule of your teachers, the booking of "
+"your rooms and equipments."
+msgstr "在计划应用程序中管理教师的日程安排、房间和设备的预订。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Manage personalised fitness program using the <strong><font class=\"text-o-"
+"color-1\">Project App</font></strong>. You can create templates and sell it "
+"using a simple Service product."
+msgstr ""
+"使用<strong><font class=\"text-o-"
+"color-1\">项目应用程序</font></strong>管理个性化健身计划。您可以创建模板，并使用简单的服务产品进行销售。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Manage the prices applied by your subscription on every product using the "
+"Pricelists. Assign a specific pricelist to a reccuring product "
+"(subscription) and edit your pricelist rule in Sales &gt; Products &gt; "
+"Pricelists."
+msgstr ""
+"使用价目表管理您的订购在每个产品上应用的价格。在 “销售&gt; 产品&gt; 价格表” "
+"中将特定的价格表分配给正在使用的产品（订阅）并编辑您的价格表规则。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Manage your accounting easier than ever with a completely integrated "
+"environment. (<strong><font class=\"text-o-color-1\">Accounting "
+"App</font></strong>)"
+msgstr ""
+"通过完全整合的环境，管理会计工作从未如此轻松。（<strong><font class=\"text-o-"
+"color-1\">会计应用程序</font></strong>）"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Managing appointments effectively requires a robust resource management system that can handle various elements seamlessly. Odoo offers comprehensive solutions for employee management, appointment scheduling, and resource allocation,\n"
+"            ensuring your operations run smoothly. Let’s explore how Odoo manages appointment ."
+msgstr ""
+"有效管理预约需要一个强大的资源管理系统，能够无缝处理各种因素。Odoo 可为员工管理、预约安排和资源分配提供全面的解决方案、\n"
+"            确保您的业务顺利进行。让我们探讨一下 Odoo 是如何管理预约的。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Managing maintenance effectively starts with having a clear overview of your"
+" equipment and its status. Odoo allows you to:"
+msgstr "要有效管理维护工作，首先要清楚了解设备及其状态。通过 Odoo，您可以："
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Membership plans with different durations and benefits"
+msgstr "不同期限和优惠的会员计划"
+
+#. module: fitness
+#: model:pos.category,name:fitness.pos_category_8
+msgid "Merchandise"
+msgstr "货物"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Mich Stark, Head of Marketing"
+msgstr "Mich Stark，营销负责人"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid ""
+"Mich loves taking on fitness challenges. With his multi-year experience as a"
+" fitness trainer, Mich has helped countless clients achieve their fitness "
+"goals. Mich is among the best trainers in the industry."
+msgstr "Mich 喜欢接受健身挑战。凭借多年的健身教练经验，Mich 已帮助无数客户实现了健身目标。Mich 是业内最优秀的教练之一。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "No Commitment"
+msgstr "无承诺"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "No Hidden Fees"
+msgstr "无隐藏费用"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Now that we've covered inventory and vendor management, let's dive into how you can extend all of these features to your <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> (POS) system and seamlessly link it to your\n"
+"            website for a complete eCommerce solution."
+msgstr ""
+"在介绍了库存和供应商管理之后，让我们深入探讨如何将所有这些功能扩展到<strong><font class=\"text-o-color-1\">销售点</font></strong>（POS）系统，并将其与网站无缝连接，从而\n"
+"            实现完整的电子商务解决方案。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Odoo allows you to enhance your appointment scheduling by adding various "
+"resources such as classes and coaches. Whether you offer fitness classes, "
+"personal training sessions, or educational courses, you can:"
+msgstr "Odoo 允许您添加各种资源（如课程和教练），从而改进您的预约日程安排。无论您是提供健身课程、私人培训课程还是教育课程，您都可以："
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Odoo can also manage your accounting entirely, integrated with every other "
+"apps. Check out more about the Accounting App"
+msgstr "Odoo 还可以完全管理您的会计工作，并与其他所有应用程序整合。查看有关会计应用程序的更多信息"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Odoo offers you infinite possibilities, such as :"
+msgstr "Odoo 为您提供无限可能，例如："
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Of course, all of this functionality is extendable to your POS system. With Odoo's integrated <strong><font class=\"text-o-color-1\">POS</font></strong> app, you can set up a cash register, manage sales transactions, and track inventory\n"
+"            in real-time. This means that as soon as a sale is made, your stock levels are updated automatically, ensuring you never run out of popular items."
+msgstr ""
+"当然，所有这些功能都可以扩展到您的 POS 系统。通过 Odoo 整合的<strong><font class=\"text-o-"
+"color-1\">POS</font></strong>应用程序，您可以设置收银机、管理销售交易并实时追踪库存。这意味着，一旦有销售，您的库存水平就会自动更新，确保受欢迎的商品永远不会缺货。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Once confirmed, the quotation becomes a sales order. All quotations and "
+"sales orders are centralized in the <strong><font class=\"text-o-"
+"color-1\">Sales</font></strong> app."
+msgstr ""
+"一经确认，报价单即成为销售订单。所有报价单和销售订单都集中在<strong><font class=\"text-o-"
+"color-1\">销售</font></strong> 应用程序中."
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Online Booking"
+msgstr "线上预约"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Order now"
+msgstr "立即下单"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Organise your events and connect with your customers easily with the<strong>"
+" <font class=\"text-o-color-1\">Events App</font></strong>."
+msgstr ""
+"使用<strong><font class=\"text-o-color-1\">活动应用程序</font></strong> "
+"轻松组织活动，与客户建立联系。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Our Classes and Programs"
+msgstr "我们的课程和项目"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Our Services"
+msgstr "我们的服务"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "Our Testimonials"
+msgstr "客户感言"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid ""
+"Our gym club is dedicated to providing exceptional services that cater to "
+"all aspects of your fitness journey. From basic and premium gym memberships "
+"to personalized training sessions and nutritional support, we ensure that "
+"every member receives the attention and resources they need. Our facilities "
+"are equipped with state-of-the-art equipment, and our professional trainers "
+"are here to guide you every step of the way. Invest in your health and "
+"wellness with us, and see the results you've always wanted.<br/>"
+msgstr ""
+"我们的健身俱乐部致力于提供卓越的服务，全方位满足您的健身需求。从基本和高级健身会籍，到个性化培训课程和营养支持，我们确保每位会员都能得到所需的关注和资源。我们配备最先进的设备，专业教练将指导您迈出健身的每一步。与我们一起投资您的健康与福祉，实现您一直想要的健身目标。<br/>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Personal coaching with an expert<br/>"
+msgstr "专家个人辅导<br/>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Personal diet plan"
+msgstr "个人饮食计划"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Plus, you may add any Odoo App such as <strong><font class=\"text-o-color-1\">Marketing Apps </font></strong>to attract new members and keep your community engaged,\n"
+"            <strong><font class=\"text-o-color-1\">Planning</font></strong> to schedule your shifts efficiently, <strong><font class=\"text-o-color-1\">Events</font></strong> to manage all kind of happenings,\n"
+"            <strong><font class=\"text-o-color-1\">Project</font></strong> or <strong><font class=\"text-o-color-1\">Surveys</font></strong>..."
+msgstr ""
+"此外，您还可以添加任何 Odoo 应用程序，例如吸引新会员和保持社区参与度的 <strong><font class=\"text-o-color-1\">营销</font></strong>应用程序、\n"
+"            有效安排班次的<strong><font class=\"text-o-color-1\">计划</font></strong> 程序、管理各种事件的<strong><font class=\"text-o-color-1\">活动</font></strong>程序、\n"
+"            <strong><font class=\"text-o-color-1\">项目</font></strong>或<strong><font class=\"text-o-color-1\">调查</font></strong>程序..."
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Point of Sale and eCommerce 📈"
+msgstr "销售点和电子商务 📈"
+
+#. module: fitness
+#: model:website.menu,name:fitness.website_menu_12
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Pricing"
+msgstr "价格"
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_11_product_template
+msgid "Protein Bar"
+msgstr "蛋白棒"
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_12_product_template
+msgid "Protein Powder"
+msgstr "蛋白质粉"
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_13_product_template
+msgid "Protein Powder Strawberry "
+msgstr "草莓蛋白粉 "
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_10_product_template
+msgid "Protein Shaker"
+msgstr "蛋白质振动器"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Reach us"
+msgstr "联系我们"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid ""
+"Ready to take your fitness journey to the next level? Our team of experts is"
+" here to help you achieve your goals."
+msgstr "准备好让您的健身之旅更上一层楼了吗？我们的专家团队将帮助您实现目标。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Sales &amp; Subscriptions 💪"
+msgstr "销售与订阅 💪"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Selling food and consumables at your fitness center? With Odoo, you can "
+"automate your reordering process, ensuring you never run out of stock. "
+"Here's how to make the most of Odoo's inventory management features:"
+msgstr ""
+"在您的健身中心销售食品和消耗品？有了 Odoo，您就可以实现重新订购流程自动化，确保永远不会缺货。下面介绍如何充分利用 Odoo 库存管理功能："
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Setting up your POS system is a breeze. Simply navigate to the <strong><font class=\"text-o-color-1\">POS</font></strong> app, configure your cash register, and customize your product listings. The system supports various payment methods,\n"
+"            making it convenient for your customers to complete their purchases. Plus, you can generate detailed sales reports to keep track of your daily, weekly, and monthly performance."
+msgstr ""
+"设置您的 POS 系统轻而易举。只需浏览 <strong><font class=\"text-o-color-1\">POS</font></strong> 应用程序，配置收银机，并自定义产品列表。系统支持多种付款方式，\n"
+"            方便客户完成购买。此外，您还可以生成详细的销售报告，跟踪每日、每周和每月的业绩。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Setting up your online store is as easy as customizing a few settings. Go to the <strong><font class=\"text-o-color-1\">Website</font></strong> app, choose your theme, and start adding your products. You can offer various payment\n"
+"            options, manage shipping methods, and even set up automated marketing campaigns to boost your sales. With real-time inventory updates, your customers will always know what's available, enhancing their shopping experience."
+msgstr ""
+"只需自定义几项设置，就能轻松建立你的网店。进入<strong><font class=\"text-o-color-1\">网站</font></strong>应用程序，选择主题，然后开始添加产品。您可以提供各种付款方式\n"
+"            管理发货方式，甚至还可以设置自动营销活动来提高销售额。通过实时库存更新，您的客户可以随时了解库存情况，从而提升他们的购物体验。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Silver"
+msgstr "银色"
+
+#. module: fitness
+#: model:product.template,name:fitness.product_product_7_product_template
+msgid "Silver Membership"
+msgstr "白银会员"
+
+#. module: fitness
+#: model:project.task.type,name:fitness.project_task_type_3
+msgid "Skipped"
+msgstr "忽略"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Start now"
+msgstr "立即使用"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid ""
+"Start with the customer – find out what they need and give it to them.<br/>"
+msgstr "从客户角度出发：找出他们有什么需要，并尽量配合提供。<br/>"
+
+#. module: fitness
+#: model:project.project,label_tasks:fitness.project_project_1
+msgid "Tasks"
+msgstr "任务"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"These all go free in your current subscription; feel free to explore! 🙃"
+msgstr "这些都是您当前订阅中的免费内容；请随意浏览！🙃"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"This industry package offers everything you need to run your fitness center."
+msgstr "该行业套餐提供经营健身中心所需的一切。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.aboutus
+msgid "Tony Fred, Head Coach"
+msgstr "Tony Fred，首席教练"
+
+#. module: fitness
+#: model:maintenance.equipment,name:fitness.maintenance_equipment_3
+msgid "Treadmill A1"
+msgstr "跑步机 A1"
+
+#. module: fitness
+#: model:maintenance.equipment,name:fitness.maintenance_equipment_4
+msgid "Treadmill A2"
+msgstr "跑步机 A2"
+
+#. module: fitness
+#: model:maintenance.equipment,name:fitness.maintenance_equipment_5
+msgid "Treadmill A3"
+msgstr "跑步机 A3"
+
+#. module: fitness
+#: model:maintenance.equipment,name:fitness.maintenance_equipment_6
+msgid "Treadmill A4"
+msgstr "跑步机 A4"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.pricing
+msgid "Unlimited customization"
+msgstr "无限制的定制化"
+
+#. module: fitness
+#: model:base.automation,name:fitness.cancelled_subscription_automation
+#: model:base.automation,name:fitness.free_courses_for_sub_automation
+msgid "Update Customer > Pricelist"
+msgstr "更新客户 > 价格表"
+
+#. module: fitness
+#: model:ir.actions.server,name:fitness.update_pricelist_server_action
+msgid "Update Pricelist for Partner"
+msgstr "更新业务伙伴价格表"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "We build modular solutions."
+msgstr "我们提供模块化解决方案。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid ""
+"We combine smart design with rich technology to craft innovative products."
+msgstr "我们将智能设计与丰富技术相结合，打造创新产品。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "We craft long-lasting goods."
+msgstr "我们的产品经久耐用。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.homepage
+msgid "We create easy-to-use products."
+msgstr "我们创造易于使用的产品。"
+
+#. module: fitness
+#: model_terms:web_tour.tour,rainbow_man_message:fitness.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "欢迎！祝您探索愉快。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"Whether it's planning fitness programs, collaborating with vendors, keeping an eye on the budget, handling invoicing, or delivering exceptional customer service, we've got you covered. Get ready to take your fitness business to the next\n"
+"            level!"
+msgstr "无论是规划健身计划、与供应商合作、关注预算、处理发票还是提供卓越的客户服务，我们都能满足您的需求。准备好让您的健身业务更上一级！"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr "想与我们讨论您的 Odoo 设置或更进一步吗？"
+
+#. module: fitness
+#: model:planning.role,name:fitness.planning_role_1
+msgid "Yoga Beginners Class"
+msgstr "瑜伽初级班"
+
+#. module: fitness
+#: model:appointment.type,name:fitness.appointment_type_2
+#: model:product.template,name:fitness.product_product_6_product_template
+msgid "Yoga Course"
+msgstr "瑜伽课程"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"You can then use the power of the <strong><font class=\"text-o-"
+"color-1\">Project App</font></strong> to ensure a great follow up, with "
+"automations, feedbacks, stages..."
+msgstr ""
+"然后，您可以使用<strong><font class=\"text-o-"
+"color-1\">项目应用程序</font></strong>的强大功能来确保良好的后续工作，包括自动化、反馈、阶段等..."
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"You completed that industry tour! There are millions of other ways to adapt "
+"your Odoo setup to fit your business needs."
+msgstr "您已经完成了行业之旅！还有数以百万计的其他方法来调整您的 Odoo 设置，以满足您的业务需求。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid ""
+"You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
+" &gt; Upgrade your Fitness Center package and check the related box."
+msgstr "您没有导入演示数据？现在仍然可以导入。转到应用程序&gt; 行业&gt; 升级您的 “健身中心” 套装，并选中相关复选框。"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "academy"
+msgstr "学院"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "and"
+msgstr "and"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "documentation"
+msgstr "文档"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "if you need help!<br/>"
+msgstr "如果您需要帮助！<br/>"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "request a demo"
+msgstr "请求演示"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓 Accounting"
+msgstr "🎓 会计"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓 Invoicing"
+msgstr "🎓 发票"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓 Pricelists"
+msgstr "🎓 价格表"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓 Project"
+msgstr "🎓 项目"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓 Sales"
+msgstr "🎓 销售"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓 eCommerce"
+msgstr "🎓 电子商务"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓Appointment"
+msgstr "🎓预约"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓Inventory"
+msgstr "🎓库存"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓Maintenance"
+msgstr "🎓保养维护"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓Planning"
+msgstr "🎓规划"
+
+#. module: fitness
+#: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
+msgid "🎓Point of Sale"
+msgstr "🎓POS 销售点管理"

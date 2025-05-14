@@ -3,17 +3,17 @@
 # 	* wellness_practitioner
 # 
 # Translators:
-# Andy Yiu, 2024
-# Junko Augias, 2024
-# Wil Odoo, 2024
+# Andy Yiu, 2025
+# Wil Odoo, 2025
+# Junko Augias, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-10 19:12+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2025-02-18 09:18+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Junko Augias, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,25 +84,35 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
 #. module: wellness_practitioner
 #: model:mail.template,body_html:wellness_practitioner.booking_suggestion
 msgid ""
-"<p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
+"<p>\n"
 "                Hello,\n"
-"            </p><p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
+"            </p>\n"
+"            <p>\n"
 "                Thank you for your presence. May I invite you to schedule your next appointment if needed?\n"
-"            </p><p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
-"                Looking forward to meet you.\n"
-"            </p><p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
-"                <a class=\"btn btn-secondary\" href=\"/book/wellness_session\" style=\"text-decoration: none; box-sizing: border-box; transition: none; box-shadow: var(--btn-box-shadow); background-color: #e7e9ed; user-select: none; cursor: pointer; vertical-align: middle; text-align: center; line-height: 1.5; font-weight: 500; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, 'Noto Sans', Arial, 'Odoo Unicode Support Noto', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: inline-block; color: #374151;\">Schedule an Appointment</a>\n"
-"            </p>"
+"            </p>\n"
+"            <p>\n"
+"                Looking forward to meeting you.\n"
+"            </p>\n"
+"            \n"
+"            <p>\n"
+"                <a class=\"btn btn-secondary\" href=\"/book/wellness_session\">Schedule an Appointment</a>\n"
+"            </p>\n"
+"        "
 msgstr ""
-"<p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
+"<p>\n"
 "                こんにちは。\n"
-"            </p><p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
-"                お越し頂きありがとうございます。必要であれば、次回の予約をお取りしますか?\n"
-"            </p><p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
+"            </p>\n"
+"            <p>\n"
+"                ご来院いただきありがとうございます。必要であれば、次回の予約をお取りしますか？ \n"
+"            </p>\n"
+"            <p>\n"
 "                お会いできるのを心待ちにしております。\n"
-"            </p><p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
-"                <a class=\"btn btn-secondary\" href=\"/book/wellness_session\" style=\"text-decoration: none; box-sizing: border-box; transition: none; box-shadow: var(--btn-box-shadow); background-color: #e7e9ed; user-select: none; cursor: pointer; vertical-align: middle; text-align: center; line-height: 1.5; font-weight: 500; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, 'Noto Sans', Arial, 'Odoo Unicode Support Noto', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: inline-block; color: #374151;\">アポイントメントを予約</a>\n"
-"            </p>"
+"            </p>\n"
+"            \n"
+"            <p>\n"
+"                <a class=\"btn btn-secondary\" href=\"/book/wellness_session\">予約を入れる</a>\n"
+"            </p>\n"
+"        "
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -305,7 +315,7 @@ msgstr ""
 #. module: wellness_practitioner
 #: model:crm.stage,name:wellness_practitioner.crm_stage_5
 msgid "Inactive"
-msgstr "無効"
+msgstr "非アクティブ"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -319,8 +329,8 @@ msgstr "試してみましょう"
 
 #. module: wellness_practitioner
 #: model:mail.template,subject:wellness_practitioner.booking_suggestion
-msgid "Looking forward to meet you"
-msgstr "お会いできるのを楽しみにしております"
+msgid "Looking forward to meeting you"
+msgstr "お目にかかれるのを楽しみにしております"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -361,7 +371,7 @@ msgstr ""
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Odoo for Therapy Practices"
-msgstr "治療業務用のOdoo"
+msgstr "Odoo セラピー業"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -414,8 +424,8 @@ msgstr "デモをスケジュールする"
 
 #. module: wellness_practitioner
 #: model:ir.actions.server,name:wellness_practitioner.ir_act_server_1
-msgid "Send email: Book your next appointment"
-msgstr "Eメールを送信:次のアポイントメント予約をしましょう"
+msgid "Send Email when Qualified"
+msgstr "見込ありの場合にメールを送信"
 
 #. module: wellness_practitioner
 #: model:mail.template,description:wellness_practitioner.booking_suggestion
@@ -501,7 +511,7 @@ msgstr "試して見ましょう!"
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Use Case"
-msgstr "使用例"
+msgstr "ユースケース"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -520,6 +530,11 @@ msgid ""
 "package</font></strong>!"
 msgstr ""
 "<strong><font class=\"text-o-color-1\">Odoo治療事務パッケージ</font></strong>へようこそ!"
+
+#. module: wellness_practitioner
+#: model_terms:web_tour.tour,rainbow_man_message:wellness_practitioner.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "ようこそ！"
 
 #. module: wellness_practitioner
 #: model:appointment.type,name:wellness_practitioner.appointment_type_1
@@ -557,7 +572,7 @@ msgstr "オンライン前払いによる相談を設定することができま
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
-msgstr "使用例のデモは終了です! ビジネスニーズに応じて、Odooのセットアップを適応させる方法は他にも沢山あります。"
+msgstr "ユースケースのデモは終了です! ビジネスニーズに応じて、Odooのセットアップを適応させる方法は他にも沢山あります。"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -565,7 +580,7 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Therapy Practice package and check the related box."
 msgstr ""
-"デモデータをインポートしていませんか?まだ可能です。アプリ &gt; 業界 &gt; "
+"デモデータのインポートはまだ可能です。アプリ &gt; インダストリー &gt; "
 "に行き、治療業務パッケージをアップグレードし、関連するボックスにチェックを入れて下さい。"
 
 #. module: wellness_practitioner

@@ -3,17 +3,19 @@
 # 	* electronic_store
 # 
 # Translators:
-# Martin Trigaux, 2024
-# Wil Odoo, 2024
-# Chloe Wang, 2024
+# Raymond Yu <cl_yu@hotmail.com>, 2025
+# Martin Trigaux, 2025
+# Wil Odoo, 2025
+# 何彬 <vnsoft.he@gmail.com>, 2025
+# Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-13 07:11+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Chloe Wang, 2024\n"
+"POT-Creation-Date: 2025-02-18 09:07+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Chloe Wang, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +37,17 @@ msgstr "3 年延长保修"
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
 msgid "73455 Twentynine Palms Highway,"
 msgstr "73455 Twentynine Palms Highway,"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"<font style=\"color: var(--color) !important;\">Assign serial numbers</font>"
+msgstr "<font style=\"color: var(--color) !important;\">分配序列号</font>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<font style=\"color: var(--color) !important;\">Go to the reception</font>"
+msgstr "<font style=\"color: var(--color) !important;\">前往接待处</font>"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -176,7 +189,7 @@ msgid ""
 "                                                                    </span>\n"
 "                                                                    <span class=\"s_website_form_mark\">*</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">您的电邮\n"
+"<span class=\"s_website_form_label_content\">您的电子邮件\n"
 "                                                                    </span>\n"
 "                                                                    <span class=\"s_website_form_mark\">*</span>"
 
@@ -186,7 +199,7 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">您的电邮</span>\n"
+"<span class=\"s_website_form_label_content\">您的电子邮件</span>\n"
 "                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: electronic_store
@@ -219,6 +232,13 @@ msgstr ""
 "                                                                    <span class=\"s_website_form_mark\">*</span>"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"<strong style=\"font-weight: 500;\">Flow 4: Field Service Installation - "
+"AC</strong>"
+msgstr "<strong style=\"font-weight: 500;\">流程 4：现场服务安装 - 空调</strong>"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
 msgid ""
 "<strong>\n"
@@ -228,6 +248,21 @@ msgstr ""
 "<strong>\n"
 "                                        <font class=\"text-o-color-4\">独家节日优惠</font>\n"
 "                                    </strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 1. Purchase </strong>"
+msgstr "<strong>流程 1. 采购</strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 2. Sale with serial number</strong>"
+msgstr "<strong>流程 2. 使用序列号 1 进行销售</strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 3. Delivery</strong>"
+msgstr "<strong>流程 3. 交付</strong>"
 
 #. module: electronic_store
 #: model:website.menu,name:electronic_store.website_menu_10
@@ -251,13 +286,22 @@ msgstr "调整这三个列以适应您的设计需求。要复制、删除或移
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
 #: model_terms:ir.ui.view,arch_db:electronic_store.x_project_task_worksheet_template_1_ir_ui_view_1
 msgid "Add details about your intervention..."
-msgstr "添加有关您干预的详细信息..."
+msgstr "添加有关干预措施的详情..."
 
 #. module: electronic_store
-#: model:documents.folder,name:electronic_store.documents_folder_7
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Add the products to the cart"
+msgstr "将产品添加到购物车"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "After completion of the work, update the remarks"
+msgstr "工作完成后，更新备注"
+
+#. module: electronic_store
+#: model:documents.document,name:electronic_store.documents_folder_7
 #: model:product.template,name:electronic_store.product_product_1043_product_template
 #: model:project.project,name:electronic_store.project_project_3
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_4
 msgid "Air Conditioner Installation"
 msgstr "空调安装"
 
@@ -269,27 +313,32 @@ msgstr "空调"
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1070_product_template
 msgid "BOSS E111 Portable 125 Watt Hand Blender (Grey)"
-msgstr ""
+msgstr "BOSS E111 手持式搅拌器 125 瓦（灰色）"
 
 #. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_15
 msgid "Blender"
-msgstr ""
+msgstr "搅拌机"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1031_product_template
 msgid "Bosch Compact Washer"
-msgstr ""
+msgstr "Bosch 小型洗衣机"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1035_product_template
 msgid "Breville Quick Touch Crisp Microwave"
-msgstr ""
+msgstr "Breville Quick Touch 脆烤微波炉"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Bruce Porter"
 msgstr "布鲁斯-波特"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Business Flow"
+msgstr "业务流程"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -307,9 +356,29 @@ msgid "Cash (Electronic Store)"
 msgstr "现金（电器店）"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Check with My Tasks"
+msgstr "查看我的任务"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Click on the first delivery order"
+msgstr "点击第一份送货单"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Click the \"validate\" barcode"
+msgstr "点击 “验证” 条形码"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
 msgid "Comments"
 msgstr "注释"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Confirm the RFQ"
+msgstr "确认报价RFQ"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -328,9 +397,34 @@ msgstr ""
 "                                            我们会尽快给您回复。"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Create a quotation with:"
+msgstr "创建报价单："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Create the purchase order"
+msgstr "创建采购订单"
+
+#. module: electronic_store
 #: model:pos.payment.method,name:electronic_store.pos_payment_method_2
 msgid "Customer Account"
-msgstr "客户账户"
+msgstr "客户帐号"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Customer can register their complaint for the existing purchased products "
+"with serial numbers from the website:"
+msgstr "客户可在网站上登记对现有已购产品序列号的投诉："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Customers are either visiting the store to discover new products, either "
+"exploring the webshop looking for great offers and discounts / cheapest "
+"costs,."
+msgstr "客户要么访问商店发现新产品，要么浏览网上商店寻找优惠和折扣/最便宜的价格。"
 
 #. module: electronic_store
 #: model:account.analytic.plan,name:electronic_store.account_analytic_plan_1
@@ -350,19 +444,92 @@ msgid ""
 msgstr "删除上面的图像或将其替换为说明您的信息的图像。点击图像更改其 <em>圆角</em> 样式。"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Document - Guidelines of Installation"
+msgstr "文件 - 安装指南"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1040_product_template
 msgid "Dyson Purifier Cool (White/Silver) - TP07"
 msgstr "戴森 Cool 净化器（白色/银色）- TP07"
 
 #. module: electronic_store
-#: model:ir.actions.server,name:electronic_store.ir_act_server_1
-msgid "Execute Code"
-msgstr "执行代码"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "ELECTRONICS STORE"
+msgstr "电子商店"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Electronic Store"
+msgstr "电子商店"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Enter the product <font style=\"color: rgb(156, 0, 255);\">LG Dual Inverter "
+"Window Air Conditioner</font>"
+msgstr "输入产品 <font style=\"color: rgb(156, 0, 255);\">LG 双变频窗式空调</font>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Every day, the logistic manager reserves products that should be delivered today (reservation is set to manual for this location, so that he has a control of what he wants to send today). If a delivery order should be delivered\n"
+"            today but products are not available, he informs the customer using the chatter on the delivery order."
+msgstr ""
+"每天，物流经理都会预留今天应该送货的产品（该地点的预留设置为手动，这样就可以控制今天要送货的产品）。如果应该在今天送达的送货单\n"
+"有产品缺货，他可以通过送货单上的沟通栏，直接通知客户。"
 
 #. module: electronic_store
 #: model:account.analytic.account,name:electronic_store.account_analytic_account_2
 msgid "Field Service"
 msgstr "现场服务"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Field service engineer checking daily activity with mobile app:"
+msgstr "现场服务工程师使用移动应用程序检查日常活动："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Field service engineer will visit the client place and start working on "
+"installation."
+msgstr "现场服务工程师将前往客户处开始安装工作。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Fill the form:"
+msgstr "填写表格："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 1. Purchase"
+msgstr "流程1：采购"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 2. Sale with serial number"
+msgstr "流程2. 使用序列号销售"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 3. Delivery"
+msgstr "流程 3. 送货"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 4: Field Service Installation - AC"
+msgstr "流程 4：现场服务安装 - 空调"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 5: Website Complaint"
+msgstr "流程 5：网站投诉"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 6: POS Shopping"
+msgstr "流程 6：POS 购物"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
@@ -385,9 +552,19 @@ msgid "Frigidaire Top-Freezer Refrigerator"
 msgstr "Frigidaire 顶级冷藏冰箱"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "From the POS Shop:"
+msgstr "在 POS 商店："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "From the website, click on the menu Helpdesk"
+msgstr "在网站上，点击菜单的 “服务台”"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1036_product_template
 msgid "GE Profile Over-the-Range Microwave"
-msgstr ""
+msgstr "GE Profile 炉台式微波炉"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1047_product_template
@@ -395,19 +572,35 @@ msgid "Gift Card"
 msgstr "礼品卡"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Go to mobile odoo app \"Air Conditioner Installation\""
+msgstr "进入 Odoo 移动应用程序 “空调安装”。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Go to project \"Air Conditioner Installation\""
+msgstr "转到 “空调安装” 项目"
+
+#. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_9
 msgid "Home Appliance"
-msgstr ""
+msgstr "家居电器"
 
 #. module: electronic_store
 #: model:pos.category,name:electronic_store.pos_category_1
 msgid "Home Appliances"
-msgstr ""
+msgstr "家居电器"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1039_product_template
 msgid "Honeywell QuietSet Tower Fan"
 msgstr "霍尼韦尔 QuietSet 塔扇"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"In the office, the service manager assigns tasks to installers. To do so"
+msgstr "在办公室，服务经理向安装人员分配任务。"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.field_installation_date
@@ -448,54 +641,69 @@ msgstr "KB 电器<br/>"
 #. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_13
 msgid "Kitchen Appliance"
-msgstr ""
+msgstr "厨房电器"
 
 #. module: electronic_store
 #: model:pos.category,name:electronic_store.pos_category_2
 msgid "Kitchen Appliances"
-msgstr ""
+msgstr "厨房电器"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1026_product_template
 msgid "KitchenAid Counter-Depth French Door Refrigerator"
-msgstr ""
+msgstr "KitchenAid 法式对开门冰箱，厨房柜台深度"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1037_product_template
 msgid "LG Dual Inverter Window Air Conditioner"
-msgstr ""
+msgstr "LG 双变频窗口空调机"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1022_product_template
 msgid "LG French Door Refrigerator"
-msgstr ""
+msgstr "LG 法式对开门冰箱"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1033_product_template
 msgid "LG NeoChef Countertop Microwave"
-msgstr ""
+msgstr "LG NeoChef 台面微波炉"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1028_product_template
 msgid "LG Top-Load Washer with TurboWash"
-msgstr ""
+msgstr "LG 顶揭式洗衣机，配备 TurboWash"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Let's buy some items that are tracked by serial numbers."
+msgstr "让我们购买一些通过序列号追踪的物品。"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1027_product_template
 msgid "Maytag Front-Load Washer"
-msgstr ""
+msgstr "Maytag 前置式洗衣机"
 
 #. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_16
 msgid "Microwaves"
-msgstr ""
+msgstr "微波炉"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.field_makemodel
 #: model_terms:ir.ui.view,arch_db:electronic_store.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
 msgid "Model Number"
+msgstr "型号"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Move the task \"<font style=\"color: rgb(156, 0, 255);\">In "
+"Progress</font>\" and then \"<font style=\"color: rgb(156, 0, "
+"255);\">Done</font>\" when it's finished and sign the service report."
 msgstr ""
+"将任务移至 “<font style=\"color: rgb(156, 0, 255);\">进行中</font>”，完成后再移至 “<font "
+"style=\"color: rgb(156, 0, 255);\">已完成</font>”，并在服务报告上签字。"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.x_name_record
@@ -508,6 +716,16 @@ msgid "Next"
 msgstr "下一页"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Odoo will generate 1 task for the Air Conditioner installation."
+msgstr "Odoo 将为空调安装生成 1 个任务。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Once the order is confirmed:"
+msgstr "订单一经确认："
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Our References"
 msgstr "我们的参考"
@@ -515,12 +733,22 @@ msgstr "我们的参考"
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1032_product_template
 msgid "Panasonic Genius Sensor Microwave Oven"
-msgstr ""
+msgstr "Panasonic Genius 感应器微波炉"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Plan to visit customer location"
+msgstr "计划访问客户所在地"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Previous"
 msgstr "上一页"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Product wise guidelines and steps given for the Service Engineer"
+msgstr "为服务工程师提供的产品指南和步骤"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
@@ -533,32 +761,71 @@ msgid "Products on Tasks"
 msgstr "任务上的产品"
 
 #. module: electronic_store
-#: model:documents.folder,name:electronic_store.documents_folder_10
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Provide the serial number <font style=\"color: rgb(156, 0, "
+"255);\">804KCPY43321</font>"
+msgstr "提供序列号<font style=\"color: rgb(156, 0, 255);\">804KCPY43321</font>"
+
+#. module: electronic_store
+#: model:documents.document,name:electronic_store.documents_folder_10
 #: model:product.template,name:electronic_store.product_product_1042_product_template
 #: model:project.project,name:electronic_store.project_project_4
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_2
 msgid "Refrigerator Installation"
-msgstr ""
+msgstr "冰箱安装"
 
 #. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_11
 msgid "Refrigerators"
-msgstr ""
+msgstr "冰箱"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.x_comments_remarks_record
 msgid "Remarks"
-msgstr ""
+msgstr "备注"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1029_product_template
 msgid "Samsung Front-Load Washer with Steam"
-msgstr ""
+msgstr "三星前置式蒸气洗衣机"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1023_product_template
 msgid "Samsung Side-by-Side Refrigerator"
+msgstr "三星大型对门式冰箱"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Scan product <strong><font style=\"color: rgb(255, 0, 255);\">LG Dual "
+"Inverter Window Air Conditioner</font></strong>"
 msgstr ""
+"扫描产品 <strong><font style=\"color: rgb(255, 0, "
+"255);\">LG双变频窗式空调</font></strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Scan the serial number"
+msgstr "扫描序列号"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Select any of the payment methods and proceed to the payment."
+msgstr "选择任何一种付款方式，然后进行付款。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Select product <strong><font style=\"color: rgb(156, 0, 255);\">LG Dual "
+"Inverter Window Air Conditioner</font></strong>"
+msgstr ""
+"选择产品<strong><font style=\"color: rgb(156, 0, 255);\">LG "
+"双变频窗口式空调</font></strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Select the customer"
+msgstr "选择顾客"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
@@ -589,6 +856,16 @@ msgid "Submit a Ticket"
 msgstr "提交一个工单"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Submit the ticket."
+msgstr "提交工单"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Switch tasks to Gantt view"
+msgstr "将任务切换到甘特图视图"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1053_product_template
 msgid "TV LED"
 msgstr "LED 电视"
@@ -606,9 +883,42 @@ msgid "Tasks"
 msgstr "任务"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "The delivery order will be created for the LG Dual Inverter"
+msgstr "将为 LG 双变频器创建交货订单"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"The salesperson sets the \"expected delivery date\" based on customer "
+"availability"
+msgstr "销售人员根据客户的供货情况设定 “预计交货日期”"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Theia Hayward"
 msgstr "西娅-海沃德"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Then, the worker processes all delivery orders that are ready, using the "
+"barcode interface. From delivery orders:"
+msgstr "然后，工作人员使用条形码界面处理所有准备好的送货订单。从送货订单："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"They generally require the functionalities of several apps to manage their "
+"business workflow."
+msgstr "他们通常需要多个应用程序的功能来管理业务工作流程。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"This Business setup for Electronics store where they can sell their "
+"electronics items like Home Appliances, Kitchen Appliances, etc..."
+msgstr "该业务是为电子产品商店设立的，他们可以在这里销售家用电器、厨房电器等电子产品。"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
@@ -617,6 +927,11 @@ msgid ""
 "right icon of each block. Then, duplicate one of the columns to create a new"
 " one as a copy."
 msgstr "要添加第四列，请使用每个模块的右图标减小这三列的大小。然后，复制其中一列以创建新列作为副本。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "To speed up the creation of the quotation, use a quotation template."
+msgstr "为加快报价单的创建速度，请使用报价单模板。"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1034_product_template
@@ -635,11 +950,31 @@ msgid "Update warranty date on serial number"
 msgstr "更新序列号上的保修日期"
 
 #. module: electronic_store
+#: model:ir.actions.server,name:electronic_store.ir_act_server_1
+msgid "Update warranty date on serial number - Server Action"
+msgstr "更新序列号上的保修日期 - 服务器操作"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
 msgid ""
 "Upgrade Your Gear: Black Friday's Tech Delights Await!. Bring home smart "
 "products with exclusive Festive Offers"
 msgstr "升级您的装备： 黑色星期五的科技盛宴等着您！将智能产品带回家，享受独家节日优惠"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Use Ship Later option before the checkout for shipping later"
+msgstr "在结账前使用 “稍后发货” 选项，以便稍后发货"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Use the magnifier 🔎 icon to select tasks to assign"
+msgstr "使用放大镜图标🔎选择要分配的任务"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Validate the Receipt"
+msgstr "验证收货"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.new_field_to_set_warranty_month
@@ -669,6 +1004,19 @@ msgid "We are in good company."
 msgstr "我们相处得很好。"
 
 #. module: electronic_store
+#: model_terms:web_tour.tour,rainbow_man_message:electronic_store.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "欢迎！祝您探索愉快。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"When selling electronics, most items are tracked with serial numbers. To "
+"deliver the installation service, we use the project management app, with "
+"one task per installation to do."
+msgstr "在销售电子产品时，大多数商品都有序列号。为了提供安装服务，我们使用了项目管理应用程序，每次安装只需完成一项任务。"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1024_product_template
 msgid "Whirlpool Bottom-Freezer Refrigerator"
 msgstr "惠而浦底层冷藏冰箱"
@@ -689,6 +1037,11 @@ msgid "Wilson Holt"
 msgstr "威尔逊-霍尔特"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Worksheet will help for the installation report"
+msgstr "工作表有助于编写安装报告"
+
+#. module: electronic_store
 #: model:ir.actions.act_window,name:electronic_store.x_project_task_worksheet_template_1_ir_actions_act_window_1
 msgid "Worksheets"
 msgstr "工时单"
@@ -701,11 +1054,26 @@ msgid ""
 msgstr "在这里写一个客户的好评。好评是建立客户对你的产品或服务的信心的好方法。"
 
 #. module: electronic_store
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_1
-msgid "[REF-002] Samsung Side-by-Side Refrigerator"
-msgstr "[REF-002] 三星对开门冰箱"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"payment term: <strong><font style=\"color: rgb(156, 0, 255);\">30 % Advance "
+"Rest on Installment</font></strong>"
+msgstr ""
+"付款期限：<strong><font style=\"color: rgb(156, 0, 255);\"> 30 % 预付款 "
+"其余为分期付款</font></strong>"
 
 #. module: electronic_store
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_3
-msgid "[RW-Q18WWZA] LG Dual Inverter Window Air Conditioner"
-msgstr "[RW-Q18WWZA] LG 双变频窗式空调"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"product: <strong><font style=\"color: rgb(156, 0, 255);\">Air Conditioner "
+"Installation</font></strong>"
+msgstr "产品：<strong><font style=\"color: rgb(156, 0, 255);\">空调安装</font></strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"product: <strong><font style=\"color: rgb(156, 0, 255);\">LG Dual Inverter "
+"Window Air Conditioner </font></strong>"
+msgstr ""
+"产品：<strong><font style=\"color: rgb(156, 0, 255);\">LG "
+"双变频窗口式空调器</font></strong>"

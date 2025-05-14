@@ -3,17 +3,16 @@
 # 	* micro_brewery
 # 
 # Translators:
-# Martin Trigaux, 2024
-# Tony Ng, 2024
-# Wil Odoo, 2024
+# Wil Odoo, 2025
+# Tony Ng, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-05 07:49+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2024-11-29 14:10+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Tony Ng, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,19 +26,19 @@ msgid "+1 (650) 555-0111"
 msgstr "+1 (650) 555-0111"
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
+msgid "+16"
+msgstr "16+"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_18
+msgid "+18"
+msgstr "18+"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ", and feel free to"
 msgstr "，亦歡迎隨時"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "1. Crafting a beer"
-msgstr "1. 釀造啤酒"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "2. Selling the beer"
-msgstr "2. 銷售啤酒"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
@@ -50,8 +49,8 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "3. Visiting the Brewery"
-msgstr "3. 參觀啤酒廠"
+msgid "4. Deposit Management 🍻"
+msgstr "4. 訂金管理 🍻"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -232,6 +231,11 @@ msgstr "<strong><span class=\"h3-fs\">創立釀造配方</span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "<strong><span class=\"h3-fs\">Rental</span></strong>"
+msgstr "<strong><span class=\"h3-fs\">租金</span></strong>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong><span class=\"h3-fs\">Schedule a visit from the "
 "website.</span></strong> <br/>"
@@ -328,9 +332,24 @@ msgstr ""
 "銷售點管理應用程式，建立你想在酒吧/餐廳銷售的產品（例如：生啤酒、小吃等）。"
 
 #. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_15
+msgid "Age Limit"
+msgstr "年齡限制"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
 msgid "Alcohol"
 msgstr "酒精"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_5
+msgid "Amber"
+msgstr "橙酒"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Apply DEP XX taxes to these consigns."
+msgstr "對這些貨物徵收 DEP XX 稅。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -340,14 +359,24 @@ msgid ""
 msgstr "你可以隨時選擇一張桌子，登記付款，然後關閉該桌子。"
 
 #. module: micro_brewery
+#: model:base.automation,name:micro_brewery.auto_production
+msgid "Auto Production"
+msgstr "自動化生產"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_aut_production
+msgid "Auto-production"
+msgstr "自動化生產"
+
+#. module: micro_brewery
+#: model:base.automation,name:micro_brewery.bom_automation
+msgid "Automated BoM"
+msgstr "自動化物料清單"
+
+#. module: micro_brewery
 #: model:product.pricelist,name:micro_brewery.product_pricelist_2
 msgid "B2B"
 msgstr "B2B（企業對企業）"
-
-#. module: micro_brewery
-#: model:pos.category,name:micro_brewery.pos_category_2
-msgid "Bar"
-msgstr "條"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -360,19 +389,24 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Basics"
-msgstr "基礎"
+msgid "Beer bottle (33cl), 3000 units (+- 10hL)"
+msgstr "啤酒 - 瓶裝（330 毫升），3,000 件（+- 1 公升）"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_product_90_product_template
+msgid "Beer cooler with tap - for 1 x 50 litre keg "
+msgstr "有龍頭啤酒冷卻罐 - 可容納 1 × 50 公升酒桶"
+
+#. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_10
+msgid "Beer type"
+msgstr "啤酒類型"
 
 #. module: micro_brewery
 #: model:pos.category,name:micro_brewery.pos_category_4
 #: model:product.public.category,name:micro_brewery.product_public_category_3
-msgid "Beer"
+msgid "Beers"
 msgstr "啤酒"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Beer bottle (33cl), 3000 units (+- 10hL)"
-msgstr "啤酒 - 瓶裝（330 毫升），3,000 件（+- 1 公升）"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_32
@@ -395,6 +429,7 @@ msgid "Black"
 msgstr "黑色"
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_2
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_7
 msgid "Blond"
 msgstr "金啤酒"
@@ -470,6 +505,12 @@ msgid "Bottling - Work center: Bottler"
 msgstr "裝瓶 - 工作中心：裝瓶器"
 
 #. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_16
+msgid "Brand"
+msgstr "品牌"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_3
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_10
 msgid "Brown"
 msgstr "棕色啤酒"
@@ -513,6 +554,11 @@ msgid "Brown Beer - Keg 20L Contains 24 x 33cl"
 msgstr "棕色啤酒 - 20 公升桶裝，包含 24 × 330 毫升"
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_24
+msgid "Brussels beer project"
+msgstr "Brussels Beer Project"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "By default the \"Contact us\" page of the website will send you an email, "
@@ -533,6 +579,20 @@ msgstr "上載此模組的模據數據後，你的資料庫會預先填充一些
 #: model:product.public.category,name:micro_brewery.product_public_category_5
 msgid "Case"
 msgstr "大小寫"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_21
+msgid "Chaudfontaine"
+msgstr "Chaudfontaine"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Collect deposit when you deliver your customer. It is easy. When validating your delivery, you can directly set a \"Return\" and precisely count the number of each type of deposit your customer gave you. It will automatically be\n"
+"        reflected on his invoice or issue a credit note."
+msgstr ""
+"你可向選擇送貨的客戶收取訂金。過程很容易，驗證送貨安排時，你可直接設置一項「退貨」，並精確計算客戶向你支付的每種訂金的數量。\n"
+"        此資料會自動在他的發票上反映，或在發出貸記單時交代。"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -559,12 +619,86 @@ msgstr ""
 "                                            我們會盡快回應。"
 
 #. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_quantity_by_deposit_product
+msgid "Contains"
+msgstr "包含"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
 "color-1\"><strong>Manufacture App</strong></font>"
 msgstr ""
 "精釀啤酒 - 主要使用<font class=\"text-o-color-1\"><strong>製造管理應用程式</strong></font>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Create deposit products for each different type of consigns"
+msgstr "為每種不同類型的貨物建立訂金產品"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_01_purchase
+#: model:account.tax,name:micro_brewery.account_tax_01_sale
+msgid "DEP 0.1"
+msgstr "DEP 0.1"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_21_sale
+msgid "DEP 2.1"
+msgstr "DEP 2.1"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_24_purchase
+#: model:account.tax,name:micro_brewery.account_tax_24_sale
+msgid "DEP 2.4"
+msgstr "DEP 2.4"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_45_purchase
+#: model:account.tax,name:micro_brewery.account_tax_45_sale
+msgid "DEP 4.5"
+msgstr "DEP 4.5"
+
+#. module: micro_brewery
+#: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
+msgid "Default fields for deposits"
+msgstr "訂金預設欄位"
+
+#. module: micro_brewery
+#: model:account.tax.group,name:micro_brewery.deposit_tax_group
+#: model:pos.category,name:micro_brewery.pos_category_5
+msgid "Deposit"
+msgstr "訂金"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_90
+msgid "Deposit 0.1"
+msgstr "訂金 0.1"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_56
+msgid "Deposit 2.1"
+msgstr "訂金 2.1"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_53
+msgid "Deposit 2.4"
+msgstr "訂金 2.4"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_55
+msgid "Deposit 4.5"
+msgstr "訂金 4.5"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
+msgid "Deposit product"
+msgstr "訂金產品"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
+msgid "Deposit product must be set in Deposit category"
+msgstr "訂金產品必須先在訂金類別中設定"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -579,16 +713,21 @@ msgid ""
 msgstr "發掘此軟體套裝的基礎知識，探索 Odoo 為改善你的體驗而提供的所有可能。"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Do you want to go further?"
-msgstr "想再進一步嗎？"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
 "Don't hesitate and come visit us!&amp;nbsp;We will show you how we produce "
 "our amazing beers"
 msgstr "快來參觀我們啤酒廠，一探令人讚嘆的啤酒佳釀，是如何生產的。"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_exc_21676_sale
+msgid "EXC 2.1676"
+msgstr "EXC 2.1676"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_exc_coca_sale
+msgid "EXC COCA"
+msgstr "EXC COCA"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -605,6 +744,38 @@ msgstr ""
 #: model:product.template,name:micro_brewery.product_product_39_product_template
 msgid "Empty Keg"
 msgstr "空桶"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
+msgid "Empty deposit product"
+msgstr "空白訂金產品"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Every time you need to sell a single Mobius Blanche - 33cl, if you don't "
+"have enough in stock, it will split your main product in 24 units and take "
+"into account an extra empty bin that will be left at the end."
+msgstr ""
+"每次需要出售單一件「Mobius Blanche - 330 毫升」時，如果沒有足夠庫存，系統會將主要產品分割成 24 "
+"個小單位，並會考慮最後留下的額外空箱。"
+
+#. module: micro_brewery
+#: model:account.tax.group,name:micro_brewery.excises_tax_group
+msgid "Excises"
+msgstr "消費稅"
+
+#. module: micro_brewery
+#: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
+#: model:ir.actions.server,name:micro_brewery.bom_server_action
+#: model:ir.actions.server,name:micro_brewery.update_sales_taxes_server_action
+msgid "Execute Code"
+msgstr "執行程式碼"
+
+#. module: micro_brewery
+#: model:ir.actions.server,name:micro_brewery.update_state
+msgid "Execute Existing Actions"
+msgstr "執行現有行動"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
@@ -638,6 +809,11 @@ msgstr "口味強度<br/>"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
 msgid "Follow us"
 msgstr "追蹤我們"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "For example:"
+msgstr "舉例："
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -719,6 +895,11 @@ msgid "Hops - Goods, inventory tracking by lot."
 msgstr "啤酒花 - 貨品，按批次追蹤庫存。"
 
 #. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_14
+msgid "IPA"
+msgstr "IPA 啤酒"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "If you need to declare your <strong>periodic sales in a consolidated "
@@ -731,9 +912,25 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"If you want to automatically split products sold in a specific packaging, "
+"precise a unit sale product in the so-called field and the number of units "
+"contained in the main product."
+msgstr "若想自動分拆以特定包裝銷售的產品，請在單位銷售產品欄位中，設定需要的單售產品，以及主要產品所包含的單售產品件數。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Use Case."
 msgstr "如果你想執行此模組的實際操作導覽，你應該匯入模擬資料，並嘗試運用「使用案例」。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"If you want to rent Beer Taps to your customer, you can explore the rental "
+"App and discover how you can manage your rental schedule easily and provide "
+"a great extended service to your customers."
+msgstr "如果想向客戶出租啤酒龍頭，可看看租賃應用程式的功能，了解如何輕鬆管理租賃時間表，為客戶提供優質的額外服務。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -753,6 +950,16 @@ msgid ""
 "In the manufacturing application, you can create a bill of materials to "
 "define how the beer should be crafted."
 msgstr "在製造管理應用程式中，你可以建立物料清單，去定義啤酒的釀造配方。"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
+msgid "Is a deposit"
+msgstr "是訂金"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
+msgid "Is a deposit category"
+msgstr "是訂金類別"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -830,6 +1037,16 @@ msgid "Learn more"
 msgstr "了解更多"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
+msgid "Leave empty if this product is the smallest unit"
+msgstr "若此產品已是最小單位，請留空"
+
+#. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
+msgid "Local Brand"
+msgstr "本土品牌"
+
+#. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
 msgid "Malt"
 msgstr "麥芽"
@@ -875,13 +1092,73 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Manage your deposit more precisely and efficiently than ever before."
+msgstr "你可比以往更精確、更有效率地管理訂金。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Mashing - Work center: Mash tun"
 msgstr "糖化 - 工作中心：糖化缸"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_12
+msgid "Mobius"
+msgstr "Mobius"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_6
+msgid "Mobius Blanche 24x33cl"
+msgstr "Mobius Blanche 24×330 毫升"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_7
+msgid "Mobius Blanche 33cl"
+msgstr "Mobius Blanche 330 毫升"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_59
+msgid "Mobius IPA 24x33cl "
+msgstr "Mobius IPA 24×330 毫升"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_60
+msgid "Mobius IPA 33cl"
+msgstr "Mobius IPA 330 毫升"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Mobius Triple - 24x33cl is your main product"
+msgstr "Mobius Triple - 24×330 毫升：是「主要產品」"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Mobius Triple - 33cl is the unit sale product"
+msgstr "Mobius Triple - 330 毫升：是「單件銷售產品」"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_61
+msgid "Mobius Triple 24x33cl"
+msgstr "Mobius Triple 24×330 毫升"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_62
+msgid "Mobius Triple 33cl"
+msgstr "Mobius Triple 330 毫升"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
 msgid "My Company"
 msgstr "我的公司"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.x_volume_sold
+msgid "New Decimal"
+msgstr "新增小數數字"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_16
+msgid "No"
+msgstr "否"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1020,6 +1297,12 @@ msgstr ""
 "color-1\">銷售應用程式</font></strong>"
 
 #. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
+#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_rr
+msgid "Parent product"
+msgstr "母項產品"
+
+#. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
 msgid "Pint"
 msgstr "品脫"
@@ -1058,6 +1341,13 @@ msgid ""
 msgstr "選擇一張桌子（內部或外部），再選擇訂購產品，最後確認訂單。"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Set a deposit product on your product to apply these taxes. This will ensure"
+" that you invoice correctly the price of consigns."
+msgstr "為產品設定「訂金產品」，以套用這些稅項。這可確保你正確開立寄售物品價格的發票。"
+
+#. module: micro_brewery
 #: model:pos.category,name:micro_brewery.pos_category_3
 msgid "Shop"
 msgstr "商店"
@@ -1072,6 +1362,11 @@ msgstr "大小"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Spent Grain"
 msgstr "酒糟"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_4
+msgid "Stout"
+msgstr "黑啤"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -1106,6 +1401,11 @@ msgid ""
 "The appointment app can also be used to share your availability with a "
 "customer or a vendor if you want him to book a meeting with you."
 msgstr "如果你希望客戶或供應商預約安排與你進行會議，預約應用程式也可用於向客戶或供應商分享你的空閒時間。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "The inventory of all products will be updated accordingly."
+msgstr "所有產品的庫存記錄，都會相應更新。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1143,8 +1443,28 @@ msgstr "本文會帶你了解小型啤酒廠的業務流程，了解 Odoo 如何
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Use case"
-msgstr "使用例子"
+msgid ""
+"This deposit management system is a specific features of this package. "
+"Proceed carefully if you need to adapt anything."
+msgstr "此訂金管理系統是此軟件套裝的特有功能。若需要調整任何內容，請小心處理。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"This will automatically create a Bill of Material and process a Manufacture "
+"Order each time you need to split your product and reflect this operation in"
+" your stock perfectly."
+msgstr "每次你需要分拆產品、並想在庫存記錄完美反映此項操作時，系統都會自動建立物料清單，並處理製造訂單。"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
+msgid "Unit sale product"
+msgstr "單位銷售產品"
+
+#. module: micro_brewery
+#: model:base.automation,name:micro_brewery.update_sales_taxes
+msgid "Update Taxes"
+msgstr "更新稅款"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1199,6 +1519,11 @@ msgstr ""
 "                                    為一試難忘的啤酒和精彩動人的時刻乾杯！"
 
 #. module: micro_brewery
+#: model_terms:web_tour.tour,rainbow_man_message:micro_brewery.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "歡迎！請享受探索過程。"
+
+#. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_4
 msgid "White"
 msgstr "白"
@@ -1229,11 +1554,24 @@ msgid "Yeast - Goods, inventory tracking by lot."
 msgstr "酵母 - 貨品，按批次追蹤庫存。"
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_15
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_25
+msgid "Yes"
+msgstr "是"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr "你可在主要 Dashboard 上，存取 Odoo 資料庫內所有已安裝的應用程式。"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"You can also collect deposit directly on your Point of Sale. Select the "
+"correct product and encode a negative quantity."
+msgstr "你也可直接在 POS 銷售點管理應用程式收取訂金。選擇正確的產品，然後編碼一項負數數量。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1295,6 +1633,18 @@ msgstr "你應該能夠執行以下流程，概覽你在 Odoo 內可使用此套
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
+msgstr "[空載 33 箱子] 常規 24×33 箱子，是空的訂金產品（價值 $2.1）"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
+msgstr "[滿載 33 箱子] 常規 24×33 箱子，是完成的訂金產品（價值 $4.5）"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "academy"
 msgstr "學院"
 
@@ -1307,6 +1657,11 @@ msgstr "及"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "documentation"
 msgstr "系統使用說明"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
+msgid "ex. Delta I.P.A. - 33cl"
+msgstr "例：Delta IPA 啤酒 - 330 毫升"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_27

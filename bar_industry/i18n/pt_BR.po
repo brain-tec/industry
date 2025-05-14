@@ -3,17 +3,17 @@
 # 	* bar_industry
 # 
 # Translators:
-# Rodrigo Sottomaior Macedo <sottomaiormacedotec@sottomaiormacedo.tech>, 2024
-# Maitê Dietze, 2024
-# Wil Odoo, 2024
+# Rodrigo Sottomaior Macedo <sottomaiormacedotec@sottomaiormacedo.tech>, 2025
+# Wil Odoo, 2025
+# Maitê Dietze, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-04 14:54+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2025-02-14 14:14+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Maitê Dietze, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -223,7 +223,7 @@ msgstr ""
 #. module: bar_industry
 #: model:planning.role,name:bar_industry.planning_role_2
 msgid "Bar"
-msgstr "Barra"
+msgstr "Barras"
 
 #. module: bar_industry
 #: model:planning.role,name:bar_industry.planning_role_3
@@ -234,6 +234,11 @@ msgstr "Bar e Serviço"
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Basics:"
 msgstr "Elementos básicos:"
+
+#. module: bar_industry
+#: model:uom.uom,name:bar_industry.uom_uom_1
+msgid "Bin"
+msgstr "Lixeira"
 
 #. module: bar_industry
 #: model:product.template,name:bar_industry.product_product_26_product_template
@@ -496,7 +501,7 @@ msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
 "Todos são gratuitos em sua assinatura atual; sinta-se à vontade para "
-"explorar! 🙃"
+"explorar!"
 
 #. module: bar_industry
 #: model:project.task.type,name:bar_industry.project_task_type_1
@@ -557,9 +562,15 @@ msgstr ""
 "para repor seus produtos."
 
 #. module: bar_industry
+#: model_terms:web_tour.tour,rainbow_man_message:bar_industry.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "Boas-vindas! Boa exploração."
+
+#. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "Quer conversar sobre sua configuração do Odoo ou ir ainda mais além?"
+msgstr ""
+"Gostaria de discutir sua configuração do Odoo conosco ou ir ainda mais além?"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body

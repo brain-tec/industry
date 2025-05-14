@@ -3,16 +3,16 @@
 # 	* electronic_store
 # 
 # Translators:
-# Wil Odoo, 2024
-# Tony Ng, 2024
+# Wil Odoo, 2025
+# Tony Ng, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-13 07:11+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Tony Ng, 2024\n"
+"POT-Creation-Date: 2025-02-18 09:07+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Tony Ng, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +34,17 @@ msgstr "3 年延長保固"
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
 msgid "73455 Twentynine Palms Highway,"
 msgstr "73455 Twentynine Palms Highway,"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"<font style=\"color: var(--color) !important;\">Assign serial numbers</font>"
+msgstr "<font style=\"color: var(--color) !important;\">分配序號</font>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<font style=\"color: var(--color) !important;\">Go to the reception</font>"
+msgstr "<font style=\"color: var(--color) !important;\">前往收貨</font>"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -212,6 +223,13 @@ msgstr ""
 "                                                                    <span class=\"s_website_form_mark\"> *（必填）</span>"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"<strong style=\"font-weight: 500;\">Flow 4: Field Service Installation - "
+"AC</strong>"
+msgstr "<strong style=\"font-weight: 500;\">流程 4：外勤服務安裝 - 空調</strong>"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
 msgid ""
 "<strong>\n"
@@ -221,6 +239,21 @@ msgstr ""
 "<strong>\n"
 "                                        <font class=\"text-o-color-4\">獨家節慶優惠</font>\n"
 "                                    </strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 1. Purchase </strong>"
+msgstr "<strong>流程 1：採購</strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 2. Sale with serial number</strong>"
+msgstr "<strong>流程 2：以產品序號銷售</strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "<strong>Flow 3. Delivery</strong>"
+msgstr "<strong>流程 3：送貨</strong>"
 
 #. module: electronic_store
 #: model:website.menu,name:electronic_store.website_menu_10
@@ -247,12 +280,21 @@ msgid "Add details about your intervention..."
 msgstr "加入有關干預措施的詳情⋯"
 
 #. module: electronic_store
-#: model:documents.folder,name:electronic_store.documents_folder_7
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Add the products to the cart"
+msgstr "將產品加入購物車"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "After completion of the work, update the remarks"
+msgstr "完成工作後，更新備註內容"
+
+#. module: electronic_store
+#: model:documents.document,name:electronic_store.documents_folder_7
 #: model:product.template,name:electronic_store.product_product_1043_product_template
 #: model:project.project,name:electronic_store.project_project_3
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_4
 msgid "Air Conditioner Installation"
-msgstr "冷氣機安裝"
+msgstr "空調機安裝"
 
 #. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_10
@@ -285,6 +327,11 @@ msgid "Bruce Porter"
 msgstr "Bruce Porter"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Business Flow"
+msgstr "業務流程"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
 msgid "CA&amp; 92277"
 msgstr "CA 92277"
@@ -300,9 +347,29 @@ msgid "Cash (Electronic Store)"
 msgstr "現金（電器店）"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Check with My Tasks"
+msgstr "檢查「我的任務」"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Click on the first delivery order"
+msgstr "點選第一張送貨單"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Click the \"validate\" barcode"
+msgstr "按一下「驗證」條碼"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
 msgid "Comments"
 msgstr "評論"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Confirm the RFQ"
+msgstr "確認報價請求"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.contactus
@@ -321,9 +388,34 @@ msgstr ""
 "                                            我們會盡快回應。"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Create a quotation with:"
+msgstr "根據以下資料，建立報價單："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Create the purchase order"
+msgstr "建立採購單"
+
+#. module: electronic_store
 #: model:pos.payment.method,name:electronic_store.pos_payment_method_2
 msgid "Customer Account"
 msgstr "客戶帳戶"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Customer can register their complaint for the existing purchased products "
+"with serial numbers from the website:"
+msgstr "客戶可在網站上，利用序號資料，對已購買的產品作出投訴："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Customers are either visiting the store to discover new products, either "
+"exploring the webshop looking for great offers and discounts / cheapest "
+"costs,."
+msgstr "客戶通常是親臨商店發掘新產品，或瀏覽網上商店，尋找最佳優惠及折扣、最低價產品等。"
 
 #. module: electronic_store
 #: model:account.analytic.plan,name:electronic_store.account_analytic_plan_1
@@ -343,19 +435,92 @@ msgid ""
 msgstr "刪除上方圖片，或以一張能夠表達你的訊息的圖片取代。在圖片上按一下，可修改它的<u>圓角樣式</u>。"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Document - Guidelines of Installation"
+msgstr "文件 - 安裝指引"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1040_product_template
 msgid "Dyson Purifier Cool (White/Silver) - TP07"
 msgstr "Dyson Purifier Cool 空氣清新機（白色及銀色）- TP07"
 
 #. module: electronic_store
-#: model:ir.actions.server,name:electronic_store.ir_act_server_1
-msgid "Execute Code"
-msgstr "執行程式碼"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "ELECTRONICS STORE"
+msgstr "電子產品店"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Electronic Store"
+msgstr "電子產品店"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Enter the product <font style=\"color: rgb(156, 0, 255);\">LG Dual Inverter "
+"Window Air Conditioner</font>"
+msgstr "輸入產品「<font style=\"color: rgb(156, 0, 255);\">LG 雙變頻窗口空調機</font>」"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Every day, the logistic manager reserves products that should be delivered today (reservation is set to manual for this location, so that he has a control of what he wants to send today). If a delivery order should be delivered\n"
+"            today but products are not available, he informs the customer using the chatter on the delivery order."
+msgstr ""
+"每天，物流經理都會預留當天要送貨的產品（此位置的預留設定已設為手動，以便他隨意控制今天要將甚麼產品送貨）。如果今天應送貨的送貨單\n"
+"            有產品缺貨，他可透過送貨單上的聊天視窗，直接通知客戶。"
 
 #. module: electronic_store
 #: model:account.analytic.account,name:electronic_store.account_analytic_account_2
 msgid "Field Service"
 msgstr "外勤服務"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Field service engineer checking daily activity with mobile app:"
+msgstr "外勤服務工程師會使用流動應用程式，檢查每天工作："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Field service engineer will visit the client place and start working on "
+"installation."
+msgstr "外勤服務工程師會前往客戶場地，展開安裝工作。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Fill the form:"
+msgstr "填寫表單："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 1. Purchase"
+msgstr "流程 1：採購"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 2. Sale with serial number"
+msgstr "流程 2：以產品序號銷售"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 3. Delivery"
+msgstr "流程 3：送貨"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 4: Field Service Installation - AC"
+msgstr "流程 4：外勤服務現場安裝 - 空調"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 5: Website Complaint"
+msgstr "流程 5：網站投訴"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Flow 6: POS Shopping"
+msgstr "流程 6：POS 購物"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
@@ -378,6 +543,16 @@ msgid "Frigidaire Top-Freezer Refrigerator"
 msgstr "Frigidaire 雪櫃，頂置冷凍冰格"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "From the POS Shop:"
+msgstr "在 POS 商店介面中："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "From the website, click on the menu Helpdesk"
+msgstr "在網站內，按一下「幫助台」選單"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1036_product_template
 msgid "GE Profile Over-the-Range Microwave"
 msgstr "GE Profile 爐台式微波爐"
@@ -386,6 +561,16 @@ msgstr "GE Profile 爐台式微波爐"
 #: model:product.template,name:electronic_store.product_product_1047_product_template
 msgid "Gift Card"
 msgstr "禮物卡"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Go to mobile odoo app \"Air Conditioner Installation\""
+msgstr "前往「空調機安裝」Odoo 流動應用程式"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Go to project \"Air Conditioner Installation\""
+msgstr "前往「空調機安裝」專案"
 
 #. module: electronic_store
 #: model:product.public.category,name:electronic_store.product_public_category_9
@@ -401,6 +586,12 @@ msgstr "家居電器"
 #: model:product.template,name:electronic_store.product_product_1039_product_template
 msgid "Honeywell QuietSet Tower Fan"
 msgstr "Honeywell QuietSet 塔式風扇"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"In the office, the service manager assigns tasks to installers. To do so"
+msgstr "在辦公室，服務經理會將任務指派給安裝人員。要執行此操作，"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.field_installation_date
@@ -474,6 +665,11 @@ msgid "LG Top-Load Washer with TurboWash"
 msgstr "LG 頂揭式洗衣機，配備 TurboWash"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Let's buy some items that are tracked by serial numbers."
+msgstr "讓我們購買一些以序號追蹤的產品。"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1027_product_template
 msgid "Maytag Front-Load Washer"
 msgstr "Maytag 前置式洗衣機"
@@ -491,6 +687,16 @@ msgid "Model Number"
 msgstr "型號"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Move the task \"<font style=\"color: rgb(156, 0, 255);\">In "
+"Progress</font>\" and then \"<font style=\"color: rgb(156, 0, "
+"255);\">Done</font>\" when it's finished and sign the service report."
+msgstr ""
+"將任務移至「<font style=\"color: rgb(156, 0, 255);\">進行中</font>」。完成後，移至「<font "
+"style=\"color: rgb(156, 0, 255);\">完成</font>」並簽署服務報告。"
+
+#. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.x_name_record
 msgid "Name"
 msgstr "名稱"
@@ -499,6 +705,16 @@ msgstr "名稱"
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Next"
 msgstr "下一頁"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Odoo will generate 1 task for the Air Conditioner installation."
+msgstr "Odoo 會產生 1 項「空調機安裝」任務。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Once the order is confirmed:"
+msgstr "訂單確認後："
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
@@ -511,9 +727,19 @@ msgid "Panasonic Genius Sensor Microwave Oven"
 msgstr "Panasonic Genius 感應器微波爐"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Plan to visit customer location"
+msgstr "計劃到訪客戶場地"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Previous"
-msgstr "前一個"
+msgstr "上一頁"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Product wise guidelines and steps given for the Service Engineer"
+msgstr "向服務工程師提供的產品指引及使用步驟"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
@@ -526,10 +752,16 @@ msgid "Products on Tasks"
 msgstr "任務內的產品"
 
 #. module: electronic_store
-#: model:documents.folder,name:electronic_store.documents_folder_10
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Provide the serial number <font style=\"color: rgb(156, 0, "
+"255);\">804KCPY43321</font>"
+msgstr "提供序號 <font style=\"color: rgb(156, 0, 255);\">804KCPY43321</font>"
+
+#. module: electronic_store
+#: model:documents.document,name:electronic_store.documents_folder_10
 #: model:product.template,name:electronic_store.product_product_1042_product_template
 #: model:project.project,name:electronic_store.project_project_4
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_2
 msgid "Refrigerator Installation"
 msgstr "雪櫃安裝"
 
@@ -552,6 +784,39 @@ msgstr "三星前置式蒸氣洗衣機"
 #: model:product.template,name:electronic_store.product_product_1023_product_template
 msgid "Samsung Side-by-Side Refrigerator"
 msgstr "三星大型對門式雪櫃"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Scan product <strong><font style=\"color: rgb(255, 0, 255);\">LG Dual "
+"Inverter Window Air Conditioner</font></strong>"
+msgstr ""
+"掃瞄產品「<strong><font style=\"color: rgb(255, 0, 255);\">LG "
+"雙變頻窗口空調機</font></strong>」"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Scan the serial number"
+msgstr "掃瞄序號"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Select any of the payment methods and proceed to the payment."
+msgstr "選擇任何一種付款方式，然後前往付款。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Select product <strong><font style=\"color: rgb(156, 0, 255);\">LG Dual "
+"Inverter Window Air Conditioner</font></strong>"
+msgstr ""
+"選擇產品「<strong><font style=\"color: rgb(156, 0, 255);\">LG "
+"雙變頻窗口空調機</font></strong>」"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Select the customer"
+msgstr "選擇客戶"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.report_custom_x_project_task_worksheet_template_1
@@ -582,6 +847,16 @@ msgid "Submit a Ticket"
 msgstr "提交支援請求"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Submit the ticket."
+msgstr "提交支援請求。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Switch tasks to Gantt view"
+msgstr "切換任務至甘特圖檢視模式"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1053_product_template
 msgid "TV LED"
 msgstr "LED 電視"
@@ -599,9 +874,42 @@ msgid "Tasks"
 msgstr "任務"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "The delivery order will be created for the LG Dual Inverter"
+msgstr "系統將會為「LG 雙變頻」空調機，建立送貨單"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"The salesperson sets the \"expected delivery date\" based on customer "
+"availability"
+msgstr "銷售人員會根據客戶可用的日子，設定「預計送貨日期」"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
 msgid "Theia Hayward"
 msgstr "Theia Hayward"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"Then, the worker processes all delivery orders that are ready, using the "
+"barcode interface. From delivery orders:"
+msgstr "然後，工作人員使用條碼操作介面，處理所有已準備好的送貨單。在送貨單內："
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"They generally require the functionalities of several apps to manage their "
+"business workflow."
+msgstr "通常，需要幾個應用程式的功能，才可妥善管理日常業務的營運流程。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"This Business setup for Electronics store where they can sell their "
+"electronics items like Home Appliances, Kitchen Appliances, etc..."
+msgstr "此行業設置是供電子產品店使用，可用作銷售家用電器、廚房電器等。"
 
 #. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.services
@@ -610,6 +918,11 @@ msgid ""
 "right icon of each block. Then, duplicate one of the columns to create a new"
 " one as a copy."
 msgstr "要添加第四列，請使用每個塊的右圖示減小這三列的大小。然後，複製其中一列以建立一個新列作為副本。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "To speed up the creation of the quotation, use a quotation template."
+msgstr "若要加快建立報價單的速度，可使用報價單範本。"
 
 #. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1034_product_template
@@ -628,11 +941,31 @@ msgid "Update warranty date on serial number"
 msgstr "為序號更新保固日期"
 
 #. module: electronic_store
+#: model:ir.actions.server,name:electronic_store.ir_act_server_1
+msgid "Update warranty date on serial number - Server Action"
+msgstr "更新序號的保用日期 - 伺服器操作"
+
+#. module: electronic_store
 #: model_terms:ir.ui.view,arch_db:electronic_store.homepage
 msgid ""
 "Upgrade Your Gear: Black Friday's Tech Delights Await!. Bring home smart "
 "products with exclusive Festive Offers"
 msgstr "升級你的裝備：黑色星期五的科技潮物等着你！享用獨家節慶優惠，將智慧產品帶回家"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Use Ship Later option before the checkout for shipping later"
+msgstr "結賬前，可選擇「稍後發貨」選項，以便容後出貨"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Use the magnifier 🔎 icon to select tasks to assign"
+msgstr "使用放大鏡 🔎 圖示，選取要分派的任務"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Validate the Receipt"
+msgstr "驗證收據"
 
 #. module: electronic_store
 #: model:ir.model.fields,field_description:electronic_store.new_field_to_set_warranty_month
@@ -662,6 +995,19 @@ msgid "We are in good company."
 msgstr "一致好評"
 
 #. module: electronic_store
+#: model_terms:web_tour.tour,rainbow_man_message:electronic_store.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "歡迎！請享受探索過程。"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"When selling electronics, most items are tracked with serial numbers. To "
+"deliver the installation service, we use the project management app, with "
+"one task per installation to do."
+msgstr "銷售電子產品時，大多數貨品都已經有序號。要提供安裝服務，可使用專案管理應用程式，每次安裝只需完成一項任務。"
+
+#. module: electronic_store
 #: model:product.template,name:electronic_store.product_product_1024_product_template
 msgid "Whirlpool Bottom-Freezer Refrigerator"
 msgstr "惠而浦雪櫃，底部冷凍冰格"
@@ -682,6 +1028,11 @@ msgid "Wilson Holt"
 msgstr "Wilson Holt"
 
 #. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid "Worksheet will help for the installation report"
+msgstr "工作表的資料將有助編製安裝報告"
+
+#. module: electronic_store
 #: model:ir.actions.act_window,name:electronic_store.x_project_task_worksheet_template_1_ir_actions_act_window_1
 msgid "Worksheets"
 msgstr "工作表"
@@ -694,11 +1045,26 @@ msgid ""
 msgstr "節錄一段您客戶的話.引用他人的話是個建立產品或服務信任度的好方法."
 
 #. module: electronic_store
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_1
-msgid "[REF-002] Samsung Side-by-Side Refrigerator"
-msgstr "[REF-002] 三星大型對門式雪櫃"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"payment term: <strong><font style=\"color: rgb(156, 0, 255);\">30 % Advance "
+"Rest on Installment</font></strong>"
+msgstr ""
+"付款條件：<strong><font style=\"color: rgb(156, 0, 255);\">30% "
+"預先付款，其餘分期付款</font></strong>"
 
 #. module: electronic_store
-#: model:sale.order.template.line,name:electronic_store.sale_order_template_line_3
-msgid "[RW-Q18WWZA] LG Dual Inverter Window Air Conditioner"
-msgstr "[RW-Q18WWZA] LG 雙變頻窗口空調機"
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"product: <strong><font style=\"color: rgb(156, 0, 255);\">Air Conditioner "
+"Installation</font></strong>"
+msgstr "產品：<strong><font style=\"color: rgb(156, 0, 255);\">空調機安裝</font></strong>"
+
+#. module: electronic_store
+#: model_terms:ir.ui.view,arch_db:electronic_store.welcome_article_body
+msgid ""
+"product: <strong><font style=\"color: rgb(156, 0, 255);\">LG Dual Inverter "
+"Window Air Conditioner </font></strong>"
+msgstr ""
+"產品：「<strong><font style=\"color: rgb(156, 0, 255);\">LG "
+"雙變頻窗口空調機</font></strong>」"

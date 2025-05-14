@@ -3,17 +3,17 @@
 # 	* micro_brewery
 # 
 # Translators:
-# Rasareeyar Lappiam, 2024
-# Wichanon Jamwutthipreecha, 2024
-# Wil Odoo, 2024
+# Wichanon Jamwutthipreecha, 2025
+# Wil Odoo, 2025
+# Rasareeyar Lappiam, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-05 07:49+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2024-11-29 14:10+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Rasareeyar Lappiam, 2025\n"
 "Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,19 +27,19 @@ msgid "+1 (650) 555-0111"
 msgstr "+1 (650) 555-0111"
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
+msgid "+16"
+msgstr "+16"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_18
+msgid "+18"
+msgstr "+18"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "1. Crafting a beer"
-msgstr ""
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "2. Selling the beer"
-msgstr ""
+msgstr "และโปรด"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
@@ -50,7 +50,7 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "3. Visiting the Brewery"
+msgid "4. Deposit Management 🍻"
 msgstr ""
 
 #. module: micro_brewery
@@ -60,6 +60,9 @@ msgid ""
 "                                    Taste our&amp;nbsp;new refreshing beer now !\n"
 "                                </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"                                    ลิ้มรสเบียร์ที่สดชื่นของเราตอนนี้!\n"
+"                                </font>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -74,6 +77,8 @@ msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
 "                                                <span>info@yourcompany.example.com</span>"
 msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
+"                                                <span>info@yourcompany.example.com</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -86,6 +91,8 @@ msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 msgstr ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -93,31 +100,33 @@ msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">คุณต้องการที่จะไปต่อหรือไม่?</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -135,7 +144,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<span class=\"h3-fs\"><strong>Take an order at the Bar</strong></span> <br/>"
-msgstr ""
+msgstr "<span class=\"h3-fs\"><strong>รับออเดอร์ที่บาร์</strong></span> <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -143,6 +152,8 @@ msgid ""
 "<span class=\"h3-fs\"><strong>Visit the website and make an "
 "order.</strong></span>"
 msgstr ""
+"<span "
+"class=\"h3-fs\"><strong>เข้าสู่เว็บไซต์และทำการสั่งซื้อ</strong></span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -155,6 +166,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">เรื่อง</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -162,6 +175,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Company</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">บริษัทของคุณ</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -169,6 +184,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">อีเมลของคุณ</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -176,6 +193,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">ชื่อของคุณ</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -183,6 +202,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Question</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">คำถามของคุณ</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -211,10 +232,17 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "<strong><span class=\"h3-fs\">Rental</span></strong>"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong><span class=\"h3-fs\">Schedule a visit from the "
 "website.</span></strong> <br/>"
 msgstr ""
+"<strong><span class=\"h3-fs\">กำหนดเวลาเยี่ยมชมจากเว็บไซต์</span></strong> "
+"<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -222,6 +250,8 @@ msgid ""
 "<strong><span class=\"h3-fs\">Sell your products and deliver it to a "
 "bar</span></strong>"
 msgstr ""
+"<strong><span "
+"class=\"h3-fs\">ขายสินค้าของคุณและจัดส่งไปยังบาร์</span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -231,7 +261,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr ""
+msgstr "<strong>พื้นฐาน</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -248,6 +278,7 @@ msgstr ""
 msgid ""
 "<strong>Create and add the By-product</strong>s, for example:Spent Grain"
 msgstr ""
+"<strong>สร้างและเพิ่มผลิตภัณฑ์พลอยได้</strong> เช่น เมล็ดพืชที่ใช้แล้ว"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -255,6 +286,7 @@ msgid ""
 "<strong>Create the operations</strong> of your recipe with the right work "
 "center, for example:"
 msgstr ""
+"<strong>สร้างการทำงาน</strong>ของสูตรของคุณด้วยศูนย์งานที่ถูกต้อง เช่น:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -262,6 +294,8 @@ msgid ""
 "<strong>Indicate if there are instructions</strong> the operator should do "
 "during some operation, for example:"
 msgstr ""
+"<strong>ระบุว่ามีคำสั่งใด</strong>ที่ผู้ปฏิบัติงานควรปฏิบัติในระหว่างการดำเนินการบางอย่าง"
+" เช่น:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -270,6 +304,8 @@ msgid ""
 "your recipe and the quantity that should be produced with the recipe. for "
 "example:"
 msgstr ""
+"<strong>ระบุสิ่งที่จะเป็นผลิตภัณฑ์สำเร็จรูป "
+"</strong>ในตอนท้ายของสูตรและปริมาณที่ควรผลิตพร้อมกับสูตร ตัวอย่างเช่น:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -287,6 +323,8 @@ msgid ""
 "Add products in your cart and pay using the payment method \"Demo\" which is"
 " a fake payment method you can use to test flows."
 msgstr ""
+"เพิ่มสินค้าลงในตะกร้าของคุณและชำระเงินโดยใช้ช่องทางการชำระเงิน \"สาธิต\" "
+"ซึ่งเป็นช่องทางการชำระเงินแบบทดสอบที่คุณสามารถใช้เพื่อทดสอบการทำงานได้"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -294,6 +332,9 @@ msgid ""
 "After (or during) the meeting, you can use the button \"New Quotation\" to "
 "create an offer for the customer. Once it is done, send it to the customer."
 msgstr ""
+"หลังจาก (หรือระหว่าง) การประชุม คุณสามารถใช้ปุ่ม \"ใบเสนอราคาใหม่\" "
+"เพื่อสร้างข้อเสนอสำหรับลูกค้า "
+"เมื่อเสร็จแล้วให้ส่งข้อเสนอดังกล่าวให้กับลูกค้า"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -303,6 +344,15 @@ msgid ""
 "create a product to sell in your bar/restaurant (e.g. Draft beer, snack, "
 "...)."
 msgstr ""
+"หลังจากเยี่ยมชมแล้ว "
+"การที่ผู้เยี่ยมชมได้ใช้เวลาร่วมกันพร้อมกับการดื่มเบียร์ดีๆ "
+"ถือเป็นเรื่องที่ดีเสมอ เข้าไปที่แอปพลิเคชัน \"POS\" "
+"แล้วสร้างผลิตภัณฑ์เพื่อขายในบาร์/ร้านอาหารของคุณ (เช่น เบียร์สด ขนม ฯลฯ)"
+
+#. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_15
+msgid "Age Limit"
+msgstr "ข้อจำกัดอายุ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -310,11 +360,36 @@ msgid "Alcohol"
 msgstr ""
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_5
+msgid "Amber"
+msgstr "แอมเบอร์"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Apply DEP XX taxes to these consigns."
+msgstr "ใช้ภาษี DEP XX กับสินค้าเหล่านี้"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "At any time you can select a table and register the payment to close the "
 "table."
-msgstr ""
+msgstr "คุณสามารถเลือกโต๊ะและลงทะเบียนการชำระเงินเพื่อปิดโต๊ะเมื่อใดก็ได้"
+
+#. module: micro_brewery
+#: model:base.automation,name:micro_brewery.auto_production
+msgid "Auto Production"
+msgstr "การผลิตอัตโนมัติ"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_aut_production
+msgid "Auto-production"
+msgstr "การผลิตอัตโนมัติ"
+
+#. module: micro_brewery
+#: model:base.automation,name:micro_brewery.bom_automation
+msgid "Automated BoM"
+msgstr "ระบบ BOM อัตโนมัติ"
 
 #. module: micro_brewery
 #: model:product.pricelist,name:micro_brewery.product_pricelist_2
@@ -322,32 +397,34 @@ msgid "B2B"
 msgstr "B2B"
 
 #. module: micro_brewery
-#: model:pos.category,name:micro_brewery.pos_category_2
-msgid "Bar"
-msgstr "แถบ"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Bar &amp; Shop at the Brewery (B2C) - Using the <strong><font class=\"text-"
 "o-color-1\">Point of Sales App</font></strong>"
 msgstr ""
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Basics"
-msgstr "พื้นฐาน"
-
-#. module: micro_brewery
-#: model:pos.category,name:micro_brewery.pos_category_4
-#: model:product.public.category,name:micro_brewery.product_public_category_3
-msgid "Beer"
-msgstr ""
+"บาร์และร้านค้าที่โรงเบียร์ (B2C) - ใช้<strong><font class=\"text-o-"
+"color-1\">แอป POS</font></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Beer bottle (33cl), 3000 units (+- 10hL)"
 msgstr ""
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_product_90_product_template
+msgid "Beer cooler with tap - for 1 x 50 litre keg "
+msgstr "ตู้แช่เบียร์พร้อมก๊อก - สำหรับถัง 1 x 50 ลิตร"
+
+#. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_10
+msgid "Beer type"
+msgstr "ประเภทเบียร์"
+
+#. module: micro_brewery
+#: model:pos.category,name:micro_brewery.pos_category_4
+#: model:product.public.category,name:micro_brewery.product_public_category_3
+msgid "Beers"
+msgstr "เบียร์"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_32
@@ -370,14 +447,15 @@ msgid "Black"
 msgstr "สีดำ"
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_2
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_7
 msgid "Blond"
-msgstr ""
+msgstr "บลอนด์"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_20
 msgid "Blond Beer"
-msgstr ""
+msgstr "Blond Beer"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_30_product_template
@@ -405,12 +483,12 @@ msgstr ""
 #: model:product.template,name:micro_brewery.product_template_17
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_9
 msgid "Blond Beer - Keg 20L"
-msgstr ""
+msgstr "เบียร์บลอนด์ - ถัง 20 ลิตร"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_1
 msgid "Blond Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "เบียร์บลอนด์ - ถัง 20 ลิตร บรรจุ 24 x 33cl"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_6
@@ -431,7 +509,7 @@ msgstr ""
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
 msgid ""
 "Book your spot now and raise a glass to a memorable brewery experience!"
-msgstr ""
+msgstr "จองที่นั่งของคุณตอนนี้แล้วไปสัมผัสประสบการณ์โรงเบียร์ที่น่าจดจำ!"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_6
@@ -445,6 +523,12 @@ msgid "Bottling - Work center: Bottler"
 msgstr ""
 
 #. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_16
+msgid "Brand"
+msgstr "แบรนด์"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_3
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_10
 msgid "Brown"
 msgstr "สีน้ำตาล"
@@ -480,12 +564,17 @@ msgstr ""
 #: model:product.template,name:micro_brewery.product_template_18
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_12
 msgid "Brown Beer - Keg 20L"
-msgstr ""
+msgstr "เบียร์บราวน์ - ถัง 20 ลิตร"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_3
 msgid "Brown Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "เบียร์บราวน์ - ถัง 20 ลิตร บรรจุ 24 x 33cl"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_24
+msgid "Brussels beer project"
+msgstr "โปรเจ็กต์เบียร์บรัสเซลส์"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -494,6 +583,9 @@ msgid ""
 "but you can edit the page and change the behavior of the submit button to "
 "create a lead into the CRM application instead."
 msgstr ""
+"ตามค่าเริ่มต้น หน้า \"ติดต่อเรา\" ของเว็บไซต์จะส่งอีเมลถึงคุณ "
+"แต่คุณสามารถแก้ไขหน้าและเปลี่ยนพฤติกรรมของปุ่มส่งเพื่อสร้างรายชื่อผู้มีแนวโน้มจะเป็นลูกค้าในแอปพลิเคชัน"
+" CRM แทนได้"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -502,11 +594,27 @@ msgid ""
 "bunch of interesting presets to ensure you can easily execute the following "
 "use case."
 msgstr ""
+"โดยการอัปโหลดข้อมูลสาธิตของโมดูลนี้ "
+"ฐานข้อมูลของคุณเต็มไปด้วยค่าที่ตั้งไว้ล่วงหน้าที่น่าสนใจมากมายเพื่อให้แน่ใจว่าคุณสามารถดำเนินการตามกรณีการใช้งานต่อไปนี้ได้อย่างง่ายดาย"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_5
 msgid "Case"
 msgstr "ตัวพิมพ์"
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_21
+msgid "Chaudfontaine"
+msgstr "ชอดฟงเทน"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Collect deposit when you deliver your customer. It is easy. When validating your delivery, you can directly set a \"Return\" and precisely count the number of each type of deposit your customer gave you. It will automatically be\n"
+"        reflected on his invoice or issue a credit note."
+msgstr ""
+"เรียกเก็บเงินมัดจำเมื่อคุณส่งมอบสินค้าให้ลูกค้าของคุณได้อย่างง่ายดาย เมื่อตรวจสอบการส่งมอบสินค้าของคุณ คุณสามารถตั้งค่า \"การส่งคืน\" ได้โดยตรงและนับจำนวนเงินฝากแต่ละประเภทที่ลูกค้าของคุณให้ไว้กับคุณอย่างแม่นยำ ซึ่งจะแสดง\n"
+"        ในใบแจ้งหนี้หรือออกบันทึกเครดิตโดยอัตโนมัติ"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -529,6 +637,13 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                            We'll do our best to get back to you as soon as possible."
 msgstr ""
+"ติดต่อเราเกี่ยวกับสิ่งที่เกี่ยวข้องกับบริษัทหรือบริการของเรา<br/>\n"
+"                                    เราจะพยายามติดต่อกลับโดยเร็วที่สุด"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_quantity_by_deposit_product
+msgid "Contains"
+msgstr "ประกอบด้วย"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -536,11 +651,82 @@ msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
 "color-1\"><strong>Manufacture App</strong></font>"
 msgstr ""
+"การคราฟต์เบียร์ - ใช้<font class=\"text-o-"
+"color-1\"><strong>แอประบบการผลิต</strong></font>เป็นหลัก"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Create deposit products for each different type of consigns"
+msgstr "สร้างผลิตภัณฑ์เงินฝากสำหรับสินค้าฝากขายแต่ละประเภท"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_01_purchase
+#: model:account.tax,name:micro_brewery.account_tax_01_sale
+msgid "DEP 0.1"
+msgstr "DEP 0.1"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_21_sale
+msgid "DEP 2.1"
+msgstr "DEP 2.1"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_24_purchase
+#: model:account.tax,name:micro_brewery.account_tax_24_sale
+msgid "DEP 2.4"
+msgstr "DEP 2.4"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_45_purchase
+#: model:account.tax,name:micro_brewery.account_tax_45_sale
+msgid "DEP 4.5"
+msgstr "DEP 4.5"
+
+#. module: micro_brewery
+#: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
+msgid "Default fields for deposits"
+msgstr "ฟิลด์เริ่มต้นสำหรับการฝาก"
+
+#. module: micro_brewery
+#: model:account.tax.group,name:micro_brewery.deposit_tax_group
+#: model:pos.category,name:micro_brewery.pos_category_5
+msgid "Deposit"
+msgstr "เงินฝาก"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_90
+msgid "Deposit 0.1"
+msgstr "การฝาก 0.1"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_56
+msgid "Deposit 2.1"
+msgstr "การฝาก 2.1"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_53
+msgid "Deposit 2.4"
+msgstr "การฝาก 2.4"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_55
+msgid "Deposit 4.5"
+msgstr "การฝาก 4.5"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
+msgid "Deposit product"
+msgstr "สินค้าฝากขาย"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
+msgid "Deposit product must be set in Deposit category"
+msgstr "สินค้าฝากต้องตั้งค่าอยู่ในหมวดฝาก"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "ค้นพบเพิ่มเติมเกี่ยวกับ Odoo โดยเข้าไปที่"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -548,11 +734,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Do you want to go further?"
-msgstr ""
+"ค้นพบข้อมูลพื้นฐานของแพ็คเกจนี้และสำรวจความเป็นไปได้ทั้งหมดที่ Odoo "
+"นำเสนอเพื่อปรับปรุงประสบการณ์ของคุณ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -560,6 +743,18 @@ msgid ""
 "Don't hesitate and come visit us!&amp;nbsp;We will show you how we produce "
 "our amazing beers"
 msgstr ""
+"เข้ามาเยี่ยมชมเรา! &amp;nbsp; "
+"เราจะแสดงให้คุณเห็นว่าเราผลิตเบียร์ของเราอย่างไร"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_exc_21676_sale
+msgid "EXC 2.1676"
+msgstr "EXC 2.1676"
+
+#. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_exc_coca_sale
+msgid "EXC COCA"
+msgstr "EXC COCA"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -569,11 +764,48 @@ msgid ""
 "(t-shirt, sweet shirt, beer glass, ...) that will be bought by your fans "
 "that will become your ambassadors."
 msgstr ""
+"อีคอมเมิร์ซสามารถใช้สร้างแบรนด์ที่เป็นมากกว่าเบียร์ได้ "
+"คุณสามารถใช้อีคอมเมิร์ซทำ \"การขายต่อเนื่อง\" ได้โดยการเพิ่มสินค้าที่ขายได้ "
+"(เสื้อยืด เสื้อลายหวาน แก้วเบียร์ ฯลฯ) ซึ่งจะถูกซื้อโดยแฟนๆ "
+"ของคุณซึ่งจะกลายมาเป็นแบรนด์แอมบาสเดอร์ของคุณ"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
 msgid "Empty Keg"
 msgstr ""
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
+msgid "Empty deposit product"
+msgstr "สินค้าฝากเปล่า"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Every time you need to sell a single Mobius Blanche - 33cl, if you don't "
+"have enough in stock, it will split your main product in 24 units and take "
+"into account an extra empty bin that will be left at the end."
+msgstr ""
+"ทุกครั้งที่คุณต้องการขาย Mobius Blanche - 33cl เพียงขวดเดียว "
+"ถ้าคุณไม่มีในสต็อกเพียงพอ ระบบจะแบ่งผลิตภัณฑ์หลักของคุณออกเป็น 24 หน่วย "
+"และคำนึงถึงถังเปล่าพิเศษที่จะเหลือไว้ในตอนท้าย"
+
+#. module: micro_brewery
+#: model:account.tax.group,name:micro_brewery.excises_tax_group
+msgid "Excises"
+msgstr "สรรพสามิต"
+
+#. module: micro_brewery
+#: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
+#: model:ir.actions.server,name:micro_brewery.bom_server_action
+#: model:ir.actions.server,name:micro_brewery.update_sales_taxes_server_action
+msgid "Execute Code"
+msgstr "ดำเนินการรหัส"
+
+#. module: micro_brewery
+#: model:ir.actions.server,name:micro_brewery.update_state
+msgid "Execute Existing Actions"
+msgstr "ดำเนินการการกระทำที่มีอยู่"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
@@ -582,6 +814,9 @@ msgid ""
 "a behind-the-scenes look at our brewing process, sample our best brews, and "
 "learn from our experts."
 msgstr ""
+"ร่วมสำรวจศิลปะแห่งเบียร์คราฟต์ด้วยการเยี่ยมชมโรงเบียร์พร้อมไกด์นำทัวร์เป็นเวลา"
+" 90 นาที รับชมเบื้องหลังกระบวนการผลิตเบียร์ ชิมเบียร์ที่ดีที่สุดของเรา "
+"และเรียนรู้จากผู้เชี่ยวชาญของเรา"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -609,11 +844,18 @@ msgid "Follow us"
 msgstr "ติดตามเรา"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "For example:"
+msgstr "ตัวอย่างเช่น:"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
 "From inventory management and production planning to sales and customer relationship, Odoo empowers O-Beer with the tools to optimise\n"
 "                                    their processes, enhance production quality, and ensure a smooth and successful brewing journey."
 msgstr ""
+"ตั้งแต่การจัดการสินค้าคงคลังและการวางแผนการผลิตไปจนถึงการขายและความสัมพันธ์กับลูกค้า Odoo ช่วยให้ O-Beer มีเครื่องมือเพื่อเพิ่มประสิทธิภาพ\n"
+"                                    กระบวนการ เพิ่มคุณภาพการผลิต และทำให้มั่นใจว่ากระบวนการผลิตเบียร์จะราบรื่นและประสบความสำเร็จ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -623,6 +865,10 @@ msgid ""
 "all your beers already in it. You can also create pricelists that you can "
 "assign on your customers too;"
 msgstr ""
+"จากแอปการขาย "
+"คุณสามารถสร้างข้อเสนอมาตรฐานเพื่อให้การสร้างข้อเสนอมีประสิทธิภาพมากขึ้น "
+"ตัวอย่างเช่น คุณสามารถมีเทมเพลตที่มีเบียร์ทั้งหมดของคุณอยู่แล้วได้ นอกจากนี้"
+" คุณยังสามารถสร้างรายการราคาที่คุณสามารถกำหนดให้กับลูกค้าของคุณได้เช่นกัน"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -632,6 +878,10 @@ msgid ""
 " a product to land on the product page, customize it then publish it so "
 "visitors can start ordering it."
 msgstr ""
+"จากแอปพลิเคชันเว็บไซต์ คุณสามารถเข้าถึงการนำทางในหน้า \"ร้านค้า\" "
+"คุณจะเห็นว่าผลิตภัณฑ์ของคุณอาจยังไม่ได้เผยแพร่ "
+"คลิกที่ผลิตภัณฑ์เพื่อไปที่หน้าผลิตภัณฑ์ "
+"ปรับแต่งแล้วเผยแพร่เพื่อให้ผู้เยี่ยมชมสามารถเริ่มสั่งซื้อได้"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_25_product_template
@@ -645,6 +895,9 @@ msgid ""
 "the components you need to execute your recipe. Make sure you buy enough "
 "quantity of each components and validate the order."
 msgstr ""
+"เข้าสู่แอปพลิเคชันการจัดซื้อและสร้างใบสั่งซื้อใหม่พร้อมส่วนประกอบทั้งหมดที่คุณต้องการเพื่อดำเนินการตามสูตรของคุณ"
+" "
+"ตรวจสอบให้แน่ใจว่าคุณซื้อส่วนประกอบแต่ละชิ้นในปริมาณที่เพียงพอและตรวจสอบคำสั่งซื้อ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -652,6 +905,7 @@ msgid ""
 "Go on the delivery order and indicate the quantity you received and create "
 "the lot numbers for each components."
 msgstr ""
+"ไปที่ใบสั่งซื้อการจัดส่งและระบุจำนวนที่คุณได้รับและสร้างหมายเลขล็อตสำหรับส่วนประกอบแต่ละชิ้น"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_2
@@ -671,7 +925,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "สวัสดี !"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_5_product_template
@@ -684,12 +938,31 @@ msgid "Hops - Goods, inventory tracking by lot."
 msgstr ""
 
 #. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_14
+msgid "IPA"
+msgstr "ไอพีเอ"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "If you need to declare your <strong>periodic sales in a consolidated "
 "volume</strong>, ensure your unit of measure and products are correctly "
 "configured and use the Pivot Table in Sales App &gt; Reporting &gt; Sales."
 msgstr ""
+"หากคุณจำเป็นต้องประกาศ<strong>ยอดขายเป็นระยะในปริมาณรวม</strong> "
+"โปรดตรวจสอบให้แน่ใจว่าหน่วยวัดและผลิตภัณฑ์ของคุณได้รับการกำหนดค่าอย่างถูกต้อง"
+" และใช้ตารางสรุปข้อมูลในแอปการขาย &gt; การรายงาน &gt; การขาย"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"If you want to automatically split products sold in a specific packaging, "
+"precise a unit sale product in the so-called field and the number of units "
+"contained in the main product."
+msgstr ""
+"หากต้องการแยกผลิตภัณฑ์ที่ขายในบรรจุภัณฑ์แบบเฉพาะโดยอัตโนมัติ "
+"ให้ระบุจำนวนหน่วยผลิตภัณฑ์ที่ขายในสิ่งที่เรียกว่าฟิลด์ "
+"และจำนวนหน่วยที่บรรจุอยู่ในผลิตภัณฑ์หลัก"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -697,6 +970,19 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Use Case."
 msgstr ""
+"หากคุณต้องการดำเนินการแนะนำการใช้งานจริงของโมดูลนี้ "
+"คุณควรนำเข้าข้อมูลสาธิตและลองใช้กรณีการใช้งาน"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"If you want to rent Beer Taps to your customer, you can explore the rental "
+"App and discover how you can manage your rental schedule easily and provide "
+"a great extended service to your customers."
+msgstr ""
+"หากคุณต้องการให้เช่าก๊อกเบียร์กับลูกค้า "
+"คุณสามารถค้นพบแอปให้เช่าและค้นพบว่าคุณสามารถจัดการตารางการเช่าได้อย่างง่ายดาย"
+" และมอบบริการเพิ่มเติมที่ยอดเยี่ยมให้กับลูกค้าของคุณได้อย่างไร"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -708,6 +994,12 @@ msgid ""
 "Website\" to see the website page where future visitors can book online a "
 "visit of the brewery."
 msgstr ""
+"ในแอปการนัดหมาย คุณสามารถสร้างกำหนดการสำหรับการเยี่ยมชมโรงเบียร์ได้ "
+"คุณสามารถระบุพนักงานที่จะมาเยี่ยมชม "
+"และคุณสามารถขอให้ชำระเงินที่กำลังจะมาถึงเพื่อจองและเชื่อมโยงผลิตภัณฑ์ "
+"\"การเยี่ยมชมโรงเบียร์\" เมื่อทุกอย่างเรียบร้อย คุณสามารถเผยแพร่และกดปุ่ม "
+"\"ไปที่เว็บไซต์\" "
+"เพื่อดูหน้าเว็บไซต์ที่ผู้เยี่ยมชมในอนาคตสามารถจองการเยี่ยมชมโรงเบียร์ออนไลน์ได้"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -715,6 +1007,18 @@ msgid ""
 "In the manufacturing application, you can create a bill of materials to "
 "define how the beer should be crafted."
 msgstr ""
+"ในแอปพลิเคชันระบบการผลิต "
+"คุณสามารถสร้างรายการวัสดุเพื่อกำหนดว่าจะต้องผลิตเบียร์อย่างไร"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
+msgid "Is a deposit"
+msgstr "เป็นการฝาก"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
+msgid "Is a deposit category"
+msgstr "เป็นประเภทการฝาก"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -723,6 +1027,10 @@ msgid ""
 "simply some pack of beers after the visit. You can have both a "
 "bar/restaurant and a shop or you can manage both from the same"
 msgstr ""
+"ลูกค้าของคุณอาจสนใจที่จะซื้อของที่ระลึก ของขวัญ "
+"หรือเพียงแค่เบียร์สักขวดหลังจากเยี่ยมชมร้าน "
+"คุณสามารถมีทั้งบาร์/ร้านอาหารและร้านค้า "
+"หรือจะจัดการทั้งสองอย่างจากที่เดียวกันก็ได้"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -731,6 +1039,9 @@ msgid ""
 "machines for the kegging but it is possible to create a separate bill of "
 "Materials with the type subcontracting, if the bottling is made externally."
 msgstr ""
+"เป็นเรื่องที่น่าสนใจที่จะกล่าวถึงว่าโรงเบียร์ขนาดเล็กจำนวนมากไม่มีเครื่องจักรสำหรับการบรรจุขวด"
+" แต่สามารถสร้างรายการวัสดุแยกต่างหากโดยจ้างเหมาช่วงได้ "
+"หากมีการบรรจุขวดโดยภายนอก"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_4
@@ -769,12 +1080,12 @@ msgstr ""
 #: model:product.template,name:micro_brewery.product_template_19
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_15
 msgid "Lager Beer - Keg 20L"
-msgstr ""
+msgstr "เบียร์ลาเกอร์ - ถัง 20 ลิตร"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_2
 msgid "Lager Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "เบียร์ลาเกอร์ - ถัง 20 ลิตร บรรจุ 24 x 33cl"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_13
@@ -792,6 +1103,16 @@ msgid "Learn more"
 msgstr "เรียนรู้เพิ่มเติม"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
+msgid "Leave empty if this product is the smallest unit"
+msgstr "ปล่อยว่างไว้หากผลิตภัณฑ์นี้มีขนาดหน่วยที่เล็กที่สุด"
+
+#. module: micro_brewery
+#: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
+msgid "Local Brand"
+msgstr "แบรนด์ท้องถิ่น"
+
+#. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
 msgid "Malt"
 msgstr ""
@@ -799,7 +1120,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Malt - Goods, inventory tracking by lot. <br/>"
-msgstr ""
+msgstr "มอลต์ - สินค้า ติดตามสต็อกตามล็อต <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -807,6 +1128,8 @@ msgid ""
 "Manage Internal Projects and research and development in the <strong><font "
 "class=\"text-o-color-1\">Project App</font></strong>."
 msgstr ""
+"จัดการโปรเจ็กต์ภายในและการวิจัยและพัฒนาใน<strong><font class=\"text-o-"
+"color-1\">แอปโปรเจ็กต์</font></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -817,6 +1140,12 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
+"จัดการช่องทางการสื่อสารทั้งหมดของคุณในที่เดียวด้วย <strong><font "
+"class=\"text-o-color-1\">การตลาดแบบอัตโนมัติ</font></strong>, <strong><font "
+"class=\"text-o-color-1\">อีเมลมาร์เก็ตติ้ง</font></strong>, <strong><font "
+"class=\"text-o-color-1\">การตลาดผ่านโซเชียล</font></strong> และ "
+"<strong><font class=\"text-o-color-1\">การตลาดผ่าน SMS</font></strong> ของ "
+"Odoo"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -825,6 +1154,13 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting "
 "App</font></strong>)"
 msgstr ""
+"จัดการบัญชีของคุณได้ง่ายกว่าที่เคยด้วยสภาพแวดล้อมที่รวมระบบอย่างสมบูรณ์ "
+"(<strong><font class=\"text-o-color-1\">แอประบบบัญชี</font></strong>)"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Manage your deposit more precisely and efficiently than ever before."
+msgstr "จัดการเงินฝากของคุณได้อย่างแม่นยำและมีประสิทธิภาพมากขึ้นกว่าเดิม"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -832,9 +1168,64 @@ msgid "Mashing - Work center: Mash tun"
 msgstr ""
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_12
+msgid "Mobius"
+msgstr "โมบิอุส"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_6
+msgid "Mobius Blanche 24x33cl"
+msgstr "โมบิอุส บลานช์ 24x33cl"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_7
+msgid "Mobius Blanche 33cl"
+msgstr "โมบิอุส บลานช์ 33cl"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_59
+msgid "Mobius IPA 24x33cl "
+msgstr "โมบิอุส ไอพีเอ 24x33cl "
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_60
+msgid "Mobius IPA 33cl"
+msgstr "โมบิอุส ไอพีเอ 33cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Mobius Triple - 24x33cl is your main product"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Mobius Triple - 33cl is the unit sale product"
+msgstr "Mobius Triple - 33cl เป็นสินค้าขายยกกล่อง"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_61
+msgid "Mobius Triple 24x33cl"
+msgstr "โมเบียส ทริปเปิ้ล 24x33cl"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_62
+msgid "Mobius Triple 33cl"
+msgstr "โมเบียส ทริปเปิ้ล 33cl"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
 msgid "My Company"
 msgstr "My Company"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.x_volume_sold
+msgid "New Decimal"
+msgstr ""
+
+#. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_16
+msgid "No"
+msgstr "ไม่"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -843,6 +1234,9 @@ msgid ""
 "bar (or restaurant), indicate how much cash you have when opening the bar. "
 "An now you are ready to take an order."
 msgstr ""
+"ตอนนี้กลับไปที่แดชบอร์ด \"การขายหน้าร้าน\" และเริ่มเซสชั่นของบาร์ "
+"(หรือร้านอาหาร) ระบุจำนวนเงินสดที่คุณมีเมื่อเปิดบาร์ "
+"จากนั้นคุณก็พร้อมที่จะรับออร์เดอร์แล้ว"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -851,6 +1245,10 @@ msgid ""
 "that it is now a confirmed order and a delivery order has been created. Go "
 "on that delivery order and validate it."
 msgstr ""
+"ตอนนี้ หากคุณย้อนกลับไปที่ใบเสนอราคาในแอปพลิเคชันการขาย "
+"คุณจะเห็นว่าตอนนี้เป็นคำสั่งซื้อที่ได้รับการยืนยันแล้ว "
+"และได้สร้างคำสั่งซื้อการจัดส่งแล้ว "
+"ไปที่คำสั่งซื้อการจัดส่งนั้นและตรวจสอบความถูกต้อง"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -859,6 +1257,9 @@ msgid ""
 "will see that if you don't have the components to create your beer, you will"
 " need to purchase the required components."
 msgstr ""
+"ตอนนี้สูตรพร้อมใช้งานแล้ว คุณสามารถสร้างใบสั่งผลิตได้ "
+"แต่คุณจะเห็นว่าถ้าคุณไม่มีส่วนประกอบสำหรับการสร้างเบียร์ "
+"คุณจะต้องซื้อส่วนประกอบที่จำเป็นก่อน"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -867,6 +1268,9 @@ msgid ""
 " brewing beer. In the manufacturing application, create a new manufacturing "
 "order for the bill of materials you made for your recipe."
 msgstr ""
+"ตอนนี้คุณมีส่วนประกอบทั้งหมดที่จำเป็นสำหรับการผลิตเบียร์แล้ว "
+"มาเริ่มผลิตเบียร์กันเลย ในแอปพลิเคชันระบบการผลิต "
+"ให้สร้างใบสั่งผลิตใหม่สำหรับรายการวัสดุที่คุณทำสำหรับสูตรของคุณ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -876,6 +1280,11 @@ msgid ""
 "lead, you can exchange email with the customer directly with the chatter and"
 " finally you can schedule a meeting with him."
 msgstr ""
+"ตอนนี้คุณสามารถสร้างรายชื่อลูกค้าเป้าหมายได้โดยการส่งแบบฟอร์มและเข้าสู่แอปพลิเคชัน"
+" CRM เพื่อค้นหารายชื่อลูกค้าเป้าหมายนี้ "
+"ในฐานะพนักงานขายที่รับผิดชอบรายชื่อลูกค้าเป้าหมายรายนี้ "
+"คุณสามารถแลกเปลี่ยนอีเมลกับลูกค้าโดยตรงผ่านทางช่องแชท "
+"และคุณสามารถกำหนดเวลาประชุมกับลูกค้าได้อีกด้วย"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -885,7 +1294,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr ""
+msgstr "Odoo มอบความเป็นไปได้ที่ไม่มีที่สิ้นสุดให้กับคุณ เช่น:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -894,6 +1303,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"แน่นอนว่านี่เป็นเพียงภาพรวมของฟีเจอร์ที่รวมอยู่ในแพ็คเกจนี้เท่านั้น "
+"เพิ่มแอปใหม่ ลบ/แก้ไขข้อมูลสาธิต และทดสอบทุกอย่างได้ตามใจชอบ!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -902,6 +1313,8 @@ msgid ""
 "can consult the dashboard application to follow the volume of Sales you have"
 " made."
 msgstr ""
+"นอกเหนือจากรายงานทั้งหมดที่คุณสามารถค้นหาได้ในแอปพลิเคชันต่างๆ แล้ว "
+"คุณยังสามารถดูแอปพลิเคชันแดชบอร์ดเพื่อติดตามปริมาณการขายที่คุณทำได้อีกด้วย"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -909,6 +1322,8 @@ msgid ""
 "Once it is confirmed a delivery order should have been created meaning you "
 "are waiting for the vendor to deliver the goods."
 msgstr ""
+"เมื่อได้รับการยืนยันแล้ว ควรสร้างใบสั่งจัดส่ง "
+"ซึ่งหมายความว่าคุณกำลังรอให้ผู้ขายจัดส่งสินค้า"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -916,6 +1331,8 @@ msgid ""
 "Once you finished all the operations, you should now be ready to sell your "
 "crafted beer."
 msgstr ""
+"เมื่อคุณเสร็จสิ้นการดำเนินการทั้งหมดแล้ว "
+"ตอนนี้คุณก็พร้อมที่จะขายคราฟต์เบียร์ของคุณแล้ว"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -923,6 +1340,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong>"
 " <font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"จัดระเบียบกิจกรรมของคุณและเชื่อมต่อกับลูกค้าของคุณได้อย่างง่ายดายด้วย<strong>"
+" <font class=\"text-o-color-1\">แอปกิจกรรม</font></strong>"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_11
@@ -936,6 +1355,9 @@ msgid ""
 "\n"
 "<br/>"
 msgstr ""
+"Blond beer ของเราเป็นเบียร์ที่สดใสและดื่มง่าย มีกลิ่นที่สดชื่นทุกครั้งที่จิบ ด้วยรูปลักษณ์สีฟางอ่อนๆ และกลิ่นส้มและดอกไม้อ่อนๆ เบียร์นี้เป็นตัวแทนของวิถีชีวิตที่ผ่อนคลายและไร้กังวล เบียร์นี้เป็นตัวเลือกที่ยอดเยี่ยมสำหรับผู้ที่ชื่นชอบความหวานเล็กน้อยและรสชาติที่นุ่มนวลและสมดุล สัมผัสความสุขจาก Blond beer ของเรา\n"
+"\n"
+"<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -943,6 +1365,8 @@ msgid ""
 "Our Brown beer is a rich and flavorful masterpiece that exudes warmth and comfort. With its deep mahogany hue and a complex blend of roasted malt and caramel flavors, this beer offers a robust and satisfying experience. Perfect for those who crave depth and character in their brew, our Brown beer invites you to savor each sip, revealing layers of nutty, toasty goodness. Discover the comforting embrace of Brown beer today.\n"
 "<br/>"
 msgstr ""
+"Brown beer ของเราเป็นผลงานชิ้นเอกที่เข้มข้นและมีกลิ่นรสที่ให้ความรู้สึกอบอุ่นและผ่อนคลาย ด้วยสีมะฮอกกานีเข้มและรสชาติมอลต์คั่วและคาราเมลที่ผสมผสานกันอย่างซับซ้อน ทำให้เบียร์นี้มอบประสบการณ์ที่เข้มข้นและน่าพึงพอใจ เบียร์บราวน์ของเราเหมาะสำหรับผู้ที่อยากดื่มด่ำกับรสชาติที่ลุ่มลึกและมีเอกลักษณ์เฉพาะตัว ซึ่งจะทำให้คุณดื่มด่ำไปกับรสชาติของถั่วและขนมปังปิ้งได้อย่างเต็มอิ่ม สัมผัสประสบการณ์อันแสนสบายของ Brown beer ได้แล้ววันนี้\n"
+"<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -953,6 +1377,12 @@ msgid ""
 " smooth, easy-drinking profile that's great for any occasion. Raise a glass "
 "to tradition and savor the pure, uncomplicated taste of Lager."
 msgstr ""
+"เบียร์ลาเกอร์ของเราเป็นเบียร์ที่ให้ความสดชื่น สดชื่น สะอาด "
+"และมีความสมดุลอย่างน่าพึงพอใจ "
+"ถือเป็นตัวเลือกที่สมบูรณ์แบบสำหรับผู้ที่มองหาประสบการณ์เบียร์คลาสสิกและเหนือกาลเวลา"
+" ด้วยสีเหลืองทองและกลิ่นฮ็อปอ่อนๆ "
+"เบียร์ลาเกอร์นี้จึงให้รสชาติที่นุ่มนวลและดื่มง่าย ซึ่งเหมาะสำหรับทุกโอกาส "
+"ยกแก้วเพื่อสัมผัสถึงประเพณีดั้งเดิมและดื่มด่ำกับรสชาติบริสุทธิ์ที่ไม่ซับซ้อนของเบียร์ลาเกอร์"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -960,6 +1390,14 @@ msgid ""
 "Outside Sales (B2B - Bar &amp; Retail) - Using the <strong><font "
 "class=\"text-o-color-1\">Sales App</font></strong>"
 msgstr ""
+"การขายนอกสถานที่ (B2B - บาร์และร้านค้าปลีก) - การใช้<strong><font "
+"class=\"text-o-color-1\">แอปการขาย</font></strong>"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
+#: model:ir.model.fields,field_description:micro_brewery.field_parent_product_rr
+msgid "Parent product"
+msgstr "สินค้าหลัก"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
@@ -969,7 +1407,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "ติดต่อเรา"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_8
@@ -980,7 +1418,7 @@ msgstr "สีแดง"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Register the quantity of spent grain produced at the end of the lautering."
-msgstr ""
+msgstr "ลงทะเบียนปริมาณเมล็ดพืชที่ใช้แล้วที่ผลิตได้เมื่อสิ้นสุดการกรอง"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.micro_brewery_custom_appointment_heading
@@ -998,6 +1436,15 @@ msgid ""
 "Select a table (inside or outside), then select the ordered products and "
 "confirm the order."
 msgstr ""
+"เลือกโต๊ะ (ในหรือนอก) จากนั้นเลือกสินค้าที่สั่งซื้อและยืนยันการสั่งซื้อ"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Set a deposit product on your product to apply these taxes. This will ensure"
+" that you invoice correctly the price of consigns."
+msgstr ""
+"ตั้งค่าผลิตภัณฑ์มัดจำสำหรับภาษีเหล่านี้จะช่วยให้คุณออกใบแจ้งหนี้ได้ถูกต้องตามราคาของสินค้าที่ส่งมา"
 
 #. module: micro_brewery
 #: model:pos.category,name:micro_brewery.pos_category_3
@@ -1016,6 +1463,11 @@ msgid "Spent Grain"
 msgstr ""
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_4
+msgid "Stout"
+msgstr "สเตาท์"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
 msgid "Submit"
 msgstr "ส่ง"
@@ -1023,7 +1475,7 @@ msgstr "ส่ง"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_7_product_template
 msgid "Sugar"
-msgstr ""
+msgstr "น้ำตาล"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_24
@@ -1033,7 +1485,7 @@ msgstr ""
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_23
 msgid "T-Shirt"
-msgstr ""
+msgstr "เสื้อยืด"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_confirmation:micro_brewery.appointment_type_1
@@ -1041,6 +1493,8 @@ msgid ""
 "Thank you for visiting us, we are waiting for you now and hope you will "
 "enjoy the visit and our beers!"
 msgstr ""
+"ขอบคุณที่มาเยี่ยมชมเรา "
+"เรากำลังรอคุณอยู่และหวังว่าคุณจะสนุกกับการเยี่ยมชมและดื่มด่ำไปกับเบียร์ของเรา!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1048,11 +1502,18 @@ msgid ""
 "The appointment app can also be used to share your availability with a "
 "customer or a vendor if you want him to book a meeting with you."
 msgstr ""
+"นอกจากนี้คุณยังสามารถใช้แอปการนัดหมายเพื่อแชร์ความพร้อมของคุณกับลูกค้าหรือผู้ขายได้"
+" หากคุณต้องการให้เขาจองการประชุมกับคุณ"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "The inventory of all products will be updated accordingly."
+msgstr "สต็อกสินค้าทั้งหมดจะถูกอัปเดตตามลำดับ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "The perfect beverage to share with your friends."
-msgstr ""
+msgstr "เครื่องดื่มที่เพอร์เฟ็คและดื่มไปกับเพื่อนของคุณ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1061,6 +1522,8 @@ msgid ""
 "required and you can also indicate in which operation it will be consumed, "
 "for example:"
 msgstr ""
+"จากนั้น<strong>สร้างและเพิ่มส่วนประกอบ</strong>ที่คุณต้องการ "
+"ปริมาณที่ต้องการ และคุณยังสามารถระบุได้ว่าจะใช้ในการทำงานใด เช่น:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1068,12 +1531,14 @@ msgid ""
 "Then, from the \"Shop Floor\" application, execute the different operations "
 "and follow the instruction as you were the operator."
 msgstr ""
+"จากนั้นจากแอปพลิเคชัน \"พื้นที่ผลิต\" ให้ดำเนินการต่างๆ "
+"และปฏิบัติตามคำสั่งเหมือนที่คุณเป็นผู้ปฏิบัติงาน"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr ""
+msgstr "ทั้งหมดนี้ฟรีในการสมัครสมาชิกปัจจุบันของคุณ อย่าลังเลที่จะลองใช้ดู! 🙃"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1082,17 +1547,46 @@ msgid ""
 "see how Odoo can support all these critical activities for a microbrewery to"
 " help people so they can be efficient and spend more time on what matters."
 msgstr ""
+"บทความนี้จะแนะนำคุณเกี่ยวกับกระบวนการทางธุรกิจของโรงเบียร์ขนาดเล็กเพื่อดูว่า"
+" Odoo "
+"สามารถสนับสนุนกิจกรรมที่สำคัญทั้งหมดเหล่านี้สำหรับโรงเบียร์ขนาดเล็กได้อย่างไร"
+" "
+"เพื่อช่วยให้ผู้คนสามารถทำงานอย่างมีประสิทธิภาพและใช้เวลาไปกับสิ่งที่สำคัญได้มากขึ้น"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Use case"
-msgstr "กรณีการใช้งาน"
+msgid ""
+"This deposit management system is a specific features of this package. "
+"Proceed carefully if you need to adapt anything."
+msgstr ""
+"ระบบการจัดการเงินฝากนี้เป็นฟีเจอร์เฉพาะของแพ็คเกจนี้ "
+"โปรดดำเนินการอย่างระมัดระวังหากคุณต้องการปรับเปลี่ยน"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"This will automatically create a Bill of Material and process a Manufacture "
+"Order each time you need to split your product and reflect this operation in"
+" your stock perfectly."
+msgstr ""
+"ระบบจะสร้างรายการวัสดุและประมวลผลคำสั่งผลิตโดยอัตโนมัติทุกครั้งที่คุณต้องการแยกผลิตภัณฑ์"
+" และแสดงการดำเนินการนี้ในคลังสินค้าของคุณอย่างสมบูรณ์แบบ"
+
+#. module: micro_brewery
+#: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
+msgid "Unit sale product"
+msgstr "สินค้าขายเป็นหน่วย"
+
+#. module: micro_brewery
+#: model:base.automation,name:micro_brewery.update_sales_taxes
+msgid "Update Taxes"
+msgstr "อัปเดตภาษี"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Validate the delivery and check your inventory, now you have everything"
-msgstr ""
+msgstr "ตรวจสอบการจัดส่งและตรวจสอบสินค้าคงคลังของคุณ ตอนนี้คุณมีทุกอย่างแล้ว"
 
 #. module: micro_brewery
 #: model:appointment.type,name:micro_brewery.appointment_type_1
@@ -1105,11 +1599,13 @@ msgid ""
 "Visit of the Brewery (B2C) - Managed via the <strong><font class=\"text-o-"
 "color-1\">Appointment App</font></strong>"
 msgstr ""
+"การเยี่ยมชมโรงเบียร์ (B2C) - จัดการผ่าน<strong><font class=\"text-o-"
+"color-1\">แอปนัดหมาย</font></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Want to know more about unit of measures ?"
-msgstr ""
+msgstr "ต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับหน่วยวัดหรือไม่?"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_9_product_template
@@ -1120,7 +1616,7 @@ msgstr "น้ำ"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Water - Good, no inventory tracking - Mashing"
-msgstr ""
+msgstr "น้ำ - ดี ไม่ต้องติดตามสต็อก - บด"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1134,6 +1630,14 @@ msgid ""
 "                                    With our diverse selection and nationwide shipping, enjoying our handcrafted beers has never been easier.\n"
 "                                    Cheers to unforgettable brews and memorable moments!"
 msgstr ""
+"ยินดีต้อนรับสู่ o-beer ที่ซึ่งงานฝีมือผสานกับรสชาติ โรงเบียร์ของเราทุ่มเทให้กับการสร้างสรรค์เบียร์คุณภาพเยี่ยม\n"
+"                                    การเพลิดเพลินกับเบียร์ของเราไม่เคยง่ายขนาดนี้มาก่อนด้วยสินค้าที่มีให้เลือกหลากหลายและการจัดส่งทั่วประเทศ\n"
+"                                    เฉลิมฉลองให้กับเครื่องดื่มและช่วงเวลาที่น่าจดจำ!"
+
+#. module: micro_brewery
+#: model_terms:web_tour.tour,rainbow_man_message:micro_brewery.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "ยินดีต้อนรับ! ขอให้สนุกกับการค้นพบ"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_4
@@ -1144,6 +1648,8 @@ msgstr "ขาว"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
+"คุณต้องการพูดคุยเกี่ยวกับการตั้งค่า Odoo "
+"ของคุณกับเราหรือพูดคุยเพิ่มเติมหรือไม่"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
@@ -1166,11 +1672,27 @@ msgid "Yeast - Goods, inventory tracking by lot."
 msgstr ""
 
 #. module: micro_brewery
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_15
+#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_25
+msgid "Yes"
+msgstr "ใช่"
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
+"คุณสามารถเข้าถึงทุกแอปที่ติดตั้งในฐานข้อมูล Odoo ของคุณได้บนแดชบอร์ดหลัก"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"You can also collect deposit directly on your Point of Sale. Select the "
+"correct product and encode a negative quantity."
+msgstr ""
+"คุณสามารถเรียกเก็บเงินมัดจำโดยตรงที่จุดขายของคุณได้ "
+"เลือกผลิตภัณฑ์ที่ถูกต้องและเข้ารหัสปริมาณติดลบ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1179,16 +1701,18 @@ msgid ""
 "selecting \"Product categories\" in X axis and \"Order date &gt; Month\" in "
 "Y axis."
 msgstr ""
+"คุณสามารถกำหนดค่าภาพรวมยอดขายรายเดือนได้โดยใช้การวัด \"ปริมาณ\" โดยเลือก "
+"\"หมวดสินค้า\" ในแกน X และเลือก \"วันที่สั่งซื้อและเดือน\" ในแกน Y"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "You can now finalize the flow by creating the invoice."
-msgstr ""
+msgstr "คุณสามารถสรุปขั้นตอนได้โดยการสร้างใบแจ้งหนี้"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "You can pick a time and pay to finalize the booking."
-msgstr ""
+msgstr "คุณสามารถเลือกเวลาและชำระเงินเพื่อยืนยันการจองได้"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1196,6 +1720,8 @@ msgid ""
 "You can then use the \"Preview\" button on the offer to see the result and "
 "accept it as if you were the customer!"
 msgstr ""
+"จากนั้นคุณสามารถใช้ปุ่ม \"ดูตัวอย่าง\" "
+"บนข้อเสนอเพื่อดูผลลัพธ์และยอมรับได้เหมือนกับว่าคุณเป็นลูกค้า!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1203,6 +1729,9 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"คุณได้ทำกรณีตัวอย่างการใช้งานสำเร็จแล้ว! "
+"มีอีกนับล้านวิธีในการปรับแต่งการตั้งค่า Odoo "
+"ให้เหมาะกับความต้องการทางธุรกิจของคุณ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1210,11 +1739,14 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Microbrewery package and check the related box."
 msgstr ""
+"คุณไม่ได้นำเข้าข้อมูลสาธิตใช่หรือไม่? คุณยังสามารถนำเข้าได้ ไปที่ แอป &gt; "
+"อุตสาหกรรม &gt; อัปเกรดแพ็คเกจ Microbrewery "
+"ของคุณและทำเครื่องหมายในช่องที่เกี่ยวข้อง"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "You don't know what to do next weekend?!"
-msgstr ""
+msgstr "สุดสัปดาห์นี้ไม่รู้จะทำอะไรใช่ไหม?!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1222,6 +1754,8 @@ msgid ""
 "You just installed the Odoo for Microbrewery package. By doing so, we have "
 "installed a bunch of necessary apps to run your Microbrewery efficiently."
 msgstr ""
+"คุณเพิ่งติดตั้งแพ็กเกจ Odoo สำหรับโรงเบียร์ขนาดเล็ก "
+"ดังนั้นเราจะทำการติดตั้งแอปที่จำเป็นจำนวนหนึ่งเพื่อให้โรงเบียร์ของคุณดำเนินการไปอย่างมีประสิทธิภาพ"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1229,11 +1763,26 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
+"คุณควรสามารถดำเนินการตามโฟลว์ต่อไปนี้ได้เพื่อให้มีภาพรวมของโฟลว์ต่างๆ "
+"ที่คุณสามารถดำเนินการได้อย่างรวดเร็วด้วยแพ็คเกจนี้โดยใช้ Odoo"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
+msgstr ""
+"[FULL 33 BIN] ถังขยะขนาด 24x33 ใบปกติเป็นสินค้าฝากครบ (มูลค่า 2.1 ดอลลาร์)"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
+msgstr "[FULL 33 BIN] ถังขยะขนาด 24x33 ใบปกติเป็นสินค้าฝากครบ (มูลค่า 4.5$)"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "สถาบันการศึกษา"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1246,14 +1795,19 @@ msgid "documentation"
 msgstr "เอกสารกำกับ"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
+msgid "ex. Delta I.P.A. - 33cl"
+msgstr "เช่น เดลต้า ไอพีเอ - 33cl"
+
+#. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_27
 msgid "hL"
-msgstr ""
+msgstr "hL"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "if you need help! <br/>"
-msgstr ""
+msgstr "หากคุณต้องการความช่วยเหลือ! <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
@@ -1263,7 +1817,7 @@ msgstr "info@yourcompany.example.com"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "ขอสาธิตการใช้งาน"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
