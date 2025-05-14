@@ -3,16 +3,17 @@
 # 	* bookstore
 # 
 # Translators:
-# Wichanon Jamwutthipreecha, 2024
-# Wil Odoo, 2024
+# Wichanon Jamwutthipreecha, 2025
+# Wil Odoo, 2025
+# Rasareeyar Lappiam, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 15:09+0000\n"
-"PO-Revision-Date: 2024-10-06 01:20+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2025-02-14 09:24+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Rasareeyar Lappiam, 2025\n"
 "Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,6 +27,8 @@ msgid ""
 ", and feel free\n"
 "                        to"
 msgstr ""
+"และโปรด\n"
+"                        "
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -33,11 +36,13 @@ msgid ""
 "1. Go to the \"Sales\" App and create a new quotation using the main \"New\""
 " button on the top left."
 msgstr ""
+"1. ไปที่แอป \"การขาย\" และสร้างใบเสนอราคาใหม่โดยใช้ปุ่ม \"สร้าง\" "
+"หลักที่ด้านบนซ้าย"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "1. Go to the Barcode App, and select \"Operations\"."
-msgstr ""
+msgstr "1. ไปที่แอปพลิเคชันบาร์โค้ด และเลือก \"การดำเนินงาน\""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -47,7 +52,7 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "1. Point of sale"
-msgstr ""
+msgstr "1. การขายหน้าร้าน"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -61,13 +66,17 @@ msgid ""
 "supply in your shop. To do so, navigate to the Inventory App &gt; Operations"
 " &gt; Replenishment."
 msgstr ""
+"1. "
+"ตอนนี้เราสามารถดูรายงานการเติมสินค้าประจำสัปดาห์ของคุณเพื่อให้แน่ใจว่ามีสินค้าเพียงพอในร้านของคุณ"
+" หากต้องการทำเช่นนั้น ให้ไปที่แอปสินค้าคงคลัง &gt; การดำเนินการ &gt; "
+"การเติมสินค้า"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 "1. Welcome Elise, your favorite customer, she wants to buy the \"Da Vinci "
 "Code\"."
-msgstr ""
+msgstr "1. ยินดีต้อนรับ Elise ลูกค้าคนโปรดของคุณ เธอต้องการซื้อ \"Da Vinci Code\""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -76,6 +85,9 @@ msgid ""
 "looking for \"Media Burn: Ant Farm and the Making of an Image\". You don't "
 "have this book in stock, let's order it."
 msgstr ""
+"1. ขอต้อนรับ Hanna Liseuse แต่เธอมีความต้องการเฉพาะ เธอกำลังมองหา \"Media "
+"Burn: Ant Farm and the Making of an Image\" คุณไม่มีหนังสือเล่มนี้ในสต็อก "
+"เรามาสั่งซื้อกันเถอะ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -84,6 +96,8 @@ msgid ""
 "replenishment\" filter. It displays every products sold this week and their "
 "remaining quantity."
 msgstr ""
+"2. คุณสามารถเลือกตัวกรอง \"เติมสินค้ารายสัปดาห์\" ได้โดยการคลิกที่แถบค้นหา "
+"ซึ่งจะแสดงสินค้าที่ขายไปในสัปดาห์นี้และจำนวนคงเหลือ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -93,7 +107,7 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. Create a new request for quotation, and start adding your products."
-msgstr ""
+msgstr "2. สร้างคำขอใบเสนอราคาใหม่และเริ่มเพิ่มผลิตภัณฑ์ของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -103,12 +117,12 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. Elise also wants to buy a 50€ Gift Card for a friend."
-msgstr ""
+msgstr "2. Elise อยากซื้อบัตรของขวัญมูลค่า 50 ยูโรให้เพื่อนด้วย"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. In \"Receipts\", create a new reception by clicking the \"New\" button."
-msgstr ""
+msgstr "2. ใน \"ได้รับ\" ให้สร้างแผนกต้อนรับใหม่โดยคลิกปุ่ม \"สร้าง\""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -116,6 +130,8 @@ msgid ""
 "2. Once you've found it on your local books database, go to the sales app and create a new product using its ISBN code : 9781941753354. Define the current distributor in your region by going to the \"Purchase\" tab (use \"My Book\n"
 "                Distributor\" for this case)."
 msgstr ""
+"2. เมื่อคุณพบผลิตภัณฑ์ในฐานข้อมูลหนังสือในพื้นที่ของคุณแล้ว ให้ไปที่แอปการขายและสร้างผลิตภัณฑ์ใหม่โดยใช้รหัส ISBN: 9781941753354 กำหนดผู้จัดจำหน่ายปัจจุบันในภูมิภาคของคุณโดยไปที่แท็บ \"ซื้อ\" (ใช้ \"ผู้จัดจำหน่าย\n"
+"               หนังสือของฉัน\" สำหรับกรณีนี้)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -124,18 +140,21 @@ msgid ""
 "Philosophers Stone,\" \"Hidden Life of Trees,\" and \"Sapiens: Brief History"
 " of Humankind.\""
 msgstr ""
+"2. พวกเขาต้องการได้รับข้อเสนอสำหรับหนังสือ “Harry Potter and the "
+"Philosophers Stone,” “Hidden Life of Trees,” และ “Sapiens: Brief History of "
+"Humankind” จำนวน 3 เล่ม"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 "3. Choose how much of each you want to buy by entering the value in the \"To"
 " Order\" column."
-msgstr ""
+msgstr "3. เลือกจำนวนสินค้าที่ต้องการซื้อ โดยกรอกมูลค่าในคอลัมน์ \"สั่งซื้อ\""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "3. Elise has a customer account; select her using the \"Customer\" button."
-msgstr ""
+msgstr "3. Elise มีบัญชีลูกค้า เลือกเธอโดยใช้ปุ่ม \"ลูกค้า\""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -145,7 +164,7 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "3. Once your quotation is ready, you can email it or confirm it."
-msgstr ""
+msgstr "3. เมื่อใบเสนอราคาของคุณพร้อมแล้ว คุณสามารถส่งอีเมลหรือยืนยันได้"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -153,11 +172,13 @@ msgid ""
 "3. Scan your products. If it does not exist in your database, they will be "
 "created with the correct picture, title, and price."
 msgstr ""
+"3. สแกนผลิตภัณฑ์ของคุณ หากไม่มีอยู่ในฐานข้อมูลของคุณ "
+"ระบบจะสร้างผลิตภัณฑ์นั้นขึ้นโดยใช้รูปภาพ ชื่อ และราคาที่ถูกต้อง"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "3. Set the quantity in negative value to create a reverted purchase."
-msgstr ""
+msgstr "3. กำหนดปริมาณเป็นค่าลบเพื่อสร้างการซื้อที่คืนกลับ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -165,6 +186,8 @@ msgid ""
 "3. You can now create a new quotation. Type her name in the \"Customer\" "
 "field to create a new contact."
 msgstr ""
+"3. คุณสามารถสร้างใบเสนอราคาใหม่ได้แล้ว พิมพ์ชื่อในช่อง \"ลูกค้า\" "
+"เพื่อสร้างรายชื่อผู้ติดต่อใหม่"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -173,6 +196,8 @@ msgid ""
 "directly click on the confirm button to turn your quotation in a Sales "
 "Order."
 msgstr ""
+"4. เพิ่มผลิตภัณฑ์ลงในใบเสนอราคาของคุณโดยค้นหา ISBN ของผลิตภัณฑ์ "
+"คุณสามารถคลิกปุ่มยืนยันได้โดยตรงเพื่อส่งใบเสนอราคาของคุณไปยังใบสั่งขาย"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -180,11 +205,13 @@ msgid ""
 "4. Check the smart buttons, a new delivery has been created, but you need to"
 " have all products in stock."
 msgstr ""
+"4. ตรวจสอบปุ่มอัจฉริยะ การจัดส่งใหม่ได้รับการสร้างขึ้นแล้ว "
+"แต่คุณต้องมีผลิตภัณฑ์ทั้งหมดอยู่ในสต็อก"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "4. Click then on the \"Order\" button to add it to your purchase orders."
-msgstr ""
+msgstr "4. จากนั้นคลิกปุ่ม \"สั่งซื้อ\" เพื่อเพิ่มลงในใบสั่งซื้อของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -192,6 +219,8 @@ msgid ""
 "4. Enter the cost of each new product so you can easily reorder it "
 "afterward."
 msgstr ""
+"4. ป้อนราคาของผลิตภัณฑ์ใหม่แต่ละรายการ "
+"เพื่อให้คุณสามารถสั่งซื้อซ้ำได้ง่ายในภายหลัง"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -199,6 +228,9 @@ msgid ""
 "4. Register Elise's payment. You can now go back to your main dashboard by "
 "selecting \"Backend\" in the top-right burger menu."
 msgstr ""
+"4. ลงทะเบียนการชำระเงินของ Elise "
+"ตอนนี้คุณสามารถกลับไปที่แดชบอร์ดหลักได้โดยเลือก \"แบ็คเอนด์\" "
+"ในเมนูเบอร์เกอร์ที่มุมขวาบน"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -209,7 +241,7 @@ msgstr ""
 #: model:loyalty.reward,description:bookstore.loyalty_reward_2
 #: model:product.template,name:bookstore.product_product_17_product_template
 msgid "5% on your order"
-msgstr ""
+msgstr "5% สำหรับการสั่งซื้อของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -222,6 +254,8 @@ msgid ""
 "5. Go to the Inventory App. A new Replenishment is suggested under "
 "Operations &gt; Replenishment."
 msgstr ""
+"5. ไปที่แอปสินค้าคงคลัง แนะนำให้เติมสินค้าใหม่ภายใต้ การดำเนินงาน &gt; "
+"การเติมสินค้า"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -231,6 +265,9 @@ msgid ""
 "purchase orders and send them to your vendors using the Send by Email "
 "button."
 msgstr ""
+"5. ไปที่แอปการจัดซื้อ "
+"คุณจะเห็นว่าใบสั่งซื้อทั้งหมดได้รับการสร้างแล้วและพร้อมที่จะส่งไปยังผู้จำหน่ายของคุณ"
+" ป้อนใบสั่งซื้อของคุณและส่งไปยังผู้จำหน่ายของคุณโดยใช้ปุ่มส่งทางอีเมล"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -238,6 +275,8 @@ msgid ""
 "5. Validate the reception, and this is it! (A purchase order will be "
 "automatically created so you can easily reconcile your vendor bills)."
 msgstr ""
+"5. ตรวจสอบการรับสินค้า เพียงเท่านี้ก็เรียบร้อย! "
+"(ใบสั่งซื้อจะถูกสร้างขึ้นโดยอัตโนมัติเพื่อให้คุณตรวจสอบใบแจ้งหนี้ของผู้ขายได้อย่างง่ายดาย)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -246,6 +285,8 @@ msgid ""
 "is created, you can then email it to your distributor and confirm the order "
 "placement."
 msgstr ""
+"6. หากคุณเลือกผลิตภัณฑ์และคลิก \"สั่งซื้อ\" คำสั่งซื้อใหม่จะถูกสร้างขึ้น "
+"จากนั้นคุณสามารถส่งอีเมลไปยังผู้จัดจำหน่ายของคุณและยืนยันคำสั่งซื้อได้"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -259,6 +300,10 @@ msgid ""
 "Inventory App on you dashboard, you'll see that a new receipt is ready to be"
 " processed. Select it and validate your reception."
 msgstr ""
+"7. ไม่กี่วันต่อมา คุณจะได้รับคำสั่งซื้อจากผู้จัดจำหน่าย "
+"ไปที่แอปสินค้าคงคลังบนแดชบอร์ดของคุณ "
+"คุณจะเห็นว่าใบเสร็จใหม่พร้อมสำหรับการประมวลผลแล้ว "
+"เลือกใบเสร็จและตรวจสอบการรับสินค้าของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -271,21 +316,24 @@ msgid ""
 "8. The last product is now in stock, you can go back to your Sales Order and"
 " process the delivery by clicking the \"Delivery\" smart button."
 msgstr ""
+"8. ขณะนี้ผลิตภัณฑ์สุดท้ายอยู่ในสต็อกแล้ว "
+"คุณสามารถกลับไปที่คำสั่งซื้อของคุณและดำเนินการจัดส่งได้โดยคลิกปุ่ม "
+"\"จัดส่ง\" อัจฉริยะ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -295,7 +343,7 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -306,16 +354,21 @@ msgid ""
 "                        </strong>\n"
 "                </span>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                        <strong>\n"
+"                        <font class=\"text-800\"><span class=\"h1-fs\">กรณีการใช้งาน</span></font>\n"
+"                        </strong>\n"
+"                </span>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Basics</strong></span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\"><strong>พื้นฐาน</strong></span>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">คุณต้องการที่จะไปต่อหรือไม่?</span>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -352,6 +405,32 @@ msgid ""
 "Scientist by Dr.Suzanne Simard Published in Partnership with the David "
 "Suzuki Institute."
 msgstr ""
+"หนังสือขายดีของ WASHINGTON POST และ WALL STREET JOURNAL จาก NEW YORK TIMES -"
+" หนึ่งในหนังสือที่คนชื่นชอบมากที่สุดในยุคนี้เลยก็ว่าได้ "
+"เป็นเรื่องราวที่ให้ความกระจ่างเกี่ยวกับป่าและวิทยาศาสตร์ที่แสดงให้เราเห็นว่าต้นไม้สื่อสารกันอย่างไร"
+" รู้สึกอย่างไร และอยู่ร่วมกันทางสังคมได้อย่างไร "
+"หลังจากอ่านหนังสือเล่มนี้แล้ว การเดินเล่นในป่าของคุณจะไม่เหมือนเดิมอีกต่อไป "
+"หนังสือเล่มนี้ได้บุกเบิกแนวทางใหม่โดยสิ้นเชิง.. [Peter Wohlleben] "
+"ได้ฟังเสียงต้นไม้และถอดรหัสภาษาของพวกมัน ตอนนี้เขาพูดแทนพวกมันได้แล้ว --The "
+"New York Review of Books "
+"ได้รับการเสนอชื่อเป็นหนึ่งในหนังสือที่ดีที่สุดแห่งปีโดย BRAINPICKINGS - "
+"รางวัลชมเชย: SEJ Rachel Carson รางวัล Environment Book Award - "
+"รายชื่อผู้เข้าชิง: รางวัล Audible International Book of the Year Award - "
+"รางวัล Books For a Better Life Award - รางวัล Indie Choice Award - "
+"หนังสือสารคดีแห่งปี ต้นไม้เป็นสิ่งมีชีวิตที่อยู่ร่วมกันในสังคมหรือไม่? "
+"ในหนังสือ The Hidden Life of Trees ปีเตอร์ โวห์เลเบน "
+"นักป่าไม้และนักเขียนได้อธิบายอย่างน่าเชื่อว่าป่าเป็นสังคม "
+"เขาใช้การค้นพบทางวิทยาศาสตร์ที่ก้าวล้ำเพื่ออธิบายว่าต้นไม้เป็นเหมือนครอบครัวของมนุษย์อย่างไร"
+" พ่อแม่ของต้นไม้ใช้ชีวิตอยู่ร่วมกับลูกๆ สื่อสารกัน "
+"คอยสนับสนุนต้นไม้ในขณะที่ต้นไม้เติบโต "
+"แบ่งปันสารอาหารกับผู้ที่ป่วยหรือกำลังดิ้นรน "
+"และเตือนกันถึงอันตรายที่ใกล้เข้ามา "
+"โวลเลเบนยังแบ่งปันความรักที่เขามีต่อป่าไม้และป่าไม้โดยอธิบายถึงกระบวนการอันน่าทึ่งของชีวิต"
+" ความตาย และการงอกใหม่ที่เขาสังเกตเห็นในป่าของเขา "
+"คำประกาศความรักและบทนำที่น่าสนใจเกี่ยวกับต้นไม้ที่เต็มไปด้วยข้อเท็จจริงและความเกรงขามต่อธรรมชาติอย่างไม่ละอาย"
+" --Washington Post ได้โรยผงประกายแห่งความน่ามหัศจรรย์ไว้ในหนังสือเล่มนี้ "
+"--The New Yorker มีบันทึกจากนักวิทยาศาสตร์ด้านป่าไม้โดย Dr.Suzanne Simard "
+"เผยแพร่ร่วมกับ David Suzuki Institute"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_20_product_template
@@ -373,6 +452,24 @@ msgid ""
 "mount a subversive critique of media hegemony while continually re-imagining"
 " the crux of the performance itself."
 msgstr ""
+"รายละเอียดโดยละเอียดของการแสดง Media Burn ของ Ant Farm ในปี 1975 "
+"ซึ่งเป็นการแสดงวิพากษ์วิจารณ์ผู้บริโภคในตำนาน "
+"หนังสือเล่มนี้ได้สำรวจการอ้างอิงทางวัฒนธรรมที่ซับซ้อนและกลยุทธ์การสร้างงานศิลปะที่ให้ข้อมูลกับการแสดง"
+" Media Burn อันโด่งดังในปี 1975 ของ Ant Farm ซึ่งขับ Cadillac "
+"ที่ปรับแต่งพิเศษซึ่งมีชื่อว่า Phantom Dream Car ผ่านโทรทัศน์ที่กำลังฮอตฮิต "
+"Ant Farm เดิมทีได้รับการคิดขึ้นเป็นแนวทางสถาปัตยกรรมเชิงแนวคิด "
+"แต่ต่อมาได้พัฒนาเป็นการทำงานร่วมกันของศิลปะเต็มรูปแบบซึ่งจุดสุดยอดคือผลงานที่มีชื่อเสียง"
+" เช่น House of the Century (1971-73), Cadillac Ranch (1974) และ The Eternal "
+"Frame (1975) ใน Media Burn "
+"ศิลปินประสบความสำเร็จในการผสมผสานแนวคิดที่หลากหลายซึ่งเกี่ยวข้องกับทฤษฎีสื่อร่วมสมัย"
+" การแสดงที่สวยงามซับซ้อนอย่างแปลกประหลาด การแอบอ้างข้อความ "
+"และความพยายามสร้างแบรนด์ที่ครอบคลุมทุกด้าน หนังสือเล่มนี้เขียนโดย Steve Seid"
+" (Berkeley Art Museum/Pacific Film Archive) "
+"และใช้ข้อมูลภาพอันหลากหลายในการบันทึกเรื่องราวเบื้องหลังการแสดงอันทรงอิทธิพลนี้"
+" (และงานวิดีโอ) ซึ่งไม่ค่อยมีใครรู้จัก "
+"โดยหนังสือเล่มนี้เจาะลึกเรื่องราวเบื้องหลังที่สำคัญ "
+"รวมถึงความพยายามอย่างยิ่งใหญ่ในการวิจารณ์อิทธิพลของสื่อที่มีอิทธิพลในขณะเดียวกันก็จินตนาการถึงแก่นแท้ของการแสดงใหม่ๆ"
+" อย่างต่อเนื่อง"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -380,6 +477,8 @@ msgid ""
 "A free, personalized, integrated <strong><font class=\"text-o-color-1\">Website</font></strong> in a few clicks. Start receiving orders directly in Odoo and go live with your \n"
 "                        <strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">เว็บไซต์</font></strong> ที่ปรับแต่งได้และฟรีเพียงไม่กี่คลิก เริ่มรับคำสั่งซื้อโดยตรงใน Odoo และเปิดใช้งาน \n"
+"                        <strong><font class=\"text-o-color-1\">ร้านค้าออนไลน์</font></strong> ของคุณภายในไม่กี่นาที"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_9_product_template
@@ -387,11 +486,13 @@ msgid ""
 "A hand-inspected Used copy of \"Da Vinci Code\" by Dan Brown. Ships directly"
 " from Textbooks.com."
 msgstr ""
+"สำเนาใช้แล้วของ \"รหัสลับดาวินชี\" โดยแดน บราวน์ ที่ตรวจสอบด้วยมือ "
+"จัดส่งตรงจาก Textbooks.com"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_3_product_template
 msgid "André Chamay (Auteur) - Paru le 01/06/2019 chez Jets D'encre."
-msgstr ""
+msgstr "André Chamay (Auteur) - Paru le 01/06/2019 chez Jets D'encre."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -399,6 +500,8 @@ msgid ""
 "As monitoring your success is essential, there are some views that might "
 "interest you:"
 msgstr ""
+"เนื่องจากการติดตามความสำเร็จของคุณเป็นสิ่งสำคัญ "
+"เรามีมุมมองบางส่วนที่คุณอาจสนใจ:"
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_author_template_field
@@ -421,6 +524,8 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products and 2 sample contacts."
 msgstr ""
+"โดยการอัปโหลดข้อมูลสาธิตของโมดูลนี้ "
+"ฐานข้อมูลของคุณเต็มไปด้วยผลิตภัณฑ์บางส่วนและผู้ติดต่อตัวอย่าง 2 ราย"
 
 #. module: bookstore
 #: model:pos.payment.method,name:bookstore.pos_payment_method_1
@@ -438,6 +543,9 @@ msgid ""
 "Control the aging of your stock, and easily export aged stock in the "
 "inventory valuation report (Inventory &gt; Reporting &gt; Valuation)."
 msgstr ""
+"ควบคุมอายุสินค้าของสต็อก "
+"และส่งออกสต็อกเก่าได้อย่างง่ายดายในรายงานการประเมินมูลค่าสินค้าคงคลัง "
+"(สินค้าคงคลัง &gt; การรายงาน &gt; การประเมินค่า)"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_9_product_template
@@ -457,7 +565,7 @@ msgstr "เริ่มต้น"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "ค้นพบเพิ่มเติมเกี่ยวกับ Odoo โดยเข้าไปที่"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -465,11 +573,13 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
+"ค้นพบข้อมูลพื้นฐานของแพ็คเกจนี้และสำรวจความเป็นไปได้ทั้งหมดที่ Odoo "
+"นำเสนอเพื่อปรับปรุงประสบการณ์ของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Do you want to go further?"
-msgstr ""
+msgstr "คุณต้องการดำเนินการต่อหรือไม่?"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_14_product_template
@@ -477,8 +587,11 @@ msgid ""
 "Excellent Marketplace listings for \"Narratives of Exile and Return\" by "
 "Chamber starting as low as $92.46!"
 msgstr ""
+"รายชื่อตลาดซื้อขายที่ยอดเยี่ยมสำหรับ \"Narratives of Exile and Return\" โดย "
+"Chamber เริ่มต้นที่ราคาเพียง $92.46!"
 
 #. module: bookstore
+#: model:ir.actions.server,name:bookstore.inventory_price_update
 #: model:ir.actions.server,name:bookstore.ir_act_server_set_condominiums_on_partner
 msgid "Execute Code"
 msgstr "ดำเนินการรหัส"
@@ -491,22 +604,23 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "From the Point of sale, open your register on the main dashboard."
-msgstr ""
+msgstr "จากการขายหน้าร้าน เปิดเครื่องบันทึกเงินสดของคุณบนแดชบอร์ดหลัก"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Get your stock level at anytime in Inventory &gt; Reporting &gt; Stock"
 msgstr ""
+"รับระดับสต็อกของคุณได้ตลอดเวลาใน สินค้าคงคลัง &gt; การรายงาน &gt; สต็อก"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_10_product_template
 msgid "Harry Potter and the Philosophers Stone"
-msgstr ""
+msgstr "แฮรี่พอตเตอร์กับศิลาอาถรรพ์"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "สวัสดี !"
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_isbn_barcode_field
@@ -520,6 +634,9 @@ msgid ""
 "If you look for Elise in your \"Contact\" database, you can see that the Odoo Smart Buttons at the top of her page can bring you to her customer history, Elise may even see it on her website account if you activate the\n"
 "                        relevant apps and configurations."
 msgstr ""
+"หากคุณค้นหา Elise ในฐานข้อมูล \"ข้อมูลติดต่อ\" คุณจะเห็นว่าปุ่มอัจฉริยะ Odoo"
+" ที่ด้านบนของเพจของเธอสามารถนำคุณไปยังประวัติลูกค้าของเธอได้ และ Elise "
+"อาจเห็นปุ่มดังกล่าวในบัญชีเว็บไซต์ของเธอด้วยหากคุณเปิดใช้งานแอปและการกำหนดค่าที่เกี่ยวข้อง"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -528,11 +645,14 @@ msgid ""
 "Import demo data and try the Demo - Use Case. (In the next Knowledge "
 "Article)"
 msgstr ""
+"หากคุณต้องการดำเนินการทัวร์แนะนำแบบปฏิบัติจริงของโมดูลนี้ "
+"คุณควรนำเข้าข้อมูลสาธิตและลองใช้กรณีตัวอย่างการใช้งาน "
+"(ในบทความคลังข้อมูลถัดไป)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "If you want to sale consignment products, this is standard in Odoo."
-msgstr ""
+msgstr "หากคุณต้องการขายสินค้าฝากขาย นี่คือมาตรฐานของ Odoo"
 
 #. module: bookstore
 #: model:product.pricelist,name:bookstore.product_pricelist_2
@@ -547,6 +667,10 @@ msgid ""
 "overshadowed by seven bizarre deaths. Translated by William Weaver. A Helen "
 "and Kurt Wolff Book."
 msgstr ""
+"ปี ค.ศ. 1327 "
+"ฟรานซิสกันในอารามแห่งหนึ่งในประเทศอิตาลีถูกสงสัยว่าเป็นพวกนอกรีต "
+"แต่การสืบสวนของบราเดอร์วิลเลียมแห่งบาสเกอร์วิลล์กลับถูกบดบังด้วยการเสียชีวิตอย่างแปลกประหลาดเจ็ดครั้ง"
+" แปลโดย วิลเลียม วีเวอร์ หนังสือของเฮเลนและเคิร์ต วูล์ฟฟ์"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.stock_warehouse_orderpoint_reorder_search_customization_view
@@ -575,6 +699,8 @@ msgid ""
 "Let's say you now need to create a quotation for \"The Great Library\" near "
 "your shop."
 msgstr ""
+"สมมติว่าตอนนี้คุณต้องสร้างใบเสนอราคาสำหรับ \"The Great Library\" "
+"ใกล้ร้านค้าของคุณ"
 
 #. module: bookstore
 #: model:loyalty.program,name:bookstore.loyalty_program_2
@@ -592,6 +718,8 @@ msgid ""
 "Manage all your communication channels in one place with Odoo <strong><font class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font class=\"text-o-color-1\">Email Marketing</font></strong>, \n"
 "                        <strong><font class=\"text-o-color-1\">Social Media Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
+"จัดการช่องทางการสื่อสารทั้งหมดของคุณในที่เดียวด้วย <strong><font class=\"text-o-color-1\">การตลาดแบบอัตโนมัติ</font></strong>, <strong><font class=\"text-o-color-1\">อีเมลมาร์เก็ตติ้ง</font></strong>, \n"
+"                        <strong><font class=\"text-o-color-1\">การตลาดผ่านโซเชียล</font></strong> และ <strong><font class=\"text-o-color-1\">การตลาดผ่าน SMS</font></strong> ของ Odoo"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -600,11 +728,13 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting "
 "App</font></strong>)"
 msgstr ""
+"จัดการบัญชีของคุณได้ง่ายกว่าที่เคยด้วยสภาพแวดล้อมที่รวมระบบอย่างสมบูรณ์ "
+"(<strong><font class=\"text-o-color-1\">แอประบบบัญชี</font></strong>)"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_20_product_template
 msgid "Media Burn: Ant Farm and the Making of an Image (Paperback)"
-msgstr ""
+msgstr "Media Burn: ฟาร์มมดและการสร้างรูปภาพ (ปกอ่อน)"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_12_product_template
@@ -626,11 +756,28 @@ msgid ""
 "that changes how we think about innovation and entrepreneurship. Eric Ries s"
 " The Lean Startup has the chops to join this exalted company."
 msgstr ""
+"สตาร์ทอัพส่วนใหญ่มักถูกสร้างมาเพื่อล้มเหลว "
+"แต่ความล้มเหลวเหล่านี้สามารถป้องกันได้ตามที่ Eric Ries ผู้ประกอบการกล่าวไว้ "
+"สตาร์ทอัพไม่ได้ล้มเหลวเพราะการดำเนินการที่ผิดพลาด ไม่ทันกำหนด "
+"หรืองบประมาณบานปลาย แต่ล้มเหลวเพราะกำลังสร้างสิ่งที่ไม่มีใครต้องการ "
+"ไม่ว่าจะเกิดขึ้นจากโรงรถของใครบางคนหรือสร้างขึ้นภายในองค์กร Fortune 500 "
+"ที่เติบโตเต็มที่แล้วก็ตาม "
+"สตาร์ทอัพใหม่ตามคำจำกัดความนั้นออกแบบมาเพื่อสร้างผลิตภัณฑ์หรือบริการใหม่ภายใต้เงื่อนไขที่ไม่แน่นอนอย่างยิ่ง"
+" ภารกิจหลักของสตาร์ทอัพคือการค้นหาว่าลูกค้าจะซื้ออะไรในที่สุด "
+"หนึ่งในหลักการสำคัญของการเคลื่อนไหว Lean Startup คือสิ่งที่ Ries "
+"เรียกว่าการเรียนรู้ที่ผ่านการตรวจสอบเกี่ยวกับลูกค้า "
+"ซึ่งเป็นวิธีการรับคำติชมอย่างต่อเนื่องจากลูกค้าเพื่อให้บริษัทสามารถเปลี่ยนทิศทางหรือปรับเปลี่ยนแผนได้ทีละนิดทีละหน่อย"
+" แทนที่จะสร้างแผนธุรกิจที่ซับซ้อนและแนวทางที่เน้นผลิตภัณฑ์ Lean Startup "
+"ให้ความสำคัญกับการทดสอบวิสัยทัศน์ของคุณกับลูกค้าอย่างต่อเนื่องและปรับเปลี่ยนอย่างต่อเนื่อง"
+" "
+"หนังสือเกี่ยวกับธุรกิจมักจะเปลี่ยนวิธีคิดของเราเกี่ยวกับนวัตกรรมและการเป็นผู้ประกอบการอยู่เสมอ"
+" หนังสือ The Lean Startup ของ Eric Ries "
+"มีความสามารถที่จะเข้าร่วมบริษัทอันทรงเกียรติแห่งนี้"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_14_product_template
 msgid "Narratives of Exile and Return"
-msgstr ""
+msgstr "เรื่องเล่าของการเนรเทศและการกลับมา"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -638,6 +785,8 @@ msgid ""
 "Navigate to Inventory &gt; Reporting &gt; Performance to get insight on each"
 " books categories"
 msgstr ""
+"ไปที่สินค้าคงคลัง &gt; การรายงาน &gt; ประสิทธิภาพการทำงาน "
+"เพื่อรับข้อมูลเชิงลึกเกี่ยวกับหมวดหมู่หนังสือแต่ละเล่ม"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -650,11 +799,14 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into"
 " an additional scanner (and much more)."
 msgstr ""
+"Odoo ได้รวมระบบเข้ากับแอปอย่างสมบูรณ์ "
+"ดาวน์โหลดเพื่อเปลี่ยนให้โทรศัพท์ธรรมดาของคุณกลายเป็นเครื่องสแกน (และอื่นๆ "
+"อีกมากมาย)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr ""
+msgstr "Odoo มอบความเป็นไปได้ที่ไม่มีที่สิ้นสุดให้กับคุณ เช่น:"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -663,6 +815,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"แน่นอนว่านี่เป็นเพียงภาพรวมของฟีเจอร์ที่รวมอยู่ในแพ็คเกจนี้เท่านั้น "
+"เพิ่มแอปใหม่ ลบ/แก้ไขข้อมูลสาธิต และทดสอบทุกอย่างได้ตามใจชอบ!"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -671,6 +825,9 @@ msgid ""
 "database, and select the Barcode App to transform your phone into an "
 "additional scanner!<br/>"
 msgstr ""
+"หรือง่ายกว่านั้น เพียงดาวน์โหลดแอป Odoo ลงในโทรศัพท์มือถือของคุณ "
+"เชื่อมต่อกับฐานข้อมูลของคุณ "
+"และเลือกแอปบาร์โค้ดเพื่อเปลี่ยนโทรศัพท์ของคุณให้เป็นเครื่องสแกน!<br/>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -678,6 +835,8 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong>"
 " <font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"จัดระเบียบกิจกรรมของคุณและเชื่อมต่อกับลูกค้าของคุณได้อย่างง่ายดายด้วย<strong>"
+" <font class=\"text-o-color-1\">แอปกิจกรรม</font></strong>"
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_purchase_type_field
@@ -687,7 +846,7 @@ msgstr ""
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "ติดต่อเรา"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_12_product_template
@@ -697,18 +856,18 @@ msgstr ""
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_11_product_template
 msgid "The Mysteries of Nature: the Hidden Life of Trees (Hardcover)"
-msgstr ""
+msgstr "ความลึกลับของธรรมชาติ: ชีวิตที่ซ่อนเร้นของต้นไม้ (ปกแข็ง)"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_13_product_template
 msgid "The Name of the Rose"
-msgstr ""
+msgstr "ชื่อของดอกกุหลาบ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr ""
+msgstr "ทั้งหมดนี้ฟรีในการสมัครสมาชิกปัจจุบันของคุณ อย่าลังเลที่จะลองใช้ดู! 🙃"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -716,6 +875,8 @@ msgid ""
 "This time, you received a new release from one of your distributors. Prepare"
 " your scanner and go to the Barcode App."
 msgstr ""
+"ในครั้งนี้ คุณได้รับข่าวสารใหม่จากผู้จัดจำหน่ายรายหนึ่งของคุณ "
+"เตรียมเครื่องสแกนของคุณให้พร้อมแล้วไปที่แอปบาร์โค้ด"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -723,16 +884,23 @@ msgid ""
 "Time to return some unsold products. This works like a reverted purchase "
 "order."
 msgstr ""
+"ถึงเวลาคืนสินค้าที่ขายไม่ได้บางส่วนแล้ว "
+"ขั้นตอนนี้เหมือนกับใบสั่งซื้อที่ถูกย้อนกลับ"
+
+#. module: bookstore
+#: model:base.automation,name:bookstore.update_inventory_description
+msgid "Update Inventory Description"
+msgstr ""
 
 #. module: bookstore
 #: model:base.automation,name:bookstore.base_automation_1
 msgid "Update supplier info on incoming products"
-msgstr ""
+msgstr "อัปเดตข้อมูลซัพพลายเออร์เกี่ยวกับสินค้าที่เข้ามา"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Use Case"
-msgstr ""
+msgstr "กรณีการใช้งาน"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -742,6 +910,9 @@ msgid ""
 "products and create new entries directly from this App to encode new books "
 "faster than ever."
 msgstr ""
+"ใช้<strong><font class=\"text-o-color-1\">แอปบาร์โค้ด</font></strong><font "
+"class=\"text-o-"
+"color-1\"></font>เพื่อสแกนผลิตภัณฑ์ของคุณและสร้างรายการใหม่โดยตรงจากแอปนี้เพื่อเข้ารหัสหนังสือใหม่ได้เร็วกว่าที่เคย"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -749,6 +920,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong>"
 " to manage your orders receive and deliver your products."
 msgstr ""
+"ใช้<strong><font class=\"text-o-"
+"color-1\">แอปสินค้าคงคลัง</font></strong>เพื่อจัดการคำสั่งซื้อของคุณรับและส่งมอบผลิตภัณฑ์ของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -757,6 +930,9 @@ msgid ""
 " for your sales at the desk. Manage your customer accounts and advantage in "
 "the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
 msgstr ""
+"ใช้ <strong><font class=\"text-o-color-1\">Point of Sale</font></strong> "
+"สำหรับการขายของคุณที่โต๊ะ จัดการบัญชีลูกค้าและข้อได้เปรียบใน<strong><font "
+"class=\"text-o-color-1\">แอปรายชื่อผู้ติดต่อ</font></strong>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -764,6 +940,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
 "to order books from your distributors."
 msgstr ""
+"ใช้<strong><font class=\"text-o-"
+"color-1\">แอปการจัดซื้อ</font></strong>เพื่อสั่งซื้อหนังสือจากผู้จัดจำหน่ายของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -771,6 +949,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to order books for your customers, create quotations for your institutional clients (libraries, schools, etc.), and invoice them on the go using\n"
 "                        the <strong><font class=\"text-o-color-1\">Invoicing App</font></strong>."
 msgstr ""
+"ใช้ <strong><font class=\"text-o-color-1\">แอปการขาย</font></strong> เพื่อสั่งหนังสือให้กับลูกค้าของคุณ สร้างใบเสนอราคาให้กับลูกค้าที่เป็นสถาบันของคุณ (ห้องสมุด โรงเรียน ฯลฯ) และออกใบแจ้งหนี้ให้พวกเขาได้ทุกที่โดยใช้\n"
+"                        <strong><font class=\"text-o-color-1\">แอปใบแจ้งหนี้</font></strong>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -779,16 +959,26 @@ msgid ""
 "contact record created, and don't forget to add an email address for her to "
 "receive notifications. Go back to your quotation using the breadcrump."
 msgstr ""
+"ใช้ปุ่มลิงก์ภายในที่ด้านขวาของฟิลด์เพื่อดูข้อมูลติดต่อใหม่ที่สร้างขึ้น "
+"และอย่าลืมเพิ่มที่อยู่อีเมลเพื่อให้เขาได้รับการแจ้งเตือน "
+"กลับไปที่ใบเสนอราคาของคุณโดยใช้เส้นทางนำทาง"
 
 #. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_2
 msgid "Various"
-msgstr ""
+msgstr "หลากหลาย"
+
+#. module: bookstore
+#: model_terms:web_tour.tour,rainbow_man_message:bookstore.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "ยินดีต้อนรับ! ขอให้สนุกกับการค้นพบ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
+"คุณต้องการพูดคุยเกี่ยวกับการตั้งค่า Odoo "
+"ของคุณกับเราหรือพูดคุยเพิ่มเติมหรือไม่"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -796,6 +986,7 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
+"คุณสามารถเข้าถึงทุกแอปที่ติดตั้งในฐานข้อมูล Odoo ของคุณได้บนแดชบอร์ดหลัก"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -803,6 +994,7 @@ msgid ""
 "You can also use automated Reordering rules to ensure you will always have "
 "your best seller in stock."
 msgstr ""
+"คุณยังสามารถใช้กฎการสั่งซื้อซ้ำอัตโนมัติเพื่อให้แน่ใจว่าคุณจะมีสินค้าขายดีอยู่ในสต็อกเสมอ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -811,6 +1003,8 @@ msgid ""
 " to this app and click on the Quotation/Order button to retreive the Sales "
 "Order."
 msgstr ""
+"คุณสามารถชำระเงินดาวน์ได้โดยใช้ระบบ POS "
+"โดยกลับไปที่แอปนี้แล้วคลิกปุ่มใบเสนอราคา/ใบสั่งซื้อเพื่อเรียกค้นใบสั่งซื้อ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -818,6 +1012,8 @@ msgid ""
 "You can now confirm the purchase, validate the delivery using the smart "
 "button, and print your delivery slip."
 msgstr ""
+"ตอนนี้คุณสามารถยืนยันการสั่งซื้อ ตรวจยืนยันการจัดส่งโดยใช้ปุ่มอัจฉริยะ "
+"และพิมพ์ใบส่งของของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -826,6 +1022,9 @@ msgid ""
 "discount for every 200€ spent. Manage Promotions, and Loyalty programs under"
 " Point of Sale &gt; Products. <br/>"
 msgstr ""
+"คุณจะเห็นว่า Elise มีบัตรสมาชิก ห้องสมุดสาธิตจะให้ส่วนลด 5% "
+"สำหรับการใช้จ่ายทุกๆ 200 ยูโร จัดการโปรโมชันและโปรแกรมสมาชิกด้วย POS &gt; "
+"ผลิตภัณฑ์ <br/>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -833,6 +1032,9 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"คุณได้ทำกรณีตัวอย่างการใช้งานสำเร็จแล้ว! "
+"มีอีกนับล้านวิธีในการปรับแต่งการตั้งค่า Odoo "
+"ให้เหมาะกับความต้องการทางธุรกิจของคุณ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -840,6 +1042,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Bookstore package and check the related box."
 msgstr ""
+"คุณไม่ได้นำเข้าข้อมูลสาธิตใช่หรือไม่? คุณยังสามารถนำเข้าได้ ไปที่ แอป &gt; "
+"อุตสาหกรรม &gt; อัปเกรดแพ็คเกจ Bookstore "
+"ของคุณและทำเครื่องหมายในช่องที่เกี่ยวข้อง"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -847,6 +1052,8 @@ msgid ""
 "You just installed the Odoo for Bookstore package. By doing so, we have "
 "installed a bunch of necessary apps to run your bookstore efficiently."
 msgstr ""
+"คุณเพิ่งติดตั้งแพ็กเกจ Odoo สำหรับร้านหนังสือ เมื่อดำเนินการดังกล่าว "
+"เราจะติดตั้งแอปที่จำเป็นจำนวนหนึ่งเพื่อให้ร้านหนังสือของคุณทำงานได้อย่างมีประสิทธิภาพ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -854,11 +1061,58 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
+"คุณควรสามารถดำเนินการตามโฟลว์ต่อไปนี้ได้เพื่อให้มีภาพรวมของโฟลว์ต่างๆ "
+"ที่คุณสามารถดำเนินการได้อย่างรวดเร็วด้วยแพ็คเกจนี้โดยใช้ Odoo"
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_17_product_template
+msgid "[0.0]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_12_product_template
+msgid "[12.49]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_9_product_template
+msgid "[14.99]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_3_product_template
+msgid "[17.0]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_10_product_template
+msgid "[19.44]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_20_product_template
+msgid "[22.03]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_11_product_template
+msgid "[23.5]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_13_product_template
+msgid "[3.81]"
+msgstr ""
+
+#. module: bookstore
+#: model:product.template,description_pickingin:bookstore.product_product_14_product_template
+msgid "[4.48]"
+msgstr ""
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "สถาบันการศึกษา"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -873,17 +1127,17 @@ msgstr "เอกสารกำกับ"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "if you need help!<br/>"
-msgstr ""
+msgstr "หากคุณต้องการความช่วยเหลือ! <br/>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "ขอสาธิตการใช้งาน"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your Point of Sales results in Point of Sales &gt; Reporting"
-msgstr ""
+msgstr "ติดตามผลลัพธ์จุดขายของคุณในการรายงานขายหน้าร้าน"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -891,8 +1145,9 @@ msgid ""
 "​Track your purchases performance in Purchase App &gt; Reporting &gt; "
 "Purchase"
 msgstr ""
+"ติดตามประสิทธิภาพการซื้อของคุณในแอปการจัดซื้อ &gt; การรายงาน &gt; การซื้อ"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your sales order in Sales App &gt; Reporting &gt; Sales"
-msgstr ""
+msgstr "ติดตามใบสั่งขายของคุณในแอปการขาย &gt; การรายงาน &gt; การขาย"

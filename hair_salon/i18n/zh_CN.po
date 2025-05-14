@@ -3,16 +3,17 @@
 # 	* hair_salon
 # 
 # Translators:
-# Wil Odoo, 2024
-# Chloe Wang, 2024
+# Wil Odoo, 2025
+# Chloe Wang, 2025
+# Raymond Yu <cl_yu@hotmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 09:48+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Chloe Wang, 2024\n"
+"POT-Creation-Date: 2024-11-22 14:07+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,172 +24,188 @@ msgstr ""
 #. module: hair_salon
 #: model:loyalty.reward,description:hair_salon.loyalty_reward_4
 msgid "$ 20 on your order"
-msgstr ""
+msgstr "可获 20 美元优惠"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_14
-#: model:product.template,name:hair_salon.product_template_15
-msgid "20 € per order on your order"
-msgstr ""
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "30 min Brushing"
-msgstr ""
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
+#: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid ""
-"<br/>\n"
-"                                                &amp;nbsp;Because nothing is impossible, and hair transformations are\n"
-"                                                the salon's specialty, at Hair Salon Industry, every customer is treated\n"
-"                                                as an individual."
+"<font class=\"text-o-color-3\">Schedule an\n"
+"                                                                                    appointment\n"
+"                                                                            </font>"
 msgstr ""
+"<font class=\"text-o-color-3\">安排\n"
+"                                                                                    预约\n"
+"                                                                            </font>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid ""
-"<font class=\"text-o-color-4\">Color &amp;amp; Haircut &amp;amp;\n"
-"                                                    Brushing\n"
-"                                                </font>"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid ""
-"<font style=\"font-size: 62px;\">Our Team</font>\n"
-"                                        <br/>"
-msgstr ""
-"<font style=\"font-size: 62px;\">我们的团队</font>\n"
-"                                        <br/>"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid ""
-"<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
-"                                                        <b>100</b>\n"
-"                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
-msgstr ""
-"<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
-"                                                        <b>100</b>\n"
-"                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid ""
-"<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
-"                                                        <b>150</b>\n"
-"                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
-msgstr ""
-"<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
-"                                                        <b>150</b>\n"
-"                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
+#: model_terms:ir.ui.view,arch_db:hair_salon.homepage
+msgid "<span class=\"display-2-fs\">Step into our salon</span>"
+msgstr "<span class=\"display-2-fs\">走进我们的沙龙</span>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid ""
-"<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
-"                                                        <b>50</b>\n"
-"                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
-msgstr ""
-"<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
-"                                                        <b>50</b>\n"
-"                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "<span class=\"display-4-fs\"><strong>Odoo for Hair Salons</strong></span>"
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 美发沙龙</span>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "<span style=\"font-size: 18px;\">30 min Brushing</span>"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "<span class=\"h1-fs\">Basics:&amp;nbsp;</span>"
+msgstr "<span class=\"h1-fs\">基础知识</span>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "<span style=\"font-size: 18px;\">Natural Hair Care</span>"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "<span class=\"h1-fs\">Do you want to go further?&amp;nbsp;🚀</span>"
+msgstr "<span class=\"h1-fs\">您想更进一步吗？🚀</span>"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "<span style=\"font-size: 18px;\">Personalized Haircut</span>"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Allow clients to book appointments online"
+msgstr "允许客户线上预约"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid ""
-"A passionate and creative stylist with a client-centric\n"
-"                                                        approach. Jane&amp;nbsp;leads her salon with innovation,\n"
-"                                                        attention to detail, and a commitment to community empowerment.\n"
-"                                                        <br/>"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Appointment Scheduling &amp;amp; calendar 📆&amp;nbsp;"
+msgstr "预约安排 &amp;amp; 日历 📆&amp;nbsp;"
 
 #. module: hair_salon
-#: model:website.menu,name:hair_salon.website_menu_9
-msgid "About Us"
-msgstr "关于我们"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Basics:&amp;nbsp;"
+msgstr "基础:&amp;nbsp;"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid "About us"
-msgstr "关于我们"
+#: model:appointment.type,name:hair_salon.appointment_type_6
+msgid "Beard Shaping"
+msgstr "胡须修剪"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid "Alex Stark,&amp;nbsp;Hairdresser 1"
-msgstr ""
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid ""
-"Alex is a skilled and charismatic hairdresser, renowned for\n"
-"                                                        precision and flair. With a keen eye for trends and a commitment\n"
-"                                                        to client satisfaction, they bring out the best in every\n"
-"                                                        hairstyle.\n"
-"                                                        <br/>"
-msgstr ""
+#: model:appointment.type,name:hair_salon.appointment_type_8
+msgid "Beard Shaping JP"
+msgstr "胡须修剪 JP"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid ""
 "Because nothing is impossible, and hair transformations are the salon's\n"
-"                                        specialty, at Hair Salon Industry, every customer is treated as an\n"
-"                                        individual.&amp;nbsp;"
+"                                                                            specialty, at Hair Salon Industry, every customer is treated as an\n"
+"                                                                            individual.&amp;nbsp;"
 msgstr ""
+"因为没有什么是不可能的，头发的改变是发廊的专长。\n"
+"                                                                            在 Hair Salon Industry，每一位顾客都被视为\n"
+"                                                                            独立的个体。&amp;nbsp;"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.homepage
+msgid "Book your appointment"
+msgstr "预约"
+
+#. module: hair_salon
+#: model:ir.model.fields,field_description:hair_salon.x_break
+msgid "Break"
+msgstr "断点"
+
+#. module: hair_salon
+#: model:base.automation,name:hair_salon.delete_subpart_calendar_event
+msgid "Break Appointment"
+msgstr "休息预约"
+
+#. module: hair_salon
+#: model:ir.model.fields,field_description:hair_salon.calendar_x_break_end
+#: model:ir.model.fields,field_description:hair_salon.x_break_end_appointment_model
+msgid "Break End"
+msgstr "休息结束"
+
+#. module: hair_salon
+#: model:ir.model.fields,field_description:hair_salon.calendar_x_break_start
+#: model:ir.model.fields,field_description:hair_salon.x_break_start_appointment_model
+msgid "Break Start"
+msgstr "休息开始"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_3
-#: model:product.template,name:hair_salon.product_template_3
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
+#: model:product.template,name:hair_salon.product_product_27_product_template
 msgid "Brushing"
-msgstr ""
+msgstr "吹发"
 
 #. module: hair_salon
-#: model:project.task.type,name:hair_salon.project_task_type_7
-msgid "Canceled"
-msgstr "已取消"
+#: model:appointment.type,name:hair_salon.appointment_type_7
+msgid "Brushing JP"
+msgstr "吹发 JP"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_5
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
-msgid "Color"
-msgstr "颜色"
+#: model:pos.category,name:hair_salon.pos_category_4
+msgid "Cares"
+msgstr "护理"
 
 #. module: hair_salon
 #: model:product.pricelist,name:hair_salon.product_pricelist_2
 msgid "Color & Haircut & Brushing"
-msgstr ""
+msgstr "染发、理发、吹发"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
+#: model:product.template,name:hair_salon.product_template_20
+msgid "Conditioner - 500ml"
+msgstr "护发素 - 500 毫升"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Configure Appointment Types: In the Appointment app, create types that match"
+" your services."
+msgstr "配置预约类型： 在 “预约 ”应用程序中，创建与您的服务相匹配的类型。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Configure loyalty programs or promotions within your Point of Sale."
+msgstr "在销售点内配置会员计划或促销活动。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Create an attractive website to display your services"
+msgstr "创建一个有吸引力的网站来展示您的服务"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Create and manage your salon services and products:"
+msgstr "创建并管理您的沙龙服务和产品："
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Create loyalty programs and gift cards."
+msgstr "创建会员计划和礼品卡。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Define pricing for each service and product."
+msgstr "确定每项服务和产品的定价。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Define your stylists' availability"
+msgstr "确定造型师的空闲时间"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Design Your Website: Use the Website app to create an attractive online "
+"presence for your salon."
+msgstr "设计您的网站： 使用网站应用程序为您的沙龙创建一个极具吸引力的在线形象。"
+
+#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Discover more"
 msgstr "发现更多"
@@ -196,104 +213,82 @@ msgstr "发现更多"
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Discover your best look at our innovative hair salon."
-msgstr ""
+msgstr "在我们创新的美发沙龙，发现您的最佳形象."
 
 #. module: hair_salon
-#: model:project.task.type,name:hair_salon.project_task_type_6
-msgid "Done"
-msgstr "已完成"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Do you want to go further?&amp;nbsp;🚀"
+msgstr "您想更进一步吗？&amp;nbsp;🚀"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
-msgid ""
-"Elevate your hair game, step into our salon.\n"
-"                                <br/>"
-msgstr ""
+msgid "Elevate your hair game."
+msgstr "提升你的发型水平。"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid ""
-"Elevate your style and confidence with our precision haircut\n"
-"                                                        service – where every snip is a step toward a new you."
-msgstr ""
+"Encourage clients to book through your online Appointment page to reduce "
+"your efforts.&amp;nbsp;"
+msgstr "鼓励客户通过在线预约页面进行预约，以减少您的工作量。&amp;nbsp;"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid ""
-"Experience the luxury of our professional brushing service,\n"
-"                                                        where every stroke unveils the true beauty and glamour of your\n"
-"                                                        hair.\n"
-"                                                        <br/>"
-msgstr ""
+"Engage clients with targeted campaigns using Email Marketing and Social "
+"Marketing."
+msgstr "利用电子邮件营销和社交营销开展有针对性的活动，吸引客户。"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid ""
-"Experience the ultimate transformation at our hair salon, where style\n"
-"                                                meets innovation, and every strand tells a story of beauty.\n"
-"                                                <br/>"
-msgstr ""
+#: model:ir.actions.server,name:hair_salon.break_subpart_calendar_event_server_action
+msgid "Execute Code"
+msgstr "执行代码"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid ""
 "Experience the ultimate transformation at our hair salon, where style meets\n"
-"                                        innovation, and every strand tells a story of beauty.\n"
-"                                        <br/>"
+"                                                                            innovation, and every strand tells a story of beauty.\n"
+"                                                                            <br/>"
 msgstr ""
+"在我们的美发沙龙体验终极蜕变，在这里，风格与\n"
+"                                                                            创新相融合，每一根发丝都在讲述一个美丽的故事。\n"
+"                                                                            <br/>"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Experienced hairstylists"
-msgstr ""
+msgstr "经验丰富的发型师"
 
 #. module: hair_salon
 #: model:loyalty.program,name:hair_salon.loyalty_program_4
 msgid "Fidelity Cards - 20€ off after 5 visits of 50€"
-msgstr ""
+msgstr "忠诚卡 - 5 次 50 欧元消费后可优惠 20 欧元"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_12
-msgid "Free Product - Discount"
-msgstr "免费产品 - 折扣"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Gather client feedback and preferences using the Survey app."
+msgstr "使用调查应用程序收集客户反馈和偏好。"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_13
-msgid "Free Product - Tips"
-msgstr "免费产品 - 小费"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Getting Started"
+msgstr "入门"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_11
+#: model:product.template,name:hair_salon.product_product_26_product_template
 msgid "Gift Card"
 msgstr "礼品卡"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid "Grace Turner,&amp;nbsp;Hairdresser 2"
-msgstr "Grace Turner，理发师 2"
+#: model:product.template,name:hair_salon.product_template_5
+msgid "Hair Coloring"
+msgstr "染发"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid ""
-"Grace is a versatile and experienced\n"
-"                                                        hairdresser known for her ability to transform hair into works\n"
-"                                                        of art. She has a flair for understanding her clients' desires,\n"
-"                                                        delivering impeccable styles, and leaving a lasting impression."
-msgstr ""
-"Grace 是一位多才多艺、经验丰富的理发师，\n"
-"                                                        以能够将头发变成艺术品而闻名。\n"
-"                                                        不论是理解客户需求、塑造无可挑剔的发型，\n"
-"                                                        或是给人留下持久印象，她都很有天赋。"
-
-#. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_6
-msgid "Hair Care"
-msgstr "头发护理"
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "Hair Color"
-msgstr "头发颜色"
+#: model:product.template,name:hair_salon.product_template_23
+msgid "Hair Dye Kit"
+msgstr "染发套装"
 
 #. module: hair_salon
 #: model:product.attribute,name:hair_salon.product_attribute_1
@@ -301,10 +296,14 @@ msgid "Hair Length"
 msgstr "头发长度"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_4
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
-msgid "Haircut"
-msgstr "剪发"
+#: model:product.template,name:hair_salon.product_template_22
+msgid "Hair Spray - 250ml"
+msgstr "发胶 - 250 毫升"
+
+#. module: hair_salon
+#: model:product.template,name:hair_salon.product_template_21
+msgid "Hair Styling Gel - 250ml"
+msgstr "定型啫哩 - 250 毫升"
 
 #. module: hair_salon
 #: model:appointment.type,name:hair_salon.appointment_type_1
@@ -317,110 +316,178 @@ msgid "Haircut & Color & Brushing"
 msgstr "剪发、染发、吹发"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "Haircut &amp;amp; Brushing"
-msgstr "剪发、吹发"
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid ""
-"Here, more than anywhere else, we take the\n"
-"                                                time to listen and advise, in order to offer a moment of relaxation and\n"
-"                                                complete satisfaction at the end of the service."
-msgstr ""
-"我们比任何其他发型屋\n"
-"                                                都更愿意花时间倾听客人需要和提供建议，\n"
-"                                                务求在完成服务时，客人能够放松及完全满意。"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Handle walk-ins and product sales efficiently:"
+msgstr "高效处理上门服务和产品销售："
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid ""
 "Here, more than anywhere else, we take the time to listen and advise, in\n"
-"                                        order to offer a moment of relaxation and complete satisfaction at the end\n"
-"                                        of the service."
+"                                                                            order to offer a moment of relaxation and complete satisfaction at the end\n"
+"                                                                            of the service."
 msgstr ""
-"我们比任何其他发型屋都更愿意花时间倾听客人需要\n"
-"                                        和提供建议，务求在完成服务时，客人能够放松\n"
-"                                        及完全满意。"
+"在这里，我们比其他任何地方都更愿意花时间倾听并提供建议，以\n"
+"                                                                            以便在服务结束时为您提供一个放松和完全满意的时刻。\n"
+"                                                                            服务。"
 
 #. module: hair_salon
-#: model:project.task.type,name:hair_salon.project_task_type_1
-msgid "Inbox"
-msgstr "收件箱"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"If you want to completely avoid no-shows, you can set a pre-payment for "
+"online booking, by linking each appointment type with a specific product and"
+" defining a payment method."
+msgstr "如果想完全避免缺席，可以通过将每种预约类型与特定产品挂钩并定义付款方式，为在线预约设置预付款。"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid "Jane Doe,&amp;nbsp;the founder"
-msgstr "Jane Doe，创办人"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"If you want to optimize your planning, you can also set breaks in "
+"appointment."
+msgstr "如果您想优化您的计划，还可以在预约中设置休息时间。"
 
 #. module: hair_salon
-#: model:project.task.type,name:hair_salon.project_task_type_5
-msgid "Later"
-msgstr "稍后"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Implement a loyalty program to reward repeat customers using the eCommerce "
+"features."
+msgstr "实施会员计划，奖励使用电子商务功能的回头客。"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
+#: model:ir.model.fields,help:hair_salon.x_break
+msgid "Insert a free time in your booking."
+msgstr "在预订时插入免费时间。"
+
+#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Learn more"
 msgstr "了解更多"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid "Lily Joe, Hairdresser 3"
-msgstr "Lily Joe，理发师 3"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Let clients book directly through your booking page"
+msgstr "让客户通过您的预订页面直接预订"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
-msgid ""
-"Lily is a compassionate and talented hairdresser who specializes\n"
-"                                                        in creating stunning looks that empower and uplift her clients.\n"
-"                                                        Her gentle touch and artistic vision make every salon visit a\n"
-"                                                        transformative and confidence-boosting experience.\n"
-"                                                        <br/>"
-msgstr ""
+#: model:ir.model.fields,field_description:hair_salon.x_parent_id
+msgid "Linked to"
+msgstr "已连接至"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.calendar_event_view_form_gantt_booking_inherit
+msgid "Linked to:"
+msgstr "链接到："
 
 #. module: hair_salon
 #: model:product.attribute.value,name:hair_salon.product_attribute_value_1
 msgid "Long hair"
-msgstr ""
+msgstr "长发"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_7
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Manage Your Inventory: Input your hair care products and stock levels in the"
+" Inventory app."
+msgstr "管理库存：在库存应用程序中输入护发产品和库存水平。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Manage cash and card payments"
+msgstr "管理现金和银行卡付款"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Manage inventory for hair care products and replenish with the Purchase App."
+msgstr "使用购买应用程序管理护发产品库存并进行补充。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Manage your staff's booking directly the Appointment App."
+msgstr "通过预约应用程序直接管理员工的预订。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Manage your team of stylists efficiently with the Employees and Planning "
+"apps."
+msgstr "使用员工和计划应用程序高效管理你的造型师团队。"
+
+#. module: hair_salon
+#: model:appointment.type,name:hair_salon.appointment_type_4
+#: model:product.template,name:hair_salon.product_product_30_product_template
+msgid "Men's Haircut"
+msgstr "男士理发"
+
+#. module: hair_salon
+#: model:appointment.type,name:hair_salon.appointment_type_5
+msgid "Men's Haircut + Beard Shaping"
+msgstr "男士理发 + 修胡须"
+
+#. module: hair_salon
+#: model:appointment.type,name:hair_salon.appointment_type_9
+msgid "Men's Haircut JP"
+msgstr "男士理发 JP"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Monitor your inventory levels closely to ensure you have popular products in"
+" stock."
+msgstr "密切监控您的库存水平，以确保热门产品库存足够。"
+
+#. module: hair_salon
+#: model:product.template,name:hair_salon.product_product_7_product_template
 msgid "Mustache and beard shaping"
-msgstr ""
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "Natural Hair Care"
-msgstr ""
+msgstr "胡须和络腮胡整形"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Natural products"
-msgstr ""
+msgstr "天然产品"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Odoo offers you infinite possibilities to enhance your hair salon business, "
+"such as:"
+msgstr "Odoo 可为您提供无限可能，以提升您的美发沙龙业务，例如："
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Organize hair styling workshops or product demonstrations with the Events "
+"app."
+msgstr "使用活动应用程序组织发型研讨会或产品演示。"
+
+#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Our Mission"
 msgstr "我们的使命"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
-msgid "Our References"
-msgstr "我们的参考"
-
-#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid ""
 "Our hairstylists are experienced and able to give\n"
-"                                                you the best advices and haircuts."
+"                                                                                            you the best advices and haircuts."
 msgstr ""
+"我们的发型师经验丰富，能够为您提供\n"
+"                                                                                            最佳建议和发型。"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "Personalized Haircut"
-msgstr ""
+#: model:ir.model.fields,field_description:hair_salon.x_appointment_part_1
+msgid "Part 1"
+msgstr "第一部分"
+
+#. module: hair_salon
+#: model:ir.model.fields,field_description:hair_salon.x_appointment_part_2
+msgid "Part 2"
+msgstr "第二部分"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Point of Sale 💳&amp;nbsp;"
+msgstr "销售点 💳&amp;nbsp;"
 
 #. module: hair_salon
 #: model:loyalty.program,portal_point_name:hair_salon.loyalty_program_4
@@ -428,24 +495,36 @@ msgid "Points"
 msgstr "分数"
 
 #. module: hair_salon
-#: model:website.menu,name:hair_salon.website_menu_11
-#: model_terms:ir.ui.view,arch_db:hair_salon.pricing
-msgid "Pricing"
-msgstr "价格"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Process quick transactions for services and products"
+msgstr "快速处理服务和产品交易"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_8
-msgid "Scalp Treatment"
-msgstr "头皮护理"
+#: model:pos.category,name:hair_salon.pos_category_3
+msgid "Products"
+msgstr "产品"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.homepage
+#: model:product.template,name:hair_salon.product_template_25
+msgid "Professional Conditionner 2L"
+msgstr "专业护发素 2 升"
+
+#. module: hair_salon
+#: model:product.template,name:hair_salon.product_template_24
+msgid "Professional Shampoo 2L"
+msgstr "专业洗发水 2 升"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Reach us"
+msgstr "联系我们"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid ""
-"Schedule an\n"
-"                                            appointment"
-msgstr ""
-"安排\n"
-"                                            预约"
+"Remember, Odoo is flexible and can adapt to your specific salon needs. Don't"
+" hesitate to explore and customize as your business grows!"
+msgstr "请记住，Odoo 非常灵活，可以适应您的特定沙龙需求。不要犹豫，随着您的业务发展，不断探索和定制吧！"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.header_call_to_action
@@ -453,15 +532,43 @@ msgid "Schedule an appointment"
 msgstr "预约"
 
 #. module: hair_salon
-#: model:website.menu,name:hair_salon.website_menu_10
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
-msgid "Services"
-msgstr "服务"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Services and Product Management 💇‍♀️&amp;nbsp;"
+msgstr "服务与产品管理 💇‍♀️&amp;nbsp；"
 
 #. module: hair_salon
-#: model:product.template,name:hair_salon.product_template_17
-msgid "Shampoo"
-msgstr "洗发水"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Set Up Your Point of Sale: Configure your POS system for efficient in-salon "
+"transactions."
+msgstr "设置销售点：配置 POS 系统，实现高效的店内交易。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Set Up Your Services: Navigate to Sales &amp;gt; Products and set up your "
+"hair salon services and products."
+msgstr "设置服务：导航至销售&amp;gt; 产品，设置您的美发沙龙服务和产品。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Set up Reminders on appointments to reduce no-show rate."
+msgstr "设置预约提醒，降低缺席率。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Set up appointment types (e.g., \"Women's Haircut\", \"Hair Coloring\")"
+msgstr "设置预约类型（如 \"女士理发\"、\"染发）"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Set up services like \"Women's Haircut\" or \"Hair Coloring\""
+msgstr "设置 \"女士理发 \"或 \"染发 \"等服务"
+
+#. module: hair_salon
+#: model:product.template,name:hair_salon.product_template_6
+msgid "Shampoo - 500ml"
+msgstr "洗发水 - 500 毫升"
 
 #. module: hair_salon
 #: model:product.attribute.value,name:hair_salon.product_attribute_value_2
@@ -469,59 +576,142 @@ msgid "Short hair"
 msgstr "短发"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
-msgid "Styling &amp;amp; Brushing"
-msgstr "造型及吹发"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Showcase your salon and enable online bookings:"
+msgstr "展示您的沙龙并实现在线预订："
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.about-us
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Showcase your stylists and their specialties"
+msgstr "展示您的造型师及其专长"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"Start Booking Appointments: Begin using the Appointment app to schedule "
+"client services."
+msgstr "开始预约： 开始使用 “预约” 应用程序安排客户服务。"
+
+#. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "The Hair Salon&amp;nbsp;Concept"
 msgstr "美发沙龙概念"
 
 #. module: hair_salon
-#: model:project.task.type,name:hair_salon.project_task_type_4
-msgid "This Month"
-msgstr "本月"
-
-#. module: hair_salon
-#: model:project.task.type,name:hair_salon.project_task_type_3
-msgid "This Week"
-msgstr "本周"
-
-#. module: hair_salon
-#: model:project.task.type,name:hair_salon.project_task_type_2
-msgid "Today"
-msgstr "今天"
-
-#. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
 msgid ""
-"Transform your hair into a vibrant masterpiece with our expert\n"
-"                                                        color services, adding a touch of personality to every strand.\n"
-"                                                        <br/>"
+"These additional features are available in your current subscription; feel "
+"free to explore and expand your salon's capabilities! 🙃"
+msgstr "这些附加功能可在您当前订购的服务中使用；请随时探索并扩展您沙龙的功能！🙃"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"This guide will help you navigate the key features and get your salon "
+"business up and running efficiently. From&amp;nbsp;managing appointments, "
+"selling services and products, managing your inventory, to&amp;nbsp;building"
+" your online presence, this package has everything you need to streamline "
+"your operations and delight your clients."
 msgstr ""
+"本指南将帮助您掌握核心功能，高效运营您的美容美发业务。从预约管理、服务和产品销售、库存管理，到建立线上形象，这个解决方案包含了所有您需要的功能，助您简化运营流程，为客户提供优质服务。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid ""
+"This will split an appointment to free the planning during the break. This "
+"way, you can start a Coloring, take another client, and return&amp;nbsp;to "
+"your first client right after."
+msgstr "此功能可将预约时段分段，在间隔期间释放档期。这样，您可以先开始染发服务，在等待过程中接待另一位顾客，然后再回来继续为第一位顾客服务。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Tips for Success"
+msgstr "成功秘诀"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Track daily sales and reconcile at closing"
+msgstr "追踪每日销售情况并在结算时进行对账"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid "Unisex"
-msgstr ""
+msgstr "中性"
 
 #. module: hair_salon
-#: model_terms:ir.ui.view,arch_db:hair_salon.services
-msgid "We are in good company."
-msgstr "我们相处得很好。"
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Use the Appointment app to allow clients to book hair services easily:"
+msgstr "使用 “预约” 应用程序，让客户轻松预约美发服务："
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Use the POS system to upsell hair care products during checkout."
+msgstr "使用 POS 系统，在结账时追加销售护发产品。"
+
+#. module: hair_salon
+#: model:pos.category,name:hair_salon.pos_category_5
+msgid "Various"
+msgstr "多种"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid ""
 "We offer services for long and short hair. Everyone\n"
-"                                                is welcome whatever their gender."
+"                                                                                            is welcome whatever their gender."
 msgstr ""
+"我们为长发和短发顾客提供服务。\n"
+"                                                                                            无论性别，我们欢迎每一位顾客的光临。"
 
 #. module: hair_salon
 #: model_terms:ir.ui.view,arch_db:hair_salon.homepage
 msgid ""
 "We work with eco-friendly natural products to\n"
-"                                                protect your hair and the environment."
+"                                                                                            protect your hair and the environment."
 msgstr ""
+"我们使用环保的天然产品\n"
+"保护您的头发和环境。"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Website and Online Booking 🌐&amp;nbsp;"
+msgstr "网站和在线预订 🌐&amp;nbsp;"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Welcome to your new Odoo Hair Salon package!&amp;nbsp;"
+msgstr "欢迎使用全新 Odoo 发廊软件包！&amp;nbsp;"
+
+#. module: hair_salon
+#: model_terms:web_tour.tour,rainbow_man_message:hair_salon.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "欢迎！祝您探索愉快。"
+
+#. module: hair_salon
+#: model:product.template,name:hair_salon.product_template_28
+msgid "Women's Haircut"
+msgstr "女士理发"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr "想与我们讨论您的 Odoo 设置或更进一步吗？"
+
+#. module: hair_salon
+#: model:ir.model.fields,field_description:hair_salon.x_visibility
+msgid "invisibility in gantt"
+msgstr "甘特图中的隐形"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.homepage
+msgid "woman arranging the hair of woman sitting on chair"
+msgstr "女子为坐在椅子上的女子整理头发"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "🎓 Point of Sale"
+msgstr "🎓 销售点"
+
+#. module: hair_salon
+#: model_terms:ir.ui.view,arch_db:hair_salon.welcome_article_body
+msgid "🎓 Website"
+msgstr "🎓 网站"

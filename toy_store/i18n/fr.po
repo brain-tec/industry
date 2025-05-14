@@ -3,16 +3,17 @@
 # 	* toy_store
 # 
 # Translators:
-# Tiffany Chang, 2024
-# Wil Odoo, 2024
+# Tiffany Chang, 2025
+# Wil Odoo, 2025
+# Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 20:16+0000\n"
-"PO-Revision-Date: 2024-10-06 01:20+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2025-02-14 14:33+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Manon Rondou, 2025\n"
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.homepage
 msgid "&amp;nbsp;Gepetto's is your friendly neighboorhoud&amp;nbsp;toy store."
-msgstr ""
+msgstr "Gepetto's est le magasin de jouets de votre quartier."
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.welcome_article_body
@@ -35,7 +36,7 @@ msgid ""
 "                instructions and best practices to help you succeed.\n"
 "                &lt;/p&gt;\n"
 "                &lt;p&gt;Are you new to Odoo? Explore Odoo's&amp;nbsp;eLearning platform to get you started with video tutorials and exercises, and check out the documentation to become an Odoo master!&lt;/p&gt;\n"
-"                &lt;p&gt;&lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/slides\"&gt;🎓 Odoo Learn&amp;nbsp;(tutorials in English)&lt;/a&gt; &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/documentation/\"&gt;📖 Odoo docs&lt;/a&gt;&lt;/p&gt;\n"
+"                &lt;p&gt;&lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/slides\"&gt;🎓 Odoo Learn&amp;nbsp;(tutorials in English)&lt;/a&gt; &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/documentation/latest/\"&gt;📖 Odoo docs&lt;/a&gt;&lt;/p&gt;\n"
 "                &lt;div class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-success pb-0 pt-3\" data-oe-protected=\"true\"&gt;\n"
 "                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;🚀&lt;/i&gt;\n"
 "                &lt;div class=\"w-100 px-3\" data-oe-protected=\"false\"&gt;\n"
@@ -291,6 +292,268 @@ msgid ""
 "                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/inventory_and_mrp/barcode/operations/adjustments.html\" class=\"btn btn-secondary mb-2\"&gt;📖 Barcode documentation&lt;/a&gt;\n"
 "                &lt;/p&gt;"
 msgstr ""
+"&lt;h1&gt;Magasin de jouets&lt;/h1&gt;\n"
+"                &lt;p&gt;Salut !&lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                Ce guide a été conçu pour aider les propriétaires et gestionnaires de magasins de jouets à gérer leurs activités grâce au module Odoo Magasin de jouets. De la configuration des catalogues de produits et des programmes de fidélité à l'optimisation du réapprovisionnement des stocks, vous trouverez des instructions claires\n"
+"                et des bonnes pratiques pour réussir.\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;Vous êtes nouveau sur Odoo ? Explorez la plateforme eLearning d'Odoo pour découvrir des tutoriels vidéo et des exercices, et consultez la documentation pour devenir un expert d'Odoo !&lt;/p&gt;\n"
+"                &lt;p&gt;&lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/slides\"&gt;🎓 Odoo Learn&amp;nbsp;(tutoriels en anglais)&lt;/a&gt; &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/documentation/\"&gt;📖 Documentation Odoo&lt;/a&gt;&lt;/p&gt;\n"
+"                &lt;div class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-success pb-0 pt-3\" data-oe-protected=\"true\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;🚀&lt;/i&gt;\n"
+"                &lt;div class=\"w-100 px-3\" data-oe-protected=\"false\"&gt;\n"
+"                        &lt;p&gt;\n"
+"                        &lt;span class=\"h4-fs\"&gt;&lt;strong&gt;Démo : essayez par vous-même !&lt;/strong&gt;&lt;/span&gt;\n"
+"                        &lt;/p&gt;\n"
+"                        &lt;p&gt;Suivez les étapes décrites ici pour découvrir les fonctionnalités.&lt;/p&gt;\n"
+"                        &lt;p&gt;\n"
+"                        &lt;span style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;\n"
+"                                ⚠️&lt;span style=\"width: 11px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Vous aurez besoin des&amp;nbsp;\n"
+"                        &lt;/span&gt;\n"
+"                        &lt;strong style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size);\"&gt;données de démonstration&lt;/strong&gt;\n"
+"                        &lt;span style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size);\"&gt;&amp;nbsp;pour réaliser ces exercices&lt;/span&gt;. Les données de démonstration incluent des produits, des contacts et des paramètres préconfigurés pour\n"
+"                        une expérience pratique.&amp;nbsp;&lt;span style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;Si vous ne les avez pas&amp;nbsp;chargées lors de l'installation du module&amp;nbsp;&lt;/span&gt;\n"
+"                        &lt;em style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;Magasin de jouets&lt;/em&gt;\n"
+"                        &lt;span style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;&amp;nbsp;, vous pouvez toujours le faire en allant dans&amp;nbsp;&lt;/span&gt;\n"
+"                        &lt;em style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;Applications → Industries&lt;/em&gt;\n"
+"                        &lt;span style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;&amp;nbsp;et en mettant à jour le module &lt;em&gt;Magasin de jouets&lt;/em&gt; avec l'option &lt;/span&gt;\n"
+"                        &lt;em style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;Charger les données de démonstration&amp;nbsp;&lt;/em&gt;\n"
+"                        &lt;span style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;cochée.&lt;/span&gt;\n"
+"                        &lt;/p&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h2&gt;Table des matières&lt;/h2&gt;\n"
+"                &lt;div data-oe-protected=\"true\" class=\"o_knowledge_behavior_anchor o_knowledge_behavior_type_toc\" tabindex=\"-1\"&gt;\n"
+"                &lt;div class=\"o_knowledge_toc_content\"&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"0\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_0\"&gt;Toy Store&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"1\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_1\"&gt;Table of content&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"2\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_1\"&gt;Odoo apps&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"3\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt; ​Point of Sale&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"4\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_3\"&gt;Demo:&amp;nbsp; complete a cash sale and issue an invoice to your customer&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"5\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt; ​Website and eCommerce&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"6\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_3\"&gt;Demo: order online with the Demo payment method&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"7\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt; ​Invoicing&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"8\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt; ​Purchase&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"9\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt; ​Inventory&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"10\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt;To go further&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"11\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_1\"&gt;Business flows&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"12\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt;🎁 ​Loyalty program&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"13\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_3\"&gt;Demo: Sell in-store and give your customer a free product&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"14\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt;🔎 ​Add characteristics&amp;nbsp;on your products' web pages&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"15\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt;🔄 ​Automatic replenishment&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"16\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_3\"&gt;Demo: automize the replenishment of the game \"Pandemic\"&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"17\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt;🚚 ​Receive products from a purchase order&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"18\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_3\"&gt;Demo:&amp;nbsp;receive products and update the stock levels&lt;/a&gt;\n"
+"                        &lt;a href=\"#\" data-oe-nodeid=\"19\" class=\"o_no_link_popover d-block o_knowledge_toc_link o_knowledge_toc_link_depth_2\"&gt;🧮 ​Seasonal physical&amp;nbsp;inventory&amp;nbsp;count&lt;/a&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h2&gt;Applications Odoo&lt;/h2&gt;\n"
+"                &lt;p&gt;Les applications suivantes ont été installées sur votre base de données Odoo et préconfigurées dans le cadre du module Magasin de jouets. Prenez le temps de les découvrir afin de tirer parti de toutes les fonctionnalités qui pourraient être utiles pour votre magasin.&lt;/p&gt;\n"
+"                &lt;div data-oe-protected=\"true\" class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;💡&lt;/i&gt;\n"
+"                &lt;div data-oe-protected=\"false\" class=\"w-100 px-3\"&gt;\n"
+"                        &lt;p&gt;Les applications Odoo partagent toutes les données en temps réel, ce qui vous évite de devoir encoder plusieurs fois les informations des clients ou des produits.&lt;/p&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;&lt;img class=\"img img-fluid o_we_custom_image\" src=\"/web/image/toy_store.ir_attachment_1056\" /&gt;&lt;span style=\"width: 40px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Point de Vente&lt;/h3&gt;\n"
+"                &lt;p&gt;Gérez les achats, retours et échanges de vos clients. Accédez à des données de vente en temps réel et des mises à jour d'inventaire. Améliorez la satisfaction client grâce à des programmes de fidélité et des offres personnalisées.&lt;/p&gt;\n"
+"                &lt;div data-oe-protected=\"true\" class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;💡&lt;/i&gt;\n"
+"                &lt;div data-oe-protected=\"false\" class=\"w-100 px-3\"&gt;\n"
+"                        &lt;p&gt;Le Point de Vente fonctionne sur tout appareil avec un navigateur web, même en cas de déconnexion temporaire.&lt;/p&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/slides/point-of-sale-28\"&gt;🎓 Tutoriels&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/documentation/latest/applications/sales/point_of_sale.html\"&gt;📖 Documentation&lt;/a&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;div class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-success pb-0 pt-3\" data-oe-protected=\"true\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;🚀&lt;/i&gt;\n"
+"                &lt;div class=\"w-100 px-3\" data-oe-protected=\"false\"&gt;\n"
+"                        &lt;h4&gt;Démo :&amp;nbsp; effectuez une vente en espèces et émettez une facture pour votre client&lt;/h4&gt;\n"
+"                        &lt;ul&gt;\n"
+"                        &lt;li&gt;Dans le Point de Vente, ouvrez la &lt;em&gt;Shop&lt;/em&gt; caisse.&lt;/li&gt;\n"
+"                        &lt;li&gt;Sélectionnez un client ou créez-en un nouveau, puis ajoutez des produits.&lt;/li&gt;\n"
+"                        &lt;li&gt;Cliquez sur &lt;em&gt;Paiement&lt;/em&gt;, puis sélectionnez &lt;em&gt;Espèces&lt;/em&gt;&amp;nbsp;comme mode de paiement et&amp;nbsp;&lt;em&gt;Facture&lt;/em&gt;&amp;nbsp;à côté du montant total.&lt;/li&gt;\n"
+"                        &lt;li&gt;Finalisez le paiement, puis ouvrez le fichier PDF contenant la facture.&lt;/li&gt;\n"
+"                        &lt;/ul&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;&lt;img class=\"img img-fluid o_we_custom_image\" src=\"/web/image/toy_store.ir_attachment_1058\" /&gt;&lt;span style=\"width: 40px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Site Web et eCommerce&lt;/h3&gt;\n"
+"                &lt;p&gt;Créez un site web professionnel, concevez de belles pages produits et traitez facilement les commandes en ligne. Stimulez les ventes grâce au marketing et à l'optimisation SEO.&lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a class=\"btn btn-secondary\" href=\"https://www.odoo.com/slides/website-25\"&gt;🎓 Website tutorials&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a class=\"btn btn-secondary\" href=\"https://www.odoo.com/documentation/latest/applications/websites/website.html\"&gt;📖 Documentation Site Web&lt;/a&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/slides/ecommerce-26\" class=\"btn btn-secondary\"&gt;🎓 eCommerce tutorials&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;strong&gt;&lt;a href=\"https://www.odoo.com/documentation/latest/applications/websites/ecommerce.html\" class=\"btn btn-secondary\"&gt;📖 Documentation eCommerce&lt;/a&gt;&lt;/strong&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;div data-oe-protected=\"true\" class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-success pb-0 pt-3\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;🚀&lt;/i&gt;\n"
+"                &lt;div data-oe-protected=\"false\" class=\"w-100 px-3\"&gt;\n"
+"                        &lt;h4&gt;Démo : commandez en ligne avec le mode de paiement &lt;em&gt;Démo&lt;/em&gt;&lt;/h4&gt;\n"
+"                        &lt;p&gt;Le mode de paiement &lt;em&gt;Démo&lt;/em&gt;&amp;nbsp;&amp;nbsp;est conçu à des fins de test. Il est sûr de l'utiliser, et vous pouvez choisir si&amp;nbsp;le paiement est réussi ou non.&lt;/p&gt;\n"
+"                        &lt;ul&gt;\n"
+"                        &lt;li&gt;Allez sur le site web et ajoutez des produits à votre panier.&lt;/li&gt;\n"
+"                        &lt;li&gt;Accédez au paiement et utilisez &lt;em&gt;Démo&lt;/em&gt;&amp;nbsp;avec le &lt;em&gt;Statut de paiement&lt;/em&gt;&amp;nbsp;défini sur &lt;em&gt;Réussi&lt;/em&gt;.​&lt;br /&gt;&lt;/li&gt;\n"
+"                        &lt;/ul&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;&lt;img class=\"img img-fluid o_we_custom_image\" src=\"/web/image/toy_store.ir_attachment_1062\" /&gt;&lt;span style=\"width: 40px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Facturation&lt;/h3&gt;\n"
+"                &lt;p&gt;Émettez des factures professionnelles en un rien de temps, configurez les paramètres fiscaux comme les taux de TVA selon les besoins de votre pays, et configurez des modes de paiement en ligne.&lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/slides/accounting-and-invoicing-19\" class=\"btn btn-secondary mb-2\"&gt;🎓 Tutorials&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/finance/accounting.html\" class=\"btn btn-secondary mb-2\"&gt;📖 Documentation&lt;/a&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;&lt;img class=\"img img-fluid o_we_custom_image\" src=\"/web/image/toy_store.ir_attachment_1059\" /&gt;&lt;span style=\"width: 40px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Achats&lt;/h3&gt;\n"
+"                &lt;p&gt;Créez et gérez des commandes clients, suivez les performances des fournisseurs et livrez à temps. Optimisez vos décisions d'achat en fonction de la demande des produits et des performances des fournisseurs.&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/slides/purchase-23\"&gt;🎓 Tutorials&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/documentation/latest/applications/inventory_and_mrp/purchase.html\"&gt;📖 Documentation&lt;/a&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;&lt;img class=\"img img-fluid o_we_custom_image\" src=\"/web/image/toy_store.ir_attachment_1060\" /&gt;&lt;span style=\"width: 40px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Inventaire&lt;/h3&gt;\n"
+"                &lt;p&gt;Suivez avec précision les quantités et les emplacements des produits. Préparez les produits pour l'expédition, y compris l'emballage et l'étiquetage. Utilisez des règles de réapprovisionnement automatisées pour éviter les ruptures de stock et le surstockage.&lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/slides/inventory-24\"&gt;🎓 Tutorials&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a class=\"btn btn-secondary mb-2\" href=\"https://www.odoo.com/documentation/latest/applications/inventory_and_mrp/inventory.html\"&gt;📖 Documentation&lt;/a&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;Aller plus loint;/h3&gt;\n"
+"                &lt;p&gt;Voici d'autres applications Odoo qui pourraient vous intéresser et que vous pourriez installer sur votre base de données :&lt;/p&gt;\n"
+"                &lt;ul&gt;\n"
+"                &lt;li&gt;Ventes&lt;/li&gt;\n"
+"                &lt;li&gt;E-mail Marketing&lt;/li&gt;\n"
+"                &lt;li&gt;Comptabilité&lt;/li&gt;\n"
+"                &lt;/ul&gt;\n"
+"                &lt;p&gt;&lt;a href=\"https://www.odoo.com/documentation/latest/applications/general/apps_modules.html\" class=\"btn btn-secondary\"&gt;📖 Documentation sur l'installation des applications&lt;/a&gt;&lt;/p&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h2&gt;Flux d'activités&lt;/h2&gt;\n"
+"                &lt;h3&gt;🎁&lt;span style=\"width: 17px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Programme de fidélité&lt;/h3&gt;\n"
+"                &lt;p&gt;\n"
+"                Une excellente façon d'inciter vos clients à revenir dans votre magasin ou sur votre eCommerce est de&amp;nbsp;les récompenser en fonction de leurs achats précédents. Utilisez la fonction&amp;nbsp;\n"
+"                &lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;Remise &amp;amp; Fidélité&lt;/font&gt;&lt;/strong&gt; &amp;nbsp;pour configurer&amp;nbsp;des programmes de fidélité tels que des produits gratuits, des remises ou la livraison gratuite.\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/slides/slide/4524?fullscreen=1\" class=\"btn btn-secondary mb-2\"&gt;🎓 Tutoriel&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/sales/sales/products_prices/loyalty_discount.html\" class=\"btn btn-secondary mb-2\"&gt;📖 Documentation&lt;/a&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;div class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-success pb-0 pt-3\" data-oe-protected=\"true\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;🚀&lt;/i&gt;\n"
+"                &lt;div class=\"w-100 px-3\" data-oe-protected=\"false\"&gt;\n"
+"                        &lt;h4&gt;Démo : Vendre en magasin et offrir un produit gratuit à votre client&lt;/h4&gt;\n"
+"                        &lt;p&gt;Le programme de &lt;em&gt;carte de fidélité&lt;/em&gt; attribue des &lt;em&gt;points de fidélité&lt;/em&gt; en fonction des achats.&amp;nbsp;Vous pouvez ensuite échanger ces points contre une récompense.&lt;/p&gt;\n"
+"                        &lt;ul&gt;\n"
+"                        &lt;li&gt;Dans le Point de Vente, ouvrez la&lt;em&gt;caisse&lt;/em&gt; enregistreuse.&lt;/li&gt;\n"
+"                        &lt;li&gt;Sélectionnez un client et ajoutez des produits pour un minimum de 50 $.&lt;/li&gt;\n"
+"                        &lt;li&gt;Cliquez sur le bouton &lt;em&gt;Récompense&lt;/em&gt; puis sélectionnez &lt;em&gt;Produit gratuit - 12 crayons de couleur&lt;/em&gt;.&lt;/li&gt;\n"
+"                        &lt;li&gt;Cliquez sur &lt;em&gt;Paiement&lt;/em&gt;&amp;nbsp;et finalisez l'encaissement.&lt;/li&gt;\n"
+"                        &lt;/ul&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;🔎&lt;span style=\"width: 17px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Ajoutez des caractéristiques&amp;nbsp;aux pages web de vos produits&lt;/h3&gt;\n"
+"                &lt;p&gt;\n"
+"                Par défaut, les &lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;attributs&lt;/font&gt;&lt;/strong&gt; sont utilisés pour créer des &lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;variantes de produits&lt;/font&gt;&lt;/strong&gt;&amp;nbsp;basées sur des caractéristiques comme la&amp;nbsp;couleur\n"
+"                (voir le produit &lt;em&gt;Micro scooter&lt;/em&gt; comme exemple.\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/slides/slide/2723?fullscreen=1\" class=\"btn btn-secondary\"&gt;🎓 Tutoriel&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/websites/ecommerce/products/variants.html\" class=\"btn btn-secondary\"&gt;📖 Documentation&lt;/a&gt;&lt;br /&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                Les caractéristiques informatives, telles que la marque, l'âge minimum requis, et le nombre de joueurs, sont également définies comme &lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;attributs&lt;/font&gt;&lt;/strong&gt;&amp;nbsp;dans la fiche produit. Cependant,\n"
+"                chaque&amp;nbsp;attribut doit être correctement configuré avant d'ajouter des valeurs pour éviter la création de nouvelles variantes de produits. Pour cela, définissez le champ&amp;nbsp;&lt;em&gt;Mode de création des variantes&lt;/em&gt; de l'attribut sur&amp;nbsp;&lt;em&gt;Jamais (option)&lt;/em&gt;.\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;Les caractéristiques&amp;nbsp;avec plusieurs valeurs, comme le nombre de joueurs, doivent être ajoutées plusieurs fois : une ligne d'attribut par valeur. Cela garantit un affichage correct sur les pages des produits.&lt;/p&gt;\n"
+"                &lt;p&gt;&lt;img class=\"img img-fluid o_we_custom_image\" src=\"/web/image/toy_store.ir_attachment_1049\" /&gt;&lt;/p&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;🔄&lt;span style=\"width: 17px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Réapprovisionnement automatique&lt;/h3&gt;\n"
+"                &lt;p&gt;\n"
+"                Avec des milliers de produits à gérer,&amp;nbsp;automatiser le réapprovisionnement des produits vous fait gagner du temps et évite&amp;nbsp;les ruptures de stock. Configurez des &lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;règles de réapprovisionnement&lt;/font&gt;&lt;/strong&gt;&amp;nbsp;pour générer\n"
+"                automatiquement des commandes d'achat lorsque les quantités de produits tombent en dessous des niveaux spécifiés. Utilisez l'outil de &lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;réapprovisionnement1&lt;/font&gt;&lt;/strong&gt; pour examiner et valider ces commandes avant de les\n"
+"                confirmer.\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/slides/slide/5378?fullscreen=1\" class=\"btn btn-secondary mb-2\"&gt;🎓 Tutoriel&lt;/a&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/inventory_and_mrp/inventory/product_management/product_replenishment/reordering_rules.html\" class=\"btn btn-secondary mb-2\"&gt;📖 Documentation&lt;/a&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;div class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-success pb-0 pt-3\" data-oe-protected=\"true\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;🚀&lt;/i&gt;\n"
+"                &lt;div class=\"w-100 px-3\" data-oe-protected=\"false\"&gt;\n"
+"                        &lt;h4&gt;Démo : automatiser le réapprovisionnement du jeu \"Pandemic\"&lt;/h4&gt;\n"
+"                        &lt;p&gt;\n"
+"                        &lt;span style=\"margin: 0px; padding: 0px;\"&gt;\n"
+"                                Ajustez la&amp;nbsp;&lt;em&gt;Règle de réapprovisionnement&lt;/em&gt;&amp;nbsp;pour le&amp;nbsp;&lt;em&gt;jeu Pandemic&lt;/em&gt;&amp;nbsp;afin que lorsque la quantité de stock tombe en dessous de 5, Odoo crée automatiquement&amp;nbsp;un bon de commande pour réapprovisionner le stock à 15 jeux.\n"
+"                        &lt;/span&gt;\n"
+"                        &lt;br /&gt;\n"
+"                        &lt;/p&gt;\n"
+"                        &lt;ul&gt;\n"
+"                        &lt;li&gt;\n"
+"                                Allez dans&amp;nbsp;\n"
+"                                &lt;em&gt;\n"
+"                                Inventaire&amp;nbsp;\n"
+"                                &lt;em style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;\n"
+"                                        → Opérations &lt;em style=\"text-align: inherit; font-family: var(--body-font-family); font-size: var(--body-font-size); font-weight: var(--body-font-weight);\"&gt;→ Réapprovisionnement&lt;/em&gt;\n"
+"                                &lt;/em&gt;\n"
+"                                &lt;/em&gt;\n"
+"                                .\n"
+"                        &lt;/li&gt;\n"
+"                        &lt;li&gt;Vérifiez la règle de réapprovisionnement pour &lt;em&gt;Pandemic&lt;/em&gt;&amp;nbsp;et modifiez la quantité &lt;em&gt;Max&lt;/em&gt;&amp;nbsp;à 15.&lt;/li&gt;\n"
+"                        &lt;li&gt;Cliquez sur&amp;nbsp;&lt;span class=\"fa fa-refresh\"&gt;&lt;/span&gt;&lt;em&gt;&amp;nbsp;Automatiser&lt;/em&gt;.&lt;/li&gt;\n"
+"                        &lt;li&gt;Vérifiez le nouveau bon de commande en brouillon.&lt;/li&gt;\n"
+"                        &lt;/ul&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;🚚&lt;span style=\"width: 17px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;​Réceptionner des produits à partir d’un bon de commande&lt;/h3&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;Les commandes clients&lt;/font&gt;&lt;/strong&gt; simplifient&amp;nbsp;\n"
+"                &lt;span style=\"margin: 0px; padding: 0px;\"&gt;\n"
+"                        la communication avec les fournisseurs et le suivi des produits commandés.&amp;nbsp;&lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;Les opérations d'inventaire&lt;/font&gt;&lt;/strong&gt; confirment la réception ou la livraison des produits et mettent à jour&amp;nbsp;\n"
+"                &lt;/span&gt;\n"
+"                les niveaux de stock.\n"
+"                &lt;/p&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/slides/slide/5316?fullscreen=1\" class=\"btn btn-secondary\"&gt;🎓 Tutoriel&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/shipments_deliveries.html\" class=\"btn btn-secondary\"&gt;📖 Documentation&lt;/a&gt;&lt;br /&gt;\n"
+"                &lt;/p&gt;\n"
+"                &lt;div class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-success pb-0 pt-3\" data-oe-protected=\"true\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;🚀&lt;/i&gt;\n"
+"                &lt;div class=\"w-100 px-3\" data-oe-protected=\"false\"&gt;\n"
+"                        &lt;h4&gt;Démo :&amp;nbsp;réceptionner des produits et mettre à jour les niveaux de stock&lt;/h4&gt;\n"
+"                        &lt;ul&gt;\n"
+"                        &lt;li&gt;Allez dans &lt;em&gt;Achats&lt;/em&gt;&amp;nbsp;et ouvrez la commande&amp;nbsp;&lt;em&gt;P00001&lt;/em&gt;.&lt;/li&gt;\n"
+"                        &lt;li&gt;Cliquez sur &lt;em&gt;Réceptionner les produits&lt;/em&gt;&lt;/li&gt;\n"
+"                        &lt;li&gt;&lt;em&gt;Validez&lt;/em&gt;&amp;nbsp;la réception&lt;br /&gt;&lt;/li&gt;\n"
+"                        &lt;/ul&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n"
+"                &lt;h3&gt;🧮&lt;span style=\"width: 17px;\" class=\"oe-tabs\"&gt; &lt;/span&gt;Inventaire physique&amp;nbsp;saisonnier&amp;nbsp;count&lt;/h3&gt;\n"
+"                &lt;p&gt;\n"
+"                Dans de nombreux pays, garantir l'exactitude de l'inventaire est une obligation légale. Utilisez la fonction&amp;nbsp;&lt;strong&gt;&lt;font style=\"color: rgb(113, 75, 103);\"&gt;Inventaire Physique&lt;/font&gt;&lt;/strong&gt;​ dans l'application Inventaire ou&amp;nbsp;dans l'application Code-barres pour faciliter et\n"
+"                accélérer le processus.\n"
+"                &lt;/p&gt;\n"
+"                &lt;div data-oe-protected=\"true\" class=\"o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3\"&gt;\n"
+"                &lt;i class=\"o_editor_banner_icon mb-3 fst-normal\"&gt;💡&lt;/i&gt;\n"
+"                &lt;div data-oe-protected=\"false\" class=\"w-100 px-3\"&gt;\n"
+"                        &lt;p&gt;Utilisez l'application Code-barres sur des appareils mobiles&amp;nbsp;pour scanner les produits avec la&amp;nbsp;caméra intégrée. Pour accélérer le comptage d'inventaire, partagez la charge de travail entre plusieurs personnes utilisant leurs appareils personnels.&lt;/p&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;/div&gt;\n"
+"                &lt;p&gt;\n"
+"                &lt;a href=\"https://www.odoo.com/slides/slide/695\" class=\"btn btn-secondary mb-2\"&gt;🎓 Tutoriel Code-barres&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.html\" class=\"btn btn-secondary mb-2\"&gt;📖 Documentation Inventaire&lt;/a&gt;&amp;nbsp;\n"
+"                &lt;a href=\"https://www.odoo.com/documentation/latest/applications/inventory_and_mrp/barcode/operations/adjustments.html\" class=\"btn btn-secondary mb-2\"&gt;📖 Documentation Code-barres&lt;/a&gt;\n"
+"                &lt;/p&gt;"
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.customfooter_view
@@ -300,7 +563,7 @@ msgstr "+1 (650) 555-0111"
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_1
 msgid "0 month"
-msgstr ""
+msgstr "0 mois"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_3
@@ -310,62 +573,62 @@ msgstr "1 an"
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_12
 msgid "10 years"
-msgstr ""
+msgstr "10 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_62
 msgid "10+"
-msgstr ""
+msgstr "10 ans et plus"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_13
 msgid "11 years"
-msgstr ""
+msgstr "11 ans"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_18
 msgid "12 coloring pencils - STABILO"
-msgstr ""
+msgstr "12 crayons de couleur - STABILO"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_14
 msgid "12 years"
-msgstr ""
+msgstr "12 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_38
 msgid "13 years"
-msgstr ""
+msgstr "13 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_39
 msgid "14 years"
-msgstr ""
+msgstr "14 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_40
 msgid "15 years"
-msgstr ""
+msgstr "15 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_41
 msgid "16 years"
-msgstr ""
+msgstr "16 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_52
 msgid "17 years"
-msgstr ""
+msgstr "17 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_53
 msgid "18 years"
-msgstr ""
+msgstr "18 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_4
 msgid "2 years"
-msgstr ""
+msgstr "2 ans"
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.customfooter_view
@@ -382,12 +645,12 @@ msgstr "3 années"
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_6
 msgid "4 years"
-msgstr ""
+msgstr "4 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_7
 msgid "5 years"
-msgstr ""
+msgstr "5 ans"
 
 #. module: toy_store
 #: model:loyalty.reward,description:toy_store.loyalty_reward_2
@@ -397,27 +660,27 @@ msgstr "5% de réduction sur votre commande"
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_2
 msgid "6 months"
-msgstr ""
+msgstr "6 mois"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_8
 msgid "6 years"
-msgstr ""
+msgstr "6 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_9
 msgid "7 years"
-msgstr ""
+msgstr "7 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_10
 msgid "8 years"
-msgstr ""
+msgstr "8 ans"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_11
 msgid "9 years"
-msgstr ""
+msgstr "9 ans"
 
 #. module: toy_store
 #: model_terms:product.template,description_ecommerce:toy_store.product_template_9
@@ -428,6 +691,11 @@ msgid ""
 "Measures approx 35×13 inches when assembled. <br>\n"
 "Please note all dimensions under ‘Information’ refer to the boxed product."
 msgstr ""
+"Un puzzle de 1 000 pièces représentant la Carte du Maraudeur.\n"
+"<br>\n"
+"<br>\n"
+"Mesure environ 35×13 pouces une fois assemblé. <br>\n"
+"Veuillez noter que toutes les dimensions sous \"Informations\" se réfèrent au produit emballé."
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.homepage
@@ -437,7 +705,7 @@ msgstr "Un petit coin <br/>de paradis"
 #. module: toy_store
 #: model:product.public.category,name:toy_store.product_public_category_5
 msgid "Arts and crafts"
-msgstr ""
+msgstr "Arts et loisirs"
 
 #. module: toy_store
 #: model_terms:product.template,description_ecommerce:toy_store.product_template_7
@@ -447,11 +715,15 @@ msgid ""
 "<br>\n"
 "Pandemic is a cooperative board game in which players work as a team to treat infections around the world while gathering resources for cures."
 msgstr ""
+"En tant que membres compétents d'une équipe de lutte contre les maladies, vous et les autres joueurs travaillez ensemble pour protéger le monde des épidémies. Ce n'est qu'à travers le travail d'équipe que vous aurez une chance de trouver un remède.\n"
+"<br>\n"
+"<br>\n"
+"Pandemic est un jeu de société coopératif dans lequel les joueurs travaillent ensemble pour traiter les infections dans le monde entier tout en rassemblant des ressources pour les remèdes."
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_65
 msgid "Assorted"
-msgstr ""
+msgstr "Divers"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_46
@@ -466,7 +738,7 @@ msgstr "Bleu"
 #. module: toy_store
 #: model:product.public.category,name:toy_store.product_public_category_1
 msgid "Board games"
-msgstr ""
+msgstr "Jeux de société"
 
 #. module: toy_store
 #: model:product.attribute,name:toy_store.product_attribute_1
@@ -476,17 +748,17 @@ msgstr "Marque"
 #. module: toy_store
 #: model:product.public.category,name:toy_store.product_public_category_4
 msgid "Building blocks and sets"
-msgstr ""
+msgstr "Blocs de construction et sets"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_66
 msgid "Calico Critters"
-msgstr ""
+msgstr "Calico Critters"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_26
 msgid "Calico Critters - Chocolate Rabbit Family"
-msgstr ""
+msgstr "Calico Critters - Famille de Lapins Chocolat"
 
 #. module: toy_store
 #: model_terms:product.template,description_ecommerce:toy_store.product_template_26
@@ -497,31 +769,36 @@ msgid ""
 "A little overview: Mother Heidi is always taking care of her family and keeps the house clean and nicely decorated. Father Harlin enjoys planning all the fun community events in Calico Village. Sister Bell is very cheerful and likes having\n"
 "fun with her family and friends. Brother Skip is a great soccer player and is on his school’s team."
 msgstr ""
+"Les maisons de poupées miniatures, les sets de jeux et les figurines Calico Critters sont des jouets intemporels et classiques de haute qualité.\n"
+"<br>\n"
+"<br>\n"
+"Un petit aperçu : Maman Heidi prend toujours soin de sa famille et garde la maison propre et bien décorée. Papa Harlin aime organiser tous les événements amusants au sein du -Village Calico. Sœur Bell est toujours joyeuse et aime\n"
+"s'amuser avec sa famille et ses amis. Frère Skip est un excellent footballeur et fait partie de l’équipe de son école."
 
 #. module: toy_store
 #: model:pos.category,name:toy_store.pos_category_1
 msgid "Candies"
-msgstr ""
+msgstr "Bonbons"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_5
 msgid "Catan - 5-6 player extension"
-msgstr ""
+msgstr "Catan - Extension 5-6 joueurs"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_4
 msgid "Catan - Base game"
-msgstr ""
+msgstr "Catan - Jeu de base"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_30
 msgid "Catan studios"
-msgstr ""
+msgstr "Catan studios"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_22
 msgid "Chupa Chups"
-msgstr ""
+msgstr "Chupa Chups"
 
 #. module: toy_store
 #: model:product.attribute,name:toy_store.product_attribute_4
@@ -538,6 +815,13 @@ msgid ""
 "learn rules make this award-winning board game perfect for players 10 and "
 "up."
 msgstr ""
+"Embarquez pour une aventure palpitante en vue de conquête dans Catan ! "
+"Colonisez l’île de Catan, échangez des ressources et construisez votre "
+"chemin vers la victoire. Avec un plateau modulaire pour une rejouabilité "
+"infinie et un gameplay stratégique équilibré avec de la chance, chaque "
+"soirée de jeu devient une aventure excitante. Les pièces en bois de haute "
+"qualité et les règles faciles à apprendre font de ce jeu de société primé un"
+" choix parfait pour les joueurs à partir de 10 ans."
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.customfooter_view
@@ -557,22 +841,22 @@ msgstr "Suivez-nous"
 #. module: toy_store
 #: model:loyalty.reward,description:toy_store.loyalty_reward_3
 msgid "Free Product - 12 coloring pencils - STABILO"
-msgstr ""
+msgstr "Produit gratuit - 12 crayons de couleur - STABILO"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_43
 msgid "Gund"
-msgstr ""
+msgstr "Gund"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_44
 msgid "Hape"
-msgstr ""
+msgstr "Hape"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_9
 msgid "Harry Potter: The Marauder's Map Puzzle"
-msgstr ""
+msgstr "Harry Potter : Le Puzzle de la Carte du Maraudeur"
 
 #. module: toy_store
 #: model_terms:product.template,description_ecommerce:toy_store.product_template_21
@@ -582,6 +866,10 @@ msgid ""
 "<br>\n"
 "Thanks to its lightweight frame your toddler can easily control the bike and in combination with the integrated carry handle it makes it easy for parents to carry it as well."
 msgstr ""
+"Entraîneur d'équilibre ultra-léger 10 pouces avec pneus anti-crevaison et cadre métallique de haute qualité. Le jouet idéal pour entraîner les compétences motrices globales de votre tout-petit, son équilibre et sa direction.\n"
+"<br>\n"
+"<br>\n"
+"Grâce à son cadre léger, votre enfant peut facilement contrôler le vélo et, combiné à la poignée de transport intégrée, il est facile pour les parents de le porter également."
 
 #. module: toy_store
 #: model_terms:product.template,description_ecommerce:toy_store.product_template_5
@@ -591,6 +879,10 @@ msgid ""
 "variety and it has dedicated wooden settlements cities and roads for players"
 " 5 and 6."
 msgstr ""
+"Laissez de nouveaux joueurs rejoindre le jeu avec cette extension Catan pour"
+" 5-6 joueurs. Elle inclut 11 nouvelles lignes de terrain uniques pour plus "
+"de variété et dispose de colonies, villes et routes en bois dédiées aux "
+"joueurs 5 et 6."
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.customfooter_view
@@ -610,17 +902,17 @@ msgstr "Point(s) de fidélité"
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_12
 msgid "Maple Wood Building Blocks"
-msgstr ""
+msgstr "Blocs de construction en bois d'érable"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_21
 msgid "Micro scooter"
-msgstr ""
+msgstr "Trottinette Micro"
 
 #. module: toy_store
 #: model:product.attribute,name:toy_store.product_attribute_2
 msgid "Minimum recommended age"
-msgstr ""
+msgstr "Âge minimum recommandé"
 
 #. module: toy_store
 #: model:pos.category,name:toy_store.pos_category_2
@@ -631,22 +923,22 @@ msgstr "Divers"
 #: model:product.attribute.value,name:toy_store.product_attribute_value_32
 #: model:product.template,name:toy_store.product_template_6
 msgid "Monopoly"
-msgstr ""
+msgstr "Monopoly"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_63
 msgid "Multi"
-msgstr ""
+msgstr "Multi"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_11
 msgid "My 1st Teddy Bear 15\""
-msgstr ""
+msgstr "Mon premier ours en peluche 15\""
 
 #. module: toy_store
 #: model:product.attribute,name:toy_store.product_attribute_3
 msgid "Number of players"
-msgstr ""
+msgstr "Nombre de joueurs"
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.homepage
@@ -655,16 +947,19 @@ msgid ""
 "o_text_highlight_fill\" style=\"--text-highlight-width: 6px; --text-"
 "highlight-color:#D15C01;\">selection</span>"
 msgstr ""
+"Notre <span class=\"o_text_highlight o_text_highlight_freehand_3 "
+"o_text_highlight_fill\" style=\"--text-highlight-width: 6px; --text-"
+"highlight-color:#D15C01;\">sélection</span>"
 
 #. module: toy_store
 #: model:product.public.category,name:toy_store.product_public_category_6
 msgid "Outdoors"
-msgstr ""
+msgstr "Extérieur"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_7
 msgid "Pandemic"
-msgstr ""
+msgstr "Pandemic"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_51
@@ -674,12 +969,12 @@ msgstr "Rose"
 #. module: toy_store
 #: model:product.public.category,name:toy_store.product_public_category_3
 msgid "Plush toys"
-msgstr ""
+msgstr "Peluches"
 
 #. module: toy_store
 #: model:product.public.category,name:toy_store.product_public_category_2
 msgid "Puzzles"
-msgstr ""
+msgstr "Puzzles"
 
 #. module: toy_store
 #: model_terms:product.template,description_ecommerce:toy_store.product_template_6
@@ -689,11 +984,15 @@ msgid ""
 "<br>\n"
 "It's all about buying, selling, and trading properties to win. Chance or Community cards can be a game changer. Will they make a player richer - or send someone to Jail?"
 msgstr ""
+"Choisissez un jeton Monopoly préféré, placez-le sur Go et lancez les dés pour tout posséder !\n"
+"<br>\n"
+"<br>\n"
+"Le but est d'acheter, vendre et échanger des propriétés pour gagner. Les cartes Chance ou Communauté peuvent tout changer. Vont-elles rendre un joueur plus riche ou envoyer quelqu'un en prison ?"
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.homepage
 msgid "Shop <span class=\"fa fa-angle-right ms-2\"/>"
-msgstr ""
+msgstr "Boutique <span class=\"fa fa-angle-right ms-2\"/>"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_50
@@ -703,17 +1002,22 @@ msgstr "Argent"
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_45
 msgid "Stabilo"
-msgstr ""
+msgstr "Stabilo"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_37
 msgid "The Noble Collection"
-msgstr ""
+msgstr "The Noble Collection"
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.customfooter_view
 msgid "Twitter"
 msgstr "Twitter"
+
+#. module: toy_store
+#: model_terms:web_tour.tour,rainbow_man_message:toy_store.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "Bienvenue ! Amusez-vous en explorant."
 
 #. module: toy_store
 #: model_terms:product.template,description_ecommerce:toy_store.product_template_10
@@ -723,16 +1027,20 @@ msgid ""
 "animal lover. At 12 long this plush toy is the perfect size to take on any "
 "adventure."
 msgstr ""
+"Bien qu'un renard roux dans la nature soit généralement un animal solitaire,"
+" le renard roux en peluche de Wild Republic est le partenaire idéal pour "
+"tout amateur de peluches. Avec ses 12 pouces de long, cette peluche est de "
+"la taille parfaite pour toute aventure."
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_10
 msgid "Wild Republic - Red Fox"
-msgstr ""
+msgstr "Wild Republic - Red Fox"
 
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_42
 msgid "Wild republic"
-msgstr ""
+msgstr "Wild republic"
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.homepage
@@ -746,12 +1054,12 @@ msgstr ""
 #. module: toy_store
 #: model:product.attribute.value,name:toy_store.product_attribute_value_36
 msgid "Z-man games"
-msgstr ""
+msgstr "Z-man games"
 
 #. module: toy_store
 #: model:product.template,name:toy_store.product_template_23
 msgid "[Example product] PEZ dispenser and candy"
-msgstr ""
+msgstr "[Exemple de produit] Distributeur PEZ et bonbons"
 
 #. module: toy_store
 #: model_terms:ir.ui.view,arch_db:toy_store.customfooter_view

@@ -3,15 +3,16 @@
 # 	* certification_organism
 # 
 # Translators:
-# Wil Odoo, 2024
+# Marta Wacławek, 2025
+# Wil Odoo, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 09:28+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2024-10-08 10:25+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +21,58 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "1) Get opportunities from your website"
+msgstr "1) Zyskaj okazje ze swojej strony internetowej"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "2) Transform your opportunities into sales deals 💪"
+msgstr "2) Przekształć swoje okazje w oferty sprzedaży 💪"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "3) Confirm your Sales Order"
+msgstr "3) Potwierdź swoje zamówienie sprzedaży"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "4) Time to plan your Field Service task"
+msgstr "4) Zaplanuj swoje zadanie Usług Terenowych"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "5) Time to get this certification done 🚀"
+msgstr "5) Pora zdobyć certyfikat 🚀"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "6) Send the certification to the customer ✉️"
+msgstr "6) Wyślij certyfikat do klienta ✉️"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "7) Time to get your money 💰"
+msgstr "7) Pora otrzymać zapłatę 💰"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "8) Analyze your performance &amp;amp; track your profitability"
+msgstr "8) Analizuj swoją wydajność i śledź rentowność"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "9) Ready to go one step further?"
+msgstr "9) Gotowy na kolejny krok?"
+
+#. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
 msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
 "                                                <span>info@yourcompany.example.com</span>"
 msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
+"                                                <span>info@yourcompany.example.com</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -32,6 +80,8 @@ msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 msgstr ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -39,11 +89,13 @@ msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
 msgid "<span class=\"s_website_form_label_content\">City</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Miasto</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -53,7 +105,7 @@ msgstr "<span class=\"s_website_form_label_content\">Numer telefonu</span>"
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
 msgid "<span class=\"s_website_form_label_content\">Street</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Ulica</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -61,6 +113,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Temat</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -73,6 +127,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Twój e-mail</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -80,6 +136,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Twoje imię</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
@@ -87,17 +145,65 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Question</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Twoje pytanie</span>\n"
+"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.contactus
 msgid "<span class=\"s_website_form_label_content\">Zip</span>"
+msgstr "<span class=\"s_website_form_label_content\">Kod pocztowy</span>"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "<strong>Expand your business</strong> with the following apps:"
+msgstr "<strong>Rozbuduj swój biznes</strong> z następującymi aplikacjami:"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Accounting"
+msgstr "Księgowość"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"After seeing how wonderful your website is, potential leads can contact you "
+"through a <strong>website form</strong> for more information about your "
+"services."
 msgstr ""
+"Po zapoznaniu się z Twoją wspaniałą stroną internetową potencjalni klienci "
+"mogą skontaktować się z Tobą za pośrednictwem <strong>formularza "
+"kontaktowego</strong>, aby uzyskać więcej informacji na temat Twoich usług."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Alright, let's fill in this <strong>worksheet</strong>!"
+msgstr "Wypełnijmy ten <strong>arkusz roboczy</strong>!"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Analyze the <strong>profitability</strong> of your services with "
+"<strong>project updates</strong>. (Install the 'Accounting' app and enable "
+"the 'Analytic Accounting' feature.)"
+msgstr ""
+"Analizuj <strong>rentowność</strong> swoich usług z <strong>aktualizacjami "
+"projektu</strong>. (Zainstaluj aplikację \"Księgowość\" i włącz funkcję "
+"\"Księgowość analityczna\")"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_file_installatio_2cc1cd0a-1f0c-473e-93ff-cfbf112ce880
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Annexes"
+msgstr "Aneksy"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"At last, <strong>send a message</strong> to your customer informing them of "
+"the scheduled date of their intervention from the chatter of your task."
 msgstr ""
+"Na koniec <strong>wyślij wiadomość</strong> do klienta, informując go o "
+"planowanym terminie interwencji z chatu w zadaniu."
 
 #. module: certification_organism
 #: model:crm.tag,name:certification_organism.crm_tag_6
@@ -108,7 +214,7 @@ msgstr "B2B"
 #: model:crm.tag,name:certification_organism.crm_tag_4
 #: model:project.tags,name:certification_organism.project_tags_2
 msgid "B2C"
-msgstr ""
+msgstr "B2C"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_20
@@ -129,7 +235,7 @@ msgstr "Certyfikacje"
 #. module: certification_organism
 #: model:product.template,name:certification_organism.product_product_3_product_template
 msgid "Charging Station Certification"
-msgstr ""
+msgstr "Certyfikacja stacji ładującej"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -137,13 +243,35 @@ msgid ""
 "Circuit\n"
 "                            Breaker Bandwidth Test"
 msgstr ""
+"Test\n"
+"                            pasma przerwy obwodowej"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_38c7f1b2-1c72-4cad-a3bd-0089bf65f4e1
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Circuit Breaker Bandwidth Test"
+msgstr "Test pasma przerwy obwodowej"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Click on the ➕ icon to create new tasks, or the 🔍 icon to <strong>schedule "
+"existing tasks</strong>."
 msgstr ""
+"Kliknij na ikonę ➕ aby tworzyć nowe zadania, lub na ikonę 🔍 aby "
+"<strong>zaplanować istniejące zadania</strong>."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Click on the<strong> 'New Quotation' </strong>button from your CRM "
+"opportunity. <strong>Send it to your customer by email</strong> once it's "
+"ready."
+msgstr ""
+"Kliknij na przycisk <strong>\"Nowa oferta\"</strong> z poziomu okazji CRM. "
+"<strong>Wyślij ją swojemu klientowi e-mailem</strong> jak tylko będzie "
+"gotowa."
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_html_installatio_59802a97-4667-42d4-8658-f04a466fb512
@@ -171,6 +299,8 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                                                        We'll do our best to get back to you as soon as possible."
 msgstr ""
+"Skontaktuj się z nami w każdej sprawie związanej z naszą firmą lub usługami.<br/>\n"
+"                                                                        Dołożymy wszelkich starań, aby odezwać się do Ciebie tak szybko, jak to możliwe."
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_many2one_install_63f73c9f-d07b-45e8-bb81-0078b7fb97be
@@ -185,6 +315,8 @@ msgid ""
 "Control\n"
 "                            Date"
 msgstr ""
+"Data\n"
+"                            kontroli"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -192,6 +324,8 @@ msgid ""
 "Control\n"
 "                            Location"
 msgstr ""
+"Miejsce\n"
+"                            kontroli"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -199,6 +333,8 @@ msgid ""
 "Control\n"
 "                            Type"
 msgstr ""
+"Typ\n"
+"                            kontroli"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_date_installatio_bea4dd93-6b43-412f-8b05-a0364fa90293
@@ -211,20 +347,40 @@ msgstr "Data kontroli"
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_5a396d3d-7953-4770-a4b7-a69459e388f1
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid "Control Location"
-msgstr ""
+msgstr "Miejsce kontroli"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_selection_instal_4d4b88fd-9b8d-43c4-ac2b-baf736781d26
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Control Type"
+msgstr "Typ kontroli"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Create as many templates as you need from the 'Configuration &amp;gt; "
+"Worksheet Templates' menu. Here, we would recommend creating one template "
+"<strong>per type of certification</strong>."
 msgstr ""
+"W menu \"Konfiguracja > Szablony arkuszy roboczych\" utwórz tyle szablonów, "
+"ile potrzebujesz. Zalecamy utworzenie jednego szablonu <strong>dla każdego "
+"rodzaju certyfikatu</strong>."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_3
 msgid "Created on"
 msgstr "Data utworzenia"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Curious to get <strong>customer feedback</strong> on your services? Enable "
+"the 'Customer Ratings' feature in the settings of Project."
+msgstr ""
+"Jesteś ciekaw <strong>opinii klientów</strong> o Twoich usługach? Włącz "
+"funkcję \"Opinie klientów\" w ustawieniach projektu."
 
 #. module: certification_organism
 #: model:account.analytic.plan,name:certification_organism.account_analytic_plan_1
@@ -236,21 +392,21 @@ msgstr "Domyślny"
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Diagrams"
-msgstr ""
+msgstr "Schematy"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_fa307386-1f6a-4b86-bd5b-94d072589284
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Differential Protection"
-msgstr ""
+msgstr "Zabezpieczenie różnicowe"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_1d268a1f-8476-496a-84b0-42153d64d396
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Distribution Network Provider"
-msgstr ""
+msgstr "Dostawca sieci dystrybucyjnej"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_3
@@ -263,7 +419,7 @@ msgstr "Wykonano"
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "EAN"
-msgstr ""
+msgstr "EAN"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -271,6 +427,8 @@ msgid ""
 "Email\n"
 "                            Address"
 msgstr ""
+"Adres\n"
+"                            E-mail"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_7ac1d42b-d321-4e8e-9aa8-f6d19f01a153
@@ -282,7 +440,7 @@ msgstr "Adres e-mail"
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.filename_for_x_studi_e4a6f7a0-7955-48a2-ab1c-a295727bd488
 msgid "Filename for x_binary_field_465_1h8jpmjfh"
-msgstr ""
+msgstr "Nazwa pliku dla x_binary_field_465_1h8jpmjfh"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -290,13 +448,97 @@ msgid ""
 "Fixed\n"
 "                            Material"
 msgstr ""
+"Stały\n"
+"                            Materiał"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_9210cacd-48ce-4e3e-b4e7-efc01c3fc7bd
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Fixed Material"
+msgstr "Stały materiał"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"From the <strong>map view</strong>, your agents see where they need to head "
+"for their interventions of the day. This visual aid will also help you plan "
+"tasks so that each agent covers a specific area."
 msgstr ""
+"Na <strong>mapie</strong> agenci widzą, gdzie muszą się udać, aby wykonać "
+"zadania przewidziane na dany dzień. Ta pomoc wizualna ułatwi również "
+"planowanie zadań, tak aby każdy agent obsługiwał określony obszar."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Get an <strong>overview of the ratings</strong> you are receiving from the "
+"'Field Service &amp;gt; Reporting &amp;gt; Customer Ratings' menu."
+msgstr ""
+"<strong>Przegląd ocen</strong> otrzymanych przez użytkownika można znaleźć w"
+" menu \"Usługi terenowe &amp;gt; Raportowanie &amp;gt; Oceny klientów\"."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Get reporting on the various fields you are tracking during your "
+"interventions. Identify recurring sources of issues and detect warning signs"
+" of future potential issues."
+msgstr ""
+"Uzyskaj raporty dotyczące różnych obszarów, które monitorujesz podczas "
+"swoich interwencji. Zidentyfikuj powtarzające się źródła problemów i wykryj "
+"sygnały ostrzegawcze potencjalnych problemów w przyszłości."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go back to the Quotation you had previously created, and hit that "
+"'<strong>Confirm</strong>' button. Your Quotation is now a <strong>Sales "
+"Order.</strong>"
+msgstr ""
+"Wróć do wcześniej utworzonej wyceny i kliknij przycisk "
+"\"<strong>Potwierdź</strong>\". Twoja wycena stała się teraz "
+"<strong>zamówieniem sprzedaży</strong>."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to 'Configuration &amp;gt; Worksheet Templates' and click on "
+"'<strong>Analysis</strong>' from your '<strong>Worksheet Template</strong>' "
+"form view."
+msgstr ""
+"Idź do \"Konfiguracji &amp;gt; Szablony arkuszy pracy\" i kliknij na "
+"\"<strong>Analiza</strong>\" z twojego widoku formularza \"<strong>szablonu "
+"arkusza pracy</strong>\"."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to 'Dashboards &amp;gt; Projects' to get an overview of your tasks. <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\">Use predefined </span>\n"
+"                    <span style=\"color: inherit; font-style: normal; background-color: inherit;\"><strong>dashboards</strong></span>\n"
+"                    <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\"> or build your own with the advanced reporting engine. Share filters with the team.</span>"
+msgstr ""
+"Przejdź do sekcji \"Konsole i Projekty\", aby uzyskać przegląd swoich zadań. <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\">Skorzystaj z gotowych </span>\n"
+"                    <span style=\"color: inherit; font-style: normal; background-color: inherit;\"><strong>konsoli</strong></span>\n"
+"                    <span style=\"color: inherit; font-style: normal; font-weight: 400; background-color: inherit;\">  lub stwórz własne za pomocą zaawansowanego silnika raportowania. Udostępniaj filtry zespołowi.</span>"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to Reporting &amp;gt; <strong>Tasks Analysis</strong> to get statistics "
+"on your tasks and to analyze the performance of your projects."
+msgstr ""
+"Przejdź do Raportowanie &amp;gt; <strong>Analiza zadań</strong>, aby uzyskać"
+" statystyki ze swoich zadań i analizować wydajność swoich projektów."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Go to the 'Configuration &amp;gt; Stages' menu. Then define a '<strong>Rating Email Template</strong>' on your 'Done' stage (or any other one you'd like). This will automatically send a <strong>rating request</strong> to the\n"
+"                    customer once the task reaches this stage."
+msgstr ""
+"Przejdź do menu \"Konfiguracja i etapy\". Następnie zdefiniuj \"<strong>Szablon e-maila oceny</strong>: w swoim etapie \"Gotowe\" (lub innym wybranym etapie). To wyśle automatycznie <strong>prośbę o ocenę</strong> do\n"
+"                    klienta, jak tylko zadanie wejdzie w ten etap."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -304,13 +546,15 @@ msgid ""
 "Ground\n"
 "                            Resistance (Ω)"
 msgstr ""
+"Rezystancja\n"
+"                            uziemienia (Ω)"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_e3180eac-14c7-407d-8954-87d9f5bce7c6
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Ground Resistance (Ω)"
-msgstr ""
+msgstr "Rezystancja uziemienia (Ω)"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -318,11 +562,13 @@ msgid ""
 "Grounded\n"
 "                            Socket"
 msgstr ""
+"Uziemione\n"
+"                            gniazdo"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_4fcfeac5-d596-4291-a9b9-ad0e519d1671
 msgid "Grounded Socket"
-msgstr ""
+msgstr "Uziemione gniazdo"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -330,18 +576,50 @@ msgid ""
 "Grounding\n"
 "                            Diagram"
 msgstr ""
+"Schemat\n"
+"                            uziemienia"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_909d67ad-c9bf-4dbe-a309-25678cac2316
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Grounding Diagram"
+msgstr "Schemat uziemienia"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Guide to the Certification Auditors Industry"
+msgstr "Przewodnik po branży audytorów certyfikujących"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Here, we will be <strong>invoicing</strong> our customer after our intervention is done (see the 'Invoicing Policy' defined as 'Based on Delivered Quantity (Manual)'. However, you could also bill your customer right away by\n"
+"                    configuring the 'Invoicing Policy' as 'Fixed Price/Prepaid'."
 msgstr ""
+"W tym przypadku <strong>faktura</strong> dla klienta zostanie wystawiona po zakończeniu naszej interwencji (zgodnie z \"Zadami fakturowania\" określonymi jako \"Na podstawie dostarczonej ilości (ręcznie)\". Istnieje jednak również możliwość wystawienia faktury od razu, \n"
+"                    konfigurując „Zasady fakturowania” jako „Stała cena/przedpłata”."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Human Resources"
+msgstr "Kadry"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_2
 msgid "In Progress"
 msgstr "W toku"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"In this article, you will discover how to best use Odoo to fit your needs. "
+"We will go from the first customer contact all the way to invoicing them "
+"your services. Let's go 🚀"
+msgstr ""
+"W tym artykule dowiesz się, jak najlepiej wykorzystać Odoo do swoich "
+"potrzeb. Oprowadzimy Cię od pierwszego kontaktu z klientem aż po wystawienie"
+" faktury za świadczone usługi. Zaczynamy 🚀"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_14
@@ -351,39 +629,66 @@ msgstr "Skrzynka odbiorcza"
 #. module: certification_organism
 #: model:ir.model,name:certification_organism.x_control_charging_station_ir_model_1
 msgid "Installation Control of Residential Charging Stations"
-msgstr ""
+msgstr "Kontrola instalacji domowych stacji ładowania"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_date_installatio_efbdb6ce-50de-48e4-8992-1f5e72e65380
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Installation Date"
-msgstr ""
+msgstr "Data instalacji"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_html_installatio_b8a358e7-77a4-4e10-8e7c-91584f9401a0
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Installation Description"
-msgstr ""
+msgstr "Opis instalacji"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_many2one_install_a963bdf3-1118-458a-b056-85422bafe0ec
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Installer"
-msgstr ""
+msgstr "Instalator"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_c533a573-29b4-4d52-9721-11aa04014346
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid "Isolation"
-msgstr ""
+msgstr "Izolacja"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_18
 msgid "Later"
 msgstr "Później"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Let's <strong>create and confirm the invoice</strong> 🙌"
+msgstr "<strong>Stwórzmy i potwierdźmy fakturę</strong> 🙌"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Let's move to the 'Planning by User' menu in Field Service. From the "
+"<strong>Gantt view</strong>, you see at a glance the agents that are "
+"<strong>available</strong> (notice that Fiona is off this week 🏖️)."
+msgstr ""
+"Przejdźmy do menu \"Planowanie według użytkownika\" w sekcji Usługi "
+"terenowe. W <strong>widoku Gantta</strong> można szybko sprawdzić, którzy "
+"agenci są <strong>dostępni</strong> (zwróć uwagę, że Fiona ma wolne w tym "
+"tygodniu 🏖️)."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Luckily, our customer was amazed by our offer and accepted it. We can thus "
+"<strong>mark our CRM opportunity as won</strong> 🥳"
+msgstr ""
+"Na szczęście nasz klient był zachwycony nasza ofertą i ją zaakceptował. "
+"Możemy w takim razie <strong>oznaczyć naszą okazję CRM jako wygraną</strong>"
+" 🥳"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_many2one_install_414eae17-7a9f-4a2f-858c-36218ca2a64c
@@ -393,18 +698,25 @@ msgid "Manufacturer"
 msgstr "Producent"
 
 #. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid "Marketing"
+msgstr "Marketing"
+
+#. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid ""
 "Max.\n"
 "                            Protection"
 msgstr ""
+"Maksymalna\n"
+"                            Ochrona"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_e8935d3c-93ab-4b0c-bd54-6ffe77c00882
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Max. Protection"
-msgstr ""
+msgstr "Maksymalna ochrona"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -412,6 +724,8 @@ msgid ""
 "Meter\n"
 "                            Number"
 msgstr ""
+"Numer\n"
+"                            licznika"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_5f0f247a-a0c8-4fcc-b2e5-5a60d2904967
@@ -442,13 +756,15 @@ msgid ""
 "Nameplate\n"
 "                            Capacity (kW)"
 msgstr ""
+"Moc\n"
+"                            znamionowa (kW)"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_7be3783d-b74a-4eda-8671-130e1c312bbf
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Nameplate Capacity (kW)"
-msgstr ""
+msgstr "Moc znamionowa (kW)"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_0
@@ -461,13 +777,49 @@ msgid ""
 "Next\n"
 "                            Control Before"
 msgstr ""
+"Następna\n"
+"                            kontrola przed"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_date_installatio_879fcac2-2f44-4d3f-b789-b1f61e97edef
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Next Control Before"
+msgstr "Następna kontrola przed"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Notice how the <strong>service</strong> we are offering has been configured:"
 msgstr ""
+"Zauważ jak zostały skonfigurowane <strong>usługi</strong>, które oferujemy:"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Now that the certification is complete and sent to the customer, we can "
+"<strong>mark the task as done</strong>."
+msgstr ""
+"Teraz, gdy certyfikacja jest kompletna i wysłana do klienta, możemy "
+"<strong>oznaczyć to zadanie jako gotowe</strong>."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Now, <strong>register their payment</strong>. (Note: your customer can also "
+"directly pay from their portal 💡)"
+msgstr ""
+"A teraz <strong>zarejestruj ich płatność</strong>. (Uwaga: Twój klient może "
+"także zapłacić bezpośrednio ze swojego portalu 💡)"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Once you're done filling in the worksheet, simply click on 'Send Report' to "
+"<strong>send your customer the certification</strong>."
+msgstr ""
+"Po wypełnieniu arkusza wystarczy kliknąć \"Wyślij raport\", aby "
+"<strong>przesłać certyfikat do klienta</strong>."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -475,13 +827,15 @@ msgid ""
 "Operating\n"
 "                            Voltage"
 msgstr ""
+"Napięcie\n"
+"                            robocze"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_7c3fe422-e483-4f9c-b9b8-ca9daca8ae17
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Operating Voltage"
-msgstr ""
+msgstr "Napięcie robocze"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -489,19 +843,21 @@ msgid ""
 "Owner\n"
 "                            Address"
 msgstr ""
+"Adres\n"
+"                            właściciela"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_d424d6c6-250b-4e2b-b02c-909d624d9e36
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Owner Address"
-msgstr ""
+msgstr "Adres właściciela"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_image_installati_7bb7ef76-751f-4749-8832-1da0ff83bec0
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 msgid "Pictures"
-msgstr ""
+msgstr "Zdjęcia"
 
 #. module: certification_organism
 #: model:project.task.type,name:certification_organism.planning_project_stage_1
@@ -513,19 +869,19 @@ msgstr "Zaplanowane"
 msgid ""
 "Power\n"
 "                            Supply"
-msgstr ""
+msgstr "Zasilanie"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_ead54bd7-5601-45b5-9360-47cd843cc177
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Power Supply"
-msgstr ""
+msgstr "Zasilanie"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_0cd78554-7c1d-46a5-be12-2b31668b7957
 msgid "Premises Type"
-msgstr ""
+msgstr "Typ lokalu"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -533,6 +889,8 @@ msgid ""
 "Protection\n"
 "                            (A)"
 msgstr ""
+"Ochrona\n"
+"                            (A)"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -540,6 +898,8 @@ msgid ""
 "Protection\n"
 "                            6mA DC"
 msgstr ""
+"Ochrona\n"
+"                            6mA DC"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -567,48 +927,57 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection (A)"
-msgstr ""
+msgstr "Ochrona (A)"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_text_installatio_b4dca44c-3589-48b4-8b44-63468cedcc86
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection 6mA DC"
-msgstr ""
+msgstr "Ochrona 6mA DC"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_1da09a59-1725-4ec7-a6a9-3fd88f1c69a0
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection Against Direct Contacts"
-msgstr ""
+msgstr "Ochrona przed kontaktem bezpośrednim"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_07b49038-6246-41fa-a8ec-119909ba7be3
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection Against Indirect Contacts"
-msgstr ""
+msgstr "Ochrona przed kontaktem pośrednim"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_8ffbf2f2-43b1-4eb7-93dd-a8ddff7b1ec4
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Protection Against Overintensity"
-msgstr ""
+msgstr "Ochrona przed nadmierną intensywnością"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_datetime_install_2bbd9d49-f78f-4318-bf29-2f0ff5f8ddb1
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Report Date"
-msgstr ""
+msgstr "Data raportu"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Report Number"
+msgstr "Numer raportu"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Send your customer the <strong>invoice</strong>. Note that it will also be "
+"available in their <strong>portal</strong>."
 msgstr ""
+"Wyślij <strong>fakturę</strong> klientowi. Pamiętaj, że będzie także "
+"dostępna w ich <strong>portalu</strong>."
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -616,6 +985,8 @@ msgid ""
 "Serial\n"
 "                            Number"
 msgstr ""
+"Numer\n"
+"                            seryjny"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_integer_installa_38923213-00f8-4249-9e45-a08efb7f9976
@@ -654,6 +1025,28 @@ msgid "Tasks"
 msgstr "Zadania"
 
 #. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Thanks to Studio, you can entirely <strong>customize the report</strong> to "
+"fit your needs. Add as many fields of any type as you'd like."
+msgstr ""
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"Thanks to the '<strong>Worksheet Template</strong>' we selected for the "
+"product and on the task, our form has all of the necessary fields for this "
+"kind of certification."
+msgstr ""
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"The certification will remain available to your customer at any time in their <strong>portal</strong>, where they will be able to download and print the report if needed. Click on the 'C<strong>ustomer Preview</strong>' button to\n"
+"                    get a sneak peek of what it'll look like for your customer."
+msgstr ""
+
+#. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_17
 msgid "This Month"
 msgstr "Bieżący miesiąc"
@@ -664,6 +1057,14 @@ msgid "This Week"
 msgstr "Ten tydzień"
 
 #. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"This task will directly get the right certification form for this type of "
+"intervention thanks to the '<strong>Worksheet Template</strong>' selected on"
+" the product."
+msgstr ""
+
+#. module: certification_organism
 #: model:project.task.type,name:certification_organism.project_task_type_15
 msgid "Today"
 msgstr "Na dzisiaj"
@@ -671,7 +1072,7 @@ msgstr "Na dzisiaj"
 #. module: certification_organism
 #: model:website.menu,name:certification_organism.website_menu_4
 msgid "Top Menu for Website 1"
-msgstr ""
+msgstr "Górne menu strony internetowej 1"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -679,6 +1080,8 @@ msgid ""
 "Visiting\n"
 "                            Agent"
 msgstr ""
+"Odwiedzający\n"
+"                            agent"
 
 #. module: certification_organism
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
@@ -686,41 +1089,69 @@ msgid ""
 "Visiting\n"
 "                            Agent Signature"
 msgstr ""
+"Podpis\n"
+"                            odwiedzającego agenta"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_related_field_in_eb7af591-0632-4fc9-8555-3e0bda3b9939
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Visiting Agent"
-msgstr ""
+msgstr "Odwiedzający agent"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_signature_instal_d7e23d6e-e60a-4561-9db6-d85fef213749
 #: model_terms:ir.ui.view,arch_db:certification_organism.report_custom_x_control_charging_station
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "Visiting Agent Signature"
+msgstr "Podpis odwiedzającego agenta"
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"We're now at the customer's place for their certification. Open your task "
+"and click on the '<strong>Worksheet</strong>' button."
+msgstr ""
+
+#. module: certification_organism
+#: model_terms:web_tour.tour,rainbow_man_message:certification_organism.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "Witaj! Miłego zwiedzania."
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"When the Sales Order is confirmed, a <strong>task is automatically "
+"generated</strong> in our 'Certifications' project."
+msgstr ""
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"When the form is submitted, an <strong>opportunity</strong> is automatically"
+" generated in your CRM.<br/>"
 msgstr ""
 
 #. module: certification_organism
 #: model:ir.actions.act_window,name:certification_organism.x_control_charging_station_ir_actions_act_window_1
 msgid "Worksheets"
-msgstr "Karty pracy"
+msgstr "Arkusze robocze"
 
 #. module: certification_organism
 #: model:crm.tag,name:certification_organism.crm_tag_2
 #: model:project.tags,name:certification_organism.project_tags_1
 msgid "charging station"
-msgstr ""
+msgstr "stacja ładująca"
 
 #. module: certification_organism
 #: model:crm.tag,name:certification_organism.crm_tag_5
 msgid "electrical installation"
-msgstr ""
+msgstr "instalacja elektryczna"
 
 #. module: certification_organism
 #: model:crm.tag,name:certification_organism.crm_tag_3
 msgid "gas installation"
-msgstr ""
+msgstr "instalacja gazowa"
 
 #. module: certification_organism
 #: model:ir.model.fields,field_description:certification_organism.new_checkbox_install_756f305b-2979-4d4d-baf3-a1076dfb5a68
@@ -728,3 +1159,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:certification_organism.x_control_charging_station_ir_ui_view_1
 msgid "ΔIn"
 msgstr ""
+
+#. module: certification_organism
+#: model_terms:ir.ui.view,arch_db:certification_organism.welcome_article_body
+msgid ""
+"💡 This process can be <strong>automated</strong> by setting an 'Email "
+"Template' on the 'Planned' stage of your project (or any other stage you'd "
+"like). A pre-made email template is available to you."
+msgstr ""
+"💡 Ten proces może być <strong>zaautomatyzoway</strong> poprzez ustawienie "
+"\"szablonu e-mail\" na etapie \"zaplanowany\" Twojego projektu (lub dowolnym"
+" innym etapie). Gotowy szablon e-mail jest do Twojej dyspozycji."

@@ -3,16 +3,16 @@
 # 	* sports_club
 # 
 # Translators:
-# Thi Huong Nguyen, 2024
-# Wil Odoo, 2024
+# Wil Odoo, 2025
+# Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 09:58+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2024-10-08 10:55+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "&amp;nbsp;and get to play with our members"
-msgstr ""
+msgstr "&amp;nbsp;và chơi với các thành viên của chúng tôi"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -31,14 +31,49 @@ msgid "+1 (650) 555-0111"
 msgstr "+1 (650) 555-0111"
 
 #. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "1. Gears"
+msgstr "1. Vật dụng"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "1. Gears<br/>"
+msgstr "1. Vật dụng<br/>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "2. Bar Management"
+msgstr "2. Quản lý quầy bar"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "2. Bar Management<br/>"
+msgstr "2. Quản lý quầy bar<br/>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "3. Court Booking"
+msgstr "3. Đặt sân"
+
+#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "<b>Ready to play?</b>"
+msgstr "<b>Bạn đã sẵn sàng chơi chưa?</b>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"<br/>\n"
+"            a) Equipment can be bought on the Club eShop, with a <font class=\"text-o-color-1\"><strong>paid delivery</strong></font> at home or a <strong><font class=\"text-o-color-1\">free pick up</font></strong> at the Club, or directly from the\n"
+"            Club, through their dedicated \"Shop\" Point of Sale. When rackets are bought on the eShop, a basic <font class=\"text-o-color-1\"><strong>up-sell</strong></font> is suggested: Add a towel or some balls to your order."
 msgstr ""
+"<br/>\n"
+"            a) Có thể mua thiết bị trên cửa hàng online của The Club, với dịch vụ <font class=\"text-o-color-1\"><strong>giao hàng trả phí</strong></font> tận nhà hoặc <strong><font class=\"text-o-color-1\">nhận hàng miễn phí</font></strong> tại The Club, hoặc mua trực tiếp từ The Club, thông qua Điểm bán hàng \"Cửa hàng\" riêng của họ. Khi mua vợt trên cửa hàng online, một <font class=\"text-o-color-1\"><strong>chương trình bán thêm</strong></font> cơ bản được đề xuất: Thêm một chiếc khăn hoặc một số quả bóng vào đơn hàng của bạn."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "<font class=\"text-white\">Book a court</font>"
-msgstr ""
+msgstr "<font class=\"text-white\">Đặt sân</font>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -46,6 +81,8 @@ msgid ""
 "<font style=\"font-size: 62px;\">Get your new Gear&amp;nbsp;🔥</font>\n"
 "                                    <br/>"
 msgstr ""
+"<font style=\"font-size: 62px;\">Có trong tay vật dụng mới&amp;nbsp;🔥</font>\n"
+"                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
@@ -53,6 +90,8 @@ msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "                                        <span class=\"visually-hidden o_default_snippet_text\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                                        <span class=\"visually-hidden o_default_snippet_text\">Tiếp</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -69,6 +108,8 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
 "                                        <span class=\"visually-hidden o_default_snippet_text\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                                        <span class=\"visually-hidden o_default_snippet_text\">Trước</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -83,11 +124,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "<span class=\"s_blockquote_author\"><b>Iris Doe</b> • Coach</span>"
 msgstr ""
+"<span class=\"s_blockquote_author\"><b>Iris Doe</b> • Huấn luyện viên</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "<span class=\"s_blockquote_author\"><b>Jane Doe</b> • Member</span>"
-msgstr ""
+msgstr "<span class=\"s_blockquote_author\"><b>Jane Doe</b> • Thành viên</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -95,6 +137,8 @@ msgid ""
 "<span class=\"s_blockquote_author\"><b>John Doe</b> • Member since "
 "2017</span>"
 msgstr ""
+"<span class=\"s_blockquote_author\"><b>John Doe</b> • Thành viên kể từ năm "
+"2017</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -115,6 +159,16 @@ msgstr "<span class=\"s_number display-4\">1500+</span>"
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "<span class=\"s_number display-4\">97%</span>"
 msgstr "<span class=\"s_number display-4\">97%</span>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "<u><u>Flows</u></u>"
+msgstr "<u><u>Chu trình</u></u>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "<u>Sports Club</u>"
+msgstr "<u>CLB Thể Thao</u>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
@@ -139,9 +193,9 @@ msgid ""
 "do. She mentors 100+ in-house developers and looks after the community of "
 "thousands of developers."
 msgstr ""
-"Chi là một trong những người mang tính biểu tượng trong cuộc sống, người có "
-"thể nói rằng họ yêu thích những gì họ làm. Cô ấy cố vấn cho hơn 100 nhà phát"
-" triển nội bộ và chăm sóc cộng đồng hàng nghìn nhà phát triển."
+"Aline là một trong những hình mẫu yêu mến công việc tiêu biểu trong cuộc "
+"sống. Cô ấy cố vấn cho hơn 100 lập trình viên nội bộ và hỗ trợ cộng đồng "
+"hàng nghìn lập trình viên."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
@@ -152,12 +206,21 @@ msgstr "Phải chỉ định một địa chỉ để nhúng bản đồ vào tr
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_18
 msgid "Aquadrink "
+msgstr "Aquadrink "
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"As a small company, <strong>The Club</strong> still has quite a lot of "
+"activities to manage and does all this with Odoo."
 msgstr ""
+"Là một công ty nhỏ, <strong>The Club</strong> vẫn phải quản lý khá nhiều "
+"hoạt động và thực hiện tất cả những hoạt động này bằng Odoo."
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_15
 msgid "Bag of Crisps "
-msgstr ""
+msgstr "Túi khoai tây chiên"
 
 #. module: sports_club
 #: model:product.public.category,name:sports_club.product_public_category_1
@@ -172,23 +235,28 @@ msgstr "Cột"
 #. module: sports_club
 #: model:planning.role,name:sports_club.planning_role_1
 msgid "Barman/Maid"
-msgstr ""
+msgstr "Nhân viên pha chế"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_14
 msgid "Beer"
-msgstr ""
+msgstr "Bia"
 
 #. module: sports_club
 #: model:product.public.category,name:sports_club.product_public_category_3
 msgid "Beginners"
-msgstr ""
+msgstr "Người bắt đầu"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Below are the detailed flows they use on a daily basis."
+msgstr "Dưới đây là các chu trình chi tiết mà họ sử dụng hàng ngày."
 
 #. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_12
 #: model_terms:ir.ui.view,arch_db:sports_club.sports_club_custom_cta_btn
 msgid "Book a Court"
-msgstr ""
+msgstr "Đặt sân"
 
 #. module: sports_club
 #: model:pos.payment.method,name:sports_club.pos_payment_method_1
@@ -198,27 +266,27 @@ msgstr "Tiền mặt"
 #. module: sports_club
 #: model:account.journal,name:sports_club.cash
 msgid "Cash (Sports)"
-msgstr ""
+msgstr "Tiền mặt (Thể thao)"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_5
 msgid "Chimera"
-msgstr ""
+msgstr "Chimera"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_10
 msgid "Club Bag "
-msgstr ""
+msgstr "Túi CLB"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_9_product_template
 msgid "Club Towel"
-msgstr ""
+msgstr "Khăn CLB"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_17
 msgid "Coffee"
-msgstr ""
+msgstr "Cà phê"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -233,7 +301,7 @@ msgstr "Liên hệ"
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_16
 msgid "Croque-Monsieur"
-msgstr ""
+msgstr "Croque-Monsieur"
 
 #. module: sports_club
 #: model:pos.payment.method,name:sports_club.pos_payment_method_2
@@ -256,6 +324,11 @@ msgid "F.A.Q."
 msgstr "Hỏi - Đáp."
 
 #. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Flows"
+msgstr "Chu trình"
+
+#. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Follow us"
 msgstr "Theo dõi chúng tôi"
@@ -271,6 +344,8 @@ msgid ""
 "For all those that are still hesitating, just go ahead and give this sport a"
 " try. It's great fun!"
 msgstr ""
+"Đối với tất cả những ai vẫn còn do dự, hãy cứ thử môn thể thao này. Nó rất "
+"thú vị!"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
@@ -279,22 +354,25 @@ msgid ""
 "                                                                to keep his hands full by participating in the development of the software,\n"
 "                                                                marketing, and customer experience strategies."
 msgstr ""
+"Là nhà sáng lập và có tầm nhìn xa trông rộng, Tony là động lực phát triển của công ty. Anh\n"
+"                              thích tạo sự bận rộn cho bản thân bằng cách tham gia phát triển phần mềm,\n"
+"                              marketing, và các chiến lược về trải nghiệm khách hàng. "
 
 #. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_13
 msgid "Friday Free Play"
-msgstr ""
+msgstr "Thứ 6 chơi miễn phí"
 
 #. module: sports_club
 #: model:appointment.type,name:sports_club.appointment_type_2
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "Friday Night Free Play"
-msgstr ""
+msgstr "Tối thứ 6 chơi miễn phí"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_2_product_template
 msgid "Furiosa"
-msgstr ""
+msgstr "Furiosa"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -302,6 +380,8 @@ msgid ""
 "Give us a call and we'll be happy to offer you a free introduction with our "
 "dedicated coaches."
 msgstr ""
+"Đừng ngần ngại liên hệ và chúng tôi sẽ rất vui lòng giới thiệu miễn phí cho "
+"bạn với đội ngũ huấn luyện viên tận tâm của chúng tôi."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -311,19 +391,19 @@ msgstr "Trang chủ"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "Hours of lessons per week"
-msgstr ""
+msgstr "Giờ học mỗi tuần"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_4_product_template
 msgid "Hydra"
-msgstr ""
+msgstr "Hydra"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid ""
 "I love this club! The courts are great and there's always someone to play "
 "with."
-msgstr ""
+msgstr "Tôi thích câu lạc bộ này! Sân rất tuyệt và luôn có người chơi cùng."
 
 #. module: sports_club
 #: model:product.public.category,name:sports_club.product_public_category_4
@@ -350,7 +430,7 @@ msgstr ""
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "Just register to our"
-msgstr ""
+msgstr "Chỉ cần đăng ký"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_4
@@ -363,6 +443,8 @@ msgid ""
 "Meet new players!<br>Every Friday evening, come alone or with friends and "
 "get to play with new players."
 msgstr ""
+"Gặp gỡ những người chơi mới!<br> Vào mỗi tối thứ sáu, hãy đến một mình hoặc "
+"cùng bạn bè và chơi cùng những người chơi mới."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -381,14 +463,14 @@ msgid ""
 "Commercial Director in the software industry, Mich has helped the company to"
 " get where it is today. Mich is among the best minds."
 msgstr ""
-"Mịch rất thích thử thách. Với kinh nghiệm nhiều năm làm Giám đốc Thương mại "
-"trong ngành phần mềm, ông Mịch đã giúp công ty có được vị trí như ngày hôm "
-"nay. Mịch nằm trong số những người tâm đầu ý hợp."
+"Mich rất thích thử thách. Với kinh nghiệm nhiều năm làm Giám đốc Thương mại "
+"trong ngành phần mềm, Mich đã giúp công ty có được vị trí như ngày hôm nay. "
+"Mich là một trong số những người tài giỏi nhất."
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_6
 msgid "Minotaur"
-msgstr ""
+msgstr "Minotaur"
 
 #. module: sports_club
 #: model:product.public.category,name:sports_club.product_public_category_6
@@ -404,12 +486,35 @@ msgstr "Tiếp theo"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "No worries, just ask for one at the reception desk!"
+msgstr "Đừng lo, chỉ cần hỏi ở quầy lễ tân!"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"Notes: This is because the courts are configured as shareable. As long as a "
+"free spot is left, players can register and share the resource (=the courts)"
+" with others."
 msgstr ""
+"Lưu ý: Điều này là do các sân được cấu hình để có thể chia sẻ. Miễn là còn "
+"chỗ trống, người chơi có thể đăng ký và chia sẻ tài nguyên (=sân) với người "
+"khác."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"On top of that, employees working behind the counter can also take phone "
+"calls and book some courts. For this, they use the <strong><font "
+"class=\"text-o-color-1\">Appointments &gt; Resource Schedule</font></strong>"
+" menu."
+msgstr ""
+"Ngoài ra, nhân viên làm việc trong quầy cũng có thể nghe điện thoại và đặt "
+"một số sân. Để làm điều này, họ sử dụng menu <strong><font class=\"text-o-"
+"color-1\">Lịch hẹn &gt; Lên lịch tài nguyên</font></strong>."
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_7_product_template
 msgid "Pack of 3 balls"
-msgstr ""
+msgstr "Bộ 3 bóng"
 
 #. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_7
@@ -422,6 +527,8 @@ msgid ""
 "Positive energy, great team spirit, hard workers and awesome people! Gotta "
 "love those players! :-)"
 msgstr ""
+"Năng lượng tích cực, tinh thần đồng đội tuyệt vời, những con người chăm chỉ "
+"và tuyệt vời! Họ thật đáng mến! :-)"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
@@ -432,17 +539,17 @@ msgstr "Trước đó"
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_7
 msgid "Racket"
-msgstr ""
+msgstr "Vợt"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_20
 msgid "Racket Rental"
-msgstr ""
+msgstr "Thuê vợt"
 
 #. module: sports_club
 #: model:product.public.category,name:sports_club.product_public_category_2
 msgid "Rackets"
-msgstr ""
+msgstr "Vợt"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_6
@@ -452,32 +559,62 @@ msgstr "Cửa hàng"
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_3
 msgid "Snacks"
-msgstr ""
+msgstr "Đồ ăn vặt"
 
 #. module: sports_club
 #: model:crm.team,name:sports_club.crm_team_5
 msgid "Sport Club Admins"
-msgstr ""
+msgstr "QTV CLB thể thao"
 
 #. module: sports_club
 #: model:appointment.type,name:sports_club.appointment_type_1
 msgid "Sport Court Booking"
-msgstr ""
+msgstr "Đặt sân chơi thể thao"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Sports Club"
+msgstr "CLB Thể Thao"
 
 #. module: sports_club
 #: model:website.menu,name:sports_club.website_menu_11
 msgid "The Club"
-msgstr ""
+msgstr "The Club"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "The Club Sells sport gears through 2 channels:"
+msgstr "The Club bán vật dụng thể thao qua 2 kênh:"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "Then it is very easy, just"
+msgstr "Lúc này thì mọi thứ rất đơn giản, chỉ cần"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"There are two appointment types configured for the Club.<br/>\n"
+"            <br/>\n"
+"            a) The first one \"<strong><font class=\"text-o-color-1\">Court Booking</font></strong>\" allows players to book a court for a session of 60 minutes. Slots start every 30 minutes."
 msgstr ""
+"Có hai loại lịch hẹn được cấu hình cho The Club.<br/>\n"
+"<br/>\n"
+"a) Loại đầu tiên \"<strong><font class=\"text-o-color-1\">Đặt sân</font></strong>\" cho phép người chơi đặt sân cho một buổi chơi kéo dài 60 phút. Các khung giờ bắt đầu mỗi 30 phút"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"This setup is for sports clubs that rent courts to their players, handle "
+"some basic gears and have a cafeteria."
+msgstr ""
+"Thiết lập ngành này dành cho các CLB thể thao cho thuê sân cho người chơi, "
+"xử lý một số vật dụng cơ bản và có căng tin."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "Time to show who's best! Book a court and get working."
-msgstr ""
+msgstr "Đã đến lúc thể hiện ai là người giỏi nhất! Đặt sân và bắt đầu chơi."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.about-us
@@ -487,7 +624,7 @@ msgstr "Tony Fred, CEO"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "Trophies Won"
-msgstr ""
+msgstr "Cúp đã giành được"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -497,12 +634,17 @@ msgstr "Liên kết hữu ích"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "We are a team of passionate people who loves to Play.<br/>"
-msgstr ""
+msgstr "Chúng tôi là một nhóm những người đam mê và thích chơi thể thao.<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "We provide courts, greats and courses if needed."
-msgstr ""
+msgstr "Chúng tôi cung cấp sân, sàn tập và khoá học nếu cần."
+
+#. module: sports_club
+#: model_terms:web_tour.tour,rainbow_man_message:sports_club.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "Chào mừng bạn! Chúc bạn một chuyến khám phá bổ ích!"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -510,18 +652,72 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provided both a filter and a template to use.<br/>"
 msgstr ""
-"Đoạn mã động của bạn sẽ được hiển thị ở đây... Thông báo này được hiển thị "
-"vì bạn không cung cấp cả bộ lọc và mẫu để sử dụng.<br/>"
+"Đoạn snippet động của bạn sẽ được hiển thị ở đây... Thông báo này được hiển "
+"thị vì bạn không cung cấp cả bộ lọc và mẫu để sử dụng.<br/>"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"a) The Club has a bar where players can grab something to eat between games or have a beer.<br/>\n"
+"            It can be accessed in\n"
+"            <strong>\n"
+"                <font class=\"text-o-color-1\">Point of Sales &gt; Bar </font><font class=\"text-black\"><span style=\"font-weight: normal;\">and contains some basic products.</span></font>\n"
+"            </strong>\n"
+"            <br/>\n"
+"            Customers can pay by through different means, including by adding the note to their account."
+msgstr ""
+"a) The Club có một quầy bar, nơi người chơi có thể mua thứ gì đó để lót dạ giữa các buổi chơi hoặc uống bia.<br/>\n"
+"Quầy bar có thể được truy cập từ\n"
+"<strong>\n"
+"<font class=\"text-o-color-1\">Điểm bán hàng &gt; Quầy bar</font><font class=\"text-black\"><span style=\"font-weight: normal;\"> và có một số sản phẩm cơ bản.</span></font>\n"
+"\n"
+"</strong>\n"
+"<br/>\n"
+"Khách hàng có thể thanh toán bằng nhiều cách khác nhau, bao gồm cả việc thêm ghi chú vào tài khoản của họ."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "and get started!&amp;nbsp;"
+msgstr "và bắt đầu!"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"b) For players that need something on the spot, the <font class=\"text-o-"
+"color-1\"><strong>SHOP </strong></font><font class=\"text-black\">POS</font>"
+" <font class=\"text-black\">can </font>also be used."
 msgstr ""
+"b) Đối với người chơi cần mua gì đó ngay tại chỗ, bạn cũng <font "
+"class=\"text-black\">có thể</font> sử dụng <font class=\"text-o-"
+"color-1\"><strong>POS</strong></font><font class=\"text-black\"> CỬA "
+"HÀNG</font>."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"b) Planning for the Bar is also handled from Odoo. Simple <strong><font "
+"class=\"text-o-color-1\">recurring shifts</font></strong> are created and "
+"assigned to the staff members."
+msgstr ""
+"b) Kế hoạch cho Quầy bar cũng được xử lý từ Odoo. Các <strong><font "
+"class=\"text-o-color-1\">ca làm định kỳ</font></strong> đơn giản được tạo và"
+" phân công cho nhân viên."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"b) The other one, \"<strong><font class=\"text-o-color-1\">Friday night free"
+" play\"</font></strong> is only available on Fridays and allows player to "
+"join other games."
+msgstr ""
+"b) Tính năng còn lại là \"<strong><font class=\"text-o-color-1\">Tối thứ 6 "
+"chơi miễn phí</font></strong>\" chỉ có vào thứ 6 và cho phép người chơi tham"
+" gia các trò chơi khác."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "book a court"
-msgstr ""
+msgstr "đặt sân"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
@@ -536,19 +732,19 @@ msgstr "info@yourcompany.example.com"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "🤔 I don't have anyone to play with..."
-msgstr ""
+msgstr "🤔 Tôi không có ai để chơi cùng..."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "🤔 I don't know how to play..."
-msgstr ""
+msgstr "🤔 Tôi không biết chơi..."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "🤔 Where can I play...<br/>"
-msgstr ""
+msgstr "🤔 Tôi có thể chơi ở đâu...<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.homepage
 msgid "🤔I don't have a racket<br/>"
-msgstr ""
+msgstr "🤔 Tôi không có vợt<br/>"

@@ -3,16 +3,17 @@
 # 	* odoo_partner
 # 
 # Translators:
-# Wil Odoo, 2024
-# Daye Jeong, 2024
+# Sarah Park, 2025
+# Daye Jeong, 2025
+# Wil Odoo, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 08:36+0000\n"
-"PO-Revision-Date: 2024-10-06 01:20+0000\n"
-"Last-Translator: Daye Jeong, 2024\n"
+"POT-Creation-Date: 2025-03-04 09:02+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_19
 msgid "10 analysis workshops"
-msgstr ""
+msgstr "10가지 분석 워크샵"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -33,7 +34,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -43,62 +44,62 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Odoo Partners</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 파트너</strong></span>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">베이직</span>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong> 7. Provide excellent support: </strong>"
-msgstr ""
+msgstr "<strong> 7. 탁월한 지원 서비스 제공: </strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong>1. Use the CRM religiously: </strong>"
-msgstr ""
+msgstr "<strong>1. 정교한 CRM 사용:</strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong>2. Leverage quote templates: </strong>"
-msgstr ""
+msgstr "<strong>2. 견적서 템플릿 활용: </strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong>3. Standardize project management: </strong>"
-msgstr ""
+msgstr "<strong>3. 프로젝트 관리 표준화: </strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong>4. Encourage document usage: </strong>"
-msgstr ""
+msgstr "<strong>4. 문서 사용 장려: </strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong>5. Track time accurately: </strong>"
-msgstr ""
+msgstr "<strong>5. 정확한 시간 추적: </strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong>6. Plan resources effectively: </strong>"
-msgstr ""
+msgstr "<strong>6. 효과적인 리소스 계획: </strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong>8. Stay on top of invoicing: </strong>"
-msgstr ""
+msgstr "<strong>8. 프로페셔널한 청구서 발행: </strong>"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h2-fs\">성공을 위한 팁</span></strong>"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_2
 msgid "Analyse"
-msgstr ""
+msgstr "분석"
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_16
@@ -108,7 +109,7 @@ msgstr "분석"
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_20
 msgid "Analysis, estimation & report preparation"
-msgstr ""
+msgstr "분석, 추정 및 보고서 준비"
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_15
@@ -123,17 +124,17 @@ msgstr "베이직"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Become a partner"
-msgstr ""
+msgstr "파트너 등록"
 
 #. module: odoo_partner
 #: model:product.template,name:odoo_partner.product_product_5_product_template
 msgid "Business Analyst"
-msgstr ""
+msgstr "비즈니스 분석가"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "CRM 🎯"
-msgstr ""
+msgstr "CRM 🎯"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -141,49 +142,51 @@ msgid ""
 "Calculate the recommanded Success Packs for any implementation in a few click using our Project Estimator. To try it, create a new Quotation with the Template \"Success Pack\". Open the Quote Calculator selecting the smart\n"
 "                    button and try it!"
 msgstr ""
+"프로젝트 견적 계산기를 사용하여 몇 번의 클릭만으로 모든 구현에 권장되는 성공 팩을 계산하세요. 시작하려면 \"성공 팩\" 템플릿을 사용하여 새 견적을 생성하세요. 그런 다음 스마트 버튼을 선택하여 견적 계산기를 열고\n"
+"                    사용해 보세요!"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Collaborate with your team and clients"
-msgstr ""
+msgstr "회사와 고객 간의 협업"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_22
 msgid "Configuration and preparation of the project"
-msgstr ""
+msgstr "프로젝트 설정 및 준비"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Create a library of professional templates to speed up your sales process."
-msgstr ""
+msgstr "프로페셔널한 템플릿 라이브러리를 만들어 판매 프로세스의 속도를 높여 보세요."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Create a stunning Website to showcase your Odoo expertise and attract new "
 "clients."
-msgstr ""
+msgstr "멋진 웹사이트를 만들어 Odoo의 전문성을 확인할 수 있게 하여 새로운 고객을 유치하세요."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Create beautiful and comprehensive quotes with the PDF Quote Builder"
-msgstr ""
+msgstr "PDF 견적서 빌더로 멋지게 모든 내용을 담아서 견적서를 만들어 보세요."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Create project templates for common implementation types"
-msgstr ""
+msgstr "일반적인 구현 유형에 맞는 프로젝트 템플릿 생성"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_7
 msgid "Custom development"
-msgstr ""
+msgstr "맞춤형 개발"
 
 #. module: odoo_partner
 #: model:project.tags,name:odoo_partner.project_tags_3
 msgid "Customer Projects"
-msgstr ""
+msgstr "고객 프로젝트"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_10
@@ -191,11 +194,13 @@ msgid ""
 "Data mapping and transformation needs\n"
 "Imports and validation"
 msgstr ""
+"데이터 매핑 및 변환 요구 사항\n"
+"가져오기 및 검증"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_9
 msgid "Data transformation & adaptations"
-msgstr ""
+msgstr "데이터 변환 및 적용"
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_18
@@ -205,7 +210,7 @@ msgstr "배포됨"
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_4
 msgid "Deployment"
-msgstr ""
+msgstr "배포"
 
 #. module: odoo_partner
 #: model:product.template,name:odoo_partner.product_product_6_product_template
@@ -215,19 +220,19 @@ msgstr "개발자"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "더 자세히 알고 싶으신가요?"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Documents 📁"
-msgstr ""
+msgstr "문서 📁"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Don't forget to \"Save in SO\" after you've setup the estimator, it will "
 "automatically update your quotation."
-msgstr ""
+msgstr "계산기를 설정한 후에는 \"SO에 저장\" 하는 것을 잊지 마세요. 자동으로 견적이 업데이트됩니다."
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_14
@@ -243,21 +248,27 @@ msgstr "유럽"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Follow up on inquiries and proposals"
-msgstr ""
+msgstr "문의 및 제안에 대한 후속 조치"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Implement the Marketing Automation app to nurture leads and keep clients "
 "engaged."
-msgstr ""
+msgstr "마케팅 자동화 앱을 구현하여 영업제안을 육성하고 클라이언트 참여를 유지하세요."
 
 #. module: odoo_partner
+#: model:documents.document,name:odoo_partner.documents_folder_12
 #: model:project.project,name:odoo_partner.project_project_4
 #: model:project.task.type,name:odoo_partner.project_task_type_17
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_3
 msgid "Implementation"
 msgstr "구현"
+
+#. module: odoo_partner
+#: model:documents.document,name:odoo_partner.document_1
+msgid "Implementation methodology"
+msgstr "구현방법론"
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_2
@@ -267,43 +278,43 @@ msgstr "수신함"
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_8
 msgid "Installation, installation rights and configuration"
-msgstr ""
+msgstr "설치, 설치 권한 및 환경 설정"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Keep client requirements, project plans, and technical documentation in one "
 "place"
-msgstr ""
+msgstr "클라이언트 요구 사항, 프로젝트 계획 및 기술 문서를 한곳에 보관하세요"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Keep your pipeline up-to-date and set reminders for follow-ups."
-msgstr ""
+msgstr "파이프라인을 최신 상태로 유지하고 후속 조치를 위한 알림을 설정하세요."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Leverage the Sales app to create professional quotes and manage your sales "
 "process:"
-msgstr ""
+msgstr "영업 앱을 활용하여 프로페셔널하게 견적서를 제작하고 영업 프로세스를 관리하세요."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Manage your sales pipeline"
-msgstr ""
+msgstr "영업 파이프라인 관리"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Manage your team's skills and certifications with the Employees and Skills "
 "Management apps."
-msgstr ""
+msgstr "직원 및 기술 관리 앱을 통해 팀에서 보유하고 있는 기술과 인증을 관리하세요."
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_5
 msgid "Needs analysis and stakeholders onboarding"
-msgstr ""
+msgstr "니즈 분석 및 이해관계자 온보딩"
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_12
@@ -314,23 +325,23 @@ msgstr "신규"
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Odoo offers you even more possibilities to enhance your services business:"
-msgstr ""
+msgstr "Odoo에서 서비스 비즈니스를 향상시킬 수 있는 다양한 방법을 확인할 수 있습니다."
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_13
 #: model:project.task.type,name:odoo_partner.project_task_type_27
 msgid "On-going"
-msgstr ""
+msgstr "진행 중"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Organize Odoo-related events and webinars using the Events app."
-msgstr ""
+msgstr "행사 앱을 사용하여 Odoo와 관련된 행사 및 웨비나를 구성해 보세요."
 
 #. module: odoo_partner
 #: model:appointment.type,name:odoo_partner.appointment_type_2
 msgid "Personal Meeting"
-msgstr ""
+msgstr "개인 회의"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_13
@@ -345,7 +356,7 @@ msgstr "프리젠테이션"
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_21
 msgid "Presentation of results"
-msgstr ""
+msgstr "결과 프레젠테이션"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_11
@@ -360,28 +371,29 @@ msgstr "프로젝트 관리자"
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_6
 msgid "Project configuration and follow up"
-msgstr ""
+msgstr "프로젝트 환경 설정 및 후속 조치"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Projects 📊"
-msgstr ""
+msgstr "프로젝트 📊"
 
 #. module: odoo_partner
+#: model:documents.document,name:odoo_partner.documents_folder_14
 #: model:project.project,name:odoo_partner.project_project_6
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_14
 msgid "ROI Analysis"
-msgstr ""
+msgstr "ROI 분석"
 
 #. module: odoo_partner
 #: model:product.template,name:odoo_partner.product_product_7_product_template
 msgid "ROI Analysis Setup"
-msgstr ""
+msgstr "ROI 분석 설정"
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_16
 msgid "ROI Kick Off Call"
-msgstr ""
+msgstr "ROI 킥오프 콜"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -391,24 +403,29 @@ msgstr "연락하기"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Regularly review and send invoices to maintain healthy cash flow."
-msgstr ""
+msgstr "정기적으로 청구서를 검토하고 발송하여 현금 흐름을 건전하게 유지할 수 있습니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Remember that we have a whole team dedicated to your success. You want to "
 "become an Odoo Partner ?"
-msgstr ""
+msgstr "고객 여러분의 성공을 위한 전담 팀이 있다는 것을 기억하세요. Odoo 파트너가 되고 싶으신가요?"
+
+#. module: odoo_partner
+#: model:project.project,name:odoo_partner.project_project_1
+msgid "S00007 - Implementation"
+msgstr "S00007 - 구현"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Sales and Quote Management 💼"
-msgstr ""
+msgstr "영업 및 견적서 관리 💼"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Share documents securely with your team and clients"
-msgstr ""
+msgstr "회사와 고객 간의 문서 보안 공유"
 
 #. module: odoo_partner
 #: model:product.pricelist,name:odoo_partner.product_pricelist_4
@@ -418,19 +435,21 @@ msgstr "남아메리카"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Store and organize important files in the Documents app:"
-msgstr ""
+msgstr "문서 앱에 중요 파일을 저장하고 설정합니다:"
 
 #. module: odoo_partner
 #: model:product.template,name:odoo_partner.product_product_3_product_template
 msgid "Success Pack"
-msgstr ""
+msgstr "성공 팩"
 
 #. module: odoo_partner
+#: model:documents.document,name:odoo_partner.documents_folder_11
 #: model:project.project,name:odoo_partner.project_project_3
 msgid "Success Packs"
-msgstr ""
+msgstr "성공 팩"
 
 #. module: odoo_partner
+#: model:project.project,label_tasks:odoo_partner.project_project_1
 #: model:project.project,label_tasks:odoo_partner.project_project_3
 #: model:project.project,label_tasks:odoo_partner.project_project_4
 #: model:project.project,label_tasks:odoo_partner.project_project_6
@@ -447,7 +466,7 @@ msgstr "서식"
 msgid ""
 "These additional features are included in your current subscription. Feel "
 "free to explore and expand your Odoo partnership capabilities!"
-msgstr ""
+msgstr "이와 같은 추가 기능은 현재 구독 중인 요금제에 포함되어 있습니다. Odoo 파트너십 기능을 자유롭게 탐색하고 넓혀보세요!"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -456,6 +475,8 @@ msgid ""
 " precise industry. Not how to became an Odoo Partner. Reach our team if you "
 "want to start the venture with us."
 msgstr ""
+"이 가이드는 이 특정 업계에서 할 수 있는 일에 대한 매우 기본적인 개요를 제공하지만 Odoo 파트너가 되는 방법은 다루지 않습니다. "
+"우리와 함께 여정을 시작할 준비가 되셨다면 저희 팀에 문의하세요."
 
 #. module: odoo_partner
 #: model:project.task.type,name:odoo_partner.project_task_type_26
@@ -465,86 +486,86 @@ msgstr "To do"
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Track potential clients and ongoing projects"
-msgstr ""
+msgstr "잠재 고객 및 진행 중인 프로젝트 추적"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Track tasks, milestones, and deadlines"
-msgstr ""
+msgstr "작업, 마일스톤 및 마감일 추적"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Track your sales orders and revenue"
-msgstr ""
+msgstr "판매주문서 및 수익 추적"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Train your team to store and retrieve documents efficiently."
-msgstr ""
+msgstr "팀에서 문서를 효율적으로 저장하고 검색하도록 교육합니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Use project templates to ensure consistency across implementations."
-msgstr ""
+msgstr "프로젝트 템플릿을 사용하여 구현 전반에 있어 일관성을 유지합니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Use tags and folders for easy retrieval"
-msgstr ""
+msgstr "태그와 폴더를 활용한 간편한 검색"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Use the CRM app to manage your leads and opportunities:"
-msgstr ""
+msgstr "CRM 앱을 사용하여 영업제안 및 영업기회를 관리합니다:"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Use the Helpdesk app to manage client inquiries and track satisfaction "
 "levels."
-msgstr ""
+msgstr "헬프데스크 앱을 사용하여 고객 문의 사항을 관리하고 만족도를 확인합니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "Use the Quote Calculator to pre-populate your pricing and offers."
-msgstr ""
+msgstr "견적 계산기를 사용하여 가격과 제안을 미리 입력해 둡니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Use the Timesheet app to monitor project profitability and resource "
 "allocation."
-msgstr ""
+msgstr "작업 기록 앱을 사용하여 프로젝트 수익성과 리소스 할당 내용을 모니터링합니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Use the eLearning platform to offer online Odoo training courses to your "
 "clients."
-msgstr ""
+msgstr "온라인 학습 플랫폼을 사용하여 Odoo 온라인 교육 과정을 고객에게 제공합니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Utilize the Planning app to manage your team's workload and availability."
-msgstr ""
+msgstr "일정 관리 앱을 활용하여 팀의 작업량과 가용 자원을 관리합니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Utilize the Project app to manage Success Packs and large implementations:"
-msgstr ""
+msgstr "프로젝트 앱을 활용하여 성공 패키지와 대규모 구현 작업을 관리합니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid ""
 "Utilize the Survey app to gather client feedback and improve your services."
-msgstr ""
+msgstr "설문조사 앱을 활용하여 고객 피드백을 수집하고 서비스를 개선합니다."
 
 #. module: odoo_partner
 #: model:appointment.type,name:odoo_partner.appointment_type_3
 msgid "Video Call"
-msgstr ""
+msgstr "화상 통화"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -552,6 +573,8 @@ msgid ""
 "Want to create stunning Success Pack quotes in a few click? Use the PDF Quote Builder to select the relevant pages you want to integrate. As you can see, we have already prepared a bunch of great Customer Success Stories you can\n"
 "                    share to promote Odoo."
 msgstr ""
+"몇 번의 클릭만으로 인상적인 성공 팩 견적을 만들고 싶으신가요? PDF 견적서 작성기를 활용하여 포함할 관련 페이지를 선택하세요. Odoo를 홍보하기 위해 공유할 수 있는 다양한 우수 고객 성공 사례를\n"
+"                    이미 정리해 두었습니다."
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
@@ -559,26 +582,33 @@ msgid ""
 "Welcome to your Odoo Partners package! This guide will help you navigate the"
 " key features and optimize your Odoo partnership business."
 msgstr ""
+"Odoo 파트너 패키지에 오신 것을 환영합니다! 이 가이드를 통해 주요 기능을 탐색하고 Odoo 파트너로서 비즈니스를 최적화할 수 있도록"
+" 도와 드립니다."
+
+#. module: odoo_partner
+#: model_terms:web_tour.tour,rainbow_man_message:odoo_partner.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "환영합니다! 마음껏 둘러 보세요."
 
 #. module: odoo_partner
 #: model:sale.order.template.line,name:odoo_partner.sale_order_template_line_18
 msgid "Workshops preparation"
-msgstr ""
+msgstr "워크샵 준비"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "🎓 CRM"
-msgstr ""
+msgstr "🎓 CRM"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "🎓 Documents"
-msgstr ""
+msgstr "🎓 문서"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body
 msgid "🎓 Projects"
-msgstr ""
+msgstr "🎓 프로젝트"
 
 #. module: odoo_partner
 #: model_terms:ir.ui.view,arch_db:odoo_partner.welcome_article_body

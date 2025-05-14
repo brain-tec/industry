@@ -3,16 +3,16 @@
 # 	* condominium
 # 
 # Translators:
-# Tony Ng, 2024
-# Wil Odoo, 2024
+# Wil Odoo, 2025
+# Tony Ng, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 09:33+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2025-02-20 15:15+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Tony Ng, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,9 +21,79 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.active_unit_field
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+".\n"
+"            As soon as a bill is booked, you can use the button \"Distribute Cost\" to automatically reflect the cost per property according to the distribution key."
+msgstr ""
+"。\n"
+"            賬單入賬後，你可使用「分配成本」按鈕，自動按照分配索引去反映每項物業的成本。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "<span class=\"fw-bold\">Address</span>"
+msgstr "<span class=\"fw-bold\">地址</span>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"A condominium works like a company. It gets revenues from the owners. These "
+"are collected in two bank accounts that can be directly integrated with the "
+"bank:"
+msgstr "經營公寓與一間公司的運作方式類似，會從住戶獲得收入，然後以兩個可直接與銀行整合的銀行賬戶，去收集這些資金："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"A name to identify the property, for example the post box or the "
+"identification code."
+msgstr "用於識別物業的名稱，例如郵箱或識別號碼。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Accounting opening/handover<br/>"
+msgstr "帳戶開立/交接<br/>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Act analysis"
+msgstr "行為分析"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.active_buildings
+#: model:ir.model.fields,field_description:condominium.active_properties_type
+#: model:ir.model.fields,field_description:condominium.active_ratios_field
 msgid "Active"
-msgstr "生效"
+msgstr "啟用"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Add the corresponding product(s): \"Working Fund\", \"Reserve Fund\", "
+"\"Service Fees\", etc."
+msgstr "加入相應的產品：「運作資金」、「儲備資金」、「服務收費」等。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Again, feel free to edit and/or create new tasks to never forget a step "
+"during the kick-off process."
+msgstr "再次提醒，你可隨意編輯及/或建立新任務，便不怕遺漏啟動過程的任何步驟。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_714_product_template
+msgid "Air and smoke extractors"
+msgstr "抽氣及排煙機"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_713_product_template
+msgid "Air conditioning and air treatment"
+msgstr "空氣調節及處理"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_7_product_template
@@ -33,19 +103,59 @@ msgid ""
 msgstr "所有其他額外服務，將按每小時收費率開立發票。有關每小時收費率的更多資訊，請參閱條款及細則"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_1
-msgid "Apartment A01"
-msgstr "單位 A01"
+#: model:product.template,name:condominium.product_product_698_product_template
+msgid "Allocations (provisions)"
+msgstr "撥備（準備金）"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_3
-msgid "Apartment A02"
-msgstr "單位 A02"
+#: model:product.template,name:condominium.product_product_696_product_template
+msgid "Amortization on intangible assets"
+msgstr "無形資產攤銷"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_4
-msgid "Apartment A03"
-msgstr "單位 A03"
+#: model:product.template,name:condominium.product_product_697_product_template
+msgid "Amortization on tangible assets"
+msgstr "有形資產攤銷"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_1
+msgid "Apartment"
+msgstr "公寓單位"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_12
+msgid "Apartment A0"
+msgstr "單位 A0"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_14
+msgid "Apartment A1"
+msgstr "單位 A1"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_15
+msgid "Apartment A2"
+msgstr "單位 A2"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_17
+msgid "Apartment B0"
+msgstr "單位 B0"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_19
+msgid "Apartment B1.1"
+msgstr "單位 B1.1"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_18
+msgid "Apartment B1.2"
+msgstr "單位 B1.2"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+msgid "Apartment..."
+msgstr "公寓單位⋯"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_15_product_template
@@ -56,74 +166,304 @@ msgid ""
 msgstr "每項物業每月約 $80。有關服務收費涵蓋範圍的更多資訊，請參閱條款及細則"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.search_view_x_units
+#: model:product.template,name:condominium.product_product_784_product_template
+msgid "Architect/engineer fees"
+msgstr "建築師/工程師費用"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_building
+#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_for_x_ratios
+#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_property_type
 msgid "Archived"
 msgstr "已封存"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.area_units
+#: model:product.template,name:condominium.product_product_808_product_template
+msgid "Archives fees"
+msgstr "存檔費用"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_area_field
+#: model:ir.model.fields,field_description:condominium.x_area_related_field
 msgid "Area"
 msgstr "面積"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.area_percent_units
-msgid "Area %"
-msgstr "面積 %"
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+msgid "Area as distribution key"
+msgstr "以面積作為分佈索引"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_2
-msgid "Building A"
-msgstr "A 大樓"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Artificial Intelligence"
+msgstr "人工智能"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_11
-msgid "Building B"
-msgstr "B 大樓"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"As soon as a condominium reaches out to you to get a quote, quickly send them an overview of your services and fees by creating\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Quotations</font> in the Sales application where you can directly use the \"Kick-Off Quote\" quotation template. This will automatically fill the quote by adding the kick-off fees\n"
+"            and also the price of all the extra services such as the recurring contribution, the hourly rate, etc. Don't forget to attach the terms &amp; conditions as well. Of course, the price of each service and the content of the\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Quotation Templates</font> can be adapted accordingly."
+msgstr ""
+"公寓聯絡你索取報價時，你可在銷售應用程式中，直接使用「啟始報價」報價單範本，建立一份\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">報價單</font> ，快速向他們傳送你的服務資料及費用概覽。系統會自動填入專案項目啟始費用，\n"
+"            以及所有額外服務的價格（例如經常收費、每小時收費等），自動為你填寫報價單。記得附上條款及條件。當然，各項服務的價格，以及\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">報價單範本</font>的內容，可以隨後修改。"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_12
-msgid "Building C"
-msgstr "C 大樓"
+#: model:ir.model.fields,field_description:condominium.meter_image
+msgid "Attachment"
+msgstr "附件"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_13
-msgid "Building D"
-msgstr "D 大樓"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Audit"
+msgstr "審計"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_14
-msgid "Building E"
-msgstr "E 大樓"
+#: model:product.template,name:condominium.product_product_712_product_template
+msgid "Auxiliary groups"
+msgstr "輔助組織"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.color_units_tag
+#: model:product.template,name:condominium.product_product_667_product_template
+msgid "Bank fees and debt charges"
+msgstr "銀行費用及債務還款"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_5
+msgid "Basement"
+msgstr "地庫"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_16
+msgid "Basement AB"
+msgstr "地庫 AB"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_753_product_template
+msgid "Basement maintenance"
+msgstr "地庫保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_710_product_template
+msgid "Bell and intercom maintenance"
+msgstr "門鐘及對講機保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_811_product_template
+msgid "Boiler maintenance contracts"
+msgstr "鍋爐保養合約"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Book the right numbers 🧮"
+msgstr "記賬工作正確無誤 🧮"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_building_field
+#: model:ir.model.fields,field_description:condominium.x_building_related_field
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "Building"
+msgstr "大廈"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_6
+msgid "Building 1"
+msgstr "大樓 1"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_7
+msgid "Building 2"
+msgstr "大樓 2"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_condominium_account_analytic_account_count
+msgid "Building Condominium count"
+msgstr "建築物公寓數目"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_732_product_template
+msgid "Building cleaning under contract"
+msgstr "大樓合約清潔服務"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_x_building_account_analytic_account_count_field
+msgid "Building count"
+msgstr "建築物數目"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.bu_act_window
+#: model:ir.actions.act_window,name:condominium.buildings_act_window
+#: model:ir.model,name:condominium.model_buildings
+#: model:ir.ui.menu,name:condominium.building_menu
+#: model:ir.ui.menu,name:condominium.conf_building_menu
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Buildings"
+msgstr "建築物"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.buildings_tags_act_window
+#: model:ir.model,name:condominium.model_buildings_tags
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
+msgid "Buildings Tags"
+msgstr "建築物標籤"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Business Flows"
+msgstr "業務流程"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"By the end of the period, easily generate the legal reporting such as "
+"Balance Sheet and Profit &amp; Loss for each condominium."
+msgstr "接近期末時，你可輕鬆為每間公寓產生法律報表，例如資產負債表、損益表等。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_781_product_template
+msgid "Cable distribution"
+msgstr "纜線分配"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Call for working and reserve funds"
+msgstr "籌募運作資金及儲備資金"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_664_product_template
+msgid "Capital losses on the realization of receivables"
+msgstr "應收款項實現時的資本虧損"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_726_product_template
+msgid "Carpentry maintenance contracts"
+msgstr "木工保養合約"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Check if everything is correct. If yes, select all the quotations and, under"
+" the \"Actions\" button, click on \"Confirm\"."
+msgstr "檢查所有資料是否正確。核實後，選取所有報價單，然後在「動作」按鈕下方，按一下「確認」。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_752_product_template
+msgid "Chimney and ventilation duct maintenance"
+msgstr "煙囪及通風管道保養"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.city
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "City"
+msgstr "城市"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_678_product_template
+msgid "Civil liability"
+msgstr "民事責任"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_735_product_template
+msgid "Cleaning equipment"
+msgstr "清潔設備"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_734_product_template
+msgid "Cleaning products"
+msgstr "清潔產品"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Click on \"Split per Property\" button: this will cancel the current "
+"quotation and will create as many quotations as there are properties in the "
+"condominium for which the costs are shared."
+msgstr "按一下「按物業分拆」按鈕：會取消目前報價單，並為攤分成本的每項公寓物業，建立各自的報價單。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Click on the \"Sales Orders\" buttons to access all the generated "
+"quotations."
+msgstr "按一下「銷售單」按鈕，以查閱所有產生的報價單。"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.color_buildings_tags
+#: model:ir.model.fields,field_description:condominium.color_properties_tag
 msgid "Color"
 msgstr "顏色"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_9_product_template
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_11
 msgid "Communication of information to the notary"
 msgstr "向公證人傳達資訊"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.condominium_id_field
-#: model_terms:ir.ui.view,arch_db:condominium.search_view_x_units
+#: model:ir.model.fields,field_description:condominium.company_buildings
+#: model:ir.model.fields,field_description:condominium.company_ratios_field
+msgid "Company"
+msgstr "公司"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_company_partner_id
+msgid "Company partner"
+msgstr "公司合作夥伴"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_788_product_template
+msgid "Compensation for members of the internal council and internal auditor"
+msgstr "內部委員會成員及內部審計員酬金"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_actions_server_compute_ratio
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+msgid "Compute Ratios"
+msgstr "計算比率"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_693_product_template
+msgid "Concierge charges"
+msgstr "禮賓部費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_694_product_template
+msgid "Concierge maintenance"
+msgstr "禮賓部保養"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.condo_act_window
+#: model:ir.model.fields,field_description:condominium.building_condominium
+#: model:ir.model.fields,field_description:condominium.x_condominium_field
+#: model:ir.ui.menu,name:condominium.condo_menu
+#: model:ir.ui.menu,name:condominium.infra_condo_menu
 msgid "Condominium"
 msgstr "公寓"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.condominium_units_ids_field
-#: model:ir.model.fields,field_description:condominium.related_condominium_units
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_custom
-msgid "Condominium Units"
-msgstr "公寓單位"
+#: model:ir.model.fields,field_description:condominium.condominium_property_ids
+msgid "Condominium Properties"
+msgstr "公寓屬性"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.condominiums_ids_field
-#: model:ir.model.fields,field_description:condominium.related_condominium_ids
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Condominium creation in Odoo (see <em>Quickly Set Up a Condominium 🚀 "
+"</em>section)"
+msgstr "在 Odoo 系統中建立公寓記錄（請參閱「快速設置公寓 🚀」<em></em>章節）"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_custom
 msgid "Condominiums"
 msgstr "公寓"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.config_menu
+msgid "Configuration"
+msgstr "配置"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_confirm_action
@@ -131,40 +471,150 @@ msgid "Confirm"
 msgstr "確認"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Contacts"
+msgstr "聯絡人"
+
+#. module: condominium
 #: model:product.template,description_sale:condominium.product_product_4_product_template
 msgid ""
 "Contracts establishment\n"
-"Co-ownership creation in the software\n"
-"Act analysis\n"
-"Insurance analysis\n"
-"Identification forms creation\n"
-"Audit\n"
-"Opening/handover bank account(s) and company number\n"
-"Meters reading\n"
-"Call for funds and provisions\n"
-"Organization of general meeting"
+"    Co-ownership creation in the software\n"
+"    Act analysis\n"
+"    Insurance analysis\n"
+"    Identification forms creation\n"
+"    Audit\n"
+"    Opening/handover bank account(s) and company number\n"
+"    Meters reading\n"
+"    Call for funds and provisions\n"
+"    Organization of general meeting"
 msgstr ""
 "建立合約\n"
-"在軟體中建立共同業權\n"
-"行為分析\n"
-"保險分析\n"
-"建立身份證明表單\n"
-"審計\n"
-"開設/移交銀行賬戶及公司編號\n"
-"儀錶讀數\n"
-"籌募資金及準備金\n"
-"組織業主大會"
+"    在軟體中建立共同業權\n"
+"    行為分析\n"
+"    保險分析\n"
+"    建立身份證明表單\n"
+"    審計\n"
+"    開設/移交銀行賬戶及公司編號\n"
+"    儀錶讀數\n"
+"    籌募資金及準備金\n"
+"    組織業主大會"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.description_units
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Contracts establishment<br/>"
+msgstr "建立合約<br/>"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.country
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Country"
+msgstr "國家/地區"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_action_create_condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Create Condominium"
+msgstr "建立公寓"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.buildings_act_window
+msgid "Create and manage the buildings that compose this condominium<br>"
+msgstr "建立及管理構成此公寓的建築物<br>"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.properties_act_window
+msgid "Create and manage the properties that compose this condominium"
+msgstr "建立及管理構成此公寓的物業"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Create the buildings that compounds the condominium."
+msgstr "建立組成公寓的建築物。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Create the properties that compounds the buildings: apartment, studio, flat,"
+" penthouse, garage, etc."
+msgstr "建立組成建築物的物業：公寓單位、開放式單位、單位、頂層公寓、車庫等。"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meters_currency
+msgid "Currency"
+msgstr "貨幣"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_686_product_template
+#: model:product.template,name:condominium.product_product_810_product_template
+msgid "Damages or expenses not covered by insurance"
+msgstr "保險未涵蓋的損壞或開支"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_date
+msgid "Date"
+msgstr "日期"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_684_product_template
+msgid "Deductible (insurance)"
+msgstr "自付額（保險）"
+
+#. module: condominium
+#: model:product.pricelist,name:condominium.product_pricelist_1
+msgid "Default"
+msgstr "預設"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_670_product_template
+msgid "Deferred values"
+msgstr "遞延數值"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Define a recurring plan, monthly or yearly."
+msgstr "定義一個重複性計劃，重複周期可以是每月或每年。"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.description_building
+#: model:ir.model.fields,field_description:condominium.description_property_types
+#: model:ir.model.fields,field_description:condominium.description_ratios_field
+#: model:ir.model.fields,field_description:condominium.field_meters_name
+#: model:ir.model.fields,field_description:condominium.field_meters_reading_description
 msgid "Description"
 msgstr "說明"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_6
-#: model:documents.folder,name:condominium.documents_folder_14
+#: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+msgid "Distribute Costs"
+msgstr "分攤成本"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_distribution_key_field
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_list_custom_view
+#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+msgid "Distribution Key"
+msgstr "分佈索引"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.distribution_keys_act_window
+#: model:ir.ui.menu,name:condominium.infra_distribution_menu
+msgid "Distribution Keys"
+msgstr "分佈索引"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_799_product_template
+msgid "Document translation"
+msgstr "文件翻譯"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.owners_docs_menu
+msgid "Documents"
+msgstr "文件"
+
+#. module: condominium
 #: model:helpdesk.team,name:condominium.helpdesk_team_4
-#: model:project.project,name:condominium.project_project_6
 msgid "Dominican Condominium"
 msgstr "多明尼加公寓"
 
@@ -174,33 +624,290 @@ msgid "Done"
 msgstr "完成"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.email_units
-msgid "Email"
-msgstr "電郵"
+#: model:product.template,name:condominium.product_product_723_product_template
+msgid "Drainage, sewers, and pumping installations maintenance"
+msgstr "排水、污水及抽水裝置保養"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_act_server_set_condominiums_on_partner
-msgid "Execute Code"
-msgstr "執行程式碼"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"During the general meetings, counting the votes depending on the ownership percentage could be painful. From the properties screen, select all the properties of the corresponding condominium and insert them in a spreadsheet by using the\n"
+"            said feature under the Actions menu."
+msgstr ""
+"舉行業主大會期間，若需要按業權比例點算選票，可能會很痛苦。你可在「物業」畫面，選擇相關公寓的所有物業，並將資料插入試算表中，\n"
+"            方法是進入「操作」選單內，使用上述功能。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Each owner has to pay recurring fees:"
+msgstr "每位業主/住戶，都必須支付經常費用："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Each property is characterized by:"
+msgstr "每項物業的特點是："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Easily convert the condominiums 🖋️"
+msgstr "輕鬆轉換公寓 🖋️"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Efficiently count the votes 🙋‍♂️"
+msgstr "高效率點算票數 🙋‍♂️"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_707_product_template
+msgid "Electrical installations inspections"
+msgstr "電力裝置檢查"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_708_product_template
+msgid "Electrical installations maintenance contracts"
+msgstr "電力裝置保養合約"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_711_product_template
+msgid "Electrical installations renovation"
+msgstr "電力裝置翻新"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_772_product_template
+msgid "Electricity for common areas"
+msgstr "公用地方用電"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_688_product_template
+msgid "Electricity for concierge"
+msgstr "禮賓部用電"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_705_product_template
+msgid "Elevator adaptation work"
+msgstr "升降機調整工作"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_773_product_template
+msgid "Elevator electricity"
+msgstr "升降機電力"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_701_product_template
+msgid "Elevator inspections"
+msgstr "升降機檢查"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_703_product_template
+msgid "Elevator maintenance and repairs not covered by contracts"
+msgstr "升降機保養及維修不受合約涵蓋"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_702_product_template
+msgid "Elevator maintenance contracts"
+msgstr "升降機保養合約"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_704_product_template
+msgid "Emergency elevator phone"
+msgstr "升降機緊急電話"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.employees_act_window
+#: model:ir.ui.menu,name:condominium.purchase_employee_menu
+msgid "Employees"
+msgstr "員工"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_660_product_template
+msgid "Employer contributions for extra-legal insurance"
+msgstr "法定以外保險僱主供款"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_659_product_template
+msgid "Employer contributions for social insurance"
+msgstr "社會保障僱主供款"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Every year, a general meeting is scheduled to talk about the financial statements, to take important decisions and so on. This event can easily be scheduled in the Calendar app by creating\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Meetings</font>. To invite all the owners of a condominium, use the \"Search More\" on \"Attendees\" and type the name of the condominium in... \"Condominiums\"."
+msgstr ""
+"協會需要每年召開業主大會，討論財務報表及作出重要決定等。要預先安排此活動也很簡單，只需建立\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">會議</font>，便可在日曆應用程式中排期。若想邀請公寓的所有業主參加，可在「參加者」欄位選擇「搜尋更多」，然後在「公寓」中輸入公寓的名稱。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_785_product_template
+msgid "Expert fees"
+msgstr "專家顧問費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_674_product_template
+msgid "Extension work"
+msgstr "擴充工作"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_786_product_template
+msgid "External auditor fees"
+msgstr "外部審計費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_728_product_template
+msgid "External carpentry maintenance"
+msgstr "外間提供的木工保養"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_8_product_template
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_9
 msgid "Extraordinary General Meeting"
 msgstr "特別全體會議"
 
 #. module: condominium
+#: model:product.template,name:condominium.product_product_669_product_template
+msgid "Extraordinary work expenses"
+msgstr "特殊工作開支"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Fairly split the costs ⚖️"
+msgstr "公平攤分成本 ⚖️"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_749_product_template
+msgid "Façade maintenance"
+msgstr "外牆保養"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Finally, you can also define the distribution keys per property. The goal is"
+" to assign a ratio for each property that will be used for splitting the "
+"fees per owner and for distributing the costs."
+msgstr "最後，你也可為每項物業，定義不同的分佈索引。這樣做的目標是為每項物業分配一個比率，用於將費用攤分至每名業主，以及用於成本分佈。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_677_product_template
+msgid "Fire insurance"
+msgstr "火災保險"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_10_product_template
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_15
 msgid "First Reminder"
 msgstr "第一次提醒"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_5
-#: model:documents.folder,name:condominium.documents_folder_13
-#: model:project.project,name:condominium.project_project_5
+#: model:product.template,name:condominium.product_product_776_product_template
+msgid "Fixed fee and gas consumption"
+msgstr "固定費用及燃氣消耗"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_766_product_template
+msgid "Fixed fee and water consumption"
+msgstr "固定費用及用水"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_floor_field
+#: model:ir.model.fields,field_description:condominium.x_floor_related_field
+msgid "Floor"
+msgstr "樓層"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"For example, to collect the cotisations, the selected company must be the condominium and the customer must be the condominium too. If you want to invoice your services, the selected company must be yours and the customer must be the\n"
+"            condominium to be invoiced."
+msgstr ""
+"例如，要收取費用，所選公司必須是公寓，而客戶也必須是公寓。如果想為服務開立發票，所選公司必須是你的公司，而客戶必須是\n"
+"            要開立發票的公寓。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_748_product_template
+msgid "Foundation maintenance"
+msgstr "地基保養"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"From the Settings, create a new company in <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Companies</font>. Once done, it will appear on the top right of all screens with the aim to quickly switch between your company and the\n"
+"            different condominiums."
+msgstr ""
+"在設定頁面的「<font class=\"text-o-color-1\" style=\"font-weight: bolder;\">公司</font>」中，建立一間新的公司。完成後，該公司會在所有畫面的右上角顯示，\n"
+"            以便你可在公司與不同公寓之間快速切換。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_780_product_template
+msgid "Fuel oil deliveries"
+msgstr "燃料及燃油供應費用"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_4
+msgid "Garage"
+msgstr "車庫"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_13
+msgid "Garage AG"
+msgstr "車庫 AG"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_727_product_template
+msgid "Garage door maintenance"
+msgstr "車庫門保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_743_product_template
+msgid "Garden and immediate surroundings layout"
+msgstr "花園及周邊環境佈局"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_741_product_template
+msgid "Garden and immediate surroundings maintenance under contract"
+msgstr "花園及周邊環境合約保養服務"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_690_product_template
+msgid "Gas for concierge"
+msgstr "禮賓部燃氣"
+
+#. module: condominium
+#: model:helpdesk.team,name:condominium.helpdesk_team_1
 msgid "Green Island Property"
 msgstr "綠島地產"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_754_product_template
+msgid "Hall, stairwell, and corridor maintenance work"
+msgstr "大廳、樓梯井及走廊保養工作"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_774_product_template
+msgid "Heating and sanitary electricity"
+msgstr "供暖及衛生設施用電"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_691_product_template
+msgid "Heating for concierge"
+msgstr "禮賓部供暖"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_716_product_template
+msgid "Heating installations inspections"
+msgstr "供暖裝置檢查"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_717_product_template
+msgid "Heating maintenance contracts"
+msgstr "供暖設備保養合約"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_721_product_template
+msgid "Heating pipes maintenance"
+msgstr "供暖管道保養"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.owners_help_menu
+msgid "Helpdesk"
+msgstr "技術支援"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_7_product_template
@@ -208,18 +915,95 @@ msgid "Hourly Rate"
 msgstr "每小時收費率"
 
 #. module: condominium
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_8
-msgid ""
-"Hourly Rate\n"
-"All other extra services will be invoiced at the hourly rate, See Terms & Condition for further information about the hourly rate"
-msgstr ""
-"按小時收費\n"
-"所有其他額外服務，將按每小時收費率開立發票。有關每小時收費率的更多資訊，請參閱條款及細則"
+#: model:x_properties_types,x_name:condominium.x_properties_types_2
+msgid "House"
+msgstr "房屋"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.image_units
+#: model:account.analytic.account,name:condominium.account_analytic_account_20
+msgid "House C1"
+msgstr "獨立屋 C1"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_738_product_template
+msgid "Household waste / PMC / paper and glass products"
+msgstr "家居垃圾 / 塑膠、金屬及紙盒 / 廢紙及玻璃製品"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_736_product_template
+msgid "Household waste / PMC / paper and glass under contract"
+msgstr "家居垃圾 / 塑膠、金屬及紙盒 / 廢紙及玻璃合約回收服務"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"If there is no distribution keys set, the area will be used as default key."
+msgstr "若未有設定分佈索引，會使用面積作為預設索引。"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.image_buildings
 msgid "Image"
 msgstr "圖片"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In case of recurring fees, the invoices will be automatically generated by "
+"Odoo at the right date. If not, you can manually post them in mass. Then "
+"just send them using your preferred way!"
+msgstr "若有經常費用，Odoo 會在正確的日期，自動產生發票。如果沒有，你也可手動進行大批過賬。之後，使用你喜歡的方式發送即可！"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "In case of recurring fees:"
+msgstr "若是經常費用："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In the Sales application, create a quotation and set the condominium as "
+"customer."
+msgstr "在銷售應用程式中，建立報價單，並將公寓設為客戶。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In their day to day, the owners and the tenants can face some issues. In order to collect and centralize them, use the <strong><font class=\"text-o-color-1\">Helpdesk</font></strong> application. Thereby, each member can send an email\n"
+"            that will be caught in the right helpdesk team. This eases the follow-up and the invoicing in case the time spent is not covered by the service fees."
+msgstr ""
+"在日常生活中，業主及租戶可能會面對一些問題。為了收集及集中處理這些資料，你可使用<strong><font class=\"text-o-color-1\">幫助台</font></strong>應用程式。使用後，每名成員都可發送電郵報告事故，\n"
+"            相關電郵會分派至適當的幫助台團隊。若服務費用不包括所花費的工時成本，此功能可簡化後續跟進及開立發票的工作。"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.condominium_act_window
+#: model:ir.ui.menu,name:condominium.infra_menu
+msgid "Infrastructure"
+msgstr "基礎設施"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_681_product_template
+msgid "Insurance for members of the internal council and auditor"
+msgstr "內部委員會成員及審計員保險"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Insurances analysis"
+msgstr "保險分析"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_729_product_template
+msgid "Internal carpentry maintenance"
+msgstr "內部木工保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_806_product_template
+msgid "Internet information communication"
+msgstr "互聯網及通訊"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_is_a_property
+msgid "Is a property"
+msgstr "是一項物業"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_4_product_template
@@ -227,38 +1011,114 @@ msgid "Kick-Off Fees"
 msgstr "專案起始費用"
 
 #. module: condominium
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_2
-msgid ""
-"Kick-Off Fees\n"
-"Contracts establishment\n"
-"Co-ownership creation in the software\n"
-"Act analysis\n"
-"Insurance analysis\n"
-"Identification forms creation\n"
-"Audit\n"
-"Opening/handover bank account(s) and company number\n"
-"Meters reading\n"
-"Call for funds and provisions\n"
-"Organization of general meeting"
-msgstr ""
-"啟動費用\n"
-"建立合約\n"
-"在軟體中建立共同業權\n"
-"行為分析\n"
-"保險分析\n"
-"建立身份證明表單\n"
-"審計\n"
-"開設/移交銀行賬戶及公司編號\n"
-"儀錶讀數\n"
-"籌募資金及準備金\n"
-"組織業主大會"
-
-#. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_4
-#: model:documents.folder,name:condominium.documents_folder_11
+#: model:documents.document,name:condominium.documents_folder_11
 #: model:project.project,name:condominium.project_project_4
 msgid "Kick-Off Template"
 msgstr "專案起始範本"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Kick-off meeting"
+msgstr "啟動會議"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_763_product_template
+msgid "Laundry charges"
+msgstr "洗衣費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_783_product_template
+msgid "Lawyer fees"
+msgstr "律師費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_683_product_template
+msgid "Legal assistance"
+msgstr "法律援助"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_800_product_template
+msgid "Legal fees for recovering co-owners' arrears"
+msgstr "追討共同業權人欠款的法律費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_700_product_template
+msgid "Maintenance contracts"
+msgstr "保養合約"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Make sure that the products added are recurring."
+msgstr "請確保加入的產品是定期收費的。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Manage Companies"
+msgstr "管理公司"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.employees_act_window
+msgid "Manage the employees working for this condominium<br>"
+msgstr "管理此公寓的工作人員<br>"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.owners_act_window
+msgid "Manage the owners of this condominium<br>"
+msgstr "管理此公寓的業主<br>"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.vendors_act_window
+msgid "Manage the vendors related to this condominium<br>"
+msgstr "管理與此公寓相關的供應商<br>"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_796_product_template
+msgid "Meeting consumables"
+msgstr "會議消耗品"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_795_product_template
+msgid "Meeting room usage"
+msgstr "會議室使用"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_meter_id
+msgid "Meter"
+msgstr "讀數錶"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
+#: model:ir.model,name:condominium.model_meter_reading
+msgid "Meter Reading"
+msgstr "抄錶讀數"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_meter_reading_ids
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+msgid "Meter Readings"
+msgstr "抄錶讀數"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_724_product_template
+msgid "Meter readings"
+msgstr "抄錶讀數"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.action_configuration_meters
+#: model:ir.model,name:condominium.model_meters
+#: model:ir.ui.menu,name:condominium.condo_meters
+msgid "Meters"
+msgstr "讀數錶"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Meters reading"
+msgstr "抄錶讀數"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_665_product_template
+msgid "Miscellaneous expenses"
+msgstr "雜項開支"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_15_product_template
@@ -266,15 +1126,27 @@ msgid "Monthly Service Fees"
 msgstr "每月服務費"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.name_units_tags
+#: model:ir.model.fields,field_description:condominium.name_buildings_tags
+#: model:ir.model.fields,field_description:condominium.name_properties_tags
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Name"
 msgstr "名稱"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.form_view_x_units
-#: model_terms:ir.ui.view,arch_db:condominium.form_view_x_units_tag
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Name or reference..."
+msgstr "名稱或參考編號⋯"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
 msgid "Name..."
 msgstr "名稱⋯"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Never forget a task 📑"
+msgstr "永不再怕遺漏任務 📑"
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_26
@@ -282,7 +1154,17 @@ msgid "New"
 msgstr "新增"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.notes_units
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "New condominiums should be created as companies from the settings"
+msgstr "新的公寓應在設定頁面中，以公司形式建立"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_682_product_template
+msgid "Non-professional trustee liability"
+msgstr "非專業受託人責任"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.notes_buildings
 msgid "Notes"
 msgstr "備註"
 
@@ -292,9 +1174,46 @@ msgid "Offboarding"
 msgstr "離開手續"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"On the one hand, the funds requests are sent by the condominium to the "
+"owners. On the other hand, the service fees can be invoiced by \"My "
+"Condominium Management\" to the owners. Here are the steps to follow:"
+msgstr "一方面，公寓會向業主發出收款要求，而另一邊廂，服務費可透過「我的公寓管理」，向業主開立發票。以下是需要跟從的步驟："
+
+#. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_7
 msgid "On-Demand Fees"
 msgstr "按需費用"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Once done, it is time to create the composition of the condominium by "
+"selecting the right one on the top right of the screen. Then, open the "
+"<strong><font class=\"text-o-color-1\">Condominium</font></strong> app where"
+" you can:"
+msgstr ""
+"完成後，便需要建立公寓的組成項目，方法是在畫面右上角，選擇正確的項目。然後，開啟<strong><font class=\"text-o-"
+"color-1\">公寓</font></strong>應用程式。在該處，你可以："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Once the quotation is confirmed, it automatically creates <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Projects</font> including several tasks to properly start the collaboration. This is based on the\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Kick-Off Template</font> Template project:"
+msgstr ""
+"確認報價後，系統會自動建立<font class=\"text-o-color-1\" style=\"font-weight: bolder;\">專案</font>，裏面已有幾個任務，讓你妥善開展協作。詳細資料是根據「\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">起動範本</font>」專案範本設定的："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Once the quotation is confirmed, the condominium should be created in Odoo. "
+"Basically, a<strong> </strong>condominium is like a company that is funded "
+"by the owners and that has to pay for operating costs."
+msgstr ""
+"報價確認後，應會自動在 Odoo 中建立公寓記錄。基本上，<strong></strong>公寓就像一間由所有業主合資資助的公司，而且必須支付營運成本。"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_4
@@ -302,44 +1221,313 @@ msgid "One-Time Fees"
 msgstr "單次費用"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.contact_units
-#: model_terms:ir.ui.view,arch_db:condominium.map_view_x_units
+#: model:ir.actions.server,name:condominium.action_view_company_partner
+msgid "Open company partner form view"
+msgstr "開啟公司夥伴表單檢視畫面"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_7
+msgid "Other"
+msgstr "其他"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_733_product_template
+msgid "Other building cleaning"
+msgstr "其他大樓清潔"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_731_product_template
+msgid "Other carpentry work"
+msgstr "其他木工工作"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_695_product_template
+msgid "Other concierge expenses"
+msgstr "禮賓部其他開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_790_product_template
+msgid "Other condominium council expenses"
+msgstr "公寓委員會其他開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_709_product_template
+msgid "Other electrical installations maintenance"
+msgstr "其他電力裝置保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_775_product_template
+msgid "Other electricity expenses"
+msgstr "其他電費開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_706_product_template
+msgid "Other elevator charges"
+msgstr "其他升降機費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_787_product_template
+msgid "Other fees"
+msgstr "其他費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_742_product_template
+msgid "Other garden and immediate surroundings maintenance"
+msgstr "花園及周邊環境其他保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_777_product_template
+msgid "Other gas expenses"
+msgstr "其他燃氣開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_718_product_template
+msgid "Other heating maintenance"
+msgstr "其他供暖設備保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_737_product_template
+msgid "Other household waste / PMC / paper and glass"
+msgstr "其他家居垃圾 / 塑膠、金屬及紙盒 / 廢紙及玻璃"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_685_product_template
+msgid "Other insurance"
+msgstr "其他保險"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_801_product_template
+msgid "Other legal fees"
+msgstr "其他法律費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_809_product_template
+msgid "Other management fees"
+msgstr "其他管理費"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_797_product_template
+msgid "Other meeting expenses"
+msgstr "其他會議開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_745_product_template
+msgid "Other parking, paths, and surroundings maintenance"
+msgstr "停車場、行人徑及周邊環境其他保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_661_product_template
+msgid "Other personnel expenses"
+msgstr "其他人事開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_805_product_template
+msgid "Other property transfer fees"
+msgstr "其他物業轉讓費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_725_product_template
+msgid "Other sanitary and heating maintenance"
+msgstr "其他衛生及供暖設備保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_676_product_template
+msgid "Other supplies"
+msgstr "其他用品"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_769_product_template
+msgid "Other supplies for water softener"
+msgstr "軟水機其他用品"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_761_product_template
+msgid "Other swimming pool expenses"
+msgstr "其他游泳池開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_757_product_template
+msgid "Other swimming pool/technical installations maintenance"
+msgstr "其他游泳池/技術裝置保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_794_product_template
+msgid "Other trustee expenses"
+msgstr "其他受託人開支"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_740_product_template
+msgid "Other waste cleaning and treatment"
+msgstr "其他垃圾清潔及處理"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_771_product_template
+msgid "Other water expenses"
+msgstr "其他水費開支"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_owner_field
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "Owner"
 msgstr "所有者"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.search_view_x_units
-msgid "Partner"
-msgstr "業務夥伴"
+#: model:ir.actions.act_window,name:condominium.owners_act_window
+#: model:ir.ui.menu,name:condominium.owners_menu
+#: model:ir.ui.menu,name:condominium.owners_owners_menu
+msgid "Owners"
+msgstr "擁有者"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_5
-msgid "Penthouse P01"
-msgstr "頂層豪華公寓 P01"
+#: model:ir.model.fields,field_description:condominium.x_parent_field
+msgid "Parent"
+msgstr "上級"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.phone_units
-msgid "Phone"
-msgstr "電話"
+#: model:ir.model.fields,field_description:condominium.x_parent_account_analytic_account_count
+msgid "Parent count"
+msgstr "母項數目"
 
 #. module: condominium
-#: model:ir.actions.act_window,name:condominium.properties_menu_action
-#: model:ir.model,name:condominium.units_property_model
-#: model:ir.ui.menu,name:condominium.contacts_property_config_menu
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_custom
+#: model:x_properties_types,x_name:condominium.x_properties_types_6
+msgid "Parking"
+msgstr "泊車"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_21
+msgid "Parking CP"
+msgstr "停車場 CP"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_744_product_template
+msgid "Parking, paths, and surroundings maintenance under contract"
+msgstr "停車場、行人徑及周邊環境合約保養服務"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_746_product_template
+msgid "Parking, paths, and surroundings renovation works"
+msgstr "停車場、行人徑及周邊環境翻新工程"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.partner_company_ids
+msgid "Partner's Companies"
+msgstr "合作夥伴公司"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meters_price
+msgid "Price"
+msgstr "價格"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_pricelist_field
+msgid "Pricelist"
+msgstr "價格表"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_666_product_template
+msgid "Private expenses"
+msgstr "私人開支"
+
+#. module: condominium
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
+#: model:ir.actions.act_window,name:condominium.properties_act_window
+#: model:ir.actions.act_window,name:condominium.properties_act_window_view
+#: model:ir.actions.act_window,name:condominium.properties_parent_act_window
+#: model:ir.actions.act_window,name:condominium.props_build_act_window
+#: model:ir.model.fields,field_description:condominium.x_properties_ids
+#: model:ir.ui.menu,name:condominium.conf_prop_menu
+#: model:ir.ui.menu,name:condominium.infra_properties_menu
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Properties"
 msgstr "屬性"
 
 #. module: condominium
-#: model:ir.ui.menu,name:condominium.contacts_property_tags_config_menu
+#: model:ir.actions.act_window,name:condominium.properties_tags_act_window
+#: model:ir.model,name:condominium.model_properties_tags
 msgid "Properties Tags"
 msgstr "物業標籤"
 
 #. module: condominium
-#: model:documents.folder,name:condominium.documents_folder_12
-#: model:ir.model.fields,field_description:condominium.property_id_field
+#: model:ir.actions.act_window,name:condominium.property_types_act_window
+#: model:ir.model,name:condominium.model_properties_types
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
+msgid "Properties Types"
+msgstr "物業類型"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Properties creation in Odoo (see <em>Know the stakeholders 🔎</em> section)"
+msgstr "在 Odoo 系統中建立物業資料（請參閱「認識持份者 🔎」<em></em>章節）"
+
+#. module: condominium
+#: model:documents.document,name:condominium.documents_folder_12
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_account_analytic_account
+#: model:ir.model.fields,field_description:condominium.x_property_field
 msgid "Property"
 msgstr "物業"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Property Owner Association"
+msgstr "業主協會"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_807_product_template
+msgid "Property accession fees"
+msgstr "物業添附費用"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_is_a_property_plan
+msgid "Property plan"
+msgstr "物業平面圖"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Provide the best customer service 🆘"
+msgstr "提供最佳客戶服務 🆘"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.purchase_menu
+msgid "Purchase"
+msgstr "採購"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_quantity
+msgid "Quantity"
+msgstr "數量"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Quickly set up a condominium 🚀"
+msgstr "快速設置公寓資料 🚀"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_730_product_template
+msgid "Railings and terrace separation partitions"
+msgstr "欄杆及露台分隔牆"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_ratio_field
+msgid "Ratio"
+msgstr "比例"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.ratios_act_window
+#: model:ir.model,name:condominium.ratios_model
+#: model:ir.model.fields,field_description:condominium.x_ratios_field
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_for_x_ratios
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+msgid "Ratios"
+msgstr "比例"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_764_product_template
+msgid "Recreational charges (playgrounds, tennis, fitness, billiards, etc.)"
+msgstr "康樂活動收費（遊樂場、網球、健身、桌球等）"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_5
@@ -347,9 +1535,9 @@ msgid "Recurring Fees"
 msgstr "定期費用"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.related_companies_ids_field
-msgid "Related Companies"
-msgstr "相關公司"
+#: model:product.template,name:condominium.product_product_672_product_template
+msgid "Renovation work"
+msgstr "翻新工程"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_14_product_template
@@ -357,26 +1545,36 @@ msgid "Reserve Fund"
 msgstr "儲備基金"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_7
-msgid "S00102"
-msgstr "S00102"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Reserve Fund: to collect all the money that will be used in case of "
+"exceptional expense."
+msgstr "儲備資金：收集所有用於特殊開支的資金。"
 
 #. module: condominium
-#: model:documents.folder,name:condominium.documents_folder_15
-#: model:project.project,name:condominium.project_project_7
-msgid "S00102 - Kick-Off Template"
-msgstr "S00102 - 專案起始範本"
+#: model:product.template,name:condominium.product_product_662_product_template
+msgid "Retirement and survivor pensions"
+msgstr "退休金及遺屬撫恤金"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_8
-msgid "S00103"
-msgstr "S00103"
+#: model:product.template,name:condominium.product_product_699_product_template
+msgid "Reversals (provisions)"
+msgstr "撤銷（準備金）"
 
 #. module: condominium
-#: model:documents.folder,name:condominium.documents_folder_16
-#: model:project.project,name:condominium.project_project_8
-msgid "S00103 - Kick-Off Template"
-msgstr "S00103 - 專案起始範本"
+#: model:product.template,name:condominium.product_product_751_product_template
+msgid "Roof maintenance"
+msgstr "屋頂保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_658_product_template
+msgid "Salaries and direct social benefits"
+msgstr "薪金及直接社會福利"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.owners_sales_menu
+msgid "Sales"
+msgstr "銷售"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.sale_order_button_action
@@ -385,21 +1583,35 @@ msgid "Sales Orders"
 msgstr "銷售訂單"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Schedule the meetings 📅"
+msgstr "預定會議日期 📅"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_11_product_template
 msgid "Second Reminder"
 msgstr "第二次提醒"
 
 #. module: condominium
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_16
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Second Reminder\n"
-"This does not include the fees from the ushers"
-msgstr ""
-"第二次提醒\n"
-"這不包括引領員的費用"
+"See the information of the condominium and fill the vendors to build an "
+"address book."
+msgstr "查看公寓資訊，並填寫供應商聯絡詳情，建立你的地址簿。"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Select the right company from which the fees will be invoiced (see "
+"<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
+"company)."
+msgstr "選擇用以開立費用發票的正確公司。（請參閱「快速設置公寓 🚀」<em></em>章節，了解如何切換公司。）"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meters_sequence
+#: model:ir.model.fields,field_description:condominium.sequence_buildings
 #: model:ir.model.fields,field_description:condominium.sequence_field
+#: model:ir.model.fields,field_description:condominium.sequence_properties_types
 msgid "Sequence"
 msgstr "序列號"
 
@@ -409,18 +1621,34 @@ msgid "Service Fees"
 msgstr "服務費"
 
 #. module: condominium
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_18
-msgid ""
-"Service Fees\n"
-"Approximately $80 per property per month, See Terms & Condition for further information about the coverage of the Service Fees"
-msgstr ""
-"服務收費\n"
-"每項物業每月約 $80。有關服務收費涵蓋範圍的更多資訊，請參閱條款及細則"
+#: model:base.automation,name:condominium.automation_set_usage_meter_reading
+msgid "Set Usage in Meter Readings"
+msgstr "設定抄錶讀數用量"
 
 #. module: condominium
-#: model:base.automation,name:condominium.base_automation_1
-msgid "Set Condominiums on Partner"
-msgstr "為合作夥伴設定公寓"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set the recurring plan start date."
+msgstr "設定重複計劃的開始日期。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set the right (recurring) price."
+msgstr "設定正確的（經常）價格。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set the right distribution key."
+msgstr "設定正確的分佈索引。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_798_product_template
+msgid "Simultaneous translation for meetings"
+msgstr "會議即時傳譯"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Some tags to add extra visual information."
+msgstr "一些標籤，以加入額外的視覺資訊。"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.source_sales_order_field
@@ -435,76 +1663,214 @@ msgstr "來源銷售訂單數目"
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
-msgid "Split per Property"
-msgstr "按每項物業分拆"
+msgid "Split per Owner"
+msgstr "攤分至每名業主"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_6
-msgid "Studio S01"
-msgstr "單間公寓 S01"
+#: model:ir.model.fields,field_description:condominium.country_state
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "State"
+msgstr "狀態"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_7
-msgid "Studio S02"
-msgstr "單間公寓 S02"
+#: model:product.template,name:condominium.product_product_803_product_template
+msgid "Statute modification"
+msgstr "章程修訂"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_8
-msgid "Studio S03"
-msgstr "單間公寓 S03"
+#: model:ir.model.fields,field_description:condominium.street
+msgid "Street"
+msgstr "街道"
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_9
-msgid "Studio S04"
-msgstr "單間公寓 S04"
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Street 2..."
+msgstr "街道2..."
 
 #. module: condominium
-#: model:x_units,x_name:condominium.x_units_10
-msgid "Studio S05"
-msgstr "單間公寓 S05"
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Street..."
+msgstr "街道..."
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_custom
+#: model:ir.model.fields,field_description:condominium.street2
+msgid "Street2"
+msgstr "街道第二行"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_3
+msgid "Studio"
+msgstr "工作室"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_22
+msgid "Studio CS"
+msgstr "開放式單位 CS"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_671_product_template
+msgid "Study and supervision fees"
+msgstr "學習及監督費用"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Sum of Area"
 msgstr "面積總和"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_custom
-msgid "Sum of Area %"
-msgstr "面積總和 %"
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+msgid "Sum of Ratio"
+msgstr "比例合計"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.tags_units
+#: model:product.template,name:condominium.product_product_675_product_template
+msgid "Supplies to the association"
+msgstr "協會用品及物資"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_755_product_template
+msgid "Swimming pool inspections"
+msgstr "游泳池檢查"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_756_product_template
+msgid "Swimming pool maintenance contracts"
+msgstr "游泳池保養合約"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_758_product_template
+msgid "Swimming pool product supplies"
+msgstr "游泳池用品"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_759_product_template
+msgid "Swimming pool supervision"
+msgstr "游泳池監督"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_760_product_template
+msgid "Swimming pool/technical installations repairs"
+msgstr "游泳池/技術裝置維修"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_692_product_template
+msgid "TV distribution for concierge"
+msgstr "禮賓部電視攤分"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.tags_buildings
+#: model:ir.model.fields,field_description:condominium.x_tags_field
+#: model:ir.ui.menu,name:condominium.conf_prop_tag_menu
+#: model:ir.ui.menu,name:condominium.conf_tags_menu
 msgid "Tags"
 msgstr "標籤"
 
 #. module: condominium
+#: model:product.template,name:condominium.product_product_778_product_template
+msgid "Tank inspections"
+msgstr "儲存缸檢查"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_779_product_template
+msgid "Tank maintenance"
+msgstr "儲存缸保養"
+
+#. module: condominium
 #: model:project.project,label_tasks:condominium.project_project_4
-#: model:project.project,label_tasks:condominium.project_project_5
-#: model:project.project,label_tasks:condominium.project_project_6
-#: model:project.project,label_tasks:condominium.project_project_7
-#: model:project.project,label_tasks:condominium.project_project_8
 msgid "Tasks"
 msgstr "任務"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.tenant_id_field
+#: model:product.template,name:condominium.product_product_663_product_template
+msgid "Taxes and fees"
+msgstr "稅款及徵費"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_687_product_template
+msgid "Telephone - Internet - concierge cell phone"
+msgstr "電話 - 互聯網 - 禮賓部流動電話"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_tenant_field
 msgid "Tenant"
 msgstr "租戶"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_750_product_template
+msgid "Terrace maintenance"
+msgstr "平台保養"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The area."
+msgstr "相關面積。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The building to which the property belongs."
+msgstr "該物業所屬的建築物。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The floor."
+msgstr "相關樓層。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The owner of the property."
+msgstr "物業業主/擁有人。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The parent property, for example to indicate that a garage is linked with an"
+" apartment."
+msgstr "母項物業，例如用作表示車庫連結至公寓單位。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The reserve fund that is a savings account used in case of exceptional "
+"expenses such as a severe repair, an investment in equipment, etc."
+msgstr "儲備資金是一個儲蓄賬戶，用作應付特殊開支，例如嚴重維修、設備投資等。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The services provided by the condominium management company."
+msgstr "公寓管理公司所提供的服務。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The tenant if relevant."
+msgstr "租戶（如適用）。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The type to easily classify it."
+msgstr "類型，用作簡易分類。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The working fund that is used to pay the common charges such as monthly "
+"expenses (water, electricity, gas, etc.), insurances, maintenance, repairs, "
+"cleaning of common areas, etc."
+msgstr "運作資金，用作支付一般費用，例如每月開支（水費、電費、燃氣費等）、保險、保養、維修、公用地方清潔等。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"These will be used to pay the <strong><font class=\"text-o-color-1\">Vendor "
+"Bills</font></strong> that can be uploaded and automatically filled thanks "
+"to"
+msgstr ""
+"它們將會用於支付<strong><font class=\"text-o-"
+"color-1\">供應商賬單</font></strong>。運用以下功能，供應商賬單可上載至系統，並自動填寫資料："
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_12_product_template
 msgid "Third Reminder"
 msgstr "第三次提醒"
-
-#. module: condominium
-#: model:sale.order.template.line,name:condominium.sale_order_template_line_17
-msgid ""
-"Third Reminder\n"
-"This does not include the fees from the ushers, lawyers, experts, etc."
-msgstr ""
-"第三次提醒\n"
-"這不包括引領員、律師、專家等的費用。"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_11_product_template
@@ -522,30 +1888,250 @@ msgid "To Do"
 msgstr "待辦事項"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.form_view_x_units
+#: model:product.template,name:condominium.product_product_673_product_template
+msgid "Transformation work"
+msgstr "改造工程"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_789_product_template
+msgid ""
+"Travel expenses for members of the internal council and internal auditor"
+msgstr "內部委員會成員及內部審計員差旅費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_782_product_template
+msgid "Trustee fees"
+msgstr "受託人費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_802_product_template
+msgid "Trustee nomination publication"
+msgstr "受託人提名出版"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_791_product_template
+msgid "Trustee office and office supplies"
+msgstr "受託人辦公室及辦公用品"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_793_product_template
+msgid "Trustee phone"
+msgstr "受託人電話"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_792_product_template
+msgid "Trustee stamps"
+msgstr "受託人印章"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_type_field
+#: model:ir.model.fields,field_description:condominium.x_type_related_field
+#: model:ir.ui.menu,name:condominium.conf_prop_type
+msgid "Type"
+msgstr "類型"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Type down your notes here..."
 msgstr "此處輸入備註⋯"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.form_view_x_units
-#: model_terms:ir.ui.view,arch_db:condominium.kanban_view_ir_model_custom
-msgid "Units"
-msgstr "單位"
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_usage
+msgid "Usage"
+msgstr "用途"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.units_owner_ids_field
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_custom
-msgid "Units Owner"
-msgstr "單住業主"
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "VAT"
+msgstr "增值稅"
 
 #. module: condominium
-#: model:ir.actions.act_window,name:condominium.properties_tags_menu_action
-#: model:ir.model,name:condominium.units_tags_model
-#: model_terms:ir.ui.view,arch_db:condominium.form_view_x_units_tag
-msgid "Units Tags"
-msgstr "單位標籤"
+#: model:product.template,name:condominium.product_product_765_product_template
+msgid "Various controls and monitoring"
+msgstr "各類管控及監察"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_668_product_template
+msgid "Various financial charges"
+msgstr "各類財務費用"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_762_product_template
+msgid "Various maintenance contracts"
+msgstr "各類保養合約"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_747_product_template
+msgid "Various works"
+msgstr "各類工程"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.vendors_act_window
+#: model:ir.model.fields,field_description:condominium.vendor_ids
+#: model:ir.ui.menu,name:condominium.purchase_vendor_menu
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Vendors"
+msgstr "供應商"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.vendor_company_ids
+msgid "Vendors Companies"
+msgstr "供應商公司"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.vendor_condominium_ids
+msgid "Vendors Condominiums"
+msgstr "供應商公寓"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_715_product_template
+msgid "Video surveillance"
+msgstr "視像監控"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_680_product_template
+msgid "Volunteer insurance"
+msgstr "義工保險"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_739_product_template
+msgid "Waste cleaning and treatment controls"
+msgstr "垃圾清潔、處理及管制"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_719_product_template
+msgid "Water booster maintenance"
+msgstr "抽水增壓器保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_767_product_template
+msgid "Water for common areas"
+msgstr "公用地方用水"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_689_product_template
+msgid "Water for concierge"
+msgstr "禮賓部用水"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_722_product_template
+msgid "Water pipes maintenance"
+msgstr "水管保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_720_product_template
+msgid "Water softener and water treatment maintenance"
+msgstr "軟水機及水處理設備保養"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_768_product_template
+msgid "Water softener salt"
+msgstr "軟水機鹽劑"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_770_product_template
+msgid "Water treatment supplies"
+msgstr "水處理用品"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Welcome to your Odoo Property Owner Association package! This guide will "
+"help you manage the condominiums efficiently, from setting up to general "
+"meetings."
+msgstr "歡迎使用 Odoo 業主協會數據套裝！本指南將指導你如何有效率地管理公寓，包括從初始設定至安排業主大會的各項工序。"
+
+#. module: condominium
+#: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "歡迎！請享受探索過程。"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_1
+msgid "Wing A"
+msgstr "側翼 A"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_4
+msgid "Wing B"
+msgstr "側翼 B"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_5
+msgid "Wing C"
+msgstr "側翼 C"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_679_product_template
+msgid "Work accident insurance"
+msgstr "工傷保險"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_13_product_template
 msgid "Working Fund"
 msgstr "運作資金"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Working Fund: to collect all the money that will be used to pay the "
+"recurring fees."
+msgstr "運作資金：收集用作支付經常費用的所有資金。"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.zip
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "ZIP"
+msgstr "郵遞區號"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "e.g. Apartment"
+msgstr "例：公寓單位"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_kanban_view
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "e.g. Apartment A0"
+msgstr "例：單位 A0"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "e.g. John Smith"
+msgstr "例：陳大文"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Accounting"
+msgstr "🎓 會計"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Companies"
+msgstr "🎓 公司"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Helpdesk"
+msgstr "🎓 幫助台"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Quotation Template"
+msgstr "🎓 報價單範本"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Sales"
+msgstr "🎓 銷售"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Spreadsheet"
+msgstr "🎓 試算表"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Subscription"
+msgstr "🎓 訂閱"

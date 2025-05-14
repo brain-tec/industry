@@ -3,18 +3,19 @@
 # 	* beverage_distributor
 # 
 # Translators:
-# Tiffany Chang, 2024
-# Martin Trigaux, 2024
-# Chloe Wang, 2024
-# Wil Odoo, 2024
+# Chloe Wang, 2025
+# 何彬 <vnsoft.he@gmail.com>, 2025
+# Martin Trigaux, 2025
+# Raymond Yu <cl_yu@hotmail.com>, 2025
+# Wil Odoo, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-30 09:46+0000\n"
-"PO-Revision-Date: 2024-10-06 01:20+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"POT-Creation-Date: 2024-11-06 10:35+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,75 +26,37 @@ msgstr ""
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Enjoy our B2B loyalty program<br/>"
-msgstr ""
+msgstr "&amp;nbsp;享受我们的 B2B 会员方案<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;For order beyond 300$<br/>"
-msgstr ""
+msgstr "&amp;nbsp; 订单超过300$<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Get delivered next week.<br/>"
-msgstr ""
+msgstr "&amp;nbsp; 下周送达。<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Relies on amazing partners<br/>"
-msgstr ""
+msgstr "&amp;nbsp; 依靠出色的业务伙伴<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Visit us to get a free degustation for B2B partners !<br/>"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
+msgstr "&amp;nbsp; 请访问我们，获取 B2B 业务伙伴免费品尝美食的机会！<br/>"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_17
 msgid "+16"
-msgstr ""
+msgstr "+16"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_18
 msgid "+18"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid ""
-"250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States"
-msgstr ""
-"250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3560
-msgid "<b>Categories</b>"
-msgstr "<b>类别</b>"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3560
-msgid "<b>Pricelist</b>"
-msgstr "<b>价格表</b>"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3560
-msgid "<b>Sort By</b>"
-msgstr "<b>排序</b>"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3555
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3560
-msgid "<b>Tags</b>"
-msgstr "<b>标签</b>"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3328
-msgid "<em>Add the description of this dish here.</em>"
-msgstr "<em>在此处添加菜式描述。</em>"
+msgstr "+18"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -101,6 +64,8 @@ msgid ""
 "<font class=\"text-o-color-5\">Thanks to our new wine specialist, we are now proud to propose more than 100 different wines in our stock.</font>\n"
 "                                    <br/>"
 msgstr ""
+"<font class=\"text-o-color-5\">感谢我们新的葡萄酒专家, 我们现在可以自豪地提供 100 多种不同的葡萄酒。</font>\n"
+"                                    <br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -108,11 +73,13 @@ msgid ""
 "<font class=\"text-o-color-5\">Welcome our wine assortment</font>\n"
 "                                    <br/>"
 msgstr ""
+"<font class=\"text-o-color-5\">欢迎品尝我们的葡萄酒</font>\n"
+"                <br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<font class=\"text-o-color-5\">​</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-5\"></font>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -122,7 +89,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -140,6 +107,8 @@ msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "                                        <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                                        <span class=\"visually-hidden\">下一页</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -147,6 +116,8 @@ msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "                                    <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                                    <span class=\"visually-hidden\">下一页</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -163,50 +134,45 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
 "                                    <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                                    <span class=\"visually-hidden\">上一页</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Beverages "
 "distributor</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>适用于饮料经销商的 Odoo</strong></span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">基础知识</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">10%</span>"
-msgstr ""
+msgstr "<span class=\"s_number display-4 o_default_snippet_text\">10%</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">1000+</span>"
-msgstr ""
+msgstr "<span class=\"s_number display-4 o_default_snippet_text\">1000+</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">184</span>"
-msgstr ""
+msgstr "<span class=\"s_number display-4 o_default_snippet_text\">184</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">2545</span>"
-msgstr ""
+msgstr "<span class=\"s_number display-4 o_default_snippet_text\">2545</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3329
-msgid ""
-"A truly exquisite dining experience. I highly recommend the Mustard Sauce, "
-"out of this world."
-msgstr "真正精致的用餐体验。我强烈推荐芥末酱，来自这个世界。"
+msgstr "<strong><span class=\"h2-fs\">成功小窍门</span></strong>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -214,7 +180,7 @@ msgstr "真正精致的用餐体验。我强烈推荐芥末酱，来自这个世
 msgid ""
 "A truly exquisite drinking experience. I highly recommend the Margarita, out"
 " of this world."
-msgstr ""
+msgstr "这是一次真正精致的饮酒体验。我强烈推荐玛格丽塔鸡尾酒，它简直就是人间美味。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -222,12 +188,12 @@ msgid ""
 "A wide selection of beverages with local products. We’re constantly looking "
 "to propose new drinks and flavors. While respecting seasons' products and "
 "nature."
-msgstr ""
+msgstr "使用本地产品制作的饮料种类繁多。我们不断推出新的饮品和口味。同时尊重季节产品和自然。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Access customer-specific pricing"
-msgstr ""
+msgstr "访问定制客户的定价"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -240,17 +206,17 @@ msgstr "调整这三个列以适应您的设计需求。要复制、删除或移
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_15
 msgid "Age Limit"
-msgstr ""
+msgstr "年龄限止"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_5
 msgid "Amber"
-msgstr ""
+msgstr "琥珀色"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Apply DEP XX taxes to these consigns."
-msgstr ""
+msgstr "对这些货物应用 DEP XX 税率."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -259,22 +225,22 @@ msgid ""
 "your meal. Come and visit us for a Sunday brunch, refreshing juices full of "
 "flavor, or delicious cocktails that satisfy your thirst. And each day, "
 "you’ll discover our Today’s Special."
-msgstr ""
+msgstr "在小酒馆，您可以品尝到多种多样的佐餐饮品。欢迎前来品尝周日早午餐、清爽可口的果汁或美味可口的鸡尾酒。每天，您都会发现我们的今日特惠。"
 
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.auto_production
 msgid "Auto Production"
-msgstr ""
+msgstr "汽车生产"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_aut_production
 msgid "Auto-production"
-msgstr ""
+msgstr "汽车生产"
 
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.bom_automation
 msgid "Automated BoM"
-msgstr ""
+msgstr "自动化物料清单"
 
 #. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_2
@@ -284,7 +250,7 @@ msgstr "B2B"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Barcode Scanning 📱"
-msgstr ""
+msgstr "条形码扫描📱"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -294,24 +260,24 @@ msgstr "基础"
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_10
 msgid "Beer type"
-msgstr ""
+msgstr "啤酒类型"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_2
 #: model:pos.category,name:beverage_distributor.pos_category_6
 #: model:product.public.category,name:beverage_distributor.product_public_category_4
 msgid "Beers"
-msgstr ""
+msgstr "啤酒"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Beverage Selection"
-msgstr ""
+msgstr "饮料选择"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_2
 msgid "Blond"
-msgstr ""
+msgstr "金发女郎"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_16
@@ -319,59 +285,44 @@ msgid "Brand"
 msgstr "品牌"
 
 #. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3322
-msgid "Breakfast"
-msgstr "早餐"
-
-#. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_3
 msgid "Brown"
-msgstr ""
+msgstr "棕色"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_24
 msgid "Brussels beer project"
-msgstr ""
+msgstr "布鲁塞尔啤酒项目"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_22
 msgid "Bubbles"
-msgstr ""
+msgstr "泡沫"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_67
 msgid "Cava Brut Il Lusio - Josep Masachs 6x75cl"
-msgstr ""
+msgstr "Cava Brut Il Lusio - Josep Masachs 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_68
 msgid "Cava Brut Il Lusio - Josep Masachs 75cl"
-msgstr ""
+msgstr "Cava Brut Il Lusio - Josep Masachs 75cl"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_21
 msgid "Chaudfontaine"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3560
-msgid "Clear Filters"
-msgstr "清除筛选"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3560
-msgid "Close"
-msgstr "关闭"
+msgstr "乔德方丹赌场"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_14
 msgid "Coca-cola"
-msgstr ""
+msgstr "可口可乐"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_51
 msgid "Coca-cola 24x33cl"
-msgstr ""
+msgstr "可口可乐 24x33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -379,6 +330,8 @@ msgid ""
 "Collect deposit when you deliver your customer. It is easy. When validating your delivery, you can directly set a \"Return\" and precisely count the number of each type of deposit your customer gave you. It will automatically be\n"
 "                        reflected on his invoice or issue a credit note."
 msgstr ""
+"交付客户时收取押金。这很简单。在验证送货时，您可以直接设置 “退货”，并精确计算客户给您的每种押金的数量。它将自动\n"
+"                        反映在他的发票上或出具赊销单。"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_quantity_by_deposit_product
@@ -391,67 +344,60 @@ msgstr "包含"
 msgid ""
 "Cosy and friendly, good atmosphere and super drinks. Especially the homemade"
 " lemonade."
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3329
-msgid ""
-"Cosy and friendly, good atmosphere and super food. Especially the spiced "
-"fruit crumble."
-msgstr "舒适友好，气氛很好，食物超级棒。尤其是五香果脆。"
+msgstr "舒适友好，氛围良好，饮料一流。尤其是自制柠檬水。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create and track sales orders"
-msgstr ""
+msgstr "创建和跟踪销售订单"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create deposit products for each different type of consigns"
-msgstr ""
+msgstr "为不同类型的寄售品创建押金产品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create purchase orders"
-msgstr ""
+msgstr "创建采购订单"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Customer Relationship Management (CRM) 🤝"
-msgstr ""
+msgstr "客户关系管理 (CRM) 🤝"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_69
 msgid "Cuvée Grillo - Villa Carumé 6x75cl"
-msgstr ""
+msgstr "Cuvée Grillo - Villa Carumé 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_70
 msgid "Cuvée Grillo - Villa Carumé 75cl"
-msgstr ""
+msgstr "Cuvée Grillo - Villa Carumé 75cl"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_01_purchase
 #: model:account.tax,name:beverage_distributor.account_tax_01_sale
 msgid "DEP 0.1"
-msgstr ""
+msgstr "DEP 0.1"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_21_sale
 msgid "DEP 2.1"
-msgstr ""
+msgstr "DEP 2.1"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_24_purchase
 #: model:account.tax,name:beverage_distributor.account_tax_24_sale
 msgid "DEP 2.4"
-msgstr ""
+msgstr "DEP 2.4"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_45_purchase
 #: model:account.tax,name:beverage_distributor.account_tax_45_sale
 msgid "DEP 4.5"
-msgstr ""
+msgstr "DEP 4.5"
 
 #. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_1
@@ -461,14 +407,14 @@ msgstr "默认"
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.make_deposit_storable_delivery_invoice
 msgid "Default fields for deposits"
-msgstr ""
+msgstr "存款的默认字段"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid ""
 "Delete the above image or replace it with a picture that showcases our "
 "products. Click on the picture to change its rounded corner style."
-msgstr ""
+msgstr "删除上面的图片或替换为展示我们产品的图片。 点击图片更改其圆角样式。"
 
 #. module: beverage_distributor
 #: model:account.tax.group,name:beverage_distributor.deposit_tax_group
@@ -479,76 +425,64 @@ msgstr "存款"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_9
 msgid "Deposit 0.1"
-msgstr ""
+msgstr "押金 0.1"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_56
 msgid "Deposit 2.1"
-msgstr ""
+msgstr "押金 2.1"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_53
 msgid "Deposit 2.4"
-msgstr ""
+msgstr "押金 2.4"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_55
 msgid "Deposit 4.5"
-msgstr ""
+msgstr "押金 4.5"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Deposit Management 🍻"
-msgstr ""
+msgstr "押金管理 🍻"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_deposit_product_1
 msgid "Deposit product"
-msgstr ""
+msgstr "押金产品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Deposit product must be set in Deposit category"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3322
-msgid "Dinner"
-msgstr "晚餐"
+msgstr "押金产品必须设置在押金类别中"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "想进一步吗？"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_exc_21676_sale
 msgid "EXC 2.1676"
-msgstr ""
+msgstr "EXC 2.1676"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_exc_coca_sale
 msgid "EXC COCA"
-msgstr ""
+msgstr "EXC COCA"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_empty_deposit
 msgid "Empty deposit product"
-msgstr ""
+msgstr "清空押金产品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Encourage your B2B clients to use the online ordering system for improved "
 "efficiency"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3322
-msgid ""
-"Enjoy tasty food with friends.<br/><small>From <b>6:30 pm</b> to <b>10:30 "
-"pm</b></small>"
-msgstr "<br/><small> <b>下午 6:30</b>至<b>晚上 10:30</b></small>"
+msgstr "鼓励您的 B2B 客户使用在线订购系统，以提高效率"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -557,11 +491,12 @@ msgid ""
 "have enough in stock, it will split your main product in 24 units and take "
 "into account an extra empty bin that will be left at the end."
 msgstr ""
+"每次您需要销售一个 Mobius Blanche - 33cl，如果您没有足够的库存，它将把您的主要产品分成 24 个单位，并考虑到最后剩下的额外空仓。"
 
 #. module: beverage_distributor
 #: model:account.tax.group,name:beverage_distributor.excises_tax_group
 msgid "Excises"
-msgstr ""
+msgstr "消费税"
 
 #. module: beverage_distributor
 #: model:ir.actions.server,name:beverage_distributor.action_make_deposit_storable_delivery_invoice
@@ -573,64 +508,47 @@ msgstr "执行代码"
 #. module: beverage_distributor
 #: model:ir.actions.server,name:beverage_distributor.update_state
 msgid "Execute Existing Actions"
-msgstr "执行现有行动"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid "Facebook"
-msgstr "脸书"
+msgstr "执行已有动作"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Fast Delivery"
-msgstr ""
+msgstr "快速交货"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Follow up with potential clients"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid "Follow us"
-msgstr "跟随我们"
+msgstr "跟进潜在客户"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "For B2C sales, the POS app enables you to:"
-msgstr ""
+msgstr "对于 B2C 销售，POS 应用程序使您能够："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Free shipping&amp;nbsp;<br/>"
-msgstr ""
+msgstr "免费送货&amp;nbsp;<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Get rewards&amp;nbsp;<br/>"
-msgstr ""
+msgstr "获取奖励&amp;nbsp;<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Handle returns and consignment easily"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3322
-msgid ""
-"Help you start your morning right.<br/><small>From <b>7:30 am</b> to "
-"<b>10:30 am</b></small>"
-msgstr "<br/><small>从</small>上午<small> <b>7:30</b>到<b>上午 10:30</b></small>"
+msgstr "轻松处理退货和寄售"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_14
 msgid "IPA"
-msgstr ""
+msgstr "IPA"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -638,203 +556,183 @@ msgid ""
 "If you want to automatically split products sold in a specific packaging, "
 "precise a unit sale product in the so-called field and the number of units "
 "contained in the main product."
-msgstr ""
+msgstr "如果您想自动分割以特定包装销售的产品，请在所谓的字段中精确填写单位销售产品和主产品所含的单位数。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
-msgstr ""
+msgstr "如果您想轻松了解该软件包的所有功能，请尝试下载演示数据。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Implement the Quality app to ensure consistent product quality"
-msgstr ""
+msgstr "实施质量应用程序，确保产品质量始终如一"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Implement the Surveys app to gather customer feedback and improve your "
 "service"
-msgstr ""
+msgstr "使用调查应用程序收集客户反馈并改进服务"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Inventory Management 📦"
-msgstr ""
+msgstr "库存管理 📦"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Iris SMITH • CEO of Beverage Co."
-msgstr ""
+msgstr "Iris SMITH • CEO of Beverage Co."
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit
 msgid "Is a deposit"
-msgstr ""
+msgstr "是押金"
 
 #. module: beverage_distributor
-#: model:ir.model.fields,field_description:beverage_distributor.x_is_a_drink
-msgid "Is a drink"
-msgstr ""
+#: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit_category
+msgid "Is a deposit category"
+msgstr "是订金类别"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_23
 msgid "Jack Daniels"
-msgstr ""
+msgstr "Jack Daniels"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_71
 msgid "Jack Daniels 70cl"
-msgstr ""
+msgstr "Jack Daniels 70cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Jane SMITH • CEO of Beverage Co."
-msgstr ""
+msgstr "Jane SMITH • CEO of Beverage Co."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "John SMITH • CEO of Beverage Co."
-msgstr ""
+msgstr "John SMITH • CEO of Beverage Co."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Join the Party."
-msgstr ""
+msgstr "加入派对."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on Odoo.com/trial"
-msgstr ""
+msgstr "请注意，演示数据一旦上传，就不能轻易删除。但您可以在 Odoo.com/trial 上重新启动一个新的数据库。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Keep your inventory updated in real-time"
-msgstr ""
+msgstr "实时更新库存"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Leave empty if this product is the smallest unit"
-msgstr ""
+msgstr "如果该产品是最小单位，则留空"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Leverage the reporting tools across all apps to gain insights into your "
 "business performance"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid "LinkedIn"
-msgstr "领英"
+msgstr "利用所有应用程序的报告工具，深入了解您的业务绩效"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_13
 msgid "Local Brand"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid "Logo of MyCompany"
-msgstr ""
+msgstr "本地品牌"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_63
 msgid "Lou Daro - Château de Gragnos 6x75cl"
-msgstr ""
+msgstr "Lou Daro - Château de Gragnos 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_64
 msgid "Lou Daro - Château de Gragnos 75cl"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3322
-msgid "Lunch"
-msgstr "午餐"
+msgstr "Lou Daro - Château de Gragnos 75cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage consignment for drinks sold in crates"
-msgstr ""
+msgstr "管理成箱饮料的寄售"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage supplier relationships"
-msgstr ""
+msgstr "管理供应商关系"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
-msgstr ""
+msgstr "比以往更精确、更高效地管理您的押金。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your product catalog"
-msgstr ""
+msgstr "管理您的产品目录"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your sales pipeline"
-msgstr ""
+msgstr "管理您的销售渠道"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_12
 msgid "Mobius"
-msgstr ""
+msgstr "Mobius"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Mobius Blanche - 24x33cl is your main product"
-msgstr ""
+msgstr "Mobius Blanche - 24x33cl 是您的主打产品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Mobius Blanche - 33cl is the unit sale product"
-msgstr ""
+msgstr "Mobius Blanche - 33cl 是单位销售产品"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_6
 msgid "Mobius Blanche 24x33cl"
-msgstr ""
+msgstr "Mobius Blanche 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_7
 msgid "Mobius Blanche 33cl"
-msgstr ""
+msgstr "Mobius Blanche 33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_59
 msgid "Mobius IPA 24x33cl "
-msgstr ""
+msgstr "Mobius IPA 24x33cl "
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_60
 msgid "Mobius IPA 33cl"
-msgstr ""
+msgstr "Mobius IPA 33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_61
 msgid "Mobius Triple 24x33cl"
-msgstr ""
+msgstr "Mobius Triple 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_62
 msgid "Mobius Triple 33cl"
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid "MyCompany"
-msgstr "MyCompany"
+msgstr "Mobius Triple 33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -852,12 +750,12 @@ msgstr "否"
 msgid ""
 "Odoo offers additional possibilities to enhance your drink distribution "
 "business:"
-msgstr ""
+msgstr "Odoo 为您提供了更多的可能性，以加强您的饮料分销业务："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Order online&amp;nbsp;<br/>"
-msgstr ""
+msgstr "在线订购&amp;nbsp;<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -869,28 +767,28 @@ msgstr "我们的合作伙伴"
 msgid ""
 "Our professional yet convivial service will make your "
 "supply&amp;nbsp;experience unforgettable."
-msgstr ""
+msgstr "我们专业而周到的服务将为您带来难忘的供应&amp;nbsp;体验。"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_bom
 #: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_rr
 msgid "Parent product"
-msgstr ""
+msgstr "上级产品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Perform efficient stock takes"
-msgstr ""
+msgstr "进行有效的库存盘点"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Place orders online 24/7"
-msgstr ""
+msgstr "全天候在线下订单"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Point of Sale (POS) 💳"
-msgstr ""
+msgstr "销售点 (POS) 💳"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -901,22 +799,22 @@ msgstr "上一页"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Process incoming and outgoing shipments"
-msgstr ""
+msgstr "处理进出货物"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Process quick sales at your distribution center"
-msgstr ""
+msgstr "在配送中心处理快速销售"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Purchase Management 🛒"
-msgstr ""
+msgstr "采购管理 🛒"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Quality Products"
-msgstr ""
+msgstr "优质产品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -931,32 +829,32 @@ msgstr "红色"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Regularly update your website with new products and promotions"
-msgstr ""
+msgstr "定期更新网站，提供新产品和促销信息"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_11
 msgid "Rose"
-msgstr ""
+msgstr "玫瑰"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_65
 msgid "Rosé Cosmos - Château de Gragnos 6x75cl"
-msgstr ""
+msgstr "Rosé Cosmos - Château de Gragnos 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_66
 msgid "Rosé Cosmos - Château de Gragnos 75cl"
-msgstr ""
+msgstr "Rosé Cosmos - Château de Gragnos 75cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Sales Management 🍾"
-msgstr ""
+msgstr "销售管理 🍾"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Scan products for quick data entry"
-msgstr ""
+msgstr "扫描产品，快速输入数据"
 
 #. module: beverage_distributor
 #: model:website.menu,name:beverage_distributor.website_menu_11
@@ -969,70 +867,70 @@ msgstr "服务"
 msgid ""
 "Set a deposit product on your product to apply these taxes. This will ensure"
 " that you invoice correctly the price of consigns."
-msgstr ""
+msgstr "在您的产品上设置押金产品，以征收这些税款。这将确保您正确开具寄售价格发票。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Set up pricing strategies for different customer segments"
-msgstr ""
+msgstr "针对不同客户群制定定价策略"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Set up reordering rules for popular products"
-msgstr ""
+msgstr "为热门产品设置重新订购规则"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Shop our products"
-msgstr ""
+msgstr "选购我们的产品"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_8
 msgid "Soda"
-msgstr ""
+msgstr "苏打水"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_11
 msgid "Soda type"
-msgstr ""
+msgstr "苏打水类型"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_1
 #: model:pos.category,name:beverage_distributor.pos_category_7
 #: model:product.public.category,name:beverage_distributor.product_public_category_1
 msgid "Sodas"
-msgstr ""
+msgstr "苏打水"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_13
 msgid "Spa"
-msgstr ""
+msgstr "Spa"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_54
 msgid "Spa Still 24x25cl"
-msgstr ""
+msgstr "Spa Still 24x25cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_57
 msgid "Spa Still 25cl"
-msgstr ""
+msgstr "Spa Still 25cl"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_3
 #: model:product.public.category,name:beverage_distributor.product_public_category_2
 msgid "Spirits"
-msgstr ""
+msgstr "烈酒"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_4
 msgid "Stout"
-msgstr ""
+msgstr "黑啤"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Streamline picking and packing processes"
-msgstr ""
+msgstr "简化分拣和包装流程"
 
 #. module: beverage_distributor
 #: model:delivery.carrier,name:beverage_distributor.delivery_carrier_1
@@ -1041,66 +939,46 @@ msgid "Take Away"
 msgstr "带走"
 
 #. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3322
-msgid ""
-"Take a break from your busy schedule.<br/><small>From <b>11:30 am</b> to "
-"<b>2:30 pm</b></small>"
-msgstr "<br/><small> <b>上午 11:30</b>至<b>下午 2:30</b></small>"
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3326
-msgid ""
-"Taste our chef's special, an almond macaroon with orange blossom "
-"buttercream."
-msgstr "品尝主厨特制的杏仁马卡龙和橙花奶油蛋糕。"
-
-#. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The Barcode app enhances your inventory operations:"
-msgstr ""
+msgstr "条形码应用程序可增强您的库存操作："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The CRM app helps you:"
-msgstr ""
+msgstr "客户关系管理应用程序可帮助您："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The Inventory app is the core of your distribution business:"
-msgstr ""
+msgstr "库存应用程序是配送业务的核心："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The Purchase app allows you to:"
-msgstr ""
+msgstr "采购应用程序可帮助您："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The inventory of all products will be updated accordingly."
-msgstr ""
-
-#. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3326
-msgid "The perfect dessert to share for the table."
-msgstr "餐桌上的完美甜点。"
+msgstr "所有产品的库存都将相应更新。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "These features can be added to your current subscription. Feel free to "
 "explore and expand your Odoo experience!"
-msgstr ""
+msgstr "这些功能可添加到您当前的订购中。请随时探索并扩展您的 Odoo 体验！"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "This deposit management system is a specific features of this package. "
 "Proceed carefully if you need to adapt anything."
-msgstr ""
+msgstr "该押金管理系统是本软件包的一项特殊功能。如果您需要调整任何内容，请谨慎操作。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3329
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "This place is perfect for groups or a casual date night."
 msgstr "这个地方非常适合团体或休闲约会之夜。"
@@ -1111,7 +989,7 @@ msgid ""
 "This will automatically create a Bill of Material and process a Manufacture "
 "Order each time you need to split your product and reflect this operation in"
 " your stock perfectly."
-msgstr ""
+msgstr "每次需要拆分产品时，它都会自动创建物料清单和处理生产单，并在库存中完美地反映这一操作。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -1122,41 +1000,36 @@ msgid ""
 msgstr "要添加第四列，请使用每个模块的右图标减小这三列的大小。然后，复制其中一列以创建新列作为副本。"
 
 #. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3326
-msgid "Today's special"
-msgstr ""
-
-#. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Track incoming shipments"
-msgstr ""
+msgstr "跟踪进货"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Track leads and opportunities"
-msgstr ""
+msgstr "跟踪线索和机会"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Track stock levels across multiple warehouses"
-msgstr ""
+msgstr "跟踪多个仓库的库存水平"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Train your team on efficient use of the barcode system in warehouse "
 "operations"
-msgstr ""
+msgstr "培训团队在仓库操作中有效使用条形码系统"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_unit_sale_product
 msgid "Unit sale product"
-msgstr ""
+msgstr "单位销售产品"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_9
 msgid "Unit sales"
-msgstr ""
+msgstr "单位销售"
 
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.update_sales_taxes
@@ -1166,28 +1039,28 @@ msgstr "更新税费"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Use barcode scanning for all inventory movements to ensure accuracy"
-msgstr ""
+msgstr "对所有库存移动使用条形码扫描，以确保准确性"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Use the Marketing Automation app to nurture leads and promote new products"
-msgstr ""
+msgstr "使用营销自动化应用程序培育潜在客户和推广新产品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Use the Sales app to:"
-msgstr ""
+msgstr "使用销售应用程序："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Utilize the Fleet app to manage your delivery vehicles efficiently"
-msgstr ""
+msgstr "利用车队应用程序高效管理您的送货车辆"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "View their order history and reorder easily"
-msgstr ""
+msgstr "查看他们的订单历史记录，并能快捷重新订购"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_7
@@ -1201,7 +1074,12 @@ msgid ""
 "you navigate the key features and get your distribution business running "
 "smoothly, with a focus on inventory management, efficient operations, and "
 "online sales."
-msgstr ""
+msgstr "欢迎使用您新的Odoo饮品分销商套餐！本指南将帮助您了解关键功能，使您的分销业务能够顺利运行，重点关注库存管理、高效运营以及在线销售。"
+
+#. module: beverage_distributor
+#: model_terms:web_tour.tour,rainbow_man_message:beverage_distributor.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "欢迎！祝您探索愉快。"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_1
@@ -1212,20 +1090,20 @@ msgstr "白色"
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_12
 msgid "Wine type"
-msgstr ""
+msgstr "葡萄酒类型"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_4
 #: model:pos.category,name:beverage_distributor.pos_category_8
 #: model:product.public.category,name:beverage_distributor.product_public_category_3
 msgid "Wines"
-msgstr ""
+msgstr "葡萄酒"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr ""
+msgstr "您想与我们讨论您的 Odoo 设置或了解更多功能吗？"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_15
@@ -1238,49 +1116,49 @@ msgstr "是"
 msgid ""
 "You can also collect deposit directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
-msgstr ""
+msgstr "您还可以直接在销售点收取押金。选择正确的产品并表示负数。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
-msgstr ""
+msgstr "您仍然可以通过升级应用程序中的软件包来实现。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Your B2B eCommerce portal allows clients to:"
-msgstr ""
+msgstr "您的 B2B 电子商务门户网站可让客户："
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
-msgstr ""
+msgstr "[空 33 桶] 普通 24x33 桶为空押金产品（价值 2.1 美元）"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
-msgstr ""
+msgstr "[全 33 桶] 普通 24x33 桶是完整的押金产品（价值 4.5 美元）"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "deliveries each week"
-msgstr ""
+msgstr "每周交货"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "eCommerce Website 🌐"
-msgstr ""
+msgstr "电子商务网站 🌐"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "ex. Delta I.P.A. - 33cl"
-msgstr ""
+msgstr "例如Delta I.P.A. - 33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "for B2B partners"
-msgstr ""
+msgstr "针对 B2B 业务伙伴"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1288,14 +1166,9 @@ msgid "happy customers"
 msgstr "满意客户"
 
 #. module: beverage_distributor
-#: model_terms:ir.ui.view,arch_db:beverage_distributor.ir_ui_view_3336
-msgid "info@yourcompany.example.com"
-msgstr "info@yourcompany.example.com"
-
-#. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "labeled bottles on rack"
-msgstr ""
+msgstr "货架上贴有标签的瓶子"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1305,34 +1178,34 @@ msgstr "引用"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Barcode"
-msgstr ""
+msgstr "🎓 条形码"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 CRM"
-msgstr ""
+msgstr "🎓 CRM"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Inventory"
-msgstr ""
+msgstr "🎓 库存"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Point of Sale"
-msgstr ""
+msgstr "🎓 销售点"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Purchase"
-msgstr ""
+msgstr "🎓 采购"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Sales"
-msgstr ""
+msgstr "🎓 销售"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Website"
-msgstr ""
+msgstr "🎓 网站"

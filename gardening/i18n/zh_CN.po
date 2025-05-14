@@ -3,17 +3,18 @@
 # 	* gardening
 # 
 # Translators:
-# Martin Trigaux, 2024
-# Wil Odoo, 2024
-# Chloe Wang, 2024
+# Martin Trigaux, 2025
+# Wil Odoo, 2025
+# Chloe Wang, 2025
+# Raymond Yu <cl_yu@hotmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4+e\n"
+"Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-10 11:35+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Chloe Wang, 2024\n"
+"POT-Creation-Date: 2024-10-08 05:47+0000\n"
+"PO-Revision-Date: 2025-05-09 12:50+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid ""
 "*This list will, of course, depend on your installed apps and configuration."
-msgstr ""
+msgstr "“当然，这份清单取决于你已安装的应用及配置。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -36,85 +37,87 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Gardeners</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 园艺数据套装</strong></span><br/>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Accounting made easy 🧮</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>会计工作变简单 🧮</strong></span>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Employees 🧑‍🤝‍🧑</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>员工 🧑‍🤝‍🧑</strong></span>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Equipment 🛠️</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>设备及器才 🛠️</strong></span>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Helpdesk &amp; services 🆘</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>技术支持及服务 🆘</strong></span>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Subscriptions ↩️</strong></span>"
 msgstr ""
+"<span class=\"h2-fs\"><strong>订阅\r"
+"️️</strong></span>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid ""
 "<strong><span class=\"h2-fs\">Create an attractive website 🌐</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h2-fs\">创建吸引人的网站 🌐</span></strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr ""
+msgstr "<strong>基础知识</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>想再进一步吗？</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Inventory 📦</strong>"
-msgstr ""
+msgstr "<strong>库存管理📦</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Invoicing 📈</strong>"
-msgstr ""
+msgstr "<strong>发票 📈</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Opportunities 🎯</strong>"
-msgstr ""
+msgstr "<strong>商机 🎯</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Planning and timesheets 📆</strong>"
-msgstr ""
+msgstr "<strong>规划和时间表 📆</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Projects  🌱️</strong>"
-msgstr ""
+msgstr "<strong>项目 🌱️</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<strong>Quotations💲</strong>"
-msgstr ""
+msgstr "<strong>报价💲</strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid ""
 "A link to reach the online quotation from where the customer can"
 "                                                confirm and sign it."
-msgstr ""
+msgstr "在线报价单链接，客户可在此                                                确认并签字."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -122,6 +125,8 @@ msgid ""
 "All these components will give you an accurate overview on the project\n"
 "                                profitability."
 msgstr ""
+"所有这些组成部分都将为您提供项目盈利能力\n"
+"                                准确概况."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -132,18 +137,23 @@ msgid ""
 "                                </strong>\n"
 "                                app."
 msgstr ""
+"优秀的员工需要优秀的设备。确保所有工具\n"
+"                                的健康状况。 <strong>\n"
+"                                        <font class=\"text-o-color-1\">维护</font>\n"
+"                                </strong>\n"
+"                                应用程序。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid ""
 "Analytic Items ➡️ Track any cost using Analytic Items from the Accounting "
 "App"
-msgstr ""
+msgstr "分析项目 ➡️ 使用会计应用程序中的分析项目跟踪任何成本"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Architect"
-msgstr ""
+msgstr "建筑师"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -156,6 +166,13 @@ msgid ""
 "                                on the sales order with the aim to never forget to send an\n"
 "                                intermediary invoice in order to sustain your cash flow."
 msgstr ""
+"作为开票的第一步，从销售订单中创建首期付款。\n"
+"                                这将在 <strong>\n"
+"                                        <font class=\"text-o-color-1\">开票</font>\n"
+"                                </strong>\n"
+"                                应用程序中生成第一张发票。然后，在销售订单上安排一个或多个 \"开票计划 \"活动\n"
+"                                在销售订单上安排一个或多个 \"开票计划 \"活动，目的是永远不要忘记发送\n"
+"                                中间发票，以维持现金流。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -163,6 +180,8 @@ msgid ""
 "Assign the tasks to the right responsible and easily check the progress\n"
 "                                in the Kanban view."
 msgstr ""
+"将任务分配给合适的负责人，并在看板视图中轻松查看进度\n"
+"                                看板视图。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -171,7 +190,7 @@ msgid ""
 "                                        quotation that displays the price, "
 "the discount, the unit of                                        measure, "
 "and the tax of each:"
-msgstr ""
+msgstr "您可以随时根据商机创建一份精美的定制报价单，显示价格、折扣、计量单位和每项税费："
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -189,6 +208,13 @@ msgid ""
 "                                </strong>\n"
 "                                app to get an overview on the progress in terms of:"
 msgstr ""
+"在 \"发票开具 \"中生成中间人发票之前 <strong>\n"
+"                                        <font class=\"text-o-color-1\">开票</font>\n"
+"                                </strong>\n"
+"                                应用程序中冻结项目状态之前，请在 <strong>\n"
+"                                        <font class=\"text-o-color-1\">项目</font>\n"
+"                                </strong>\n"
+"                                应用程序中冻结项目状态，以了解以下方面的进展情况："
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -201,6 +227,13 @@ msgid ""
 "                                app where you can check the stock levels of each needed storable\n"
 "                                product."
 msgstr ""
+"在开始项目之前，请确保您有足够的库存。报价确认\n"
+"                                确认报价也会触发在\n"
+"                                交货 <strong>\n"
+"                                        <font class=\"text-o-color-1\">库存</font>\n"
+"                                </strong>\n"
+"                                应用程序中创建一个交货，您可以在该应用程序中检查每个所需可储存\n"
+"                                产品的库存量。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -210,17 +243,12 @@ msgstr "物料清单"
 #. module: gardening
 #: model:product.attribute.value,name:gardening.product_attribute_value_5
 msgid "Clay"
-msgstr ""
+msgstr "黏土"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_template_4
 msgid "Compost (50KG)"
-msgstr ""
-
-#. module: gardening
-#: model:sale.order.template.line,name:gardening.sale_order_template_line_1
-msgid "Compost (50KG) (Worm)"
-msgstr ""
+msgstr "堆肥（50 公斤）"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -228,11 +256,13 @@ msgid ""
 "Create an opportunity each time you faced a potential customer,\n"
 "                                        receive a phone call, etc."
 msgstr ""
+"每次面对潜在客户时都要创造机会，\n"
+"                                        接到电话等等."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Dashboard ➡️ Your project's status at a glance."
-msgstr ""
+msgstr "仪表板 ➡️ 您的项目状态一目了然。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -251,9 +281,8 @@ msgstr "预付款"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_template_5
-#: model:sale.order.template.line,name:gardening.sale_order_template_line_2
 msgid "Fertilizers (5L)"
-msgstr ""
+msgstr "肥料（5 升）"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -261,22 +290,23 @@ msgid ""
 "For each ordered material, don't forget to fill the analytic distribution\n"
 "                                in which you will be able to set for which project it will be used."
 msgstr ""
+"对于每种订购的材料，不要忘记填写分析分布图\n"
+"                                您可以在其中设置该材料将用于哪个项目。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "From WH ➡️ Deliveries from your warehouse to this specific customer"
-msgstr ""
+msgstr "来自 WH ➡️ 从您的仓库向该特定客户交货"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_10_product_template
-#: model:sale.order.template.line,name:gardening.sale_order_template_line_3
 msgid "Garden Renewal Project Management"
-msgstr ""
+msgstr "花园翻新项目管理"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Helpdesk &amp; services 🆘"
-msgstr ""
+msgstr "服务台和服务 🆘"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -287,6 +317,7 @@ msgid ""
 "the history can be easily consulted by all the"
 "                                        involved users."
 msgstr ""
+"如果客户回复了电子邮件，回复会自动记录在屏幕右侧的聊天记录中。因此，与报价、更新和微调有关的所有讨论都会被记录，所有相关用户都可以轻松查阅历史记录。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -301,6 +332,15 @@ msgid ""
 "                                hesitate to set a warning to remind if there is a minimum amount to\n"
 "                                get free transport costs."
 msgstr ""
+"如果库存水平过低，可从 <strong>\n"
+"                                        <font class=\"text-o-color-1\">购买</font>\n"
+"                                </strong>\n"
+"                                应用程序中的物料补给，方法是创建与正确供应商关联的采购订单。在 <strong>\n"
+"                                        <font class=\"text-o-color-1\">联系</font>\n"
+"                                </strong>\n"
+"                                应用程序中，您可以轻松管理所有心仪的供应商。\n"
+"                                毫不犹豫地设置一个警告，提醒您是否有最低金额来获得免费运输费用。\n"
+"                                获得免费运输费用。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -308,7 +348,7 @@ msgid ""
 "If you want to push your quotation building much further and add all the "
 "power of Spreadsheet beneath any line of your Sales Orders, use the quote "
 "calculation feature."
-msgstr ""
+msgstr "如果您想更进一步建立报价单，并在销售订单的任何一行下添加电子表格的所有功能，请使用报价计算功能。"
 
 #. module: gardening
 #: model:project.task.type,name:gardening.project_task_type_15
@@ -326,11 +366,18 @@ msgid ""
 "                                </strong>\n"
 "                                app."
 msgstr ""
+"通过创建精美的 <strong>\n"
+"                                        <font class=\"text-o-color-1\">网站</font></strong>!\n"
+"                                当潜在客户通过联系表单发送请求时、\n"
+"                                会自动在 <strong>\n"
+"                                        <font class=\"text-o-color-1\">客户关系管理</font>\n"
+"                                </strong>\n"
+"                                应用程序。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Inventory 📦"
-msgstr ""
+msgstr "库存 📦"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -340,7 +387,7 @@ msgstr "发票"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Invoicing 📈"
-msgstr ""
+msgstr "开具发票 📈"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -351,22 +398,26 @@ msgid ""
 "                                app. This will help you to find the right person to make a good\n"
 "                                work."
 msgstr ""
+"通过填写表格了解每位员工的技能 <strong>\n"
+"                                        <font class=\"text-o-color-1\">员工</font>\n"
+"                                </strong>\n"
+"                                应用程序。这将帮助你找到合适的人选，做好工作。\n"
+"                                工作。"
 
 #. module: gardening
 #: model:sale.order.template.line,name:gardening.sale_order_template_section_2
 msgid "Labour"
-msgstr ""
+msgstr "劳动力"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_13_product_template
-#: model:sale.order.template.line,name:gardening.sale_order_template_line_5
 msgid "Labour (Hours)"
-msgstr ""
+msgstr "工时（小时）"
 
 #. module: gardening
 #: model:product.attribute.value,name:gardening.product_attribute_value_3
 msgid "Loam"
-msgstr ""
+msgstr "粘土"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -374,6 +425,8 @@ msgid ""
 "Manage recurring products and automate renewal with the <strong><font "
 "class=\"text-o-color-1\">Subscription</font></strong> app."
 msgstr ""
+"管理经常性产品并自动续订 <strong><font class=\"text-o-"
+"color-1\">订阅</font></strong>应用程序来管理周期性产品并自动续订。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -383,7 +436,7 @@ msgstr "制造订单"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Material that will be used to build the project."
-msgstr ""
+msgstr "用于建设项目的材料."
 
 #. module: gardening
 #: model:sale.order.template.line,name:gardening.sale_order_template_section_1
@@ -393,17 +446,17 @@ msgstr "材料"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Materials purchased."
-msgstr ""
+msgstr "已采购物料。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Materials sold."
-msgstr ""
+msgstr "已售出物料。"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_11_product_template
 msgid "Mowing (Hours)"
-msgstr ""
+msgstr "割草（小时）"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -418,6 +471,15 @@ msgid ""
 "                                </strong>\n"
 "                                app."
 msgstr ""
+"不失时机，不忘初心。客户关系管理 <strong>\n"
+"                                        <font class=\"text-o-color-1\">客户关系管理</font>\n"
+"                                </strong>\n"
+"                                集中管理一切，确保\n"
+"                                跟进每个请求。如果请求变得具体，则在\n"
+"                                客户 <strong>\n"
+"                                        <font class=\"text-o-color-1\">联系人</font>\n"
+"                                </strong>\n"
+"                                应用程序中创建客户。"
 
 #. module: gardening
 #: model:project.task.type,name:gardening.project_task_type_14
@@ -430,6 +492,8 @@ msgid ""
 "Odoo empowers you to effortlessly and efficiently manage every aspect of your gardening projects, \n"
 "                        ensuring unparalleled success and client satisfaction thanks to its suite of integrated applications."
 msgstr ""
+"Odoo 使您能够轻松高效地管理园艺项目的方方面面、\n"
+"                        凭借其集成应用程序套件，确保您取得无与伦比的成功，让客户满意。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -438,6 +502,8 @@ msgid ""
 "                                        This will save you time when "
 "preparing when preparing your next quotations."
 msgstr ""
+"当然，您也可以创建您经常使用的所有产品。                                        "
+"这将为您在准备下一次报价时节省时间。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -445,6 +511,8 @@ msgid ""
 "Of course, these default tasks can be adapted in the Project Template\n"
 "                                according to your personal way of managing a gardening project."
 msgstr ""
+"当然，这些默认任务可以在项目模板中\n"
+"                                中对这些默认任务进行调整。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -454,16 +522,19 @@ msgid ""
 "color-1\">Sales</font>                                        </strong>"
 "                                        app."
 msgstr ""
+"一经确认，报价单即成为销售订单。所有报价单和销售订单都集中在 <strong><font class=\"text-o-"
+"color-1\">销售</font>                                        </strong>"
+"                                        应用程序中。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Opportunities 🎯"
-msgstr ""
+msgstr "商机 🎯"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Planification"
-msgstr ""
+msgstr "规划"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -473,17 +544,17 @@ msgstr "计划"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Planning and timesheets 📆"
-msgstr ""
+msgstr "规划和工时表📆"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Projects  🌱️"
-msgstr ""
+msgstr "项目🌱️"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_12_product_template
 msgid "Pruning (Hours)"
-msgstr ""
+msgstr "修剪（小时）"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -493,7 +564,7 @@ msgstr "采购订单"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Quotations💲"
-msgstr ""
+msgstr "报价单💲"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -505,12 +576,12 @@ msgstr "收货"
 msgid ""
 "Record your employees' time spent on each project using the Timesheets app. "
 "On the employee form, remember to define an hourly cost."
-msgstr ""
+msgstr "使用工时单应用程序，记录员工在每个项目上花费的时间。在员工表单中，请记得定义每小时成本。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Redirect the emails sent to"
-msgstr ""
+msgstr "重定向邮件发送至"
 
 #. module: gardening
 #: model:product.attribute.value,name:gardening.product_attribute_value_1
@@ -519,9 +590,13 @@ msgstr "常规"
 
 #. module: gardening
 #: model:account.analytic.account,name:gardening.account_analytic_account_4
+msgid "S00001"
+msgstr "S00001"
+
+#. module: gardening
 #: model:project.project,name:gardening.project_project_4
 msgid "S00001 - Garden Renewal"
-msgstr ""
+msgstr "S00001 - 花园更新"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -531,7 +606,7 @@ msgstr "销售订单"
 #. module: gardening
 #: model:product.attribute.value,name:gardening.product_attribute_value_4
 msgid "Sandy"
-msgstr ""
+msgstr "珊蒂"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -539,7 +614,7 @@ msgid ""
 "Save time by directly sending the quotation by email to your"
 "                                        customer. The personalized email "
 "provides:"
-msgstr ""
+msgstr "通过电子邮件直接向客户发送报价单，节省时间。个性化电子邮件可提供："
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -549,17 +624,12 @@ msgstr "安排演示"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Service such as labor hours, traveling costs, etc."
-msgstr ""
+msgstr "服务，如工时、差旅费等."
 
 #. module: gardening
 #: model:product.template,name:gardening.product_template_6
 msgid "Soil (50KG)"
-msgstr ""
-
-#. module: gardening
-#: model:sale.order.template.line,name:gardening.sale_order_template_line_4
-msgid "Soil (50KG) (Clay)"
-msgstr ""
+msgstr "土壤（50 公斤）"
 
 #. module: gardening
 #: model:project.project,label_tasks:gardening.project_project_3
@@ -575,6 +645,9 @@ msgid ""
 "                                invoice is always the reflect of the reality on the field and it is\n"
 "                                fair for the customer."
 msgstr ""
+"由于根据交付数量设定了开票政策，因此生成的\n"
+"                                发票总是反映现场的实际情况\n"
+"                                对客户也很公平."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -585,6 +658,11 @@ msgid ""
 "                                application allow you to collect the requests from your\n"
 "                                potential customers by aggregating several sources:"
 msgstr ""
+"The <font class=\"text-o-color-1\">\n"
+"                                        <strong>CRM 客户关系管理</strong>\n"
+"                                </font>\n"
+"                                应用程序允许您通过聚合多个来源来\n"
+"                                吸引潜在客户:"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -595,31 +673,36 @@ msgid ""
 "                                </strong>\n"
 "                                app! Each project is initiated with several default tasks such as:"
 msgstr ""
+"报价确认将自动触发\n"
+"                                创建一个专用项目在<strong>\n"
+"                                        <font class=\"text-o-color-1\">项目</font>\n"
+"                                </strong>\n"
+"                                应用程序中! 每个项目启动时都有几个默认任务，例如:"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The customer reminders."
-msgstr ""
+msgstr "客户提醒。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The financial reporting."
-msgstr ""
+msgstr "财务报告。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The quotation in PDF format."
-msgstr ""
+msgstr "PDF格式的报价."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The synchronisation with the banks."
-msgstr ""
+msgstr "与银行同步."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The vendor bills payment."
-msgstr ""
+msgstr "供应商开具付款账单."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -629,11 +712,15 @@ msgid ""
 "                        streamlined (re)supply, flawless execution, effective collaboration with third parties, meticulous budget follow-up, \n"
 "                        prompt invoicing, and exceptional customer service."
 msgstr ""
+"该行业专为擅长管理园艺项目的园艺企业量身定制。\n"
+"                        它包括项目构思、准确报价、无缝项目启动、精心策划、 \n"
+"                        精简（再）供应、完美无瑕的执行、与第三方的有效合作、细致的预算跟进、 \n"
+"                        及时开具发票以及卓越的客户服务."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Time spent on the project."
-msgstr ""
+msgstr "已花费在项目上的工时。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -643,7 +730,7 @@ msgstr "工时单"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "To WH ➡️ Products sent back to your warehouse"
-msgstr ""
+msgstr "往仓库 ➡️ 已送回仓库的产品"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -656,6 +743,13 @@ msgid ""
 "                                 material to execute the tasks and to find all relevant info in it. Then these materials and the time spent\n"
 "                                 could be invoiced to the customer."
 msgstr ""
+"要管理不需要项目的各种任务（除草、修剪......），可直接在\n"
+"                                 任务 <strong>\n"
+"                                         <font class=\"text-o-color-1\">现场服务</font>\n"
+"                                 </strong>\n"
+"                                 项目中创建任务。然后在主计划中根据需要分配和安排任务。您的员工可以使用一些\n"
+"                                 材料来执行任务，并从中找到所有相关信息。然后，这些材料和花费的时间\n"
+"                                 可以向客户开具发票。"
 
 #. module: gardening
 #: model:product.attribute,name:gardening.product_attribute_9
@@ -670,6 +764,10 @@ msgid ""
 "                                </strong>\n"
 "                                app to easily handle:"
 msgstr ""
+"使用 <strong>\n"
+"                                        <font class=\"text-o-color-1\">会计</font>\n"
+"                                </strong>\n"
+"                                应用程序可以轻松处理:"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -680,6 +778,11 @@ msgid ""
 "                                and when they have to work. Easily manage shift\n"
 "                                conflicts, workload, and replacements in case of leaves."
 msgstr ""
+"在现场服务中使用规划 <strong><font class=\"text-o-color-1\"></font>\n"
+"                                </strong>\n"
+"                                应用程序来安排员工的工作。定义哪个项目\n"
+"                                以及他们的工作时间。轻松管理轮班\n"
+"                                冲突、工作量以及休假时的替代人员。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -690,6 +793,16 @@ msgid ""
 "                                        </strong>\n"
 "                                ."
 msgstr ""
+"使用网站应用程序来创建联系人表单，将反映\n"
+"                                                <font class=\"text-o-color-1\">对 CRM 客户关系管理程序</font>\n"
+"                                        的所有请求<strong>\n"
+"                                        </strong>\n"
+"                                ."
+
+#. module: gardening
+#: model_terms:web_tour.tour,rainbow_man_message:gardening.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "欢迎！祝您探索愉快。"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -699,7 +812,7 @@ msgstr "工作"
 #. module: gardening
 #: model:product.attribute.value,name:gardening.product_attribute_value_2
 msgid "Worm"
-msgstr ""
+msgstr "蠕虫"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -713,24 +826,24 @@ msgid ""
 "\"Sliders\" icon at the top right of your screen. It will allow you to add a"
 " bunch of practical views to get the complete overview of your project, "
 "including* :"
-msgstr ""
+msgstr "您可以选择屏幕右上方的 “滑块 ”小图标，调整每个项目的概览。通过它，您可以添加一系列实用视图，以获得项目的完整概览，包括* :"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid ""
 "You can add other views with specific filters and ease your construction "
 "project follow-up."
-msgstr ""
+msgstr "您还可以添加带有特定筛选器的其他视图，方便您跟进建筑项目。"
 
 #. module: gardening
 #: model:project.project,name:gardening.project_project_3
 msgid "[Template] Garden Renewal"
-msgstr ""
+msgstr "[模板] 花园翻新"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "info@my-gardening-business.com"
-msgstr ""
+msgstr "info@my-gardening-business.com"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -740,6 +853,10 @@ msgid ""
 "                                        </strong>\n"
 "                                ."
 msgstr ""
+"对<strong>\n"
+"                                                <font class=\"text-o-color-1\">CRM 客户关系管理程序</font>\n"
+"                                        </strong>\n"
+"                                ."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
