@@ -5,6 +5,7 @@
 # Translators:
 # Melih Melik Sonmez, 2025
 # Wil Odoo, 2025
+# Deniz Guvener, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-13 11:42+0000\n"
 "PO-Revision-Date: 2025-03-16 06:06+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Deniz Guvener, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -644,6 +645,8 @@ msgid ""
 "<strong>Project App</strong>: Plan and track all your client projects with "
 "task management and milestones."
 msgstr ""
+"<strong>Proje Yönetimi Uygulaması</strong>: Görev yönetimi ve kilometre "
+"taşları ile tüm müşteri projelerinizi planlayın ve takip edin."
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -710,6 +713,8 @@ msgid ""
 "<strong>Timesheets App</strong>: Track time spent on client work for "
 "accurate billing and resource planning."
 msgstr ""
+"<strong>Çalışma Çizelgeleri Uygulaması</strong>: Doğru faturalandırma ve "
+"kaynak planlaması için müşteri işlerinde harcanan zamanı takip edin."
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -861,7 +866,7 @@ msgstr "B2B"
 #. module: marketing_agency
 #: model:res.partner.category,name:marketing_agency.res_partner_category_1
 msgid "B2C"
-msgstr ""
+msgstr "Firmadan Müşteriye Ticaret (B2C)"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_21
@@ -891,7 +896,7 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_8
 msgid "Branding"
-msgstr ""
+msgstr "Marka Yönetimi"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -908,7 +913,7 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_15
 msgid "Business Strategy"
-msgstr ""
+msgstr "İş Stratejisi"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -995,7 +1000,7 @@ msgstr "İçerik"
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_6
 msgid "Content Creation"
-msgstr ""
+msgstr "İçerik Üretimi"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
@@ -1188,6 +1193,8 @@ msgid ""
 "End-to-end coordination of your rebranding initiative, ensuring timely "
 "delivery, quality control, and seamless implementation."
 msgstr ""
+"Yeniden markalaşma girişiminizin uçtan uca koordinasyonu, zamanında "
+"teslimat, kalite kontrol ve sorunsuz kurulum."
 
 #. module: marketing_agency
 #: model:sale.order.template.line,name:marketing_agency.sale_order_template_line_2
@@ -1236,6 +1243,8 @@ msgid ""
 "From there, create a quotation for this customer and select the \"Website\" "
 "quotation template."
 msgstr ""
+"Daha sonra bu müşteri için bir fiyat teklifi oluşturun ve “Web Sitesi” fiyat"
+" teklifi şablonunu seçin."
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_20
@@ -1286,7 +1295,7 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_10
 msgid "Graphic Design"
-msgstr ""
+msgstr "Grafik Tasarım"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.ir_ui_view_1840
@@ -1436,7 +1445,7 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_14
 msgid "Market Research"
-msgstr ""
+msgstr "Pazar Araştırması"
 
 #. module: marketing_agency
 #: model:event.event,name:marketing_agency.event_event_4
@@ -1456,12 +1465,12 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_4
 msgid "Media Relations"
-msgstr ""
+msgstr "Medya İlişkileri"
 
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_1
 msgid "Mobile Marketing"
-msgstr ""
+msgstr "Mobil Pazarlama"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
@@ -1552,7 +1561,7 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_9
 msgid "PPC"
-msgstr ""
+msgstr "Tıklama Başına Ödeme"
 
 #. module: marketing_agency
 #: model_terms:event.event,description:marketing_agency.event_event_4
@@ -1634,7 +1643,7 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_3
 msgid "Public Relations"
-msgstr ""
+msgstr "Halkla İlişkiler"
 
 #. module: marketing_agency
 #: model:res.partner.category,name:marketing_agency.res_partner_category_3
@@ -1916,6 +1925,8 @@ msgid ""
 "Transformed family coffee roastery into trending brand with 300% sales "
 "increase through strategic rebranding"
 msgstr ""
+"Stratejik yeniden markalaşma yoluyla %300 satış artışı ile aile işletmesi "
+"kahve kavurucusunu trend markaya dönüştürdü"
 
 #. module: marketing_agency
 #: model:res.partner.category,name:marketing_agency.res_partner_category_5
@@ -1942,7 +1953,7 @@ msgstr ""
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_5
 msgid "Video Production"
-msgstr ""
+msgstr "Video Prodüksiyonu"
 
 #. module: marketing_agency
 #: model:project.task.type,name:marketing_agency.project_task_type_20
@@ -1957,7 +1968,7 @@ msgstr "Web"
 #. module: marketing_agency
 #: model:crm.tag,name:marketing_agency.crm_tag_7
 msgid "Web Development"
-msgstr ""
+msgstr "Web Geliştirme"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
