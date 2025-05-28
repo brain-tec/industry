@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Raymond Yu <cl_yu@hotmail.com>, 2025
-# Chloe Wang, 2025
 # Wil Odoo, 2025
+# Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 11:28+0000\n"
 "PO-Revision-Date: 2025-05-09 12:50+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Chloe Wang, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,6 +66,13 @@ msgid ""
 "                                            </b>\n"
 "                                            <br/>"
 msgstr ""
+"<b>\n"
+"                                                <b>Adam Diver</b><br/>\n"
+"                                                Zeedijk 275<br/>\n"
+"                                                8430 Middelkerke<br/>\n"
+"                                                Belgium\n"
+"                                            </b>\n"
+"                                            <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
@@ -73,6 +80,8 @@ msgid ""
 "<b><b>Decades</b>&amp;nbsp;of&amp;nbsp;Experience</b>\n"
 "                                    <br/>"
 msgstr ""
+"<b><b>数十年</b>&amp;nbsp;of&amp;nbsp;经验</b>\n"
+"                                    <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -80,6 +89,8 @@ msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@divetours-"
 "industry.odoo.com"
 msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@divetours-"
+"industry.odoo.com"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -87,6 +98,8 @@ msgid ""
 "<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> AVAILABLE FOR "
 "PRIVATE BOOKINGS&amp;nbsp; &amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> "
+"可供私人预订&amp;nbsp; &amp;nbsp;"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -94,6 +107,8 @@ msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">Zeedijk 275, 8430 Middelkerke</span>"
 msgstr ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">Zeedijk 275, 8430 Middelkerke</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -101,6 +116,8 @@ msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">+32 232323</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+32 232323</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -120,24 +137,24 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Outdoor Activities</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>户外活动</strong></span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
 msgid "<span class=\"flex-grow-1\">How long are your courses?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">课程时间有多长？</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
 msgid "<span class=\"flex-grow-1\">What about insurance?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">保险安排？</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
 msgid ""
 "<span class=\"flex-grow-1\">What is your cancellation&amp;nbsp;policy "
 "?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">你们的取消政策是什么？</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -150,6 +167,8 @@ msgid ""
 "<span class=\"s_number display-1-fs\">500+</span><br/>\n"
 "                                            Students"
 msgstr ""
+"<span class=\"s_number display-1-fs\">500+</span><br/>\n"
+"                                            学生"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -158,6 +177,9 @@ msgid ""
 "                                            <br/>\n"
 "                                            <span class=\"h5-fs\">Dives</span>"
 msgstr ""
+"<span class=\"s_number display-1-fs\">5,000+</span>\n"
+"                                            <br/>\n"
+"                                            <span class=\"h5-fs\">潜水旅程</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -166,6 +188,9 @@ msgid ""
 "                                            <br/>\n"
 "                                            <span class=\"h5-fs\">Diving Sites</span>"
 msgstr ""
+"<span class=\"s_number display-1-fs\">6</span>\n"
+"                                            <br/>\n"
+"                                            <span class=\"h5-fs\">潜水地点</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -186,6 +211,21 @@ msgid ""
 "                                                    Duration 5 Hours\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_title d-flex align-items-baseline fw-bold\">\n"
+"                                                    <span class=\"d-flex flex-grow-1 align-items-center\">\n"
+"                                                        <span class=\"s_pricelist_cafe_item_name\">\n"
+"                                                            <span class=\"s_pricelist_cafe_item_name\">浅礁探索之旅</span>\n"
+"                                                            <span class=\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                                                        </span>\n"
+"                                                        <span class=\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                                                    </span>\n"
+"                                                    <span class=\"s_pricelist_cafe_item_price ms-auto ps-3\">€ 150.00（未连税）</span>\n"
+"                                                </span>\n"
+"                                                <span class=\"s_pricelist_cafe_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
+"                                                    无需任何经验<br/>\n"
+"                                                    每星期一、三、五，上午 10 时出发<br/>\n"
+"                                                    旅程时间 5 小时\n"
+"                                                </span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -203,6 +243,18 @@ msgid ""
 "                                                    Duration 8&amp;nbsp;Hours\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_title d-flex align-items-baseline fw-bold\">\n"
+"                                                    <span class=\"d-flex flex-grow-1 align-items-center\">\n"
+"                                                        <span class=\"s_pricelist_cafe_item_name\">进阶洞穴潜水</span>\n"
+"                                                        <span class=\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                                                    </span>\n"
+"                                                    <span class=\"s_pricelist_cafe_item_price ms-auto ps-3\">€ 200.00（未连税）</span>\n"
+"                                                </span>\n"
+"                                                <span class=\"s_pricelist_cafe_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
+"                                                    适合蔚蓝深海爱好者<br/>\n"
+"                                                    每星期二、四、六，上午 10 时出发<br/>\n"
+"                                                    旅程时间 8 小时\n"
+"                                                </span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -219,6 +271,17 @@ msgid ""
 "                                                    Please use our contact form for a tailored quotation!\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_title d-flex align-items-baseline fw-bold\">\n"
+"                                                    <span class=\"d-flex flex-grow-1 align-items-center\">\n"
+"                                                        <span class=\"s_pricelist_cafe_item_name\">私人潜水探险之旅</span>\n"
+"                                                        <span class=\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                                                    </span>\n"
+"                                                    <span class=\"s_pricelist_cafe_item_price ms-auto ps-3\">（应要求举办）</span>\n"
+"                                                </span>\n"
+"                                                <span class=\"s_pricelist_cafe_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
+"                                                    选择私人潜水探险之旅，尽享度身设计的旅程，满足您的特别需要。您需要自己组成团队。<br/>\n"
+"                                                    请填写我们的联络表单，获取度身设计的报价。\n"
+"                                                </span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -579,7 +642,7 @@ msgstr ""
 #: model:crm.tag,name:outdoor_activities.crm_tag_7
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "E-Mail"
-msgstr ""
+msgstr "电邮"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -764,6 +827,10 @@ msgid ""
 "            To do so, we simply go to the <strong>Appointments-App</strong>, select <strong>Configuration</strong> and then <strong>Resource Leaves</strong>. Once there, select New, select the <strong>Resource</strong> and\n"
 "            corresponding dates - you are now good to go! 🥳<br/>"
 msgstr ""
+"与私人预订一样，我们需要在最后一步屏蔽唯一的船只，以避免重复预订。除了前面展示的流程外，\n"
+"            <strong>我们还可以使用资源休假-功能</strong>。<br/>\n"
+"            前往 <strong>预约应用程序</strong>，选择 <strong>配置</strong> 以及<strong>资源休假</strong>。选择新建，然后选择 <strong>资源</strong>和\n"
+"            对应日期 - 完成！ 🥳<br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -771,7 +838,7 @@ msgid ""
 "Keep track of your stock and equipment in real time with the "
 "<strong>Inventory </strong>app—automate restocking and monitor expiration "
 "dates effortlessly."
-msgstr ""
+msgstr "使用<strong>库存</strong>应用程序实时追踪库存和设备情况，自动补货并轻松监控有效期。"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -779,12 +846,12 @@ msgid ""
 "Link to an existing customer: opens a drop-down field with existing customer"
 " names. Select a name to link this new quotation to an existing customer "
 "record."
-msgstr ""
+msgstr "链接到现有客户：打开一个包含现有客户名称的下拉字段。选择一个名称，将新报价单链接到现有客户记录。"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "Managing On-Site Payments"
-msgstr ""
+msgstr "管理现场支付"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
