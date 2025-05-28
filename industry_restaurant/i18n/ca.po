@@ -31,6 +31,9 @@ msgid ""
 "                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Beef Carpaccio</span>&#13;\n"
 "                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">$10.50</span>&#13;"
 msgstr ""
+"&#13;\n"
+"                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Carpaccio de vedella</span>&#13;\n"
+"                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">10,50 €</span>&#13;"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -39,6 +42,9 @@ msgid ""
 "                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Cheese Onion Rings</span>&#13;\n"
 "                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">$9.00</span>&#13;"
 msgstr ""
+"&#13;\n"
+"                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Anelles de ceba amb formatge</span>&#13;\n"
+"                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">$9.00</span>&#13;"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -47,6 +53,9 @@ msgid ""
 "                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Chefs Fresh Soup of the Day</span>&#13;\n"
 "                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">$7.50</span>&#13;"
 msgstr ""
+"&#13;\n"
+"                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Sopa del dia</span>&#13;\n"
+"                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">$7.50</span>&#13;"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -63,6 +72,9 @@ msgid ""
 "                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Filet Mignon 8oz</span>&#13;\n"
 "                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">$15.50</span>&#13;"
 msgstr ""
+"&#13;\n"
+"                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Filet Mignon 8 oz</span>&#13;\n"
+"                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">15,50 €</span>&#13;"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -71,11 +83,14 @@ msgid ""
 "                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Tuna and Salmon Burger</span>&#13;\n"
 "                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">$12.00</span>&#13;"
 msgstr ""
+"&#13;\n"
+"                        <span class=\"s_product_catalog_dish_name s_product_catalog_dish_dot_leaders\">Hamburguesa de tonyina i salmó</span>&#13;\n"
+"                        <span class=\"s_product_catalog_dish_price ms-auto ps-2\">12.00 €</span>&#13;"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
+msgstr "i no dubtis a"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -112,12 +127,12 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "2. Replenishment"
-msgstr ""
+msgstr "2. Reposició"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "2. Table booking"
-msgstr ""
+msgstr "2. Reserva de taula"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -127,6 +142,10 @@ msgid ""
 "options and 4 different drinks. This \"Combo\" feature will allow you to "
 "create a menu with several courses and choices for each."
 msgstr ""
+"2. Per fer-ho més interessant, pots crear una segona comanda. Per a aquesta,"
+" selecciona el producte «Menú combo d'hamburguesa». Pots triar entre 2 "
+"opcions d'hamburguesa i 4 begudes diferents. Aquesta funció de «combo» et "
+"permetrà crear un menú amb diversos plats i opcions per a cadascun."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -135,11 +154,14 @@ msgid ""
 "\"Backend\" menu in the right corner to return to your backend, then switch "
 "to the Kitchen Display App."
 msgstr ""
+"3. Un cop efectuades les comandes, fes una ullada a la pantalla de cuina. "
+"Fes clic al menú «Back-end» que hi ha a la part dreta. Després, obre "
+"l'aplicació Pantalla de cuina."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "3. Plan your services"
-msgstr ""
+msgstr "3. Planifica els teus serveis"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -149,11 +171,16 @@ msgid ""
 "Your shifts will be automatically assigned based on your employees' "
 "availability."
 msgstr ""
+"3. Torna a l'aplicació Planificació. Veuràs que hi ha alguns torns de "
+"treball pendents de planificar. Selecciona la fletxa cap avall que hi ha al "
+"costat del botó per publicar i prem l'opció «Planificar automàticament». Ara"
+" els torns de treball s'assignaran automàticament en funció de la "
+"disponibilitat dels teus empleats."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "3. Website and online menu"
-msgstr ""
+msgstr "3. Lloc web i menú en línia"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -161,16 +188,21 @@ msgid ""
 "4. Open your preparation screen. Your orders are there. You can now mark "
 "them as done either line by line or the entire order by clicking on the top."
 msgstr ""
+"4. Obre la pantalla de preparació i veuràs que les teves comandes són allà. "
+"Si fas clic a la part superior, podràs marcar-les com a finalitzades, sigui "
+"línia per línia sigui la comanda sencera."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "4. Replenishment"
-msgstr ""
+msgstr "4. Reposició"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "4. You can still reassign any shift to adapt the planning."
 msgstr ""
+"4. Encara pots reassignar qualsevol torn de treball per adaptar-lo a la "
+"planificació."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -178,11 +210,13 @@ msgid ""
 "5. Once you are happy with it, send it to your co-workers by smashing the "
 "publish button."
 msgstr ""
+"5. Quan ho consideris, envia'l als teus companys per mitjà del botó de "
+"publicar."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "5. Plan your services"
-msgstr ""
+msgstr "5. Planifica els teus serveis"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -190,6 +224,8 @@ msgid ""
 "<b class=\"o_default_snippet_text\">50,000+ companies</b> run Odoo to grow "
 "their businesses."
 msgstr ""
+"<b class=\"o_default_snippet_text\">Més de 50.000 empreses</b> utilitzen "
+"Odoo per fer créixer els seus negocis."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -256,6 +292,11 @@ msgid ""
 "Task is created in the Project App. This task reappears every week, and you "
 "can personalize it with a checklist to avoid forgetting anything."
 msgstr ""
+"<strong>1. Flux 1:</strong> la majora dels productes necessiten una "
+"avaluació manual, ja que la quantitat restant no es pot calcular "
+"automàticament. En aquests casos, es crea una tasca recurrent en l'aplicació"
+" Projecte. Aquesta tasca es repeteix cada setmana i pots personalitzar-la "
+"amb una llista de control o verificació i perquè no t'oblidis de res."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -264,6 +305,10 @@ msgid ""
 "bottled beers and sodas, you can use automated purchases. To try it, "
 "navigate to your Point of Sale and sell a Blond Beer to a customer."
 msgstr ""
+"<strong>2. Flux 2:</strong> els productes que permeten fer-ne seguiment, com"
+" les llandes de cervesa i els refrescos, poden gestionar-se amb compres "
+"automatitzades. Per provar aquesta funció, dirigeix-te al Punt de venda i "
+"efectua la venda d'una cervesa rossa a un client."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -319,17 +364,17 @@ msgstr "Bàsics:"
 #. module: industry_restaurant
 #: model:product.template,name:industry_restaurant.product_product_54_product_template
 msgid "Beef 1kg"
-msgstr ""
+msgstr "Vedella 1 kg"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Beef Carpaccio, Filet Mignon 8oz and Cheesecake"
-msgstr ""
+msgstr "Carpaccio de vedella, filet Mignon 8 oz i pastís de formatge"
 
 #. module: industry_restaurant
 #: model:product.template,name:industry_restaurant.product_product_59_product_template
 msgid "Blond Beer"
-msgstr ""
+msgstr "Cervesa rossa"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_header
@@ -350,7 +395,7 @@ msgstr "Mantega"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "By doing so, you have only 23 beers left in your stock."
-msgstr ""
+msgstr "Ara només queden 23 cerveses a l'estoc."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -379,7 +424,7 @@ msgstr "Formatge 250 g"
 #. module: industry_restaurant
 #: model:project.project,name:industry_restaurant.project_project_2
 msgid "Cleaning"
-msgstr ""
+msgstr "Neteja"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -420,6 +465,8 @@ msgid ""
 "Don't forget to hit the \"Order\" button each time you change an order. This"
 " will forward the order to the Kitchen Display."
 msgstr ""
+"No t'oblidis de prémer el botó «Fer la comanda» cada vegada que modifiques "
+"una comanda. Així, s'enviarà la modificació a la pantalla de cuina."
 
 #. module: industry_restaurant
 #: model:project.task.type,name:industry_restaurant.project_task_type_2
@@ -429,7 +476,7 @@ msgstr "Fet"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "Fine Dining Restaurant"
-msgstr ""
+msgstr "Restaurant d'alta gamma"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -453,6 +500,8 @@ msgid ""
 "Go to your Purchase App to easily create Requests for Proposal or Purchase "
 "Orders."
 msgstr ""
+"Obre l'aplicació Compres per crear-ne fàcilment sol·licituds de pressupost o"
+" comandes de compra."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -494,6 +543,9 @@ msgid ""
 "is ready to be sent. You can choose a packaging if your product has an "
 "existing one."
 msgstr ""
+"Si obres l'aplicació Compres, veuràs que hi ha una nova comanda de compra "
+"que està llesta per enviar-se. Pots escollir l'embalatge en cas que el "
+"producte en tingui un."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -501,6 +553,8 @@ msgid ""
 "If you want to assign them an Odoo user account, you can select a related "
 "user in the \"HR Settings\" tab."
 msgstr ""
+"Si vols assignar-los un compte d'usuari d'Odoo, pots seleccionar un usuari "
+"associat des de la pestanya de configuració de recursos humans."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -577,6 +631,7 @@ msgstr "Gestiona les reserves amb l'aplicació Cites."
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Mediterranean buffet of starters, main dishes and desserts"
 msgstr ""
+"Bufet mediterrani amb una selecció d'entrants, plats principals i postres."
 
 #. module: industry_restaurant
 #: model:website.menu,name:industry_restaurant.website_menu_14
@@ -587,12 +642,12 @@ msgstr "Menú"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Menu One"
-msgstr ""
+msgstr "Menú 1"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Menu Two"
-msgstr ""
+msgstr "Menú 2"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -625,6 +680,8 @@ msgid ""
 "Once the products are there, you can click the \"Receipt\" smart button to "
 "validate your receipt and add these new products to your stock."
 msgstr ""
+"Quan tinguis els productes allà podràs fer clic al botó intel·ligent «Rebut»"
+" per validar la recepció i afegir aquests nous productes a l'estoc."
 
 #. module: industry_restaurant
 #: model:pos.payment.method,name:industry_restaurant.pos_payment_method_2
@@ -660,6 +717,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "Plan your services easily using the Planning App."
 msgstr ""
+"Planifica els teus serveis amb facilitat gràcies a l'aplicació Planificació."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -674,17 +732,24 @@ msgid ""
 "lowers beneath the minimum stock, it automatically creates a purchase order "
 "to replenish to the maximum quantity."
 msgstr ""
+"Les regles de reordenament apareixen als botons intel·ligents situats a la "
+"part superior del producte. Allà és on podràs visualitzar la quantitat "
+"mínima i màxima. Cada vegada que la previsió d'estoc baixa per sota de "
+"l'estoc mínim, es crea automàticament una comanda de compra per fer una "
+"reposició i arribar a la quantitat màxima."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ""
 "Replenishment is essential but challenging for a bar owner to systematize."
 msgstr ""
+"La reposició és essencial, però no és gens fàcil de sistematitzar per al "
+"propietari d'un bar."
 
 #. module: industry_restaurant
 #: model:product.template,name:industry_restaurant.product_product_58_product_template
 msgid "Sanitizer 250ml"
-msgstr ""
+msgstr "Desinfectant 250 ml"
 
 #. module: industry_restaurant
 #: model:planning.role,name:industry_restaurant.planning_role_1
@@ -697,6 +762,8 @@ msgid ""
 "Setting different starts for the same service allows you to give your "
 "customer the possibility to book every 15 minutes in this setup."
 msgstr ""
+"El fet de configurar diferents hores de començament per al mateix servei "
+"permet que els cients facin reserves cada 15 minuts."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -709,6 +776,9 @@ msgid ""
 "Start receiving orders directly in Odoo or go live with your <font "
 "class=\"text-o-color-1\"><strong>E-shop</strong></font> in a few minutes."
 msgstr ""
+"Comença a rebre comandes directament en Odoo o posa en marxa la teva <font "
+"class=\"text-o-color-1\"><strong>botiga en línia</strong></font> en uns "
+"minuts."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -732,6 +802,9 @@ msgid ""
 "The <font class=\"text-o-color-1\"><strong>Kitchen Display</strong></font> "
 "will ensure a great follow-up of every order in your bar and kitchen."
 msgstr ""
+"La <font class=\"text-o-color-1\"><strong>pantalla de cuina</strong></font> "
+"garantirà que es faci un bon seguiment de cada comanda que té lloc al bar i "
+"a la cuina."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -739,6 +812,8 @@ msgid ""
 "The stock is only updated when you close your register. Let's do it before "
 "continuing to the next step."
 msgstr ""
+"L'estoc només s'actualitza en tancar la caixa registradora. Fem-ho abans de "
+"procedir al següent pas."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -779,6 +854,9 @@ msgid ""
 "Use the <font class=\"text-o-color-1\"><strong>Planning App</strong></font> "
 "to schedule and share your shifts with your employees."
 msgstr ""
+"Utilitza l'<font class=\"text-o-color-1\"><strong>aplicació "
+"Planificació</strong></font> per programar i compartir els torns de treball "
+"amb els teus empleats."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -798,6 +876,9 @@ msgid ""
 "Use the <font class=\"text-o-color-1\"><strong>Project App</strong></font> "
 "to never miss a reordering or a cleaning task."
 msgstr ""
+"Utilitza l'<font class=\"text-o-color-1\"><strong>aplicació "
+"Projecte</strong></font> per no oblidar-te mai de configurar una regla de "
+"reordenament o una tasca de neteja."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -811,7 +892,7 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Vegetable Salad, Beef Burger and Mango Ice Cream"
-msgstr ""
+msgstr "Amanida de verdures, hamburguesa de vedella i gelat de mango."
 
 #. module: industry_restaurant
 #: model_terms:web_tour.tour,rainbow_man_message:industry_restaurant.knowledge_tour
@@ -841,6 +922,10 @@ msgid ""
 "Use it to schedule services, the duration of each booking, and every "
 "communication you want to send to your customers when they place a booking."
 msgstr ""
+"Veuràs que hi ha un tipus de cita predefinida anomenada «Reservar una taula»"
+" que pots utilitzar per programar serveis, la durada de cada reserva i totes"
+" les comunicacions que vulguis enviar als teus clients quan facin una "
+"reserva."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -848,6 +933,9 @@ msgid ""
 "You can easily edit the floor map by clicking \"Edit plan\" in the top-right"
 " menu when on the table selection step of your Point of Sale."
 msgstr ""
+"Pots modificar amb facilitat el plànol de sala. Només has de fer clic al "
+"botó «Modificar el plànol» que apareix a la part superior dreta del menú, un"
+" cop oberta la pantalla de selecció de taules al Punt de venda."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -855,6 +943,8 @@ msgid ""
 "You can now email your Request for Proposal to your vendor or confirm it "
 "manually."
 msgstr ""
+"Ara pots enviar-li al proveïdor la sol·licitud de pressupost per correu o "
+"confirmar-la manualment."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -862,6 +952,8 @@ msgid ""
 "You can see that there is a reordering rule configured for this product if "
 "you go to Inventory &gt; Products &gt; Blond Beer"
 msgstr ""
+"Pots veure que hi ha una regla de reordenament configurada per a aquest "
+"producte si et dirigeixes a Inventari &gt; Productes &gt; Cervesa rossa"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -879,6 +971,9 @@ msgid ""
 "kitchen/bar and one for the service. You can configure steps in the kitchen "
 "display configuration menu."
 msgstr ""
+"Actualment, hi ha configurats dos passos a la pantalla de cuina: un per a la"
+" cuina o el bar i, un altre, per al servei. Pots configurar els passos que "
+"vulguis al menú de configuració de la pantalla de cuina."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -895,6 +990,7 @@ msgstr ""
 msgid ""
 "You have two main possibilities in Odoo to ease your replenishment process."
 msgstr ""
+"A Odoo hi ha dues possibilitats per simplificar el procés de reposició."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -902,6 +998,9 @@ msgid ""
 "You just installed the Odoo for Fine Dining Restaurant package. By doing so,"
 " we have installed many necessary apps to run your restaurant efficiently."
 msgstr ""
+"Acabes d'instal·lar el paquet d'Odoo per a restaurants d'alta gamma i, "
+"juntament amb aquest, hem instal·lat un conjunt d'aplicacions necessàries "
+"perquè puguis gestionar el teu restaurant de forma eficient."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -920,6 +1019,9 @@ msgid ""
 " discover a sample website and explore millions of possibilities by clicking"
 " on the \"Edit\" button."
 msgstr ""
+"Gestionar el teu lloc web mai no havia estat tan fàcil. Dirigeix-te a "
+"l'aplicació Lloc web per descobrir un lloc web d'exemple i explora milions "
+"de possibilitats per mitjà d'un clic al botó «Editar»."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body

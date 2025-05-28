@@ -6,8 +6,8 @@
 # Tiffany Chang, 2025
 # Martin Trigaux, 2025
 # Wil Odoo, 2025
-# Sarah Park, 2025
 # Daye Jeong, 2025
+# Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-15 08:03+0000\n"
 "PO-Revision-Date: 2025-02-21 16:40+0000\n"
-"Last-Translator: Daye Jeong, 2025\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,21 +39,23 @@ msgid ""
 "<br/>\n"
 "                    Left:"
 msgstr ""
+"<br/>\n"
+"                    왼쪽:"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<br/>Address:"
-msgstr ""
+msgstr "<br/>이메일:"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<br/>Email:"
-msgstr ""
+msgstr "<br/>이메일:"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<br/>Phone:"
-msgstr ""
+msgstr "<br/>전화:"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -87,17 +89,17 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> Full access"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> 전체 액세스"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> Outstanding service"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> 탁월한 서비스"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> Prompt assistance"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> 신속한 지원"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -141,14 +143,14 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Eyewear Stores</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>안경점을 위한 Odoo</strong></span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid ""
 "<span class=\"flex-grow-1\">How can I contact our eye care support "
 "team?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">안경점 고객 지원팀에 문의하려면 어떻게 해야 하나요?</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -158,7 +160,7 @@ msgstr "<span class=\"flex-grow-1\">환불 정책은 어떻게 되나요?</span>
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<span class=\"flex-grow-1\">What services do we provide?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">저희 서비스에 대해 안내해드릴까요?</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -175,12 +177,12 @@ msgstr "<span class=\"px-3\">또는</span>"
 msgid ""
 "<span class=\"s_website_form_label_content\">Existing Prescription "
 "Details</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">기존 처방전 세부 내용</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_3549
 msgid "<span class=\"s_website_form_label_content\">Extra information</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">기타 정보</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -235,37 +237,37 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Addition</strong>"
-msgstr ""
+msgstr "<strong>추가</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "<strong>Automated reminders</strong> reduce no-shows."
-msgstr ""
+msgstr "<strong>자동 리마인더</strong>로 노쇼 상황을 줄입니다."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Axis</strong>"
-msgstr ""
+msgstr "<strong>축</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Base</strong>"
-msgstr ""
+msgstr "<strong>베이스</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Cylinder</strong>"
-msgstr ""
+msgstr "<strong>실린더</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Eye</strong>"
-msgstr ""
+msgstr "<strong>눈</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Left Eye</strong>"
-msgstr ""
+msgstr "<strong>왼쪽 눈</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -277,22 +279,22 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Near Pupillary Distance</strong>"
-msgstr ""
+msgstr "<strong>가까운 동공 거리</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Ocular Dominance</strong>"
-msgstr ""
+msgstr "<strong>우세안 테스트</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Pupillary Distance</strong>"
-msgstr ""
+msgstr "<strong>동공 거리</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Right Eye</strong>"
-msgstr ""
+msgstr "<strong>오른쪽 눈</strong>"
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -309,12 +311,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Segment Height (M.F.)</strong>"
-msgstr ""
+msgstr "<strong>세그먼트 높이 (M.F.)</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Sphere</strong>"
-msgstr ""
+msgstr "<strong>구형</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -324,7 +326,7 @@ msgstr "<strong>성공을 위한 팁</strong>"
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "<strong>Vertex Distance</strong>"
-msgstr ""
+msgstr "<strong>정점 거리</strong>"
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -334,7 +336,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
 msgid "<strong>Why Choose Us?</strong>"
-msgstr ""
+msgstr "<strong>저희를 선택하는 이유는 무엇일까요?</strong>"
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -344,7 +346,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "<strong>📆 Eye Test Appointments</strong>"
-msgstr ""
+msgstr "<strong>📆 시력 검사 예약</strong>"
 
 #. module: eyewear_shop
 #: model:pos.category,name:eyewear_shop.pos_category_5
@@ -362,7 +364,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:base.automation,name:eyewear_shop.add_client_automation_rule
 msgid "Add client"
-msgstr ""
+msgstr "고객 추가"
 
 #. module: eyewear_shop
 #: model:ir.actions.server,name:eyewear_shop.add_followers_based_partner_id
@@ -372,22 +374,22 @@ msgstr ""
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_addition_add_left_field
 msgid "Addition (ADD) - Left"
-msgstr ""
+msgstr "추가(ADD) - 왼쪽"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_addition_add_right_field
 msgid "Addition (ADD) - Right"
-msgstr ""
+msgstr "추가 (ADD) - 오른쪽"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_1
 msgid "Adults"
-msgstr ""
+msgstr "성인"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_130
 msgid "Alfred"
-msgstr ""
+msgstr "Alfred"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -404,17 +406,17 @@ msgstr ""
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_29
 msgid "Anti Glare Coating"
-msgstr ""
+msgstr "눈부심 방지 코팅"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_125
 msgid "Anti-Fatigue Glasses"
-msgstr ""
+msgstr "피로 방지 안경"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_108
 msgid "Anti-Fog Lens Wipes"
-msgstr ""
+msgstr "김서림 방지 렌즈 와이프"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_125
@@ -429,17 +431,17 @@ msgstr "Astra"
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_12
 msgid "Available with prescription"
-msgstr ""
+msgstr "도수 처방 가능"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_axis_degrees_left_field
 msgid "Axis (Degrees) - Left"
-msgstr ""
+msgstr "축(도) - 왼쪽"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_axis_degrees_right_field
 msgid "Axis (Degrees) - Right"
-msgstr ""
+msgstr "축(도) - 오른쪽"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_base_curve_mm_left_field
@@ -454,12 +456,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_121
 msgid "Bifocal Glasses"
-msgstr ""
+msgstr "이중 초점 안경"
 
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_35
 msgid "Bifocal Lenses"
-msgstr ""
+msgstr "이중 초점 렌즈"
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_121
@@ -476,7 +478,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
 msgid "Binocular Measurements"
-msgstr ""
+msgstr "양안 측정"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_23
@@ -486,7 +488,7 @@ msgstr "검정색"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_150
 msgid "Blaze"
-msgstr ""
+msgstr "불꽃"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_26
@@ -496,12 +498,12 @@ msgstr "파란색"
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_25
 msgid "Blue Light Filter"
-msgstr ""
+msgstr "블루라이트 필터"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_21
 msgid "Blue Light Glasses"
-msgstr ""
+msgstr "블루라이트 안경"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_21
@@ -529,7 +531,7 @@ msgstr "갈색"
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_30
 msgid "Casual"
-msgstr ""
+msgstr "캐주얼"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -549,7 +551,7 @@ msgstr "최고 운영 책임자"
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Chief Optometrist"
-msgstr ""
+msgstr "수석 검안사"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_2
@@ -565,7 +567,7 @@ msgstr "기본"
 #: model:pos.category,name:eyewear_shop.pos_category_7
 #: model:product.public.category,name:eyewear_shop.product_public_category_7
 msgid "Cleaning Supplies"
-msgstr ""
+msgstr "청소 용품"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_res_partner_id_field
@@ -600,17 +602,17 @@ msgstr "상담"
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
 msgid "Consultation Date"
-msgstr ""
+msgstr "상담일"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.res_partner_form_customization
 msgid "Consultation date"
-msgstr ""
+msgstr "상담일"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.res_partner_form_customization
 msgid "Consultations"
-msgstr ""
+msgstr "상담"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
@@ -659,7 +661,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_10
 msgid "Costa Del Mar"
-msgstr ""
+msgstr "Costa Del Mar"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -679,7 +681,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_22
 msgid "Custom Measurement"
-msgstr ""
+msgstr "맞춤 측정"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.calendar_opportunity_field
@@ -701,17 +703,17 @@ msgstr ""
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_cylinder_diopters_left_field
 msgid "Cylinder (Diopters) - Left"
-msgstr ""
+msgstr "굴절도(디옵터) - 왼쪽"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_cylinder_diopters_right_field
 msgid "Cylinder (Diopters) - Right"
-msgstr ""
+msgstr "굴절도(디옵터) - 오른쪽"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_22
 msgid "Daily Contact Lenses"
-msgstr ""
+msgstr "데일리 콘택트렌즈"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_22
@@ -726,17 +728,17 @@ msgstr "설명"
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_diameter_mm_left_field
 msgid "Diameter (mm) - Left"
-msgstr ""
+msgstr "직경(mm) - 왼쪽"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_diameter_mm_right_field
 msgid "Diameter (mm) - Right"
-msgstr ""
+msgstr "직경(mm) - 오른쪽"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Discover New <strong>Vision Solutions</strong>"
-msgstr ""
+msgstr "새로운 <strong>시력 솔루션</strong>을 확인해 보세요"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -756,7 +758,7 @@ msgstr "더 자세히 알고 싶으신가요?"
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Dr. Mich Stark"
-msgstr ""
+msgstr "Mich Stark 박사"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -776,12 +778,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_132
 msgid "Eclipse"
-msgstr ""
+msgstr "일식"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_143
 msgid "Eden"
-msgstr ""
+msgstr "에덴"
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_23
@@ -818,7 +820,7 @@ msgstr "실용적이고 가치 있는 다양한 옵션에 대해 알아보세요
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Explore our<br/> key services"
-msgstr ""
+msgstr "주요 서비스<br/>살펴보기"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_3549
@@ -828,7 +830,7 @@ msgstr "추가 정보"
 #. module: eyewear_shop
 #: model:appointment.type,name:eyewear_shop.appointment_type_1
 msgid "Eye Test"
-msgstr ""
+msgstr "시력 검사"
 
 #. module: eyewear_shop
 #: model:ir.actions.report,name:eyewear_shop.partner_line_eye_test_result_report
@@ -838,12 +840,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "Eye examination"
-msgstr ""
+msgstr "시력 검사"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_12
 msgid "Eyeconic"
-msgstr ""
+msgstr "최신 유행"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_25
@@ -853,12 +855,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
 msgid "Eyesight"
-msgstr ""
+msgstr "시력"
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_11
 msgid "Face shape"
-msgstr ""
+msgstr "얼굴 모양"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_4
@@ -876,17 +878,17 @@ msgstr ""
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_21
 msgid "Frame Adjustment"
-msgstr ""
+msgstr "테 조정"
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_13
 msgid "Frame Color"
-msgstr ""
+msgstr "테 색상"
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_10
 msgid "Frame Shape"
-msgstr ""
+msgstr "테 모양"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -912,7 +914,7 @@ msgstr "녹색"
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_19
 msgid "Heart-shaped"
-msgstr ""
+msgstr "하트 모양"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_117
@@ -983,7 +985,7 @@ msgstr "지평선"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_116
 msgid "Hydrating Eye Drops"
-msgstr ""
+msgstr "하이드레이팅 점안액"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_116
@@ -1036,7 +1038,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_11
 msgid "JINS"
-msgstr ""
+msgstr "진스"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1070,28 +1072,28 @@ msgstr ""
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_24
 msgid "Kids Glasses"
-msgstr ""
+msgstr "어린이 안경"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
 msgid "Left Eye"
-msgstr ""
+msgstr "왼쪽 눈"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_23
 msgid "Lens Cleaner Spray"
-msgstr ""
+msgstr "렌즈 클리너 스프레이"
 
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_37
 msgid "Lens Replacement"
-msgstr ""
+msgstr "렌즈 교체"
 
 #. module: eyewear_shop
 #: model:pos.category,name:eyewear_shop.pos_category_8
 #: model:product.public.category,name:eyewear_shop.product_public_category_8
 msgid "Lenses"
-msgstr ""
+msgstr "렌즈"
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_123
@@ -1111,17 +1113,17 @@ msgstr ""
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_27
 msgid "Luxury Collection"
-msgstr ""
+msgstr "럭셔리 컬렉션"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_117
 msgid "Luxury Gold-Rim Glasses"
-msgstr ""
+msgstr "럭셔리 골드 안경테"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_135
 msgid "Lyra"
-msgstr ""
+msgstr "라이라"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_3
@@ -1161,12 +1163,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Meet our specialists"
-msgstr ""
+msgstr "저희 전문가 팀을 만나보세요"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_24
 msgid "Microfiber Cleaning Cloth"
-msgstr ""
+msgstr "극세사 클리닝 천"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_24
@@ -1237,7 +1239,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "More appointments"
-msgstr ""
+msgstr "추가 예약"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1257,7 +1259,7 @@ msgstr "이름 :"
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_near_pd_for_reading_field
 msgid "Near PD (for reading)"
-msgstr ""
+msgstr "근시(독서용)"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1276,7 +1278,7 @@ msgstr "신규"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_144
 msgid "Nimbus"
-msgstr ""
+msgstr "님부스"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_22
@@ -1291,7 +1293,7 @@ msgstr "없음"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_131
 msgid "Nova"
-msgstr ""
+msgstr "노바"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_7
@@ -1301,12 +1303,12 @@ msgstr "오클리"
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_ocular_dominance_left_field
 msgid "Ocular Dominance - Left"
-msgstr ""
+msgstr "좌안 우위"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_ocular_dominance_right_field
 msgid "Ocular Dominance - Right"
-msgstr ""
+msgstr "우안 우위"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1316,7 +1318,7 @@ msgstr "Odoo.com/trial"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_147
 msgid "Onyx"
-msgstr ""
+msgstr "오닉스"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_29
@@ -1326,7 +1328,7 @@ msgstr "오렌지"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_136
 msgid "Orion"
-msgstr ""
+msgstr "오리온"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1341,7 +1343,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_17
 msgid "Oval"
-msgstr ""
+msgstr "타원형"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1353,12 +1355,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_8
 msgid "Persol"
-msgstr ""
+msgstr "퍼솔"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_13
 msgid "Pilot"
-msgstr ""
+msgstr "파일럿"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_108
@@ -1373,7 +1375,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_26
 msgid "Prescription Check"
-msgstr ""
+msgstr "도수 검사"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_145
@@ -1418,27 +1420,27 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
 msgid "Print results"
-msgstr ""
+msgstr "결과 인쇄"
 
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_28
 msgid "Progressive Lenses"
-msgstr ""
+msgstr "누진 렌즈"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_25
 msgid "Protective Eyeglass Case"
-msgstr ""
+msgstr "안경 보호 케이스"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_pupillary_distance_pd_field
 msgid "Pupillary Distance (PD)"
-msgstr ""
+msgstr "동공 거리(PD)"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_6
 msgid "Ray-Ban"
-msgstr ""
+msgstr "레이벤"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1448,7 +1450,7 @@ msgstr "연락하기"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_123
 msgid "Reading Glasses"
-msgstr ""
+msgstr "독서용 안경"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_15
@@ -1475,12 +1477,12 @@ msgstr "비고"
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
 msgid "Right Eye"
-msgstr ""
+msgstr "오른쪽 눈"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
 msgid "Right:"
-msgstr ""
+msgstr "우측:"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_16
@@ -1491,7 +1493,7 @@ msgstr "둥근"
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_segment_height_for_multifocals_field
 msgid "Segment Height (for multifocals)"
-msgstr ""
+msgstr "세그먼트 높이(다초점용)"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_sequence_field
@@ -1533,7 +1535,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_139
 msgid "Solaris"
-msgstr ""
+msgstr "Solaris"
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_125
@@ -1545,12 +1547,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_sphere_diopters_left_field
 msgid "Sphere (Diopters) - Left"
-msgstr ""
+msgstr "굴절(디옵터) - 왼쪽"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_sphere_diopters_right_field
 msgid "Sphere (Diopters) - Right"
-msgstr ""
+msgstr "구면 도수(디옵터) - 오른쪽"
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_23
@@ -1572,7 +1574,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_138
 msgid "Stratos"
-msgstr ""
+msgstr "Stratos"
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_14
@@ -1582,7 +1584,7 @@ msgstr "스타일"
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_20
 msgid "Stylish Sunglasses"
-msgstr ""
+msgstr "스타일리시한 선글라스"
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_130
@@ -1665,12 +1667,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_141
 msgid "Titan"
-msgstr ""
+msgstr "Titan"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_9
 msgid "Tom Ford"
-msgstr ""
+msgstr "Tom Ford"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1680,7 +1682,7 @@ msgstr "Tony Fred"
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_31
 msgid "Trendy"
-msgstr ""
+msgstr "유행"
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_20
@@ -1697,12 +1699,12 @@ msgstr "삼각형"
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_17
 msgid "UV"
-msgstr ""
+msgstr "UV"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_78
 msgid "UV-protection"
-msgstr ""
+msgstr "UV 차단"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_5
@@ -1738,12 +1740,12 @@ msgstr "유용한 옵션"
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_vertex_distance_field
 msgid "Vertex Distance"
-msgstr ""
+msgstr "정점 거리"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_visits_1_field
 msgid "Visits "
-msgstr ""
+msgstr "방문"
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_visual_acuity_distance_left_field
@@ -1803,7 +1805,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "What you will receive"
-msgstr ""
+msgstr "제공하는 서비스"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1811,6 +1813,8 @@ msgid ""
 "When making products available online, make sure you have enough stock. The confirmation of a quotation or a website sale can triggers the creation of a delivery order to your customer in the <strong>Inventory </strong>app. You can\n"
 "        always see how much of each product you have available in the Inventory app menu, as well as on each individual product form."
 msgstr ""
+"품목을 온라인으로 제공하는 경우에는 충분히 재고가 확보되어 있는지 확인하세요. 견적서 또는 웹사이트 판매가 확정되면 자동으로 <strong>재고 관리</strong> 앱에서 고객에게 배송 주문서가 생성됩니다.\n"
+"        재고 관리 앱 메뉴와 개별 품목 양식에서 품목별 재고 수량을 언제든지 확인할 수 있습니다."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1867,66 +1871,69 @@ msgid ""
 "helping you maintain optimal eye health and detect any potential issues "
 "early."
 msgstr ""
+"시력은 일상생활 중에 매우 중요한 요소입니다. 전문적인 시력 검진을 통해 선명하고 건강한 시력을 유지하세요. 저희 "
+"<strong>안경점</strong>에서는 고객님의 니즈에 맞춘 종합적인 시력 검진을 통해 눈 건강을 이상적으로 유지하고 잠재적으로 "
+"발생할 가능성이 있는 문제를 조기에 진단할 수 있게 도와드립니다."
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_137
 msgid "Zenith"
-msgstr ""
+msgstr "Zenith"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_99
 msgid "adaptive"
-msgstr ""
+msgstr "적응형"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_90
 msgid "adjustable"
-msgstr ""
+msgstr "조정 가능"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_95
 msgid "advanced"
-msgstr ""
+msgstr "고급형"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_100
 msgid "anti-fatigue"
-msgstr ""
+msgstr "김서림 방지"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_69
 msgid "anti-fog"
-msgstr ""
+msgstr "김서림 방지"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_20
 msgid "anti-glare"
-msgstr ""
+msgstr "눈부심 방지"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_92
 msgid "bifocal"
-msgstr ""
+msgstr "이중 초점"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_19
 msgid "blue-light"
-msgstr ""
+msgstr "블루 라이트"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_23
 msgid "cleaner"
-msgstr ""
+msgstr "클리너"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_73
 msgid "clip-on"
-msgstr ""
+msgstr "클립온"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_22
 msgid "comfort"
-msgstr ""
+msgstr "편안함"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_106
@@ -1936,37 +1943,37 @@ msgstr "컴퓨터"
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_79
 msgid "contact-lenses"
-msgstr ""
+msgstr "콘텍트렌즈"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_21
 msgid "daily"
-msgstr ""
+msgstr "일상"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_93
 msgid "distance"
-msgstr ""
+msgstr "거리"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_89
 msgid "durable"
-msgstr ""
+msgstr "내구성"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_24
 msgid "eco-friendly"
-msgstr ""
+msgstr "친환경"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_82
 msgid "eye-drops"
-msgstr ""
+msgstr "안약"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_76
 msgid "fashion"
-msgstr ""
+msgstr "패션"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_16
@@ -1976,57 +1983,57 @@ msgstr "그림 액자"
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_85
 msgid "gold-rim"
-msgstr ""
+msgstr "골드색 테"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_102
 msgid "high-index"
-msgstr ""
+msgstr "고굴절"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_83
 msgid "hydration"
-msgstr ""
+msgstr "보습"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_104
 msgid "impact-resistant"
-msgstr ""
+msgstr "내충격성"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_88
 msgid "kids"
-msgstr ""
+msgstr "키즈"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_75
 msgid "kit"
-msgstr ""
+msgstr "키트"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_72
 msgid "lightweight"
-msgstr ""
+msgstr "경량"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_84
 msgid "luxury"
-msgstr ""
+msgstr "럭셔리"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_97
 msgid "magnification"
-msgstr ""
+msgstr "배율"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_25
 msgid "microfiber"
-msgstr ""
+msgstr "극세사"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_107
 msgid "modern"
-msgstr ""
+msgstr "모던"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_80
@@ -2036,67 +2043,67 @@ msgstr "매월"
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_96
 msgid "multifocal"
-msgstr ""
+msgstr "다초점"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_91
 msgid "nose-pads"
-msgstr ""
+msgstr "코받침"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_98
 msgid "photochromic"
-msgstr ""
+msgstr "변색"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_18
 msgid "polarized"
-msgstr ""
+msgstr "편광"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_15
 msgid "prescription"
-msgstr ""
+msgstr "처방"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_94
 msgid "progressive"
-msgstr ""
+msgstr "진행률"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_27
 msgid "protective"
-msgstr ""
+msgstr "보호"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_71
 msgid "reading"
-msgstr ""
+msgstr "독서용"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_101
 msgid "relief"
-msgstr ""
+msgstr "안정적인"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_74
 msgid "repair"
-msgstr ""
+msgstr "수리"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
 msgid "res_partner_line"
-msgstr ""
+msgstr "res_partner_line"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_26
 msgid "reusable"
-msgstr ""
+msgstr "재사용"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_81
 msgid "rigid"
-msgstr ""
+msgstr "견고함"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_105
@@ -2111,7 +2118,7 @@ msgstr "스포츠"
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_28
 msgid "stylish"
-msgstr ""
+msgstr "스타일리시"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_108
@@ -2128,22 +2135,22 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_103
 msgid "thin-light"
-msgstr ""
+msgstr "초박형 경량"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_77
 msgid "transition"
-msgstr ""
+msgstr "전환"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_70
 msgid "wipes"
-msgstr ""
+msgstr "물티슈"
 
 #. module: eyewear_shop
 #: model:product.tag,name:eyewear_shop.product_tag_87
 msgid "wraparound"
-msgstr ""
+msgstr "광각"
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -2176,7 +2183,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "🌐 Website &amp; eCommerce"
-msgstr ""
+msgstr "🌐 웹사이트 및 이커머스"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -2196,12 +2203,12 @@ msgstr "🎓 구매"
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "🎓 Website tutorials"
-msgstr ""
+msgstr "🎓 웹사이트 튜토리얼"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "🎓 eCommerce tutorials"
-msgstr ""
+msgstr "🎓 이커머스 튜토리얼"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -2216,7 +2223,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "💶 Point of sale"
-msgstr ""
+msgstr "💶 POS"
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -2226,12 +2233,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "📖 Website documentation"
-msgstr ""
+msgstr "📖 웹사이트 문서"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "📖 eCommerce documentation"
-msgstr ""
+msgstr "📖 이커머스 문서"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -2246,4 +2253,4 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "🧪 Log client data"
-msgstr ""
+msgstr "🧪 고객 정보 기록"

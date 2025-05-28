@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2025
-# Sarah Park, 2025
 # Daye Jeong, 2025
 # Wil Odoo, 2025
+# Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-12 12:04+0000\n"
 "PO-Revision-Date: 2025-05-14 14:56+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,17 +25,17 @@ msgstr ""
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_26
 msgid " eco-friendly"
-msgstr ""
+msgstr " 친환경"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_30
 msgid " slim"
-msgstr ""
+msgstr " 슬림"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_34
 msgid " wireless charging compatible"
-msgstr ""
+msgstr "무선 충전 호환"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
@@ -44,6 +44,9 @@ msgid ""
 "                      <br/>\n"
 "for Companies"
 msgstr ""
+"기업용\n"
+"                      <br/>\n"
+"<b>디자인</b>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -115,22 +118,22 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">+1 555-555-5556</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">+1 555-555-5556</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Contact us</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">문의하기</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Home</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">홈</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Privacy Policy</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">개인정보 처리방침</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -142,7 +145,7 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">info@yourcompany.example.com</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">info@yourcompany.example.com</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -229,7 +232,7 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "<strong>Japanese collection</strong>"
-msgstr ""
+msgstr "<strong>일본 콜렉션</strong>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -278,7 +281,7 @@ msgstr "어드민 사용자"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_1
 msgid "Aegis Flex"
-msgstr ""
+msgstr "이지스 플렉스"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -289,12 +292,12 @@ msgstr ""
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_16
 msgid "Aurora Cases"
-msgstr ""
+msgstr "오로라 케이스"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_2
 msgid "Aurora Shield"
-msgstr ""
+msgstr "오로라 실드"
 
 #. module: dropshipping
 #: model:res.partner.category,name:dropshipping.res_partner_category_2
@@ -324,7 +327,7 @@ msgstr "갈색"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Browse Collections"
-msgstr ""
+msgstr "컬렉션 찾아보기"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -334,7 +337,7 @@ msgstr "캐러셀 표시기"
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_9
 msgid "Case-Io"
-msgstr ""
+msgstr "사례-Io"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -369,12 +372,12 @@ msgstr ""
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_18
 msgid "Crystal Cases"
-msgstr ""
+msgstr "크리스탈 케이스"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_3
 msgid "Crystal Grip"
-msgstr ""
+msgstr "크리스탈 그립"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -401,7 +404,7 @@ msgstr "ES 고객"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_4
 msgid "Eclipse Shell"
-msgstr ""
+msgstr "이클립스 셸"
 
 #. module: dropshipping
 #: model:hr.department,name:dropshipping.hr_department_2
@@ -502,7 +505,7 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Explore Our Protective Cases."
-msgstr ""
+msgstr "보호 케이스 살펴보기"
 
 #. module: dropshipping
 #: model:delivery.carrier,name:dropshipping.delivery_carrier_2
@@ -528,12 +531,12 @@ msgstr "팔로우하세요"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_5
 msgid "Fortress Max"
-msgstr ""
+msgstr "포트리스 맥스"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Glossy"
-msgstr ""
+msgstr "광택"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -550,7 +553,7 @@ msgstr "녹색"
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_22
 msgid "Hardcase"
-msgstr ""
+msgstr "하드 케이스"
 
 #. module: dropshipping
 #: model:website.menu,name:dropshipping.website_menu_5
@@ -567,7 +570,7 @@ msgstr "이 패키지의 모든 기능을 쉽게 탐색하려면 데모 데이�
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_6
 msgid "Infinity Edge"
-msgstr ""
+msgstr "인피니티 엣지"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
@@ -616,7 +619,7 @@ msgstr "제품 링크"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Made for you"
-msgstr ""
+msgstr "고객을 위한 제품"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -629,7 +632,7 @@ msgstr ""
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_7
 msgid "Nebula Grip"
-msgstr ""
+msgstr "네뷸라 그립"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -639,12 +642,12 @@ msgstr "다음"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_8
 msgid "Nimbus Case"
-msgstr ""
+msgstr "옵시디언 프레임"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_9
 msgid "Obsidian Frame"
-msgstr ""
+msgstr "옵시디언 프레임"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -660,7 +663,7 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Ongoing Promotions"
-msgstr ""
+msgstr "진행 중인 프로모션"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_5
@@ -675,7 +678,7 @@ msgstr "기타"
 #. module: dropshipping
 #: model:product.attribute,name:dropshipping.product_attribute_10
 msgid "Phone Model"
-msgstr ""
+msgstr "휴대폰 모델"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_19
@@ -695,7 +698,7 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Premium Quality &amp;amp; Features"
-msgstr ""
+msgstr "프리미엄 품질 및 기능"
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_8
@@ -778,7 +781,7 @@ msgstr "이전"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_10
 msgid "Pulse Guard"
-msgstr ""
+msgstr "펄스 가드"
 
 #. module: dropshipping
 #: model:res.partner.category,name:dropshipping.res_partner_category_3
@@ -793,7 +796,7 @@ msgstr "보라색"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_11
 msgid "Quantum Cover"
-msgstr ""
+msgstr "퀀텀 커버"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -808,12 +811,12 @@ msgstr "빨간색"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Rugged"
-msgstr ""
+msgstr "견고"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_20
 msgid "Rugged IO"
-msgstr ""
+msgstr "견고한 IO"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -855,32 +858,32 @@ msgstr ""
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_6
 msgid "Silicone"
-msgstr ""
+msgstr "실리콘"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Smooth"
-msgstr ""
+msgstr "스무스"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Soft touch"
-msgstr ""
+msgstr "소프트 터치"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_12
 msgid "Stealth Armor"
-msgstr ""
+msgstr "스텔스 아머"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_8
 msgid "Textile"
-msgstr ""
+msgstr "텍스타일"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Textured"
-msgstr ""
+msgstr "텍스처"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -892,7 +895,7 @@ msgstr ""
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_13
 msgid "Titan Guard"
-msgstr ""
+msgstr "타이탄 가드"
 
 #. module: dropshipping
 #: model:website.menu,name:dropshipping.website_menu_4
@@ -919,7 +922,7 @@ msgstr ""
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_14
 msgid "Vortex Shield"
-msgstr ""
+msgstr "볼텍스 쉴드"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
@@ -977,6 +980,8 @@ msgid ""
 "Your Phone,<br/>\n"
 "Your Style"
 msgstr ""
+"나만의 휴대폰,<br/>\n"
+"나만의 스타일"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -989,47 +994,47 @@ msgstr ""
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_15
 msgid "Zenith Wrap"
-msgstr ""
+msgstr "제니스 랩"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_15
 msgid "iPhone 12"
-msgstr ""
+msgstr "iPhone 12"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_14
 msgid "iPhone 13"
-msgstr ""
+msgstr "iPhone 13"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_11
 msgid "iPhone 14"
-msgstr ""
+msgstr "iPhone 14"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_12
 msgid "iPhone 15"
-msgstr ""
+msgstr "iPhone 15"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_13
 msgid "iPhone 16"
-msgstr ""
+msgstr "iPhone 16"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_27
 msgid "kickstand"
-msgstr ""
+msgstr "킥보드"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_28
 msgid "shockproof"
-msgstr ""
+msgstr "충격 방지"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_25
 msgid "wallet"
-msgstr ""
+msgstr "지갑"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -1042,7 +1047,7 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "✽&amp;nbsp;What makes us great"
-msgstr ""
+msgstr "✽&amp;nbsp;최고인 데에는 이유가 있습니다"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -1060,37 +1065,37 @@ msgstr ""
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 E-Commerce Documentation"
-msgstr ""
+msgstr "🎓 이커머스 문서"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Email Marketing Documentation"
-msgstr ""
+msgstr "🎓 이메일 마케팅 문서"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Marketing Automation Documentation"
-msgstr ""
+msgstr "🎓 마케팅 자동화 문서"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Purchase Documentation"
-msgstr ""
+msgstr "🎓 매입 문서"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Shipping Carrier Documentation"
-msgstr ""
+msgstr "🎓 배송업체 문서"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Social Marketing Documentation"
-msgstr ""
+msgstr "🎓 소셜 마케팅 문서"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Website Documentation"
-msgstr ""
+msgstr "🎓 웹사이트 문서"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
