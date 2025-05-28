@@ -3,8 +3,8 @@
 # 	* outdoor_activities
 # 
 # Translators:
-# Malaz Abuidris <msea@odoo.com>, 2025
 # Wil Odoo, 2025
+# Malaz Abuidris <msea@odoo.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 11:28+0000\n"
 "PO-Revision-Date: 2025-05-11 11:39+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,21 +38,23 @@ msgid ""
 ".<br/>\n"
 "            <br/>"
 msgstr ""
+".<br/>\n"
+"            <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
 msgid "30 years diving"
-msgstr ""
+msgstr "خبرة 30 سنة في الغطس "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
 msgid "500+ students"
-msgstr ""
+msgstr "أكثر من 500 طالب "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
 msgid "5000+ dives"
-msgstr ""
+msgstr "أكثر من 5000 سبّاح "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
@@ -72,6 +74,8 @@ msgid ""
 "<b><b>Decades</b>&amp;nbsp;of&amp;nbsp;Experience</b>\n"
 "                                    <br/>"
 msgstr ""
+"<b><b>عقود</b> من الخبرة</b> \n"
+"                                    <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -119,7 +123,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Outdoor Activities</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>الأنشطة الخارجية</strong></span> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -228,6 +232,7 @@ msgstr "<span class=\"s_website_form_label_content\">رقم الهاتف</span>"
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "<span class=\"s_website_form_label_content\">Preferred Contact</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">كريقة التواصل المفضلة</span> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -318,7 +323,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "<strong> Important</strong>"
-msgstr ""
+msgstr "<strong>مهم </strong> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -370,7 +375,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "<strong>Included:</strong>"
-msgstr ""
+msgstr "<strong>يشمل:</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -406,7 +411,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "<strong>Schedule &amp; Duration</strong>"
-msgstr ""
+msgstr "<strong>الجدول والمدة</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -414,13 +419,15 @@ msgid ""
 "<strong>What to\n"
 "            Bring</strong>"
 msgstr ""
+"<strong>ما عليك\n"
+"            إحضاره</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "<strong>What to Bring</strong>"
-msgstr ""
+msgstr "<strong>ما عليك إحضاره</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -428,7 +435,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "<strong>What to Expect</strong>"
-msgstr ""
+msgstr "<strong>ما يمكن توقعه</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -436,13 +443,13 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "<strong>Who Can Join?</strong>"
-msgstr ""
+msgstr "<strong>من الذي بإمكانه الانضمام؟</strong> "
 
 #. module: outdoor_activities
 #: model:appointment.type,name:outdoor_activities.appointment_type_2
 #: model:product.template,name:outdoor_activities.product_product_6_product_template
 msgid "Advanced Cave Dive"
-msgstr ""
+msgstr "الغطس الاحترافي في الكهف "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -502,7 +509,7 @@ msgstr ""
 #: model:crm.tag,name:outdoor_activities.crm_tag_3
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "Certification Course"
-msgstr ""
+msgstr "دورة الشهادة "
 
 #. module: outdoor_activities
 #: model:website.menu,name:outdoor_activities.website_menu_9
@@ -542,7 +549,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "Creating Special Events"
-msgstr ""
+msgstr "نعمل على إنشاء مناسباتك الخاصة "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -552,7 +559,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Diving Tours"
-msgstr ""
+msgstr "جولات الغطس "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -578,7 +585,7 @@ msgstr ""
 #: model:crm.tag,name:outdoor_activities.crm_tag_7
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "E-Mail"
-msgstr ""
+msgstr "البريد الإلكتروني "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -590,7 +597,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "Events Documentation"
-msgstr ""
+msgstr "وثائق الفعاليات "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -630,7 +637,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model:website.menu,name:outdoor_activities.website_menu_7
 msgid "Expeditions"
-msgstr ""
+msgstr "الرحلات الاستكشافية "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -660,13 +667,13 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Get a&amp;nbsp;Certification"
-msgstr ""
+msgstr "احصل على شهادة "
 
 #. module: outdoor_activities
 #: model:crm.tag,name:outdoor_activities.crm_tag_1
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "Group Booking"
-msgstr ""
+msgstr "حجز جماعي "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -783,7 +790,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "Managing On-Site Payments"
-msgstr ""
+msgstr "إدارة عمليات الدفع في الموقع "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -877,7 +884,7 @@ msgstr "غير ذلك"
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
 msgid "PADI Instructor"
-msgstr ""
+msgstr "معلم PADI "
 
 #. module: outdoor_activities
 #: model:event.event,subtitle:outdoor_activities.event_event_1
@@ -890,7 +897,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "POS Configuration"
-msgstr ""
+msgstr "تهيئة نقطة البيع "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -907,19 +914,19 @@ msgstr "رقم الهاتف"
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "Phone Call"
-msgstr ""
+msgstr "مكالمة هاتفية "
 
 #. module: outdoor_activities
 #: model:appointment.type,name:outdoor_activities.appointment_type_3
 msgid "Private Booking"
-msgstr ""
+msgstr "حجز خاص "
 
 #. module: outdoor_activities
 #: model:crm.tag,name:outdoor_activities.crm_tag_2
 #: model:product.template,name:outdoor_activities.product_product_5_product_template
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "Private Tour"
-msgstr ""
+msgstr "جولة خاصة "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -938,12 +945,12 @@ msgstr "التسجيل"
 #: model:crm.tag,name:outdoor_activities.crm_tag_4
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "Regular Tour"
-msgstr ""
+msgstr "جولة عادية "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
 msgid "Scuba Tours"
-msgstr ""
+msgstr "جولات الغطس "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -969,7 +976,7 @@ msgstr ""
 #: model:appointment.type,name:outdoor_activities.appointment_type_1
 #: model:product.template,name:outdoor_activities.product_product_7_product_template
 msgid "Shallow Reef Tour"
-msgstr ""
+msgstr "جولة في الشعاب المرجانية الضحلة "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1241,7 +1248,7 @@ msgstr "info@divingteamplate.odoo.com"
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "official documentation"
-msgstr ""
+msgstr "الوثائق الرسمية "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1353,12 +1360,14 @@ msgid ""
 "✔ <strong>Full\n"
 "            wetsuit</strong>"
 msgstr ""
+"✔ <strong>بذلة غطس\n"
+"            كاملة</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "✔ <strong>Full wetsuit</strong>"
-msgstr ""
+msgstr "✔ <strong>بذلة غطس كاملة</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1395,7 +1404,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✔ Pool entry"
-msgstr ""
+msgstr "✔ مدخل المسبح "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1407,7 +1416,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✔ <strong>Full wetsuit</strong>"
-msgstr ""
+msgstr "✔ <strong>بذلة غطس كاملة</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1555,13 +1564,15 @@ msgid ""
 "🛁\n"
 "            Towel"
 msgstr ""
+"🛁\n"
+"            منشفة "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "🛁 Towel"
-msgstr ""
+msgstr "🛁 منشفة "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1591,4 +1602,4 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "🩱 Swimsuit"
-msgstr ""
+msgstr "🩱 بذلة سباحة "
