@@ -26,6 +26,8 @@ msgid ""
 "&amp;nbsp;Experience the thrill of weightlessness as you glide through the underwater realm, where each movement feels like a dance. Encounter vibrant fish and stunning coral formations that create a\n"
 "                                    mesmerizing underwater landscape. Whether you wish to simply explore the depths or become a PADI certified diver, we at Scuba Tours have got you covered!"
 msgstr ""
+"&amp;nbsp;Experience the thrill of weightlessness as you glide through the underwater realm, where each movement feels like a dance. Encounter vibrant fish and stunning coral formations that create a\n"
+"                                    mesmerizing underwater landscape. Whether you wish to simply explore the depths or become a PADI certified diver, we at Scuba Tours have got you covered!"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
@@ -146,7 +148,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
 msgid "<span class=\"flex-grow-1\">What about insurance?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">ماذا عن التأمين؟</span> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -166,6 +168,8 @@ msgid ""
 "<span class=\"s_number display-1-fs\">500+</span><br/>\n"
 "                                            Students"
 msgstr ""
+"<span class=\"s_number display-1-fs\">500+</span><br/>\n"
+"                                            طالب "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -234,6 +238,18 @@ msgid ""
 "                                                    Duration 8&amp;nbsp;Hours\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_title d-flex align-items-baseline fw-bold\">\n"
+"                                                    <span class=\"d-flex flex-grow-1 align-items-center\">\n"
+"                                                        <span class=\"s_pricelist_cafe_item_name\">Advanced Cave Dive</span>\n"
+"                                                        <span class=\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                                                    </span>\n"
+"                                                    <span class=\"s_pricelist_cafe_item_price ms-auto ps-3\">€ 200.00&amp;nbsp;(tax excl.)</span>\n"
+"                                                </span>\n"
+"                                                <span class=\"s_pricelist_cafe_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
+"                                                    For lovers of the deep blue.&amp;nbsp;<br/>\n"
+"                                                    Every Tuesday, Thursday and Saturday at 10 a.m.<br/>\n"
+"                                                    Duration 8&amp;nbsp;Hours\n"
+"                                                </span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -351,6 +367,11 @@ msgid ""
 "                                                </strong>\n"
 "                                                <br/>"
 msgstr ""
+"<strong>\n"
+"                                                    We kick off our courses on the first Monday of every month, providing you with all the knowledge needed to dive into the vast ocean.&amp;nbsp;<br/>\n"
+"                                                    The courses span from Monday to Friday and include insurance, equipment rental, and exam fees.\n"
+"                                                </strong>\n"
+"                                                <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -358,6 +379,8 @@ msgid ""
 "<strong> Create a Registration Fee-Product, if you do not want to charge the"
 " full amount upon registration.</strong>"
 msgstr ""
+"<strong> قم بإنشاء منتج \"رسوم التسجيل\" إذا كنت لا ترغب في تحصيل المبلغ "
+"كاملاً عند التسجيل.</strong>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -370,6 +393,8 @@ msgid ""
 "<strong> Using Tracks in the Events App allows you to easily integrate an "
 "agenda and overview for your customers</strong>"
 msgstr ""
+"<strong>يسمح لك استخدام المسارات في تطبيق الفعاليات بتضمين جدول أعمال ونظرة "
+"عامة لعملائك بسهولة</strong> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -379,7 +404,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "<strong>Become a PADI-certified diver!</strong>"
-msgstr ""
+msgstr "<strong>أصبح غواصاً معتمداً من PADI!</strong> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -387,6 +412,8 @@ msgid ""
 "<strong>Create Templates for Events that are recurring to save time when "
 "setting them up!</strong>"
 msgstr ""
+"<strong>قم بإنشاء قوالب للفعاليات المتكررة لتوفير الوقت عند "
+"إعدادها!</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -442,7 +469,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "<strong>Ready to Dive In?</strong>"
-msgstr ""
+msgstr "<strong>هل أنت جاهز للغطس</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -497,6 +524,9 @@ msgid ""
 "            <br/>\n"
 "            In our case the customer is paying in exact cash.<br/>"
 msgstr ""
+"After entering the correct Opening Balance, you can simply select the corresponding product from your device and proceed to payment. This will allow you to choose a payment method from your pre-configured settings. \n"
+"            <br/>\n"
+"            In our case the customer is paying in exact cash.<br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -504,6 +534,8 @@ msgid ""
 "All our courses are from Monday to Friday. Each day we start at our diving "
 "school at 10 a.m. and finish at 1:30 p.m."
 msgstr ""
+"تُعقد كافة دوراتنا من الاثنين إلى الجمعة. نبدأ كل يوم في مدرسة الغوص الخاصة "
+"بنا في الساعة 10 صباحاً وننتهي في الساعة 1:30 ظهراً. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -517,6 +549,9 @@ msgid ""
 "            You can now follow up on leads and convert them into sales, set up your regular tours, host special events and sell them via your website or in person. <br/>\n"
 "            <br/>"
 msgstr ""
+"كل شيء جاهز الآن! 🤩<br/>\n"
+"            يمكنك الآن متابعة العملاء المهتمين وتحويلهم إلى مبيعات وإعداد جولاتك المنتظمة واستضافة الفعاليات الخاصة وبيعها عبر موقعك الإلكتروني أو شخصياً. <br/>\n"
+"            <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -524,6 +559,8 @@ msgid ""
 "Any cancellations up to 7 days in advance of the course are fully refunded. "
 "After that, we cannot offer any refund."
 msgstr ""
+"أي إلغاءات تصل إلى 7 أيام قبل الدورة التدريبية يتم استرداد قيمتها بالكامل. "
+"بعد ذلك، لا يمكننا استرداد أي مبالغ مستردة. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -531,11 +568,13 @@ msgid ""
 "Apart from regular recurring activities that can be booked via the calendar, you can also set up more elaborate special events and offer them to your customers via the website. For example, at Adam Diver we also offer an Open\n"
 "            Water Diver-certification course. This section will take you through building this experience from scratch."
 msgstr ""
+"Apart from regular recurring activities that can be booked via the calendar, you can also set up more elaborate special events and offer them to your customers via the website. For example, at Adam Diver we also offer an Open\n"
+"            Water Diver-certification course. This section will take you through building this experience from scratch."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Book a dive trip"
-msgstr ""
+msgstr "احجز رحلة غطس "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -543,6 +582,8 @@ msgid ""
 "By clicking on this opportunity we open the corresponding opportunity. Once there, We can send a message via the button \"<strong>Send Message</strong>\" on top of the chatter to further qualify the request. Once we know\n"
 "            everything we need, we can create a quotation by clicking on the smart button \"<strong>New Quotation</strong>\" on the top left."
 msgstr ""
+"By clicking on this opportunity we open the corresponding opportunity. Once there, We can send a message via the button \"<strong>Send Message</strong>\" on top of the chatter to further qualify the request. Once we know\n"
+"            everything we need, we can create a quotation by clicking on the smart button \"<strong>New Quotation</strong>\" on the top left."
 
 #. module: outdoor_activities
 #: model:crm.tag,name:outdoor_activities.crm_tag_3
@@ -572,6 +613,9 @@ msgid ""
 "Contact us about&amp;nbsp;if you want more information on us or our tours. "
 "Also, for private tours or group bookings, please contact us via this form."
 msgstr ""
+"لا تتردد في التواصل معنا إذا أردت معرفة المزيد من المعلومات عنا أو عن "
+"الجولات التي نقدمها. أيضاً، بالنسبة للجولات الخاصة أو حجوزات المجموعات، يرجى"
+" التواصل معنا عبر هذه الاستمارة. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3240
@@ -584,6 +628,8 @@ msgid ""
 "Create a new customer: creates a new customer record, using any available "
 "information provided on the opportunity form."
 msgstr ""
+"أنشئ عميلاً جديداً: قم بإنشاء سجل عميل جديد باستخدام أي معلومات متوفرة في "
+"الاستمارة الخاصة بالفرصة. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -593,7 +639,7 @@ msgstr "نعمل على إنشاء مناسباتك الخاصة "
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Discover our dive packages"
-msgstr ""
+msgstr "اكتشف باقات الغطس التي نقدمها "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -611,6 +657,8 @@ msgid ""
 "Do not link to a customer: the quotation will <strong>not</strong> be linked"
 " to a customer, and no changes are made to the customer information."
 msgstr ""
+"عدم الربط بعميل: <strong>لن يتم ربط</strong> عرض الأسعار بعميل، ولن يتم "
+"إجراء أي تغييرات على معلومات العميل. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -618,7 +666,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "Download the form here"
-msgstr ""
+msgstr "قم بتنزيل الاستمارة هنا "
 
 #. module: outdoor_activities
 #: model:crm.tag,name:outdoor_activities.crm_tag_7
@@ -632,6 +680,8 @@ msgid ""
 "Ensure your equipment meets quality and safety standards with the "
 "<strong>Quality</strong> app’s product inspections."
 msgstr ""
+"تأكَّد من أن معداتك تستوفي معايير الجودة والسلامة من خلال عمليات فحص "
+"المنتجات التي يجريها <strong>تطبيق</strong> الجودة. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -644,6 +694,8 @@ msgid ""
 "Ever been fascinated by the underwater world but never had the courage to dive in? Not\n"
 "            sure if scuba is for you? Our <strong>PADI <strong>Open Water Diver</strong></strong> experience is the perfect way to test the waters!"
 msgstr ""
+"هل سبق لك أن كنت مفتوناً بعالم ما تحت الماء ولكن لم تكن لديك الشجاعة للغوص؟ لست متأكداً\n"
+"            إن كانت رياضة الغوص مناسبة لك؟ إن تجربة الغطس في المياه المفتوحة <strong>PADI <strong>Open Water Diver</strong></strong> التي نقدمها هي الحل الأمثل لاختبار ذلك!"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -651,6 +703,8 @@ msgid ""
 "Ever been fascinated by the underwater world but never had the courage to dive in? Not sure if scuba is for you? Our\n"
 "            <strong>PADI <strong>Open Water Diver</strong></strong> experience is the perfect way to test the waters!"
 msgstr ""
+"هل سبق لك أن كنت مفتوناً بعالم ما تحت الماء ولكن لم تكن لديك الشجاعة للغوص؟ لست متأكداً إن كانت رياضة الغوص مناسبة لك؟ إن تجربة الغطس في المياه المفتوحة\n"
+"            <strong>PADI <strong>Open Water Diver</strong></strong> التي نقدمها هي الحل الأمثل لاختبار ذلك! "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -658,6 +712,8 @@ msgid ""
 "Ever been fascinated by the underwater world but never had the courage to dive in? Not sure if scuba is for you? Our <strong>PADI <strong>Open Water\n"
 "            Diver</strong></strong> experience is the perfect way to test the waters!"
 msgstr ""
+"هل سبق لك أن كنت مفتوناً بعالم ما تحت الماء ولكن لم تكن لديك الشجاعة للغوص؟ لست متأكداً إن كانت رياضة الغوص مناسبة لك؟ إن تجربة الغطس في المياه المفتوحة<strong>PADI <strong>Open Water\n"
+"            Diver</strong></strong> التي نقدمها هي الحل الأمثل لاختبار ذلك! "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -665,6 +721,8 @@ msgid ""
 "Ever been fascinated by the underwater world but never had the courage to dive in? Not sure if scuba is for you? Our <strong>PADI <strong>Open Water Diver</strong></strong> experience is the perfect\n"
 "            way to test the waters!"
 msgstr ""
+"هل سبق لك أن كنت مفتوناً بعالم ما تحت الماء ولكن لم تكن لديك الشجاعة للغوص؟ لست متأكداً إن كانت رياضة الغوص مناسبة لك؟ إن تجربة الغطس في المياه المفتوحة <strong>PADI <strong>Open Water Diver</strong></strong> التي نقدمها هي الحل الأمثل\n"
+"            لاختبار ذلك! "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -672,6 +730,8 @@ msgid ""
 "Expand your business by selling or renting out equipment. Set up your "
 "<strong>eCommerce</strong> in just a few minutes."
 msgstr ""
+"وسِّع نطاق عملك من خلال بيع أو تأجير المعدات. أنشئ <strong>متجرك "
+"الإلكتروني</strong> خلال دقائق معدودة. "
 
 #. module: outdoor_activities
 #: model:website.menu,name:outdoor_activities.website_menu_7
@@ -701,7 +761,7 @@ msgstr "الأسئلة الشائعة "
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "From Opportunity to Invoice"
-msgstr ""
+msgstr "من محض فرصة إلى فاتورة للعميل "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -721,6 +781,10 @@ msgid ""
 "<strong>Email Marketing</strong>, <strong>Social Media Marketing</strong>, "
 "and <strong>SMS Marketing</strong> tools."
 msgstr ""
+"قم بتنمية قاعدة عملائك باستخدام <strong>تطبيق أتمتة التسويق</strong>، "
+"<strong>التسويق عبر البريد الإلكتروني</strong>، <strong>التسويق "
+"الاجتماعي</strong>، وأدوات <strong>التسويق عبر الرسائل النصية "
+"القصيرة</strong>. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -738,6 +802,8 @@ msgid ""
 "However, customer information must be added or linked before a quotation can be sent. If the Customer field is left blank on the opportunity, clicking the New Quotation button opens a pop-up window\n"
 "                    with the following options:"
 msgstr ""
+"ولكن، يجب إضافة معلومات العميل أو ربطها قبل إرسال عرض الأسعار. إذا تم ترك حقل العميل فارغًا في الفرصة، فسيؤدي الضغط على زر \"عرض سعر جديد\" إلى فتح نافذة منبثقة\n"
+"                    تتضمن الخيارات التالية:"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -745,6 +811,8 @@ msgid ""
 "If you want to easily discover every feature of this package, try "
 "downloading the Demo Data."
 msgstr ""
+"إذا كنت ترغب في اكتشاف كافة الخصائص التي تتميز بها هذه الباقة بسهولة، حاول "
+"تنزيل البيانات التجريبية. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -752,6 +820,8 @@ msgid ""
 "If you would like to learn more about the possibilities and options our "
 "Events App offers, our official documentation has got you covered!"
 msgstr ""
+"إذا كنت ترغب في معرفة المزيد عن الخصائص والخيارات التي يوفرها تطبيق "
+"الفعاليات، فإن وثائقنا الرسمية ستساعدك في ذلك! "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -773,6 +843,8 @@ msgid ""
 "Just be careful, once demo data is uploaded, it cannot be easily deleted. "
 "However, you can always restart with a fresh database on"
 msgstr ""
+"كن حذراً، فبمجرد تحميل البيانات التجريبية، لا يمكن حذفها بسهولة. ولكن يمكنك "
+"إعادة تشغيل قاعدة بيانات جديدة على "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -800,6 +872,8 @@ msgid ""
 "Just like with the appointments, you can select if and how much you want to charge for the registration via the <strong>Tickets-Tab</strong> and ask for relevant information in the <strong>Questions-Tab</strong>. In Addition you\n"
 "            can configure automatic confirmation mails and reminders before the event via the<strong> Communication-Tab</strong>"
 msgstr ""
+"Just like with the appointments, you can select if and how much you want to charge for the registration via the <strong>Tickets-Tab</strong> and ask for relevant information in the <strong>Questions-Tab</strong>. In Addition you\n"
+"            can configure automatic confirmation mails and reminders before the event via the<strong> Communication-Tab</strong>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -821,6 +895,9 @@ msgid ""
 "<strong>Inventory </strong>app—automate restocking and monitor expiration "
 "dates effortlessly."
 msgstr ""
+"تتبَّع مخزونك ومعداتك في الوقت الفعلي باستخدام تطبيق <strong>إدارة "
+"المخزون</strong> — قم بأتمتة عمليات تزويد المخزون ومراقبة تواريخ انتهاء "
+"الصلاحية دون عناء. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -829,6 +906,8 @@ msgid ""
 " names. Select a name to link this new quotation to an existing customer "
 "record."
 msgstr ""
+"الربط بعميل موجود: يؤدي إلى فتح حقل منسدل بأسماء العملاء الحاليين. حدد اسماً"
+" لربط عرض السعر الجديد هذا بسجل عميل موجود. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -859,6 +938,8 @@ msgid ""
 "Now we validate the payment, and that's it! Congratulations, you just sold a dive tour! As a final step, you can choose send the receipt via mail or print it on the following screen. Please note that connecting your printer\n"
 "            to the POS-App is also covered in our"
 msgstr ""
+"Now we validate the payment, and that's it! Congratulations, you just sold a dive tour! As a final step, you can choose send the receipt via mail or print it on the following screen. Please note that connecting your printer\n"
+"            to the POS-App is also covered in our"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -876,6 +957,8 @@ msgid ""
 "Once you are finished, you can edit the event description and related image on your website via the <strong>Go to Website-Smart Button</strong>. To make this event accessible to the whole wide world, simply change the ruler to\n"
 "            <strong>Published </strong>and you good to go!"
 msgstr ""
+"Once you are finished, you can edit the event description and related image on your website via the <strong>Go to Website-Smart Button</strong>. To make this event accessible to the whole wide world, simply change the ruler to\n"
+"            <strong>Published </strong>and you good to go!"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -892,11 +975,13 @@ msgid ""
 "Once you have configured your shop and decided what your customers can purchase on site, the rest is a breeze in the park.<br/>\n"
 "            Simply click on your Point of Sale-App and select your \"Open Register\" under your Shop."
 msgstr ""
+"بمجرد أن تقوم بتهيئة متجرك وتحديد ما يمكن لعملائك شراؤه في الموقع، فإن الباقي سيكون سهلاً للغاية.<br/>\n"
+"            كل ما عليك القيام به هو الضغط على تطبيق \"نقطة البيع\" لديك وتحديد خيار \"فتح السجل\" تحت متجرك. "
 
 #. module: outdoor_activities
 #: model:product.template,name:outdoor_activities.product_product_4_product_template
 msgid "Open Water Certification Course"
-msgstr ""
+msgstr "دورة شهادة المياه المفتوحة "
 
 #. module: outdoor_activities
 #: model:event.event,name:outdoor_activities.event_event_3
@@ -924,6 +1009,8 @@ msgid ""
 "Optimize employee scheduling with the <strong>Planning </strong>app, making "
 "sure you have the right staff at the right time."
 msgstr ""
+"قم بتحسين تخطيط جداول عمل الموظفين من خلال تطبيق <strong>التخطيط</strong>، "
+"وتأكد من وجود الموظفين المناسبين في الوقت المناسب. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -941,7 +1028,7 @@ msgstr "معلم PADI "
 #: model:event.event,subtitle:outdoor_activities.event_event_3
 #: model:event.event,subtitle:outdoor_activities.event_event_4
 msgid "PADI Open Water Diver"
-msgstr ""
+msgstr "غطاس PADI في المياه المفتوحة "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -954,6 +1041,8 @@ msgid ""
 "Perfect, the customer has confirmed the quotation and we can send the Sales Order - congratulations on selling a private tour! For more details on creating and sending quotations from the CRM-App, please see our official\n"
 "            documentation on the subject."
 msgstr ""
+"رائع، لقد قام العميل بتأكيد عرض الأسعار ويمكننا الآن إرسال أمر البيع - تهانينا على بيع جولة خاصة! لمزيد من التفاصيل حول إنشاء عروض الأسعار وإرسالها من تطبيق إدارة علاقات العملاء، يُرجى الاطلاع على وثائقنا \n"
+"            الرسمية حول هذا الموضوع. "
 
 #. module: outdoor_activities
 #: model:crm.tag,name:outdoor_activities.crm_tag_6
@@ -1014,12 +1103,12 @@ msgstr "مشاهدة الكل<i class=\"fa fa-long-arrow-right ms-2\"/> "
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "Sending and Creating Quotations"
-msgstr ""
+msgstr "إرسال وإنشاء عروض الأسعار "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "Setting up Regular Tours"
-msgstr ""
+msgstr "جاري إعداد الجولات العادية "
 
 #. module: outdoor_activities
 #: model:appointment.type,name:outdoor_activities.appointment_type_1
@@ -1053,6 +1142,9 @@ msgid ""
 "shines, which allows your customer to simply pay on the spot and join the "
 "fun."
 msgstr ""
+"قد يقرر بعض العملاء بشكل عفوي الانضمام إليك في جولة أو فعالية ما، بدلاً من "
+"الحجز عبر الإنترنت مسبقاً. وهنا يتألق تطبيق نقاط البيع، والذي يسمح لعميلك "
+"بالدفع فوراً والانضمام إلى المتعة. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1073,6 +1165,8 @@ msgid ""
 "Streamline team management and integrate employees into every process using "
 "the <strong>Employees</strong> app."
 msgstr ""
+"قم بتبسيط إدارة الفريق وإشراك الموظفين في كافة العمليات باستخدام تطبيق "
+"<strong>الموظفين</strong>. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -1085,6 +1179,8 @@ msgid ""
 "The <strong>CRM App</strong> manages all customer relations, helps you keep "
 "track of leads and website visitors and increase your sales."
 msgstr ""
+"يدير <strong>تطبيق إدارة علاقات العملاء (CRM)</strong> كافة علاقتك بالعملاء،"
+" ويساعدك على تتبع العملاء المحتملين وزوار الموقع الإلكتروني وزيادة مبيعاتك. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1100,6 +1196,9 @@ msgid ""
 "allows customers to contact you and even purchase their aquatic adventures "
 "from anywhere in the world."
 msgstr ""
+"يُعتبر <strong>تطبيق الموقع الإلكتروني</strong> بمثابة بطاقة الاتصال الخاصة "
+"بشركتك، ويتيح للعملاء الاتصال بك وكذلك شراء التذاكر لمغامراتهم المائية من أي"
+" مكان في العالم. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1135,6 +1234,8 @@ msgid ""
 "This package is ideal for any outdoor activity provider - from scuba diving to paragliding. Whether you want to reach out to customers, offer regular experiences or certification courses - This guide will help you manage\n"
 "            your business more efficiently."
 msgstr ""
+"هذه الباقة مثالية للشركات التي تقدم أنشطة خارجية - بدءاً من الغوص وحتى الطيران الشراعي. سواء كنت ترغب في التواصل مع العملاء أو تقديم تجارب منتظمة أو دورات تدريبية للحصول على الشهادات - سيساعدك هذا الدليل على\n"
+"             إدارة أعمالك بكفاءة أكبر. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1142,6 +1243,8 @@ msgid ""
 "To be able to sell tickets for your events via your website, you need to go to<strong> Events -&gt; Configuration </strong>first and activate the feature <strong>Online Ticketing.<br/></strong>To allow the integration\n"
 "                    of this flow with the <strong>Sales-App</strong>, you also need to activate<strong> Tickets with Sale</strong>."
 msgstr ""
+"To be able to sell tickets for your events via your website, you need to go to<strong> Events -&gt; Configuration </strong>first and activate the feature <strong>Online Ticketing.<br/></strong>To allow the integration\n"
+"                    of this flow with the <strong>Sales-App</strong>, you also need to activate<strong> Tickets with Sale</strong>."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1154,6 +1257,8 @@ msgid ""
 "To ensure that your POS is set up correctly, we strongly recommend following the step-by-step guide from our official documentation, which you can find linked below:<br/>\n"
 "                    <br/>"
 msgstr ""
+"للتأكد من إعداد نقاط البيع الخاصة بك بشكل صحيح، نوصي بشدة باتباع الدليل التفصيلي خطوة بخطوة من وثائقنا الرسمية، والتي يمكنك العثور عليها في الرابط أدناه:<br/>\n"
+"                    <br/> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1161,6 +1266,8 @@ msgid ""
 "To get started on our first event, we need to go to the <strong>Events-App </strong>and click on <strong>New</strong>. In the following form, we can set up all the key information, such as the date and duration of the event, the\n"
 "            location and whether there is a limited number of participants. <br/>"
 msgstr ""
+"To get started on our first event, we need to go to the <strong>Events-App </strong>and click on <strong>New</strong>. In the following form, we can set up all the key information, such as the date and duration of the event, the\n"
+"            location and whether there is a limited number of participants. <br/>"
 
 #. module: outdoor_activities
 #: model:website.menu,name:outdoor_activities.website_menu_4
@@ -1173,6 +1280,8 @@ msgid ""
 "Use the<strong> Sales App</strong> to validate orders and create custom "
 "quotations for special VIP bookings."
 msgstr ""
+"استخدم <strong>تطبيق المبيعات</strong> للتحقق من صحة الطلبات وإنشاء عروض "
+"أسعار مخصصة للحجوزات الخاصة بكبار الشخصيات. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1196,6 +1305,8 @@ msgid ""
 "With the <strong>Events App</strong> you can create certification courses "
 "and special Experiences for your customers."
 msgstr ""
+"باستخدام <strong>تطبيق الفعاليات</strong> يمكنك إنشاء دورات تدريبية للحصول "
+"على شهادات وتجارب خاصة لعملائك. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1204,6 +1315,8 @@ msgid ""
 "feedback and business insights to offer your customers the best experience "
 "possible"
 msgstr ""
+"مع تطبيق <strong>الاستطلاعات</strong> يمكنك جمع ملاحظات العملاء القيمة "
+"وآرائهم لمنحهم أفضل تجربة ممكنة "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1234,6 +1347,9 @@ msgid ""
 "equipment and emergencies are included. Please find more information on the "
 "exact coverage&amp;nbsp;"
 msgstr ""
+"يتم تأمينك من خلال DAN طوال فترة الدورة التدريبية. تشمل كافة رحلات الغطس "
+"والمعدات وحالات الطوارئ. يرجى الاطلاع على المزيد من المعلومات حول التغطية "
+"الدقيقة "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1251,12 +1367,15 @@ msgid ""
 "Appointment Type, if you prefer your customers to only pay partially upon "
 "booking."
 msgstr ""
+"يمكنك أيضاً إنشاء رسوم حجز أو دفعة مقدمة وربطها بنوع الموعد، إذا كنت تفضل أن"
+" يدفع عملاؤك جزءاً من المبلغ فقط عند الحجز. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid ""
 "You can still do it after installation by upgrading your package in Apps."
 msgstr ""
+"لا يزال بإمكانك القيام بذلك بعد التثبيت عن طريق ترقية باقتك في التطبيقات. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -1363,6 +1482,8 @@ msgid ""
 "✅ A short but thorough\n"
 "            briefing on water pressure, underwater communication, and equipment use."
 msgstr ""
+"✅ موجز قصير ولكن شامل\n"
+"            عن ضغط المياه والاتصالات تحت الماء واستخدام المعدات تحت الماء. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1372,6 +1493,8 @@ msgid ""
 "✅ A short but thorough briefing on water pressure, underwater communication,"
 " and equipment use."
 msgstr ""
+"✅ موجز قصير ولكن شامل عن ضغط المياه والاتصالات تحت الماء واستخدام المعدات "
+"تحت الماء. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1434,7 +1557,7 @@ msgstr "✔ <strong>بذلة غطس كاملة</strong> "
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "✔ <strong>Pool practice sessions</strong>"
-msgstr ""
+msgstr "✔ <strong>جلسة التدريب في المسبح</strong>"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -1481,7 +1604,7 @@ msgstr "✔ <strong>بذلة غطس كاملة</strong> "
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✔ <strong>Pool practice sessions</strong>"
-msgstr ""
+msgstr "✔ <strong>جلسة التدريب في المسبح</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1489,6 +1612,8 @@ msgid ""
 "🏊\n"
 "            Plus <strong>pool practice sessions</strong> to build confidence before heading into open water"
 msgstr ""
+"🏊\n"
+"            بالإضافة إلى <strong>جلسات تدريب في حوض السباحة</strong> لبناء الثقة قبل التوجه إلى المياه المفتوحة "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -1496,6 +1621,8 @@ msgid ""
 "🏊 Plus <strong>pool practice sessions</strong> to build confidence before heading\n"
 "            into open water"
 msgstr ""
+"🏊  بالإضافة إلى <strong>جلسات تدريب في حوض السباحة</strong> لبناء الثقة قبل التوجه  \n"
+"            إلى المياه المفتوحة "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1503,6 +1630,8 @@ msgid ""
 "🏊 Plus <strong>pool practice sessions</strong> to build confidence before heading into open\n"
 "            water"
 msgstr ""
+"🏊  بالإضافة إلى <strong>جلسات تدريب في حوض السباحة</strong> لبناء الثقة قبل التوجه إلى المياه \n"
+"            المفتوحة "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1510,6 +1639,8 @@ msgid ""
 "🏊 Plus <strong>pool practice sessions</strong> to build confidence before "
 "heading into open water"
 msgstr ""
+"🏊 بالإضافة إلى <strong>جلسات تدريب في حوض السباحة</strong> لبناء الثقة قبل "
+"التوجه إلى المياه المفتوحة "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -1517,6 +1648,8 @@ msgid ""
 "👉 Minimum age: <strong>12 years</strong> (parental consent required for\n"
 "            minors).<br><br>📄 <strong>Important:</strong> Before joining, you must complete and sign the <strong>PADI Diver Medical Form</strong>:"
 msgstr ""
+"👉 العمر الأدنى: <strong>12 سنة</strong> (موافقة الوالدين مطلوبةr\n"
+"            للقُصّر).<br><br>📄 <strong>هام:</strong> قبل الانضمام، يجب عليك إكمال وتوقيع <strong>الاستمارة الطبية للغوص PADI</strong>:"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1524,6 +1657,8 @@ msgid ""
 "👉 Minimum age: <strong>12 years</strong> (parental consent required for minors).<br><br>📄 <strong>Important:</strong> Before\n"
 "            joining, you must complete and sign the <strong>PADI Diver Medical Form</strong>:"
 msgstr ""
+"👉 العمر الأدنى: <strong>12 سنة</strong> (موافقة الوالدين مطلوبة للقُصّر).<br><br>📄 <strong>هام:\n"
+"            قبل الانضمام، يجب عليك إكمال وتوقيع <strong>الاستمارة الطبية للغوص PADI</strong>:"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1531,6 +1666,8 @@ msgid ""
 "👉 Minimum age: <strong>12 years</strong> (parental consent required for minors).<br><br>📄 <strong>Important:</strong> Before joining, you must complete and sign the\n"
 "            <strong>PADI Diver Medical Form</strong>:"
 msgstr ""
+"👉 العمر الأدنى: <strong>12 سنة</strong> (موافقة الوالدين مطلوبة للقُصّر).<br><br>📄 <strong>هام:</strong> قبل الانضمام، يجب عليك إكمال وتوقيع\n"
+"            <strong>الاستمارة الطبية للغوص PADI</strong>: "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1545,13 +1682,15 @@ msgid ""
 "📄 <strong>Important:</strong> Before joining, you\n"
 "            must complete and sign the <strong>PADI Diver Medical Form</strong>:"
 msgstr ""
+"📄 <strong>مهم:</strong> قبل الانضمام، عليك\n"
+"            تعبئة وتوقيع <strong>نموذج PADI الطبي للغواصين</strong>: "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "📅 <strong>Monday to Friday</strong>"
-msgstr ""
+msgstr "📅 <strong>من الإثنين إلى الجمعة</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1559,6 +1698,8 @@ msgid ""
 "📅 <strong>Monday\n"
 "            to Friday</strong>"
 msgstr ""
+"📅 <strong>من الإثنين\n"
+"            إلى الجمعة</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3

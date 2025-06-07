@@ -376,7 +376,7 @@ msgstr ""
 msgid ""
 "<strong> Create a Registration Fee-Product, if you do not want to charge the"
 " full amount upon registration.</strong>"
-msgstr ""
+msgstr "<strong>등록 수수료 제품을 생성할 경우, 등록 단계에서 해당 금액 전체를 청구하지 않습니다.</strong>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -389,6 +389,8 @@ msgid ""
 "<strong> Using Tracks in the Events App allows you to easily integrate an "
 "agenda and overview for your customers</strong>"
 msgstr ""
+"<strong> 행사 앱에 있는 트랙 기능을 활용하면 고객을 위한 아젠다와 전체보기 기능을 효과적으로 통합 관리할 수 "
+"있습니다.</strong>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -533,7 +535,7 @@ msgstr ""
 msgid ""
 "All our courses are from Monday to Friday. Each day we start at our diving "
 "school at 10 a.m. and finish at 1:30 p.m."
-msgstr ""
+msgstr "모든 과정은 월요일부터 금요일까지 진행됩니다. 매일 오전 10시에 다이빙 스쿨을 시작으로 오후 1시 30분에 종료됩니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -556,7 +558,7 @@ msgstr ""
 msgid ""
 "Any cancellations up to 7 days in advance of the course are fully refunded. "
 "After that, we cannot offer any refund."
-msgstr ""
+msgstr "강좌 시작 7일 전까지는 취소 시 전액 환불됩니다. 그 이후에는 환불이 불가능합니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -609,6 +611,8 @@ msgid ""
 "Contact us about&amp;nbsp;if you want more information on us or our tours. "
 "Also, for private tours or group bookings, please contact us via this form."
 msgstr ""
+"저희 회사나 투어에 대해 자세한 정보를 원하실 경우&amp;nbsp;문의주시기 바랍니다. 또한 프라이빗 투어 또는 단체 예약은 이 양식을"
+" 통해 문의하세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3240
@@ -620,7 +624,7 @@ msgstr "표지"
 msgid ""
 "Create a new customer: creates a new customer record, using any available "
 "information provided on the opportunity form."
-msgstr ""
+msgstr "신규 고객 생성: 영업기회 양식에 기재된 정보를 활용하여 신규 고객 레코드를 생성합니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -647,7 +651,7 @@ msgstr "더 자세히 알고 싶으신가요?"
 msgid ""
 "Do not link to a customer: the quotation will <strong>not</strong> be linked"
 " to a customer, and no changes are made to the customer information."
-msgstr ""
+msgstr "고객에게 연결하지 <strong>않습니다</strong>: 견적서가 고객에게 연결되지 않으며 고객 정보가 변경되지 않습니다."
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -717,6 +721,7 @@ msgid ""
 "Expand your business by selling or renting out equipment. Set up your "
 "<strong>eCommerce</strong> in just a few minutes."
 msgstr ""
+"장비 판매나 임대를 통해 사업을 확장하세요. 단 몇 분 만에 <strong>이커머스</strong> 플랫폼을 구축할 수 있습니다."
 
 #. module: outdoor_activities
 #: model:website.menu,name:outdoor_activities.website_menu_7
@@ -766,6 +771,8 @@ msgid ""
 "<strong>Email Marketing</strong>, <strong>Social Media Marketing</strong>, "
 "and <strong>SMS Marketing</strong> tools."
 msgstr ""
+"Odoo <strong>마케팅 자동화</strong>, <strong>이메일 마케팅</strong>, <strong>소셜 미디어 "
+"마케팅</strong>, <strong>SMS 마케팅</strong> 도구를 사용하여 고객 기반을 확장하세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -791,14 +798,14 @@ msgstr ""
 msgid ""
 "If you want to easily discover every feature of this package, try "
 "downloading the Demo Data."
-msgstr ""
+msgstr "이 패키지의 모든 기능에 대해 쉽게 파악해 보려면 데모 데이터를 다운로드하세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid ""
 "If you would like to learn more about the possibilities and options our "
 "Events App offers, our official documentation has got you covered!"
-msgstr ""
+msgstr "행사 앱에서 활용할 수 있는 다양한 기능과 옵션에 대해 자세히 알아보려면 공식 문서를 확인해 보세요!"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -820,6 +827,8 @@ msgid ""
 "Just be careful, once demo data is uploaded, it cannot be easily deleted. "
 "However, you can always restart with a fresh database on"
 msgstr ""
+"데모 데이터가 일단 업로드되면 쉽게 삭제할 수 없으니 주의하세요. 다만 언제든지 다음을 통해 새로운 데이터베이스를 다시 시작할 수 "
+"있습니다:"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -872,6 +881,8 @@ msgid ""
 "<strong>Inventory </strong>app—automate restocking and monitor expiration "
 "dates effortlessly."
 msgstr ""
+"<strong>재고 관리</strong> 앱으로 재고와 장비를 실시간으로 관리해 보세요. 재입고 작업을 자동으로 진행하고 손쉽게 "
+"유통기한을 모니터링할 수 있습니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -880,6 +891,8 @@ msgid ""
 " names. Select a name to link this new quotation to an existing customer "
 "record."
 msgstr ""
+"기존 고객 자료에 연결하기: 드롭다운 필드로 기존 고객명이 열립니다. 이름을 선택하면 해당하는 신규 견적서가 기존 고객 기록에 "
+"연결됩니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -978,7 +991,7 @@ msgstr "오픈 워터 자격증 과정 - 7월"
 msgid ""
 "Optimize employee scheduling with the <strong>Planning </strong>app, making "
 "sure you have the right staff at the right time."
-msgstr ""
+msgstr "<strong>일정 계획</strong> 앱을 활용하여 직원 스케줄을 최적화하고 적시에 적절하게 직원을 배치하세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -1144,6 +1157,8 @@ msgid ""
 "The <strong>CRM App</strong> manages all customer relations, helps you keep "
 "track of leads and website visitors and increase your sales."
 msgstr ""
+"<strong>CRM 앱</strong>으로 모든 고객 관계를 관리하고, 리드와 웹사이트 방문자 추적을 통해 매출 증대에 기여할 수 "
+"있습니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1159,6 +1174,8 @@ msgid ""
 "allows customers to contact you and even purchase their aquatic adventures "
 "from anywhere in the world."
 msgstr ""
+"<strong>웹사이트 앱</strong>은 회사에 대한 연락처 역할을 하여, 고객이 회사로 연락하여 전 세계 어디에서나 해양 탐험 "
+"상품을 구매할 수 있습니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1217,6 +1234,8 @@ msgid ""
 "To ensure that your POS is set up correctly, we strongly recommend following the step-by-step guide from our official documentation, which you can find linked below:<br/>\n"
 "                    <br/>"
 msgstr ""
+"POS 설정이 정확하게 되어 있는지 확인하려면 아래 링크를 통해 공식 문서의 세부 단계별 가이드에 따라 진행하세요:<br/>\n"
+"                    <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1237,7 +1256,7 @@ msgstr "웹사이트 상단 메뉴 1"
 msgid ""
 "Use the<strong> Sales App</strong> to validate orders and create custom "
 "quotations for special VIP bookings."
-msgstr ""
+msgstr "<strong>판매 앱</strong>을 활용하여 주문서를 승인하고 VIP용 특별 예약에 위한 맞춤 견적을 생성하세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1261,6 +1280,7 @@ msgid ""
 "With the <strong>Events App</strong> you can create certification courses "
 "and special Experiences for your customers."
 msgstr ""
+"<strong>행사 앱</strong>을 통해 고객을 위해 자격증 과정을 생성할 수 있으며 특별 체험 과정을 만들 수 있습니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1269,6 +1289,8 @@ msgid ""
 "feedback and business insights to offer your customers the best experience "
 "possible"
 msgstr ""
+"<strong>설문조사</strong> 앱을 활용하여 귀중한 고객 피드백과 비즈니스에 대한 인사이트를 확보하여 고객에게 최상의 경험을 "
+"제공할 수 있습니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1295,6 +1317,8 @@ msgid ""
 "equipment and emergencies are included. Please find more information on the "
 "exact coverage&amp;nbsp;"
 msgstr ""
+"전체 과정에 대해 전 기간동안 DAN을 통해 보장됩니다. 모든 다이빙 활동, 장비 사용 및 비상 상황에 대한 지원이 포함됩니다. 정확한 "
+"보장 범위에 대한 자세한 내용은 다음 내용을 참조하세요&amp;nbsp;"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1310,6 +1334,8 @@ msgid ""
 "Appointment Type, if you prefer your customers to only pay partially upon "
 "booking."
 msgstr ""
+"또한 예약 수수료 또는 계약금 항목을 생성하여 예약 유형에 연결해 놓으면, 고객이 예약 시 금액 중 일부만 결제하도록 설정할 수 "
+"있습니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1578,6 +1604,8 @@ msgid ""
 "👉 Minimum age: <strong>12 years</strong> (parental consent required for\n"
 "            minors).<br><br>📄 <strong>Important:</strong> Before joining, you must complete and sign the <strong>PADI Diver Medical Form</strong>:"
 msgstr ""
+"👉 최소 연령: <strong>12세</strong> (미성년자의 경우 부모 동의\n"
+"            필요).<br><br>📄 <strong>중요 사항:</strong> 가입 전에 <strong>PADI 다이버 건강 상태 양식</strong>을 작성하고 서명해야 합니다:"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1585,6 +1613,8 @@ msgid ""
 "👉 Minimum age: <strong>12 years</strong> (parental consent required for minors).<br><br>📄 <strong>Important:</strong> Before\n"
 "            joining, you must complete and sign the <strong>PADI Diver Medical Form</strong>:"
 msgstr ""
+"👉 최소 연령: <strong>12세</strong> (미성년자의 경우 부모 동의 필요).<br><br>📄 <strong>중요 사항:</strong> 가입\n"
+"           전에 <strong>PADI 다이버 건강 상태 양식</strong>을 작성하고 서명해야 합니다:"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1592,6 +1622,8 @@ msgid ""
 "👉 Minimum age: <strong>12 years</strong> (parental consent required for minors).<br><br>📄 <strong>Important:</strong> Before joining, you must complete and sign the\n"
 "            <strong>PADI Diver Medical Form</strong>:"
 msgstr ""
+"👉 최소 연령: <strong>12세</strong> (미성년자의 경우 부모 동의 필요).<br><br>📄 <strong>중요 사항:</strong> 가입 전에\n"
+"           <strong>PADI 다이버 건강 상태 양식</strong>을 작성하고 서명해야 합니다:"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
