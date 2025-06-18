@@ -92,17 +92,17 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> Full access"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> الوصول الكامل "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> Outstanding service"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> خدمة مميزة "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> Prompt assistance"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/> المساعدة على الطلب "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -154,6 +154,8 @@ msgid ""
 "<span class=\"flex-grow-1\">How can I contact our eye care support "
 "team?</span>"
 msgstr ""
+"<span class=\"flex-grow-1\">كيف يمكنني التواصل مع فريق دعم العناية "
+"بالعيون؟</span> "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -163,7 +165,7 @@ msgstr "<span class=\"flex-grow-1\">ما هي سياسة الإرجاع التي
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<span class=\"flex-grow-1\">What services do we provide?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">ما الخدمات التي نقدمها؟</span> "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -312,6 +314,8 @@ msgid ""
 "<strong>Schedule appointments</strong> based on staff or eye-test device "
 "availability."
 msgstr ""
+"<strong>قم بجدولة المواعيد</strong> بناءً على توافر الموظفين أو جهاز فحص "
+"العين. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.patient_eye_test_result_report
@@ -336,7 +340,7 @@ msgstr "<strong>مسافة الرأس</strong> "
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
 msgid "<strong>What to Expect During Your Appointment?</strong>"
-msgstr ""
+msgstr "<strong>ما الذي يمكنك توقعه خلال موعدك؟</strong> "
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -346,7 +350,7 @@ msgstr "<strong>لِمَ يجدر بك اختيارنا؟</strong> "
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
 msgid "<strong>Your vision matters—take care of it with expert care!</strong>"
-msgstr ""
+msgstr "<strong>بصرك أغلى ما لديك—اعتنِ به بمساعدة الخبراء!</strong>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -376,7 +380,7 @@ msgstr "إضافة عميل "
 #. module: eyewear_shop
 #: model:ir.actions.server,name:eyewear_shop.add_followers_based_partner_id
 msgid "Add followers based on field: x_res_partner_id"
-msgstr ""
+msgstr "السماح للمتابعين حسب الحقل: x_res_partner_id "
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_addition_add_left_field
@@ -430,7 +434,7 @@ msgstr "مناديل تنظيف العدسات المضادة للضباب "
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_125
 msgid "Anti-fatigue glasses designed to reduce eye strain."
-msgstr ""
+msgstr "نظارات مصممة لتقليل إجهاد العين. "
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_145
@@ -484,7 +488,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_121
 msgid "Bifocal glasses for both reading and distance vision."
-msgstr ""
+msgstr "نظارات ثنائية البؤرة للرؤية عن بُعد والقراءة. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
@@ -519,7 +523,7 @@ msgstr "نظارات الضوء الأزرق "
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_21
 msgid "Blue light glasses to reduce eye strain."
-msgstr ""
+msgstr "نظارات الإضاءة الزرقاء لتقليل إجهاد العين. "
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -535,7 +539,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Boost your vision health with our comprehensive eye care solutions."
-msgstr ""
+msgstr "عزّز صحة نظرك مع حلولنا الشاملة للعناية بالعينين. "
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_24
@@ -743,7 +747,7 @@ msgstr "العدسات اللاصقة اليومية "
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_22
 msgid "Daily contact lenses with high moisture."
-msgstr ""
+msgstr "عدسات لاصقة يومية مع ترطيب العميق للعينين. "
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_name_description_field
@@ -768,7 +772,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Discover exceptional eye care services tailored just for you."
-msgstr ""
+msgstr "اكتشف خدمات رعاية العيون الاستثنائية المصممة خصيصاً لك. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -834,12 +838,12 @@ msgstr "الموظفون"
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Everything you need for your eye care, <br/>completely free"
-msgstr ""
+msgstr "كل ما تحتاج إليه للعناية بعينيك، <br/>مجاني تماماً "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Experienced professionals dedicated to your eye health"
-msgstr ""
+msgstr "أخصائيون متمرسون متخصصون للاهتمام بصحة عينيك "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -879,7 +883,7 @@ msgstr "Eyeconic"
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_25
 msgid "Eyeglass case for protection and style."
-msgstr ""
+msgstr "حافظة نظارات للحماية والأناقة. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
@@ -930,7 +934,7 @@ msgstr "الأسئلة الشائعة "
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Get Started <span class=\"fa fa-angle-right ms-2\"/>"
-msgstr ""
+msgstr "ابدأ الآن <span class=\"fa fa-angle-right ms-2\"/> "
 
 #. module: eyewear_shop
 #: model:pos.category,name:eyewear_shop.pos_category_6
@@ -951,7 +955,7 @@ msgstr "على شكل قلوب "
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_117
 msgid "High-end gold-rim glasses for a sophisticated look."
-msgstr ""
+msgstr "نظارات ذات حافة ذهبية فاخرة لإطلالة راقية. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_145
@@ -959,6 +963,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Astra' with UV protection "
 "and anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Astra' مع حماية من الأشعة فوق البنفسجية "
+"وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_150
@@ -966,6 +972,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Blaze' with UV protection "
 "and anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Blaze' مع حماية من الأشعة فوق البنفسجية "
+"وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_143
@@ -973,6 +981,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Eden' with UV protection and"
 " anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Eden' مع حماية من الأشعة فوق البنفسجية "
+"وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_144
@@ -980,6 +990,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Nimbus' with UV protection "
 "and anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Nimbus' مع حماية من الأشعة فوق البنفسجية "
+"وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_147
@@ -987,6 +999,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Onyx' with UV protection and"
 " anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Onyx' مع حماية من الأشعة فوق البنفسجية "
+"وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_146
@@ -994,6 +1008,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Shadow' with UV protection "
 "and anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Shadow' مع حماية من الأشعة فوق البنفسجية "
+"وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_139
@@ -1001,6 +1017,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Solaris' with UV protection "
 "and anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Solaris' مع حماية من الأشعة فوق البنفسجية"
+" وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_141
@@ -1008,6 +1026,8 @@ msgid ""
 "High-performance prescription sunglasses model 'Titan' with UV protection "
 "and anti-glare coating."
 msgstr ""
+"نظارات شمسية عالية الأداء من طراز 'Titan' مع حماية من الأشعة فوق البنفسجية "
+"وطلاء مضاد للوهج. "
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_133
@@ -1022,7 +1042,7 @@ msgstr "قطرات العين المرطبة "
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_116
 msgid "Hydrating eye drops to relieve dryness and irritation."
-msgstr ""
+msgstr "قطرات مرطبة للعين لتخفيف الجفاف والتهيج. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1057,7 +1077,7 @@ msgstr ""
 #: model_terms:product.template,description:eyewear_shop.product_template_108
 msgid ""
 "Individually wrapped anti-fog lens wipes for clear vision in any condition."
-msgstr ""
+msgstr "مناديل مضادة للضباب مغلفة بشكل فردي لرؤية واضحة في أي ظروف. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1092,7 +1112,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Join us in promoting better eye health for everyone."
-msgstr ""
+msgstr "انضم إلينا في الترويج لتحسين صحة العيون للجميع. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1106,12 +1126,12 @@ msgstr ""
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_keratometry_k1_k2_left_field
 msgid "Keratometry (K1 / K2) - Left"
-msgstr ""
+msgstr "Keratometry (K1 / K2) - العين اليسرى "
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.x_keratometry_k1_k2_right_field
 msgid "Keratometry (K1 / K2) - Right"
-msgstr ""
+msgstr "Keratometry (K1 / K2) - العين اليمنى "
 
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_24
@@ -1144,7 +1164,7 @@ msgstr "العدسات "
 msgid ""
 "Lightweight reading glasses with magnification options for clear close-up "
 "vision."
-msgstr ""
+msgstr "نظارات قراءة خفيفة الوزن مع خيارات تكبير لرؤية قريبة واضحة. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1231,7 +1251,7 @@ msgstr "منديل تنظيف من الألياف الدقيقة "
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_24
 msgid "Microfiber cloth for safe lens cleaning."
-msgstr ""
+msgstr "قطعة قماش من الألياف الدقيقة لتنظيف آمن للعدسة. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_21
@@ -1286,7 +1306,7 @@ msgstr ""
 #: model_terms:product.template,description:eyewear_shop.product_template_116
 msgid ""
 "Moisturizing eye drops to soothe dry eyes and provide long-lasting comfort."
-msgstr ""
+msgstr "قطرات مرطبة للعين لتهدئة جفاف العينين وتوفير راحة طويلة الأمد. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1417,6 +1437,8 @@ msgid ""
 "Over 50,000 patients trust us <br class=\"d-none d-lg-inline\"/>to enhance "
 "their vision."
 msgstr ""
+"أكثر من 50,000 مريض يثقون بنا <br class=\"d-none d-lg-inline\"/>لتحسين "
+"بصرهم."
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_8
@@ -1431,12 +1453,12 @@ msgstr "Pilot"
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_108
 msgid "Pre-moistened wipes to keep your lenses fog-free."
-msgstr ""
+msgstr "مناديل مبللة للحفاظ على عدساتك خالية من الضباب. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_117
 msgid "Premium gold-rimmed glasses with a sleek and sophisticated design."
-msgstr ""
+msgstr "نظارات فاخرة ذات حواف ذهبية بتصميم أنيق وراقي. "
 
 #. module: eyewear_shop
 #: model:crm.tag,name:eyewear_shop.crm_tag_26
@@ -1446,42 +1468,42 @@ msgstr "التحقق من الوصفة الطبية "
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_145
 msgid "Prescription sunglasses with UV protection - Astra."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Astra. "
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_150
 msgid "Prescription sunglasses with UV protection - Blaze."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Blaze. "
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_143
 msgid "Prescription sunglasses with UV protection - Eden."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Eden. "
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_144
 msgid "Prescription sunglasses with UV protection - Nimbus."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Nimbus. "
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_147
 msgid "Prescription sunglasses with UV protection - Onyx."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Onyx. "
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_146
 msgid "Prescription sunglasses with UV protection - Shadow."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Shadow. "
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_139
 msgid "Prescription sunglasses with UV protection - Solaris."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Solaris. "
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_141
 msgid "Prescription sunglasses with UV protection - Titan."
-msgstr ""
+msgstr "نظارات شمسية طبية مع حماية من الأشعة فوق البنفسجية - Titan. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.x_res_partner_line_default_form_view
@@ -1675,56 +1697,56 @@ msgstr "نظارات عصرية "
 msgid ""
 "Stylish and durable prescription glasses model 'Alfred' designed for "
 "everyday use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Alfred' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_132
 msgid ""
 "Stylish and durable prescription glasses model 'Eclipse' designed for "
 "everyday use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Eclipse' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_133
 msgid ""
 "Stylish and durable prescription glasses model 'Horizon' designed for "
 "everyday use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Horizon' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_135
 msgid ""
 "Stylish and durable prescription glasses model 'Lyra' designed for everyday "
 "use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Lyra' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_131
 msgid ""
 "Stylish and durable prescription glasses model 'Nova' designed for everyday "
 "use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Nova' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_136
 msgid ""
 "Stylish and durable prescription glasses model 'Orion' designed for everyday"
 " use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Orion' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_138
 msgid ""
 "Stylish and durable prescription glasses model 'Stratos' designed for "
 "everyday use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Stratos' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:product.template,description:eyewear_shop.product_template_137
 msgid ""
 "Stylish and durable prescription glasses model 'Zenith' designed for "
 "everyday use."
-msgstr ""
+msgstr "نظارات طبية أنيقة ومتينة من طراز 'Zenith' مصممة للاستخدام اليومي. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -1740,6 +1762,7 @@ msgstr "النظارات الشمسية "
 #: model:product.template,description_sale:eyewear_shop.product_template_20
 msgid "Sunglasses with UV and polarized lenses."
 msgstr ""
+"نظارات شمسية ذات عدسات مستقطبة ومزودة بعدسات مضادة للأشعة فوق البنفسجية. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1805,6 +1828,8 @@ msgid ""
 "Unleash your <span class=\"o_text_highlight o_translate_inline "
 "o_text_highlight_circle_2 o_text_highlight_fill\">vision</span>."
 msgstr ""
+"اشهد العالم <span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_circle_2 o_text_highlight_fill\">برؤية واضحة</span>. "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1871,7 +1896,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "We create the perfect <br/>customized eye care plan for you"
-msgstr ""
+msgstr "نصمم لك خطة العناية المثالية <br/>المخصصة للعناية بالعينين حسب الطلب "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -2318,7 +2343,7 @@ msgstr "🎓 الدروس التعليمية للمتجر الإلكتروني "
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "🎯 Manage Opportunities in the CRM"
-msgstr ""
+msgstr "🎯 تمكن من إدارة فرصك باستخدام تطبيق إدارة علاقات العملاء "
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
@@ -2333,7 +2358,7 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
 msgid "📋 Personalized recommendations for eyewear_shop or further care"
-msgstr ""
+msgstr "📋 توصيات مخصصة لمتجر_النظارات أو الرعاية المتقدمة "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -2348,12 +2373,12 @@ msgstr "📖 وثائق المتجر الإلكتروني "
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "📦 Inventory management &amp; Automated restocking"
-msgstr ""
+msgstr "📦 إدارة المخزون والتجديد التلقائي لمحتوى المخزون "
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
 msgid "🔍 Screening for conditions like dry eyes, astigmatism, and more"
-msgstr ""
+msgstr "🔍 الفحص للكشف عن حالات مثل جفاف العين واللابؤرية وغيرها "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body

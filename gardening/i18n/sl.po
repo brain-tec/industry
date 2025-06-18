@@ -25,6 +25,7 @@ msgstr ""
 msgid ""
 "*This list will, of course, depend on your installed apps and configuration."
 msgstr ""
+"*Ta seznam bo seveda odvisen od nameščenih aplikacij in konfiguracije."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -45,12 +46,12 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Employees 🧑‍🤝‍🧑</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>Zaposleni🧑‍🤝‍🧑</strong></span>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Equipment 🛠️</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>Oprema🛠️</strong></span>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -67,6 +68,8 @@ msgstr ""
 msgid ""
 "<strong><span class=\"h2-fs\">Create an attractive website 🌐</span></strong>"
 msgstr ""
+"<strong><span class=\"h2-fs\">Ustvarite privlačno spletno stran "
+"🌐</span></strong>"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -138,11 +141,13 @@ msgid ""
 "Analytic Items ➡️ Track any cost using Analytic Items from the Accounting "
 "App"
 msgstr ""
+"Analitične postavke ➡️ Spremljajte vse stroške z analitičnimi postavkami v "
+"računovodski aplikaciji"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Architect"
-msgstr ""
+msgstr "Arhitekt"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -226,7 +231,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Dashboard ➡️ Your project's status at a glance."
-msgstr ""
+msgstr "Nadzorna plošča ➡️ Pregled stanja vašega projekta."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -258,7 +263,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "From WH ➡️ Deliveries from your warehouse to this specific customer"
-msgstr ""
+msgstr "Iz skladišča ➡️ Dostave iz vašega skladišča tej določeni stranki"
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_10_product_template
@@ -377,7 +382,7 @@ msgstr "Proizvodni nalogi"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Material that will be used to build the project."
-msgstr ""
+msgstr "Material, ki bo uporabljen za gradnjo projekta."
 
 #. module: gardening
 #: model:sale.order.template.line,name:gardening.sale_order_template_section_1
@@ -387,12 +392,12 @@ msgstr "Materiali"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Materials purchased."
-msgstr ""
+msgstr "Kupljeni materiali."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Materials sold."
-msgstr ""
+msgstr "Prodani materiali."
 
 #. module: gardening
 #: model:product.template,name:gardening.product_product_11_product_template
@@ -457,7 +462,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Planification"
-msgstr ""
+msgstr "Načrtovanje"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -500,11 +505,13 @@ msgid ""
 "Record your employees' time spent on each project using the Timesheets app. "
 "On the employee form, remember to define an hourly cost."
 msgstr ""
+"Z aplikacijo Časovni listi beležite čas, ki so ga zaposleni porabili za vsak"
+" projekt. Na obrazcu za zaposlene ne pozabite določiti urnih stroškov."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Redirect the emails sent to"
-msgstr ""
+msgstr "Preusmerite e-poštna sporočila, poslana na"
 
 #. module: gardening
 #: model:product.attribute.value,name:gardening.product_attribute_value_1
@@ -592,12 +599,12 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The customer reminders."
-msgstr ""
+msgstr "Opomniki za stranke."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The financial reporting."
-msgstr ""
+msgstr "Finančno poročanje."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -607,12 +614,12 @@ msgstr "Ponudba v PDF formatu."
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The synchronisation with the banks."
-msgstr ""
+msgstr "Sinhronizacija z bankami."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "The vendor bills payment."
-msgstr ""
+msgstr "Plačilo računov dobavitelja."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -626,7 +633,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Time spent on the project."
-msgstr ""
+msgstr "Čas, porabljen za projekt."
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -636,7 +643,7 @@ msgstr "Časovnice"
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "To WH ➡️ Products sent back to your warehouse"
-msgstr ""
+msgstr "V Skladišče ➡️ Izdelki poslani nazaj v vaše skladišče"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -692,7 +699,7 @@ msgstr "Dobrodošli! Veselo raziskovanje."
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "Work"
-msgstr ""
+msgstr "Delo"
 
 #. module: gardening
 #: model:product.attribute.value,name:gardening.product_attribute_value_2
@@ -712,6 +719,10 @@ msgid ""
 " bunch of practical views to get the complete overview of your project, "
 "including* :"
 msgstr ""
+"Pregled lahko prilagodite za vsak projekt tako, da v zgornjem desnem kotu "
+"zaslona izberete majhno ikono »Drsniki«. To vam bo omogočilo, da dodate kup "
+"praktičnih pogledov, da dobite popoln pregled nad svojim projektom, vključno"
+" z*:"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
@@ -719,6 +730,8 @@ msgid ""
 "You can add other views with specific filters and ease your construction "
 "project follow-up."
 msgstr ""
+"Dodate lahko druge poglede s posebnimi filtri in si olajšate spremljanje "
+"gradbenega projekta."
 
 #. module: gardening
 #: model:project.project,name:gardening.project_project_3
@@ -826,7 +839,7 @@ msgstr ""
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
 msgid "🎓 Employees"
-msgstr ""
+msgstr "🎓 Zaposleni"
 
 #. module: gardening
 #: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
