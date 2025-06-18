@@ -43,6 +43,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>عربات الأطعمة</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
@@ -224,11 +228,13 @@ msgid ""
 "Install the <strong>Social Marketing App </strong>to manage your social "
 "media presence."
 msgstr ""
+"قم بتثبيت <strong>تطبيق التسويق الاجتماعي</strong> لإدارة تواجدك على منصات "
+"التواصل الاجتماعي. "
 
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
 msgid "Invoice your customers using the <strong>Invoice app</strong>"
-msgstr ""
+msgstr "قم بإصدار فواتير لعملائك باستخدام <strong>تطبيق الفوترة</strong> "
 
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
@@ -247,13 +253,15 @@ msgstr ""
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
 msgid "Manage your <strong>Purchases and Inventory</strong> in Odoo as well."
-msgstr ""
+msgstr "قم بإدارة <strong>مشترياتك ومخزونك</strong> في أودو كذلك. "
 
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
 msgid ""
 "Manage your presence at events using the <strong>Field Service app</strong>"
 msgstr ""
+"قم بإدارة حضورك في الفعاليات باستخدام <strong>تطبيق الخدمة "
+"الميدانية</strong> "
 
 #. module: food_trucks
 #: model:crm.tag,name:food_trucks.crm_tag_7
@@ -263,7 +271,7 @@ msgstr "عدة أيام "
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
 msgid "Need a Website? No problem, Odoo can do it as well."
-msgstr ""
+msgstr "هل تحتاج إلى موقع إلكتروني؟ لا مشكلة، فأودو يمكنه القيام بذلك أيضاً. "
 
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
@@ -302,6 +310,8 @@ msgid ""
 "Send quotations to prospective customers through the <strong>Sales "
 "app</strong>"
 msgstr ""
+"أرسِل عروض الأسعار إلى العملاء المحتملين من خلال <strong>تطبيق "
+"المبيعات</strong> "
 
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
@@ -315,7 +325,7 @@ msgstr ""
 #. module: food_trucks
 #: model_terms:ir.ui.view,arch_db:food_trucks.welcome_article_body
 msgid "Use the <strong>CRM app</strong> to manage your opportunities"
-msgstr ""
+msgstr "استخدام <strong>تطبيق إدارة علاقات العملاء</strong> لإدارة فرصك "
 
 #. module: food_trucks
 #: model_terms:web_tour.tour,rainbow_man_message:food_trucks.knowledge_tour
