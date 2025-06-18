@@ -26,8 +26,8 @@ msgid ""
 "&amp;nbsp;Experience the thrill of weightlessness as you glide through the underwater realm, where each movement feels like a dance. Encounter vibrant fish and stunning coral formations that create a\n"
 "                                    mesmerizing underwater landscape. Whether you wish to simply explore the depths or become a PADI certified diver, we at Scuba Tours have got you covered!"
 msgstr ""
-"&amp;nbsp;Experience the thrill of weightlessness as you glide through the underwater realm, where each movement feels like a dance. Encounter vibrant fish and stunning coral formations that create a\n"
-"                                    mesmerizing underwater landscape. Whether you wish to simply explore the depths or become a PADI certified diver, we at Scuba Tours have got you covered!"
+"اختبر إثارة عدم الشعور بالوزن وأنت تنزلق في عالم تحت الماء، حيث تشعر وكأنك ترقص في كل حركة. شاهد الأسماك التي تنبض بالحياة والتشكيلات المرجانية المذهلة التي تخلق\n"
+"                                    مشهداً ساحراً تحت الماء. سواءً كنت ترغب في استكشاف الأعماق أو أن تصبح غواصاً معتمداً من اتحاد الغوص الدولي (PADI)، فنحن في Scuba Tours نوفر لك كل ما تحتاجه! "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
@@ -101,6 +101,8 @@ msgid ""
 "<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> AVAILABLE FOR "
 "PRIVATE BOOKINGS&amp;nbsp; &amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> متاح للحجوزات "
+"الخاصة "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -143,7 +145,7 @@ msgstr "<span class=\"display-4-fs\"><strong>الأنشطة الخارجية</st
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
 msgid "<span class=\"flex-grow-1\">How long are your courses?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">ما هي مدة الدورات التي تقدمونها؟</span> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -155,7 +157,7 @@ msgstr "<span class=\"flex-grow-1\">ماذا عن التأمين؟</span> "
 msgid ""
 "<span class=\"flex-grow-1\">What is your cancellation&amp;nbsp;policy "
 "?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">ما هي سياسة الإلغاء التي تتبعونها؟</span> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -178,6 +180,9 @@ msgid ""
 "                                            <br/>\n"
 "                                            <span class=\"h5-fs\">Dives</span>"
 msgstr ""
+"<span class=\"s_number display-1-fs\">أكثر من 5000</span>\n"
+"                                            <br/>\n"
+"                                            <span class=\"h5-fs\">تجربة غطس</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -186,6 +191,9 @@ msgid ""
 "                                            <br/>\n"
 "                                            <span class=\"h5-fs\">Diving Sites</span>"
 msgstr ""
+"<span class=\"s_number display-1-fs\">6</span>\n"
+"                                            <br/>\n"
+"                                            <span class=\"h5-fs\">مواقع الغطس</span> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -304,6 +312,8 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Which Category fits your "
 "request?</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">ما الفئة التي تناسب "
+"طلبك؟</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -339,6 +349,9 @@ msgid ""
 "                    <font class=\"text-o-color-1\">YouTube</font>\n"
 "                </span>"
 msgstr ""
+"<span style=\"font-weight: bolder;\">\n"
+"                    <font class=\"text-o-color-1\">YouTube</font>\n"
+"                </span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -421,6 +434,8 @@ msgid ""
 "<strong>Discover Scuba\n"
 "            Diving – Take the Plunge!</strong>"
 msgstr ""
+"<strong>تعلم الغطس تحت\n"
+"            الماء – احظ بتجربة لا تُنسى!</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -428,12 +443,14 @@ msgid ""
 "<strong>Discover Scuba Diving – Take the\n"
 "            Plunge!</strong>"
 msgstr ""
+"<strong>تعلم الغطس تحت الماء – احظ بتجربة\n"
+"            لا تُنسى!</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "<strong>Discover Scuba Diving – Take the Plunge!</strong>"
-msgstr ""
+msgstr "<strong>تعلم الغطس تحت الماء – احظ بتجربة لا تُنسى!</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -449,6 +466,8 @@ msgid ""
 "<strong>Price: €550 per\n"
 "            person (excl. VAT)</strong>"
 msgstr ""
+"<strong>السعر: €550 لكل\n"
+"            شخص (غير شاملة الضريبة)</strong>"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -456,12 +475,14 @@ msgid ""
 "<strong>Price: €550 per person (excl.\n"
 "            VAT)</strong>"
 msgstr ""
+"<strong>السعر: €550 لكل شخص (غير شاملة\n"
+"            الضريبة)</strong>"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "<strong>Price: €550 per person (excl. VAT)</strong>"
-msgstr ""
+msgstr "<strong>السعر: €550 لكل شخص (غير شاملة الضريبة)</strong>"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -568,8 +589,8 @@ msgid ""
 "Apart from regular recurring activities that can be booked via the calendar, you can also set up more elaborate special events and offer them to your customers via the website. For example, at Adam Diver we also offer an Open\n"
 "            Water Diver-certification course. This section will take you through building this experience from scratch."
 msgstr ""
-"Apart from regular recurring activities that can be booked via the calendar, you can also set up more elaborate special events and offer them to your customers via the website. For example, at Adam Diver we also offer an Open\n"
-"            Water Diver-certification course. This section will take you through building this experience from scratch."
+"بالإضافة إلى الأنشطة المتكررة المنتظمة التي يمكن حجزها عبر التقويم، يمكنك أيضاً إعداد فعاليات خاصة أكثر تفصيلاً وعرضها على عملائك عبر الموقع الإلكتروني. على سبيل المثال، نقدم في ” Adam Diver“ دورة تدريبية للحصول على شهادة الغوص\n"
+"            في المياه المفتوحة. سيأخذك هذا القسم إلى بناء هذه التجربة من الصفر. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -582,8 +603,8 @@ msgid ""
 "By clicking on this opportunity we open the corresponding opportunity. Once there, We can send a message via the button \"<strong>Send Message</strong>\" on top of the chatter to further qualify the request. Once we know\n"
 "            everything we need, we can create a quotation by clicking on the smart button \"<strong>New Quotation</strong>\" on the top left."
 msgstr ""
-"By clicking on this opportunity we open the corresponding opportunity. Once there, We can send a message via the button \"<strong>Send Message</strong>\" on top of the chatter to further qualify the request. Once we know\n"
-"            everything we need, we can create a quotation by clicking on the smart button \"<strong>New Quotation</strong>\" on the top left."
+"عند الضغط على هذه الفرصة سيتم فتح الفرصة المقابلة. عندها، يمكننا إرسال رسالة عبر الزر \"<strong>إرسال رسالة</strong>\" الموجود أعلى الدردشة، وذلك لتأهيل الطلب بشكل أكبر. بمجرد أن نقوم\n"
+"            بجمع كافة المعلومات التي نحتاج إليها،  سنقوم بإنشاء عرض سعر من خلال الضغط على زر \"<strong>عرض سعر جديد</strong>\" الموجود في الأعلى. "
 
 #. module: outdoor_activities
 #: model:crm.tag,name:outdoor_activities.crm_tag_3
@@ -605,7 +626,7 @@ msgstr "تواصل معنا "
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Contact us <i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"/>"
-msgstr ""
+msgstr "تواصل معنا <i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"/> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -741,12 +762,12 @@ msgstr "الرحلات الاستكشافية "
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Explore the Depths of the Ocean with Adam Diver<strong>.</strong>"
-msgstr ""
+msgstr "استكشف أعماق المحيط مع آدم دايفر<strong>.</strong> "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Explore the depths with a package that suits you"
-msgstr ""
+msgstr "استكشف أعماق المحيط بالباقة التي تناسبك "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
@@ -789,7 +810,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
 msgid "Here are some common questions about our&amp;nbsp;courses."
-msgstr ""
+msgstr "فيما يلي بعض الأسئلة الشائعة حول دوراتنا "
 
 #. module: outdoor_activities
 #: model:website.menu,name:outdoor_activities.website_menu_5
@@ -829,13 +850,15 @@ msgid ""
 "In a relaxed\n"
 "            setting, we’ll guide you through:"
 msgstr ""
+"في أجواء\n"
+"            هادئة، سنرشدك خلال: "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "In a relaxed setting, we’ll guide you through:"
-msgstr ""
+msgstr "في أجواء هادئة، سنرشدك خلال: "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -986,22 +1009,22 @@ msgstr "دورة شهادة المياه المفتوحة "
 #. module: outdoor_activities
 #: model:event.event,name:outdoor_activities.event_event_3
 msgid "Open Water Certification Course - June"
-msgstr ""
+msgstr "دورة شهادة المياه المفتوحة - يونيو "
 
 #. module: outdoor_activities
 #: model:event.event,name:outdoor_activities.event_event_2
 msgid "Open Water Certification Course - May"
-msgstr ""
+msgstr "دورة شهادة المياه المفتوحة - مايو "
 
 #. module: outdoor_activities
 #: model:event.event,name:outdoor_activities.event_event_1
 msgid "Open Water Certification Course - April"
-msgstr ""
+msgstr "دورة شهادة المياه المفتوحة - إبريل "
 
 #. module: outdoor_activities
 #: model:event.event,name:outdoor_activities.event_event_4
 msgid "Open Water Certification Course - July"
-msgstr ""
+msgstr "دورة شهادة المياه المفتوحة - يوليو "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1122,6 +1145,8 @@ msgid ""
 "Simplify your finances with the seamlessly integrated "
 "<strong>Accounting</strong> app."
 msgstr ""
+"بسِّط عمليات الإدارة المالية لديك باستخدام تطبيق <strong>المحاسبة</strong> "
+"المتكامل. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1151,6 +1176,7 @@ msgstr ""
 msgid ""
 "Store and organize client information in the <strong>Contacts </strong>app."
 msgstr ""
+"قم بتخزين وتنظيم معلومات العميل في تطبيق <strong>جهات الاتصال</strong>.  "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1158,6 +1184,8 @@ msgid ""
 "Streamline billing and financial management with the <strong>Invoicing "
 "app</strong>."
 msgstr ""
+"قم بتبسيط الفواتير والإدارة المالية باستخدام <strong>تطبيق الفوترة</strong>."
+" "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1188,6 +1216,8 @@ msgid ""
 "The <strong>POS App</strong> allows you to handle payments for walk-in "
 "customers."
 msgstr ""
+"يتيح لك <strong>تطبيق نقاط البيع</strong> إمكانية التعامل مع المدفوعات "
+"للعملاء الذين يأتون دون موعد مسبق. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1204,7 +1234,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid ""
 "The Customer field is <strong>not</strong> required on the opportunity form."
-msgstr ""
+msgstr "حقل العميل <strong>غير</strong> مطلوب في استمارة الفرصة. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1286,7 +1316,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid "Welcome to the <strong>Odoo Outdoor Activities Package!</strong>"
-msgstr ""
+msgstr "مرحباً بك في <strong>باقة أودو للأنشطة الخارجية!</strong> "
 
 #. module: outdoor_activities
 #: model_terms:web_tour.tour,rainbow_man_message:outdoor_activities.knowledge_tour
@@ -1392,19 +1422,22 @@ msgid ""
 "at least\n"
 "            <strong>3 days before</strong> the start of your booked course."
 msgstr ""
+"قبل\n"
+"            <strong>3 أيام</strong> على الأقل من بدء دورتك التي قمت بحجزها. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 msgid ""
 "at least <strong>3 days before</strong> the start of your booked course."
-msgstr ""
+msgstr "قبل <strong>3 أيام</strong> على الأقل من بدء دورتك التي قمت بحجزها. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid ""
 "at least <strong>3 days before</strong> the start of your booked course."
 msgstr ""
+"قبل  <strong>3 أيام</strong>  على الأقل من بدء دورتك التي قمت بحجزها. "
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.ir_ui_view_3241
@@ -1440,6 +1473,8 @@ msgid ""
 "✅\n"
 "            <strong>Pool practice sessions</strong> to master the basics in a controlled environment."
 msgstr ""
+"✅\n"
+"            <strong>جلسات التدرب في حوض السباحة</strong> لمساعدتك على إتقان الأساسيات في بيئة خاضعة للرقابة. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -1447,6 +1482,8 @@ msgid ""
 "✅\n"
 "            Breathing with a regulator and moving underwater with full gear."
 msgstr ""
+"✅\n"
+"            التنفس باستخدام منظم التنفس والتحرك تحت الماء بمعدات كاملة. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1455,6 +1492,8 @@ msgid ""
 "✅ <strong>Pool practice sessions</strong> to master the basics in a "
 "controlled environment."
 msgstr ""
+"✅ <strong>جلسات التدرب في حوض السباحة</strong> لمساعدتك على إتقان الأساسيات "
+"في بيئة خاضعة للرقابة. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -1462,6 +1501,8 @@ msgid ""
 "✅ A\n"
 "            final debrief to wrap up your experience."
 msgstr ""
+"✅ \n"
+"            الموجز النهائي لتختتم تجربتك. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1469,12 +1510,14 @@ msgid ""
 "✅ A final debrief to\n"
 "            wrap up your experience."
 msgstr ""
+"✅ الموجز النهائي\n"
+"            لتختتم تجربتك. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✅ A final debrief to wrap up your experience."
-msgstr ""
+msgstr "✅ الموجز النهائي لتختتم تجربتك. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1502,7 +1545,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✅ A taste of key Open Water Diver techniques."
-msgstr ""
+msgstr "✅ لمحة عن أهم تقنيات الغوص في المياه المفتوحة. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1510,12 +1553,14 @@ msgid ""
 "✅ Breathing with a\n"
 "            regulator and moving underwater with full gear."
 msgstr ""
+"✅ التنفس باستخدام \n"
+"            منظم التنفس والتحرك تحت الماء بمعدات كاملة. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✅ Breathing with a regulator and moving underwater with full gear."
-msgstr ""
+msgstr "✅ التنفس باستخدام منظم التنفس والتحرك تحت الماء بمعدات كاملة. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1523,6 +1568,8 @@ msgid ""
 "✅ <strong>Pool practice sessions</strong> to master the basics\n"
 "            in a controlled environment."
 msgstr ""
+"✅ <strong>جلسات التدرب في حوض السباحة</strong> لمساعدتك على إتقان الأساسيات\n"
+"            في بيئة خاضعة للرقابة. "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1530,12 +1577,14 @@ msgid ""
 "✔ <strong>4 dive trips (1.5 hours\n"
 "            each)</strong>"
 msgstr ""
+"✔ <strong>4 رحلات غطس (مدة كل منها 1.5\n"
+"            ساعات)</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "✔ <strong>4 dive trips (1.5 hours each)</strong>"
-msgstr ""
+msgstr "✔ <strong>4 رحلات غطس (مدة كل منها 1.5  ساعات)</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1565,6 +1614,8 @@ msgid ""
 "✔ Full gear rental (fins, mask, tank, BCD, regulator,\n"
 "            weights)"
 msgstr ""
+"✔ ✔ تأجير المعدات الكاملة (زعانف، أقنعة، خزان، جهاز تهدئة الصدر، منظم، \n"
+"            أوزان) "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1572,6 +1623,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✔ Full gear rental (fins, mask, tank, BCD, regulator, weights)"
 msgstr ""
+"✔ تأجير المعدات الكاملة (زعانف، أقنعة، خزان، جهاز تهدئة الصدر، منظم، أوزان) "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1595,6 +1647,8 @@ msgid ""
 "✔ <strong>4 dive trips (1.5 hours\n"
 "            each)</strong>"
 msgstr ""
+"✔ <strong>4 رحلات غطس (مدة كل منها 1.5\n"
+"            ساعات)</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1675,6 +1729,8 @@ msgid ""
 "👉 Minimum age: <strong>12 years</strong> (parental consent required for "
 "minors)."
 msgstr ""
+"👉 الحد الأدنى للعمر: <strong>12 سنة</strong> (موافقة الوالدين المطلوبة "
+"للقاصرين). "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1707,6 +1763,8 @@ msgid ""
 "📍 Meet at the dive\n"
 "            school every day at <strong>10:00 AM</strong>"
 msgstr ""
+"📍 الالتقاء في مدرسة \n"
+"            الغوص كل يوم عند الساعة <strong>10:00 صباحاً</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1714,16 +1772,20 @@ msgid ""
 "📍 Meet at the dive school every day at\n"
 "            <strong>10:00 AM</strong>"
 msgstr ""
+"📍 الالتقاء في مدرسة الغوص كل يوم عند الساعة\n"
+"            <strong>10:00 صباحاً</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 msgid "📍 Meet at the dive school every day at <strong>10:00 AM</strong>"
 msgstr ""
+"📍 الالتقاء في مدرسة الغوص كل يوم عند الساعة <strong>10:00 صباحاً</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "📍 Meet at the dive school every day at <strong>10:00 AM</strong>"
 msgstr ""
+"📍 الالتقاء في مدرسة الغوص كل يوم عند الساعة <strong>10:00 صباحاً</strong> "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1731,6 +1793,8 @@ msgid ""
 "📩 Send\n"
 "            the completed form to"
 msgstr ""
+"📩 قم بإرسال\n"
+"            الاستمارة المكتملة إلى"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1738,12 +1802,14 @@ msgid ""
 "📩 Send the\n"
 "            completed form to"
 msgstr ""
+"📩 قم بإرسال\n"
+"            الاستمارة المكتملة إلى "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "📩 Send the completed form to"
-msgstr ""
+msgstr "📩 قم بإرسال الاستمارة المكتملة إلى "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
@@ -1752,12 +1818,14 @@ msgid ""
 "😁 A smile &amp; a sense of\n"
 "            adventure!"
 msgstr ""
+"😁 الابتسامة مع روح\n"
+"            المغامرة! "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "😁 A smile &amp; a sense of adventure!"
-msgstr ""
+msgstr "😁 الابتسامة مع روح المغامرة! "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1781,6 +1849,8 @@ msgid ""
 "🤿 Includes <strong>4 dive\n"
 "            trips</strong> (each lasting <strong>1.5 hours</strong>)"
 msgstr ""
+"🤿 تشمل <strong>4 رحلات\n"
+"            غطس</strong> (مدة كل منها <strong>1.5 ساعات</strong>) "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1789,6 +1859,8 @@ msgid ""
 "🤿 Includes <strong>4 dive trips</strong> (each lasting <strong>1.5 "
 "hours</strong>)"
 msgstr ""
+"🤿 تشمل <strong>4 رحلات غطس</strong> (مدة كل منها <strong>1.5 ساعات</strong>)"
+" "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1796,6 +1868,8 @@ msgid ""
 "🤿 Includes <strong>4 dive trips</strong> (each lasting <strong>1.5 "
 "hours</strong>)"
 msgstr ""
+"🤿 تشمل <strong>4 رحلات غطس</strong> (مدة كل منها <strong>1.5 ساعات</strong>)"
+" "
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
