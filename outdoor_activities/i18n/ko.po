@@ -70,6 +70,13 @@ msgid ""
 "                                            </b>\n"
 "                                            <br/>"
 msgstr ""
+"<b>\n"
+"                                                <b>Adam Diver</b><br/>\n"
+"                                                Zeedijk 275<br/>\n"
+"                                                8430 Middelkerke<br/>\n"
+"                                                Belgium\n"
+"                                            </b>\n"
+"                                            <br/>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
@@ -102,6 +109,8 @@ msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">Zeedijk 275, 8430 Middelkerke</span>"
 msgstr ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">Zeedijk 275, 8430 Middelkerke</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.contact_us
@@ -109,6 +118,8 @@ msgid ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
 "                                                <span class=\"o_force_ltr\">+32 232323</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+32 232323</span>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -731,12 +742,12 @@ msgstr "탐험"
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Explore the Depths of the Ocean with Adam Diver<strong>.</strong>"
-msgstr ""
+msgstr "아담 다이버와 함께 심해 깊이 탐험해 보세요<strong>.</strong>"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Explore the depths with a package that suits you"
-msgstr ""
+msgstr "나에게 맞는 패키지로 심해 탐험하기"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.footer
@@ -813,13 +824,15 @@ msgid ""
 "In a relaxed\n"
 "            setting, we’ll guide you through:"
 msgstr ""
+"편안한 분위기에서\n"
+"다음과 같이 안내해 드려요:"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "In a relaxed setting, we’ll guide you through:"
-msgstr ""
+msgstr "편안한 분위기에서 다음과 같이 안내해 드려요:"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1102,7 +1115,7 @@ msgstr "얕은 산호초 투어"
 msgid ""
 "Simplify your finances with the seamlessly integrated "
 "<strong>Accounting</strong> app."
-msgstr ""
+msgstr "완벽하게 통합된 <strong>회계</strong> 앱으로 간편하게 재무 관리를 해 보세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1130,14 +1143,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid ""
 "Store and organize client information in the <strong>Contacts </strong>app."
-msgstr ""
+msgstr "<strong>연락처</strong> 앱에 고객 정보를 저장하고 관리해 보세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid ""
 "Streamline billing and financial management with the <strong>Invoicing "
 "app</strong>."
-msgstr ""
+msgstr "<strong>청구서 발행 앱</strong>으로 청구 작업 및 재무 관리를 편리하게 진행해 보세요."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1341,7 +1354,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
 msgid ""
 "You can still do it after installation by upgrading your package in Apps."
-msgstr ""
+msgstr "설치 후에도 앱에서 패키지를 업그레이드하면 계속 사용할 수 있습니다."
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -1425,20 +1438,20 @@ msgstr ""
 msgid ""
 "✅ A\n"
 "            final debrief to wrap up your experience."
-msgstr ""
+msgstr "✅ 체험 후 마무리하는 최종 보고 단계입니다."
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 msgid ""
 "✅ A final debrief to\n"
 "            wrap up your experience."
-msgstr ""
+msgstr "✅ 체험 후 마무리하는 최종 보고 단계입니다."
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✅ A final debrief to wrap up your experience."
-msgstr ""
+msgstr "✅ 체험 후 마무리하는 최종 보고 단계입니다."
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
@@ -1462,7 +1475,7 @@ msgstr ""
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid "✅ A taste of key Open Water Diver techniques."
-msgstr ""
+msgstr "✅ 오픈 워터 다이빙의 주요 테크닉을 익혀보세요."
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1576,6 +1589,8 @@ msgid ""
 "🏊\n"
 "            Plus <strong>pool practice sessions</strong> to build confidence before heading into open water"
 msgstr ""
+"🏊\n"
+"            오픈 워터로 향하기 전에 자신감부터 키우는 <strong>수영장 연습 세션</strong> 추가하기"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -1583,6 +1598,8 @@ msgid ""
 "🏊 Plus <strong>pool practice sessions</strong> to build confidence before heading\n"
 "            into open water"
 msgstr ""
+"🏊 🏊 오픈 워터로 향하기 전에 자신감부터 키우는 수영장 연습 세션<strong>\n"
+"추가하기"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1590,13 +1607,15 @@ msgid ""
 "🏊 Plus <strong>pool practice sessions</strong> to build confidence before heading into open\n"
 "            water"
 msgstr ""
+"🏊 🏊 오픈 워터로 향하기 전에 자신감부터 키우는 수영장 연습 세션\n"
+"추가하기"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
 msgid ""
 "🏊 Plus <strong>pool practice sessions</strong> to build confidence before "
 "heading into open water"
-msgstr ""
+msgstr "🏊 오픈 워터로 향하기 전에 자신감부터 키우는 수영장 연습 세션 추가하기"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_3
@@ -1706,12 +1725,14 @@ msgid ""
 "😁 A smile &amp; a sense of\n"
 "            adventure!"
 msgstr ""
+"😁 즐거움과 모험이\n"
+"가득합니다!"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
 #: model_terms:event.event,description:outdoor_activities.event_event_3
 msgid "😁 A smile &amp; a sense of adventure!"
-msgstr ""
+msgstr "😁 즐거움과 모험이 가득합니다!"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1734,7 +1755,7 @@ msgstr "🛁 타월"
 msgid ""
 "🤿 Includes <strong>4 dive\n"
 "            trips</strong> (each lasting <strong>1.5 hours</strong>)"
-msgstr ""
+msgstr "🤿 다이빙 트립 <strong>4회</strong> 포함 (각 <strong>1.5시간</strong> 소요)"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_2
@@ -1742,14 +1763,14 @@ msgstr ""
 msgid ""
 "🤿 Includes <strong>4 dive trips</strong> (each lasting <strong>1.5 "
 "hours</strong>)"
-msgstr ""
+msgstr "🤿 다이빙 트립 <strong>4회</strong> 포함 (각 <strong>1.5시간</strong> 소요)"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_4
 msgid ""
 "🤿 Includes <strong>4 dive trips</strong> (each lasting <strong>1.5 "
 "hours</strong>)"
-msgstr ""
+msgstr "🤿 다이빙 트립 <strong>4회</strong> 포함 (각 <strong>1.5시간</strong> 소요)"
 
 #. module: outdoor_activities
 #: model_terms:event.event,description:outdoor_activities.event_event_1
