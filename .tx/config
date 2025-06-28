@@ -1,6 +1,15 @@
 [main]
 host = https://www.transifex.com
 
+[o:odoo:p:odoo-s18-4:r:accounting_firm]
+file_filter            = accounting_firm/i18n/<lang>.po
+source_file            = accounting_firm/i18n/accounting_firm.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = accounting_firm
+replace_edited_strings = false
+keep_translations      = false
+
 [o:odoo:p:odoo-s18-4:r:agriculture_shop]
 file_filter            = agriculture_shop/i18n/<lang>.po
 source_file            = agriculture_shop/i18n/agriculture_shop.pot
@@ -52,6 +61,15 @@ source_file            = bar_industry/i18n/bar_industry.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = bar_industry
+replace_edited_strings = false
+keep_translations      = false
+
+[o:odoo:p:odoo-s18-4:r:base_industry_data]
+file_filter            = base_industry_data/i18n/<lang>.po
+source_file            = base_industry_data/i18n/base_industry_data.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = base_industry_data
 replace_edited_strings = false
 keep_translations      = false
 
@@ -223,6 +241,15 @@ source_file            = event_management/i18n/event_management.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = event_management
+replace_edited_strings = false
+keep_translations      = false
+
+[o:odoo:p:odoo-s18-4:r:excise_management]
+file_filter            = excise_management/i18n/<lang>.po
+source_file            = excise_management/i18n/excise_management.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = excise_management
 replace_edited_strings = false
 keep_translations      = false
 
