@@ -2,10 +2,11 @@
 
 from ast import literal_eval
 import logging
+import os
 from pathlib import Path
 
 from odoo.addons.test_lint.tests.test_manifests import ManifestLinter
-from odoo.modules.module import module_manifest
+from odoo.modules.module import MANIFEST_NAMES, Manifest
 from odoo.tests.common import tagged
 
 from .industry_case import CATEGORIES, IndustryCase, get_industry_path
@@ -16,14 +17,17 @@ _logger = logging.getLogger(__name__)
 MANDATORY_KEYS = {
     'author': 'Odoo S.A.',
     'category': '',
-    'cloc_exclude': [],
     'data': [],
-    'demo': [],
     'depends': [],
-    'images': ['images/main.png'],
     'license': 'OPL-1',
     'name': '',
     'version': '',
+}
+
+MANDATORY_KEYS_INDUSTRIES = {
+    'cloc_exclude': [],
+    'demo': [],
+    'images': ['images/main.png'],
 }
 
 
@@ -31,8 +35,10 @@ MANDATORY_KEYS = {
 class ManifestTest(ManifestLinter, IndustryCase):
 
     def _load_manifest(self, module):
-        manifest_file = module_manifest(get_industry_path() + module)
-        return literal_eval(Path(manifest_file).read_text())
+        for manifest_name in MANIFEST_NAMES:
+            candidate = os.path.join(get_industry_path() + module, manifest_name)
+            if os.path.isfile(candidate):
+                return literal_eval(Path(candidate).read_text())
 
     def test_manifests(self):
         for module in self.installed_modules:
@@ -42,22 +48,31 @@ class ManifestTest(ManifestLinter, IndustryCase):
                 self._validate_manifest(module, manifest_data)
 
     def _validate_manifest(self, module, manifest_data):
-        self._test_manifest_keys(module, manifest_data)
+        fake_Manifest = Manifest(path=get_industry_path() + 'test/test_generic', manifest_content=manifest_data)
+        self._test_manifest_keys(fake_Manifest)
+        self._test_manifest_values(fake_Manifest)
         self.assertNotIn('description', manifest_data, "Module description should be defined in /static/description/index.html, not in the manifest.")
-        for key, expected_value in MANDATORY_KEYS.items():
+        mandatory_keys = MANDATORY_KEYS.copy()
+        if module in self.installed_industries:
+            mandatory_keys.update(MANDATORY_KEYS_INDUSTRIES)
+        for key, expected_value in mandatory_keys.items():
             value = manifest_data.get(key)
             self.assertIsNotNone(value, f"Missing '{key}' in manifest")
-            expected_value = MANDATORY_KEYS[key]
+            expected_value = mandatory_keys[key]
             expected_type = type(expected_value)
             self.assertIsInstance(value, expected_type, f"Wrong type for '{key}', expected {expected_type}")
             if expected_value:
                 self.assertEqual(value, expected_value, f"Wrong {key} '{value}' in manifest, it should be {expected_value}")
             if key == 'category':
-                self.assertIn(value, CATEGORIES, f"Invalid category '{value}' not in {CATEGORIES}")
+                if module in self.installed_industries:
+                    self.assertIn(value, CATEGORIES, f"Invalid category '{value}' not in {CATEGORIES}")
+                else:
+                    self.assertNotIn(value, CATEGORIES, f"Module category '{value}' should not be an industry category: {CATEGORIES}")
             elif key in ['data', 'demo']:
                 self.assertTrue(all(val.startswith(f'{key}/') for val in value), f"Files must be in '{key}/' directory")
-        for folder in ['data', 'demo']:
-            self._test_files_in_manifest(manifest_data, folder)
+        self._test_files_in_manifest(manifest_data, 'data')
+        if manifest_data.get('demo'):
+            self._test_files_in_manifest(manifest_data, 'demo')
         self._validate_assets(module, manifest_data)
         self._test_cloc_exclude_files(manifest_data)
         self._test_dependencies(manifest_data)
