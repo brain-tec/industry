@@ -29,6 +29,8 @@ msgid ""
 ", and feel free\n"
 "                        to"
 msgstr ""
+", și nu ezitați\n"
+"                        să"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -36,26 +38,28 @@ msgid ""
 "1. Go to the \"Sales\" App and create a new quotation using the main \"New\""
 " button on the top left."
 msgstr ""
+"1. Accesați aplicația \"Vânzări\" și creați o nouă ofertă folosind butonul "
+"principal \"Nou\" din stânga sus."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "1. Go to the Barcode App, and select \"Operations\"."
-msgstr ""
+msgstr "1. Accesați aplicația Cod de bare și selectați \"Operațiuni\"."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "1. Go to the Purchase App."
-msgstr ""
+msgstr "1. Accesați aplicația Achiziții."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "1. Point of sale"
-msgstr ""
+msgstr "1. Punct de vânzare"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "1. View results"
-msgstr ""
+msgstr "1. Vizualizați rezultatele"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -64,6 +68,9 @@ msgid ""
 "supply in your shop. To do so, navigate to the Inventory App &gt; Operations"
 " &gt; Replenishment."
 msgstr ""
+"1. Putem parcurge acum raportul săptămânal de reaprovizionare pentru a "
+"asigura un stoc bun în magazinul dvs. Pentru aceasta, accesați Aplicația "
+"Inventar &gt; Operațiuni &gt; Reaprovizionare."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -71,6 +78,8 @@ msgid ""
 "1. Welcome Elise, your favorite customer, she wants to buy the \"Da Vinci "
 "Code\"."
 msgstr ""
+"1. Întâmpinați-o pe Elise, clienta dvs. preferată, care dorește să cumpere "
+"\"Da Vinci Code\"."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -79,6 +88,9 @@ msgid ""
 "looking for \"Media Burn: Ant Farm and the Making of an Image\". You don't "
 "have this book in stock, let's order it."
 msgstr ""
+"1. O întâmpinați acum pe Hanna Liseuse, dar are o nevoie foarte specifică. "
+"Caută \"Media Burn: Ant Farm and the Making of an Image\". Nu aveți această "
+"carte pe stoc, haideți să o comandăm."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -87,31 +99,36 @@ msgid ""
 "replenishment\" filter. It displays every products sold this week and their "
 "remaining quantity."
 msgstr ""
+"2. Dând clic pe bara de căutare, puteți selecta filtrul \"Reaprovizionare "
+"săptămânală\". Acesta afișează toate produsele vândute în această săptămână "
+"și cantitatea lor rămasă."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. Control your stock"
-msgstr ""
+msgstr "2. Controlați stocul"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. Create a new request for quotation, and start adding your products."
-msgstr ""
+msgstr "2. Creați o nouă cerere de ofertă și începeți să adăugați produsele."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. Customer orders"
-msgstr ""
+msgstr "2. Comenzi clienți"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. Elise also wants to buy a 50€ Gift Card for a friend."
 msgstr ""
+"2. Elise dorește, de asemenea, să cumpere un card cadou de 50€ pentru un "
+"prieten."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "2. In \"Receipts\", create a new reception by clicking the \"New\" button."
-msgstr ""
+msgstr "2. În \"Recepții\", creați o nouă recepție făcând clic pe butonul \"Nou\"."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -119,6 +136,10 @@ msgid ""
 "2. Once you've found it on your local books database, go to the sales app and create a new product using its ISBN code : 9781941753354. Define the current distributor in your region by going to the \"Purchase\" tab (use \"My Book\n"
 "                Distributor\" for this case)."
 msgstr ""
+"2. După ce ați găsit-o în baza locală de date cu cărți, accesați aplicația "
+"de vânzări și creați un produs nou folosind codul ISBN: 9781941753354. "
+"Definiți distribuitorul actual din regiunea dvs. accesând fila \"Achiziții\""
+" (folosiți \"Distribuitorul Meu de Cărți\" pentru acest caz)."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -127,6 +148,9 @@ msgid ""
 "Philosophers Stone,\" \"Hidden Life of Trees,\" and \"Sapiens: Brief History"
 " of Humankind.\""
 msgstr ""
+"2. Ei doresc o ofertă pentru trei exemplare din \"Harry Potter și Piatra "
+"Filozofală\", \"Viața ascunsă a copacilor\" și \"Sapiens: Scurtă istorie a "
+"omenirii\"."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -134,21 +158,25 @@ msgid ""
 "3. Choose how much of each you want to buy by entering the value in the \"To"
 " Order\" column."
 msgstr ""
+"3. Alegeți câte bucăți doriți să cumpărați din fiecare introducând valoarea "
+"în coloana \"De comandat\"."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "3. Elise has a customer account; select her using the \"Customer\" button."
-msgstr ""
+msgstr "3. Elise are un cont de client; selectați-o folosind butonul \"Client\"."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "3. Institutional customers"
-msgstr ""
+msgstr "3. Clienți instituționali"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "3. Once your quotation is ready, you can email it or confirm it."
 msgstr ""
+"3. După ce oferta este gata, o puteți trimite pe email sau o puteți "
+"confirma."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -156,11 +184,15 @@ msgid ""
 "3. Scan your products. If it does not exist in your database, they will be "
 "created with the correct picture, title, and price."
 msgstr ""
+"3. Scanați produsele. Dacă nu există în baza dvs. de date, acestea vor fi "
+"create cu imaginea, titlul și prețul corect."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "3. Set the quantity in negative value to create a reverted purchase."
 msgstr ""
+"3. Setați cantitatea pe valoare negativă pentru a crea o achiziție "
+"inversată."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -168,6 +200,8 @@ msgid ""
 "3. You can now create a new quotation. Type her name in the \"Customer\" "
 "field to create a new contact."
 msgstr ""
+"3. Acum puteți crea o nouă ofertă. Introduceți numele ei în câmpul "
+"\"Client\" pentru a crea un nou contact."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -176,6 +210,8 @@ msgid ""
 "directly click on the confirm button to turn your quotation in a Sales "
 "Order."
 msgstr ""
+"4. Adăugați produsul în ofertă căutându-l după ISBN. Puteți apăsa direct pe "
+"butonul de confirmare pentru a transforma oferta în comandă de vânzare."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -183,11 +219,15 @@ msgid ""
 "4. Check the smart buttons, a new delivery has been created, but you need to"
 " have all products in stock."
 msgstr ""
+"4. Verificați butoanele inteligente, a fost creată o nouă livrare, dar "
+"trebuie să aveți toate produsele pe stoc."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "4. Click then on the \"Order\" button to add it to your purchase orders."
 msgstr ""
+"4. Apoi faceți clic pe butonul \"Comandă\" pentru a-l adăuga la comenzile de"
+" achiziție."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -195,6 +235,8 @@ msgid ""
 "4. Enter the cost of each new product so you can easily reorder it "
 "afterward."
 msgstr ""
+"4. Introduceți costul fiecărui produs nou pentru a-l putea comanda ușor "
+"ulterior."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -202,22 +244,24 @@ msgid ""
 "4. Register Elise's payment. You can now go back to your main dashboard by "
 "selecting \"Backend\" in the top-right burger menu."
 msgstr ""
+"4. Înregistrați plata lui Elise. Acum puteți reveni la tabloul de bord "
+"principal selectând \"Backend\" din meniul tip burger din dreapta sus."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "4. Weekly replenishment"
-msgstr ""
+msgstr "4. Reaprovizionare săptămânală"
 
 #. module: bookstore
 #: model:loyalty.reward,description:bookstore.loyalty_reward_2
 #: model:product.template,name:bookstore.product_product_17_product_template
 msgid "5% on your order"
-msgstr ""
+msgstr "5% la comanda dvs."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "5. Encode new release"
-msgstr ""
+msgstr "5. Înregistrați noua apariție"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -225,6 +269,8 @@ msgid ""
 "5. Go to the Inventory App. A new Replenishment is suggested under "
 "Operations &gt; Replenishment."
 msgstr ""
+"5. Accesați aplicația Inventar. O nouă reaprovizionare este sugerată la "
+"Operațiuni &gt; Reaprovizionare."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -234,6 +280,10 @@ msgid ""
 "purchase orders and send them to your vendors using the Send by Email "
 "button."
 msgstr ""
+"5. Accesați aplicația Achiziții. Veți vedea că toate comenzile de achiziție "
+"au fost create și sunt gata de trimis distribuitorilor. Intrați în comenzile"
+" de achiziție și trimiteți-le furnizorilor folosind butonul Trimite prin "
+"email."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -241,6 +291,8 @@ msgid ""
 "5. Validate the reception, and this is it! (A purchase order will be "
 "automatically created so you can easily reconcile your vendor bills)."
 msgstr ""
+"5. Validați recepția și gata! (O comandă de achiziție va fi creată automat "
+"pentru a putea reconcilia ușor facturile furnizorilor)."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -249,11 +301,14 @@ msgid ""
 "is created, you can then email it to your distributor and confirm the order "
 "placement."
 msgstr ""
+"6. Dacă selectați produsul și faceți clic pe \"Comandă\", se creează o nouă "
+"comandă de achiziție, pe care o puteți trimite distribuitorului și confirma "
+"plasarea comenzii."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "6. Returns"
-msgstr ""
+msgstr "6. Retururi"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -262,11 +317,14 @@ msgid ""
 "Inventory App on you dashboard, you'll see that a new receipt is ready to be"
 " processed. Select it and validate your reception."
 msgstr ""
+"7. Câteva zile mai târziu, primiți comanda de la distribuitor. Accesați "
+"aplicația Inventar din tabloul de bord, veți vedea că o nouă recepție este "
+"gata de procesat. Selectați-o și validați recepția."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "7. Monitoring &amp; reporting"
-msgstr ""
+msgstr "7. Monitorizare &amp; raportare"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -274,6 +332,8 @@ msgid ""
 "8. The last product is now in stock, you can go back to your Sales Order and"
 " process the delivery by clicking the \"Delivery\" smart button."
 msgstr ""
+"8. Ultimul produs este acum pe stoc, puteți reveni la comanda de vânzare și "
+"procesa livrarea făcând clic pe butonul inteligent \"Livrare\"."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -293,7 +353,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">📖</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">📖</i>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -309,6 +369,11 @@ msgid ""
 "                        </strong>\n"
 "                </span>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                        <strong>\n"
+"                        <font class=\"text-800\"><span class=\"h1-fs\">Caz de utilizare</span></font>\n"
+"                        </strong>\n"
+"                </span>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -318,7 +383,7 @@ msgstr "<span class=\"h1-fs\"><strong>Bază</strong></span>"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Vrei să mergi mai departe?</span>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -327,6 +392,9 @@ msgid ""
 "                        <span class=\"display-4-fs\"><font class=\"text-800\">Odoo for Bookstore</font></span>\n"
 "                </strong>"
 msgstr ""
+"<strong>\n"
+"                        <span class=\"display-4-fs\"><font class=\"text-800\">Odoo pentru Librărie</font></span>\n"
+"                </strong>"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_11_product_template
@@ -355,6 +423,30 @@ msgid ""
 "Scientist by Dr.Suzanne Simard Published in Partnership with the David "
 "Suzuki Institute."
 msgstr ""
+"BESTSELLER NEW YORK TIMES, WASHINGTON POST ȘI WALL STREET JOURNAL – Una "
+"dintre cele mai îndrăgite cărți ale timpului nostru: o relatare iluminatoare"
+" despre pădure și știința care ne arată cum comunică, simt și trăiesc "
+"copacii în rețele sociale. După ce veți citi această carte, o plimbare prin "
+"pădure nu va mai fi niciodată la fel. Deschide drumuri complet noi... [Peter"
+" Wohlleben] a ascultat copacii și le-a descifrat limbajul. Acum vorbește "
+"pentru ei. --The New York Review of Books. NUMITĂ UNA DINTRE CELE MAI BUNE "
+"CĂRȚI ALE ANULUI DE BRAINPICKINGS – MENȚIUNE ONORIFICĂ: Premiul SEJ Rachel "
+"Carson Environment Book – Finalist: Audible International Book of the Year "
+"Award – Books For a Better Life Award – Indie Choice Award--Nonfiction Book "
+"of the Year. Sunt copacii ființe sociale? În \"Viața ascunsă a copacilor\", "
+"pădurarul și autorul Peter Wohlleben argumentează convingător că da, pădurea"
+" este o rețea socială. El se bazează pe descoperiri științifice "
+"revoluționare pentru a descrie cum copacii sunt ca familiile umane: "
+"părinții-copaci trăiesc împreună cu copiii lor, comunică cu ei, îi susțin pe"
+" măsură ce cresc, împart nutrienți cu cei bolnavi sau slăbiți și chiar se "
+"avertizează reciproc despre pericole iminente. Wohlleben își împărtășește și"
+" dragostea profundă pentru păduri, explicând procesele uimitoare de viață, "
+"moarte și regenerare pe care le-a observat în pădurea sa. O declarație de "
+"dragoste și un ghid captivant despre copaci, plin de fapte și de o admirație"
+" sinceră pentru natură. --Washington Post. Presărată din plin cu sclipiciul "
+"uimitorului. --The New Yorker. Include o notă de la un om de știință "
+"forestier, Dr. Suzanne Simard. Publicată în parteneriat cu David Suzuki "
+"Institute."
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_20_product_template
@@ -376,6 +468,22 @@ msgid ""
 "mount a subversive critique of media hegemony while continually re-imagining"
 " the crux of the performance itself."
 msgstr ""
+"O relatare detaliată a performance-ului Media Burn din 1975 al grupului Ant "
+"Farm, un act legendar de critică a consumerismului. Această carte examinează"
+" setul complex de referințe culturale și strategii artistice care au stat la"
+" baza performance-ului emblematic Media Burn din 1975, în care un Cadillac "
+"personalizat, numit Phantom Dream Car, a fost condus printr-un zid de "
+"televizoare în flăcări. Conceput inițial ca o practică arhitecturală "
+"conceptuală, Ant Farm a evoluat într-un colectiv artistic complet, culminând"
+" cu lucrări notabile precum House of the Century (1971-73), Cadillac Ranch "
+"(1974) și The Eternal Frame (1975). În Media Burn, artiștii au prosperat "
+"într-un tumult bogat de idei care au implicat teoria media contemporană, un "
+"spectacol estetic complicat, apropriere textuală și un efort de branding "
+"cuprinzător. Scrisă de Steve Seid (Berkeley Art Museum/Pacific Film Archive)"
+" și bazată pe o bogată documentație vizuală, această carte explorează "
+"povestea critică puțin cunoscută a acestui performance influent (și a "
+"lucrării video), implicând un efort masiv de a monta o critică subversivă a "
+"hegemoniei media, reimaginând continuu esența performance-ului."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -383,6 +491,10 @@ msgid ""
 "A free, personalized, integrated <strong><font class=\"text-o-color-1\">Website</font></strong> in a few clicks. Start receiving orders directly in Odoo and go live with your \n"
 "                        <strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
 msgstr ""
+"O <strong><font class=\"text-o-color-1\">pagină web</font></strong> "
+"gratuită, personalizată și integrată în doar câteva clicuri. Începeți să "
+"primiți comenzi direct în Odoo și lansați-vă <strong><font class=\"text-o-"
+"color-1\">magazinul online</font></strong> în câteva minute."
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_9_product_template
@@ -390,11 +502,13 @@ msgid ""
 "A hand-inspected Used copy of \"Da Vinci Code\" by Dan Brown. Ships directly"
 " from Textbooks.com."
 msgstr ""
+"Un exemplar folosit, verificat manual, al cărții \"Da Vinci Code\" de Dan "
+"Brown. Livrare directă de la Textbooks.com."
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_3_product_template
 msgid "André Chamay (Auteur) - Paru le 01/06/2019 chez Jets D'encre."
-msgstr ""
+msgstr "André Chamay (Autor) - Apărut la 01/06/2019 la Jets D'encre."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -402,6 +516,8 @@ msgid ""
 "As monitoring your success is essential, there are some views that might "
 "interest you:"
 msgstr ""
+"Deoarece monitorizarea succesului este esențială, există câteva vizualizări "
+"care v-ar putea interesa:"
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_author_template_field
@@ -411,7 +527,7 @@ msgstr "Autor"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Basics"
-msgstr ""
+msgstr "Bază"
 
 #. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_1
@@ -424,6 +540,8 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products and 2 sample contacts."
 msgstr ""
+"Prin încărcarea datelor demo ale acestui modul, baza dvs. de date a fost "
+"completată cu câteva produse și 2 contacte de probă."
 
 #. module: bookstore
 #: model:pos.payment.method,name:bookstore.pos_payment_method_1
@@ -433,7 +551,7 @@ msgstr "Numerar"
 #. module: bookstore
 #: model:account.journal,name:bookstore.cash
 msgid "Cash (Bookstore)"
-msgstr ""
+msgstr "Numerar (Librărie)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -441,16 +559,18 @@ msgid ""
 "Control the aging of your stock, and easily export aged stock in the "
 "inventory valuation report (Inventory &gt; Reporting &gt; Valuation)."
 msgstr ""
+"Controlează vechimea stocului și exportă ușor stocul vechi în raportul de "
+"evaluare a inventarului (Inventar &gt; Raportare &gt; Evaluare)."
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_9_product_template
 msgid "Da Vinci Code"
-msgstr ""
+msgstr "Da Vinci Code"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_3_product_template
 msgid "De Sapiens En Sapiens"
-msgstr ""
+msgstr "De Sapiens En Sapiens"
 
 #. module: bookstore
 #: model:product.pricelist,name:bookstore.product_pricelist_1
@@ -460,7 +580,7 @@ msgstr "Implicit"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Descoperiți mai multe despre Odoo explorând"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -468,11 +588,13 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
+"Descoperiți elementele de bază ale acestui pachet și explorați toate "
+"posibilitățile pe care Odoo le oferă pentru a vă îmbunătăți experiența."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Do you want to go further?"
-msgstr ""
+msgstr "Vrei să mergi mai departe?"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_14_product_template
@@ -480,6 +602,8 @@ msgid ""
 "Excellent Marketplace listings for \"Narratives of Exile and Return\" by "
 "Chamber starting as low as $92.46!"
 msgstr ""
+"Listări excelente pe Marketplace pentru \"Narratives of Exile and Return\" "
+"de Chamber, începând de la doar 92,46$!"
 
 #. module: bookstore
 #: model:ir.actions.server,name:bookstore.inventory_price_update
@@ -490,33 +614,36 @@ msgstr "Executați codul"
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_10_product_template
 msgid "First British Limited Edition hardcover, Bloomsbury Press."
-msgstr ""
+msgstr "Prima ediție britanică limitată, copertă tare, Bloomsbury Press."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "From the Point of sale, open your register on the main dashboard."
 msgstr ""
+"Din Punctul de vânzare, deschideți casa de marcat din tabloul de bord "
+"principal."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Get your stock level at anytime in Inventory &gt; Reporting &gt; Stock"
 msgstr ""
+"Verificați oricând nivelul stocului în Inventar &gt; Raportare &gt; Stoc"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_10_product_template
 msgid "Harry Potter and the Philosophers Stone"
-msgstr ""
+msgstr "Harry Potter și Piatra Filozofală"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "Salut!"
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_isbn_barcode_field
 #: model_terms:ir.ui.view,arch_db:bookstore.product_template_product_form_customization_view
 msgid "ISBN"
-msgstr ""
+msgstr "ISBN"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -524,6 +651,10 @@ msgid ""
 "If you look for Elise in your \"Contact\" database, you can see that the Odoo Smart Buttons at the top of her page can bring you to her customer history, Elise may even see it on her website account if you activate the\n"
 "                        relevant apps and configurations."
 msgstr ""
+"Dacă o căutați pe Elise în baza de date \"Contacte\", puteți vedea că "
+"butoanele inteligente Odoo din partea de sus a paginii vă duc la istoricul "
+"ei de client; Elise poate chiar să-l vadă în contul ei de pe site dacă "
+"activați aplicațiile și configurațiile relevante."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -532,16 +663,21 @@ msgid ""
 "Import demo data and try the Demo - Use Case. (In the next Knowledge "
 "Article)"
 msgstr ""
+"Dacă doriți să parcurgeți un tur ghidat practic al acestui modul, importați "
+"datele demo și încercați Demo - Caz de utilizare. (În următorul articol de "
+"cunoștințe)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "If you want to sale consignment products, this is standard in Odoo."
 msgstr ""
+"Dacă doriți să vindeți produse în consignație, acest lucru este standard în "
+"Odoo."
 
 #. module: bookstore
 #: model:product.pricelist,name:bookstore.product_pricelist_2
 msgid "Institutions"
-msgstr ""
+msgstr "Instituții"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_13_product_template
@@ -551,6 +687,10 @@ msgid ""
 "overshadowed by seven bizarre deaths. Translated by William Weaver. A Helen "
 "and Kurt Wolff Book."
 msgstr ""
+"Suntem în anul 1327. Franciscanii dintr-o mănăstire italiană sunt suspectați"
+" de erezie, dar investigația fratelui William din Baskerville este brusc "
+"umbrită de șapte decese bizare. Traducere de William Weaver. O carte Helen "
+"and Kurt Wolff."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.stock_warehouse_orderpoint_reorder_search_customization_view
@@ -561,12 +701,12 @@ msgstr "Ultimele 7 zile"
 #: model:ir.model.fields,field_description:bookstore.x_last_sale_date_field
 #: model:ir.model.fields,field_description:bookstore.x_last_sale_stock_field
 msgid "Last Sale"
-msgstr ""
+msgstr "Ultima vânzare"
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_last_vendor_template_field
 msgid "Last Vendor"
-msgstr ""
+msgstr "Ultimul furnizor"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -579,6 +719,8 @@ msgid ""
 "Let's say you now need to create a quotation for \"The Great Library\" near "
 "your shop."
 msgstr ""
+"Să presupunem că acum trebuie să creați o ofertă pentru \"Marea Bibliotecă\""
+" de lângă magazinul dvs."
 
 #. module: bookstore
 #: model:loyalty.program,name:bookstore.loyalty_program_2
@@ -596,6 +738,12 @@ msgid ""
 "Manage all your communication channels in one place with Odoo <strong><font class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font class=\"text-o-color-1\">Email Marketing</font></strong>, \n"
 "                        <strong><font class=\"text-o-color-1\">Social Media Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
+"Gestionați toate canalele de comunicare într-un singur loc cu Odoo "
+"<strong><font class=\"text-o-color-1\">Marketing "
+"Automatizat</font></strong>, <strong><font class=\"text-o-color-1\">Email "
+"Marketing</font></strong>, <strong><font class=\"text-o-color-1\">Marketing "
+"Social Media</font></strong> și <strong><font class=\"text-o-color-1\">SMS "
+"Marketing</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -604,11 +752,14 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting "
 "App</font></strong>)"
 msgstr ""
+"Gestionați contabilitatea mai ușor ca niciodată într-un mediu complet "
+"integrat. (<strong><font class=\"text-o-color-1\">Aplicația "
+"Contabilitate</font></strong>)"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_20_product_template
 msgid "Media Burn: Ant Farm and the Making of an Image (Paperback)"
-msgstr ""
+msgstr "Media Burn: Ant Farm și crearea unei imagini (copertă moale)"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_12_product_template
@@ -630,11 +781,28 @@ msgid ""
 "that changes how we think about innovation and entrepreneurship. Eric Ries s"
 " The Lean Startup has the chops to join this exalted company."
 msgstr ""
+"Majoritatea startup-urilor sunt construite să eșueze. Dar aceste eșecuri, "
+"potrivit antreprenorului Eric Ries, pot fi prevenite. Startup-urile nu "
+"eșuează din cauza unei execuții slabe, a termenelor ratate sau a bugetelor "
+"depășite. Ele eșuează pentru că construiesc ceva ce nimeni nu dorește. "
+"Indiferent dacă apar dintr-un garaj sau sunt create într-o organizație "
+"matură din Fortune 500, noile afaceri sunt concepute pentru a crea produse "
+"sau servicii noi în condiții de incertitudine extremă. Misiunea lor "
+"principală este să afle ce vor cumpăra clienții în cele din urmă. Una dintre"
+" premisele centrale ale mișcării Lean Startup este ceea ce Ries numește "
+"învățare validată despre client. Este o modalitate de a obține feedback "
+"continuu de la clienți, astfel încât compania să poată schimba direcția sau "
+"să-și modifice planurile pas cu pas, minut cu minut. În loc să creeze un "
+"plan de afaceri elaborat și o abordare centrată pe produs, Lean Startup pune"
+" preț pe testarea continuă a viziunii cu clienții și ajustarea constantă -- "
+"Din când în când apare o carte de business care schimbă modul în care gândim"
+" inovația și antreprenoriatul. \"The Lean Startup\" de Eric Ries are toate "
+"calitățile pentru a se alătura acestei companii de elită."
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_14_product_template
 msgid "Narratives of Exile and Return"
-msgstr ""
+msgstr "Narațiuni ale exilului și întoarcerii"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -642,11 +810,13 @@ msgid ""
 "Navigate to Inventory &gt; Reporting &gt; Performance to get insight on each"
 " books categories"
 msgstr ""
+"Navigați la Inventar &gt; Raportare &gt; Performanță pentru a obține "
+"informații despre fiecare categorie de cărți"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Odoo for Bookstore"
-msgstr ""
+msgstr "Odoo pentru Librărie"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -654,11 +824,13 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into"
 " an additional scanner (and much more)."
 msgstr ""
+"Odoo este complet integrat într-o aplicație. Descărcați-o pentru a "
+"transforma telefonul într-un scanner suplimentar (și nu numai)."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr ""
+msgstr "Odoo vă oferă posibilități infinite, precum:"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -667,6 +839,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"Desigur, acesta este doar un rezumat al funcționalităților incluse în acest "
+"pachet. Poți adăuga noi aplicații, șterge/modifica datele demo și testa "
+"orice dorești!"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -675,6 +850,9 @@ msgid ""
 "database, and select the Barcode App to transform your phone into an "
 "additional scanner!<br/>"
 msgstr ""
+"Sau, mai simplu, descarcă aplicația Odoo pe telefonul mobil, conectează-te "
+"la baza ta de date și selectează aplicația Cod de bare pentru a transforma "
+"telefonul într-un scanner suplimentar!<br/>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -682,11 +860,13 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong>"
 " <font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"Organizați evenimentele și conectați-vă cu clienții ușor cu <strong><font "
+"class=\"text-o-color-1\">Aplicația Evenimente</font></strong>."
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_purchase_type_field
 msgid "Purchase type"
-msgstr ""
+msgstr "Tip achiziție"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -696,23 +876,25 @@ msgstr "Contactează-ne"
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_12_product_template
 msgid "The Lean Startup"
-msgstr ""
+msgstr "The Lean Startup"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_11_product_template
 msgid "The Mysteries of Nature: the Hidden Life of Trees (Hardcover)"
-msgstr ""
+msgstr "Misterele naturii: viața ascunsă a copacilor (copertă tare)"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_13_product_template
 msgid "The Name of the Rose"
-msgstr ""
+msgstr "Numele trandafirului"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"Toate acestea sunt incluse gratuit în abonamentul tău actual; explorează-le "
+"cu încredere! 🙃"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -720,6 +902,8 @@ msgid ""
 "This time, you received a new release from one of your distributors. Prepare"
 " your scanner and go to the Barcode App."
 msgstr ""
+"De data aceasta, ați primit o nouă apariție de la unul dintre distribuitorii"
+" dvs. Pregătiți scannerul și accesați aplicația Cod de bare."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -727,21 +911,23 @@ msgid ""
 "Time to return some unsold products. This works like a reverted purchase "
 "order."
 msgstr ""
+"Este timpul să returnați unele produse nevândute. Acest lucru funcționează "
+"ca o comandă de achiziție inversată."
 
 #. module: bookstore
 #: model:base.automation,name:bookstore.update_inventory_description
 msgid "Update Inventory Description"
-msgstr ""
+msgstr "Actualizează descrierea inventarului"
 
 #. module: bookstore
 #: model:base.automation,name:bookstore.base_automation_1
 msgid "Update supplier info on incoming products"
-msgstr ""
+msgstr "Actualizează informațiile furnizorului la produsele recepționate"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Use Case"
-msgstr ""
+msgstr "Caz de utilizare"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -751,6 +937,10 @@ msgid ""
 "products and create new entries directly from this App to encode new books "
 "faster than ever."
 msgstr ""
+"Folosiți <strong><font class=\"text-o-color-1\">aplicația Cod de "
+"bare</font></strong> pentru a scana produsele și a crea noi înregistrări "
+"direct din această aplicație, pentru a introduce cărți noi mai rapid ca "
+"niciodată."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -758,6 +948,9 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong>"
 " to manage your orders receive and deliver your products."
 msgstr ""
+"Folosiți <strong><font class=\"text-o-color-1\">aplicația "
+"Inventar</font></strong> pentru a gestiona comenzile, recepționa și livra "
+"produsele."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -766,6 +959,10 @@ msgid ""
 " for your sales at the desk. Manage your customer accounts and advantage in "
 "the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
 msgstr ""
+"Folosiți <strong><font class=\"text-o-color-1\">Punctul de "
+"vânzare</font></strong> pentru vânzările la ghișeu. Gestionați conturile "
+"clienților și avantajele acestora în <strong><font class=\"text-o-"
+"color-1\">aplicația Contacte</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -773,6 +970,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
 "to order books from your distributors."
 msgstr ""
+"Folosiți <strong><font class=\"text-o-color-1\">aplicația "
+"Achiziții</font></strong> pentru a comanda cărți de la distribuitori."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -780,6 +979,11 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to order books for your customers, create quotations for your institutional clients (libraries, schools, etc.), and invoice them on the go using\n"
 "                        the <strong><font class=\"text-o-color-1\">Invoicing App</font></strong>."
 msgstr ""
+"Folosiți <strong><font class=\"text-o-color-1\">aplicația "
+"Vânzări</font></strong> pentru a comanda cărți pentru clienți, a crea oferte"
+" pentru clienții instituționali (biblioteci, școli etc.) și a-i factura "
+"rapid folosind <strong><font class=\"text-o-color-1\">aplicația "
+"Facturare</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -788,11 +992,14 @@ msgid ""
 "contact record created, and don't forget to add an email address for her to "
 "receive notifications. Go back to your quotation using the breadcrump."
 msgstr ""
+"Folosiți butonul de legătură internă, din dreapta câmpului, pentru a vedea "
+"noul contact creat și nu uitați să adăugați o adresă de email pentru a primi"
+" notificări. Revenți la ofertă folosind firul de navigare."
 
 #. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_2
 msgid "Various"
-msgstr ""
+msgstr "Diverse"
 
 #. module: bookstore
 #: model_terms:web_tour.tour,rainbow_man_message:bookstore.knowledge_tour
@@ -803,6 +1010,7 @@ msgstr "Bine ai venit! Spor la explorat."
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
+"Vrei să discuți cu noi despre configurarea Odoo sau să mergi și mai departe?"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -810,6 +1018,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
+"Poți accesa orice aplicație instalată în baza ta de date Odoo din tabloul de"
+" bord principal."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -817,6 +1027,8 @@ msgid ""
 "You can also use automated Reordering rules to ensure you will always have "
 "your best seller in stock."
 msgstr ""
+"Puteți folosi și reguli automate de reaprovizionare pentru a vă asigura că "
+"aveți mereu bestseller-ul pe stoc."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -825,6 +1037,9 @@ msgid ""
 " to this app and click on the Quotation/Order button to retreive the Sales "
 "Order."
 msgstr ""
+"Puteți face un avans folosind Punctul de vânzare. Pentru aceasta, reveniți "
+"la această aplicație și faceți clic pe butonul Ofertă/Comandă pentru a "
+"recupera comanda de vânzare."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -832,6 +1047,8 @@ msgid ""
 "You can now confirm the purchase, validate the delivery using the smart "
 "button, and print your delivery slip."
 msgstr ""
+"Acum puteți confirma achiziția, valida livrarea folosind butonul inteligent "
+"și imprima avizul de livrare."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -840,6 +1057,9 @@ msgid ""
 "discount for every 200€ spent. Manage Promotions, and Loyalty programs under"
 " Point of Sale &gt; Products. <br/>"
 msgstr ""
+"Puteți vedea că Elise are un card de loialitate. Biblioteca demo aplică o "
+"reducere de 5% pentru fiecare 200€ cheltuiți. Gestionați promoțiile și "
+"programele de loialitate în Punct de vânzare &gt; Produse.<br/>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -847,6 +1067,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"Ați finalizat acel caz demo! Există milioane de alte moduri de a adapta Odoo"
+" la nevoile afacerii dvs."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -854,6 +1076,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Bookstore package and check the related box."
 msgstr ""
+"Nu ați importat date demo? Încă puteți face acest lucru. Mergeți la "
+"Aplicații &gt; Industrii &gt; Actualizați pachetul Librărie și bifați căsuța"
+" aferentă."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -861,6 +1086,8 @@ msgid ""
 "You just installed the Odoo for Bookstore package. By doing so, we have "
 "installed a bunch of necessary apps to run your bookstore efficiently."
 msgstr ""
+"Tocmai ați instalat pachetul Odoo pentru Librărie. Astfel, am instalat o "
+"serie de aplicații necesare pentru a vă gestiona eficient librăria."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -868,56 +1095,59 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
+"Ar trebui să puteți executa următoarele fluxuri pentru a avea o imagine de "
+"ansamblu asupra diverselor procese pe care le puteți realiza rapid cu acest "
+"pachet folosind Odoo."
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_17_product_template
 msgid "[0.0]"
-msgstr ""
+msgstr "[0.0]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_12_product_template
 msgid "[12.49]"
-msgstr ""
+msgstr "[12.49]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_9_product_template
 msgid "[14.99]"
-msgstr ""
+msgstr "[14.99]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_3_product_template
 msgid "[17.0]"
-msgstr ""
+msgstr "[17.0]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_10_product_template
 msgid "[19.44]"
-msgstr ""
+msgstr "[19.44]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_20_product_template
 msgid "[22.03]"
-msgstr ""
+msgstr "[22.03]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_11_product_template
 msgid "[23.5]"
-msgstr ""
+msgstr "[23.5]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_13_product_template
 msgid "[3.81]"
-msgstr ""
+msgstr "[3.81]"
 
 #. module: bookstore
 #: model:product.template,description_pickingin:bookstore.product_product_14_product_template
 msgid "[4.48]"
-msgstr ""
+msgstr "[4.48]"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "academie"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -932,17 +1162,19 @@ msgstr "documentație"
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "if you need help!<br/>"
-msgstr ""
+msgstr "dacă aveți nevoie de ajutor!<br/>"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "solicitați o demonstrație"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your Point of Sales results in Point of Sales &gt; Reporting"
 msgstr ""
+"​Urmăriți rezultatele Punctului de vânzare în Punct de vânzare &gt; "
+"Raportare"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -950,8 +1182,12 @@ msgid ""
 "​Track your purchases performance in Purchase App &gt; Reporting &gt; "
 "Purchase"
 msgstr ""
+"​Urmăriți performanța achizițiilor în Aplicația Achiziții &gt; Raportare "
+"&gt; Achiziții"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your sales order in Sales App &gt; Reporting &gt; Sales"
 msgstr ""
+"​Urmăriți comenzile de vânzare în Aplicația Vânzări &gt; Raportare &gt; "
+"Vânzări"
