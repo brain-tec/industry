@@ -361,7 +361,7 @@ msgstr ""
 #. module: tattoo_shop
 #: model:mail.template,name:tattoo_shop.mail_template_booking_mail
 msgid "Booking Email"
-msgstr ""
+msgstr "Email rezervare"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.homepage
@@ -625,6 +625,8 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
+"Dacă vrei să descoperi ușor toate funcționalitățile acestui pachet, încearcă"
+" să descarci Datele Demo."
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.homepage
@@ -672,6 +674,8 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
 msgstr ""
+"Ai grijă, odată ce datele demo sunt încărcate, nu pot fi șterse ușor. Dar "
+"poți începe o bază de date nouă pe"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -774,7 +778,7 @@ msgstr ""
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
 msgid "Odoo.com/trial"
-msgstr ""
+msgstr "Odoo.com/trial"
 
 #. module: tattoo_shop
 #: model_terms:appointment.type,message_intro:tattoo_shop.appointment_type_1
@@ -1071,7 +1075,7 @@ msgstr ""
 #. module: tattoo_shop
 #: model:website.menu,name:tattoo_shop.website_menu_4
 msgid "Top Menu for Website 1"
-msgstr ""
+msgstr "Meniu principal pentru Website 1"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -1170,7 +1174,7 @@ msgstr "Vânzări"
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
 msgid "🎓 Sign"
-msgstr ""
+msgstr "🎓 Semnătură"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
