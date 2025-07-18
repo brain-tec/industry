@@ -50,7 +50,7 @@ msgstr ""
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">बेसिक</span>"
 
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
@@ -152,7 +152,7 @@ msgstr ""
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "क्या आप और जानना चाहते हैं?"
 
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
@@ -182,7 +182,7 @@ msgstr ""
 #. module: electrician
 #: model:hr.department,name:electrician.hr_department_2
 msgid "Employees"
-msgstr ""
+msgstr "कर्मचारी"
 
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
@@ -332,7 +332,7 @@ msgstr ""
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
 msgid "Odoo.com/trial"
-msgstr ""
+msgstr "Odoo.com/trial"
 
 #. module: electrician
 #: model:crm.tag,name:electrician.crm_tag_3
@@ -457,7 +457,7 @@ msgstr ""
 #: model:project.project,label_tasks:electrician.project_project_7
 #: model:project.project,label_tasks:electrician.project_project_8
 msgid "Tasks"
-msgstr ""
+msgstr "टास्क"
 
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
@@ -583,6 +583,10 @@ msgid ""
 "                you receive from your vendor according to the draft\n"
 "                document in Odoo."
 msgstr ""
+"वेंडर के बिल परचेज़ ऑर्डर या \n"
+"रसीदों से पहले ही बन सकते हैं, \n"
+"जिससे आप Odoo में ड्राफ्ट बिल के हिसाब से वेंडर से \n"
+"मिले बिलों को कंट्रोल कर सकते हैं."
 
 #. module: electrician
 #: model:crm.tag,name:electrician.crm_tag_4
@@ -635,7 +639,7 @@ msgstr ""
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
 msgid "🎓 CRM"
-msgstr ""
+msgstr "🎓 CRM"
 
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
@@ -650,7 +654,7 @@ msgstr ""
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
 msgid "🎓 Sales"
-msgstr ""
+msgstr "🎓 Sales"
 
 #. module: electrician
 #: model_terms:ir.ui.view,arch_db:electrician.welcome_article_body
