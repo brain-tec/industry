@@ -47,7 +47,7 @@ msgstr ""
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">बेसिक</span>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.project_project_form_custom
@@ -185,7 +185,7 @@ msgstr ""
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "क्या आप और जानना चाहते हैं?"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -352,7 +352,7 @@ msgstr ""
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Odoo.com/trial"
-msgstr ""
+msgstr "Odoo.com/trial"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.x_percent_bills_1_field
@@ -585,6 +585,10 @@ msgid ""
 "                you receive from your vendor according to the draft\n"
 "                document in Odoo."
 msgstr ""
+"वेंडर के बिल परचेज़ ऑर्डर या \n"
+"रसीदों से पहले ही बन सकते हैं, \n"
+"जिससे आप Odoo में ड्राफ्ट बिल के हिसाब से वेंडर से \n"
+"मिले बिलों को कंट्रोल कर सकते हैं."
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -632,7 +636,7 @@ msgstr ""
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "🎓 CRM"
-msgstr ""
+msgstr "🎓 CRM"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -647,7 +651,7 @@ msgstr ""
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "🎓 Sales"
-msgstr ""
+msgstr "🎓 Sales"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body

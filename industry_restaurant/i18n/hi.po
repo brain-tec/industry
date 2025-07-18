@@ -5,6 +5,7 @@
 # Translators:
 # Wil Odoo, 2024
 # Ronald Kung, 2025
+# Ujjawal Pathak, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 05:57+0000\n"
 "PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Ronald Kung, 2025\n"
+"Last-Translator: Ujjawal Pathak, 2025\n"
 "Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,6 +140,10 @@ msgid ""
 "Your shifts will be automatically assigned based on your employees' "
 "availability."
 msgstr ""
+"3. 'प्लानिंग' ऐप में वापस जाएं. वहां आपको कुछ ऐसी शिफ्टें दिखेंगी जिनकी अभी "
+"योजना नहीं बनी है. अब, 'पब्लिश' बटन के पास वाले नीचे के तीर पर क्लिक करें और"
+" फिर \"ऑटो प्लान\" चुनें. ऐसा करने पर, आपकी सभी शिफ्टें आपके कर्मचारियों की "
+"उपलब्धता के आधार पर अपने-आप तय हो जाएंगी."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -536,7 +541,7 @@ msgstr ""
 #: model:website.menu,name:industry_restaurant.website_menu_14
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
 msgid "Menu"
-msgstr ""
+msgstr "मेन्यू"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -630,7 +635,7 @@ msgstr ""
 #. module: industry_restaurant
 #: model:planning.role,name:industry_restaurant.planning_role_1
 msgid "Service"
-msgstr ""
+msgstr "सर्विस"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -665,7 +670,7 @@ msgstr ""
 #: model:project.project,label_tasks:industry_restaurant.project_project_1
 #: model:project.project,label_tasks:industry_restaurant.project_project_2
 msgid "Tasks"
-msgstr ""
+msgstr "टास्क"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
