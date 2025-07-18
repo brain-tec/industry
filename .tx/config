@@ -91,6 +91,15 @@ resource_name          = bike_leasing
 replace_edited_strings = false
 keep_translations      = false
 
+[o:odoo:p:odoo-s18-3:r:bike_shop]
+file_filter            = bike_shop/i18n/<lang>.po
+source_file            = bike_shop/i18n/bike_shop.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = bike_shop
+replace_edited_strings = false
+keep_translations      = false
+
 [o:odoo:p:odoo-s18-3:r:billboard_rental]
 file_filter            = billboard_rental/i18n/<lang>.po
 source_file            = billboard_rental/i18n/billboard_rental.pot
@@ -322,6 +331,15 @@ source_file            = furniture_store/i18n/furniture_store.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = furniture_store
+replace_edited_strings = false
+keep_translations      = false
+
+[o:odoo:p:odoo-s18-3:r:gallery]
+file_filter            = gallery/i18n/<lang>.po
+source_file            = gallery/i18n/gallery.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = gallery
 replace_edited_strings = false
 keep_translations      = false
 
@@ -574,5 +592,14 @@ source_file            = wellness_practitioner/i18n/wellness_practitioner.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = wellness_practitioner
+replace_edited_strings = false
+keep_translations      = false
+
+[o:odoo:p:odoo-s18-3:r:yoga_pilates]
+file_filter            = yoga_pilates/i18n/<lang>.po
+source_file            = yoga_pilates/i18n/yoga_pilates.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = yoga_pilates
 replace_edited_strings = false
 keep_translations      = false
