@@ -91,6 +91,15 @@ resource_name          = bike_leasing
 replace_edited_strings = false
 keep_translations      = false
 
+[o:odoo:p:odoo-s18-4:r:bike_shop]
+file_filter            = bike_shop/i18n/<lang>.po
+source_file            = bike_shop/i18n/bike_shop.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = bike_shop
+replace_edited_strings = false
+keep_translations      = false
+
 [o:odoo:p:odoo-s18-4:r:billboard_rental]
 file_filter            = billboard_rental/i18n/<lang>.po
 source_file            = billboard_rental/i18n/billboard_rental.pot
@@ -379,6 +388,15 @@ resource_name          = headhunter
 replace_edited_strings = false
 keep_translations      = false
 
+[o:odoo:p:odoo-s18-4:r:hvac_services]
+file_filter            = hvac_services/i18n/<lang>.po
+source_file            = hvac_services/i18n/hvac_services.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = hvac_services
+replace_edited_strings = false
+keep_translations      = false
+
 [o:odoo:p:odoo-s18-4:r:industry_lawyer]
 file_filter            = industry_lawyer/i18n/<lang>.po
 source_file            = industry_lawyer/i18n/industry_lawyer.pot
@@ -558,6 +576,15 @@ minimum_perc           = 0
 resource_name          = tattoo_shop
 replace_edited_strings = false
 keep_translations      = false
+
+[o:odoo:p:odoo-s18-4:r:theater]
+file_filter            = theater/i18n/<lang>.po
+source_file            = theater/i18n/theater.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = theater
+replace_edited_strings = false
+keep_translations      = false 
 
 [o:odoo:p:odoo-s18-4:r:toy_store]
 file_filter            = toy_store/i18n/<lang>.po
