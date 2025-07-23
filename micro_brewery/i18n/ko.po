@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Martin Trigaux, 2025
-# Wil Odoo, 2025
 # Daye Jeong, 2025
+# Wil Odoo, 2025
 # Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-29 14:10+0000\n"
+"POT-Creation-Date: 2025-07-16 11:09+0000\n"
 "PO-Revision-Date: 2025-05-09 12:50+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
@@ -23,9 +23,9 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
-msgid "+1 (650) 555-0111"
-msgstr "+1 (650) 555-0111"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid "+1 555-555-5556"
+msgstr "+1 555-555-5556"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
@@ -43,78 +43,107 @@ msgid ", and feel free to"
 msgstr ", 자유롭게"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
+#: model:uom.uom,name:micro_brewery.uom_uom_34
+msgid "24x33cl"
+msgstr "24x33cl"
+
+#. module: micro_brewery
+#: model:uom.uom,name:micro_brewery.uom_uom_29
+msgid "33cl"
+msgstr "33cl"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
-"250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States"
+"<font class=\"text-o-color-1\">o-beer ®</font><br/>The craft beers made for "
+"you"
 msgstr ""
-"250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
+msgid ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
+"                                                <span>info@yourcompany.example.com</span>"
+msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
+"                                                <span>info@yourcompany.example.com</span>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
+msgid ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+msgstr ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
+msgid ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
+msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "4. Deposit Management 🍻"
-msgstr "4. 입금 관리 🍻"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
-"<font class=\"text-o-color-4\">\n"
-"                                    Taste our&amp;nbsp;new refreshing beer now !\n"
-"                                </font>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<font class=\"text-o-color-4\">\n"
-"                                    지금 바로 신선하고&amp;nbsp;상쾌한 맥주를 맛보세요. !\n"
-"                                </font>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"<font class=\"text-o-color-4\">Discover our new Lager</font>\n"
-"                                <br/>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 msgstr ""
-"<font class=\"text-o-color-4\">새로운 라거를 만나보세요</font>\n"
-"                                <br/>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                <span>info@yourcompany.example.com</span>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                <span>info@yourcompany.example.com</span>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "<i class=\"fa fa-credit-card me-2\"/>Buy now"
-msgstr "<i class=\"fa fa-credit-card me-2\"/>지금 구매하기"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -125,6 +154,24 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">Next</span>"
+msgstr ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">다음</span>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">Previous</span>"
+msgstr ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">이전</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -139,13 +186,6 @@ msgstr "<span class=\"h3-fs\"><strong>매출 분석하기.</strong></span>"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"<span class=\"h3-fs\"><strong>Purchase and receive "
-"components</strong></span>"
-msgstr "<span class=\"h3-fs\"><strong>부품 구매 및 수령</strong></span>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
 "<span class=\"h3-fs\"><strong>Take an order at the Bar</strong></span> <br/>"
 msgstr "<span class=\"h3-fs\"><strong>바에서 주문받기</strong></span> <br/>"
 
@@ -155,6 +195,36 @@ msgid ""
 "<span class=\"h3-fs\"><strong>Visit the website and make an "
 "order.</strong></span>"
 msgstr "<span class=\"h3-fs\"><strong>웹사이트를 방문하여 주문하기</strong></span>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid ""
+"<span class=\"o_small\">\n"
+"                            <strong>Emily JONES</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\"> Customer,&amp;nbsp;regular customer in fact</span>\n"
+"                          </span>"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid ""
+"<span class=\"o_small\">\n"
+"                            <strong>Joan SMITH</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">&amp;nbsp; Chief of Operations at New beach house restaurant chain</span>\n"
+"                          </span>"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid ""
+"<span class=\"o_small\">\n"
+"                            <strong>John SNOW</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\"> Customer,&amp;nbsp;visit and bar</span>\n"
+"                          </span>"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -208,28 +278,8 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>1. Crafting a beer</strong>"
-msgstr "<strong>1. 맥주 만들기</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>2. Selling the beer</strong>"
-msgstr "<strong>2. 맥주 판매</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong>3. Visiting the Brewery </strong>"
-msgstr "<strong>3. 양조장 방문하기</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong><font class=\"text-o-color-1\">Ecommerce</font></strong> (B2C)"
 msgstr "<strong><font class=\"text-o-color-1\">이커머스</font></strong> (B2C)"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong><span class=\"h3-fs\">Create a Recipe </span></strong>"
-msgstr "<strong><span class=\"h3-fs\">레시피 만들기 </span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -252,23 +302,13 @@ msgstr "<strong><span class=\"h3-fs\">제품을 판매하고 바에 배송합니
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "<strong><span class=\"h3-fs\">Start brewing</span></strong>"
-msgstr "<strong><span class=\"h3-fs\">추출 시작</span></strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>베이직</strong>"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "<strong>Blond</strong>"
-msgstr "<strong>블론드</strong>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "<strong>Brown</strong>"
-msgstr "<strong>브라운</strong>"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "<strong>Crafting 📦</strong>"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -282,6 +322,16 @@ msgid ""
 "<strong>Create the operations</strong> of your recipe with the right work "
 "center, for example:"
 msgstr "적절한 워크 센터로 레시피 <strong>작업을 생성</strong>하세요. 예를 들어:"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "<strong>Excise categories</strong>"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "<strong>Excise reporting</strong>"
+msgstr "<strong>소비세 보고</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -299,14 +349,32 @@ msgid ""
 msgstr "레시피 마지막에 <strong>완제품</strong>과 생산해야 하는 수량을 지정합니다. 예를 들어:"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "<strong>Lager</strong>"
-msgstr "<strong>라거</strong>"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "<strong>Selling 💸</strong>"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>사용 사례</strong>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "<strong>Visiting the Brewery 🎫</strong>"
+msgstr "<strong>양조장 방문 🎫</strong>"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"A semi-finished beer bottle unit product is required to be packaged into "
+"boxes, which in practice the same as the as the finished product beer "
+"bottle, the last one being here to support the split use case at the bar."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid "About us"
+msgstr "회사 소개"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -339,19 +407,24 @@ msgid "Age Limit"
 msgstr "연령 제한"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "Alcohol"
-msgstr "주류"
-
-#. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_5
 msgid "Amber"
 msgstr "Amber"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Apply DEP XX taxes to these consigns."
-msgstr "이 화물에 DEP XX 세금을 적용합니다."
+msgid ""
+"Apply DEP XX taxes to those products, creating some if necessary, and assign"
+" them a category with \"Is a deposit category\" set like the Deposit "
+"category."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Assign the relevant excise category, input the Excise Amount and save your "
+"product."
+msgstr "관련된 소비세 카테고리를 지정하고 소비세 금액을 입력한 후 제품을 저장하세요."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -374,6 +447,19 @@ msgstr "자동 생산"
 #: model:base.automation,name:micro_brewery.bom_automation
 msgid "Automated BoM"
 msgstr "자동화된 BoM"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Automated manufacturing order bill of materials define how semi-finished "
+"bottles are packaged into boxes and how boxes can be split into beer "
+"bottles."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Automated manufacturing orders / Inventory in crates"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.pricelist,name:micro_brewery.product_pricelist_2
@@ -414,16 +500,6 @@ msgstr "맥주"
 #: model:uom.uom,name:micro_brewery.uom_uom_32
 msgid "Bin"
 msgstr "휴지통"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "Bitterness"
-msgstr "씁쓸함"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "Bitterness<br/>"
-msgstr "씁쓸함<br/>"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_5
@@ -486,8 +562,8 @@ msgstr "끓이기 - 작업 센터: 주전자"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
-msgid "Book a visit now"
-msgstr "지금 방문 예약하기"
+msgid "Book a visit"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
@@ -497,7 +573,6 @@ msgstr "지금 자리를 예약하고 기억에 남을 양조장 체험을 위�
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_6
-#: model:uom.uom,name:micro_brewery.uom_uom_29
 msgid "Bottle"
 msgstr "병"
 
@@ -505,6 +580,16 @@ msgstr "병"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bottling - Work center: Bottler"
 msgstr "보틀링 - 작업 센터: 보틀러"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Bown Beer - Bottle in 33cl is the unit sale product"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Bown Beer - Box in 24x33cl is your main product"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_16
@@ -536,6 +621,11 @@ msgstr "브라운 맥주 (50cl)"
 #: model:product.template,name:micro_brewery.product_template_14
 msgid "Brown Beer - Bottle"
 msgstr "브라운 맥주 - 병"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_92
+msgid "Brown Beer - Bottle unit"
+msgstr "브라운 맥주 - 병 단위"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_16
@@ -580,6 +670,16 @@ msgstr ""
 "이 모듈의 데모 데이터를 업로드하면 다음 사용 사례를 쉽게 실행하는 데 도움이 되는 유용한 사전 설정으로 데이터베이스가 채워집니다."
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "Carefully brewed by our master brewers"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "Carousel indicator"
+msgstr "캐러셀 표시기"
+
+#. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_5
 msgid "Case"
 msgstr "사례"
@@ -588,6 +688,16 @@ msgstr "사례"
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_21
 msgid "Chaudfontaine"
 msgstr "쇼퐁텐"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Chose the unit of reporting by assigning the Excise Reporting Unit choice "
+"when starting your database and making sure only one unit as this set "
+"(default is hL)."
+msgstr ""
+"데이터베이스 시작 시 소비세 보고 단위를 지정하여 보고할 때 활용할 단위를 선택합니다. 이 설정에서는 하나의 단위만 사용하도록 "
+"합니다(기본값은 hL로 되어 있음)."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -605,11 +715,18 @@ msgstr "색상"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
-msgid "Come visit our brewery&amp;nbsp;!"
-msgstr "저희 양조장을 방문해보세요!"
+msgid "Come visit the brewery&amp;nbsp;<br/>"
+msgstr "저희 양조장을 방문해 보세요&amp;nbsp;<br/>"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid "Connect with us"
+msgstr "고객지원팀 연락처"
+
+#. module: micro_brewery
+#: model:website.menu,name:micro_brewery.website_menu_6
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Contact us"
 msgstr "문의하기"
 
@@ -638,8 +755,20 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Create deposit products for each different type of consigns"
-msgstr "다양한 화물 유형별로 입금 상품을 생성하기"
+msgid ""
+"Create a new excise category defining its name and description following the"
+" legislation which applies."
+msgstr "적용받는 법률에 따라 제목과 설명을 지정하여 새로운 소비세 카테고리를 생성하세요."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Create a recipe"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Create deposit products for each different type of consigns."
+msgstr ""
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_01_purchase
@@ -659,6 +788,12 @@ msgid "DEP 2.4"
 msgstr "DEP 2.4"
 
 #. module: micro_brewery
+#: model:account.tax,name:micro_brewery.account_tax_46_purchase
+#: model:account.tax,name:micro_brewery.account_tax_46_sale
+msgid "DEP 35"
+msgstr ""
+
+#. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_45_purchase
 #: model:account.tax,name:micro_brewery.account_tax_45_sale
 msgid "DEP 4.5"
@@ -668,6 +803,16 @@ msgstr "DEP 4.5"
 #: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
 msgid "Default fields for deposits"
 msgstr "입금에 대한 기본 필드"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Define the product unit making sure it relates to a volume."
+msgstr "제품 단위를 지정하고 수량 관련된 내용을 확인하세요."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Deliveries of beer boxes are clear."
+msgstr ""
 
 #. module: micro_brewery
 #: model:account.tax.group,name:micro_brewery.deposit_tax_group
@@ -686,6 +831,11 @@ msgid "Deposit 2.1"
 msgstr "입금 2.1"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Deposit 2.1 is the empty deposit product"
+msgstr ""
+
+#. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_53
 msgid "Deposit 2.4"
 msgstr "입금 2.4"
@@ -694,6 +844,28 @@ msgstr "입금 2.4"
 #: model:product.template,name:micro_brewery.product_template_55
 msgid "Deposit 4.5"
 msgstr "입금 4.5"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Deposit 4.5 is the complete deposit product (deposits of all bottles and "
+"crate)"
+msgstr ""
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_product_39_product_template
+msgid "Deposit Keg"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Deposit Management 🍻"
+msgstr "입금 관리 🍻"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Deposit assignation"
+msgstr ""
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
@@ -707,8 +879,18 @@ msgstr "입금 상품은 입금 카테고리로 분류되어야 합니다."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Deposit return from customers"
+msgstr "고객 보증금 환불"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
 msgstr "Odoo에 대해 자세히 알아보세요."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "Discover our latest brews"
+msgstr "최신 양조장 소식 보기"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -720,19 +902,9 @@ msgstr "이 패키지의 기본 사항을 살펴보고 Odoo가 어떻게 사용�
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
-"Don't hesitate and come visit us!&amp;nbsp;We will show you how we produce "
-"our amazing beers"
-msgstr "망설이지 말고 방문해보세요! 저희가 맥주를 만드는 과정을 보여드리겠습니다."
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_exc_21676_sale
-msgid "EXC 2.1676"
-msgstr "EXC 2.1676"
-
-#. module: micro_brewery
-#: model:account.tax,name:micro_brewery.account_tax_exc_coca_sale
-msgid "EXC COCA"
-msgstr "EXC COCA"
+"Don't hesitate to come visit us!&amp;nbsp;<br/>We will show you the way we "
+"craft our delicious beers."
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -746,9 +918,9 @@ msgstr ""
 "판매\"에 활용하세요. 이러한 상품은 팬이 구매한 후 브랜드 홍보대사가 될 수 있습니다."
 
 #. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_product_39_product_template
-msgid "Empty Keg"
-msgstr "빈 맥주통"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "Email"
+msgstr "이메일"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
@@ -758,17 +930,43 @@ msgstr "빈 보증금 상품"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Every time you need to sell a single Mobius Blanche - 33cl, if you don't "
-"have enough in stock, it will split your main product in 24 units and take "
-"into account an extra empty bin that will be left at the end."
+"Entry from FD corresponds to products entering you fiscal deposit warehouse "
+"from the fiscal deposit of a supplier. To define such suppliers, adapt their"
+" fiscal positionto handle excise tax."
 msgstr ""
-"모비우스 블랑쉬 - 33캔 하나를 판매해야 하는데 재고가 충분하지 않은 경우 기본 제품을 24개 단위로 나누고 남은 빈 통을 추가로 "
-"계산합니다."
+"FD로 입고한다는 것은 품목을 공급업체의 재정 예치금 보관소에서 회사의 보관소로 수령한다는 것을 의미합니다. 이 경우 업체를 지정하려면 "
+"소비세 처리가 가능하도록 업체의 재정 위치를 조정해야 합니다."
 
 #. module: micro_brewery
-#: model:account.tax.group,name:micro_brewery.excises_tax_group
-msgid "Excises"
-msgstr "소비세"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Entry is here in case you purchase products or are returned products not "
+"from a fiscal deposit warehouse. In such case, you ask for excise credits "
+"with your excise declaration."
+msgstr ""
+"재정 예치금 보관소가 아닌 위치에서 품목을 구매하거나 반품하는 경우에는 여기에 해당 내용을 입력하세요. 이 경우에는 소비세 신고서에서 "
+"소비세 크레딧을 요청해야 합니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Every time you need to sell a single Bown Beer - Bottle, if you don't have "
+"enough in stock, it will split a Bown Beer - Box, when you have some in "
+"stock, in 24 units and take into account an extra empty bin that will be "
+"left at the end."
+msgstr ""
+"보운 맥주를 병맥주 단위로 판매하는 경우에 재고가 부족해지면, 재고가 있을 경우 보운 맥주 박스 단위 재고가 있을 경우에 24개 단위로 "
+"나눠 드립니다. 또한, 마지막에 남는 빈 상자도 함께 계산해 드립니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise Management 🧾"
+msgstr "소비세 관리 🧾"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Excise management consists in two dimensions in this package:"
+msgstr "이 패키지에서 소비세 관리는 두 가지 분야로 나뉘어 있습니다:"
 
 #. module: micro_brewery
 #: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
@@ -783,6 +981,25 @@ msgid "Execute Existing Actions"
 msgstr "기존 작업 실행"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Exit means that products exited your fiscal deposit, to another warehouse of"
+" your or through a delivery to a customer without fiscal deposit warehouse."
+msgstr ""
+"출고란 품목을 회사의 재정 예치금 보관소에서 회사의 다른 보관 위치로 이동하거나, 혹은 재정 예치금 보관소가 없는 고객에게 전달하는 것을"
+" 의미합니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Exit to FD refers to products exiting your fiscal deposit warehouse to the "
+"fiscal deposit of a customer. To define such customers, adapt their fiscal "
+"position to handle excise tax."
+msgstr ""
+"FD로 출고한다는 것은 품목을 회사의 재정 예치금 보관소에서 고객의 보관소로 이전한다는 것을 의미합니다. 이 경우 고객을 지정하려면 "
+"소비세 처리가 가능하도록 고객의 재정 위치를 조정해야 합니다."
+
+#. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
 msgid ""
 "Explore the art of craft beer with our 90 minutes guided brewery visit. Get "
@@ -791,6 +1008,17 @@ msgid ""
 msgstr ""
 "90분 동안 진행되는 양조장 가이드 투어를 통해 수제 맥주의 예술 세계에 빠져보세요. 양조 과정에 대한 통찰력을 얻고, 최고급 맥주를 "
 "시음하고, 전문가의 안내를 받을 수 있습니다:"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid "Extra page"
+msgstr "추가 페이지"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "Facebook"
+msgstr "페이스북"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -803,17 +1031,7 @@ msgid "Filtering - Work center: Fermentation Vessel"
 msgstr "필터링 - 작업 센터: 발효 용기"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "Flavor intensity"
-msgstr "풍미 강도"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid "Flavor intensity<br/>"
-msgstr "풍미 강도<br/>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Follow us"
 msgstr "함께하기"
 
@@ -825,11 +1043,17 @@ msgstr "예를 들어:"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
-"From inventory management and production planning to sales and customer relationship, Odoo empowers O-Beer with the tools to optimise\n"
-"                                    their processes, enhance production quality, and ensure a smooth and successful brewing journey."
+"From start to finish, the team made an excellent tour of the brewery. Very "
+"happy with the tasting experience at the bar just after with all those "
+"explanations in mind!"
 msgstr ""
-"재고 관리 및 생산 계획부터 판매 및 고객 관계에 이르기까지 Odoo는 O-Beer에 프로세스를 최적화하고 생산 품질을 개선하며 원활하고"
-" 성공적인 맥주 양조 과정을 보장하는 도구를 제공합니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"From the <strong>Inventory app</strong>, open the Excise categories from the menu Configuration / Excise Categories. <br/>\n"
+"            Here you can define new and maintain existing excise categories."
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -896,6 +1120,11 @@ msgid "Hello there!"
 msgstr "안녕하세요!"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid "Home"
+msgstr "홈"
+
+#. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_5_product_template
 msgid "Hops"
 msgstr "홉"
@@ -923,11 +1152,10 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"If you want to automatically split products sold in a specific packaging, "
-"precise a unit sale product in the so-called field and the number of units "
-"contained in the main product."
+"If you want to automatically split products sold in a specific packaging "
+"such as beer boxes, precise a unit sale product in the so-called field and "
+"the number of units contained."
 msgstr ""
-"특정 패키지로 판매되는 제품을 자동으로 분할하려면 해당 필드에 단위 판매 제품을 지정하고 기본 제품에 포함된 단위 수를 입력하세요."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -945,6 +1173,20 @@ msgid ""
 msgstr ""
 "고객에게 맥주 탭을 대여하려는 경우 렌탈 앱을 살펴보고 대여 일정을 효율적으로 관리하여 고객에게 뛰어난 연장 서비스를 제공하는 방법을 "
 "알아보세요."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Imagine you create a new category of products which need excise "
+"management..."
+msgstr "소비세 관리가 필요한 새로운 제품 카테고리를 생성한다고 가정해 봅니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"In case you import or purchase products for which excises need to be "
+"recorded, you can handle it with this package."
+msgstr "수입 혹은 구매한 제품에 대해 소비세를 기록해야 하는 경우, 이 패키지를 이용하여 모두 처리할 수 있습니다."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -989,6 +1231,11 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "It is however possible to neglect this by:"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "It is interesting to mention that a lot of microbreweries do not have the "
 "machines for the kegging but it is possible to create a separate bill of "
@@ -998,10 +1245,23 @@ msgstr ""
 "있습니다."
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"It is paramount that the Product unit of measure (beside Sales Price and "
+"Cost) shall be of volume quantity for the computation of the Excise "
+"reporting."
+msgstr "품목의 측정 단위(판매가 및 원가 외의 단위)를 반드시 수량 단위로 지정해야 소비세 보고서 계산을 할 수 있습니다."
+
+#. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_4
 #: model:uom.uom,name:micro_brewery.uom_uom_28
 msgid "Keg"
 msgstr "맥주통"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Kits only / Inventory in bottles"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1022,6 +1282,11 @@ msgstr "라거 맥주 (50cl)"
 #: model:product.template,name:micro_brewery.product_template_13
 msgid "Lager Beer - Bottle"
 msgstr "라거 맥주 - 병"
+
+#. module: micro_brewery
+#: model:product.template,name:micro_brewery.product_template_93
+msgid "Lager Beer - Bottle unit"
+msgstr "라거 맥주 - 병 단위"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_15
@@ -1052,14 +1317,15 @@ msgid "Lautering - Work center: Lauter tun"
 msgstr "라우터링 - 작업 센터: 라우터 툰"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
-msgid "Learn more"
-msgstr "추가 정보"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
 msgid "Leave empty if this product is the smallest unit"
 msgstr "제품이 가장 작은 단위인 경우 이 필드를 비워둡니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "LinkedIn"
+msgstr "링크드인"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
@@ -1121,51 +1387,6 @@ msgid "Mashing - Work center: Mash tun"
 msgstr "매싱 - 작업 센터: 매시 튠"
 
 #. module: micro_brewery
-#: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_12
-msgid "Mobius"
-msgstr "뫼비우스"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_6
-msgid "Mobius Blanche 24x33cl"
-msgstr "뫼비우스 블랑쉬 24x33cl"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_7
-msgid "Mobius Blanche 33cl"
-msgstr "뫼비우스 블랑쉬 33cl"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_59
-msgid "Mobius IPA 24x33cl "
-msgstr "뫼비우스 IPA 24x33cl"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_60
-msgid "Mobius IPA 33cl"
-msgstr "뫼비우스 IPA 33cl"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Mobius Triple - 24x33cl is your main product"
-msgstr "뫼비우스 트리플 - 24x33cl은 주요 상품입니다."
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid "Mobius Triple - 33cl is the unit sale product"
-msgstr "뫼비우스 트리플 - 33cl은 제품 판매 단위입니다."
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_61
-msgid "Mobius Triple 24x33cl"
-msgstr "뫼비우스 트리플 24x33cl"
-
-#. module: micro_brewery
-#: model:product.template,name:micro_brewery.product_template_62
-msgid "Mobius Triple 33cl"
-msgstr "뫼비우스 트리플 33cl"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
 msgid "My Company"
 msgstr "내 회사"
@@ -1174,6 +1395,11 @@ msgstr "내 회사"
 #: model:ir.model.fields,field_description:micro_brewery.x_volume_sold
 msgid "New Decimal"
 msgstr "새로운 소수점"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "Next"
+msgstr "다음"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_16
@@ -1250,6 +1476,16 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"On a regular basis, excises need to be declared. To support you with this "
+"duty, a report is setup to reach the volumes by excise categories entering "
+"and exiting your fiscal deposit warehouse."
+msgstr ""
+"소비세는 정기 신고 의무가 있는 세금입니다. 신고 업무 지원을 위해 소비세 카테고리별로 재정 예치금 보관소에 입출고되는 규모를 파악할 수"
+" 있도록 보고서가 설정됩니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "On top of all the reporting you can find in the different applications, you "
 "can consult the dashboard application to follow the volume of Sales you have"
 " made."
@@ -1272,6 +1508,13 @@ msgstr "모든 작업을 완료하면 수제 맥주 판매를 시작할 준비�
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"Open the <strong>Inventory app</strong> and reach from the Reporting menu "
+"the Excises."
+msgstr "<strong>재고 관리 앱</strong>을 실행한 후 보고 메뉴에서 소비세 항목을 확인하세요."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "Organise your events and connect with your customers easily with the<strong>"
 " <font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
@@ -1279,42 +1522,9 @@ msgstr ""
 "구성하고 고객과 소통하세요."
 
 #. module: micro_brewery
-#: model:website.menu,name:micro_brewery.website_menu_11
-msgid "Our Beers"
-msgstr "맥주"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid ""
-"Our Blond beer is a radiant and approachable brew that radiates sunshine in every sip. With its light, straw-colored appearance and a hint of citrus and floral notes, this beer is the embodiment of a carefree, laid-back lifestyle. It's a splendid choice for those who appreciate a touch of sweetness and a gentle, well-balanced finish. Embrace the joy of our Blond and let your taste buds dance with delight.\n"
-"\n"
-"<br/>"
+#: model:website.menu,name:micro_brewery.website_menu_9
+msgid "Our eShop"
 msgstr ""
-"블론드 맥주는 한 모금 마실 때마다 햇살을 느낄 수 있는 밝고 매력적인 맥주입니다. 밝은 밀짚색에 시트러스와 플로럴 향의 은은한 힌트가 가미된 이 맥주는 편안하고 평온한 라이프스타일의 정수를 담아냅니다. 은은한 단맛과 부드럽고 균형 잡힌 피니시를 즐기는 분들에게 완벽한 선택입니다. 블론드의 즐거움을 경험하고 미각의 즐거움을 만끽하세요.\n"
-"\n"
-"<br/>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid ""
-"Our Brown beer is a rich and flavorful masterpiece that exudes warmth and comfort. With its deep mahogany hue and a complex blend of roasted malt and caramel flavors, this beer offers a robust and satisfying experience. Perfect for those who crave depth and character in their brew, our Brown beer invites you to savor each sip, revealing layers of nutty, toasty goodness. Discover the comforting embrace of Brown beer today.\n"
-"<br/>"
-msgstr ""
-"브라운 맥주는 따뜻함과 편안함을 전하는 풍부하고 풍미 가득한 작품입니다. 깊은 마호가니 색과 구운 몰트와 캐러멜 풍미가 복합적으로 어우러진 이 맥주는 견고하고 만족스러운 경험을 선사합니다. 맥주의 깊이와 개성을 중시하는 분들에게 이상적인 브라운 맥주는 한 모금 마실 때마다 견과류와 토스트의 풍미가 겹겹이 느껴지는 즐거움을 선사합니다. 오늘 브라운 맥주의 편안한 포옹을 경험해 보세요.\n"
-"<br/>"
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
-msgid ""
-"Our Lager is the epitome of refreshment. Crisp, clean, and delightfully "
-"balanced, it's the perfect choice for those seeking a classic and timeless "
-"beer experience. With a golden hue and a mild hop aroma, this lager offers a"
-" smooth, easy-drinking profile that's great for any occasion. Raise a glass "
-"to tradition and savor the pure, uncomplicated taste of Lager."
-msgstr ""
-"라거는 상쾌함의 정수를 선사합니다. 산뜻하고 깔끔하며 완벽한 밸런스를 자랑하는 이 맥주는 클래식한 맥주 경험을 원하는 분들에게 가장 "
-"완벽합니다. 황금색과 은은한 홉 향이 특징인 이 라거는 어떤 상황에도 어울리는 부드럽고 마시기 쉬운 프로파일을 제공합니다. 라거의 "
-"순수하고 담백한 맛을 즐기며 전통을 위해 건배하세요."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1337,6 +1547,38 @@ msgid "Pint"
 msgstr "파인트"
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "Pinterest"
+msgstr "핀터레스트"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid ""
+"Positive energy, great team spirit, hard workers, and awesome "
+"people!&amp;nbsp;I warmly recommend their craft o-beers!"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "Previous"
+msgstr "이전"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid "Products"
+msgstr "품목"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Products and Bills of Material"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Purchase and receive components"
+msgstr ""
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Reach us"
 msgstr "연락하기"
@@ -1353,9 +1595,29 @@ msgid ""
 msgstr "로터링 후 생산된 소비된 곡물의 양을 기록합니다."
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.micro_brewery_custom_appointment_heading
-msgid "Schedule <span style=\"color:#714b67;\">Visit of Brewery</span>"
-msgstr "<span style=\"color:#714b67;\">양조장 방문</span> 예약하기"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Remember that only stock moves to or from your fiscal deposit warehouses are"
+" reported here.<br/>This is normal not to see any move related to a sale "
+"from a front store warehouse since it is not a fiscal deposit for example."
+msgstr ""
+"여기에서는 재정 예치금 보관소로서 재고가 입출고되는 상황만 보고된다는 것에 유념하시기 바랍니다.<br/> 예를 들어 매장 내 판매와 같은"
+" 경우에는 재무적인 예치 창고와 무관하므로 표시되지 않는 것이 정상입니다."
+
+#. module: micro_brewery
+#: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
+msgid "S005"
+msgstr "S005"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "See All"
+msgstr "모두 보기"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "See all <i class=\"fa fa-long-arrow-right ms-2\"/>"
+msgstr "모두 보기 <i class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_confirmation:micro_brewery.appointment_type_1
@@ -1377,9 +1639,19 @@ msgid ""
 msgstr "이 세금을 적용하려면 제품에 입금 상품을 설정하세요. 이렇게 하면 위탁품 가격을 정확하게 인보이스에 표시할 수 있습니다."
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "Share"
+msgstr "공유"
+
+#. module: micro_brewery
 #: model:pos.category,name:micro_brewery.pos_category_3
 msgid "Shop"
 msgstr "쇼핑"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "Shop Now"
+msgstr "지금 구매하기"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_4
@@ -1391,6 +1663,11 @@ msgstr "사이즈"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Spent Grain"
 msgstr "소비된 곡물"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Start brewing"
+msgstr ""
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_4
@@ -1434,13 +1711,74 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The bottled beer is directly the finished product and no semi-finished "
+"bottle product is required."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The count on beer boxes is informative only since boxes are considered "
+"available as soon as the components, beer bottles and crate, are available."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The default breakdown is done by month and you can configure it to be by "
+"week if needed."
+msgstr "기본적으로 분석은 월 기준으로 진행되며, 필요한 경우 매주 진행되도록 설정할 수 있습니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "The described setup accounts for the inventory management of crates."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "The inventory is driven by beer bottles."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "The inventory is driven by beer boxes."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "The inventory of all products will be updated accordingly."
 msgstr "모든 제품의 재고가 함께 업데이트됩니다."
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
-msgid "The perfect beverage to share with your friends."
-msgstr "친구들과 함께 마시기에 완벽한 음료입니다."
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The kit defines the assembly of beer bottles and a crate into a beer box."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The maintenance of excise categories and the assignation of excises to "
+"products"
+msgstr "소비세 카테고리에 대한 관리 및 제품별 소비세 지정"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"The reporting of received and delivered excise concerned products, a legal "
+"implication for any fiscal deposit"
+msgstr "입출고 소비세 관련된 제품에 대한 보고는 모든 재정 예치금에 대해 법적으로 효력이 있습니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "The split of beer box into beer bottles a the bar is clear."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "The volume is reported in your Excise reporting unit."
+msgstr "소비세 보고 단위에 규모가 표시됩니다."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1454,10 +1792,22 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Then create your product:"
+msgstr "그런 다음 제품을 생성합니다:"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Then, from the \"Shop Floor\" application, execute the different operations "
 "and follow the instruction as you were the operator."
 msgstr "그런 다음 \"작업 현장\" 앱에서 다양한 작업을 수행하고 마치 작업자가 된 것처럼 지침을 따릅니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"There are two ways to handle your products and bills of material, each "
+"coming with pros and cons."
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1492,6 +1842,23 @@ msgstr ""
 "이 기능은 제품을 분할해야 할 때마다 자동으로 자재 명세서를 생성하고 제조 주문을 처리하여 이 작업이 재고에 정확하게 반영되도록 합니다."
 
 #. module: micro_brewery
+#: model:website.menu,name:micro_brewery.website_menu_4
+msgid "Top Menu for Website 1"
+msgstr "웹사이트 상단 메뉴 1"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"Transfer is here to handle the transfers between multiple fiscal deposit "
+"warehouses of yours."
+msgstr "이전 작업을 통해 여러 재정 예치금 저장소 간의 이체를 처리합니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "Two bills of material are needed."
+msgstr ""
+
+#. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
 msgid "Unit sale product"
 msgstr "단위 판매 상품"
@@ -1500,6 +1867,11 @@ msgstr "단위 판매 상품"
 #: model:base.automation,name:micro_brewery.update_sales_taxes
 msgid "Update Taxes"
 msgstr "업데이트: 세금"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid "Useful Links"
+msgstr "유용한 링크"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1522,13 +1894,17 @@ msgstr ""
 "앱</font></strong>을 사용하여 관리합니다."
 
 #. module: micro_brewery
+#: model:website.menu,name:micro_brewery.website_menu_11
+msgid "Visit the brewery"
+msgstr ""
+
+#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Want to know more about unit of measures ?"
 msgstr "측정 단위에 대해 자세히 알고 싶으신가요?"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_9_product_template
-#: model:product.template,name:micro_brewery.product_template_9
 msgid "Water"
 msgstr "물"
 
@@ -1538,20 +1914,35 @@ msgid "Water - Good, no inventory tracking - Mashing"
 msgstr "물 - 양호, 재고 추적 없음 - 매싱"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
-msgid "We Brew beer with Odoo"
-msgstr "Odoo와 함께 맥주를 양조합니다"
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+msgid ""
+"We are a team of passionate people whose goal is to craft amazing beers with"
+" a good mix of heritage and innovation. We brew quality beers with intense "
+"taste and exotic flavors.&amp;nbsp;"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
-"Welcome to o-beer, where craft meets flavor! Our brewery is dedicated to creating exceptional beers that ignite the senses and captivate the palate.\n"
-"                                    With our diverse selection and nationwide shipping, enjoying our handcrafted beers has never been easier.\n"
-"                                    Cheers to unforgettable brews and memorable moments!"
+"We propose o-beers in our restaurants for more than 2 years and our "
+"customers are always delighted to taste such amazing beers. I am delighted "
+"by collaboration we have with o-beer and keep following up on their next "
+"creation!&amp;nbsp;<br/>"
 msgstr ""
-"크래프트와 풍미가 어우러진 o-beer에 오신 것을 환영합니다! 저희 양조장은 감각을 자극하고 미각을 즐겁게 하는 특별한 맥주를\n"
-"                                    양조하기 위해 최선을 다하고 있습니다.다양한 선택지와 전국 배송 서비스를 통해 수제 맥주를 그 어느 때보다 간편하게\n"
-"                                    맛볼 수 있습니다.잊을 수 없는 맥주와 기억에 남을 순간을 위해 건배하세요!"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"We setup an example of this setup with the blond beer bottle and box "
+"products in this module."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"We setup an example of this setup with the lager and brown beer bottle and "
+"box products in this module."
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:web_tour.tour,rainbow_man_message:micro_brewery.knowledge_tour
@@ -1559,9 +1950,55 @@ msgid "Welcome! Happy exploring."
 msgstr "환영합니다! 마음껏 둘러 보세요."
 
 #. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+msgid "WhatsApp"
+msgstr "왓츠앱"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"When installing this module, all Fiscal Positions are set as Fiscal Deposit.<br/>\n"
+"                Adjust the Fiscal Positions which are not to consider the Excise Taxes in your orders."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"When moving boxes from a place to another using box product, in practice, "
+"beer bottles and deposits are moved (see corresponding deliveries)."
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
+"When you sell this product, the excise is accounted separately in a tax and "
+"summarised at the end of your sale orders, allowing you to offer clear "
+"discounts on your product irrespectively of the excise."
+msgstr ""
+"이 품목을 판매할 때 발생하는 소비세는 세금 내역에서 별도로 계산되어 판매 주문이 종료될 때 요약 표시되므로, 소비세와 관계없이 품목에 "
+"대한 할인 금액을 명확하게 나타낼 수 있습니다."
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid "Where every o-beer tells a story."
+msgstr ""
+
+#. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_4
 msgid "White"
 msgstr "흰색"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+msgid ""
+"With a simple click, finding your favorite craft beer has never been "
+"easier.<br/><br/>"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "With or without crate inventory?"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1653,8 +2090,8 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
-msgid "You don't know what to do next weekend?!"
-msgstr "다음 주말에 무엇을 해야 할지 모르시겠나요?!"
+msgid "You have no plan for the weekend?"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1668,22 +2105,23 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
+"You now have the keys to easily report those to the relevant authorities!"
+msgstr "이제 관련 정부 기관에 해당 내용을 쉽게 신고할 수 있습니다!"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
 "다음 플로우를 실행하면 Odoo를 사용하여 이 패키지로 효율적으로 실행할 수 있는 다양한 프로세스에 대한 개요를 확인할 수 있습니다."
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid ""
-"[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
-msgstr "[EMPTY 33 BIN] 일반 24x33 용기는 빈 보증금 상품입니다 (2.1$ 가치)."
-
-#. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
-msgid ""
-"[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
-msgstr "[FULL 33 BIN] 일반 24x33 용기는 완전 입금 상품입니다 (4.5$ 가치)."
+"Your Dynamic Snippet will be displayed here... This message is displayed "
+"because you did not provide both a filter and a template to use.<br/>"
+msgstr "동적 구조화된 스니펫이 여기에 표시됩니다... 사용할 필터와 템플릿이 제공되지 않아 이 메시지가 표시됩니다.<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1706,19 +2144,29 @@ msgid "ex. Delta I.P.A. - 33cl"
 msgstr "예: 델타 I.P.A. - 33c"
 
 #. module: micro_brewery
-#: model:uom.uom,name:micro_brewery.uom_uom_27
-msgid "hL"
-msgstr "hL"
-
-#. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "if you need help! <br/>"
 msgstr "도움이 필요하시면! <br/>"
 
 #. module: micro_brewery
-#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
+#: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "info@yourcompany.example.com"
 msgstr "info@yourcompany.example.com"
+
+#. module: micro_brewery
+#: model:website.menu,name:micro_brewery.website_menu_5
+msgid "o-beer"
+msgstr "o-beer"
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "removing the deposit products from the bill of materials"
+msgstr ""
+
+#. module: micro_brewery
+#: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+msgid "removing the tracking of deposit products (in the product form"
+msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
