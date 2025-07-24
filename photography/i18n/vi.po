@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 08:36+0000\n"
+"POT-Creation-Date: 2025-07-17 12:36+0000\n"
 "PO-Revision-Date: 2025-02-02 04:40+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
@@ -21,92 +21,108 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.homepage
+msgid ""
+"&amp;nbsp;<a class=\"o_translate_inline btn btn-primary mb-2\" "
+"href=\"/appointment\">Book Now</a>"
+msgstr ""
+"&amp;nbsp;<a class=\"o_translate_inline btn btn-primary mb-2\" "
+"href=\"/appointment\">Đặt lịch ngay</a>"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
+msgid "&amp;nbsp;Your Wedding<br/>"
+msgstr "&amp;nbsp;Tiệc cưới của bạn<br/>"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.customfooter_view
+msgid "+1 (650) 555-0111"
+msgstr "+1 (650) 555-0111"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "... And other information"
+msgstr "... và thông tin khác"
+
+#. module: photography
 #: model:calendar.alarm,name:photography.reminder_mail_1d
 msgid "1 day before"
 msgstr "1 ngày trước"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
+#: model_terms:ir.ui.view,arch_db:photography.customfooter_view
 msgid ""
-"<br/>We are a team of\n"
-"                                        professional photographers who love to capture the beauty\n"
-"                                        and emotions of life. We have been in the photography\n"
-"                                        business for over 10 years, and we have worked with clients\n"
-"                                        from various industries and backgrounds. We specialize in\n"
-"                                        wedding, corporate, and studio photography, and we offer a\n"
-"                                        range of packages and services to suit your needs and\n"
-"                                        preferences."
+"250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States"
 msgstr ""
-"<br/>Chúng tôi là một đội ngũ\n"
-"nhiếp ảnh gia chuyên nghiệp, đam mê ghi lại vẻ đẹp và xúc cảm\n"
-"của cuộc sống. Chúng tôi đã hoạt động trong lĩnh vực nhiếp ảnh\n"
-"được hơn 10 năm và đã làm việc với vô số khách hàng đến từ\n"
-"nhiều ngành nghề và có xuất thân khác nhau. Chúng tôi chuyên\n"
-"chụp ảnh cưới, doanh nghiệp và studio. Bên cạnh đó, chúng tôi\n"
-"cung cấp nhiều gói dịch vụ phù hợp với nhu cầu và ưu tiên\n"
-"của bạn."
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "<em>1300 €</em>"
-msgstr "<em>1300 €</em>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid "<em>We do not capture images - we capture moments.</em>"
-msgstr "<em>Chúng tôi không chụp ảnh - Chúng tôi chụp khoảnh khắc.</em>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.homepage
-msgid ""
-"<font class=\"bg-o-color-5\">Feel free to come up with your big\n"
-"                                        idea. <br/> We take care of the rest.</font>"
-msgstr ""
-"<font class=\"bg-o-color-5\">Hãy thoải mái đề xuất\n"
-"                                        ý tưởng. <br/> Chúng tôi sẽ lo phần còn lại.</font>"
+"250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
 msgid ""
-"<font class=\"text-o-color-3\">\n"
-"                                                <em>2000 €</em>\n"
-"                                            </font>"
+"<font class=\"text-white\">\n"
+"                        <em>1300 €</em>\n"
+"                      </font>"
 msgstr ""
-"<font class=\"text-o-color-3\">\n"
-"                                                <em>2000 €</em>\n"
-"                                            </font>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "<font class=\"text-o-color-3\">Deluxe Package</font>"
-msgstr "<font class=\"text-o-color-3\">Gói Deluxe</font>"
+"<font class=\"text-white\">\n"
+"                        <em>1300 €</em>\n"
+"                      </font>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
 msgid ""
-"<font class=\"text-o-color-3\">The Deluxe package is the ideal choice for "
-"those who want to treat themselves with a luxurious and unforgettable photo "
-"experience.<br/><br/></font>"
+"<font class=\"text-white\">\n"
+"                        <em>2000 €</em>\n"
+"                      </font>"
 msgstr ""
-"<font class=\"text-o-color-3\">Gói Deluxe là lựa chọn lý tưởng cho những ai "
-"muốn tự thưởng cho mình trải nghiệm chụp ảnh sang trọng và khó "
-"quên.<br/><br/></font>"
+"<font class=\"text-white\">\n"
+"                        <em>2000 €</em>\n"
+"                      </font>"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
+msgid "<font class=\"text-white\">Classic Package</font>"
+msgstr "<font class=\"text-white\">Gói Classic</font>"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
+msgid "<font class=\"text-white\">Deluxe Package</font>"
+msgstr "<font class=\"text-white\">Gói Deluxe</font>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
 msgid ""
-"<font class=\"text-o-color-3\">The Deluxe package is the ultimate option for"
-" couples who want to immortalize their wedding day with the best quality and"
-" service. From the early morning to the late night,<strong> I will be by "
-"your side from 7am to 10pm</strong>, capturing every detail and emotion of "
-"your big day. You will receive <strong>at least 450 stunning photos</strong>"
-" that will showcase your beauty and happiness. The Deluxe package also "
-"includes a <strong>physical album with at least 50 pages</strong> of your "
-"favorite photos, and a <strong>gorgeous oiled frame of 60 x 80cm</strong> "
-"that will make a great decoration for your home.</font>"
+"<font class=\"text-white\">The Classic package is designed for couples who "
+"want to capture every moment of their special day. From the preparations to "
+"the party, <strong>I will be with you from 9am to 9pm,</strong> documenting "
+"your love story with my camera. You will receive <strong>at least 250 high-"
+"quality photos</strong> that will reflect your personality and emotions. The"
+" Classic package is the perfect choice for those who want a comprehensive "
+"and memorable photo report of their wedding day.</font>"
 msgstr ""
-"<font class=\"text-o-color-3\">Gói Deluxe là lựa chọn tối ưu cho các cặp đôi"
-" muốn lưu giữ ngày cưới của mình với chất lượng và dịch vụ tốt nhất. Tôi sẽ "
+"<font class=\"text-white\">Gói Classic được thiết kế cho các cặp đôi muốn "
+"lưu giữ mọi khoảnh khắc trong ngày trọng đại của mình. Từ khâu chuẩn bị cho "
+"đến chính tiệc, <strong>tôi sẽ đồng hành cùng bạn từ 9 giờ sáng đến 9 giờ "
+"tối</strong> để ghi lại câu chuyện tình yêu của bạn bằng chiếc máy ảnh của "
+"mình. Bạn sẽ nhận được <strong>ít nhất 250 bức ảnh chất lượng cao</strong> "
+"tôn lên cá tính và cảm xúc của bạn. Gói Classic là lựa chọn hoàn hảo cho "
+"những ai muốn có một nhật ký ảnh toàn diện và đáng nhớ về ngày cưới của "
+"mình.</font>"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
+msgid ""
+"<font class=\"text-white\">The Deluxe package is the ultimate option for "
+"couples who want to immortalize their wedding day with the best quality and "
+"service. From the early morning to the late night,<strong> I will be by your"
+" side from 7am to 10pm</strong>, capturing every detail and emotion of your "
+"big day. You will receive <strong>at least 450 stunning photos</strong> that"
+" will showcase your beauty and happiness. The Deluxe package also includes a"
+" <strong>physical album with at least 50 pages</strong> of your favorite "
+"photos, and a <strong>gorgeous oiled frame of 60 x 80cm</strong> that will "
+"make a great decoration for your home.</font>"
+msgstr ""
+"<font class=\"text-white\">Gói Deluxe là lựa chọn tối ưu cho các cặp đôi "
+"muốn lưu giữ ngày cưới của mình với chất lượng và dịch vụ tốt nhất. Tôi sẽ "
 "đồng hành cùng bạn từ sáng sớm đến tận đêm khuya, <strong>7 giờ sáng đến 10 "
 "giờ tối</strong>, để chụp lại mọi chi tiết và cảm xúc trong ngày trọng đại "
 "này. Bạn sẽ nhận được <strong>ít nhất 450 bức ảnh lung linh</strong> tôn lên"
@@ -116,49 +132,54 @@ msgstr ""
 " sẽ trở thành kỷ vật trang trí tuyệt vời cho ngôi nhà của bạn.</font>"
 
 #. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
+msgid "<font class=\"text-white\">​</font>"
+msgstr "<font class=\"text-white\">​</font>"
+
+#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
 msgid ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Corporate Photography</font>\n"
-"                                    <br/>"
+"<font style=\"font-size: 62px; font-weight: bold; font-family: 'Playfair Display';\">Corporate Photography</font>\n"
+"                  <br/>"
 msgstr ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Chụp ảnh doanh nghiệp</font>\n"
+"<font style=\"font-size: 62px; font-weight: bold; font-family: 'Playfair Display';\">Chụp ảnh doanh nghiệp</font>\n"
 "                                    <br/>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
 msgid ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Frozen moments</font>\n"
-"                            <br/>"
+"<font style=\"font-size: 62px; font-weight: bold; font-family: 'Playfair Display';\">Frozen moments</font>\n"
+"                  <br/>"
 msgstr ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Frozen moments</font>\n"
-"                            <br/>"
+"<font style=\"font-size: 62px; font-weight: bold; font-family: 'Playfair Display';\">Frozen moments</font>\n"
+"                  <br/>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
 msgid ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Studio Sessions</font>\n"
-"                                    <br/>"
+"<font style=\"font-size: 62px; font-weight: bold; font-family: 'Playfair Display';\">Studio Sessions</font>\n"
+"                  <br/>"
 msgstr ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Chụp tại studio</font>\n"
+"<font style=\"font-size: 62px; font-weight: bold; font-family: 'Playfair Display';\">Chụp tại studio</font>\n"
 "                                    <br/>"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Your wedding</font>\n"
-"                                    <br/>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 msgstr ""
-"<font style=\"font-size: 62px; font-weight: bold;\">Ngày cưới</font>\n"
-"                                    <br/>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid ""
-"<font style=\"font-size: 62px;\">Our Team</font>\n"
-"                                <br/>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<font style=\"font-size: 62px;\">Đội ngũ của chúng tôi</font>\n"
-"                                <br/>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: photography
 #: model:mail.template,body_html:photography.email_template_wedding_event_quote
@@ -404,134 +425,68 @@ msgstr ""
 "        "
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
+#: model_terms:ir.ui.view,arch_db:photography.remove_class
 msgid ""
-"<span class=\"carousel-control-next-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Next</span>"
+"<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; Company "
+"name</span>"
 msgstr ""
-"<span class=\"carousel-control-next-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Tiếp</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid ""
-"<span class=\"carousel-control-prev-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Previous</span>"
-msgstr ""
-"<span class=\"carousel-control-prev-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Trước</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid ""
-"<span class=\"s_blockquote_author\">\n"
-"                                                                <b>Destin Sparks - Professional Photographer</b>\n"
-"                                                            </span>"
-msgstr ""
-"<span class=\"s_blockquote_author\">\n"
-"                                                                <b>Destin Sparks - Nhiếp ảnh gia chuyên nghiệp</b>\n"
-"                                                            </span>"
+"<span class=\"o_footer_copyright_name me-2\">Bản quyền thuộc &amp;copy; Tên "
+"công ty</span>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Company</span>"
+"<span class=\"s_website_form_label_content\">Interested in...</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Công ty</span>"
+"<span class=\"s_website_form_label_content\">Quan tâm đến...</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.contactus
+msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
+msgstr "<span class=\"s_website_form_label_content\">Số điện thoại</span>"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.contactus
+msgid "<span class=\"s_website_form_label_content\">Type of session</span>"
+msgstr "<span class=\"s_website_form_label_content\">Thể loại chụp ảnh</span>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Duration</span>"
+"<span class=\"s_website_form_label_content\">Your Email</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Thời lượng</span>"
+"<span class=\"s_website_form_label_content\">Email</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Message/details</span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
+"<span class=\"s_website_form_label_content\">Your Name</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Nội dung/chi tiết</span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
+"<span class=\"s_website_form_label_content\">Tên</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Subject</span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
+"<span class=\"s_website_form_label_content\">Your Question</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">\n"
-"                                                            Tiêu đề</span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid "<span class=\"s_website_form_label_content\">Date</span>"
-msgstr "<span class=\"s_website_form_label_content\">Ngày</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid ""
-"<span class=\"s_website_form_label_content\">Phone\n"
-"                                                            Number</span>"
-msgstr ""
-"<span class=\"s_website_form_label_content\">Số\n"
-"                                                            điện thoại</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid "<span class=\"s_website_form_label_content\">Type of event</span>"
-msgstr "<span class=\"s_website_form_label_content\">Loại sự kiện</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid ""
-"<span class=\"s_website_form_label_content\">Your\n"
-"                                                            Email</span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
-msgstr ""
-"<span class=\"s_website_form_label_content\">Email\n"
-"                                                            </span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid ""
-"<span class=\"s_website_form_label_content\">Your\n"
-"                                                            Name</span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
-msgstr ""
-"<span class=\"s_website_form_label_content\">Tên\n"
-"                                                            </span>\n"
-"                                                        <span class=\"s_website_form_mark\"> *</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid ""
-"<span style=\"color: inherit; font-size: 16px; font-style: normal; font-weight: 400; background-color: inherit;\">Capturing the timeless moments of your special day with artistry and emotion.</span>\n"
-"                                                        <br/>"
-msgstr ""
-"<span style=\"color: inherit; font-size: 16px; font-style: normal; font-weight: 400; background-color: inherit;\">Lưu giữ những khoảnh khắc vượt thời gian trong ngày đặc biệt của bạn bằng nghệ thuật và cảm xúc.</span>\n"
-"                                                        <br/>"
+"<span class=\"s_website_form_label_content\">Câu hỏi</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
 msgid ""
-"<span style=\"font-size: 24px;\">Welcome to Frowen Moments Photography,\n"
-"                                where every click freezes a moment in time. We specialize in </span>\n"
-"                            <strong>\n"
-"                                <span style=\"font-size: 24px;\">capturing the essence of life's most\n"
-"                                    beautiful moments</span>\n"
-"                            </strong>\n"
-"                            <span style=\"font-size: 24px;\"> through the lens of our cameras.</span>"
+"<span style=\"font-size: 24px;\">Welcome to Frozen Moments Photography, where every click freezes a moment in time. We specialize in </span>\n"
+"                  <strong>\n"
+"                    <span style=\"font-size: 24px;\">capturing the essence of life's most beautiful moments</span>\n"
+"                  </strong>\n"
+"                  <span style=\"font-size: 24px;\"> through the lens of our cameras.</span>"
 msgstr ""
 "<span style=\"font-size: 24px;\">Chào mừng đến với Frozen Moments Photography,\n"
 "                                nơi mỗi cú nhấp chuột đóng băng một khoảnh khắc mãi mãi. Chúng tôi chuyên</span>\n"
@@ -540,20 +495,6 @@ msgstr ""
 "                                    trong cuộc sống</span>\n"
 "                            </strong>\n"
 "                            <span style=\"font-size: 24px;\">qua ống kính máy ảnh của mình.</span>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid ""
-"<strong data-oe-zws-empty-inline=\"\">Email Marketing </strong>and <strong data-oe-zws-empty-inline=\"\">Social Marketing</strong>\n"
-"                <span data-oe-zws-empty-inline=\"\">: reach out to your clients regarding special events or offers, or prospect for new clients​</span><strong data-oe-zws-empty-inline=\"\">​</strong>​<strong data-oe-zws-empty-inline=\"\">​</strong>"
-msgstr ""
-"<strong data-oe-zws-empty-inline=\"\">Marketing qua email</strong> và <strong data-oe-zws-empty-inline=\"\">Marketing qua MXH</strong>\n"
-"                <span data-oe-zws-empty-inline=\"\">: thông báo cho khách hàng của bạn về các sự kiện và ưu đãi đặc biệt hoặc tìm kiếm khách hàng mới​</span><strong data-oe-zws-empty-inline=\"\">​</strong>​<strong data-oe-zws-empty-inline=\"\">​</strong>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid "<strong data-oe-zws-empty-inline=\"\">​and much more!</strong><br/>"
-msgstr "<strong data-oe-zws-empty-inline=\"\">​và hơn thế nữa!</strong><br/>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -594,6 +535,17 @@ msgid ""
 msgstr ""
 "<strong>Ảnh chân dung em bé</strong>: Lưu lại sự dễ thương và ngây thơ của "
 "bé bằng những bức ảnh đáng yêu khiến bạn mỉm cười mỗi khi nhìn vào;"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid ""
+"<strong>Email Marketing </strong>and <strong>Social Marketing</strong> "
+"<span>: reach out to your clients regarding special events or offers, or "
+"prospect for new clients​</span><strong>​</strong>​<strong>​</strong>"
+msgstr ""
+"<strong>Marketing qua email</strong> và <strong>Marketing qua MXH</strong> "
+"<span>: thông báo cho khách hàng của bạn về các sự kiện và ưu đãi đặc biệt "
+"hoặc tìm kiếm khách hàng mới​</span><strong></strong><strong></strong>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
@@ -672,6 +624,11 @@ msgstr ""
 "sát trước hoặc sau buổi chụp ảnh"
 
 #. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "<strong>​and much more!</strong><br/>"
+msgstr "<strong>​và hơn thế nữa!</strong><br/>"
+
+#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
 msgid "A discreet presence but constantly on the lookout;"
 msgstr "Hiện diện kín đáo nhưng luôn trong trạng thái sẵn sàng;"
@@ -682,52 +639,13 @@ msgid "A personalized report that we prepare together;"
 msgstr "Một báo cáo được cá nhân hóa mà chúng tôi cùng nhau chuẩn bị;"
 
 #. module: photography
-#: model:website.menu,name:photography.website_menu_about_us
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid "About us"
-msgstr "Về chúng tôi"
-
-#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid ""
-"After qualification through a call or meeting, a quote is generated detailing the event requirements. Clients can sign online to confirm the quote. You can use the quote templates (which will customize the emails that get sent to\n"
-"            the customer). Don't hesitate to customize them!"
+"After qualification through a call or meeting, a quote can be generated "
+"detailing the services required."
 msgstr ""
-"Sau khi thống nhất thông qua cuộc gọi hoặc gặp mặt, một báo giá sẽ được tạo ra kèm thông tin chi tiết về các yêu cầu của sự kiện. Khách hàng có thể ký online để xác nhận báo giá. Bạn có thể sử dụng các mẫu báo giá (sẽ tùy chỉnh các email được gửi cho\n"
-"khách hàng) và tùy chỉnh theo ý muốn."
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid "Alice"
-msgstr "Alice"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid ""
-"Alice has a degree in fine arts and a diploma in\n"
-"                                                photography. She has won several awards for her\n"
-"                                                wedding photography, and her work has been featured\n"
-"                                                in many magazines and blogs. <br/>"
-msgstr ""
-"Alice có bằng mỹ thuật và bằng nhiếp ảnh.\n"
-"Cô đã giành được một số giải thưởng về\n"
-"nhiếp ảnh đám cưới và tác phẩm của cô đã\n"
-"được giới thiệu trên nhiều tạp chí và blog. <br/>"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid ""
-"Alice is our lead wedding photographer. She has a\n"
-"                                                knack for capturing the romance and joy of your\n"
-"                                                special day. She loves to work with couples who are\n"
-"                                                adventurous and spontaneous, and she is always ready\n"
-"                                                to follow them to any location."
-msgstr ""
-"Alice là nhiếp ảnh gia đám cưới hàng đầu của chúng tôi. Cô ấy có\n"
-"năng khiếu ghi lại sự lãng mạn và niềm hân hoan trong ngày\n"
-"trọng đại của bạn. Cô ấy thích làm việc với những cặp đôi đam mê\n"
-"phiêu lưu và ngẫu hứng, và luôn sẵn sàng theo chân họ đến\n"
-"bất kỳ vị trí nào."
+"Sau khi được xác nhận thông qua cuộc gọi hoặc buổi gặp, một báo giá sẽ được "
+"tạo ra nêu rõ các dịch vụ cần thiết."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -756,24 +674,6 @@ msgstr ""
 " vượt trội so với các đối thủ cạnh tranh."
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
-msgid ""
-"As a professional studio photographer, I can provide you with a comfortable "
-"and enjoyable experience in my fully equipped and modern studio. I will "
-"guide you through the whole process, from choosing the best outfits and "
-"backgrounds, to posing and smiling. I will use my skills, experience, and "
-"creativity to capture your best moments and angles, and deliver high-quality"
-" photos that will make you proud and happy."
-msgstr ""
-"Là một nhiếp ảnh gia studio chuyên nghiệp, tôi có thể mang đến cho bạn trải "
-"nghiệm thoải mái và hấp dẫn trong studio hiện đại và tiện nghi của tôi. Tôi "
-"sẽ hướng dẫn bạn trong toàn bộ quá trình, từ việc chọn trang phục và phông "
-"nền đẹp nhất, đến cách tạo dáng và mỉm cười. Tôi sẽ sử dụng các kỹ năng, "
-"kinh nghiệm và sự sáng tạo của mình để ghi lại những khoảnh khắc và khía "
-"cạnh đẹp nhất của bạn, đồng thời cung cấp những bức ảnh chất lượng cao khiến"
-" bạn tự hào và hạnh phúc."
-
-#. module: photography
 #: model:crm.tag,name:photography.crm_tag_baby
 msgid "Baby Portraits"
 msgstr "Ảnh chân dung em bé"
@@ -789,44 +689,25 @@ msgid ""
 "Because your wedding will be one of the most beautiful days of your life. "
 "Because you are unique. I want to customize your report as much as possible "
 "and give you photos and an album that will make you relive your day full of "
-"emotions."
+"emotions. During our meetings, you tell me about yourself, your wedding day,"
+" what you like and especially what you expect from the photographer who will"
+" make your photo report. Then, on my side, I put all my experience as a "
+"professional photographer at your service to advise you and make all your "
+"wishes come true."
 msgstr ""
-"Vì đám cưới của bạn sẽ là một trong những ngày tươi đẹp nhất trong cuộc đời "
-"và vì bạn là duy nhất, nên tôi muốn điều chỉnh bộ ảnh của bạn nhiều nhất có "
-"thể và cung cấp cho bạn những bức ảnh và album sẽ giúp bạn làm sống lại ngày"
-" trọng đại của mình với đầy cảm xúc."
+"Vì ngày cưới sẽ là một trong những khoảnh khắc đẹp nhất cuộc đời bạn. Vì bạn"
+" là duy nhất. Tôi muốn cá nhân hóa bộ ảnh của bạn nhiều nhất có thể, để mang"
+" đến những tấm hình và cuốn album khiến bạn sống lại trọn vẹn ngày đầy cảm "
+"xúc ấy. Trong các buổi gặp gỡ, bạn sẽ chia sẻ với tôi về bản thân, về ngày "
+"cưới, những điều bạn yêu thích và đặc biệt là kỳ vọng của bạn đối với người "
+"nhiếp ảnh sẽ đồng hành trong buổi lễ. Về phần tôi, tôi sẽ dành toàn bộ kinh "
+"nghiệm của mình với tư cách nhiếp ảnh gia chuyên nghiệp để tư vấn, đồng thời"
+" biến tất cả mong muốn của bạn thành hiện thực."
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid "Bob"
-msgstr "Bob"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid ""
-"Bob is our lead corporate photographer. He has a\n"
-"                                                wealth of experience in working with businesses of\n"
-"                                                all sizes and sectors. He knows how to create photos\n"
-"                                                that showcase your brand identity, values, and\n"
-"                                                personality. He is proficient in using various\n"
-"                                                equipment and software to produce high-quality\n"
-"                                                photos that meet your standards and expectations.\n"
-"                                                Bob has a degree in business and a certificate in\n"
-"                                                photography. He has worked with many renowned\n"
-"                                                companies and organizations, and his work has been\n"
-"                                                published in many newspapers and websites."
-msgstr ""
-"Bob là nhiếp ảnh gia doanh nghiệp chính của chúng tôi. \n"
-"Anh ấy có nhiều kinh nghiệm làm việc với các doanh nghiệp\n"
-"thuộc mọi quy mô và lĩnh vực. Bob biết cách tạo ra những\n"
-"bức ảnh thể hiện bản sắc thương hiệu, giá trị và cá tính\n"
-"của khách hàng. Anh ấy thành thạo trong việc sử dụng\n"
-"nhiều thiết bị và phần mềm khác nhau để tạo nên những\n"
-"bức ảnh chất lượng cao đáp ứng các tiêu chuẩn và kỳ vọng\n"
-"của bạn. Bob có bằng kinh doanh và chứng chỉ nhiếp ảnh,\n"
-"đồng thời có kinh nghiệm làm việc với nhiều công ty và\n"
-"tổ chức nổi tiếng. Tác phẩm của anh ấy đã được đăng\n"
-"trên nhiều mặt báo và trang web."
+#: model:website.menu,name:photography.website_menu_7
+msgid "Book a session"
+msgstr "Book a session"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
@@ -834,41 +715,55 @@ msgid "Boost Your Brand Image with Professional Photos.<br/>"
 msgstr "Nâng tầm hình ảnh thương hiệu bằng những bức ảnh chuyên nghiệp.<br/>"
 
 #. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "CRM Management"
+msgstr "Quản lý CRM"
+
+#. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_4
 msgid "Cancelled"
 msgstr "Đã hủy"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "Classic Package"
-msgstr "Gói Classic"
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid ""
+"Clients can sign online to confirm the quote. You can use the quotation templates service packages you may sell often. You can also assign template emails, add sections to your quotes, and specific terms and conditions! Don't hesitate\n"
+"            to customize them to your liking."
+msgstr ""
+"Khách hàng có thể ký xác nhận báo giá online. Bạn có thể sử dụng các mẫu báo giá cho những gói dịch vụ thường bán. Ngoài ra, bạn cũng có thể gán mẫu email, thêm các mục vào báo giá và đưa vào những điều khoản cụ thể! Hãy thoải mái \n"
+"tùy chỉnh theo ý thích của bạn."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid ""
-"Clients get a link to book an appointment - this link can be sent from a Sales Order or from a Task. The link directly binds to the correct appointment type and is easy to remember or type manually\n"
-"            (e.g. https://&lt;your_odoo&gt;.odoo.com/book/studio). The appointment page is not publicly available on the website, you can only register an appointment when given the link."
+"Clients get a link to book an appointment in the template emails. This link "
+"can be sent from a Sales Order or from a Task. The client can book whatever "
+"time slot they would like from there."
 msgstr ""
-"Khách hàng nhận được liên kết để đặt lịch hẹn - liên kết này có thể được gửi từ Đơn bán hàng hoặc từ Nhiệm vụ. Liên kết này sẽ trực tiếp kết nối đến đúng loại lịch hẹn và rất dễ nhớ hoặc nhập thủ công\n"
-"(ví dụ: https://&lt;your_odoo&gt;.odoo.com/book/studio). Trang lịch hẹn không được đăng công khai trên trang web, bạn chỉ có thể đăng ký lịch hẹn khi được cung cấp liên kết."
+"Khách hàng sẽ nhận được một liên kết để đặt lịch hẹn trong các email mẫu. "
+"Liên kết này có thể được gửi từ một Đơn bán hàng hoặc từ một Nhiệm vụ. Khách"
+" hàng có thể tự chọn bất kỳ khung giờ nào họ muốn từ liên kết đó."
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-#: model_terms:ir.ui.view,arch_db:photography.contactus
+#: model:sign.template,redirect_url_text:photography.sign_template_2
+msgid "Close"
+msgstr "Đóng"
+
+#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
+#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_2992
+msgid "Contact"
+msgstr "Liên hệ"
+
+#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
 msgid "Contact us"
 msgstr "Liên hệ"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
+#: model:website.menu,name:photography.website_menu_19
 msgid "Corporate Events"
 msgstr "Sự kiện doanh nghiệp"
-
-#. module: photography
-#: model:website.menu,name:photography.website_menu_13
-msgid "Corporate Photography"
-msgstr "Chụp ảnh doanh nghiệp"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
@@ -894,38 +789,14 @@ msgid "Creates Project"
 msgstr "Tạo dự án"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "Details"
-msgstr "Chi tiết"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid ""
-"Documenting your corporate events with professionalism and precision, "
-"ensuring every detail is preserved.<br/>"
-msgstr ""
-"Ghi lại các sự kiện của công ty bạn một cách chuyên nghiệp và chính xác, đảm"
-" bảo lưu giữ mọi khoảnh khắc.<br/>"
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "Documents"
+msgstr "Tài liệu"
 
 #. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_3
 msgid "Done"
 msgstr "Hoàn tất"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid ""
-"During our meetings, you tell me about yourself, your wedding day, what you "
-"like and especially what you expect from the photographer who will make your"
-" photo report. Then, on my side, I put all my experience as a professional "
-"photographer at your service to advise you and make all your wishes come "
-"true."
-msgstr ""
-"Trong các buổi gặp mặt, bạn sẽ kể cho tôi nghe về bản thân, ngày cưới, những"
-" gì bạn thích và đặc biệt là những gì bạn mong đợi từ nhiếp ảnh gia sẽ chụp "
-"ảnh cho bạn. Sau đó, về phía mình, tôi sẽ vận dụng tất cả kinh nghiệm với tư"
-" cách là một nhiếp ảnh gia chuyên nghiệp để tư vấn cho bạn và biến mọi mong "
-"muốn của bạn trở thành hiện thực."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -943,9 +814,20 @@ msgid "External Events"
 msgstr "Sự kiện bên ngoài"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid "Freezing time since 2013"
-msgstr "Đóng băng thời gian kể từ năm 2013"
+#: model_terms:ir.ui.view,arch_db:photography.customfooter_view
+msgid "Facebook"
+msgstr "Facebook"
+
+#. module: photography
+#: model:appointment.type,name:photography.appointment_type_3
+#: model:product.template,name:photography.product_product_11_product_template
+msgid "Family Session"
+msgstr "Chụp ảnh gia đình"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.customfooter_view
+msgid "Follow us"
+msgstr "Theo dõi chúng tôi"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -962,11 +844,6 @@ msgstr ""
 "hệ. Họ có thể điền thêm một số thông tin chi tiết về nhu cầu của mình:"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid "Full day"
-msgstr "Cả ngày"
-
-#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
@@ -974,45 +851,23 @@ msgid "Get in touch"
 msgstr "Liên lạc"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid "Get in touch with us to discuss your event and our services!"
-msgstr "Hãy liên hệ để thảo luận về sự kiện của bạn và dịch vụ của chúng tôi!"
+#: model_terms:ir.ui.view,arch_db:photography.homepage
+msgid "Get your most important moments captured for eternity."
+msgstr "Lưu lại những khoảnh khắc quan trọng nhất của bạn mãi mãi."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
 msgid ""
-"Get your most important moments\n"
-"                            captured for eternity."
+"Get your professional events or team buildings recorded and manage your "
+"corporate image."
 msgstr ""
-"Lưu lại những khoảnh khắc quan trọng nhất\n"
-"của bạn mãi mãi."
+"Ghi lại các sự kiện kinh doanh hoặc team building của bạn và quản lý hình "
+"ảnh công ty."
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.homepage
-msgid ""
-"Get your professional events or team buildings recorded and\n"
-"                                    manage your corporate image."
-msgstr ""
-"Ghi lại các sự kiện kinh doanh hoặc team building của bạn và\n"
-"quản lý hình ảnh công ty."
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid "Half day"
-msgstr "Nửa ngày"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.contactus
-msgid ""
-"If\n"
-"                                                            you have a fixed date for your event, please\n"
-"                                                            notify us so that we can check and planning\n"
-"                                                            and/or reserve the date for your event."
-msgstr ""
-"Nếu\n"
-"                                                            bạn đã có ngày chính thức cho sự kiện của mình, vui lòng\n"
-"                                                            thông báo cho chúng tôi để chúng tôi có thể kiểm tra, lên kế hoạch\n"
-"                                                            và/hoặc để trống ngày đó cho sự kiện của bạn."
+#: model:website.menu,name:photography.website_menu_5
+msgid "Home"
+msgstr "Trang chủ"
 
 #. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_2
@@ -1044,9 +899,12 @@ msgstr "Tạo và quản lý lead"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid "Leads can come via email using info@&lt;your_odoo&gt;.odoo.com."
+msgid ""
+"Leads can also come via email using. You can assign an email alias to your CRM to get a handy overview of all your customer enquiries. Once a lead has been created, you can use it as a central point from where you can reach your\n"
+"            customer. Any reply they send will directly arrive in the opportunity's page!"
 msgstr ""
-"Lead có thể đến qua email bằng cách sử dụng info@&lt;your_odoo&gt;.odoo.com."
+"Lead cũng có thể đến từ email. Bạn có thể gán một bí danh email cho hệ thống CRM để có cái nhìn tổng quan thuận tiện về mọi yêu cầu của khách hàng. Sau khi lead được tạo, bạn có thể sử dụng nó làm điểm trung tâm để liên hệ. \n"
+"Mọi phản hồi họ gửi sẽ được chuyển trực tiếp vào trang cơ hội!"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
@@ -1054,9 +912,19 @@ msgid "Let us capture your truth."
 msgstr "Hãy để chúng tôi chụp chính con người bạn."
 
 #. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.contactus
+msgid "Let's Connect"
+msgstr "Hãy kết nối"
+
+#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
 msgid "Life events"
 msgstr "Sự kiện cuộc sống"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.customfooter_view
+msgid "LinkedIn"
+msgstr "LinkedIn"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
@@ -1070,24 +938,51 @@ msgid "Natural, spontaneous and emotional photos;"
 msgstr "Những bức ảnh tự nhiên, ngẫu hứng, và đầy cảm xúc;"
 
 #. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid ""
+"Need to share pictures with your client? You can use the Odoo \"Documents\" "
+"app for that. You can create new folders for each customer in which you "
+"upload your pictures, then share the folder with them."
+msgstr ""
+"Cần chia sẻ hình ảnh với khách hàng? Bạn có thể sử dụng ứng dụng \"Tài "
+"liệu\" của Odoo để thực hiện việc này. Hãy tạo thư mục riêng cho từng khách "
+"hàng, sau đó tải ảnh lên và chia sẻ thư mục với họ."
+
+#. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_0
 msgid "New"
 msgstr "Mới"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "Next"
-msgstr "Tiếp theo"
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid ""
+"Note : Website visitors can also book studio shoots directly, depending on availabilities. Don't hesitate to configure the appointment types, availabilities, and ressources (photographers) in the\n"
+"                    <strong>Appointments app</strong>."
+msgstr ""
+"Lưu ý: Khách truy cập trang web cũng có thể đặt lịch chụp studio trực tiếp, tùy theo lịch còn trống. Đừng ngần ngại cấu hình các loại lịch hẹn, khung giờ trống và tài nguyên (nhiếp ảnh gia) trong \n"
+"<strong>ứng dụng Lịch hẹn</strong>."
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "Odoo for Photographers"
+msgstr "Odoo dành cho Nhiếp ảnh gia"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid ""
-"Once a lead has been created, you can use it as a central point from where "
-"you can reach your customer. Any reply they send will directly arrive on the"
-" lead!"
+"Odoo has a fair usage policy for data storage is capped at 10Gb. <br/>\n"
+"                    We advise you to look for alternative solutions for long term image storage."
 msgstr ""
-"Sau khi tạo được lead, bạn có thể sử dụng nó như một điểm trung tâm để tiếp "
-"cận khách hàng của mình. Mọi câu trả lời họ gửi đều sẽ trực tiếp đến lead!"
+"Odoo áp dụng chính sách sử dụng hợp lý, với dung lượng lưu trữ dữ liệu giới hạn ở mức 10GB. <br/>\n"
+"Chúng tôi khuyên bạn nên tìm giải pháp thay thế để lưu trữ hình ảnh lâu dài."
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid ""
+"Once a quotation is confirmed, a project is created for the shooting "
+"session."
+msgstr ""
+"Sau khi báo giá được xác nhận, một dự án sẽ được tạo cho buổi chụp ảnh."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -1110,29 +1005,14 @@ msgstr ""
 "trên."
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid ""
-"Once the quote is confirmed, a project is created for the shooting session. You can modify these template projects to suit your needs, e.g. by adding tasks to them. You don't want to use project management? Feel free to replace the\n"
-"            product by their 'no-service' equivalent to avoid the creation of a project."
-msgstr ""
-"Sau khi báo giá được xác nhận, một dự án sẽ được tạo cho buổi chụp ảnh. Bạn có thể sửa đổi các dự án mẫu này cho phù hợp với nhu cầu của mình, ví dụ như bằng cách thêm nhiệm vụ trong đó. Bạn không muốn sử dụng tính năng quản lý dự án? Hãy thoải mái thay thế\n"
-"sản phẩm bằng lựa chọn tương đương 'không có dịch vụ' để tránh việc tạo ra một dự án."
-
-#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Other"
 msgstr "Khác"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
 msgid "Our References"
 msgstr "Đối tác của chúng tôi"
-
-#. module: photography
-#: model:website.menu,name:photography.website_menu_12
-msgid "Our Services"
-msgstr "Dịch vụ của chúng tôi"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
@@ -1140,45 +1020,14 @@ msgid "Our commitment:"
 msgstr "Cam kết của chúng tôi:"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid ""
-"Our passion for photography stems from our curiosity and\n"
-"                                        creativity. We are always looking for new ways to express\n"
-"                                        ourselves and our clients' stories through our lenses. We\n"
-"                                        believe that photography is not only a skill, but also an\n"
-"                                        art and a craft. We pay attention to every detail, from the\n"
-"                                        lighting and composition, to the editing and delivery. We\n"
-"                                        strive to create photos that are not only beautiful, but\n"
-"                                        also meaningful and memorable."
-msgstr ""
-"Niềm đam mê nhiếp ảnh của chúng tôi bắt nguồn từ sự tò mò\n"
-"và sáng tạo. Chúng tôi luôn tìm kiếm những cách mới để thể hiện\n"
-"bản thân và câu chuyện của khách hàng thông qua ống kính của mình.\n"
-"Chúng tôi tin rằng nhiếp ảnh không chỉ là một kỹ năng mà còn là\n"
-"nghệ thuật và là một nghề. Chúng tôi chú ý đến mọi chi tiết, từ\n"
-"ánh sáng và bố cục, đến chỉnh sửa và truyền tải. Chúng tôi\n"
-"nỗ lực tạo ra những bức ảnh không chỉ đẹp mà còn\n"
-"có ý nghĩa và đáng nhớ."
-
-#. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Personal or Family Portraits"
 msgstr "Ảnh chân dung cá nhân hoặc gia đình"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid "Photography"
-msgstr "Nhiếp Ảnh"
-
-#. module: photography
 #: model:mail.template,subject:photography.email_template_pro_event_quote
 msgid "Photography Quote for Your Upcoming Event"
 msgstr "Báo giá chụp ảnh sự kiện sắp tới của bạn"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "Photography is the story I fail to put into words."
-msgstr "Nhiếp ảnh là câu chuyện mà tôi không thể diễn tả thành lời."
 
 #. module: photography
 #: model:mail.template,name:photography.order_appointment_booking
@@ -1213,14 +1062,15 @@ msgid "Planned"
 msgstr "Đã lên kế hoạch"
 
 #. module: photography
+#: model:appointment.type,name:photography.appointment_type_2
+#: model:product.template,name:photography.product_product_10_product_template
+msgid "Portrait Session"
+msgstr "Chụp ảnh chân dung"
+
+#. module: photography
 #: model:crm.tag,name:photography.crm_tag_portrait
 msgid "Portraits"
 msgstr "Ảnh chân dung"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid "Potential date"
-msgstr "Ngày dự kiến"
 
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_pregnancy
@@ -1230,17 +1080,10 @@ msgstr "Bầu"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
-msgid ""
-"Pregnancy and new-born shoots, or a classic professional\n"
-"                                    portraits."
+msgid "Pregnancy and new-born shoots, or a classic professional portraits."
 msgstr ""
-"Chụp ảnh bầu và trẻ sơ sinh, hoặc chụp ảnh chân dung chuyên nghiệp\n"
-"theo phong cách cổ điển."
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "Previous"
-msgstr "Trước đó"
+"Chụp ảnh bầu và trẻ sơ sinh, hoặc chụp ảnh chân dung chuyên nghiệp theo "
+"phong cách cổ điển."
 
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_pro_event
@@ -1257,6 +1100,16 @@ msgstr "Dự án"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "Project Management"
+msgstr "Quản lý dự án"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "Quotations &amp; Sales"
+msgstr "Báo giá &amp; Bán hàng"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid "Quote"
 msgstr "Trích dẫn"
 
@@ -1267,10 +1120,19 @@ msgid "Schedule your Studio Session"
 msgstr "Lên lịch chụp tại studio"
 
 #. module: photography
-#: model:website.menu,name:photography.website_menu_10
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
+#: model:website.menu,name:photography.website_menu_20
 msgid "Services"
 msgstr "Dịch vụ"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "Session image sharing"
+msgstr "Chia sẻ ảnh từ buổi chụp"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.contactus
+msgid "Shoot me a message to let me know what you're looking for."
+msgstr "Gửi tôi một tin nhắn để cho tôi biết bạn đang tìm kiếm điều gì nhé."
 
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_other
@@ -1295,8 +1157,7 @@ msgid "Studio Session Quote"
 msgstr "Báo giá chụp tại studio"
 
 #. module: photography
-#: model:website.menu,name:photography.website_menu_14
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
+#: model:website.menu,name:photography.website_menu_17
 msgid "Studio Sessions"
 msgstr "Chụp tại studio"
 
@@ -1338,39 +1199,10 @@ msgstr "Nhiệm vụ"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid ""
-"The Classic package is designed for couples who want to capture every moment"
-" of their special day. From the preparations to the party, <strong>I will be"
-" with you from 9am to 9pm,</strong> documenting your love story with my "
-"camera. You will receive <strong>at least 250 high-quality photos</strong> "
-"that will reflect your personality and emotions. The Classic package is the "
-"perfect choice for those who want a comprehensive and memorable photo report"
-" of their wedding day."
-msgstr ""
-"Gói Classic được thiết kế cho các cặp đôi muốn lưu giữ mọi khoảnh khắc trong"
-" ngày trọng đại của mình. Từ khâu chuẩn bị cho đến chính tiệc, <strong>tôi "
-"sẽ đồng hành cùng bạn từ 9 giờ sáng đến 9 giờ tối</strong> để ghi lại câu "
-"chuyện tình yêu của bạn bằng chiếc máy ảnh của mình. Bạn sẽ nhận được "
-"<strong>ít nhất 250 bức ảnh chất lượng cao</strong> tôn lên cá tính và cảm "
-"xúc của bạn. Gói Classic là lựa chọn hoàn hảo cho những ai muốn có một nhật "
-"ký ảnh toàn diện và đáng nhớ về ngày cưới của mình."
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid "The client can book whatever time slot they would like from there."
-msgstr "Khách hàng có thể đặt bất kỳ khung giờ nào họ muốn."
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
 msgid "The less formal moments and the decoration are not forgotten;"
 msgstr ""
 "Những khoảnh khắc có phần ít trang trọng và khung cảnh trang trí không bị "
 "lãng quên;"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "The most beautiful day of your life.&amp;nbsp;<br/>"
-msgstr "Ngày tươi đẹp nhất trong cuộc đời bạn.&amp;nbsp;<br/>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -1380,11 +1212,11 @@ msgstr "Thông tin liên lạc của họ"
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid ""
-"This app is designed for small photography studios, including freelancers and small organizations. It is built to cater to both corporate clients (team building events, professional events, product photography) and individual\n"
+"This industry is designed for small photography studios, including freelancers and small organizations. It is built to cater to both corporate clients (team building events, professional events, product photography) and individual\n"
 "            clients (weddings, family events, pregnancy shoots, pet shoots, etc.)."
 msgstr ""
-"Ứng dụng này được thiết kế cho các studio chụp ảnh nhỏ, bao gồm cả nhiếp ảnh"
-" gia tự do và các tổ chức nhỏ. Ứng dụng này hướng đến phục vụ cho cả khách "
+"Ngành này được thiết kế cho các studio chụp ảnh nhỏ, bao gồm cả nhiếp ảnh "
+"gia tự do và các tổ chức nhỏ. Ứng dụng này hướng đến phục vụ cho cả khách "
 "hàng doanh nghiệp (sự kiện team building, sự kiện nghề nghiệp, chụp ảnh sản "
 "phẩm) và khách hàng cá nhân (đám cưới, sự kiện gia đình, chụp ảnh bầu, chụp "
 "ảnh thú cưng,...)."
@@ -1395,23 +1227,24 @@ msgid "Through the website"
 msgstr "Qua trang web"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid ""
-"Transforming your vision into stunning, personalized portraits in our "
-"creative studio.<br/>"
-msgstr ""
-"Biến tầm nhìn của bạn thành những bức ảnh chân dung tuyệt đẹp, mang dấu ấn "
-"cá nhân tại studio sáng tạo của chúng tôi.<br/>"
+#: model:website.menu,name:photography.website_menu_4
+msgid "Top Menu for Website 1"
+msgstr "Top Menu cho trang web 1"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
-msgid "Type of shooting session/event"
-msgstr "Loại buổi/sự kiện chụp ảnh"
+#: model_terms:ir.ui.view,arch_db:photography.customfooter_view
+msgid "Twitter"
+msgstr "Twitter"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid "Want to go further?"
 msgstr "Bạn muốn tiến xa hơn?"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "Website documentation"
+msgstr "📖Tài liệu Trang web"
 
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_wedding
@@ -1437,28 +1270,25 @@ msgid "Wedding Photography Quote for Your Special Day"
 msgstr "Báo giá chụp ảnh cưới cho ngày trọng đại của bạn"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "Wedding photography"
-msgstr "Ảnh cưới"
-
-#. module: photography
-#: model:website.menu,name:photography.website_menu_11
+#: model:website.menu,name:photography.website_menu_18
 msgid "Weddings"
 msgstr "Đám cưới"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
-msgid ""
-"Weddings, engagements, baby showers - immortalize precious\n"
-"                                    moments."
+msgid "Weddings, engagements, baby showers - immortalize precious moments."
 msgstr ""
-"Đám cưới, lễ đính hôn, tiệc mừng em bé - lưu giữ những khoảnh khắc\n"
-"quý giá."
+"Đám cưới, lễ đính hôn, tiệc mừng em bé - lưu giữ những khoảnh khắc quý giá."
 
 #. module: photography
 #: model_terms:web_tour.tour,rainbow_man_message:photography.knowledge_tour
 msgid "Welcome! Happy exploring."
 msgstr "Chào mừng bạn! Chúc bạn một chuyến khám phá bổ ích!"
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid "What they're looking for"
+msgstr "Họ đang tìm kiếm điều gì"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -1473,9 +1303,36 @@ msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
 msgid "You are in good company."
 msgstr "Đây là một đơn vị uy tín."
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid ""
+"You can add as many fields as you want to the contact form. Simply visit the"
+" page editor, and click \"Add field\" after selecting the form."
+msgstr ""
+"Bạn có thể thêm số trường vào biểu mẫu liên hệ tuỳ theo ý muốn. Chỉ cần truy"
+" cập trình chỉnh sửa trang, sau đó chọn biểu mẫu và nhấp vào “Thêm trường” "
+"là xong."
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
+msgid ""
+"You can modify these template projects to suit your needs, e.g. by adding "
+"tasks to them. You don't want to use project management? Feel free to "
+"replace the product by their 'no-service' equivalent to avoid the creation "
+"of a project."
+msgstr ""
+"Bạn có thể sửa đổi các dự án mẫu này cho phù hợp với nhu cầu của mình, ví dụ"
+" như bằng cách thêm nhiệm vụ trong đó. Bạn không muốn sử dụng tính năng quản"
+" lý dự án? Hãy thoải mái thay thế sản phẩm bằng lựa chọn tương đương 'không "
+"có dịch vụ' để tránh việc tạo ra một dự án."
+
+#. module: photography
+#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
+msgid "You focus on the big day, let us focus on you."
+msgstr "You focus on the big day, let us focus on you."
 
 #. module: photography
 #: model:mail.template,subject:photography.email_calendar_reminder
@@ -1488,124 +1345,6 @@ msgid "Your booking is confirmed!"
 msgstr "Lịch hẹn của bạn đã được xác nhận!"
 
 #. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "a man standing in the dark holding his hands open"
-msgstr "a man standing in the dark holding his hands open"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
-msgid "baby under purple blanket"
-msgstr "baby under purple blanket"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid ""
-"bride holding bouquet of assorted-color flowers standing on grass field"
-msgstr ""
-"bride holding bouquet of assorted-color flowers standing on grass field"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "clear wine glass lot on table"
-msgstr "clear wine glass lot on table"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "groom beside bride holding bouquet flowers"
-msgstr "groom beside bride holding bouquet flowers"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
-msgid "long-coated tan dog with black background"
-msgstr "long-coated tan dog with black background"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
-msgid "man in black crew neck shirt wearing headphones"
-msgstr "man in black crew neck shirt wearing headphones"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
-msgid "man in red shirt and black pants standing on stage"
-msgstr "man in red shirt and black pants standing on stage"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "man in white dress shirt holding woman in white dress"
-msgstr "man in white dress shirt holding woman in white dress"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
-msgid "man standing infront of group of people"
-msgstr "man standing infront of group of people"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "people at the table"
-msgstr "people at the table"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
-msgid "people sitting on chair inside room"
-msgstr "people sitting on chair inside room"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
-msgid "people sitting on chairs watching a game"
-msgstr "people sitting on chairs watching a game"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
-msgid "people taking videos during concert"
-msgstr "people taking videos during concert"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid "smiling man wearing black turtleneck shirt holding camrea"
-msgstr "smiling man wearing black turtleneck shirt holding camrea"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
-msgid ""
-"three men sitting while using laptops and watching man beside whiteboard"
-msgstr ""
-"three men sitting while using laptops and watching man beside whiteboard"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
-msgid "three sitting men near door"
-msgstr "three sitting men near door"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
-msgid "two man's hands wearing gold-colored wedding rings"
-msgstr "two man's hands wearing gold-colored wedding rings"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
-msgid "woman holding beige-petaled flower bouquet"
-msgstr "woman holding beige-petaled flower bouquet"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
-msgid "woman in black tank top and black and white skirt lying on blue floor"
-msgstr "woman in black tank top and black and white skirt lying on blue floor"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid ""
-"woman in red and white plaid shirt and blue denim jeans holding black and "
-"white camera"
-msgstr ""
-"woman in red and white plaid shirt and blue denim jeans holding black and "
-"white camera"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.aboutus
-msgid "woman in white crew neck shirt smiling"
-msgstr "woman in white crew neck shirt smiling"
-
-#. module: photography
-#: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
-msgid "woman posing with brown hand tool"
-msgstr "woman posing with brown hand tool"
+#: model_terms:ir.ui.view,arch_db:photography.customfooter_view
+msgid "info@yourcompany.example.com"
+msgstr "info@yourcompany.example.com"
