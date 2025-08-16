@@ -1,65 +1,54 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * florist
+# 	* florist
 #
-# Translators:
-# Ilya Rozhkov, 2025
-# Wil Odoo, 2025
-# Anastasiia Koroleva, 2025
-#
-# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 07:19+0000\n"
-"PO-Revision-Date: 2025-08-15 17:11+0000\n"
-"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
-"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/florist/"
-"ru/>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2025-06-23 07:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
-"n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: \n"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
 msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid ", and feel free to"
-msgstr ", и не стесняйтесь"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "01"
-msgstr "01"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "02"
-msgstr "02"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "03"
-msgstr "03"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "04"
-msgstr "04"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
 msgid "<b>Designed</b> for companies"
-msgstr "<b>Создан</b> для компаний"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
@@ -67,13 +56,11 @@ msgid ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
 msgstr ""
-"<b>Моя компания</b><br/>250 Executive Park Blvd, Suite 3400 <br/> Сан-"
-"Франциско, Калифорния 94134 <br/>США"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
 msgid "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>hello@bloomworks.co.uk"
-msgstr "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>hello@bloomworks.co.uk"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -83,10 +70,6 @@ msgid ""
 "                    <small>+1 555-555-5556</small>\n"
 "                  </span>"
 msgstr ""
-"<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
-"                  <span class=\"o_force_ltr\">\n"
-"                    <small>+1 555-555-5556</small>\n"
-"                  </span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -96,15 +79,11 @@ msgid ""
 "                  <small>+1 555-555-5556</small>\n"
 "                </span>"
 msgstr ""
-"<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
-"                <span class=\"o_force_ltr\">\n"
-"                  <small>+1 555-555-5556</small>\n"
-"                </span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
 msgid "<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>͏"
-msgstr "<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>͏"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -112,9 +91,6 @@ msgid ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
 "                        <span class=\"o_force_ltr\">45 Rosewood Lane,&amp;nbsp;Cambridge, CB2 3DQ</span>"
 msgstr ""
-"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                        <span class=\"o_force_ltr\">45 Rosewood "
-"Lane,&amp;nbsp;Cambridge, CB2 3DQ</span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -122,8 +98,6 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -131,8 +105,6 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">🎉</i>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -140,8 +112,6 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -149,8 +119,6 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -165,18 +133,6 @@ msgid ""
 "                        Standard Shipping\n"
 "                    </small>"
 msgstr ""
-"<small class=\"d-flex align-items-center\"><i class="
-"\"fa fa-1x fa-fw fa-usd fa-stack me-1\"/>\n"
-"                        Гарантия низкой цены\n"
-"                    </small>\n"
-"                <small class=\"d-flex align-items-center\"><i class="
-"\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
-"                        Возврат в течение 30 дней для онлайн-заказов\n"
-"                    </small>\n"
-"                <small class=\"d-flex align-items-center\"><i class="
-"\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/>\n"
-"                        Стандартная доставка\n"
-"                    </small>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -185,9 +141,6 @@ msgid ""
 "                            info@yourcompany.example.com\n"
 "                        </small>"
 msgstr ""
-"<small><i class=\"fa fa-1x fa-fw fa-envelope me-1\"/>\n"
-"                            info@yourcompany.example.com\n"
-"                        </small>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -195,18 +148,16 @@ msgid ""
 "<small><i class=\"fa fa-1x fa-fw fa-envelope me-1\"/> "
 "info@yourcompany.example.com</small>"
 msgstr ""
-"<small><i class=\"fa fa-1x fa-fw fa-envelope me-1\"/> "
-"info@yourcompany.example.com</small>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
 msgid "<small>Free Returns and Standard Shipping</small>"
-msgstr "<small>Бесплатный возврат и стандартная доставка</small>"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "<span class=\"base-fs\">Floralize My Event </span>"
-msgstr "<span class=\"base-fs\">Оформить мое мероприятие цветами </span>"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
@@ -217,21 +168,16 @@ msgid ""
 "centerpieces and venue designs, we’ll make your event bloom with "
 "beauty.</span>"
 msgstr ""
-"<span class=\"base-fs\">Планируете свадьбу, день рождения или "
-"корпоратив?&amp;nbsp;<br/>Позвольте BloomWorks создать впечатляющее "
-"цветочное оформление в соответствии с вашим видением. От элегантных "
-"свадебных букетов до изысканных композиций и оформления площадки – мы "
-"наполним ваш праздник красотой и цветами.</span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
 msgid "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
-msgstr "<span class=\"o_force_ltr\">+1 555-555-5556</span>"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
 msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
-msgstr "<span class=\"s_website_form_label_content\">Номер телефона</span>"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -239,8 +185,6 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Тема</span>\n"
-"                                  <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -248,8 +192,6 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Ваш email</span>\n"
-"                                  <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -257,8 +199,6 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Ваше имя</span>\n"
-"                                  <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -266,8 +206,6 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Question</span>\n"
 "                                  <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Ваш вопрос</span>\n"
-"                                  <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -277,13 +215,6 @@ msgid ""
 "                </strong>\n"
 "                andles in-store sales of bouquets, flowers, gift cards, and more."
 msgstr ""
-"<strong>\n"
-"                    <font style=\"color: rgb(113, 75, 103);\">Модуль POS </"
-"font><font class=\"text-o-color-5\"><span style=\"font-weight: normal;\""
-"></span></font>\n"
-"                </strong>\n"
-"                позволяет обрабатывать продажи цветов, букетов, подарочных "
-"сертификатов и других товаров непосредственно в магазине."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -293,14 +224,6 @@ msgid ""
 "                    <font class=\"text-o-color-5\"><span style=\"font-weight: normal;\">makes it simple to handle customer orders, including big floral arrangements for weddings, corporate events, and other special occasions.</span></font>\n"
 "                </strong>"
 msgstr ""
-"<strong>\n"
-"                    <font style=\"color: rgb(113, 75, 103);\">Модуль Продажи "
-"</font>\n"
-"                    <font class=\"text-o-color-5\"><span style=\"font-weight:"
-" normal;\">позволяет легко обрабатывать заказы клиентов, включая крупные "
-"цветочные композиции для свадеб, корпоративов и других "
-"мероприятий.</span></font>\n"
-"                </strong>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -309,10 +232,6 @@ msgid ""
 "app</font></strong><font class=\"text-o-color-5\"> helps you manage customer"
 " relationships, event requests, and flower inquiries easily.</font><br/>"
 msgstr ""
-"<strong><font style=\"color: rgb(113, 75, 103);\">Модуль CRM</font></"
-"strong><font class=\"text-o-color-5\"> поможет вам легко управлять "
-"взаимоотношениями с клиентами, а также запросами на мероприятия и заказами "
-"на цветы.</font><br/>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -321,9 +240,6 @@ msgid ""
 "app</font></strong> manages vendor and ensures your shop is stocked with the"
 " freshest flowers."
 msgstr ""
-"<strong><font style=\"color: rgb(113, 75, 103);\">Модуль Закупки</font></"
-"strong> управляет поставщиками и гарантирует наличие свежих цветов в "
-"магазине."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -332,8 +248,6 @@ msgid ""
 "</font></strong>allows customers to showcase your flowers vision and "
 "services online."
 msgstr ""
-"<strong><font style=\"color: rgb(113, 75, 103);\">Модуль Вебсайт </font></"
-"strong>позволяет демонстрировать клиентам ваш стиль и услуги онлайн."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -341,8 +255,6 @@ msgid ""
 "<strong><strong><i class=\"fa fa-phone fa-"
 "fw\"/></strong></strong>&amp;nbsp;+44 1223 123456"
 msgstr ""
-"<strong><strong><i class=\"fa fa-phone fa-fw\"/></strong></strong>&amp;nbsp;+"
-"44 1223 123456"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -350,14 +262,11 @@ msgid ""
 "<strong>Activate payment methods: </strong>Activate payment options such as "
 "Cash, Card, Mobile Payments, and Gift Cards directly in your POS settings."
 msgstr ""
-"<strong>Активация методов оплаты: </strong>Включите такие методы оплаты, как "
-"наличные, карты, мобильные платежи и подарочные сертификаты прямо в "
-"настройках POS."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr "<strong>Основы</strong>"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -365,8 +274,6 @@ msgid ""
 "<strong>Choose the best deal</strong>: Pick the vendor offering the best "
 "deal for the requested materials."
 msgstr ""
-"<strong>Выберите лучшее предложение</strong>: выберите поставщика, "
-"предлагающего лучшие условия на необходимые материалы."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -374,8 +281,6 @@ msgid ""
 "<strong>Create a Purchase Order</strong>: Order the flowers, plants, and "
 "accessories you need for your business."
 msgstr ""
-"<strong>Создайте заказ на закупку</strong>: закажите цветы, растения и "
-"аксессуары, необходимые для вашего бизнеса."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -384,9 +289,6 @@ msgid ""
 "Sales Quotation for weddings, birthdays, or corporate floral events, "
 "directly on the sales app."
 msgstr ""
-"<strong>Создайте персонализированные коммерческие предложения: </"
-"strong>формируйте индивидуальные КП для свадеб, дней рождения или "
-"корпоративных мероприятий прямо в модуле Продажи."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -394,8 +296,6 @@ msgid ""
 "<strong>Extend your offerings: </strong>Configure Gift Cards to offer "
 "flexible floral gifts and provide more options for your clients."
 msgstr ""
-"<strong>Расширьте ассортимент: </strong>настройте подарочные сертификаты, "
-"чтобы предложить клиентам более гибкие варианты подарков."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -403,11 +303,6 @@ msgid ""
 "<strong>Manage customer requests</strong>: Track customer inquiries coming from your Website (such as wedding floral requests or custom bouquet orders), manage engagement, follow up easily, and convert them into confirmed sales\n"
 "            opportunities."
 msgstr ""
-"<strong>Управляйте запросами клиентов</strong>: отслеживайте обращения с "
-"вашего сайта (например, запросы на свадебное оформление или заказ "
-"индивидуального букета), управляйте взаимодействием, легко выполняйте "
-"последующие действия и закрывайте\n"
-"            сделки."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -415,9 +310,6 @@ msgid ""
 "<strong>Organize event projects: </strong>Create a project to manage and "
 "organize specific events, assign tasks, set deadlines, and track progress."
 msgstr ""
-"<strong>Организуйте проекты мероприятий: </strong>создавайте проекты для "
-"управления и организации конкретных мероприятий, назначайте задачи, "
-"устанавливайте сроки и отслеживайте прогресс."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -425,10 +317,6 @@ msgid ""
 "<strong>Set up product offering: </strong>Create and configure your flower products and add variants if you have different size or color for the same product. You can also add an extra charges for specific options (e.g., +£2 for a\n"
 "            red tulip, +£10 for a medium bouquet)."
 msgstr ""
-"<strong>Настройте ассортимент: </strong>создавайте и настраивайте карточки "
-"товаров, добавляйте вариации (например, разные размеры или цвета). Можно "
-"также добавить доплату за определенные опции (например, +2 £ за\n"
-"            красный тюльпан, +10 £ за букет среднего размера)."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -437,9 +325,6 @@ msgid ""
 "website to highlight your floral style, present your services and get new "
 "opportunities through a contact form."
 msgstr ""
-"<strong>Продемонстрируйте свое видение: </strong>настройте сайт, чтобы "
-"подчеркнуть ваш уникальный стиль, представить услуги и получать новые "
-"обращения через контактную форму."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -447,13 +332,11 @@ msgid ""
 "<strong>Take orders in Point of Sale</strong>: Open a register and process "
 "in-store purchases such as bouquets, flowers, cards, and more."
 msgstr ""
-"<strong>Принимайте заказы в POS</strong>: откройте кассу и оформляйте "
-"покупки в магазине – букеты, цветы, открытки и многое другое."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "<strong>Use Case</strong>"
-msgstr "<strong>Пример использования</strong>"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -462,17 +345,12 @@ msgid ""
 "<strong>Apps &gt; Industries &gt; Upgrade your Florist Package</strong> and "
 "check the related box."
 msgstr ""
-"<strong>Если вы не импортировали демо-данные</strong>, это можно сделать в "
-"любой момент. Перейдите в раздел <strong>Модули > Индустрии > Обновить пакет "
-"«Флорист»</strong> и отметьте соответствующий пункт."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid ""
 "Add the <strong>eCommerce </strong>features to extend your floral business."
 msgstr ""
-"Добавьте возможности <strong>eCommerce</strong>, чтобы расширить ваш "
-"цветочный бизнес."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -481,9 +359,6 @@ msgid ""
 "make your products easier to find during busy periods. (e.g. Bouquets, "
 "Flowers, Plants, Other,...)"
 msgstr ""
-"Добавьте <strong>категории товаров</strong>, чтобы упорядочить товары в POS "
-"и облегчить поиск в загруженные периоды (например, букеты, цветы, растения, "
-"прочее)"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -492,30 +367,27 @@ msgid ""
 "requests like wedding floral packages, making it faster and easier to send "
 "offers to clients."
 msgstr ""
-"Создайте красивые <strong>шаблоны КП</strong> для конкретных запросов, "
-"например, «Пакет услуг по свадебному оформлению», чтобы быстрее и проще "
-"отправлять предложения клиентам."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Because: we can buy ourselves flowers! 💐"
-msgstr "Потому что: мы можем сами купить себе цветы! 💐"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
 msgid "BloomWorks Floral Boutique"
-msgstr "BloomWorks – цветочный бутик"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "BloomWorks&amp;nbsp;brings creativity and passion in every petal"
-msgstr "BloomWorks приносит креатив и страсть в каждый лепесток"
+msgstr ""
 
 #. module: florist
 #: model:pos.category,name:florist.pos_category_2
 #: model:product.pricelist,name:florist.product_pricelist_2
 msgid "Bouquet"
-msgstr "Букет"
+msgstr ""
 
 #. module: florist
 #: model_terms:product.template,public_description:florist.product_template_7
@@ -523,18 +395,16 @@ msgid ""
 "Bright tulips to bring sunshine to any bouquet. Ideal for spring "
 "arrangements."
 msgstr ""
-"Яркие тюльпаны, чтобы добавить солнца в любой букет. Идеально для весенних "
-"композиций."
 
 #. module: florist
 #: model:uom.uom,name:florist.uom_uom_30
 msgid "Bunch of 10"
-msgstr "Пучок из 10"
+msgstr ""
 
 #. module: florist
 #: model:uom.uom,name:florist.uom_uom_31
 msgid "Bunch of 5"
-msgstr "Пучок из 5"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -542,28 +412,26 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
 msgstr ""
-"При загрузке демонстрационных данных этого модуля ваша база данных была "
-"заполнена несколькими контактами."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Camille Rose"
-msgstr "Роза Camille"
+msgstr ""
 
 #. module: florist
 #: model:pos.payment.method,name:florist.pos_payment_method_2
 msgid "Card"
-msgstr "Карточка"
+msgstr ""
 
 #. module: florist
 #: model:pos.payment.method,name:florist.pos_payment_method_1
 msgid "Cash"
-msgstr "Наличные"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
 msgid "Contact us"
-msgstr "Свяжитесь с нами"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
@@ -571,43 +439,41 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                    We'll do our best to get back to you as soon as possible."
 msgstr ""
-"Свяжитесь с нами по любым вопросам, связанным с нашей компанией или услугами.<br/>\n"
-"                                    Мы постараемся ответить вам как можно скорее."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Creativity"
-msgstr "Креативность"
+msgstr ""
 
 #. module: florist
 #: model:pos.payment.method,name:florist.pos_payment_method_3
 msgid "Customer Account"
-msgstr "Счет клиента"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_19
 msgid "Delivery & Setup"
-msgstr "Доставка и оформление"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Узнайте больше об Odoo, погрузившись в нашу"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Хотите пойти дальше?"
+msgstr ""
 
 #. module: florist
 #: model:project.task.type,name:florist.project_task_type_3
 msgid "Done"
-msgstr "Готово"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_16
 msgid "Dry Flowers Bouquet"
-msgstr "Букет из сухоцветов"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -615,14 +481,11 @@ msgid ""
 "Easily handle your accounting with the integrated <strong>Accounting "
 "App</strong>."
 msgstr ""
-"Легко ведите учет с помощью интегрированного <strong>модуля "
-"Бухгалтерия</strong>."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Easily process in-store purchases and offer flexible payment options."
 msgstr ""
-"Легко обрабатывайте покупки в магазине и предлагайте гибкие способы оплаты."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -630,71 +493,69 @@ msgid ""
 "Easily turn event requests from Website into beautiful floral creations by "
 "creating projects"
 msgstr ""
-"Легко превращайте запросы на мероприятия с сайта в красивые цветочные "
-"композиции, создавая проекты"
 
 #. module: florist
 #: model:project.project,name:florist.project_project_1
 msgid "Emily & Paul Wedding"
-msgstr "Свадьба Эмили и Пола"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Ensure you have fresh flowers at all times."
-msgstr "Обеспечьте постоянное наличие свежих цветов."
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Event Creator&amp;nbsp;"
-msgstr "Декоратор мероприятий&amp;nbsp;"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Every customer is at the center of what we do"
-msgstr "Каждый клиент в центре нашего внимания"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Excellence"
-msgstr "Высокое качество"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Floral Designs for Life’s Special Events&amp;nbsp;"
-msgstr "Цветочные композиции для особых событий в жизни&amp;nbsp;"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Florist"
-msgstr "Флорист"
+msgstr ""
 
 #. module: florist
 #: model:hr.job,name:florist.hr_job_2
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Flower Shop Director"
-msgstr "Директор цветочного магазина"
+msgstr ""
 
 #. module: florist
 #: model:hr.department,name:florist.hr_department_2
 #: model:hr.job,name:florist.hr_job_1
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Flower Shop Sales Assistant"
-msgstr "Продавец-консультант цветочного магазина"
+msgstr ""
 
 #. module: florist
 #: model:pos.category,name:florist.pos_category_1
 msgid "Flowers"
-msgstr "Цветы"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Flowers for Every Moment"
-msgstr "Цветы для любого случая"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
 msgid "Follow us"
-msgstr "Подписывайтесь на нас"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
@@ -704,46 +565,41 @@ msgid ""
 "tell, and we're here to help you express it. Whether it’s a gift, a wedding,"
 " or a workspace refresh, we craft each arrangement with heart and soul."
 msgstr ""
-"Основанная любителями цветов для любителей цветов, BloomWorks – это ваш "
-"флорист по соседству с изысканным вкусом. Мы верим, что каждый цветок имеет "
-"свою историю, и мы поможем вам ее рассказать. Подарок ли это, свадьба или "
-"обновление рабочего пространства – мы создаем каждую композицию с душой и "
-"вниманием к деталям."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Get to know us"
-msgstr "Познакомьтесь с нами"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_15
 msgid "Gift Card"
-msgstr "Подарочный сертификат"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Hugo Petal"
-msgstr "Хьюго Петал"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "I can buy myself flowers.&amp;nbsp;"
-msgstr "Я могу сама купить себе цветы.&amp;nbsp;"
+msgstr ""
 
 #. module: florist
 #: model:project.task.type,name:florist.project_task_type_2
 msgid "In Progress"
-msgstr "В процессе"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_10
 msgid "Iris"
-msgstr "Iris"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Lily Scott"
-msgstr "Лили Скотт"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -751,30 +607,26 @@ msgid ""
 "Link the \"Contact Us\" button on your website’s contact form to "
 "automatically <strong>create an opportunity </strong>in your CRM."
 msgstr ""
-"Свяжите кнопку «Свяжитесь с нами» на контактной форме вашего сайта с "
-"автоматическим <strong>созданием карточки возможности</strong> в модуле CRM."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Manage Event Requests and Deliver Floral Success"
 msgstr ""
-"Обрабатывайте запросы на мероприятия и превращайте их в успешные проекты по "
-"цветочному оформлению"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Manage Opportunities and Handle Tailor-Made Orders"
-msgstr "Управляйте сделками и обрабатывайте индивидуальные заказы"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Manage Purchases"
-msgstr "Управляйте закупками"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Manage Sales and Payments in Point of Sale"
-msgstr "Управляйте продажами и платежами в модуле POS"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -782,16 +634,12 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into"
 " a tool to manage your entire workflow."
 msgstr ""
-"Odoo полностью интегрирован в приложение. Загрузите его, чтобы превратить "
-"ваш телефон в инструмент для управления всем рабочим процессом."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid ""
 "Odoo offers endless customization possibilities for your flower business:"
 msgstr ""
-"Odoo предлагает безграничные возможности настройки для вашего цветочного "
-"бизнеса:"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -800,9 +648,6 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Конечно, это лишь обзор функций, включенных в этот пакет. Не стесняйтесь "
-"добавлять новые приложения, удалять/изменять демонстрационные данные и "
-"тестировать всё вокруг!"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -810,33 +655,31 @@ msgid ""
 "Organize flower workshops to engage with customers using the <strong>Events "
 "App</strong>."
 msgstr ""
-"Организуйте мастер-классы по флористике для привлечения клиентов с помощью "
-"<strong>модуля Мероприятия</strong>."
 
 #. module: florist
 #: model:pos.category,name:florist.pos_category_3
 msgid "Other"
-msgstr "Другое"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Passion for Service"
-msgstr "Работаем с любовью к сервису"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_6
 msgid "Peonies"
-msgstr "Пионы"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Schedule a demo"
-msgstr "Запланировать демонстрацию"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_11
 msgid "Seasonal Bouquet (Mixed Flowers)"
-msgstr "Сезонный букет (цветочный микс)"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -844,8 +687,6 @@ msgid ""
 "Set up recurring delivery services for offices or homes, such as a weekly "
 "bouquet delivery, with the <strong>Subscriptions App</strong>."
 msgstr ""
-"Настройте регулярные доставки для офисов и частных клиентов, например "
-"еженедельную доставку букетов, с помощью <strong>модуля Подписки</strong>."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -854,34 +695,31 @@ msgid ""
 "offering <strong>15% off all bouquets for Mother’s &amp; Father's "
 "Day</strong> or other seasonal events."
 msgstr ""
-"Настройте <strong>прайс-листы</strong> для удобного управления акциями, "
-"например, <strong>Скидка 15% на все букеты ко Дню матери и отца</strong> или "
-"другим сезонным событиям."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.contactus
 msgid "Submit"
-msgstr "Отправить"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_9
 msgid "Sunflower"
-msgstr "Подсолнух"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "Sustainability"
-msgstr "Устойчивое развитие"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_17
 msgid "Table Centerpieces"
-msgstr "Настольные композиции"
+msgstr ""
 
 #. module: florist
 #: model:project.project,label_tasks:florist.project_project_1
 msgid "Tasks"
-msgstr "Задачи"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -889,13 +727,6 @@ msgid ""
 "The package includes the Point of Sale (POS) app for handling in-store purchases, the Sales app for managing quotations and orders, the Website to showcase your floral vision and the Project app to track tasks and deadlines for specific\n"
 "        event requests. Whether you're creating a seasonal bouquet for a gift or planning floral arrangements for a wedding, Odoo helps you stay organized and deliver beautiful results to your clients."
 msgstr ""
-"В пакет входят модуль POS для обработки покупок в магазине, модуль Продажи "
-"для управления коммерческими предложениями и заказами, модуль Вебсайт для "
-"демонстрации вашего стиля и модуль Проекты для отслеживания задач и сроков "
-"по конкретным\n"
-"        запросам на мероприятия. Odoo поможет вам эффективно работать и "
-"создавать прекрасные композиции для клиентов, будь то букет в подарок или "
-"оформление целого мероприятия."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -903,16 +734,12 @@ msgid ""
 "There are millions of other ways to adapt your Odoo setup to fit your "
 "business needs."
 msgstr ""
-"Существует множество других способов адаптировать Odoo под потребности "
-"вашего бизнеса."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Всё это доступно бесплатно в рамках вашей текущей подписки — не стесняйтесь "
-"исследовать! 🙃"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -920,16 +747,11 @@ msgid ""
 "This setup is perfect for florists who specialize in providing fresh flowers, customized bouquets, and event floral designs, catering to walk-in customers and fulfilling orders for occasions like weddings, birthday dinners, or corporate\n"
 "        events."
 msgstr ""
-"Эта настройка идеально подходит для флористов, специализирующихся на "
-"поставке свежих цветов, создании букетов под заказ и оформлении мероприятий, "
-"обслуживающих как клиентов без записи, так и заказы для свадеб, праздничных "
-"ужинов или\n"
-"        корпоративов."
 
 #. module: florist
 #: model:project.task.type,name:florist.project_task_type_1
 msgid "To Do"
-msgstr "К выполнению"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -938,14 +760,11 @@ msgid ""
 "restocking, and monitor flowers freshness and avoid shortages with the "
 "<strong>Inventory App</strong>."
 msgstr ""
-"Отслеживайте запасы в реальном времени, управляйте несколькими складами, "
-"автоматизируйте пополнение и контролируйте свежесть цветов, предотвращая "
-"дефицит, с помощью <strong>модуля Склад</strong>."
 
 #. module: florist
 #: model:product.template,name:florist.product_template_7
 msgid "Tulips"
-msgstr "Тюльпаны"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -953,9 +772,6 @@ msgid ""
 "Use the <strong>Planning App</strong> to schedule your team’s shifts, "
 "ensuring the right staffing for busy event days."
 msgstr ""
-"Используйте <strong>модуль Планирование</strong> для составления графиков "
-"смен сотрудников, чтобы обеспечить оптимальную укомплектованность команды в "
-"загруженные дни мероприятий."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -964,9 +780,6 @@ msgid ""
 "around major events like Valentine's Day, Mother's Day, Father's Day, or "
 "during summer wedding seasons."
 msgstr ""
-"Используйте <strong>Отчеты по продажам</strong> для анализа тенденций продаж "
-"цветов в периоды крупных праздников, таких как День святого Валентина, День "
-"матери, День отца, а также во время летнего свадебного сезона."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -975,13 +788,11 @@ msgid ""
 "specific delivery and post a picture if something is missing compared to "
 "what was ordered."
 msgstr ""
-"Используйте чат в карточке заказа на закупку для общения с поставщиком. Вы "
-"можете прикрепить фотографию, если в поставке чего-то не хватает."
 
 #. module: florist
 #: model:product.template,name:florist.product_template_18
 msgid "Venue Floral Design"
-msgstr "Цветочное оформление площадки"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
@@ -991,10 +802,6 @@ msgid ""
 "problems. Our products are designed for small to medium size companies "
 "willing to optimize their performance."
 msgstr ""
-"Мы — команда увлечённых людей, стремящихся улучшить жизнь каждого с помощью "
-"инновационных продуктов. Мы создаём отличные решения для ваших бизнес-задач."
-" Наши продукты разработаны для компаний малого и среднего бизнеса, желающих "
-"повысить свою эффективность."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
@@ -1002,8 +809,6 @@ msgid ""
 "We are committed to quality at every step: from the first bud to the final "
 "arrangement.&amp;nbsp;<br/>"
 msgstr ""
-"Мы привержены качеству на каждом этапе – от первого бутона до готовой "
-"композиции.&amp;nbsp;<br/>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
@@ -1011,8 +816,6 @@ msgid ""
 "We design unique floral arrangements that capture the personality of every "
 "client and every occasion.&amp;nbsp;<br/>"
 msgstr ""
-"Мы создаем уникальные цветочные композиции, отражающие индивидуальность "
-"каждого клиента и мероприятия.&amp;nbsp;<br/>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
@@ -1020,34 +823,31 @@ msgid ""
 "We partner with local and seasonal growers to promote eco-friendly, fresh "
 "flower sourcing.&amp;nbsp;<br/>"
 msgstr ""
-"Мы сотрудничаем с местными фермерами, что позволяет нам обеспечивать "
-"исключительную свежесть цветов и поддерживать принципы "
-"экологичности.&amp;nbsp;<br/>"
 
 #. module: florist
 #: model:pos.category,name:florist.pos_category_4
 msgid "Wedding"
-msgstr "Свадьба"
+msgstr ""
 
 #. module: florist
 #: model:product.template,name:florist.product_template_12
 msgid "Wedding Bouquet"
-msgstr "Свадебный букет"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Welcome to the <strong>Odoo Florist Package</strong>!"
-msgstr "Добро пожаловать в решение для <strong>флористов от Odoo</strong>!"
+msgstr ""
 
 #. module: florist
 #: model_terms:web_tour.tour,rainbow_man_message:florist.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "Добро пожаловать! Приятного исследования."
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr "Хотите обсудить настройку Odoo с нами или пойти дальше?"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -1055,8 +855,6 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Вы можете получить доступ ко всем установленным приложениям в вашей базе "
-"данных Odoo через главную панель управления."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -1064,120 +862,118 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various processes you can quickly execute with this package using Odoo."
 msgstr ""
-"Вы сможете выполнить следующие процессы, чтобы получить обзор различных "
-"операций, которые можно быстро реализовать с этим пакетом в Odoo."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "academy"
-msgstr "академия"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "and"
-msgstr "и"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "blue flower with black background"
-msgstr "синий цветок на черном фоне"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "documentation"
-msgstr "документация"
+msgstr ""
 
 #. module: florist
 #: model:crm.tag,name:florist.crm_tag_1
 msgid "event"
-msgstr "событие"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "green leafed plant clip art"
-msgstr "картинка растения с зелеными листьями"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "green leaves"
-msgstr "зеленые листья"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3407
 msgid "hello@mycompany.com"
-msgstr "hello@mycompany.com"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "if you need help!"
-msgstr "если вам нужна помощь!"
+msgstr ""
 
 #. module: florist
 #: model:product.attribute.value,name:florist.product_attribute_value_6
 msgid "large"
-msgstr "большой"
+msgstr ""
 
 #. module: florist
 #: model:product.attribute.value,name:florist.product_attribute_value_5
 msgid "medium"
-msgstr "средний"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "orange flower under blue sky during daytime"
-msgstr "оранжевый цветок на фоне голубого неба днем"
+msgstr ""
 
 #. module: florist
 #: model:product.attribute.value,name:florist.product_attribute_value_2
 msgid "purple"
-msgstr "фиолетовый"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "purple flower under blue sky during daytime"
-msgstr "фиолетовый цветок на фоне голубого неба днем"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "purple, white, and pink floral painting"
-msgstr "картина с фиолетовыми, белыми и розовыми цветами"
+msgstr ""
 
 #. module: florist
 #: model:product.attribute.value,name:florist.product_attribute_value_3
 msgid "red"
-msgstr "красный"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "request a demo"
-msgstr "запросить демо"
+msgstr ""
 
 #. module: florist
 #: model:product.attribute.value,name:florist.product_attribute_value_4
 msgid "small"
-msgstr "маленький"
+msgstr ""
 
 #. module: florist
 #: model:crm.tag,name:florist.crm_tag_2
 msgid "wedding"
-msgstr "свадьба"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "white flowers in macro shot"
-msgstr "белые цветы в макросъемке"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "white-and-brown sunflower field during daytime"
-msgstr "поле бело-коричневых подсолнухов днем"
+msgstr ""
 
 #. module: florist
 #: model:product.attribute.value,name:florist.product_attribute_value_1
 msgid "yellow"
-msgstr "жёлтый"
+msgstr ""
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
 msgid "yellow and red flower under blue sky during daytime"
-msgstr "желто-красный цветок на фоне голубого неба днем"
+msgstr ""

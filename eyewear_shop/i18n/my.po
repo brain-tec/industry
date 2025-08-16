@@ -1,30 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * eyewear_shop
+# 	* eyewear_shop
 #
-# Translators:
-# Wil Odoo, 2024
-# ILMIR <karamov@it-projects.info>, 2024
-# Ilya Rozhkov, 2025
-# Anastasiia Koroleva, 2025
-# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 10:36+0000\n"
-"PO-Revision-Date: 2025-08-15 16:49+0000\n"
-"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
-"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
-"eyewear_shop/ru/>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2024-10-08 10:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
-"n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: \n"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -32,128 +21,126 @@ msgid ""
 "\"Dolce  &amp; Gabbana DG2256\" is not available in New York Warehouse. So, "
 "Odoo proposes to replenish from Texas Warehouse where stock is available."
 msgstr ""
-"«Dolce &amp;Gabbana DG2256» недоступен на складе в Нью-Йорке. Поэтому Odoo "
-"предлагает пополнить запас со склада в Техасе, где товар есть в наличии."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "\"Ray-ban RB0707S\" will be replenished from vendor."
-msgstr "Запасы товара «Ray-ban RB0707S» будут пополнены от поставщика."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "(Skip this if you're not buying lens)<br/>"
-msgstr "(Пропустите, если вы не покупаете линзы)<br/>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.program,name:eyewear_shop.loyalty_program_2
 msgid "10% Discount for products worth 1000$"
-msgstr "10% скидка на товары стоимостью от 1 000 $"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.program,name:eyewear_shop.loyalty_program_3
 msgid "10% on Ray-ban"
-msgstr "Скидка 10% на Ray-ban"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.reward,description:eyewear_shop.loyalty_reward_2
 msgid "10% on your order"
-msgstr "10% on Ваш заказ"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.reward,description:eyewear_shop.loyalty_reward_3
 msgid "10% on your order (Max $ 100)"
-msgstr "10% на ваш заказ (макс. 100 $)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_product_30_product_template
 msgid "10% on your order (Max $100)"
-msgstr "10% на ваш заказ (макс. 100 $)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_product_35_product_template
 msgid "15% Discount on your order"
-msgstr "Скидка 15% на ваш заказ"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.program,name:eyewear_shop.loyalty_program_5
 msgid "15% Festival Discount"
-msgstr "Фестивальная скидка 15%"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.reward,description:eyewear_shop.loyalty_reward_6
 msgid "15% on your order (Max $ 500)"
-msgstr "15% на ваш заказ (макс. 500 $)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "2.1 Replenish from Vendor"
-msgstr "2.1 Пополнение от поставщика"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "2.2 Replenish from another Warehouse."
-msgstr "2.2 Пополнение с другого склада."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "2.2 Replenish from another warehouse."
-msgstr "2.2 Пополнение с другого склада."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_26
 msgid "36-136-123"
-msgstr "36-136-123"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_31
 msgid "49-23-135"
-msgstr "49-23-135"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_11
 msgid "50-21-145"
-msgstr "50-21-145"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_12
 msgid "53-21-145"
-msgstr "53-21-145"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_17
 msgid "54-18-140"
-msgstr "54-18-140"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_24
 msgid "58-17-140"
-msgstr "58-17-140"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_22
 msgid "61-15-135"
-msgstr "61-15-135"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_37
 msgid "62-13-150"
-msgstr "62-13-150"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_49
 msgid "8.6 mm"
-msgstr "8,6 мм"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<b>500+ customers just in a month!!</b>"
-msgstr "<b>Более 500 клиентов всего за месяц!!</b>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2648
 msgid "<b>Price Range</b>"
-msgstr "<b>Диапазон цен</b>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -161,8 +148,6 @@ msgid ""
 "<font style=\"color: rgb(156, 0, 255);\"><strong>Product Attributes "
 "</strong></font> – Brand, Shape, Size, Material, Gender  &amp; Color."
 msgstr ""
-"<font style=\"color: rgb(156, 0, 255);\"><strong>Атрибуты товара </strong></"
-"font> – бренд, форма, размер, материал, пол и цвет."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -171,10 +156,6 @@ msgid ""
 "                                        <span style=\"font-size: 36px;\">Our Story</span>\n"
 "                                    </font>"
 msgstr ""
-"<font style=\"color: rgb(99, 74, 165);\">\n"
-"                                        <span style=\"font-size: 36px;\""
-">Наша история</span>\n"
-"                                    </font>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -183,10 +164,6 @@ msgid ""
 "                                        <span style=\"font-size: 36px;\">Popular Brands</span>\n"
 "                                    </font>"
 msgstr ""
-"<font style=\"color: rgb(99, 74, 165);\">\n"
-"                                        <span style=\"font-size: 36px;\""
-">Популярные бренды</span>\n"
-"                                    </font>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -196,16 +173,11 @@ msgid ""
 "                                    </font>\n"
 "                                    <br/>"
 msgstr ""
-"<font style=\"color: rgb(99, 74, 165);\">\n"
-"                                        <span style=\"font-size: 36px;\""
-">Наша компания.</span>\n"
-"                                    </font>\n"
-"                                    <br/>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2900
 msgid "<i class=\"fa fa-ban me-2\"/>Unpublished"
-msgstr "<i class=\"fa fa-ban me-2\"/>Неопубликованный"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2723
@@ -213,23 +185,21 @@ msgid ""
 "<span class=\"o_footer_copyright_name me-2\">Copyright © ViSiO "
 "Sunglasses</span>"
 msgstr ""
-"<span class=\"o_footer_copyright_name me-2\">Copyright © ViSiO "
-"Sunglasses</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"oi oi-chevron-left\"/> Previous"
-msgstr "<span class=\"oi oi-chevron-left\"/> Назад"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
 msgid "<span class=\"s_website_form_label_content\">Company</span>"
-msgstr "<span class=\"s_website_form_label_content\">Компания</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
 msgid "<span class=\"s_website_form_label_content\">Email</span>"
-msgstr "<span class=\"s_website_form_label_content\">E-mail</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -237,14 +207,11 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Email</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">E-mail</span>\n"
-"                                                                    <span "
-"class=\"s_website_form_mark\"> *</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">Let's Contact</span>"
-msgstr "<span class=\"s_website_form_label_content\">Свяжитесь с нами</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -252,69 +219,66 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Name</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Имя</span>\n"
-"                                                                    <span "
-"class=\"s_website_form_mark\"> *</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OD (Add)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OD (Add)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OD (Axis)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OD (Axis)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OD (Cylindrical)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OD (Cylindrical)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OD (PD)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OD (PD)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OD (Spherical)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OD (Spherical)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OS (AD)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OS (AD)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OS (Axis)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OS (Axis)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OS (Cylindrical)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OS (Cylindrical)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OS (PD)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OS (PD)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">OS (Spherical)</span>"
-msgstr "<span class=\"s_website_form_label_content\">OS (Spherical)</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
 msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
-msgstr "<span class=\"s_website_form_label_content\">Номер телефона</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">Prescription Details</span>"
-msgstr "<span class=\"s_website_form_label_content\">Детали рецепта</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -322,9 +286,6 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Question</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Вопрос</span>\n"
-"                                                                    <span "
-"class=\"s_website_form_mark\"> *</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -332,13 +293,11 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Тема</span>\n"
-"                                                                    <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "<span class=\"s_website_form_label_content\">Upload Prescription</span>"
-msgstr "<span class=\"s_website_form_label_content\">Загрузить рецепт</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -353,22 +312,6 @@ msgid ""
 "                                    </b>\n"
 "                                    <span style=\"font-size: 18px;\">. If you try to write with a wide, general audience in mind, your story will sound fake and lack emotion. No one will be interested. Write for one person. If it’s genuine for the one, it’s genuine for the rest.</span>"
 msgstr ""
-"<span style=\"font-size: 18px;\">Отличные истории </span>\n"
-"                                    <b class=\"o_default_snippet_text\">\n"
-"                                        <span style=\"font-size: 18px;\""
-">предназначены для всех,</span>\n"
-"                                    </b>\n"
-"                                    <span style=\"font-size: 18px;\">  даже "
-"если они написаны </span>\n"
-"                                    <b class=\"o_default_snippet_text\">\n"
-"                                        <span style=\"font-size: 18px;\""
-">только для одного человека</span>\n"
-"                                    </b>\n"
-"                                    <span style=\"font-size: 18px;\">. Если "
-"вы будете пытаться писать для широкой аудитории, ваша история будет звучать "
-"фальшиво и безжизненно. Она никого не заинтересует. Пишите для одного "
-"человека. Если история искренняя для одного, она будет искренней и для "
-"остальных.</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -379,38 +322,26 @@ msgid ""
 "                                    </b>\n"
 "                                    <span style=\"font-size: 18px;\">. Consider telling a great story that provides personality. Writing a story with personality for potential clients will assist with making a relationship connection. This shows up in small quirks like word choices or phrases. Write from your point of view, not from someone else's experience.</span>"
 msgstr ""
-"<span style=\"font-size: 18px;\">Хорошие истории обладают </span>\n"
-"                                    <b class=\"o_default_snippet_text\">\n"
-"                                        <span style=\"font-size: 18px;\""
-">индивидуальностью.</span>\n"
-"                                    </b>\n"
-"                                    <span style=\"font-size: 18px;\">. "
-"Попробуйте рассказать историю, в которой будет виден характер. Когда вы "
-"пишете для потенциальных клиентов историю с индивидуальностью, это помогает "
-"наладить с ними контакт. Такая индивидуальность проявляется в мелочах, "
-"например, в выборе слов или в уникальных фразах. Пишите от своего лица, а не "
-"о чужом опыте.</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "<span style=\"font-size: 24px;\"> ViSiO - Your Vision Redefined</span>"
 msgstr ""
-"<span style=\"font-size: 24px;\"> ViSiO – Новое видение вашей жизни</span>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "<span>Eye Test Results</span>"
-msgstr "<span>Результаты проверки зрения</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "<span>Glossary of Eye Terms</span>"
-msgstr "<span>Словарь терминов по зрению</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "<span>Patient Details</span>"
-msgstr "<span>Данные пациента</span>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -418,8 +349,6 @@ msgid ""
 "<strong><font style=\"color: rgb(156, 0, 255);\">Contact "
 "form</font></strong> – Prescription details."
 msgstr ""
-"<strong><font style=\"color: rgb(156, 0, 255);\">Контактная форма</font></"
-"strong> – данные рецепта."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -428,9 +357,6 @@ msgid ""
 "Form</font></strong> – Related Field from contact form for prescription "
 "details"
 msgstr ""
-"<strong><font style=\"color: rgb(156, 0, 255);\">Форма возможности</font></"
-"strong> – связанное с контактной формой поле, предназначенное для данных "
-"рецепта"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -438,11 +364,6 @@ msgid ""
 "<strong><font style=\"color: rgb(156, 0, 255);\">Prescription details in website</font></strong> – An option to fill up the prescription details/upload document/enter contact details before check out in website (\n"
 "            <strong>Configure form for \"Extra Step Before Checkout\"</strong>)."
 msgstr ""
-"<strong><font style=\"color: rgb(156, 0, 255);\">Данные рецепта на "
-"сайте</font></strong> – возможность заполнить данные рецепта, загрузить "
-"документ или ввести контактные данные перед оформлением заказа (\n"
-"            <strong>настройка формы «Дополнительный шаг перед оформлением "
-"заказа»</strong>)."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -450,13 +371,11 @@ msgid ""
 "<strong><font style=\"color: rgb(156, 0, 255);\">Print "
 "Report</font></strong> – Prescription report printing option in contact form"
 msgstr ""
-"<strong><font style=\"color: rgb(156, 0, 255);\">Печать отчета </font></"
-"strong> – возможность распечатать отчет по рецепту из контактной формы"
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_23
 msgid "ACUVUE Lens - Oasys with Hydraclear Plus"
-msgstr "Линзы ACUVUE – Oasys с технологией Hydraclear Plus"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
@@ -464,33 +383,31 @@ msgid ""
 "ADD Measurement: This is your reading addition and relates to the amount of "
 "additional correction needed to focus at close distances."
 msgstr ""
-"ADD: показатель дополнительной коррекции, необходимой для фокусировки на "
-"близких расстояниях."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "Add"
-msgstr "Добавить"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2900
 msgid "Add an intro message here..."
-msgstr "Добавьте вступительное сообщение здесь..."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Add product \"ACUVUE - Oasys with Hydraclear Plus\" to cart"
-msgstr "Добавьте товар «ACUVUE – Oasys с технологией Hydraclear Plus» в корзину"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Add the products to the cart"
-msgstr "Добавьте товары в корзину"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "After confirming the Invoice, click on \"Register Payment\"<br/>"
-msgstr "После подтверждения счета нажмите «Зарегистрировать платеж»<br/>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -498,146 +415,142 @@ msgid ""
 "As lenses need prescriptions, the user will have to fill information during "
 "checkout process."
 msgstr ""
-"Поскольку линзы требуют рецепта, пользователю необходимо ввести данные во "
-"время оформления заказа."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "Axis"
-msgstr "Ось"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_8
 msgid "Base Curve Radius"
-msgstr "Радиус базовой кривизны"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_48
 msgid "Bausch + Lomb"
-msgstr "Bausch + Lomb"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_22
 msgid "Bausch + Lomb Softlens 59 (-4.00, Clear, 6 Lens Pack) "
-msgstr "Линзы Bausch + Lomb Softlens 59 (-4,00, прозрачные, упаковка 6 линз.) "
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_1
 msgid "Black"
-msgstr "Черный"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_18
 msgid "Black Gloss With Shiny Gold / Neutral Grey"
-msgstr "Глянцевый черный с блестящим золотым / Нейтральный серый"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_14
 msgid "Black Polarized (Black)"
-msgstr "Черные поляризованные (черные)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_23
 msgid "Black With Black And Khaki Temples / Mauigreen"
-msgstr "Черная оправа, черные и хаки дужки / Mauigreen"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "Book an Eye Test Appointment for Free!!"
-msgstr "Бесплатная запись на проверку зрения!!"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.program,name:eyewear_shop.loyalty_program_4
 msgid "Buy2Get1 Carrera"
-msgstr "Три по цене двух: Carrera"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "CYL (Cylinder of the eye): Correction number needed for astigmatism"
-msgstr "CYL (Цилиндр глаза): параметр коррекции при астигматизме"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_33
 msgid "Carrera"
-msgstr "Carrera"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_7
 msgid "Carrera 247/s"
-msgstr "Carrera 247/s"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_9
 msgid "Carrera 5046/s"
-msgstr "Carrera 5046/s"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:pos.payment.method,name:eyewear_shop.pos_payment_method_1
 msgid "Cash"
-msgstr "Наличные"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:account.journal,name:eyewear_shop.cash
 msgid "Cash (Eyewear shop)"
-msgstr "Наличные (магазин оптики)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Check in our online store and shop at your convenience."
 msgstr ""
-"Посетите наш интернет-магазин и совершайте покупки в любое удобное для вас "
-"время."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid ""
 "Choose the opportunity that arises once an appointment has been confirmed."
-msgstr "Выберите возможность, которая появляется после подтверждения встречи."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_20
 msgid "Chrome With Black And Blue Temples / Blue Hawaii"
-msgstr "Хромированная оправа с черными и синими дужками / Blue Hawaii"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_product_34_product_template
 msgid "Cleaning liquid (Promo)"
-msgstr "Жидкость для чистки очков (акция)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_47
 msgid "Clear"
-msgstr "Прозрачный"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_1
 msgid "Color"
-msgstr "Цвет"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Configurations"
-msgstr "Параметры"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Configurations:"
-msgstr "Параметры:"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Confirm a Purchase quotation from Purchase &gt; Request for quotation."
-msgstr "Подтвердите запросы котировок в разделе Закупки > Запросы котировок."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.public.category,name:eyewear_shop.product_public_category_6
 msgid "Contact Lenses"
-msgstr "Контактные линзы"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
 msgid "Contact us"
-msgstr "Свяжитесь с нами"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
@@ -645,21 +558,17 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                            We'll do our best to get back to you as soon as possible."
 msgstr ""
-"Вы можете связаться с нами по любым вопросам, касающимся нашей компании и "
-"предоставляемых услуг.<br/>\n"
-"                                            Мы постараемся ответить вам как "
-"можно скорее."
 
 #. module: eyewear_shop
 #: model:loyalty.program,portal_point_name:eyewear_shop.loyalty_program_2
 msgid "Coupon point(s)"
-msgstr "Купонный пункт(ы)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid ""
 "Create Purchase quotation from Inventory &gt; Operations &gt; Replenishment"
-msgstr "Создайте заявку на закупку нажав на Склад > Операции > Пополнение"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -667,67 +576,63 @@ msgid ""
 "Create a Quotation with \"<strong>Ray-ban RB0707S</strong>\", then confirm "
 "the order."
 msgstr ""
-"Создайте коммерческое предложение с товаром «<strong>Ray-ban "
-"RB0707S</strong>», затем подтвердите заказ."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid ""
 "Create the Replenishment Orders from Texas Warehouse to New York Warehouse."
-msgstr "Создайте заказы на пополнение со склада в Техасе на склад в Нью-Йорке."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.program,portal_point_name:eyewear_shop.loyalty_program_4
 msgid "Credit(s)"
-msgstr "Кредит(ы)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_51
 msgid "Curved"
-msgstr "Изогнутый"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:pos.payment.method,name:eyewear_shop.pos_payment_method_2
 msgid "Customer Account"
-msgstr "Аккаунт клиента"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_product_39_product_template
 msgid "Customised Desk Set"
-msgstr "Индивидуальный набор на стол"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "Cyl"
-msgstr "Cyl"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_28
 msgid "Dark Galaxy (Prizm Road)"
-msgstr "Dark Galaxy (Prizm Road)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid ""
 "Diopters: Measurement units used to determine the optical power of the lens"
 msgstr ""
-"Диоптрии: единицы измерения, используемые для определения оптической силы "
-"линзы"
 
 #. module: eyewear_shop
 #: model:loyalty.program,portal_point_name:eyewear_shop.loyalty_program_5
 msgid "Discount point(s)"
-msgstr "Пункт(ы) предоставления скидки"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_38
 msgid "Dolce & Gabbana"
-msgstr "Dolce & Gabbana"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_19
 msgid "Dolce & Gabbana DG2256"
-msgstr "Dolce & Gabbana DG2256"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
@@ -735,80 +640,77 @@ msgid ""
 "Enter your contact details here or visit appointment page to book your free "
 "slot after check out!!"
 msgstr ""
-"Введите свои контактные данные здесь или перейдите на страницу записи, чтобы "
-"забронировать бесплатную проверку зрения после оформления заказа!!"
 
 #. module: eyewear_shop
 #: model:appointment.type,name:eyewear_shop.appointment_type_1
 msgid "Eye Test (NY)"
-msgstr "Проверка зрения (Нью-Йорк)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:appointment.type,name:eyewear_shop.appointment_type_2
 msgid "Eye Test (Texas)"
-msgstr "Проверка зрения (Техас)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.actions.report,name:eyewear_shop.eye_test_report_action
 msgid "Eye Test Report"
-msgstr "Результаты проверки зрения"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_43
 msgid "Female"
-msgstr "Женский"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid ""
 "Fill up the Appointment Slot, contact details  &amp; confirm an appointment."
 msgstr ""
-"Выберите слот и заполните контактные данные чтобы подтвердить вашу бронь."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Flow 1: Sale, Order to cash"
-msgstr "Сценарий 1: Продажа, от заказа до оплаты"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Flow 1: Sales, Order to cash"
-msgstr "Сценарий 1: Продажа, от заказа до оплаты"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Flow 2: Replenishment"
-msgstr "Сценарий 2: Пополнение запасов"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Flow 3: Appointment Booking for Eye Tests"
-msgstr "Сценарий 3: Запись на проверку зрения"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Flow 3: Booking appointment for eye tests"
-msgstr "Сценарий 3: Бронирование приема для проверки зрения"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Flow 4: Online Shopping"
-msgstr "Сценарий 4: Онлайн-покупки"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Flow 5: POS Shopping"
-msgstr "Сценарий 5: Продажи через POS"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:loyalty.reward,description:eyewear_shop.loyalty_reward_5
 msgid "Free Product - Watch and Sunglass Storage Box Organizer"
-msgstr "Бесплатный товар – органайзер для часов и очков"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "From"
-msgstr "От"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -816,8 +718,6 @@ msgid ""
 "From Inventory &gt; Operation &gt; Deliveries, validate delivery from Texas "
 "Warehouse."
 msgstr ""
-"В разделе Склад &gt; Операции &gt; Доставка подтвердите доставку со склада в "
-"Техасе."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -825,13 +725,11 @@ msgid ""
 "From Inventory &gt; Operation &gt; Receipts validate receipts in New York "
 "Warehouse."
 msgstr ""
-"В разделе Склад &gt; Операции &gt; Приемка подтвердите приемку на складе в "
-"Нью-Йорке."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "From the"
-msgstr "От"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -841,139 +739,137 @@ msgstr ""
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "From the Sales order, create an Invoice"
-msgstr "Из заказа на продажу создайте счет"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_6
 msgid "Gender"
-msgstr "Пол"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.odoo_crm_lead_form_customization
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.odoo_res_partner_form_customization_eyewear
 msgid "Glasses Rx"
-msgstr "Очки – рецепт"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Go to \"Eye Test Appointments (New York)\""
-msgstr "Перейдите в «Записи на проверку зрения (Нью-Йорк)»"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Go to Inventory &gt; Delivery Orders"
-msgstr "Перейти в Склад > Заказы на доставку"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Go to Inventory &gt; Operation &gt; Receipts."
-msgstr "Откройте Склад > Операции > Поступления."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_2
 msgid "Gold"
-msgstr "Золотой"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_21
 msgid "Gold With Black Temples And Brown Rubber / Hcl Bronze"
 msgstr ""
-"Золотая оправа с черными дужками и коричневыми резиновыми вставками / HCL "
-"Bronze"
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_7
 msgid "Hardness"
-msgstr "Твердость"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_1
 msgid "Hey. If you're from NY, book your appointments here."
-msgstr "Привет. Если вы из Нью-Йорка, запишитесь здесь."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:appointment.type,message_intro:eyewear_shop.appointment_type_2
 msgid "Hey. If you're from Texas, book your appointments here."
-msgstr "Привет. Если вы из Техаса, запишитесь здесь."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_50
 msgid "Johnson&Johnson"
-msgstr "Johnson&Johnson"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_left_os_add
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_add_1
 msgid "LEFT OS (ADD)"
-msgstr "Левый OS (ADD)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_left_os_bc
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_bc
 msgid "LEFT OS (BC)"
-msgstr "Левый OS (BC)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_left_os_dia_crm
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_dia
 msgid "LEFT OS (DIA)"
-msgstr "ЛЕВЫЙ ГЛАЗ (DIA)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_left_os_power
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_power
 msgid "LEFT OS (POWER)"
-msgstr "Левый OS (POWER)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:pos.category,name:eyewear_shop.pos_category_2
 msgid "Lens"
-msgstr "Линза"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.odoo_crm_lead_form_customization
 msgid "Lens Rx"
-msgstr "Линзы – рецепт"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.odoo_res_partner_form_customization_eyewear
 msgid "Lenses Rx"
-msgstr "Линзы Rx"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_42
 msgid "Male"
-msgstr "Мужской"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_5
 msgid "Material"
-msgstr "Материал"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_34
 msgid "Maui Jim"
-msgstr "Maui Jim"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_5
 msgid "Maui Jim Adrift"
-msgstr "Maui Jim Adrift"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_6
 msgid "Maui Jim The Bird"
-msgstr "Maui Jim The Bird"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Mention details such as Lens or Glass prescription."
-msgstr "Укажите данные, например рецепт на линзы или очки."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_41
 msgid "Metal"
-msgstr "Металл"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_6
@@ -984,132 +880,127 @@ msgid ""
 "Gender: Men, Women\n"
 "        "
 msgstr ""
-"Модель: The Bird\n"
-"Название: Maui Jim The Bird\n"
-"Материал: металл\n"
-"Пол: мужчины, женщины\n"
-"        "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Navigate to CRM &gt; Opportunities"
-msgstr "Перейти в CRM &gt; Возможности"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "Next <span class=\"oi oi-chevron-right\"/>"
-msgstr "Далее <span class=\"oi oi-chevron-right\"/>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2900
 msgid "No appointment found."
-msgstr "Запись не найдена."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "OD"
-msgstr "OD"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_add_1
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_add_crm
 msgid "OD (ADD)"
-msgstr "OD (ADD)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_related_crm
 msgid "OD (ADD)-1"
-msgstr "OD (ADD)-1"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_axis_crm
 msgid "OD (AXIS)"
-msgstr "OD (AXIS)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_add
 msgid "OD (Add)"
-msgstr "OD (Add)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_axis
 msgid "OD (Axis)"
-msgstr "OD (Axis)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_cylindrical_crm
 msgid "OD (CYLINDRICAL)"
-msgstr "OD (CYLINDRICAL)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_cylindrical
 msgid "OD (Cylindrical)"
-msgstr "OD (Cylindrical)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_pd
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_pd_crm
 msgid "OD (PD)"
-msgstr "OD (PD)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_spherical_crm
 msgid "OD (SPHERICAL)"
-msgstr "OD (SPHERICAL)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_spherical
 msgid "OD (Spherical)"
-msgstr "OD (Spherical)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "OS"
-msgstr "OS"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_add
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_add_crm
 msgid "OS (ADD)"
-msgstr "OS (ADD)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_axis_crm
 msgid "OS (AXIS)"
-msgstr "OS (AXIS)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_axis
 msgid "OS (Axis)"
-msgstr "OS (Axis)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_cylindrical
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_cylindrical_1
 msgid "OS (Cylindrical)"
-msgstr "OS (Cylindrical)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_pd
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_pd_crm
 msgid "OS (PD)"
-msgstr "OS (PD)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_spherical
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_os_spherical_crm
 msgid "OS (Spherical)"
-msgstr "OS (Spherical)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_35
 msgid "Oakley"
-msgstr "Oakley"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_8
 msgid "Oakley Encoder OO9471"
-msgstr "Oakley Encoder OO9471"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1118,55 +1009,52 @@ msgid ""
 " go to Inventory &gt; Operations &gt; Replenishment and perform the "
 "following operations."
 msgstr ""
-"Odoo автоматически предлагает товары для пополнения запасов. Чтобы проверить "
-"список, перейдите в Склад &gt; Операции &gt; Пополнение и выполните "
-"следующие действия."
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2900
 msgid "Online"
-msgstr "Онлайн"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Online appointment"
-msgstr "Онлайн-запись на прием"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Open the customer form in order print prescription details."
-msgstr "Откройте карточку клиента, чтобы распечатать рецепт."
+msgstr ""
 
 #. module: eyewear_shop
 #: model:pos.category,name:eyewear_shop.pos_category_3
 #: model:product.public.category,name:eyewear_shop.product_public_category_10
 msgid "Others"
-msgstr "Другие"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "PD"
-msgstr "PD"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_39
 msgid "Plastic"
-msgstr "Пластик"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:crm.team,name:eyewear_shop.crm_team_5
 msgid "Point of Sale Texas"
-msgstr "Point of Sale Texas"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_27
 msgid "Polished White (prizm sapphire)"
-msgstr "Полированный белый (линзы Prizm Sapphire)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Proceed to checkout"
-msgstr "Перейти к оформлению заказа"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_23
@@ -1182,160 +1070,151 @@ msgid ""
 "Net Quantity : 6 count\n"
 "        "
 msgstr ""
-"Размеры изделия : 12 x 3 x 7 см; 150 грамм\n"
-"Дата поступления в продажу : 17 мая 2017\n"
-"Производитель : Johnson & Johnson\n"
-"ASIN : B0716YT3WY\n"
-"Артикул модели : Oasys-6pk-3.25\n"
-"Страна изготовления : США\n"
-"Производитель : Johnson & Johnson\n"
-"Размеры изделия ДxШxВ : 12 x 3 x 7 сантиметров\n"
-"Количество нетто : 6 шт."
 
 #. module: eyewear_shop
 #: model:loyalty.program,portal_point_name:eyewear_shop.loyalty_program_3
 msgid "Promo point(s)"
-msgstr "Промо-точка(и)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "RE or OD (Right Eye): Refers to your right eye prescription"
-msgstr "RE или OD (правый глаз): относится к вашему рецепту для правого глаза"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_add_2
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_right_od_add
 msgid "RIGHT OD (ADD)"
-msgstr "Правый OD (ADD)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_bc
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_right_od_bc
 msgid "RIGHT OD (BC)"
-msgstr "Правый OD (BC)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_od_dia
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_right_od_dia
 msgid "RIGHT OD (DIA)"
-msgstr "Правый OD (DIA)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_right_od_power
 #: model:ir.model.fields,field_description:eyewear_shop.eyewear_shop_x_right_od_power_crm
 msgid "RIGHT OD (POWER)"
-msgstr "ПРАВЫЙ ГЛАЗ (POWER)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_36
 msgid "Ray-ban"
-msgstr "Ray-ban"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_4
 msgid "Ray-ban RB0707S"
-msgstr "Ray-ban RB0707S"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_30
 msgid "Rectangular"
-msgstr "Прямоугольный"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_32
 msgid "Rounded"
-msgstr "Закругленный"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_25
 msgid "Ruthenium"
-msgstr "Ruthenium"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "SPH (Sphere of the Eye): The lens ability to refract light"
-msgstr "SPH (сфера глаза): способность линзы преломлять свет"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2900
 msgid "Schedule an Appointment (Eye Test)<br/>"
-msgstr "Записаться на проверку зрения<br/>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Select any of the payment method and proceed for the payment."
-msgstr "Выберите любой метод оплаты и перейдите к оплате."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Select products and proceed to checkout."
-msgstr "Выберите товары и перейдите к оформлению заказа."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Select the customer"
-msgstr "Выберите клиента"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Select the serial numbers"
-msgstr "Выберите серийные номера"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_3
 msgid "Shape"
-msgstr "Форма"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "Shop Now"
-msgstr "Купить сейчас"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute,name:eyewear_shop.product_attribute_2
 msgid "Size"
-msgstr "Размер"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_45
 msgid "Soft"
-msgstr "Мягкий"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "Sph"
-msgstr "Sph"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_29
 msgid "Square"
-msgstr "Квадрат"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.public.category,name:eyewear_shop.product_public_category_11
 msgid "Storage"
-msgstr "Хранилище"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.contactus
 msgid "Submit"
-msgstr "Отправить"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:pos.category,name:eyewear_shop.pos_category_1
 #: model:product.public.category,name:eyewear_shop.product_public_category_1
 msgid "Sunglasses"
-msgstr "Солнцезащитные очки"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Sunglasses  &amp; Lens Retail"
-msgstr "Продажа солнцезащитных очков и линз"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
 msgid "TLE or OS (Left Eye): Refers to your left eye prescription"
-msgstr "TLE или OS (левый глаз): относится к вашему рецепту для левого глаза"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.eye_test_report
@@ -1343,13 +1222,11 @@ msgid ""
 "The acronyms OS and OD respectively refer to Oculus Sinister and Oculus "
 "Dester. Oculus means eye and sinister, left, whereas dester is right."
 msgstr ""
-"Аббревиатуры OS и OD означают соответственно Oculus Sinister и Oculus "
-"Dexter. Oculus – это глаз, sinister – левый, dexter – правый."
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_40
 msgid "Titanium"
-msgstr "Титан"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1357,50 +1234,46 @@ msgid ""
 "To manage appointments, the showroom manager uses the CRM app where all the "
 "information about the customer requests are available:<br/>"
 msgstr ""
-"Для управления встречами менеджер шоурума использует модуль CRM, где "
-"доступна вся информация о запросах клиентов.<br/>"
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_19
 msgid "Tortoise With Shiny Gold / Hcl Bronze"
-msgstr "Оправа черепахового цвета с глянцевым золотом, линзы HCL Bronze"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_15
 msgid "Transparent Grey Polarized (Light Blue)"
-msgstr "Прозрачно-серые поляризованные (светло-голубые)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_16
 msgid "Transparent Light Brown (Brown)"
-msgstr "Прозрачно-светло-коричневый (коричневый)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_13
 msgid "Transparent Olive Green (Grey)"
-msgstr "Прозрачно-оливково-зеленый (серый)"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "Type Your Prescription"
-msgstr "Введите свой рецепт"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.attribute.value,name:eyewear_shop.product_attribute_value_44
 msgid "Unisex"
-msgstr "Унисекс"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.extra_info_eyeshop
 msgid "Upload Prescription"
-msgstr "Загрузить рецепт"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Use Ship Later option before the checkout for shipping later"
 msgstr ""
-"Используйте опцию «Отправить позже» перед оформлением заказа, чтобы "
-"отправить позже"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
@@ -1408,43 +1281,41 @@ msgid ""
 "Use discount code \"FreedomFest\" before checkout to get a discount on your "
 "order<br/>"
 msgstr ""
-"Используйте промокод «FreedomFest» перед оформлением заказа, чтобы получить "
-"скидку<br/>"
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2900
 msgid "Use the top button '<b>+ New</b>' to create an appointment type."
-msgstr "Используйте верхнюю кнопку<b>\"+ Новый</b>\", чтобы создать тип встречи."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Validate the Receipt.<br/>"
-msgstr "Подтвердите приемку.<br/>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Validate the delivery order"
-msgstr "Подтвердите заказ на доставку"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.ir_ui_view_2900
 msgid "View availability <i class=\"oi oi-arrow-right\"/>"
-msgstr "Посмотреть доступность <i class=\"oi oi-arrow-right\"/>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,name:eyewear_shop.product_template_14
 msgid "Watch and Sunglass Storage Box Organizer"
-msgstr "Органайзер для часов и солнцезащитных очков"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:web_tour.tour,rainbow_man_message:eyewear_shop.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "Добро пожаловать! Приятного изучения."
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:product.template,out_of_stock_message:eyewear_shop.product_template_6
 msgid "Will be available soon<br>"
-msgstr "Скоро появится в продаже<br>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model:product.template,description_sale:eyewear_shop.product_template_22
@@ -1456,40 +1327,31 @@ msgid ""
 "These soft contact lenses can be cleaned, rinsed and disinfected by an eye care lens solution before storing\n"
 "        "
 msgstr ""
-"В комплекте с 500 мл раствора Renu и контейнером для линз\n"
-"Срок замены: Ежемесячно\n"
-"Материал: Мягкие контактные линзы изготовлены из устойчивого к отложениям "
-"неионного материала. Разработаны с использованием технологии UnFit, что "
-"обеспечивает их универсальную посадку.\n"
-"Базовая кривизна: 8,6 * Диаметр: 14,2 * Влагосодержание: 59%.\n"
-"Эти мягкие контактные линзы можно очищать, промывать и дезинфицировать с "
-"помощью специального раствора.\n"
-"        "
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Workflow"
-msgstr "Рабочий процесс"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "Workflow<br/>"
-msgstr "Рабочий процесс<br/>"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "man wearing black bike helmet"
-msgstr "мужчина в черном велосипедном шлеме"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.welcome_article_body
 msgid "online shop"
-msgstr "интернет-магазин"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
 msgid "two tortoiseshell-framed Wayfarer-styled sunglasses with box"
-msgstr "две пары очков Wayfarer в оправе черепахового цвета с футляром"
+msgstr ""
 
 #. module: eyewear_shop
 #: model_terms:ir.ui.view,arch_db:eyewear_shop.homepage
@@ -1497,5 +1359,3 @@ msgid ""
 "woman in white and black stripe tank top wearing blue sunglasses lying on "
 "green grass field"
 msgstr ""
-"женщина в белой и черной майке в полоску в синих солнечных очках, лежит на "
-"зеленой траве"

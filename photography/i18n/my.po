@@ -1,30 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * photography
+# 	* photography
 #
-# Translators:
-# Wil Odoo, 2024
-# ILMIR <karamov@it-projects.info>, 2025
-# Ilya Rozhkov, 2025
-# Anastasiia Koroleva, 2025
-# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 08:36+0000\n"
-"PO-Revision-Date: 2025-08-15 15:58+0000\n"
-"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
-"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
-"photography/ru/>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2025-02-14 08:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
-"n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: \n"
 
 #. module: photography
 #: model:calendar.alarm,name:photography.reminder_mail_1d
@@ -147,18 +136,6 @@ msgid ""
 "            \n"
 "        "
 msgstr ""
-"<p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Здравствуйте, <t t-out=\"object.partner_id.name or '''John Doe'''\"/>!</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Поздравляем с \n"
-"                    помолвкой! Мы очень рады, что вы готовы доверить <t t-out=\"object.company_id.name or '''us'''\">Frozen Moments</t> запечатлеть\n"
-"                     волшебство вашего праздника.</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Для нас будет большой честью стать частью\n"
-"                    этой важной\n"
-"                    главы в вашей жизни.</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Если у вас возникнут вопросы или\n"
-"                    потребуется дополнительная кастомизация услуги, пожалуйста, обращайтесь к нам.</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">С наилучшими пожеланиями,</p>\n"
-"            \n"
-"        "
 
 #. module: photography
 #: model:mail.template,body_html:photography.email_template_pro_event_quote
@@ -176,17 +153,6 @@ msgid ""
 "            \n"
 "        "
 msgstr ""
-"<p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Здравствуйте, <t t-out=\"object.partner_id.name or '''John Doe'''\"/>!</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Благодарим вас за интерес к <t t-out=\"object.company_id.name or '''Frozen Moments'''\"/>\n"
-"                    для проведения вашего мероприятия.</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Для нас будет честью запечатлеть\n"
-"                     особенные моменты вашего мероприятия и предоставить вам фотографии высокого качества, которые\n"
-"                    останутся с вами на долгие годы.</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">Если у вас возникнут вопросы или\n"
-"                     потребуется дополнительная кастомизация услуги, пожалуйста, обращайтесь к нам.</p>\n"
-"                <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">С уважением,</p>\n"
-"            \n"
-"        "
 
 #. module: photography
 #: model:mail.template,body_html:photography.email_template_confirmation
@@ -299,8 +265,6 @@ msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "                                        <span class=\"visually-hidden\">Next</span>"
 msgstr ""
-"<span class=\"carousel-control-next-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Далее</span>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
@@ -308,8 +272,6 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
 "                                        <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
-"<span class=\"carousel-control-prev-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Назад</span>"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
@@ -515,7 +477,7 @@ msgstr ""
 #: model:website.menu,name:photography.website_menu_about_us
 #: model_terms:ir.ui.view,arch_db:photography.aboutus
 msgid "About us"
-msgstr "О нас"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -551,7 +513,7 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid "Appointment"
-msgstr "Встреча"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
@@ -579,7 +541,7 @@ msgstr ""
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_baby
 msgid "Baby Portraits"
-msgstr "Фотосессия для малышей"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
@@ -615,27 +577,6 @@ msgid ""
 "                                                companies and organizations, and his work has been\n"
 "                                                published in many newspapers and websites."
 msgstr ""
-"Боб – наш ведущий корпоративный фотограф. Он обладает\n"
-"                                                богатым опытом работы с "
-"компаниями любых размеров и\n"
-"                                                 из разных сфер. Он знает, "
-"как создавать фотографии,\n"
-"                                                которые отражают "
-"индивидуальность, ценности и\n"
-"                                                характер вашего бренда. Он "
-"профессионально владеет\n"
-"                                                различным оборудованием и "
-"программным обеспечением, чтобы создавать высококачественные\n"
-"                                                снимки, которые "
-"соответствуют вашим стандартам и ожиданиям.\n"
-"                                                У Боба есть диплом по "
-"бизнесу и сертификат по\n"
-"                                                фотографии. Он работал со "
-"многими известными\n"
-"                                                компаниями и организациями, "
-"а его работы публиковались\n"
-"                                                во множестве газет и на "
-"различных вебсайтах."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
@@ -645,7 +586,7 @@ msgstr ""
 #. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_4
 msgid "Cancelled"
-msgstr "Отменен"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
@@ -665,7 +606,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:photography.homepage
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
 msgid "Contact us"
-msgstr "Свяжитесь с нами"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
@@ -699,7 +640,7 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
 msgid "Details"
-msgstr "Детали"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
@@ -711,7 +652,7 @@ msgstr ""
 #. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_3
 msgid "Done"
-msgstr "Готово"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
@@ -731,7 +672,7 @@ msgstr ""
 #. module: photography
 #: model:project.project,name:photography.project_event_shoot
 msgid "Event Shoot"
-msgstr "Фотосъемка мероприятия"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -758,14 +699,14 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Full day"
-msgstr "Полный день"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1959
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1960
 msgid "Get in touch"
-msgstr "Связаться"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
@@ -803,7 +744,7 @@ msgstr ""
 #. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_2
 msgid "In Progress"
-msgstr "В процессе"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -814,7 +755,7 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid "Invoicing"
-msgstr "Выставление счетов"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -854,12 +795,12 @@ msgstr ""
 #. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_0
 msgid "New"
-msgstr "Новый"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
 msgid "Next"
-msgstr "Следующий"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -894,18 +835,18 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Other"
-msgstr "Другое"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
 msgid "Our References"
-msgstr "Наши рекомендации"
+msgstr ""
 
 #. module: photography
 #: model:website.menu,name:photography.website_menu_12
 msgid "Our Services"
-msgstr "Наши услуги"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
@@ -933,12 +874,12 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid "Photography"
-msgstr "Фотография"
+msgstr ""
 
 #. module: photography
 #: model:mail.template,subject:photography.email_template_pro_event_quote
 msgid "Photography Quote for Your Upcoming Event"
-msgstr "КП на фотосъемку для вашего мероприятия"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
@@ -960,7 +901,7 @@ msgstr ""
 #. module: photography
 #: model:mail.template,name:photography.email_template_pro_event_quote
 msgid "Photography: Professional Event Quote"
-msgstr "Фотосъемка делового мероприятия: коммерческое предложение"
+msgstr ""
 
 #. module: photography
 #: model:mail.template,name:photography.email_template_studio_quote
@@ -970,17 +911,17 @@ msgstr ""
 #. module: photography
 #: model:mail.template,name:photography.email_template_wedding_event_quote
 msgid "Photography: Wedding Quote"
-msgstr "Свадебная фотосъемка: коммерческое предложение"
+msgstr ""
 
 #. module: photography
 #: model:project.task.type,name:photography.planning_project_stage_1
 msgid "Planned"
-msgstr "Проектируемый"
+msgstr ""
 
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_portrait
 msgid "Portraits"
-msgstr "Портреты"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -991,7 +932,7 @@ msgstr ""
 #: model:crm.tag,name:photography.crm_tag_pregnancy
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Pregnancy"
-msgstr "Беременность"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
@@ -1003,7 +944,7 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
 msgid "Previous"
-msgstr "Предыдущий"
+msgstr ""
 
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_pro_event
@@ -1011,17 +952,17 @@ msgstr "Предыдущий"
 #: model:product.template,name:photography.product_pro_event_service_product_template
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Professional Event"
-msgstr "Профессиональное мероприятие"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid "Project"
-msgstr "Проект"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
 msgid "Quote"
-msgstr "Цитата"
+msgstr ""
 
 #. module: photography
 #: model:mail.template,subject:photography.order_appointment_booking
@@ -1033,24 +974,24 @@ msgstr ""
 #: model:website.menu,name:photography.website_menu_10
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
 msgid "Services"
-msgstr "Услуги"
+msgstr ""
 
 #. module: photography
 #: model:crm.tag,name:photography.crm_tag_other
 msgid "Something Else"
-msgstr "Другое"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
 msgid "Studio"
-msgstr "Студия"
+msgstr ""
 
 #. module: photography
 #: model:product.template,name:photography.product_studio_session_no_service_product_template
 #: model:product.template,name:photography.product_studio_session_service_product_template
 #: model:project.project,name:photography.project_studio_session
 msgid "Studio Session"
-msgstr "Фотосессия в студии"
+msgstr ""
 
 #. module: photography
 #: model:mail.template,subject:photography.email_template_studio_quote
@@ -1086,13 +1027,13 @@ msgstr ""
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Submit"
-msgstr "Отправить"
+msgstr ""
 
 #. module: photography
 #: model:project.project,label_tasks:photography.project_event_shoot
 #: model:project.project,label_tasks:photography.project_studio_session
 msgid "Tasks"
-msgstr "Задачи"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1958
@@ -1159,7 +1100,7 @@ msgstr ""
 #: model:crm.tag,name:photography.crm_tag_wedding
 #: model_terms:ir.ui.view,arch_db:photography.contactus
 msgid "Wedding"
-msgstr "Свадьба"
+msgstr ""
 
 #. module: photography
 #: model:product.template,name:photography.product_wedding_classic_no_service_product_template
@@ -1176,7 +1117,7 @@ msgstr ""
 #. module: photography
 #: model:mail.template,subject:photography.email_template_wedding_event_quote
 msgid "Wedding Photography Quote for Your Special Day"
-msgstr "КП на свадебную фотосессию в ваш особенный день"
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.ir_ui_view_1915
@@ -1198,7 +1139,7 @@ msgstr ""
 #. module: photography
 #: model_terms:web_tour.tour,rainbow_man_message:photography.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "Добро пожаловать! Приятного изучения."
+msgstr ""
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body

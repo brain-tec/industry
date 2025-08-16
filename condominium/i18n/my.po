@@ -1,39 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * condominium
+# 	* condominium
 #
-# Translators:
-# Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2024
-# Levent Karakaş <levent@mektup.at>, 2024
-# Tiffany Chang, 2024
-# Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2024
-# Umur Akın <umura@projetgrup.com>, 2024
-# Ali Zeynel AĞCA <zeynelagca@gmail.com>, 2024
-# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
-# Özlem Atalay <ozlema@eskayazilim.com.tr>, 2024
-# Martin Trigaux, 2024
-# Murat Kaplan <muratk@projetgrup.com>, 2024
-# emre oktem, 2024
-# Ramiz Deniz Öner <deniz@denizoner.com>, 2024
-# Ediz Duman <neps1192@gmail.com>, 2024
-# Wil Odoo, 2025
-# Deniz Guvener_Odoo <degu@odoo.com>, 2025
-# "Deniz Guvener Unal (degu)" <degu@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 15:15+0000\n"
-"PO-Revision-Date: 2025-08-15 15:58+0000\n"
-"Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
-"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
-"condominium/tr/>\n"
-"Language: tr\n"
+"PO-Revision-Date: 2025-02-20 15:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: \n"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -41,20 +21,16 @@ msgid ""
 ".\n"
 "            As soon as a bill is booked, you can use the button \"Distribute Cost\" to automatically reflect the cost per property according to the distribution key."
 msgstr ""
-".\n"
-"            Fatura kaydedilir kaydedilmez, maliyeti dağıtım anahtarına göre "
-"otomatik olarak her mülke yansıtmak için \"Maliyeti Dağıt\" düğmesini "
-"kullanabilirsiniz."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "<span class=\"fw-bold\">Address</span>"
-msgstr "<span class=\"fw-bold\">Adres</span>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -63,33 +39,30 @@ msgid ""
 "are collected in two bank accounts that can be directly integrated with the "
 "bank:"
 msgstr ""
-"Kat mülkiyeti niteliğindeki bir apartman dairesi, bir şirket gibi çalışır. "
-"Gelirlerini maliklerden elde eder. Bu gelirler doğrudan bankayla entegre "
-"edilebilen iki banka hesabında toplanır:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "A name to identify the property, for example the post box or the "
 "identification code."
-msgstr "Mülkü tanımlamak için bir ad, örneğin posta kutusu veya tanıtım kodu."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Accounting opening/handover<br/>"
-msgstr "Muhasebe açılış/devir<br/>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Act analysis"
-msgstr "Tutanak analizi"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.active_buildings
 #: model:ir.model.fields,field_description:condominium.active_properties_type
 #: model:ir.model.fields,field_description:condominium.active_ratios_field
 msgid "Active"
-msgstr "Etkin"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -97,8 +70,6 @@ msgid ""
 "Add the corresponding product(s): \"Working Fund\", \"Reserve Fund\", "
 "\"Service Fees\", etc."
 msgstr ""
-"İlgili ürünü/ürünleri ekleyin: “İşletme Fonu”, “Yedek Fonu”, “Hizmet "
-"Bedelleri” vb."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -106,18 +77,16 @@ msgid ""
 "Again, feel free to edit and/or create new tasks to never forget a step "
 "during the kick-off process."
 msgstr ""
-"Başlangıç sürecinde hiçbir adımı unutmamak için mevcut görevleri "
-"düzenleyebilir ve/veya yeni görevler oluşturabilirsiniz."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_714_product_template
 msgid "Air and smoke extractors"
-msgstr "Hava ve duman aspiratörleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_713_product_template
 msgid "Air conditioning and air treatment"
-msgstr "Klima ve hava arıtma"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_7_product_template
@@ -125,63 +94,61 @@ msgid ""
 "All other extra services will be invoiced at the hourly rate, See Terms & "
 "Condition for further information about the hourly rate"
 msgstr ""
-"Diğer tüm ek hizmetler saatlik ücret üzerinden faturalandırılır, saatlik "
-"ücretle ilgili daha fazla bilgi için Şartlar ve Koşullara bakın"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_698_product_template
 msgid "Allocations (provisions)"
-msgstr "Tahsisatlar (karşılıklar)"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_696_product_template
 msgid "Amortization on intangible assets"
-msgstr "Maddi olmayan duran varlık amortismanı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_697_product_template
 msgid "Amortization on tangible assets"
-msgstr "Maddi duran varlık amortismanı"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_1
 msgid "Apartment"
-msgstr "Daire"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_12
 msgid "Apartment A0"
-msgstr "Daire A0"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_14
 msgid "Apartment A1"
-msgstr "Daire A1"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_15
 msgid "Apartment A2"
-msgstr "Daire A2"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_17
 msgid "Apartment B0"
-msgstr "Daire B0"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_19
 msgid "Apartment B1.1"
-msgstr "Daire B1.1"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_18
 msgid "Apartment B1.2"
-msgstr "Daire B1.2"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 msgid "Apartment..."
-msgstr "Daire..."
+msgstr ""
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_15_product_template
@@ -190,42 +157,40 @@ msgid ""
 "Approximately $80 per property per month, See Terms & Condition for further "
 "information about the coverage of the Service Fees"
 msgstr ""
-"Aylık mülk başına yaklaşık 80 ABD doları, Hizmet Bedellerinin kapsamıyla "
-"ilgili daha fazla bilgi için Şartlar ve Koşullara bakın"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_784_product_template
 msgid "Architect/engineer fees"
-msgstr "Mimar/mühendis ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_building
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_for_x_ratios
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_property_type
 msgid "Archived"
-msgstr "Arşivlendi"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_808_product_template
 msgid "Archives fees"
-msgstr "Arşiv ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_area_field
 #: model:ir.model.fields,field_description:condominium.x_area_related_field
 msgid "Area"
-msgstr "Alan"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Area as distribution key"
-msgstr "Dağıtım anahtarı olarak alan"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Artificial Intelligence"
-msgstr "Yapay Zekâ"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -235,99 +200,88 @@ msgid ""
 "            and also the price of all the extra services such as the recurring contribution, the hourly rate, etc. Don't forget to attach the terms &amp; conditions as well. Of course, the price of each service and the content of the\n"
 "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Quotation Templates</font> can be adapted accordingly."
 msgstr ""
-"Bir kat mülkiyeti sahibi sizden teklif istediğinde, hizmet ve ücretlerinizin "
-"bir özetini hızlıca göndermek için Satış uygulamasında doğrudan "
-"\"Başlangıç Teklifi\" şablonunu kullanarak Satış uygulamasından\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
-">Teklif</font> oluşturun. Bu, başlangıç ücretlerini ve ayrıca düzenli katkı "
-"payı, saatlik ücret vb. gibi tüm\n"
-"             ek hizmetlerin ücretlerini otomatik olarak dolduracaktır. "
-"Şartlar ve &amp; Koşulları eklemeyi de unutmayın. Elbette, her hizmetin "
-"fiyatı ve\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
-">Teklif Şablonu</font> içeriği buna göre uyarlanabilir."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image
 msgid "Attachment"
-msgstr "Ek"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Audit"
-msgstr "Denetim"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_712_product_template
 msgid "Auxiliary groups"
-msgstr "Yardımcı gruplar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_667_product_template
 msgid "Bank fees and debt charges"
-msgstr "Banka masrafları ve borç giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_5
 msgid "Basement"
-msgstr "Bodrum"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_16
 msgid "Basement AB"
-msgstr "Bodrum AB"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_753_product_template
 msgid "Basement maintenance"
-msgstr "Bodrum bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_710_product_template
 msgid "Bell and intercom maintenance"
-msgstr "Zil ve diyafon bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_811_product_template
 msgid "Boiler maintenance contracts"
-msgstr "Kazan bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Book the right numbers 🧮"
-msgstr "Doğru rakamları kaydedin 🧮"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_building_field
 #: model:ir.model.fields,field_description:condominium.x_building_related_field
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "Building"
-msgstr "Bina"
+msgstr ""
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_6
 msgid "Building 1"
-msgstr "Bina 1"
+msgstr ""
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_7
 msgid "Building 2"
-msgstr "Bina 2"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_condominium_account_analytic_account_count
 msgid "Building Condominium count"
-msgstr "Bina Daire sayısı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_732_product_template
 msgid "Building cleaning under contract"
-msgstr "Sözleşmeli bina temizliği"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_x_building_account_analytic_account_count_field
 msgid "Building count"
-msgstr "Bina sayısı"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.bu_act_window
@@ -337,19 +291,19 @@ msgstr "Bina sayısı"
 #: model:ir.ui.menu,name:condominium.conf_building_menu
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Buildings"
-msgstr "Binalar"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.buildings_tags_act_window
 #: model:ir.model,name:condominium.model_buildings_tags
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 msgid "Buildings Tags"
-msgstr "Bina Etiketleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Business Flows"
-msgstr "İş Akışları"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -357,28 +311,26 @@ msgid ""
 "By the end of the period, easily generate the legal reporting such as "
 "Balance Sheet and Profit &amp; Loss for each condominium."
 msgstr ""
-"Dönem sonunda her daire için Bilanço &amp;ve Gelir Tablosu gibi yasal "
-"raporlamayı kolayca oluşturun."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_781_product_template
 msgid "Cable distribution"
-msgstr "Kablo dağıtımı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Call for working and reserve funds"
-msgstr "İşletme ve yedek fon çağrısı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_664_product_template
 msgid "Capital losses on the realization of receivables"
-msgstr "Alacakların gerçekleşmesinde sermaye kayıpları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_726_product_template
 msgid "Carpentry maintenance contracts"
-msgstr "Marangozluk bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -386,34 +338,32 @@ msgid ""
 "Check if everything is correct. If yes, select all the quotations and, under"
 " the \"Actions\" button, click on \"Confirm\"."
 msgstr ""
-"Her şeyin doğru olup olmadığını kontrol edin. Doğru ise tüm teklifleri seçin "
-"ve “İşlemler” düğmesinden “Onayla”ya tıklayın."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_752_product_template
 msgid "Chimney and ventilation duct maintenance"
-msgstr "Baca ve havalandırma kanalı bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.city
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "City"
-msgstr "Semt/İlçe"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_678_product_template
 msgid "Civil liability"
-msgstr "Mali sorumluluk"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_735_product_template
 msgid "Cleaning equipment"
-msgstr "Temizlik ekipmanları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_734_product_template
 msgid "Cleaning products"
-msgstr "Temizlik ürünleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -422,9 +372,6 @@ msgid ""
 "quotation and will create as many quotations as there are properties in the "
 "condominium for which the costs are shared."
 msgstr ""
-"\"Mülkler Arasında Böl\" düğmesine tıklayın: bu, mevcut teklifi iptal edecek "
-"ve maliyetlerin paylaşıldığı kat mülkiyeti niteliğindeki apartmanda bulunan "
-"her mülk için ayrı teklifler oluşturacaktır."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -432,51 +379,49 @@ msgid ""
 "Click on the \"Sales Orders\" buttons to access all the generated "
 "quotations."
 msgstr ""
-"Oluşturulan tüm tekliflere erişmek için “Satış Siparişleri” düğmesine "
-"tıklayın."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.color_buildings_tags
 #: model:ir.model.fields,field_description:condominium.color_properties_tag
 msgid "Color"
-msgstr "Renk"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_9_product_template
 msgid "Communication of information to the notary"
-msgstr "Bilgilerin notere iletilmesi"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.company_buildings
 #: model:ir.model.fields,field_description:condominium.company_ratios_field
 msgid "Company"
-msgstr "Firma"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_company_partner_id
 msgid "Company partner"
-msgstr "Şirket ortağı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_788_product_template
 msgid "Compensation for members of the internal council and internal auditor"
-msgstr "İç kurul üyeleri ve iç denetçi için tazminat"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_actions_server_compute_ratio
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Compute Ratios"
-msgstr "Oranları Hesapla"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_693_product_template
 msgid "Concierge charges"
-msgstr "Apartman görevlisi giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_694_product_template
 msgid "Concierge maintenance"
-msgstr "Apartman görevlisi bakım hizmetleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.condo_act_window
@@ -485,39 +430,39 @@ msgstr "Apartman görevlisi bakım hizmetleri"
 #: model:ir.ui.menu,name:condominium.condo_menu
 #: model:ir.ui.menu,name:condominium.infra_condo_menu
 msgid "Condominium"
-msgstr "Kat mülkiyeti niteliğindeki apartman dairesi"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.condominium_property_ids
 msgid "Condominium Properties"
-msgstr "Kat Mülkiyeti Niteliğindeki Apartman Daireleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Condominium creation in Odoo (see <em>Quickly Set Up a Condominium 🚀 "
 "</em>section)"
-msgstr "Odoo’da daire oluşturma (bkz. <em>Hızla Daire Oluşturma 🚀 </em>bölümü)"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_custom
 msgid "Condominiums"
-msgstr "Kat Mülkiyeti Niteliğindeki Apartman Daireleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.config_menu
 msgid "Configuration"
-msgstr "Ayarlar"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_confirm_action
 msgid "Confirm"
-msgstr "Onayla"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Contacts"
-msgstr "Kontaklar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_4_product_template
@@ -533,51 +478,38 @@ msgid ""
 "    Call for funds and provisions\n"
 "    Organization of general meeting"
 msgstr ""
-"Sözleşme düzenleme\n"
-"    Yazılımda müşterek mülkiyet oluşturma\n"
-"    Tutanak analizi\n"
-"    Sigorta analizi\n"
-"    Kimlik formları oluşturma\n"
-"    Denetim\n"
-"    Banka hesabı/hesaplarının ve şirket numarasının açılışı/devri\n"
-"    Sayaç okuma\n"
-"    Fon ve karşılık çağrısı\n"
-"    Genel kurulun organizasyonu"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Contracts establishment<br/>"
-msgstr "Sözleşmelerin oluşturulması<br/>"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Country"
-msgstr "Ülke"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_action_create_condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Create Condominium"
-msgstr "Daire Oluştur"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.buildings_act_window
 msgid "Create and manage the buildings that compose this condominium<br>"
 msgstr ""
-"Bu müşterek mülkiyet kompleksini oluşturan binaları oluşturun ve yönetin"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.properties_act_window
 msgid "Create and manage the properties that compose this condominium"
 msgstr ""
-"Bu müşterek mülkiyet kompleksini oluşturan bağımsız bölümleri oluşturun ve "
-"yönetin"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Create the buildings that compounds the condominium."
-msgstr "Bu müşterek mülkiyet kompleksini oluşturan binaları oluşturun."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -585,44 +517,42 @@ msgid ""
 "Create the properties that compounds the buildings: apartment, studio, flat,"
 " penthouse, garage, etc."
 msgstr ""
-"Binaları oluşturan bağımsız bölümleri oluşturun: daire, stüdyo, kat, çatı "
-"katı, garaj vb."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_currency
 msgid "Currency"
-msgstr "Para Birimi"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_686_product_template
 #: model:product.template,name:condominium.product_product_810_product_template
 msgid "Damages or expenses not covered by insurance"
-msgstr "Sigorta kapsamında olmayan hasar veya giderler"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_date
 msgid "Date"
-msgstr "Tarih"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_684_product_template
 msgid "Deductible (insurance)"
-msgstr "Muafiyet (sigorta)"
+msgstr ""
 
 #. module: condominium
 #: model:product.pricelist,name:condominium.product_pricelist_1
 msgid "Default"
-msgstr "Öntanımlı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_670_product_template
 msgid "Deferred values"
-msgstr "Ertelenmiş değerler"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Define a recurring plan, monthly or yearly."
-msgstr "Aylık veya yıllık tekrarlayan bir plan tanımlayın."
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.description_building
@@ -631,51 +561,51 @@ msgstr "Aylık veya yıllık tekrarlayan bir plan tanımlayın."
 #: model:ir.model.fields,field_description:condominium.field_meters_name
 #: model:ir.model.fields,field_description:condominium.field_meters_reading_description
 msgid "Description"
-msgstr "Açıklama"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 msgid "Distribute Costs"
-msgstr "Giderleri Dağıt"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_distribution_key_field
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_list_custom_view
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Distribution Key"
-msgstr "Dağıtım Anahtarı"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.distribution_keys_act_window
 #: model:ir.ui.menu,name:condominium.infra_distribution_menu
 msgid "Distribution Keys"
-msgstr "Dağıtım Anahtarları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_799_product_template
 msgid "Document translation"
-msgstr "Belge çevirisi"
+msgstr ""
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.owners_docs_menu
 msgid "Documents"
-msgstr "Belgeler"
+msgstr ""
 
 #. module: condominium
 #: model:helpdesk.team,name:condominium.helpdesk_team_4
 msgid "Dominican Condominium"
-msgstr "Dominican Müşterek Mülkiyet Kompleksi"
+msgstr ""
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_18
 msgid "Done"
-msgstr "Yapıldı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_723_product_template
 msgid "Drainage, sewers, and pumping installations maintenance"
-msgstr "Drenaj, kanalizasyon ve pompa tesisatı bakımı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -683,101 +613,97 @@ msgid ""
 "During the general meetings, counting the votes depending on the ownership percentage could be painful. From the properties screen, select all the properties of the corresponding condominium and insert them in a spreadsheet by using the\n"
 "            said feature under the Actions menu."
 msgstr ""
-"Genel toplantılarda oyları mülkiyet yüzdesine göre saymak zahmetli olabilir. "
-"Bağımsız bölümler ekranından ilgili sitenin tüm bağımsız bölümlerini seçin "
-"ve Eylemler menüsündeki\n"
-"            ilgili özelliği kullanarak bir elektronik çizelgeye ekleyin."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Each owner has to pay recurring fees:"
-msgstr "Her malik düzenli olarak aidat ödemelidir:"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Each property is characterized by:"
-msgstr "Her bağımsız bölümün özellikleri şunlardır:"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Easily convert the condominiums 🖋️"
-msgstr "Daireleri kolayca dönüştürün 🖋️"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Efficiently count the votes 🙋‍♂️"
-msgstr "Oyları verimli bir şekilde sayın 🙋‍♂️"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_707_product_template
 msgid "Electrical installations inspections"
-msgstr "Elektrik tesisatı denetimleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_708_product_template
 msgid "Electrical installations maintenance contracts"
-msgstr "Elektrik tesisatı bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_711_product_template
 msgid "Electrical installations renovation"
-msgstr "Elektrik tesisatı yenileme"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_772_product_template
 msgid "Electricity for common areas"
-msgstr "Ortak alanlar için elektrik"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_688_product_template
 msgid "Electricity for concierge"
-msgstr "Apartman görevlisinin dairesi için elektrik"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_705_product_template
 msgid "Elevator adaptation work"
-msgstr "Asansör uyarlama çalışmaları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_773_product_template
 msgid "Elevator electricity"
-msgstr "Asansör elektriği"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_701_product_template
 msgid "Elevator inspections"
-msgstr "Asansör denetimleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_703_product_template
 msgid "Elevator maintenance and repairs not covered by contracts"
-msgstr "Sözleşme kapsamında olmayan asansör bakım ve onarımları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_702_product_template
 msgid "Elevator maintenance contracts"
-msgstr "Asansör bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_704_product_template
 msgid "Emergency elevator phone"
-msgstr "Asansör acil durum telefonu"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.employees_act_window
 #: model:ir.ui.menu,name:condominium.purchase_employee_menu
 msgid "Employees"
-msgstr "Çalışanlar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_660_product_template
 msgid "Employer contributions for extra-legal insurance"
-msgstr "Kanun dışı ek sigortalar için işveren katkı payları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_659_product_template
 msgid "Employer contributions for social insurance"
-msgstr "Sosyal sigorta için işveren katkı payları"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -785,58 +711,51 @@ msgid ""
 "Every year, a general meeting is scheduled to talk about the financial statements, to take important decisions and so on. This event can easily be scheduled in the Calendar app by creating\n"
 "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Meetings</font>. To invite all the owners of a condominium, use the \"Search More\" on \"Attendees\" and type the name of the condominium in... \"Condominiums\"."
 msgstr ""
-"Her yıl, mali tabloların görüşülmesi, önemli kararların alınması vb. konular "
-"için bir genel kurul toplantısı yapılır. Bu faaliyet,\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
-">Toplantılar</font>oluşturarak Takvim uygulamasında kolayca planlanabilir. "
-"Tüm müşterek mülkiyet kompleksi maliklerini davet etmek için “Katılımcılar” "
-"alanında “Daha Fazla Ara” seçeneğini kullanın ve “Müşterek Mülkiyet "
-"Kompleksleri” kısmına kompleksin adını yazın."
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
 msgid "Execute Code"
-msgstr "Kodu Çalıştırın"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_785_product_template
 msgid "Expert fees"
-msgstr "Uzman ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_674_product_template
 msgid "Extension work"
-msgstr "Genişletme çalışmaları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_786_product_template
 msgid "External auditor fees"
-msgstr "Bağımsız denetçi ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_728_product_template
 msgid "External carpentry maintenance"
-msgstr "Dış doğrama bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_8_product_template
 msgid "Extraordinary General Meeting"
-msgstr "Olağanüstü Genel Kurul"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_669_product_template
 msgid "Extraordinary work expenses"
-msgstr "Olağanüstü iş giderleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Fairly split the costs ⚖️"
-msgstr "Giderleri adil şekilde bölün ⚖️"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_749_product_template
 msgid "Façade maintenance"
-msgstr "Cephe bakımı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -845,35 +764,32 @@ msgid ""
 " to assign a ratio for each property that will be used for splitting the "
 "fees per owner and for distributing the costs."
 msgstr ""
-"Son olarak, her bağımsız bölüm için dağıtım anahtarları tanımlayabilirsiniz. "
-"Amaç, her bağımsız bölüme, giderlerin maliklere bölünmesinde ve maliyetlerin "
-"dağıtılmasında kullanılacak bir oran atamaktır."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_677_product_template
 msgid "Fire insurance"
-msgstr "Yangın sigortası"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_10_product_template
 msgid "First Reminder"
-msgstr "İlk hatırlatıcı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_776_product_template
 msgid "Fixed fee and gas consumption"
-msgstr "Sabit ücret ve gaz tüketimi"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_766_product_template
 msgid "Fixed fee and water consumption"
-msgstr "Sabit ücret ve su tüketimi"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_floor_field
 #: model:ir.model.fields,field_description:condominium.x_floor_related_field
 msgid "Floor"
-msgstr "Kat"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -881,16 +797,11 @@ msgid ""
 "For example, to collect the cotisations, the selected company must be the condominium and the customer must be the condominium too. If you want to invoice your services, the selected company must be yours and the customer must be the\n"
 "            condominium to be invoiced."
 msgstr ""
-"Örneğin, aidatları tahsil etmek için seçilen şirket, müşterek mülkiyet "
-"kompleksi olmalı ve müşteri de yine söz konusu kompleks olmalıdır. "
-"Hizmetlerinizi faturalandırmak istiyorsanız, seçilen şirket sizin "
-"şirketiniz, müşteri ise\n"
-"            faturalandırılacak olan kompleks olmalıdır."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_748_product_template
 msgid "Foundation maintenance"
-msgstr "Temel bakımı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -898,124 +809,117 @@ msgid ""
 "From the Settings, create a new company in <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Companies</font>. Once done, it will appear on the top right of all screens with the aim to quickly switch between your company and the\n"
 "            different condominiums."
 msgstr ""
-"Ayarlar’dan <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
-">Şirketler</font> bölümünde yeni bir şirket oluşturun. İşlem "
-"tamamlandığında, ekranların sağ üstünde görünerek şirketiniz ve farklı "
-"daireler arasında\n"
-"            hızlı geçiş yapmanızı sağlar."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_780_product_template
 msgid "Fuel oil deliveries"
-msgstr "Akaryakıt teslimatları"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_4
 msgid "Garage"
-msgstr "Garaj"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_13
 msgid "Garage AG"
-msgstr "Garaj AG"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_727_product_template
 msgid "Garage door maintenance"
-msgstr "Garaj kapısı bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_743_product_template
 msgid "Garden and immediate surroundings layout"
-msgstr "Bahçe ve yakın çevre düzenlemesi"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_741_product_template
 msgid "Garden and immediate surroundings maintenance under contract"
-msgstr "Sözleşmeli bahçe ve yakın çevre bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_690_product_template
 msgid "Gas for concierge"
-msgstr "Apartman görevlisinin dairesi için gaz"
+msgstr ""
 
 #. module: condominium
 #: model:helpdesk.team,name:condominium.helpdesk_team_1
 msgid "Green Island Property"
-msgstr "Green Island Mülkü"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_754_product_template
 msgid "Hall, stairwell, and corridor maintenance work"
-msgstr "Giriş, merdiven boşluğu ve koridor bakım çalışmaları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_774_product_template
 msgid "Heating and sanitary electricity"
-msgstr "Isıtma ve sıhhi tesisat elektriği"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_691_product_template
 msgid "Heating for concierge"
-msgstr "Apartaman görevlisi dairesinin ısınma gideri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_716_product_template
 msgid "Heating installations inspections"
-msgstr "Isıtma tesisatı denetimleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_717_product_template
 msgid "Heating maintenance contracts"
-msgstr "Isıtma tesisatı bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_721_product_template
 msgid "Heating pipes maintenance"
-msgstr "Isıtma boruları bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.owners_help_menu
 msgid "Helpdesk"
-msgstr "Yardım Masası"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_7_product_template
 msgid "Hourly Rate"
-msgstr "Saatlik Ücret"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_2
 msgid "House"
-msgstr "Bina"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_20
 msgid "House C1"
-msgstr "Ev C1"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_738_product_template
 msgid "Household waste / PMC / paper and glass products"
-msgstr "Evsel atık / PMC / kağıt ve cam ürünleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_736_product_template
 msgid "Household waste / PMC / paper and glass under contract"
-msgstr "Sözleşmeli evsel atık / PMC / kağıt ve cam"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "If there is no distribution keys set, the area will be used as default key."
 msgstr ""
-"Herhangi bir dağıtım anahtarı tanımlanmamışsa, varsayılan anahtar olarak "
-"alan kullanılacaktır."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.image_buildings
 msgid "Image"
-msgstr "Görsel"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1024,14 +928,11 @@ msgid ""
 "Odoo at the right date. If not, you can manually post them in mass. Then "
 "just send them using your preferred way!"
 msgstr ""
-"Tekrarlayan aidatlarda, faturalar Odoo tarafından doğru tarihte otomatik "
-"olarak oluşturulur. Aksi durumda, bunları toplu olarak manuel şekilde "
-"oluşturabilir ve ardından tercih ettiğiniz yöntemle gönderebilirsiniz!"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "In case of recurring fees:"
-msgstr "Tekrarlayan ücretler söz konusu olduğunda:"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1039,8 +940,6 @@ msgid ""
 "In the Sales application, create a quotation and set the condominium as "
 "customer."
 msgstr ""
-"Satış uygulamasında bir teklif oluşturun ve müşteriyi daire/kompleks olarak "
-"belirleyin."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1048,210 +947,203 @@ msgid ""
 "In their day to day, the owners and the tenants can face some issues. In order to collect and centralize them, use the <strong><font class=\"text-o-color-1\">Helpdesk</font></strong> application. Thereby, each member can send an email\n"
 "            that will be caught in the right helpdesk team. This eases the follow-up and the invoicing in case the time spent is not covered by the service fees."
 msgstr ""
-"Mal sahipleri ve kiracılar günlük yaşamlarında bazı sorunlarla "
-"karşılaşabilir. Bu sorunları tek bir yerde toplayıp merkezileştirmek "
-"için<strong><font class=\"text-o-color-1\">Yardım Masası</font></strong> "
-"uygulamasını kullanın. Böylece her üye, doğru Yardım Masası ekibine ulaşacak "
-"\n"
-"            bir e-posta gönderebilir. Bu, harcanan sürenin hizmet "
-"bedelleriyle karşılanmadığı durumlarda takibi ve faturalamayı kolaylaştırır."
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.condominium_act_window
 #: model:ir.ui.menu,name:condominium.infra_menu
 msgid "Infrastructure"
-msgstr "Altyapı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_681_product_template
 msgid "Insurance for members of the internal council and auditor"
-msgstr "İç kurul ve denetçi üyeleri için sigorta"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Insurances analysis"
-msgstr "Sigorta analizleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_729_product_template
 msgid "Internal carpentry maintenance"
-msgstr "Dahili marangozluk bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_806_product_template
 msgid "Internet information communication"
-msgstr "İnternet bilgi iletişimi"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_is_a_property
 msgid "Is a property"
-msgstr "Bir mülktür"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_4_product_template
 msgid "Kick-Off Fees"
-msgstr "Başlangıç Ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:project.project,name:condominium.project_project_4
 msgid "Kick-Off Template"
-msgstr "Başlangıç Şablonu"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Kick-off meeting"
-msgstr "Başlangıç toplantısı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_763_product_template
 msgid "Laundry charges"
-msgstr "Çamaşırhane giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_783_product_template
 msgid "Lawyer fees"
-msgstr "Avukat ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_683_product_template
 msgid "Legal assistance"
-msgstr "Hukuki danışmanlık"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_800_product_template
 msgid "Legal fees for recovering co-owners' arrears"
-msgstr "Kat maliklerinden tahsilat için hukuki masraflar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_700_product_template
 msgid "Maintenance contracts"
-msgstr "Bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Make sure that the products added are recurring."
-msgstr "Eklenen ürünlerin tekrarlayan olduğundan emin olun."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Manage Companies"
-msgstr "Şirketleri Yönet"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.employees_act_window
 msgid "Manage the employees working for this condominium<br>"
-msgstr "Bu müşterek mülkiyet kompleksi için çalışan personeli yönetin<br>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.owners_act_window
 msgid "Manage the owners of this condominium<br>"
-msgstr "Bu müşterek mülkiyet kompleksinin maliklerini yönetin<br>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.vendors_act_window
 msgid "Manage the vendors related to this condominium<br>"
-msgstr "Bu müşterek mülkiyet kompleksiyle ilgili tedarikçileri yönetin<br>"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_796_product_template
 msgid "Meeting consumables"
-msgstr "Toplantı sarf malzemeleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_795_product_template
 msgid "Meeting room usage"
-msgstr "Toplantı odası kullanımı"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_meter_id
 msgid "Meter"
-msgstr "Sayaç"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model,name:condominium.model_meter_reading
 msgid "Meter Reading"
-msgstr "Sayaç Okuması"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_meter_reading_ids
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 msgid "Meter Readings"
-msgstr "Sayaç Okumaları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_724_product_template
 msgid "Meter readings"
-msgstr "Sayaç okumaları"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.action_configuration_meters
 #: model:ir.model,name:condominium.model_meters
 #: model:ir.ui.menu,name:condominium.condo_meters
 msgid "Meters"
-msgstr "Sayaçlar"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Meters reading"
-msgstr "Sayaç okuma"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_665_product_template
 msgid "Miscellaneous expenses"
-msgstr "Muhtelif giderler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_15_product_template
 msgid "Monthly Service Fees"
-msgstr "Aylık Hizmet Bedelleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
 #: model:ir.model.fields,field_description:condominium.name_properties_tags
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Name"
-msgstr "Adı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Name or reference..."
-msgstr "Ad veya referans..."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
 msgid "Name..."
-msgstr "İsim..."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Never forget a task 📑"
-msgstr "Bir görevi asla unutmayın 📑"
+msgstr ""
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_26
 msgid "New"
-msgstr "Yeni"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "New condominiums should be created as companies from the settings"
-msgstr "Yeni kompleksler, ayarlardan şirket olarak oluşturulmalıdır"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_682_product_template
 msgid "Non-professional trustee liability"
-msgstr "Profesyonel olmayan yönetici sorumluluğu"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.notes_buildings
 msgid "Notes"
-msgstr "Notlar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_5_product_template
 msgid "Offboarding"
-msgstr "Ayrılış süreci"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1260,14 +1152,11 @@ msgid ""
 "owners. On the other hand, the service fees can be invoiced by \"My "
 "Condominium Management\" to the owners. Here are the steps to follow:"
 msgstr ""
-"Bir yandan, müşterek mülkiyet kompleksi tarafından maliklere fon talepleri "
-"gönderilir. Öte yandan, hizmet bedelleri “Müşterek Mülkiyet Kompleksi "
-"Yönetimim” tarafından maliklere faturalandırılabilir. İşte izlenecek adımlar:"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_7
 msgid "On-Demand Fees"
-msgstr "Talep Üzerine Ücretler"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1277,10 +1166,6 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Condominium</font></strong> app where"
 " you can:"
 msgstr ""
-"Tamamlandıktan sonra ekranın sağ üst kısmından doğru daireyi seçerek "
-"yapısını oluşturma zamanı gelmiştir. Ardından <strong><font class="
-"\"text-o-color-1\">Müşterek Mülkiyet Kompleksi</font></strong> uygulamasını "
-"açarak şunları yapabilirsiniz:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1288,11 +1173,6 @@ msgid ""
 "Once the quotation is confirmed, it automatically creates <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Projects</font> including several tasks to properly start the collaboration. This is based on the\n"
 "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Kick-Off Template</font> Template project:"
 msgstr ""
-"Teklif onaylandığında, iş birliğini düzgün başlatmak için çeşitli görevler "
-"içeren <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
-">Projeler</font> otomatik olarak oluşturulur. Bu,\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
-">Başlangıç Şablonu</font> proje şablonuna dayanır:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1301,224 +1181,220 @@ msgid ""
 "Basically, a<strong> </strong>condominium is like a company that is funded "
 "by the owners and that has to pay for operating costs."
 msgstr ""
-"Teklif onaylandığında, müşterek mülkiyet kompleksi Odoo’da oluşturulmalıdır. "
-"Basitçe, <strong> </strong>bir müşterek mülkiyet kompleksi, maliklerin "
-"finanse ettiği ve işletme giderlerini karşılamak zorunda olan bir şirket "
-"gibidir."
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_4
 msgid "One-Time Fees"
-msgstr "Tek Seferlik Ücretler"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_view_company_partner
 msgid "Open company partner form view"
-msgstr "Şirket iş ortağı form görünümünü açın"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_7
 msgid "Other"
-msgstr "Diğer"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_733_product_template
 msgid "Other building cleaning"
-msgstr "Diğer bina temizliği"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_731_product_template
 msgid "Other carpentry work"
-msgstr "Diğer marangozluk işleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_695_product_template
 msgid "Other concierge expenses"
-msgstr "Diğer apartman görevlisi giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_790_product_template
 msgid "Other condominium council expenses"
-msgstr "Diğer müşterek mülkiyet kompleksi kurul giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_709_product_template
 msgid "Other electrical installations maintenance"
-msgstr "Diğer elektrik tesisatı bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_775_product_template
 msgid "Other electricity expenses"
-msgstr "Diğer elektrik giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_706_product_template
 msgid "Other elevator charges"
-msgstr "Diğer asansör giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_787_product_template
 msgid "Other fees"
-msgstr "Diğer ücretler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_742_product_template
 msgid "Other garden and immediate surroundings maintenance"
-msgstr "Diğer bahçe ve yakın çevre bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_777_product_template
 msgid "Other gas expenses"
-msgstr "Diğer gaz giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_718_product_template
 msgid "Other heating maintenance"
-msgstr "Diğer ısıtma bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_737_product_template
 msgid "Other household waste / PMC / paper and glass"
-msgstr "Diğer evsel atık / PMC / kağıt ve cam"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_685_product_template
 msgid "Other insurance"
-msgstr "Diğer sigorta"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_801_product_template
 msgid "Other legal fees"
-msgstr "Diğer hukuki masraflar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_809_product_template
 msgid "Other management fees"
-msgstr "Diğer yönetim giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_797_product_template
 msgid "Other meeting expenses"
-msgstr "Diğer toplantı giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_745_product_template
 msgid "Other parking, paths, and surroundings maintenance"
-msgstr "Diğer otopark, yollar ve çevre bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_661_product_template
 msgid "Other personnel expenses"
-msgstr "Diğer personel giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_805_product_template
 msgid "Other property transfer fees"
-msgstr "Diğer mülk devir ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_725_product_template
 msgid "Other sanitary and heating maintenance"
-msgstr "Diğer sıhhi tesisat ve ısıtma bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_676_product_template
 msgid "Other supplies"
-msgstr "Diğer malzemeler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_769_product_template
 msgid "Other supplies for water softener"
-msgstr "Su yumuşatma cihazı için diğer malzemeler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_761_product_template
 msgid "Other swimming pool expenses"
-msgstr "Diğer yüzme havuzu giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_757_product_template
 msgid "Other swimming pool/technical installations maintenance"
-msgstr "Diğer yüzme havuzu/teknik tesisat bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_794_product_template
 msgid "Other trustee expenses"
-msgstr "Diğer yönetici giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_740_product_template
 msgid "Other waste cleaning and treatment"
-msgstr "Diğer atık temizleme ve bertaraf giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_771_product_template
 msgid "Other water expenses"
-msgstr "Diğer su giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_owner_field
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "Owner"
-msgstr "Sahibi"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.owners_act_window
 #: model:ir.ui.menu,name:condominium.owners_menu
 #: model:ir.ui.menu,name:condominium.owners_owners_menu
 msgid "Owners"
-msgstr "Sahipleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_parent_field
 msgid "Parent"
-msgstr "Üst"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_parent_account_analytic_account_count
 msgid "Parent count"
-msgstr "Üst öğe sayısı"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_6
 msgid "Parking"
-msgstr "Otopark"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_21
 msgid "Parking CP"
-msgstr "Otopark CP"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_744_product_template
 msgid "Parking, paths, and surroundings maintenance under contract"
-msgstr "Sözleşmeli otopark, yol ve çevre bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_746_product_template
 msgid "Parking, paths, and surroundings renovation works"
-msgstr "Otopark, yol ve çevre yenileme çalışmaları"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.partner_company_ids
 msgid "Partner's Companies"
-msgstr "Partnerin Şirketleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_price
 msgid "Price"
-msgstr "Fiyat"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_pricelist_field
 msgid "Pricelist"
-msgstr "Fiyat Listesi"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_666_product_template
 msgid "Private expenses"
-msgstr "Özel giderler"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.plan,name:condominium.account_analytic_plan_2
@@ -1533,77 +1409,77 @@ msgstr "Özel giderler"
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Properties"
-msgstr "Özellikler"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.properties_tags_act_window
 #: model:ir.model,name:condominium.model_properties_tags
 msgid "Properties Tags"
-msgstr "Mülk Etiketleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.property_types_act_window
 #: model:ir.model,name:condominium.model_properties_types
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
 msgid "Properties Types"
-msgstr "Mülk Türleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Properties creation in Odoo (see <em>Know the stakeholders 🔎</em> section)"
-msgstr "Odoo’da mülk oluşturma (bkz. <em>Paydaşları Tanıyın 🔎</em> bölümü)"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_account_analytic_account
 #: model:ir.model.fields,field_description:condominium.x_property_field
 msgid "Property"
-msgstr "Mülk"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Property Owner Association"
-msgstr "Mülk Sahipleri Derneği"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_807_product_template
 msgid "Property accession fees"
-msgstr "Mülk katılım bedelleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_is_a_property_plan
 msgid "Property plan"
-msgstr "Mülk planı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Provide the best customer service 🆘"
-msgstr "En iyi müşteri hizmetini sunun 🆘"
+msgstr ""
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.purchase_menu
 msgid "Purchase"
-msgstr "Satınalma"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_quantity
 msgid "Quantity"
-msgstr "Miktar"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Quickly set up a condominium 🚀"
-msgstr "Hızlıca bir müşterek mülkiyet kompleksi oluşturun🚀"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_730_product_template
 msgid "Railings and terrace separation partitions"
-msgstr "Korkuluklar ve teras ayırma panelleri"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_ratio_field
 msgid "Ratio"
-msgstr "Oran"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.ratios_act_window
@@ -1612,27 +1488,27 @@ msgstr "Oran"
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_for_x_ratios
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Ratios"
-msgstr "Oranlar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_764_product_template
 msgid "Recreational charges (playgrounds, tennis, fitness, billiards, etc.)"
-msgstr "Eğlence giderleri (çocuk parkları, tenis, fitness, bilardo vb.)"
+msgstr ""
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_5
 msgid "Recurring Fees"
-msgstr "Düzenli Ücretler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_672_product_template
 msgid "Renovation work"
-msgstr "Yenileme çalışmaları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_14_product_template
 msgid "Reserve Fund"
-msgstr "Yedek Fon"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1640,49 +1516,47 @@ msgid ""
 "Reserve Fund: to collect all the money that will be used in case of "
 "exceptional expense."
 msgstr ""
-"Yedek Fon: Olağanüstü gider durumlarında kullanılacak tüm paranın toplandığı "
-"fondur."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_662_product_template
 msgid "Retirement and survivor pensions"
-msgstr "Emeklilik ve dul-yetim aylıkları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_699_product_template
 msgid "Reversals (provisions)"
-msgstr "Karşılık iptalleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_751_product_template
 msgid "Roof maintenance"
-msgstr "Çatı bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_658_product_template
 msgid "Salaries and direct social benefits"
-msgstr "Maaşlar ve doğrudan sosyal yardımlar"
+msgstr ""
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.owners_sales_menu
 msgid "Sales"
-msgstr "Satış"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.sale_order_button_action
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Sales Orders"
-msgstr "Satış Siparişleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Schedule the meetings 📅"
-msgstr "Toplantıları planlayın 📅"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_11_product_template
 msgid "Second Reminder"
-msgstr "İkinci Hatırlatma"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1690,8 +1564,6 @@ msgid ""
 "See the information of the condominium and fill the vendors to build an "
 "address book."
 msgstr ""
-"Kompleks bilgilerini görüntüleyin ve bir adres defteri oluşturmak için "
-"tedarikçileri ekleyin."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1700,9 +1572,6 @@ msgid ""
 "<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
 "company)."
 msgstr ""
-"Ücretlerin faturalandırılacağı doğru şirketi seçin (<em>Hızla bir müşterek "
-"mülkiyet kompleksi oluştur 🚀</em> bölümünden şirket değiştirme yöntemini "
-"görebilirsiniz)."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
@@ -1710,149 +1579,149 @@ msgstr ""
 #: model:ir.model.fields,field_description:condominium.sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_properties_types
 msgid "Sequence"
-msgstr "Sıralama"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_3_product_template
 msgid "Service Fees"
-msgstr "Hizmet Ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_set_usage_meter_reading
 msgid "Set Usage in Meter Readings"
-msgstr "Sayaç Okumalarında Kullanımı Ayarlama"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the recurring plan start date."
-msgstr "Düzenli planın başlangıç tarihini belirleyin."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the right (recurring) price."
-msgstr "Doğru (düzenli) ücreti belirleyin."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the right distribution key."
-msgstr "Doğru dağıtım anahtarını belirleyin."
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_798_product_template
 msgid "Simultaneous translation for meetings"
-msgstr "Toplantılar için simultane çeviri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Some tags to add extra visual information."
-msgstr "Ek görsel bilgi eklemek için bazı etiketler."
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.source_sales_order_field
 msgid "Source Sales Order"
-msgstr "Kaynak Satış Sipariş "
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.source_sales_order
 msgid "Source Sales Order count"
-msgstr "Kaynak Satış Siparişi sayısı"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Split per Owner"
-msgstr "Mülk Sahibi Bazında Ayır"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country_state
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "State"
-msgstr "İl/Eyalet"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_803_product_template
 msgid "Statute modification"
-msgstr "Yönetmelik değişikliği"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.street
 msgid "Street"
-msgstr "Sokak/Cadde"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Street 2..."
-msgstr "Adres 2..."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Street..."
-msgstr "Adres..."
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.street2
 msgid "Street2"
-msgstr "Adres2"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_3
 msgid "Studio"
-msgstr "Studio"
+msgstr ""
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_22
 msgid "Studio CS"
-msgstr "Stüdyo CS"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_671_product_template
 msgid "Study and supervision fees"
-msgstr "Etüt ve denetim ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Sum of Area"
-msgstr "Alan Toplamı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Sum of Ratio"
-msgstr "Oran Toplamı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_675_product_template
 msgid "Supplies to the association"
-msgstr "Derneğe yapılan malzeme tedariki"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_755_product_template
 msgid "Swimming pool inspections"
-msgstr "Yüzme havuzu denetimleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_756_product_template
 msgid "Swimming pool maintenance contracts"
-msgstr "Yüzme havuzu bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_758_product_template
 msgid "Swimming pool product supplies"
-msgstr "Yüzme havuzu ürün tedariki"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_759_product_template
 msgid "Swimming pool supervision"
-msgstr "Yüzme havuzu denetimi"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_760_product_template
 msgid "Swimming pool/technical installations repairs"
-msgstr "Yüzme havuzu/teknik tesisat onarımları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_692_product_template
 msgid "TV distribution for concierge"
-msgstr "Apartman görevlisi için TV dağıtımı"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.tags_buildings
@@ -1860,62 +1729,62 @@ msgstr "Apartman görevlisi için TV dağıtımı"
 #: model:ir.ui.menu,name:condominium.conf_prop_tag_menu
 #: model:ir.ui.menu,name:condominium.conf_tags_menu
 msgid "Tags"
-msgstr "Etiketler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_778_product_template
 msgid "Tank inspections"
-msgstr "Depo denetimleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_779_product_template
 msgid "Tank maintenance"
-msgstr "Depo bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:project.project,label_tasks:condominium.project_project_4
 msgid "Tasks"
-msgstr "Görevler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_663_product_template
 msgid "Taxes and fees"
-msgstr "Vergi ve harçlar"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_687_product_template
 msgid "Telephone - Internet - concierge cell phone"
-msgstr "Telefon - İnternet - apartman görevlisi cep telefonu"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_tenant_field
 msgid "Tenant"
-msgstr "Kiracı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_750_product_template
 msgid "Terrace maintenance"
-msgstr "Teras bakımı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The area."
-msgstr "Alan."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The building to which the property belongs."
-msgstr "Mülkün ait olduğu bina."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The floor."
-msgstr "Kat."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The owner of the property."
-msgstr "Mülk sahibi."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1923,7 +1792,6 @@ msgid ""
 "The parent property, for example to indicate that a garage is linked with an"
 " apartment."
 msgstr ""
-"Bağlı mülk; örneğin bir garajın bir daireye bağlı olduğunu belirtmek için."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1931,24 +1799,21 @@ msgid ""
 "The reserve fund that is a savings account used in case of exceptional "
 "expenses such as a severe repair, an investment in equipment, etc."
 msgstr ""
-"Yedek fon; büyük onarım, ekipman yatırımı gibi olağanüstü giderlerde "
-"kullanılan bir tasarruf hesabıdır."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The services provided by the condominium management company."
 msgstr ""
-"Müşterek mülkiyet kompleksinin yönetim şirketi tarafından sunulan hizmetler."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The tenant if relevant."
-msgstr "Varsa kiracı."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The type to easily classify it."
-msgstr "Kolay sınıflandırma için tür."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1957,8 +1822,6 @@ msgid ""
 "expenses (water, electricity, gas, etc.), insurances, maintenance, repairs, "
 "cleaning of common areas, etc."
 msgstr ""
-"Ortak giderleri (su, elektrik, gaz vb.), sigortaları, bakım, onarım ve ortak "
-"alan temizliğini karşılamak için kullanılan işletme fonu."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1967,107 +1830,104 @@ msgid ""
 "Bills</font></strong> that can be uploaded and automatically filled thanks "
 "to"
 msgstr ""
-"Bunlar, yüklenip otomatik olarak doldurulabilen <strong><font class="
-"\"text-o-color-1\">Tedarikçi Faturaları</font></strong> ödemelerinde "
-"kullanılacaktır. Bu, şu sayede mümkündür:"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_12_product_template
 msgid "Third Reminder"
-msgstr "Üçüncü Hatırlatma"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_11_product_template
 msgid "This does not include the fees from the ushers"
-msgstr "Bu, görevli ücretlerini içermez"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_12_product_template
 msgid "This does not include the fees from the ushers, lawyers, experts, etc."
-msgstr "Bu; görevli, avukat, bilirkişi vb. ücretlerini içermez."
+msgstr ""
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_17
 msgid "To Do"
-msgstr "Yapılacak"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_673_product_template
 msgid "Transformation work"
-msgstr "Dönüşüm çalışmaları"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_789_product_template
 msgid ""
 "Travel expenses for members of the internal council and internal auditor"
-msgstr "İç kurul üyeleri ve iç denetçi için seyahat giderleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_782_product_template
 msgid "Trustee fees"
-msgstr "Yönetici ücretleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_802_product_template
 msgid "Trustee nomination publication"
-msgstr "Yönetici atama ilanı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_791_product_template
 msgid "Trustee office and office supplies"
-msgstr "Yönetici ofisi ve ofis malzemeleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_793_product_template
 msgid "Trustee phone"
-msgstr "Yönetici telefonu"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_792_product_template
 msgid "Trustee stamps"
-msgstr "Yönetici damgaları"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_type_field
 #: model:ir.model.fields,field_description:condominium.x_type_related_field
 #: model:ir.ui.menu,name:condominium.conf_prop_type
 msgid "Type"
-msgstr "Tip"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Type down your notes here..."
-msgstr "Notlarınızı buraya yazın..."
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_usage
 msgid "Usage"
-msgstr "Kullanımı"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "VAT"
-msgstr "VKN/TCKN"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_765_product_template
 msgid "Various controls and monitoring"
-msgstr "Çeşitli kontrol ve gözetimler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_668_product_template
 msgid "Various financial charges"
-msgstr "Çeşitli mali giderler"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_762_product_template
 msgid "Various maintenance contracts"
-msgstr "Çeşitli bakım sözleşmeleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_747_product_template
 msgid "Various works"
-msgstr "Çeşitli işler"
+msgstr ""
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.vendors_act_window
@@ -2075,67 +1935,67 @@ msgstr "Çeşitli işler"
 #: model:ir.ui.menu,name:condominium.purchase_vendor_menu
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Vendors"
-msgstr "Tedarikçiler"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.vendor_company_ids
 msgid "Vendors Companies"
-msgstr "Tedarikçi Şirketler"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.vendor_condominium_ids
 msgid "Vendors Condominiums"
-msgstr "Tedarikçi Müşterek Mülkiyet Kompleksleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_715_product_template
 msgid "Video surveillance"
-msgstr "Video gözetim"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_680_product_template
 msgid "Volunteer insurance"
-msgstr "Gönüllü sigortası"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_739_product_template
 msgid "Waste cleaning and treatment controls"
-msgstr "Atık temizleme ve arıtma kontrolleri"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_719_product_template
 msgid "Water booster maintenance"
-msgstr "Su basınç sistemi bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_767_product_template
 msgid "Water for common areas"
-msgstr "Ortak alanlar için su"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_689_product_template
 msgid "Water for concierge"
-msgstr "Apartman görevlisi için su"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_722_product_template
 msgid "Water pipes maintenance"
-msgstr "Su boruları bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_720_product_template
 msgid "Water softener and water treatment maintenance"
-msgstr "Su yumuşatma ve arıtma sistemi bakımı"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_768_product_template
 msgid "Water softener salt"
-msgstr "Su yumuşatıcı tuz"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_770_product_template
 msgid "Water treatment supplies"
-msgstr "Su arıtma malzemeleri"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2144,39 +2004,36 @@ msgid ""
 "help you manage the condominiums efficiently, from setting up to general "
 "meetings."
 msgstr ""
-"Odoo Kat Malikleri Derneği paketine hoş geldiniz! Bu kılavuz, kurulumdan "
-"genel toplantılara kadar müşterek mülkiyet komplekslerini verimli şekilde "
-"yönetmenize yardımcı olacaktır."
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "Hoş geldiniz! Mutlu keşifler."
+msgstr ""
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_1
 msgid "Wing A"
-msgstr "A Blok"
+msgstr ""
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_4
 msgid "Wing B"
-msgstr "B Blok"
+msgstr ""
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_5
 msgid "Wing C"
-msgstr "C Blok"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_679_product_template
 msgid "Work accident insurance"
-msgstr "İş kazası sigortası"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_13_product_template
 msgid "Working Fund"
-msgstr "İşletme Fonu"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2184,63 +2041,61 @@ msgid ""
 "Working Fund: to collect all the money that will be used to pay the "
 "recurring fees."
 msgstr ""
-"İşletme Fonu: Düzenli giderlerin ödenmesi için toplanan tüm paranın "
-"bulunduğu fondur."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.zip
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "ZIP"
-msgstr "PK"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "e.g. Apartment"
-msgstr "örn. Daire"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_kanban_view
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "e.g. Apartment A0"
-msgstr "örn. Daire A0"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "e.g. John Smith"
-msgstr "örn. John Smith"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Accounting"
-msgstr "🎓 Muhasebe"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Companies"
-msgstr "🎓 Şirketler"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Helpdesk"
-msgstr "🎓 Yardım Masası"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Quotation Template"
-msgstr "🎓 Fiyat Teklif Şablonu"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Sales"
-msgstr "🎓 Satış"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Spreadsheet"
-msgstr "🎓 Elektronik Çizelge"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Subscription"
-msgstr "🎓 Abonelik"
+msgstr ""

@@ -1,29 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * automobile
+# 	* automobile
 #
-# Translators:
-# Wil Odoo, 2024
-# ILMIR <karamov@it-projects.info>, 2024
-# Ilya Rozhkov, 2025
-# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 10:20+0000\n"
-"PO-Revision-Date: 2025-08-15 22:20+0000\n"
-"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
-"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
-"automobile/ru/>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2024-10-08 10:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
-"n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: \n"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -31,8 +21,6 @@ msgid ""
 "1. Create an RFQ for the Vendor and Select the Products than sent RFQ via "
 "e-mail."
 msgstr ""
-"1. Создайте запрос цен для поставщика, выберите товары и отправьте запрос по "
-"электронной почте."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -40,12 +28,6 @@ msgid ""
 "1.For the B2B Sales we will use the normal process of the sales create the quotation than select the products and sent an quotation and after the negotiation via e-mail after the negotiation you can confirmed the quotation than your\n"
 "            so will be confirmed after delivery will be generated at the time of delivery user need to validate the delivery.<br/>"
 msgstr ""
-"1.Для B2B-продаж используется стандартный процесс: создается коммерческое "
-"предложение, выбираются товары, КП отправляется клиенту, после переговоров "
-"по e-mail КП подтверждается. После \n"
-"            подтверждения формируется заказ на продажу, а при отгрузке "
-"создается документ доставки, который необходимо подтвердить пользователю.<br/"
-">"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -54,8 +36,6 @@ msgid ""
 " user will add the products which products want to buy customer and take "
 "payment of that product.<br/>"
 msgstr ""
-"1.Для B2C-продаж используется модуль POS. Покупатель приходит в магазин, "
-"продавец добавляет нужные товары в заказ и принимает оплату.<br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -63,8 +43,6 @@ msgid ""
 "2. After the Negotiation via e-mail put the price of the product and confirm"
 " the RFQ than your PO will be confirmed."
 msgstr ""
-"2. После переговоров по e-mail укажите цену товара и подтвердите запрос на "
-"котировку. После этого заказ на закупку будет подтвержден."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -76,18 +54,6 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
-"2. Если вы хотите вести учет гарантий, включите партии и серийные номера для "
-"соответствующих товаров, а в карточке товара активируйте срок годности. "
-"Укажите гарантийный срок в днях в поле\n"
-"            <span style=\"color: rgb(17, 24, 39); font-size: 14px; font-"
-"style: normal; font-weight: 500; background-color: rgb(255, 255, 255);\">«"
-"Срок годности» </span>\n"
-"            <span style=\"background-color: rgb(255, 255, 255);\">\n"
-"                <font color=\"#111827\">При отгрузке срок годности "
-"автоматически проставится в партии или серийном номере в соответствующем "
-"поле..</font>\n"
-"            </span>\n"
-"            <br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -95,11 +61,6 @@ msgid ""
 "3. After confirming the PO Receipt will be generated based on the received quantity you have add that quantities in to the Done quantities and if some products have Lot  &amp; Serial no. than at the time of validating receipt you have to\n"
 "            provide the lot  &amp; Serial No."
 msgstr ""
-"3. После подтверждения заказа на покупку формируется приход. На вкладке «"
-"Фактически получено» нужно вручную указать фактическое количество. Если "
-"товар имеет партию или серийный номер, при подтверждении приходного ордера "
-"необходимо\n"
-"            указать их."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -108,9 +69,6 @@ msgid ""
 "brands, in this product is supported for which brand so it will be useful at"
 " that time."
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\">Марки</font> : новое поле, "
-"указывающее, для каких марок автомобилей подходит данный товар. Это удобно "
-"при подборе запчастей."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -119,8 +77,6 @@ msgid ""
 "Bar-code field label. The reason behind is the every product have one common"
 " code globally.<br/>"
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\">Код EAN/UPC:</font> переименование "
-"поля «Штрихкод», так как у каждого товара есть единый международный код.<br/>"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -128,11 +84,6 @@ msgid ""
 "<font style=\"color: rgb(255, 156, 0);\">OEM No</font> : new field for the Original Equipment Manufacturer, If the product is manufactured by the company whose parts used in the manufacture the vehicle so if the part is original than\n"
 "            that part has OEM No."
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\">OEM-номер</font> : новое поле для "
-"номера оригинального производителя оборудования (Original Equipment "
-"Manufacturer). Используется, если товар произведен компанией, чьи запчасти "
-"входят в сборку автомобиля. Если запчасть оригинальная, то\n"
-"            у нее должен быть OEM-номер."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -141,44 +92,41 @@ msgid ""
 " field name from the Internal Reference because in this industry they called"
 " a Part Number."
 msgstr ""
-"<font style=\"color: rgb(255, 156, 0);\">Номер детали</font> : заменяет "
-"стандартное поле «Внутренний код», так как в автомобильной отрасли принято "
-"использовать термин «Номер детали»."
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_13
 msgid "AC Compressor"
-msgstr "Компрессор кондиционера"
+msgstr ""
 
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_x_brands_x_active
 msgid "Active"
-msgstr "Активный"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_8
 msgid "Air Filter"
-msgstr "Воздушный фильтр"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.view_x_brands_search
 msgid "Archived"
-msgstr "Архивировано"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Automobile Spare parts Trading"
-msgstr "Торговля автозапчастями"
+msgstr ""
 
 #. module: automobile
 #: model:product.pricelist,name:automobile.product_pricelist_2
 msgid "B2B Price list"
-msgstr "Прайс-лист B2B"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute,name:automobile.product_attribute_1
 msgid "Brand"
-msgstr "Бренд"
+msgstr ""
 
 #. module: automobile
 #: model:ir.actions.act_window,name:automobile.action_brands
@@ -188,27 +136,27 @@ msgstr "Бренд"
 #: model_terms:ir.ui.view,arch_db:automobile.product_template_only_form_view_inherit_automobile
 #: model_terms:ir.ui.view,arch_db:automobile.view_x_brands_form
 msgid "Brands"
-msgstr "Производители"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Business Flows"
-msgstr "Бизнес-процессы"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "By default we can use the B2C Pricelist for the Retail Customer."
-msgstr "По умолчанию для розничных покупателей используется прайс-лист B2C."
+msgstr ""
 
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_x_brands_x_color
 msgid "Color"
-msgstr "Цвет"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Configuration"
-msgstr "Конфигурация"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.actions.act_window,help:automobile.action_brands
@@ -218,109 +166,109 @@ msgstr ""
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_x_brands_x_name
 msgid "Description"
-msgstr "Описание"
+msgstr ""
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_10
 msgid "Drum Brake"
-msgstr "Барабанный тормоз"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_6
 msgid "Engine"
-msgstr "Двигатель"
+msgstr ""
 
 #. module: automobile
 #: model:ir.actions.server,name:automobile.update_the_warranty__f6563e1c-89cd-4350-b2c5-0558e726fded
 msgid "Execute Code"
-msgstr "Выполнить код"
+msgstr ""
 
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_stock_move_line_x_expiry_date
 #: model:ir.model.fields,field_description:automobile.field_stock_move_x_expiry_date
 #: model_terms:ir.ui.view,arch_db:automobile.view_stock_move_line_detailed_operation_tree_inherit_automobile
 msgid "Expiry Date"
-msgstr "Срок годности"
+msgstr ""
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_12
 msgid "Filter"
-msgstr "Фильтр"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Flow 1: Purchase"
-msgstr "Сценарий 1: Закупка"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Flow 1: Purchase<br/>"
-msgstr "Сценарий 1: Закупка<br/>"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Flow 2: B2B Customer"
-msgstr "Сценарий 2: клиент B2B"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Flow 2: B2B Customer<br/>"
-msgstr "Сценарий 2: клиент B2B<br/>"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Flow 3: B2C Customer : Point of Sale"
-msgstr "Сценарий 3: клиент B2C – продажа через POS"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Flow 3: B2C Customer : Point of Sale<br/>"
-msgstr "Сценарий 3: клиент B2C – продажа через POS<br/>"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_2
 msgid "Ford"
-msgstr "Ford"
+msgstr ""
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_9
 msgid "Front Brake Pads"
-msgstr "Передние тормозные колодки"
+msgstr ""
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_8
 msgid "Gift Card"
-msgstr "Подарочная карта"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_3
 msgid "KIA"
-msgstr "KIA"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_4
 msgid "MG"
-msgstr "MG"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.view_x_brands_form
 msgid "Name..."
-msgstr "Название..."
+msgstr ""
 
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_product_template_x_oem_no
 msgid "OEM No."
-msgstr "OEM-номер"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_7
 msgid "Oil Filter"
-msgstr "Масляный фильтр"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.product_template_only_form_view_inherit_automobile
 msgid "Part Number"
-msgstr "Артикул запчасти"
+msgstr ""
 
 #. module: automobile
 #: model:product.template,name:automobile.product_template_11
@@ -330,12 +278,12 @@ msgstr ""
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_x_brands_x_sequence
 msgid "Sequence"
-msgstr "Последовательность"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_5
 msgid "TATA"
-msgstr "TATA"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -343,8 +291,6 @@ msgid ""
 "They use the Point of Sale application, Inventory for managing the stocks, "
 "Sales, Purchase and Accounting for the smooth operations."
 msgstr ""
-"Используются модули: POS, Склад, Продажи, Закупки и Бухгалтерия – для "
-"бесперебойной работы компании."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -352,42 +298,38 @@ msgid ""
 "This set-up is for the automobile trading companies selling to the customers. The Automobile spare parts business have the more number of items for the various car brands and the parts for the Engine, Maintenance and accessorises\n"
 "            etc."
 msgstr ""
-"Этот функционал предназначен для автоторговых компаний, продающих запчасти "
-"клиентам. В торговле автозапчастями обычно широкий ассортимент для разных "
-"марок автомобилей: детали двигателя, расходники, аксессуары и\n"
-"            т. п."
 
 #. module: automobile
 #: model:product.attribute.value,name:automobile.product_attribute_value_1
 msgid "Toyota"
-msgstr "Toyota"
+msgstr ""
 
 #. module: automobile
 #: model:product.attribute,name:automobile.product_attribute_2
 msgid "Type"
-msgstr "Тип"
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.product_template_only_form_view_inherit_automobile
 msgid "UPC / EAN Code"
-msgstr "Код UPC / EAN"
+msgstr ""
 
 #. module: automobile
 #: model:base.automation,name:automobile.update_the_warranty
 msgid "Update the Warranty Date"
-msgstr "Обновить дату окончания гарантии"
+msgstr ""
 
 #. module: automobile
 #: model:ir.model.fields,field_description:automobile.field_stock_move_line_x_warranty_date
 msgid "Warranty Date"
-msgstr "Срок гарантии"
+msgstr ""
 
 #. module: automobile
 #: model_terms:web_tour.tour,rainbow_man_message:automobile.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "Добро пожаловать! Приятного изучения."
+msgstr ""
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "for B2B customer we can use the B2B Price list (B2B Price list)"
-msgstr "для B2B-клиентов можно использовать прайс-лист B2B (прайс-лист B2B)"
+msgstr ""
