@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-01 07:03+0000\n"
-"PO-Revision-Date: 2025-08-06 14:50+0000\n"
+"PO-Revision-Date: 2025-08-15 23:11+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s18-4/"
 "furniture_store/ar/>\n"
@@ -113,6 +113,8 @@ msgid ""
 " need to enable the \"Locations\" setting in your Inventory configurations "
 "to use this feature.)"
 msgstr ""
+"<b>قم بإضافة مواقع محددة</b> داخل المستودع حسب الحاجة. (ستحتاج أولاً إلى "
+"تمكين إعداد ”المواقع“ في إعدادات المخزون لاستخدام هذه الخاصية.)"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -125,6 +127,7 @@ msgid ""
 "<b>Confirm it.</b> Odoo will automatically generate a <b>receipt</b> for the"
 " incoming products."
 msgstr ""
+"<b>قم بالتأكيد.</b> سيقوم أودو تلقائيًا بإنشاء <b>إيصال</b> للمنتجات الواردة."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -155,6 +158,8 @@ msgid ""
 "<b>Leverage Social Marketing</b> to effectively promote your new arrivals "
 "and reach a wider audience."
 msgstr ""
+"<b>استفد من التسويق الاجتماعي</b> للترويج الفعال لمنتجاتك الجديدة والوصول "
+"إلى جمهور أوسع."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -458,6 +463,9 @@ msgid ""
 "manage your <b>stock levels</b>, handle <b>deliveries</b>, and process "
 "<b>returns</b>.</span><span class=\"h2-fs\"/><br/>"
 msgstr ""
+"<span class=\"h6-fs\">من <b>تطبيق المخزون</b>، يمكنك إدارة <b>مستويات "
+"المخزون</b> بسهولة، والتعامل مع <b>عمليات التسليم</b>، ومعالجة <b>عمليات "
+"الإرجاع</b>.</span><span class=\"h2-fs\"/><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -466,6 +474,9 @@ msgid ""
 "minimum stock level per product, process order make the follow "
 "up</span><span class=\"h2-fs\"/><br/>"
 msgstr ""
+"<span class=\"h6-fs\">من <b>تطبيق المشتريات </b>، يمكنك تحديد الحد الأدنى "
+"لمستوى المخزون لكل منتج، ومعالجة الطلبات ومتابعتها</span><span class="
+"\"h2-fs\"/><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -473,6 +484,9 @@ msgid ""
 "<span class=\"h6-fs\">Welcome to the <strong><font style=\"color: rgb(113, "
 "75, 103);\">Odoo Furniture Store package</font></strong>!</span>"
 msgstr ""
+"<span class=\"h6-fs\">مرحبًا بك في <strong><font style="
+"\"color: rgb(113, 75, 103);\">باقة متجر الأثاث لدى "
+"أودو</font></strong></span>!"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -482,6 +496,9 @@ msgid ""
 "display, and processing e-commerce click &amp; collect orders.</span><span "
 "class=\"h2-fs\"/><br/>"
 msgstr ""
+"<span class=\"h6-fs\">نقطة البيع (PoS) هي مركزك الرئيسي للتعامل مع جميع "
+"المعاملات داخل المتجر وإدارة إعداد الطلبات وعرضها ومعالجة طلبات التسوق "
+"الإلكتروني والنقر والاستلام."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -568,6 +585,8 @@ msgid ""
 "And there's <b>much more</b>! Odoo's flexibility allows you to adapt your "
 "system to nearly any specific requirement."
 msgstr ""
+"وهناك <b>المزيد</b>! تتيح لك مرونة أودو تكييف نظامك مع أي متطلبات محددة "
+"تقريبًا."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -871,6 +890,8 @@ msgid ""
 "If the customer wants home delivery, <b>check \"Ship later\" and choose the "
 "delivery date.</b>"
 msgstr ""
+"إذا كان العميل يرغب في التوصيل إلى المنزل، <b>حدد خيار ”الشحن لاحقًا” ثم حدد "
+"تاريخ التوصيل.</b>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -964,6 +985,8 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to <b>manage your "
 "entire business from your phone</b>.<br/>"
 msgstr ""
+"أودو مدمج تمامًا في تطبيق واحد. قم بتنزيله <b>لإدارة أعمالك بالكامل عبر هاتفك "
+"المحمول</b>.<br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -971,6 +994,8 @@ msgid ""
 "Odoo offers a complete solution to enhance efficiency and improve customer "
 "satisfaction across all your furniture store services."
 msgstr ""
+"يقدم أودو حلاً متكاملاً لتعزيز الكفاءة وتحسين رضا العملاء في جميع خدمات متجر "
+"الأثاث الخاص بك."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -994,7 +1019,7 @@ msgstr ""
 msgid ""
 "Open the <b>Point of Sale App</b> and start a session from your furniture "
 "store."
-msgstr ""
+msgstr "افتح <b>تطبيق نقطة البيع</b> وابدأ جلسة جديدة من متجر الأثاث الخاص بك."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1182,7 +1207,7 @@ msgstr "الجداول "
 msgid ""
 "The <b>\"Note\" button</b> is where you can add special instructions for the"
 " preparation team."
-msgstr ""
+msgstr "يمكنك استخدام زر <b>”ملاحظة“</b> لإضافة تعليمات خاصة لفريق التحضير."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1199,6 +1224,9 @@ msgid ""
 "style=\"color: rgb(113, 75, 103);\">App</font></strong> helps you connect "
 "with customers and craft personalized promotions."
 msgstr ""
+"يساعدك تطبيقا <strong> <font class=\"text-o-color-1\">إدارة علاقات العملاء "
+"&amp;والمبيعات </font><font style=\"color: rgb(113, 75, 103);\"></font></"
+"strong> على التواصل مع العملاء وتصميم عروض ترويجية مخصصة."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1207,6 +1235,9 @@ msgid ""
 "rgb(113, 75, 103);\">Inventory App</font></strong> keeps tabs on your stock "
 "levels, customer returns, and incoming deliveries."
 msgstr ""
+"يتيح لك <strong>تطبيق إدارة المخزون<font class=\"text-o-color-1\">​</"
+"font><font style=\"color: rgb(113, 75, 103);\"></font></strong> مراقبة "
+"مستويات المخزون والمرتجعات من العملاء والطلبات الواردة."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1215,6 +1246,9 @@ msgid ""
 "style=\"color: rgb(113, 75, 103);\"> App</font></strong> assists with "
 "restocking your products and managing supplier orders."
 msgstr ""
+"يساعدك <strong><font class=\"text-o-color-1\">تطبيق</font><font style="
+"\"color: rgb(113, 75, 103);\"> المشتريات</font></strong> على إعادة تخزين "
+"منتجاتك وإدارة طلبات الموردين."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1223,6 +1257,9 @@ msgid ""
 "(PoS)</font></strong> manages all your in-store activities and handles "
 "online \"click and collect\" orders."
 msgstr ""
+"يُدير تطبيق <strong><font style=\"color: rgb(113, 75, 103);\">نقطة البيع "
+"(PoS)</font></strong> كافة أنشطتك داخل المتجر ويتولى معالجة الطلبات التي تتم "
+"عبر الإنترنت بنظام \"النقر والاستلام\"."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1237,6 +1274,9 @@ msgid ""
 "streamlining product sales, customer orders, and the management of both in-"
 "store inventory and your website's online catalog."
 msgstr ""
+"يحسن هذا التطبيق كفاءة عمليات متجر الأثاث اليومية من خلال تبسيط المبيعات "
+"وطلبات العملاء وإدارة المخزون في المتجر والكتالوج الإلكتروني على الموقع "
+"الإلكتروني."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -1264,6 +1304,8 @@ msgid ""
 "can execute the following flows and configure the settings to suit your "
 "furniture store."
 msgstr ""
+"لمعرفة المزيد عن عمليات هذه الباقة التي تقدمها أودو، يمكنك تنفيذ الخطوات "
+"التالية وتهيئة الإعدادات لتناسب متجر الأثاث الخاص بك."
 
 #. module: furniture_store
 #: model_terms:product.public.category,website_description:furniture_store.product_public_category_4
@@ -1345,6 +1387,10 @@ msgid ""
 "                                                                and effective solutions to ensure\n"
 "                                                                your satisfaction."
 msgstr ""
+"نحن ملتزمون بتقديم حلول سريعة\n"
+"                                                                وفعالة "
+"لضمان\n"
+"                                                                رضاكم."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1408,7 +1454,7 @@ msgstr "هل ترغب في مناقشة إعدادات أودو معنا أو ت
 msgid ""
 "You can <b>show the order's progress on a screen</b> for your customers to "
 "see!"
-msgstr ""
+msgstr "يمكنك <b>عرض تقدم الطلب على الشاشة</b> لكي يراه عملاؤك!"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1433,6 +1479,8 @@ msgid ""
 "quantity. Odoo will automatically generate a backorder for any remaining "
 "items.<b/><br/>"
 msgstr ""
+"يمكنك معالجة <strong>التسليمات الجزئية </strong>عن طريق تعديل الكمية. سيقوم "
+"أودو تلقائيًا بإنشاء طلب مؤجل لأي عناصر متبقية.<b/><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1441,6 +1489,8 @@ msgid ""
 " App</strong> if you're using a <strong>mobile device or "
 "scanner.</strong><b/><br/>"
 msgstr ""
+"يمكنك معالجة كافة معاملات المخزون مباشرة من <strong>تطبيق الباركود</strong> "
+"إذا كنت تستخدم <strong>جهازاً محمولاً أو ماسحاً ضوئياً.</strong><b/><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -1476,6 +1526,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Library package and select the relevant checkbox"
 msgstr ""
+"لم تقم باستيراد البيانات التجريبية؟ لا يزال الخيار متاحاً أمامك. اذهب إلى "
+"التطبيقات > قطاعات الأعمال > ترقية باقة المكتبات، ثم حدد خانة الاختيار "
+"المناسبة."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1489,6 +1542,11 @@ msgid ""
 "                                                message is displayed because you did not provide\n"
 "                                                both a filter and a template to use.<br/>"
 msgstr ""
+"سيتم عرض القصاصة الديناميكية الخاصة بك هنا...\n"
+"                                                يتم عرض هذه الرسالة لأنك لم "
+"توفر\n"
+"                                                كل من الفلتر والقالب "
+"المطلوبين."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244

@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 17:53+0000\n"
-"PO-Revision-Date: 2025-08-07 08:43+0000\n"
+"PO-Revision-Date: 2025-08-15 23:11+0000\n"
 "Last-Translator: \"Rasareeyar Lappiam (rlap)\" <rlap@odoo.com>\n"
 "Language-Team: Thai <https://translate.odoo.com/projects/odoo-s18-4/"
 "event_management/th/>\n"
@@ -33,6 +33,11 @@ msgid ""
 "we transform ideas into seamless, stress-free events that inspire and "
 "connect."
 msgstr ""
+"&amp;nbsp;เราคือทีมงานที่เต็มไปด้วยความชื่นชอบในงานอีเวนต์ ผู้เชี่ยวชาญในการออกแบบ วางแผน "
+"และบริหารจัดการประสบการณ์สุดพิเศษให้กับทั้งธุรกิจและบุคคลทั่วไป "
+"ไม่ว่าจะเป็นงานกาล่าดินเนอร์สำหรับองค์กร หรือรีทรีทสร้างทีมสุดประทับใจ "
+"เราพร้อมเปลี่ยนทุกไอเดียให้กลายเป็นงานอีเวนต์ที่ราบรื่น ไร้กังวล "
+"และเต็มไปด้วยแรงบันดาลใจที่เชื่อมโยงทุกคนเข้าด้วยกัน"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.ir_ui_view_3936
@@ -257,6 +262,10 @@ msgid ""
 "with live music, media coverage, and personalized gifting. It was a night to"
 " remember and the press loved it.&amp;nbsp;\"</span>"
 msgstr ""
+"<span class=\"h4-fs\">\"การเปิดตัวผลิตภัณฑ์ดูแลผิวไลน์ใหม่ของเรา "
+"ต้องให้ความรู้สึกหรูหราและเป็นกันเอง ทีมงานได้เปลี่ยนดาดฟ้าให้กลายเป็นเลานจ์สวนสุดหรู พร้อมดนตรี"
+"สด การรายงานข่าวจากสื่อ และของขวัญสุดพิเศษสำหรับแขกแต่ละคน ค่ำคืนนั้นช่างน่าจดจำ "
+"และสื่อก็ประทับใจมาก&amp;nbsp;\"</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -276,6 +285,10 @@ msgid ""
 "like clockwork. Our team came back energized and closer than "
 "ever.&amp;nbsp;\"</span>"
 msgstr ""
+"<span class=\"h4-fs\">เราต้องการจัดรีทรีตเพื่อสร้างความเป็นหนึ่งเดียวให้กับทีมที่กำลังเติ"
+"บโตของเรา พวกเขาจัดทริปพักผ่อนบนภูเขา 3 วันอย่างน่าประทับใจ มีทั้งเวิร์กช็อป กิจกรรมต่างๆ "
+"และเซอร์ไพรส์ค่ำคืนรอบกองไฟ ทุกอย่างดำเนินไปอย่างราบรื่น "
+"ทีมของเรากลับมาอย่างเต็มไปด้วยพลังและใกล้ชิดกันมากยิ่งขึ้น&amp;nbsp;\"</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1128,6 +1141,9 @@ msgid ""
 "evening. Whether you're here to network, relax, or just dance a little — "
 "everyone’s welcome! 🥂"
 msgstr ""
+"ดื่มด่ำกับ <strong>วิวพระอาทิตย์ตกบนดาดฟ้า</strong> พร้อมค็อกเทลสดชื่น อาหารจากฟู้ดทรัค "
+"และเสียงเพลงจากดีเจที่จะสร้างบรรยากาศสนุกตลอดค่ำคืน ไม่ว่าคุณจะมาเพื่อพบปะสังสรรค์ พักผ่อน "
+"หรือสนุกไปกับการเต้นรำ — ทุกคนที่นี่ยินดีต้อนรับ! 🥂"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1397,6 +1413,9 @@ msgid ""
 "above to display a dashboard on your Project page. This gives you a clear "
 "view of costs and revenues to see how profitable each event is."
 msgstr ""
+"หากต้องการติดตามความคุ้มค่าของแต่ละโปรเจ็กต์ "
+"เพียงใช้ปุ่มตัวกรองเดียวกับด้านบนเพื่อแสดงแดชบอร์ดบนหน้าโปรเจ็กต์ของคุณ "
+"คุณจะเห็นภาพรวมของต้นทุนและรายรับได้อย่างชัดเจน ว่าแต่ละงานสร้างกำไรได้มากน้อยเท่าไร"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2562,6 +2581,9 @@ msgid ""
 " it again. Just set it in the <strong>\"Rental\"</strong> tab for each "
 "product."
 msgstr ""
+"คุณสามารถใช้ฟีเจอร์ <strong>เวลาเผื่อ</strong> เพื่อเพิ่มชั่วโมงพิเศษก่อนหรือหลังการเช่า เช่น "
+"หากต้องการเวลาในการทำความสะอาดเต็นท์ก่อนปล่อยเช่าอีกครั้ง เพียงตั้งค่าที่แท็บ <strong>"
+"\"การเช่า\"</strong> ของแต่ละสินค้า"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
