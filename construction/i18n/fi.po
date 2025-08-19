@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-01 16:32+0000\n"
-"PO-Revision-Date: 2025-08-06 14:50+0000\n"
+"PO-Revision-Date: 2025-08-13 23:11+0000\n"
 "Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-4/"
 "construction/fi/>\n"
@@ -34,22 +34,22 @@ msgstr ""
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
 msgid "10kW reversible system"
-msgstr ""
+msgstr "10kW käänteinen järjestelmä"
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "30% deposit, 40% midpoint, 30% on completion"
-msgstr ""
+msgstr "30% ennakkomaksu, 40% puolessa välissä, 30%, kun valmis"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_45
 msgid "300L electric tank"
-msgstr ""
+msgstr "300L sähköllä toimiva säiliö"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_55
 msgid "3m aluminum sliding doors"
-msgstr ""
+msgstr "3m alumiiniset liukuovet"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -110,7 +110,7 @@ msgstr "<strong><span class=\"h2-fs\">Myy tuotesarjoja 🔩</span></strong>"
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "<strong>Terms</strong>"
-msgstr ""
+msgstr "<strong>Ehdot</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -241,7 +241,7 @@ msgstr "Perustiedot"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_35
 msgid "Bathroom/kitchen ventilation"
-msgstr ""
+msgstr "Kylpyhuoneen/keittiön ilmanvaihto"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_34
@@ -280,7 +280,7 @@ msgstr "Osaluettelot"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_16
 msgid "Bollards & installation"
-msgstr ""
+msgstr "Tolpat ja asennus"
 
 #. module: construction
 #: model:product.template,name:construction.product_product_5_product_template
@@ -295,12 +295,12 @@ msgstr "Peruttu"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_31
 msgid "Ceilings, walls, doors"
-msgstr ""
+msgstr "Katot, seinät, ovet"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_49
 msgid "Cement screed for restaurant"
-msgstr ""
+msgstr "Sementtitasoite ravintolaan"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -310,12 +310,12 @@ msgstr "Keskitä kaikki tärkeät tiedot 📝"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_51
 msgid "Clay tiles, waterproofing"
-msgstr ""
+msgstr "Savilaatat, vedeneristys"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_25
 msgid "Cold room + fridge units"
-msgstr ""
+msgstr "Kylmähuone + jääkaappiyksiköt"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_2
@@ -326,12 +326,12 @@ msgstr "Viestintä"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_23
 msgid "Concrete + rail"
-msgstr ""
+msgstr "Betoni + kaide"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_2
 msgid "Concrete Mixer Truck"
-msgstr ""
+msgstr "Betonimyllyauto"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -341,7 +341,7 @@ msgstr "Rakentaminen"
 #. module: construction
 #: model:product.template,name:construction.product_template_16
 msgid "Cooking line"
-msgstr ""
+msgstr "Keittiön työtasot"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -475,12 +475,12 @@ msgstr ""
 #: model:documents.document,name:construction.document_1
 #: model:documents.document,name:construction.document_3
 msgid "First-Floor-Plan.png"
-msgstr ""
+msgstr "First-Floor-Plan.png"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_9
 msgid "Floor & Wall Finishes"
-msgstr ""
+msgstr "Lattia- ja seinäpinnoitteet"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -500,37 +500,37 @@ msgstr "Varasto ➡️ Toimitukset varastostasi tälle tietylle rakennustyömaal
 #. module: construction
 #: model:product.template,name:construction.product_template_10
 msgid "Garden cleanup"
-msgstr ""
+msgstr "Puutarhan siistiminen"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_9
 msgid "Gravel parking"
-msgstr ""
+msgstr "Soraparkki"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_35
 msgid "Guest WCs"
-msgstr ""
+msgstr "Vierasvessa"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_30
 msgid "Guest rooms & corridor"
-msgstr ""
+msgstr "Vierashuoneet ja käytävä"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_25
 msgid "Heat pump"
-msgstr ""
+msgstr "Lämpöpumppu"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_8
 msgid "Heating & Ventilation"
-msgstr ""
+msgstr "Lämmitys ja ilmanvaihto"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_37
 msgid "Hot water system"
-msgstr ""
+msgstr "Lämminvesijärjestelmä"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -643,7 +643,7 @@ msgstr "Laskutusaikataulu"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_48
 msgid "Joint repointing & patching"
-msgstr ""
+msgstr "Yhdistetty saumaus ja paikkaus"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -653,17 +653,17 @@ msgstr "Pidä silmällä materiaaleja 📦"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_10
 msgid "Kitchen Installation"
-msgstr ""
+msgstr "Keittiön asennus"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_59
 msgid "Kitchen and service areas"
-msgstr ""
+msgstr "Keittiö ja palvelualueet"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_36
 msgid "Kitchen plumbing"
-msgstr ""
+msgstr "Keittiön putkityöt"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -677,17 +677,17 @@ msgstr ""
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_38
 msgid "LED lights indoor/outdoor"
-msgstr ""
+msgstr "LED-valot sisä-/ulkotiloihin"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_46
 msgid "Labor & site management"
-msgstr ""
+msgstr "Työvoima- ja työmaahallinta"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_41
 msgid "Labor & supervision"
-msgstr ""
+msgstr "Työ ja valvonta"
 
 #. module: construction
 #: model:product.template,name:construction.product_product_8_product_template
@@ -702,23 +702,23 @@ msgstr "Työ"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_61
 msgid "Labour & Project Follow-up"
-msgstr ""
+msgstr "Työn ja projektin seuranta"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_14
 msgid "Leveling + geotextile"
-msgstr ""
+msgstr "Tasoitus + geotekstiili"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_30
 msgid "Lighting"
-msgstr ""
+msgstr "Valaistus"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_1
 #: model:documents.document,name:construction.documents_document_33
 msgid "Maintenance & Handover"
-msgstr ""
+msgstr "Huolto ja luovutus"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -947,12 +947,12 @@ msgstr "Aloita rakennushankkeet nopeasti 🏗️"
 #: model:documents.document,name:construction.documents_document_29
 #: model:documents.document,name:construction.documents_document_5
 msgid "Quotations & Financials"
-msgstr ""
+msgstr "Tarjoukset ja talous"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_15
 msgid "Ramp"
-msgstr ""
+msgstr "Ramppi"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -976,42 +976,42 @@ msgstr "Uudelleenohjaa sähköpostit osoitteeseen"
 #. module: construction
 #: model:product.template,name:construction.product_template_17
 msgid "Refrigeration"
-msgstr ""
+msgstr "Jäähdytys"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_42
 msgid "Reinforcement beams"
-msgstr ""
+msgstr "Vahvistuspalkit"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_29
 msgid "Restaurant, kitchen, bathrooms"
-msgstr ""
+msgstr "Ravintola, keittiö, kylpyhuoneet"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_53
 msgid "Rock wool 300mm"
-msgstr ""
+msgstr "Teräsvilla 300mm"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_49
 msgid "Roof insulation"
-msgstr ""
+msgstr "Katon eristys"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_48
 msgid "Roof structure repair"
-msgstr ""
+msgstr "Kattorakenteiden korjaus"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_3
 msgid "Roofing & Insulation"
-msgstr ""
+msgstr "Katon asennus ja eristys"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_26
 msgid "Room radiators"
-msgstr ""
+msgstr "Huoneen patterit"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_folder_12
@@ -1023,12 +1023,12 @@ msgstr "S00001 - VDK projekti"
 #: model:documents.document,name:construction.documents_document_23
 #: model:project.project,name:construction.project_project_7
 msgid "S00005 - Old Farm renovation in guest house"
-msgstr ""
+msgstr "S00005 - Vanhan maatilan remontti vierastuvassa"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_40
 msgid "Safety lighting, signage"
-msgstr ""
+msgstr "Turvavalaistus, opasteet"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1052,7 +1052,7 @@ msgstr "Varaa esittely"
 #. module: construction
 #: model:product.template,name:construction.product_template_45
 msgid "Screed"
-msgstr ""
+msgstr "Tasoituspalkki"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1062,33 +1062,33 @@ msgstr "Palvelu, kuten työtunnit, matkakulut jne."
 #. module: construction
 #: model:product.template,name:construction.product_template_13
 msgid "Signage"
-msgstr ""
+msgstr "Opasteet"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_27
 msgid "Sink, drainage setup"
-msgstr ""
+msgstr "Lavuaari, viemäröintijärjestelmä"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_30
 #: model:documents.document,name:construction.documents_document_4
 msgid "Site Execution & Planning"
-msgstr ""
+msgstr "Työmaan toteutus ja suunnittelu"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_40
 msgid "Site protection"
-msgstr ""
+msgstr "Työmaan suojaus"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_24
 msgid "Skirting & details"
-msgstr ""
+msgstr "Jalkalistat ja yksityiskohdat"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_51
 msgid "Sliding doors"
-msgstr ""
+msgstr "Liukuovet"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_31

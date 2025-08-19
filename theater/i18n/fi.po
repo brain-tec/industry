@@ -1,25 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* theater
-# 
+# * theater
+#
 # Translators:
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
 # Jessica Jakara, 2025
 # Wil Odoo, 2025
-# 
+# "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 11:40+0000\n"
-"PO-Revision-Date: 2025-07-19 17:05+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
-"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"PO-Revision-Date: 2025-08-13 23:11+0000\n"
+"Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
+"Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-4/"
+"theater/fi/>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -32,6 +34,8 @@ msgid ""
 "&amp;nbsp;<br/>All\n"
 "                      products"
 msgstr ""
+"&amp;nbsp;<br/>Kaikki\n"
+"                      tuotteet"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -41,17 +45,17 @@ msgstr "'. Näytetään tulokset  '"
 #. module: theater
 #: model:product.template,name:theater.product_product_1_product_template
 msgid "2025 Season"
-msgstr ""
+msgstr "2025 sesonki"
 
 #. module: theater
 #: model:product.pricelist,name:theater.product_pricelist_2
 msgid "2025 Season Members"
-msgstr ""
+msgstr "2025 sesongin jäsenet"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3902
 msgid "<b>Designed</b><br/>for Companies"
-msgstr ""
+msgstr "<b>Suunniteltu</b><br/>yrityksille"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -62,6 +66,12 @@ msgid ""
 "reimagining explores themes of loyalty, rebellion, and doomed passion in a "
 "world on the brink."
 msgstr ""
+"<em>Shadows of Verona</em>antaa Shakespearen rakastetulle tragedialle uuden "
+"tulkinnan vieden sen neonvalaistuun tulevaisuuden maailmaan, jossa "
+"kilpailevat yhtiöt korvaavat perheet. Visuaalisesti upea ja vaikuttavasti "
+"lavastus, alkuperäinen musiikki ja monimuotoinen näyttelijäkaarti vievät "
+"katsojan matkalle, jossa tutkitaan uskollisuuden, kapinan ja rakkauden "
+"teemoja raunioituvassa maailmassa."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
@@ -71,6 +81,11 @@ msgid ""
 "Through quiet conversations, missed connections, and unexpected kindness, "
 "they confront loneliness, legacy, and the simple need to be heard."
 msgstr ""
+"<em>The People Upstairs</em> seuraa kolmea vanhan asuintalon asukasta, "
+"joiden elämät kietoutuvat toisiinsa traagisen yhteisön menetyksen jälkeen. "
+"Hiljaisten keskustelujen, unohdettujen ystävyyksien ja koskettavan "
+"hyväntahtoisuuden vahvistamina he kohtaavat yksinäisyyden, perinnön painon "
+"ja inhimillisen tarpeen tulla kuulluksi."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -92,6 +107,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -110,11 +127,15 @@ msgid ""
 "                        </small>\n"
 "                        <i class=\"oi oi-close\" role=\"presentation\"/>"
 msgstr ""
+"<small class=\"mx-auto\">\n"
+"                          <b>Tyhjennä suodattimet</b>\n"
+"                        </small>\n"
+"                        <i class=\"oi oi-close\" role=\"presentation\"/>"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Odoo for Theater</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\">Odoo teattereille</strong></span>"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -223,13 +244,15 @@ msgstr ""
 msgid ""
 "<strong>Inventory</strong>: Track costumes, props, and technical equipment."
 msgstr ""
+"<strong>Varastointi</strong>: Seuraa pukuja, lavastuksia ja teknistä "
+"laitteistoa."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 #: model_terms:event.event,description:theater.event_event_2
 #: model_terms:event.event,description:theater.event_event_3
 msgid "<strong>Location</strong>:"
-msgstr ""
+msgstr "<strong>Sijainti</strong>:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -237,6 +260,9 @@ msgid ""
 "<strong>Marketing Automation</strong>: Send reminders before performances, "
 "thank-you emails to donors, or targeted promotions based on past attendance."
 msgstr ""
+"<strong>Markkinointiautomaatio</strong>: Lähetä muistutuksia ennen "
+"toimintojen tekemistä, kiitosviestejä lahjoittajille tai kohdennettuja "
+"mainoksia aiemman läsnäolon perusteella."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -244,11 +270,14 @@ msgid ""
 "<strong>Planning</strong>: Schedule rehearsals, performances, and volunteer "
 "shifts."
 msgstr ""
+"<strong>Suunnittelu</strong>: Aikatauluta harjoituksia, estyksiä ja "
+"vapaaehtoistyöläisten työvuoroja."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "<strong>Point of Sale</strong>: to sell drinks and snacks at the bar"
 msgstr ""
+"<strong>Kassajärjestelmä</strong>: myy juomia ja välipaloja baaritiskillä"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -256,6 +285,9 @@ msgid ""
 "<strong>Social Marketing</strong>: Schedule posts about upcoming shows, cast"
 " announcements, or behind-the-scenes content across platforms."
 msgstr ""
+"<strong>Somemarkkinointi</strong>: Aikatauluta tulevien tapahtumien "
+"julkaisuja, tiedotuksia roolituksista tai kulissien takaista sisältöä eri "
+"alustoilla."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -263,6 +295,9 @@ msgid ""
 "<strong>Tag contacts</strong> in CRM by role (Actor, Volunteer, Donor, "
 "Press) to streamline communication."
 msgstr ""
+"<strong>Merkitse yhteystietoja</strong>CRM-järjestelmässä roolien "
+"perusteella (toimija, vapaaehtoistyöntekijä, lahjoittaja, journalisti) "
+"virtaviivaistaaksesi viestintää."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -270,6 +305,9 @@ msgid ""
 "<strong>Track bar sales</strong> separately in PoS to understand "
 "intermission preferences and plan inventory."
 msgstr ""
+"<strong>Seuraa baarin myyntilukuja</strong> erillään muusta myynnistä "
+"Kassajärjestelmän avulla saadaksesi ymmärrys ihanteellisesta tauotuksesta ja "
+"suunnitellaksesi inventaarion."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -277,6 +315,8 @@ msgid ""
 "<strong>Use Marketing Automation</strong> to send tailored communications "
 "before and after each performance."
 msgstr ""
+"<strong>Käytä markkinointiautomaatiota</strong>saadaksesi räätälöityjä "
+"viestejä jokaista esitystä ennen ja niiden jälkeen."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -284,21 +324,23 @@ msgid ""
 "<strong>Website</strong> and <strong>eCommerce</strong>: to showcase your "
 "theater and sell tickets online"
 msgstr ""
+"<strong>Verkkosivu</strong>ja<strong>Verkkokauppa</strong>: esittele "
+"teatterisi ja myy lippuja verkossa"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
 msgid "<strong>What’s included:</strong>"
-msgstr ""
+msgstr "<strong>Tämä sisältää:</strong>"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "<strong>Written &amp;amp; Directed by</strong>:"
-msgstr ""
+msgstr "<strong>Kirjoittanut&amp;amp;ohjannut</strong>:"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "<strong>Written by</strong>:"
-msgstr ""
+msgstr "<strong>Kirjoittanut</strong>:"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
@@ -306,17 +348,20 @@ msgid ""
 "<strong>Your all-access ticket to a year of unforgettable "
 "performances.</strong>"
 msgstr ""
+"<strong>Täyden pääsyoikeuden loppusi vuoden ikimuistoisimpiin "
+"esityksiin.</strong>"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "A breathtaking performance"
-msgstr ""
+msgstr "Henkeäsalpaava esitys"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid ""
 "Add beautiful descriptions, images, and trailers to promote your shows."
 msgstr ""
+"Lisää kauniita kuvauksia, kuvia ja trailereja mainostaaksesi ohjelmiasi."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -324,16 +369,18 @@ msgid ""
 "All ticket purchases go through your Events app. Visitors can browse and buy"
 " in a few clicks."
 msgstr ""
+"Kaikki lippuostokset tehdään Tapahtumat-sovelluksesi kautta. Kävijät voivat "
+"selata ja ostaa lippuja muutamalla klikkauksella."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "Amira Bowen as Juliet"
-msgstr ""
+msgstr "Amira Bowen as Juliet"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "Artistic expression<br/>meeting community engagement"
-msgstr ""
+msgstr "Taiteilijan näkemys<br/>kietoutuu yhteisön osallistumiseen"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -344,11 +391,23 @@ msgid ""
 "                      power of the arts. Each production reflects our dedication to creativity and\n"
 "                      excellence, making every visit a memorable experience."
 msgstr ""
+"Taiteellisuus ja intohimo kohtaavat esittävän taiteen teatterissamme, jossa "
+"jokainen\n"
+"                                                esitys vangitsee ja "
+"inspiroi. Olemme sitoutuneet tuomaan luoksesi esityksia, jotka\n"
+"                                                resonoivat ja rikastuttavat, "
+"ja liikuttavat\n"
+"                                                taiteen kautta. Jokainen "
+"tuotanto heijastaa sitoutumistamme luovuuteen ja\n"
+"                                                erinomaisuuteen, tehden "
+"jokaisesta katselukerrasta kauniin muiston."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Assign tasks and reminders to staff or volunteers."
 msgstr ""
+"Määrää tehtäviä ja muistutuksia henkilökunnalle tai "
+"vapaaehtoistyöntekijöille."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -358,6 +417,13 @@ msgid ""
 "                      all disciplines can experiment, collaborate, and grow — fostering innovation\n"
 "                      and pushing the boundaries of performance art."
 msgstr ""
+"Teatterimme sydämessä on sitoutuminen luovuuteen kannustamiseen ja\n"
+"                                               kukoistavan kulttuuriyhteisön "
+"rakentamiseen. Kuvittelemme paikan, jossa kaikkien\n"
+"                                               alojen taiteilijat voivat "
+"tehdä koevedoksia, yhteistyötä ja kasvaa – edistäen innovaatiota\n"
+"                                               ja esittävän taiteen rajojen "
+"uudelleenasettamista."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -367,7 +433,7 @@ msgstr "Takaisin {{0}}"
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Beatrice Cook as Lady Wibbleton"
-msgstr ""
+msgstr "Lady Wibbletonin roolissa Beatrice Cook"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -496,12 +562,12 @@ msgstr ""
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
 msgid "Friday, October 4, 2025 – 7:00 PM"
-msgstr ""
+msgstr "Perjantai, 4. lokakuuta 2025 – klo 19.00"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "Friday, September 19, 2025 – 7:30 PM"
-msgstr ""
+msgstr "Perjantai, 19. syyskuuta 2025 – klo 19.30"
 
 #. module: theater
 #: model:event.event.ticket,name:theater.event_event_ticket_1
@@ -515,6 +581,8 @@ msgid ""
 "Generation<br/>Performing\n"
 "                      Arts Theater."
 msgstr ""
+"Sukupolven<br/>esittävän\n"
+"                                               taiteen teatteri."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -522,11 +590,13 @@ msgid ""
 "Get\n"
 "                              your tickets"
 msgstr ""
+"Nappaa\n"
+"                                                            lippusi"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "Get ready to dance"
-msgstr ""
+msgstr "Valmistaudu tanssimaan"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -541,7 +611,7 @@ msgstr "Lahjakortit"
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_8
 msgid "Give the gift of performance with our flexible gift cards."
-msgstr ""
+msgstr "Anna esiintymisen lahja joustavilla lahjakorteillamme."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -614,12 +684,12 @@ msgstr ""
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "Marcus Lin as Tybalt"
-msgstr ""
+msgstr "Tybaltin roolissa Marcus Lin"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
 msgid "Marla Chen"
-msgstr ""
+msgstr "Marla Chen"
 
 #. module: theater
 #: model:product.public.category,name:theater.product_public_category_3
@@ -634,12 +704,12 @@ msgstr "Kauppatavara"
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "Moira Ellis as Nora"
-msgstr ""
+msgstr "Noran roolissa Moira Ellis"
 
 #. module: theater
 #: model_terms:product.public.category,website_description:theater.product_public_category_7
 msgid "Never miss a show with our convenient subscription plans."
-msgstr ""
+msgstr "Et koskaan missaa esitystä tilauksiemme avulla."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3897
@@ -652,6 +722,8 @@ msgid ""
 "No\n"
 "                      results found for '"
 msgstr ""
+"Ei\n"
+"                                              tuloksia haulle '"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -679,6 +751,8 @@ msgid ""
 "Odoo works on tablets, laptops, or touchscreens — ideal for temporary bar "
 "setups."
 msgstr ""
+"Odoo toimii tableteilla, kannettavilla tietokoneilla tai kosketusnäytöillä — "
+"ihanteellinen väliaikaisiin baariympäristöihin."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -688,17 +762,17 @@ msgstr "Odoo.com/trial"
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Offer different ticket types and discount codes."
-msgstr ""
+msgstr "Tarjoa erilaisia lipputyyppejä ja alennuskoodeja."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Offer merchandise, gift cards, or season passes."
-msgstr ""
+msgstr "Tarjoa oheistuotteita, lahjakortteja tai kausikortteja."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Offer theater members a discount using loyalty pricing."
-msgstr ""
+msgstr "Tarjoa teatterin jäsenille alennus kanta-asiakashinnoilla."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -707,13 +781,20 @@ msgid ""
 "                      hosting festivals, artist residencies, and special events that bring people\n"
 "                      together and celebrate the richness of human experience."
 msgstr ""
+"Tapahtumapaikkamme on suunniteltu paitsi näyttämöksi myös kohtaamispaikaksi —"
+"\n"
+"                                                      se toimii "
+"taiteilijaresidenssinä ja täällä järjestetään festivaaleja ja "
+"erityistapahtumia, jotka tuovat ihmisiä\n"
+"                                                      yhteen ja juhlistavat "
+"inhimillistä rikkautta."
 
 #. module: theater
 #: model:event.event.ticket,name:theater.event_event_ticket_5
 #: model:event.event.ticket,name:theater.event_event_ticket_6
 #: model:event.event.ticket,name:theater.event_event_ticket_7
 msgid "Pay What You Can"
-msgstr ""
+msgstr "Maksa, mitä pystyt"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
@@ -721,6 +802,8 @@ msgid ""
 "Perfect for fans of Agatha Christie, Monty Python, and mystery novels with a"
 " dash of nonsense."
 msgstr ""
+"Täydellinen Agatha Christien ja Monty Pythonin faneille, ja niille, jotka "
+"rakastavat ripauksella hassuttelua sisältäviä dekkareita."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -730,7 +813,7 @@ msgstr "Tuote"
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "Rachel Nguyen as Jo"
-msgstr ""
+msgstr "Jon roolissa Rachel Nguyen"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -851,7 +934,7 @@ msgstr "Tilaukset"
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
 msgid "Sunday, November 9, 2025 – 4:00 PM"
-msgstr ""
+msgstr "Sunnuntai, 9. marraskuuta 2025 – klo 16.00"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -935,12 +1018,13 @@ msgstr ""
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Track registrations and attendance."
-msgstr ""
+msgstr "Seuraa ilmoittautumisia ja läsnäoloa."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Track seasonal passholders and invite them to early bookings."
 msgstr ""
+"Seuraa kausilippujen haltijoita ja kutsu heidät tekemään aikainen varaus."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -948,11 +1032,16 @@ msgid ""
 "Use Odoo’s complete <strong>Marketing Suite</strong> to keep your audience "
 "informed and connected:"
 msgstr ""
+"Käytä Odoon täyttä <strong>Markkinointisovellusten kokoelmaa</"
+"strong>antaaksesi yleisöllesi ajantasaisia päivityksiä ja pysyäksesi "
+"yhteydessä heihin:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Use the <strong>CRM</strong> app to manage your key relationships:"
 msgstr ""
+"Käytä <strong>CRM-</strong>sovellusta hallitaksesi kaikkia avainasemassa "
+"olevia suhteita:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.ir_ui_view_3902
@@ -961,6 +1050,10 @@ msgid ""
 "                      everyone's life.<br/>Our services are designed for small to medium size\n"
 "                      companies."
 msgstr ""
+"Olemme joukko intohimoisia ihmisiä, joiden tavoitteena on parantaa\n"
+"                      kaikkien elämää.<br/>Palvelumme on suunniteltu "
+"pienille ja\n"
+"                      keskisuurille yrityksille."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -970,6 +1063,13 @@ msgid ""
 "                      inclusivity and accessibility, we aim to break down barriers and invite\n"
 "                      everyone to share in the joy and power of live storytelling.&amp;nbsp;"
 msgstr ""
+"Uskomme, että esittävällä taiteella on merkittävä rooli sosiaalisen\n"
+"                      diversiteetin esilletuomisessa ja merkityksellisten "
+"diskurssien käynnistämisessä. Priorisoimalla\n"
+"                      suvaitsevuuden ja saavutettavuuden tavoittelemme "
+"rajojen uudelleenmäärittelyä ja kutsumme\n"
+"                      kaikki mukaan jakamaan ilon ja tosi elämän "
+"tarinankerronnan voiman.&amp;nbsp;"
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_2
@@ -980,6 +1080,11 @@ msgid ""
 "the-top characters, and physical comedy, this original farce will have "
 "audiences laughing from curtain to curtain."
 msgstr ""
+"Kun omalaatuinen aristokraatti lordi Patterwick katoaa vuosittaisen "
+"naamiaisjuhlansa iltana, hänen kömpelön henkilökuntansa ja omituisten "
+"vieraidensa on selvitettävä mysteeri ennen aamuteen tarjoilua. "
+"Nopeatempoinen dialogi, rönsyilevät hahmot ja fyysinen komedia saavat "
+"yleisön nauramaan esiripun nostamisesta sen laskuun."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_1
@@ -987,6 +1092,8 @@ msgid ""
 "Whether you're a longtime fan of the Bard or discovering this story for the "
 "first time, this bold adaptation will leave you breathless."
 msgstr ""
+"Olitpa sitten Bardin pitkäaikainen fani tai luet tämän tarinan ensimmäistä "
+"kertaa, tämä rohkea sovitus saa hengityksesi salpautumaan."
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -994,6 +1101,8 @@ msgid ""
 "With <strong>Point of Sale</strong>, you can easily manage your bar or "
 "refreshment stand:"
 msgstr ""
+"<strong>Kassajärjestelmän</strong>avulla voit hallinnoida helposti baariasi "
+"ja herkkitiskiäsi:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
@@ -1002,6 +1111,11 @@ msgid ""
 "                      performances that inspire and entertain. Our focus is on showcasing talent\n"
 "                      while fostering a love for the performing arts in our community."
 msgstr ""
+"Rakastamme taidetta ja pyrimme luomaan alustan monipuolisille\n"
+"                                                 esityksille, jotka "
+"inspiroivat ja viihdyttävät. Keskitymme esittelemään uusia lahjakkuuksia\n"
+"                                                 ja samalla tuomaan "
+"esittävän taiteen yhteisöllemme."
 
 #. module: theater
 #: model_terms:event.event,description:theater.event_event_3
@@ -1009,6 +1123,8 @@ msgid ""
 "With minimalist staging and powerful performances, this original piece "
 "explores the beauty of human connection in the everyday."
 msgstr ""
+"Minimalistisella lavastustekniikalla ja voimakkailla esityksillä tämä "
+"omaperäinen teos tutkii ihmissuhteiden jokapäiväistä kauneutta."
 
 #. module: theater
 #: model:product.public.category,name:theater.product_public_category_5
@@ -1031,12 +1147,12 @@ msgstr "Voit vielä tehdä sen päivittämällä pakettisi sovelluksissa."
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "You can:"
-msgstr ""
+msgstr "Voit:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
 msgid "Your <strong>Website</strong> is your theater's online stage:"
-msgstr ""
+msgstr "<strong>Verkkosivusi</strong>on teatterin digitaalinen näyttämö:"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.welcome_article_body
@@ -1044,11 +1160,13 @@ msgid ""
 "Your Odoo for Theater package includes essential apps to streamline your "
 "operations:"
 msgstr ""
+"Odoo Teatterille -pakettisi sisältää tärkeimmät sovellukset toimintasi "
+"virtaviivaistamiseen:"
 
 #. module: theater
 #: model:event.event.ticket,name:theater.event_event_ticket_4
 msgid "Youth (under 18)"
-msgstr ""
+msgstr "Nuoret (alle 18-vuotiaat)"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.products
@@ -1058,37 +1176,41 @@ msgstr "kategoriassa \""
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "man in dress shirt playing trumpet"
-msgstr ""
+msgstr "mies kauluspaidassa soittaa trumpettia"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "man in white dress shirt singing"
-msgstr ""
+msgstr "laulava mies valkoisessa kauluspaidassa"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "standing woman covering her mouth with her right hand"
-msgstr ""
+msgstr "seisova nainen peittää suunsa oikealla kädellään"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "⎯ OUR MISSION"
-msgstr ""
+msgstr "_TAVOITTEEMME"
 
 #. module: theater
 #: model_terms:ir.ui.view,arch_db:theater.homepage
 msgid "⎯&amp;nbsp;OUR VISION"
-msgstr ""
+msgstr "_&amp;nbsp;TAVOITTEEMME"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
 msgid "✅ Admission to <em>all mainstage performances</em> in the 2025 season"
 msgstr ""
+"✅ Sisäänpääsy <em>kaikkiin päänäyttämöllä järjestettäviin esityksiin</em> "
+"kaudella 2025"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template
 msgid "✅ Exclusive invites to open rehearsals and post-show talkbacks"
 msgstr ""
+"✅ Eksklusiivisia kutsuja avoimiin harjoituksiin ja esityksen jälkeisiin "
+"keskustelutilaisuuksiin"
 
 #. module: theater
 #: model_terms:product.template,description_ecommerce:theater.product_product_1_product_template

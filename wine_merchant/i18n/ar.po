@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-23 12:45+0000\n"
-"PO-Revision-Date: 2025-08-06 14:50+0000\n"
+"PO-Revision-Date: 2025-08-15 23:11+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s18-4/"
 "wine_merchant/ar/>\n"
@@ -40,6 +40,8 @@ msgid ""
 "including winemakers, sommeliers, and viticulturists, who will share their "
 "knowledge and passion for wine."
 msgstr ""
+"**مدربون خبراء:** تعلّم من المحترفين المتمرسين في هذا المجال، بما في ذلك "
+"صانعو النبيذ والسقاة ومزارعو الكروم، الذين سيشاركونك معرفتهم وشغفهم بالنبيذ."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -48,6 +50,8 @@ msgid ""
 "visits, and tastings that will enhance your sensory skills and deepen your "
 "appreciation for different wine styles and regions."
 msgstr ""
+"**تجربة عملية:** شارك في ورش العمل التطبيقية وزيارات الكروم وتذوق النبيذ "
+"التي ستعزز مهاراتك الحسية وتعمق تقديرك لأنواع النبيذ المختلفة ومناطق إنتاجه."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -66,6 +70,8 @@ msgid ""
 "professionals, expanding your network and enhancing your learning "
 "experience."
 msgstr ""
+"**فرص التواصل:** تواصل مع زملائك من عشاق النبيذ والمتخصصين في هذا المجال، ووسّ"
+"ع شبكة علاقاتك وعزز تجربتك التعليمية."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -83,6 +89,8 @@ msgid ""
 "2. Add products to your cart, choose your favorite <strong>payment "
 "provider</strong> and <strong>delivery method</strong>"
 msgstr ""
+"2. أضف المنتجات إلى عربة التسوق، واختر <strong>مزود الدفع</strong> "
+"و<strong>طريقة التسليم</strong> المفضلين لديك."
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_9
@@ -226,7 +234,7 @@ msgstr ""
 #: model_terms:event.event,description:wine_merchant.event_event_1
 msgid ""
 "A chance to mingle with fellow wine lovers and share your own experiences."
-msgstr ""
+msgstr "فرصة للتواصل مع عشاق النبيذ الآخرين ومشاركة تجاربك الخاصة."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -234,6 +242,8 @@ msgid ""
 "A tasting of [insert number] exquisite Bordeaux wines, including iconic "
 "châteaux and hidden gems."
 msgstr ""
+"تذوق [العدد] نوع من أنواع نبيذ بوردو الفاخر، بما في ذلك أشهر أنواع النبيذ "
+"وأجودها."
 
 #. module: wine_merchant
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
@@ -263,7 +273,7 @@ msgstr "قم بإضافة المنتجات إلى عربة التسوق "
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid ""
 "Add the products to the quotation and send it by email to your customer"
-msgstr ""
+msgstr "أضف المنتجات إلى عرض الأسعار وأرسله عبر البريد الإلكتروني إلى عميلك"
 
 #. module: wine_merchant
 #: model_terms:website.menu,mega_menu_content:wine_merchant.website_menu_15
@@ -387,6 +397,8 @@ msgid ""
 "a special event, configure the <strong>tickets, pricing, "
 "communication</strong> around it,..."
 msgstr ""
+"نظم فعاليتك القادمة. سواء كانت دورة في علم الخمور أو تذوق النبيذ أو فعالية "
+"خاصة، قم بتنظيم <strong>التذاكر والأسعار والاتصالات</strong> المتعلقة بها..."
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_6
@@ -425,6 +437,7 @@ msgid ""
 "Create your products and use <strong>attributes and attribute "
 "values</strong> to structure and classify them"
 msgstr ""
+"أنشئ منتجاتك واستخدم <strong>السمات وقيم السمات</strong> لتنظيمها وتصنيفها"
 
 #. module: wine_merchant
 #: model:pos.payment.method,name:wine_merchant.pos_payment_method_3
@@ -437,6 +450,8 @@ msgid ""
 "Demo attributes and attribute values have been added but feel free to add as"
 " many attributes and attribute values as you would like!"
 msgstr ""
+"تمت إضافة الخصائص التجريبية وقيم الخصائص، ولكن يمكنك إضافة أي عدد تريده من "
+"الخصائص وقيم الخصائص!"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.homepage
@@ -444,6 +459,8 @@ msgid ""
 "Discover our selection of artisanal wines, carefully chosen to convey the "
 "richness, elegance, and authenticity of the terroirs."
 msgstr ""
+"اكتشف مجموعتنا المختارة من النبيذ المصنوع بطريقة حرفية، والذي تم اختياره "
+"بعناية ليعكس ثراء وأناقة وأصالة التربة."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_2
@@ -485,6 +502,9 @@ msgid ""
 "advice. We offer a variety of options that bring warmth and richness of "
 "flavors to your table."
 msgstr ""
+"أضف لمسة مميزة إلى وجباتك مع مختاراتنا من النبيذ الفاخر ونصائحنا حول أنواع "
+"النبيذ المناسبة لكل طبق. نقدم لك مجموعة متنوعة من الخيارات التي تضفي الدفء "
+"والغنى على مائدتك."
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_11
@@ -507,6 +527,8 @@ msgid ""
 "Flow 2: Manage leads and client relationship with the CRM App and create "
 "your first sale order with the Sales App"
 msgstr ""
+"العملية 2: قم بإدارة العملاء المحتملين وعلاقات العملاء باستخدام تطبيق إدارة "
+"علاقات العملاء (CRM) وأنشئ أول طلب بيع لك باستخدام تطبيق المبيعات."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -516,7 +538,7 @@ msgstr ""
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "Flow 4: ... or in your shop with the Point of Sale App"
-msgstr ""
+msgstr "العملية 4: ... أو في متجرك باستخدام تطبيق نقطة البيع"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -529,6 +551,8 @@ msgid ""
 "Flow 6: Manage the replenishment of your products with the Purchase App and "
 "your stock levels with the Inventory App"
 msgstr ""
+"العملية 6: أدِر عمليات تجديد مخزون منتجاتك باستخدام تطبيق المشتريات ومستويات "
+"مخزونك باستخدام تطبيق المخزون"
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.ir_ui_view_3281
@@ -541,6 +565,8 @@ msgid ""
 "For a more structured point of sale catalog, create different Point of Sale "
 "categories. These can be defined on your product forms."
 msgstr ""
+"للحصول على كتالوج نقاط بيع أكثر تنظيماً، قم بإنشاء فئات مختلفة لنقاط البيع. "
+"يمكن تحديد هذه الفئات في نماذج المنتجات الخاصة بك."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -627,6 +653,9 @@ msgid ""
 "to<strong> track the progress of each lead</strong> (e.g., New → Qualified →"
 " Proposition → Won)"
 msgstr ""
+"سجل الاجتماعات والمكالمات ورسائل البريد الإلكتروني مباشرة في تطبيق إدارة "
+"علاقات العملاء. استخدم مخطط سير العمل <strong>لتتبع تقدم كل عميل محتمل</"
+"strong> (على سبيل المثال، جديد ← مؤهل ← عرض ← صفقة رابحة)"
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_12
@@ -676,6 +705,8 @@ msgid ""
 "different events and you will be able to manage the participants from the "
 "Events App"
 msgstr ""
+"سيتمكن عملاؤك الآن من شراء التذاكر لمختلف الفعاليات التي تنظمها على موقعك "
+"الإلكتروني، وستتمكن أنت من إدارة المشاركين من خلال تطبيق الفعاليات."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -683,6 +714,7 @@ msgid ""
 "Once you have received your products <strong>store</strong> them in your "
 "shop or warehouse"
 msgstr ""
+"بمجرد استلام المنتجات، قم <strong>بتخزينها</strong> في متجرك أو مستودعك."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -697,6 +729,8 @@ msgid ""
 "Once your lead has shown interest, generate a <strong>quotation in the Sales"
 " App</strong> offering your different wines"
 msgstr ""
+"بمجرد أن يبدي العميل المحتمل اهتمامه، قم بإنشاء <strong>عرض أسعار في تطبيق "
+"المبيعات</strong> يقدم مختلف أنواع النبيذ التي تبيعها."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -705,6 +739,9 @@ msgid ""
 "wishing to order a large quantity of different wines and assign the lead to "
 "a team member"
 msgstr ""
+"افتح <strong>تطبيق إدارة علاقات العملاء</strong>، وأنشئ عميلاً جديداً لعميل "
+"معين يرغب في طلب كمية كبيرة من أنواع مختلفة من النبيذ، وقم بتعيين العميل إلى "
+"أحد أعضاء الفريق."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -728,6 +765,8 @@ msgid ""
 "Open your website, add different blocks to build the perfect website. Get "
 "your clients to know you, your offer and the events you organize"
 msgstr ""
+"افتح موقعك الإلكتروني، وأضف العناصر المختلفة لبناء موقعك المثالي. أتح "
+"لعملاءك فرصة التعرف عليك وعلى عروضك والفعاليات التي تنظمها."
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_22
@@ -772,7 +811,7 @@ msgstr "تواصل معنا "
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid ""
 "Ready to embark on this wine journey? Let’s raise a glass to success! 🥂"
-msgstr ""
+msgstr "هل أنت مستعد لبدء رحلة النبيذ هذه؟ لنشرب نخب النجاح! 🥂"
 
 #. module: wine_merchant
 #: model:product.attribute.value,name:wine_merchant.product_attribute_value_19
@@ -806,7 +845,7 @@ msgstr ""
 msgid ""
 "Reserve your spot today and raise a glass to the timeless elegance of "
 "Bordeaux!"
-msgstr ""
+msgstr "احجز مكانك اليوم واحتفل بالأناقة الخالدة لمدينة بوردو!"
 
 #. module: wine_merchant
 #: model:pos.category,name:wine_merchant.pos_category_9
@@ -950,6 +989,8 @@ msgid ""
 "The Ecommerce categories will help you structure and organize your online "
 "catalog making it easier for customers to browse and find what they need."
 msgstr ""
+"ستساعدك فئات التجارة الإلكترونية على تنظيم وترتيب الكتالوج الخاص بك على "
+"الإنترنت، مما يسهل على العملاء تصفحه والعثور على ما يحتاجون إليه."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
@@ -957,6 +998,8 @@ msgid ""
 "The attributes defined on the products will allow your customers to filter "
 "on different attribute values to refine their search."
 msgstr ""
+"تتيح سمات المنتجات المحددة لعملائك تصفية نتائج البحث حسب قيم السمات المختلفة "
+"لتحسين نتائج البحث."
 
 #. module: wine_merchant
 #: model_terms:event.event,description:wine_merchant.event_event_1
@@ -997,11 +1040,13 @@ msgid ""
 "This will allow you to<strong> plan your receptions</strong> and know when "
 "your stock will be replenished with your novelties or best sellers"
 msgstr ""
+"سيتيح لك ذلك <strong>تخطيط حفلات الاستقبال</strong> ومعرفة موعد تجديد مخزونك "
+"بأحدث المنتجات أو الأكثر مبيعًا."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
 msgid "To speed up the creation of the quotation use a quotation template."
-msgstr ""
+msgstr "لتسريع عملية إنشاء عرض السعر، استخدم إحدى قوالب عروض الأسعار."
 
 #. module: wine_merchant
 #: model:website.menu,name:wine_merchant.website_menu_4
@@ -1083,6 +1128,8 @@ msgid ""
 "Bordeaux Bliss promises to be an unforgettable evening filled with flavor, "
 "knowledge, and camaraderie."
 msgstr ""
+"سواء كنت خبيرًا متمرسًا أو مبتدئًا في عالم النبيذ، فإن Bordeaux Bliss تعدك "
+"بأمسية لا تُنسى مليئة بالنكهات والمعرفة والصداقة."
 
 #. module: wine_merchant
 #: model:product.template,name:wine_merchant.product_template_11
@@ -1143,6 +1190,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Wine Shop package and check the related box."
 msgstr ""
+"لم تقم باستيراد البيانات التجريبية؟ لا يزال بإمكانك القيام بذلك. انتقل إلى "
+"التطبيقات > قطاعات الأعمال > قم بترقية باقة متجر النبيذ الخاص بك وحدد المربع "
+"ذي الصلة."
 
 #. module: wine_merchant
 #: model_terms:ir.ui.view,arch_db:wine_merchant.welcome_article_body
