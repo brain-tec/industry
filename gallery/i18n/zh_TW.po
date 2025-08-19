@@ -1,34 +1,37 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* gallery
-# 
+# * gallery
+#
 # Translators:
 # Wil Odoo, 2025
 # Tony Ng, 2025
-# 
+#
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 05:42+0000\n"
-"PO-Revision-Date: 2025-07-19 15:03+0000\n"
-"Last-Translator: Tony Ng, 2025\n"
-"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"PO-Revision-Date: 2025-08-12 23:51+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-s18-3/gallery/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_11
 msgid " Peter Paul Odoobens"
-msgstr ""
+msgstr " Peter Paul Odoobens"
 
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_9
 msgid " Salvador Dall-E"
-msgstr ""
+msgstr "Salvador Dall-E"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -217,12 +220,12 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<span style=\"font-weight: bolder;\">Facebook</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: bolder;\">Facebook</span>"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<span style=\"font-weight: bolder;\">X</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: bolder;\">X</span>"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -250,7 +253,7 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<strong>Accounting &amp; Payments</strong>:"
-msgstr ""
+msgstr "<strong>會計及付款</strong>："
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -274,7 +277,7 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<strong>Create a Product</strong>:"
-msgstr ""
+msgstr "<strong>建立產品資料</strong>："
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -303,7 +306,7 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<strong>Manage Online Visibility</strong>:"
-msgstr ""
+msgstr "<strong>管理網上曝光率</strong>："
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -313,7 +316,7 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "<strong>Managing Commissions  👩‍🎨</strong>"
-msgstr ""
+msgstr "<strong>管理佣金 👩‍🎨</strong>"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
@@ -509,17 +512,17 @@ msgstr ""
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_12
 msgid "Bablo Ficasso"
-msgstr ""
+msgstr "Bablo Ficasso"
 
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_13
 msgid "Bablo Fincasso"
-msgstr ""
+msgstr "Bablo Fincasso"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.ir_ui_view_1680
 msgid "Baplo Ficasso"
-msgstr ""
+msgstr "Baplo Ficasso"
 
 #. module: gallery
 #: model:product.attribute.value,name:gallery.product_attribute_value_14
@@ -539,7 +542,7 @@ msgstr "Ben Cole"
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.ir_ui_view_1680
 msgid "CONTACT US"
-msgstr ""
+msgstr "聯絡我們"
 
 #. module: gallery
 #: model:product.template,name:gallery.product_template_15
@@ -1180,7 +1183,7 @@ msgstr ""
 #. module: gallery
 #: model:product.template,description_sale:gallery.product_template_8
 msgid "Salvador Dall-E"
-msgstr ""
+msgstr "Salvador Dall-E"
 
 #. module: gallery
 #: model:product.template,name:gallery.product_template_10
@@ -1200,7 +1203,7 @@ msgstr ""
 #. module: gallery
 #: model:pos.category,name:gallery.pos_category_4
 msgid "Sculpture"
-msgstr ""
+msgstr "雕塑"
 
 #. module: gallery
 #: model:product.public.category,name:gallery.product_public_category_2
@@ -1610,7 +1613,7 @@ msgstr ""
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body
 msgid "official website"
-msgstr ""
+msgstr "官方網站"
 
 #. module: gallery
 #: model_terms:ir.ui.view,arch_db:gallery.welcome_article_body

@@ -1,25 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* excise_management
-# 
+# * excise_management
+#
 # Translators:
 # Fernanda Alvarez, 2025
-# Wil Odoo, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
-# 
+# Wil Odoo, 2025
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-24 14:08+0000\n"
-"PO-Revision-Date: 2025-06-28 16:54+0000\n"
-"Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025\n"
-"Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/41243/es_419/)\n"
+"POT-Creation-Date: 2025-07-25 16:54+0000\n"
+"PO-Revision-Date: 2025-08-15 23:50+0000\n"
+"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
+"odoo-s18-3/excise_management/es_419/>\n"
+"Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es_419\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.active_excise_category
@@ -45,11 +48,6 @@ msgstr "Agregar o eliminar impuesto indirecto en la posición fiscal"
 #: model:ir.actions.server,name:excise_management.add_excise_server_action
 msgid "Add/Remove excise tax on Product"
 msgstr "Agregar o eliminar impuesto indirecto en el producto"
-
-#. module: excise_management
-#: model:ir.actions.server,name:excise_management.convert_to_base_unit_server_action
-msgid "Convert to base unit"
-msgstr "Convertir a unidad base"
 
 #. module: excise_management
 #: model:base.automation,name:excise_management.create_excise_tax
@@ -125,15 +123,15 @@ msgid "Excise description"
 msgstr "Descripción de impuesto indirecto"
 
 #. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.uom_uom_excise_reporting_unit
-msgid "Excise reporting unit"
-msgstr "Unidad de reporte de impuesto indirecto"
+#: model:ir.model.fields,field_description:excise_management.product_template_excise_quantity
+#: model:ir.model.fields,field_description:excise_management.stock_move_excise_quantity
+msgid "Excise quantity"
+msgstr "Cantidad de impuesto especial"
 
 #. module: excise_management
-#: model:ir.model.fields,field_description:excise_management.product_template_excise_volume
-#: model:ir.model.fields,field_description:excise_management.stock_move_excise_volume
-msgid "Excise volume"
-msgstr "Volumen de impuesto indirecto"
+#: model:ir.model.fields,field_description:excise_management.product_template_uom
+msgid "Excise unit"
+msgstr "Unidad de impuesto especial"
 
 #. module: excise_management
 #: model:account.tax.group,name:excise_management.excises_tax_group
@@ -176,6 +174,11 @@ msgid "Name"
 msgstr "Nombre"
 
 #. module: excise_management
+#: model_terms:ir.ui.view,arch_db:excise_management.x_excise_category_view_list
+msgid "Reporting unit"
+msgstr "Unidad de reporte"
+
+#. module: excise_management
 #: model:x_excise_category,x_name:excise_management.x_excise_category_S001
 msgid "S001"
 msgstr "S001"
@@ -199,6 +202,26 @@ msgstr "S201"
 #: model:ir.model.fields,field_description:excise_management.sequence_excise_category
 msgid "Sequence"
 msgstr "Secuencia"
+
+#. module: excise_management
+#: model:ir.model.fields,field_description:excise_management.unit_excise_category
+msgid "Unit"
+msgstr "Unidad"
+
+#. module: excise_management
+#: model:x_excise_category,x_name:excise_management.x_excise_category_W005
+msgid "W005"
+msgstr "W005"
+
+#. module: excise_management
+#: model:x_excise_category,x_name:excise_management.x_excise_category_W070
+msgid "W070"
+msgstr "W070"
+
+#. module: excise_management
+#: model:x_excise_category,x_name:excise_management.x_excise_category_W101
+msgid "W101"
+msgstr "W101"
 
 #. module: excise_management
 #: model:uom.uom,name:excise_management.uom_hl

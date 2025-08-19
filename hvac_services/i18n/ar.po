@@ -1,25 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* hvac_services
-# 
+# * hvac_services
+#
 # Translators:
 # Tiffany Chang, 2025
 # Wil Odoo, 2025
 # Malaz Abuidris <msea@odoo.com>, 2025
-# 
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 11:34+0000\n"
-"PO-Revision-Date: 2025-07-19 15:03+0000\n"
-"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
-"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
+"PO-Revision-Date: 2025-08-14 23:50+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
+"Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s18-3/"
+"hvac_services/ar/>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -966,6 +969,8 @@ msgid ""
 "See that replenishment rules are defined for some products, some are under an Auto\n"
 "                trigger and some other are under a manual trigger."
 msgstr ""
+"تأكد من تحديد قواعد إعادة التزويد لبعض المنتجات، حيث أن بعضها يخضع لـ\n"
+"                التشغيل التلقائي وبعضها الآخر يخضع للتشغيل اليدوي."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1015,6 +1020,14 @@ msgid ""
 "                    <font class=\"text-o-color-1\">CRM App</font>\n"
 "                </strong>!"
 msgstr ""
+"قم بإعداد موقعك الإلكتروني مجانًا واستقطب العملاء المحتملين بشكل تلقائي "
+"باستخدام <strong>\n"
+"                    <font class=\"text-o-color-1\">تطبيق الموقع الإلكتروني "
+"</font>\n"
+"                </strong>و <strong>\n"
+"                    <font class=\"text-o-color-1\">تطبيق إدارة علاقات "
+"العملاء</font>\n"
+"                </strong>!"
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_12
@@ -1042,6 +1055,8 @@ msgid ""
 "The <strong>Field Service App</strong> is the place to plan and follow up work\n"
 "            to be done on customer sites."
 msgstr ""
+"تطبيق <strong>الخدمة الميدانية</strong> هو الحل المناسب لتخطيط ومتابعة\n"
+"            الأعمال التي يتعين القيام بها في مواقع العملاء."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1049,6 +1064,8 @@ msgid ""
 "The Field Services gives you access to all tasks related to this device to\n"
 "                        capture the last maintenance and repair tasks."
 msgstr ""
+"تتيح لك الخدمات الميدانية الوصول إلى كافة المهام المتعلقة بهذا الجهاز\n"
+"                        لتسجيل مهام الصيانة والإصلاح الأخيرة."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1081,6 +1098,10 @@ msgid ""
 "                with \"added\" and \"removed\" distinction. This reporting relies on field service\n"
 "                worksheets filled up by technicians."
 msgstr ""
+"يمكنك الحصول على تفاصيل استهلاك المبردات حسب الوقت والمنتج\n"
+"                مع التمييز بين ما تم ”إضافته“ و”إزالته“. يعتمد هذا التقرير "
+"على\n"
+"                أوراق عمل الخدمة الميدانية التي يملؤها الفنيون."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1106,6 +1127,8 @@ msgid ""
 "To save time and prevent typo mistake when inputing the serial number, you can\n"
 "                    install and leverage the <strong>Barcode App</strong>!"
 msgstr ""
+"لتوفير الوقت وتجنب الأخطاء المطبعية عند إدخال الرقم التسلسلي، يمكنك\n"
+"                    iتثبيت <strong>تطبيق الباركود</strong> والاستفادة منه!"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.stock_lot_list_view_with_maintenances
@@ -1139,6 +1162,12 @@ msgid ""
 "                fill in a timesheet input. <br/>Alternatively to the time counter, they could\n"
 "                directly create a new timesheet input in the Timesheet tab."
 msgstr ""
+"عِنْدَ الانتهاء من كل شيء، يمكن وضع علامة على المهمة على أنها منتهية، مما يؤدي "
+"إلى إيقاف المؤقِّت وتعبئة\n"
+"                مدخلات الجداول الجداول الزمنية. <br/>بدلاً من عداد الوقت، "
+"يمكنهم\n"
+"                مباشرةً إنشاء قيد جدول زمني جديد في علامة تبويب الجداول "
+"الزمنية."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1146,6 +1175,9 @@ msgid ""
 "When consuming products during interventions, they can add it as well to the task\n"
 "                from the Products smart button."
 msgstr ""
+"عند استهلاك المنتجات أثناء العمليات الميدانية، يمكنهم إضافتها أيضًا إلى "
+"المهمة\n"
+"                من الزر الذكي ”المنتجات“."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.x_project_task_worksheet_template_qweb_view
@@ -1175,6 +1207,8 @@ msgid ""
 "You are ready to sign your first customers? To do so, open the Sales App,\n"
 "                create a new order and the customer."
 msgstr ""
+"هل أنت جاهز لتوقيع أول عميل لك؟ للقيام بذلك، قم بفتح تطبيق المبيعات، وأنشئ\n"
+"                طلبًا وعميلًا جديدين."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1191,6 +1225,9 @@ msgid ""
 "You can now see that the task is done. In the case of a repair, the time spent and\n"
 "            consumed products can be billed to your customer."
 msgstr ""
+"يمكنك الآن رؤية أن المهمة قد تمت. في حال القسام بعملية إصلاح، يمكن فوترة "
+"الوقت المستغرق\n"
+"            والمنتجات المستهلكة على العميل."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1205,6 +1242,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
+"لقد أكملت حالة الاستخدام التوضيحية هذه! توجد ملايين الطرق الأخرى لتكييف \n"
+"                    إعدادات أودو لتناسب احتياجات عملك."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1212,6 +1251,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries &gt;\n"
 "                    Upgrade your Bar &amp; Pub package and check the related box"
 msgstr ""
+"لم تقم باستيراد البيانات التجريبية؟ لا يزال بإمكانك القيام بذلك. اذهب إلى "
+"التطبيقات > قطاعات الأعمال > \n"
+"                    ترقية باقة الحانة الخاصة بك وقم بتحديد المربع ذو الصلة."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1219,6 +1261,9 @@ msgid ""
 "You just installed the Odoo for HVAC Services package. By doing so, we have installed a\n"
 "            bunch of necessary apps to run your bar efficiently."
 msgstr ""
+"لقد قمت للتو بتثبيت باقة أودو لخدمات التدفئة والتهوية وتكييف الهواء. وبذلك، "
+"نكون قد قمنا بتثبيت \n"
+"            مجموعة من التطبيقات الضرورية لتشغيل البار بكفاءة."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1232,6 +1277,9 @@ msgid ""
 "You should be able to execute the following flows to have an overview of various flows\n"
 "            you can quickly execute with this package using Odoo."
 msgstr ""
+"من المفترض أن تكون قادراً على تنفيذ العمليات التالية حتى تحصل على نظرة عامة "
+"على الإجراءات المختلفة التي \n"
+"            يمكنك تنفيذها بسرعة باستخدام هذه الباقة باستخدام أودو."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
