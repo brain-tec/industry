@@ -1,27 +1,31 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* wellness_practitioner
-# 
+# * wellness_practitioner
+#
 # Translators:
 # Ivan Kropotkin <yelizariev@itpp.dev>, 2024
 # Wil Odoo, 2024
 # ILMIR <karamov@it-projects.info>, 2024
 # Ilya Rozhkov, 2025
 # Anastasiia Koroleva, 2025
-# 
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-12 16:12+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Anastasiia Koroleva, 2025\n"
-"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"PO-Revision-Date: 2025-08-15 22:20+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
+"wellness_practitioner/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -31,27 +35,27 @@ msgstr ", и не стесняйтесь"
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "1. Create a new opportunity"
-msgstr ""
+msgstr "1. Создать новую возможность"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "2. Book an appointment"
-msgstr ""
+msgstr "2. Забронировать слот"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "3. Verify your schedule"
-msgstr ""
+msgstr "3. Проверить расписание"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "4. Take notes during your appointment"
-msgstr ""
+msgstr "4. Делать заметки во время приема"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "5. Check your invoices"
-msgstr ""
+msgstr "5. Проверить счета"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -61,7 +65,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🌐</i>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -81,7 +85,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🪂</i>"
 
 #. module: wellness_practitioner
 #: model:mail.template,body_html:wellness_practitioner.booking_suggestion
@@ -101,6 +105,22 @@ msgid ""
 "            </p>\n"
 "        "
 msgstr ""
+"<p>\n"
+"                Здравствуйте!\n"
+"            </p>\n"
+"            <p>\n"
+"                Спасибо, что посетили нас. Хотите записаться на следующую "
+"процедуру?\n"
+"            </p>\n"
+"            <p>\n"
+"                С нетерпением ждем встречи с вами.\n"
+"            </p>\n"
+"            \n"
+"            <p>\n"
+"                <a class=\"btn btn-secondary\" href="
+"\"/book/wellness_session\">Записаться</a>\n"
+"            </p>\n"
+"        "
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -108,11 +128,13 @@ msgid ""
 "<span class=\"display-4-fs\"><strong><font class=\"text-800\"><span "
 "class=\"h1-fs\">Use Case</span></font></strong></span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong><font class=\"text-800\"><span class="
+"\"h1-fs\">Пример использования</span></font></strong></span>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Basics</strong></span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\"><strong>Основы</strong></span>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -128,6 +150,10 @@ msgid ""
 "class=\"text-black\"><span style=\"font-weight: "
 "normal;\">.</span></font></strong>"
 msgstr ""
+"<strong><font class=\"text-black\"><span style=\"font-weight: normal;\""
+">Управляйте своим расписанием и доступностью в модуле </span></font><font "
+"class=\"text-o-color-1\">Календарь</font><font class=\"text-black\"><span "
+"style=\"font-weight: normal;\">.</span></font></strong>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -135,6 +161,7 @@ msgid ""
 "<strong><span class=\"display-4-fs\">Odoo for Therapy "
 "Practices</span></strong>"
 msgstr ""
+"<strong><span class=\"display-4-fs\">Odoo для велнес-центров</span></strong>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -143,11 +170,14 @@ msgid ""
 "Website </font></strong>in a few clicks. Get new leads or direct appointment"
 " online in a few clicks."
 msgstr ""
+"Бесплатный, персонализированный, интегрированный<strong><font class="
+"\"text-o-color-1\"> вебсайт </font></strong> в несколько кликов. Находите "
+"новых потенциальных клиентов и откройте онлайн-запись на процедуры."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Add an upfront payment in your Appointment Type."
-msgstr ""
+msgstr "Добавьте предоплату в тип приема."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -155,6 +185,8 @@ msgid ""
 "Add the Subscription App and invoice automatically based on a subscription "
 "type."
 msgstr ""
+"Добавьте модуль Подписки и выставляйте счета автоматически на основе типа "
+"подписки."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -162,6 +194,8 @@ msgid ""
 "After each appointment, an automatic email will be sent to suggest your "
 "patient to already book its next appointment."
 msgstr ""
+"После каждой процедуры пациенту автоматически отправляется письмо с "
+"предложением записаться на следующий прием."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -169,11 +203,13 @@ msgid ""
 "As you qualify Emily's needs, you update the lead status to \"Qualified\" in"
 " the CRM pipeline."
 msgstr ""
+"По мере уточнения потребностей Эмили вы меняете статус лида на "
+"«Квалифицирован» в воронке модуля CRM."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Auto-post your invoice on a regular basis."
-msgstr ""
+msgstr "Автоматическая проводка счетов на регулярной основе."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -181,6 +217,8 @@ msgid ""
 "Automated recurring invoicing with the <strong><font class=\"text-o-"
 "color-1\">Subscription App</font></strong>."
 msgstr ""
+"Автоматизация выставления регулярных счетов с помощью модуля <strong><font "
+"class=\"text-o-color-1\">Подписки</font></strong>."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -194,11 +232,14 @@ msgid ""
 "for you and your eventual team. If you select the \"Send message\" option, "
 "this will notify your customer (which can be really interesting also)."
 msgstr ""
+"Будьте внимательны – заметки, оставленные через «Оставить заметку» в "
+"карточке контакта, видны только вам и вашей команде. Если выбрать «Отправить "
+"сообщение», уведомление получит клиент (что тоже может быть полезно)."
 
 #. module: wellness_practitioner
 #: model:mail.template,name:wellness_practitioner.booking_suggestion
 msgid "Book your next appointment"
-msgstr ""
+msgstr "Записаться на следующий прием"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -207,6 +248,9 @@ msgid ""
 " including CRM, Appointment and Invoicing. Let's explore how these modules "
 "can streamline your therapy practice operations."
 msgstr ""
+"Установив этот пакет, вы получите доступ к основным модулям, включая CRM, "
+"Встречи и Выставление счетов Odoo. Давайте посмотрим, как эти модули "
+"оптимизируют работу вашего велнес-центра."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -233,6 +277,8 @@ msgid ""
 "Ease your invoicing process with the <strong><font class=\"text-o-"
 "color-1\">Invoice App</font></strong>."
 msgstr ""
+"Упростите процесс выставления счетов с помощью модуля <strong><font class="
+"\"text-o-color-1\">Выставление счетов</font></strong>."
 
 #. module: wellness_practitioner
 #: model:calendar.alarm,name:wellness_practitioner.alarm_mail_1
@@ -245,6 +291,9 @@ msgid ""
 "Getting Started\n"
 "            To begin, you'll find the key applications you need on your Odoo dashboard. Let's take a closer look at how you can use these tools."
 msgstr ""
+"Начало работы\n"
+"            Войдя в систему Odoo, вы увидите все необходимые модули. Давайте "
+"разберемся, как ими пользоваться."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -252,6 +301,8 @@ msgid ""
 "If you navigate to the Invoice App, you can manage your invoices. You have "
 "many possibilities to streamline your invoicing process:"
 msgstr ""
+"В модуле Выставление счетов вы можете управлять своими счетами. Есть "
+"множество способов сделать этот процесс проще:"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -260,6 +311,9 @@ msgid ""
 "the right column) that she received an email from you with a call to action "
 "to book an appointment."
 msgstr ""
+"Открыв карточку возможности «Запрос от Эмили» в модуле CRM, в окне чата "
+"справа вы увидите, что она получила от вас письмо с предложением записаться "
+"на прием."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -268,6 +322,9 @@ msgid ""
 "Icon in the top of a CRM column and select \"Automation\", or add automated "
 "email in your Appointment Type."
 msgstr ""
+"Чтобы изменить процесс и настроить новые правила автоматизации, нажмите "
+"значок шестеренки и выберите «Автоматизация» или добавьте автоматическое "
+"письмо в настройках типа приема."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -275,6 +332,8 @@ msgid ""
 "If you want to share your calendar easily, navigate to the Appointment App "
 "and select \"Share\" on the Edit Button."
 msgstr ""
+"Чтобы поделиться своим календарем, откройте модуль Встречи и выберите "
+"«Поделиться» на кнопке «Редактировать»."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -283,6 +342,9 @@ msgid ""
 "create a new lead for Emily, capturing her contact information and the "
 "reason for her inquiry."
 msgstr ""
+"В модуле <strong><font class=\"text-o-color-1\">CRM</font></strong> вы "
+"создаете нового лида для Эмили, указывая ее контактные данные и причину "
+"обращения."
 
 #. module: wellness_practitioner
 #: model:crm.stage,name:wellness_practitioner.crm_stage_5
@@ -292,17 +354,17 @@ msgstr "Неактивный"
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Invoice yourself, manually."
-msgstr ""
+msgstr "Выставляйте счета вручную."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Let's Try"
-msgstr ""
+msgstr "Давайте попробуем"
 
 #. module: wellness_practitioner
 #: model:mail.template,subject:wellness_practitioner.booking_suggestion
 msgid "Looking forward to meeting you"
-msgstr ""
+msgstr "С нетерпением ждем встречи с вами"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -314,6 +376,12 @@ msgid ""
 "Media Marketing </font></strong>, and <strong><font class=\"text-o-"
 "color-1\">SMS Marketing </font></strong>."
 msgstr ""
+"Управляйте всеми коммуникационными каналами в одном месте с помощью модулей "
+"Odoo<strong><font class=\"text-o-color-1\"> Автоматизация маркетинга "
+"</font></strong>,<strong><font class=\"text-o-color-1\">E-mail "
+"рассылки</font></strong>,<strong><font class=\"text-o-color-1\"> SMM "
+"</font></strong> и <strong><font class=\"text-o-color-1\">СМС рассылки "
+"</font></strong>."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -332,11 +400,13 @@ msgid ""
 "Manage your team's and integrate them in all processes by adding "
 "the<strong><font class=\"text-o-color-1\"> Employees App</font></strong>."
 msgstr ""
+"Управляйте своей командой и интегрируйте ее в процессы, добавив "
+"модуль<strong><font class=\"text-o-color-1\"> Сотрудники</font></strong>."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Odoo for Therapy Practices"
-msgstr ""
+msgstr "Odoo для велнес-центров"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -344,6 +414,9 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone to "
 "manage your entire business in it."
 msgstr ""
+"Адаптированная для мобильных устройств ERP-система Odoo превратит ваш "
+"телефон в удобный инструмент для управления бизнесом, стоит лишь установить "
+"приложение."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -368,6 +441,9 @@ msgid ""
 "o-color-1\">Calendar App</font></strong>. You may find the new appointment. "
 "You can also move it (Emily will be notified) or cancel it."
 msgstr ""
+"После бронирования приема откройте модуль <strong><font class="
+"\"text-o-color-1\">Календарь</font></strong>. Вы увидите новую запись. Вы "
+"можете перенести ее (Эмили получит уведомление) или отменить."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -375,6 +451,8 @@ msgid ""
 "Organise your events and connect with your patients easily with the "
 "<strong><font class=\"text-o-color-1\">Events App </font></strong>."
 msgstr ""
+"Организуйте мероприятия и легко общайтесь с клиентами с помощью модуля "
+"<strong><font class=\"text-o-color-1\">Мероприятия</font></strong>."
 
 #. module: wellness_practitioner
 #: model:crm.stage,name:wellness_practitioner.crm_stage_6
@@ -389,7 +467,7 @@ msgstr "Запланировать демонстрацию"
 #. module: wellness_practitioner
 #: model:ir.actions.server,name:wellness_practitioner.ir_act_server_1
 msgid "Send email: Book your next appointment"
-msgstr ""
+msgstr "Отправить письмо: Записаться на следующий прием"
 
 #. module: wellness_practitioner
 #: model:mail.template,description:wellness_practitioner.booking_suggestion
@@ -399,7 +477,7 @@ msgstr "Отправляется всем участникам, если уст�
 #. module: wellness_practitioner
 #: model:base.automation,name:wellness_practitioner.base_automation_1
 msgid "Stage is set to \"Qualified\""
-msgstr ""
+msgstr "Этап установлен на «Квалифицирован»"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -409,6 +487,10 @@ msgid ""
 "change appointment hoursand send communication to your patients fromthe "
 "Calendar App."
 msgstr ""
+"Модуль <strong><font class=\"text-o-color-1\">Встречи</font></strong> "
+"автоматически обновляется на основе вашего календаря. Вы можете блокировать "
+"слоты, менять время приема и отправлять сообщения пациентам напрямую из "
+"модуля Календарь."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -417,6 +499,10 @@ msgid ""
 "class=\"text-black\"><span style=\"font-weight: normal;\"> manages your "
 "appointment types.</span></font><font class=\"text-o-color-1\"/></strong>"
 msgstr ""
+"Модуль <strong><font class=\"text-o-color-1\">Встречи</font><font class"
+"=\"text-black\"><span style=\"font-weight: normal;\"> позволяет управлять "
+"всеми типами ваших приемов.</span></font><font class=\"text-o-color-1\""
+"/></strong>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -425,6 +511,9 @@ msgid ""
 "Relationship Management) is the heart of your therapy practice's patient "
 "management."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Модуль CRM</font></strong> Odoo ("
+"управление взаимоотношениями с клиентами) – это основа для управления "
+"пациентами в вашем велнес-центре."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -432,6 +521,8 @@ msgid ""
 "The Odoo Calendar App is compatible with Outlook and Google Calendar. "
 "Activate the sync in the Calendar App settings."
 msgstr ""
+"Модуль Календарь Odoo совместим с Outlook и Google Calendar. Включите "
+"синхронизацию в настройках модуля."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -448,11 +539,14 @@ msgid ""
 "needs of therapy practices, empowering you to manage your business "
 "efficiently and deliver exceptional patient care."
 msgstr ""
+"Мы предлагаем комплексный набор модулей, адаптированных к потребностям "
+"велнес-центров, что позволяет вам эффективно управлять своим бизнесом и "
+"обеспечивать исключительный уход за пациентами."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "To do so, go to CRM &gt; Configuration &gt; Sales Teams."
-msgstr ""
+msgstr "Для этого перейдите в CRM > Настройки > Команды продаж."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -460,11 +554,13 @@ msgid ""
 "To reduce your no show rate drastically, appointments automatically comes "
 "with reminders by Email and SMS."
 msgstr ""
+"Чтобы значительно снизить процент неявок, приемы сопровождаются "
+"автоматическими напоминаниями по электронной почте и СМС."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "Try it !"
-msgstr ""
+msgstr "Попробуйте!"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -478,6 +574,9 @@ msgid ""
 "either use the \"Log Note\" button on your contact record or create a "
 "specific knowledge article (like this one) for each of your patient."
 msgstr ""
+"С помощью Odoo вы можете легко делать заметки во время приема – используйте "
+"кнопку «Оставить заметку» в карточке контакта или создайте отдельную статью "
+"в модуле Knowledge для каждого пациента."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -485,6 +584,8 @@ msgid ""
 "Welcome to the <strong><font class=\"text-o-color-1\">Odoo Therapy Practice "
 "package</font></strong>!"
 msgstr ""
+"Добро пожаловать в решение для <strong><font class=\"text-o-color-1\">велнес-"
+"центров от Odoo</font></strong>!"
 
 #. module: wellness_practitioner
 #: model_terms:web_tour.tour,rainbow_man_message:wellness_practitioner.knowledge_tour
@@ -494,7 +595,7 @@ msgstr "Добро пожаловать! Приятного изучения."
 #. module: wellness_practitioner
 #: model:appointment.type,name:wellness_practitioner.appointment_type_1
 msgid "Wellness Session"
-msgstr ""
+msgstr "Оздоровительная процедура"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -516,6 +617,8 @@ msgid ""
 "You can also configure an email alias so everyone sending email to this one "
 "will create a new opportunity for you."
 msgstr ""
+"Вы также можете настроить псевдоним электронной почты, чтобы любое письмо на "
+"этот адрес автоматически создавало новую возможность в модуле CRM."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -523,6 +626,8 @@ msgid ""
 "You can set the consultation with an upfront online payment. Activate it in "
 "your Appointment Type Settingsby setting up an upfront payment method."
 msgstr ""
+"Вы можете настроить консультацию с предоплатой онлайн. Активируйте ее в "
+"настройках типа приема, указав метод предоплаты."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -539,6 +644,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Therapy Practice package and check the related box."
 msgstr ""
+"Если вы не импортировали демо-данные, это можно сделать в любой момент. "
+"Перейдите в раздел Модули > Индустрии > Обновить пакет «Велнес-центр» и "
+"отметьте соответствующий пункт."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -546,6 +654,8 @@ msgid ""
 "You may also create a personalized website in a few clicks by adding the "
 "Website App, your appointment page will be automatically added."
 msgstr ""
+"Вы можете создать персонализированный сайт за несколько кликов, добавив "
+"модуль Вебсайт – страница записи на прием появится автоматически."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -553,6 +663,8 @@ msgid ""
 "You receive a call from a new potential patient, Emily, who is interested in"
 " your therapy services."
 msgstr ""
+"Вам звонит новый потенциальный пациент – Эмили, интересующаяся вашими "
+"услугами."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -582,7 +694,7 @@ msgstr "документация"
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "if you need help!<br/>"
-msgstr ""
+msgstr "если нужна помощь!<br/>"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
