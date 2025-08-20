@@ -1,35 +1,39 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* bowling
-# 
+# * bowling
+#
 # Translators:
 # Wil Odoo, 2025
 # Svyatoslav Nadozirny, 2025
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-17 12:54+0000\n"
-"PO-Revision-Date: 2025-06-22 09:25+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
-"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
+"PO-Revision-Date: 2025-08-15 15:58+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
+"bowling/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
+"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
+"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
 msgid "&amp;nbsp;120<br/>"
-msgstr ""
+msgstr "&amp;nbsp;120<br/>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
 msgid "&amp;nbsp;20<br/>"
-msgstr ""
+msgstr "&amp;nbsp;20<br/>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -54,7 +58,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Bowling Alleys</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Боулінг-клуби</strong></span><br/>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -76,6 +80,24 @@ msgid ""
 "                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">\n"
 "        Ask about our bar menu!&amp;nbsp;<br/></span>"
 msgstr ""
+"<span class="
+"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"                              <span class="
+"\"d-flex flex-grow-1 align-items-center\">\n"
+"                                <span class=\"s_pricelist_boxed_item_name\">"
+"\n"
+"        Beer&amp;nbsp;<br/></span>\n"
+"                                <span class="
+"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                              </span>\n"
+"                              <span class="
+"\"s_pricelist_boxed_item_price ms-auto ps-3\">\n"
+"        $6.00</span>\n"
+"                            </span>\n"
+"                            <span class="
+"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">"
+"\n"
+"        Спитайте про наше барне меню!&amp;nbsp;<br/></span>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -92,6 +114,25 @@ msgid ""
 "                            </span>\n"
 "                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">&amp;nbsp;Two patties, crispy bacon, melted cheddar &amp;amp; BBQ sauce.</span>"
 msgstr ""
+"<span class="
+"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"                              <span class="
+"\"d-flex flex-grow-1 align-items-center\">\n"
+"                                <span class=\"s_pricelist_boxed_item_name\">"
+"\n"
+"        Double Strike Bacon Burger&amp;nbsp;<br/></span>\n"
+"                                <span class="
+"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                              </span>\n"
+"                              <span class="
+"\"s_pricelist_boxed_item_price ms-auto ps-3\">\n"
+"        $14.00\n"
+"    </span>\n"
+"                            </span>\n"
+"                            <span class="
+"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\""
+">&amp;nbsp;Дві котлети, хрусткий бекон, розплавлений чеддер та соус "
+"барбекю.</span>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -108,6 +149,24 @@ msgid ""
 "                            </span>\n"
 "                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">&amp;nbsp;Chocolate, Vanilla, Strawberry.</span>"
 msgstr ""
+"<span class="
+"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"                              <span class="
+"\"d-flex flex-grow-1 align-items-center\">\n"
+"                                <span class=\"s_pricelist_boxed_item_name\">"
+"\n"
+"        Milkshakes&amp;nbsp;<br/></span>\n"
+"                                <span class="
+"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                              </span>\n"
+"                              <span class="
+"\"s_pricelist_boxed_item_price ms-auto ps-3\">\n"
+"        $8.00\n"
+"    </span>\n"
+"                            </span>\n"
+"                            <span class="
+"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\""
+">&amp;nbsp;Шоколад, ваніль, полуниця.</span>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -124,6 +183,24 @@ msgid ""
 "                            </span>\n"
 "                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">&amp;nbsp;Coke, Sprite, Dr. Pepper, Lemonade.</span>"
 msgstr ""
+"<span class="
+"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"                              <span class="
+"\"d-flex flex-grow-1 align-items-center\">\n"
+"                                <span class=\"s_pricelist_boxed_item_name\">"
+"\n"
+"        Soft drinks&amp;nbsp;<br/></span>\n"
+"                                <span class="
+"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                              </span>\n"
+"                              <span class="
+"\"s_pricelist_boxed_item_price ms-auto ps-3\">\n"
+"        $4.00\n"
+"    </span>\n"
+"                            </span>\n"
+"                            <span class="
+"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\""
+">&amp;nbsp;Кола, Sprite, Dr. Pepper, Лимонад.</span>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -139,6 +216,24 @@ msgid ""
 "                            </span>\n"
 "                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">&amp;nbsp;Juicy beef patty, lettuce, tomato, pickles &amp;amp; cheese on a toasted bun.</span>"
 msgstr ""
+"<span class="
+"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"                              <span class="
+"\"d-flex flex-grow-1 align-items-center\">\n"
+"                                <span class=\"s_pricelist_boxed_item_name\">"
+"\n"
+"        The Kingpin Burger&amp;nbsp;<br/></span>\n"
+"                                <span class="
+"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                              </span>\n"
+"                              <span class="
+"\"s_pricelist_boxed_item_price ms-auto ps-3\">\n"
+"        $12.00</span>\n"
+"                            </span>\n"
+"                            <span class="
+"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\""
+">&amp;nbsp;Соковита яловича котлета, салат, помідор, мариновані огірки та "
+"сир на підсмаженій булочці.</span>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -155,11 +250,30 @@ msgid ""
 "                            </span>\n"
 "                            <span class=\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\">&amp;nbsp;An amazing veggie patty with lots of grilled vegetables and a delicious homemade sauce.&amp;nbsp;<br/></span>"
 msgstr ""
+"<span class="
+"\"s_pricelist_boxed_item_title d-flex align-items-baseline fw-bold\">\n"
+"                              <span class="
+"\"d-flex flex-grow-1 align-items-center\">\n"
+"                                <span class=\"s_pricelist_boxed_item_name\">"
+"\n"
+"        Veggie No-Strikes&amp;nbsp;<br/></span>\n"
+"                                <span class="
+"\"s_pricelist_boxed_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                              </span>\n"
+"                              <span class="
+"\"s_pricelist_boxed_item_price ms-auto ps-3\">\n"
+"        $10.00\n"
+"    </span>\n"
+"                            </span>\n"
+"                            <span class="
+"\"s_pricelist_boxed_item_description d-block mt-2 pe-5 text-muted o_small\""
+">&amp;nbsp;Неймовірна овочева котлета з великою кількістю грильованих овочів "
+"та смачним домашнім соусом.&amp;nbsp;<br/></span>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.custom_appointment_info_heading
 msgid "<strong>Book your Bowling Session</strong>"
-msgstr ""
+msgstr "<strong>Забронюйте свій сеанс боулінгу</strong>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -167,6 +281,8 @@ msgid ""
 "<strong>Bowling Lanes</strong>\n"
 "                      <br/>"
 msgstr ""
+"<strong>Доріжки для боулінгу</strong>\n"
+"                      <br/>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
@@ -174,21 +290,23 @@ msgid ""
 "<strong>Concurrent players</strong>\n"
 "                      <br/>"
 msgstr ""
+"<strong>Поточні гравці</strong>\n"
+"                      <br/>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
 msgid "<strong>Contact page</strong>"
-msgstr ""
+msgstr "<strong>Контактна сторінка</strong>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
 msgid "<strong>Self Ordering</strong>"
-msgstr ""
+msgstr "<strong>Самообслуговування</strong>"
 
 #. module: bowling
 #: model_terms:appointment.type,message_confirmation:bowling.appointment_type_1
 msgid "<strong>Thank You for Booking!</strong>"
-msgstr ""
+msgstr "<strong>Дякуємо за бронювання!</strong>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -207,13 +325,15 @@ msgstr ""
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_1880
 msgid "<strong>🎳 Food Menu</strong> 🍔"
-msgstr ""
+msgstr "<strong>🎳 Меню страв</strong> 🍔"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
 msgid ""
 "Activate <strong>Kiosk mode</strong> for self-ordering at the bowling lanes"
 msgstr ""
+"Активуйте <strong>режим Kiosk</strong> для самообслуговування на доріжках "
+"боулінгу"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -221,61 +341,63 @@ msgid ""
 "Appointments can be displayed and managed in the <strong>Calendar app "
 "</strong>"
 msgstr ""
+"Зустрічі можуть відображатися та керуватися в модулі <strong>Календар "
+"</strong>"
 
 #. module: bowling
 #: model:product.template,name:bowling.product_product_48_product_template
 msgid "Beer Bottle"
-msgstr ""
+msgstr "Пляшка пива"
 
 #. module: bowling
 #: model:product.template,name:bowling.product_product_47_product_template
 msgid "Beer Pint"
-msgstr ""
+msgstr "Келих пива"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.ir_ui_view_2997
 msgid "Book Now"
-msgstr ""
+msgstr "Зарезервуйте зараз"
 
 #. module: bowling
 #: model:appointment.type,name:bowling.appointment_type_1
 msgid "Book a Bowling Game"
-msgstr ""
+msgstr "Забронюйте гру у боулінг"
 
 #. module: bowling
 #: model:pos.category,name:bowling.pos_category_2
 msgid "Bowling"
-msgstr ""
+msgstr "Боулінг"
 
 #. module: bowling
 #: model:product.template,name:bowling.product_product_52_product_template
 msgid "Bowling Lane - 1 hour"
-msgstr ""
+msgstr "Доріжка боулінгу - 1 година"
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_52_product_template
 msgid "Bowling Lane - 1 hour available at the bowling alley."
-msgstr ""
+msgstr "Доріжка боулінгу - 1 година доступна в боулінг-клубі."
 
 #. module: bowling
 #: model:product.template,name:bowling.product_product_51_product_template
 msgid "Bowling Lane - 30 min"
-msgstr ""
+msgstr "Доріжка боулінгу - 30 хвилин"
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_51_product_template
 msgid "Bowling Lane - 30 min available at the bowling alley."
-msgstr ""
+msgstr "Доріжка боулінгу – 30 хвилин у боулінг-клубі."
 
 #. module: bowling
 #: model:product.template,name:bowling.product_product_38_product_template
 msgid "Cheese Deluxe Burger"
-msgstr ""
+msgstr "Бургер Делюкс з сиром"
 
 #. module: bowling
 #: model:product.template,name:bowling.product_product_37_product_template
 msgid "Classic Burger"
-msgstr ""
+msgstr "Класичний бургер"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -283,6 +405,8 @@ msgid ""
 "Create a beautiful website and make it yours by adding sections that are "
 "relevant to your offering as well as attractive landing pages."
 msgstr ""
+"Створіть гарний вебсайт та персоналізуйте його, додавши розділи, що "
+"відповідають вашій пропозиції, а також привабливі цільові сторінки."
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -290,11 +414,14 @@ msgid ""
 "Create appointments for different booking durations, and link them to these same ressources<br/>\n"
 "                <br/>"
 msgstr ""
+"Створюйте зустрічі для різної тривалості бронювання та пов’язуйте їх із цими "
+"ж ресурсами<br/>\n"
+"                <br/>"
 
 #. module: bowling
 #: model:product.template,name:bowling.product_product_41_product_template
 msgid "Crispy Fries"
-msgstr ""
+msgstr "Хрустка картопля фрі"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -302,6 +429,8 @@ msgid ""
 "Customers are hungry? Allow them to purchase drinks, snacks and a bite "
 "through the <strong>Point of Sale app</strong>"
 msgstr ""
+"Клієнти голодні? Дозвольте їм купити напої, закуски та перекусити в модулі "
+"<strong>Точка продажу</strong>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -310,6 +439,9 @@ msgid ""
 "supposed to return how many shoes at a glance using the Point of Sale order "
 "overviews."
 msgstr ""
+"Клієнти також можуть орендувати взуття для боулінгу — слідкуйте за тим, на "
+"які доріжки скільки взуття потрібно повернути, використовуючи огляди "
+"замовлень у пункті продажу."
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -317,6 +449,8 @@ msgid ""
 "Customers can book a session using the <strong>Appointments app's page "
 "</strong>on your website, and pay in just a few clicks"
 msgstr ""
+"Клієнти можуть забронювати зустріч, використовуючи <strong>сторінку модуля "
+"Зустрічі </strong>на вашому вебсайті, та заплатити лише у кілька кліків"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -325,73 +459,77 @@ msgid ""
 "Sale app to manage food sales, and attribute them to the correct bowling "
 "lanes to keep an easy overview of what goes where."
 msgstr ""
+"Клієнти голодні або хочуть забронювати доріжку на місці? Просто "
+"скористайтеся модулем Точка продажу, щоб керувати продажами їжі та призначте "
+"їх до правильних доріжок для боулінгу, щоб мати легкий огляд того, що куди "
+"потрапляє."
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
 msgid ""
 "Customize your appointment reminders to tailor them to your company's "
 "branding"
-msgstr ""
+msgstr "Налаштуйте нагадування про зустрічі відповідно до бренду вашої компанії"
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_48_product_template
 msgid "Delicious Beer Bottle served fresh."
-msgstr ""
+msgstr "Смачна пляшка пива, що подається свіжою."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_47_product_template
 msgid "Delicious Beer Pint served fresh."
-msgstr ""
+msgstr "Смачний келих свіжого пива."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_38_product_template
 msgid "Delicious Cheese Deluxe Burger served fresh."
-msgstr ""
+msgstr "Смачний сирний бургер Делюкс, що подається свіжим."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_37_product_template
 msgid "Delicious Classic Burger served fresh."
-msgstr ""
+msgstr "Смачний класичний бургер, що подається свіжим."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_41_product_template
 msgid "Delicious Crispy Fries served fresh."
-msgstr ""
+msgstr "Смачна хрустка картопля фрі, що подається свіжою."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_46_product_template
 msgid "Delicious Milkshake Chocolate served fresh."
-msgstr ""
+msgstr "Смачний шоколадний молочний коктейль, подається свіжим."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_45_product_template
 msgid "Delicious Milkshake Vanilla served fresh."
-msgstr ""
+msgstr "Смачний ванільний молочний коктейль, подається свіжим."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_42_product_template
 msgid "Delicious Onion Rings served fresh."
-msgstr ""
+msgstr "Смачні цибулеві кільця, подані свіжими."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_43_product_template
 msgid "Delicious Soft Drink Large served fresh."
-msgstr ""
+msgstr "Смачний безалкогольний напій, великий, подається свіжим."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_44_product_template
 msgid "Delicious Soft Drink Small served fresh."
-msgstr ""
+msgstr "Смачний безалкогольний напій, що подається свіжим."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_39_product_template
 msgid "Delicious Spicy Chicken Burger served fresh."
-msgstr ""
+msgstr "Смачний гострий курячий бургер, подається свіжим."
 
 #. module: bowling
 #: model_terms:product.template,description:bowling.product_product_40_product_template
 msgid "Delicious Veggie Burger served fresh."
-msgstr ""
+msgstr "Смачний вегетаріанський бургер, подається свіжим."
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -404,6 +542,8 @@ msgid ""
 "Do you want to allow self-ordering from the bowling lanes? Activate the "
 "\"Kiosk\" setting in the Point of Sale configuration. <br/>"
 msgstr ""
+"Ви хочете дозволити самостійне замовлення з доріжок для боулінгу? Активуйте "
+"налаштування «Кіоску» у конфігурації Точки продажу. <br/>"
 
 #. module: bowling
 #: model_terms:ir.ui.view,arch_db:bowling.welcome_article_body
@@ -411,6 +551,8 @@ msgid ""
 "Don't neglect marketing! Odoo offers a comprehensive marketing suite for "
 "email marketing and social media accounts."
 msgstr ""
+"Не нехтуйте маркетингом! Odoo пропонує комплексний маркетинговий пакет для "
+"email-маркетингу та облікових записів соціальних мереж."
 
 #. module: bowling
 #: model:pos.category,name:bowling.pos_category_1
@@ -425,17 +567,18 @@ msgstr "Співробітники"
 #. module: bowling
 #: model:product.template,description_sale:bowling.product_product_48_product_template
 msgid "Enjoy our Beer Bottle at an unbeatable price!"
-msgstr ""
+msgstr "Насолоджуйтесь нашою пляшкою пива за неперевершеною ціною!"
 
 #. module: bowling
 #: model:product.template,description_sale:bowling.product_product_47_product_template
 msgid "Enjoy our Beer Pint at an unbeatable price!"
-msgstr ""
+msgstr "Насолоджуйтесь нашим пивом за неперевершеною ціною!"
 
 #. module: bowling
 #: model:product.template,description_sale:bowling.product_product_52_product_template
 msgid "Enjoy our Bowling Lane - 1 hour at an unbeatable price!"
 msgstr ""
+"Насолоджуйтесь нашою боулінг-доріжкою - 1 година за неперевершеною ціною!"
 
 #. module: bowling
 #: model:product.template,description_sale:bowling.product_product_51_product_template

@@ -18,49 +18,53 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 10:35+0000\n"
-"PO-Revision-Date: 2024-10-06 01:20+0000\n"
-"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
-"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"PO-Revision-Date: 2025-08-05 08:39+0000\n"
+"Last-Translator: \"Deniz Guvener Unal (degu)\" <degu@odoo.com>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-18/"
+"beverage_distributor/tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Enjoy our B2B loyalty program<br/>"
 msgstr ""
+"&amp;nbsp;300$ üzeri siparişlerde B2B sadakat programımızdan yararlanın<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;For order beyond 300$<br/>"
-msgstr ""
+msgstr "&amp;nbsp;300$ üzeri siparişlerde<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Get delivered next week.<br/>"
-msgstr ""
+msgstr "&amp;nbsp;Teslimatınız gelecek hafta yapılsın.<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Relies on amazing partners<br/>"
-msgstr ""
+msgstr "&amp;nbsp;Harika partnerlerden destek alır<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Visit us to get a free degustation for B2B partners !<br/>"
 msgstr ""
+"&amp;nbsp;B2B partnerler için ücretsiz tadım fırsatı: bizi ziyaret edin!<br/>"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_17
 msgid "+16"
-msgstr ""
+msgstr "+16"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_18
 msgid "+18"
-msgstr ""
+msgstr "+18"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -68,6 +72,9 @@ msgid ""
 "<font class=\"text-o-color-5\">Thanks to our new wine specialist, we are now proud to propose more than 100 different wines in our stock.</font>\n"
 "                                    <br/>"
 msgstr ""
+"<font class=\"text-o-color-5\">Yeni şarap uzmanımız sayesinde stoklarımızda "
+"100'den fazla farklı şarap sunmaktan gurur duyuyoruz.</font>\n"
+"                                    <br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -75,11 +82,13 @@ msgid ""
 "<font class=\"text-o-color-5\">Welcome our wine assortment</font>\n"
 "                                    <br/>"
 msgstr ""
+"<font class=\"text-o-color-5\">Şarap koleksiyonumuzu keşfedin</font>\n"
+"                                    <br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<font class=\"text-o-color-5\">​</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-5\">​</font>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -89,7 +98,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -107,6 +116,9 @@ msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "                                        <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                                        <span class=\"visually-hidden\""
+">İleri</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -114,6 +126,9 @@ msgid ""
 "<span class=\"carousel-control-next-icon\"/>\n"
 "                                    <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                                    <span class=\"visually-hidden\""
+">Geri</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -121,6 +136,9 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
 "                                        <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                                        <span class=\"visually-hidden\""
+">Önceki</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -128,6 +146,9 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
 "                                    <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                                    <span class=\"visually-hidden\""
+">Önceki</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -135,36 +156,40 @@ msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Beverages "
 "distributor</strong></span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong>İçecek Distribütörleri için "
+"Odoo</strong></span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Temel Bilgiler</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">10%</span>"
-msgstr ""
+msgstr "<span class=\"s_number display-4 o_default_snippet_text\">10%</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">1000+</span>"
 msgstr ""
+"<span class=\"s_number display-4 o_default_snippet_text\">1000'den "
+"fazla</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">184</span>"
-msgstr ""
+msgstr "<span class=\"s_number display-4 o_default_snippet_text\">184</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "<span class=\"s_number display-4 o_default_snippet_text\">2545</span>"
-msgstr ""
+msgstr "<span class=\"s_number display-4 o_default_snippet_text\">2545</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h2-fs\">Başarı İçin İpuçları</span></strong>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -173,6 +198,8 @@ msgid ""
 "A truly exquisite drinking experience. I highly recommend the Margarita, out"
 " of this world."
 msgstr ""
+"Gerçekten eşsiz bir içim deneyimi. Margarita'yı şiddetle tavsiye ederim, "
+"harika bir lezzet."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -181,11 +208,13 @@ msgid ""
 "to propose new drinks and flavors. While respecting seasons' products and "
 "nature."
 msgstr ""
+"Yerel ürünlerle zengin içecek çeşitliliği. Sürekli yeni içecekler ve tatlar "
+"sunmaya çalışıyoruz. Mevsimsel ürünlere ve doğaya saygı göstererek."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Access customer-specific pricing"
-msgstr ""
+msgstr "Müşteriye özgü fiyatlara erişim"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -201,17 +230,17 @@ msgstr ""
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_15
 msgid "Age Limit"
-msgstr ""
+msgstr "Yaş Sınırı"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_5
 msgid "Amber"
-msgstr ""
+msgstr "Kehribar"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Apply DEP XX taxes to these consigns."
-msgstr ""
+msgstr "Bu iadeli ürünler için DEP XX vergilerini uygulayın."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -221,21 +250,25 @@ msgid ""
 "flavor, or delicious cocktails that satisfy your thirst. And each day, "
 "you’ll discover our Today’s Special."
 msgstr ""
+"Bistro’da yemeğinizin yanında geniş içecek seçenekleri sizi bekliyor. Pazar "
+"brunch’ı, lezzet dolu ferahlatıcı meyve suları veya susuzluğunuzu giderecek "
+"kokteyller için bizi ziyaret edin. Her gün farklı bir Günün Özel Menüsü sizi "
+"bekliyor."
 
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.auto_production
 msgid "Auto Production"
-msgstr ""
+msgstr "Otomatik Üretim"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_aut_production
 msgid "Auto-production"
-msgstr ""
+msgstr "Otomatik üretim"
 
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.bom_automation
 msgid "Automated BoM"
-msgstr ""
+msgstr "Otomatik Ürün Reçetesi (BoM)"
 
 #. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_2
@@ -245,7 +278,7 @@ msgstr "B2B"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Barcode Scanning 📱"
-msgstr ""
+msgstr "Barkod Tarama 📱"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -255,7 +288,7 @@ msgstr "Temeller"
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_10
 msgid "Beer type"
-msgstr ""
+msgstr "Bira türü"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_2
@@ -267,12 +300,12 @@ msgstr "Bira"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Beverage Selection"
-msgstr ""
+msgstr "İçecek Seçkisi"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_2
 msgid "Blond"
-msgstr ""
+msgstr "Açık Renk (Blond)"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_16
@@ -287,37 +320,37 @@ msgstr "Kahverengi"
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_24
 msgid "Brussels beer project"
-msgstr ""
+msgstr "Brüksel bira projesi"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_22
 msgid "Bubbles"
-msgstr ""
+msgstr "Köpüklü"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_67
 msgid "Cava Brut Il Lusio - Josep Masachs 6x75cl"
-msgstr ""
+msgstr "Cava Brut Il Lusio - Josep Masachs 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_68
 msgid "Cava Brut Il Lusio - Josep Masachs 75cl"
-msgstr ""
+msgstr "Cava Brut Il Lusio - Josep Masachs 75cl"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_21
 msgid "Chaudfontaine"
-msgstr ""
+msgstr "Chaudfontaine"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_14
 msgid "Coca-cola"
-msgstr ""
+msgstr "Coca-cola"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_51
 msgid "Coca-cola 24x33cl"
-msgstr ""
+msgstr "Coca-cola 24x33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -325,6 +358,10 @@ msgid ""
 "Collect deposit when you deliver your customer. It is easy. When validating your delivery, you can directly set a \"Return\" and precisely count the number of each type of deposit your customer gave you. It will automatically be\n"
 "                        reflected on his invoice or issue a credit note."
 msgstr ""
+"Teslimat yaparken depozitoyu tahsil edin. Çok kolay. Teslimatı onaylarken "
+"doğrudan bir “İade” belirleyebilir ve müşterinizin verdiği her depozito "
+"türünü tam olarak sayabilirsiniz. Bu işlem, faturaya otomatik olarak\n"
+"                        yansıtılır veya alacak dekontu oluşturulur."
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_quantity_by_deposit_product
@@ -338,36 +375,37 @@ msgid ""
 "Cosy and friendly, good atmosphere and super drinks. Especially the homemade"
 " lemonade."
 msgstr ""
+"Sıcak ve samimi ortam, harika içecekler. Özellikle ev yapımı limonata harika."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create and track sales orders"
-msgstr ""
+msgstr "Satış siparişlerini oluşturun ve takip edin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create deposit products for each different type of consigns"
-msgstr ""
+msgstr "Her farklı iade türü için ayrı depozito ürünleri oluşturun"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create purchase orders"
-msgstr ""
+msgstr "Satın Alma siparişleri oluşturun"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Customer Relationship Management (CRM) 🤝"
-msgstr ""
+msgstr "Müşteri İlişkileri Yönetimi (CRM)🤝"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_69
 msgid "Cuvée Grillo - Villa Carumé 6x75cl"
-msgstr ""
+msgstr "Cuvée Grillo - Villa Carumé 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_70
 msgid "Cuvée Grillo - Villa Carumé 75cl"
-msgstr ""
+msgstr "Cuvée Grillo - Villa Carumé 75cl"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_01_purchase
@@ -378,7 +416,7 @@ msgstr "DEP 0.1"
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_21_sale
 msgid "DEP 2.1"
-msgstr ""
+msgstr "DEP 2.1"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_24_purchase
@@ -408,6 +446,8 @@ msgid ""
 "Delete the above image or replace it with a picture that showcases our "
 "products. Click on the picture to change its rounded corner style."
 msgstr ""
+"Yukarıdaki görseli silin veya ürünlerimizi gösteren bir görselle değiştirin. "
+"Görsele tıklayarak köşe stilini değiştirebilirsiniz."
 
 #. module: beverage_distributor
 #: model:account.tax.group,name:beverage_distributor.deposit_tax_group
@@ -418,27 +458,27 @@ msgstr "Depozito"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_9
 msgid "Deposit 0.1"
-msgstr ""
+msgstr "Depozito 0.1"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_56
 msgid "Deposit 2.1"
-msgstr ""
+msgstr "Depozito 2.1"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_53
 msgid "Deposit 2.4"
-msgstr ""
+msgstr "Depozito 2.4"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_55
 msgid "Deposit 4.5"
-msgstr ""
+msgstr "Depoito 4.5"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Deposit Management 🍻"
-msgstr ""
+msgstr "Depozito Yönetimi 🍻"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_deposit_product_1
@@ -448,22 +488,22 @@ msgstr "Depozito ürünü"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Deposit product must be set in Deposit category"
-msgstr ""
+msgstr "Depozito ürünü, Depozito kategorisine atanmalıdır"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "Daha Fazlasını Keşfetmek İster Misiniz?"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_exc_21676_sale
 msgid "EXC 2.1676"
-msgstr ""
+msgstr "EXC 2.1676"
 
 #. module: beverage_distributor
 #: model:account.tax,name:beverage_distributor.account_tax_exc_coca_sale
 msgid "EXC COCA"
-msgstr ""
+msgstr "EXC COCA"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_empty_deposit
@@ -476,6 +516,8 @@ msgid ""
 "Encourage your B2B clients to use the online ordering system for improved "
 "efficiency"
 msgstr ""
+"B2B müşterilerinizi verimliliği artırmak için çevrim içi sipariş sistemini "
+"kullanmaya teşvik edin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -484,11 +526,14 @@ msgid ""
 "have enough in stock, it will split your main product in 24 units and take "
 "into account an extra empty bin that will be left at the end."
 msgstr ""
+"Her seferinde tek bir Mobius Blanche - 33cl satmanız gerektiğinde ve stokta "
+"yeterli ürün yoksa, ana ürününüzü 24 birime ayırır ve sonunda kalan boş "
+"kutuyu da dikkate alır."
 
 #. module: beverage_distributor
 #: model:account.tax.group,name:beverage_distributor.excises_tax_group
 msgid "Excises"
-msgstr ""
+msgstr "Tüketim Vergisi"
 
 #. module: beverage_distributor
 #: model:ir.actions.server,name:beverage_distributor.action_make_deposit_storable_delivery_invoice
@@ -500,47 +545,47 @@ msgstr "Kodu Çalıştırın"
 #. module: beverage_distributor
 #: model:ir.actions.server,name:beverage_distributor.update_state
 msgid "Execute Existing Actions"
-msgstr ""
+msgstr "Mevcut Eylemleri Çalıştır"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Fast Delivery"
-msgstr ""
+msgstr "Hızlı Teslimat"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Follow up with potential clients"
-msgstr ""
+msgstr "Potansiyel müşterilerle iletişimi sürdürün"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "For B2C sales, the POS app enables you to:"
-msgstr ""
+msgstr "B2C satışlar için, POS uygulaması size şunları sağlar:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "For example:"
-msgstr ""
+msgstr "Örneğin:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Free shipping&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Ücretsiz kargo&amp;nbsp;<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Get rewards&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Ödül kazanın&amp;nbsp;<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Handle returns and consignment easily"
-msgstr ""
+msgstr "İadeleri ve emanet işlemlerini kolayca yönetin"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_14
 msgid "IPA"
-msgstr ""
+msgstr "IPA"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -549,6 +594,8 @@ msgid ""
 "precise a unit sale product in the so-called field and the number of units "
 "contained in the main product."
 msgstr ""
+"Belirli bir ambalajla satılan ürünleri otomatik olarak bölmek istiyorsanız, "
+"ilgili alana birim satış ürününü ve ana ürünün kaç birim içerdiğini belirtin."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -556,11 +603,13 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
+"Bu paketin tüm özelliklerini kolayca keşfetmek istiyorsanız, Demo Verilerini "
+"indirerek deneyin."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Implement the Quality app to ensure consistent product quality"
-msgstr ""
+msgstr "Ürün kalitesini sürekli sağlamak için Kalite uygulamasını devreye alın"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -568,17 +617,19 @@ msgid ""
 "Implement the Surveys app to gather customer feedback and improve your "
 "service"
 msgstr ""
+"Müşteri geri bildirimleri toplamak ve hizmetinizi geliştirmek için Anket "
+"uygulamasını kullanın"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Inventory Management 📦"
-msgstr ""
+msgstr "Stok Yönetimi 📦"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Iris SMITH • CEO of Beverage Co."
-msgstr ""
+msgstr "Iris SMITH • Beverage Co. CEO’su"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit
@@ -593,29 +644,29 @@ msgstr "Bir teminat kategorisidir"
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_23
 msgid "Jack Daniels"
-msgstr ""
+msgstr "Jack Daniels"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_71
 msgid "Jack Daniels 70cl"
-msgstr ""
+msgstr "Jack Daniels 70cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Jane SMITH • CEO of Beverage Co."
-msgstr ""
+msgstr "John SMITH • Beverage Co. CEO’su"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "John SMITH • CEO of Beverage Co."
-msgstr ""
+msgstr "John SMITH • Beverage Co. CEO’su"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Join the Party."
-msgstr ""
+msgstr "Partiye katılın."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -623,16 +674,18 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on Odoo.com/trial"
 msgstr ""
+"Dikkatli olun, demo verisi yüklendikten sonra kolayca silinemez. Ancak "
+"Odoo.com/trial üzerinden yeni bir veri tabanı başlatabilirsiniz."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Keep your inventory updated in real-time"
-msgstr ""
+msgstr "Stoklarınızı gerçek zamanlı olarak güncel tutun"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Leave empty if this product is the smallest unit"
-msgstr ""
+msgstr "Bu ürün en küçük birimse boş bırakın"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -640,91 +693,93 @@ msgid ""
 "Leverage the reporting tools across all apps to gain insights into your "
 "business performance"
 msgstr ""
+"İş performansınız hakkında bilgi edinmek için tüm uygulamalardaki raporlama "
+"araçlarını kullanın"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_13
 msgid "Local Brand"
-msgstr ""
+msgstr "Yerel Marka"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_63
 msgid "Lou Daro - Château de Gragnos 6x75cl"
-msgstr ""
+msgstr "Lou Daro - Château de Gragnos 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_64
 msgid "Lou Daro - Château de Gragnos 75cl"
-msgstr ""
+msgstr "Lou Daro - Château de Gragnos 75cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage consignment for drinks sold in crates"
-msgstr ""
+msgstr "Kasalarla satılan içeceklerin emanet süreçlerini yönetin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage supplier relationships"
-msgstr ""
+msgstr "Tedarikçi ilişkilerini yönetin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
-msgstr ""
+msgstr "Depozito işlemlerinizi her zamankinden daha hassas ve verimli yönetin."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your product catalog"
-msgstr ""
+msgstr "Ürün kataloğunuzu yönetin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your sales pipeline"
-msgstr ""
+msgstr "Satış süreçlerinizi yönetin"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_12
 msgid "Mobius"
-msgstr ""
+msgstr "Mobius"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Mobius Blanche - 24x33cl is your main product"
-msgstr ""
+msgstr "Mobius Blanche - 24x33cl is your main product"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Mobius Blanche - 33cl is the unit sale product"
-msgstr ""
+msgstr "Mobius Blanche - 33cl is the unit sale product"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_6
 msgid "Mobius Blanche 24x33cl"
-msgstr ""
+msgstr "Mobius Blanche 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_7
 msgid "Mobius Blanche 33cl"
-msgstr ""
+msgstr "Mobius Blanche 33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_59
 msgid "Mobius IPA 24x33cl "
-msgstr ""
+msgstr "Mobius IPA 24x33cl "
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_60
 msgid "Mobius IPA 33cl"
-msgstr ""
+msgstr "Mobius IPA 33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_61
 msgid "Mobius Triple 24x33cl"
-msgstr ""
+msgstr "Mobius Triple 24x33cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_62
 msgid "Mobius Triple 33cl"
-msgstr ""
+msgstr "Mobius Triple 33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -742,12 +797,12 @@ msgstr "Hayır"
 msgid ""
 "Odoo offers additional possibilities to enhance your drink distribution "
 "business:"
-msgstr ""
+msgstr "Odoo, içecek dağıtım işinizi geliştirmek için ek olanaklar sunar:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Order online&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Çevrim içi sipariş verin&amp;nbsp;<br/>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -760,27 +815,29 @@ msgid ""
 "Our professional yet convivial service will make your "
 "supply&amp;nbsp;experience unforgettable."
 msgstr ""
+"Profesyonel ve samimi hizmetimiz tedarik &amp;nbsp; deneyiminizi unutulmaz "
+"kılacak."
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_bom
 #: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_rr
 msgid "Parent product"
-msgstr ""
+msgstr "Ana ürün"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Perform efficient stock takes"
-msgstr ""
+msgstr "Verimli sayım işlemleri gerçekleştirin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Place orders online 24/7"
-msgstr ""
+msgstr "7/24 çevrim içi sipariş verin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Point of Sale (POS) 💳"
-msgstr ""
+msgstr "Satış Noktası (POS) 💳"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -791,22 +848,22 @@ msgstr "Önceki"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Process incoming and outgoing shipments"
-msgstr ""
+msgstr "Gelen ve giden sevkiyatları yönetin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Process quick sales at your distribution center"
-msgstr ""
+msgstr "Dağıtım merkezinizde hızlı satış işlemleri gerçekleştirin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Purchase Management 🛒"
-msgstr ""
+msgstr "Satın Alma Yönetimi 🛒"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
 msgid "Quality Products"
-msgstr ""
+msgstr "Kaliteli Ürünler"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -821,7 +878,7 @@ msgstr "Kırmızı"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Regularly update your website with new products and promotions"
-msgstr ""
+msgstr "Web sitenizi düzenli olarak yeni ürünler ve kampanyalarla güncelleyin"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_11
@@ -831,22 +888,22 @@ msgstr "Rose"
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_65
 msgid "Rosé Cosmos - Château de Gragnos 6x75cl"
-msgstr ""
+msgstr "Rosé Cosmos - Château de Gragnos 6x75cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_66
 msgid "Rosé Cosmos - Château de Gragnos 75cl"
-msgstr ""
+msgstr "Rosé Cosmos - Château de Gragnos 75cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Sales Management 🍾"
-msgstr ""
+msgstr "Satış Yönetimi 🍾"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Scan products for quick data entry"
-msgstr ""
+msgstr "Hızlı veri girişi için ürünleri tarayın"
 
 #. module: beverage_distributor
 #: model:website.menu,name:beverage_distributor.website_menu_11
@@ -860,31 +917,33 @@ msgid ""
 "Set a deposit product on your product to apply these taxes. This will ensure"
 " that you invoice correctly the price of consigns."
 msgstr ""
+"Bu vergileri uygulamak için ürününüze bir depozito ürünü tanımlayın. Bu, "
+"emanet bedelini doğru şekilde faturalandırmanızı sağlar."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Set up pricing strategies for different customer segments"
-msgstr ""
+msgstr "Farklı müşteri segmentleri için fiyatlandırma stratejileri oluşturun"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Set up reordering rules for popular products"
-msgstr ""
+msgstr "Popüler ürünler için yeniden sipariş kuralları belirleyin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "Shop our products"
-msgstr ""
+msgstr "Ürünlerimizi inceleyin"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_8
 msgid "Soda"
-msgstr ""
+msgstr "Gazlı içecek"
 
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_11
 msgid "Soda type"
-msgstr ""
+msgstr "Gazlı içecek türü"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_1
@@ -896,17 +955,17 @@ msgstr "Gazlı İçecekler"
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_13
 msgid "Spa"
-msgstr ""
+msgstr "Spa"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_54
 msgid "Spa Still 24x25cl"
-msgstr ""
+msgstr "Spa Still 24x25cl"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_57
 msgid "Spa Still 25cl"
-msgstr ""
+msgstr "Spa Still 25cl"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_3
@@ -917,12 +976,12 @@ msgstr "Sert İçkiler"
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_4
 msgid "Stout"
-msgstr ""
+msgstr "Stout"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Streamline picking and packing processes"
-msgstr ""
+msgstr "Toplama ve paketleme süreçlerini kolaylaştırın"
 
 #. module: beverage_distributor
 #: model:delivery.carrier,name:beverage_distributor.delivery_carrier_1
@@ -933,27 +992,27 @@ msgstr "Paket Servis"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The Barcode app enhances your inventory operations:"
-msgstr ""
+msgstr "Barkod uygulaması stok operasyonlarınızı geliştirir:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The CRM app helps you:"
-msgstr ""
+msgstr "CRM uygulaması size şu konularda yardımcı olur:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The Inventory app is the core of your distribution business:"
-msgstr ""
+msgstr "Envanter uygulaması, dağıtım işinizin merkezidir:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The Purchase app allows you to:"
-msgstr ""
+msgstr "Satın Alma uygulaması size şunları sağlar:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "The inventory of all products will be updated accordingly."
-msgstr ""
+msgstr "Tüm ürünlerin stokları buna göre güncellenecektir."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -961,6 +1020,8 @@ msgid ""
 "These features can be added to your current subscription. Feel free to "
 "explore and expand your Odoo experience!"
 msgstr ""
+"Bu özellikler mevcut aboneliğinize eklenebilir. Odoo deneyiminizi "
+"keşfetmekten ve genişletmekten çekinmeyin!"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -968,6 +1029,8 @@ msgid ""
 "This deposit management system is a specific features of this package. "
 "Proceed carefully if you need to adapt anything."
 msgstr ""
+"Bu depozito yönetim sistemi, bu pakete özel bir özelliktir. Herhangi bir "
+"uyarlama yapacaksanız dikkatli ilerleyin."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -982,6 +1045,9 @@ msgid ""
 "Order each time you need to split your product and reflect this operation in"
 " your stock perfectly."
 msgstr ""
+"Bu işlem, ürününüzü bölmeniz gerektiğinde otomatik olarak bir Ürün Reçetesi "
+"oluşturur ve bir Üretim Emri başlatarak bu işlemi stoklarınıza tam olarak "
+"yansıtır."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -997,17 +1063,17 @@ msgstr ""
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Track incoming shipments"
-msgstr ""
+msgstr "Gelen sevkiyatları takip edin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Track leads and opportunities"
-msgstr ""
+msgstr "Müşteri adaylarını ve fırsatları takip edin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Track stock levels across multiple warehouses"
-msgstr ""
+msgstr "Birden fazla depodaki stok seviyelerini takip edin"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1015,11 +1081,13 @@ msgid ""
 "Train your team on efficient use of the barcode system in warehouse "
 "operations"
 msgstr ""
+"Depo operasyonlarında barkod sisteminin etkin kullanımı konusunda ekibinizi "
+"eğitin"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_unit_sale_product
 msgid "Unit sale product"
-msgstr ""
+msgstr "Birim satış ürünü"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_9
@@ -1035,27 +1103,32 @@ msgstr "Vergileri Güncelle"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Use barcode scanning for all inventory movements to ensure accuracy"
 msgstr ""
+"Tüm stok hareketlerinde doğruluk sağlamak için barkod taramasını kullanın"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "Use the Marketing Automation app to nurture leads and promote new products"
 msgstr ""
+"Müşteri adaylarını yönlendirmek ve yeni ürünleri tanıtmak için Pazarlama "
+"Otomasyonu uygulamasını kullanın"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Use the Sales app to:"
-msgstr ""
+msgstr "Satış uygulamasını şu amaçlarla kullanın:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Utilize the Fleet app to manage your delivery vehicles efficiently"
 msgstr ""
+"Teslimat araçlarınızı verimli şekilde yönetmek için Filo Yönetimi "
+"uygulamasını kullanın"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "View their order history and reorder easily"
-msgstr ""
+msgstr "Sipariş geçmişlerini görüntüleyin ve kolayca yeniden sipariş verin"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_7
@@ -1070,6 +1143,10 @@ msgid ""
 "smoothly, with a focus on inventory management, efficient operations, and "
 "online sales."
 msgstr ""
+"Yeni 'Odoo İçecek Distribütörleri' paketinize hoş geldiniz! Bu kılavuz, stok "
+"yönetimi, verimli operasyonlar ve çevrim içi satışlara odaklanarak önemli "
+"özellikleri keşfetmenize ve dağıtım işinizi sorunsuz bir şekilde yürütmenize "
+"yardımcı olacak."
 
 #. module: beverage_distributor
 #: model_terms:web_tour.tour,rainbow_man_message:beverage_distributor.knowledge_tour
@@ -1085,7 +1162,7 @@ msgstr "Beyaz"
 #. module: beverage_distributor
 #: model:product.attribute,name:beverage_distributor.product_attribute_12
 msgid "Wine type"
-msgstr ""
+msgstr "Şarap türü"
 
 #. module: beverage_distributor
 #: model:pos.category,name:beverage_distributor.pos_category_4
@@ -1099,6 +1176,8 @@ msgstr "Şaraplar"
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
+"Odoo kurulumunuzu bizimle görüşmek veya daha fazla özelliği keşfetmek ister "
+"misiniz?"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_15
@@ -1118,44 +1197,46 @@ msgstr ""
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
-msgstr ""
+msgstr "Bunu, Uygulamalar bölümünden paket yükselterek hala yapabilirsiniz."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Your B2B eCommerce portal allows clients to:"
-msgstr ""
+msgstr "B2B eTicaret portalınız müşterilerin şunları yapmasını sağlar:"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
 msgstr ""
+"[BOŞ 33 KASA] Normal Boy 24x33 Kasa boş depozito ürünüdür (2,1$ değerinde)"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid ""
 "[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
 msgstr ""
+"[DOLU 33 KASA] Normal Boy 24x33 Kasa tam depozito ürünüdür (4,5$ değerinde)"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "deliveries each week"
-msgstr ""
+msgstr "her hafta teslimatlar"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "eCommerce Website 🌐"
-msgstr ""
+msgstr "eTicaret Web Sitesi 🌐"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "ex. Delta I.P.A. - 33cl"
-msgstr ""
+msgstr "örn. Delta I.P.A. - 33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "for B2B partners"
-msgstr ""
+msgstr "B2B partnerler için"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1165,7 +1246,7 @@ msgstr "mutlu müşteriler"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "labeled bottles on rack"
-msgstr ""
+msgstr "rafta etiketli şişeler"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1175,32 +1256,32 @@ msgstr "referanslar"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Barcode"
-msgstr ""
+msgstr "🎓 Barkod"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 CRM"
-msgstr ""
+msgstr "🎓 CRM"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Inventory"
-msgstr ""
+msgstr "🎓 Envanter"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Point of Sale"
-msgstr ""
+msgstr "🎓 Satış Noktası"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Purchase"
-msgstr ""
+msgstr "🎓 Satın Alma"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Sales"
-msgstr ""
+msgstr "🎓 Satış"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
