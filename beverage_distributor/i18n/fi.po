@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-01 11:45+0000\n"
-"PO-Revision-Date: 2025-08-19 14:34+0000\n"
+"PO-Revision-Date: 2025-08-21 19:42+0000\n"
 "Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-4/"
 "beverage_distributor/fi/>\n"
@@ -156,6 +156,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -190,6 +192,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -396,6 +400,8 @@ msgid ""
 "Create a new excise category defining its name, description and reporting "
 "unit following the legislation which applies."
 msgstr ""
+"Luo uusi valmisteveroluokka ja määritä sen nimi, kuvaus ja "
+"raportointiyksikkö sovellettavan lainsäädännön mukaisesti."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -468,7 +474,7 @@ msgstr "Talletusten oletuskentät"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Define the required product fields."
-msgstr ""
+msgstr "Määritä vaaditut tuotekentät."
 
 #. module: beverage_distributor
 #: model:account.tax.group,name:beverage_distributor.deposit_tax_group
@@ -547,6 +553,10 @@ msgid ""
 "from the fiscal deposit of a supplier. To define such suppliers, adapt their"
 " fiscal position to handle excise tax."
 msgstr ""
+"Vienti kiinteästa talletuksesta koskee tuotteita, jotka tulevat omaan "
+"verotalletuksen varastoosi toimittajan verotalletuksen varastosta. Tällöin "
+"toimittajan verovelvollisuusasemaa tulee säätää valmisteveron käsittelyyn "
+"sopivaksi."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -637,7 +647,6 @@ msgstr "Asiantuntevaa neuvontaa monimutkaisissa juomien jakeluhaasteissa"
 
 #. module: beverage_distributor
 #: model:product.template,name:beverage_distributor.product_template_27
-#, fuzzy
 msgid "Fanta 24x33cl"
 msgstr "Fanta 24x33cl"
 
@@ -910,6 +919,9 @@ msgid ""
 "duty, a report is setup to reach the quantity by excise category entering "
 "and exiting your fiscal deposit warehouse."
 msgstr ""
+"Valmisteverot on ilmoitettava säännöllisesti. Jotta tämä velvollisuus olisi "
+"helppo täyttää, olemme luoneet raportin, josta näet valmisteveroluokittain "
+"varastoon saapuvien ja sieltä poistuvien tuotteiden määrän."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1172,6 +1184,8 @@ msgid ""
 "The default breakdown is done by week and you can configure it to be by "
 "month if needed."
 msgstr ""
+"Oletuserittely tehdään viikkokohtaisesti ja voit määrittää sen eriteltäväksi "
+"myös kuukausikohtaisesti tarvittaessa."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1407,6 +1421,9 @@ msgid ""
 "Deposit.<br/>Adjust the Fiscal Positions which are not to consider the "
 "Excise Taxes in your orders."
 msgstr ""
+"Kun asennat tämän moduulin, kaikki verovelvollisuusasemat määritetään "
+"verotalletuksiksi.<br/>Säädä verovelvollisuusasemia, joiden ei tulisi "
+"huomioida valmisteveroja tilauksissa."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
