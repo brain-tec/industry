@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-01 06:05+0000\n"
-"PO-Revision-Date: 2025-08-19 14:34+0000\n"
+"PO-Revision-Date: 2025-08-21 10:59+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-s18-4/yoga_pilates/zh_Hans/>\n"
@@ -38,7 +38,6 @@ msgstr "充满动感的课程，锻练您的力量、控制能力及动作流畅
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.ir_ui_view_3322
-#, fuzzy
 msgid "&amp;nbsp;​​​​​​​"
 msgstr "&amp;nbsp;"
 
@@ -143,7 +142,7 @@ msgstr "<i class=\"fa fa-check text-success\" role=\"img\"/> 账户管理"
 msgid ""
 "<i class=\"fa fa-check text-success\" role=\"img\"/> All classes &amp;amp; "
 "features"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-success\" role=\"img\"/> 所有课程及特色"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
@@ -166,7 +165,7 @@ msgstr "<i class=\"fa fa-check text-success\" role=\"img\"/> 有限自订内容"
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
 msgid "<i class=\"fa fa-check text-success\" role=\"img\"/> Unlimited class support"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-success\" role=\"img\"/> 无限课程支持"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
@@ -201,12 +200,12 @@ msgstr ""
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
 msgid "<i class=\"fa fa-times text-danger\" role=\"img\"/> No customization"
-msgstr ""
+msgstr "<i class=\"fa fa-times text-danger\" role=\"img\"/> 不可自定义内容"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
 msgid "<i class=\"fa fa-times text-danger\" role=\"img\"/> No support"
-msgstr ""
+msgstr "<i class=\"fa fa-times text-danger\" role=\"img\"/> 不提供支持"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.welcome_article_body
@@ -244,7 +243,7 @@ msgstr "<small class=\"text-center\">即时安装，不满意就退款。</small
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.homepage
 msgid "<span class=\"h4-fs\">Pilates Reformer</span>"
-msgstr ""
+msgstr "<span class=\"h4-fs\">普拉提先驱</span>"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.contactus
@@ -280,6 +279,11 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Question</span>\n"
 "                                <span class=\"s_website_form_mark\"> *<br/><em>Please specify your preferred date and time for the private session, along with any specific requests (e.g., yoga style, instructor preference, or focus areas).</em></span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">查询</span>\n"
+"                                <span class=\"s_website_form_mark\"> "
+"*（必填）<br/"
+">请注明参加私人课程的首选日期及时间，以及任何特别要求（例如：想要的瑜伽风格、"
+"导师、重点训练领域等）。<em></em></span>"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.contactus
@@ -303,6 +307,8 @@ msgid ""
 "<strong class=\"h2-fs\">$ 15.00</strong>\n"
 "                            <small class=\"text-muted\">/ month</small>"
 msgstr ""
+"<strong class=\"h2-fs\">$15.00</strong>\n"
+"                            <small class=\"text-muted\">/ 每月</small>"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
@@ -310,6 +316,8 @@ msgid ""
 "<strong class=\"h2-fs\">$ 25.00</strong>\n"
 "                            <small class=\"text-muted\">/ month</small>"
 msgstr ""
+"<strong class=\"h2-fs\">$25.00</strong>\n"
+"                            <small class=\"text-muted\">/ 每月</small>"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
@@ -380,7 +388,7 @@ msgstr ""
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.welcome_article_body
 msgid "<strong>Assign Membership Levels Automatically</strong>"
-msgstr ""
+msgstr "<strong>自动指派会籍等级</strong>"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.welcome_article_body
@@ -389,6 +397,8 @@ msgid ""
 "plan</strong> option, instructors will be assigned to classes based on their"
 " expertise and availability."
 msgstr ""
+"<strong>自动分配导师</strong>：利用<strong>自动规划</strong>功能，根据教练及"
+"导师的专业知识及空闲时间，自动指派他们至不同课程。"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.welcome_article_body
@@ -396,6 +406,10 @@ msgid ""
 "<strong>Automate Renewals</strong><br/>\n"
 "                    For recurring plans like monthly unlimited passes, activate automatic renewal using the <strong>Subscriptions</strong> module."
 msgstr ""
+"<strong>自动化续订</strong><br/>\n"
+"                    "
+"可利用<strong>订阅</strong>模块，为定期服务计划（例如：每月无限任玩通行证等）"
+"，启动自动续订功能。"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.welcome_article_body
@@ -408,6 +422,8 @@ msgid ""
 "<strong>Create Your Products</strong><br/>\n"
 "                    Set up flexible options for your clients:"
 msgstr ""
+"<strong>建立产品资料</strong><br/>\n"
+"                    为客户设立灵活的服务选项："
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.welcome_article_body
@@ -966,19 +982,19 @@ msgstr ""
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.homepage
 msgid "Lisa Chen, Customer Relations"
-msgstr ""
+msgstr "Lisa Chen，客户关系"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.homepage
 msgid "Lisa ensures that each student has a fulfilling experience."
-msgstr ""
+msgstr "Lisa 确保每名学生都有充实、满足的体验。"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.pricing
 msgid ""
 "Listing your class pricing helps potential students quickly determine if it "
 "fits their budget and needs."
-msgstr ""
+msgstr "列出不同课程的价格，能够帮助潜在学员，快速确定课程是否符合他们的预算及需要。"
 
 #. module: yoga_pilates
 #: model:loyalty.program,portal_point_name:yoga_pilates.loyalty_program_3
@@ -988,7 +1004,7 @@ msgstr "会员积分"
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.homepage
 msgid "Martin&amp;nbsp;Green,&amp;nbsp;Instructor"
-msgstr ""
+msgstr "Martin Green，导师"
 
 #. module: yoga_pilates
 #: model_terms:ir.ui.view,arch_db:yoga_pilates.homepage
