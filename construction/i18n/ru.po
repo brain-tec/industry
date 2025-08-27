@@ -1,33 +1,37 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* construction
-# 
+# * construction
+#
 # Translators:
 # Ivan Kropotkin <yelizariev@itpp.dev>, 2024
 # Wil Odoo, 2024
 # Ilya Rozhkov, 2025
 # ILMIR <karamov@it-projects.info>, 2025
 # Anastasiia Koroleva, 2025
-# 
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 12:51+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Anastasiia Koroleva, 2025\n"
-"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"PO-Revision-Date: 2025-08-21 19:40+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+"Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
+"construction/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "*This list will, of course, depend on your installed apps and configuration."
-msgstr ""
+msgstr "*Этот список, конечно, зависит от установленных модулей и конфигурации."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -35,6 +39,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner "
 "Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\""
+">💡</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -44,43 +50,46 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Employees 🧑‍🤝‍🧑</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>Сотрудники 🧑‍🤝‍🧑</strong></span>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Equipment 🛠️</strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>Оборудование 🛠️</strong></span>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Take care of your resources </strong></span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\"><strong>Ведите учет ресурсов </strong></span>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<span class=\"h2-fs\">Make your customers happy </span>🆘"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Радуйте своих клиентов </span>🆘"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Accounting made easy 🧮</span></strong>"
 msgstr ""
+"<strong><span class=\"h2-fs\">Бухгалтерия без сложностей 🧮</span></strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong><span class=\"h2-fs\">Create an attractive website 🌐</span></strong>"
 msgstr ""
+"<strong><span class=\"h2-fs\">Создайте современный сайт 🌐</span></strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Fleet 🚚</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h2-fs\">Автопарк 🚚</span></strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Sell product sets 🔩</span></strong>"
 msgstr ""
+"<strong><span class=\"h2-fs\">Продавайте комплекты товаров 🔩</span></strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -88,6 +97,8 @@ msgid ""
 "A good work cannot be achieved without motivated and skilled employees, "
 "reliable equipment nor suitable vehicles."
 msgstr ""
+"Хорошая работа невозможна без мотивированных и квалифицированных "
+"сотрудников, надежного оборудования и подходящей техники."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -101,7 +112,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Accurately track the project 🔍"
-msgstr ""
+msgstr "Полный контроль над проектом 🔍"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -109,6 +120,7 @@ msgid ""
 "All these components will give you an accurate overview on the project "
 "profitability."
 msgstr ""
+"Все эти компоненты дают вам точное представление о рентабельности проекта."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -116,6 +128,10 @@ msgid ""
 "Amazing employees deserve amazing equipment. Make the sure all your tools are fit and well by tracking their health in the\n"
 "            <strong><font class=\"text-o-color-1\">Maintenance</font></strong> app."
 msgstr ""
+"Лучшие сотрудники – лучшее оборудование. Убедитесь, что весь ваш инструмент "
+"в порядке, отслеживая его состояние в\n"
+"            модуле <strong><font class=\"text-o-color-1\""
+">Обслуживание</font></strong>."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -123,11 +139,13 @@ msgid ""
 "Analytic Items ➡️ Track any cost using Analytic Items from the Accounting "
 "App"
 msgstr ""
+"Элементы аналитики ➡️ Отслеживайте любые затраты с помощью элементов "
+"аналитики в модуле Бухгалтерия"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Architect"
-msgstr ""
+msgstr "Архитектор"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -136,6 +154,13 @@ msgid ""
 "            <strong><font class=\"text-o-color-1\">Invoicing</font></strong> app. Then, schedule one or several \"Invoicing Schedule\" activities on the sales order with the aim to never forget to send an intermediary invoice in order to sustain\n"
 "            your cash flow."
 msgstr ""
+"На первом этапе выставления счета создайте предоплату из заказа на продажу. "
+"Это сформирует первый счет в\n"
+"            модуле <strong><font class=\"text-o-color-1\">Выставление "
+"счетов</font></strong>. Затем назначьте одно или несколько дел в «График "
+"выставления счетов» в заказе на продажу, чтобы не забывать выставлять "
+"промежуточные счета и\n"
+"            поддерживать ваш денежный поток."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -168,6 +193,11 @@ msgid ""
 "Before generating an intermediary invoice in the\n"
 "            <strong><font class=\"text-o-color-1\">Invoicing</font></strong> app, freeze the project status in the <strong><font class=\"text-o-color-1\">Project</font></strong> app to get an overview on the progress in terms of:"
 msgstr ""
+"Перед созданием промежуточного счета в\n"
+"           модуле <strong><font class=\"text-o-color-1\">Выставление "
+"счетов</font></strong> заморозьте статус проекта в модуле <strong><font "
+"class=\"text-o-color-1\">Проекты</font></strong>, чтобы получить обзор "
+"прогресса по:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -175,6 +205,11 @@ msgid ""
 "Before starting the project, make sure you have enough stock. The confirmation of the quotation also triggers the creation of a delivery in the <strong><font class=\"text-o-color-1\">Inventory</font></strong>\n"
 "            app where you can check the stock levels of each needed storable product."
 msgstr ""
+"Перед началом проекта убедитесь, что у вас достаточно материалов. "
+"Подтверждение коммерческого предложения также запускает создание отгрузки в "
+"модуле <strong><font class=\"text-o-color-1\">Склад</font></strong>,\n"
+"            где вы можете проверить наличие каждого необходимого хранимого "
+"материала."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -184,7 +219,7 @@ msgstr "Спецификация"
 #. module: construction
 #: model:product.template,name:construction.product_product_5_product_template
 msgid "Building Blocks 39x14x19cm"
-msgstr ""
+msgstr "Строительные блоки 39x14x19 см"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_4
@@ -194,7 +229,7 @@ msgstr "Отменен"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Centralize all the important information 📝"
-msgstr ""
+msgstr "Централизуйте всю важную информацию 📝"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -207,11 +242,13 @@ msgid ""
 "Create an opportunity each time you face a potential customer, receive a "
 "phone call, etc."
 msgstr ""
+"Создавайте карточку возможности при каждом обращении потенциального клиента, "
+"входящем звонке и т. д."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Dashboard ➡️ Your project's status at a glance."
-msgstr ""
+msgstr "Дашборд ➡️ мгновенный обзор статуса вашего проекта."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -234,26 +271,30 @@ msgid ""
 "During and after the construction project, provide a five star customer service by answering the questions from your customer through the\n"
 "            <strong><font class=\"text-o-color-1\">Helpdesk</font></strong> app. All the emails sent to"
 msgstr ""
+"Во время и после строительного проекта обеспечьте клиенту сервис на высоком "
+"уровне, отвечая на его вопросы через\n"
+"            модуль <strong><font class=\"text-o-color-1\">Поддержка</font></"
+"strong>. Все письма, отправленные на"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Easily create beautiful quotations 💲"
-msgstr ""
+msgstr "Легко создавайте красивые коммерческие предложения 💲"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Efficiently schedule the work 📆"
-msgstr ""
+msgstr "Эффективно планируйте работы 📆"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Enrich the core apps by installing the following ones."
-msgstr ""
+msgstr "Расширяйте базовые модули, устанавливая дополнительные."
 
 #. module: construction
 #: model:account.analytic.account,name:construction.account_analytic_account_2
 msgid "Field Service"
-msgstr "Сервисная служба"
+msgstr "Выездной сервис"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -261,12 +302,14 @@ msgid ""
 "For each ordered material, don't forget to fill the analytic distribution in"
 " which you will be able to set for which project it will be used."
 msgstr ""
+"Для каждого заказанного материала не забудьте указать аналитическое "
+"распределение, чтобы определить, для какого проекта он будет использован."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "From WH ➡️ Deliveries from your warehouse to this specific construction site"
-msgstr ""
+msgstr "Со склада ➡️ поставки с вашего склада на конкретный строительный объект"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -274,6 +317,12 @@ msgid ""
 "If a technical operation such as a repair is needed, directly create a task in the <strong><font class=\"text-o-color-1\">Field Service</font></strong> project from a ticket. Then assign it and schedule it to quickly solve the\n"
 "            problem. Your employee will be able to use some material to fix the issue. Then these materials and the time spent could be invoiced to the customer."
 msgstr ""
+"Если требуется техническая операция, например ремонт, создайте задачу в "
+"проекте <strong><font class=\"text-o-color-1\">Выездной сервис</font></"
+"strong> напрямую из тикета. Затем назначьте и запланируйте ее, чтобы быстро "
+"решить проблему. Сотрудник сможет использовать материалы для устранения\n"
+"            неполадки. Эти материалы и время работы затем могут быть "
+"выставлены клиенту в счет."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -281,6 +330,10 @@ msgid ""
 "If the customer replies to the email, the answer is automatically logged in the chatter on the right of the screen. Thereby, all the discussions regarding the quotation, its updates, and its fine tuning are attached, and the history\n"
 "            can be easily consulted by all the involved users"
 msgstr ""
+"Если клиент отвечает на письмо, его ответ автоматически фиксируется в чате "
+"справа на экране. Таким образом, вся переписка по коммерческому предложению, "
+"его обновлениям и согласованию хранится в одном месте и\n"
+"            всегда доступна для всех задействованных пользователей"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -289,6 +342,13 @@ msgid ""
 "            <strong><font class=\"text-o-color-1\">Purchase</font></strong> app by creating a purchase order linked to the right vendor. In the <strong><font class=\"text-o-color-1\">Contact</font></strong> app, you can easily manage all your\n"
 "            preferred vendors and don't hesitate to set a warning to remind if there is a minimum amount to get free transport costs."
 msgstr ""
+"Если уровень запасов слишком низок, пополните запасы через\n"
+"            модуль <strong><font class=\"text-o-color-1\">Закупки</font></"
+"strong>, создав заказ на закупку у нужного поставщика. В модуле "
+"<strong><font class=\"text-o-color-1\">Контакты</font></strong> вы можете "
+"управлять всеми вашими\n"
+"            поставщиками и установить напоминания, например, о минимальной "
+"сумме заказа для бесплатной доставки."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -308,6 +368,10 @@ msgid ""
 " easily apply it to your entire quotation by creating a fiscal position that"
 " will automatically replace the default tax rate by the reduced one"
 msgstr ""
+"Если в вашей стране предусмотрены налоговые льготы при определенных "
+"условиях, вы можете легко применить их ко всему коммерческому предложению, "
+"создав фискальную позицию, которая автоматически заменит стандартную ставку "
+"налога на пониженную"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_2
@@ -321,6 +385,13 @@ msgid ""
 "            <strong><font class=\"text-o-color-1\">Website</font></strong>! When a potential customer sends a request through the contact form, it could automatically create an opportunity in the\n"
 "            <strong><font class=\"text-o-color-1\">CRM</font></strong> app."
 msgstr ""
+"Повысьте видимость вашего бизнеса и получайте больше запросов, создав "
+"современный\n"
+"            <strong><font class=\"text-o-color-1\">Вебсайт</font></strong>! "
+"Когда потенциальный клиент оставляет запрос через контактную форму, карточка "
+"возможности автоматически создается в\n"
+"            модуле <strong><font class=\"text-o-color-1\""
+">CRM</font></strong>."
 
 #. module: construction
 #: model:account.analytic.account,name:construction.account_analytic_account_1
@@ -332,7 +403,7 @@ msgstr "Внутренний"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Invoice at the right time 📈"
-msgstr ""
+msgstr "Выставляйте счета вовремя 📈"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -342,12 +413,12 @@ msgstr "Счета"
 #. module: construction
 #: model:mail.activity.type,name:construction.mail_activity_type_20
 msgid "Invoicing Schedule"
-msgstr ""
+msgstr "График выставления счетов"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Keep an eye on materials 📦"
-msgstr ""
+msgstr "Учет материалов 📦"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -355,16 +426,20 @@ msgid ""
 "Know the skills of each employee by filling them in the\n"
 "            <strong><font class=\"text-o-color-1\">Employees</font></strong> app. This will help you to find the right person to make a good work."
 msgstr ""
+"Чтобы знать навыки каждого сотрудника, заполните их в\n"
+"            модуле <strong><font class=\"text-o-color-1\">Сотрудники</font></"
+"strong>. Это поможет вам назначать правильного человека для качественного "
+"выполнения работы."
 
 #. module: construction
 #: model:product.template,name:construction.product_product_8_product_template
 msgid "Labor hour with equipment"
-msgstr ""
+msgstr "Трудозатраты с использованием оборудования"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Make your customers happy 🆘"
-msgstr ""
+msgstr "Радуйте своих клиентов 🆘"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -372,6 +447,9 @@ msgid ""
 "Manage your vehicles in the\n"
 "            <strong><font class=\"text-o-color-1\">Fleet</font></strong> app."
 msgstr ""
+"Управляйте своим транспортом\n"
+"           в модуле <strong><font class=\"text-o-color-1\""
+">Автопарк</font></strong>."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -381,27 +459,27 @@ msgstr "Заказы на производство"
 #. module: construction
 #: model:product.template,name:construction.product_product_6_product_template
 msgid "Masonry mortar 25kg"
-msgstr ""
+msgstr "Раствор для кладки 25 кг"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Material that will be used to build the project."
-msgstr ""
+msgstr "Материалы, которые будут использованы для строительства проекта."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Materials purchased."
-msgstr ""
+msgstr "Закупленные материалы."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Materials sold."
-msgstr ""
+msgstr "Проданные материалы."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Never miss an opportunity 🎯"
-msgstr ""
+msgstr "Не упускайте ни одной возможности 🎯"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_0
@@ -415,6 +493,9 @@ msgid ""
 "effortlessly and efficiently, and its integrated applications ensure "
 "unparalleled success and client satisfaction."
 msgstr ""
+"Odoo позволяет вам легко и эффективно управлять каждым аспектом строительных "
+"проектов, а интеграция модулей гарантирует успех и высокую удовлетворенность "
+"клиентов."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -432,6 +513,8 @@ msgid ""
 "Of course, these default tasks can be adapted in the Project Template "
 "according to your personal way of managing a construction project."
 msgstr ""
+"Конечно, эти стандартные задачи можно адаптировать в шаблоне проекта под ваш "
+"стиль управления стройкой."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -440,21 +523,24 @@ msgid ""
 "sales orders are centralized in the <strong><font class=\"text-o-"
 "color-1\">Sales</font></strong> app."
 msgstr ""
+"После подтверждения коммерческое предложение становится заказом на продажу. "
+"Все предложения и заказы централизованы в модуле <strong><font class="
+"\"text-o-color-1\">Продажи</font></strong>."
 
 #. module: construction
 #: model:uom.uom,name:construction.uom_uom_28
 msgid "Pallet of 48"
-msgstr ""
+msgstr "Поддон (48 штук)"
 
 #. module: construction
 #: model:uom.uom,name:construction.uom_uom_27
 msgid "Pallet of 96"
-msgstr ""
+msgstr "Поддон (96 штук)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Planification"
-msgstr ""
+msgstr "Планирование"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_1
@@ -480,12 +566,12 @@ msgstr "Заказы на покупку"
 #. module: construction
 #: model:hr.job,name:construction.hr_job_1
 msgid "Qualified Worker"
-msgstr ""
+msgstr "Квалифицированный рабочий"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Quickly start the construction projects 🏗️"
-msgstr ""
+msgstr "Быстро запускайте строительные проекты 🏗️"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -498,11 +584,14 @@ msgid ""
 "Record the time spent by your employees on each project by using the\n"
 "            <strong><font class=\"text-o-color-1\">Timesheets</font></strong> app. Don't forget to define a hourly cost on the employee form."
 msgstr ""
+"Фиксируйте время работы сотрудников над проектами в модуле\n"
+"            <strong><font class=\"text-o-color-1\">Табели</font></strong>. "
+"Не забудьте указать часовую ставку в форме сотрудника."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Redirect the emails sent to"
-msgstr ""
+msgstr "Перенаправьте письма, отправленные на"
 
 #. module: construction
 #: model:account.analytic.account,name:construction.account_analytic_account_4
@@ -541,6 +630,10 @@ msgid ""
 "Speed up the signing process thanks to the\n"
 "            <strong><font class=\"text-o-color-1\">Sign</font></strong> app. Once again, all the signed documents will be stored in the <strong><font class=\"text-o-color-1\">Documents</font></strong> app."
 msgstr ""
+"Ускорьте процесс подписания документов с помощью модуля\n"
+"            <strong><font class=\"text-o-color-1\">Подпись</font></strong>. "
+"Все подписанные документы будут храниться в модуле <strong><font class="
+"\"text-o-color-1\">Документооборот</font></strong>."
 
 #. module: construction
 #: model:product.template,description_sale:construction.product_product_5_product_template
@@ -549,6 +642,9 @@ msgid ""
 "non-load-bearing masonry, indoors and outdoors. This concrete block meets "
 "the strict quality requirements of the BENOR label."
 msgstr ""
+"Стандартный серый бетонный блок, пустотелый, 39x14x19 см, для всех видов "
+"несущей и ненесущей кладки внутри и снаружи. Этот блок соответствует строгим "
+"требованиям качества по маркировке BENOR."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -557,6 +653,14 @@ msgid ""
 "            attach them in the chatter and they will be automatically centralized in the\n"
 "            <strong><font class=\"text-o-color-1\">Documents</font></strong> app."
 msgstr ""
+"Запуск строительного проекта предполагает множество важных документов, таких "
+"как договоры, планы, инструкции по эксплуатации, соглашения с "
+"субподрядчиками и т. д. Вместо того чтобы хранить их разрозненно в "
+"электронных письмах, облачных сервисах или на компьютере,\n"
+"            прикрепляйте их в чат, и они будут автоматически централизованы "
+"в модуле\n"
+"            <strong><font class=\"text-o-color-1\""
+">Документооборот</font></strong>."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -564,6 +668,11 @@ msgid ""
 "Take advantage of every opportunity. The <strong><font class=\"text-o-color-1\">CRM</font></strong> centralizes everything and allows you to ensure the follow-up of each request efficiently. If the request becomes concrete, create the\n"
 "            customer in the <strong><font class=\"text-o-color-1\">Contact</font></strong> app."
 msgstr ""
+"Используйте каждую возможность. Модуль <strong><font class=\"text-o-color-1\""
+">CRM</font></strong> централизует всю информацию и позволяет эффективно "
+"отслеживать каждый запрос. Если запрос становится реальной, создайте\n"
+"            клиента в модуле <strong><font class=\"text-o-color-1\""
+">Контакты</font></strong>."
 
 #. module: construction
 #: model:project.project,label_tasks:construction.project_project_1
@@ -580,6 +689,9 @@ msgid ""
 "invoice is always the reflect of the reality on the field and it is fair for"
 " the customer."
 msgstr ""
+"Благодаря политике выставления счетов на основании фактически поставленных "
+"объемов, сформированный счет всегда отражает реальную ситуацию на объекте и "
+"является честным по отношению к заказчику."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -588,16 +700,18 @@ msgid ""
 " allows you to collect requests from your potential customers by aggregating"
 " several sources:"
 msgstr ""
+"Модуль <font class=\"text-o-color-1\"><strong>CRM</strong></font> позволяет "
+"собирать запросы от потенциальных клиентов, объединяя несколько источников:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "The customer reminders."
-msgstr ""
+msgstr "Напоминания клиентам."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "The financial reporting."
-msgstr ""
+msgstr "Финансовая отчетность."
 
 #. module: construction
 #: model:product.template,description_sale:construction.product_product_6_product_template
@@ -606,6 +720,9 @@ msgid ""
 "strength class M5. The mortar is mainly designed for load-bearing and non-"
 "load-bearing masonry."
 msgstr ""
+"Готовый раствор – это сухая промышленно подготовленная кладочная смесь "
+"класса прочности М5. Раствор в основном предназначен для несущей и ненесущей "
+"кладки."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -615,21 +732,25 @@ msgid ""
 "color-1\">Project</font></strong> app! Each project is initiated with "
 "several default tasks, such as:"
 msgstr ""
+"Подтверждение коммерческого предложения автоматически запускает создание "
+"отдельного проекта в модуле <strong><font class=\"text-o-color-1\""
+">Проекты</font></strong>! Каждый проект инициализируется с несколькими "
+"стандартными задачами, такими как:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "The quotation in PDF format"
-msgstr ""
+msgstr "Коммерческое предложение в формате PDF"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "The synchronisation with the banks."
-msgstr ""
+msgstr "Синхронизация с банками."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "The vendor bills payment."
-msgstr ""
+msgstr "Оплата счетов поставщиков."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -637,11 +758,18 @@ msgid ""
 "This industry is tailor-made for construction businesses that excel in managing construction projects. It encompasses the crucial stages of project conceptualization, accurate quotation(s), seamless project kick-off, meticulous\n"
 "            planning, streamlined (re)supply, flawless execution, effective collaboration with third parties, meticulous budget follow-up, prompt invoicing, and exceptional customer service."
 msgstr ""
+"Данное решение создано для строительного бизнеса, который стремится к успеху "
+"в управлении проектами. Оно охватывает ключевые этапы: концептуализацию "
+"проекта, точные сметы, плавный запуск проекта, детальное планирование, "
+"упрощенное снабжение, безупречное\n"
+"            исполнение, эффективное взаимодействие с подрядчиками, "
+"тщательный контроль бюджета, своевременное выставление счетов и выдающийся "
+"сервис для клиентов."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Time spent on the project."
-msgstr ""
+msgstr "Затраты рабочего времени на проект."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -651,7 +779,7 @@ msgstr "Расписания"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "To WH ➡️ Products sent back to your warehouse"
-msgstr ""
+msgstr "На склад ➡️ Возврат продукции на ваш склад"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -660,11 +788,18 @@ msgid ""
 "            <strong><font class=\"text-o-color-1\">Manufacturing</font></strong> app allows you to create kits. These can contain several products. When added in a quotation, the kits is displayed as a single line but the delivery order displays\n"
 "            all the components to pick up."
 msgstr ""
+"Чтобы упростить выставление предложений по товарам, которые обычно продаются "
+"вместе, модуль\n"
+"            <strong><font class=\"text-o-color-1\">Производство</font></"
+"strong> позволяет создавать наборы. Они могут содержать несколько товаров. "
+"При добавлении в коммерческое предложение набор отображается одной строкой, "
+"но в заказе на доставку указываются\n"
+"            все товары."
 
 #. module: construction
 #: model:product.template,name:construction.product_product_7_product_template
 msgid "Travelling costs"
-msgstr ""
+msgstr "Командировочные расходы"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -672,6 +807,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Accounting</font></strong> "
 "app to easily handle:"
 msgstr ""
+"Используйте модуль <strong><font class=\"text-o-color-1\""
+">Бухгалтерия</font></strong>, чтобы легко обрабатывать:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -679,6 +816,11 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Planning</font></strong> app to organize the work of your employees. Define on which project and when they have to work. Easily manage shift conflicts, workload and replacements in case\n"
 "            of leaves."
 msgstr ""
+"Используйте модуль <strong><font class=\"text-o-color-1\""
+">Планирование</font></strong>, чтобы организовывать работу сотрудников. "
+"Определяйте, на каком проекте и когда они должны работать. Легко разрешайте "
+"конфликты в расписании, управляйте нагрузкой и планируйте замены на время\n"
+"            отпусков."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -686,6 +828,9 @@ msgid ""
 "Use the Website app to create a contact form that will redirect all the "
 "requests to the <strong><font class=\"text-o-color-1\">CRM</font></strong>."
 msgstr ""
+"Используйте модуль Вебсайт, чтобы создать контактную форму, которая будет "
+"перенаправлять все запросы в модуль <strong><font class=\"text-o-color-1\""
+">CRM</font></strong>."
 
 #. module: construction
 #: model_terms:web_tour.tour,rainbow_man_message:construction.knowledge_tour
@@ -708,6 +853,10 @@ msgid ""
 "You can adapt your overview for each project by selecting the small \"Sliders\" icon at the top right of your screen. It will allow you to add a bunch of practical views to get the complete overview of your project,\n"
 "                    including*:"
 msgstr ""
+"Вы можете адаптировать обзор по каждому проекту, выбрав небольшой значок "
+"«Слайдер» в правом верхнем углу экрана. Это позволит добавить ряд удобных "
+"представлений, чтобы получить полную картину по проекту,\n"
+"                    включая*:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -715,11 +864,14 @@ msgid ""
 "You can add other views with specific filters and ease your construction "
 "project follow-up."
 msgstr ""
+"Вы можете добавлять и другие представления с фильтрами для упрощения "
+"контроля за строительным проектом."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid "help@industry-construction.odoo.com"
-msgstr ""
+msgstr "help@industry-construction.odoo.com"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
