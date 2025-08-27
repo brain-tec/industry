@@ -62,6 +62,11 @@
                 "new_base": "billboard_rental/i18n/billboard_rental.pot"
             },
             {
+                "name": "booking_engine",
+                "filemask": "booking_engine/i18n/*.po",
+                "new_base": "booking_engine/i18n/booking_engine.pot"
+            },
+            {
                 "name": "bookstore",
                 "filemask": "bookstore/i18n/*.po",
                 "new_base": "bookstore/i18n/bookstore.pot"
@@ -75,6 +80,11 @@
                 "name": "cake_shop",
                 "filemask": "cake_shop/i18n/*.po",
                 "new_base": "cake_shop/i18n/cake_shop.pot"
+            },
+            {
+                "name": "campsite",
+                "filemask": "campsite/i18n/*.po",
+                "new_base": "campsite/i18n/campsite.pot"
             },
             {
                 "name": "certification_organism",
@@ -225,6 +235,16 @@
                 "name": "headhunter",
                 "filemask": "headhunter/i18n/*.po",
                 "new_base": "headhunter/i18n/headhunter.pot"
+            },
+            {
+                "name": "holiday_house",
+                "filemask": "holiday_house/i18n/*.po",
+                "new_base": "holiday_house/i18n/holiday_house.pot"
+            },
+            {
+                "name": "hotel",
+                "filemask": "hotel/i18n/*.po",
+                "new_base": "hotel/i18n/hotel.pot"
             },
             {
                 "name": "hvac_services",
