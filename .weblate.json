@@ -87,6 +87,11 @@
                 "new_base": "cleaning_services/i18n/cleaning_services.pot"
             },
             {
+                "name": "climbing_gym",
+                "filemask": "climbing_gym/i18n/*.po",
+                "new_base": "climbing_gym/i18n/climbing_gym.pot"
+            },
+            {
                 "name": "clothing_boutique",
                 "filemask": "clothing_boutique/i18n/*.po",
                 "new_base": "clothing_boutique/i18n/clothing_boutique.pot"
@@ -140,6 +145,11 @@
                 "name": "environmental_agency",
                 "filemask": "environmental_agency/i18n/*.po",
                 "new_base": "environmental_agency/i18n/environmental_agency.pot"
+            },
+            {
+                "name": "escape_rooms",
+                "filemask": "escape_rooms/i18n/*.po",
+                "new_base": "escape_rooms/i18n/escape_rooms.pot"
             },
             {
                 "name": "event_management",
