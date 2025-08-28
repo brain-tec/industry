@@ -1,24 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* takeaway_restaurant
+# * takeaway_restaurant
 #
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-21 06:31+0000\n"
-"PO-Revision-Date: 2025-08-21 06:31+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-08-26 23:30+0000\n"
+"Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
+"odoo-s18-4/takeaway_restaurant/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.ir_ui_view_3205
 msgid "+1 555-555-5556"
-msgstr ""
+msgstr "+1 555-555-5556"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -26,11 +30,14 @@ msgid ""
 ", go to My Databases, then click the <strong>gear icon </strong>to\n"
 "                            duplicate your database."
 msgstr ""
+"Acesse Minhas bases de dados e clique no ícone <strong>engrenagem</strong>"
+"para\n"
+"duplicar sua base."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.ir_ui_view_3205
 msgid "<b>Designed</b> for companies"
-msgstr ""
+msgstr "<b>Projetado</b> para Empresas"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.ir_ui_view_3205
@@ -38,6 +45,8 @@ msgid ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
 msgstr ""
+"<b>Minha Empresa</b><br/>Av. Brasil, Lote 14, Casa 250, Apto. 3400 <br/> Rio "
+"de Janeiro RJ 94134-777 <br/> Brazil"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -45,6 +54,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">💡</i>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -52,6 +63,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Sucesso\">✅</i>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -59,6 +72,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Warning\">⚠️</i>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -66,16 +81,18 @@ msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Takeaway "
 "Restaurants</strong></span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong>Odoo para Restaurantes de "
+"Entrega</strong></span>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Noções Básicas</span>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h2-fs\">Dicas para o sucesso</span></strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -83,6 +100,8 @@ msgid ""
 "<strong>Accounting</strong>: Handle daily revenue tracking, taxes, and end-"
 "of-month reports"
 msgstr ""
+"<strong>Accounting</strong>: Faça o acompanhamento diário da receita, dos "
+"impostos e dos relatórios de fim de mês"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -90,17 +109,20 @@ msgid ""
 "<strong>Experiment ! </strong>Did you know you can create a copy of your "
 "database to try things out ? Simply go to"
 msgstr ""
+"<strong>Experimente!</strong> Você sabia que pode criar uma cópia da sua "
+"base de dados para testar? Basta acessar"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Inventory</strong>"
-msgstr ""
+msgstr "<strong>Inventário</strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid ""
 "<strong>Keep your pantry stocked and your costs under control.</strong>"
 msgstr ""
+"<strong>Tenha a despensa sempre cheia e os custos sob controle.</strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -109,11 +131,14 @@ msgid ""
 "appear on the kitchen display. Chefs can easily move orders from one "
 "readiness status to the next by simply tapping the order."
 msgstr ""
+"<strong>Tela da cozinha🧑‍🍳 </strong>: Todos os pedidos, on-line e off-line, "
+"aparecem na tela da cozinha. Os chefs podem passar os pedidos de um status "
+"para outro simplesmente tocando no pedido."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Kitchen display</strong>"
-msgstr ""
+msgstr "<strong>Tela da cozinha</strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -121,6 +146,8 @@ msgid ""
 "<strong>Loyalty Programs in the Point of Sale</strong>: Reward repeat "
 "customers with discounts, points, or free items"
 msgstr ""
+"<strong>Programas de fidelidade no Ponto de Venda</strong>: Gratifique "
+"clientes frequentes com descontos, pontos ou brindes"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -128,6 +155,9 @@ msgid ""
 "<strong>Marketing</strong>: Send newsletters or discount codes to customers who've opted in<br/>\n"
 "                    <br/>"
 msgstr ""
+"<strong>Marketing</strong>: envie newsletters ou códigos de desconto para "
+"clientes que quiserem se inscrever<br/>\n"
+"<br/>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -135,6 +165,8 @@ msgid ""
 "<strong>Odoo ensures every order is registered, traceable, and ready to "
 "prepare or deliver without delay.</strong>"
 msgstr ""
+"<strong>O Odoo garante que cada pedido seja registrado, rastreável e pronto "
+"para ser preparado ou entregue rápido.</strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -142,11 +174,13 @@ msgid ""
 "<strong>Point of Sale 📒 </strong>: Register in-store orders, assign orders "
 "to tables, connect to the kitchen display, collect payments and more"
 msgstr ""
+"<strong>Ponto de Venda📒 </strong>: Registre pedidos na loja, atribua "
+"pedidos a mesas, conecte-se à tela da cozinha, receba pagamentos e muito mais"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Point of Sale</strong>"
-msgstr ""
+msgstr "<strong>Ponto de Venda </strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -154,11 +188,13 @@ msgid ""
 "<strong>Purchase &amp; Inventory 📦 </strong>: Purchase &amp; receive "
 "supplier deliveries, track ingredient stocks."
 msgstr ""
+"<strong>Compras e Inventário📦 </strong>: faça compras e receba de entregas "
+"de fornecedores, monitore o estoque de ingredientes e muito mais."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Purchase</strong>"
-msgstr ""
+msgstr "<strong>Compras</strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -166,6 +202,8 @@ msgid ""
 "<strong>Start small, iterate.</strong> Configure your website and products "
 "first, then consider discounts and promotions."
 msgstr ""
+"<strong>Comece pequeno e itere.</strong>Configure seu site e os produtos "
+"primeiro e, em seguida, considere descontos e promoções."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -173,16 +211,18 @@ msgid ""
 "<strong>Take orders, manage tables, and keep the kitchen running "
 "smoothly.</strong>"
 msgstr ""
+"<strong>Receba pedidos, cuide das mesas e mantenha a cozinha funcionando sem "
+"problemas.</strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Visit our E-Learning platform </strong>on"
-msgstr ""
+msgstr "<strong>Visite nossa plataforma e-Learning </strong>em"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "<strong>Website </strong>"
-msgstr ""
+msgstr "<strong>Site </strong>"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -191,6 +231,8 @@ msgid ""
 "our convenient website &amp; SEO tools, as well as an online menu that works"
 " without friction."
 msgstr ""
+"<strong>Site 🌐</strong>: Construa sua presença digital com nossas "
+"ferramentas de site e SEO e crie um cardápio on-line funcional."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -198,16 +240,18 @@ msgid ""
 "<strong>WhatsApp Integration</strong>: Let customers message you for "
 "updates, feedback, or special requests"
 msgstr ""
+"<strong>Integração com o WhatsApp</strong>: Clientes podem enviar mensagens "
+"para atualizações, feedback ou solicitações especiais"
 
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_four_cheese_pizza
 msgid "A creamy blend of mozzarella, cheddar, gorgonzola, and parmesan."
-msgstr ""
+msgstr "Creme com mussarela, cheddar, gorgonzola e parmesão."
 
 #. module: takeaway_restaurant
 #: model:product.template,description_sale:takeaway_restaurant.product_template_margherita_pizza
 msgid "A timeless classic with mozzarella and basil."
-msgstr ""
+msgstr "Um clássico atemporal com mussarela e manjericão."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -215,31 +259,33 @@ msgid ""
 "Add <strong>product variants</strong> for toppings, size, and special "
 "requests"
 msgstr ""
+"Adicione <strong>variantes de produtos</strong> para coberturas, tamanho e "
+"solicitações especiais"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.homepage
 msgid "Aline Turner, Head Chef"
-msgstr ""
+msgstr "Aline Turner, chefe"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.homepage
 msgid "Aline is the creative genius behind our unique pizza recipes."
-msgstr ""
+msgstr "Aline é o gênio criando nossas receitas de pizza exclusivas."
 
 #. module: takeaway_restaurant
 #: model:product.attribute.value,name:takeaway_restaurant.product_attribute_value_9
 msgid "Anchovies"
-msgstr ""
+msgstr "Anchovas"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "Apps &amp; features"
-msgstr ""
+msgstr "Aplicativos e recursos"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "Assign orders to tables in just a tap"
-msgstr ""
+msgstr "Atribua pedidos a mesas com apenas um toque"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -247,16 +293,18 @@ msgid ""
 "Assign orders to tables, follow-up on customer requests, and always deliver "
 "on time."
 msgstr ""
+"Atribua pedidos às mesas, acompanhe as solicitações dos clientes e entregue "
+"sempre dentro do prazo."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
 msgid "Automate purchases when stock drops below threshold"
-msgstr ""
+msgstr "Automatize as compras quando o estoque cair abaixo do limite"
 
 #. module: takeaway_restaurant
 #: model:product.template,name:takeaway_restaurant.product_template_bbq_chicken_pizza
 msgid "BBQ Chicken Pizza"
-msgstr ""
+msgstr "Pizza de frango BBQ"
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -264,21 +312,27 @@ msgid ""
 "Behind every great restaurant is great inventory control. With Odoo, you can manage your ingredient stocks, track vendor deliveries, and automate reordering. When supplies run low, the <strong>Purchase</strong> app can trigger requests\n"
 "            to your vendors, which get received into the <strong>Inventory</strong> app and validated upon delivery."
 msgstr ""
+"Por trás de todo bom restaurante há um ótimo controle de estoque. Com o "
+"Odoo, você pode gerenciar seus estoques de ingredientes, acompanhar as "
+"entregas dos fornecedores e automatizar os pedidos. Quando os suprimentos "
+"estiverem acabando, com o aplicativo <strong>Compras</strong> é possível "
+"acionar solicitações para seus fornecedores, que são recebidas no aplicativo "
+"<strong>Inventário</strong> e validadas na entrega."
 
 #. module: takeaway_restaurant
 #: model:product.attribute.value,name:takeaway_restaurant.product_attribute_value_12
 msgid "Bell Peppers"
-msgstr ""
+msgstr "Pimentões"
 
 #. module: takeaway_restaurant
 #: model:product.template,name:takeaway_restaurant.product_template_buffalo_mozzarella_pizza
 msgid "Buffalo Mozzarella Pizza"
-msgstr ""
+msgstr "Pizza de mussarela de búfala"
 
 #. module: takeaway_restaurant
 #: model:pos.payment.method,name:takeaway_restaurant.pos_payment_method_1
 msgid "Cash"
-msgstr ""
+msgstr "Dinheiro"
 
 #. module: takeaway_restaurant
 #: model:product.template,description_sale:takeaway_restaurant.product_template_four_cheese_pizza
