@@ -127,6 +127,11 @@
                 "new_base": "custom_furniture/i18n/custom_furniture.pot"
             },
             {
+                "name": "diy_workshops",
+                "filemask": "diy_workshops/i18n/*.po",
+                "new_base": "diy_workshops/i18n/diy_workshops.pot"
+            },
+            {
 	        "name": "driving_school",
 	        "filemask": "driving_school/i18n/*.po",
 	        "new_base": "driving_school/i18n/driving_school.pot"
@@ -220,6 +225,11 @@
                 "name": "guest_house",
                 "filemask": "guest_house/i18n/*.po",
                 "new_base": "guest_house/i18n/guest_house.pot"
+            },
+            {
+                "name": "guided_tours",
+                "filemask": "guided_tours/i18n/*.po",
+                "new_base": "guided_tours/i18n/guided_tours.pot"
             },
             {
                 "name": "hair_salon",
@@ -345,6 +355,11 @@
                 "name": "student_organization",
                 "filemask": "student_organization/i18n/*.po",
                 "new_base": "student_organization/i18n/student_organization.pot"
+            },
+            {
+                "name": "summer_camps",
+                "filemask": "summer_camps/i18n/*.po",
+                "new_base": "summer_camps/i18n/summer_camps.pot"
             },
             {
                 "name": "surveyor",
