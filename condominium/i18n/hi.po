@@ -1,24 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* condominium
-# 
+# * condominium
+#
 # Translators:
 # Wil Odoo, 2025
 # Ujjawal Pathak, 2025
-# 
+#
+# "Ujjawal Pathak (pauj)" <pauj@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 15:15+0000\n"
-"PO-Revision-Date: 2025-05-09 12:50+0000\n"
-"Last-Translator: Ujjawal Pathak, 2025\n"
-"Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+"PO-Revision-Date: 2025-09-01 11:41+0000\n"
+"Last-Translator: \"Ujjawal Pathak (pauj)\" <pauj@odoo.com>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-s18-3/"
+"condominium/hi/>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -26,16 +29,20 @@ msgid ""
 ".\n"
 "            As soon as a bill is booked, you can use the button \"Distribute Cost\" to automatically reflect the cost per property according to the distribution key."
 msgstr ""
+".\n"
+"            जैसे ही कोई बिल बुक किया जाता है, आप वितरण कुंजी के अनुसार प्रति प्रॉपर्टी "
+"लागत को अपने-आप दिखाने के लिए \"लागत वितरित करें\" बटन का इस्तेमाल कर सकते हैं।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "<span class=\"fw-bold\">Address</span>"
-msgstr ""
+msgstr "<span class=\"fw-bold\">पता</span>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -44,6 +51,9 @@ msgid ""
 "are collected in two bank accounts that can be directly integrated with the "
 "bank:"
 msgstr ""
+"एक कॉन्डोमिनियम (आवासीय इमारत) एक कंपनी की तरह काम करता है. इसे मालिकों से राजस्व "
+"मिलता है. ये दो बैंक खातों में इकट्ठा किए जाते हैं जिन्हें सीधे बैंक के साथ इंटिग्रेट किया जा सकता"
+" है:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -51,16 +61,17 @@ msgid ""
 "A name to identify the property, for example the post box or the "
 "identification code."
 msgstr ""
+"प्रॉपर्टी की पहचान करने के लिए एक नाम, उदाहरण के लिए पोस्ट बॉक्स या पहचान कोड।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Accounting opening/handover<br/>"
-msgstr ""
+msgstr "अकाउंटिंग ओपनिंग/हैंडओवर<br/>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Act analysis"
-msgstr ""
+msgstr "काम का विश्लेषण"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.active_buildings
@@ -75,6 +86,7 @@ msgid ""
 "Add the corresponding product(s): \"Working Fund\", \"Reserve Fund\", "
 "\"Service Fees\", etc."
 msgstr ""
+"संबंधित प्रॉडक्ट जोड़ें: \"वर्किंग फंड\", \"रिजर्व फंड\", \"सर्विस फ़ीस\", वगैरह।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -82,16 +94,18 @@ msgid ""
 "Again, feel free to edit and/or create new tasks to never forget a step "
 "during the kick-off process."
 msgstr ""
+"एक बार फिर, किक-ऑफ प्रक्रिया के दौरान कोई भी कदम न भूलने के लिए, बेझिझक बदलाव करें "
+"और/या नए टास्क बनाएं।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_714_product_template
 msgid "Air and smoke extractors"
-msgstr ""
+msgstr "हवा और धुआं निकालने वाले एक्सट्रैक्टर"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_713_product_template
 msgid "Air conditioning and air treatment"
-msgstr ""
+msgstr "एयर कंडीशनिंग और एयर ट्रीटमेंट"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_7_product_template
@@ -99,61 +113,63 @@ msgid ""
 "All other extra services will be invoiced at the hourly rate, See Terms & "
 "Condition for further information about the hourly rate"
 msgstr ""
+"अन्य सभी अतिरिक्त सेवाओं का इनवॉइस प्रति घंटा की दर से बनाया जाएगा, प्रति घंटा की दर के"
+" बारे में ज़्यादा जानकारी के लिए, नियम और शर्तें देखें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_698_product_template
 msgid "Allocations (provisions)"
-msgstr ""
+msgstr "अलोकेशन (प्रोविज़िन)"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_696_product_template
 msgid "Amortization on intangible assets"
-msgstr ""
+msgstr "अमूर्त परिसंपत्तियों पर खर्च को धीरे-धीरे एडजस्ट करना"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_697_product_template
 msgid "Amortization on tangible assets"
-msgstr ""
+msgstr "टेंजिबल ऐसेट पर अमॉर्टाइज़ेशन"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_1
 msgid "Apartment"
-msgstr ""
+msgstr "अपार्टमेंट"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_12
 msgid "Apartment A0"
-msgstr ""
+msgstr "अपार्टमेंट A0"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_14
 msgid "Apartment A1"
-msgstr ""
+msgstr "अपार्टमेंट A1"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_15
 msgid "Apartment A2"
-msgstr ""
+msgstr "अपार्टमेंट A2"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_17
 msgid "Apartment B0"
-msgstr ""
+msgstr "अपार्टमेंट B0"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_19
 msgid "Apartment B1.1"
-msgstr ""
+msgstr "अपार्टमेंट B1.1"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_18
 msgid "Apartment B1.2"
-msgstr ""
+msgstr "अपार्टमेंट B1.2"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 msgid "Apartment..."
-msgstr ""
+msgstr "अपार्टमेंट..।"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_15_product_template
@@ -162,11 +178,13 @@ msgid ""
 "Approximately $80 per property per month, See Terms & Condition for further "
 "information about the coverage of the Service Fees"
 msgstr ""
+"हर प्रॉपर्टी पर प्रति माह लगभग $80, सर्विस फ़ीस की कवरेज के बारे में ज़्यादा जानकारी के लि"
+"ए, नियम और शर्तें देखें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_784_product_template
 msgid "Architect/engineer fees"
-msgstr ""
+msgstr "आर्किटेक्ट/इंजीनियर फ़ीस"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_building
@@ -178,24 +196,24 @@ msgstr "संग्रहीत किया गया"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_808_product_template
 msgid "Archives fees"
-msgstr ""
+msgstr "आर्काइव फीस"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_area_field
 #: model:ir.model.fields,field_description:condominium.x_area_related_field
 msgid "Area"
-msgstr ""
+msgstr "एरिया"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Area as distribution key"
-msgstr ""
+msgstr "वितरण कुंजी के हिसाब से एरिया"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Artificial Intelligence"
-msgstr ""
+msgstr "आर्टिफ़िशियल इंटेलिजेंस"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -205,6 +223,15 @@ msgid ""
 "            and also the price of all the extra services such as the recurring contribution, the hourly rate, etc. Don't forget to attach the terms &amp; conditions as well. Of course, the price of each service and the content of the\n"
 "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Quotation Templates</font> can be adapted accordingly."
 msgstr ""
+"जैसे ही कोई कॉन्डोमिनियम आपसे कोटेशन पाने के लिए संपर्क करता है, सेल्स ऐप्लिकेशन में\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
+">कोटेशन</font> बनाकर उन्हें तुरंत अपनी सेवाओं और फ़ीस का ब्यौरा भेजें, जहां आप सीधे "
+"\"किक-ऑफ़ कोट\" कोटेशन टेंप्लेट का इस्तेमाल कर सकते हैं. यह किक-ऑफ़ फ़ीस जोड़ने के साथ-साथ "
+"बार-बार वाले योगदान, प्रति घंटा की दर वगैरह\n"
+"            जैसी सभी अतिरिक्त सेवाओं की कीमत जोड़कर कोटेशन को अपने-आप भर देगा. नियम "
+"और शर्तें भी जोड़ना न भूलें. बेशक, हर सेवा की कीमत और \n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">कोटे"
+"शन टेंप्लेट</font> कोटेशन टेंप्लेट के कॉन्टेंट को बदला जा सकता है।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image
@@ -219,74 +246,74 @@ msgstr "ऑडिट"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_712_product_template
 msgid "Auxiliary groups"
-msgstr ""
+msgstr "सहायक समूह"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_667_product_template
 msgid "Bank fees and debt charges"
-msgstr ""
+msgstr "बैंक फीस और कर्ज़ के लिए शुल्क"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_5
 msgid "Basement"
-msgstr ""
+msgstr "बेसमेंट"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_16
 msgid "Basement AB"
-msgstr ""
+msgstr "बेसमेंट AB"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_753_product_template
 msgid "Basement maintenance"
-msgstr ""
+msgstr "बेसमेंट मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_710_product_template
 msgid "Bell and intercom maintenance"
-msgstr ""
+msgstr "बेल और इंटरकॉम मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_811_product_template
 msgid "Boiler maintenance contracts"
-msgstr ""
+msgstr "बॉयलर मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Book the right numbers 🧮"
-msgstr ""
+msgstr "सही नंबर बुक करें 🧮"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_building_field
 #: model:ir.model.fields,field_description:condominium.x_building_related_field
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "Building"
-msgstr ""
+msgstr "बिल्डिंग"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_6
 msgid "Building 1"
-msgstr ""
+msgstr "बिल्डिंग 1"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_7
 msgid "Building 2"
-msgstr ""
+msgstr "बिल्डिंग 2"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_condominium_account_analytic_account_count
 msgid "Building Condominium count"
-msgstr ""
+msgstr "बिल्डिंग कॉन्डोमिनियम की संख्या"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_732_product_template
 msgid "Building cleaning under contract"
-msgstr ""
+msgstr "कॉन्ट्रैक्ट के तहत बिल्डिंग की सफाई"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_x_building_account_analytic_account_count_field
 msgid "Building count"
-msgstr ""
+msgstr "बिल्डिंग की संख्या"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.bu_act_window
@@ -296,19 +323,19 @@ msgstr ""
 #: model:ir.ui.menu,name:condominium.conf_building_menu
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Buildings"
-msgstr ""
+msgstr "बिल्डिंग"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.buildings_tags_act_window
 #: model:ir.model,name:condominium.model_buildings_tags
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 msgid "Buildings Tags"
-msgstr ""
+msgstr "बिल्डिंग टैग्स"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Business Flows"
-msgstr ""
+msgstr "बिज़नेस फ्लो"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -316,26 +343,28 @@ msgid ""
 "By the end of the period, easily generate the legal reporting such as "
 "Balance Sheet and Profit &amp; Loss for each condominium."
 msgstr ""
+"अवधि के आखिर तक, हर कॉन्डोमिनियम के लिए बैलेंस शीट और प्रॉफ़िट एंड लॉस जैसी कानूनी रिपोर्"
+"ट आसानी से जनरेट करें।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_781_product_template
 msgid "Cable distribution"
-msgstr ""
+msgstr "केबल डिस्ट्रिब्यूशन"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Call for working and reserve funds"
-msgstr ""
+msgstr "काम और रिज़र्व फ़ंड के लिए कॉल"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_664_product_template
 msgid "Capital losses on the realization of receivables"
-msgstr ""
+msgstr "ग्राहकों से मिलने वाले पैसे नहीं मिलने पर हुआ नुकसान"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_726_product_template
 msgid "Carpentry maintenance contracts"
-msgstr ""
+msgstr "कारपेंट्री के लिए मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -343,11 +372,13 @@ msgid ""
 "Check if everything is correct. If yes, select all the quotations and, under"
 " the \"Actions\" button, click on \"Confirm\"."
 msgstr ""
+"जांच करें कि सब कुछ सही है या नहीं. अगर हां, तो सभी कोटेशन चुनें और \"कार्रवाइयां\" बटन के "
+"तहत, \"पुष्टि करें\" पर क्लिक करें।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_752_product_template
 msgid "Chimney and ventilation duct maintenance"
-msgstr ""
+msgstr "चिम्नी और वेंटिलेशन डक्ट का रखरखाव"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.city
@@ -358,17 +389,17 @@ msgstr "शहर"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_678_product_template
 msgid "Civil liability"
-msgstr ""
+msgstr "सिविल लाइबिलिटी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_735_product_template
 msgid "Cleaning equipment"
-msgstr ""
+msgstr "सफ़ाई के उपकरण"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_734_product_template
 msgid "Cleaning products"
-msgstr ""
+msgstr "सफ़ाई से जुड़े प्रॉडक्ट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -377,6 +408,9 @@ msgid ""
 "quotation and will create as many quotations as there are properties in the "
 "condominium for which the costs are shared."
 msgstr ""
+"\"प्रति प्रॉपर्टी विभाजित करें\" बटन पर क्लिक करें: इससे मौजूदा कोटेशन रद्द हो जाएगा और "
+"कॉन्डोमिनियम में जितनी प्रॉपर्टी हैं, उन सभी के लिए उतने ही कोटेशन बन जाएंगे जिनके लिए खर्"
+"च साझा किया गया है।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -384,6 +418,7 @@ msgid ""
 "Click on the \"Sales Orders\" buttons to access all the generated "
 "quotations."
 msgstr ""
+"जनरेट किए गए सभी कोटेशन को ऐक्सेस करने के लिए \"सेल्स ऑर्डर\" बटन पर क्लिक करें।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.color_buildings_tags
@@ -394,39 +429,39 @@ msgstr "कलर"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_9_product_template
 msgid "Communication of information to the notary"
-msgstr ""
+msgstr "नोटरी को जानकारी देना"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.company_buildings
 #: model:ir.model.fields,field_description:condominium.company_ratios_field
 msgid "Company"
-msgstr "संस्था"
+msgstr "कंपनी"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_company_partner_id
 msgid "Company partner"
-msgstr ""
+msgstr "कंपनी पार्टनर"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_788_product_template
 msgid "Compensation for members of the internal council and internal auditor"
-msgstr ""
+msgstr "आंतरिक परिषद और आंतरिक ऑडिटर के सदस्यों के लिए मुआवजा"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_actions_server_compute_ratio
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Compute Ratios"
-msgstr ""
+msgstr "अनुपात की गणना करें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_693_product_template
 msgid "Concierge charges"
-msgstr ""
+msgstr "बिल्डिंग के लिए सहायता सेवा शुल्क"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_694_product_template
 msgid "Concierge maintenance"
-msgstr ""
+msgstr "बिल्डिंग के लिए सहायता सेवा का मेंटनेंस"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.condo_act_window
@@ -435,12 +470,12 @@ msgstr ""
 #: model:ir.ui.menu,name:condominium.condo_menu
 #: model:ir.ui.menu,name:condominium.infra_condo_menu
 msgid "Condominium"
-msgstr ""
+msgstr "कॉन्डोमिनियम (कॉमर्शियल बिल्डिंग)"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.condominium_property_ids
 msgid "Condominium Properties"
-msgstr ""
+msgstr "कॉन्डोमिनियम प्रॉपर्टीज़"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -448,11 +483,12 @@ msgid ""
 "Condominium creation in Odoo (see <em>Quickly Set Up a Condominium 🚀 "
 "</em>section)"
 msgstr ""
+"Odoo में कॉन्डोमिनियम बनाना (<em>क्विकली सेट अप अ कॉन्डोमिनियम 🚀</em> सेक्शन देखें)"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_custom
 msgid "Condominiums"
-msgstr ""
+msgstr "कॉन्डोमिनियम (कॉमर्शियल बिल्डिंग)"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.config_menu
@@ -467,7 +503,7 @@ msgstr "पुष्टि करें"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Contacts"
-msgstr "कॉन्टैक्ट"
+msgstr "संपर्क जानकारी"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_4_product_template
@@ -483,11 +519,21 @@ msgid ""
 "    Call for funds and provisions\n"
 "    Organization of general meeting"
 msgstr ""
+"कॉन्ट्रैक्ट बनाना\n"
+"    सॉफ़्टवेयर में सह-स्वामित्व बनाना\n"
+"    एक्ट विश्लेषण\n"
+"    बीमा विश्लेषण\n"
+"    पहचान फ़ॉर्म बनाना\n"
+"    ऑडिट\n"
+"    बैंक खाता(खाते) और कंपनी नंबर खोलना/हस्तांतरण करना\n"
+"    मीटर की रीडिंग\n"
+"    फंड और प्रावधानों के लिए कॉल\n"
+"    आम बैठक का आयोजन"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Contracts establishment<br/>"
-msgstr ""
+msgstr "कॉन्ट्रैक्ट स्थापना<br/>"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country
@@ -499,22 +545,22 @@ msgstr "देश"
 #: model:ir.actions.server,name:condominium.ir_action_create_condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Create Condominium"
-msgstr ""
+msgstr "कॉन्डोमिनियम (कॉमर्शियल बिल्डिंग) बनाएं"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.buildings_act_window
 msgid "Create and manage the buildings that compose this condominium<br>"
-msgstr ""
+msgstr "इस कॉन्डोमिनियम की बिल्डिंगों को बनाएं और मैनेज करें<br>"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.properties_act_window
 msgid "Create and manage the properties that compose this condominium"
-msgstr ""
+msgstr "इस कॉन्डोमिनियम की प्रॉपर्टी को बनाएं और मैनेज करें"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Create the buildings that compounds the condominium."
-msgstr ""
+msgstr "वे बिल्डिंग बनाएं जो कॉन्डोमिनियम से बनती हैं।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -522,6 +568,7 @@ msgid ""
 "Create the properties that compounds the buildings: apartment, studio, flat,"
 " penthouse, garage, etc."
 msgstr ""
+"वे प्रॉपर्टी बनाएं जो बिल्डिंग से बनती हैं: अपार्टमेंट, स्टूडियो, फ़्लैट, पेंटहाउस, गैराज, वगैरह।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_currency
@@ -532,17 +579,17 @@ msgstr "करेंसी"
 #: model:product.template,name:condominium.product_product_686_product_template
 #: model:product.template,name:condominium.product_product_810_product_template
 msgid "Damages or expenses not covered by insurance"
-msgstr ""
+msgstr "बीमा से कवर न होने वाली क्षति या खर्च"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_date
 msgid "Date"
-msgstr "तिथि"
+msgstr "तारीख"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_684_product_template
 msgid "Deductible (insurance)"
-msgstr ""
+msgstr "कटौती योग्य (इंश्योरेंस)"
 
 #. module: condominium
 #: model:product.pricelist,name:condominium.product_pricelist_1
@@ -552,12 +599,12 @@ msgstr "डिफ़ॉल्ट"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_670_product_template
 msgid "Deferred values"
-msgstr ""
+msgstr "डिफर्ड वैल्यू"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Define a recurring plan, monthly or yearly."
-msgstr ""
+msgstr "हर महीने या हर साल के लिए एक योजना तय करें।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.description_building
@@ -572,35 +619,35 @@ msgstr "विवरण"
 #: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 msgid "Distribute Costs"
-msgstr ""
+msgstr "लागत बांटें"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_distribution_key_field
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_list_custom_view
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Distribution Key"
-msgstr ""
+msgstr "डिस्ट्रिब्यूशन कुंजी"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.distribution_keys_act_window
 #: model:ir.ui.menu,name:condominium.infra_distribution_menu
 msgid "Distribution Keys"
-msgstr ""
+msgstr "डिस्ट्रिब्यूशन कुंजी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_799_product_template
 msgid "Document translation"
-msgstr ""
+msgstr "दस्तावेज़ का अनुवाद"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.owners_docs_menu
 msgid "Documents"
-msgstr ""
+msgstr "दस्तावेज़"
 
 #. module: condominium
 #: model:helpdesk.team,name:condominium.helpdesk_team_4
 msgid "Dominican Condominium"
-msgstr ""
+msgstr "डोमिनिकन कॉन्डोमिनियम"
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_18
@@ -610,7 +657,7 @@ msgstr "हो गया"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_723_product_template
 msgid "Drainage, sewers, and pumping installations maintenance"
-msgstr ""
+msgstr "ड्रेनेज, सीवर और पंपिंग इंस्टॉलेशन का रखरखाव"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -618,81 +665,85 @@ msgid ""
 "During the general meetings, counting the votes depending on the ownership percentage could be painful. From the properties screen, select all the properties of the corresponding condominium and insert them in a spreadsheet by using the\n"
 "            said feature under the Actions menu."
 msgstr ""
+"आम बैठकों के दौरान, स्वामित्व प्रतिशत के आधार पर वोटों की गिनती करना मुश्किल हो सकता है"
+". प्रॉपर्टी स्क्रीन से, संबंधित कॉन्डोमिनियम की सभी प्रॉपर्टी चुनें और कार्रवाइयां मेन्यू के "
+"तहत दिए गए फ़ीचर का इस्तेमाल \n"
+"            करके उन्हें एक स्प्रेडशीट में डालें।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Each owner has to pay recurring fees:"
-msgstr ""
+msgstr "हर मालिक को बार-बार फ़ीस भरनी होगी:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Each property is characterized by:"
-msgstr ""
+msgstr "हर प्रॉपर्टी की ये विशेषता है:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Easily convert the condominiums 🖋️"
-msgstr ""
+msgstr "कॉन्डोमिनियम को आसानी से बदलें 🖋️"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Efficiently count the votes 🙋‍♂️"
-msgstr ""
+msgstr "वोटों की गिनती आसानी से करें 🙋‍♂️"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_707_product_template
 msgid "Electrical installations inspections"
-msgstr ""
+msgstr "इलेक्ट्रिकल इंस्टॉलेशन इंस्पेक्शन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_708_product_template
 msgid "Electrical installations maintenance contracts"
-msgstr ""
+msgstr "इलेक्ट्रिकल इंस्टॉलेशन मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_711_product_template
 msgid "Electrical installations renovation"
-msgstr ""
+msgstr "इलेक्ट्रिकल इंस्टॉलेशन रेनोवेशन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_772_product_template
 msgid "Electricity for common areas"
-msgstr ""
+msgstr "कॉमन एरिया के लिए इलेक्ट्रिसिटी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_688_product_template
 msgid "Electricity for concierge"
-msgstr ""
+msgstr "सहायता सेवा के लिए इस्तेमाल होने वाली इलेक्ट्रिसिटी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_705_product_template
 msgid "Elevator adaptation work"
-msgstr ""
+msgstr "लिफ़्ट में बदलाव का काम"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_773_product_template
 msgid "Elevator electricity"
-msgstr ""
+msgstr "एलिवेटर इलेक्ट्रिसिटी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_701_product_template
 msgid "Elevator inspections"
-msgstr ""
+msgstr "एलिवेटर इंस्पेक्शन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_703_product_template
 msgid "Elevator maintenance and repairs not covered by contracts"
-msgstr ""
+msgstr "लिफ़्ट का रखरखाव और मरम्मत जो कॉन्ट्रैक्ट में शामिल नहीं हैं"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_702_product_template
 msgid "Elevator maintenance contracts"
-msgstr ""
+msgstr "एलिवेटर मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_704_product_template
 msgid "Emergency elevator phone"
-msgstr ""
+msgstr "इमरजेंसी एलिवेटर फ़ोन"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.employees_act_window
@@ -703,12 +754,12 @@ msgstr "कर्मचारी"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_660_product_template
 msgid "Employer contributions for extra-legal insurance"
-msgstr ""
+msgstr "अतिरिक्त बीमा के लिए नियोक्ता का योगदान"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_659_product_template
 msgid "Employer contributions for social insurance"
-msgstr ""
+msgstr "सोशल इंश्योरेंस के लिए कर्मचारी का अंश"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -716,46 +767,52 @@ msgid ""
 "Every year, a general meeting is scheduled to talk about the financial statements, to take important decisions and so on. This event can easily be scheduled in the Calendar app by creating\n"
 "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Meetings</font>. To invite all the owners of a condominium, use the \"Search More\" on \"Attendees\" and type the name of the condominium in... \"Condominiums\"."
 msgstr ""
+"हर साल, वित्तीय स्टेटमेंट पर बात करने, ज़रूरी फ़ैसले लेने वगैरह के लिए एक आम बैठक शेड्यूल की "
+"जाती है. इस इवेंट को \n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
+">मीटिंग</font> बनाकर कैलेंडर ऐप में आसानी से शेड्यूल किया जा सकता है. एक कॉन्डोमिनियम के "
+"सभी मालिकों को न्योता देने के लिए, \"प्रतिभागी\" पर \"और खोजें\" का इस्तेमाल करें और "
+"\"कॉन्डोमिनियम\" में कॉन्डोमिनियम का नाम टाइप करें।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_785_product_template
 msgid "Expert fees"
-msgstr ""
+msgstr "एक्सपर्ट के लिए फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_674_product_template
 msgid "Extension work"
-msgstr ""
+msgstr "एक्सटेंशन वर्क"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_786_product_template
 msgid "External auditor fees"
-msgstr ""
+msgstr "एक्सटर्नल ऑडिटर फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_728_product_template
 msgid "External carpentry maintenance"
-msgstr ""
+msgstr "एक्सटर्नल कारपेंट्री मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_8_product_template
 msgid "Extraordinary General Meeting"
-msgstr ""
+msgstr "स्पेशल जनरल मीटिंग"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_669_product_template
 msgid "Extraordinary work expenses"
-msgstr ""
+msgstr "स्पेशल काम के लिए खर्च"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Fairly split the costs ⚖️"
-msgstr ""
+msgstr "खर्चों को सही ढंग से बाँटें ⚖️"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_749_product_template
 msgid "Façade maintenance"
-msgstr ""
+msgstr "बाहरी हिस्से का मेंटनेंस"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -764,32 +821,34 @@ msgid ""
 " to assign a ratio for each property that will be used for splitting the "
 "fees per owner and for distributing the costs."
 msgstr ""
+"आखिर में, आप हर प्रॉपर्टी के लिए वितरण कुंजी तय कर सकते हैं. इसका इस्तेमाल हर मालिक के बी"
+"च फ़ीस और खर्चों को बाँटने के लिए होगा।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_677_product_template
 msgid "Fire insurance"
-msgstr ""
+msgstr "फॉयर इंश्योरेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_10_product_template
 msgid "First Reminder"
-msgstr ""
+msgstr "पहला रिमाइंडर"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_776_product_template
 msgid "Fixed fee and gas consumption"
-msgstr ""
+msgstr "तय फ़ीस और गैस की खपत"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_766_product_template
 msgid "Fixed fee and water consumption"
-msgstr ""
+msgstr "तय फ़ीस और पानी का खर्च"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_floor_field
 #: model:ir.model.fields,field_description:condominium.x_floor_related_field
 msgid "Floor"
-msgstr ""
+msgstr "फ्लोर"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -797,11 +856,15 @@ msgid ""
 "For example, to collect the cotisations, the selected company must be the condominium and the customer must be the condominium too. If you want to invoice your services, the selected company must be yours and the customer must be the\n"
 "            condominium to be invoiced."
 msgstr ""
+"उदाहरण के लिए, अंशदान इकट्ठा करने के लिए, चुनी गई कंपनी कॉन्डोमिनियम होनी चाहिए और "
+"ग्राहक भी कॉन्डोमिनियम होना चाहिए. अगर आप अपनी सेवाओं का इनवॉइस बनाना चाहते हैं, तो "
+"चुनी गई कंपनी आपकी होनी चाहिए और ग्राहक वह कॉन्डोमिनियम होना चाहिए \n"
+"            जिसे इनवॉइस भेजा जाना है।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_748_product_template
 msgid "Foundation maintenance"
-msgstr ""
+msgstr "फाउंडेशन मेंटनेंस"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -809,112 +872,117 @@ msgid ""
 "From the Settings, create a new company in <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Companies</font>. Once done, it will appear on the top right of all screens with the aim to quickly switch between your company and the\n"
 "            different condominiums."
 msgstr ""
+"सेटिंग से,  <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">कंपनी</"
+"font> में एक नई कंपनी बनाएं. Oएक बार हो जाने पर, यह आपकी कंपनी और अलग-अलग कॉन्डोमिनि"
+"यम के बीच तुरंत स्विच करने के उद्देश्य से सभी स्क्रीन\n"
+"             के सबसे ऊपर दाईं ओर दिखाई देगा।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_780_product_template
 msgid "Fuel oil deliveries"
-msgstr ""
+msgstr "फ्यूल ऑयल डिलीवरी"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_4
 msgid "Garage"
-msgstr ""
+msgstr "गैरेज"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_13
 msgid "Garage AG"
-msgstr ""
+msgstr "गैरेज एजी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_727_product_template
 msgid "Garage door maintenance"
-msgstr ""
+msgstr "गैरेज के दरवाज़े का मरम्मत"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_743_product_template
 msgid "Garden and immediate surroundings layout"
-msgstr ""
+msgstr "बगीचे और आस-पास के माहौल का लेआउट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_741_product_template
 msgid "Garden and immediate surroundings maintenance under contract"
-msgstr ""
+msgstr "कॉन्ट्रैक्ट के तहत बगीचे और आस-पास के माहौल का रखरखाव"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_690_product_template
 msgid "Gas for concierge"
-msgstr ""
+msgstr "सहायता सेवा के लिए इस्तेमाल होने वाली गैस"
 
 #. module: condominium
 #: model:helpdesk.team,name:condominium.helpdesk_team_1
 msgid "Green Island Property"
-msgstr ""
+msgstr "ग्रीन आइसलैंड प्रॉपर्टी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_754_product_template
 msgid "Hall, stairwell, and corridor maintenance work"
-msgstr ""
+msgstr "हॉल, सीढ़ियों और गलियारे के रखरखाव का काम"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_774_product_template
 msgid "Heating and sanitary electricity"
-msgstr ""
+msgstr "हीटिंग और सैनिटरी इलेक्ट्रिसिटी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_691_product_template
 msgid "Heating for concierge"
-msgstr ""
+msgstr "सहायता सेवा के लिए इस्तेमाल होने वाली हीटिंग"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_716_product_template
 msgid "Heating installations inspections"
-msgstr ""
+msgstr "हीटिंग इंस्टॉलेशन इंस्पेक्शन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_717_product_template
 msgid "Heating maintenance contracts"
-msgstr ""
+msgstr "हीटिंग मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_721_product_template
 msgid "Heating pipes maintenance"
-msgstr ""
+msgstr "हीटिंग पाइप मेंटनेंस"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.owners_help_menu
 msgid "Helpdesk"
-msgstr ""
+msgstr "हेल्पडेस्क"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_7_product_template
 msgid "Hourly Rate"
-msgstr ""
+msgstr "घंटे का रेट"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_2
 msgid "House"
-msgstr ""
+msgstr "हाउस"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_20
 msgid "House C1"
-msgstr ""
+msgstr "हाउस C1"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_738_product_template
 msgid "Household waste / PMC / paper and glass products"
-msgstr ""
+msgstr "घरेलू कचरा / पीएमसी / कागज़ और कांच के प्रॉडक्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_736_product_template
 msgid "Household waste / PMC / paper and glass under contract"
-msgstr ""
+msgstr "घरेलू कचरा / पीएमसी / कागज़ और कांच कॉन्ट्रैक्ट के तहत"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "If there is no distribution keys set, the area will be used as default key."
 msgstr ""
+"अगर कोई वितरण कुंजी सेट नहीं है, तो क्षेत्रफल का इस्तेमाल डिफ़ॉल्ट कुंजी के रूप में किया जाएगा।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.image_buildings
@@ -928,11 +996,14 @@ msgid ""
 "Odoo at the right date. If not, you can manually post them in mass. Then "
 "just send them using your preferred way!"
 msgstr ""
+"बार-बार होने वाली फ़ीस के मामले में, इनवॉइस ओडू द्वारा सही तारीख पर अपने-आप जनरेट किए "
+"जाएंगे. अगर ऐसा नहीं होता है, तो आप उन्हें मैन्युअल तरीक़े से एक साथ पोस्ट कर सकते हैं. फिर "
+"बस उन्हें अपने पसंदीदा तरीक़े से भेजें!"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "In case of recurring fees:"
-msgstr ""
+msgstr "बार-बार लगने वाली फ़ीस के मामले में:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -940,6 +1011,7 @@ msgid ""
 "In the Sales application, create a quotation and set the condominium as "
 "customer."
 msgstr ""
+"सेल्स ऐप्लिकेशन में, एक कोटेशन बनाएं और कॉन्डोमिनियम को ग्राहक के रूप में सेट करें।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -947,157 +1019,163 @@ msgid ""
 "In their day to day, the owners and the tenants can face some issues. In order to collect and centralize them, use the <strong><font class=\"text-o-color-1\">Helpdesk</font></strong> application. Thereby, each member can send an email\n"
 "            that will be caught in the right helpdesk team. This eases the follow-up and the invoicing in case the time spent is not covered by the service fees."
 msgstr ""
+"अपने दिन-प्रतिदिन के काम में, मालिकों और किरायेदारों को कुछ समस्याओं का सामना करना पड़ "
+"सकता है. उन्हें इकट्ठा करने और केंद्रीकृत करने के लिए, <strong><font class="
+"\"text-o-color-1\">हेल्पडेस्क</font></strong> ऐप्लिकेशन का इस्तेमाल करें. इससे, हर सदस्य "
+"एक ईमेल भेज सकता है जो सही हेल्पडेस्क टीम में पहुंच जाएगा.\n"
+"            इससे फ़ॉलो-अप और इनवॉइसिंग में आसानी होती है, अगर खर्च किया गया समय सर्वि"
+"स फ़ीस में शामिल नहीं है।"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.condominium_act_window
 #: model:ir.ui.menu,name:condominium.infra_menu
 msgid "Infrastructure"
-msgstr ""
+msgstr "इन्फ़ॉस्ट्रक्चर"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_681_product_template
 msgid "Insurance for members of the internal council and auditor"
-msgstr ""
+msgstr "आंतरिक परिषद के सदस्यों और ऑडिटर के लिए बीमा"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Insurances analysis"
-msgstr ""
+msgstr "इंश्योरेंस का विश्लेषण"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_729_product_template
 msgid "Internal carpentry maintenance"
-msgstr ""
+msgstr "इंटरनल कारपेंट्री मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_806_product_template
 msgid "Internet information communication"
-msgstr ""
+msgstr "इंटरनेट इन्फॉर्मेशन कम्यूनिकेशन"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_is_a_property
 msgid "Is a property"
-msgstr ""
+msgstr "एक प्रॉपर्टी है"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_4_product_template
 msgid "Kick-Off Fees"
-msgstr ""
+msgstr "किक-ऑफ़ फ़ीस"
 
 #. module: condominium
 #: model:documents.document,name:condominium.documents_folder_11
 #: model:project.project,name:condominium.project_project_4
 msgid "Kick-Off Template"
-msgstr ""
+msgstr "किक-ऑफ़ टेंप्लेट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Kick-off meeting"
-msgstr ""
+msgstr "किक-ऑफ़ मीटिंग"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_763_product_template
 msgid "Laundry charges"
-msgstr ""
+msgstr "लॉन्ड्री फीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_783_product_template
 msgid "Lawyer fees"
-msgstr ""
+msgstr "वकील की फीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_683_product_template
 msgid "Legal assistance"
-msgstr ""
+msgstr "लीगल सहायता"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_800_product_template
 msgid "Legal fees for recovering co-owners' arrears"
-msgstr ""
+msgstr "सह-मालिकों के बकाये को वसूलने के लिए कानूनी शुल्क"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_700_product_template
 msgid "Maintenance contracts"
-msgstr ""
+msgstr "मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Make sure that the products added are recurring."
-msgstr ""
+msgstr "पक्का करें कि जोड़े गए प्रॉडक्ट बार-बार आते हैं।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "Manage Companies"
-msgstr ""
+msgstr "कंपनियों को मैनेज करें"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.employees_act_window
 msgid "Manage the employees working for this condominium<br>"
-msgstr ""
+msgstr "इस कॉन्डोमिनियम के लिए काम करने वाले कर्मचारियों को मैनेज करें<br>"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.owners_act_window
 msgid "Manage the owners of this condominium<br>"
-msgstr ""
+msgstr "इस कॉन्डोमिनियम के मालिकों को मैनेज करें<br>"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.vendors_act_window
 msgid "Manage the vendors related to this condominium<br>"
-msgstr ""
+msgstr "इस कॉन्डोमिनियम से संबंधित वेंडरों को मैनेज करें<br>"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_796_product_template
 msgid "Meeting consumables"
-msgstr ""
+msgstr "मीटिंग में इस्तेमाल होने वाली चीज़ें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_795_product_template
 msgid "Meeting room usage"
-msgstr ""
+msgstr "मीटिंग रूम का इस्तेमाल"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_meter_id
 msgid "Meter"
-msgstr ""
+msgstr "मीटर"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
 #: model:ir.model,name:condominium.model_meter_reading
 msgid "Meter Reading"
-msgstr ""
+msgstr "मीटर रीडिंग"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_meter_reading_ids
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 msgid "Meter Readings"
-msgstr ""
+msgstr "मीटर रीडिंग"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_724_product_template
 msgid "Meter readings"
-msgstr ""
+msgstr "मीटर रीडिंग"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.action_configuration_meters
 #: model:ir.model,name:condominium.model_meters
 #: model:ir.ui.menu,name:condominium.condo_meters
 msgid "Meters"
-msgstr ""
+msgstr "मीटर"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Meters reading"
-msgstr ""
+msgstr "मीटर रीडिंग"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_665_product_template
 msgid "Miscellaneous expenses"
-msgstr ""
+msgstr "अलग-अलग खर्चे"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_15_product_template
 msgid "Monthly Service Fees"
-msgstr ""
+msgstr "मासिक सेवा शुल्क"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
@@ -1109,18 +1187,18 @@ msgstr "नाम"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Name or reference..."
-msgstr ""
+msgstr "नाम या रेफ़रंस..।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
 msgid "Name..."
-msgstr ""
+msgstr "नाम..।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Never forget a task 📑"
-msgstr ""
+msgstr "कभी भी कोई टास्क ना भूलें 📑"
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_26
@@ -1130,22 +1208,22 @@ msgstr "नया"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "New condominiums should be created as companies from the settings"
-msgstr ""
+msgstr "नए कॉन्डोमिनियम को सेटिंग से कंपनी के रूप में बनाया जाना चाहिए"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_682_product_template
 msgid "Non-professional trustee liability"
-msgstr ""
+msgstr "गैर-पेशेवर ट्रस्टी की ज़िम्मेदारी"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.notes_buildings
 msgid "Notes"
-msgstr "टिप्पणियाँ"
+msgstr "नोट्स"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_5_product_template
 msgid "Offboarding"
-msgstr ""
+msgstr "ऑफ़बोर्डिंग"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1154,11 +1232,14 @@ msgid ""
 "owners. On the other hand, the service fees can be invoiced by \"My "
 "Condominium Management\" to the owners. Here are the steps to follow:"
 msgstr ""
+"एक ओर, फंड का अनुरोध कॉन्डोमिनियम द्वारा मालिकों को भेजा जाता है. दूसरी ओर, सर्विस फ़ी"
+"स का इनवॉइस \"मेरा कॉन्डोमिनियम मैनेजमेंट\" द्वारा मालिकों को भेजा जा सकता है. यहां दिए "
+"गए चरणों का पालन करें:"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_7
 msgid "On-Demand Fees"
-msgstr ""
+msgstr "ऑन-डिमांड फ़ीस"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1168,6 +1249,9 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Condominium</font></strong> app where"
 " you can:"
 msgstr ""
+"यह हो जाने पर, स्क्रीन के सबसे ऊपर, दाईं ओर सही कॉन्डोमिनियम चुनकर उसकी संरचना बनाने का"
+" समय आ गया है. फिर, <strong><font class=\"text-o-color-1\""
+">कॉन्डोमिनियम</font></strong> ऐप खोलें जहां आप ये काम कर सकते हैं:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1175,6 +1259,11 @@ msgid ""
 "Once the quotation is confirmed, it automatically creates <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Projects</font> including several tasks to properly start the collaboration. This is based on the\n"
 "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Kick-Off Template</font> Template project:"
 msgstr ""
+"एक बार जब कोटेशन की पुष्टि हो जाती है, तो यह साथ मिलकर काम करने के लिए कई टास्क सहि"
+"त अपने-आप <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
+">प्रोजेक्ट</font> बनाता है. यह\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\""
+">किक-ऑफ़ टेंप्लेट</font> प्रोजेक्ट पर आधारित है:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1183,16 +1272,19 @@ msgid ""
 "Basically, a<strong> </strong>condominium is like a company that is funded "
 "by the owners and that has to pay for operating costs."
 msgstr ""
+"एक बार कोटेशन की पुष्टि हो जाने के बाद, कॉन्डोमिनियम को ओडू में बनाया जाना चाहिए. मूल रू"
+"प से, <strong></strong>एक कॉन्डोमिनियम एक कंपनी की तरह है जिसे मालिकों द्वारा फ़ंड "
+"किया जाता है और जिसे ऑपरेटिंग लागतों का भुगतान करना होता है।"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_4
 msgid "One-Time Fees"
-msgstr ""
+msgstr "एक बार लगने वाला फ़ीस"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_view_company_partner
 msgid "Open company partner form view"
-msgstr ""
+msgstr "कंपनी पार्टनर फ़ॉर्म व्यू खोलें"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_7
@@ -1202,151 +1294,151 @@ msgstr "अन्य"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_733_product_template
 msgid "Other building cleaning"
-msgstr ""
+msgstr "बिल्डिंग की अन्य सफ़ाई"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_731_product_template
 msgid "Other carpentry work"
-msgstr ""
+msgstr "कारपेंट्री से जुड़े अन्य काम"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_695_product_template
 msgid "Other concierge expenses"
-msgstr ""
+msgstr "सहायता सेवा से जुड़े अन्य खर्च"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_790_product_template
 msgid "Other condominium council expenses"
-msgstr ""
+msgstr "कॉन्डोमिनियम काउंसिल के अन्य खर्च"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_709_product_template
 msgid "Other electrical installations maintenance"
-msgstr ""
+msgstr "बिजली के अन्य इंस्टॉलेशन का रखरखाव"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_775_product_template
 msgid "Other electricity expenses"
-msgstr ""
+msgstr "बिजली के अन्य खर्चें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_706_product_template
 msgid "Other elevator charges"
-msgstr ""
+msgstr "लिफ़्ट के अन्य खर्चें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_787_product_template
 msgid "Other fees"
-msgstr ""
+msgstr "अन्य फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_742_product_template
 msgid "Other garden and immediate surroundings maintenance"
-msgstr ""
+msgstr "बगीचे और आस-पास के माहौल का अन्य रखरखाव"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_777_product_template
 msgid "Other gas expenses"
-msgstr ""
+msgstr "गैस के अन्य खर्चें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_718_product_template
 msgid "Other heating maintenance"
-msgstr ""
+msgstr "हीटिंग के दूसरे मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_737_product_template
 msgid "Other household waste / PMC / paper and glass"
-msgstr ""
+msgstr "अन्य घरेलू कचरा / पीएमसी / कागज़ और कांच"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_685_product_template
 msgid "Other insurance"
-msgstr ""
+msgstr "दूसरे इंश्योरेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_801_product_template
 msgid "Other legal fees"
-msgstr ""
+msgstr "अन्य कानूनी शुल्क"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_809_product_template
 msgid "Other management fees"
-msgstr ""
+msgstr "अन्य मैनेजमेंट फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_797_product_template
 msgid "Other meeting expenses"
-msgstr ""
+msgstr "मीटिंग के अन्य खर्चें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_745_product_template
 msgid "Other parking, paths, and surroundings maintenance"
-msgstr ""
+msgstr "अन्य पार्किंग, रास्तों और आस-पास के माहौल का रखरखाव"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_661_product_template
 msgid "Other personnel expenses"
-msgstr ""
+msgstr "अन्य निजी खर्चें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_805_product_template
 msgid "Other property transfer fees"
-msgstr ""
+msgstr "अन्य प्रॉपर्टी ट्रांसफर फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_725_product_template
 msgid "Other sanitary and heating maintenance"
-msgstr ""
+msgstr "अन्य सैनिटरी और हीटिंग मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_676_product_template
 msgid "Other supplies"
-msgstr ""
+msgstr "अन्य आपूर्ति"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_769_product_template
 msgid "Other supplies for water softener"
-msgstr ""
+msgstr "वॉटर सॉफ़्टनर के लिए अन्य सप्लाई"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_761_product_template
 msgid "Other swimming pool expenses"
-msgstr ""
+msgstr "स्वीमिंग पूल से जुड़े अन्य खर्चें"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_757_product_template
 msgid "Other swimming pool/technical installations maintenance"
-msgstr ""
+msgstr "अन्य स्विमिंग पूल/तकनीकी इंस्टॉलेशन का मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_794_product_template
 msgid "Other trustee expenses"
-msgstr ""
+msgstr "अन्य ट्रस्टी खर्च"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_740_product_template
 msgid "Other waste cleaning and treatment"
-msgstr ""
+msgstr "अन्य कचरा सफ़ाई और ट्रीटमेंट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_771_product_template
 msgid "Other water expenses"
-msgstr ""
+msgstr "पानी से जुड़े अन्य खर्चे"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_owner_field
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "Owner"
-msgstr ""
+msgstr "मालिक"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.owners_act_window
 #: model:ir.ui.menu,name:condominium.owners_menu
 #: model:ir.ui.menu,name:condominium.owners_owners_menu
 msgid "Owners"
-msgstr ""
+msgstr "मालिक"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_parent_field
@@ -1356,47 +1448,47 @@ msgstr "पैरेंट"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_parent_account_analytic_account_count
 msgid "Parent count"
-msgstr ""
+msgstr "पैरंट काउंट"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_6
 msgid "Parking"
-msgstr ""
+msgstr "पार्किंग"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_21
 msgid "Parking CP"
-msgstr ""
+msgstr "पार्किंग सीपी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_744_product_template
 msgid "Parking, paths, and surroundings maintenance under contract"
-msgstr ""
+msgstr "कॉन्ट्रैक्ट के तहत पार्किंग, रास्तों और आस-पास के माहौल का रखरखाव"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_746_product_template
 msgid "Parking, paths, and surroundings renovation works"
-msgstr ""
+msgstr "पार्किंग, रास्तों और आस-पास के माहौल के नवीनीकरण का काम"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.partner_company_ids
 msgid "Partner's Companies"
-msgstr ""
+msgstr "पार्टनर की कंपनियां"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_price
 msgid "Price"
-msgstr "कीम"
+msgstr "कीमत"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_pricelist_field
 msgid "Pricelist"
-msgstr "मूल्य सूची"
+msgstr "प्राइसलिस्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_666_product_template
 msgid "Private expenses"
-msgstr ""
+msgstr "निजी खर्चे"
 
 #. module: condominium
 #: model:account.analytic.plan,name:condominium.account_analytic_plan_2
@@ -1417,72 +1509,72 @@ msgstr "प्रॉपर्टीज़"
 #: model:ir.actions.act_window,name:condominium.properties_tags_act_window
 #: model:ir.model,name:condominium.model_properties_tags
 msgid "Properties Tags"
-msgstr ""
+msgstr "प्रॉपर्टीज़ टैग्स"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.property_types_act_window
 #: model:ir.model,name:condominium.model_properties_types
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
 msgid "Properties Types"
-msgstr ""
+msgstr "प्रॉपर्टी टाइप"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Properties creation in Odoo (see <em>Know the stakeholders 🔎</em> section)"
-msgstr ""
+msgstr "Odoo में प्रॉपर्टी बनाना (<em>स्टेकहोल्डर को जानें 🔎</em> सेक्शन देखें)"
 
 #. module: condominium
 #: model:documents.document,name:condominium.documents_folder_12
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_account_analytic_account
 #: model:ir.model.fields,field_description:condominium.x_property_field
 msgid "Property"
-msgstr ""
+msgstr "प्रॉपर्टी"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Property Owner Association"
-msgstr ""
+msgstr "प्रॉपर्टी ओनर एसोसिएशन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_807_product_template
 msgid "Property accession fees"
-msgstr ""
+msgstr "प्रॉपर्टी के शामिल होने की फ़ीस"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_is_a_property_plan
 msgid "Property plan"
-msgstr ""
+msgstr "प्रॉपर्टी प्लान"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Provide the best customer service 🆘"
-msgstr ""
+msgstr "सबसे अच्छी ग्राहक सेवा दें 🆘"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.purchase_menu
 msgid "Purchase"
-msgstr "परचेज"
+msgstr "परचेज़"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_quantity
 msgid "Quantity"
-msgstr "मात्रा"
+msgstr "क्वांटिटी"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Quickly set up a condominium 🚀"
-msgstr ""
+msgstr "तेज़ी से कॉन्डोमिनियम को सेट अप करें🚀"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_730_product_template
 msgid "Railings and terrace separation partitions"
-msgstr ""
+msgstr "रेलिंग और छत की अलग करने वाली पार्टिशन"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_ratio_field
 msgid "Ratio"
-msgstr ""
+msgstr "रेशियो"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.ratios_act_window
@@ -1491,27 +1583,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_for_x_ratios
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Ratios"
-msgstr ""
+msgstr "रेशियो"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_764_product_template
 msgid "Recreational charges (playgrounds, tennis, fitness, billiards, etc.)"
-msgstr ""
+msgstr "मनोरंजन शुल्क (खेल के मैदान, टेनिस, फिटनेस, बिलियर्ड्स, वगैरह)"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_5
 msgid "Recurring Fees"
-msgstr ""
+msgstr "बार-बार लगने वाली फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_672_product_template
 msgid "Renovation work"
-msgstr ""
+msgstr "मरम्मत का काम"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_14_product_template
 msgid "Reserve Fund"
-msgstr ""
+msgstr "रिज़र्व फ़ंड"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1519,26 +1611,28 @@ msgid ""
 "Reserve Fund: to collect all the money that will be used in case of "
 "exceptional expense."
 msgstr ""
+"रिज़र्व फंड: उन सभी पैसों को इकट्ठा करने के लिए जिनका इस्तेमाल किसी खास खर्च के मामले में "
+"किया जाएगा।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_662_product_template
 msgid "Retirement and survivor pensions"
-msgstr ""
+msgstr "रिटायरमेंट और सर्वाइवर पेंशन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_699_product_template
 msgid "Reversals (provisions)"
-msgstr ""
+msgstr "रिवर्सल (प्रोविज़न)"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_751_product_template
 msgid "Roof maintenance"
-msgstr ""
+msgstr "छत का मेंटनेंट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_658_product_template
 msgid "Salaries and direct social benefits"
-msgstr ""
+msgstr "वेतन और सीधे सामाजिक लाभ"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.owners_sales_menu
@@ -1549,24 +1643,24 @@ msgstr "सेल्स"
 #: model:ir.actions.act_window,name:condominium.sale_order_button_action
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Sales Orders"
-msgstr ""
+msgstr "सेल्स ऑर्डर"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Schedule the meetings 📅"
-msgstr ""
+msgstr "मीटिंग शेड्यूल करें 📅"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_11_product_template
 msgid "Second Reminder"
-msgstr ""
+msgstr "दूसरा रिमाइंडर"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "See the information of the condominium and fill the vendors to build an "
 "address book."
-msgstr ""
+msgstr "कॉन्डोमिनियम की जानकारी देखें और पता पुस्तिका बनाने के लिए वेंडर भरें।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1575,6 +1669,8 @@ msgid ""
 "<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
 "company)."
 msgstr ""
+"सही कंपनी चुनें जिसकी ओर से शुल्क का इनवॉइस बनाया जाएगा (कंपनी बदलने का तरीका जानने के "
+"लिए, <em>क्विकली सेट अप अ कॉन्डोमिनियम 🚀</em> सेक्शन देखें)।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
@@ -1587,53 +1683,53 @@ msgstr "अनुक्रम"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_3_product_template
 msgid "Service Fees"
-msgstr ""
+msgstr "सर्विस फ़ीस"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_set_usage_meter_reading
 msgid "Set Usage in Meter Readings"
-msgstr ""
+msgstr "मीटर रीडिंग में यह सेट करें कि कितना इस्तेमाल करना है"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the recurring plan start date."
-msgstr ""
+msgstr "बार-बार वाले प्लान की शुरू होने की तारीख सेट करें।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the right (recurring) price."
-msgstr ""
+msgstr "सही (बार-बार लगने वाली) कीमत सेट करें।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the right distribution key."
-msgstr ""
+msgstr "सही वितरण कुंजी सेट करें।"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_798_product_template
 msgid "Simultaneous translation for meetings"
-msgstr ""
+msgstr "मीटिंग का तुरंत अनुवाद"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Some tags to add extra visual information."
-msgstr ""
+msgstr "अतिरिक्त विज़ुअल जानकारी जोड़ने के लिए कुछ टैग।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.source_sales_order_field
 msgid "Source Sales Order"
-msgstr ""
+msgstr "सोर्स सेल्स ऑर्डर"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.source_sales_order
 msgid "Source Sales Order count"
-msgstr ""
+msgstr "सोर्स सेल्स ऑर्डर की संख्या"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Split per Owner"
-msgstr ""
+msgstr "मालिक के हिसाब से बांटें"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country_state
@@ -1644,7 +1740,7 @@ msgstr "स्थिति"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_803_product_template
 msgid "Statute modification"
-msgstr ""
+msgstr "कानून में बदलाव"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.street
@@ -1654,12 +1750,12 @@ msgstr "स्ट्रीट"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Street 2..."
-msgstr "स्ट्रीट 2..."
+msgstr "स्ट्रीट 2..।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Street..."
-msgstr "स्ट्रीट..."
+msgstr "स्ट्रीट..।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.street2
@@ -1669,62 +1765,62 @@ msgstr "स्ट्रीट2"
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_3
 msgid "Studio"
-msgstr ""
+msgstr "स्टूडियो"
 
 #. module: condominium
 #: model:account.analytic.account,name:condominium.account_analytic_account_22
 msgid "Studio CS"
-msgstr ""
+msgstr "स्टूडियो सीएस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_671_product_template
 msgid "Study and supervision fees"
-msgstr ""
+msgstr "स्टडी और सुपरविज़न फ़ीस"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Sum of Area"
-msgstr ""
+msgstr "क्षेत्रफल का योग"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
 msgid "Sum of Ratio"
-msgstr ""
+msgstr "रेशियो का योग"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_675_product_template
 msgid "Supplies to the association"
-msgstr ""
+msgstr "एसोसिएशन को सप्लाई"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_755_product_template
 msgid "Swimming pool inspections"
-msgstr ""
+msgstr "स्वीमिंग पूल इंस्पेक्शन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_756_product_template
 msgid "Swimming pool maintenance contracts"
-msgstr ""
+msgstr "स्वीमिंग पूल मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_758_product_template
 msgid "Swimming pool product supplies"
-msgstr ""
+msgstr "स्वीमिंग पूल प्रॉडक्ट सप्लाई"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_759_product_template
 msgid "Swimming pool supervision"
-msgstr ""
+msgstr "स्वीमिंग पूल सुपरविज़न"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_760_product_template
 msgid "Swimming pool/technical installations repairs"
-msgstr ""
+msgstr "स्विमिंग पूल/तकनीकी इंस्टॉलेशन की मरम्मत"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_692_product_template
 msgid "TV distribution for concierge"
-msgstr ""
+msgstr "सहायता सेवा के लिए टीवी की सुविधा देने और उससे जुड़े खर्च"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.tags_buildings
@@ -1737,12 +1833,12 @@ msgstr "टैग"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_778_product_template
 msgid "Tank inspections"
-msgstr ""
+msgstr "टैंक इंस्पेक्शन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_779_product_template
 msgid "Tank maintenance"
-msgstr ""
+msgstr "टैंक मेंटनेंस"
 
 #. module: condominium
 #: model:project.project,label_tasks:condominium.project_project_4
@@ -1752,42 +1848,42 @@ msgstr "टास्क"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_663_product_template
 msgid "Taxes and fees"
-msgstr ""
+msgstr "टैक्स और फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_687_product_template
 msgid "Telephone - Internet - concierge cell phone"
-msgstr ""
+msgstr "टेलीफ़ोन - इंटरनेट - सहायता सेल फ़ोन"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_tenant_field
 msgid "Tenant"
-msgstr ""
+msgstr "किरायेदार"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_750_product_template
 msgid "Terrace maintenance"
-msgstr ""
+msgstr "छत का मेंटनेंस"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The area."
-msgstr ""
+msgstr "एरिया।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The building to which the property belongs."
-msgstr ""
+msgstr "वह बिल्डिंग जिससे प्रॉपर्टी जुड़ी हुई है।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The floor."
-msgstr ""
+msgstr "फ्लोर।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The owner of the property."
-msgstr ""
+msgstr "प्रॉपर्टी का मालिक।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1795,6 +1891,7 @@ msgid ""
 "The parent property, for example to indicate that a garage is linked with an"
 " apartment."
 msgstr ""
+"पैरेंट प्रॉपर्टी, उदाहरण के लिए यह बताने के लिए कि एक गैराज एक अपार्टमेंट से जुड़ा हुआ है।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1802,21 +1899,23 @@ msgid ""
 "The reserve fund that is a savings account used in case of exceptional "
 "expenses such as a severe repair, an investment in equipment, etc."
 msgstr ""
+"वह आरक्षित फंड, जो एक बचत खाता है जिसका इस्तेमाल असाधारण खर्चों के मामले में किया जाता है"
+", जैसे कि किसी बड़ी मरम्मत, उपकरण में निवेश वगैरह।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The services provided by the condominium management company."
-msgstr ""
+msgstr "कॉन्डोमिनियम मैनेज करने वाली कंपनी द्वारा दी जाने वाली सेवाएं।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The tenant if relevant."
-msgstr ""
+msgstr "किरायेदार, अगर वह संबंधित है।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The type to easily classify it."
-msgstr ""
+msgstr "इसे आसानी से वर्गीकृत करने के लिए प्रकार।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1825,6 +1924,8 @@ msgid ""
 "expenses (water, electricity, gas, etc.), insurances, maintenance, repairs, "
 "cleaning of common areas, etc."
 msgstr ""
+"वह वर्किंग फ़ंड जिसका इस्तेमाल मासिक खर्चों (पानी, बिजली, गैस, वगैरह), बीमा, रखरखाव, "
+"मरम्मत, आम जगहों की सफ़ाई, वगैरह जैसे आम शुल्कों का भुगतान करने के लिए किया जाता है।"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1833,21 +1934,24 @@ msgid ""
 "Bills</font></strong> that can be uploaded and automatically filled thanks "
 "to"
 msgstr ""
+"इनका इस्तेमाल <strong><font class=\"text-o-color-1\">वेंडर के बिलों</font></"
+"strong> का भुगतान करने के लिए किया जाएगा जिन्हें अपलोड किया जा सकता है और की मदद से "
+"अपने-आप भरा जा सकता है"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_12_product_template
 msgid "Third Reminder"
-msgstr ""
+msgstr "तीसरा रिमाइंडर"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_11_product_template
 msgid "This does not include the fees from the ushers"
-msgstr ""
+msgstr "इसमें अटेंडेंट की फ़ीस शामिल नहीं है"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_12_product_template
 msgid "This does not include the fees from the ushers, lawyers, experts, etc."
-msgstr ""
+msgstr "इसमें अटेंडेंट, वकील, एक्सपर्ट वगैरह की फीस शामिल नहीं है।"
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_17
@@ -1857,38 +1961,38 @@ msgstr "टू डू"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_673_product_template
 msgid "Transformation work"
-msgstr ""
+msgstr "ट्रांसफ़ॉरमेशन वर्क"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_789_product_template
 msgid ""
 "Travel expenses for members of the internal council and internal auditor"
-msgstr ""
+msgstr "आंतरिक परिषद और आंतरिक ऑडिटर के सदस्यों के लिए यात्रा का खर्च"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_782_product_template
 msgid "Trustee fees"
-msgstr ""
+msgstr "ट्रस्टी का फ़ीस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_802_product_template
 msgid "Trustee nomination publication"
-msgstr ""
+msgstr "ट्रस्टी नामांकन प्रकाशन"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_791_product_template
 msgid "Trustee office and office supplies"
-msgstr ""
+msgstr "ट्रस्टी का ऑफ़िस और ऑफ़िस की सप्लाई"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_793_product_template
 msgid "Trustee phone"
-msgstr ""
+msgstr "ट्रस्टी का फ़ोन नंबर"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_792_product_template
 msgid "Trustee stamps"
-msgstr ""
+msgstr "ट्रस्टी का स्टैंप"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_type_field
@@ -1900,37 +2004,37 @@ msgstr "प्रकार"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Type down your notes here..."
-msgstr ""
+msgstr "अपने नोट्स यहां लिखें..।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_usage
 msgid "Usage"
-msgstr ""
+msgstr "इस्तेमाल"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
 msgid "VAT"
-msgstr ""
+msgstr "वैट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_765_product_template
 msgid "Various controls and monitoring"
-msgstr ""
+msgstr "अलग-अलग कंट्रोल और मॉनिटरिंग"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_668_product_template
 msgid "Various financial charges"
-msgstr ""
+msgstr "विभिन्न वित्तीय शुल्क"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_762_product_template
 msgid "Various maintenance contracts"
-msgstr ""
+msgstr "विभिन्न मेंटनेंस कॉन्ट्रैक्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_747_product_template
 msgid "Various works"
-msgstr ""
+msgstr "अलग-अलग काम"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.vendors_act_window
@@ -1943,62 +2047,62 @@ msgstr "वेंडर"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.vendor_company_ids
 msgid "Vendors Companies"
-msgstr ""
+msgstr "वेंडर की कंपनी"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.vendor_condominium_ids
 msgid "Vendors Condominiums"
-msgstr ""
+msgstr "वेंडर कॉन्डोमिनियम (कॉमर्शियल बिल्डिंग)"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_715_product_template
 msgid "Video surveillance"
-msgstr ""
+msgstr "वीडियो सर्विलांस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_680_product_template
 msgid "Volunteer insurance"
-msgstr ""
+msgstr "वॉलन्टियर इंश्योरेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_739_product_template
 msgid "Waste cleaning and treatment controls"
-msgstr ""
+msgstr "कचरा साफ़ करने और ट्रीटमेंट के कंट्रोल"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_719_product_template
 msgid "Water booster maintenance"
-msgstr ""
+msgstr "वॉटर बूस्टर का मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_767_product_template
 msgid "Water for common areas"
-msgstr ""
+msgstr "कॉमन एरिया के लिए पानी"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_689_product_template
 msgid "Water for concierge"
-msgstr ""
+msgstr "सहायता सेवा के लिए इस्तेमाल होने वाले पानी का खर्च"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_722_product_template
 msgid "Water pipes maintenance"
-msgstr ""
+msgstr "पानी के पाइप का मेंटनेंस"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_720_product_template
 msgid "Water softener and water treatment maintenance"
-msgstr ""
+msgstr "वॉटर सॉफ़्टनर और पानी के ट्रीटमेंट का रखरखाव"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_768_product_template
 msgid "Water softener salt"
-msgstr ""
+msgstr "वॉटर सॉफ़्टनर सॉल्ट"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_770_product_template
 msgid "Water treatment supplies"
-msgstr ""
+msgstr "वॉटर ट्रीटमेंट सप्लाई"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2007,36 +2111,38 @@ msgid ""
 "help you manage the condominiums efficiently, from setting up to general "
 "meetings."
 msgstr ""
+"Odoo प्रॉपर्टी ओनर एसोसिएशन पैकेज में आपका स्वागत है! यह गाइड आपको सेटअप से लेकर आम बैठकों"
+" तक, कॉन्डोमिनियम को कुशलता से मैनेज करने में मदद करेगी।"
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "आपका स्वागत है! मज़े से खोजबीन करें."
+msgstr "आपका स्वागत है! मज़े से खोजबीन करें।"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_1
 msgid "Wing A"
-msgstr ""
+msgstr "विंग A"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_4
 msgid "Wing B"
-msgstr ""
+msgstr "विंग B"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_5
 msgid "Wing C"
-msgstr ""
+msgstr "विंग C"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_679_product_template
 msgid "Work accident insurance"
-msgstr ""
+msgstr "काम के दौरान दुर्घटना का बीमा"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_13_product_template
 msgid "Working Fund"
-msgstr ""
+msgstr "वर्किंग फ़ंड"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2044,6 +2150,8 @@ msgid ""
 "Working Fund: to collect all the money that will be used to pay the "
 "recurring fees."
 msgstr ""
+"वर्किंग फंड: उन सभी पैसों को इकट्ठा करने के लिए जिनका इस्तेमाल बार-बार आने वाली फ़ीस का "
+"भुगतान करने के लिए किया जाएगा।"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.zip
@@ -2054,51 +2162,51 @@ msgstr "जिप"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "e.g. Apartment"
-msgstr ""
+msgstr "जैसे, अपार्टमेंट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_kanban_view
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "e.g. Apartment A0"
-msgstr ""
+msgstr "जैसे, अपार्टमेंट A0"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "e.g. John Smith"
-msgstr ""
+msgstr "जैसे, मुकेश कुमार"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Accounting"
-msgstr ""
+msgstr "🎓 अकाउंटिंग"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Companies"
-msgstr ""
+msgstr "🎓 कंपनियां"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Helpdesk"
-msgstr ""
+msgstr "🎓 हेल्पडेस्क"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Quotation Template"
-msgstr ""
+msgstr "🎓 कोटेशन टेंप्लेट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Sales"
-msgstr "🎓 Sales"
+msgstr "🎓 सेल्स"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Spreadsheet"
-msgstr ""
+msgstr "🎓 स्प्रेडशीट"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Subscription"
-msgstr ""
+msgstr "🎓 सब्सक्रिप्शन"
