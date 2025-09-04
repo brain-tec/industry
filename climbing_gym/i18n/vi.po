@@ -1,24 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* climbing_gym
+# * climbing_gym
 #
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-20 14:50+0000\n"
-"PO-Revision-Date: 2025-08-20 14:50+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-09-02 23:31+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
+"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-s18-4/"
+"climbing_gym/vi/>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
+msgstr "của chúng tôi, và đừng ngần ngại"
 
 #. module: climbing_gym
 #: model:product.template,name:climbing_gym.product_template_16
@@ -93,7 +97,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 msgid "<br/> Our mission"
-msgstr ""
+msgstr "<br/> Nhiệm vụ của chúng tôi"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -134,6 +138,9 @@ msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
 "                                                <span>info@yourcompany.example.com</span>"
 msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
+"                                                "
+"<span>info@yourcompany.example.com</span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -155,6 +162,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">💡</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -162,6 +171,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">🚀</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -169,6 +180,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">✅</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -176,6 +189,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">🎉</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -183,6 +198,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🕝</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">🕝</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -190,6 +207,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Warning\">⚠️</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -197,6 +216,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -262,7 +283,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
 msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Số điện thoại</span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -270,6 +291,9 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Tiêu đề</span>\n"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -277,6 +301,9 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Company</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Công ty</span>\n"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -284,6 +311,9 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Email</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Email</span>\n"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -291,6 +321,9 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Tên</span>\n"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -298,6 +331,9 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Your Question</span>\n"
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Câu hỏi</span>\n"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -312,7 +348,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr ""
+msgstr "<strong>Cơ bản</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -322,7 +358,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "<strong>Final word</strong>"
-msgstr ""
+msgstr "<strong>Lưu ý cuối cùng</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -340,7 +376,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr ""
+msgstr "<strong>Trường hợp vận dụng</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -401,7 +437,7 @@ msgstr ""
 #. module: climbing_gym
 #: model:event.tag,name:climbing_gym.event_tag_3
 msgid "Annual"
-msgstr ""
+msgstr "Hàng năm"
 
 #. module: climbing_gym
 #: model:event.event,name:climbing_gym.event_event_1
@@ -426,7 +462,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Billing customers"
-msgstr ""
+msgstr "Lập hoá đơn cho khách hàng"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -483,7 +519,7 @@ msgstr ""
 #. module: climbing_gym
 #: model:sign.template,redirect_url_text:climbing_gym.sign_template_4
 msgid "Close"
-msgstr ""
+msgstr "Đóng"
 
 #. module: climbing_gym
 #: model_terms:event.event,description:climbing_gym.event_event_2
@@ -510,7 +546,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
 msgid "Contact us"
-msgstr ""
+msgstr "Liên hệ"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -522,7 +558,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.ir_ui_view_3487
 msgid "Cover"
-msgstr ""
+msgstr "Ảnh bìa"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -577,6 +613,11 @@ msgid ""
 "partners, and maybe even a date. Whether you're new to the gym, new in town,"
 " or just looking to expand your climbing circle, this event is for you."
 msgstr ""
+"Cứ hai tuần một lần, chúng tôi tổ chức các buổi Leo núi Giao lưu — một buổi "
+"leo núi mang tính xã hội, thoải mái, nơi các vận động viên có thể gặp gỡ bạn "
+"leo dây, đối tác bouldering, và biết đâu là cả một cuộc hẹn hò. Dù bạn mới "
+"đến phòng tập, mới chuyển đến thành phố, hay chỉ đơn giản muốn mở rộng mạng "
+"lưới bạn bè cùng đam mê leo núi, sự kiện này chính là dành cho bạn."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -608,7 +649,7 @@ msgstr ""
 #. module: climbing_gym
 #: model:pos.category,name:climbing_gym.pos_category_2
 msgid "Goods"
-msgstr ""
+msgstr "Hàng hóa"
 
 #. module: climbing_gym
 #: model:res.partner.grade,name:climbing_gym.res_partner_grade_data_happy_hour
@@ -665,6 +706,9 @@ msgid ""
 " paid with a discount in case of a subscription and with a loyalty session "
 "in the case of session bundles."
 msgstr ""
+"Bấm Dùng buổi Tập. Hệ thống sẽ tạo một báo giá mới để sử dụng buổi tập, được "
+"giảm giá nếu bạn có gói hội viên, hoặc trừ vào số buổi trong thẻ tập nếu bạn "
+"mua gói nhiều buổi."
 
 #. module: climbing_gym
 #: model_terms:event.event,description:climbing_gym.event_event_3
@@ -682,6 +726,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case (In the next Knowledge Article)"
 msgstr ""
+"Nếu bạn muốn dùng thử tour được hướng dẫn thực tế về phân hệ này, bạn nên "
+"nhập dữ liệu demo và thử Demo - Trường hợp vận dụng (Trong Bài viết kiến "
+"thức sau đây)"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -699,7 +746,7 @@ msgstr ""
 #. module: climbing_gym
 #: model:planning.role,name:climbing_gym.planning_role_2
 msgid "Instructor"
-msgstr ""
+msgstr "Huấn luyện viên"
 
 #. module: climbing_gym
 #: model:ir.model.fields,field_description:climbing_gym.x_is_base_entrance
@@ -719,6 +766,11 @@ msgid ""
 "help climbers of all levels experience the thrill of outdoor climbing in a "
 "safe, supportive setting."
 msgstr ""
+"Tham gia cùng chúng tôi trong các buổi leo núi ngoài trời hàng tháng, nơi "
+"bạn sẽ mang những kỹ năng đã rèn luyện trong phòng tập ra thử sức với vách "
+"đá thật. Những chuyến đi có hướng dẫn này được thiết kế để giúp người leo "
+"núi ở mọi trình độ trải nghiệm cảm giác phấn khích của việc leo núi ngoài "
+"trời trong một môi trường an toàn và được hỗ trợ đầy đủ."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -773,7 +825,7 @@ msgstr ""
 #. module: climbing_gym
 #: model:event.tag,name:climbing_gym.event_tag_1
 msgid "Monthly"
-msgstr ""
+msgstr "Hàng tháng"
 
 #. module: climbing_gym
 #: model_terms:event.event,description:climbing_gym.event_event_2
@@ -835,6 +887,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"Tất nhiên, đây chỉ là thông tin tổng quan về những tính năng có trong gói "
+"này. Hãy thoải mái thêm ứng dụng mới, xóa/sửa đổi dữ liệu demo và kiểm thử "
+"các chức năng!"
 
 #. module: climbing_gym
 #: model:event.event,subtitle:climbing_gym.event_event_1
@@ -925,7 +980,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Proceed to payment!"
-msgstr ""
+msgstr "Tiến hành thanh toán!"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -947,7 +1002,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Liên hệ"
 
 #. module: climbing_gym
 #: model:event.event,subtitle:climbing_gym.event_event_2
@@ -957,7 +1012,7 @@ msgstr ""
 #. module: climbing_gym
 #: model:planning.role,name:climbing_gym.planning_role_1
 msgid "Receptionist"
-msgstr ""
+msgstr "Lễ tân"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1068,7 +1123,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
 msgid "Submit"
-msgstr ""
+msgstr "Gửi"
 
 #. module: climbing_gym
 #: model:product.template,name:climbing_gym.product_template_9
@@ -1084,7 +1139,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Subscriptions"
-msgstr ""
+msgstr "Đăng ký"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1151,7 +1206,7 @@ msgstr ""
 #. module: climbing_gym
 #: model:res.partner.grade,name:climbing_gym.res_partner_grade_data_unlimited
 msgid "Unlimited"
-msgstr ""
+msgstr "Không giới hạn"
 
 #. module: climbing_gym
 #: model:product.pricelist,name:climbing_gym.product_pricelist_2
@@ -1232,6 +1287,10 @@ msgid ""
 "local climbing scene, and climb custom-set problems built to challenge every"
 " level."
 msgstr ""
+"Dù bạn là một vận động viên leo núi dày dạn kinh nghiệm hay một gymer đang "
+"lên, cuộc thi đầy năng lượng và hứng khởi này là cơ hội để bạn thử thách "
+"giới hạn bản thân, kết nối với cộng đồng leo núi địa phương và chinh phục "
+"những bài leo núi được thiết kế riêng để thử thách mọi cấp độ."
 
 #. module: climbing_gym
 #: model_terms:event.event,description:climbing_gym.event_event_1
@@ -1259,6 +1318,9 @@ msgid ""
 "or hurt their fingers... Let's see how the <strong>Point of Sale App "
 "</strong>can help you quickly sell such products."
 msgstr ""
+"Bạn cũng có thể bán hàng vì đôi khi người leo núi quên mang theo phấn hoặc "
+"bị đau ngón tay... Hãy cùng khám phá cách <strong>Ứng dụng POS</strong> có "
+"thể giúp bạn nhanh chóng bán những sản phẩm như vậy."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1274,6 +1336,9 @@ msgid ""
 "templates.<br/>Make sure only one template with \"Is Waiver\" field is set "
 "(visible in the list view)."
 msgstr ""
+"Bạn có thể tự tạo mẫu đơn miễn trừ của riêng mình từ Ứng dụng Ký tên, trong "
+"phần mẫu có sẵn.<br/>Đảm bảo chỉ có một mẫu được thiết lập với trường "
+"\"Là đơn miễn trừ\" (hiển thị trong chế độ xem danh sách)."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1296,6 +1361,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Bar &amp; Pub package and check the related box"
 msgstr ""
+"Bạn chưa nhập dữ liệu demo? Đừng lo! Bạn vẫn có thể làm được bằng cách đi "
+"đến Ứng dụng &gt; Ngành &gt; Nâng cấp gói Bar &amp; pub của bạn và đánh dấu "
+"vào ô liên quan."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1312,6 +1380,9 @@ msgid ""
 "case, you may have written records in journals which are not deletable and "
 "which might be an issue for your traceability."
 msgstr ""
+"Bạn có thể đã kiểm thử gói này khi có hoặc không có dữ liệu mẫu.<br/>Dù "
+"trong trường hợp nào, bạn có thể đã có những dữ liệu không thể xóa được, "
+"điều này có thể ảnh hưởng đến khả năng truy xuất của bạn."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1331,17 +1402,17 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "khoá học"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "và"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "documentation"
-msgstr ""
+msgstr "tài liệu"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1361,47 +1432,47 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Contacts"
-msgstr ""
+msgstr "🎓 Liên hệ"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Events"
-msgstr ""
+msgstr "🎓 Sự kiện"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Loyalty Program"
-msgstr ""
+msgstr "🎓 Chương trình khách hàng thân thiết"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Point of Sale"
-msgstr ""
+msgstr "🎓 POS"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Sales"
-msgstr ""
+msgstr "🎓 Bán hàng"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Sign"
-msgstr ""
+msgstr "🎓 Ký tên"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Subscriptions"
-msgstr ""
+msgstr "🎓 Đăng ký"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Employees"
-msgstr ""
+msgstr "🎓 Nhân viên"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "🎓 Planning"
-msgstr ""
+msgstr "🎓 Kế hoạch"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
