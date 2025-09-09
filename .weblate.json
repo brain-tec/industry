@@ -122,6 +122,11 @@
                 "new_base": "corporate_gifts/i18n/corporate_gifts.pot"
             },
             {
+                "name": "coworking",
+                "filemask": "coworking/i18n/*.po",
+                "new_base": "coworking/i18n/coworking.pot"
+            },
+            {
                 "name": "custom_furniture",
                 "filemask": "custom_furniture/i18n/*.po",
                 "new_base": "custom_furniture/i18n/custom_furniture.pot"
@@ -380,6 +385,11 @@
                 "name": "tattoo_shop",
                 "filemask": "tattoo_shop/i18n/*.po",
                 "new_base": "tattoo_shop/i18n/tattoo_shop.pot"
+            },
+            {
+                "name": "team_sports_club",
+                "filemask": "team_sports_club/i18n/*.po",
+                "new_base": "team_sports_club/i18n/team_sports_club.pot"
             },
             {
                 "name": "theater",
