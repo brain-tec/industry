@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-17 16:03+0000\n"
-"PO-Revision-Date: 2025-09-23 02:46+0000\n"
+"PO-Revision-Date: 2025-09-25 03:00+0000\n"
 "Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/non_profit_organization/es_419/>\n"
@@ -44,6 +44,10 @@ msgid ""
 "                                                    crisis or need</span></"
 "strong>"
 msgstr ""
+"&amp;nbsp;<strong>Apoyo y cuidado<br/><span style=\"font-weight: normal;\""
+">para personas\n"
+"                                                     en crisis o con "
+"urgencias</span></strong>"
 
 #. module: ngo
 #: model:ir.actions.report,print_report_name:ngo.account_invoices_report
@@ -63,7 +67,7 @@ msgstr "+1 555-555-5556"
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "+18.000"
-msgstr ""
+msgstr "+18,000"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -71,31 +75,33 @@ msgid ""
 ", and feel\n"
 "                    free to"
 msgstr ""
+"y siéntete libre\n"
+"                    de"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "- Installment of"
-msgstr ""
+msgstr "- Plazo de"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "01"
-msgstr ""
+msgstr "01"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "02"
-msgstr ""
+msgstr "02"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "03"
-msgstr ""
+msgstr "03"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "04"
-msgstr ""
+msgstr "04"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -106,11 +112,16 @@ msgid ""
 "materials” and “Reach out to\n"
 "            schools and local authorities”."
 msgstr ""
+"1. <strong>Lanza la campaña</strong>: Crea un proyecto llamado "
+"<em>Detengamos el trabajo\n"
+"                infantil</em> y agrega tareas clave como "
+"\"Crear materiales de concientización\" y \"Contactar escuelas\n"
+"            y autoridades locales\"."
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "11.05"
-msgstr ""
+msgstr "11.05"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -119,11 +130,15 @@ msgid ""
 "to embed a\n"
 "            donation form and a petition urging policy changes."
 msgstr ""
+"2. <strong>Publica formularios de donación y petición</strong>: Usa el sitio "
+"web para insertar un\n"
+"            formulario de donación y una petición que solicite cambios en "
+"las políticas."
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "20.00"
-msgstr ""
+msgstr "20.00"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
@@ -153,7 +168,7 @@ msgstr ""
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "27.00"
-msgstr ""
+msgstr "27.00"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -166,7 +181,7 @@ msgstr ""
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "3.00"
-msgstr ""
+msgstr "3.00"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
@@ -293,12 +308,12 @@ msgstr "<br>📝 Certificado de participación"
 #. module: ngo
 #: model_terms:event.event,description:ngo.event_event_2
 msgid "<br>🕙 <strong>Time</strong>: 2:00 PM - 6:00 PM"
-msgstr ""
+msgstr "<br>🕙 <strong>Hora</strong>: 2:00 PM - 6:00 PM"
 
 #. module: ngo
 #: model_terms:event.event,description:ngo.event_event_5
 msgid "<br>🕛 <strong>Time</strong>: 17:00 PM – 23:00 PM"
-msgstr ""
+msgstr "<br>🕛 <strong>Hora</strong>: 17:00 PM – 23:00 PM"
 
 #. module: ngo
 #: model:mail.template,body_html:ngo.mail_template_50
@@ -369,6 +384,9 @@ msgid ""
 "                                                <span>info@yourcompany.example.com</"
 "span>"
 msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
+"                                                "
+"<span>info@tuempresa.ejemplo.com</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_checkout_extra_info
@@ -403,6 +421,9 @@ msgid ""
 "                                                <span "
 "class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+"
+"1 555-555-5556</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -410,6 +431,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">💡</i>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -464,7 +487,7 @@ msgstr ""
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_checkout_extra_info
 msgid "<span class=\"px-3\">or</span>"
-msgstr ""
+msgstr "<span class=\"px-3\">o</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.petition_form_qweb_view
@@ -473,6 +496,9 @@ msgid ""
 "                                                                    Comments</"
 "span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    "
+"Comentarios</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.contact_us_qweb_view
@@ -493,6 +519,11 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    "
+"Nombre</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.contact_us_qweb_view
@@ -503,6 +534,11 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    "
+"Pregunta</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.petition_form_qweb_view
@@ -511,6 +547,9 @@ msgid ""
 "                                                                    Record</"
 "span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    "
+"Registro</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.contact_us_qweb_view
@@ -521,6 +560,11 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    "
+"Asunto</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_checkout_extra_info
@@ -542,6 +586,9 @@ msgid ""
 "                                                                    me "
 "informed on this action</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Manténme\n"
+"                                                                    al tanto "
+"sobre esta acción</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.contact_us_qweb_view
@@ -619,7 +666,7 @@ msgstr ""
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<span>Quantity</span>"
-msgstr ""
+msgstr "<span>Cantidad</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
@@ -629,7 +676,7 @@ msgstr ""
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<span>Unit Price</span>"
-msgstr ""
+msgstr "<span>Precio unitario</span>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
@@ -639,7 +686,7 @@ msgstr "<strong class=\"d-block mt-3\">Dirección de envío</strong>"
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong class=\"mr16\">Subtotal</strong>"
-msgstr ""
+msgstr "<strong class=\"mr16\">Subtotal</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
@@ -650,6 +697,11 @@ msgid ""
 "                                                    communities</span>\n"
 "                                            </strong>"
 msgstr ""
+"<strong>\n"
+"                                                <span style=\"font-weight: "
+"normal;\">hecho con y para\n"
+"                                                    comunidades</span>\n"
+"                                            </strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
@@ -660,6 +712,11 @@ msgid ""
 "                                            change that lasts.</em>\n"
 "                                    </strong>"
 msgstr ""
+"<strong>\n"
+"                                        <em>Trabajamos con la gente, no para "
+"la gente. Impulsamos\n"
+"                                            un cambio local duradero.</em>\n"
+"                                    </strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -669,6 +726,11 @@ msgid ""
 "                </strong> records\n"
 "                contributions and generates fiscal attestations for donors."
 msgstr ""
+"<strong>\n"
+"                    <font class=\"text-o-color-1\">Donativos</font>\n"
+"                </strong> registra\n"
+"                contribuciones y genera una certificación fiscal para los "
+"donantes."
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -678,6 +740,10 @@ msgid ""
 "                </strong> tracks\n"
 "                signatures, signatories, and progress for each petition."
 msgstr ""
+"<strong>\n"
+"                    <font class=\"text-o-color-1\">Petición</font>\n"
+"                </strong> monitorea\n"
+"                firmas, signatarios y el progreso de cada petición."
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -687,21 +753,25 @@ msgid ""
 "                </strong> structures\n"
 "                campaigns, assigns tasks, and tracks progress."
 msgstr ""
+"<strong>\n"
+"                    <font class=\"text-o-color-1\">Proyecto</font>\n"
+"                </strong> estructura\n"
+"                campañas, asigna tareas y rastrea el progreso."
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "<strong>91%</strong>"
-msgstr ""
+msgstr "<strong>91%</strong>"
 
 #. module: ngo
 #: model_terms:event.event,description:ngo.event_event_5
 msgid "<strong>Accessibility &amp; Extras</strong>"
-msgstr ""
+msgstr "<strong>Accesibilidad e información adicional</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.become_a_member_qweb_view
 msgid "<strong>Be Part of the Change</strong>"
-msgstr ""
+msgstr "<strong>Sé parte del cambio</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
@@ -709,57 +779,59 @@ msgid ""
 "<strong>Community Projects</strong> co-led with local\n"
 "                                            partners"
 msgstr ""
+"<strong>Proyectos comunitarios</strong> liderados junto con\n"
+"                                            partners locales"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong>Credit Note Date</strong>"
-msgstr ""
+msgstr "<strong>Fecha de la nota de crédito</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong>Customer Code</strong>"
-msgstr ""
+msgstr "<strong>Código de cliente</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong>Date</strong>"
-msgstr ""
+msgstr "<strong>Fecha</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong>Delivery Date</strong>"
-msgstr ""
+msgstr "<strong>Fecha de entrega</strong>"
 
 #. module: ngo
 #: model_terms:event.event,description:ngo.event_event_2
 #: model_terms:event.event,description:ngo.event_event_5
 msgid "<strong>Event Details</strong>"
-msgstr ""
+msgstr "<strong>Detalles del evento</strong>"
 
 #. module: ngo
 #: model_terms:event.event,description:ngo.event_event_2
 msgid "<strong>Extras</strong>"
-msgstr ""
+msgstr "<strong>Extras</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "<strong>Fighting Inequality Together</strong>&amp;nbsp;"
-msgstr ""
+msgstr "<strong>Juntos, luchamos contra la desigualdad</strong>&amp;nbsp;"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong>Fiscal Attestation Date</strong>"
-msgstr ""
+msgstr "<strong>Fecha de la certificación fiscal</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.become_a_member_qweb_view
 msgid "<strong>Have Your Say</strong>"
-msgstr ""
+msgstr "<strong>Di lo que quieras</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong>Incoterm</strong>"
-msgstr ""
+msgstr "<strong>Incoterm</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
@@ -767,11 +839,13 @@ msgid ""
 "<strong>Join us<br/></strong>as a volunteer, partner, or\n"
 "                                            ally"
 msgstr ""
+"<strong>Únete a nosotros<br/></strong>como un voluntario, un socio o\n"
+"                                            un aliado"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
 msgid "<strong>Local-first projects&amp;nbsp;<br/></strong>"
-msgstr ""
+msgstr "<strong>Primeros proyectos locales&amp;nbsp;<br/></strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
@@ -779,11 +853,14 @@ msgid ""
 "<strong>Long-term change&amp;nbsp;<br/></strong>that\n"
 "                                            grows from the ground up"
 msgstr ""
+"<strong>Cambio a largo plazo&amp;nbsp;<br/></strong>que\n"
+"                                            comienza desde cero y sigue "
+"creciendo"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
 msgid "<strong>Odoo for non-profit organizations</strong>"
-msgstr ""
+msgstr "<strong>Odoo para organizaciones sin fines de lucro</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.website_homepage_qweb_view
@@ -791,6 +868,8 @@ msgid ""
 "<strong>People</strong> gained access to education,\n"
 "                                            healthcare, or safe housing"
 msgstr ""
+"<strong>Las personas</strong> pudieron tener acceso a la educación,\n"
+"                                            salud o alojamiento seguro"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.welcome_article_body
@@ -799,11 +878,14 @@ msgid ""
 "assignments\n"
 "            effectively."
 msgstr ""
+"<strong>Planfica</strong> horarios y gestiona los turnos de los voluntarios "
+"y las asignaciones\n"
+"            de manera efectiva."
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
 msgid "<strong>Receipt Date</strong>"
-msgstr ""
+msgstr "<strong>Fecha de recibo</strong>"
 
 #. module: ngo
 #: model_terms:ir.ui.view,arch_db:ngo.report_fiscal_attestation_document
@@ -834,7 +916,7 @@ msgstr ""
 #: model_terms:event.event,description:ngo.event_event_2
 #: model_terms:event.event,description:ngo.event_event_5
 msgid "<strong>Who Should Attend?</strong>"
-msgstr ""
+msgstr "<strong>¿Quién debe asistir?</strong>"
 
 #. module: ngo
 #: model_terms:product.template,description_ecommerce:ngo.product_template_7

@@ -1,44 +1,49 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* night_clubs
+# * night_clubs
 #
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-12 09:03+0000\n"
-"PO-Revision-Date: 2025-09-12 09:03+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-09-25 03:00+0000\n"
+"Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
+"Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
+"odoo-19/night_clubs/es_419/>\n"
+"Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_14
 msgid "14-18 Summer Nights"
-msgstr ""
+msgstr "14-18 Noches de verano"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_1
 msgid "18+"
-msgstr ""
+msgstr "18+"
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_50_product_template
 msgid "3cl blanco shot."
-msgstr ""
+msgstr "Blanco shot - 3cl"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_52_product_template
 msgid "4cl pour of blended whisky. Ice on request."
-msgstr ""
+msgstr "4 cl de whisky mezclado. Con hielo en caso de que lo solicites."
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_5
 msgid "90-2000s"
-msgstr ""
+msgstr "90-2000s"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -47,6 +52,10 @@ msgid ""
 "                💡\n"
 "            </i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner                 Info\">\n"
+"                💡\n"
+"            </i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -54,6 +63,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">💡</i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -61,6 +72,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">✅</i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -68,6 +81,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Warning\">⚠️</i>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -75,6 +90,9 @@ msgid ""
 "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
 "                                    <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                                    <span class=\"visually-hidden\""
+">Siguiente</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -82,16 +100,21 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
 "                                    <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                                    <span class=\"visually-hidden\""
+">Anterior</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Odoo for Night Clubs</strong></span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong>Odoo para clubes "
+"nocturnos</strong></span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Lo esencial</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -102,6 +125,13 @@ msgid ""
 "                                                        <span class=\"text-muted\">Manager of Nightlife Club</span>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                                                        <strong>Iris "
+"DOE</strong>\n"
+"                                                        <br/>\n"
+"                                                        <span class=\"text-"
+"muted\">Gerente del club nocturno</span>\n"
+"                                                    </span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -112,6 +142,13 @@ msgid ""
 "                                                        <span class=\"text-muted\">Owner of NightClub</span>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                                                        <strong>Jane "
+"DOE</strong>\n"
+"                                                        <br/>\n"
+"                                                        <span class=\"text-"
+"muted\">Propietaria del club nocturno</span>\n"
+"                                                    </span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -122,11 +159,18 @@ msgid ""
 "                                                        <span class=\"text-muted\">Manager of NightClub</span>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                                                        <strong>John "
+"DOE</strong>\n"
+"                                                        <br/>\n"
+"                                                        <span class=\"text-"
+"muted\">Gerente del club nocturno</span>\n"
+"                                                    </span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
 msgid "<span class=\"s_website_form_label_content\">Company</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Empresa</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -158,6 +202,9 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Question</span>\n"
 "                                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Pregunta</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -165,11 +212,14 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
 "                                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Asunto</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h2-fs\">Consejos para triunfar</span></strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -195,6 +245,9 @@ msgid ""
 "<strong>Automate confirmations</strong>: Set up email templates for tickets "
 "to save staff time and improve customer experience."
 msgstr ""
+"<strong>Automatiza las confirmaciones</strong>: Configura plantillas de "
+"correo en los boletos para ahorrarle tiempo a tu personal y mejorar la "
+"experiencia de tus clientes."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -422,17 +475,17 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_62_product_template
 msgid "Alcholic Drink 1"
-msgstr ""
+msgstr "Bebida alcohólica 1"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_61_product_template
 msgid "Alcoholic Drink 2"
-msgstr ""
+msgstr "Bebida alcohólica 2"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.ir_ui_view_3858
 msgid "All Parties"
-msgstr ""
+msgstr "Todas las fiestas"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_45_product_template
@@ -464,7 +517,7 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_44_product_template
 msgid "Aperol Spritz"
-msgstr ""
+msgstr "Aperol Spritz"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_44_product_template
@@ -563,7 +616,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_47_product_template
 msgid "Cold, crisp European lager in 33cl bottle."
-msgstr ""
+msgstr "Cerveza rubia fría y fresca en una botella de 33cl."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_3
@@ -571,16 +624,18 @@ msgid ""
 "Come with a partner or find one on the dance floor — everyone dances at "
 "Latin Fever."
 msgstr ""
+"Ven con un acompañante o encuentra uno en la pista de baile. Todos bailamos "
+"en Latin Fever."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Consumables Resupply 📦"
-msgstr ""
+msgstr "Reabastecimiento de consumibles 📦"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
 msgid "Contact us"
-msgstr ""
+msgstr "Contáctanos"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -588,6 +643,10 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                            We'll do our best to get back to you as soon as possible."
 msgstr ""
+"Contáctanos sobre cualquier cosa relacionada a nuestra empresa o servicios.<"
+"br/>\n"
+"                                            Haremos lo posible por "
+"responderte tan pronto como podamos."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -595,61 +654,65 @@ msgid ""
 "Create floorplans, manage product categories, discounts, and customer "
 "accounts straight from the Point of Sale app."
 msgstr ""
+"Crea planes, gestiona categorías de productos, descuentos y las cuentas de "
+"los clientes directamente desde la aplicación Punto de venta."
 
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_48_product_template
 msgid "Crisp and bubbly."
-msgstr ""
+msgstr "Fresco y espumante."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_7
 msgid "Decor"
-msgstr ""
+msgstr "Decoración"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_6
 msgid "Disco"
-msgstr ""
+msgstr "Disco"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "¿Quieres saber más?"
 
 #. module: night_clubs
 #: model:event.tag.category,name:night_clubs.event_tag_category_3
 msgid "Dress Code"
-msgstr ""
+msgstr "Código de vestimenta"
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_1
 msgid "Dress to impress with our exclusive clubwear collection."
-msgstr ""
+msgstr "Vístete mejor que nunca con nuestra colección exclusiva para clubes."
 
 #. module: night_clubs
 #: model:product.public.category,name:night_clubs.product_public_category_3
 msgid "Drinks"
-msgstr ""
+msgstr "Bebidas"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_10
 msgid "Drum & Bass"
-msgstr ""
+msgstr "Batería y bajo"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_11
 msgid "EDM"
-msgstr ""
+msgstr "EDM"
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_49_product_template
 msgid "Easy-drinking red wine served by the glass."
-msgstr ""
+msgstr "Vino tinto ligero servido por copa."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_2
 msgid "Elevate your look with must-have accessories for a night out."
 msgstr ""
+"Mejora tu atuendo con accesorios que no puedes dejar de usar para una noche "
+"en la ciudad."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -659,31 +722,35 @@ msgid ""
 "yourself to the pulse of Berlin-inspired underground techno, right here in "
 "your city."
 msgstr ""
+"Descubre la profundidad del sonido con <strong>la sesión Techno Underground</"
+"strong>. Una noche de beats al rojo vivo, ritmos hipnóticos y elementos "
+"visuales envolventes. Piérdete en el ritmo techno underground inspirado en "
+"Berlín sin salir de tu ciudad."
 
 #. module: night_clubs
 #: model:event.event.ticket,description:night_clubs.event_event_ticket_7
 msgid "Entrance"
-msgstr ""
+msgstr "Entrada"
 
 #. module: night_clubs
 #: model:event.type.ticket,name:night_clubs.event_type_ticket_1
 msgid "Entrance Ticket"
-msgstr ""
+msgstr "Boleto de entrada"
 
 #. module: night_clubs
 #: model:event.type.ticket,name:night_clubs.event_type_ticket_2
 msgid "Entrance Ticket + VIP Table"
-msgstr ""
+msgstr "Boleto de entrada + mesa VIP"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_43_product_template
 msgid "Espresso Martini"
-msgstr ""
+msgstr "Espresso martini"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Fan Engagement 📣"
-msgstr ""
+msgstr "Interacción con los fans 📣"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4
@@ -691,6 +758,8 @@ msgid ""
 "For those who live for the rhythm, this is more than a party — it’s a "
 "movement."
 msgstr ""
+"Para aquellos que viven del ritmo, esto es más que una fiesta, es un "
+"movimiento."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_42_product_template
@@ -698,11 +767,13 @@ msgid ""
 "Fresh lime, mint, white rum, sugar and soda over crushed ice. House-favorite"
 " crowd pleaser."
 msgstr ""
+"Lima fresca, menta, ron blanco, azúcar y soda sobre hielo picado. El "
+"favorito de la casa según nuestros invitados."
 
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_46_product_template
 msgid "Fruity, hoppy IPA served fresh on draft."
-msgstr ""
+msgstr "IPA afrutada y lupulada servida fresca del barril."
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
@@ -711,6 +782,10 @@ msgid ""
 "ultimate glow-in-the-dark experience, where black lights, neon body paint, "
 "and electrifying beats come together for one unforgettable party."
 msgstr ""
+"¡Prepárate para tomar la pista de baile! <strong>Noches neón</strong> es la "
+"mejor experiencia que brilla en la oscuridad, donde luces ultravioletas, "
+"pintura corporal neón y ritmos eléctricos se unen para una fiesta "
+"inolvidable."
 
 #. module: night_clubs
 #: model_terms:product.public.category,website_description:night_clubs.product_public_category_8
