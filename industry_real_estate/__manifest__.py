@@ -79,4 +79,6 @@
         "demo/website_view.xml",
     ],
     'images': ['images/main.png'],
+    'url': "https://www.odoo.com/trial?industry&selected_app=industry_real_estate",
+    'website': "https://www.odoo.com/industries/estate-management",
 }

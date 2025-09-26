@@ -63,4 +63,6 @@
         "data/qweb_view.xml",
     ],
     'images': ['images/main.png'],
+    'url': "https://www.odoo.com/trial?industry&selected_app=hvac_services",
+    'website': "https://www.odoo.com/industries/hvac-services",
 }

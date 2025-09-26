@@ -67,4 +67,6 @@
     'license': 'OPL-1',
     'author': 'Odoo S.A.',
     'images': ['images/main.png'],
+    'url': "https://www.odoo.com/trial?industry&selected_app=toy_store",
+    'website': "https://www.odoo.com/industries/toy-store",
 }
