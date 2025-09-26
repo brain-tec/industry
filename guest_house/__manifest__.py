@@ -42,4 +42,6 @@
     'images': [
         'images/main.png',
     ],
+    'url': "https://www.odoo.com/trial?industry&selected_app=guest_house",
+    'website': "https://www.odoo.com/industries/guest-house",
 }

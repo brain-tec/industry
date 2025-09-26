@@ -59,4 +59,6 @@
     ],
     'license': 'OPL-1',
     'images': ['images/main.png'],
+    'url': "https://www.odoo.com/trial?industry&selected_app=odoo_partner",
+    'website': "https://www.odoo.com/industries/odoo-partner",
 }
