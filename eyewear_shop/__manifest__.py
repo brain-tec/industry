@@ -76,4 +76,6 @@
     ],
     'images': ['images/main.png'],
     'license': 'OPL-1',
+    'url': "https://www.odoo.com/trial?industry&selected_app=eyewear_shop",
+    'website': "https://www.odoo.com/industries/eyewear-store",
 }
