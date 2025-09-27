@@ -66,4 +66,6 @@
         'demo/website_view.xml',
     ],
     'images': ['images/main.png'],
+    'url': "https://www.odoo.com/trial?industry&selected_app=furniture_store",
+    'website': "https://www.odoo.com/industries/furniture-store",
 }
