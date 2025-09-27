@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 08:44+0000\n"
-"PO-Revision-Date: 2025-09-25 03:00+0000\n"
+"PO-Revision-Date: 2025-09-27 03:01+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/holiday_house/es_419/>\n"
@@ -187,12 +187,12 @@ msgstr "<strong>Básicos</strong>"
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>¿Quieres saber más?</strong>"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "<strong>Final word</strong>"
-msgstr ""
+msgstr "<strong>Nota final</strong>"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -200,17 +200,19 @@ msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then to create a new one for your own usage.</strong>"
 msgstr ""
+"<strong>En este caso, prueba con esta base de datos y después crea una para "
+"utilizarla.</strong>"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr ""
+msgstr "<strong>Caso de uso</strong>"
 
 #. module: holiday_house
 #: model:planning.role,name:holiday_house.planning_role_3
 #: model:product.template,name:holiday_house.product_template_13
 msgid "A-frame Cabin"
-msgstr ""
+msgstr "Cabaña con techo en A"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.homepage
@@ -236,6 +238,8 @@ msgstr "Ajusta el número de estrellas, deja un comentario y envíalo"
 msgid ""
 "Adjust the rental dates, click the book button and then proceed to checkout."
 msgstr ""
+"Ajusta las fechas del alquiler, haz clic en el botón para reservar y luego "
+"procede al pago."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -243,6 +247,8 @@ msgid ""
 "Again, the <strong>Holiday House App </strong>helps you manage the end of "
 "the stay!"
 msgstr ""
+"Una vez más, la aplicación <strong>Casa vacacional </strong> te ayuda a "
+"gestionar la finalización de la estancia."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.custom_product_name
@@ -256,12 +262,16 @@ msgid ""
 "booking is not during the visualized date range and update the booking date "
 "range."
 msgstr ""
+"También puedes cambiar a la vista de lista, que es más útil si la "
+"reservación no cae dentro del rango de fechas visualizado, y actualiza el "
+"rango de fechas de la reservación."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid ""
 "Alternatively, type in the search bar and select the appropriate filter."
 msgstr ""
+"Puedes escribir en la barra de búsqueda y seleccionar el filtro apropiado."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.homepage
@@ -270,13 +280,16 @@ msgid ""
 "<br/>Lovely furnished with all the necessary, even including games such as "
 "Mölkky. <br/>I can only recommend!"
 msgstr ""
+"Una estancia increíble, revitalizante y pacífica, en el corazón de un pinar.<"
+"br/>Cuenta con todo lo necesario, incluso juegos como Mölkky. <br/>¡La "
+"recomiendo totalmente!"
 
 #. module: holiday_house
 #: model_terms:product.template,website_description:holiday_house.product_template_12
 #: model_terms:product.template,website_description:holiday_house.product_template_13
 #: model_terms:product.template,website_description:holiday_house.product_template_14
 msgid "An address must be specified for a map to be embedded"
-msgstr ""
+msgstr "Es necesario especificar una dirección para poder insertar un mapa"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -284,6 +297,8 @@ msgid ""
 "Anyone can create a portal account on your database.<br/>\n"
 "Open your website home page in a private tab to do so."
 msgstr ""
+"Todos pueden crear una cuenta de portal en tu base de datos.<br/>\n"
+"Abre la página de inicio de tu sitio web en una pestaña privada para hacerlo."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -291,22 +306,24 @@ msgid ""
 "At any time from the guest order, use the Send message capability in the "
 "chatter to exchange with your guest."
 msgstr ""
+"En cualquier momento desde la orden del huésped, usa la opción "
+"\"Enviar mensaje\" en el chatter para comunicarte con esta persona."
 
 #. module: holiday_house
 #: model:planning.role,name:holiday_house.planning_role_1
 #: model:product.template,name:holiday_house.product_template_14
 msgid "Beach House"
-msgstr ""
+msgstr "Casa de playa"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Blocking a house"
-msgstr ""
+msgstr "Bloquear una casa"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Booking a house"
-msgstr ""
+msgstr "Reservar una casa"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -314,31 +331,33 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products, sale orders and more."
 msgstr ""
+"Al subir los datos de demostración de este módulo, tu base de datos incluirá "
+"algunos productos, órdenes de venta y más."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Charge your customer for the resulting amount and you're all set!"
-msgstr ""
+msgstr "Cóbrale a tu cliente el monto total ¡y listo!"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Charge your guests"
-msgstr ""
+msgstr "Cóbrale a tus huéspedes"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Check guests in"
-msgstr ""
+msgstr "Haz el registro de los huéspedes"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Check guests out"
-msgstr ""
+msgstr "Registra la salida de los huéspedes"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Check the invoice data and confirm it."
-msgstr ""
+msgstr "Revisa la información de la factura y confírmala."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -887,11 +906,17 @@ msgid ""
 "This is because city taxes are to be billed to spent nights in practice and not in theory.<br/>\n"
 "Let's adjust them now."
 msgstr ""
+"Seguro te diste cuenta de que el impuesto local se agregó a la orden del "
+"huésped cuando registró su entrada.<br/>\n"
+"Esto se debe a que los impuestos deben cobrarse por las noches hospedadas en "
+"práctica y no en teoría.<br/>\n"
+"Ajustémoslos ahora."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "You might have tested this package with or without demo data."
 msgstr ""
+"Es posible que hayas probado este paquete con o sin datos de demostración."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -899,6 +924,8 @@ msgid ""
 "You noticed that the Identity Check highlights whether you captured all the "
 "necessary information for a guest?"
 msgstr ""
+"¿Notaste que la verificación de identidad resalta cuando ingresas toda la "
+"información necesaria de un huésped?"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -906,16 +933,18 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
+"Realiza los siguientes flujos para comprender mejor los diferentes procesos "
+"con los que puedes trabajar con este paquete de Odoo."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "You welcome your first guests, awesome!"
-msgstr ""
+msgstr "Recibiste a tus primeros huéspedes, ¡qué emoción!"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "You're now waiting for your guest to arrive."
-msgstr ""
+msgstr "Ahora estás esperando que llegue tu huésped."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.homepage
@@ -923,21 +952,23 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide both a filter and a template to use.<br/>"
 msgstr ""
+"Tu snippet dinámico aparecerá aquí... Este mensaje aparece porque no "
+"proporcionaste ni el filtro ni la plantilla que se debe usar.<br/>"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Your customer wants to stay longer?"
-msgstr ""
+msgstr "¿Tu huésped quiere quedarse más tiempo?"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "academia"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "y"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -952,7 +983,7 @@ msgstr "si necesitas ayuda"
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "solicita una demostración"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body

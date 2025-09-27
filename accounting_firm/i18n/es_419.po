@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-11 21:24+0000\n"
-"PO-Revision-Date: 2025-09-25 03:00+0000\n"
+"PO-Revision-Date: 2025-09-27 03:00+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/accounting_firm/es_419/>\n"
@@ -213,6 +213,8 @@ msgid ""
 "An activity has been created for you to follow up on this.<br/>\n"
 "    It self closes once your contact submits its UBO list."
 msgstr ""
+"El sistema creó una actividad para que le des seguimiento.<br/>\n"
+"    Se cierra sola cuando tu contacto envía su lista de UBO."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_4
@@ -256,6 +258,9 @@ msgid ""
 "Click the Document shortcut to open the Documents folder of this particular "
 "project, and deploy the information panel (top right corner i icon)."
 msgstr ""
+"Haz clic en el acceso directo \"Documento\" para abrir la carpeta "
+"\"Documentos\" de este proyecto en particular y abre el panel de información "
+"(con el icono \"i\" que se encuentra en la esquina superior derecha)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -280,6 +285,8 @@ msgid ""
 "Confirm the invoice and send it to you customer for payment.<br/>\n"
 "                    Once payed, you know the drill to reconcile the payment."
 msgstr ""
+"Confirma la factura y envíasela a tu cliente para que la pague.<br/>\n"
+"                    Una vez pagada deberás conciliar el pago."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_5
@@ -927,6 +934,9 @@ msgid ""
 "The Accounting Firm package is of great help but may not cover all your needs...<br/>\n"
 "                Fortunately, Odoo got you covered:"
 msgstr ""
+"El paquete de firma contable es de gran ayuda, pero es posible que no cumpla "
+"con todas tus necesidades...<br/>\n"
+"            Pero no te preocupes, Odoo lo resuelve:"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1003,6 +1013,9 @@ msgid ""
 "UBO identification can be a tedious task you don't want to lose time on. The"
 " Equity App comes with capabilities which will help you with this duty."
 msgstr ""
+"La identificación UBO puede ser una tarea tediosa en la que no quieres "
+"perder tiempo. La aplicación Patrimonio incluye capacidades que te ayudarán "
+"a realizar esta acción."
 
 #. module: accounting_firm
 #: model:mail.activity.type,name:accounting_firm.mail_activity_ubo_update
@@ -1037,6 +1050,11 @@ msgid ""
 "When you confirm a sale order, know that the duplicated project is defined in the product you sold. You can edit the project to adjust the list for customer onboarding actions or folder architecture so that you save\n"
 "                        time in the future."
 msgstr ""
+"Cuando confirmas una orden de venta, el proyecto duplicado se definirá en el "
+"producto que vendiste. Puedes editar el proyecto para ajustar la lista de "
+"acciones de registro del cliente o la arquitectura de la carpeta para que "
+"ahorres\n"
+"                    tiempo en el futuro."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
