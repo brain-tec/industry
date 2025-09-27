@@ -55,4 +55,6 @@
         'data/knowledge_article.xml',
     ],
     'images': ['images/main.png'],
+    'url': "https://www.odoo.com/trial?industry&selected_app=shoe_maker",
+    'website': "https://www.odoo.com/industries/shoe-maker",
 }

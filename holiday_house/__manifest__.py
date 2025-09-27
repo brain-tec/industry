@@ -43,4 +43,6 @@
     'images': [
         'images/main.png',
     ],
+    'url': "https://www.odoo.com/trial?industry&selected_app=holiday_house",
+    'website': "https://www.odoo.com/all-industries",
 }
