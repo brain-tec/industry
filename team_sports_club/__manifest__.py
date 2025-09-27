@@ -84,4 +84,6 @@
     'images': [
         'images/main.png',
     ],
+    'url': "https://www.odoo.com/trial?industry&selected_app=team_sports_club",
+    'website': "https://www.odoo.com/all-industries",
 }
