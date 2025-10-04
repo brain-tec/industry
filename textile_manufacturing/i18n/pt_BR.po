@@ -1,44 +1,48 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* textile_manufacturing
+# * textile_manufacturing
 #
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-17 09:58+0000\n"
-"PO-Revision-Date: 2025-09-17 09:58+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-10-03 03:00+0000\n"
+"Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
+"odoo-19/textile_manufacturing/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_8
 msgid " Sewing thread"
-msgstr ""
+msgstr " Linha de costura"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "&amp;nbsp;<br/>"
-msgstr ""
+msgstr "&amp;nbsp;<br/>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "&amp;nbsp;Corporate Apparel"
-msgstr ""
+msgstr "&amp;nbsp;Vestuário corporativo"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "&amp;nbsp;Get Our Catalog&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;Veja nosso catálogo&amp;nbsp;"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
@@ -46,26 +50,29 @@ msgid ""
 "&amp;nbsp;Tell us what you need, and we'll send you a quote or any other "
 "information."
 msgstr ""
+"&amp;nbsp;Diga-nos o que você precisa e enviaremos um orçamento ou qualquer "
+"outra informação."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "01"
-msgstr ""
+msgstr "01"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
+#, fuzzy
 msgid "02"
-msgstr ""
+msgstr "02"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "03"
-msgstr ""
+msgstr "03"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "04"
-msgstr ""
+msgstr "04"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -73,6 +80,8 @@ msgid ""
 "<a class=\"btn btn-primary btn-lg o_translate_inline\" "
 "href=\"/contactus\">Get Our Catalog</a>"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/contactus\""
+">Veja nosso catálogo</a>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -80,11 +89,13 @@ msgid ""
 "<a class=\"o_translate_inline\" href=\"#\">See our product catalog <i "
 "class=\"fa fa-long-arrow-right ms-2\"/></a>"
 msgstr ""
+"<a class=\"o_translate_inline\" href=\"#\">Veja nosso catálogo de produtos "
+"<i class=\"fa fa-long-arrow-right ms-2\"/></a>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<b><u>Using Multiple BOMs</u></b>"
-msgstr ""
+msgstr "<b><u>Como usar várias LM</u></b>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -112,6 +123,8 @@ msgid ""
 "<b>Automatically</b> if the available stock falls below the minimum level "
 "set in the <b>Reordering Rule</b>."
 msgstr ""
+"<b>Automaticamente</b>, se o estoque disponível estiver abaixo do nível "
+"mínimo definido na <b>Regra de Reposição</b>."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -119,6 +132,9 @@ msgid ""
 "<b>BOM 1: Full Fabrication</b> This BOM would include all raw materials, "
 "like the fabric and thread, to make the T-shirt from scratch."
 msgstr ""
+"<b>LM 1: Fabricação completa</b> Essa lista de materiais incluiria todas as "
+"matérias-primas, como o tecido e a linha, necessárias para confeccionar a "
+"camiseta do zero."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -127,11 +143,14 @@ msgid ""
 " T-shirts in stock. It would only include the components needed to add the "
 "logo."
 msgstr ""
+"<b>LM 2: Reutilização de estoque</b> Esta lista de materiais seria utilizada "
+"caso já tenha camisetas lisas em estoque. Ela incluiria apenas os "
+"componentes necessários para adicionar o logotipo."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<b>Blue Cotton</b>: Only applies to the \"Blue\" T-shirt variant."
-msgstr ""
+msgstr "<b>Algodão azul</b>: Aplica-se apenas à variante da camiseta “Azul”."
 
 #. module: textile_manufacturing
 #: model_terms:product.template,description_ecommerce:textile_manufacturing.product_template_12
@@ -144,6 +163,8 @@ msgid ""
 "<b>Boat Neck:</b> A wide, straight neckline that runs horizontally across "
 "the collarbone."
 msgstr ""
+"<b>Gola canoa:</b> Um decote largo e reto que se estende horizontalmente ao "
+"longo da clavícula."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
