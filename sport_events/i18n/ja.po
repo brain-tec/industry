@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-05 05:36+0000\n"
-"PO-Revision-Date: 2025-09-26 23:30+0000\n"
+"PO-Revision-Date: 2025-10-02 23:30+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s18-4/"
 "sport_events/ja/>\n"
@@ -1173,12 +1173,12 @@ msgstr "今後のイベントを見る"
 #. module: sport_events
 #: model:event.event,subtitle:sport_events.event_event_1
 msgid "Explore the forest trails around the iconic Maredsous Abbey."
-msgstr ""
+msgstr "マレドゥス修道院の周囲に広がる森の小道を散策しましょう。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "Explore.&amp;nbsp;"
-msgstr ""
+msgstr "詳しくご覧ください。&amp;nbsp;"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1188,61 +1188,64 @@ msgid ""
 "this column so the Inventory Manager can compare it with “Quantity on Hand” "
 "and instantly know what needs to be reordered."
 msgstr ""
+"Odooから在庫リストをスプレッドシートにエクスポートし、特定のイベント用に「必"
+"要数量」の列を追加します。イベントマネジャーがこの列に入力することで、在庫管"
+"理者は「現在庫数」と比較し、即座に再発注が必要な品目を把握できます。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Fair Play Team"
-msgstr ""
+msgstr "フェアプレイチーム"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_8_product_template
 msgid "Finisher Medal"
-msgstr ""
+msgstr "完走者メダル"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Finisher T-shirt (€8)"
-msgstr ""
+msgstr "完走者Tシャツ (€8)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Finisher medal"
-msgstr ""
+msgstr "完走者メダル"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Finisher medals"
-msgstr ""
+msgstr "完走者メダル"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
 msgid "Follow us"
-msgstr ""
+msgstr "フォローする"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_2
 msgid "Food Beverage and Tobacco Products"
-msgstr ""
+msgstr "食品・飲料・たばこ製品"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_2
 msgid "Format"
-msgstr ""
+msgstr "フォーマット"
 
 #. module: sport_events
 #: model:hr.job,name:sport_events.hr_job_2
 msgid "Founder"
-msgstr ""
+msgstr "設立者"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Free massage station for all finishers"
-msgstr ""
+msgstr "完走者全員に無料マッサージステーションをご用意しています"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Free parking"
-msgstr ""
+msgstr "無料駐車場"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
@@ -1286,19 +1289,20 @@ msgstr ""
 #: model:survey.question,title:sport_events.survey_question_5
 msgid ""
 "Have you eaten/had a drink in the Horeca establishments in the region? *"
-msgstr ""
+msgstr "この地域のホテル・レストラン・カフェ施設で、飲食されたことはありますか? *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "In <em>CRM</em>, create a new opportunity for each sponsor or partner. "
 "Record all discussions, meeting notes, and agreed conditions."
-msgstr ""
+msgstr "<em>CRM</em>では、スポンサーやパートナーごとに新しい商談を作成し、すべてのや"
+"り取り、打ち合わせメモ、合意内容を記録してください。"
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_2
 msgid "In progress"
-msgstr ""
+msgstr "進行中"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1306,16 +1310,19 @@ msgid ""
 "In the <em>Events</em> app, open your event and use the <em>Sponsor Smart "
 "Button</em> to add the confirmed sponsor. Upload their logo and details."
 msgstr ""
+"<em>イベント</em>アプリでイベントを開き、<em>スポンサー "
+"スマートボタン</em>を使って確定したスポンサーを追加します。ロゴや詳細情報をア"
+"ップロードしてください。"
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_7
 msgid "Individual bib, access to all 3 disciplines, aid stations"
-msgstr ""
+msgstr "個人用ゼッケン、3種目すべてへの参加権、エイドステーションの利用"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Indoor courts with official markings and lighting"
-msgstr ""
+msgstr "公式ラインと照明を備えた屋内コート"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1326,28 +1333,33 @@ msgid ""
 "VoIP</font></strong> to communicate instantly with your team during the "
 "event."
 msgstr ""
+"イベント中のチームとの即時連絡には、<strong><font class=\"text-o-color-1\""
+">WhatsApp</font><font class=\"text-o-color-2\"><span style=\"font-weight: "
+"normal;\">または</span></font><font class=\"text-o-color-1\""
+">VoIP</font></strong>を統合しましょう。"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_12_product_template
 msgid "Iso Drink"
-msgstr ""
+msgstr "アイソトニック飲料"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Keep Your Community Engaged with Your Website"
-msgstr ""
+msgstr "ウェブサイトで、コミュニティとのつながりを保ちましょう"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Keep sports gear and event materials organized with the <em>Inventory</em> "
 "app."
-msgstr ""
+msgstr "スポーツ用品やイベント資材の整理整頓には、<em>Inventory</em>アプリが便利です"
+"。"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_3
 msgid "Legal"
-msgstr ""
+msgstr "リーガル情報"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1357,41 +1369,45 @@ msgid ""
 "color-1\">​</font> to share event highlights and engage your audience "
 "online."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">ソーシャルマーケティング</font></"
+"strong><font class=\"bg-o-color-3 text-o-color-1\""
+"></font>を活用して、イベントの注目シーンを発信し、オンラインで参加者とのつな"
+"がりを深めましょう。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Limited spots available — first come, first served"
-msgstr ""
+msgstr "お席に限りがあります — 先着順"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Live match schedule and results via mobile app"
-msgstr ""
+msgstr "モバイルアプリでライブ試合スケジュールと結果をチェック"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Live tracking and timing (with intermediate split mats)"
-msgstr ""
+msgstr "ライブ追跡とタイミング(中間計測マット付き)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Locker &amp; shower access"
-msgstr ""
+msgstr "ロッカー &amp; シャワーアクセス"
 
 #. module: sport_events
 #: model:hr.job,name:sport_events.hr_job_1
 msgid "Logistic Manager"
-msgstr ""
+msgstr "ロジスティックマネジャー"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_13
 msgid "Logistics"
-msgstr ""
+msgstr "ロジスティクス"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Manage Your Sport Material Inventory"
-msgstr ""
+msgstr "スポーツ備品在庫を管理"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1399,100 +1415,104 @@ msgid ""
 "Manage all event-related finances seamlessly using the <strong><font "
 "class=\"text-o-color-1\">Accounting</font></strong> app."
 msgstr ""
+"<strong><font class=\"text-o-color-1\""
+">会計</font></strong>アプリを使って、イベント関連の財務をスムーズに管理しまし"
+"ょう。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Manage event finances with the Invoicing and Expenses apps."
-msgstr ""
+msgstr "請求書管理アプリと経費アプリで、イベントの財務を管理しましょう。"
 
 #. module: sport_events
 #: model:project.project,name:sport_events.project_project_1
 msgid "Maredsous Sunrise Trail"
-msgstr ""
+msgstr "マレッドス修道院サンライズ・トレイル"
 
 #. module: sport_events
 #: model:event.event,name:sport_events.event_event_1
 msgid "Maredsous Sunrise Trail "
-msgstr ""
+msgstr "マレッドス修道院サンライズ・トレイル "
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_8
 msgid "Marketing"
-msgstr ""
+msgstr "マーケティング"
 
 #. module: sport_events
 #: model_terms:product.template,description:sport_events.product_product_14_product_template
 msgid "Maurten Gel 100 - 12 Box"
-msgstr ""
+msgstr "モーテンジェル100- 12個入り"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Maximum 24 teams"
-msgstr ""
+msgstr "最大24チーム"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Medal engraving (€5)"
-msgstr ""
+msgstr "メダル刻印(€5)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Medical and safety support"
-msgstr ""
+msgstr "医療・安全サポート"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Medical assistance and rescue coordination"
-msgstr ""
+msgstr "医療支援および救助の調整"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Mixed, Men's &amp; Women's teams accepted"
-msgstr ""
+msgstr "男女混合、男性、女性チーム"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "Move."
-msgstr ""
+msgstr "動き出そう。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
 msgid "My Company"
-msgstr ""
+msgstr "My Company"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Need to make last-minute changes? Drag-and-drop scheduling updates keep "
 "everyone informed instantly."
-msgstr ""
+msgstr "直前の変更が必要ですか? "
+"ドラッグ＆ドロップでスケジュールを更新すれば、全員にすぐに反映されます。"
 
 #. module: sport_events
 #: model:crm.stage,name:sport_events.crm_stage_5
 msgid "Negotiation"
-msgstr ""
+msgstr "交渉"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3143
 msgid "Next Events"
-msgstr ""
+msgstr "次のイベント"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_11
 #: model:survey.question.answer,value:sport_events.survey_question_answer_13
 #: model:survey.question.answer,value:sport_events.survey_question_answer_5
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #. module: sport_events
 #: model:crm.tag,name:sport_events.crm_tag_3
 msgid "Nutrition"
-msgstr ""
+msgstr "栄養"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_5
 msgid "Nuts and seeds"
-msgstr ""
+msgstr "ナッツ類と種子類"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1502,11 +1522,15 @@ msgid ""
 "inventory and scheduling staff, Odoo empowers sports event professionals "
 "with fully integrated tools."
 msgstr ""
+"Odoo "
+"は、スポーツイベント運営に必要なあらゆる業務を一元化し、イベントの企画・関係"
+"者との連携・備品管理・スタッフのスケジューリングまで、統合されたツール群で全"
+"面的にサポートします。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Odoo for Sport Events"
-msgstr ""
+msgstr "Odooスポーツイベント"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1516,20 +1540,24 @@ msgid ""
 "delivering an unforgettable experience for sport lovers, partners, and "
 "spectators."
 msgstr ""
+"Odooはチームの連携を強化し、イベントのオンラインでの存在感を高め、運営のすべ"
+"てがスムーズに進むようサポートします。だからこそ、スポーツファン、パートナー"
+"、観客にとって忘れられない体験を届けることに集中できます。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into"
 " a tool to manage your entire workflow."
-msgstr ""
+msgstr "Odooはアプリと完全に連携しています。ダウンロードして、あなたの携帯電話をワー"
+"クフロー全体を管理するツールに変えましょう。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Odoo offers endless customization possibilities for your Sport Event "
 "company:"
-msgstr ""
+msgstr "Odooは、スポーツイベント企業のために無限のカスタマイズを可能にします:"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1537,7 +1565,8 @@ msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
-msgstr ""
+msgstr "これはパッケージに含まれる機能の概要にすぎません。新しいアプリを追加したり、"
+"デモデータを削除/変更したり、自由にテストしてみましょう!"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1545,58 +1574,63 @@ msgid ""
 "Offer <strong><font class=\"text-o-color-1\">memberships or "
 "subscriptions</font></strong> for regular access to your events."
 msgstr ""
+"イベントに定期的に参加できるよう、<strong><font class=\"text-o-color-1\""
+">会員プランやサブスクリプション</font></strong>を提供しましょう。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "On-site food &amp; drink (available for all)"
-msgstr ""
+msgstr "会場内での飲食 (どなたでもご利用いただけます)"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ""
 "Once terms are approved, send the sponsorship contract via the <em>Sign</em>"
 " app for a quick, legally binding e-signature."
-msgstr ""
+msgstr "条件が承認されたら、<em>署名</em>アプリを使ってスポンサー契約書を送信し、迅速"
+"かつ法的に有効な電子署名を取得しましょう。"
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_8
 msgid "One athlete per discipline, team bib, nutrition support"
-msgstr ""
+msgstr "各競技につき選手1名、チーム用ゼッケン、栄養サポート"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Online registration only. Payment via credit card or PayPal."
-msgstr ""
+msgstr "登録はオンラインのみ。お支払いはクレジットカードまたは PayPal "
+"に対応しています。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Optional extras:"
-msgstr ""
+msgstr "追加オプション:"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Organize Your Sport Events"
-msgstr ""
+msgstr "スポーツイベントを企画・運営"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_9
 msgid "Other"
-msgstr ""
+msgstr "その他"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Parking &amp; shuttles available"
-msgstr ""
+msgstr "駐車場・送迎シャトルバスをご利用いただけます"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Participant briefing 30 minutes before race start"
-msgstr ""
+msgstr "レース開始30分前に参加者ブリーフィングを行います"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Partner gifts, raffles &amp; merchandise throughout the day"
-msgstr ""
+msgstr "当日は、パートナー企業からのギフトや抽選会、オリジナルグッズの販売などをお楽"
+"しみいただけます。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
@@ -1616,7 +1650,8 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Places are limited. No on-site registration available."
-msgstr ""
+msgstr "定員制となっておりますので、事前のお申し込みをお願いいたします。会場での当日"
+"受付はございません。"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1633,12 +1668,12 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Player-only zone (snacks, recovery, physio corner)"
-msgstr ""
+msgstr "選手専用エリア(軽食・リカバリー・理学療法士コーナーあり)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Podium prizes for top 3 male/female/relay"
-msgstr ""
+msgstr "男女別およびリレーカテゴリーの上位3位には表彰と賞品をご用意しております"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1668,7 +1703,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Registration Details"
-msgstr ""
+msgstr "登録詳細"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_1
@@ -1722,7 +1757,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Secure transition zone"
-msgstr ""
+msgstr "セキュリティが確保されたトランジションゾーン"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1751,7 +1786,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Special recognition for fastest transition times"
-msgstr ""
+msgstr "最速トランジションタイムには特別表彰をご用意しています"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_6
@@ -1761,7 +1796,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Spectator stands with audio commentary"
-msgstr ""
+msgstr "音声解説付きの観客席"
 
 #. module: sport_events
 #: model:crm.tag,name:sport_events.crm_tag_1
@@ -1843,7 +1878,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Team roster submission required"
-msgstr ""
+msgstr "チーム名簿の提出が必要です"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_15_product_template
@@ -1859,6 +1894,11 @@ msgid ""
 "facilities of Marche-en-Famenne, the tournament aims to promote local sport "
 "culture, friendly rivalry, and community connection."
 msgstr ""
+"<strong>アーデン・バレーボールカップ 2025</strong> "
+"は、地域各地から集まったアマチュアおよびセミプロのチームによる、1日限りの白熱"
+"した屋内バレーボール大会です。現代的な設備を誇るマルシュ＝アン＝ファメンヌの"
+"会場を舞台に、地域のスポーツ文化の振興、健全な競争、そしてコミュニティのつな"
+"がりを目的として開催されます。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
@@ -1868,13 +1908,18 @@ msgid ""
 "technical cycling, and rugged trail running, it’s designed for both "
 "passionate athletes and newcomers seeking adventure."
 msgstr ""
+"<strong>トライ・チャレンジ</strong>は、ベルギーで最も美しい景観の中で毎年開催"
+"されるトライアスロン大会です。オープンウォータースイム、テクニカルなバイクコ"
+"ース、そして起伏に富んだトレイルランを組み合わせた本大会は、情熱的なアスリー"
+"トはもちろん、冒険を求める初心者の方にも最適なチャレンジです。"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid ""
 "The event site is accessible by car, bicycle, and public transportation. "
 "Free parking available. Showers and basic facilities are provided."
-msgstr ""
+msgstr "会場へは、お車・自転車・公共交通機関でお越しいただけます。無料駐車場をご利用"
+"いただけます。シャワーや基本的な設備も完備しております。"
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_1
@@ -1965,7 +2010,7 @@ msgstr ""
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_2
 msgid "Was this your first visit to the region? *"
-msgstr ""
+msgstr "この地域を訪れるのは今回が初めてですか? *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.ir_ui_view_3140
@@ -2021,26 +2066,30 @@ msgid ""
 "promises unforgettable terrain, community-driven support, and a "
 "professionally managed race experience."
 msgstr ""
+"<strong>ATC "
+"2025</strong>は、個人でもチームでもご参加いただける大会で、忘れられないコース"
+"設定、地域に根ざした温かいサポート、そしてプロフェッショナルに運営されたレー"
+"ス体験をお約束します。"
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_1
 msgid "Which race did you participate in? *"
-msgstr ""
+msgstr "ご参加いただいたレースをお選びください *"
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_3
 msgid "Who did you come to the event with? *"
-msgstr ""
+msgstr "今回のイベントには、どなたとご来場されましたか? *"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_7
 msgid "With Family"
-msgstr ""
+msgstr "家族"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_8
 msgid "With Friends"
-msgstr ""
+msgstr "友人"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -2052,7 +2101,7 @@ msgstr ""
 #: model:survey.question.answer,value:sport_events.survey_question_answer_12
 #: model:survey.question.answer,value:sport_events.survey_question_answer_4
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -2078,7 +2127,7 @@ msgstr ""
 #. module: sport_events
 #: model:survey.survey,title:sport_events.survey_survey_1
 msgid "Your Experience Around the Course "
-msgstr ""
+msgstr "コースを通じてのご体験について "
 
 #. module: sport_events
 #: model_terms:survey.survey,description_done:sport_events.survey_survey_1
@@ -2156,9 +2205,9 @@ msgstr ""
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "🏆 Trophies for:"
-msgstr ""
+msgstr "🏆 トロフィー:"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "🚲 Relay teams welcome (1 leg per person)"
-msgstr ""
+msgstr "🚲 リレーチームでの参加も歓迎です(1人1区間を担当)"

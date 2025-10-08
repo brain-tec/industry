@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-22 15:21+0000\n"
-"PO-Revision-Date: 2025-09-18 23:30+0000\n"
+"PO-Revision-Date: 2025-10-02 23:30+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-s18-4/museum/zh_Hant/>\n"
@@ -32,7 +32,7 @@ msgstr "「用線條看世界」速寫畫簿"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "&amp;nbsp;Frozen Breath"
-msgstr ""
+msgstr "冰凍氣息"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -62,7 +62,7 @@ msgstr "04"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "101 Masterpieces That Will Change the Way You See Art"
-msgstr ""
+msgstr "改變你如何看待藝術的 101 件大師級傑作"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -182,6 +182,8 @@ msgid ""
 "<output class=\"s_range_bubble\" style=\"inset-inline-start: calc(6.77966% +"
 " 6.91525px);\">25</output>"
 msgstr ""
+"<output class=\"s_range_bubble\" style=\"inset-inline-start: calc(6.77966% + "
+"6.91525px);\">25</output>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -189,6 +191,8 @@ msgid ""
 "<span class=\"display-2-fs\">Fragments of a Forgotten City</span>\n"
 "                      <br/>"
 msgstr ""
+"<span class=\"display-2-fs\">遺忘城市的碎片</span>\n"
+"                      <br/>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -211,24 +215,24 @@ msgstr ""
 msgid ""
 "<span class=\"display-4-fs\">101 Masterpieces that will change the way you "
 "see art</span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\">改變你如何看待藝術的 101 件大師級傑作</span>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid ""
 "<span class=\"flex-grow-1\">Can I request a piece that's not on "
 "display?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">我可否要求參觀並非在展出中的作品？</span>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "<span class=\"flex-grow-1\">Do you offer membership passes?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">你們有提供會員通行證嗎？</span>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "<span class=\"flex-grow-1\">What is your return policy for tickets?</span>"
-msgstr ""
+msgstr "<span class=\"flex-grow-1\">你們的退票政策是怎樣的？</span>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -285,17 +289,17 @@ msgstr ""
 msgid ""
 "<strong>Adopt an Artwork</strong> — Fund conservation for specific engaged "
 "art pieces."
-msgstr ""
+msgstr "<strong>助養藝術品</strong>：為指定藝術作品的保護工作，提供資金支持。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "<strong>Art confronting migration, identity, and displacement</strong>"
-msgstr ""
+msgstr "<strong>探討移民、身份認同、流離失所的藝術品</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Boost Visibility Online </strong>"
-msgstr ""
+msgstr "<strong>提升線上知名度</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -305,12 +309,12 @@ msgstr "<strong>制定輪班時間表</strong>"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Build an Engaging Museum Website</strong>"
-msgstr ""
+msgstr "<strong>建立引人入勝的博物館網站</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Communicate Efficiently</strong>"
-msgstr ""
+msgstr "<strong>高效傳訊</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -322,7 +326,7 @@ msgstr "<strong>想再探索更多？</strong>"
 msgid ""
 "<strong>Donation</strong>: Record donor details and assign the artwork to a "
 "location."
-msgstr ""
+msgstr "<strong>捐贈</strong>：記錄捐贈者的詳細資料，並為藝術品分配存放位置。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -339,12 +343,12 @@ msgstr "<strong>延長開放時間 － 夏季逢星期四</strong>"
 msgid ""
 "<strong>Fund Free Access</strong> — Help us keep entry free for "
 "underprivileged groups."
-msgstr ""
+msgstr "<strong>資助免費門票</strong>：協助我們，讓弱勢社群可免費入場觀賞。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Handle Exhibition Display Rights</strong>"
-msgstr ""
+msgstr "<strong>處理展覽的展出權利事宜</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -364,14 +368,14 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Keep Your Inventory Up to Date</strong><br/>"
-msgstr ""
+msgstr "<strong>保持庫存更新</strong><br/>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "<strong>Loan</strong>: Set expected return dates and add a reminder activity"
 " to coordinate returns."
-msgstr ""
+msgstr "<strong>借展</strong>：設定預計歸還日期，並新增提醒活動，以協調交還安排。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -381,12 +385,12 @@ msgstr "<strong>管理會籍</strong>"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Manage Ticket Sales &amp; Memberships </strong>"
-msgstr ""
+msgstr "<strong>管理門票銷售及會員會籍</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Manage Your Art Collection </strong>"
-msgstr ""
+msgstr "<strong>管理藝術品收藏</strong>"
 
 #. module: museum
 #: model_terms:event.event,description:museum.event_event_4
@@ -398,18 +402,19 @@ msgstr "<strong>修改開放時間及閉館日期</strong>"
 msgid ""
 "<strong>Monthly Ally</strong> — Join our core donors who fund art for "
 "awareness, monthly."
-msgstr ""
+msgstr "<strong>每月盟友</strong>：加入成為核心捐助者，每月資助，協助我們提高公眾的藝"
+"術意識。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Process Point of Sales:</strong>"
-msgstr ""
+msgstr "<strong>處理 POS 銷售點的商品銷售：</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "<strong>Purchase</strong>: Register a vendor bill and mark the receipt."
-msgstr ""
+msgstr "<strong>採購</strong>：登記供應商賬單，然後標記收貨。"
 
 #. module: museum
 #: model_terms:event.event,description:museum.event_event_4
@@ -419,12 +424,12 @@ msgstr "<strong>優惠票價及免費入場</strong>"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Run Your Souvenir Shop </strong>"
-msgstr ""
+msgstr "<strong>營運紀念品商店</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Schedule Your Staff </strong>"
-msgstr ""
+msgstr "<strong>編排員工工作時間表</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -439,33 +444,33 @@ msgstr "<strong>網上銷售門票</strong>"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Set Up the Shop</strong>"
-msgstr ""
+msgstr "<strong>設立商店</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "<strong>Stories in Space, Time, and Image</strong>"
-msgstr ""
+msgstr "<strong>以空間、時間、圖像訴說的故事</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
 msgid ""
 "<strong>Support a Cause</strong> — Donate to fund cause-related exhibitions."
-msgstr ""
+msgstr "<strong>支持公益項目</strong>：捐款資助與公益事業相關的展覽。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "<strong>Track All Types of Artwork Acquisition</strong>"
-msgstr ""
+msgstr "<strong>追蹤所有類型的藝術品收購</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "A direct conversation with the featured artist"
-msgstr ""
+msgstr "與特邀藝術家直接對話"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "A look at upcoming exhibitions tied to migration and power structures"
-msgstr ""
+msgstr "預先觀看即將舉行的移民及權力結構主題展覽"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -525,7 +530,7 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Accept multiple payment types: cash, card, or gift vouchers."
-msgstr ""
+msgstr "接受多種付款方式，包括現金、付款卡、禮券等。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
@@ -545,7 +550,7 @@ msgstr "加入<strong>展覽頁面</strong>：重點介紹目前正在舉行及�
 msgid ""
 "Add each product (books, prints, souvenirs) with its image, price, and "
 "supplier."
-msgstr ""
+msgstr "加入各項產品（書籍、印畫、紀念品等），並加入其圖片、價格及供應商。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -553,16 +558,18 @@ msgid ""
 "Add the <font class=\"text-o-color-1\"><strong>Restaurant "
 "app</strong></font> to run your museum’s café or small restaurant."
 msgstr ""
+"安裝<font class=\"text-o-color-1\""
+"><strong>餐廳應用程式</strong></font>，用作營運博物館的咖啡廳或小食店。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Adventure awaits at the Art Museum"
-msgstr ""
+msgstr "藝術博物館：等你開啟探險之旅"
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_3
 msgid "Affordable art prints to bring creativity into your home."
-msgstr ""
+msgstr "價格相宜的藝術印畫，為你的家居注入創意。"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_9
@@ -572,7 +579,7 @@ msgstr "藝術品借展合作夥伴"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Art is not what you see, but what you make others see."
-msgstr ""
+msgstr "藝術不是你看見甚麼，而是在於你讓別人看到甚麼。"
 
 #. module: museum
 #: model:pos.category,name:museum.pos_category_3
@@ -610,7 +617,7 @@ msgstr "藝術總監"
 msgid ""
 "Assign a <strong>special price list</strong> to the level (e.g., 100% "
 "discount on general admission)."
-msgstr ""
+msgstr "為等級設定適用的<strong>特別價目表</strong>（例如：普通門票 100% 折扣）。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -623,7 +630,7 @@ msgstr "在前台，前往 <strong>POS "
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Attach the signed agreement to the bill for full traceability."
-msgstr ""
+msgstr "將已簽名的協議附加至賬單上，方便全方位追蹤。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -631,6 +638,8 @@ msgid ""
 "Automate renewals and benefits with <strong><font class=\"text-o-"
 "color-1\">Subscription</font></strong> for memberships."
 msgstr ""
+"利用會籍<strong><font class=\"text-o-color-1\""
+">訂閱</font></strong>計劃，自動化續訂及編配福利。"
 
 #. module: museum
 #: model_terms:product.template,public_description:museum.product_product_14_product_template
@@ -645,12 +654,12 @@ msgstr "書籍"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Boundless"
-msgstr ""
+msgstr "無邊際"
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_4
 msgid "Breathtaking images that tell stories and evoke emotions."
-msgstr ""
+msgstr "令人讚嘆的圖像，講述不同故事，喚起觀眾情感。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -722,11 +731,13 @@ msgid ""
 "Collect valuable visitor feedback after events and exhibitions using the "
 "<font class=\"text-o-color-1\"><strong>Surveys app</strong></font>."
 msgstr ""
+"使用<font class=\"text-o-color-1\""
+"><strong>網上調查</strong></font>應用程式，收集訪客對活動及展覽的寶貴意見。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Configure tax settings accurately."
-msgstr ""
+msgstr "準確配置稅項設定。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.contactus
@@ -742,26 +753,27 @@ msgstr "封面"
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Create a <strong>membership product</strong> (e.g., “Annual Museum Pass”)."
-msgstr ""
+msgstr "建立<strong>會籍產品</strong>，例如：全年博物館通行證。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Create a <strong>new Point of Sale</strong> session specifically for the "
 "boutique."
-msgstr ""
+msgstr "為精品店專門開設一個<strong>新的 POS 銷售點</strong>。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Create a corresponding <strong>ticket product</strong>;<strong> </strong>you"
 " can customize prices for adults, kids, seniors,..."
-msgstr ""
+msgstr "建立相應的<strong>票務產品</strong>。<strong></strong>你可為成人、小童、長者"
+"等不同群體，自訂不同價格。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Create a receipt to record the loan in your inventory."
-msgstr ""
+msgstr "建立一項收貨，將借展藏品記錄至你的庫存中。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -804,14 +816,14 @@ msgstr "預設"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Define your operating hours (e.g., 10am–6pm, Tuesday–Sunday)."
-msgstr ""
+msgstr "設定開放時間，例如：星期二至星期日，上午 10 時至下午 6 時。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Design a clean and attractive <strong>website page</strong> to showcase the "
 "museum’s entry options."
-msgstr ""
+msgstr "設計簡潔、有吸引力的<strong>網站頁面</strong>，列出博物館的入場門票選項。"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_3
@@ -824,6 +836,8 @@ msgid ""
 "Digitally sign contracts and agreements using <strong><font class=\"text-o-"
 "color-1\">Sign</font></strong>."
 msgstr ""
+"利用<strong><font class=\"text-o-color-1\""
+">電子簽名</font></strong>應用程式，數碼化簽署合約及協議。"
 
 #. module: museum
 #: model_terms:event.event,description:museum.event_event_4
@@ -851,12 +865,12 @@ msgstr "發掘更多有關 Odoo 的資訊，深入了解我們的"
 msgid ""
 "Discover quick answers to common questions about our exhibits, events, and "
 "visitor policies."
-msgstr ""
+msgstr "看看有關我們展覽、活動、訪客政策等的常見問題與解答。"
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_1
 msgid "Discover stunning artworks that transform your space."
-msgstr ""
+msgstr "發掘可以提升你生活空間、令人嘆為觀止的藝術品。"
 
 #. module: museum
 #: model:product.template,name:museum.product_product_29_product_template
@@ -871,7 +885,7 @@ msgstr "短暫展出 － 移動時請小心處理。"
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_6
 msgid "Dive into art history with our curated selection of books."
-msgstr ""
+msgstr "精選書目，帶你深入探索藝術史。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -902,7 +916,7 @@ msgstr "展覽"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Each staff member sees their schedule in their portal or by email."
-msgstr ""
+msgstr "每位員工都可在自己的門戶網站頁面或電子郵件中，看到自己的工作時間表。"
 
 #. module: museum
 #: model_terms:event.event,description:museum.event_event_4
@@ -916,12 +930,12 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "Echoes in Grey&amp;nbsp;<br/>"
-msgstr ""
+msgstr "灰色迴聲<br/>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Embed the same <strong>Museum Entrance</strong> event on your website."
-msgstr ""
+msgstr "將這個<strong>博物館入場</strong>活動，嵌入至你的網站。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -934,7 +948,7 @@ msgstr "加入<strong>線上售票</strong>功能：加入有預訂選項的入�
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Enable “Multiple Slots”."
-msgstr ""
+msgstr "啟用「多重時段」。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -983,7 +997,7 @@ msgstr "探索更多"
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_2
 msgid "Explore three-dimensional masterpieces that inspire and captivate."
-msgstr ""
+msgstr "探索啟發思考、令人着迷的立體作品。"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_29_product_template
@@ -997,32 +1011,32 @@ msgstr "在博物館展出藝術品所需繳付的費用。已包括博物館內
 #. module: museum
 #: model:hr.job,name:museum.hr_job_3
 msgid "Finance & Grants Manager"
-msgstr ""
+msgstr "財務及撥款經理"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Finely hand-picked by our most passionate art lovers"
-msgstr ""
+msgstr "由我們最熱情的藝術愛好者精挑細選"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Focus on curating culture and welcoming visitors, while Odoo handles the "
 "behind-the-scenes logistics. 🖼️"
-msgstr ""
+msgstr "你可專注策劃文化項目及接待訪客，Odoo 會處理幕後物流與後勤工作。 🖼️"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "For each new piece, create a product record with its name, description, "
 "artist, and value."
-msgstr ""
+msgstr "為每件作品建立一項產品記錄，並輸入其名稱、描述、藝術家、價值等。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "For example: A member revisiting the site sees all eligible tickets as €0."
-msgstr ""
+msgstr "例如：會員再次瀏覽網站時，會看到所有符合資格的門票，價格均是 €0。"
 
 #. module: museum
 #: model:product.template,description_pickingin:museum.product_product_21_product_template
@@ -1056,6 +1070,8 @@ msgid ""
 "Generate invoices for services and sales through <strong><font class=\"text-"
 "o-color-1\">Invoicing</font></strong>."
 msgstr ""
+"使用<strong><font class=\"text-o-color-1\""
+">發票</font></strong>功能，可產生服務及銷售發票。"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_19_product_template
@@ -1078,6 +1094,8 @@ msgid ""
 "Handle on-site ticket and gift shop sales through <strong><font "
 "class=\"text-o-color-1\">Point of Sale</font></strong>."
 msgstr ""
+"透過 <strong><font class=\"text-o-color-1\">POS "
+"銷售點管理</font></strong>應用程式，可處理現場門票及禮品店銷售。"
 
 #. module: museum
 #: model_terms:product.template,public_description:museum.product_product_13_product_template
@@ -1113,7 +1131,7 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "Holding Distance&amp;nbsp;<br/>"
-msgstr ""
+msgstr "捉緊距離<br/>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1126,7 +1144,7 @@ msgstr "若某件作品是借入展覽，並有展出協議指定使用權利或
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "If needed, upload the loan agreement and via Odoo."
-msgstr ""
+msgstr "如有需要，可透過 Odoo 上載借展協議。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.contactus
@@ -1181,19 +1199,19 @@ msgstr "投資建議"
 msgid ""
 "Invisible borders, hidden identities. Documents that surface only when seen "
 "with care.&amp;nbsp;<br/>"
-msgstr ""
+msgstr "看不到的邊界，隱姓埋名的身份：只有小心細看才會發現的文件。<br/>"
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_8
 msgid "Join us for exclusive access and benefits."
-msgstr ""
+msgstr "加入成為會員，享受專享活動及福利。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Keep full control over your museum’s acquisitions, loans, and donations; all"
 " in one place."
-msgstr ""
+msgstr "全面掌握及控制博物館的所有藏品收購、借展及捐贈，全部資料集中同一個地方處理。"
 
 #. module: museum
 #: model:event.event.ticket,name:museum.event_event_ticket_11
@@ -1204,7 +1222,7 @@ msgstr "小童（12 歲以下）"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Last-minute changes? Drag-and-drop makes updates quick and clear."
-msgstr ""
+msgstr "有突發變化？簡單拖放即可，讓資料更新更快速、更清晰。"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_6
@@ -1214,22 +1232,22 @@ msgstr "法律服務"
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_5
 msgid "Limited edition items from our latest exhibitions."
-msgstr ""
+msgstr "源自我們最新展覽的限量版商品。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Link each product to inventory so you can track how much is in stock."
-msgstr ""
+msgstr "將每件產品連結至庫存記錄，以便追蹤庫存量。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Log the artwork’s location, for example: “Gallery Room B – Wall 3.”"
-msgstr ""
+msgstr "記錄藝術品的位置。例如：畫廊 B 室，3 號牆。"
 
 #. module: museum
 #: model:product.template,name:museum.product_product_20_product_template
 msgid "Looping Light"
-msgstr ""
+msgstr "環迴光影"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
@@ -1304,7 +1322,7 @@ msgstr "My Company"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "New installations and works that center lived experience"
-msgstr ""
+msgstr "以生活體驗為主題的新裝置及作品"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1370,11 +1388,14 @@ msgid ""
 "Organize staff shifts with <strong><font class=\"text-o-"
 "color-1\">Planning</font></strong>, from front desk to gallery teams."
 msgstr ""
+"利用<strong><font class=\"text-o-color-1\""
+">工作規劃</font></strong>應用程式，為前台接待職員及畫廊團隊，整理及編排員工輪"
+"班。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Our featured exhibitions of the moment"
-msgstr ""
+msgstr "現正舉行的特色展覽"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_12
@@ -1413,11 +1434,13 @@ msgid ""
 "Place vendor orders for artworks acquisitions or retail items via "
 "<strong><font class=\"text-o-color-1\">Purchase</font></strong>."
 msgstr ""
+"透過<strong><font class=\"text-o-color-1\""
+">採購</font></strong>應用程式向供應商下訂單，購置藝術品或採購零售商品。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "Plan your visit"
-msgstr ""
+msgstr "規劃到訪"
 
 #. module: museum
 #: model_terms:event.event,description:museum.event_event_4
@@ -1436,12 +1459,12 @@ msgstr "明信片套裝：博物館精彩館藏"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
 msgid "Preserve. Share. Inspire."
-msgstr ""
+msgstr "保育・分享・啟發"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Print or email receipts instantly."
-msgstr ""
+msgstr "收據可即時列印，或以電子郵件發送。"
 
 #. module: museum
 #: model:product.public.category,name:museum.product_public_category_3
@@ -1459,16 +1482,19 @@ msgid ""
 "Promote exhibitions and sell tickets online with <strong><font class=\"text-"
 "o-color-1\">Website &amp; eCommerce</font></strong>."
 msgstr ""
+"利用<strong><font class=\"text-o-color-1\""
+">網站製作及電子商務</font></strong>應用程式，建立網站及網店，線上推廣展覽及銷"
+"售門票。"
 
 #. module: museum
 #: model:hr.job,name:museum.hr_job_2
 msgid "Public Programs Coordinator"
-msgstr ""
+msgstr "公眾計劃統籌員"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "Public readings, workshops, and open dialogue"
-msgstr ""
+msgstr "公眾朗讀分享會、研討會、公開對話"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_30_product_template
@@ -1478,12 +1504,12 @@ msgstr "購置作「平靜城市」展覽中展出"
 #. module: museum
 #: model:product.template,name:museum.product_product_19_product_template
 msgid "River Without Banks"
-msgstr ""
+msgstr "無岸之河"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Romans"
-msgstr ""
+msgstr "羅馬人"
 
 #. module: museum
 #: model:product.template,description_picking:museum.product_product_21_product_template
@@ -1504,7 +1530,7 @@ msgstr "預約示範"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Schedule a reminder to plan the return date."
-msgstr ""
+msgstr "編排提醒，以便規劃歸還日期的工作。"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_13
@@ -1527,7 +1553,7 @@ msgstr "長者（65 歲或以上）"
 msgid ""
 "Set <strong>reorder rules</strong> to automatically restock from vendors "
 "when low."
-msgstr ""
+msgstr "設定<strong>重新訂購規則</strong>，在庫存水平較低時，自動向供應商訂貨補貨。"
 
 #. module: museum
 #: model_terms:product.template,public_description:museum.product_product_11_product_template
@@ -1539,12 +1565,13 @@ msgstr "常設館藏當中 8 件藝術品組合"
 msgid ""
 "Set the product type to <em>Service</em> and link it to a <strong>Membership"
 " Level</strong>."
-msgstr ""
+msgstr "將產品類型設為「服務」，並將其連結至適用的<strong>會員等級</strong>。<em></em"
+">"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Set up an <strong>Event</strong> for “Museum Entrance”"
-msgstr ""
+msgstr "設立一項「博物館入場」的<strong>活動</strong>。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -1559,22 +1586,22 @@ msgstr "商店"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "Silent Waves&amp;nbsp;<br/>"
-msgstr ""
+msgstr "寂靜浪濤<br/>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
 msgid "Small or large, your contribution is essential."
-msgstr ""
+msgstr "多多益善，少少無拘，你的捐助對我們十分重要。"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_8
 msgid "Social development and services"
-msgstr ""
+msgstr "社群發展及服務"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Specify the <strong>acquisition type</strong>:"
-msgstr ""
+msgstr "設定<strong>收購類型</strong>："
 
 #. module: museum
 #: model:product.pricelist,name:museum.product_pricelist_2
@@ -1596,7 +1623,7 @@ msgstr "標準門票"
 #. module: museum
 #: model:product.template,name:museum.product_product_30_product_template
 msgid "Stillness in Blue"
-msgstr ""
+msgstr "靜止蔚藍"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1604,6 +1631,8 @@ msgid ""
 "Store contact details for artists, donors, and partners in <strong><font "
 "class=\"text-o-color-1\">Contacts</font></strong>."
 msgstr ""
+"在<strong><font class=\"text-o-color-1\""
+">聯絡人</font></strong>應用程式，可儲存藝術家、捐贈者、合作夥伴等的聯絡資料。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1629,7 +1658,7 @@ msgstr "支持我們"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
 msgid "Support a Cause: Donate to fund cause-related exhibitions."
-msgstr ""
+msgstr "支持公益項目：捐款資助與公益事業相關的展覽。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.ir_ui_view_4974
@@ -1660,7 +1689,7 @@ msgstr "臨時展廳"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "The Right to Repeat&amp;nbsp;<br/>"
-msgstr ""
+msgstr "重申的權利<br/>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -1730,7 +1759,7 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "This work doesn’t offer closure — it demands witness."
-msgstr ""
+msgstr "這件作品並沒有既定的結局，而是需要觀眾親身見證參與。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -1775,16 +1804,18 @@ msgid ""
 "Track artworks and stock locations using <strong><font class=\"text-o-"
 "color-1\">Inventory</font></strong>."
 msgstr ""
+"使用<strong><font class=\"text-o-color-1\""
+">庫存</font></strong>應用程式，追蹤藝術品及商品庫存的擺放位置。"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_7
 msgid "Travel and Food and Lodging and Entertainment Services"
-msgstr ""
+msgstr "旅遊、餐飲、住宿及娛樂服務"
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_7
 msgid "Unique items inspired by our collection, perfect for gifts."
-msgstr ""
+msgstr "靈感源自我們藏品的獨特精品，非常適合作禮物贈送。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1792,6 +1823,8 @@ msgid ""
 "Use <strong><font class=\"text-o-color-1\">Events</font></strong> to manage "
 "entry slots, ticket types, and attendance."
 msgstr ""
+"使用<strong><font class=\"text-o-color-1\""
+">活動</font></strong>應用程式，管理入場時段、票種及類型、出席人數等。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1806,25 +1839,26 @@ msgstr "利用<strong>電子簽名</strong>應用程式，上載合約並取得�
 msgid ""
 "Use Odoo’s website builder to create an attractive design with your "
 "branding."
-msgstr ""
+msgstr "利用 Odoo 網站製作工具，為你的品牌創造設計吸引的網站。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Use the <strong>auto-plan feature</strong> to assign people based on "
 "availability and expertise."
-msgstr ""
+msgstr "利用<strong>自動規劃功能</strong>，根據員工空閒時間及專業知識，妥善分配負責人"
+"員。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Use the POS interface at the cash desk or a mobile device."
-msgstr ""
+msgstr "可在收銀台或流動裝置上，使用 Odoo 的 POS 介面。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Use the “Slots” button to set and manage each specific entry time slot."
-msgstr ""
+msgstr "使用「時段」按鈕，設定及管理各個入場時段。"
 
 #. module: museum
 #: model:website.menu,name:museum.website_menu_9
@@ -1834,21 +1868,21 @@ msgstr "到訪"
 #. module: museum
 #: model:product.template,name:museum.product_product_21_product_template
 msgid "Vessel of Echoes"
-msgstr ""
+msgstr "迴聲之舟"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "View real-time stock levels and generate purchase orders directly from the "
 "dashboard."
-msgstr ""
+msgstr "Dashboard 可查看實時庫存水平，並直接產生採購單。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "Visitors can choose a time slot, select ticket types, and pay directly "
 "online."
-msgstr ""
+msgstr "訪客可選擇時段、門票類型，然後直接在網上付款。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -1886,7 +1920,7 @@ msgstr "建議提早在網上預訂門票，以盡量確保你的參觀體驗流
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Welcome to the Odoo Museum Management package!"
-msgstr ""
+msgstr "歡迎使用 Odoo 博物館管理套裝！"
 
 #. module: museum
 #: model_terms:web_tour.tour,rainbow_man_message:museum.knowledge_tour
@@ -1898,12 +1932,12 @@ msgstr "歡迎！請享受探索過程。"
 msgid ""
 "We’re committed to providing prompt and effective solutions to ensure your "
 "satisfaction."
-msgstr ""
+msgstr "我們致力為你提供及時、有效的解決方案，確保你滿意。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "What I Didn't Capture On Camera"
-msgstr ""
+msgstr "相機捉不住的東西"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -1914,7 +1948,7 @@ msgstr "活動內容："
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "When someone purchases the pass, Odoo automatically applies their benefits."
-msgstr ""
+msgstr "顧客購買通行證時，Odoo 系統會自動為他們套用適當的福利。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
@@ -1941,7 +1975,7 @@ msgstr "無論你的訪客透過網站線上購票，還是親臨前台購買門
 #. module: museum
 #: model:product.template,name:museum.product_product_31_product_template
 msgid "Whispers of the Past"
-msgstr ""
+msgstr "往昔的靜訴"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1969,7 +2003,7 @@ msgstr ""
 msgid ""
 "Words passed through power. A forgotten text, reprinted — still asking who "
 "gets to speak."
-msgstr ""
+msgstr "權力傳遞的話語：一段被遺忘的文字，重印再見天日──但仍在苦苦追問誰才有話語權。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -2012,7 +2046,7 @@ msgstr "還未匯入模擬數據？現在仍可執行此操作。請前往應用
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "You receive a sculpture on loan from an artist."
-msgstr ""
+msgstr "你收到一位藝術家借出雕塑作展出用。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -2042,39 +2076,39 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Your website is more than just a page; it’s your digital front door."
-msgstr ""
+msgstr "你的網站不只是簡單一個頁面；它其實是你在數碼世界的入口大門。"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "a black and white photo of a building made of concrete blocks"
-msgstr ""
+msgstr "混凝土磚建築物黑白照片"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "a building that has a very unusual design on it"
-msgstr ""
+msgstr "設計非常獨特的建築物"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "a building with multiple windows and a yellow door"
-msgstr ""
+msgstr "有多個窗戶及黃色門的建築物"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "a curved wooden wall in a building"
-msgstr ""
+msgstr "建築物內的彎曲木牆"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "a painting of two women in bed looking out a window"
-msgstr ""
+msgstr "描繪兩名女子在床上望出窗外的畫作"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "a view of the ceiling of a large building"
-msgstr ""
+msgstr "一棟高樓的頂層景觀"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -2089,7 +2123,7 @@ msgstr "學院"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "aerial photography of brown and gray sand"
-msgstr ""
+msgstr "啡色及灰色細沙的航拍照片"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -2099,27 +2133,27 @@ msgstr "及"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "blue and white floral logo"
-msgstr ""
+msgstr "藍白色的花卉圖案標誌"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "by <em>Emily Carr</em>"
-msgstr ""
+msgstr "作者：<em>Emily Carr</em>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "by <em>John Doe</em>"
-msgstr ""
+msgstr "作者：<em>John Doe</em>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "by <em>Sophia Turner</em>"
-msgstr ""
+msgstr "作者：<em>Sophia Turner</em>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "by <em>The Art Curators</em>"
-msgstr ""
+msgstr "創作者：藝術策展者<em></em>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -2130,28 +2164,28 @@ msgstr "使用說明"
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "gray and blue illustration"
-msgstr ""
+msgstr "灰色及藍色插圖"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "grayscale photo of man in black jacket holding black smartphone"
-msgstr ""
+msgstr "男子身穿黑色外套、手持黑色智能手機的灰階照片"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "if you need help!"
-msgstr ""
+msgstr "以尋求協助！"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "man in black t-shirt smoking cigarette"
-msgstr ""
+msgstr "男子身穿黑色 T 恤吸煙"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "person foot under painting"
-msgstr ""
+msgstr "畫作下的人腳"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -2161,29 +2195,29 @@ msgstr "預約功能示範"
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "teal and grey textile"
-msgstr ""
+msgstr "藍綠色及灰色紡織品"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "woman covering her body"
-msgstr ""
+msgstr "女子正遮掩自己的身體"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "woman illustration painting"
-msgstr ""
+msgstr "女子插圖畫"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
 msgid "woman in black shirt sitting on chair"
-msgstr ""
+msgstr "女子身穿黑色襯衫坐在椅子上"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "woman with hands tied"
-msgstr ""
+msgstr "女人雙手被綁住"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "—&amp;nbsp;Edgar Degas"
-msgstr ""
+msgstr "— Edgar Degas"
