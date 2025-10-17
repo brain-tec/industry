@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-13 08:16+0000\n"
-"PO-Revision-Date: 2025-10-15 03:01+0000\n"
+"PO-Revision-Date: 2025-10-17 03:00+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/architects/es_419/>\n"
@@ -155,6 +155,10 @@ msgid ""
 "exceptional designs through strategic planning and fostering long-term "
 "client partnerships.</span>"
 msgstr ""
+"<span class=\"h3-fs\">Nuestro enfoque está basado en la creatividad y la "
+"innovación. Lo que empezó como un pequeño equipo ha evolucionado a un "
+"estudio dedicado a entregar los mejores diseños con planificación "
+"estratégica y que promueve relaciones duraderas con sus clientes.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -242,6 +246,14 @@ msgid ""
 "created when the quotation is sent)\n"
 "            </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"                Se crearon acciones automatizadas para que creen actividades "
+"en el momento correcto. Por ejemplo, cuando hay una nueva oportunidad, el "
+"sistema crea una acción para llamar al cliente; cuando la oportunidad llega "
+"a la etapa \"Requiere análisis\", el sistema genera una acción\n"
+"                pendiente para el análisis; al enviar una cotización, crea "
+"un recordatorio para cancelar la oportunidad.\n"
+"            </span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -252,6 +264,12 @@ msgid ""
 "template (services and quantities can be suited to the client's request)\n"
 "            </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"                Desde la oportunidad puedes crear una cotización con el "
+"botón \"Crear cotización\" y una de las plantillas de cotización "
+"predefinidas (los servicios y cantidades se adaptan a la solicitud del "
+"cliente).\n"
+"            </span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -260,6 +278,9 @@ msgid ""
 "already been created and can be edited to match the architects' services.</"
 "span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">Ya hay un conjunto de servicios "
+"arquitectónicos que puedes editar para ajustarlo a los servicios del "
+"arquitecto.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -267,6 +288,10 @@ msgid ""
 "<span style=\"font-size: 14px;\">Leads get created in the CRM by filling the "
 "\"Contact us\" form of the website or manually by the salesperson.</span>"
 msgstr ""
+"<span style=\"font-size: 14px;"
+"\">Los leads de CRM se crean al completar el formulario \"Contáctanos\" del "
+"sitio web o también es posible que los cree una persona de ventas de forma "
+"manual.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -276,6 +301,10 @@ msgid ""
 "customer. A set of tasks are created in this project, based on the sale "
 "order lines.</span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">Gracias a la configuración de los "
+"servicios, el sistema un proyecto de forma automática una vez que el cliente "
+"confirma la cotización. En este proyecto se generan varias tareas según las "
+"líneas de la orden de venta.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -285,6 +314,10 @@ msgid ""
 "the address or with the geolocation if there's no assigned address yet)</"
 "span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">También hay una vista de mapa para los "
+"proyectos, los cuales se asignan a un usuario según la ubicación del "
+"proyecto. Esto dependerá de una dirección o geolocalización si todavía no "
+"hay una dirección asignada.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -295,6 +328,12 @@ msgid ""
 "development, worksite follow-up, energy efficiency assessment.\n"
 "            </span>"
 msgstr ""
+"<span style=\"font-size: 16px;\">\n"
+"                Esta industria está creada para los estudios de arquitectura "
+"que venden todo tipo de servicios arquitectónicos como estudios de "
+"viabilidad, diseño esquemático, diseños preliminares, desarrollo de diseño, "
+"seguimiento de obra y evaluación de la eficiencia energética.\n"
+"            </span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -337,6 +376,16 @@ msgid ""
 "style=\"width: 40px;\" class=\"oe-tabs\"> </span>​documents.\n"
 "            </span>"
 msgstr ""
+"<span style=\"width: 40px;\" class=\"oe-tabs\"> </span>​\n"
+"            <span style=\"font-size: 14px;\">\n"
+"                Usa la aplicación Documentos para almacenar y compartir "
+"todos los documentos del proyecto. Se crearán espacios de trabajos "
+"secundarios para cada proyecto <span style=\"width: 40px;\" class=\"oe-tabs\""
+"> </span>​y puedes compartir un enlace a estos subespacios con los clientes "
+"para que\n"
+"                tengan acceso directo a todos los documentos <span style="
+"\"width: 40px;\" class=\"oe-tabs\"> </span>​generados.\n"
+"            </span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -372,22 +421,22 @@ msgstr ""
 #. module: architects
 #: model:planning.role,name:architects.planning_role_1
 msgid "Architect"
-msgstr ""
+msgstr "Arquitecto"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Architect Industry"
-msgstr ""
+msgstr "Sector de arquitectura"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Architect industry"
-msgstr ""
+msgstr "Sector de arquitectura"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Architectural Designer"
-msgstr ""
+msgstr "Diseñador arquitectónico"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_15
@@ -423,7 +472,7 @@ msgstr "Estudio BIM"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Ben Cole"
-msgstr ""
+msgstr "Ben Cole"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_37_product_template
@@ -434,7 +483,7 @@ msgstr "Permiso de construcción"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Business flows"
-msgstr ""
+msgstr "Flujos empresariales"
 
 #. module: architects
 #: model:ir.model.fields,field_description:architects.project_cadastral_number
@@ -455,7 +504,7 @@ msgstr ""
 #: model:documents.document,name:architects.documents_document_32
 #: model:sale.order.template.line,name:architects.sale_order_template_line_16
 msgid "Construction Phase"
-msgstr ""
+msgstr "Fase de construcción"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_29
@@ -465,7 +514,7 @@ msgstr ""
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
 msgid "Contact Us"
-msgstr ""
+msgstr "Contáctanos"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -490,7 +539,7 @@ msgstr ""
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Create quote"
-msgstr ""
+msgstr "Crear cotización"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_24_product_template
@@ -500,7 +549,7 @@ msgstr ""
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_13
 msgid "Design Phases"
-msgstr ""
+msgstr "Fases de diseño"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_21
@@ -520,7 +569,7 @@ msgstr ""
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Evan Ray"
-msgstr ""
+msgstr "Evan Ray"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_38_product_template
@@ -548,17 +597,21 @@ msgid ""
 "Get in touch with your customers to provide them with better service. You "
 "can modify the form fields to gather more precise information."
 msgstr ""
+"Contacta a tus clientes para ofrecerles un mejor servicio. Puedes modificar "
+"los campos del formulario para recopilar información más precisa."
 
 #. module: architects
 #. odoo-javascript
 #: code:addons/architects/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"Ponte al día y descubre nuestras recomendaciones para aprovechar Odoo al "
+"máximo."
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_17
 msgid "Handover"
-msgstr ""
+msgstr "Entrega"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_23_product_template
@@ -588,17 +641,17 @@ msgstr "No es la ubicación de un proyecto"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Jane Ford"
-msgstr ""
+msgstr "Jane Ford"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Lead Architect"
-msgstr ""
+msgstr "Arquitecto principal"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
 msgid "Let's Connect"
-msgstr ""
+msgstr "Hablemos..."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -608,12 +661,12 @@ msgstr ""
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Manage leads"
-msgstr ""
+msgstr "Gestionar leads"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Manage projects"
-msgstr ""
+msgstr "Gestionar proyectos"
 
 #. module: architects
 #: model:base.automation,name:architects.base_automation_3
@@ -632,16 +685,18 @@ msgid ""
 "Meet the masterminds behind our firm. With them, your project is in good "
 "hands for sure."
 msgstr ""
+"Conoce a las mentes maestras de nuestro estudio. Tu proyecto está en buenas "
+"manos."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Mia Lee"
-msgstr ""
+msgstr "Mia Lee"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_22
 msgid "Mileage"
-msgstr ""
+msgstr "Kilometraje"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_40_product_template
@@ -671,7 +726,7 @@ msgstr "En curso"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Our portfolio"
-msgstr ""
+msgstr "Nuestro portafolio"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -680,6 +735,10 @@ msgid ""
 "team, we've grown into a firm focused on creating innovative spaces and "
 "building lasting client relationships."
 msgstr ""
+"Nuestra historia comenzó gracias a nuestra pasión por la arquitectura y el "
+"diseño. Empezamos como un pequeño equipo, pero hemos crecido hasta "
+"convertirnos en un estudio enfocado a crear espacios innovadores y construir "
+"relaciones duraderas con nuestros clientes."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -694,7 +753,7 @@ msgstr ""
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_14
 msgid "Permitting"
-msgstr ""
+msgstr "Permisos"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_12
@@ -709,17 +768,17 @@ msgstr "Estudio preliminar "
 #. module: architects
 #: model:documents.document,name:architects.documents_document_24
 msgid "Project Administration"
-msgstr ""
+msgstr "Administración de proyectos"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Project Coordinator"
-msgstr ""
+msgstr "Coordinador de proyectos"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Project Manager"
-msgstr ""
+msgstr "Gerente de proyecto"
 
 #. module: architects
 #: model:ir.model.fields,field_description:architects.crm_lead_project_expected_start_date
@@ -753,6 +812,9 @@ msgid ""
 "Reimbursable expenses not included: Large prints, third-party studies (e.g., "
 "structural, thermal, acoustic), travel outside project zone"
 msgstr ""
+"Gastos reembolsables no incluidos: Impresiones grandes, estudios de terceros "
+"(como estructurales, térmicos, acústicos), viajes fuera de la zona del "
+"proyecto"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.crm_lead_form_customization_architects
@@ -787,7 +849,7 @@ msgstr ""
 #. module: architects
 #: model:documents.document,name:architects.documents_document_25
 msgid "Site Information"
-msgstr ""
+msgstr "Información del sitio"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_42_product_template
@@ -797,7 +859,7 @@ msgstr "Bocetos"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Some of the latest projects we had the pleasure to work on"
-msgstr ""
+msgstr "Algunos de los proyectos más recientes con los que hemos trabajado"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_30
@@ -839,7 +901,7 @@ msgstr ""
 #. module: architects
 #: model:product.template,name:architects.product_product_21_product_template
 msgid "Tendering (ACT)"
-msgstr ""
+msgstr "Licitaciones (ACT)"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -849,7 +911,7 @@ msgstr ""
 #. module: architects
 #: model:appointment.type,name:architects.appointment_type_1
 msgid "Video Call"
-msgstr ""
+msgstr "Videollamada"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -859,11 +921,15 @@ msgid ""
 "provided. Our team is here to help and will respond as soon as possible. "
 "Thank you for getting in touch!"
 msgstr ""
+"¡Nos encantaría saber de ti! Si tienes preguntas, comentarios o necesitas "
+"ayuda, no dudes en comunicarte con nosotros a través de los datos "
+"proporcionados. Nuestro equipo está aquí para apoyarte y responderá lo antes "
+"posible. ¡Gracias por contactarnos!"
 
 #. module: architects
 #: model_terms:web_tour.tour,rainbow_man_message:architects.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr ""
+msgstr "¡Hola! Comienza a explorar."
 
 #. module: architects
 #: model:product.template,name:architects.product_product_45_product_template
@@ -881,6 +947,8 @@ msgid ""
 "Worksite follow-up: Fixed rate assumes standard residential project of <12 "
 "months duration"
 msgstr ""
+"Seguimiento en obra: La tarifa fija supone un proyecto residencial estándar "
+"de menos de 12 meses de duración"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -889,11 +957,14 @@ msgid ""
 "philosophy, or a specific project.<br/> To be successful, your content needs "
 "to resonate with your audience.<br/><br/>"
 msgstr ""
+"Escribe uno o dos párrafos que describan tus servicios de arquitectura, "
+"filosofía de diseño o un proyecto específico.<br/> Tu contenido necesita "
+"resonar con tu audiencia para que sea útil.<br/><br/>"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_36
 msgid "plan.jpg"
-msgstr ""
+msgstr "plan.jpg"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -903,7 +974,7 @@ msgstr ""
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "​Manage documents"
-msgstr ""
+msgstr "Gestionar documentos"
 
 #~ msgid "<b>Architectural Office</b>"
 #~ msgstr "<b>Oficina arquitectónica</b>"

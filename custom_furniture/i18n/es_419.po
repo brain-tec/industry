@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 10:51+0000\n"
-"PO-Revision-Date: 2025-10-02 03:00+0000\n"
+"PO-Revision-Date: 2025-10-17 03:00+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/custom_furniture/es_419/>\n"
@@ -22,8 +22,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
-"0) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: custom_furniture
@@ -98,6 +98,9 @@ msgid ""
 "but the <b>Manufacturing App</b> is the central hub for managing and "
 "planning all production."
 msgstr ""
+"Puedes generar <b>órdenes de fabricación</b> en la <b>aplicación Proyectos</"
+"b>, pero la aplicación encargada de gestionar y planear toda la producción "
+"es <b>Manufactura</b>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -255,6 +258,9 @@ msgid ""
 "<strong>Field Service Automation:</strong> Certain products trigger the "
 "creation of Field Service tasks specifically for onsite installation."
 msgstr ""
+"<strong>Automatización de Servicio externo:</strong> Ciertos productos "
+"generan tareas de Servicio externo específicamente para su instalación en "
+"sitio."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -342,6 +348,9 @@ msgid ""
 "<strong>Sales Order Integration:</strong> Automatically generate project and/"
 "or tasks when certain products are included on a Sales Order."
 msgstr ""
+"<strong>Integración con órdenes de venta:</strong> Genera un proyecto o "
+"tareas de forma automática cuando ciertos productos formen parte de una "
+"orden de venta."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -391,6 +400,15 @@ msgid ""
 "        </strong>\n"
 "        app to get an overview of the progress in terms of:"
 msgstr ""
+"Antes de generar una factura intermedia en la aplicación\n"
+"        <strong>\n"
+"                <font class=\"text-o-color-1\">Facturación</font>\n"
+"        </strong>\n"
+"       , congela el estado del proyecto en la aplicación\n"
+"        <strong>\n"
+"                <font class=\"text-o-color-1\">Proyectos</font>\n"
+"        </strong>\n"
+"        para tener una visión general del progreso en términos de:"
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_1
@@ -464,6 +482,10 @@ msgid ""
 "different projects, an upcoming delivery, a purchase, and various hours to "
 "plan. These are all automated actions based on your product configuration."
 msgstr ""
+"Confirma la cotización. La barra superior indica que el sistema crea "
+"distintas tareas en diferentes proyectos, una entrega próxima, una compra y "
+"varias horas por planificar. Todas estas son acciones automatizadas basadas "
+"en la configuración de tus productos."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -477,6 +499,14 @@ msgid ""
 "on the sales order so you never forget to send an intermediary invoice to "
 "sustain your cash flow."
 msgstr ""
+"Crea un anticipo desde la orden de venta como primer paso de facturación. "
+"Esto generará la primera factura en la aplicación\n"
+"        <strong>\n"
+"                <font class=\"text-o-color-1\"> Facturación </font>\n"
+"        </strong>\n"
+"        , después programa una o varias actividades de "
+"\"Calendario de facturación\" en la orden de venta para que no olvides "
+"enviar las facturas intermedias y mantener tu flujo de efectivo."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -484,6 +514,8 @@ msgid ""
 "Create a new MO for the product to be delivered, adapting components or "
 "operations as needed."
 msgstr ""
+"Crea una nueva orden de fabricación para el producto a entregar y ajusta los "
+"componentes u operaciones según sea necesario."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -493,6 +525,10 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few "
 "minutes."
 msgstr ""
+"Crea un increíble <strong><font class=\"text-o-color-1\">sitio web</font></"
+"strong> y empieza a recibir órdenes directamente en Odoo. Publica tu "
+"<strong><font class=\"text-o-color-1\">tienda en línea</font></strong> en "
+"minutos."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -605,6 +641,8 @@ msgid ""
 "Finally, use the <b>Allocation</b> button to assign the MO to the <b>Sales "
 "Order</b>."
 msgstr ""
+"Por último, usa el botón <b>Asignación</b> para asignar la orden de "
+"fabricación a la <b>orden de venta</b>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -650,6 +688,8 @@ msgstr "Muebles"
 #: code:addons/custom_furniture/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
+"Ponte al día y descubre nuestras recomendaciones para aprovechar Odoo al "
+"máximo."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -715,6 +755,10 @@ msgid ""
 "crucial context, including uploading <b>images</b>, adding <b>documents</b>, "
 "or <b>linking</b> to relevant articles in the Knowledge app."
 msgstr ""
+"En la <b>versión 19.1</b>, este campo utiliza <b>HTML</b>, lo que facilita "
+"compartir el contexto más importante, incluyendo subir <b>imágenes</b>, "
+"agregar <b>documentos</b> o <b>vincular</b> a artículos relevantes en la "
+"aplicación Artículos."
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_19
@@ -743,6 +787,12 @@ msgid ""
 "        orders missing to complete this order. Select everything, and click "
 "on \"Replenish\" &gt; \"Order.\""
 msgstr ""
+"En esta aplicación puedes ver que la entrega aún no está lista para su "
+"envío, ya que no tienes los productos necesarios. Si vas a Operaciones &gt; "
+"Reabastecimiento, encontrarás la lista de órdenes de compra o fabricación "
+"sugeridas\n"
+"        que faltan para completar esta orden. Selecciona todo y haz clic en "
+"\"Reabastecer\" &gt; \"Orden\"."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_2_product_template
@@ -762,7 +812,7 @@ msgstr "Instalador"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Inventory"
-msgstr ""
+msgstr "Inventario"
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_6
@@ -795,6 +845,13 @@ msgid ""
 "Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS "
 "Marketing</font></strong>."
 msgstr ""
+"Gestiona todos tus canales de comunicación desde un solo lugar con las "
+"aplicaciones <strong><font class=\"text-o-color-1\">Automatización de "
+"marketing</font></strong>, <strong><font class=\"text-o-color-1\">Marketing "
+"por correo</font></strong>,\n"
+"                <strong><font class=\"text-o-color-1\">Redes "
+"sociales</font></strong> y <strong><font class=\"text-o-color-1\">Marketing "
+"por SMS</font></strong> de Odoo."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -824,6 +881,9 @@ msgid ""
 "Order has created a Project with a bunch of already configured tasks. Follow "
 "the evolution of your project with tasks, stages, status, and activities."
 msgstr ""
+"Gestiona todos tus proyectos con la aplicación Proyectos. Verás que tu orden "
+"de venta crea un proyecto con varias tareas ya configuradas. Sigue la "
+"evolución de tu proyecto con tareas, etapas, estados y actividades."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -925,6 +985,8 @@ msgid ""
 "Once the <b>project is created</b>, all other necessary activities can be "
 "generated from the <b>top bar</b>."
 msgstr ""
+"Una vez <b>creado el proyecto</b> podrás generar el resto de las actividades "
+"necesarias desde la <b>barra superior</b>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -949,6 +1011,9 @@ msgid ""
 "Organise your events and connect with your customers easily with the "
 "<strong><font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"Organiza tus eventos y comunícate con tus clientes sin ninguna complicación "
+"con la aplicación <strong><font class=\"text-o-color-1\""
+">Eventos</font></strong>."
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_4
@@ -1019,6 +1084,11 @@ msgid ""
 "        customer in the <strong> <font class=\"text-o-color-1\">Contact</"
 "font> </strong> app."
 msgstr ""
+"Aprovecha cada oportunidad. Nuestro <strong><font class=\"text-o-color-1\""
+">CRM</font></strong> centraliza todo y te permite asegurar el seguimiento "
+"eficiente de cada solicitud. Si la solicitud se concreta, crea al\n"
+"        cliente en la aplicación <strong><font class=\"text-o-color-1\""
+">Contactos</font></strong>."
 
 #. module: custom_furniture
 #: model:project.project,label_tasks:custom_furniture.project_project_6
@@ -1034,6 +1104,10 @@ msgid ""
 "installation\n"
 "                validation <b>worksheet</b>."
 msgstr ""
+"El servicio <b>\"Entrega e instalación\"</b> genera una tarea en un proyecto "
+"separado de <b>\"Servicio externo\"</b>. Esta tarea incluye la lista de "
+"todos los productos necesarios del inventario y permite subir una\n"
+"                <b>hoja de trabajo</b> de validación de la instalación."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1041,6 +1115,9 @@ msgid ""
 "The <b>Inventory app</b> is very powerful. If your warehouse needs enhanced "
 "features for better product tracking, consult the"
 msgstr ""
+"La aplicación <b>Inventario</b> es increíblemente útil. Si tu almacén "
+"necesita funciones avanzadas para un mejor seguimiento de productos, "
+"consulta la"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1060,6 +1137,9 @@ msgid ""
 "specific view for your worker to keep track of any task in a particular Work "
 "Center."
 msgstr ""
+"La aplicación Manufactura incluye la aplicación Taller. Esta proporciona una "
+"vista específica para que tus trabajadores puedan llevar seguimiento de "
+"cualquier tarea en los centros de trabajo."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1067,6 +1147,8 @@ msgid ""
 "The Manufacturing App provides the production manager with a comprehensive "
 "overview of products to be created and allows them to manage production by:"
 msgstr ""
+"La aplicación Manufactura le proporciona al gerente de producción una visión "
+"completa de los productos a crear y permite gestionar la producción mediante:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1083,6 +1165,13 @@ msgid ""
 "occur <b>one month prior to the project's final completion date</b>, thereby "
 "automating key deadline setting."
 msgstr ""
+"La plantilla de proyecto está programada del 1 al 31 de diciembre, y la "
+"tarea <b>\"Revisar información técnica del cliente\"</b> está configurada "
+"del 1 al 2 de diciembre. Como resultado, cada proyecto nuevo basado en esta "
+"plantilla tendrá\n"
+"                        esa tarea inicial indispensable programada de forma "
+"automática para <b>un mes antes de la fecha final de entrega del proyecto</"
+"b>, automatizando así la definición de fechas clave."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1098,6 +1187,16 @@ msgid ""
 "                automatically generated in the project's planning system for "
 "the specific role required by each service."
 msgstr ""
+"Los servicios <b>\"Desarrollo de concepto y renderizados 3D\"</b> y <b>"
+"\"Presentación de diseño y revisiones\"</b> crean <b>nuevas tareas</b> de "
+"forma automática dentro del proyecto recién generado. Esto permite que el "
+"proyecto combine\n"
+"                <b>tareas predefinidas de la plantilla del proyecto</b> con "
+"<b>tareas adicionales agregadas desde la cotización</b>. Además, como estos "
+"servicios tienen activada la opción <b>\"Planificar servicios\"</b>, el "
+"sistema de planificación del proyecto\n"
+"                genera un <b>turno de trabajo</b> de forma automática para "
+"la función específica que requiere cada servicio."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1120,6 +1219,9 @@ msgid ""
 "assessment\"</b>) automatically triggers the creation of a <b>Purchase "
 "Order</b>."
 msgstr ""
+"Este servicio subcontratado (<b>"
+"\"Consulta inicial de diseño y evaluación del espacio\"</b>) genera una "
+"<b>orden de compra</b> en automático."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1152,6 +1254,10 @@ msgid ""
 "service initiates a new project using the <b>\"Customer Project Management\" "
 "Template</b>. This template's power lies in its date logic:"
 msgstr ""
+"Al confirmar una orden de venta, el servicio <b>"
+"\"Gestión del proyecto del cliente\"</b> inicia un nuevo proyecto con la "
+"<b>plantilla de gestión de proyectos de cliente</b>. La potencia de esta "
+"plantilla radica en su lógica de fechas:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1159,6 +1265,8 @@ msgid ""
 "Use the <b>settings</b> in the <b>quotation section</b> to <b>control the "
 "visibility</b> of prices and composition"
 msgstr ""
+"Usa los <b>ajustes</b> de la <b>sección de cotización</b> para <b>controlar "
+"la visibilidad</b> de los precios y la composición"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1192,11 +1300,17 @@ msgid ""
 "and\n"
 "        replacements in case of leave."
 msgstr ""
+"Usa la planificación en la aplicación <strong><font class=\"text-o-color-1\">​"
+"Servicio externo</font></strong> para organizar el trabajo de tus empleados. "
+"Define en qué proyecto deben trabajar y cuándo deben hacerlo. Gestiona los "
+"conflictos de turnos, la carga de trabajo y\n"
+"        los reemplazos con facilidad en caso de que alguien esté de "
+"vacaciones o haya pedido algún permiso."
 
 #. module: custom_furniture
 #: model_terms:web_tour.tour,rainbow_man_message:custom_furniture.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr ""
+msgstr "¡Hola! Comienza a explorar."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1206,6 +1320,11 @@ msgid ""
 "<b>Miscellaneous tab</b>. This information will then appear in the\n"
 "                <b>Shop Floor app</b> for the employees to see."
 msgstr ""
+"Cuando una orden de fabricación precisa instrucciones específicas para el "
+"equipo de producción, agrega los detalles en el <b>campo Notas</b> de la "
+"<b>pestaña Varios</b> de la orden correspondiente. Esta información "
+"aparecerá en la\n"
+"                <b>aplicación Taller</b> para que los empleados la vean."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1221,6 +1340,11 @@ msgid ""
 "on the\n"
 "        smart button and validate this picking."
 msgstr ""
+"Cuando termines con tu producción, finalmente podrás entregarle la orden "
+"completa a tu cliente. Para hacerlo, ve a Servicio externo. Desde la tarea "
+"de instalación podrás ver todos los productos que necesitan recolección. Haz "
+"clic\n"
+"        botón inteligente para validar esta recolección."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1248,6 +1372,8 @@ msgid ""
 "<b>customized worksheet</b> and obtain the necessary <b>customer signature</"
 "b>."
 msgstr ""
+"También puedes usar esta tarea de campo para <b>validar</b> una <b>hoja de "
+"trabajo personalizada</b> y obtener la <b>firma del cliente</b> necesaria."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1313,6 +1439,9 @@ msgid ""
 "scanner</b>, and\n"
 "                access many other advanced options."
 msgstr ""
+"documentación para aprender a adaptar <b>ubicaciones</b>, usar el <b>escáner "
+"de códigos de barras</b> y\n"
+"                acceder a muchas otras opciones avanzadas."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
