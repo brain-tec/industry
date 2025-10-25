@@ -3,13 +3,14 @@
 # * guest_house
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 10:00+0000\n"
-"PO-Revision-Date: 2025-09-18 03:01+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
+"POT-Creation-Date: 2025-10-24 12:14+0000\n"
+"PO-Revision-Date: 2025-10-23 08:41+0000\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-19/"
 "guest_house/fr/>\n"
 "Language: fr\n"
@@ -57,6 +58,13 @@ msgid "<em>Don't forget to thank your guests with a warm goodbye!</em>"
 msgstr ""
 "<em>N’oubliez pas de chaleureusement remercier vos invités au moment du "
 "départ !</em>"
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -285,6 +293,13 @@ msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"At any time you can adjust the city tax count delivered by re-opening the "
+"city tax widget clicking the City Tax button on the guest order."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "At the end of their stay, they'll be able to pay for all those extras."
 msgstr "À la fin de leur séjour, ils pourront régler tous ces extras."
 
@@ -301,7 +316,7 @@ msgstr "Réserver une chambre"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_12
 msgid "Breakfast (1 guest)"
-msgstr ""
+msgstr "Petit-déjeuner (1 personne)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -331,6 +346,14 @@ msgstr "Charmante chambre double avec cheminée et vue panoramique."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"Check and adjust if needed the number of guests who stayed in each room. "
+"Then confirm the number of city taxes to be charged, which updates the "
+"delivered city tax count."
+msgstr ""
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Check guests in"
 msgstr "Enregistrement des arrivées"
 
@@ -348,6 +371,13 @@ msgstr "Vérifiez les informations puis confirmez la réservation."
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Check the invoice data and confirm it."
 msgstr "Vérifiez les données de la facture et confirmez."
+
+#. module: guest_house
+#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
+msgid ""
+"City Taxes are to be billed to spent nights in practice and not in theory "
+"and are counted as the sum of nights each guest stayed."
+msgstr ""
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -399,7 +429,7 @@ msgstr "Chambre Confort"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_17
 msgid "Comfy Room (2 guests)"
-msgstr ""
+msgstr "Chambre confort (2 personnes)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -414,7 +444,7 @@ msgstr "Différentes ambiances pour trouver celle qui vous convient"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_20
 msgid "Dinner Plate (1 guest)"
-msgstr ""
+msgstr "Repas du soir (1 personne)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -454,17 +484,10 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
-"Example: A room for 2 is booked for 4 nights, two guest were here for the "
-"first\n"
-"                    three night but onlu one stayed the last night. Then the "
-"guest x nights is\n"
-"                    2x3+1x1=7."
+"Example: A room for 2 is booked for 4 nights, two guests were here for the "
+"first three nights but only one stayed the last night. Then the guests x "
+"nights is 2x3+1x1=7."
 msgstr ""
-"Exemple : Une chambre pour 2 personnes est réservée pour 4 nuits. Deux "
-"invités étaient présents les\n"
-"                    trois premières nuits, mais un seul est resté la "
-"dernière nuit. Le total des nuits x personnes est donc\n"
-"                    2x3+1x1=7."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -489,7 +512,7 @@ msgstr "Chambre avec cheminée"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_14
 msgid "Fireplace Room (2 guests)"
-msgstr ""
+msgstr "Chambre avec cheminée (2 personnes)"
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_11
@@ -538,12 +561,7 @@ msgstr "Chambre Jardin"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_19
 msgid "Garden Room (2 guests)"
-msgstr ""
-
-#. module: guest_house
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
-msgid "Guest House"
-msgstr ""
+msgstr "Chambre vue jardin (2 personnes)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -613,11 +631,6 @@ msgstr "Réservons une chambre !"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "Manage the city tax"
-msgstr "Gérer la taxe de séjour"
-
-#. module: guest_house
-#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Manage your accounting easier than ever with a completely integrated "
 "environment i<font class=\"text-o-color-5\">n </font><strong>\n"
@@ -675,11 +688,6 @@ msgstr ""
 "N’hésitez pas à\n"
 "            ajouter de nouvelles applications, à supprimer ou modifier les "
 "données de démonstration et à tout tester !"
-
-#. module: guest_house
-#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid "On the City Tax line, adjust the number of guest x nights delivered."
-msgstr "Sur la ligne Taxe de séjour, modifiez le nombre de clients × nuits."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -871,7 +879,7 @@ msgstr "Chambre Renaissance"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_16
 msgid "Renaissance Room (2 guests)"
-msgstr ""
+msgstr "Chambre Renaissance (2 personnes)"
 
 #. module: guest_house
 #: model:planning.role,name:guest_house.planning_role_8
@@ -881,7 +889,7 @@ msgstr "Chambre sous les toits"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_18
 msgid "Roof Room (2 guests)"
-msgstr ""
+msgstr "Chambre sous toit (2 personnes)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -943,7 +951,7 @@ msgstr "Chambre studio"
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_15
 msgid "Studious Room (2 guests)"
-msgstr ""
+msgstr "Chambre studio (2 personnes)"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_17
@@ -989,17 +997,6 @@ msgid ""
 msgstr ""
 "Cette fois, laissez simplement une note indiquant le motif de cette "
 "réservation, puis enregistrez le créneau."
-
-#. module: guest_house
-#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid ""
-"Those city tax are now due as well as any other additional services consumed "
-"during the\n"
-"            stay."
-msgstr ""
-"La taxe de séjour et les services additionnels consommés pendant le séjour "
-"sont désormais\n"
-"            à régler."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1127,21 +1124,6 @@ msgstr ""
 "En installant le pack Odoo pour Maison d’hôtes, vous bénéficiez "
 "automatiquement de toutes les\n"
 "            applications nécessaires pour gérer efficacement votre activité."
-
-#. module: guest_house
-#: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
-msgid ""
-"You may have noticed the city tax were added to the guest order from the "
-"moment they\n"
-"            checked in.<br/>This is because city taxes are to be billed to "
-"spent nights in practice\n"
-"            and not in theory.<br/>Let's adjust them now."
-msgstr ""
-"Vous avez peut-être remarqué que la taxe de séjour a été ajoutée à la "
-"réservation\n"
-"            dès l’arrivée du client.<br/>En pratique, les taxes de séjour "
-"sont facturées pour les nuits effectivement passées\n"
-"            et non de manière théorique.<br/>Ajustons-les maintenant."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1294,3 +1276,47 @@ msgstr "🗓️ Gérez les réservations"
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 Accueillez vos clients"
+
+#~ msgid ""
+#~ "Example: A room for 2 is booked for 4 nights, two guest were here for the "
+#~ "first\n"
+#~ "                    three night but onlu one stayed the last night. Then "
+#~ "the guest x nights is\n"
+#~ "                    2x3+1x1=7."
+#~ msgstr ""
+#~ "Exemple : Une chambre pour 2 personnes est réservée pour 4 nuits. Deux "
+#~ "invités étaient présents les\n"
+#~ "                    trois premières nuits, mais un seul est resté la "
+#~ "dernière nuit. Le total des nuits x personnes est donc\n"
+#~ "                    2x3+1x1=7."
+
+#~ msgid "Guest House"
+#~ msgstr "Maison d’hôtes"
+
+#~ msgid "Manage the city tax"
+#~ msgstr "Gérer la taxe de séjour"
+
+#~ msgid "On the City Tax line, adjust the number of guest x nights delivered."
+#~ msgstr "Sur la ligne Taxe de séjour, modifiez le nombre de clients × nuits."
+
+#~ msgid ""
+#~ "Those city tax are now due as well as any other additional services "
+#~ "consumed during the\n"
+#~ "            stay."
+#~ msgstr ""
+#~ "La taxe de séjour et les services additionnels consommés pendant le "
+#~ "séjour sont désormais\n"
+#~ "            à régler."
+
+#~ msgid ""
+#~ "You may have noticed the city tax were added to the guest order from the "
+#~ "moment they\n"
+#~ "            checked in.<br/>This is because city taxes are to be billed "
+#~ "to spent nights in practice\n"
+#~ "            and not in theory.<br/>Let's adjust them now."
+#~ msgstr ""
+#~ "Vous avez peut-être remarqué que la taxe de séjour a été ajoutée à la "
+#~ "réservation\n"
+#~ "            dès l’arrivée du client.<br/>En pratique, les taxes de séjour "
+#~ "sont facturées pour les nuits effectivement passées\n"
+#~ "            et non de manière théorique.<br/>Ajustons-les maintenant."
