@@ -1,48 +1,57 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* handyman
-# 
+# * handyman
+#
 # Translators:
 # Ujjawal Pathak, 2025
-# 
+#
+# "Ujjawal Pathak (pauj)" <pauj@odoo.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-12 06:58+0000\n"
-"PO-Revision-Date: 2025-05-09 12:50+0000\n"
-"Last-Translator: Ujjawal Pathak, 2025\n"
-"Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+"PO-Revision-Date: 2025-11-03 18:50+0000\n"
+"Last-Translator: \"Ujjawal Pathak (pauj)\" <pauj@odoo.com>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-s18-3/"
+"handyman/hi/>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Handyman Services</strong></span>"
 msgstr ""
+"<span class=\"display-4-fs\"><strong>मरम्मत वाले काम (हैंडमैन "
+"सर्विस)</strong></span>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -52,56 +61,63 @@ msgstr "<span class=\"h1-fs\">बेसिक</span>"
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.project_project_form_custom
 #: model_terms:ir.ui.view,arch_db:handyman.project_task_form_custom
+#, fuzzy
 msgid "<span class=\"ml4\">(</span>"
-msgstr ""
+msgstr "<span class=\"ml4\">(</span>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.project_project_form_custom
 #: model_terms:ir.ui.view,arch_db:handyman.project_task_form_custom
+#, fuzzy
 msgid "<span>)</span>"
 msgstr "<span>)</span>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "<strong><span class=\"h2-fs\">Tips for Success</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h2-fs\">सफलता के लिए सुझाव</span></strong>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "<strong>Maintain Customer Relations</strong>"
-msgstr ""
+msgstr "<strong>ग्राहक के साथ संबंध बनाए रखें</strong>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "<strong>Optimize Your Schedule</strong>"
-msgstr ""
+msgstr "<strong>अपना शेड्यूल बेहतर बनाएं</strong>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "<strong>Standardize Your Services</strong>"
-msgstr ""
+msgstr "<strong>अपनी सेवाएं बेहतर बनाएं</strong>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "<strong>Stay Organized</strong>"
-msgstr ""
+msgstr "<strong>व्यवस्थित रहें</strong>"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid ""
 "Add <strong>SMS Marketing</strong> to send appointment reminders and follow-"
 "ups"
 msgstr ""
+"अपॉइंटमेंट रिमाइंडर और फ़ॉलो-अप भेजने के लिए <strong>एसएमएस मार्केटिंग</strong> जोड़ें"
 
 #. module: handyman
 #: model:base.automation,name:handyman.base_automation_create_move_line
 msgid "Add Analytic Account to new accout move lines"
-msgstr ""
+msgstr "नए अकाउंट मूव लाइन में एनालिटिक अकाउंट जोड़ें"
 
 #. module: handyman
 #: model:ir.actions.server,name:handyman.action_add_default_analytic_account
 msgid "Add default analytic account"
-msgstr ""
+msgstr "डिफ़ॉल्ट एनालिटिक अकाउंट जोड़ें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -109,83 +125,85 @@ msgid ""
 "Add the <strong>Website</strong> app to showcase your services and allow "
 "online booking"
 msgstr ""
+"अपनी सेवाओं को दिखाने और ऑनलाइन बुकिंग की अनुमति देने के लिए <strong>वेबसाइट</strong> "
+"ऐप जोड़ें"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.field_allocated_hours
 msgid "Allocated"
-msgstr ""
+msgstr "बांटा गया"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.new_material_budget_related_field
 #: model:ir.model.fields,field_description:handyman.x_various_materials_budget_project
 msgid "Allocated Budget"
-msgstr ""
+msgstr "तय किया गया बजट"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Analyse job profitability"
-msgstr ""
+msgstr "जांच करें कि किसी काम या प्रोजेक्ट में कितना फ़ायदा या नुकसान हो रहा है"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Appointment Scheduling 📅"
-msgstr ""
+msgstr "अपॉइंटमेंट शेड्यूल करना 📅"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Assign jobs to technicians based on skills and location"
-msgstr ""
+msgstr "टेक्निशियन को स्किल और जगह के आधार पर काम सौंपें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Build detailed estimates for complex jobs"
-msgstr ""
+msgstr "मुश्किल कामों के लिए पूरी लागत का अनुमान बनाएं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Build in buffer time for emergencies"
-msgstr ""
+msgstr "आपात स्थितियों के लिए अतिरिक्त समय (बफ़र टाइम) बनाएं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Capture and qualify new service requests"
-msgstr ""
+msgstr "नई सेवा अनुरोधों को कैप्चर करें और उनकी योग्यता तय करें"
 
 #. module: handyman
 #: model:product.template,name:handyman.product_product_14_product_template
 msgid "Casa Moro Daya FL7240 Hand Painted Moroccan Ceramic Tiles 10 x 10 cm"
-msgstr ""
+msgstr "Casa Moro Daya FL7240 Hand Painted Moroccan Ceramic Tiles 10 x 10 सेमी"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.field_related_analytic_account_debit
 #: model:ir.model.fields,field_description:handyman.x_vendor_bills_field
 msgid "Costs"
-msgstr ""
+msgstr "कीमत"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Create and track service tickets for each job request"
-msgstr ""
+msgstr "हर नौकरी अनुरोध के लिए सर्विस टिकट बनाएं और ट्रैक करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Create professional quotes with the <strong>Sales</strong> app"
-msgstr ""
+msgstr "<strong>सेल्स</strong> ऐप्लिकेशन की मदद से प्रोफ़ेशनल कोटेेशन बनाएं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Create templates for common jobs"
-msgstr ""
+msgstr "आम कामों के लिए टेंपलेट बनाएं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Customer Management (CRM) 🤝"
-msgstr ""
+msgstr "कस्टमर मैनेजमेंट (सीआरएम) 🤝"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Define your availability and working hours"
-msgstr ""
+msgstr "अपनी उपलब्धता और काम के घंटे तय करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -195,67 +213,67 @@ msgstr "क्या आप और जानना चाहते हैं?"
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Document all client communications"
-msgstr ""
+msgstr "सभी ग्राहक बातचीत को रिकॉर्ड करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Document standard procedures"
-msgstr ""
+msgstr "मानक प्रक्रियाओं को लिखकर रिकॉर्ड करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Document work with photos and detailed notes"
-msgstr ""
+msgstr "काम को फ़ोटो और पूरी जानकारी के साथ रिकॉर्ड करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Enable online booking for clients"
-msgstr ""
+msgstr "ग्राहकों के लिए ऑनलाइन बुकिंग चालू करें"
 
 #. module: handyman
 #: model:ir.actions.server,name:handyman.action_add_section_task_name
 msgid "Execute Code"
-msgstr ""
+msgstr "कोड चलाएं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Field Service Operations 🔧"
-msgstr ""
+msgstr "फ़ील्ड सर्विस ऑपरेशन 🔧"
 
 #. module: handyman
 #: model:product.template,name:handyman.product_product_5_product_template
 msgid "Fixed Price"
-msgstr ""
+msgstr "एक ही कीमत"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Follow up after service completion"
-msgstr ""
+msgstr "सेवा पूरी होने के बाद फ़ॉलो अप करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Follow up on quotes and maintenance reminders"
-msgstr ""
+msgstr "कोटेशन और मेंटनेंस रिमाइंडर पर फ़ॉलो अप करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Generate accurate billing based on time"
-msgstr ""
+msgstr "समय के आधार पर सटीक बिलिंग जनरेट करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Generate on-site work orders and completion reports"
-msgstr ""
+msgstr "ऑन-साइट काम के ऑर्डर और पूरी होने की रिपोर्ट जनरेट करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Generate professional-looking documents"
-msgstr ""
+msgstr "प्रोफ़ेशनल दिखने वाले दस्तावेज़ जनरेट करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Group jobs by location to reduce travel time"
-msgstr ""
+msgstr "यात्रा का समय कम करने के लिए कामों को जगह के हिसाब से ग्रुप करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -263,8 +281,7 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
-"अगर आपको इस पैकेज की सारी सुविधाएं देखनी हैं, तो डेमो डेटा डाउनलोड करके "
-"देखें."
+"अगर आपको इस पैकेज की सारी सुविधाएं देखनी हैं, तो डेमो डेटा डाउनलोड करके देखें।"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -273,16 +290,19 @@ msgid ""
 "management, it provides a comprehensive three-way tracking of your "
 "performance, allowing you to manage your business more precisely than ever."
 msgstr ""
+"ग्राहक से मिलने वाली रेटिंग और काम में लगाए गए समय के रिकॉर्ड (टाइमशीट) के साथ, यह सिस्"
+"टम आपके प्रदर्शन पर तीन अलग-अलग तरीकों से पूरी तरह नज़र रखता है. इस तरह, आप अपने व्यापा"
+"र को पहले से कहीं ज़्यादा सही तरीके से मैनेज और कंट्रोल कर सकते हैं।"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Include materials and labor costs"
-msgstr ""
+msgstr "सामग्री और मजदूरी की लागत शामिल करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Inventory &amp; Purchases Management 🛠️"
-msgstr ""
+msgstr "इन्वेंट्री &amp; परचेज़ मैनेजमेंट 🛠️"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -290,65 +310,65 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
 msgstr ""
-"ध्यान रखें कि एक बार डेमो डेटा अगर डाल दिया, तो उसे आसानी से हटाया नहीं जा "
-"सकता. हालांकि, आप चाहें तो एकदम नया डेटाबेस फिर से शुरू कर सकते हैं."
+"ध्यान रखें कि एक बार डेमो डेटा अगर डाल दिया, तो उसे आसानी से हटाया नहीं जा सकता. "
+"हालांकि, आप चाहें तो एकदम नया डेटाबेस फिर से शुरू कर सकते हैं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Keep detailed job notes"
-msgstr ""
+msgstr "काम की पूरी जानकारी रखें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Keep track of time spent on jobs with <strong>Timesheets</strong>"
-msgstr ""
+msgstr "<strong>टाइमशीट</strong> से कामों पर खर्च किए गए समय पर नज़र रखें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Keep your calendar updated"
-msgstr ""
+msgstr "अपना कैलेंडर अपडेट रखें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Learn more"
-msgstr ""
+msgstr "ज़्यादा जानें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Log time spent on each service call"
-msgstr ""
+msgstr "हर सर्विस कॉल पर खर्च किए गए समय को लॉग करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid ""
 "Manage your tools and equipment with the <strong>Inventory</strong> app"
-msgstr ""
+msgstr "<strong>इन्वेंट्री</strong> ऐप से अपने टूल और उपकरण मैनेज करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.project_project_form_custom
 #: model_terms:ir.ui.view,arch_db:handyman.project_task_form_custom
 msgid "Materials"
-msgstr ""
+msgstr "सामग्री"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.account_move_form_custom
 msgid "Misc"
-msgstr ""
+msgstr "विविध"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Monitor technician productivity"
-msgstr ""
+msgstr "तकनीशियन की कार्यक्षमता को मॉनिटर करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Monitor tool assignments to technicians"
-msgstr ""
+msgstr "तकनीशियनों को टूल असाइन करने पर नज़र रखें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Monitor your sales pipeline"
-msgstr ""
+msgstr "अपनी सेल्स पाइपलाइन पर नज़र रखें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -356,6 +376,7 @@ msgid ""
 "Odoo offers additional possibilities to enhance your handyman services "
 "business:"
 msgstr ""
+"Odoo आपके हैंडमैन सर्विस बिज़नेस को बेहतर बनाने के लिए अतिरिक्त सुविधाएं देता है:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -365,22 +386,22 @@ msgstr "Odoo.com/trial"
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.x_percent_bills_1_field
 msgid "Percent bills"
-msgstr ""
+msgstr "प्रतिशत वाले बिल"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.x_percent_material_spent_field
 msgid "Percent budget"
-msgstr ""
+msgstr "परसेंट बजट"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.x_percent_time_spent_field
 msgid "Percent time"
-msgstr ""
+msgstr "प्रतिशत समय"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Process material receipts and returns"
-msgstr ""
+msgstr "सामग्री आने और वापस करने को प्रोसेस करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -395,108 +416,111 @@ msgstr "नया वेंडर बिल रिकॉर्ड करें"
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Request reviews from satisfied clients"
-msgstr ""
+msgstr "उन ग्राहकों से फ़ीडबैक का अनुरोध करें जो आपकी सेवाएं से खुश हैं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Sales &amp; Quoting 💰"
-msgstr ""
+msgstr "सेल्स &amp; कोटेशन 💰"
 
 #. module: handyman
 #: model:product.template,name:handyman.product_product_13_product_template
+#, fuzzy
 msgid "Samsung NV68A1170BS_EC Multifunction Oven"
-msgstr ""
+msgstr "Samsung NV68A1170BS_EC Multifunction Oven"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.x_section_id_field
 msgid "Section ID"
-msgstr ""
+msgstr "सेक्शन आईडी"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Send automatic reminders and confirmations"
-msgstr ""
+msgstr "अपने-आप रिमाइंडर और पुष्टि भेजें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Send maintenance reminders"
-msgstr ""
+msgstr "मेंटेनेंस के रिमाइंडर भेजें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Set reordering points for common supplies"
-msgstr ""
+msgstr "आम सामानों के लिए फिर से ऑर्डर करने के पॉइंट सेट करें"
 
 #. module: handyman
 #: model:base.automation,name:handyman.base_automation_3
 msgid "Set section name in task name"
-msgstr ""
+msgstr "टास्क के नाम में सेक्शन का नाम सेट करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Set up different appointment types for various services"
-msgstr ""
+msgstr "विभिन्न सेवाओं के लिए अलग-अलग अपॉइंटमेंट के प्रकार सेट करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Set up standard pricing for common services"
-msgstr ""
+msgstr "आम सेवाओं के लिए तय कीमत सेट करें"
 
 #. module: handyman
 #: model:product.template,name:handyman.product_product_6_product_template
 msgid "Smooth Soundproof Armored Door Class 3"
-msgstr ""
+msgstr "स्मूद साउंडप्रूफ़ आर्मर्ड डोर क्लास 3"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.field_effective_hours
 msgid "Spent"
-msgstr ""
+msgstr "खर्च किया गया"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Store detailed customer history and preferences"
-msgstr ""
+msgstr "ग्राहक का पूरा इतिहास और पसंद स्टोर करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "Take before and after photos"
-msgstr ""
+msgstr "पहले और बाद की फ़ोटो लें"
 
 #. module: handyman
 #: model:ir.model.fields,field_description:handyman.related_x_task_field
 #: model:ir.model.fields,field_description:handyman.x_task_field
 msgid "Task"
-msgstr ""
+msgstr "टास्क"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "The Appointment app streamlines your booking process:"
-msgstr ""
+msgstr "अपॉइंटमेंट ऐप आपकी बुकिंग प्रोसेस को आसान बनाता है:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "The CRM app helps track leads and manage customer relationships:"
 msgstr ""
+"सीआरएम ऐप लीड को ट्रैक करने और ग्राहक संबंधों को मैनेज करने में मदद करता है:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "The Field Service app is your central hub for managing jobs:"
-msgstr ""
+msgstr "फ़ील्ड सर्विस ऐप कामों को मैनेज करने का आपका मुख्य केंद्र है:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "The Inventory and Purchase apps help manage your tools and supplies:"
 msgstr ""
+"इन्वेंट्री और परचेज़ ऐप आपके टूल और सप्लाय को मैनेज करने में मदद करते हैं:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "The Sales app helps create professional quotes:"
-msgstr ""
+msgstr "सेल्स ऐप पेशेवर कोटेशन बनाने में मदद करता है:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "The Timesheet app helps monitor job efficiency:"
-msgstr ""
+msgstr "टाइमशीट ऐप काम की कुशलता पर नज़र रखने में मदद करता है:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -505,78 +529,100 @@ msgid ""
 "Service App, ensuring better tracking of the budget for material "
 "consumption."
 msgstr ""
+"यह मॉड्यूल फ़ील्ड सर्विस ऐप से सीधे वेंडर बिल बनाने की सुविधा को बेहतर बनाता है, जिससे "
+"सामग्री की खपत के लिए बजट की बेहतर ट्रैकिंग सुनिश्चित होती है।"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid ""
 "These features can be added to your current subscription. Feel free to "
 "explore and expand your Odoo experience!"
 msgstr ""
+"ये सुविधाएं आपकी मौजूदा सदस्यता में जोड़ी जा सकती हैं. बेझिझक Odoo का और भी बेहतर अनुभव "
+"पाने के लिए इसे जानें और फ़ायदा उठाएं!"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.project_project_form_custom
 #: model_terms:ir.ui.view,arch_db:handyman.project_task_form_custom
 msgid "Time"
-msgstr ""
+msgstr "समय"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Time Tracking ⏱️"
-msgstr ""
+msgstr "टाइम ट्रैकिंग ⏱️"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Track leads and opportunities with the <strong>CRM</strong> app"
-msgstr ""
+msgstr "<strong>सीआरएम</strong> ऐप से लीड और अवसर ट्रैक करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Track ongoing opportunities and estimates"
-msgstr ""
+msgstr "चल रहे अवसरों और अनुमानों को ट्रैक करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Track parts and materials used on each job"
-msgstr ""
+msgstr "हर काम में इस्तेमाल हुए पुर्ज़े और सामग्री को ट्रैक करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Track quote acceptance and conversion rates"
 msgstr ""
+"इस बात पर नज़र रखें कि ग्राहकों द्वारा आपके कितने कोटेशन स्वीकार किए गए हैं और वे कितने "
+"संभावित ग्राहक से असली ग्राहक में बदले हैं"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Track travel time between jobs"
-msgstr ""
+msgstr "नौकरी के बीच आने-जाने का समय ट्रैक करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Track warranties and follow-ups"
-msgstr ""
+msgstr "वारंटी और फ़ॉलो-अप को ट्रैक करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Track your equipment and materials inventory"
-msgstr ""
+msgstr "अपने उपकरण और सामग्री इन्वेंट्री ट्रैक करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid ""
 "Use <strong>Documents</strong> to store warranties, manuals, and client "
 "documents"
 msgstr ""
+"वारंटी, मैन्युअल और क्लाइंट के दस्तावेज़ों को स्टोर करने के लिए, <strong>दस्तावेज़</strong> का"
+" इस्तेमाल करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid "Use checklists for quality control"
-msgstr ""
+msgstr "क्वालिटी कंट्रोल के लिए चेकलिस्ट का इस्तेमाल करें"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid ""
 "Use the <strong>Field Service</strong> app to manage service requests, "
 "schedule jobs, and track completion"
 msgstr ""
+"सेवा के अनुरोधों को मैनेज करने, कामों को शेड्यूल करने और उन्हें ट्रैक करने के लिए <strong>फ़ील्ड "
+"सर्विस</strong> ऐप का इस्तेमाल करें"
 
 #. module: handyman
 #: model:ir.actions.act_window,name:handyman.action_vendor_bill_button
@@ -596,7 +642,7 @@ msgstr ""
 "वेंडर के बिल परचेज़ ऑर्डर या \n"
 "रसीदों से पहले ही बन सकते हैं, \n"
 "जिससे आप Odoo में ड्राफ्ट बिल के हिसाब से वेंडर से \n"
-"मिले बिलों को कंट्रोल कर सकते हैं."
+"मिले बिलों को कंट्रोल कर सकते हैं।"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -605,30 +651,34 @@ msgid ""
 "manage your handyman business efficiently, from scheduling jobs to invoicing"
 " clients."
 msgstr ""
+"आपके Odoo हैंडमैन सर्विसेज पैकेज में आपका स्वागत है! यह गाइड आपको जॉब शेड्यूल करने से लेकर "
+"ग्राहकों को इनवॉइस भेजने तक अपने हैंडमैन बिज़नेस को कुशलता से मैनेज करने में मदद करेगी।"
 
 #. module: handyman
 #: model:planning.role,name:handyman.planning_role_1
 msgid "Worker"
-msgstr ""
+msgstr "वर्कर"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr " क्या आप Odoo सेटअप पर बात करना चाहेंगे या और फ़ीचर्स देखना चाहेंगे?"
+msgstr "क्या आप Odoo सेटअप पर बात करना चाहेंगे या और फ़ीचर्स देखना चाहेंगे?"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
-msgstr ""
-"आप यह काम 'ऐप्लिकेशन' में जाकर अपना पैकेज अपग्रेड करके भी कर सकते हैं."
+msgstr "आप यह काम 'ऐप्लिकेशन' में जाकर अपना पैकेज अपग्रेड करके भी कर सकते हैं।"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
+#, fuzzy
 msgid ""
 "You may want to use the quote calculator feature to compute your material "
 "cost without detailing everything in your quotation."
 msgstr ""
+"आप कोटेशन कैलकुलेटर सुविधा का इस्तेमाल कर सकते हैं, ताकि आपको अपनी कोटेशन में सभी चीज़ों का "
+"विवरण दिए बिना, सामग्री की लागत की गणना कर सकें।"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
@@ -636,28 +686,29 @@ msgid ""
 "Your Odoo Handyman Services package includes essential apps to streamline "
 "your operations:"
 msgstr ""
+"आपका Odoo हैंडमैन पैकेज ज़रूरी ऐप्लिकेशन शामिल करता है, जो आपके काम को आसान बनाएंगे:"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "🎓 CRM"
-msgstr "🎓 CRM"
+msgstr "🎓 सीआरएम"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "🎓 Field Service"
-msgstr ""
+msgstr "🎓 फ़ील्ड सर्विस"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "🎓 Inventory"
-msgstr ""
+msgstr "🎓 इन्वेंट्री"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "🎓 Sales"
-msgstr "🎓 Sales"
+msgstr "🎓 सेल्स"
 
 #. module: handyman
 #: model_terms:ir.ui.view,arch_db:handyman.welcome_article_body
 msgid "🎓 Timesheets"
-msgstr ""
+msgstr "🎓 टाइमशीट"
