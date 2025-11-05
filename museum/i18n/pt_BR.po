@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-22 15:21+0000\n"
-"PO-Revision-Date: 2025-10-30 23:30+0000\n"
+"PO-Revision-Date: 2025-11-03 19:50+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s18-4/museum/pt_BR/>\n"
@@ -928,7 +928,7 @@ msgstr ""
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Saiba mais sobre o Odoo mergulhando no"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
@@ -936,26 +936,31 @@ msgid ""
 "Discover quick answers to common questions about our exhibits, events, and "
 "visitor policies."
 msgstr ""
+"Veja respostas rápidas para perguntas frequentes sobre nossas exposições, "
+"eventos e políticas para visitantes."
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_1
 msgid "Discover stunning artworks that transform your space."
-msgstr ""
+msgstr "Descubra obras de arte impressionantes que transformam o seu espaço."
 
 #. module: museum
 #: model:product.template,name:museum.product_product_29_product_template
 msgid "Display Rights"
-msgstr ""
+msgstr "Direitos de exibição"
 
 #. module: museum
 #: model:product.template,description_pickingout:museum.product_product_18_product_template
 msgid "Displayed temporarily – handle with care during transfers."
 msgstr ""
+"Exibido temporariamente – manuseie com cuidado durante as transferências."
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_6
 msgid "Dive into art history with our curated selection of books."
 msgstr ""
+"Mergulhe na história da arte com nossa seleção de livros cuidadosamente "
+"escolhidos."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -963,26 +968,31 @@ msgid ""
 "Don't forget to set product categories on your products and assign them to the right Point of Sale. In the POS settings, use <strong>Restrict Categories</strong> to control which product categories are shown at each sales point,\n"
 "                    like tickets at the entrance and souvenirs in the shop."
 msgstr ""
+"Não se esqueça de definir categorias de produtos para seus produtos e "
+"atribuí-los ao ponto de venda correto. Nas configurações do PDV, use "
+"<strong>Restringir categorias</strong> para controlar quais categorias de "
+"produtos são exibidas em cada ponto de venda,\n"
+"                    como ingressos na entrada e lembranças na loja."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.donations
 msgid "Donate now"
-msgstr ""
+msgstr "Faça uma doação agora"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_17
 msgid "Donator"
-msgstr ""
+msgstr "Doador"
 
 #. module: museum
 #: model:website.menu,name:museum.website_menu_14
 msgid "EXHIBITIONS"
-msgstr ""
+msgstr "EXPOSIÇÕES"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Each staff member sees their schedule in their portal or by email."
-msgstr ""
+msgstr "Cada funcionário pode ver sua programação no portal ou por e-mail."
 
 #. module: museum
 #: model_terms:event.event,description:museum.event_event_4
@@ -990,16 +1000,18 @@ msgid ""
 "Early closure at <strong>3:00 PM</strong> on <strong>August 1</strong> and "
 "<strong>October 8, 2025</strong>"
 msgstr ""
+"Encerramento antecipado às <strong>15h00</strong> em <strong>1 de agosto</"
+"strong> e <strong>8 de outubro 2025</strong>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
 msgid "Echoes in Grey&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Ecos em cinza&amp;nbsp;<br/>"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Embed the same <strong>Museum Entrance</strong> event on your website."
-msgstr ""
+msgstr "Incorpore o mesmo evento <strong>Entrada do museu</strong> no seu site."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1007,11 +1019,13 @@ msgid ""
 "Enable <strong>online ticketing</strong> by embedding entry offers or event "
 "pages with booking options. (see above)"
 msgstr ""
+"Habilite a <strong>venda de ingressos online</strong> incorporando ofertas "
+"de entrada ou páginas de eventos com opções de reserva. (veja acima)"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid "Enable “Multiple Slots”."
-msgstr ""
+msgstr "Ative “Várias faixas de horário”."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1020,6 +1034,10 @@ msgid ""
 " Collection</strong></font> feature by embedding interactive 3D images of "
 "artworks using iframe for an engaging visitor experience."
 msgstr ""
+"Melhore o seu site com o recurso <font class=\"text-o-color-1\""
+"><strong>Coleção Digital</strong></font>, incorporando imagens 3D "
+"interativas de obras de arte usando iframe para proporcionar uma experiência "
+"envolvente aos visitantes."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1027,37 +1045,39 @@ msgid ""
 "Entrance staff, security teams, guides; everyone needs to know where they "
 "should be and when."
 msgstr ""
+"Funcionários da entrada, equipes de segurança, guias; todos precisam saber "
+"onde devem estar e quando."
 
 #. module: museum
 #: model:pos.category,name:museum.pos_category_6
 msgid "Entry"
-msgstr ""
+msgstr "Entrada"
 
 #. module: museum
 #: model:res.partner.category,name:museum.res_partner_category_10
 msgid "Exhibition Only"
-msgstr ""
+msgstr "Apenas exposição"
 
 #. module: museum
 #: model:product.public.category,name:museum.product_public_category_5
 msgid "Exhibitions"
-msgstr ""
+msgstr "Exposições"
 
 #. module: museum
 #: model:event.event.ticket,name:museum.event_event_ticket_8
 #: model:product.template,name:museum.product_product_27_product_template
 msgid "Exhibitions Access"
-msgstr ""
+msgstr "Acesso às exposições"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Explore more"
-msgstr ""
+msgstr "Explore mais"
 
 #. module: museum
 #: model_terms:product.public.category,website_description:museum.product_public_category_2
 msgid "Explore three-dimensional masterpieces that inspire and captivate."
-msgstr ""
+msgstr "Explore obras-primas tridimensionais que inspiram e cativam."
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_29_product_template
@@ -1066,16 +1086,20 @@ msgid ""
 "and in-museum display. The fee may vary based on the specific terms agreed "
 "upon with the artist."
 msgstr ""
+"Taxa paga para exibir a obra de arte no museu. Inclui direitos de impressão "
+"e exibição na web e no museu. A taxa pode variar de acordo com os termos "
+"específicos acordados com o artista."
 
 #. module: museum
 #: model:hr.job,name:museum.hr_job_3
 msgid "Finance & Grants Manager"
-msgstr ""
+msgstr "Gerente de Finanças e Subsídios"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Finely hand-picked by our most passionate art lovers"
 msgstr ""
+"Cuidadosamente selecionados pelos nossos mais apaixonados amantes da arte"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1083,6 +1107,8 @@ msgid ""
 "Focus on curating culture and welcoming visitors, while Odoo handles the "
 "behind-the-scenes logistics. 🖼️"
 msgstr ""
+"Concentre-se em promover a cultura e receber visitantes, enquanto o Odoo "
+"cuida da logística nos bastidores. 🖼️"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1090,38 +1116,44 @@ msgid ""
 "For each new piece, create a product record with its name, description, "
 "artist, and value."
 msgstr ""
+"Para cada nova peça, crie um registro do produto com seu nome, descrição, "
+"artista e valor."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
 msgid ""
 "For example: A member revisiting the site sees all eligible tickets as €0."
 msgstr ""
+"Por exemplo: um membro que revisita o site vê todos os ingressos elegíveis "
+"como €0."
 
 #. module: museum
 #: model:product.template,description_pickingin:museum.product_product_21_product_template
 msgid "Fragile: store in climate-controlled space – handle with gloves."
 msgstr ""
+"Frágil: armazenar em local com temperatura controlada – manusear com luvas."
 
 #. module: museum
 #: model:product.template,name:museum.product_product_18_product_template
 msgid "Fragmented Memory"
-msgstr ""
+msgstr "Memória fragmentada"
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_22_product_template
 #: model_terms:product.template,description:museum.product_product_28_product_template
 msgid "Free entry to all permanent collections and 10% shop discount"
 msgstr ""
+"Entrada gratuita em todas as coleções permanentes e 10% de desconto na loja"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.homepage
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Perguntas frequentes"
 
 #. module: museum
 #: model:planning.role,name:museum.planning_role_1
 msgid "Front Desk Staff"
-msgstr ""
+msgstr "Funcionários da recepção"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1129,21 +1161,23 @@ msgid ""
 "Generate invoices for services and sales through <strong><font class=\"text-"
 "o-color-1\">Invoicing</font></strong>."
 msgstr ""
+"Gere faturas para serviços e vendas através de <strong><font class="
+"\"text-o-color-1\">Faturamento</font></strong>."
 
 #. module: museum
 #: model_terms:product.template,description:museum.product_product_19_product_template
 msgid "Gift from local collector"
-msgstr ""
+msgstr "Presente de um colecionador local"
 
 #. module: museum
 #: model:event.event.ticket,name:museum.event_event_ticket_12
 msgid "Guided Tour (Add-on)"
-msgstr ""
+msgstr "Visita guiada (complemento)"
 
 #. module: museum
 #: model:product.template,name:museum.product_product_32_product_template
 msgid "Guided tour"
-msgstr ""
+msgstr "Visita guiada"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.welcome_article_body
@@ -1151,16 +1185,18 @@ msgid ""
 "Handle on-site ticket and gift shop sales through <strong><font "
 "class=\"text-o-color-1\">Point of Sale</font></strong>."
 msgstr ""
+"Gerencie as vendas no local de ingressos e da loja de presentes pelo "
+"<strong><font class=\"text-o-color-1\">Ponto de venda</font></strong>."
 
 #. module: museum
 #: model_terms:product.template,public_description:museum.product_product_13_product_template
 msgid "Handmade mug featuring art from a rotating artist"
-msgstr ""
+msgstr "Caneca artesanal com arte de um artista rotativo"
 
 #. module: museum
 #: model:hr.job,name:museum.hr_job_4
 msgid "Head of Curation"
-msgstr ""
+msgstr "Chefe de Curadoria"
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -1169,6 +1205,8 @@ msgid ""
 "she continues to advocate for the integration of environmental ethics into "
 "artistic practice."
 msgstr ""
+"Suas obras foram exibidas em Roterdã, Oslo, Tóquio e São Paulo, e ela "
+"continua defendendo a integração da ética ambiental na prática artística."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions
@@ -1178,6 +1216,10 @@ msgid ""
 "illustrate migration — he materializes its bureaucracy, its weight, and its "
 "aftermath."
 msgstr ""
+"Sua instalação <em>Passaporte Sombra</em> usa mídia reativa aos raios "
+"ultravioleta para expor o que os registros oficiais ocultam: medo, perda e "
+"resistência. Rivera não ilustra a migração — ele materializa sua burocracia, "
+"seu peso e suas consequências."
 
 #. module: museum
 #: model_terms:ir.ui.view,arch_db:museum.exhibitions

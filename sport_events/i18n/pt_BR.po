@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-05 05:36+0000\n"
-"PO-Revision-Date: 2025-10-30 23:30+0000\n"
+"PO-Revision-Date: 2025-11-03 19:50+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s18-4/sport_events/pt_BR/>\n"
@@ -982,27 +982,27 @@ msgstr "Melhor jogador"
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Bib number and timing chip"
-msgstr ""
+msgstr "Número de peitoral e chip de cronometragem"
 
 #. module: sport_events
 #: model:event.event.ticket,description:sport_events.event_event_ticket_9
 msgid "Bib, aid station access, finisher snack"
-msgstr ""
+msgstr "Peitoral, acesso ao posto de socorro, lanche para finalistas"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Bike service zone before and during race"
-msgstr ""
+msgstr "Zona de assistência às bicicletas antes e durante a corrida"
 
 #. module: sport_events
 #: model:event.booth,name:sport_events.event_booth_1
 msgid "Booth area 1"
-msgstr ""
+msgstr "Área do estande 1"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_3
 msgid "Building and Facility Construction and Maintenance Services"
-msgstr ""
+msgstr "Serviços de construção e manutenção de edifícios e instalações"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1010,21 +1010,24 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
 msgstr ""
+"Ao carregar os dados de demonstração deste módulo, sua base de dados foi "
+"preenchida com alguns contatos."
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_11
 msgid "CRM"
-msgstr ""
+msgstr "CRM"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
 msgid "Camping option nearby (partner discounts available)"
 msgstr ""
+"Opção de acampamento nas proximidades (descontos para parceiros disponíveis)"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_7
 msgid "Cereal and pulse products"
-msgstr ""
+msgstr "Produtos à base de cereais e leguminosas"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1033,51 +1036,54 @@ msgid ""
 "color-1\">inventory</font></strong>, update the spreadsheet with the "
 "quantities required for the event, and identify any shortages."
 msgstr ""
+"Confira todo o seu <strong><font class=\"text-o-color-1\">inventário</font></"
+"strong>, atualize a planilha com as quantidades necessárias para o evento e "
+"identifique se algo está faltando."
 
 #. module: sport_events
 #: model:planning.role,name:sport_events.planning_role_1
 msgid "Check-in & Logistics"
-msgstr ""
+msgstr "Check-in e Logística"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_13_product_template
 msgid "Chips"
-msgstr ""
+msgstr "Chips"
 
 #. module: sport_events
 #: model:sign.template,redirect_url_text:sport_events.sign_template_3
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #. module: sport_events
 #: model:res.partner.category,name:sport_events.res_partner_category_6
 msgid "Clubs"
-msgstr ""
+msgstr "Clubes"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Collect feedback using the Survey app."
-msgstr ""
+msgstr "Recolha feedback utilizando o aplicativo Pesquisas."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "Connect.&amp;nbsp;"
-msgstr ""
+msgstr "Conectar.&amp;nbsp;"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.contactus
 msgid "Contact us"
-msgstr ""
+msgstr "Entre em contato"
 
 #. module: sport_events
 #: model:crm.stage,name:sport_events.crm_stage_6
 msgid "Contract Sent"
-msgstr ""
+msgstr "Contrato enviado"
 
 #. module: sport_events
 #: model:project.tags,name:sport_events.project_tags_17
 msgid "Core-event"
-msgstr ""
+msgstr "Evento principal"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1085,6 +1091,8 @@ msgid ""
 "Create pricelists  to offer specific prices tailored to different groups, "
 "such as partners, athletes with a license, or staff members."
 msgstr ""
+"Crie listas de preços para oferecer preços específicos adaptados a "
+"diferentes grupos, como parceiros, atletas com licença ou membros da equipe."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1093,6 +1101,9 @@ msgid ""
 "“Course Marshal,” and assign them to each team member’s record, on "
 "<em>Employee</em> app"
 msgstr ""
+"Crie funções como “Segurança”, “Equipe médica”, “Recepção” ou “Coordenador "
+"do curso” e atribua-as ao registro de cada membro da equipe no aplicativo "
+"<em>Funcionário</em>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1105,46 +1116,54 @@ msgid ""
 "color-1\">Sign</font></strong>, add confirmed sponsors with their booth "
 "locations."
 msgstr ""
+"Crie o evento no<strong> </strong><font class=\"text-o-color-1\"><strong>app "
+"Eventos</strong></font> com todos os detalhes (datas, locais, tipos de "
+"ingressos e capacidade) e, após negociar acordos de patrocínio em <font "
+"class=\"text-o-color-1\"><strong>CRM</strong></font> e finalizar contratos "
+"no <strong><font class=\"text-o-color-1\">Assinar</font></strong>, adicionar "
+"patrocinadores confirmados com a localização de seus estandes."
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_32_product_template
 msgid "Cup"
-msgstr ""
+msgstr "Caneca"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Deadline: August 25, 2025"
-msgstr ""
+msgstr "Prazo: 25 de agosto de 2025"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Define your event hours (e.g., 7am–8pm, race day and setup days)"
 msgstr ""
+"Defina o horário do seu evento (ex.: das 7h às 20h, dia da corrida e dias de "
+"preparação)."
 
 #. module: sport_events
 #: model:survey.question,title:sport_events.survey_question_4
 msgid "Did you stay in the area this weekend? *"
-msgstr ""
+msgstr "Você ficou na região neste fim de semana? *"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Explore mais sobre o Odoo mergulhando em nosso"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "Quer ir mais além?"
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_3
 msgid "Done"
-msgstr ""
+msgstr "Pronto"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Drink voucher redeemable at the Microbrasserie de Maredsous"
-msgstr ""
+msgstr "Vale-bebida resgatável na Microbrasserie de Maredsous"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1152,47 +1171,50 @@ msgid ""
 "Each staff member can view their schedule via their portal or receive it by "
 "email"
 msgstr ""
+"Os funcionários podem visualizar sua programação através do portal ou recebê-"
+"la por e-mail"
 
 #. module: sport_events
 #: model:sign.item.role,name:sport_events.sign_item_role_6
 msgid "Employee"
-msgstr ""
+msgstr "Funcionário"
 
 #. module: sport_events
 #: model:documents.document,name:sport_events.documents_document_18
 msgid "Event Material Inventory (Maredsous Sunrise Trail )"
 msgstr ""
+"Inventário de materiais para eventos (Trilha do Nascer do Sol de Maredsous)"
 
 #. module: sport_events
 #: model:documents.document,name:sport_events.documents_document_14
 #: model:documents.document,name:sport_events.documents_document_19
 msgid "Event Material Inventory (TEMPLATE)"
-msgstr ""
+msgstr "Inventário de materiais para eventos (MODELO)"
 
 #. module: sport_events
 #: model:spreadsheet.template,name:sport_events.spreadsheet_template_1
 msgid "Event Material Inventory - Template"
-msgstr ""
+msgstr "Inventário de materiais para eventos - Modelo"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Example Workflow for a Sport Event"
-msgstr ""
+msgstr "Exemplo de fluxo de trabalho para um evento esportivo"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "Explore Upcoming Events"
-msgstr ""
+msgstr "Explore os próximos eventos"
 
 #. module: sport_events
 #: model:event.event,subtitle:sport_events.event_event_1
 msgid "Explore the forest trails around the iconic Maredsous Abbey."
-msgstr ""
+msgstr "Explore as trilhas florestais ao redor da icônica Abadia de Maredsous."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.homepage
 msgid "Explore.&amp;nbsp;"
-msgstr ""
+msgstr "Explorar.&amp;nbsp;"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1202,26 +1224,31 @@ msgid ""
 "this column so the Inventory Manager can compare it with “Quantity on Hand” "
 "and instantly know what needs to be reordered."
 msgstr ""
+"Exporte sua lista de inventário do Odoo para uma planilha e crie uma coluna "
+"para “Quantidade necessária” para um evento específico. Os gerentes de "
+"eventos podem preencher essa coluna para que o gerente de inventário possa "
+"compará-la com a “Quantidade disponível” e saber instantaneamente o que "
+"precisa ser reabastecido."
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
 msgid "Fair Play Team"
-msgstr ""
+msgstr "Equipe Fair Play"
 
 #. module: sport_events
 #: model:product.template,name:sport_events.product_product_8_product_template
 msgid "Finisher Medal"
-msgstr ""
+msgstr "Medalha de finalista"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Finisher T-shirt (€8)"
-msgstr ""
+msgstr "Camiseta de finalista (€8)"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_1
 msgid "Finisher medal"
-msgstr ""
+msgstr "Medalha de finalista"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_3
