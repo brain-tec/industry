@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-01 07:07+0000\n"
-"PO-Revision-Date: 2025-10-30 23:30+0000\n"
+"PO-Revision-Date: 2025-11-03 19:50+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s18-4/diy_workshops/pt_BR/>\n"
@@ -907,7 +907,7 @@ msgstr "Lanches leves"
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Link the product to a <strong>Membership Level</strong>"
-msgstr ""
+msgstr "Vincule o produto a um <strong>Nível de Associação</strong>"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -916,16 +916,19 @@ msgid ""
 "kilns, using the <strong>Maintenance app</strong> to keep everything "
 "workshop-ready."
 msgstr ""
+"Registre e monitore a manutenção dos equipamentos do estúdio; máquinas de "
+"costura, teares, fornos, usando o <strong>app Manutenção</strong> para "
+"manter tudo pronto para a oficina."
 
 #. module: diy_workshops
 #: model:loyalty.program,portal_point_name:diy_workshops.loyalty_program_2
 msgid "Loyalty point(s)"
-msgstr ""
+msgstr "Pontos de fidelidade"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Manage Customer Requests"
-msgstr ""
+msgstr "Gerenciar solicitações de clientes"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -933,21 +936,23 @@ msgid ""
 "Manage invoicing and payments seamlessly via the <strong>Invoicing "
 "App</strong>."
 msgstr ""
+"Gerencie faturas e pagamentos de maneira integrada através do <strong>app "
+"Faturamento</strong>."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid "Monthly DIY Membership – \"Sewcial Club\""
-msgstr ""
+msgstr "Assinatura mensal DIY – “Sewcial Club”"
 
 #. module: diy_workshops
 #: model:product.template,name:diy_workshops.product_product_12_product_template
 msgid "Monthly Membership – Sewcial Club"
-msgstr ""
+msgstr "Assinatura mensal – Sewcial Club"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.contactus
 msgid "My Company"
-msgstr ""
+msgstr "Minha Empresa"
 
 #. module: diy_workshops
 #: model_terms:event.event,description:diy_workshops.event_event_1
@@ -958,6 +963,12 @@ msgid ""
 " neat seams and straps. Along the way, you'll also pick up essential sewing "
 "vocabulary and techniques that will set you up for future projects."
 msgstr ""
+"Não é necessária experiência prévia em costura — basta trazer sua "
+"curiosidade e criatividade! Você aprenderá a por linha e operar uma máquina "
+"de costura, entender os tipos de tecido, cortar a partir de um molde simples "
+"e finalizar sua bolsa com costuras e alças bem feitas. Ao longo do curso, "
+"você também aprenderá vocabulário e técnicas essenciais de costura que o "
+"prepararão para projetos futuros."
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -965,11 +976,13 @@ msgid ""
 "No-shows or cancellations within 48 hours of the workshop are non-"
 "refundable."
 msgstr ""
+"Não comparecimentos ou cancelamentos dentro de 48 horas antes do workshop "
+"não são reembolsáveis."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Odoo for DIY Workshops"
-msgstr ""
+msgstr "Odoo para Oficinas DYI"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -977,12 +990,16 @@ msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into"
 " a tool to manage your entire workflow."
 msgstr ""
+"O Odoo está totalmente integrado em um aplicativo. Baixe-o para transformar "
+"seu celular em uma ferramenta para gerenciar todo o seu fluxo de trabalho."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid ""
 "Odoo offers endless customization possibilities for your flower business:"
 msgstr ""
+"O Odoo oferece infinitas possibilidades de personalização para o seu negócio "
+"de flores:"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -991,6 +1008,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"É claro que esta é apenas uma visão geral dos recursos incluídos neste "
+"pacote. Fique à vontade para adicionar novos aplicativos, excluir/modificar "
+"dados de demonstração e testar tudo!"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -998,6 +1018,8 @@ msgid ""
 "Once the purchase is confirmed, send the <strong>Request for Quotation "
 "(RFQ)</strong> via email or confirm it manually."
 msgstr ""
+"Assim que a compra for confirmada, envie a <strong>Solicitação de Cotação "
+"(SDC)</strong> por e-mail ou confirme-a manualmente."
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -1005,6 +1027,8 @@ msgid ""
 "One free reschedule is permitted up to 72 hours before the scheduled date, "
 "subject to availability."
 msgstr ""
+"É possível fazer uma remarcação gratuita até 72 horas antes da data "
+"agendada, sujeita à disponibilidade."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1012,6 +1036,8 @@ msgid ""
 "Order materials through the <strong>Purchase App</strong>, managing vendors "
 "and orders."
 msgstr ""
+"Encomende materiais através do <strong>app Compras</strong>, gerindo "
+"fornecedores e pedidos."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1019,6 +1045,8 @@ msgid ""
 "Organize multi-session classes using the <strong>Events App</strong>, "
 "setting capacity and pricing per slot."
 msgstr ""
+"Organize aulas com várias sessões usando o <strong>app Eventos</strong>, "
+"definindo a capacidade e o preço por vaga."
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -1027,11 +1055,14 @@ msgid ""
 "before the scheduled workshop. For late bookings, payment is required "
 "immediately upon acceptance."
 msgstr ""
+"O pagamento deve ser efetuado no prazo de 7 dias a partir da data da fatura "
+"e, no máximo, 48 horas antes do workshop agendado. Para reservas tardias, o "
+"pagamento deve ser efetuado imediatamente após a aceitação."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Perfect for offering a single class at different times:"
-msgstr ""
+msgstr "Perfeito para oferecer uma única aula em horários diferentes:"
 
 #. module: diy_workshops
 #: model_terms:event.event,ticket_instructions:diy_workshops.event_event_1
@@ -1039,6 +1070,8 @@ msgid ""
 "Please arrive 10 minutes early; all materials are provided unless otherwise "
 "noted; just bring your creativity!"
 msgstr ""
+"Chegue 10 minutos antes; todos os materiais serão fornecidos, salvo "
+"indicação em contrário; basta trazer a sua criatividade!"
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -1046,11 +1079,13 @@ msgid ""
 "Please inform us of any dietary restrictions at least 72 hours before the "
 "workshop if an apéro is included."
 msgstr ""
+"Informe-nos sobre qualquer restrição alimentar pelo menos 72 horas antes do "
+"workshop, caso este inclua um aperitivo."
 
 #. module: diy_workshops
 #: model_terms:product.template,description:diy_workshops.product_product_11_product_template
 msgid "Pre-packed for classroom use and kits."
-msgstr ""
+msgstr "Pré-embalado para uso em sala de aula e kits."
 
 #. module: diy_workshops
 #: model_terms:product.template,description:diy_workshops.product_product_8_product_template
@@ -1058,16 +1093,19 @@ msgid ""
 "Premium organic cotton sourced from certified suppliers. 100% GOTS-"
 "certified, breathable, and pre-shrunk. Supplied in 20-meter rolls per color."
 msgstr ""
+"Algodão orgânico premium proveniente de fornecedores certificados. 100% "
+"certificado pela GOTS, respirável e pré-encolhido. Fornecido em rolos de 20 "
+"metros por cor."
 
 #. module: diy_workshops
 #: model:product.template,name:diy_workshops.product_product_6_product_template
 msgid "Private Instructor"
-msgstr ""
+msgstr "Instrutor particular"
 
 #. module: diy_workshops
 #: model:product.template,name:diy_workshops.product_product_25_product_template
 msgid "Private Workshop"
-msgstr ""
+msgstr "Workshop privado"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1075,6 +1113,9 @@ msgid ""
 "Promote new classes on social media and automate client communication using "
 "<strong>Social Marketing</strong> and <strong>WhatsApp</strong> integration."
 msgstr ""
+"Divulgue novas aulas nas redes sociais e automatize a comunicação com os "
+"clientes usando a integração com <strong>Redes Sociais</strong> e "
+"<strong>WhatsApp</strong>."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1082,16 +1123,17 @@ msgid ""
 "Promote workshops and bookings on your website with the <strong>Website "
 "App</strong>."
 msgstr ""
+"Divulgue workshops e reservas no seu site com o <strong>app Site</strong>."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid "Protect <br/>your style <br/>with our bespoke creations"
-msgstr ""
+msgstr "Proteja o <br/>seu estilo<br/> com as nossas criações personalizadas"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Publish on Your Website"
-msgstr ""
+msgstr "Publique no seu site"
 
 #. module: diy_workshops
 #: model_terms:event.event,description:diy_workshops.event_event_3
@@ -1102,6 +1144,11 @@ msgid ""
 "your closet that you’re ready to refresh or reinvent, and we’ll guide you "
 "through the process of transforming them into something new and wearable."
 msgstr ""
+"Pronto para dar uma nova vida às suas roupas antigas? Este workshop é para "
+"criadores que já sabem usar uma máquina de costura e querem levar sua "
+"criatividade — e sustentabilidade — para o próximo nível. Traga algumas "
+"peças do seu guarda-roupa para renovar ou reinventar, e nós o guiaremos pelo "
+"processo de transformá-las em algo novo."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
@@ -1109,31 +1156,33 @@ msgid ""
 "Refresh your old clothes and give them a second life. Perfect for those with"
 " basic sewing skills who love sustainable fashion.&amp;nbsp;"
 msgstr ""
+"Renove suas roupas antigas e dê a elas uma segunda vida. Perfeito para quem "
+"tem conhecimentos básicos de costura e adora moda sustentável."
 
 #. module: diy_workshops
 #: model:event.event.ticket,name:diy_workshops.event_event_ticket_3
 msgid "Registration for Sew Your First Tote Bag"
-msgstr ""
+msgstr "Inscrição para o curso “Costure sua primeira bolsa”"
 
 #. module: diy_workshops
 #: model:event.event.ticket,name:diy_workshops.event_event_ticket_1
 msgid "Registration for Sewing for Kids"
-msgstr ""
+msgstr "Inscrição para Costura para Crianças"
 
 #. module: diy_workshops
 #: model:event.event.ticket,name:diy_workshops.event_event_ticket_2
 msgid "Registration for Upcycle Your Wardrobe"
-msgstr ""
+msgstr "Inscrição para o curso “Recicle o seu guarda-roupa\""
 
 #. module: diy_workshops
 #: model:product.template,name:diy_workshops.product_product_9_product_template
 msgid "Reused Fabric Bundle – Mixed Textiles"
-msgstr ""
+msgstr "Pacote de tecidos reutilizados – Têxteis mistos"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Schedule a demo"
-msgstr ""
+msgstr "Agende uma demonstração"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1141,37 +1190,40 @@ msgid ""
 "Sell DIY kits, patterns, or craft supplies directly from your website "
 "alongside workshop bookings with the <strong>eCommerce </strong>add-on."
 msgstr ""
+"Venda kits DIY, padrões ou materiais para artesanato diretamente do seu "
+"site, juntamente com reservas para workshops, com o complemento "
+"<strong>e-Commerce</strong>."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Set Up Membership Pricing with Pricelists"
-msgstr ""
+msgstr "Configure os preços da assinatura com listas de preços"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Set Up Your Event"
-msgstr ""
+msgstr "Configure seu evento"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Set the product type to <strong>Service – Membership</strong>"
-msgstr ""
+msgstr "Defina o tipo de produto como <strong>Serviço – Associação</strong>"
 
 #. module: diy_workshops
 #: model:event.event,name:diy_workshops.event_event_1
 msgid "Sew Your First Tote Bag"
-msgstr ""
+msgstr "Costure sua primeira sacola"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
 msgid "Sew Your First Tote Bag&amp;nbsp;"
-msgstr ""
+msgstr "Costure sua primeira bolsa&amp;nbsp;"
 
 #. module: diy_workshops
 #: model:product.pricelist,name:diy_workshops.product_pricelist_2
 #: model:res.partner.grade,name:diy_workshops.res_partner_grade_4
 msgid "Sewcial Club"
-msgstr ""
+msgstr "Clube Sewcial"
 
 #. module: diy_workshops
 #: model:product.template,name:diy_workshops.product_product_10_product_template
