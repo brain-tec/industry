@@ -60,6 +60,7 @@ MODELS_TO_UPDATE = {
     "ir.actions.report",
     "ir.actions.server",
     "ir.cron",
+    "ir.embedded.actions",
     "ir.model",
     "ir.model.access",
     "ir.model.fields",
@@ -112,7 +113,7 @@ class TestEnv(IndustryCase):
             for file_name in files:
                 file_path = os.path.join(root, file_name)
                 ext = os.path.splitext(file_path)[1].lower()
-                if 'static/' in file_path and 'src/js/' not in file_path:
+                if 'static/' in file_path and not any(p in file_path for p in ['src/js/', 'src/widget']):
                     static_files.add(os.path.relpath(file_path, start=get_industry_path()))
                 if ext not in ['.py', '.xml']:
                     continue
