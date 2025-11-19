@@ -3,13 +3,14 @@
 # * guided_tours
 #
 # "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-29 14:41+0000\n"
-"PO-Revision-Date: 2025-09-16 23:31+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
+"PO-Revision-Date: 2025-11-17 10:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-s18-4/"
 "guided_tours/ko/>\n"
 "Language: ko\n"
@@ -302,14 +303,14 @@ msgstr "서비스별 <strong>가이드 이용 가능 여부 설정</strong>"
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid ""
 "<strong>Digital tickets with QR codes</strong> for easy on-site check-in"
-msgstr ""
+msgstr "<strong>디지털 티켓의 QR 코드</strong>로 간편하게 현장 체크인 가능"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid ""
 "<strong>Enable online booking &amp; payment</strong>, no manual follow-up "
 "needed"
-msgstr ""
+msgstr "<strong>온라인 예약 및 결제 지원</strong>, 수동으로 후속 작업 불요"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -363,7 +364,7 @@ msgstr ""
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.ir_ui_view_3841
 msgid "<strong>Join Our Guided Group Tours — Discover More Together</strong>"
-msgstr ""
+msgstr "<strong>가이드 동반 그룹 투어 참여로 더욱 많은 내용을 확인해 보세요</strong>"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.ir_ui_view_3840
@@ -418,7 +419,7 @@ msgstr "예약 정보 등 <strong>영수증 인쇄</strong>"
 msgid ""
 "<strong>Recruitment</strong>: Manage applications and onboarding for new "
 "tour guides"
-msgstr ""
+msgstr "<strong>채용</strong>: 신규 투어 가이드에 대한 지원서 관리 및 온보딩 지원"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -435,7 +436,7 @@ msgstr "<strong>알림 및 확인 이메일</strong>을 통해 노쇼 줄이기"
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid "<strong>Sell remaining spots</strong> for today’s tours or future ones"
-msgstr ""
+msgstr "<strong>잔여 좌석 판매</strong>: 당일 또는 이후 날짜 해당하는 투어 관리"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -518,7 +519,7 @@ msgstr "모든 가이드 투어"
 #: model_terms:event.event,description:guided_tours.event_event_3
 #: model_terms:event.event,description:guided_tours.event_event_4
 msgid "An address must be specified for a map to be embedded"
-msgstr ""
+msgstr "지도를 삽입하려면 주소를 지정해야 합니다."
 
 #. module: guided_tours
 #: model:product.template,name:guided_tours.product_product_14_product_template
@@ -533,7 +534,7 @@ msgstr "앤트워프 시티 투어"
 #. module: guided_tours
 #: model_terms:event.event,description:guided_tours.event_event_4
 msgid "Antwerp — Diamond of the North, History and Style"
-msgstr ""
+msgstr "앤트워프 — 북부의 다이아몬드, 역사와 스타일을 갖춘 지역"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -570,7 +571,7 @@ msgstr "브뤼셀 시티 투어"
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.ir_ui_view_3841
 msgid "Carefully curated routes with iconic sights and hidden corners"
-msgstr ""
+msgstr "상징적인 명소와 숨겨진 지역들까지 엄선된 루트"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.ir_ui_view_3844
@@ -609,17 +610,17 @@ msgstr "컬쳐"
 msgid ""
 "Curious about what else Odoo can do for your tour business? Let’s explore it"
 " together."
-msgstr ""
+msgstr "Odoo를 어떻게 투어 비즈니스에 활용할 수 있는지 궁금하세요? 함께 살펴보시죠."
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.ir_ui_view_3840
 msgid "Discover Belgium’s Most Captivating Cities with a Local Guide"
-msgstr ""
+msgstr "벨기에의 가장 매력적인 도시들을 현지 가이드와 함께 탐방합니다"
 
 #. module: guided_tours
 #: model_terms:event.event,description:guided_tours.event_event_1
 msgid "Discover Brussels — A Journey Through Europe’s Beating Heart"
-msgstr ""
+msgstr "브뤼셀 탐험 — 유럽 지역의 심장부를 가로지르는 여정"
 
 #. module: guided_tours
 #: model:event.event,subtitle:guided_tours.event_event_2
@@ -832,7 +833,7 @@ msgstr ""
 msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
-msgstr ""
+msgstr "이 패키지의 모든 기능을 쉽게 탐색하려면 데모 데이터를 다운로드하세요."
 
 #. module: guided_tours
 #: model_terms:product.public.category,website_description:guided_tours.product_public_category_3
@@ -872,7 +873,8 @@ msgstr ""
 msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
-msgstr ""
+msgstr "데모 데이터가 업로드되면 쉽게 삭제할 수 없으니 주의하세요. 대신 다음 "
+"링크에서 새 데이터베이스로 작업을 시작할 수 있습니다:"
 
 #. module: guided_tours
 #: model:event.tag.category,name:guided_tours.event_tag_category_1
@@ -1340,7 +1342,7 @@ msgstr "웰니스"
 msgid ""
 "We’re committed to providing prompt and effective solutions to ensure your "
 "satisfaction."
-msgstr ""
+msgstr "신속하고 효과적인 솔루션 제공을 통해 고객 만족에 최선을 다하고 있습니다."
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.ir_ui_view_3840
@@ -1403,7 +1405,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr ""
+msgstr "Odoo 설정에 대해 논의하거나 더 많은 기능에 대해 자세히 알아보고 싶으신가요?"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -1434,7 +1436,7 @@ msgstr ""
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
-msgstr ""
+msgstr "앱에서 패키지를 업그레이드하여 추가 기능을 이용할 수 있습니다."
 
 #. module: guided_tours
 #: model_terms:event.event,description:guided_tours.event_event_4
