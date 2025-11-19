@@ -1,6 +1,5 @@
 {
     'name': 'Corporate Gifts',
-    'version': '1.0',
     'category': 'Supply Chain',
     'depends': [
         'base_automation',
@@ -48,6 +47,7 @@
         'data/knowledge_article_favorite.xml',
         'data/mail_message.xml',
         'data/ir_attachment_post.xml',
+        'data/crm_tag.xml',
         'data/website_view.xml',
         'data/website_menu.xml',
         'data/knowledge_tour.xml',
@@ -56,7 +56,6 @@
         'demo/res_users.xml',
         'demo/res_partner.xml',
         'demo/hr_employee.xml',
-        'demo/crm_tag.xml',
         'demo/crm_lead.xml',
         'demo/product_template.xml',
         'demo/product_supplierinfo.xml',
