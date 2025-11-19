@@ -3,13 +3,14 @@
 # * diy_workshops
 #
 # "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-01 07:07+0000\n"
-"PO-Revision-Date: 2025-10-20 23:31+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
+"PO-Revision-Date: 2025-11-17 10:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-s18-4/"
 "diy_workshops/ko/>\n"
 "Language: ko\n"
@@ -62,6 +63,8 @@ msgid ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
 msgstr ""
+"<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
+"Francisco CA 94134 <br/>United States"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.homepage
@@ -372,7 +375,7 @@ msgstr "<strong>재료 및 도구</strong>"
 msgid ""
 "<strong>Monthly memberships</strong> (e.g., “Unlimited DIY Access – Studio "
 "Time”)"
-msgstr ""
+msgstr "<strong>월간 멤버십</strong> (예: “무제한 DIY 이용권 – 스튜디오 타임”)"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -402,7 +405,8 @@ msgstr ""
 #: model_terms:event.event,description:diy_workshops.event_event_2
 msgid ""
 "<strong>Perfect for:</strong> Creative kids aged 8–12, no experience needed"
-msgstr ""
+msgstr "<strong>대상:</strong> 8~12세 창의적인 어린이, 이전에 경험해 본 적이 없어도 "
+"괜찮습니다"
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -497,7 +501,7 @@ msgstr "<strong>다중 슬롯</strong> 활성화."
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Add a <strong>ticket product</strong> for online booking and payment."
-msgstr ""
+msgstr "온라인 예약 및 결제용 <strong>티켓 제품</strong>을 추가합니다."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -522,7 +526,7 @@ msgstr "워크숍 세부 정보 추가 (이름, 날짜, 장소, 수용 인원)."
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Adjust seat limits and pricing per slot if needed."
-msgstr ""
+msgstr "필요 시 시간대별로 좌석 제한 및 가격 조정 가능."
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -539,7 +543,7 @@ msgstr "모든 재료 (원단, 실, 패턴)"
 #. module: diy_workshops
 #: model_terms:event.event,description:diy_workshops.event_event_3
 msgid "Any trims or embellishments you’d like to add (optional)"
-msgstr ""
+msgstr "장식이나 소품 추가(선택 사항)"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -558,7 +562,8 @@ msgstr "해당 레벨을 특정 <strong>가격표</strong>에 연결하세요"
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few contacts."
-msgstr ""
+msgstr "이 모듈의 데모 데이터를 업로드하면 데이터베이스가 몇 개의 연락처로 "
+"채워집니다."
 
 #. module: diy_workshops
 #: model_terms:sale.order.template,note:diy_workshops.sale_order_template_1
@@ -721,7 +726,7 @@ msgstr "각 팩에는 10개 콘(각 500m)이 들어 있습니다."
 msgid ""
 "Easily handle your accounting with the integrated <strong>Accounting "
 "App</strong>."
-msgstr ""
+msgstr "회계 작업을 간편하게 통합 <strong>회계 앱</strong>으로 처리해 보세요."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -905,7 +910,8 @@ msgstr "Odoo DIY 워크숍"
 msgid ""
 "Odoo is entirely integrated into an App. Download it to turn your phone into"
 " a tool to manage your entire workflow."
-msgstr ""
+msgstr "Odoo는 모바일 앱과도 완벽하게 통합되어 있습니다. 스마트폰에 앱을 도구로 "
+"다운로드하여 비즈니스 흐름 전체를 관리하세요."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1240,6 +1246,9 @@ msgid ""
 "kickstart in a supportive, fun atmosphere. Walk in as a beginner, and walk "
 "out with a finished bag and new skills that you can build on."
 msgstr ""
+"단순한 수업만이 아니라 서로를 돕는 즐거운 분위기 속에서 자신감을 키우고 "
+"창의적인 시작점을 만들 수 있는 기회입니다. 기초부터 시작하여 완제품 가방 "
+"제작에 이르기까지 함께 새로운 전문 기술을 익혀 보세요."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1409,7 +1418,7 @@ msgstr "워크샵 등록"
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
+msgstr "Odoo 설정에 대해 논의하거나 추가 기능을 살펴보고 싶으신가요?"
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1424,6 +1433,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various processes you can quickly execute with this package using Odoo."
 msgstr ""
+"다음의 플로우에 따라 진행하면 다양한 프로세스에 대해 전체보기를 할 수 "
+"있습니다. Odoo를 사용한 패키지로 빠르게 실행해 보세요."
 
 #. module: diy_workshops
 #: model:product.template,name:diy_workshops.product_product_11_product_template
