@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-01 07:03+0000\n"
-"PO-Revision-Date: 2025-09-12 06:57+0000\n"
+"PO-Revision-Date: 2025-12-06 23:52+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-s18-4/"
 "furniture_store/ko/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -452,7 +452,6 @@ msgstr "<span class=\"h2-fs\">웹사이트 및 고객 관리 🌐</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-#, fuzzy
 msgid "<span class=\"h2-fs\">​</span><br/>"
 msgstr "<span class=\"h2-fs\">​</span><br/>"
 
@@ -519,7 +518,6 @@ msgstr ""
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
-#, fuzzy
 msgid "<span class=\"h6-fs\">​</span><br/>"
 msgstr "<span class=\"h6-fs\">​</span><br/>"
 
@@ -786,7 +784,8 @@ msgstr "편안한 바 스툴"
 msgid ""
 "Craft impressive proposals with the <b>quotation builder</b> for wonderful "
 "quotations."
-msgstr ""
+msgstr "<b>견적서 작성기</b>를 통해 인상적인 제안서를 작성하여 견적서를 완벽하게 생성"
+"하세요."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1364,7 +1363,7 @@ msgstr ""
 #. module: furniture_store
 #: model_terms:product.public.category,website_description:furniture_store.product_public_category_4
 msgid "Transform your bedroom into a sanctuary with our elegant beds."
-msgstr ""
+msgstr "고급스러운 침대를 통해 침실을 안식처로 변화시키세요."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1578,7 +1577,7 @@ msgstr ""
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid "You'll need to <b>set up your e-commerce preferences</b> to specify:"
-msgstr ""
+msgstr "다음 사항을 지정하려면 <b>이커머스 기본 설정</b> 메뉴를 설정해야 합니다:"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
