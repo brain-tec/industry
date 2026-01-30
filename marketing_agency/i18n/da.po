@@ -6,14 +6,14 @@
 # Wil Odoo, 2025
 # Kira Petersen, 2025
 #
-# "Kira Petersen François (peti)" <peti@odoo.com>, 2025.
+# "Kira Petersen François (peti)" <peti@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 11:06+0000\n"
-"PO-Revision-Date: 2025-12-06 23:52+0000\n"
+"PO-Revision-Date: 2026-01-17 23:52+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "marketing_agency/da/>\n"
@@ -972,6 +972,9 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                        We'll do our best to get back to you as soon as possible."
 msgstr ""
+"Kontakt os ved spørgsmål om vores virksomhed eller ydelser.<br/>\n"
+"                                        Vi bestræber os på at svare dig "
+"hurtigst muligt."
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_22
@@ -1125,7 +1128,7 @@ msgstr ""
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "Vil du tage det et skridt videre?"
 
 #. module: marketing_agency
 #: model:project.tags,name:marketing_agency.project_tags_12
@@ -1815,6 +1818,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"De er alle inkluderet i dit nuværende abonnement. Gå straks på opdagelse i "
+"dem! 🙃"
 
 #. module: marketing_agency
 #: model_terms:sale.order.template,note:marketing_agency.sale_order_template_4
@@ -1933,6 +1938,7 @@ msgstr ""
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
+"Vil du gerne tale med os om dit Odoo-setup eller udforske flere funktioner?"
 
 #. module: marketing_agency
 #: model_terms:ir.ui.view,arch_db:marketing_agency.welcome_article_body

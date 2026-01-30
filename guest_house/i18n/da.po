@@ -6,14 +6,14 @@
 # Kira Petersen, 2025
 # Wil Odoo, 2025
 #
-# "Kira Petersen François (peti)" <peti@odoo.com>, 2025.
+# "Kira Petersen François (peti)" <peti@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-31 16:02+0000\n"
-"PO-Revision-Date: 2025-12-13 23:51+0000\n"
+"PO-Revision-Date: 2026-01-24 23:52+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "guest_house/da/>\n"
@@ -35,6 +35,8 @@ msgid ""
 ", and feel\n"
 "                    free to"
 msgstr ""
+", og du\n"
+"                    kan altid"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -146,7 +148,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>Vil du tage det et skridt videre?</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -160,6 +162,8 @@ msgid ""
 "then\n"
 "                        to create a new one for your own usage.</strong>"
 msgstr ""
+"<strong>Du er velkommen til at eksperimentere i sådanne situationer og\n"
+"                        oprette en ny til egen anvendelse.</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -314,6 +318,9 @@ msgid ""
 "few products,\n"
 "            sale orders and more."
 msgstr ""
+"Når du uploader dette moduls demodate, fyldes din database med nye produkter,"
+"\n"
+"salgsordrer m.m."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -623,6 +630,10 @@ msgid ""
 "                    demo data and try the Demo - Use Case (In the next "
 "Knowledge Article)"
 msgstr ""
+"Hvis du vil gennemgå en praktisk rundvisning af dette modul, bør du "
+"importere\n"
+"                    demodata og afprøve demobrugsscenariet "
+"(som beskrevet i næste artikel i Vidensdelingsappen)"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -759,6 +770,10 @@ msgid ""
 "            to add new apps, delete/modify demo data, and test everything "
 "around!"
 msgstr ""
+"Oversigten viser naturligvis kun de funktioner, der følger med pakken. Du "
+"kan\n"
+"            tilføje nye apps, redigere eller slette demodata og prøve dig "
+"frem!"
 
 #. module: guest_house
 #: model:ir.ui.menu,name:guest_house.guest_house_rooms_offers_menu
@@ -1103,6 +1118,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"De er alle inkluderet i dit nuværende abonnement. Gå straks på opdagelse i "
+"dem! 🙃"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1249,6 +1266,9 @@ msgid ""
 "&gt;\n"
 "                    Upgrade your package and check the related box"
 msgstr ""
+"Har du ikke importeret demodata endnu? Du kan stadig nå det. Gå til Apps &gt;"
+" Brancher &gt;\n"
+"                    Opgradér din pakke, og markér det relevante felt"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1306,6 +1326,8 @@ msgid ""
 "various flows\n"
 "            you can quickly execute with this package using Odoo."
 msgstr ""
+"Med denne pakke i Odoo kan du gennemføre følgende flows\n"
+"for hurtigt at få overblik over de forskellige processer."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
