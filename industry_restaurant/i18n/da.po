@@ -6,14 +6,14 @@
 # Martin Trigaux, 2025
 # Wil Odoo, 2025
 #
-# "Kira Petersen François (peti)" <peti@odoo.com>, 2025.
+# "Kira Petersen François (peti)" <peti@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 08:33+0000\n"
-"PO-Revision-Date: 2025-12-20 23:52+0000\n"
+"PO-Revision-Date: 2026-01-24 23:52+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "industry_restaurant/da/>\n"
@@ -75,7 +75,7 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid ", and feel free to"
-msgstr ", du kan altid"
+msgstr ", og du kan altid"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -354,7 +354,7 @@ msgstr ""
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>Vil du tage det et skridt videre?</strong>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -601,6 +601,9 @@ msgid ""
 "Import demo data and try the Demo - Use Case. (In the next Knowledge "
 "Article)"
 msgstr ""
+"Hvis du vil gennemgå en praktisk rundvisning af dette modul, bør du "
+"importere demodata og afprøve demobrugsscenariet "
+"(som beskrevet i næste artikel i Vidensdelingsappen)"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -832,6 +835,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"De er alle inkluderet i dit nuværende abonnement. Gå straks på opdagelse i "
+"dem! 🙃"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -989,6 +994,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Fine Dining Restaurant package and check the related box."
 msgstr ""
+"Har du ikke importeret demodata endnu? Du kan stadig nå det. Gå til Apps &gt;"
+" Brancher &gt; Opgradér din pakke til fine dining-restauranter, og markér "
+"det relevante felt."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body

@@ -6,13 +6,13 @@
 # Wil Odoo, 2025
 # Kira Petersen, 2025
 #
-# "Kira Petersen François (peti)" <peti@odoo.com>, 2025.
+# "Kira Petersen François (peti)" <peti@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 17:53+0000\n"
-"PO-Revision-Date: 2025-12-20 23:52+0000\n"
+"PO-Revision-Date: 2026-01-24 23:52+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "event_management/da/>\n"
@@ -46,7 +46,7 @@ msgstr "+1 (650) 555-0187"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ", and feel free to"
-msgstr ", du kan altid"
+msgstr ", og du kan altid"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -264,7 +264,9 @@ msgstr "<span class=\"h1-fs\"><strong>Det grundlæggende</strong></span>"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
-msgstr "<span class=\"h1-fs\"><strong>Vil du fortsætte?</strong></span>"
+msgstr ""
+"<span class=\"h1-fs\"><strong>Vil du tage det et skridt "
+"videre?</strong></span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -495,7 +497,7 @@ msgid ""
 "Management</strong></span><br/>"
 msgstr ""
 "<span style=\"font-size: 45px;\"><strong>Odoo til "
-"begivenhedsadministration</strong></span><br/>"
+"eventadministration</strong></span><br/>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -545,7 +547,7 @@ msgid ""
 "Odoo:"
 msgstr ""
 "<strong>Synkronisere eksterne kalendere:</strong> Hvis event managere bruger "
-"værktøjer som Google Calendar eller Outlook, bedes du følge disse trin for "
+"værktøjer som Google Kalender eller Outlook, bedes du følge disse trin for "
 "at synkronisere med Odoo:"
 
 #. module: event_management
@@ -1007,7 +1009,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
 msgid "Comprehensive Event Management"
-msgstr "Omfattende begivenhedsadministration"
+msgstr "Omfattende eventadministration"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1357,13 +1359,13 @@ msgstr "Specialist i eventlogistik"
 #. module: event_management
 #: model:product.template,name:event_management.product_product_27_product_template
 msgid "Event Management"
-msgstr "Begivenhedsadministration"
+msgstr "Eventadministration"
 
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_20
 #: model:project.project,name:event_management.project_project_3
 msgid "Event Management Template"
-msgstr "Skabelon til begivenhedsadministration"
+msgstr "Skabelon til eventadministration"
 
 #. module: event_management
 #: model:hr.job,name:event_management.hr_job_3
@@ -1931,9 +1933,8 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
-"Dette er naturligvis kun en oversigt over de funktioner, der følger med "
-"denne pakke. Du kan tilføje nye apps, slette eller tilpasse demodata og "
-"eksperimentere med det hele!"
+"Oversigten viser naturligvis kun de funktioner, der følger med pakken. Du "
+"kan tilføje nye apps, redigere eller slette demodata og prøve dig frem!"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1977,7 +1978,7 @@ msgstr "Åbn <strong>Projektappen</strong> med knappen øverst på tilbuddet:"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Organize event management into projects"
-msgstr "Strukturering af eventstyring i projekter"
+msgstr "Strukturering af eventadministration i projekter"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2228,7 +2229,7 @@ msgstr "Rund"
 #: model:documents.document,name:event_management.documents_document_22
 #: model:project.project,name:event_management.project_project_5
 msgid "S00001 - Event Management Template"
-msgstr "S00001 - Skabelon til begivenhedsadministration"
+msgstr "S00001 - Skabelon til eventadministration"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_35_product_template
@@ -2559,7 +2560,7 @@ msgid ""
 "event management services tailored to your unique needs and preferences."
 msgstr ""
 "Omsæt din vision til uforglemmelige oplevelser gennem professionel "
-"begivenhedsstyring, tilpasset dine unikke behov."
+"eventadministration, tilpasset dine unikke behov."
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_37_product_template
@@ -2893,8 +2894,8 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Event Management package and check the related box."
 msgstr ""
-"Har du ikke importeret demodata? Du kan stadig gøre det ved at gå til Apps "
-"&gt; Brancher &gt; Opgradér eventadministrationspakke og markere det "
+"Har du ikke importeret demodata endnu? Du kan stadig nå det. Gå til Apps &gt;"
+" Brancher &gt; Opgradér din pakke til eventadministration, og markér det "
 "relevante felt."
 
 #. module: event_management
@@ -2903,8 +2904,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Du bør kunne udføre de følgende flows for at få et overblik over de "
-"forskellige flows, som du hurtigt kan gennemføre med denne pakke i Odoo."
+"Med denne pakke i Odoo kan du gennemføre følgende flows for hurtigt at få "
+"overblik over de forskellige processer."
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
