@@ -1,25 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* furniture_store
-# 
+# * furniture_store
+#
 # Translators:
 # Martin Trigaux, 2025
 # Wil Odoo, 2025
 # Junko Augias, 2025
-# 
+#
+# "Junko Augias (juau)" <juau@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 10:39+0000\n"
-"PO-Revision-Date: 2025-05-09 12:50+0000\n"
-"Last-Translator: Junko Augias, 2025\n"
-"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
+"PO-Revision-Date: 2026-01-31 22:50+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s18-3/"
+"furniture_store/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -206,13 +209,24 @@ msgid ""
 "                </span>\n"
 "                <br/>"
 msgstr ""
-"<span style=\"color: rgb(55, 65, 81); font-size: 14px; font-style: normal; font-weight: 400; background-color: rgb(255, 255, 255);\">後で</span>\n"
-"                <span style=\"color: rgb(0, 0, 255); font-size: 14px; font-style: normal; font-weight: 400; background-color: rgb(255, 255, 255);\"> &amp; </span>\n"
-"                <span style=\"font-size: 14px; font-style: normal; font-weight: 400; color: rgb(0, 0, 255); background-color: rgb(255, 255, 255);\"><strong style=\"font-weight: 500;\">在庫アプリ</strong></span>\n"
-"                <span style=\"color: rgb(55, 65, 81); font-size: 14px; font-style: normal; font-weight: 400; background-color: rgb(255, 255, 255);\">内で、作業員 &amp; はオーダのリストを使用して &amp;  \"</span>\n"
-"                <span style=\"font-size: 14px; font-style: normal; color: rgb(0, 0, 255); background-color: rgb(255, 255, 255);\"><strong>配送オーダ</strong></span>\n"
-"                <span style=\"color: rgb(55, 65, 81); font-size: 14px; font-style: normal; font-weight: 400; background-color: rgb(255, 255, 255);\">\n"
-"                    \" セクションで配送します。どのプロダクトが &amp; 発送準備できているかを確認し、顧客に送る際に配送オーダを検証して下さい。\n"
+"<span style=\"color: rgb(55, 65, 81); font-size: 14px; font-style: normal; "
+"font-weight: 400; background-color: rgb(255, 255, 255);\">後で</span>\n"
+"                <span style=\"color: rgb(0, 0, 255); font-size: 14px; font-"
+"style: normal; font-weight: 400; background-color: rgb(255, 255, 255);\"> "
+"&amp; </span>\n"
+"                <span style=\"font-size: 14px; font-style: normal; font-"
+"weight: 400; color: rgb(0, 0, 255); background-color: rgb(255, 255, 255);"
+"\"><strong style=\"font-weight: 500;\">在庫アプリ</strong></span>\n"
+"                <span style=\"color: rgb(55, 65, 81); font-size: 14px; font-"
+"style: normal; font-weight: 400; background-color: rgb(255, 255, 255);\">内で"
+"、作業員 &amp; はオーダのリストを使用して &amp;  \"</span>\n"
+"                <span style=\"font-size: 14px; font-style: normal; color: rgb"
+"(0, 0, 255); background-color: rgb(255, 255, 255);\"><strong>出荷オーダ</stro"
+"ng></span>\n"
+"                <span style=\"color: rgb(55, 65, 81); font-size: 14px; font-"
+"style: normal; font-weight: 400; background-color: rgb(255, 255, 255);\">\n"
+"                    \" セクションで配送します。どのプロダクトが &amp; 発送準"
+"備できているかを確認し、顧客に送る際に出荷オーダを検証して下さい。\n"
 "                </span>\n"
 "                <br/>"
 
@@ -714,8 +728,8 @@ msgid ""
 "Set the customer to define the &amp; <font style=\"color: rgb(0, 0, "
 "255);\"><strong>shipping address</strong></font>"
 msgstr ""
-"顧客に &amp; <font style=\"color: rgb(0, 0, "
-"255);\"><strong>配送先住所</strong></font> を定義するよう設定します"
+"顧客に &amp; <font style=\"color: rgb(0, 0, 255);\"><strong>配送先</strong></"
+"font> を定義するよう設定します"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
