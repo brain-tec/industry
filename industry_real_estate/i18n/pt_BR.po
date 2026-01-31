@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2026-01-23 09:04+0000\n"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/industry_real_estate/pt_BR/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
+msgstr "e fique à vontade para"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -44,6 +44,8 @@ msgid ""
 "selling opportunities in a visual\n"
 "                pipeline."
 msgstr ""
+"<b>App CRM</b>: Gerencie seus leads com eficiência, acompanhando as "
+"oportunidades de compra e venda em andamento em um funil visual."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -53,6 +55,10 @@ msgid ""
 "                tenants, and service providers within a single, searchable "
 "directory with full communication history."
 msgstr ""
+"<b>Aplicativo Contatos: </b>Centralize todos os dados das partes "
+"interessadas, gerenciando as relações exclusivas entre proprietários,\n"
+"                inquilinos e prestadores de serviços em um único diretório "
+"pesquisável com histórico completo de comunicações."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -60,6 +66,8 @@ msgid ""
 "<b>Create a Contract:</b> Click \"New\" and select the tenant as the "
 "\"Customer\" and add the Rental fee product."
 msgstr ""
+"<b>Criar um contrato:</b> Clique em “Novo” e selecione o inquilino como "
+"“Cliente” e adicione o produto Taxa de aluguel."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -67,6 +75,8 @@ msgid ""
 "<b>Create a Property:</b> Click \"New\" to create a unit. Fill in its "
 "building, location and other details."
 msgstr ""
+"<b>Criar uma propriedade:</b> Clique em “Novo” para criar uma unidade. "
+"Preencha os dados relativos ao edifício, localização e outros detalhes."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -74,6 +84,8 @@ msgid ""
 "<b>Documents App:</b> Store signed leases, property deeds, and insurance "
 "certificates with expiration alerts."
 msgstr ""
+"<b>App Documentos:</b> Armazene contratos de locação assinados, escrituras "
+"de imóveis e certificados de seguro com alertas de vencimento."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -83,6 +95,10 @@ msgid ""
 "                time of the tenant's entry to ensure accurate utility re-"
 "billing later."
 msgstr ""
+"<b>Registros de mudança:</b> Utilize a aba dedicada à propriedade para "
+"registrar as leituras dos medidores (água, eletricidade) no\n"
+"momento da entrada do inquilino, a fim de garantir o faturamento preciso dos "
+"serviços públicos posteriormente."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -91,6 +107,8 @@ msgid ""
 "navigate through the app menu\n"
 "                Availability."
 msgstr ""
+"<b>Abra a Disponibilidade</b>: Abra o aplicativo <strong>App Propriedades</"
+"strong> e navegue pelo menu do aplicativo."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -98,6 +116,8 @@ msgid ""
 "<b>Open the Contracts</b>: Open the <strong>Properties App</strong> to reach "
 "the Subscriptions."
 msgstr ""
+"<b>Abra o Contratos</b>: Abra o aplicativo <strong>App Propriedades</strong> "
+"para acessar as assinaturas."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -106,6 +126,9 @@ msgid ""
 "through the app menu Properties /\n"
 "                Properties."
 msgstr ""
+"<b> <b>Abra as Propriedades: </b>Abra o aplicativo Propriedades </b>e "
+"navegue pelo menu do aplicativo Propriedades /\n"
+"                Propriedades."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -114,6 +137,9 @@ msgid ""
 "by clicking on an empty slot in\n"
 "                    the timeline."
 msgstr ""
+"<b>Dica de expert:</b> Você pode criar um novo contrato de aluguel "
+"diretamente nesta visualização clicando em um horário vazio na\n"
+"                    linha do tempo."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -122,6 +148,9 @@ msgid ""
 "manage property listings, contracts, and\n"
 "                availability status."
 msgstr ""
+"<b>Aplicativo de Propriedade: </b>Organize seu portfólio com um aplicativo "
+"dedicado para gerenciar listagens de imóveis, contratos e\n"
+"                status de disponibilidade."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -130,11 +159,14 @@ msgid ""
 "professional quotations and digital\n"
 "                signatures."
 msgstr ""
+"<b>App Vendas: </b>Gerencie ofertas, negociações e feche negócios com "
+"cotações profissionais e assinaturas digitais."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<b>Select the Property:</b> Select the \"Property\" to rent."
 msgstr ""
+"<b>Selecionar o propriedade:</b> Selecione o imóvel que pretende alugar."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -142,6 +174,8 @@ msgid ""
 "<b>Sign App:</b> Send lease agreements for legally binding electronic "
 "signatures."
 msgstr ""
+"<b>Aplicativo Assinar:</b> Envie contratos de locação para assinaturas "
+"eletrônicas juridicamente vinculativas."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -151,6 +185,9 @@ msgid ""
 "                cycles, ensuring consistent cash flow and effortless lease "
 "renewals."
 msgstr ""
+"<b>Aplicativo de assinaturas: </b>Automatize a cobrança de aluguéis e taxas "
+"de serviços recorrentes com ciclos de faturamento flexíveis, garantindo um "
+"fluxo de caixa consistente e renovações de locação sem esforço."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -167,6 +204,8 @@ msgid ""
 "beautiful, mobile-responsive\n"
 "                property management portal."
 msgstr ""
+"<b>App Site: </b>Direcione tráfego qualificado promovendo suas listagens em "
+"um portal de gestão de imóveis bonito e responsivo para dispositivos móveis."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -176,6 +215,10 @@ msgid ""
 "b>\n"
 "                                    </font>"
 msgstr ""
+"<font style=\"font-size: 62px;\">\n"
+"                                        <b>— Gestão de "
+"Propriedades&amp;nbsp;—</b>\n"
+"                                    </font>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.contactus
@@ -221,6 +264,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">🚀</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -228,6 +273,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">✅</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -235,10 +282,11 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">🎉</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
@@ -248,7 +296,6 @@ msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-#, fuzzy
 msgid ""
 "<i>Note: Only properties with at least one current or future contract will "
 "appear in this visualization.</i>"
@@ -333,11 +380,14 @@ msgid ""
 "with a completely integrated\n"
 "                environment."
 msgstr ""
+"<strong>App Financeiro: </strong>Gerencie sua contabilidade com mais "
+"facilidade do que nunca com um ambiente totalmente integrado."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
+#, fuzzy
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>Quer ir mais além?</strong>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body

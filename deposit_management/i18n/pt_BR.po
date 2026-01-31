@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-23 10:35+0000\n"
-"PO-Revision-Date: 2026-01-23 09:06+0000\n"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/deposit_management/pt_BR/>\n"
@@ -149,7 +149,7 @@ msgstr "Tem linha de depósito"
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.account_tax_group_is_deposit
 msgid "Is Deposit"
-msgstr ""
+msgstr "É um depósito"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.x_is_a_deposit_category
@@ -193,17 +193,17 @@ msgstr "Sequenciar os impostos sobre depósitos"
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_deposit_product_1
 msgid "Total Deposits"
-msgstr ""
+msgstr "Total de depósitos"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_unit_sale_product
 msgid "Unit sale product"
-msgstr ""
+msgstr "Produto vendido por unidade"
 
 #. module: deposit_management
 #: model:base.automation,name:deposit_management.update_sales_taxes
 msgid "Update Taxes"
-msgstr ""
+msgstr "Atualizar impostos"
 
 #. module: deposit_management
 #: model:ir.model.fields,help:deposit_management.field_quantity_by_deposit_product
@@ -212,8 +212,11 @@ msgid ""
 "product in those components. Leave second field empty if this product is the"
 " smallest unit."
 msgstr ""
+"Quando preenchido, uma lista de materiais (LM) automatizada é configurada "
+"para dividir automaticamente este produto nesses componentes. Deixe o "
+"segundo campo em branco se este produto for a menor unidade."
 
 #. module: deposit_management
 #: model_terms:ir.ui.view,arch_db:deposit_management.product_template_form_deposit
 msgid "ex. Delta I.P.A. - 33cl"
-msgstr ""
+msgstr "ex.: Delta I.P.A. - 330ml"

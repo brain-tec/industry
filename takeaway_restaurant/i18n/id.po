@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:02+0000\n"
-"PO-Revision-Date: 2026-01-13 16:56+0000\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "takeaway_restaurant/id/>\n"
@@ -245,7 +245,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_four_cheese_pizza
 msgid "A creamy blend of mozzarella, cheddar, gorgonzola, and parmesan."
-msgstr ""
+msgstr "A creamy blend of mozzarella, cheddar, gorgonzola, and parmesan."
 
 #. module: takeaway_restaurant
 #: model:product.template,description_sale:takeaway_restaurant.product_template_margherita_pizza
@@ -345,7 +345,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_coca_cola_can
 msgid "Chilled can of Coca-Cola, 330ml."
-msgstr ""
+msgstr "Chilled can of Coca-Cola, 330ml."
 
 #. module: takeaway_restaurant
 #: model:product.template,name:takeaway_restaurant.product_template_chocolate_brownie
@@ -355,7 +355,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_margherita_pizza
 msgid "Classic Margherita pizza with fresh mozzarella and basil."
-msgstr ""
+msgstr "Classic Margherita pizza with fresh mozzarella and basil."
 
 #. module: takeaway_restaurant
 #: model:product.template,name:takeaway_restaurant.product_template_coca_cola_can
@@ -372,7 +372,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_pesto_chicken_pizza
 msgid "Creamy pesto sauce base with grilled chicken and sun-dried tomatoes."
-msgstr ""
+msgstr "Creamy pesto sauce base with grilled chicken and sun-dried tomatoes."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -399,7 +399,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_garlic_bread
 msgid "Crispy garlic bread perfect as a side dish."
-msgstr ""
+msgstr "Crispy garlic bread perfect as a side dish."
 
 #. module: takeaway_restaurant
 #: model:product.template,description_sale:takeaway_restaurant.product_template_garlic_bread
@@ -506,7 +506,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_buffalo_mozzarella_pizza
 msgid "Fresh buffalo mozzarella with cherry tomatoes and basil."
-msgstr ""
+msgstr "Fresh buffalo mozzarella with cherry tomatoes and basil."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.homepage
@@ -541,7 +541,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_bbq_chicken_pizza
 msgid "Grilled chicken with BBQ sauce and red onions."
-msgstr ""
+msgstr "Grilled chicken with BBQ sauce and red onions."
 
 #. module: takeaway_restaurant
 #: model:product.attribute.value,name:takeaway_restaurant.product_attribute_value_8
@@ -551,7 +551,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_spicy_beef_pizza
 msgid "Ground beef with jalapeños and chili flakes."
-msgstr ""
+msgstr "Ground beef with jalapeños and chili flakes."
 
 #. module: takeaway_restaurant
 #: model:product.attribute.value,name:takeaway_restaurant.product_attribute_value_6
@@ -561,7 +561,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_hawaiian_pizza
 msgid "Ham and pineapple on a tomato base with mozzarella."
-msgstr ""
+msgstr "Ham and pineapple on a tomato base with mozzarella."
 
 #. module: takeaway_restaurant
 #: model:product.template,name:takeaway_restaurant.product_template_hawaiian_pizza
@@ -630,12 +630,12 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_veggie_supreme_pizza
 msgid "Loaded with bell peppers, mushrooms, olives, and onions."
-msgstr ""
+msgstr "Loaded with bell peppers, mushrooms, olives, and onions."
 
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_meat_feast_pizza
 msgid "Loaded with pepperoni, sausage, ham, and beef."
-msgstr ""
+msgstr "Loaded with pepperoni, sausage, ham, and beef."
 
 #. module: takeaway_restaurant
 #: model:product.template,name:takeaway_restaurant.product_template_margherita_pizza
@@ -814,7 +814,7 @@ msgstr ""
 #: model_terms:product.template,description:takeaway_restaurant.product_template_138
 #: model_terms:product.template,description:takeaway_restaurant.product_template_delivery_service
 msgid "Pizza delivery to your doorstep within 30 minutes."
-msgstr ""
+msgstr "Pizza delivery to your doorstep within 30 minutes."
 
 #. module: takeaway_restaurant
 #: model:pos.category,name:takeaway_restaurant.pos_category_8
@@ -849,7 +849,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_chocolate_brownie
 msgid "Rich and fudgy chocolate brownie, freshly baked."
-msgstr ""
+msgstr "Rich and fudgy chocolate brownie, freshly baked."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -900,7 +900,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_pepperoni_pizza
 msgid "Spicy pepperoni layered on melted cheese and tomato sauce."
-msgstr ""
+msgstr "Spicy pepperoni layered on melted cheese and tomato sauce."
 
 #. module: takeaway_restaurant
 #: model_terms:ir.ui.view,arch_db:takeaway_restaurant.welcome_article_body
@@ -983,7 +983,7 @@ msgstr ""
 #. module: takeaway_restaurant
 #: model_terms:product.template,description:takeaway_restaurant.product_template_mushroom_truffle_pizza
 msgid "Truffle oil drizzled over roasted mushrooms and cheese."
-msgstr ""
+msgstr "Truffle oil drizzled over roasted mushrooms and cheese."
 
 #. module: takeaway_restaurant
 #: model:product.template,name:takeaway_restaurant.product_template_veggie_supreme_pizza

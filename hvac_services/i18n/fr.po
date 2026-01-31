@@ -4,15 +4,15 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 11:38+0000\n"
-"PO-Revision-Date: 2025-12-17 15:54+0000\n"
+"PO-Revision-Date: 2026-01-29 17:20+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
-"Language-Team: French <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-s19-1/"
 "hvac_services/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -72,6 +72,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -108,7 +110,7 @@ msgstr "<span class=\"o_stat_text\">Lots/Numéros de série</span>"
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.product_view_kanban_catalog
 msgid "<span class=\"small\"> Documents</span>"
-msgstr ""
+msgstr "<span class=\"small\"> Documents</span>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -219,7 +221,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Attaching brochures to your quotations for your customers;"
-msgstr ""
+msgstr "Ajouter des brochures à vos devis pour les clients ;"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -248,7 +250,7 @@ msgstr "Facturation des tâches de réparation"
 #. module: hvac_services
 #: model:documents.tag,name:hvac_services.documents_tag_3
 msgid "Brochure"
-msgstr ""
+msgstr "Brochure"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -278,11 +280,13 @@ msgid ""
 "customer\n"
 "                to share it with!"
 msgstr ""
+"Cliquez sur le bouton \"Partager\" pour ouvrir la fenêtre de partage de "
+"documents et sélectionner le client avec lequel les partager !"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Click the documents shortcut from the product tiles."
-msgstr ""
+msgstr "Cliquez sur le raccourci Documents depuis les tuiles de produits."
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_4
@@ -429,12 +433,13 @@ msgstr ""
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.action_product_related_document
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Easing the sharing of documents on the field on customer's request."
 msgstr ""
+"Faciliter le partage de documents sur le terrain à la demande du client."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -457,6 +462,7 @@ msgstr "Exécution de tâches"
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Feel free to add some document tags for clarity purpose."
 msgstr ""
+"N’hésitez pas à ajouter quelques étiquettes de documents pour plus de clarté."
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.get_field_services_action
@@ -519,6 +525,8 @@ msgstr ""
 msgid ""
 "From a field service task, open then product catalog from the smart buttons."
 msgstr ""
+"Depuis une tâche de service sur site, ouvrez ensuite le catalogue de "
+"produits via les boutons intelligents."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -546,7 +554,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "From the smart buttons, reach the product documents."
-msgstr ""
+msgstr "Depuis les boutons intelligents, accédez aux documents du produit."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -565,16 +573,20 @@ msgid ""
 "a\n"
 "                document and import it."
 msgstr ""
+"Cliquez sur \"Nouveau\" ou \"Uploader\" pour ajouter un nouveau document à "
+"ce produit. Sélectionnez un document et importez-le."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Hit the Preview button to access the document itself."
-msgstr ""
+msgstr "Cliquez sur le bouton \"Aperçu\" pour ouvrir le document lui-même."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "How do field worker access and share product documents?"
 msgstr ""
+"Comment les techniciens de terrain peuvent-ils consulter et partager les "
+"documents produits ?"
 
 #. module: hvac_services
 #: model:ir.model,name:hvac_services.x_project_task_worksheet_template
@@ -952,7 +964,7 @@ msgstr ""
 #. module: hvac_services
 #: model:ir.actions.server,name:hvac_services.server_action_share_document
 msgid "Open related document share popup"
-msgstr ""
+msgstr "Ouvrir la popup de partage des documents associés"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1054,6 +1066,8 @@ msgstr ""
 msgid ""
 "Open the product of your choice, typically from Sales or Inventory Apps."
 msgstr ""
+"Ouvrez le produit de votre choix, généralement depuis les applications "
+"Ventes ou Inventaire."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1139,6 +1153,8 @@ msgid ""
 "Product documents are binded to a document stored in the\n"
 "                    Documents App."
 msgstr ""
+"Les documents produits sont liés à un document stocké dans l’application "
+"Documents."
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_product_is_functional_field
@@ -1162,7 +1178,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Providing access to installation manuals to your field workers;"
-msgstr ""
+msgstr "Donner accès aux manuels d’installation aux techniciens de terrain ;"
 
 #. module: hvac_services
 #: model:sale.order.template.line,name:hvac_services.sale_order_template_line_10
@@ -1368,7 +1384,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.product_document_kanban_view_extended
 msgid "Share"
-msgstr ""
+msgstr "Partager"
 
 #. module: hvac_services
 #: model:product.template,name:hvac_services.product_template_12
@@ -1383,7 +1399,7 @@ msgstr "Lot de stock CVC"
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_document_tag_ids_field_product_document
 msgid "Tags"
-msgstr ""
+msgstr "Étiquettes"
 
 #. module: hvac_services
 #: model:ir.model.fields,field_description:hvac_services.x_project_task_id_field
@@ -1486,7 +1502,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "To help you with that, here is how to proceed:"
-msgstr ""
+msgstr "Voici comment procéder :"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1614,6 +1630,8 @@ msgid ""
 "You can define how to attach such documents to your quotations from the list "
 "view."
 msgstr ""
+"Vous pouvez définir la manière de joindre ce type de documents à vos devis "
+"depuis la vue liste."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1675,6 +1693,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "You may need to attach documents to product for multiple purposes:"
 msgstr ""
+"Il se peut que vous deviez joindre des documents à un produit pour plusieurs "
+"utilisations :"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1766,7 +1786,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "🎓 Documents"
-msgstr ""
+msgstr "🎓 Documents"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -1791,7 +1811,7 @@ msgstr "🎓 Ventes"
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "📃 Managing and sharing product documents"
-msgstr ""
+msgstr "📃 Gérer et partager les documents produits"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body

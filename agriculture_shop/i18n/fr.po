@@ -7,127 +7,128 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:28+0000\n"
-"PO-Revision-Date: 2025-11-13 13:43+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: French <https://translate.odoo.com/projects/odoo-19/"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-s19-1/"
 "agriculture_shop/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
-"1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_28
 msgid " B2B Quote"
-msgstr ""
+msgstr " Devis B2B"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_46
 msgid " Contract"
-msgstr ""
+msgstr " Contrat"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_29
 msgid " Fertilizer"
-msgstr ""
+msgstr " Engrais"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_52
 msgid " General Inquiry"
-msgstr ""
+msgstr " Demande générale"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_50
 msgid " High Value"
-msgstr ""
+msgstr " Valeur élevée"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_32
 msgid " Large Deal"
-msgstr ""
+msgstr " Affaire importante"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_44
 msgid " New Product"
-msgstr ""
+msgstr " Nouveau produit"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_34
 msgid " Online Sales"
-msgstr ""
+msgstr " Ventes en ligne"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_41
 msgid " Price Check"
-msgstr ""
+msgstr " Vérification des prix"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_40
 msgid " Project"
-msgstr ""
+msgstr " Projet"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_31
 msgid " Quote Request"
-msgstr ""
+msgstr " Demande de devis"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_42
 msgid " Seeds"
-msgstr ""
+msgstr " Semences"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_48
 msgid " Small Order"
-msgstr ""
+msgstr " Petite commande"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_36
 msgid " Testing"
-msgstr ""
+msgstr " Test"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_38
 msgid " Urgent"
-msgstr ""
+msgstr " Urgent"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_9
 msgid "0.2 Kg"
-msgstr ""
+msgstr "0,2 kg"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_5
 msgid "0.33 L"
-msgstr ""
+msgstr "0,33 l"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_8
 msgid "0.5 Kg"
-msgstr ""
+msgstr "0,5 kg"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_4
 msgid "0.5 L"
-msgstr ""
+msgstr "0,5 l"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_7
 msgid "1 Kg"
-msgstr ""
+msgstr "1 kg"
 
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_3
 msgid "1 L"
-msgstr ""
+msgstr "1 l"
 
 #. module: agriculture_shop
 #: model:loyalty.reward,description:agriculture_shop.loyalty_reward_2
@@ -143,7 +144,7 @@ msgstr "24h/7j assistance gratuite"
 #. module: agriculture_shop
 #: model:product.attribute.value,name:agriculture_shop.product_attribute_value_6
 msgid "5 L"
-msgstr ""
+msgstr "5 l"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -151,6 +152,8 @@ msgid ""
 "<b>\n"
 "                    SEO features</b>"
 msgstr ""
+"<b>\n"
+"                    Fonctionnalités SEO</b>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -159,6 +162,9 @@ msgid ""
 "track of stock levels for diverse products\n"
 "                like pesticides and equipment."
 msgstr ""
+"<b><font class=\"text-o-color-1\">Application Inventaire :</font></b> Suivez "
+"précisément les niveaux de stock de produits variés, comme les pesticides et "
+"le matériel."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -167,6 +173,9 @@ msgid ""
 "store transactions efficiently, handling sales of seeds, tools, and supplies "
 "with ease."
 msgstr ""
+"<b><font class=\"text-o-color-1\">Application Point de Vente :</font></b> "
+"Gérez efficacement les transactions en magasin, de la vente de semences, d’"
+"outils et de fournitures, en toute simplicité."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -175,6 +184,9 @@ msgid ""
 "procurement of farming products from suppliers, managing costs and lead "
 "times."
 msgstr ""
+"<b><font class=\"text-o-color-1\">Application Achats :</font></b> Optimisez "
+"l’approvisionnement en produits agricoles auprès des fournisseurs, tout en "
+"maîtrisant les coûts et les délais."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -182,6 +194,9 @@ msgid ""
 "<b><font class=\"text-o-color-1\">Sales App:</font></b> Handle B2B orders "
 "and contracts for large farming clients, ensuring accurate pricing."
 msgstr ""
+"<b><font class=\"text-o-color-1\">Application Ventes :</font></b> Gérez les "
+"commandes et les contrats B2B pour les grands clients agricoles, en "
+"garantissant une tarification précise."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -190,6 +205,9 @@ msgid ""
 "o-color-3\"> Build a professional online presence to showcase your catalog "
 "and attract new customers.</font>"
 msgstr ""
+"<b><font class=\"text-o-color-1\">Application Site web :</font></b><font "
+"class=\"text-o-color-3\"> Créez une présence en ligne professionnelle afin "
+"de présenter votre catalogue et d’attirer de nouveaux clients.</font>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -197,6 +215,9 @@ msgid ""
 "<b><font class=\"text-o-color-1\">eCommerce App:</font></b> Expand your "
 "reach by selling products online, offering convenience to modern farmers."
 msgstr ""
+"<b><font class=\"text-o-color-1\">Application eCommerce :</font></b> "
+"Élargissez votre portée en vendant vos produits en ligne et offrez davantage "
+"de praticité aux agriculteurs modernes."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -205,6 +226,8 @@ msgid ""
 "tax\n"
 "                    reports."
 msgstr ""
+"<b>Comptabilité :</b> Enregistrez automatiquement les paiements, clôturez "
+"les sessions et générez des rapports fiscaux."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body

@@ -4,15 +4,15 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Abe Manyo (abem)" <abem@odoo.com>, 2025.
+# "Abe Manyo (abem)" <abem@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 11:46+0000\n"
-"PO-Revision-Date: 2025-12-18 07:54+0000\n"
+"PO-Revision-Date: 2026-01-30 14:39+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
-"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "bike_shop/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -1065,12 +1065,12 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_11
 msgid "CEXP-6S"
-msgstr ""
+msgstr "CEXP-6S"
 
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_9
 msgid "CRP-2023"
-msgstr ""
+msgstr "CRP-2023"
 
 #. module: bike_shop
 #: model:product.template,name:bike_shop.product_template_13
@@ -1127,7 +1127,7 @@ msgstr "Komentar"
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_11
 msgid "Compact 6-speed folding bike designed for city commuters."
-msgstr ""
+msgstr "Compact 6-speed folding bike designed for city commuters."
 
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_26
@@ -1137,11 +1137,15 @@ msgid ""
 "families and delivery\n"
 "            pros."
 msgstr ""
+"Compact yet powerful longtail cargo e-bike with Bosch Cargo Line motor, dual "
+"battery compatibility, and 200kg total load capacity. Ideal for urban "
+"families and delivery\n"
+"            pros."
 
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_21
 msgid "Compatible with most Shimano calipers. Quiet, effective stopping power."
-msgstr ""
+msgstr "Compatible with most Shimano calipers. Quiet, effective stopping power."
 
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_18
@@ -1150,6 +1154,9 @@ msgid ""
 "tire pressure check, wheel truing, and final road test. For\n"
 "            road, city, gravel or mountain bikes (non-electric)."
 msgstr ""
+"Complete safety check, brake tuning, drivetrain cleaning and adjustment, "
+"tire pressure check, wheel truing, and final road test. For\n"
+"            road, city, gravel or mountain bikes (non-electric)."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -1168,6 +1175,10 @@ msgid ""
 "firmware update if applicable (Bosch, Shimano,\n"
 "            Brose, etc.)."
 msgstr ""
+"Comprehensive check-up and optimization of your electric bike’s battery "
+"system. Includes voltage and cell health analysis, error code scan, and "
+"firmware update if applicable (Bosch, Shimano,\n"
+"            Brose, etc.)."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -1279,6 +1290,7 @@ msgstr ""
 msgid ""
 "Durable 11-speed chain with quick-link. Ideal for road and gravel bikes."
 msgstr ""
+"Durable 11-speed chain with quick-link. Ideal for road and gravel bikes."
 
 #. module: bike_shop
 #: model:product.template,name:bike_shop.product_template_19
@@ -1394,12 +1406,12 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_13
 msgid "Full-suspension trail bike for weekend explorers and alpine routes."
-msgstr ""
+msgstr "Full-suspension trail bike for weekend explorers and alpine routes."
 
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_26
 msgid "GSD S10 LX"
-msgstr ""
+msgstr "GSD S10 LX"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -1483,6 +1495,10 @@ msgid ""
 "ride. Designed for e-bikes and Brompton\n"
 "            models."
 msgstr ""
+"Includes full bike safety check, brake and gear adjustment, battery and "
+"electrical components diagnostics and updates, wheel alignment, and test "
+"ride. Designed for e-bikes and Brompton\n"
+"            models."
 
 #. module: bike_shop
 #: model_terms:sale.order.template,note:bike_shop.sale_order_template_1
@@ -1492,6 +1508,9 @@ msgid ""
 "approval. We will contact you for confirmation before making any additional "
 "repairs."
 msgstr ""
+"Hanya termasuk tenaga kerja. Spare part dan perbaikan ditagih terpisah "
+"setelah penyetujuan. Kami akan menghubungi Anda untuk konfirmasi sebelum "
+"membuat perbaikan tambahan apa pun."
 
 #. module: bike_shop
 #: model:product.template,name:bike_shop.product_template_24
@@ -1524,7 +1543,7 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_12
 msgid "KH-500-E"
-msgstr ""
+msgstr "KH-500-E"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.repairs
@@ -1562,11 +1581,12 @@ msgstr ""
 msgid ""
 "Lightweight but durable inner tube for 700c road tires. 42mm Presta valve."
 msgstr ""
+"Lightweight but durable inner tube for 700c road tires. 42mm Presta valve."
 
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_9
 msgid "Lightweight hardtail MTB ideal for cross-country adventures."
-msgstr ""
+msgstr "Lightweight hardtail MTB ideal for cross-country adventures."
 
 #. module: bike_shop
 #: model:project.tags,name:bike_shop.project_tags_1
@@ -1610,7 +1630,7 @@ msgstr "Perusahaan saya"
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_13
 msgid "NAL6-29"
-msgstr ""
+msgstr "NAL6-29"
 
 #. module: bike_shop
 #: model:ir.model.fields,field_description:bike_shop.worksheet_template_ir_model_fields_8
@@ -1725,7 +1745,7 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_12
 msgid "Powerful e-trekking bike built for long-distance comfort."
-msgstr ""
+msgstr "Powerful e-trekking bike built for long-distance comfort."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -1753,7 +1773,7 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:product.template,description:bike_shop.product_template_10
 msgid "RL7-2023"
-msgstr ""
+msgstr "RL7-2023"
 
 #. module: bike_shop
 #: model:helpdesk.stage,legend_done:bike_shop.helpdesk_stage_10
@@ -1917,7 +1937,7 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_10
 msgid "Sleek and fast fitness bike, perfect for urban and endurance rides."
-msgstr ""
+msgstr "Sleek and fast fitness bike, perfect for urban and endurance rides."
 
 #. module: bike_shop
 #: model:product.template,name:bike_shop.product_template_27
@@ -1977,7 +1997,7 @@ msgstr "Tanda Tangan Teknisi"
 #. module: bike_shop
 #: model_terms:survey.question,description:bike_shop.survey_question_3
 msgid "Tell us more about your experience or specific needs..."
-msgstr ""
+msgstr "Beritahu kami mengenai pengalaman atau kebutuhan spesifik Anda..."
 
 #. module: bike_shop
 #: model:product.template,name:bike_shop.product_template_26
@@ -1992,7 +2012,7 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:survey.survey,description_done:bike_shop.survey_survey_1
 msgid "Thanks for your feedback! 😀🚲"
-msgstr ""
+msgstr "Terima kasih untuk feedback Anda! 😀🚲"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -2085,6 +2105,8 @@ msgid ""
 "This survey will help us enhance our customer experience by continuously "
 "improving the quality of our service."
 msgstr ""
+"Survei ini akan membantu kami meningkatkan pengalaman pelanggan kami dengan "
+"secara terus menerus meningkatkan kualitas layanan kami."
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.repairs
@@ -2190,31 +2212,35 @@ msgid ""
 "            13.7 kg<em><em><em><em><em><em><em><em><em><em></em></em></em></"
 "em></em></em></em></em></em></em><br>"
 msgstr ""
+"Weight:\n"
+"            13.7 "
+"kg<em><em><em><em><em><em><em><em><em><em></em></em></em></em></em></em></em></em></em></em><br>"
+""
 
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_12
 msgid "Weight: 25.4 kg"
-msgstr ""
+msgstr "Weight: 25.4 kg"
 
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_26
 msgid "Weight: 33.2 kg"
-msgstr ""
+msgstr "Weight: 33.2 kg"
 
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_10
 msgid "Weight: 10.5 kg"
-msgstr ""
+msgstr "Weight: 10.5 kg"
 
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_11
 msgid "Weight: 11.8 kg"
-msgstr ""
+msgstr "Weight: 11.8 kg"
 
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_9
 msgid "Weight: 12.3 kg"
-msgstr ""
+msgstr "Weight: 12.3 kg"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -2454,4 +2480,4 @@ msgstr ""
 #. module: bike_shop
 #: model_terms:product.template,description_ecommerce:bike_shop.product_template_13
 msgid "​<br>"
-msgstr ""
+msgstr "​<br>"

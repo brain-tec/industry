@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-23 10:35+0000\n"
-"PO-Revision-Date: 2026-01-20 12:58+0000\n"
+"PO-Revision-Date: 2026-01-29 17:24+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "deposit_management/id/>\n"
@@ -38,7 +38,7 @@ msgstr ""
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_aut_production
 msgid "Auto-production"
-msgstr ""
+msgstr "Produksi otomatis"
 
 #. module: deposit_management
 #: model:base.automation,name:deposit_management.bom_automation
@@ -48,7 +48,7 @@ msgstr "BoM Otomatis"
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_deposit_categ_id
 msgid "Available Deposit Category"
-msgstr ""
+msgstr "Kategori Deposit Tersedia"
 
 #. module: deposit_management
 #: model_terms:ir.ui.view,arch_db:deposit_management.product_template_form_deposit
@@ -63,12 +63,12 @@ msgstr ""
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_empty_deposit
 msgid "By-Deposit"
-msgstr ""
+msgstr "Berdasarkan Deposit"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_quantity_by_deposit_product
 msgid "Contains"
-msgstr ""
+msgstr "Memiliki"
 
 #. module: deposit_management
 #: model:base.automation,name:deposit_management.update_deposit_taxes
@@ -78,7 +78,7 @@ msgstr "Create/assign deposit Taxes"
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.product_template_currency_symbol
 msgid "Currency Symbol "
-msgstr ""
+msgstr "Simbol Mata Uang "
 
 #. module: deposit_management
 #: model:account.tax,name:deposit_management.account_tax_01_purchase
@@ -119,13 +119,13 @@ msgstr "Setoran"
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.x_deposit_amount
 msgid "Deposit Amount"
-msgstr ""
+msgstr "Jumlah Deposit"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.account_move_line_total_deposits_field
 #: model:ir.model.fields,field_description:deposit_management.sale_order_line_total_deposits_field
 msgid "Deposits"
-msgstr ""
+msgstr "Deposit-Deposit"
 
 #. module: deposit_management
 #: model:ir.actions.server,name:deposit_management.action_make_deposit_storable_delivery_invoice
@@ -144,22 +144,22 @@ msgstr "Jalankan Action-Action yang Tersedia"
 #: model:ir.model.fields,field_description:deposit_management.account_move_has_deposit_line_field
 #: model:ir.model.fields,field_description:deposit_management.sale_order_has_deposit_line_field
 msgid "Has Deposit Line"
-msgstr ""
+msgstr "Memiliki Baris Deposit"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.account_tax_group_is_deposit
 msgid "Is Deposit"
-msgstr ""
+msgstr "Apakah Deposit"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.x_is_a_deposit_category
 msgid "Is a Deposit Category"
-msgstr ""
+msgstr "Apakah Kategori Deposit"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.x_is_a_deposit
 msgid "Is a deposit"
-msgstr ""
+msgstr "Apakah deposit"
 
 #. module: deposit_management
 #: model_terms:ir.ui.view,arch_db:deposit_management.product_template_form_deposit
@@ -170,7 +170,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:deposit_management.field_parent_product_bom
 #: model:ir.model.fields,field_description:deposit_management.field_parent_product_rr
 msgid "Parent product"
-msgstr ""
+msgstr "Produk induk"
 
 #. module: deposit_management
 #: model:ir.model.fields,help:deposit_management.field_deposit_product_1
@@ -191,12 +191,12 @@ msgstr "Sequence the deposit taxes"
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_deposit_product_1
 msgid "Total Deposits"
-msgstr ""
+msgstr "Total Deposit"
 
 #. module: deposit_management
 #: model:ir.model.fields,field_description:deposit_management.field_unit_sale_product
 msgid "Unit sale product"
-msgstr ""
+msgstr "Unit sale product"
 
 #. module: deposit_management
 #: model:base.automation,name:deposit_management.update_sales_taxes

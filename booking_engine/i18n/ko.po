@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:43+0000\n"
-"PO-Revision-Date: 2026-01-23 09:01+0000\n"
+"PO-Revision-Date: 2026-01-30 14:39+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-s19-1/"
 "booking_engine/ko/>\n"
@@ -79,12 +79,12 @@ msgstr "숙박"
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_set
 msgid "Activate House Keeping"
-msgstr ""
+msgstr "하우스키핑 활성화"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.product_form_view
 msgid "Add a resource"
-msgstr ""
+msgstr "리소스 추가"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.update_city_tax_action
@@ -182,7 +182,7 @@ msgstr "엔진 예약 혜택"
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_settings_action
 msgid "Booking Engine Settings"
-msgstr ""
+msgstr "예약 엔진 설정"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_21
@@ -277,7 +277,7 @@ msgstr "환경설정"
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.industry_create_roles
 msgid "Create Plan Services"
-msgstr ""
+msgstr "서비스 패키지 생성"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.industry_on_product_template_create
@@ -297,17 +297,17 @@ msgstr "고객"
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_unset
 msgid "Deactivate House Keeping"
-msgstr ""
+msgstr "하우스키핑 비활성화"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_resource_form
 msgid "Default Stay Offer"
-msgstr ""
+msgstr "기본 숙박 프로모션"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.industry_delete_roles
 msgid "Delete Plan Services"
-msgstr ""
+msgstr "서비스 패키지 삭제"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.industry_on_product_template_delete
@@ -347,7 +347,7 @@ msgstr "예정일"
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.industry_edit_roles
 msgid "Edit Plan Services"
-msgstr ""
+msgstr "서비스 패키지 수정"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.industry_on_product_template_edit
@@ -419,7 +419,7 @@ msgstr "헤어드라이어"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_has_city_tax_field
 msgid "Has City Tax"
-msgstr ""
+msgstr "도시세 여부"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_house_keeping
@@ -435,17 +435,17 @@ msgstr "하우스키핑"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_is_house_keeping_project_field_project_project
 msgid "House Keeping Project"
-msgstr ""
+msgstr "하우스키핑 프로젝트"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_house_keeping_stage_id_field_resource_resource
 msgid "House Keeping Stage"
-msgstr ""
+msgstr "하우스키핑 단계"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_rooms
 msgid "HouseKeeping: Daily room update"
-msgstr ""
+msgstr "하우스키핑: 일일 객실 업데이트"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_check_has_right_to_approve_tasks
@@ -460,17 +460,17 @@ msgstr ""
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_check_in
 msgid "HouseKeeping: On check in"
-msgstr ""
+msgstr "하우스키핑: 체크인 시"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_check_out
 msgid "HouseKeeping: On check out"
-msgstr ""
+msgstr "하우스키핑: 체크아웃 시"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_task_stage_modified
 msgid "HouseKeeping: On stage change"
-msgstr ""
+msgstr "하우스키핑: 단계 변경 시"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_task_stage_clean
@@ -485,7 +485,7 @@ msgstr ""
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_x_setting_approvers
 msgid "HouseKeeping: Set approvers setting"
-msgstr ""
+msgstr "하우스키핑: 승인자 설정"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_resources_occupied
@@ -533,7 +533,7 @@ msgstr "포함 사항"
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.x_action_activate_house_keeping
 msgid "Install House Keeping"
-msgstr ""
+msgstr "하우스키핑 설치"
 
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.base_model_res_partner_x_identity_check_field_selection_invalid
@@ -554,12 +554,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:booking_engine.planning_model_planning_role_x_is_a_room_offer_field
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_is_a_room_offer_field
 msgid "Is Stay Offer"
-msgstr ""
+msgstr "숙박 프로모션 여부"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.resource_x_is_stay_resource
 msgid "Is Stay Resource"
-msgstr ""
+msgstr "숙박 리소스 여부"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_2
@@ -857,12 +857,12 @@ msgstr "직원 관련 작업"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_task_stage_color_field_project_task
 msgid "Task Stage Color"
-msgstr ""
+msgstr "작업 단계 색상"
 
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.action_window_redirect_related_task
 msgid "Task redirected from Resource"
-msgstr ""
+msgstr "작업이 리소스에서 재지정됨"
 
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.act_window_house_keeping_project_tasks
@@ -910,7 +910,7 @@ msgstr "타월"
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.x_action_deactivate_house_keeping
 msgid "Uninstall House Keeping"
-msgstr ""
+msgstr "하우스키핑 제거"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_approver_users_ids
