@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:27+0000\n"
-"PO-Revision-Date: 2026-01-24 19:51+0000\n"
+"PO-Revision-Date: 2026-01-27 22:45+0000\n"
 "Last-Translator: Tomáš Píšek <Tomas.Pisek@seznam.cz>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/sk/>\n"
@@ -72,7 +72,7 @@ msgid ""
 "<b>Project App</b>: Organize client files, track tasks, and manage your "
 "team's workload to meet every deadline."
 msgstr ""
-"<b>Aplikácia Projekty:</b> Usporiadajte súbory klientov, sledujte úlohy a "
+"<b>Aplikácia Projekt:</b> Usporiadajte súbory klientov, sledujte úlohy a "
 "spravujte pracovnú záťaž svojho tímu, aby ste stihli všetky termíny."
 
 #. module: accounting_firm
@@ -464,16 +464,18 @@ msgid ""
 "Confirm the invoice and send it to you customer for payment.<br/>\n"
 "                    Once payed, you know the drill to reconcile the payment."
 msgstr ""
+"Potvrďte faktúru a pošlite ju zákazníkovi na zaplatenie.<br/>\n"
+"                    Po zaplatení viete, ako postupovať pri párovaniu platby."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_5
 msgid "Corporate Income Tax"
-msgstr ""
+msgstr "Daň z príjmov právnických osôb"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_9_product_template
 msgid "Corporate Income Tax statement (Pack)"
-msgstr ""
+msgstr "Výkaz dane z príjmov právnických osôb (balík)"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -482,16 +484,19 @@ msgid ""
 "clicking the create and edit. Specify email address for that contact so that "
 "you can communicate within Odoo."
 msgstr ""
+"Vytvorte nového potenciálneho zákazníka zadaním jeho mena a doplňte "
+"kontaktné údaje kliknutím na vytvoriť a upraviť. Zadajte e-mailovú adresu "
+"pre tento kontakt, aby ste mohli komunikovať v rámci Odoo."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Crossroads Bank for Enterprises"
-msgstr ""
+msgstr "Centrálna databáza podnikov"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_11_product_template
 msgid "Customer Onboarding"
-msgstr ""
+msgstr "Získavanie zákazníkov"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_12
@@ -505,11 +510,13 @@ msgid ""
 "Define the to do list and documents to request which suite you in the "
 "template project tasks."
 msgstr ""
+"V šablóne projektových úloh definujte zoznam úloh a dokumenty, ktoré "
+"potrebujete."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Discover more about Odoo by diving into our ﻿"
-msgstr ""
+msgstr "Zistite viac o Odoo a ponorte sa do nášho ﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -517,6 +524,8 @@ msgid ""
 "Documents is now creating a dedicated space for you projects to prevent you "
 "to mix documents from your customers."
 msgstr ""
+"Aplikácia Dokumenty teraz vytvára vyhradené priestory podľa vašich "
+"projektov, aby ste nemiešali dokumenty vašich zákazníkov."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -524,6 +533,8 @@ msgid ""
 "Don't forget to check as done the activity when your done with a document to "
 "have clear visibility of your workload from the activity list."
 msgstr ""
+"Nezabudnite označiť aktivitu ako vykonanú, keď ste s dokumentom hotoví, aby "
+"ste mali prehľad o svojom pracovnom zaťažení zo zoznamu aktivít."
 
 #. module: accounting_firm
 #: model:project.task.type,name:accounting_firm.project_task_type_3
@@ -535,6 +546,8 @@ msgstr "Hotové"
 msgid ""
 "Easily request identity document from the gear icon (⚙️) in the bread crumb."
 msgstr ""
+"Ľahko požiadajte o doklad totožnosti pomocou ikony ozubeného kolesa (⚙️) v "
+"navigácii."
 
 #. module: accounting_firm
 #: model:hr.department,name:accounting_firm.hr_department_2
@@ -548,21 +561,24 @@ msgid ""
 "you to handle those from your customer Odoo databases since those belong to "
 "them!"
 msgstr ""
+"Hoci môžete spravovať dokumenty vo svojej databáze, dôrazne odporúčame, aby "
+"ste pracovali s dokumentmi z databáz vašich zákazníkov v Odoo, pretože tie "
+"patria im!"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_exempted
 msgid "Exempted"
-msgstr ""
+msgstr "Oslobodené"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
 msgid "Expired IDs"
-msgstr ""
+msgstr "Expirované ID"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_explanation_field_x_aml_risk
 msgid "Explanation"
-msgstr ""
+msgstr "Vysvetlenie"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -570,6 +586,8 @@ msgid ""
 "Explore the Dashboard App to follow up overall work, progress and "
 "profitability cross projects at will."
 msgstr ""
+"Preskúmajte aplikáciu Dashboard a sledujte celkovú prácu, pokrok a ziskovosť "
+"jednotlivých projektov podľa potreby."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_2
@@ -580,7 +598,7 @@ msgstr "Február"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Fine tune the email if needed and hit the send button."
-msgstr ""
+msgstr "V prípade potreby e-mail dolaďte a kliknite na tlačidlo Odoslať."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -588,6 +606,8 @@ msgid ""
 "For such typical request, you can leverage email templates for ask recurrent "
 "questions and save time exposing your services!"
 msgstr ""
+"Pre takéto typické požiadavky môžete využiť e-mailové šablóny na kladenie "
+"opakovaných otázok a ušetriť čas pri prezentovaní svojich služieb!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -595,16 +615,18 @@ msgid ""
 "For the project tasks, you can assign the owner or more employees in case "
 "you work with Junior / Senior pairing."
 msgstr ""
+"Pre úlohy projektu môžete priradiť vlastníka alebo viacerých zamestnancov v "
+"prípade, že pracujete s párom junior/senior."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
 msgid "Franchise"
-msgstr ""
+msgstr "Franšíza"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "French Business Directory"
-msgstr ""
+msgstr "Francúzsky obchodný adresár"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -612,6 +634,8 @@ msgid ""
 "Give it a name, take notes as you please and finally save this for future "
 "references."
 msgstr ""
+"Pomenujte ho, urobte si poznámky podľa potreby a nakoniec ho uložte pre "
+"budúce použitie."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -619,6 +643,8 @@ msgid ""
 "Go to the project documents with the shortcuts to edit the folder "
 "architecture at your convenience."
 msgstr ""
+"Prejdite do dokumentov projektu pomocou skratiek a podľa potreby upravte "
+"štruktúru priečinkov."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -626,6 +652,8 @@ msgid ""
 "Having access in record time to all activities and metrics from your "
 "customer databases is key."
 msgstr ""
+"Kľúčové je mať v rekordnom čase prístup ku všetkým aktivitám a metrikám z "
+"vašich databáz zákazníkov."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -640,7 +668,7 @@ msgstr "ID"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_res_partner
 msgid "ID Expiration Date"
-msgstr ""
+msgstr "Dátum vypršania platnosti ID"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -648,6 +676,8 @@ msgid ""
 "Identity management is a must do activity in your business and to support "
 "you with that, the contacts encompass all the necessary."
 msgstr ""
+"Správa identít je nevyhnutnou činnosťou vo vašej firme a aby sme vám v tom "
+"pomohli, kontakty obsahujú všetko potrebné."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -655,6 +685,8 @@ msgid ""
 "If relevant to share regular updates, Click New to perform a screenshot of "
 "the current progress of the project."
 msgstr ""
+"Ak je potrebné zdieľať pravidelné aktualizácie, kliknite na Nové, aby ste "
+"vytvorili snímku aktuálneho stavu projektu."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -662,6 +694,8 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
+"Ak chcete ľahko objavovať všetky funkcie tohto balíka, vyskúšajte stiahnuť "
+"demo dáta."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -669,6 +703,9 @@ msgid ""
 "If you wish you can introduce sections in your sale order to structure it by "
 "year of follow up or simply add a note to the product line for example."
 msgstr ""
+"Ak chcete, môžete do svojej predajnej objednávky vložiť sekcie, aby ste ju "
+"štruktúrovali podľa sledovaného roka, alebo jednoducho pridať poznámku k "
+"produktovej línii."
 
 #. module: accounting_firm
 #: model:project.task.type,name:accounting_firm.project_task_type_2
@@ -682,6 +719,9 @@ msgid ""
 "additional required inputs, including API credentials provided by your "
 "customer."
 msgstr ""
+"Na karte Databáza nastavte príslušnú možnosť hostingu a potom vyplňte ďalšie "
+"požadované údaje, vrátane prihlasovacích údajov API poskytnutých vaším "
+"zákazníkom."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -689,6 +729,8 @@ msgid ""
 "Information captured here are informative only and do not trigger or "
 "interact with any capability."
 msgstr ""
+"Informácie tu uvedené majú iba informatívny charakter a nespúšťajú ani "
+"neovplyvňujú žiadne funkcie."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -697,16 +739,19 @@ msgid ""
 "and the assignee of the activities which will be triggered when receiving "
 "new documents."
 msgstr ""
+"Zadajte e-mailový alias pre tohto zákazníka a vyberte typ aktivity Doručená "
+"pošta a osobu zodpovednú za aktivity, ktoré sa spustia pri prijatí nových "
+"dokumentov."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_interim_situation_field_res_partner
 msgid "Interim Situation"
-msgstr ""
+msgstr "Priebežná situácia"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_22
 msgid "Intra-community declaration"
-msgstr ""
+msgstr "Vnútrokomunitárne vyhlásenie"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -714,11 +759,13 @@ msgid ""
 "Invoicing is enabled by Invoicing and Accounting Apps. You can as well "
 "create invoices from them."
 msgstr ""
+"Fakturácia je umožnená prostredníctvom aplikácií Fakturácia a Účtovníctvo. Z "
+"nich môžete tiež vytvárať faktúry."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_is_identity_document_request_field_documents_request_wizard
 msgid "Is Identity Document Request"
-msgstr ""
+msgstr "Je žiadosť o doklad totožnosti"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_1
@@ -741,7 +788,7 @@ msgstr "Jún"
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_2
 msgid "Junior Accountant"
-msgstr ""
+msgstr "Juniorný účtovník"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -749,11 +796,13 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on ﻿"
 msgstr ""
+"Buďte však opatrní, pretože raz nahraté demo údaje nie je možné ľahko "
+"vymazať. Môžete však naštartovať novú databázu na ﻿"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
 msgid "Keep Scan in Chatter"
-msgstr ""
+msgstr "Nechajte skenovať Chatter"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_aml_last_update_field_res_partner
@@ -768,27 +817,27 @@ msgstr "Úroveň"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Belgian Monitor"
-msgstr ""
+msgstr "Odkaz Belgický monitor"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link CBE"
-msgstr ""
+msgstr "Odkaz CBE"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link Companies House"
-msgstr ""
+msgstr "Odkaz Obchodný register (UK)"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link FBD"
-msgstr ""
+msgstr "Odkaz FBD"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "Link NBB"
-msgstr ""
+msgstr "Odkaz NBB"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_low
@@ -798,12 +847,12 @@ msgstr "Nízky"
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_mandate_model
 msgid "Mandate"
-msgstr ""
+msgstr "Mandát"
 
 #. module: accounting_firm
 #: model:ir.actions.act_window,name:accounting_firm.action_mandate_list_view
 msgid "Mandate list view"
-msgstr ""
+msgstr "Riadkové zobrazenie mandátov"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_ids_field_res_partner
@@ -811,7 +860,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_form
 #: model_terms:ir.ui.view,arch_db:accounting_firm.x_mandate_view_list
 msgid "Mandates"
-msgstr ""
+msgstr "Mandáty"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_3
@@ -830,12 +879,12 @@ msgstr "Máj"
 #: model:documents.document,name:accounting_firm.documents_document_27
 #: model:documents.document,name:accounting_firm.documents_document_30
 msgid "Miscellaneous"
-msgstr "Účtovné záznamy"
+msgstr "Rôzne"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mission_expiration_date_field_res_partner
 msgid "Mission Expiration"
-msgstr ""
+msgstr "Ukončenie misie"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_interim_situation_field_selection_monthly
@@ -851,12 +900,13 @@ msgstr "Meno"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "National Bank of Belgium"
-msgstr ""
+msgstr "Národná banka Belgicka"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Navigate to the AML tab to appreciate the last assessment performed."
 msgstr ""
+"Prejdite na kartu AML, kde si môžete prezrieť posledné vykonané hodnotenie."
 
 #. module: accounting_firm
 #: model:project.task.type,name:accounting_firm.project_task_type_1
@@ -869,6 +919,9 @@ msgid ""
 "Not all you time might be billable even when working on a customer projects. "
 "In such case, just leave the sale order item field blank."
 msgstr ""
+"Nie všetok váš čas môže byť fakturovateľný, aj keď pracujete na projektoch "
+"zákazníkov. V takom prípade nechajte pole položky predajnej objednávky "
+"prázdne."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -876,6 +929,8 @@ msgid ""
 "Note that Equity App comes first with capabilities to capture transactions "
 "and valuation which you will find useful."
 msgstr ""
+"Upozorňujeme, že aplikácia Správa kapitálu ponúka ako prvá funkcie na "
+"zaznamenávanie transakcií a oceňovanie, ktoré vám určite prídu vhod."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -884,6 +939,9 @@ msgid ""
 "your customers to send a new email for any new documents they wish you to "
 "process from the email alias."
 msgstr ""
+"Upozorňujeme, že iba priame e-maily zachytávajú priložené dokumenty. Jasne "
+"informujte svojich zákazníkov, aby vám nové dokumenty, ktoré si želajú "
+"spracovať, zasielali v nových e-mailoch."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_11
@@ -897,6 +955,8 @@ msgid ""
 "Now that your lead is in the system, you can directly correspond with the "
 "associated contact leveraging the opportunity chatter!"
 msgstr ""
+"Teraz, keď je váš potenciálny zákazník v systéme, môžete priamo komunikovať "
+"s príslušným kontaktom a využiť chatter v príležitosti!"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_10
@@ -910,6 +970,8 @@ msgid ""
 "On upload of a document, you receive an activity which is visible in the "
 "notification for the Documents app."
 msgstr ""
+"Pri nahratí dokumentu dostanete upozornenie, ktoré je viditeľné v oznámení "
+"pre aplikáciu Dokumenty."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -918,16 +980,19 @@ msgid ""
 "creates the corresponding project and tasks in the projects (where you "
 "manage your workload)."
 msgstr ""
+"Po potvrdení zákazníkom sa ponuka premení na objednávku, čím sa vytvorí "
+"príslušný projekt a úlohy v projektoch "
+"(kde spravujete svoje pracovné zaťaženie)."
 
 #. module: accounting_firm
 #: model:ir.model.fields,help:accounting_firm.x_mandate_ids_field_res_partner
 msgid "Online platform mandates you have for this customer"
-msgstr ""
+msgstr "Mandáty online platformy, ktoré máte pre tohto zákazníka"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.parner_link_action
 msgid "Open link for company"
-msgstr ""
+msgstr "Otvoriť odkaz na spoločnosť"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -937,17 +1002,24 @@ msgid ""
 "a quotation.<br/>\n"
 "Otherwise, open the <strong>Sales App</strong> and create a new quote."
 msgstr ""
+"Otvorte aplikáciu <strong>CRM</strong>, ak ide o výsledok príležitosti, a "
+"potom kliknite na tlačidlo Nová ponuka, aby ste ju premenili na ponuku.<br/>"
+"\n"
+"V opačnom prípade otvorte aplikáciu <strong>Predaj</strong> a vytvorte novú "
+"ponuku."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the <strong>CRM App</strong>."
-msgstr ""
+msgstr "Otvoriť aplikáciu <strong>CRM</strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "Open the <strong>Contacts App</strong> and reach your new customer form."
 msgstr ""
+"Otvorte aplikáciu <strong>Kontakty</strong> a prejdite na formulár nového "
+"zákazníka."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -956,6 +1028,9 @@ msgid ""
 "the sale order you just confirmed, or click the Tasks smart button at the "
 "top of the sale order."
 msgstr ""
+"Otvorte aplikáciu <strong>Projekt</strong> a otvorte projekt zodpovedajúci "
+"práve potvrdenej predajnej objednávke alebo kliknite na chytré tlačidlo "
+"Úlohy v hornej časti predajnej objednávky."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -963,6 +1038,8 @@ msgid ""
 "Open the <strong>Project App</strong> or navigate to the sale order "
 "associated tasks with the smart button at the top."
 msgstr ""
+"Otvorte aplikáciu <strong>Projekt</strong> alebo prejdite na úlohy súvisiace "
+"s predajnou objednávkou pomocou chytrého tlačidla v hornej časti."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -971,6 +1048,9 @@ msgid ""
 "Customer onboarding product and display the project shortcut for Documents "
 "if not yet done."
 msgstr ""
+"Otvorte aplikáciu <strong>Projekt</strong>, otvorte projekt, na ktorý "
+"odkazuje váš produkt pre integráciu zákazníkov, a zobrazte skratku projektu "
+"pre dokumenty, ak ste tak ešte neurobili."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -978,11 +1058,13 @@ msgid ""
 "Open the <strong>Sales App</strong> and open the sale order you want to "
 "expense."
 msgstr ""
+"Otvorte aplikáciu <strong>Predaj</strong> a otvoriť predajnú objednávku, "
+"ktorú chcete vyúčtovať."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Customer onboarding task to edit the action list."
-msgstr ""
+msgstr "Otvorte úlohu Onboarding zákazníka a upravte zoznam akcií."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -990,11 +1072,14 @@ msgid ""
 "Open the Databases App to have your customer database metrics at your finger "
 "tips!"
 msgstr ""
+"Otvorte aplikáciu Databázy a budete mať k dispozícii všetky potrebné údaje "
+"zo zákazníckej databázy na dosah ruky!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the Project App and click the Dashboard button from the top bar."
 msgstr ""
+"Otvorte aplikáciu Projekt a kliknite na tlačidlo Dashboard v hornom paneli."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1002,6 +1087,8 @@ msgid ""
 "Open the Timesheets App, add a line selecting the project and task you "
 "worked on, and inputing the time spent today."
 msgstr ""
+"Otvorte aplikáciu Pracovné výkazy, pridajte riadok, vyberte projekt a úlohu, "
+"na ktorej ste pracovali, a zadajte čas, ktorý ste dnes na úlohe strávili."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1009,11 +1096,14 @@ msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
 msgstr ""
+"Otvorte kontaktný formulár spoločnosti, pre ktorú to máte vybaviť, napríklad "
+"Second Company."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the contact from which you expect the UBO list."
 msgstr ""
+"Otvorte kontakt, od ktorého očakávate zoznam konečných vlastníkov (UBO)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1021,16 +1111,18 @@ msgid ""
 "Open the task you were working on, go to the Timesheets tab and add a new "
 "line."
 msgstr ""
+"Otvorte úlohu, na ktorej ste pracovali, prejdite na kartu Pracovné výkazy a "
+"pridajte nový riadok."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open the the project you worked on."
-msgstr ""
+msgstr "Otvorte projekt, na ktorom ste pracovali."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open your new customer project settings."
-msgstr ""
+msgstr "Otvorte nastavenia nového zákazníckeho projektu."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1047,17 +1139,17 @@ msgstr "Partner"
 #: model:documents.document,name:accounting_firm.documents_document_26
 #: model:documents.document,name:accounting_firm.documents_document_29
 msgid "Permanent file"
-msgstr ""
+msgstr "Trvalý súbor"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_2
 msgid "Personal Income Tax"
-msgstr ""
+msgstr "Daň z príjmov fyzických osôb"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_3_product_template
 msgid "Personal Income Tax statement (Pack)"
-msgstr ""
+msgstr "Výkaz dane z príjmov fyzických osôb (balík)"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1066,6 +1158,9 @@ msgid ""
 "from (making sure their email is configured), adjust the Due Date if "
 "necessary and finally hit the Request button."
 msgstr ""
+"Presne zadajte názov dokumentu, ktorý hľadáte, určite zákazníka, od ktorého "
+"ho požadujete (uistite sa, že má nakonfigurovaný e-mail), v prípade potreby "
+"upravte termín a nakoniec kliknite na tlačidlo Požiadať."
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_6
@@ -1097,6 +1192,8 @@ msgstr "Štvrťročne"
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Read more about Documents to leverage its full potential!"
 msgstr ""
+"Prečítajte si viac o aplikácii Dokumenty, aby ste mohli využiť jej plný "
+"potenciál!"
 
 #. module: accounting_firm
 #: model:documents.document,name:accounting_firm.document_request_third_company
@@ -1106,7 +1203,7 @@ msgstr "Potvrdenka"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_relation_nature_field_res_partner
 msgid "Relation Nature"
-msgstr ""
+msgstr "Povaha vzťahu"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_request_wizard_form_view_inherited
@@ -1116,38 +1213,39 @@ msgstr "Požiadavka"
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_request_document_with_chatter_message
 msgid "Request Document with Chatter Message"
-msgstr ""
+msgstr "Žiadosť o dokument pomocou správy v Chatteri"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.action_server_request_identity_document
 msgid "Request Identity Document"
-msgstr ""
+msgstr "Žiadosť o doklad totožnosti"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_reviewer_ids_field_project_project
 msgid "Reviewers"
-msgstr ""
+msgstr "Kontrolóri"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_name_field_x_aml_risk_type
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_type_field_x_aml_risk
 msgid "Risk"
-msgstr ""
+msgstr "Riziko"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_type_model
 msgid "Risk Type"
-msgstr ""
+msgstr "Typ rizika"
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_risk_ids_field_res_partner
 msgid "Risks"
-msgstr ""
+msgstr "Riziká"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Saving the task will report this time in the sale order for billing."
 msgstr ""
+"Uloženie úlohy zaznamená tento čas v predajnej objednávke na fakturáciu."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_id_scan_field_res_partner
@@ -1158,6 +1256,8 @@ msgstr "Skenovanie"
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Select the Request UBO from the gear icon (⚙️) menu."
 msgstr ""
+"Vyberte možnosť Žiadosť o zoznam koncových vlastníkov (UBO) z ponuky ikony "
+"ozubeného kolesa (⚙️)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1165,6 +1265,8 @@ msgid ""
 "Select the corresponding products or leverage a quotation template, the "
 "\"Monthly VAT - Package\" typically."
 msgstr ""
+"Vyberte príslušné produkty alebo využite šablónu ponuky, zvyčajne „Mesačná "
+"DPH – balík“."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1172,6 +1274,8 @@ msgid ""
 "Send this quote by email so that you new customer confirm the mission and "
 "accept your fees."
 msgstr ""
+"Pošlite túto ponuku e-mailom, aby nový zákazník potvrdil zadanie a "
+"akceptoval vaše poplatky."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1179,11 +1283,13 @@ msgid ""
 "Sending a document request creates an activity for you to follow up without "
 "mental load!"
 msgstr ""
+"Odoslaním žiadosti o dokument sa vytvorí aktivita, ktorú môžete sledovať bez "
+"mentálnej záťaže!"
 
 #. module: accounting_firm
 #: model:planning.role,name:accounting_firm.planning_role_1
 msgid "Senior Accountant"
-msgstr ""
+msgstr "Seniorný účtovník"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_9
@@ -1197,6 +1303,8 @@ msgid ""
 "Set the recurrence for tasks not coming from the project template and the "
 "dead line dates to all project tasks."
 msgstr ""
+"Nastavte opakované úlohy, ktoré nepochádzajú z šablóny projektu, a termíny "
+"pre všetky úlohy projektu."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1204,6 +1312,9 @@ msgid ""
 "Since a tedious part of the job is to request and organise documents for "
 "reference and traceability, a good document management system is required!"
 msgstr ""
+"Keďže nudnou súčasťou práce je vyžiadanie a organizovanie dokumentov na "
+"účely referencie a sledovateľnosti, je potrebný dobrý systém správy "
+"dokumentov!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1211,6 +1322,8 @@ msgid ""
 "Some of your services might be time sheet invoiced. You can proceed by "
 "different ways to record your time."
 msgstr ""
+"Niektoré z vašich služieb môžu byť fakturované na základe výkazu pracovného "
+"času. Čas môžete zaznamenávať rôznymi spôsobmi."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_standard
@@ -1228,19 +1341,19 @@ msgstr "Úlohy"
 #: model:documents.document,name:accounting_firm.documents_document_11
 #: model:project.project,name:accounting_firm.project_project_1
 msgid "Template / Accounting - Monthly VAT"
-msgstr ""
+msgstr "Šablóna / Účtovníctvo – mesačná DPH"
 
 #. module: accounting_firm
 #: model:documents.document,name:accounting_firm.documents_document_24
 #: model:project.project,name:accounting_firm.project_project_6
 msgid "Template / Accounting - Non-taxable"
-msgstr ""
+msgstr "Šablóna / Účtovníctvo – Nezdaniteľné"
 
 #. module: accounting_firm
 #: model:documents.document,name:accounting_firm.documents_document_13
 #: model:project.project,name:accounting_firm.project_project_3
 msgid "Template / Accounting - Quarterly VAT"
-msgstr ""
+msgstr "Šablóna / Účtovníctvo – štvrťročné DPH"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1249,6 +1362,10 @@ msgid ""
 "<strong>Studio App </strong>would enable you to setup specific fields for "
 "more robustness as well as much more advanced workflows and automations!"
 msgstr ""
+"Balík pre účtovné firmy neobsahuje žiadne prispôsobenie. Upozorňujeme, že "
+"aplikácia <strong>Studio</strong>vám umožní nastaviť špecifické polia pre "
+"väčšiu robustnosť, ako aj oveľa pokročilejšie pracovné postupy a "
+"automatizácie!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1257,6 +1374,9 @@ msgid ""
 "needs...<br/>\n"
 "                Fortunately, Odoo got you covered:"
 msgstr ""
+"Balík Účtovná firma je veľmi užitočný, ale nemusí pokryť všetky vaše "
+"potreby...<br/>\n"
+"                Našťastie, Odoo vám pomôže:"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1264,6 +1384,8 @@ msgid ""
 "The Customer onboarding task contains details about actions to take to have "
 "your customer in order."
 msgstr ""
+"Úloha Onboarding zákazníka obsahuje podrobnosti o krokoch, ktoré je potrebné "
+"podniknúť, aby bol váš zákazník v pohode."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1271,6 +1393,8 @@ msgid ""
 "The Databases App comes with capabilities to efficiently manage tasks, "
 "access rights and more!"
 msgstr ""
+"Aplikácia Databázy ponúka funkcie na efektívne riadenie úloh, prístupových "
+"práv a ďalšie!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1279,11 +1403,17 @@ msgid ""
 "root folder of the project. This can be considered as an inbox while sub "
 "folders contain treated documents in an organized fashion."
 msgstr ""
+"Dokumenty zaslané na e-mailovú adresu tohto projektu budú doručené do "
+"koreňového priečinka projektu. Tento priečinok môžete považovať za doručenú "
+"poštu, zatiaľ čo podpriečinky obsahujú spracované dokumenty usporiadané "
+"podľa systému."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "The project creation created as well some tasks to handle from now on."
 msgstr ""
+"Vytvorenie projektu prinieslo aj niektoré úlohy, ktoré je potrebné odteraz "
+"riešiť."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1292,6 +1422,9 @@ msgid ""
 "by uploading a file from the email they receive. You could do so for all "
 "required documents by the task."
 msgstr ""
+"Týmto sa vo vašom projekte vytvorí prázdny dokument, ktorý zákazník vyplní "
+"nahratím súboru z e-mailu, ktorý dostane. Takto môžete postupovať pri "
+"všetkých dokumentoch požadovaných v rámci úlohy."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1300,6 +1433,9 @@ msgid ""
 "and open the settings of the project, clicking the three dots in the top "
 "right corner of the corresponding tile."
 msgstr ""
+"Ak chcete priradiť projektového manažéra, asistenta a kontrolóra, otvorte "
+"aplikáciu Projekt, otvorte nastavenia projektu kliknutím na tri bodky v "
+"pravom hornom rohu príslušnej dlaždice."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1307,6 +1443,8 @@ msgid ""
 "To request a document such as an ID card or a bank statement, click New and "
 "then Request."
 msgstr ""
+"Ak chcete požiadať o dokument, ako je občiansky preukaz alebo výpis z "
+"bankového účtu, kliknite na Nový a potom na Požiadať."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1314,6 +1452,8 @@ msgid ""
 "To setup the project folder email alias, display the project top bar and add "
 "the Documents shortcut."
 msgstr ""
+"Ak chcete nastaviť alias e-mailovej adresy priečinka projektu, zobrazte "
+"hornú lištu projektu a pridajte skratku Dokumenty."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1321,38 +1461,41 @@ msgid ""
 "UBO identification can be a tedious task you don't want to lose time on. The "
 "Equity App comes with capabilities which will help you with this duty."
 msgstr ""
+"Identifikácia koncového vlastníka môže byť zdĺhavá úloha, na ktorú nechcete "
+"strácať čas. Aplikácia Správa kapitálu ponúka funkcie, ktoré vám s touto "
+"úlohou pomôžu."
 
 #. module: accounting_firm
 #: model:mail.activity.type,name:accounting_firm.mail_activity_ubo_update
 #: model:mail.activity.type,summary:accounting_firm.mail_activity_ubo_update
 msgid "UBO update"
-msgstr ""
+msgstr "Aktualizácia koncových vlastníkov (UBO)"
 
 #. module: accounting_firm
 #: model:project.tags,name:accounting_firm.project_tags_3
 msgid "Ultimate Beneficial Owners"
-msgstr ""
+msgstr "Koneční vlastníci"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_6_product_template
 msgid "Ultimate Beneficial Owners register (Pack)"
-msgstr ""
+msgstr "Register konečných vlastníkov (balík)"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_document_partner_identity
 msgid "Update Document Partner ID"
-msgstr ""
+msgstr "Aktualizovať dokument ID partnera"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.document_document_kanban_view_inherited
 msgid "Update Identity Document"
-msgstr ""
+msgstr "Aktualizovať identifikačný dokument"
 
 #. module: accounting_firm
 #: model:ir.actions.server,name:accounting_firm.server_action_update_owner_id
 #: model_terms:ir.ui.view,arch_db:accounting_firm.equity_ubo_form_view_inherited
 msgid "Update Owner ID"
-msgstr ""
+msgstr "Aktualizovať ID vlastníka"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1360,11 +1503,13 @@ msgid ""
 "Update the captured insights as you need and then update the last update "
 "date."
 msgstr ""
+"Podľa potreby aktualizujte získané informácie a potom aktualizujte dátum "
+"poslednej aktualizácie."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_vat_declaration_recurrence_field_res_partner
 msgid "VAT Declaration Recurrence"
-msgstr ""
+msgstr "Opakovanie DPH priznania"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1373,6 +1518,9 @@ msgid ""
 "your missions efficiently from opportunity management to billing, as well as "
 "requesting documents."
 msgstr ""
+"Vitajte v balíku Odoo Účtovná firma! Táto príručka vám pomôže efektívne "
+"spravovať vaše úlohy, od správy príležitostí až po fakturáciu, ako aj "
+"žiadanie dokumentov."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1380,6 +1528,9 @@ msgid ""
 "When filling in the identity document expiration date, you can leverage the "
 "contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
 msgstr ""
+"Pri vypĺňaní dátumu platnosti dokladu totožnosti môžete využiť filter "
+"kontaktov „Expirované ID“, aby ste efektívne našli doklady, ktoré je "
+"potrebné aktualizovať!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1387,6 +1538,8 @@ msgid ""
 "When the document is available, reach the contact ID tab to fill in the "
 "contact details."
 msgstr ""
+"Keď je dokument k dispozícii, prejdite na kartu ID kontaktu a vyplňte "
+"kontaktné údaje."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1396,6 +1549,10 @@ msgid ""
 "customer onboarding actions or folder architecture so that you save time in "
 "the future."
 msgstr ""
+"Keď potvrdíte predajnú objednávku, majte na pamäti, že duplikovaný projekt "
+"je definovaný v predanom produkte. Projekt môžete upraviť tak, aby ste "
+"prispôsobili zoznam akcií pre onboardovanie zákazníkov alebo architektúru "
+"priečinkov, čím v budúcnosti ušetríte čas."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1403,12 +1560,15 @@ msgid ""
 "Whether you performed some work for a fixed price or based on time sheets, "
 "you can expense your customer for this."
 msgstr ""
+"Či už ste vykonali prácu za pevnú cenu alebo na základe pracovných výkazov, "
+"môžete ju vyúčtovať zákazníkovi."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
+"Chceli by ste s nami prebrať nastavenie Odoo alebo preskúmať ďalšie funkcie?"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1419,6 +1579,10 @@ msgid ""
 "                    You can verify this by opening the CRM App, opening the "
 "sales teams from the Configuration menu, and opening the sales team you have."
 msgstr ""
+"Majte však na pamäti, že akýkoľvek e-mail zaslaný na adresu info@"
+"yourcompanyname.example.com vytvorí vo vašom CRM systéme nový lead!<br/>\n"
+"                    Môžete to overiť tak, že otvoríte aplikáciu CRM, v "
+"ponuke Konfigurácia otvoríte predajné tímy a otvoríte svoj predajný tím."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1426,6 +1590,8 @@ msgid ""
 "You can as well change view for the list view for example, and click the New "
 "button to report some time."
 msgstr ""
+"Môžete tiež zmeniť zobrazenie napríklad na zoznam a kliknúť na tlačidlo "
+"Nový, aby ste vykázali nejaký čas."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1433,6 +1599,8 @@ msgid ""
 "You can as well submit a letter of mission to be digitally signed with the "
 "<strong>Sign app</strong>."
 msgstr ""
+"Môžete tiež odoslať poverenie, ktoré bude digitálne podpísané pomocou "
+"aplikácie <strong>E-podpis</strong>."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1440,11 +1608,13 @@ msgid ""
 "You can preview the quote at this stage. This view is for your customer to "
 "confirm the mission."
 msgstr ""
+"V tejto fáze si môžete prezrieť cenovú ponuku. Tento náhľad slúži na "
+"potvrdenie zadania zo strany zákazníka."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
-msgstr ""
+msgstr "Stále to môžete urobiť aktualizovaním balíka v aplikáciách."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1452,6 +1622,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"Dokončili ste tento ukážkový prípad použitia! Existujú milióny ďalších "
+"spôsobov, ako prispôsobiť nastavenie Odoo potrebám vašej firmy."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1461,6 +1633,10 @@ msgid ""
 "                        Don't forget to update your employee costs, in the "
 "setting tab, to compute relevant costs."
 msgstr ""
+"V riadiacom paneli projektu máte prístup ku všetkým súvisiacim dokumentom a "
+"môžete bez námahy sledovať príjmy a náklady.<br/>\n"
+"                        Nezabudnite aktualizovať náklady na zamestnancov v "
+"záložke nastavenia, aby sa vypočítali relevantné náklady."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1469,12 +1645,17 @@ msgid ""
 "services. Rather than sending him an email on the side, leverage the "
 "centralised chatter capability and most of all, do not lose this lead!"
 msgstr ""
+"Práve ste dostali všetko, čo potrebujete, a zákazník chce vedieť viac o "
+"vašich cenách a službách. Namiesto toho, aby ste mu posielali e-mail, "
+"využite centralizovanú funkciu chatteru a predovšetkým nestraťte tohto "
+"potenciálneho zákazníka!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "You just got a all and a customer wants you for the job, congratulations!"
 msgstr ""
+"Práve ste dostali všetko a zákazník vás chce na túto prácu, gratulujeme!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1484,6 +1665,10 @@ msgid ""
 "                In any case, you may have written records in journals which "
 "are not deletable and which might be an issue for your traceability."
 msgstr ""
+"Možno ste vyskúšali balík Účtovná firma s demo údajmi alebo bez nich.<br/>\n"
+"                V každom prípade ste mohli zapísať záznamy do denníkov, "
+"ktoré nie je možné vymazať a ktoré môžu predstavovať problém pre vašu "
+"sledovateľnosť."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1492,6 +1677,9 @@ msgid ""
 "clarify the interactions with your customers. Have a look at the "
 "<strong>Survey App</strong> to do so!"
 msgstr ""
+"Možno budete chcieť nastaviť dotazníky, aby ste mohli doladiť svoje ponuky a "
+"objasniť interakcie so svojimi zákazníkmi. Pozrite sa na aplikáciu "
+"<strong>Prieskumy</strong>!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1499,133 +1687,137 @@ msgid ""
 "Your Odoo Accounting Firm package includes essential apps to streamline your "
 "operations:"
 msgstr ""
+"Váš balík Odoo Účtovnícka firma obsahuje základné aplikácie na zefektívnenie "
+"vašich činností:"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Your contact is now provided a portal access to record the UBO."
 msgstr ""
+"Váš kontakt má teraz prístup k portálu, kde môže zaznamenať konečného "
+"vlastníka (UBO)."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "⏲️ Time management"
-msgstr ""
+msgstr "⏲️ Riadenie času"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ , and feel free to ﻿"
-msgstr ""
+msgstr "a neváhajte ﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ and ﻿"
-msgstr ""
+msgstr "a"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿ if you need help!"
-msgstr ""
+msgstr "ak potrebujete pomoc!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿Odoo.com/trial﻿"
-msgstr ""
+msgstr "﻿Odoo.com/trial﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿Reach us﻿"
-msgstr ""
+msgstr "Kontaktujte nás﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿academy﻿"
-msgstr ""
+msgstr "akadémia"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿documentation﻿"
-msgstr ""
+msgstr "dokumentácia"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿request a demo﻿"
-msgstr ""
+msgstr "žiadosť o ukážku"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 CRM﻿"
-msgstr ""
+msgstr "﻿🎓 CRM﻿"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Contacts﻿"
-msgstr ""
+msgstr "﻿🎓 Kontakty"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Documents﻿"
-msgstr ""
+msgstr "﻿🎓 Dokumenty"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Invoicing﻿"
-msgstr ""
+msgstr "﻿🎓 Fakturácia"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Project Dashboard﻿"
-msgstr ""
+msgstr "﻿🎓 Riadiaci panel projektu"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Project﻿"
-msgstr ""
+msgstr "﻿🎓 Projekt"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Sales﻿"
-msgstr ""
+msgstr "﻿🎓 Predaj"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿🎓 Timesheet﻿"
-msgstr ""
+msgstr "﻿🎓 Pracovné výkazy"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "👋 Welcoming prospects"
-msgstr ""
+msgstr "👋 Vítame nových záujemcov"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💵 Billing your efforts"
-msgstr ""
+msgstr "💵 Fakturácia vašich služieb"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "💸 Anti-Money Laundering"
-msgstr ""
+msgstr "💸 Boj proti praniu špinavých peňazí (AML)"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📊 Follow up on project profitability"
-msgstr ""
+msgstr "📊 Sledovanie ziskovosti projektu"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📜 Getting to the \"Go\""
-msgstr ""
+msgstr "📜 Ako sa dostať do fázy „Štart“"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📬 Follow up on your customer database"
-msgstr ""
+msgstr "📬 Sledujte svoju databázu zákazníkov"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🗂️ Document management"
-msgstr ""
+msgstr "🗂️ Správa dokumentov"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🧮 Ultimate beneficial owners' hunt"
-msgstr ""
+msgstr "🧮 Vyhľadávanie konečných vlastníkov"

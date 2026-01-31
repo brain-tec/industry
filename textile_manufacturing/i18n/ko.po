@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * textile_manufacturing
 #
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:06+0000\n"
-"PO-Revision-Date: 2025-12-11 08:34+0000\n"
+"PO-Revision-Date: 2026-01-30 14:17+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "textile_manufacturing/ko/>\n"
@@ -657,22 +657,22 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Execute the production 💪</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">생산 작업 진행 💪</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Invoice Your Clients 💲</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">고객에게 청구서 발행 💲</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Manufacturing Orders 🛠️</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">생산 주문 관리 🛠️</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Production Planning 📆</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">생산 계획 관리 📆</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -805,7 +805,7 @@ msgstr "<span class=\"h6-fs\"><b>유지관리 🔧</b></span>"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\"><b>Product Lifecycle Management ⚙️</b></span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\"><b>제품 수명 주기 관리 ⚙️</b></span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -848,7 +848,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\">In the Manufacturing App</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">제조 관리 앱</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -898,7 +898,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span class=\"h6-fs\">Within the Inventory app</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">재고 관리 앱</span>"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -948,7 +948,7 @@ msgstr "<span class=\"s_website_form_label_content\">제목</span>"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "<span style=\"font-size: 21px;\">Barcode App</span> 🤳"
-msgstr ""
+msgstr "<span style=\"font-size: 21px;\">바코드 앱</span> 🤳"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1242,7 +1242,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Create a new manufacturing order."
-msgstr ""
+msgstr "새로운 제조지시서를 생성합니다."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1268,7 +1268,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Create your Product Catalog 👖"
-msgstr ""
+msgstr "품목 카탈로그를 생성합니다 👖"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_5
@@ -1752,7 +1752,7 @@ msgstr "원단 흰색 면직물"
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Ready for more advanced manufacturing?"
-msgstr ""
+msgstr "더욱 전문적인 제조 기능을 찾고 계신가요?"
 
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_2
@@ -1767,7 +1767,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
 msgid "Requires a <b>fully custom BOM</b>."
-msgstr ""
+msgstr "<b>완전히 사용자 지정이 완료된 BOM</b> 이 필요합니다."
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
@@ -1791,7 +1791,7 @@ msgstr "S XX - 반바지"
 #: model:documents.document,name:textile_manufacturing.documents_document_15
 #: model:project.project,name:textile_manufacturing.project_project_3
 msgid "S XX : T-shirt sample"
-msgstr ""
+msgstr "S XX : 티셔츠 샘플"
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_18
@@ -1857,7 +1857,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "Stylish apparel for every occasion"
-msgstr ""
+msgstr "어떤 장소에나 어울리는 세련된 아웃핏"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
@@ -2056,7 +2056,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
 msgid "Unveil Our Newest Clothing Line"
-msgstr ""
+msgstr "최신 의류 컬렉션을 공개합니다"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body

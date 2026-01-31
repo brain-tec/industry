@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:44+0000\n"
-"PO-Revision-Date: 2026-01-20 11:02+0000\n"
+"PO-Revision-Date: 2026-01-31 19:51+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/campsite/"
 "ru/>\n"
@@ -331,8 +331,7 @@ msgstr "Соответствующая корректировка ваших п�
 msgid ""
 "Again, the <strong>Campsite App </strong>helps you manage the end of the "
 "stay!"
-msgstr ""
-"И снова, <strong>модуль Кемпинг</strong> поможет вам оформить выезд гостей!"
+msgstr "<strong>Модуль Кемпинг</strong> поможет вам оформить выезд гостей!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.custom_product_name
@@ -762,8 +761,8 @@ msgid ""
 "the\n"
 "                contact."
 msgstr ""
-"Если данные неверны, нажмите на контакт, заполните раздел «Проверка "
-"личности» и сохраните\n"
+"Если данные неверны, нажмите на контакт, заполните раздел «Проверка личности»"
+" и сохраните\n"
 "                изменения."
 
 #. module: campsite
@@ -786,7 +785,7 @@ msgid ""
 msgstr ""
 "В режиме согласования уборки ответственные\n"
 "                    лица проверяют номера и меняют их статус на «Готово», "
-"завершая тем самым задач."
+"завершая тем самым задачи."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1821,7 +1820,7 @@ msgstr "😎 Встреча гостей"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🧽 Managing house keeping"
-msgstr ""
+msgstr "🧽 Управление уборкой"
 
 #~ msgid "Bungalow-L"
 #~ msgstr "Бунгало–L"

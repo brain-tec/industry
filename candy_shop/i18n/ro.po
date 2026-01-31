@@ -3,28 +3,30 @@
 # * candy_shop
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-23 12:18+0000\n"
-"PO-Revision-Date: 2025-11-17 11:12+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-01-27 22:44+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "candy_shop/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid ""
 ", we can even generate your tax reports for you at the click of a button!"
 msgstr ""
+", putem chiar să generăm rapoartele dvs. fiscale cu un singur clic pe buton!"
 
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_9
@@ -34,7 +36,7 @@ msgstr "200g"
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_11
 msgid "2kg"
-msgstr ""
+msgstr "2kg"
 
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_10
@@ -55,6 +57,16 @@ msgid ""
 "</font></strong>\n"
 "                                          <br/>"
 msgstr ""
+"<br/>\n"
+"                                          <font class=\"text-white\">\n"
+"                                              Fiecare inovație "
+"revoluționară, fie că este proiectată meticulos\n"
+"                                              sau născută din creativitate "
+"spontană, conține povești care așteaptă să fie descoperite.\n"
+"                                          </font>\n"
+"                                          <strong><font class=\"text-white\""
+">​</font></strong>\n"
+"                                          <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -64,6 +76,10 @@ msgid ""
 "strong> such as Brand and Condition which your customers can filter by to "
 "find exactly what they are looking for. <strong> </strong>"
 msgstr ""
+"<br/>\n"
+"                    În Datele noastre Demo, am adăugat <strong>Atribute de "
+"Produs</strong> precum Marca și Starea pe care clienții dvs. le pot filtra "
+"pentru a găsi exact ceea ce caută. <strong> </strong>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -71,26 +87,28 @@ msgid ""
 "<br/>\n"
 "            Do You Want to Go Further?"
 msgstr ""
+"<br/>\n"
+"            Doriți să mergeți mai departe?"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
 msgid "<br/>Parking available in front of the store!<br/><br/>"
-msgstr ""
+msgstr "<br/>Parcare disponibilă în fața magazinului!<br/><br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "<font class=\"text-o-color-1\">New Arrivals!</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Noi sosiri!</font>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "<font class=\"text-white\"><strong>At your doorstep.</strong></font>"
-msgstr ""
+msgstr "<font class=\"text-white\"><strong>La ușa dvs.</strong></font>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "<font class=\"text-white\"><strong>Delicious Sweets,</strong></font>"
-msgstr ""
+msgstr "<font class=\"text-white\"><strong>Dulciuri delicioase,</strong></font>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
@@ -99,6 +117,9 @@ msgid ""
 "                                                <span "
 "class=\"o_force_ltr\">Rue de Ramillies 42, 1367 Ramillies</span>"
 msgstr ""
+"<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\""
+">Rue de Ramillies 42, 1367 Ramillies</span>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
@@ -107,6 +128,9 @@ msgid ""
 "                                                <span "
 "class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw me-2\"/>\n"
+"                                                <span class=\"o_force_ltr\">+"
+"1 555-555-5556</span>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -138,13 +162,15 @@ msgstr ""
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3454
 msgid "<small>🚛 Free Shipping for Orders over 100<b>€</b> 🚛</small>"
-msgstr ""
+msgstr "<small>🚛 Livrare gratuită pentru comenzi peste 100<b>€</b> 🚛</small>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid ""
 "<span class=\"h2-fs\"><strong>Additional Tips for Success</strong></span>"
 msgstr ""
+"<span class=\"h2-fs\"><strong>Sfaturi suplimentare pentru "
+"succes</strong></span>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
@@ -153,11 +179,14 @@ msgid ""
 "                                  <font class=\"text-white\">All your "
 "favourite Brands!<br/><br/></font>"
 msgstr ""
+"<span class=\"h5-fs\"><font class=\"text-white\">​</font></span>\n"
+"                                  <font class=\"text-white\">Toate mărcile "
+"tale preferate!<br/><br/></font>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3681
 msgid "<span class=\"o_footer_copyright_name me-2\">​</span>"
-msgstr ""
+msgstr "<span class=\"o_footer_copyright_name me-2\">​</span>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
@@ -166,6 +195,9 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Email</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
@@ -174,6 +206,9 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Nume</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
@@ -187,6 +222,9 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Întrebare</span>\n"
+"                                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
@@ -205,21 +243,23 @@ msgid ""
 "<strong>Accounting</strong>: Keep track of finances, payments, and invoices "
 "effortlessly. Generate tax reports at the click of a button."
 msgstr ""
+"<strong>Contabilitate</strong>: Urmăriți finanțele, plățile și facturile "
+"fără efort. Generați rapoarte fiscale cu un simplu clic pe buton."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Automating with a Scale</strong>:"
-msgstr ""
+msgstr "<strong>Automatizarea cu o cântar</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Creating a Supplier List</strong>:"
-msgstr ""
+msgstr "<strong>Crearea unei liste de furnizori</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Creating an Attractive Website</strong>:"
-msgstr ""
+msgstr "<strong>Crearea unui site web atractiv</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -227,11 +267,13 @@ msgid ""
 "<strong>Email Marketing</strong>: Send newsletters to keep customers updated "
 "on promotions, seasonal products, and new arrivals."
 msgstr ""
+"<strong>Marketing prin email</strong>: Trimiteți buletine informative pentru "
+"a ține clienții la curent cu promoțiile, produsele sezoniere și noile sosiri."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Handling Online Orders</strong>:"
-msgstr ""
+msgstr "<strong>Gestionarea comenzilor online</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -239,6 +281,8 @@ msgid ""
 "<strong>Inventory</strong>: Track stock levels, manage reorders, and prevent "
 "shortages."
 msgstr ""
+"<strong>Inventar</strong>: Urmăriți nivelurile de stoc, gestionați "
+"recomandările și preveniți deficitele."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -246,11 +290,13 @@ msgid ""
 "<strong>Loyalty Programs</strong>: Reward repeat customers with loyalty "
 "points and discounts."
 msgstr ""
+"<strong>Programe de fidelitate</strong>: Recompensați clienții recurenți cu "
+"puncte de fidelitate și reduceri."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Managing Stock Automatically</strong>:"
-msgstr ""
+msgstr "<strong>Gestionarea automată a stocului</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -258,16 +304,18 @@ msgid ""
 "<strong>Marketing Automation</strong>: Set up email campaigns to promote new "
 "products and special offers."
 msgstr ""
+"<strong>Automatizarea marketingului</strong>: Configurați campanii de email "
+"pentru a promova produsele noi și ofertele speciale."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
 msgid "<strong>Open Monday - Saturday 10:00 - 18:00</strong>"
-msgstr ""
+msgstr "<strong>Deschis Luni - Sâmbătă 10:00 - 18:00</strong>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Organizing Products with Attributes &amp; Categories</strong>:"
-msgstr ""
+msgstr "<strong>Organizarea produselor cu atribute &amp; categorii</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -275,11 +323,13 @@ msgid ""
 "<strong>POS (Point of Sale)</strong>: Process in-store transactions quickly, "
 "including support for weight-based pricing."
 msgstr ""
+"<strong>POS (Punctul de vânzare)</strong>: Procesați rapid tranzacțiile din "
+"magazin, inclusiv suportul pentru prețuri bazate pe greutate."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Placing Purchase Orders</strong>:"
-msgstr ""
+msgstr "<strong>Plasarea comenzilor de achiziție</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -288,16 +338,18 @@ msgid ""
 "align your prices with demand</strong> with demand, for example during the "
 "holiday season.<br/>"
 msgstr ""
+"<strong>Listele de prețuri </strong>sunt o modalitate simplă de a alinia "
+"prețurile cu cererea, de exemplu în timpul sezonului de sărbători.<br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Pricing by Weight</strong>:"
-msgstr ""
+msgstr "<strong>Prețuri după greutate</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Processing Payments</strong>:"
-msgstr ""
+msgstr "<strong>Procesarea plăților</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -305,6 +357,8 @@ msgid ""
 "<strong>Product Attributes &amp; Categories</strong>: Use brands, flavors, "
 "and types to help customers find what they love."
 msgstr ""
+"<strong>Atribute &amp; categorii de produs</strong>: Folosiți mărci, arome "
+"și tipuri pentru a-i ajuta pe clienți să găsească ceea ce iubesc."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -312,16 +366,18 @@ msgid ""
 "<strong>Purchase</strong>: Manage vendor relationships and automate "
 "replenishment of popular products."
 msgstr ""
+"<strong>Achiziții</strong>: Gestionați relațiile cu furnizorii și "
+"automatizați reaprovizionarea produselor populare."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Receiving Deliveries</strong>:"
-msgstr ""
+msgstr "<strong>Primirea livrărilor</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "<strong>Setting Up Products</strong>:"
-msgstr ""
+msgstr "<strong>Configurarea produselor</strong>:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -329,6 +385,8 @@ msgid ""
 "<strong>Social Marketing</strong>: Manage all your social media campaigns "
 "from one place and schedule posts across different platforms."
 msgstr ""
+"<strong>Marketing social</strong>: Gestionați toate campaniile de social "
+"media dintr-un singur loc și programați postările pe diferite platforme."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -336,6 +394,8 @@ msgid ""
 "<strong>Subscriptions</strong>: Offer monthly candy box subscriptions for "
 "exclusive treats."
 msgstr ""
+"<strong>Abonamente</strong>: Oferiți abonamente lunare pentru cutii de "
+"dulciuri cu delicatese exclusive."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -343,6 +403,8 @@ msgid ""
 "<strong>Website &amp; eCommerce</strong>: Create an online storefront where "
 "customers can browse and order their favorite sweets."
 msgstr ""
+"<strong>Website &amp; eCommerț</strong>: Creați o vitrină online unde "
+"clienții pot răsfoi și comanda dulciurile lor preferate."
 
 #. module: candy_shop
 #: model_terms:product.template,description:candy_shop.product_template_1
@@ -353,7 +415,7 @@ msgstr ""
 #: model_terms:product.template,description:candy_shop.product_template_5
 #: model_terms:product.template,description:candy_shop.product_template_7
 msgid "A delicious candy treat. Perfect for any occasion!"
-msgstr ""
+msgstr "O delicatesă dulce delicioasă. Perfectă pentru orice ocazie!"
 
 #. module: candy_shop
 #: model_terms:product.template,description:candy_shop.product_template_10
@@ -363,7 +425,7 @@ msgstr ""
 #: model_terms:product.template,description:candy_shop.product_template_6
 #: model_terms:product.template,description:candy_shop.product_template_9
 msgid "A delicious drinks treat. Perfect for any occasion!"
-msgstr ""
+msgstr "O băutură delicioasă. Perfectă pentru orice ocazie!"
 
 #. module: candy_shop
 #: model_terms:product.template,description:candy_shop.product_template_14
@@ -374,7 +436,7 @@ msgstr ""
 #: model_terms:product.template,description:candy_shop.product_template_4
 #: model_terms:product.template,description:candy_shop.product_template_8
 msgid "A delicious snacks treat. Perfect for any occasion!"
-msgstr ""
+msgstr "O gustare delicioasă. Perfectă pentru orice ocazie!"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3453
@@ -390,11 +452,12 @@ msgstr "Acceptați multiple opțiuni de plată: numerar, card și plăți mobile
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Add new candy products in the <strong>Inventory App</strong>."
 msgstr ""
+"Adăugați produse noi de dulciuri în <strong>Aplicația de Inventar</strong>."
 
 #. module: candy_shop
 #: model_terms:product.public.category,website_description:candy_shop.product_public_category_1
 msgid "All the best to pour down your throat"
-msgstr ""
+msgstr "Tot ce e mai bun să îți torni pe gât"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -404,6 +467,11 @@ msgid ""
 "can also set up <strong>Click &amp; Collect.</strong><br/>\n"
 "                    <br/>"
 msgstr ""
+"De asemenea, nu uitați să vă configurați <strong>Furnizorii de Plăți</"
+"strong> și <strong>Metodele de Livrare</strong>, înainte ca clienții să "
+"poată comanda online. Puteți configura și <strong>Click &amp; "
+"Collect.</strong><br/>\n"
+"                    <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -411,6 +479,8 @@ msgid ""
 "Assign suppliers to specific brands or product types.<br/>\n"
 "                            <br/>"
 msgstr ""
+"Atribuiți furnizori pentru mărci sau tipuri de produse specifice.<br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -439,17 +509,17 @@ msgstr ""
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_1
 msgid "Caramel Fudge Bites"
-msgstr ""
+msgstr "Bucăți de Fudge cu Caramel"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_2
 msgid "Cheddar Popcorn"
-msgstr ""
+msgstr "Popcorn cu Cheddar"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_3
 msgid "Cola 300ml"
-msgstr ""
+msgstr "Cola 300ml"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -458,6 +528,9 @@ msgid ""
 "Hard Candy to help customers browse easily.<br/>\n"
 "                            <br/>"
 msgstr ""
+"Creați <strong>Categorii eCommerce</strong> precum Ciocolată, Jeleuri, sau "
+"Bomboane Tari pentru a ajuta clienții să navigheze ușor.<br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -465,21 +538,23 @@ msgid ""
 "Create a product with a unit of measure set to <strong>grams/kilograms</"
 "strong>."
 msgstr ""
+"Creați un produs cu unitatea de măsură setată la <strong>grame/"
+"kilograme</strong>."
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_4
 msgid "Crispy Pretzel Sticks"
-msgstr ""
+msgstr "Băței de Covrig Crocant"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Customers can choose delivery or in-store pickup."
-msgstr ""
+msgstr "Clienții pot alege livrarea sau ridicarea din magazin."
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_5
 msgid "Dark Chocolate Truffles"
-msgstr ""
+msgstr "Trufe cu Ciocolată Neagră"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -487,6 +562,8 @@ msgid ""
 "Define product attributes such as <strong>Brand</strong> and categorize them "
 "by <strong>Type</strong> (e.g., Gummies, Chocolates, Hard Candy)."
 msgstr ""
+"Definiți atributele produsului precum <strong>Marca</strong> și categorizați-"
+"le după <strong>Tip</strong> (de ex., Jeleuri, Ciocolate, Bomboane Tari)."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -503,7 +580,7 @@ msgstr "Băuturi"
 #. module: candy_shop
 #: model:product.pricelist,name:candy_shop.product_pricelist_3
 msgid "Easter"
-msgstr ""
+msgstr "Paște"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -513,6 +590,11 @@ msgid ""
 "Sale &gt; Three dot menu &gt; IoT Box &gt; Electronic Scale).<br/>\n"
 "                            <br/>"
 msgstr ""
+"Activați <strong>prețurile bazate pe greutate</strong> pentru bomboanele "
+"pick &amp; mix setând unitatea de măsură la <strong>grame sau kilograme "
+"</strong>(Punct de Vânzare &gt; Meniul cu trei puncte &gt; IoT Box &gt; "
+"Cântar Electronic).<br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -521,6 +603,9 @@ msgid ""
 "<br/>\n"
 "                            <br/>"
 msgstr ""
+"Activați multiple metode de plată, incluzând cardul de credit și portofelele "
+"digitale.<br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_3
@@ -531,12 +616,12 @@ msgstr "Europa"
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3456
 msgid "Find us"
-msgstr ""
+msgstr "Găsiți-ne"
 
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_8
 msgid "Fizzy Lizzy"
-msgstr ""
+msgstr "Fizzy Lizzy"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3453
@@ -555,6 +640,15 @@ msgid ""
 "                    Our sample data is set up to include tracking by Lot "
 "Numbers only, to allow compliance with things such as product recalls."
 msgstr ""
+"Pentru operațiuni mai mari, care includ multiple depozite, recomandăm cu "
+"tărie urmărirea stocului prin <strong>Numere de Lot</strong> și <strong>date "
+"de expirare</strong>. Strategii avansate de eliminare sunt de asemenea de "
+"luat în considerare\n"
+"                    pentru operațiuni mai mari, pentru a <strong>minimiza "
+"risipa</strong>, precum FEFO sau FIFO.<br/>\n"
+"                    Datele noastre exemplu sunt configurate să includă "
+"urmărirea doar prin Numere de Lot, pentru a permite conformitatea cu lucruri "
+"precum rechemările de produse."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -562,6 +656,8 @@ msgid ""
 "For full automation, connect a <strong>scale</strong> to your POS system "
 "using an"
 msgstr ""
+"Pentru automatizarea completă, conectați un <strong>cântar</strong> la "
+"sistemul dvs. POS folosind un"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -569,6 +665,9 @@ msgid ""
 "For more information on this, check out our official documentation:<br/>\n"
 "                    <br/>"
 msgstr ""
+"Pentru mai multe informații despre aceasta, consultați documentația noastră "
+"oficială:<br/>\n"
+"                    <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -577,6 +676,9 @@ msgid ""
 "never run out of stock. Find out more about this in our official "
 "documentation:"
 msgstr ""
+"Pentru produsele dvs. cu cele mai bune vânzări, puteți configura și reguli "
+"automate de recomandare pentru a nu rămâne niciodată fără stoc. Aflați mai "
+"multe despre aceasta în documentația noastră oficială:"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -588,6 +690,8 @@ msgstr "Generați chitanțe tipărite sau digitale pentru clienți."
 msgid ""
 "Generate purchase orders directly from the <strong>Purchase App</strong>."
 msgstr ""
+"Generați comenzi de achiziție direct din <strong>Aplicația de "
+"Achiziții</strong>."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3453
@@ -597,17 +701,17 @@ msgstr "Ia legătura"
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_6
 msgid "Grape Soda 355ml"
-msgstr ""
+msgstr "Soda cu Struguri 355ml"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_7
 msgid "Gummy Bears"
-msgstr ""
+msgstr "Ursuleți de Jeleu"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
 msgid "Have a different question? Contact us now!<br/>"
-msgstr ""
+msgstr "Aveți o întrebare diferită? Contactați-ne acum!<br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3453
@@ -617,12 +721,12 @@ msgstr "Acasă"
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_8
 msgid "Honey Roasted Nuts"
-msgstr ""
+msgstr "Nuci Prăjite cu Miere"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_9
 msgid "Iced Coffee 250ml"
-msgstr ""
+msgstr "Cafea Rece 250ml"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -630,6 +734,8 @@ msgid ""
 "If you sell combo deals or candy boxes, you can set up <strong>product "
 "bundles</strong> for special promotions."
 msgstr ""
+"Dacă vindeți oferte combo sau cutii de bomboane, puteți configura "
+"<strong>pachete de produse</strong> pentru promoții speciale."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -638,6 +744,10 @@ msgid ""
 "your Odoo database. However, once uploaded, demo data cannot be easily "
 "deleted, so consider testing it in a trial environment first."
 msgstr ""
+"Dacă doriți să explorați toate funcționalitățile cu ușurință, încercați să "
+"descărcați Datele Demo în baza dvs. de date Odoo. Totuși, odată încărcate, "
+"datele demo nu pot fi șterse cu ușurință, așa că luați în considerare "
+"testarea lor într-un mediu de probă mai întâi."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -646,6 +756,9 @@ msgid ""
 "extensive localization library, we can even generate your tax reports for "
 "you."
 msgstr ""
+"Integrați toate fluxurile de vânzări și achiziții direct în Odoo. Datorită "
+"bibliotecii noastre extinse de localizare, putem chiar genera rapoartele "
+"dvs. de taxe pentru dvs."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -663,41 +776,44 @@ msgid ""
 "Keeping your candy store stocked is crucial, and Odoo makes it easy to "
 "manage supplier relationships and automate purchasing."
 msgstr ""
+"Menținerea stocului magazinului dvs. de bomboane este crucială, iar Odoo "
+"face ușoară gestionarea relațiilor cu furnizorii și automatizarea "
+"achizițiilor."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Lot Numbers"
-msgstr ""
+msgstr "Numere de Lot"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_10
 msgid "Mango Smoothie 400ml"
-msgstr ""
+msgstr "Smoothie de Mango 400ml"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_11
 msgid "Matcha Green Tea 500ml"
-msgstr ""
+msgstr "Ceai Verde Matcha 500ml"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_12
 msgid "Milk Chocolate Bar"
-msgstr ""
+msgstr "Baton de Ciocolată cu Lapte"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_13
 msgid "Mint Chocolate Squares"
-msgstr ""
+msgstr "Pătrate de Ciocolată cu Mentă"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
 msgid "MyCandyStore"
-msgstr ""
+msgstr "MagasinulMeuDeBomboane"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Odoo for Candy Stores"
-msgstr ""
+msgstr "Odoo pentru Magazinele de Bomboane"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -706,6 +822,9 @@ msgid ""
 "checkout.<br/>\n"
 "                            <br/>"
 msgstr ""
+"Odoo va calcula prețul automat pe baza greutății introduse la finalizarea "
+"comenzii.<br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -714,12 +833,18 @@ msgid ""
 "transactions in your candy shop. Whether you sell individual sweets, "
 "packaged candies, or bulk pick &amp; mix, Odoo has you covered."
 msgstr ""
+"Sistemul <strong>Punct de Vânzare (POS)</strong> al Odoo asigură tranzacții "
+"rapide și fluide în magazinul dvs. de bomboane. Indiferent dacă vindeți "
+"dulciuri individuale, bomboane ambalate, sau pick &amp; mix în vrac, Odoo vă "
+"acoperă."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid ""
 "Orders placed online are automatically recorded in <strong>Sales</strong>."
 msgstr ""
+"Comenzile plasate online sunt înregistrate automat în "
+"<strong>Vânzări</strong>."
 
 #. module: candy_shop
 #: model:product.attribute,name:candy_shop.product_attribute_10
@@ -732,6 +857,8 @@ msgid ""
 "Our Caramel Fudge Bites is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Bucățile noastre de Fudge cu Caramel sunt de încercat neapărat! Bucurați-vă "
+"de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_2
@@ -739,12 +866,16 @@ msgid ""
 "Our Cheddar Popcorn is a must-try! Enjoy a burst of flavor with every bite "
 "or sip."
 msgstr ""
+"Popcornul nostru cu Cheddar este de încercat neapărat! Bucurați-vă de o "
+"explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_3
 msgid ""
 "Our Cola 300ml is a must-try! Enjoy a burst of flavor with every bite or sip."
 msgstr ""
+"Cola noastră 300ml este de încercat neapărat! Bucurați-vă de o explozie de "
+"aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_4
@@ -752,6 +883,8 @@ msgid ""
 "Our Crispy Pretzel Sticks is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Bățișorii noștri Crocanti de Covrig sunt de încercat neapărat! Bucurați-vă "
+"de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_5
@@ -759,6 +892,8 @@ msgid ""
 "Our Dark Chocolate Truffles is a must-try! Enjoy a burst of flavor with "
 "every bite or sip."
 msgstr ""
+"Trufele noastre cu Ciocolată Neagră sunt de încercat neapărat! Bucurați-vă "
+"de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_6
@@ -766,6 +901,8 @@ msgid ""
 "Our Grape Soda 355ml is a must-try! Enjoy a burst of flavor with every bite "
 "or sip."
 msgstr ""
+"Soda noastră cu Struguri 355ml este de încercat neapărat! Bucurați-vă de o "
+"explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_7
@@ -773,6 +910,8 @@ msgid ""
 "Our Gummy Bears Mix is a must-try! Enjoy a burst of flavor with every bite "
 "or sip."
 msgstr ""
+"Mixul nostru de Ursuleți de Jeleu este de încercat neapărat! Bucurați-vă de "
+"o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_8
@@ -780,6 +919,8 @@ msgid ""
 "Our Honey Roasted Nuts is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Nucile noastre Prăjite cu Miere sunt de încercat neapărat! Bucurați-vă de o "
+"explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_9
@@ -787,6 +928,8 @@ msgid ""
 "Our Iced Coffee 250ml is a must-try! Enjoy a burst of flavor with every bite "
 "or sip."
 msgstr ""
+"Cafeaua noastră Rece 250ml este de încercat neapărat! Bucurați-vă de o "
+"explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_10
@@ -794,6 +937,8 @@ msgid ""
 "Our Mango Smoothie 400ml is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Smoothie-ul nostru de Mango 400ml este de încercat neapărat! Bucurați-vă de "
+"o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_11
@@ -801,6 +946,8 @@ msgid ""
 "Our Matcha Green Tea 500ml is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Ceaiul nostru Verde Matcha 500ml este de încercat neapărat! Bucurați-vă de o "
+"explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_12
@@ -808,6 +955,8 @@ msgid ""
 "Our Milk Chocolate Bar 200g is a must-try! Enjoy a burst of flavor with "
 "every bite or sip."
 msgstr ""
+"Batonul nostru de Ciocolată cu Lapte 200g este de încercat neapărat! "
+"Bucurați-vă de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_13
@@ -815,6 +964,8 @@ msgid ""
 "Our Mint Chocolate Squares is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Pătrățelele noastre de Ciocolată cu Mentă sunt de încercat neapărat! "
+"Bucurați-vă de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_14
@@ -822,6 +973,8 @@ msgid ""
 "Our Peanut Butter Cookies is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Prăjiturile noastre cu Unt de Arahide sunt de încercat neapărat! Bucurați-vă "
+"de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_15
@@ -829,6 +982,8 @@ msgid ""
 "Our Seaweed Rice Crackers is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Crăciuneii noștri de Orez cu Alge Marine sunt de încercat neapărat! Bucurați-"
+"vă de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_16
@@ -836,6 +991,8 @@ msgid ""
 "Our Sour Apple Chews is a must-try! Enjoy a burst of flavor with every bite "
 "or sip."
 msgstr ""
+"Jeleurii noastre Acrite cu Măr sunt de încercat neapărat! Bucurați-vă de o "
+"explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_17
@@ -843,6 +1000,8 @@ msgid ""
 "Our Sparkling Lemonade 330ml is a must-try! Enjoy a burst of flavor with "
 "every bite or sip."
 msgstr ""
+"Limonada noastră Carbogazoasă 330ml este de încercat neapărat! Bucurați-vă "
+"de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_18
@@ -850,6 +1009,8 @@ msgid ""
 "Our Spicy Cheese Puffs is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Pufurile noastre Picante cu Brânză sunt de încercat neapărat! Bucurați-vă de "
+"o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_19
@@ -857,6 +1018,8 @@ msgid ""
 "Our Strawberry Jelly Cubes is a must-try! Enjoy a burst of flavor with every "
 "bite or sip."
 msgstr ""
+"Cuburile noastre de Jeleu cu Căpșuni sunt de încercat neapărat! Bucurați-vă "
+"de o explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:product.template,description_ecommerce:candy_shop.product_template_20
@@ -864,6 +1027,8 @@ msgid ""
 "Our Wasabi Peas is a must-try! Enjoy a burst of flavor with every bite or "
 "sip."
 msgstr ""
+"Mazărea noastră cu Wasabi este de încercat neapărat! Bucurați-vă de o "
+"explozie de aromă cu fiecare mușcătură sau înghițitură."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -878,7 +1043,7 @@ msgstr "Furnizori de plată"
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_14
 msgid "Peanut Butter Cookies"
-msgstr ""
+msgstr "Prăjituri cu Unt de Arahide"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -887,6 +1052,9 @@ msgid ""
 "strong> for confirmed orders.<br/>\n"
 "                            <br/>"
 msgstr ""
+"Preveniți supravânzarea prin configurarea <strong>rezervărilor automate de "
+"stoc</strong> pentru comenzile confirmate.<br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3453
@@ -901,7 +1069,7 @@ msgstr "Produse"
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Purchasing Candy &amp; Supplies 🍩"
-msgstr ""
+msgstr "Achiziționarea de Bomboane &amp; Provizii 🍩"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -916,7 +1084,7 @@ msgstr "Roșu(ie)"
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Removal Strategies"
-msgstr ""
+msgstr "Strategii de Eliminare"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -926,12 +1094,12 @@ msgstr "Reguli comandare"
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_5
 msgid "Salty Bae"
-msgstr ""
+msgstr "Salty Bae"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_15
 msgid "Seaweed Rice Crackers"
-msgstr ""
+msgstr "Crăciuni de Orez cu Alge Marine"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
@@ -941,7 +1109,7 @@ msgstr "Vezi tot"
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "See all<span class=\"fa fa-long-arrow-right ms-2\"/>"
-msgstr ""
+msgstr "Vezi tot<span class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: candy_shop
 #: model:pos.category,name:candy_shop.pos_category_5
@@ -951,12 +1119,12 @@ msgstr "Autoservire"
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_67
 msgid "Self-Service Candy"
-msgstr ""
+msgstr "Bomboane Autoservire"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Selling Online 🍫"
-msgstr ""
+msgstr "Vânzări Online 🍫"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -965,11 +1133,14 @@ msgid ""
 "Build a fun, engaging online store where customers can explore and order "
 "their favourite sweets."
 msgstr ""
+"Vânzarea de bomboane online este ușoară cu <strong>modulul eCommerce al "
+"Odoo</strong>. Construiți un magazin online distractiv și atractiv unde "
+"clienții pot explora și comanda dulciurile lor preferate."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Selling in the Store 🍭"
-msgstr ""
+msgstr "Vânzări în Magazin 🍭"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.ir_ui_view_3453
@@ -982,6 +1153,8 @@ msgid ""
 "Set up <strong>Reordering Rules</strong> to automatically replenish stock "
 "when it gets low."
 msgstr ""
+"Configurați <strong>Reguli de Recomandare</strong> pentru a reaproviziona "
+"automat stocul când acesta scade."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -989,6 +1162,9 @@ msgid ""
 "Showcase high-quality images and detailed product descriptions.<br/>\n"
 "                            <br/>"
 msgstr ""
+"Prezentați imagini de înaltă calitate și descrieri detaliate ale produselor.<"
+"br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model:pos.category,name:candy_shop.pos_category_1
@@ -1001,32 +1177,33 @@ msgstr "Gustări"
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "Soda Fountain store facade"
-msgstr ""
+msgstr "Fațada magazinului Soda Fountain"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_16
 msgid "Sour Apple Chews"
-msgstr ""
+msgstr "Jeleuri Acrite cu Măr"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_17
 msgid "Sparkling Lemonade 330ml"
-msgstr ""
+msgstr "Limonadă Carbogazoasă 330ml"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_18
 msgid "Spicy Cheese Puffs"
-msgstr ""
+msgstr "Pufuri Picante cu Brânză"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Store vendor details in the <strong>Purchase App</strong>."
 msgstr ""
+"Stocați detaliile furnizorului în <strong>Aplicația de Achiziții</strong>."
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_19
 msgid "Strawberry Jelly Cubes"
-msgstr ""
+msgstr "Cuburi de Jeleu cu Căpșuni"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
@@ -1036,12 +1213,12 @@ msgstr "Trimite"
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_4
 msgid "Sweet Candyline"
-msgstr ""
+msgstr "Sweet Candyline"
 
 #. module: candy_shop
 #: model:product.public.category,name:candy_shop.product_public_category_4
 msgid "Sweets"
-msgstr ""
+msgstr "Dulciuri"
 
 #. module: candy_shop
 #: model:product.template,description_sale:candy_shop.product_template_1
@@ -1052,7 +1229,7 @@ msgstr ""
 #: model:product.template,description_sale:candy_shop.product_template_5
 #: model:product.template,description_sale:candy_shop.product_template_7
 msgid "Taste the best candy from our shop!"
-msgstr ""
+msgstr "Gustați cele mai bune bomboane din magazinul nostru!"
 
 #. module: candy_shop
 #: model:product.template,description_sale:candy_shop.product_template_10
@@ -1062,7 +1239,7 @@ msgstr ""
 #: model:product.template,description_sale:candy_shop.product_template_6
 #: model:product.template,description_sale:candy_shop.product_template_9
 msgid "Taste the best drinks from our shop!"
-msgstr ""
+msgstr "Gustați cele mai bune băuturi din magazinul nostru!"
 
 #. module: candy_shop
 #: model:product.template,description_sale:candy_shop.product_template_14
@@ -1073,7 +1250,7 @@ msgstr ""
 #: model:product.template,description_sale:candy_shop.product_template_4
 #: model:product.template,description_sale:candy_shop.product_template_8
 msgid "Taste the best snacks from our shop!"
-msgstr ""
+msgstr "Gustați cele mai bune gustări din magazinul nostru!"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1081,12 +1258,14 @@ msgid ""
 "The <strong>Inventory App</strong> updates stock levels as products are sold "
 "online and in-store."
 msgstr ""
+"<strong>Aplicația de Inventar</strong> actualizează nivelurile de stoc pe "
+"măsură ce produsele sunt vândute online și în magazin."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid ""
 "The POS system will automatically read the weight and calculate the price."
-msgstr ""
+msgstr "Sistemul POS va citi automat greutatea și va calcula prețul."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1114,6 +1293,9 @@ msgid ""
 "To encourage more sales, set up <strong>discount codes</strong> or a "
 "<strong>loyalty program</strong> for repeat customers."
 msgstr ""
+"Pentru a încuraja mai multe vânzări, configurați <strong>coduri de reducere</"
+"strong> sau un <strong>program de loialitate</strong> pentru clienții care "
+"se întorc."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1121,16 +1303,20 @@ msgid ""
 "Track supplier lead times to prevent delays in stock replenishment.<br/>\n"
 "                            <br/>"
 msgstr ""
+"Urmăriți timpii de livrare ai furnizorilor pentru a preveni întârzierile în "
+"reaprovizionarea stocului.<br/>\n"
+"                            <br/>"
 
 #. module: candy_shop
 #: model:product.attribute.value,name:candy_shop.product_attribute_value_1
 msgid "USA"
-msgstr ""
+msgstr "SUA"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Use <strong>Product Attributes</strong> to define brands"
 msgstr ""
+"Utilizați <strong>Atributele Produsului</strong> pentru a defini mărcile"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1150,11 +1336,13 @@ msgid ""
 "Want to take your candy store to the next level? Here are more Odoo tools to "
 "explore:"
 msgstr ""
+"Doriți să duceți magazinul dvs. de bomboane la următorul nivel? Iată mai "
+"multe instrumente Odoo de explorat:"
 
 #. module: candy_shop
 #: model:product.template,name:candy_shop.product_template_20
 msgid "Wasabi Peas"
-msgstr ""
+msgstr "Mazăre cu Wasabi"
 
 #. module: candy_shop
 #: model:product.attribute,name:candy_shop.product_attribute_11
@@ -1164,7 +1352,7 @@ msgstr "Masă"
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "Welcome to the <strong>Odoo for Candy Stores!</strong>"
-msgstr ""
+msgstr "Bun venit la <strong>Odoo pentru Magazinele de Bomboane!</strong>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1172,6 +1360,8 @@ msgid ""
 "When stock arrives, record the incoming shipment in the <strong>Inventory "
 "App</strong>."
 msgstr ""
+"Când ajunge stocul, înregistrați expedirea de sosire în <strong>Aplicația de "
+"Inventar</strong>."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1184,7 +1374,7 @@ msgstr ""
 #. module: candy_shop
 #: model:product.pricelist,name:candy_shop.product_pricelist_2
 msgid "X-Mas"
-msgstr ""
+msgstr "Crăciun"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1192,6 +1382,8 @@ msgid ""
 "You can access every installed App in your Odoo database from your main "
 "dashboard."
 msgstr ""
+"Puteți accesa fiecare Aplicație instalată în baza dvs. de date Odoo de pe "
+"tabloul principal."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
@@ -1199,6 +1391,8 @@ msgid ""
 "You can make your product pages even nicer by<strong> adding additional "
 "images </strong>for eCommerce."
 msgstr ""
+"Puteți face paginile de produse și mai frumoase prin<strong> adăugarea de "
+"imagini suplimentare </strong>pentru eCommerce."
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
@@ -1209,28 +1403,33 @@ msgid ""
 "                                              a filter and a template to use."
 "<br/>"
 msgstr ""
+"Fragmentul dvs. Dinamic va fi afișat aici...\n"
+"                                              Acest mesaj este afișat pentru "
+"că nu ați furnizat atât\n"
+"                                              un filtru cât și un șablon de "
+"folosit.<br/>"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "a display case filled with lots of different types of candies"
-msgstr ""
+msgstr "o vitrină plină cu multe tipuri diferite de bomboane"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "assorted-color fruits on display"
-msgstr ""
+msgstr "fructe de culori variate la expunere"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.welcome_article_body
 msgid "extensive localization library"
-msgstr ""
+msgstr "bibliotecă extinsă de localizare"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.contactus
 msgid "info@candyndustry.odoo.com"
-msgstr ""
+msgstr "info@candyndustry.odoo.com"
 
 #. module: candy_shop
 #: model_terms:ir.ui.view,arch_db:candy_shop.homepage
 msgid "white red and yellow candies"
-msgstr ""
+msgstr "bomboane albe, roșii și galbene"

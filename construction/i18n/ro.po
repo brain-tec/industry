@@ -3,42 +3,43 @@
 # * construction
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2025-11-08 19:52+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-01-27 22:43+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "construction/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
 msgid "10kW reversible system"
-msgstr ""
+msgstr "Sistem reversibil 10kW"
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "30% deposit, 40% midpoint, 30% on completion"
-msgstr ""
+msgstr "30% avans, 40% la jumătatea proiectului, 30% la finalizare"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_45
 msgid "300L electric tank"
-msgstr ""
+msgstr "Rezervor electric 300L"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_55
 msgid "3m aluminum sliding doors"
-msgstr ""
+msgstr "Uși glisante din aluminiu 3m"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -47,6 +48,9 @@ msgid ""
 "ensuring that the latest versions are\n"
 "                    always available to the team."
 msgstr ""
+"<b>Aplicația Documente</b>: Centralizează planurile, contractele și "
+"autorizațiile, asigurând că ultimele versiuni sunt\n"
+"                    întotdeauna disponibile pentru echipă."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -55,6 +59,9 @@ msgid ""
 "specific interventions, tracking their\n"
 "                    location and job status in real-time."
 msgstr ""
+"<b>Aplicația Service pe Teren</b>: Programează și trimite echipe "
+"specializate pentru intervenții specifice, urmărind\n"
+"                    locația și starea lucrării în timp real."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -63,6 +70,9 @@ msgid ""
 "maintenance schedules, fuel costs,\n"
 "                    and driver assignments."
 msgstr ""
+"<b>Aplicația Flotă</b>: Gestionează utilajele grele și flota de vehicule, "
+"urmărind programele de întreținere, costurile cu combustibilul,\n"
+"                    și atribuirea șoferilor."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -71,6 +81,9 @@ msgid ""
 "multiple sites or warehouses,\n"
 "                    reducing loss and theft."
 msgstr ""
+"<b>Aplicația Inventar</b>: Urmărește uneltele, echipamentele și "
+"consumabilele pe multiple șantiere sau depozite,\n"
+"                    reducând pierderile și furturile."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -79,6 +92,9 @@ msgid ""
 "invoicing, down payments, and\n"
 "                    retention based on project progress."
 msgstr ""
+"<b>Aplicația Facturare</b>: Gestionează scenarii complexe de facturare cum "
+"ar fi facturarea pe etape, avansurile și\n"
+"                    reținerea pe baza progresului proiectului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -87,6 +103,9 @@ msgid ""
 "into stages like \"Foundation,\"\n"
 "                    \"Framing,\" and \"Finishing\" with clear deadlines."
 msgstr ""
+"<b>Aplicația Proiect</b>: Gestionează șantierele ca proiecte, organizând "
+"sarcinile în etape cum ar fi \"Fundație,\"\n"
+"                    \"Structură,\" și \"Finisaje\" cu termene limită clare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -95,6 +114,9 @@ msgid ""
 "managing RFQs and purchase orders to\n"
 "                    ensure timely delivery to the site."
 msgstr ""
+"<b>Aplicația Achiziții</b>: Automatizează aprovizionarea cu materiale de "
+"construcție, gestionând cereri de ofertă și comenzi de achiziție pentru\n"
+"                    a asigura livrarea la timp pe șantier."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -103,6 +125,9 @@ msgid ""
 "allows workers to log time\n"
 "                    against specific tasks or cost codes on-site."
 msgstr ""
+"<b>Aplicația Foi de Pontaj</b>: Urmărește orele de muncă cu acuratețe cu o "
+"aplicație mobilă care permite lucrătorilor să înregistreze timpul\n"
+"                    pentru sarcini specifice sau coduri de cost pe șantier."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -110,6 +135,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Informații Banner\" aria-label=\"Informații Banner\">💡</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -117,6 +144,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🥇</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Informații Banner\" aria-label=\"Informații Banner\">🥇</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -124,6 +153,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Succes\" aria-label=\"Banner Succes\">✅</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -131,6 +162,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Avertisment\" aria-label=\"Banner Avertisment\">⚠️</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -138,6 +171,9 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Informații Banner\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Informații Banner\">💡<"
+"/i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -145,6 +181,9 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">🚀</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Informații Banner\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Informații Banner\">🚀<"
+"/i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -152,6 +191,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Succes\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Succes\">✅</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -159,6 +200,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Succes\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Succes\">🎉</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -166,6 +209,9 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Avertisment\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Avertisment\""
+">⚠️</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -173,17 +219,22 @@ msgid ""
 "<strong>Access Control:</strong> Limit sensitive files to relevant team "
 "members."
 msgstr ""
+"<strong>Control Acces:</strong> Limitează fișierele sensibile la membrii "
+"echipei relevanți."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Accounting</strong> – Advanced financial management and reporting."
 msgstr ""
+"<strong>Contabilitate</strong> – Gestionare financiară avansată și raportare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Alerts &amp; Notifications:</strong> Ensure deadlines are met."
 msgstr ""
+"<strong>Alerte &amp; Notificări:</strong> Asigură respectarea termenelor "
+"limită."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -191,6 +242,8 @@ msgid ""
 "<strong>Assignments:</strong> Allocate engineers, site managers, and\n"
 "                    subcontractors."
 msgstr ""
+"<strong>Atribuiri:</strong> Alocă ingineri, manageri de șantier și\n"
+"                    subcontractori."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -198,6 +251,8 @@ msgid ""
 "<strong>Billing:</strong> Invoice based on work completion or project\n"
 "                    milestones."
 msgstr ""
+"<strong>Facturare:</strong> Facturează pe baza finalizării lucrărilor sau\n"
+"                    etapelor proiectului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -205,6 +260,9 @@ msgid ""
 "<strong>Calendar Views:</strong> Visualize overlapping tasks and adjust\n"
 "                    workloads."
 msgstr ""
+"<strong>Vizualizări Calendar:</strong> Vizualizează sarcinile suprapuse și "
+"ajustează\n"
+"                    volumul de muncă."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -213,6 +271,9 @@ msgid ""
 "notes\n"
 "                    and messages linked to opportunities."
 msgstr ""
+"<strong>Conversație &amp; Comunicare:</strong> Colaborează intern folosind "
+"notițe\n"
+"                    și mesaje legate de oportunități."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -221,38 +282,46 @@ msgid ""
 "their\n"
 "                    requests."
 msgstr ""
+"<strong>Portal Client:</strong> Permite clienților să urmărească starea\n"
+"                    cererilor lor."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Construction Builder</strong>"
-msgstr ""
+msgstr "<strong>Constructor Edificii</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Construction Developer</strong>"
-msgstr ""
+msgstr "<strong>Dezvoltator Construcții</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Cost Analysis:</strong> Link labor to project expenses."
 msgstr ""
+"<strong>Analiză Costuri:</strong> Conectează forța de muncă la cheltuielile "
+"proiectului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Daily Logs:</strong> Employees enter hours per task."
-msgstr ""
+msgstr "<strong>Rapoarte Zilnice:</strong> Angajații introduc orele pe sarcină."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Document Requests:</strong> Send requests with follow up activities."
 msgstr ""
+"<strong>Cereri de Documente:</strong> Trimite cereri cu activități de "
+"urmărire."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Employees</strong> – Manage workforce, skills, and certifications."
 msgstr ""
+"<strong>Angajați</strong> – Gestionează forța de muncă, competențele și "
+"certificările."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -260,6 +329,8 @@ msgid ""
 "<strong>Fleet</strong> – Track machinery, vehicles, and maintenance "
 "schedules."
 msgstr ""
+"<strong>Flotă</strong> – Urmărește utilajele, vehiculele și programele de "
+"întreținere."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -268,11 +339,14 @@ msgid ""
 "inquiries,\n"
 "            and resolves issues efficiently."
 msgstr ""
+"<strong>Aplicația Helpdesk</strong> oferă servicii de asistență clienți "
+"receptive, urmărește solicitările,\n"
+"            și rezolvă problemele eficient."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>How to use it:</strong>"
-msgstr ""
+msgstr "<strong>Cum să îl folosești:</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -281,6 +355,10 @@ msgid ""
 "then\n"
 "                        to create a new one for your own usage.</strong>"
 msgstr ""
+"<strong>În această situație, nu ezitați să experimentați cu această bază de "
+"date și apoi\n"
+"                        să creați una nouă pentru propriul dumneavoastră "
+"uz.</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -289,6 +367,9 @@ msgid ""
 "monitors site\n"
 "            stock to prevent delays or shortages."
 msgstr ""
+"<strong>Aplicația Inventar</strong> gestionează materialele, urmărește "
+"livrările și monitorizează stocul de pe șantier\n"
+"            pentru a preveni întârzierile sau lipsurile."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -296,6 +377,8 @@ msgid ""
 "<strong>Invoice from Quotation:</strong> Convert approved quotes into "
 "invoices."
 msgstr ""
+"<strong>Factură din Cotație:</strong> Convertește cotațiile aprobate în "
+"facturi."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -304,6 +387,9 @@ msgid ""
 "invoices, and\n"
 "            integrates with project milestones."
 msgstr ""
+"<strong>Aplicația Facturare</strong> asigură facturarea la timp, "
+"automatizează facturile recurente și\n"
+"            se integrează cu etapele proiectului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -312,6 +398,9 @@ msgid ""
 "                            Centralize contracts, drawings, and permits for "
 "easy access."
 msgstr ""
+"<strong>Păstrează documentația organizată:</strong>\n"
+"                            Centralizează contractele, desenele și "
+"autorizațiile pentru acces facil."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -319,11 +408,14 @@ msgid ""
 "<strong>Leads &amp; Opportunities:</strong> Record incoming inquiries from\n"
 "                    emails, forms, or calls."
 msgstr ""
+"<strong>Potențiali Clienți &amp; Oportunități:</strong> Înregistrează "
+"solicitările primite prin\n"
+"                    email-uri, formulare sau apeluri."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Milestones:</strong> Define major project achievements."
-msgstr ""
+msgstr "<strong>Etape:</strong> Definește realizările majore ale proiectului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -332,6 +424,9 @@ msgid ""
 "photos\n"
 "                or client signatures on site."
 msgstr ""
+"<strong>Execuție Mobilă:</strong> Înregistrează timpul, materialele folosite "
+"și capturează fotografii\n"
+"                sau semnăturile clienților pe șantier."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -340,22 +435,30 @@ msgid ""
 "                            project delays by tracking inventory in real-"
 "time."
 msgstr ""
+"<strong>Monitorizează stocul proactiv:</strong> Evită\n"
+"                            întârzierile proiectului urmărind inventarul în "
+"timp real."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Online Approval:</strong> Enable online customer approval."
 msgstr ""
+"<strong>Aprobare Online:</strong> Permite aprobarea online a clientului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>PDF Output:</strong> Send branded quotations for client approval."
 msgstr ""
+"<strong>Ieșire PDF:</strong> Trimite cotații cu brandul pentru aprobarea "
+"clientului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Payment Tracking:</strong> Monitor outstanding client payments."
 msgstr ""
+"<strong>Urmărire Plăți:</strong> Monitorizează plățile restante ale "
+"clienților."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -363,6 +466,9 @@ msgid ""
 "<strong>Pipeline Management:</strong> Visualize lead stages and prioritize\n"
 "                    follow-ups."
 msgstr ""
+"<strong>Gestionare Pipeline:</strong> Vizualizează etapele potențialilor "
+"clienți și prioritizează\n"
+"                    urmărirea."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -371,12 +477,17 @@ msgid ""
 "client\n"
 "                    agreements."
 msgstr ""
+"<strong>Prețuri &amp; Reduceri:</strong> Ajustează pe baza dimensiunii "
+"proiectului sau acordurilor\n"
+"                    cu clientul."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Prioritization:</strong> Assign critical tickets to senior staff."
 msgstr ""
+"<strong>Prioritizare:</strong> Atribuie tichetele critice personalului "
+"senior."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -384,17 +495,23 @@ msgid ""
 "<strong>Product Prices:</strong> Capture prices by suppliers to make the\n"
 "                    best moves."
 msgstr ""
+"<strong>Prețuri Produse:</strong> Capturează prețurile de la furnizori "
+"pentru a face\n"
+"                    cele mai bune mișcări."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Progress Reporting:</strong> Compare actual time vs planned."
 msgstr ""
+"<strong>Raportare Progres:</strong> Compară timpul real cu cel planificat."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Project Files:</strong> Attach blueprints, permits, and contracts."
 msgstr ""
+"<strong>Fișiere Proiect:</strong> Atașează planurile, autorizațiile și "
+"contractele."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -403,6 +520,9 @@ msgid ""
 "from\n"
 "                    the dashboard."
 msgstr ""
+"<strong>Actualizări Proiect</strong>: Capturează instantaneele proiectului "
+"pe parcurs din\n"
+"                    tabloul de bord."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -411,6 +531,9 @@ msgid ""
 "suppliers\n"
 "            and contractors."
 msgstr ""
+"<strong>Aplicația Achiziții </strong>te ajută să gestionezi cererile de "
+"propunere, furnizorii\n"
+"            și contractorii tăi."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -418,6 +541,9 @@ msgid ""
 "<strong>Purchase Orders:</strong> Create purchase order for needed products\n"
 "                    and services."
 msgstr ""
+"<strong>Comenzi de Achiziție:</strong> Creează comanda de achiziție pentru "
+"produsele\n"
+"                    și serviciile necesare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -425,12 +551,16 @@ msgid ""
 "<strong>Quotation Templates:</strong> Predefine templates for recurrent\n"
 "                    offers."
 msgstr ""
+"<strong>Șabloane de Cotație:</strong> Predefinește șabloane pentru ofertele\n"
+"                    recurente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Reordering:</strong> Automate purchase orders for low-stock items."
 msgstr ""
+"<strong>Recomandare:</strong> Automatizează comenzile de achiziție pentru "
+"articolele cu stoc scăzut."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -439,6 +569,9 @@ msgid ""
 "reports\n"
 "                and invoice billable work when applicable."
 msgstr ""
+"<strong>Raportare &amp; Facturare:</strong> Generează rapoarte detaliate de "
+"intervenție\n"
+"                și facturează lucrul taxabil când este cazul."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -446,6 +579,8 @@ msgid ""
 "<strong>Resource Allocation:</strong> Assign workers, subcontractors, and\n"
 "                    machinery."
 msgstr ""
+"<strong>Alocare Resurse:</strong> Atribuie lucrători, subcontractori și\n"
+"                    utilaje."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -454,6 +589,9 @@ msgid ""
 "assign\n"
 "                    capability."
 msgstr ""
+"<strong>Roluri:</strong> Atribuie roluri lucrătorilor și folosește "
+"capacitatea de\n"
+"                    atribuire automată."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -462,6 +600,9 @@ msgid ""
 "their\n"
 "                calendars."
 msgstr ""
+"<strong>Programare:</strong> Atribuie tehnicieni pentru vizite și "
+"optimizează\n"
+"                calendarele lor."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -469,6 +610,9 @@ msgid ""
 "<strong>Service Requests:</strong> Create tasks for maintenance, warranty\n"
 "                interventions, or client modifications."
 msgstr ""
+"<strong>Cereri de Service:</strong> Creează sarcini pentru întreținere, "
+"intervenții\n"
+"                de garanție sau modificări ale clientului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -476,6 +620,8 @@ msgid ""
 "<strong>Sign</strong> – Collect digital signatures for contracts and "
 "approvals."
 msgstr ""
+"<strong>Semnătură</strong> – Colectează semnături digitale pentru contracte "
+"și aprobări."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -484,6 +630,9 @@ msgid ""
 "construction\n"
 "                    sites."
 msgstr ""
+"<strong>Transferuri de Șantier:</strong> Alocă materialele la șantierele de "
+"construcții\n"
+"                    specifice."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -492,6 +641,9 @@ msgid ""
 "                            quotation and project templates to save time and "
 "maintain consistency."
 msgstr ""
+"<strong>Standardizează șabloanele:</strong> Folosește\n"
+"                            șabloane de cotație și proiect pentru a "
+"economisi timp și menține consistența."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -500,6 +652,9 @@ msgid ""
 "them for\n"
 "                    projects."
 msgstr ""
+"<strong>Monitorizare Stoc:</strong> Verifică materialele disponibile și "
+"rezervă-le pentru\n"
+"                    proiecte."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -508,16 +663,20 @@ msgid ""
 "actionable\n"
 "                    items."
 msgstr ""
+"<strong>Creare Sarcini:</strong> Împarte fazele de construcție în elemente\n"
+"                    acționabile."
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "<strong>Terms</strong>"
-msgstr ""
+msgstr "<strong>Termeni</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Ticket Management:</strong> Record issues or change requests."
 msgstr ""
+"<strong>Gestionare Tichete:</strong> Înregistrează problemele sau cererile "
+"de modificare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -526,11 +685,14 @@ msgid ""
 "enabling\n"
 "            managers to measure performance and costs in real-time."
 msgstr ""
+"<strong>Aplicația Foi de Pontaj</strong> ajută la urmărirea orelor de muncă "
+"și progresului proiectului, permițând\n"
+"            managerilor să măsoare performanța și costurile în timp real."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Tips for success</strong>"
-msgstr ""
+msgstr "<strong>Sfaturi pentru succes</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -539,6 +701,9 @@ msgid ""
 "                            teams to log time and update task status "
 "regularly."
 msgstr ""
+"<strong>Urmărește progresul zilnic:</strong> Încurajează\n"
+"                            echipele să înregistreze timpul și să "
+"actualizeze starea sarcinilor regulat."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -547,11 +712,16 @@ msgid ""
 "                            dashboards to monitor costs, schedules, and "
 "client satisfaction."
 msgstr ""
+"<strong>Folosește tablouri de bord:</strong> Configurează tablouri de bord\n"
+"                            pentru raportare să monitorizezi costurile, "
+"programele și satisfacția clientului."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Version Control:</strong> Track updates to important documents."
 msgstr ""
+"<strong>Control Versiune:</strong> Urmărește actualizările documentelor "
+"importante."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -559,6 +729,9 @@ msgid ""
 "<strong>Website</strong> – Publish projects, showcase services, and capture\n"
 "                    leads."
 msgstr ""
+"<strong>Site Web</strong> – Publică proiecte, prezintă servicii și "
+"capturează\n"
+"                    potențiali clienți."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -566,6 +739,8 @@ msgid ""
 "A complete solution tailored for construction companies overseeing "
 "<strong>complex and multi-trade projects</strong>."
 msgstr ""
+"O soluție completă adaptată companiilor de construcții care supraveghează "
+"<strong>proiecte complexe și multi-meserii</strong>."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -574,6 +749,9 @@ msgid ""
 "and\n"
 "                        sign it."
 msgstr ""
+"O legătură pentru a ajunge la cotația online de unde clientul poate confirma "
+"și\n"
+"                        să o semneze."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -581,37 +759,39 @@ msgid ""
 "A streamlined industry package for companies focused on <strong>simple jobs, "
 "rapid quoting, and efficient execution</strong>."
 msgstr ""
+"Un pachet industrial eficient pentru companiile concentrate pe "
+"<strong>lucrări simple, cotații rapide și execuție eficientă</strong>."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11
 msgid "Accessibility Compliance"
-msgstr ""
+msgstr "Conformitate Accesibilitate"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_43
 msgid "Accessible toilets setup"
-msgstr ""
+msgstr "Configurare toalete accesibile"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_54
 msgid "Acoustic insulation"
-msgstr ""
+msgstr "Izolație acustică"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_14
 msgid "Adapted WC"
-msgstr ""
+msgstr "WC Adaptat"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_27
 #: model:documents.document,name:construction.documents_document_7
 msgid "Administrative & Legal"
-msgstr ""
+msgstr "Administrativ & Legal"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_3
 msgid "Aerial Work Platform"
-msgstr ""
+msgstr "Platformă de Lucru Aeriană"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -620,6 +800,9 @@ msgid ""
 "project\n"
 "                    folder. Adjust it according to your needs!"
 msgstr ""
+"Toate proiectele noi primesc propriul folder de documente din folderul "
+"proiect șablon.\n"
+"                    Ajustați-l după necesitățile dvs.!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -628,11 +811,14 @@ msgid ""
 "can be\n"
 "                    assigned to ensure the follow-up."
 msgstr ""
+"Toate e-mailurile trimise la help@domeniul-companiei-dvs vor crea un tichet "
+"care poate fi\n"
+"                    alocat pentru a asigura urmărirea."
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "All work guaranteed 10 years"
-msgstr ""
+msgstr "Toate lucrările garantate 10 ani"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -646,6 +832,9 @@ msgid ""
 "recorded\n"
 "                    time is used as delivery metric!"
 msgstr ""
+"De îndată ce foile de pontaj asociate cu liniile comenzilor de vânzare sunt "
+"aprobate,\n"
+"                    timpul înregistrat este folosit ca metrică de livrare!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -657,6 +846,12 @@ msgid ""
 "                for project management and purchases are computed "
 "accordingly..."
 msgstr ""
+"Presupunând că va exista muncă manuală pentru fiecare produs din ofertă, "
+"începeți să\n"
+"                completați estimarea timpului pentru unele dintre ele. <br/"
+">Timpul total de\n"
+"                muncă și chiar timpul pentru managementul de proiect și "
+"achiziții sunt calculate în consecință..."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -666,18 +861,18 @@ msgstr "Bază"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_35
 msgid "Bathroom/kitchen ventilation"
-msgstr ""
+msgstr "Ventilația băii/bucătăriei"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_34
 msgid "Bathrooms"
-msgstr ""
+msgstr "Băi"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_3
 #: model:documents.document,name:construction.documents_document_31
 msgid "Before / During / After Photos & Records "
-msgstr ""
+msgstr "Fotografii & Înregistrări Înainte / În timpul / După "
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -686,11 +881,14 @@ msgid ""
 "its\n"
 "                    dashboard."
 msgstr ""
+"Înainte de a genera o factură intermediară, capturați o actualizare a "
+"proiectului din\n"
+"                    tabloul său de bord."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_16
 msgid "Bollards & installation"
-msgstr ""
+msgstr "Stâlpișori & instalare"
 
 #. module: construction
 #: model:product.template,name:construction.product_product_5_product_template
@@ -704,6 +902,9 @@ msgid ""
 "few products,\n"
 "            sale orders and more."
 msgstr ""
+"Prin încărcarea datelor demo ale acestui modul, baza dvs. de date a fost "
+"completată cu câteva produse,\n"
+"            comenzi de vânzare și multe altele."
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_4
@@ -713,48 +914,48 @@ msgstr "Anulat"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_31
 msgid "Ceilings, walls, doors"
-msgstr ""
+msgstr "Tavane, pereți, uși"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_49
 msgid "Cement screed for restaurant"
-msgstr ""
+msgstr "Șapă de ciment pentru restaurant"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_51
 msgid "Clay tiles, waterproofing"
-msgstr ""
+msgstr "Țigle de lut, impermeabilizare"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Click the Create Invoices button at the top of the list."
-msgstr ""
+msgstr "Faceți clic pe butonul Creați Facturi din partea de sus a listei."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Click the Sale Orders shortcut from the top bar."
-msgstr ""
+msgstr "Faceți clic pe comanda rapidă Comenzi de Vânzare din bara de sus."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_25
 msgid "Cold room + fridge units"
-msgstr ""
+msgstr "Cameră frigorifică + unități de răcire"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_2
 #: model:documents.document,name:construction.documents_document_32
 msgid "Communications"
-msgstr "Comunicații"
+msgstr "Comunicări"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_23
 msgid "Concrete + rail"
-msgstr ""
+msgstr "Beton + șină"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_2
 msgid "Concrete Mixer Truck"
-msgstr ""
+msgstr "Camion Betonieră"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -762,6 +963,8 @@ msgid ""
 "Configure it as needed in terms of amount and assign it to your newly "
 "created fiscal position."
 msgstr ""
+"Configurați-l după cum este necesar în termenii sumei și alocați-l poziției "
+"fiscale nou create."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -778,11 +981,18 @@ msgid ""
 "contract type which helps you clarifying that upfront any issue, directly in "
 "your quote."
 msgstr ""
+"Construcția nu merge întotdeauna conform planului și cotațiile pot fi "
+"construite pe baza estimărilor. Întrebarea este când durează mai mult timp "
+"sau consumă mai multe materiale din cauza estimărilor eronate, cine deține "
+"riscul?<br/>\n"
+"            Pentru a vă ajuta cu aceasta, industria construcțiilor vine cu "
+"un tip de contract care vă ajută să clarificați în avans orice problemă, "
+"direct în cotația dvs."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_16
 msgid "Cooking line"
-msgstr ""
+msgstr "Linie de gătit"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -790,6 +1000,7 @@ msgid ""
 "Create a new fiscal position, give it a name and assign the applicable "
 "country."
 msgstr ""
+"Creați o nouă poziție fiscală, dați-i un nume și alocați țara aplicabilă."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -797,6 +1008,8 @@ msgid ""
 "Create a new quotation / sale order, assign a customer and select a "
 "quotation template to save time."
 msgstr ""
+"Creați o nouă cotație / comandă de vânzare, alocați un client și selectați "
+"un șablon de cotație pentru a economisi timp."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -804,21 +1017,23 @@ msgid ""
 "Create a new tax or select the applicable one if existing in your "
 "localisation package."
 msgstr ""
+"Creați o taxă nouă sau selectați cea aplicabilă dacă există în pachetul dvs. "
+"de localizare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Discover more about Odoo by diving into our ﻿"
-msgstr ""
+msgstr "Descoperiți mai multe despre Odoo aprofundând în ﻿"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_19
 msgid "Dishwasher station"
-msgstr ""
+msgstr "Stația de spălat vase"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "Doriți să Mergeți Mai Departe?"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -826,6 +1041,9 @@ msgid ""
 "Do your construction projects go always according to plan?\n"
 "            If not, here is how to handle change orders and extras."
 msgstr ""
+"Proiectele dvs. de construcții merg întotdeauna conform planului?\n"
+"            Dacă nu, iată cum să gestionați modificările de comenzi și "
+"suplimentele."
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_3
@@ -835,7 +1053,7 @@ msgstr "Finalizat"
 #. module: construction
 #: model:product.template,name:construction.product_template_12
 msgid "Door adjustments"
-msgstr ""
+msgstr "Ajustări uși"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -845,27 +1063,27 @@ msgstr "Avans"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_28
 msgid "Ducting, motor"
-msgstr ""
+msgstr "Conducte, motor"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_34
 msgid "Electric programmable"
-msgstr ""
+msgstr "Electric programabil"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_7
 msgid "Electrical"
-msgstr ""
+msgstr "Electrică"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_37
 msgid "Electrical board & circuits"
-msgstr ""
+msgstr "Tablou electric & circuite"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_32
 msgid "Emergency lights"
-msgstr ""
+msgstr "Lumini de urgență"
 
 #. module: construction
 #: model:hr.department,name:construction.hr_department_2
@@ -875,58 +1093,60 @@ msgstr "Angajați"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_22
 msgid "Equipment + layout"
-msgstr ""
+msgstr "Echipamente + amplasament"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Explore additional apps to enhance your construction business:"
 msgstr ""
+"Explorați aplicații suplimentare pentru a vă îmbunătăți afacerea de "
+"construcții:"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_4
 msgid "Exterior Joinery"
-msgstr ""
+msgstr "Tâmplărie Exterioară"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_12
 msgid "Exterior Landscaping"
-msgstr ""
+msgstr "Amenajare Peisagistică Exterioară"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_11
 msgid "Exterior lighting"
-msgstr ""
+msgstr "Iluminat exterior"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_28
 msgid "Extraction hood"
-msgstr ""
+msgstr "Hotă de aspirare"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_20
 msgid "Extraction system"
-msgstr ""
+msgstr "Sistem de extracție"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Final word"
-msgstr ""
+msgstr "Cuvânt final"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_55
 msgid "Fire-rated partitions"
-msgstr ""
+msgstr "Partiții rezistente la foc"
 
 #. module: construction
 #: model:documents.document,name:construction.document_1
 #: model:documents.document,name:construction.document_3
 msgid "First-Floor-Plan.png"
-msgstr ""
+msgstr "Plan-Primul-Etaj.png"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_9
 msgid "Floor & Wall Finishes"
-msgstr ""
+msgstr "Finisaje Pardoseală & Pereți"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -935,11 +1155,15 @@ msgid ""
 "last\n"
 "                invoice."
 msgstr ""
+"Pentru fiecare linie, ajustați câmpurile de increment pentru a captura munca "
+"livrată de la ultima\n"
+"                factură."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "From the Invoicing app Configuration menu, open the Fiscal Positions."
 msgstr ""
+"Din meniul Configurare a aplicației Facturare, deschideți Pozițiile Fiscale."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -948,51 +1172,56 @@ msgid ""
 "with the\n"
 "                slider icon (🎚️)."
 msgstr ""
+"Din proiect, expuneți toate aspectele conexe pe care doriți să le aveți la "
+"îndemână cu\n"
+"                iconița de glisor (🎚️)."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_10
 msgid "Garden cleanup"
-msgstr ""
+msgstr "Curățarea grădinii"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Generate a new quotation and select the Renovation Project template."
-msgstr ""
+msgstr "Generați o nouă cotație și selectați șablonul Proiect de Renovare."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_9
 msgid "Gravel parking"
-msgstr ""
+msgstr "Parcare cu pietriș"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_35
 msgid "Guest WCs"
-msgstr ""
+msgstr "WC-uri pentru oaspeți"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_30
 msgid "Guest rooms & corridor"
-msgstr ""
+msgstr "Camere pentru oaspeți & coridor"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_25
 msgid "Heat pump"
-msgstr ""
+msgstr "Pompă de căldură"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_8
 msgid "Heating & Ventilation"
-msgstr ""
+msgstr "Încălzire & Ventilație"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Here click \"New\" and adjust the sale order details as needed."
 msgstr ""
+"Aici faceți clic pe \"Nou\" și ajustați detaliile comenzii de vânzare după "
+"cum este necesar."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_37
 msgid "Hot water system"
-msgstr ""
+msgstr "Sistem de apă caldă"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1000,6 +1229,8 @@ msgid ""
 "I the popup keep the consolidated billing checked and create your draft "
 "invoice!"
 msgstr ""
+"În popup-ul păstrați facturarea consolidată bifată și creați factura "
+"dumneavoastră draft!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1007,6 +1238,8 @@ msgid ""
 "Ideal for teams seeking operational efficiency without unnecessary "
 "complexity."
 msgstr ""
+"Ideal pentru echipele care caută eficiență operațională fără complexitate "
+"inutilă."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1014,6 +1247,9 @@ msgid ""
 "If properly setup, the Replaces field is displayed and can be populated with "
 "the taxes this tax replaces in this fiscal position."
 msgstr ""
+"Dacă este configurat corect, câmpul Înlocuiește este afișat și poate fi "
+"completat cu taxele pe care această taxă le înlocuiește în această poziție "
+"fiscală."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1026,6 +1262,14 @@ msgid ""
 "                    attached, and the history\n"
 "                    can be easily consulted by all the involved users"
 msgstr ""
+"Dacă clientul răspunde la e-mail, răspunsul este\n"
+"                    înregistrat automat în chatter-ul din partea dreaptă a "
+"ecranului. Prin urmare, toate\n"
+"                    discuțiile privind cotația, actualizările și reglajele "
+"fine ale acesteia sunt\n"
+"                    atașate, iar istoricul\n"
+"                    poate fi consultat cu ușurință de către toți "
+"utilizatorii implicați"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1037,6 +1281,11 @@ msgid ""
 "                    automatically replace the default tax rate by the "
 "reduced one"
 msgstr ""
+"Dacă țara dvs. beneficiază de o reducere de taxe în anumite condiții, "
+"puteți\n"
+"                    aplica cu ușurință pe întreaga cotație prin crearea unei "
+"poziții fiscale care va\n"
+"                    înlocui automat rata de taxă implicită cu cea redusă"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_2
@@ -1050,6 +1299,9 @@ msgid ""
 "your quotes... <br/>We\n"
 "            got you covered here with the quote calculator!"
 msgstr ""
+"În unele cazuri, ați putea căuta calcule mai avansate pentru a fine-tuna "
+"cotațiile dvs... <br/>Vă\n"
+"            acoperim aici cu calculatorul de cotații!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1060,6 +1312,11 @@ msgid ""
 "            Assigning the applicable fiscal position to your customer will "
 "make sure to use the appropriate taxes!"
 msgstr ""
+"În unele țări, reduceri specifice de taxe se pot aplica în construcții.\n"
+"            Pentru a gestiona aceasta, puteți folosi poziția fiscală și "
+"ajusta prin care taxă înlocuiește una.\n"
+"            Atribuirea poziției fiscale aplicabile clientului dvs. va "
+"asigura utilizarea taxelor corespunzătoare!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1067,16 +1324,18 @@ msgid ""
 "In the Advanced Options tab, adjust the label, country and assign or create "
 "a tax group for it."
 msgstr ""
+"În fila Opțiuni Avansate, ajustați eticheta, țara și alocați sau creați un "
+"grup de taxe pentru aceasta."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "In the Sales &amp; Purchase tab, select the applicable fiscal position."
-msgstr ""
+msgstr "În fila Vânzări &amp; Achiziții, selectați poziția fiscală aplicabilă."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_42
 msgid "Install shower, sink, toilet"
-msgstr ""
+msgstr "Instalare duș, chiuvetă, toaletă"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_52
@@ -1086,12 +1345,12 @@ msgstr "Instalare"
 #. module: construction
 #: model:product.template,name:construction.product_template_33
 msgid "Installation labor"
-msgstr ""
+msgstr "Manoperă instalare"
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "Insurance certificate attached"
-msgstr ""
+msgstr "Certificat de asigurare atașat"
 
 #. module: construction
 #: model:project.task.type,name:construction.internal_project_default_stage
@@ -1109,6 +1368,8 @@ msgid ""
 "It covers essential quoting, basic project setup, straightforward planning, "
 "material coordination, and smooth on-site delivery."
 msgstr ""
+"Acoperă cotațiile esențiale, configurarea de bază a proiectului, "
+"planificarea simplă, coordonarea materialelor și livrarea facilă pe șantier."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1116,41 +1377,43 @@ msgid ""
 "It delivers fine-tuned estimation tools, subcontractor management, advanced "
 "planning, materials forecasting, progress driven billing."
 msgstr ""
+"Oferă instrumente de estimare fine-tunate, managementul subcontractorilor, "
+"planificare avansată, prognoze de materiale, facturare bazată pe progres."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_48
 msgid "Joint repointing & patching"
-msgstr ""
+msgstr "Refacerea rosturilor & petecire"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_10
 msgid "Kitchen Installation"
-msgstr ""
+msgstr "Instalare Bucătărie"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_59
 msgid "Kitchen and service areas"
-msgstr ""
+msgstr "Bucătărie și zone de serviciu"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_36
 msgid "Kitchen plumbing"
-msgstr ""
+msgstr "Instalații sanitare bucătărie"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_38
 msgid "LED lights indoor/outdoor"
-msgstr ""
+msgstr "Lumini LED interior/exterior"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_46
 msgid "Labor & site management"
-msgstr ""
+msgstr "Manoperă & managementul șantierului"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_41
 msgid "Labor & supervision"
-msgstr ""
+msgstr "Manoperă & supervizare"
 
 #. module: construction
 #: model:product.template,name:construction.product_product_8_product_template
@@ -1165,28 +1428,28 @@ msgstr "Manoperă"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_61
 msgid "Labour & Project Follow-up"
-msgstr ""
+msgstr "Manoperă & Urmărire Proiect"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_14
 msgid "Leveling + geotextile"
-msgstr ""
+msgstr "Nivelare + geotextil"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_30
 msgid "Lighting"
-msgstr ""
+msgstr "Iluminat"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_1
 #: model:documents.document,name:construction.documents_document_33
 msgid "Maintenance & Handover"
-msgstr ""
+msgstr "Întreținere & Predare"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_2
 msgid "Masonry & Structural Work"
-msgstr ""
+msgstr "Zidărie & Lucrări Structurale"
 
 #. module: construction
 #: model:product.template,name:construction.product_product_6_product_template
@@ -1206,17 +1469,17 @@ msgstr "Materiale vândute."
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_57
 msgid "Metal stud + plasterboard"
-msgstr ""
+msgstr "Profil metalic + rigips"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_1
 msgid "Mini Crawler Crane"
-msgstr ""
+msgstr "Macara Mini pe Șenile"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_32
 msgid "Moldings, wall protections"
-msgstr ""
+msgstr "Ornamente, protecții pereți"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_0
@@ -1226,12 +1489,12 @@ msgstr "Nou(ă)"
 #. module: construction
 #: model:product.template,name:construction.product_template_43
 msgid "New openings"
-msgstr ""
+msgstr "Deschideri noi"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_29
 msgid "New panel"
-msgstr ""
+msgstr "Panou nou"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1253,6 +1516,11 @@ msgid ""
 "relations, and reduce\n"
 "            operational risks."
 msgstr ""
+"Odoo oferă soluții scalabile care cresc odată cu afacerea dvs. Prin "
+"integrarea acestor aplicații,\n"
+"            companiile de construcții pot maximiza eficiența, îmbunătăți "
+"relațiile cu clienții și reduce\n"
+"            riscurile operaționale."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1262,6 +1530,10 @@ msgid ""
 "managing a construction\n"
 "                    project."
 msgstr ""
+"Desigur, aceste sarcini implicite pot fi adaptate în\n"
+"                    Șablonul de Proiect conform modului dvs. personal de "
+"gestionare a unui proiect de\n"
+"                    construcție."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1271,11 +1543,15 @@ msgid ""
 "            to add new apps, delete/modify demo data, and test everything "
 "around!"
 msgstr ""
+"Desigur, aceasta este doar o prezentare generală a funcționalităților "
+"incluse în acest pachet. Simțiți-vă\n"
+"            liberi să adăugați aplicații noi, să ștergeți/modificați datele "
+"demo și să testați totul!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "On confirmation, the sale order is associated to your project!"
-msgstr ""
+msgstr "La confirmare, comanda de vânzare este asociată cu proiectul dvs.!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1286,6 +1562,11 @@ msgid ""
 "additional ones directly coming\n"
 "            from the sold products:"
 msgstr ""
+"La confirmarea comenzii de vânzare, șablonul de proiect este duplicat pentru "
+"noul proiect să\n"
+"            înceapă. <br/>Vine cu unele sarcini predefinite și unele "
+"suplimentare care vin direct\n"
+"            din produsele vândute:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1296,16 +1577,21 @@ msgid ""
 "increments and create a\n"
 "                draft invoice."
 msgstr ""
+"Odată în momentul facturării periodice, selectați acele linii și declanșați "
+"actualizarea\n"
+"                de livrare.<br/>Aceasta va actualiza comanda de vânzare "
+"pentru a captura acele incrementuri și crea o\n"
+"                factură draft."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Once confirmed, the quotation becomes a sales order."
-msgstr ""
+msgstr "Odată confirmată, cotația devine o comandă de vânzare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open now the Taxes still from the configuration menu."
-msgstr ""
+msgstr "Deschideți acum Taxele tot din meniul de configurare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1313,6 +1599,8 @@ msgid ""
 "Open the Other Info tab and in the Invoicing section, adjust the Contract "
 "Type per your needs."
 msgstr ""
+"Deschideți fila Alte Informații și în secțiunea Facturare, ajustați Tipul de "
+"Contract conform necesităților dvs."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1320,6 +1608,8 @@ msgid ""
 "Open the Progress view. It captures all sale order lines associated to this "
 "project."
 msgstr ""
+"Deschideți vizualizarea Progres. Aceasta capturează toate liniile comenzii "
+"de vânzare asociate cu acest proiect."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1327,6 +1617,8 @@ msgid ""
 "Open the contact form of your contact eligible to the tax discount "
 "associated to this fiscal position."
 msgstr ""
+"Deschideți formularul de contact al contactului dvs. eligibil pentru "
+"reducerea de taxe asociată cu această poziție fiscală."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1336,21 +1628,29 @@ msgid ""
 "                outcomes. <br/>This helps you keeping track of progress in "
 "terms of:"
 msgstr ""
+"Deschideți tabloul de bord al proiectului și creați actualizări noi pentru a "
+"captura toate rezultatele\n"
+"                vizitelor pe șantier. <br/>Aceasta vă ajută să urmăriți "
+"progresul în termenii:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the project for which you want to introduce a change order."
 msgstr ""
+"Deschideți proiectul pentru care doriți să introduceți o modificare de "
+"comandă."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the quote calculator from the smart buttons."
-msgstr ""
+msgstr "Deschideți calculatorul de cotații din butoanele inteligente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the sale orders of your project from the project top bar."
 msgstr ""
+"Deschideți comenzile de vânzare ale proiectului dvs. din bara de sus a "
+"proiectului."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_23
@@ -1370,12 +1670,12 @@ msgstr "Palet de 96"
 #. module: construction
 #: model:product.template,name:construction.product_template_22
 msgid "Parquet"
-msgstr ""
+msgstr "Parchet"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_5
 msgid "Partitions & Insulation"
-msgstr ""
+msgstr "Partiții & Izolație"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1383,6 +1683,8 @@ msgid ""
 "Perfect for companies needing structured workflows and high-precision "
 "project management."
 msgstr ""
+"Perfect pentru companiile care au nevoie de fluxuri de lucru structurate și "
+"management de proiect de înaltă precizie."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_19
@@ -1394,6 +1696,12 @@ msgid ""
 "Interior Finishes – 6 weeks\n"
 "Kitchen + Final Landscaping – 2 weeks\n"
 msgstr ""
+"Faze:\n"
+"Pregătire & Demolare – 2 săptămâni\n"
+"Lucrări Structurale & Exterioare – 6 săptămâni\n"
+"Instalații Sanitare/Electrice – 4 săptămâni\n"
+"Finisaje Interioare – 6 săptămâni\n"
+"Bucătărie + Amenajare Finală – 2 săptămâni\n"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1413,22 +1721,22 @@ msgstr "Planificare"
 #. module: construction
 #: model:product.template,name:construction.product_template_53
 msgid "Plasterboard walls"
-msgstr ""
+msgstr "Pereți din rigips"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_6
 msgid "Plumbing & Sanitary"
-msgstr ""
+msgstr "Instalații Sanitare & Igienă"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_39
 msgid "Power outlets"
-msgstr ""
+msgstr "Prize electrice"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
 msgid "Pro kitchen 2m hood"
-msgstr ""
+msgstr "Hotă bucătărie profesională 2m"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1436,6 +1744,8 @@ msgid ""
 "Pro tip: Set progress increment directly on a section \n"
 "                    to go faster!"
 msgstr ""
+"Sfat profesional: Setați incrementul de progres direct pe o secțiune \n"
+"                    pentru a merge mai rapid!"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_57
@@ -1451,7 +1761,7 @@ msgstr "Model Proiect"
 #. module: construction
 #: model:product.template,name:construction.product_template_58
 msgid "Purchase Management"
-msgstr ""
+msgstr "Managementul Achizițiilor"
 
 #. module: construction
 #: model:hr.job,name:construction.hr_job_1
@@ -1462,17 +1772,17 @@ msgstr "Muncitor calificat"
 #: model:documents.document,name:construction.documents_document_29
 #: model:documents.document,name:construction.documents_document_5
 msgid "Quotations & Financials"
-msgstr ""
+msgstr "Cotații & Financiare"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_15
 msgid "Ramp"
-msgstr ""
+msgstr "Rampă"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Read more about the quote calculator ﻿"
-msgstr ""
+msgstr "Citiți mai multe despre calculatorul de cotații ﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1482,42 +1792,42 @@ msgstr "Recepție"
 #. module: construction
 #: model:product.template,name:construction.product_template_17
 msgid "Refrigeration"
-msgstr ""
+msgstr "Refrigerare"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_42
 msgid "Reinforcement beams"
-msgstr ""
+msgstr "Grinzi de consolidare"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_29
 msgid "Restaurant, kitchen, bathrooms"
-msgstr ""
+msgstr "Restaurant, bucătărie, băi"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_53
 msgid "Rock wool 300mm"
-msgstr ""
+msgstr "Vată minerală 300mm"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_49
 msgid "Roof insulation"
-msgstr ""
+msgstr "Izolație acoperiș"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_48
 msgid "Roof structure repair"
-msgstr ""
+msgstr "Reparare structură acoperiș"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_3
 msgid "Roofing & Insulation"
-msgstr ""
+msgstr "Acoperiș & Izolație"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_26
 msgid "Room radiators"
-msgstr ""
+msgstr "Radiatoare cameră"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_folder_12
@@ -1529,12 +1839,12 @@ msgstr "S00001 - Proiect VDK"
 #: model:documents.document,name:construction.documents_document_23
 #: model:project.project,name:construction.project_project_7
 msgid "S00005 - Old Farm renovation in guest house"
-msgstr ""
+msgstr "S00005 - Renovarea Fermei Vechi în casă pentru oaspeți"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_40
 msgid "Safety lighting, signage"
-msgstr ""
+msgstr "Iluminat de siguranță, semnalizare"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1543,6 +1853,9 @@ msgid ""
 "Project\n"
 "                Follow-up section has been updated in consequence!"
 msgstr ""
+"Salvați calculatorul și reveniți la cotația dvs. <br/>Secțiunea Manoperă "
+"&amp; Urmărire\n"
+"                Proiect a fost actualizată în consecință!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1551,6 +1864,9 @@ msgid ""
 ">The\n"
 "                    personalized email provides:"
 msgstr ""
+"Economisiți timp trimițând direct cotația prin e-mail clientului dvs.  <br/"
+">E-mailul\n"
+"                    personalizat oferă:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1561,58 +1877,66 @@ msgid ""
 "in order to sustain\n"
 "                    your cash flow."
 msgstr ""
+"Programați una sau mai multe activități \"Programare Facturare\" pe comanda "
+"de vânzare cu\n"
+"                    scopul de a nu uita niciodată să trimiteți o factură "
+"intermediară pentru a susține\n"
+"                    fluxul dvs. de numerar."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_45
 msgid "Screed"
-msgstr ""
+msgstr "Șapă"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Select all sale orders you aim at billing."
 msgstr ""
+"Selectați toate comenzile de vânzare pe care intenționați să le facturați."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "Setup an email alias for your pipeline to automatically create new leads!"
 msgstr ""
+"Configurați un alias de e-mail pentru pipeline-ul dvs. pentru a crea automat "
+"noi prospect-uri!"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_13
 msgid "Signage"
-msgstr ""
+msgstr "Semnalizare"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_27
 msgid "Sink, drainage setup"
-msgstr ""
+msgstr "Chiuvetă, configurare drenaj"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_30
 #: model:documents.document,name:construction.documents_document_4
 msgid "Site Execution & Planning"
-msgstr ""
+msgstr "Execuție Șantier & Planificare"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_40
 msgid "Site protection"
-msgstr ""
+msgstr "Protecție șantier"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_24
 msgid "Skirting & details"
-msgstr ""
+msgstr "Plinte & detalii"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_51
 msgid "Sliding doors"
-msgstr ""
+msgstr "Uși culisante"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_31
 msgid "Sockets & cabling"
-msgstr ""
+msgstr "Prize & cablare"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1624,16 +1948,22 @@ msgid ""
 "            customers<br/>Those are defined as service products with "
 "invoicing based on time sheets."
 msgstr ""
+"Unele alte elemente de lucru vor fi facturate în funcție de timpul petrecut. "
+"Foile de pontaj nu\n"
+"            doar vă ajută să urmăriți costurile, ele sunt de asemenea "
+"pârghia pentru a vă taxa\n"
+"            clienții<br/>Acestea sunt definite ca produse de servicii cu "
+"facturare bazată pe foi de pontaj."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_58
 msgid "Soundproofing panels"
-msgstr ""
+msgstr "Panouri fonoabsorbante"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_18
 msgid "Stainless prep"
-msgstr ""
+msgstr "Pregătire inox"
 
 #. module: construction
 #: model:product.template,description_sale:construction.product_product_5_product_template
@@ -1659,26 +1989,35 @@ msgid ""
 "                <strong>Documents App</strong>\n"
 "            </b>."
 msgstr ""
+"Începerea unui proiect de construcție implică o mulțime de documente "
+"importante precum contracte,\n"
+"            planuri de construcție, instrucțiuni de folosire, acorduri de "
+"subcontractare, etc. În loc să\n"
+"            le împrăștiați în e-mailuri, servicii de stocare sau computer, "
+"atașați-le în chatter\n"
+"            și vor fi centralizate automat în<b>\n"
+"                <strong>Aplicația Documente</strong>\n"
+"            </b>."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_46
 msgid "Steel I-beams installation"
-msgstr ""
+msgstr "Instalare grinzi în I din oțel"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_44
 msgid "Stone repair"
-msgstr ""
+msgstr "Reparare piatră"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_24
 msgid "Stove, oven, plancha"
-msgstr ""
+msgstr "Aragaz, cuptor, plancha"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_26
 msgid "Tables, splashbacks"
-msgstr ""
+msgstr "Mese, panouri de protecție"
 
 #. module: construction
 #: model:project.project,label_tasks:construction.project_project_3
@@ -1691,7 +2030,7 @@ msgstr "Taskuri"
 #: model:documents.document,name:construction.documents_document_28
 #: model:documents.document,name:construction.documents_document_6
 msgid "Technical Plans & Studies "
-msgstr ""
+msgstr "Planuri Tehnice & Studii "
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1703,6 +2042,12 @@ msgid ""
 "            high-value opportunities and turn inquiries into profitable "
 "projects."
 msgstr ""
+"Modulul <strong>CRM</strong> ajută companiile de construcții să captureze "
+"prospect-uri din multiple\n"
+"            surse, să urmărească comunicările și să programeze urmăriri.  <"
+"br/>Puteți prioritiza\n"
+"            oportunitățile de mare valoare și să transformați solicitările "
+"în proiecte profitabile."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1714,6 +2059,12 @@ msgid ""
 "            tasks, log hours, and report outcomes directly from their mobile "
 "devices."
 msgstr ""
+"Aplicația <strong>Field Service</strong> vă ajută să gestionați "
+"intervențiile pe șantier precum\n"
+"            lucrări de urmărire, servicii de garanție sau solicitări urgente "
+"ale clienților. Tehnicienii pot accesa\n"
+"            sarcini, înregistra ore și raporta rezultate direct de pe "
+"dispozitivele lor mobile."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1722,6 +2073,9 @@ msgid ""
 "coordinates\n"
 "            equipment use across multiple construction sites."
 msgstr ""
+"Aplicația <strong>Planning</strong> programează sarcini, alocă angajați și "
+"coordonează\n"
+"            utilizarea echipamentelor pe mai multe șantiere de construcție."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1730,6 +2084,9 @@ msgid ""
 "resources, and\n"
 "            create milestones for each construction project."
 msgstr ""
+"Aplicația <strong>Proiecte</strong> vă permite să gestionați sarcini, să "
+"alocați resurse și să\n"
+"            creați jaloane pentru fiecare proiect de construcție."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1740,11 +2097,16 @@ msgid ""
 "send polished proposals\n"
 "            directly to clients."
 msgstr ""
+"Aplicația <strong>Vânzări</strong> permite crearea rapidă de cotații "
+"profesionale.\n"
+"            Puteți folosi kituri de produse pentru materiale, aplica "
+"reduceri și trimite propuneri\n"
+"            finisate direct clienților."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "The construction industries come in two parts:"
-msgstr ""
+msgstr "Industriile de construcții vin în două părți:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1772,7 +2134,7 @@ msgstr "Oferta în format PDF"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_54
 msgid "Thermal break double-glazed"
-msgstr ""
+msgstr "Termopan cu rupere de punte termică"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1780,6 +2142,8 @@ msgid ""
 "This information reflects straight away in your quotations, whether send as "
 "pdf file or with a preview."
 msgstr ""
+"Această informație se reflectă imediat în cotațiile dvs., indiferent dacă "
+"sunt trimise ca fișier pdf sau cu previzualizare."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1787,6 +2151,8 @@ msgid ""
 "This manual progress view is as well available from the\n"
 "                    sale order, in the Progress tab!"
 msgstr ""
+"Această vizualizare manuală de progres este de asemenea disponibilă din\n"
+"                    comanda de vânzare, în fila Progres!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1794,21 +2160,23 @@ msgid ""
 "This use case is especially valuable when setting up change orders and "
 "extras!"
 msgstr ""
+"Acest caz de utilizare este deosebit de valoros când configurați comenzi de "
+"schimbare și suplimente!"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_47
 msgid "Tile supply & install"
-msgstr ""
+msgstr "Furnizare & instalare gresie"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_21
 msgid "Tiling"
-msgstr ""
+msgstr "Placare cu gresie"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_52
 msgid "Timber framing adjustment"
-msgstr ""
+msgstr "Ajustare cadru din lemn"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1823,12 +2191,12 @@ msgstr "Costuri de deplasare"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_13
 msgid "Treated decking, frame"
-msgstr ""
+msgstr "Terasa tratată, cadru"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_15
 msgid "Trimming, leveling "
-msgstr ""
+msgstr "Tăiere, nivelare "
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1839,41 +2207,46 @@ msgid ""
 "with invoicing based on\n"
 "            manual delivery."
 msgstr ""
+"De obicei, produsele elementelor de lucru sunt prețuite într-un mod scalabil "
+"și facturate pe baza\n"
+"            cantității livrate.<br/>Acestea sunt definite ca produse de "
+"servicii cu facturare bazată pe\n"
+"            livrare manuală."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Use case"
-msgstr ""
+msgstr "Caz de utilizare"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_27
 msgid "VMC"
-msgstr ""
+msgstr "VMC"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_21
 msgid "Visual, tactile signs"
-msgstr ""
+msgstr "Semne vizuale, tactile"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_38
 msgid "Wall & floor removal"
-msgstr ""
+msgstr "Demontare pereți & pardoseală"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_47
 msgid "Wall cutting and lintel setting"
-msgstr ""
+msgstr "Tăiere perete și montare armatură"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_39
 msgid "Waste disposal"
-msgstr ""
+msgstr "Eliminarea deșeurilor"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_44
 msgid "Water inlets, grease trap"
-msgstr ""
+msgstr "Intrări de apă, separatorul de grăsimi"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1882,6 +2255,9 @@ msgid ""
 "wire\n"
 "                    the expenses to specific projects."
 msgstr ""
+"Când comandați materiale și servicii, completați distribuția analitică "
+"pentru a lega\n"
+"                    cheltuielile de proiecte specifice."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1889,6 +2265,8 @@ msgid ""
 "When selecting Per Line, a new column is exposed for you to specify for each "
 "lines the contract type."
 msgstr ""
+"Când selectați Per Linie, o nouă coloană este expusă pentru a specifica "
+"pentru fiecare linie tipul de contract."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1896,11 +2274,14 @@ msgid ""
 "When selling change order, make sure not to use service products creating "
 "new projects to keep things in order in a single project."
 msgstr ""
+"Când vindeți o comandă de schimbare, asigurați-vă că nu folosiți produse de "
+"servicii care creează proiecte noi pentru a menține lucrurile în ordine într-"
+"un singur proiect."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_20
 msgid "Width and handles"
-msgstr ""
+msgstr "Lățime și mânere"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_50
@@ -1913,11 +2294,14 @@ msgid ""
 "With Spreadsheet App under the hood, you have the freedom\n"
 "                    to confirgure quote calculators meeting your exact needs."
 msgstr ""
+"Cu Aplicația Spreadsheet în spate, aveți libertatea\n"
+"                    să configurați calculatoare de cotații care să vă "
+"îndeplinească nevoile exacte."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_8
 msgid "Wooden terrace"
-msgstr ""
+msgstr "Terasă din lemn"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1927,7 +2311,7 @@ msgstr "Loc de muncă"
 #. module: construction
 #: model:planning.role,name:construction.planning_role_5
 msgid "Work Manager"
-msgstr ""
+msgstr "Manager de Lucrări"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_4
@@ -1948,6 +2332,10 @@ msgid ""
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
+"Ați finalizat acel caz de utilizare demo! Există milioane de alte moduri de "
+"a adapta \n"
+"                    configurarea Odoo pentru a se potrivi nevoilor afacerii "
+"dumneavoastră."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1956,6 +2344,9 @@ msgid ""
 "&gt;\n"
 "                    Upgrade your package and check the related box"
 msgstr ""
+"Nu ați importat date demo? Încă puteți să o faceți. Mergeți la Aplicații &gt;"
+" Industrii \n"
+"&gt;                    Actualizați pachetul și bifați căsuța aferentă"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1965,6 +2356,12 @@ msgid ""
 "            Odoo comes with a capability for consolidated billing in such "
 "cases!"
 msgstr ""
+"Poate ați semnat mai multe comenzi pentru un contract dat și poate nu doriți "
+"să \n"
+"facturați acestea una câte una clientului.\n"
+"            Odoo vine cu o capacitate pentru facturarea consolidată în "
+"astfel de \n"
+"cazuri!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1975,6 +2372,12 @@ msgid ""
 "which might be an issue for\n"
 "            your traceability."
 msgstr ""
+"Poate ați testat acest pachet cu sau fără date demo. <br/>În orice \n"
+"caz, este posibil să\n"
+"            aveți înregistrări scrise în jurnale care nu sunt ștergibile și "
+"\n"
+"care ar putea fi o problemă pentru\n"
+"            trasabilitatea dumneavoastră."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1983,42 +2386,46 @@ msgid ""
 "various flows\n"
 "            you can quickly execute with this package using Odoo."
 msgstr ""
+"Ar trebui să puteți executa următoarele fluxuri pentru a avea o imagine de "
+"ansamblu \n"
+"asupra diverselor fluxuri\n"
+"            pe care le puteți executa rapid cu acest pachet folosind Odoo."
 
 #. module: construction
 #: model:documents.document,name:construction.document_project_project_4
 msgid "machine.png"
-msgstr ""
+msgstr "masina.png"
 
 #. module: construction
 #: model:documents.document,name:construction.document_2
 #: model:documents.document,name:construction.document_4
 msgid "plan.png"
-msgstr ""
+msgstr "plan.png"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "⏲️ Time sheet based progress management"
-msgstr ""
+msgstr "⏲️ Managementul progresului bazat pe foi de pontaj"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "⚖️ Specify the contract type (Construction Developer)"
-msgstr ""
+msgstr "⚖️ Specificați tipul de contract (Dezvoltator de Construcții)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "✨ Change orders &amp; extras"
-msgstr ""
+msgstr "✨ Comenzi de modificare și suplimente"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿  and ﻿"
-msgstr ""
+msgstr "﻿  și ﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿ , and feel free to ﻿"
-msgstr ""
+msgstr "﻿ , și nu ezitați să ﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2026,6 +2433,8 @@ msgid ""
 "﻿ if\n"
 "                    you need help!"
 msgstr ""
+"﻿ dacă\n"
+"                    aveți nevoie de ajutor!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2033,26 +2442,28 @@ msgid ""
 "﻿Reach\n"
 "                    us﻿"
 msgstr ""
+"﻿Contactați-ne\n"
+"                    ﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿academy﻿"
-msgstr ""
+msgstr "﻿academie﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿documentation﻿"
-msgstr ""
+msgstr "﻿documentație﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿here﻿"
-msgstr ""
+msgstr "﻿aici﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿request a demo﻿"
-msgstr ""
+msgstr "﻿solicitați o demonstrație﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2060,6 +2471,8 @@ msgid ""
 "﻿🎓\n"
 "                    Fiscal Positions ﻿"
 msgstr ""
+"﻿🎓\n"
+"                    Poziții Fiscale ﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2067,6 +2480,8 @@ msgid ""
 "﻿🎓\n"
 "            CRM﻿"
 msgstr ""
+"﻿🎓\n"
+"            CRM﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2074,6 +2489,8 @@ msgid ""
 "﻿🎓\n"
 "            Inventory﻿"
 msgstr ""
+"﻿🎓\n"
+"            Stoc﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2081,6 +2498,8 @@ msgid ""
 "﻿🎓\n"
 "            Purchase﻿"
 msgstr ""
+"﻿🎓\n"
+"            Achiziții﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2088,6 +2507,8 @@ msgid ""
 "﻿🎓\n"
 "            Sales﻿"
 msgstr ""
+"﻿🎓\n"
+"            Vânzări﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2095,41 +2516,43 @@ msgid ""
 "﻿🎓\n"
 "            Timesheets﻿"
 msgstr ""
+"﻿🎓\n"
+"            Foi de Pontaj﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿🎓 Documents﻿"
-msgstr ""
+msgstr "﻿🎓 Documente﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿🎓 Field Service ﻿"
-msgstr ""
+msgstr "﻿🎓 Servicii pe Teren ﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿🎓 Helpdesk﻿"
-msgstr ""
+msgstr "﻿🎓 Suport Tehnic﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿🎓 Invoicing﻿"
-msgstr ""
+msgstr "﻿🎓 Facturare﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿🎓 Planning﻿"
-msgstr ""
+msgstr "﻿🎓 Planificare﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿🎓 Project﻿"
-msgstr ""
+msgstr "﻿🎓 Proiecte﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🆘 On-site interventions"
-msgstr ""
+msgstr "🆘 Intervenții pe șantier"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2139,77 +2562,78 @@ msgstr "🎓 Poziții fiscale"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🎯 Never miss an opportunity"
-msgstr ""
+msgstr "🎯 Să nu ratați niciodată o oportunitate"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🏁 Manual delivery progress management (Construction Developer)"
 msgstr ""
+"🏁 Managementul manual al progresului livrării (Dezvoltator de Construcții)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🏗️ Manage your construction project with ease"
-msgstr ""
+msgstr "🏗️ Gestionați proiectul de construcție cu ușurință"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🏦 Specific tax discount"
-msgstr ""
+msgstr "🏦 Reducere fiscală specifică"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "💬 Make your customers happy"
-msgstr ""
+msgstr "💬 Faceți-vă clienții fericiți"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "💲 Easily create beautiful quotations"
-msgstr ""
+msgstr "💲 Creați ușor cotatții frumoase"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "📆 Efficiently schedule the work"
-msgstr ""
+msgstr "📆 Programați eficient lucrările"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "📈 Invoice the right amount at the right time"
-msgstr ""
+msgstr "📈 Facturați suma potrivită la momentul potrivit"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "📐 Project template"
-msgstr ""
+msgstr "📐 Șablon de proiect"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "📝 Centralize all the important information"
-msgstr ""
+msgstr "📝 Centralizați toate informațiile importante"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "📦 Keep an eye on materials"
-msgstr ""
+msgstr "📦 Supravegheați materialele"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🔍 Accurately track the time spent"
-msgstr ""
+msgstr "🔍 Urmăriți cu acuratețe timpul petrecut"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🧙‍♂️ Project management"
-msgstr ""
+msgstr "🧙‍♂️ Managementul proiectelor"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🧮 Advanced quote computations with the calculator"
-msgstr ""
+msgstr "🧮 Calcule avansate de cotații cu calculatorul"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🧾 Multiple orders turning into one bill"
-msgstr ""
+msgstr "🧾 Comenzi multiple transformându-se într-o singură factură"
 
 #~ msgid "Never miss an opportunity 🎯"
 #~ msgstr "Nu rata nicio oportunitate 🎯"

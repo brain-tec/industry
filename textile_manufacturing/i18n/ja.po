@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * textile_manufacturing
 #
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:06+0000\n"
-"PO-Revision-Date: 2025-12-24 12:07+0000\n"
+"PO-Revision-Date: 2026-01-30 14:17+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
 "textile_manufacturing/ja/>\n"
@@ -272,7 +272,7 @@ msgid ""
 "the <b>Manufacturing Order Creation</b> section."
 msgstr ""
 "<b>在庫生産(MTS) または受注生産 (MTO) プロダクトの場合:</b>適切なプロダクトで"
-"見積を作成するだけです。顧客が承認すれば、Odooが自動的に配送オーダを生成しま"
+"見積を作成するだけです。顧客が承認すれば、Odooが自動的に出荷オーダを生成しま"
 "す。製造オーダが\n"
 "                  自動で作成されるかどうかは、設定に依存します。 詳細は<b>製"
 "造オーダの作成</b>セクションで説明されています。"
@@ -2535,9 +2535,8 @@ msgstr ""
 msgid ""
 "You can create multiple Bills of Materials (BOMs) for the same finished "
 "product. This is useful for products that can be made in different ways."
-msgstr ""
-"同じ完成品に対して、複数の部品表(BOM)を作成できます。これは、製品を異なる方法"
-"で製造できる場合に便利です。"
+msgstr "同じ完成品に対して、複数の部品表(BOM)を作成できます。これは、プロダクトを異な"
+"る方法で製造できる場合に便利です。"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
