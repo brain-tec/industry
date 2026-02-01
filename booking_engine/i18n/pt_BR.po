@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:43+0000\n"
-"PO-Revision-Date: 2026-01-23 09:01+0000\n"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/booking_engine/pt_BR/>\n"
@@ -183,7 +183,7 @@ msgstr "Ofertas do motor de reservas"
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_settings_action
 msgid "Booking Engine Settings"
-msgstr ""
+msgstr "Configurações do mecanismo de reservas"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_21
@@ -213,13 +213,13 @@ msgstr "Check-out"
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.x_cleaning_field_selection_checkout
 msgid "Checkout"
-msgstr ""
+msgstr "Checkout"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_has_checkout_cleaning_field_planning_role
 #: model:ir.model.fields,field_description:booking_engine.x_has_checkout_cleaning_field_product_template
 msgid "Checkout Cleaning"
-msgstr ""
+msgstr "Limpeza no checkout"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.model_product_attribute_value_x_children

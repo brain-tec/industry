@@ -1,63 +1,66 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* construction_developer
+# * construction_developer
 #
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-01-07 08:34+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: \n"
+"PO-Revision-Date: 2026-01-29 17:24+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-s19-1/"
+"construction_developer/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_portal_content_inherit
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_report_document_inherit
 msgid "<strong>Contract Type </strong>"
-msgstr ""
+msgstr "<strong>Type de contrat </strong>"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_77
 msgid "Anti-corrosion protective coat"
-msgstr ""
+msgstr "Revêtement de protection anticorrosion"
 
 #. module: construction_developer
 #. odoo-javascript
 #: code:addons/construction_developer/static/src/widgets/apply_to_section_widget.js:0
 msgid "Apply to section"
-msgstr ""
+msgstr "Appliquer à la section"
 
 #. module: construction_developer
 #. odoo-javascript
 #: code:addons/construction_developer/static/src/widgets/apply_to_section_widget.js:0
 msgid "Apply to subsection"
-msgstr ""
+msgstr "Appliquer à la sous-section"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_70
 msgid "Carport"
-msgstr ""
+msgstr "Abri pour voiture"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_65
 msgid "Compacted sand"
-msgstr ""
+msgstr "Sable compacté"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_80
 msgid "Concrete"
-msgstr ""
+msgstr "Béton"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_79
 msgid "Connection pipe"
-msgstr ""
+msgstr "Tuyau de raccordement"
 
 #. module: construction_developer
 #: model:base.automation,name:construction_developer.automation_initialize_sales_order_line_sequence_on_sales_order_create
@@ -65,26 +68,34 @@ msgstr ""
 msgid ""
 "Construction: Initialize Sales Order Line Sequence on Sales Order create"
 msgstr ""
+"Construction : Initialiser la séquence des lignes de commande client lors de "
+"la création de la commande client"
 
 #. module: construction_developer
 #: model:ir.actions.server,name:construction_developer.action_sol_update_progress_increment_on_change
 msgid "Construction: Update Progress Increment on Quantity Increment change"
 msgstr ""
+"Construction : mise à jour de l’incrément de progression lors de la "
+"modification de l’incrément de quantité"
 
 #. module: construction_developer
 #: model:ir.actions.server,name:construction_developer.action_sol_update_qty_delivered
 msgid "Construction: Update Quantity Delivered"
-msgstr ""
+msgstr "Construction : mise à jour de la quantité livrée"
 
 #. module: construction_developer
 #: model:ir.actions.server,name:construction_developer.action_sol_update_quantity_increment_on_change
 msgid "Construction: Update Quantity Increment on Progress Increment change"
 msgstr ""
+"Construction : mise à jour de l’incrément de quantité lors de la "
+"modification de l’incrément de progression"
 
 #. module: construction_developer
 #: model:ir.actions.server,name:construction_developer.action_sol_update_section_progress
 msgid "Construction: Update Quantity Increment on section button click"
 msgstr ""
+"Construction : mise à jour de l’incrément de quantité lors du clic sur le "
+"bouton de section"
 
 #. module: construction_developer
 #: model:base.automation,name:construction_developer.automation_update_progress_increment_on_change
@@ -92,6 +103,8 @@ msgid ""
 "Construction: Update Sale Order Line Progress Increment on Quantity "
 "Increment change"
 msgstr ""
+"Construction : mise à jour de l’incrément de progression des lignes de "
+"commande client lors de la modification de l’incrément de quantité"
 
 #. module: construction_developer
 #: model:base.automation,name:construction_developer.automation_update_quantity_increment_on_change
@@ -99,134 +112,137 @@ msgid ""
 "Construction: Update Sale Order Line Quantity Increment on Progress "
 "Increment change"
 msgstr ""
+"Construction : mise à jour de l’incrément de quantité des lignes de commande "
+"client lors de la modification de l’incrément de progression"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_sol_contract_type
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_so_contract_type
 msgid "Contract Type"
-msgstr ""
+msgstr "Type de contrat"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_73
 msgid "Corrugated metal sheet"
-msgstr ""
+msgstr "Tôle métallique ondulée"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_current_progress
 msgid "Current Progress"
-msgstr ""
+msgstr "Avancement actuel"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_delivered_progress
 msgid "Delivered Progress"
-msgstr ""
+msgstr "Avancement livré"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_display_button
 msgid "Display the section/subsection button"
-msgstr ""
+msgstr "Afficher le bouton section/sous-section"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_72
 msgid "Downspout accessory"
-msgstr ""
+msgstr "Accessoire de descente de gouttière"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_78
 msgid "Drain channel with grid"
-msgstr ""
+msgstr "Caniveau de drainage avec grille"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_66
 msgid "Drainage System"
-msgstr ""
+msgstr "Système de drainage"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_line_sol_contract_type_selection_fixed_price
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_fixed_price
 msgid "Fixed Price"
-msgstr ""
+msgstr "Prix fixe"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_67
 msgid "Foundation Footing"
-msgstr ""
+msgstr "Semelle de fondation"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Fully Invoiced"
-msgstr ""
+msgstr "Entièrement facturé"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_63
 msgid "Geotextile fabric"
-msgstr ""
+msgstr "Géotextile"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_64
 msgid "Gravel 0.25"
-msgstr ""
+msgstr "Gravier 0/25"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_69
 msgid "Ground"
-msgstr ""
+msgstr "Sol"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_62
 msgid "Ground Preparation"
-msgstr ""
+msgstr "Préparation du sol"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_68
 msgid "Gutter"
-msgstr ""
+msgstr "Gouttière"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "In Progress"
-msgstr ""
+msgstr "En cours"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_is_deliverable
 msgid "Is a deliverable Product"
-msgstr ""
+msgstr "Est un produit livrable"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_is_undeliverable
 msgid "Is an undeliverable Product"
-msgstr ""
+msgstr "Est un produit non livrable"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_68
 msgid "Material order, staff management, coordination, customer meetings"
 msgstr ""
+"Commande de matériaux, gestion du personnel, coordination, réunions clients"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Not Started"
-msgstr ""
+msgstr "Non commencé"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_line_sol_contract_type_selection_open_book
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_open_book
 msgid "Open Book"
-msgstr ""
+msgstr "Open Book"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Order"
-msgstr ""
+msgstr "Commande"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_71
 msgid "PVC gutter"
-msgstr ""
+msgstr "Gouttière en PVC"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_per_line
 msgid "Per Line"
-msgstr ""
+msgstr "Par ligne"
 
 #. module: construction_developer
 #: model:ir.model.fields,help:construction_developer.field_sale_order_so_contract_type
@@ -241,122 +257,131 @@ msgid ""
 "- Per Line: Mixed billing logic where you define individually for each line "
 "item."
 msgstr ""
+"Précisez sur le document de devis le type de contrat :\n"
+"- Non spécifié : aucune condition de facturation spécifique ne sera affichée "
+"sur ce document.\n"
+"- Prix fixe : une mention est affichée précisant que le type de contrat est "
+"à prix fixe.\n"
+"- Open book : une mention est affichée précisant que le type de contrat est "
+"open book.\n"
+"- Par ligne : logique de facturation mixte où vous définissez "
+"individuellement chaque ligne."
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Product"
-msgstr ""
+msgstr "Produit"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_service_policy
 msgid "Product Service Policy"
-msgstr ""
+msgstr "Politique de service produit"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.action_progress_view
 #: model:ir.embedded.actions,name:construction_developer.construction_embedded_action_sales_order_lines
 #: model:ir.embedded.actions,name:construction_developer.construction_embedded_action_sales_order_lines_dashboard
 msgid "Progress"
-msgstr ""
+msgstr "Avancement"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_progress_increment
 msgid "Progress Increment"
-msgstr ""
+msgstr "Incrément d'avancement"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_71
 msgid "Project Management"
-msgstr ""
+msgstr "Gestion de projet"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_list_view
 msgid "Qty"
-msgstr ""
+msgstr "Qté"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_quantity_increment
 msgid "Quantity Increment"
-msgstr ""
+msgstr "Incrément de quantité"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_69
 msgid "Roofing"
-msgstr ""
+msgstr "Couverture"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_74
 msgid "Roofing fixation screws"
-msgstr ""
+msgstr "Vis de fixation pour toiture"
 
 #. module: construction_developer
 #: model:project.project,name:construction_developer.project_project_16
 msgid "S00003 - Project Template"
-msgstr ""
+msgstr "S00003 - Modèle de projet"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Sales Order Lines that are at 100% progress"
-msgstr ""
+msgstr "Lignes de commande client à 100 % d'avancement"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Sales Order Lines that are between 0 and 100% progress"
-msgstr ""
+msgstr "Lignes de commande client entre 0 % et 100 % d'avancement"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Sales Order Lines that have not been started yet (0% progress)"
-msgstr ""
+msgstr "Lignes de commande client non démarrées (0 % d'avancement)"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Search Sales Order"
-msgstr ""
+msgstr "Rechercher une commande client"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_76
 msgid "Steel beam (matching profile)"
-msgstr ""
+msgstr "Poutre en acier (profil correspondant)"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_75
 msgid "Steel post (galvanized, coated)"
-msgstr ""
+msgstr "Poteau en acier (galvanisé, revêtu)"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_81
 msgid "Steel reinforcement mesh"
-msgstr ""
+msgstr "Treillis d'armature en acier"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_70
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Structure"
-msgstr ""
+msgstr "Structure"
 
 #. module: construction_developer
 #: model:project.project,label_tasks:construction_developer.project_project_16
 msgid "Tasks"
-msgstr ""
+msgstr "Tâches"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "The structure Sale Order Lines"
-msgstr ""
+msgstr "Les lignes de commande client de la structure"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_portal_content_inherit
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_report_document_inherit
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_unspecified
 msgid "Unspecified"
-msgstr ""
+msgstr "Non spécifié"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_list_view
 msgid "Update Delivery"
-msgstr ""
+msgstr "Mettre à jour la livraison"

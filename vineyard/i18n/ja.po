@@ -3,13 +3,14 @@
 # * vineyard
 #
 # "Junko Augias (juau)" <juau@odoo.com>, 2026.
+# "Tiffany Chang (tic)" <tic@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:16+0000\n"
-"PO-Revision-Date: 2026-01-23 09:05+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "vineyard/ja/>\n"
 "Language: ja\n"
@@ -175,7 +176,7 @@ msgid ""
 "standards by tracking quality control points\n"
 "                    throughout production.<br/>"
 msgstr ""
-"<strong><b>品質アプリ</b>: </strong>生産工程全体にわたって品質管理ポイントを"
+"<strong><b>品質アプリ</b>: </strong>生産工程全体にわたって品質検査ポイントを"
 "追跡し、すべてのボトルが\n"
 "                    自社の基準を満たすようにしましょう。<br/>"
 
@@ -1035,22 +1036,22 @@ msgstr ""
 #. module: vineyard
 #: model:project.tags,name:vineyard.project_tags_2
 msgid "Maintenance"
-msgstr ""
+msgstr "整備"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_11_product_template
 msgid "Malbec Grapes"
-msgstr ""
+msgstr "マルベック種"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_14_product_template
 msgid "Malbec Must"
-msgstr ""
+msgstr "マルベック果醪"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Malbec&amp;nbsp;<br/>"
-msgstr ""
+msgstr "マルベック&amp;nbsp;<br/>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1059,28 +1060,31 @@ msgid ""
 "conversations, plan activities, and ensure timely follow-ups to secure long-"
 "term contracts for distributors and restaurants."
 msgstr ""
+"すべての潜在顧客の関係を一元管理。会話の追跡、活動の計画、タイムリーなフォロ"
+"ーアップを確実に実施し、販売代理店や飲食店との長期契約を獲得します。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Mark it as todo to schedule it"
-msgstr ""
+msgstr "予定としてマークしてスケジュール"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "May be some more tests are to be planned so you can add some from here"
-msgstr ""
+msgstr "追加のテストを計画する必要がある場合は、ここからいくつか追加できます"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "Monitor and document wine quality, from grape reception to bottled product "
 "release."
-msgstr ""
+msgstr "ブドウの受入から瓶詰めプロダクトの出荷に至るまで、ワインの品質を監視しドキュ"
+"メントに記録します。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Monitor harvest performance year after year."
-msgstr ""
+msgstr "収穫の成果を毎年監視します。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1101,6 +1105,9 @@ msgid ""
 "            to add new apps, delete/modify demo data, and test everything "
 "around!"
 msgstr ""
+"もちろん、これはこのパッケージに含まれる機能の概要にすぎません。\n"
+"            新しいアプリを追加したり、デモデータを削除/変更したり、すべて自由"
+"にお試しください!"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1138,92 +1145,93 @@ msgstr "スマートボタンからその検査を開き、官能評価の結果
 msgid ""
 "Open now the Dashboard App and navigate to the scrap page to see the scrap "
 "ratio for each products, from must to bottles."
-msgstr ""
+msgstr "ダッシュボードアプリを開き、スクラップページに移動して、各プロダクトのボトル"
+"からマストまでのスクラップ比率を確認してください。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Open the Harvests from the Inventory App"
-msgstr ""
+msgstr "在庫アプリアプリから収穫を開きます"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Open the PLM App and its BOM updates"
-msgstr ""
+msgstr "PLMアプリを開き、その部品表を更新します"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Open the Quality App and create a new quality check"
-msgstr ""
+msgstr "品質アプリを開き、新しい品質チェックを作成します"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Open the harvest reporting to appreciate year after year the yield"
-msgstr ""
+msgstr "収穫レポーティングを開いて、年ごとの収穫量を評価します"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Open the in progress manufacturing order from the Manufacturing App"
-msgstr ""
+msgstr "製造アプリから進行中の製造オーダを開きます"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Our Grape&amp;nbsp;Collections"
-msgstr ""
+msgstr "当社のブドウ&amp;nbsp;コレクション"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Our Wine Collection"
-msgstr ""
+msgstr "当社のワインコレクション"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.stock_picking_internal_search_view_inherit
 msgid "Parcel"
-msgstr ""
+msgstr "小包"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.stock_picking_internal_search_view_inherit
 msgid "Parcels"
-msgstr ""
+msgstr "小包"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_26_product_template
 msgid "Pinodoo Noir"
-msgstr ""
+msgstr "ピノ・オドゥー・ノワール"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_21_product_template
 msgid "Pomace"
-msgstr ""
+msgstr "搾りかす"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_32_product_template
 msgid "Potassium sorbate"
-msgstr ""
+msgstr "ソルビン酸カリウム"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "お問い合わせ"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Reaching new heights in winemaking"
-msgstr ""
+msgstr "ワイン造りの新たな高みへ"
 
 #. module: vineyard
 #: model:mrp.eco.stage,legend_done:vineyard.mrp_eco_stage_9
 msgid "Ready"
-msgstr ""
+msgstr "準備完了"
 
 #. module: vineyard
 #: model:ir.model.fields,field_description:vineyard.quality_check_recipe_iteration
 msgid "Recipe Iteration"
-msgstr ""
+msgstr "レシピ改訂"
 
 #. module: vineyard
 #: model:ir.model.fields,field_description:vineyard.mrp_eco_recipe_iteration_quality_check_count
 msgid "Recipe Iteration count"
-msgstr ""
+msgstr "レシピ改訂数"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1234,43 +1242,48 @@ msgid ""
 "managers to integrate every stage of their business into one unified "
 "platform."
 msgstr ""
+"ブドウ園の運営は、ブドウを育てるだけではありません。人間関係の管理、ワインづ"
+"くりの追求、法令遵守、そして忘れられない顧客体験の提供まで、すべてが求められ"
+"ます。Odoo は、ぶどう園のオーナーやマネジャーが、ビジネスのあらゆる工程をひと"
+"つの統合プラットフォームで管理できるよう支援します。"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_19_product_template
 msgid "SO2 (KMS)"
-msgstr ""
+msgstr "SO2 (KMS)"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_4040
 msgid "Schedule a Tour"
-msgstr ""
+msgstr "ツアーをスケジュール"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "Schedule vineyard maintenance tasks and track execution in real time, "
 "whether done by in-house staff or contractors."
-msgstr ""
+msgstr "自社スタッフまたは請負業者によるブドウ園の整備作業をスケジュールし、その実行"
+"状況をリアルタイムで追跡します。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.stock_move_search_view_inherit
 msgid "Scheduled Date"
-msgstr ""
+msgstr "予定日"
 
 #. module: vineyard
 #: model:spreadsheet.dashboard,name:vineyard.spreadsheet_dashboard_15
 msgid "Scrap"
-msgstr ""
+msgstr "廃棄"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "See All"
-msgstr ""
+msgstr "すべて表示"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "See all<span class=\"fa fa-long-arrow-right ms-2\"/>"
-msgstr ""
+msgstr "すべて表示<span class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1278,11 +1291,13 @@ msgid ""
 "Select the corresponding product and lot if testing some aging must or "
 "blend, or the recipe iteration when testing a recipe variation"
 msgstr ""
+"熟成中のマストまたはブレンドをテストする場合は対応するプロダクトとロットを選"
+"択し、レシピのバリアントをテストする場合はレシピの反復を選択してください"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Select the desired control point and save"
-msgstr ""
+msgstr "目的の品質検査ポイントを選択し、保存してください"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1290,55 +1305,59 @@ msgid ""
 "Sell directly to consumers or businesses via your Odoo-powered website. "
 "Handle product availability, payment, and delivery from one platform."
 msgstr ""
+"Odooを活用した自社ウェブサイトを通じて、消費者や企業に直接販売しましょう。プ"
+"ロダクトの在庫管理、決済、配送を一つのプラットフォームで一括管理できます。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Set an expected date and confirm it to have it scheduled"
-msgstr ""
+msgstr "予定日を設定し、確定するとスケジュールに反映されます"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "Set as passed the microbiological test to complete the compliance checks for "
 "this batch"
-msgstr ""
+msgstr "このバッチのコンプライアンスチェックを完了するには、微生物検査を合格として設"
+"定してください"
 
 #. module: vineyard
 #: model_terms:product.template,public_description:vineyard.product_product_26_product_template
 msgid "Silky textures with a touch of Odoo magic"
-msgstr ""
+msgstr "シルキーな質感にOdooの魔法を添えて"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_16_product_template
 msgid "Smooth & Juicy"
-msgstr ""
+msgstr "なめらかでジューシー"
 
 #. module: vineyard
 #: model_terms:product.template,public_description:vineyard.product_product_25_product_template
 msgid "Smooth, powerful, and just the right kick"
-msgstr ""
+msgstr "なめらか、力強い、そして絶妙な個性"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "Some quality checks are to be completed prior validating the harvest, which "
 "you can adjust from the Quality App control pointso"
-msgstr ""
+msgstr "収穫を検証する前に、いくつかの品質検査を完了する必要があります。これらは品質"
+"アプリの検査ポイントから調整できます"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_5
 msgid "Sophisticated"
-msgstr ""
+msgstr "洗練"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_1
 msgid "Spicy"
-msgstr ""
+msgstr "スパイシー"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_17_product_template
 msgid "Spicy & Rich"
-msgstr ""
+msgstr "スパイシーでコクのある"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_4048
@@ -1348,86 +1367,93 @@ msgid ""
 "life to our finest blends, breathe in the aromas of ripening grapes, and "
 "learn the secrets behind each harvest."
 msgstr ""
+"伝統と革新が出会う、<strong>没入型ワイナリーツアー</strong>へようこそ。ぶどう"
+"の木々が生い茂る畑を散策し、芳醇な香りに包まれながら、最高のブレンドを生み出"
+"すぶどうの息吹を感じてください。収穫のたびに受け継がれてきたワインづくりの秘"
+"密を、ぜひその目で確かめてみてください。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.stock_move_graph_view_inherit
 msgid "Stock Moves Analysis"
-msgstr ""
+msgstr "在庫移動分析"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_15_product_template
 msgid "Structured & Bold"
-msgstr ""
+msgstr "骨格があり、力強い"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_31_product_template
 msgid "Sugar"
-msgstr ""
+msgstr "砂糖"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_2
 msgid "Syrah"
-msgstr ""
+msgstr "シラー"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_10_product_template
 msgid "Syrah Grapes"
-msgstr ""
+msgstr "シラー種"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_13_product_template
 msgid "Syrah Must"
-msgstr ""
+msgstr "シラー・マスト"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Syrah&amp;nbsp;"
-msgstr ""
+msgstr "シラー&amp;nbsp;"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_6
 msgid "Tannic"
-msgstr ""
+msgstr "タンニンが強い"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_20_product_template
 msgid "Tannin Powder"
-msgstr ""
+msgstr "タンニン粉末"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_29_product_template
 msgid "Tartaric acid"
-msgstr ""
+msgstr "酒石酸"
 
 #. module: vineyard
 #: model:ir.actions.act_window,name:vineyard.quality_check_tests_action_window
 #: model_terms:ir.ui.view,arch_db:vineyard.mrp_eco_view_form_inherit
 msgid "Tests"
-msgstr ""
+msgstr "テスト"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr ""
+msgstr "これらはすべて現在のサブスクリプションで無料でご利用可能です。お気軽にお試し"
+"ください!🙃"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Track production waste and identify areas for improvement."
-msgstr ""
+msgstr "生産廃棄物を追跡し、改善すべき領域を特定します。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "Track raw materials, production stages, and finished products, ensuring "
 "traceability and compliance."
-msgstr ""
+msgstr "原材料、製造ステージ、完成プロダクトを管理し、トレーサビリティとコンプライア"
+"ンスを確保します。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "Trial 2 ECO mage consistent component changes based on learning from trial 1"
-msgstr ""
+msgstr "トライアル1で得た知見をもとに、トライアル2 の設計変更オーダ(ECO)で一貫した構"
+"成品変更を行います"
 
 #. module: vineyard
 #: model_terms:product.template,description_ecommerce:vineyard.product_product_25_product_template
@@ -1437,47 +1463,52 @@ msgid ""
 "smooth, aromatic experience that’s vibrant on the palate. Perfect with "
 "grilled dishes, cheeses, or whenever you crave a wine with character."
 msgstr ""
+"ピリッとしたスパイス感と濃厚な味わいが堂々たる赤ワイン、オドゥマティック・ス"
+"パイスで風味を引き立てましょう。シラーとマルベック種のぶどうが織りなす、滑ら"
+"かで香り高い味わいは、口の中で生き生きと広がります。グリル料理やチーズとの相"
+"性は抜群。個性的なワインを楽しみたいときにぴったりの1本です。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "Use POS to handle on-site sales, manage inventory, and process payments "
 "quickly."
-msgstr ""
+msgstr "POSを活用して店頭販売を処理し、在庫を管理し、迅速に決済を処理します。"
 
 #. module: vineyard
 #: model:base.automation,name:vineyard.industry_on_harvest_base_automation_2
 msgid "Vineyard: Harvest Validation"
-msgstr ""
+msgstr "ブドウ園：収穫検証"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "When results are available, record the corresponding measure or directly set "
 "the test outcome"
-msgstr ""
+msgstr "結果が確認できたら、該当する測定値を記録するか、テスト結果を直接設定します"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Where Tradition Meets Innovation"
-msgstr ""
+msgstr "伝統と革新の出会い"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_4048
 msgid ""
 "Whether you’re a wine enthusiast or simply curious, our tour is a feast for "
 "the senses — and a memory to savor."
-msgstr ""
+msgstr "ワイン愛好家の方はもちろん、少し興味があるだけの方にも、五感で楽しめるこのツ"
+"アーは、心に残る味わい深い体験となるでしょう。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Wine without&amp;nbsp;passion is dull"
-msgstr ""
+msgstr "&amp;nbsp;情熱のないワインは味気ない"
 
 #. module: vineyard
 #: model:appointment.type,name:vineyard.appointment_type_2
 msgid "Winery Tour"
-msgstr ""
+msgstr "ワイナリーツアー"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1486,30 +1517,35 @@ msgid ""
 "time, and adapt quickly to seasonal and market changes — all while "
 "preserving the artistry that makes your wine unique."
 msgstr ""
+"Odooを活用すれば、ブドウ園の運営業務に関わる手作業を減らし、パフォーマンスを"
+"リアルタイムで把握しながら、季節や市場の変化にも迅速に対応できます。その一方"
+"で、あなたのワインならではの職人技と個性はしっかりと守られます。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
+msgstr "Odooのセットアップについてご相談、またはそれ以上をご希望ですか?"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_18_product_template
 msgid "Yeast"
-msgstr ""
+msgstr "イースト"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard.<strong/>"
-msgstr ""
+msgstr "メインダッシュボードから、Odooデータベースにインストールされているすべてのア"
+"プリにアクセスできます。<strong/>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "You can find all quality checks performed on batches and recipe iterations "
 "(ECOs) from their smart buttons."
-msgstr ""
+msgstr "バッチやレシピの改訂(設計変更オーダ(ECO))に対して実施されたすべての品質チェッ"
+"クは、それぞれのスマートボタンから確認できます。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1517,6 +1553,9 @@ msgid ""
 "You can mark it as failed and create a new ECO based on new learnings but "
 "let's mark it as passed and come back to the test list from the breadcrumb"
 msgstr ""
+"失敗としてマークし、新たな知見に基づいて新しい設計変更オーダ(ECO)を作成するこ"
+"ともできますが、今回は合格としてマークし、パンくずリストからテストリストに戻"
+"りましょう"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1525,6 +1564,9 @@ msgid ""
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
+"このデモユースケースを完了しました!\n"
+"                    Odooは、あなたのビジネスニーズに合わせて無限のカスタマイ"
+"ズが可能です。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1533,18 +1575,23 @@ msgid ""
 "&gt;\n"
 "                    Upgrade your package and check the related box"
 msgstr ""
+"デモデータをインポートしていない場合でも、あとから追加することができます。ア"
+"プリ&gt;インダストリー &gt;\n"
+"                    パッケージをアップグレードに進み、該当するボックスにチェ"
+"ックを入れてください"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid ""
 "You now have a new recipe as BOM which will be used for the structured &amp; "
 "bold assemblage!"
-msgstr ""
+msgstr "新しいレシピが部品表として登録されました。このレシピは、構造的で力強いアッサ"
+"ンブラージュに使用されます!"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "You now have available malbec must for some assemblages!"
-msgstr ""
+msgstr "いくつかのアッサンブラージュ用にマルベックの果汁がご利用いただけます！"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1552,7 +1599,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows\n"
 "            you can quickly execute with this package using Odoo."
-msgstr ""
+msgstr "このパッケージを使って Odoo 上で素早く実行できるさまざまな業務フローの概要を"
+"把握するために、以下のフローを実行してみましょう。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -1560,6 +1608,8 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide both a filter and a template to use.<br/>"
 msgstr ""
+"ダイナミックスニペットはここに表示されます...使用するフィルタとテンプレートの"
+"両方が提供されなかったため、このメッセージが表示されました。<br/>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_4048
@@ -1570,61 +1620,66 @@ msgid ""
 "strong>. Each sip tells a story of passion, craftsmanship, and the unique "
 "terroir that defines our vineyard."
 msgstr ""
+"ご来訪の締めくくりには、<strong>によるガイド付きテイスティング</strong> をお"
+"楽しみください。当社の代表作である力強い<strong>ボルオドゥー・グラン・クリュ<"
+"/strong> 、鮮やかな<strong>オドゥーマティック・スパイス</strong> 、そして優雅"
+"な<strong>ピノ・オドゥー・ノワール</strong> をご提供します。一口ごとに、情熱"
+"と職人技、そして当ワイナリーを特徴づける独自のテロワールの物語が紡がれます。"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "アカデミー"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "そして"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_37
 msgid "branding"
-msgstr ""
+msgstr "ブランディング"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_21
 msgid "distributor"
-msgstr ""
+msgstr "販売代理店"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "documentation"
-msgstr ""
+msgstr "ドキュメンテーション"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_27
 msgid "exclusive"
-msgstr ""
+msgstr "限定"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_28
 msgid "export"
-msgstr ""
+msgstr "エクスポート"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_34
 msgid "fine-dining"
-msgstr ""
+msgstr "ファインダイニング"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_23
 msgid "high-value"
-msgstr ""
+msgstr "価値の高い"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_40
 msgid "high-volume"
-msgstr ""
+msgstr "量の多い"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_38
 msgid "house-wine"
-msgstr ""
+msgstr "ハウスワイン"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1632,71 +1687,73 @@ msgid ""
 "if you need\n"
 "                    help!"
 msgstr ""
+"サポートを\n"
+"                    ご希望の場合"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_25
 msgid "italian"
-msgstr ""
+msgstr "イタリア語"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_33
 msgid "launch"
-msgstr ""
+msgstr "ローンチ"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_22
 msgid "long-term"
-msgstr ""
+msgstr "長期"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_30
 msgid "new-client"
-msgstr ""
+msgstr "新規顧客"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_32
 msgid "new-market"
-msgstr ""
+msgstr "新規市場"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_35
 msgid "pairing"
-msgstr ""
+msgstr "ペアリング"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_31
 msgid "premium"
-msgstr ""
+msgstr "プレミアム"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_36
 msgid "private-label"
-msgstr ""
+msgstr "プライベートブランド"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_26
 msgid "repeat-customer"
-msgstr ""
+msgstr "リピート顧客"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "デモをリクエスト"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_24
 msgid "restaurant"
-msgstr ""
+msgstr "レストラン"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_29
 msgid "seasonal"
-msgstr ""
+msgstr "季節限定"
 
 #. module: vineyard
 #: model:crm.tag,name:vineyard.crm_tag_39
 msgid "urban-market"
-msgstr ""
+msgstr "都市市場"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_16_product_template
@@ -1704,77 +1761,77 @@ msgstr ""
 #: model_terms:product.template,description:vineyard.product_product_26_product_template
 #: model_terms:product.template,description:vineyard.product_product_27_product_template
 msgid "✅ <em>Best for cool-climate blends or elegant, savory styles.</em>"
-msgstr ""
+msgstr "✅ <em>冷涼な気候のブレンドや、上品で旨味のあるスタイルに最適。</em>"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_15_product_template
 msgid "✅ <em>Ideal for earlier drinking, modern-style wines.</em>"
-msgstr ""
+msgstr "✅ <em>早めに楽しむのに適した、モダンスタイルのワインです。</em>"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_17_product_template
 msgid "✅ <em>Perfect for oak aging, full-bodied winter reds.</em>"
-msgstr ""
+msgstr "✅ <em>オーク熟成に最適な、フルボディの冬向き赤ワインです。</em>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Appointments"
-msgstr ""
+msgstr "🎓 アポイントメント"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 CRM"
-msgstr ""
+msgstr "🎓 CRM"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Excise Management"
-msgstr ""
+msgstr "🎓 物品税管理"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Field Service"
-msgstr ""
+msgstr "🎓 フィールドサービス"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Inventory"
-msgstr ""
+msgstr "🎓 在庫"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Manufacturing"
-msgstr ""
+msgstr "🎓 製造"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 PLM"
-msgstr ""
+msgstr "🎓 PLM"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Point of Sale"
-msgstr ""
+msgstr "🎓 POS"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Quality"
-msgstr ""
+msgstr "🎓 品質"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Spreadsheet"
-msgstr ""
+msgstr "🎓 スプレッドシート"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 Website"
-msgstr ""
+msgstr "🎓 ウェブサイト"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "🎓 eCommerce"
-msgstr ""
+msgstr "🎓 eコマース"
 
 #~ msgid ""
 #~ "<strong>Appointments 📅</strong> – Allow customers to book winery tours "

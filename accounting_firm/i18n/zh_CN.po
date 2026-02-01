@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:27+0000\n"
-"PO-Revision-Date: 2026-01-20 12:48+0000\n"
+"PO-Revision-Date: 2026-01-30 14:39+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-s19-1/accounting_firm/zh_Hans/>\n"
@@ -26,21 +26,22 @@ msgstr ""
 msgid ""
 "<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
 "own financials with robust invoicing tools."
-msgstr ""
+msgstr "<b>会计应用</b>：优化账单流程，并用强大的发票工具管理公司自身财务。"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "<b>Contacts App</b>: Centralize all client data and maintain a clean, "
 "organized directory of customers and contacts."
-msgstr ""
+msgstr "<b>联系人应用程序</b>：集中管理所有客户数据，维护简洁、有序的客户和联系人目录"
+"。"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "<b>Databases App</b>: Access and interact with your clients' Odoo databases "
 "instantly from a single dashboard."
-msgstr ""
+msgstr "<b>数据库应用程序</b>：从一个仪表板即时访问客户的 Odoo 数据库并与之互动。"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body

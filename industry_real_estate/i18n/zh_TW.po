@@ -8,16 +8,16 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Tony Ng (ngto)" <ngto@odoo.com>, 2025.
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2025-12-11 08:28+0000\n"
+"PO-Revision-Date: 2026-01-29 17:21+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
-"projects/odoo-19/industry_real_estate/zh_Hant/>\n"
+"projects/odoo-s19-1/industry_real_estate/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,7 @@ msgstr ""
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
+msgstr "，亦歡迎隨時"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -43,6 +43,9 @@ msgid ""
 "selling opportunities in a visual\n"
 "                pipeline."
 msgstr ""
+"<b>客戶關係應用程式</b>：高效率地管理潛在客戶，利用視覺化的流程管道，追蹤正在"
+"處理的\n"
+"                買賣機會。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -52,27 +55,32 @@ msgid ""
 "                tenants, and service providers within a single, searchable "
 "directory with full communication history."
 msgstr ""
+"<b>聯絡人應用程式</b>：集中管理所有持份者的資料，利用一個容易搜尋的聯絡人目錄"
+"，管理業主、\n"
+"                租戶及服務提供者之間的獨特關係，同時保留完整的通訊記錄。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<b>Create a Contract:</b> Click \"New\" and select the tenant as the "
 "\"Customer\" and add the Rental fee product."
-msgstr ""
+msgstr "<b>建立新合約</b>：按一下「新增」，選擇租戶作為「客戶」，然後加入租金產品。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<b>Create a Property:</b> Click \"New\" to create a unit. Fill in its "
 "building, location and other details."
-msgstr ""
+msgstr "<b>建立新物業</b>：按一下「新增」以建立單位，然後填寫建築物或樓宇名稱、地址等"
+"其他詳細資料。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<b>Documents App:</b> Store signed leases, property deeds, and insurance "
 "certificates with expiration alerts."
-msgstr ""
+msgstr "<b>文件管理應用程式</b>：儲存已簽署的租賃合約、房產契約、保險證明書等，並可加"
+"入到期提醒。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -82,6 +90,8 @@ msgid ""
 "                time of the tenant's entry to ensure accurate utility re-"
 "billing later."
 msgstr ""
+"<b>入伙記錄</b>：利用專門的物業分頁，記錄租戶入住時水錶、電錶等讀數，\n"
+"                確保日後能夠準確計算公用事業賬單費用。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -90,13 +100,16 @@ msgid ""
 "navigate through the app menu\n"
 "                Availability."
 msgstr ""
+"<b>開啟可用情況</b>：開啟<strong>物業應用程式</strong>，然後在應用程式選單中"
+"，選擇\n"
+"                「可用情況」。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<b>Open the Contracts</b>: Open the <strong>Properties App</strong> to reach "
 "the Subscriptions."
-msgstr ""
+msgstr "<b>開啟合約</b>：開啟<strong>物業應用程式</strong>，以進入訂閱頁面。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -105,6 +118,9 @@ msgid ""
 "through the app menu Properties /\n"
 "                Properties."
 msgstr ""
+"<b>開啟物業記錄</b>：開啟<b>物業應用程式</b>，然後在應用程式選單中，選擇物業 "
+"/\n"
+"                物業。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -113,6 +129,8 @@ msgid ""
 "by clicking on an empty slot in\n"
 "                    the timeline."
 msgstr ""
+"<b>專家秘笈</b>：可在此檢視畫面中，按一下時間軸的空白位置，\n"
+"                    直接建立一份新的租約。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -121,6 +139,9 @@ msgid ""
 "manage property listings, contracts, and\n"
 "                availability status."
 msgstr ""
+"<b>物業應用程式</b>：利用專門的應用程式整理物業組合，妥善管理房源列表、合約、"
+"\n"
+"                可用狀態等。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -129,18 +150,22 @@ msgid ""
 "professional quotations and digital\n"
 "                signatures."
 msgstr ""
+"<b>銷售應用程式</b>：利用專業的報價單及電子簽名功能，快速處理報價、議價談判、"
+"\n"
+"                達成交易等工作。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<b>Select the Property:</b> Select the \"Property\" to rent."
-msgstr ""
+msgstr "<b>選擇物業</b>：選取要出租的「物業」。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<b>Sign App:</b> Send lease agreements for legally binding electronic "
 "signatures."
-msgstr ""
+msgstr "<b>電子簽名應用程式</b>：發送租賃協議，讓租戶透過有法律效力的電子簽名，簽署各"
+"類文件。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -150,6 +175,8 @@ msgid ""
 "                cycles, ensuring consistent cash flow and effortless lease "
 "renewals."
 msgstr ""
+"<b>訂閱應用程式</b>：利用彈性靈活的收費周期，自動收取定期租金及服務費，\n"
+"                確保有穩定的現金流，同時可輕鬆處理租約續約等事宜。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -158,6 +185,8 @@ msgid ""
 "quarterly, etc.) and the expiration of\n"
 "                the contract."
 msgstr ""
+"<b>時間軸</b>：明確標示合約的開始日期、重複周期（每月、每季等）\n"
+"                以及到期日。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -166,6 +195,9 @@ msgid ""
 "beautiful, mobile-responsive\n"
 "                property management portal."
 msgstr ""
+"<b>網站製作應用程式</b>：利用美觀、流暢支援流動裝置的物業管理門戶網站，推廣你"
+"的房源，\n"
+"                吸引目標客群的瀏覽流量。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -175,6 +207,9 @@ msgid ""
 "b>\n"
 "                                    </font>"
 msgstr ""
+"<font style=\"font-size: 62px;\">\n"
+"                                        <b>— 物業管理 —</b>\n"
+"                                    </font>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.contactus
@@ -220,6 +255,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅資"
+"訊\">🚀</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -227,6 +264,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅成"
+"功\">✅</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -234,6 +273,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅成"
+"功\">🎉</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -241,13 +282,16 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅警"
+"告\">⚠️</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<i>Note: Only properties with at least one current or future contract will "
 "appear in this visualization.</i>"
-msgstr ""
+msgstr "<b>請留意：只限最少有一份目前或未來生效合約的物業，才會在此視覺化檢視畫面中顯"
+"示。</b><i></i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.default_form_view_building
@@ -326,21 +370,24 @@ msgid ""
 "with a completely integrated\n"
 "                environment."
 msgstr ""
+"<strong>會計應用程式</strong>：利用完全整合、資料互通的系統，管理會計賬目從此"
+"\n"
+"                無比輕鬆。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>想再進一步嗎？</strong>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Odoo offers you infinite possibilities, such as:</strong>"
-msgstr ""
+msgstr "<strong>Odoo 為你提供無限可能，例如：</strong>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr ""
+msgstr "<strong>使用例子</strong>"
 
 #. module: industry_real_estate
 #: model:website.menu,name:industry_real_estate.website_menu_10
@@ -417,7 +464,7 @@ msgstr "可用"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Basics"
-msgstr ""
+msgstr "基礎知識"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_building
@@ -438,7 +485,7 @@ msgstr "建築物"
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products, sale orders and more."
-msgstr ""
+msgstr "上載此模組的模擬數據後，你的資料庫已填入一些產品記錄、銷售單等資料。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -456,7 +503,7 @@ msgstr "城市"
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "Click on the <b>Availability</b> to view your portfolio in a Gantt view."
-msgstr ""
+msgstr "按一下<b>可用情況</b>，使用甘特圖檢視你的物業組合。"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_commercial_space
@@ -537,14 +584,14 @@ msgstr "發現更多"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "發掘更多有關 Odoo 的資訊，深入了解我們的"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
-msgstr ""
+msgstr "發掘此軟體套裝的基礎知識，探索 Odoo 為改善你的體驗而提供的所有可能。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -577,7 +624,7 @@ msgstr ""
 msgid ""
 "From the <b>Properties App</b>, you can define the physical assets you "
 "manage."
-msgstr ""
+msgstr "在<b>物業應用程式</b>中，可為你所管理的實體資產設定資料。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -620,7 +667,7 @@ msgstr "對地球影響最小、對當地社區的積極影響最大的棲息地
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "你好！"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -762,6 +809,8 @@ msgid ""
 "package. Feel free to add new apps,\n"
 "            delete/modify demo data, and test everything around!"
 msgstr ""
+"當然，這只是此軟體套裝所涵蓋功能的概述。你可隨意加入新的應用程式、\n"
+"            刪除或修改模擬資料，並在不同介面盡情測試！"
 
 #. module: industry_real_estate
 #: model:crm.tag,name:industry_real_estate.crm_tag_10
@@ -847,7 +896,7 @@ msgstr "物業圖片"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Property Management"
-msgstr ""
+msgstr "物業管理"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_type
@@ -877,7 +926,7 @@ msgstr "數量"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Reach Us"
-msgstr ""
+msgstr "聯絡我們"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -936,7 +985,7 @@ msgstr "搜尋"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.website_listing_account_analytic_account
 msgid "Search..."
-msgstr "搜尋⋯"
+msgstr "搜尋..."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
@@ -1015,20 +1064,20 @@ msgstr "租戶"
 msgid ""
 "The <b>Subscriptions App</b> handles the legal and financial bridge between "
 "the property and the tenant."
-msgstr ""
+msgstr "<b>訂閱應用程式</b>可處理物業與租戶之間的法律及財務事宜。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr ""
+msgstr "這些項目在你目前的服務計劃中，全部都是免費的，儘管隨意探索！🙃"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "This screen visualizes all active rental contracts and identifies vacancies "
 "at a glance."
-msgstr ""
+msgstr "此畫面以視覺化形式顯示所有正在生效的租賃合約，讓你可一目了然識別空置房源。"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_invoice_status_selection_to_invoice
@@ -1088,7 +1137,7 @@ msgstr ""
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
+msgstr "想與我們討論如何設定你的 Odoo 配置，甚至想探索更多？"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
@@ -1102,7 +1151,7 @@ msgstr "寫一兩段文字，描述你的產品或服務。成功的內容必須
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
-msgstr ""
+msgstr "你可在主要 Dashboard 上，存取 Odoo 資料庫內所有已安裝的應用程式。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1111,6 +1160,8 @@ msgid ""
 "your Odoo setup to fit your\n"
 "                    business needs."
 msgstr ""
+"你已完成示範例子的導覽！除此之外，還有很多其他方法可以調整 Odoo 的設定，\n"
+"                    以滿足你業務的特別需要。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1119,6 +1170,9 @@ msgid ""
 "&gt; Upgrade your Bar &amp; Pub package\n"
 "                    and check the related box"
 msgstr ""
+"還未匯入模擬數據？現在仍可執行此操作。請前往應用程式 &gt; 行業 &gt; 升級你的"
+"「酒吧及酒館」套裝，\n"
+"                    然後勾選相關方格。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1127,6 +1181,9 @@ msgid ""
 "have installed a bunch of necessary\n"
 "            apps to run your bar efficiently."
 msgstr ""
+"你剛剛安裝了「Odoo 物業管理」軟體套裝。安裝後，我們已為你安裝一些必要的應用程"
+"式，\n"
+"            讓你有效率地營運業務。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1135,6 +1192,8 @@ msgid ""
 "various flows you can quickly execute with\n"
 "            this package using Odoo."
 msgstr ""
+"你應該能夠執行以下流程，概覽你在 Odoo 內可使用此套裝\n"
+"            快速執行的各種流程。"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.zip
@@ -1145,17 +1204,17 @@ msgstr "郵遞區號"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "學院"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "及"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "documentation"
-msgstr ""
+msgstr "使用說明"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -1170,27 +1229,27 @@ msgstr "已找到）"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "if you need help!"
-msgstr ""
+msgstr "以尋求協助！"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "預約功能示範"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "🏠 Managing Properties &amp; Products"
-msgstr ""
+msgstr "🏠 管理物業及產品"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "📄 Managing Rental Contracts"
-msgstr ""
+msgstr "📄 管理租約"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "📅 Availability &amp; Occupancy Tracking"
-msgstr ""
+msgstr "📅 追蹤空置及租住情況"
 
 #~ msgid ""
 #~ "<font style=\"font-size: 62px;\">\n"

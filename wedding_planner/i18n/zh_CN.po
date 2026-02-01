@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:18+0000\n"
-"PO-Revision-Date: 2026-01-20 12:57+0000\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-s19-1/wedding_planner/zh_Hans/>\n"
@@ -28,6 +28,8 @@ msgid ""
 "pipeline from the first inquiry to the\n"
 "                signed contract."
 msgstr ""
+"<b>客户关系管理应用程序</b>：捕捉订婚情侣的详细信息，管理从第一次咨询到\n"
+"                签订合同的销售管道。"
 
 #. module: wedding_planner
 #: model_terms:ir.ui.view,arch_db:wedding_planner.welcome_article_body
@@ -36,6 +38,8 @@ msgid ""
 "venues, and suppliers to quickly connect\n"
 "                them with your clients."
 msgstr ""
+"<b>联系人应用程序</b>：维护可信供应商、场地和供货商的综合名录，以便\n"
+"                他们与客户之间的快速联系。"
 
 #. module: wedding_planner
 #: model_terms:ir.ui.view,arch_db:wedding_planner.welcome_article_body
@@ -44,6 +48,9 @@ msgid ""
 "one secure location for easy sharing and\n"
 "                retrieval."
 msgstr ""
+"<b>文件管理应用程序</b>：将合同、氛围板和平面图集中到一个安全位置，便于共享和"
+"\n"
+"                检索。"
 
 #. module: wedding_planner
 #: model_terms:ir.ui.view,arch_db:wedding_planner.welcome_article_body

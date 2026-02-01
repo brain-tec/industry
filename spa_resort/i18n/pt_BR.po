@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:54+0000\n"
-"PO-Revision-Date: 2026-01-13 16:55+0000\n"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/spa_resort/pt_BR/>\n"
@@ -284,6 +284,9 @@ msgid ""
 "and massages with a clear, flexible schedule that prevents double-booking."
 "<br/>"
 msgstr ""
+"<strong><b>App Agendamento</b>: </strong>Gerencie reservas para entradas no "
+"spa e massagens com uma agenda clara e flexível que evita reservas "
+"duplicadas.<br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -292,6 +295,9 @@ msgid ""
 "products like essential oils and towels to ensure you are always prepared."
 "<br/>"
 msgstr ""
+"<strong><b>App Inventário</b>: </strong>Monitore o consumo de produtos de "
+"bem-estar, como óleos essenciais e toalhas, para garantir que você esteja "
+"sempre preparado.<br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -299,6 +305,9 @@ msgid ""
 "<strong><b>Planning App</b>: </strong>Organize your therapists' schedules "
 "efficiently to match staff availability with treatment bookings.<br/>"
 msgstr ""
+"<strong><b>App Planejamento</b>: </strong>Organize a agenda dos seus "
+"terapeutas de forma eficiente para combinar a disponibilidade da equipe com "
+"as reservas de tratamentos.<br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -307,6 +316,9 @@ msgid ""
 "tickets, cosmetics, and accessories like bathrobes directly at the reception."
 "<br/>"
 msgstr ""
+"<strong><b>App Ponto de Venda</b>: </strong>Aumente as vendas vendendo "
+"ingressos, cosméticos e acessórios, como roupões de banho, diretamente na "
+"recepção.<br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -314,6 +326,9 @@ msgid ""
 "<strong><b>Sales App</b>: </strong>Handle complex bookings like group offers "
 "and special spa packages by sending professional quotations.<br/>"
 msgstr ""
+"<strong><b>App Vendas</b>: </strong>Gerencie reservas complexas, como "
+"ofertas para grupos e pacotes especiais de spa, enviando orçamentos "
+"profissionais.<br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -321,6 +336,9 @@ msgid ""
 "<strong><b>Website &amp; eCommerce App</b>: </strong>Showcase your wellness "
 "menu online, allowing guests to book treatments and buy gift cards 24/7.<br/>"
 msgstr ""
+"<strong><b>App Site e e-Commerce</b>: </strong>Apresente seu menu de bem-"
+"estar online, permitindo que os hóspedes reservem tratamentos e comprem "
+"cartões-presente 24 horas por dia, 7 dias por semana.<br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body

@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2026-01-23 09:04+0000\n"
+"PO-Revision-Date: 2026-01-29 17:20+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "industry_real_estate/ja/>\n"
@@ -1077,20 +1077,23 @@ msgstr "入居者"
 msgid ""
 "The <b>Subscriptions App</b> handles the legal and financial bridge between "
 "the property and the tenant."
-msgstr ""
+msgstr "<b>サブスクリプションアプリ</b> で、不動産とテナントとの間の法的・財務的な業"
+"務を管理できます。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr ""
+msgstr "これらはすべて現在のサブスクリプションで無料でご利用可能です。お気軽にお試し"
+"ください!🙃"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "This screen visualizes all active rental contracts and identifies vacancies "
 "at a glance."
-msgstr ""
+msgstr "この画面では、すべての有効な賃貸契約を可視化し、空室状況をひと目で把握できま"
+"す。"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_invoice_status_selection_to_invoice
@@ -1150,7 +1153,7 @@ msgstr ""
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
+msgstr "Odooのセットアップについてご相談、またはそれ以上をご希望ですか?"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.ir_ui_view_1416
@@ -1164,7 +1167,8 @@ msgstr "製品やサービスについて軽く説明しましょう。"
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
-msgstr ""
+msgstr "メインダッシュボードから、Odooデータベースにインストールされているすべてのア"
+"プリにアクセスできます。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1173,6 +1177,9 @@ msgid ""
 "your Odoo setup to fit your\n"
 "                    business needs."
 msgstr ""
+"使用例のデモは終了です! ビジネスニーズに応じて、Odooのセットアップを適応させ"
+"る方法は\n"
+"                    他にもたくさんあります。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1181,6 +1188,9 @@ msgid ""
 "&gt; Upgrade your Bar &amp; Pub package\n"
 "                    and check the related box"
 msgstr ""
+"デモデータのインポートはまだ可能です。アプリ&gt;インダストリー&gt; 不動産パッ"
+"ケージを更新し、\n"
+"                    関連するボックスにチェックを入れてください"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1189,6 +1199,8 @@ msgid ""
 "have installed a bunch of necessary\n"
 "            apps to run your bar efficiently."
 msgstr ""
+"Odooの不動産管理パッケージをインストールしました。これにより、不動産業を\n"
+"            効率的に運営するために必要なアプリ群が導入されました。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1197,6 +1209,9 @@ msgid ""
 "various flows you can quickly execute with\n"
 "            this package using Odoo."
 msgstr ""
+"このパッケージをOdooで活用すると、さまざまなフローを簡単に実行できます。 全体"
+"の流れを把握するために、\n"
+"          以下の操作を試してみて下さい。"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.zip
@@ -1207,17 +1222,17 @@ msgstr "郵便番号"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "アカデミー"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "および"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "documentation"
-msgstr ""
+msgstr "ドキュメンテーション"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -1232,27 +1247,27 @@ msgstr "あります)"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "if you need help!"
-msgstr ""
+msgstr "(サポートが必要な場合)!"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "デモをリクエスト"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "🏠 Managing Properties &amp; Products"
-msgstr ""
+msgstr "🏠 物件とプロダクト管理"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "📄 Managing Rental Contracts"
-msgstr ""
+msgstr "📄 賃貸契約の管理"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "📅 Availability &amp; Occupancy Tracking"
-msgstr ""
+msgstr "📅 空室・入居状況の追跡"
 
 #~ msgid ""
 #~ "<font style=\"font-size: 62px;\">\n"

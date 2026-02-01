@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:16+0000\n"
-"PO-Revision-Date: 2026-01-20 12:57+0000\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "vineyard/id/>\n"
@@ -344,16 +344,17 @@ msgstr ""
 msgid ""
 "<strong>Goal</strong>: Aromatic complexity, age-worthiness, firm tannins"
 msgstr ""
+"<strong>Goal</strong>: Aromatic complexity, age-worthiness, firm tannins"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_17_product_template
 msgid "<strong>Goal</strong>: Deep color, spice, aging potential"
-msgstr ""
+msgstr "<strong>Goal</strong>: Deep color, spice, aging potential"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_15_product_template
 msgid "<strong>Goal</strong>: Round mouthfeel, fruit-forward, soft tannins"
-msgstr ""
+msgstr "<strong>Goal</strong>: Round mouthfeel, fruit-forward, soft tannins"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -681,7 +682,7 @@ msgstr "Periksa Panen Bila Dari Lokasi Panen"
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_14_product_template
 msgid "Color, plushness, and soft tannin integration"
-msgstr ""
+msgstr "Color, plushness, and soft tannin integration"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -729,7 +730,7 @@ msgstr ""
 #. module: vineyard
 #: model_terms:product.template,public_description:vineyard.product_product_27_product_template
 msgid "Deep structure and Bordeaux-inspired authority"
-msgstr ""
+msgstr "Deep structure and Bordeaux-inspired authority"
 
 #. module: vineyard
 #: model:mrp.eco.stage,name:vineyard.mrp_eco_stage_9
@@ -749,11 +750,15 @@ msgid ""
 "depth, perfect for those who savor bold, sophisticated wines. Ideal for "
 "pairing with hearty meats or enjoying slowly on its own."
 msgstr ""
+"Discover the art of Bordeaux-inspired elegance in every sip of Bordoo Grand "
+"Cru. This full-bodied red boasts structured tannins and rich, age-worthy "
+"depth, perfect for those who savor bold, sophisticated wines. Ideal for "
+"pairing with hearty meats or enjoying slowly on its own."
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_13_product_template
 msgid "Dominates body and spices"
-msgstr ""
+msgstr "Dominates body and spices"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_7
@@ -917,7 +922,7 @@ msgstr ""
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_12_product_template
 msgid "Lifts aroma and adds structure"
-msgstr ""
+msgstr "Lifts aroma and adds structure"
 
 #. module: vineyard
 #: model_terms:product.template,description_ecommerce:vineyard.product_product_26_product_template
@@ -927,6 +932,10 @@ msgid ""
 "balanced, it’s a versatile red that pairs beautifully with poultry, salmon, "
 "or a relaxed evening with friends."
 msgstr ""
+"Light, playful, and full of charm, Pinodoo Noir delivers the elegance and "
+"fruity aromatics Pinot Noir lovers adore. Silky smooth and perfectly "
+"balanced, it’s a versatile red that pairs beautifully with poultry, salmon, "
+"or a relaxed evening with friends."
 
 #. module: vineyard
 #: model:project.tags,name:vineyard.project_tags_2
@@ -1199,7 +1208,7 @@ msgstr ""
 #. module: vineyard
 #: model_terms:product.template,public_description:vineyard.product_product_26_product_template
 msgid "Silky textures with a touch of Odoo magic"
-msgstr ""
+msgstr "Silky textures with a touch of Odoo magic"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_16_product_template
@@ -1209,7 +1218,7 @@ msgstr ""
 #. module: vineyard
 #: model_terms:product.template,public_description:vineyard.product_product_25_product_template
 msgid "Smooth, powerful, and just the right kick"
-msgstr ""
+msgstr "Smooth, powerful, and just the right kick"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1330,6 +1339,10 @@ msgid ""
 "smooth, aromatic experience that’s vibrant on the palate. Perfect with "
 "grilled dishes, cheeses, or whenever you crave a wine with character."
 msgstr ""
+"Turn up the flavor with Odoomatic Spice, a confident red bursting with "
+"peppery warmth and luscious richness. Syrah and Malbec grapes create a "
+"smooth, aromatic experience that’s vibrant on the palate. Perfect with "
+"grilled dishes, cheeses, or whenever you crave a wine with character."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1597,17 +1610,17 @@ msgstr "urban-market"
 #: model_terms:product.template,description:vineyard.product_product_26_product_template
 #: model_terms:product.template,description:vineyard.product_product_27_product_template
 msgid "✅ <em>Best for cool-climate blends or elegant, savory styles.</em>"
-msgstr ""
+msgstr "✅ <em>Best for cool-climate blends or elegant, savory styles.</em>"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_15_product_template
 msgid "✅ <em>Ideal for earlier drinking, modern-style wines.</em>"
-msgstr ""
+msgstr "✅ <em>Ideal for earlier drinking, modern-style wines.</em>"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_17_product_template
 msgid "✅ <em>Perfect for oak aging, full-bodied winter reds.</em>"
-msgstr ""
+msgstr "✅ <em>Perfect for oak aging, full-bodied winter reds.</em>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-05 13:00+0000\n"
-"PO-Revision-Date: 2026-01-20 12:55+0000\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "student_organization/id/>\n"
@@ -428,7 +428,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "<strong>What you get:</strong>"
-msgstr ""
+msgstr "<strong>Apa yang Anda dapatkan:</strong>"
 
 #. module: student_organization
 #: model_terms:event.event,description:student_organization.event_event_1
@@ -456,23 +456,23 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "A thank-you post on our Instagram page (2,000+ followers)"
-msgstr ""
+msgstr "Posting terima kasih di halaman Instagram kami (2,000+ pengikut)"
 
 #. module: student_organization
 #: model_terms:product.template,description:student_organization.product_template_33
 #: model_terms:product.template,description:student_organization.product_template_7
 msgid "Access to the student union welcome party. Includes one drink voucher."
-msgstr ""
+msgstr "Access to the student union welcome party. Includes one drink voucher."
 
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Add to cart to become a sponsor today."
-msgstr ""
+msgstr "Tambahkan ke keranjang untuk menjadi sponsor hari ini."
 
 #. module: student_organization
 #: model_terms:product.template,description:student_organization.product_template_4
 msgid "Admission to a networking evening with alumni and professionals."
-msgstr ""
+msgstr "Admission to a networking evening with alumni and professionals."
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.homepage
@@ -494,7 +494,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "As a sponsor, your contribution helps us:"
-msgstr ""
+msgstr "Sebagai sponsor, kontribusi Anda membantu kami:"
 
 #. module: student_organization
 #: model_terms:event.event,description:student_organization.event_event_2
@@ -514,6 +514,9 @@ msgid ""
 "partners for an unforgettable night of celebration, networking, and "
 "inspiration."
 msgstr ""
+"Menjadi sponsor resmi Student Union Gala tahunan kami — acara yang sangat "
+"diantisipasi yang menyatukan murid, fakultas, alumnus, dan partner lokal "
+"untuk malam tak terlupakan penuh perayaan, networking, dan inspirasi."
 
 #. module: student_organization
 #: model:product.attribute.value,name:student_organization.product_attribute_value_11
@@ -540,6 +543,7 @@ msgstr "Cash"
 msgid ""
 "Casual T-shirt featuring the student union design. Great for everyday wear."
 msgstr ""
+"Casual T-shirt featuring the student union design. Great for everyday wear."
 
 #. module: student_organization
 #: model:product.template,name:student_organization.product_template_45
@@ -572,7 +576,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Create a professional, inclusive, and memorable event"
-msgstr ""
+msgstr "Buat acara yang profesional, inklusif, dan berkesan"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -630,7 +634,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description:student_organization.product_template_3
 msgid "Entry to an exclusive guest lecture hosted by the student union."
-msgstr ""
+msgstr "Entry to an exclusive guest lecture hosted by the student union."
 
 #. module: student_organization
 #: model:product.public.category,name:student_organization.product_public_category_8
@@ -710,6 +714,7 @@ msgstr ""
 msgid ""
 "Grants access to student union facilities and discounted events for one year."
 msgstr ""
+"Grants access to student union facilities and discounted events for one year."
 
 #. module: student_organization
 #: model:product.attribute.value,name:student_organization.product_attribute_value_13
@@ -806,7 +811,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Let’s build something meaningful together."
-msgstr ""
+msgstr "Ayo bangun sesuatu yang bermakna bersama."
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.ir_ui_view_4382
@@ -829,6 +834,8 @@ msgid ""
 "Logo placement on all event materials (posters, banners, social media, and "
 "website)"
 msgstr ""
+"Penempatan logo pada semua material acara "
+"(poster, banner, sosmed, dan website)"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -904,7 +911,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Networking opportunities with students and other sponsors"
-msgstr ""
+msgstr "Peluang networking dengan murid dan sponsor lain"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -950,7 +957,7 @@ msgstr "Odoo.com/trial"
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Offer affordable access to students"
-msgstr ""
+msgstr "Tawarkan akses terjangkau ke murid-murid"
 
 #. module: student_organization
 #: model:product.template,description_sale:student_organization.product_template_6
@@ -975,6 +982,7 @@ msgstr ""
 msgid ""
 "Participate in a skill-building career workshop led by industry experts."
 msgstr ""
+"Participate in a skill-building career workshop led by industry experts."
 
 #. module: student_organization
 #: model_terms:event.event,description:student_organization.event_event_2
@@ -999,7 +1007,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Promote cultural, artistic, and academic excellence on campus"
-msgstr ""
+msgstr "Promosikan keunggulan akademik, artistik dan budaya di kampus"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -1043,7 +1051,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Shout-outs during the event by our MC"
-msgstr ""
+msgstr "Shout-out selama acara oleh MC kami"
 
 #. module: student_organization
 #: model:product.template,description_sale:student_organization.product_template_5
@@ -1075,7 +1083,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.public.category,website_description:student_organization.product_public_category_8
 msgid "Stay updated on upcoming events and grab your tickets here."
-msgstr ""
+msgstr "Stay updated on upcoming events and grab your tickets here."
 
 #. module: student_organization
 #: model:documents.document,name:student_organization.documents_document_13
@@ -1161,6 +1169,8 @@ msgid ""
 "Warm and comfortable hoodie with the student union logo. Available in "
 "multiple sizes."
 msgstr ""
+"Warm and comfortable hoodie with the student union logo. Available in "
+"multiple sizes."
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -1216,7 +1226,7 @@ msgstr "info@yourcompany.example.com"
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "✨ Multiple sponsorship levels available – choose your impact!"
-msgstr ""
+msgstr "✨ Lebih dari satu tingkat sponsorship tersedia – pilih dampak Anda!"
 
 #. module: student_organization
 #: model_terms:event.event,description:student_organization.event_event_1
@@ -1256,7 +1266,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "🎓 <strong>Support the future while boosting your brand!</strong>"
-msgstr ""
+msgstr "🎓 <strong>Dukung masa depan selagi mendorong brand Anda!</strong>"
 
 #. module: student_organization
 #: model_terms:event.event,description:student_organization.event_event_2

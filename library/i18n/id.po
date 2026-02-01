@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * library
 #
-# "Abe Manyo (abem)" <abem@odoo.com>, 2025.
+# "Abe Manyo (abem)" <abem@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 12:17+0000\n"
-"PO-Revision-Date: 2025-12-18 07:54+0000\n"
+"PO-Revision-Date: 2026-01-30 14:40+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
-"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "library/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgstr "<b>Atribut</b>"
 #. module: library
 #: model_terms:product.template,description:library.product_product_21_product_template
 msgid "<b>Attributes</b><br>"
-msgstr ""
+msgstr "<b>Attribut</b><br>"
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.welcome_article_body
@@ -92,7 +92,7 @@ msgstr ""
 #: model_terms:product.template,description:library.product_product_17_product_template
 #: model_terms:product.template,description:library.product_product_9_product_template
 msgid "<b>Category</b><br>"
-msgstr ""
+msgstr "<b>Category</b><br>"
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.welcome_article_body
@@ -691,11 +691,18 @@ msgid ""
 "U.S. soundtrack includes tracks performed in the film by The Beatles as well "
 "as incidental orchestral music from the film."
 msgstr ""
+"Digitally remastered edition of this 1964 U.S.-only album from the Fab Four "
+"housed in a replica mini LP sleeve. The artwork includes all aspects of the "
+"original artwork right down to the inner sleeve! The U.S. albums were either "
+"condensed versions of their UK counterparts or were albums created for the "
+"U.S. market consisting of stray album tracks and singles. In this case the "
+"U.S. soundtrack includes tracks performed in the film by The Beatles as well "
+"as incidental orchestral music from the film."
 
 #. module: library
 #: model_terms:product.public.category,website_description:library.product_public_category_1
 msgid "Discover your next great read from our extensive collection."
-msgstr ""
+msgstr "Discover your next great read from our extensive collection."
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.welcome_article_body
@@ -712,6 +719,9 @@ msgid ""
 "Brand New Mpn: Du124921DFormat: DvdGenre: ComedyDirector: \"M. Jay Roach\", "
 "\"Jay Roach\"."
 msgstr ""
+"Du124921D Mod-Meet The Parents (DVD/Non-Returnable/Family Frien.. Condition: "
+"Brand New Mpn: Du124921DFormat: DvdGenre: ComedyDirector: \"M. Jay Roach\", "
+"\"Jay Roach\"."
 
 #. module: library
 #: model:product.template,name:library.product_product_9_product_template
@@ -740,7 +750,7 @@ msgstr ""
 #. module: library
 #: model_terms:product.template,description:library.product_product_9_product_template
 msgid "Electronics &gt; Video &gt; Satellite &amp; Cable TV"
-msgstr ""
+msgstr "Elektronik &gt; Video &gt; Satelit &amp; TV Kabel"
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.ir_ui_view_3889
@@ -784,7 +794,7 @@ msgstr "Facebook"
 #. module: library
 #: model_terms:product.public.category,website_description:library.product_public_category_5
 msgid "Find fun and engaging games for all skill levels."
-msgstr ""
+msgstr "Find fun and engaging games for all skill levels."
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.ir_ui_view_3888
@@ -800,7 +810,7 @@ msgstr "Tanya jawab"
 #. module: library
 #: model_terms:product.template,description:library.product_product_10_product_template
 msgid "Friends - The Series Finale (Limited Edi DVD."
-msgstr ""
+msgstr "Friends - The Series Finale (Limited Edi DVD."
 
 #. module: library
 #: model:product.template,name:library.product_product_10_product_template
@@ -839,6 +849,8 @@ msgid ""
 "History Of The British Empire For The Use Of Schools In British North "
 "America / by William Francis Collier Paperback | Indigo Chapters."
 msgstr ""
+"History Of The British Empire For The Use Of Schools In British North "
+"America / by William Francis Collier Paperback | Indigo Chapters."
 
 #. module: library
 #: model:product.template,name:library.product_product_15_product_template
@@ -861,6 +873,11 @@ msgid ""
 "photos. 24 pages. Alfred Music #00-IFM0246CD. Published by Alfred Music "
 "(AP.IFM0246CD)."
 msgstr ""
+"Horn. Composed by John Williams. Arranged by Bill Galliford, Ethan Neuburg, "
+"and Tod Edmondson. Instrumental Series. Movies and Play Along. Horn solo "
+"book and accompaniment CD. With standard notation, fingering chart and color "
+"photos. 24 pages. Alfred Music #00-IFM0246CD. Published by Alfred Music "
+"(AP.IFM0246CD)."
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.welcome_article_body
@@ -947,6 +964,7 @@ msgstr ""
 msgid ""
 "Juego de habilidad / Edad mnima recomendada6aos / Nmero mnimo de jugadores1."
 msgstr ""
+"Juego de habilidad / Edad mnima recomendada6aos / Nmero mnimo de jugadores1."
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.ir_ui_view_3889
@@ -1020,7 +1038,7 @@ msgstr ""
 #. module: library
 #: model_terms:product.template,description:library.product_product_17_product_template
 msgid "Media &gt; Books &gt; Print Books"
-msgstr ""
+msgstr "Media &gt; Books &gt; Print Books"
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.ir_ui_view_3889
@@ -1058,7 +1076,7 @@ msgstr ""
 #. module: library
 #: model_terms:product.template,description:library.product_product_21_product_template
 msgid "Model: CUN1"
-msgstr ""
+msgstr "Model: CUN1"
 
 #. module: library
 #: model_terms:product.template,description:library.product_product_18_product_template
@@ -1068,6 +1086,10 @@ msgid ""
 "players Gender: Boys &amp; Girls Age Level: 8-11 Years Type: Complete Game "
 "Year: 2018 Theme: Finance MPN: E4989 MPN: E4989."
 msgstr ""
+"Monopoly For Millennials Board Game Ages 8+ condition: New Model: E4989 EAN: "
+"0630509774661 Brand: Hasbro Game Type: Board Game Min. Number of Players: 2 "
+"players Gender: Boys &amp; Girls Age Level: 8-11 Years Type: Complete Game "
+"Year: 2018 Theme: Finance MPN: E4989 MPN: E4989."
 
 #. module: library
 #: model:product.template,name:library.product_product_18_product_template
@@ -1077,32 +1099,32 @@ msgstr ""
 #. module: library
 #: model_terms:product.template,description:library.product_product_14_product_template
 msgid "Mpn: 00-IFM0246CD"
-msgstr ""
+msgstr "Mpn: 00-IFM0246CD"
 
 #. module: library
 #: model_terms:product.template,description:library.product_product_10_product_template
 msgid "Mpn: 5e6-285503000192053"
-msgstr ""
+msgstr "Mpn: 5e6-285503000192053"
 
 #. module: library
 #: model_terms:product.template,description:library.product_product_15_product_template
 msgid "Mpn: 9781179710884"
-msgstr ""
+msgstr "Mpn: 9781179710884"
 
 #. module: library
 #: model_terms:product.template,description:library.product_product_20_product_template
 msgid "Mpn: B001970002"
-msgstr ""
+msgstr "Mpn: B001970002"
 
 #. module: library
 #: model_terms:product.template,description:library.product_product_18_product_template
 msgid "Mpn: E4989"
-msgstr ""
+msgstr "Mpn: E4989"
 
 #. module: library
 #: model_terms:product.template,description:library.product_product_16_product_template
 msgid "Mpn: Ntoysb00ifwsmog"
-msgstr ""
+msgstr "Mpn: Ntoysb00ifwsmog"
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.ir_ui_view_3951
@@ -1258,6 +1280,14 @@ msgid ""
 "You8. Beast Of Burden9. Fool to Cry10. Waiting On A Friend11. Angie12. "
 "Respectable."
 msgstr ""
+"ROLLING STONES Rewind (1984 UK 12-track vinyl LP featuring a compilation of "
+"classic hits from 1971-84 including Brown Sugar Start Me Up Miss You Beast "
+"Of Burden and more housed in the glossy picture sleeve with lyric inner. The "
+"sleeve shows only minor storage wear whilst the vinyl displays some cosmetic "
+"scuffs not affecting play CUN1) 1. Brown Sugar2. Undercover Of the Night3. "
+"Start Me Up4. Tumbling Dice5. Its Only Rock &amp; Roll6. Shes So Cold7. Miss "
+"You8. Beast Of Burden9. Fool to Cry10. Waiting On A Friend11. Angie12. "
+"Respectable."
 
 #. module: library
 #: model:stock.route,name:library.stock_route_2
@@ -1412,7 +1442,7 @@ msgstr ""
 #. module: library
 #: model_terms:product.public.category,website_description:library.product_public_category_2
 msgid "Stay updated with the latest trends and stories."
-msgstr ""
+msgstr "Stay updated with the latest trends and stories."
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.ir_ui_view_3951
@@ -1469,6 +1499,21 @@ msgid ""
 "imagination which springs to life within its own framework and on its own "
 "terms."
 msgstr ""
+"The Lord of the Rings J.R.R. Tolkien s three-volume epic is set in the "
+"imaginary world of Middle-earth - home to many strange beings and most "
+"notably hobbits a peace-loving little people cheerful and shy. Since its "
+"original British publication in 1954-55 the saga has entranced readers of "
+"all ages. It is at once a classic myth and a modern fairy tale. Critic "
+"Michael Straight has hailed it as one of the very few works of genius in "
+"recent literature. Middle-earth is a world receptive to poets scholars "
+"children and all other people of good will. Donald Barr has described it as "
+"a scrubbed morning world and a ringing nightmare world..especially sunlit "
+"and shadowed by perils very fundamental of a peculiarly uncompounded "
+"darkness. The story of ths world is one of high and heroic adventure. Barr "
+"compared it to Beowulf C.S. Lewis to Orlando Furioso W.H. Auden to The "
+"Thirty-nine Steps. In fact the saga is sui generis - a triumph of "
+"imagination which springs to life within its own framework and on its own "
+"terms."
 
 #. module: library
 #: model:product.template,name:library.product_product_21_product_template
@@ -1488,6 +1533,15 @@ msgid ""
 "into a web of lies and deception that stretches back thirty years—while on "
 "the court at Boston Garden, a rookie phenom makes his spectacular debut."
 msgstr ""
+"The worlds of celebrity and sports are brilliantly dissected and turned "
+"upside down in #1 New York Times bestselling author Harlan Coben’s debut "
+"thriller.Theirs was a marriage made in tabloid heaven, but no sooner had "
+"supermodel Laura Ayars and Celtics star David Baskin said “I do” than "
+"tragedy struck. While honeymooning on Australia’s Great Barrier Reef, David "
+"went out for a swim—and never returned.Now widowed and grieving, Laura has a "
+"thousand questions and no answers. Her search for the truth will draw her "
+"into a web of lies and deception that stretches back thirty years—while on "
+"the court at Boston Garden, a rookie phenom makes his spectacular debut."
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.welcome_article_body
@@ -1613,7 +1667,7 @@ msgstr "Update domain push"
 #. module: library
 #: model_terms:product.template,description:library.product_product_11_product_template
 msgid "Usage of printer. Price per copy"
-msgstr ""
+msgstr "Usage of printer. Price per copy"
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.welcome_article_body
@@ -1652,7 +1706,7 @@ msgstr ""
 #. module: library
 #: model_terms:product.template,description:library.product_product_20_product_template
 msgid "Weight: 0.2"
-msgstr ""
+msgstr "Berat: 0.2"
 
 #. module: library
 #: model_terms:ir.ui.view,arch_db:library.ir_ui_view_1678
