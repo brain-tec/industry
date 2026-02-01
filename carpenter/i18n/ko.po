@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 05:59+0000\n"
-"PO-Revision-Date: 2026-01-23 08:44+0000\n"
+"PO-Revision-Date: 2026-01-29 07:51+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/carpenter/"
 "ko/>\n"
@@ -295,7 +295,7 @@ msgstr ""
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your project️ 📏</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">프로젝트 관리 📏</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -305,7 +305,7 @@ msgstr ""
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h5-fs\"><strong>Create a Finish product</strong></span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\"><strong>완성품 제작</strong></span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -357,7 +357,7 @@ msgstr ""
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<span class=\"h6-fs\">Within the Manufacturing App</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">제조 관리 앱</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -377,7 +377,7 @@ msgstr "<strong>회계가 정말 간편해집니다 🧮</strong>"
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "<strong>Create an attractive website 🌐</strong>"
-msgstr ""
+msgstr "<strong>매력적인 웹사이트 제작 🌐</strong>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -618,7 +618,7 @@ msgstr "진행 중"
 #. module: carpenter
 #: model:product.template,description_sale:carpenter.product_product_5_product_template
 msgid "Price per unit per day"
-msgstr ""
+msgstr "1일 기준 가격"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_16_product_template
@@ -638,12 +638,12 @@ msgstr "보낸 이메일을 다음 주소로 리디렉션"
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_4_product_template
 msgid "Removal of the existing equipment"
-msgstr ""
+msgstr "기존 장비 철거"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_18_product_template
 msgid "Rough Sawn 40x110 (2m )"
-msgstr ""
+msgstr "거친 제재목 40x110 (2m)"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_8_product_template
@@ -753,7 +753,7 @@ msgstr "재무 보고서."
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "The synchronization with the banks."
-msgstr ""
+msgstr "은행 동기화를 실시합니다."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -921,7 +921,7 @@ msgstr ""
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
 msgid "about its features and capabilities."
-msgstr ""
+msgstr "기능 및 성능 관련 정보입니다."
 
 #. module: carpenter
 #: model:documents.document,name:carpenter.documents_document_1

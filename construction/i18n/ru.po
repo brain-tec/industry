@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-01-13 16:15+0000\n"
+"PO-Revision-Date: 2026-01-27 22:44+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "construction/ru/>\n"
@@ -30,7 +30,7 @@ msgstr "Реверсивная система 10 кВт"
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "30% deposit, 40% midpoint, 30% on completion"
-msgstr "30% депозит, 40% в середине процесса, 30% по завершении"
+msgstr "30% депозит, 40% промежуточный этап, 30% по завершении"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_45
@@ -136,8 +136,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -145,8 +145,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🥇</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\" aria-label=\"Banner Info\">🥇</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\" aria-label=\"Banner Info\">🥇</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -154,8 +154,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -163,8 +163,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -172,8 +172,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
-"normal\" aria-label=\"Banner Info\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -181,8 +181,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
-"normal\" aria-label=\"Banner Info\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">🚀</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -190,8 +190,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Success\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -199,8 +199,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -208,8 +208,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -270,7 +270,7 @@ msgid ""
 "notes\n"
 "                    and messages linked to opportunities."
 msgstr ""
-"<strong>Чат и коммуникации:</strong> взаимодействуйте внутри команды, "
+"<strong>Чат и коммуникации:</strong> Взаимодействуйте внутри команды, "
 "используя заметки\n"
 "                    и сообщения, привязанные к возможностям."
 
@@ -322,8 +322,7 @@ msgstr ""
 msgid ""
 "<strong>Employees</strong> – Manage workforce, skills, and certifications."
 msgstr ""
-"<strong>Сотрудники</strong> – Управление персоналом, навыками и "
-"сертификатами."
+"<strong>Сотрудники</strong>: Управляйте персоналом, навыками и сертификатами."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -342,8 +341,8 @@ msgid ""
 "            and resolves issues efficiently."
 msgstr ""
 "<strong>Модуль Поддержка</strong> обеспечивает оперативное обслуживание "
-"клиентов, отслеживает запросы\n"
-"            и эффективно решает проблемы."
+"клиентов, помогая отслеживать запросы\n"
+"            и эффективно решать проблемы."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -368,8 +367,9 @@ msgid ""
 "monitors site\n"
 "            stock to prevent delays or shortages."
 msgstr ""
-"<strong>Модуль Склад</strong> управляет материалами, отслеживает поставки и "
-"контролирует запасы на объектах, чтобы предотвратить задержки или дефицит."
+"<strong>Модуль Склад</strong> помогает управлять материалами, отслеживать "
+"поставки и контролировать запасы на объектах, чтобы предотвратить задержки "
+"или дефицит."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -423,8 +423,8 @@ msgid ""
 "photos\n"
 "                or client signatures on site."
 msgstr ""
-"<strong>Мобильное исполнение:</strong> Фиксируйте время, используемые "
-"материалы, делайте фотографии\n"
+"<strong>Мобильность:</strong> Фиксируйте время, используемые материалы, "
+"делайте фотографии\n"
 "                или собирайте подписи клиентов прямо на объекте."
 
 #. module: construction
@@ -541,7 +541,7 @@ msgid ""
 "<strong>Purchase Orders:</strong> Create purchase order for needed products\n"
 "                    and services."
 msgstr ""
-"<strong>Заказы на закупку:</strong> создавайте заказы на закупку необходимых "
+"<strong>Заказы на закупку:</strong> Создавайте заказы на закупку необходимых "
 "товаров\n"
 "                    и услуг."
 
@@ -633,7 +633,7 @@ msgid ""
 "construction\n"
 "                    sites."
 msgstr ""
-"<strong>Перемещение объектов:</strong> Распределите материалы по конкретным "
+"<strong>Перемещение объектов:</strong> Распределяйте материалы по конкретным "
 "строительным\n"
 "                    объектам."
 
@@ -666,7 +666,8 @@ msgid ""
 "actionable\n"
 "                    items."
 msgstr ""
-"<strong>Создание задач:</strong> Разбейте этапы строительства на конкретные\n"
+"<strong>Создание задач:</strong> Разбивайте этапы строительства на "
+"конкретные\n"
 "                    задачи."
 
 #. module: construction
@@ -733,7 +734,7 @@ msgid ""
 "<strong>Website</strong> – Publish projects, showcase services, and capture\n"
 "                    leads."
 msgstr ""
-"<strong>Вебсайт</strong> – публикуйте проекты, демонстрируйте услуги и "
+"<strong>Вебсайт</strong>: Публикуйте проекты, демонстрируйте услуги и "
 "привлекайте\n"
 "                    потенциальных клиентов."
 
@@ -764,8 +765,8 @@ msgid ""
 "rapid quoting, and efficient execution</strong>."
 msgstr ""
 "Оптимизированное решение для компаний, ориентированных на <strong>простые "
-"задачи, быструю подготовку предложений и эффективное выполнение работ</"
-"strong>."
+"задачи, быструю подготовку предложений и эффективное выполнение "
+"работ</strong>."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11
@@ -851,11 +852,11 @@ msgid ""
 "                for project management and purchases are computed "
 "accordingly..."
 msgstr ""
-"Предполагая, что за каждым продуктом в предложении стоит ручной труд, "
-"начните\n"
-"                заполнять оценку времени для некоторых из них. <br/>Общее "
-"время трудозатрат и даже время\n"
-"                на управление проектом и закупки рассчитываются "
+"Исходя из того, что каждое изделие в коммерческом предложении требует "
+"ручного труда, начните\n"
+"                указывать нормативные трудозатраты для некоторых из них. <br/"
+">Общее время работы, а также время на\n"
+"                управление проектом и закупки будут рассчитаны "
 "соответствующим образом..."
 
 #. module: construction
@@ -1588,7 +1589,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open now the Taxes still from the configuration menu."
-msgstr "Откройте теперь «Налоги» в меню настроек."
+msgstr "Теперь откройте «Налоги» в меню настроек."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1845,8 +1846,8 @@ msgid ""
 "Project\n"
 "                Follow-up section has been updated in consequence!"
 msgstr ""
-"Сохраните калькулятор и вернитесь к своему предложению. <br/>Раздел "
-"«Трудозатраты и мониторинг\n"
+"Сохраните калькулятор и вернитесь к своему предложению. <br/>Раздел «"
+"Трудозатраты и мониторинг\n"
 "                проекта» был обновлен соответствующим образом!"
 
 #. module: construction
@@ -2244,9 +2245,9 @@ msgid ""
 "wire\n"
 "                    the expenses to specific projects."
 msgstr ""
-"При заказе материалов и услуг заполняйте аналитическое распределение, "
-"привязать\n"
-"                    расходы к конкретным проектам."
+"При заказе материалов и услуг заполняйте аналитическое распределение, чтобы "
+"отнести\n"
+"                    расходы на конкретные проекты."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2354,8 +2355,8 @@ msgid ""
 "which might be an issue for\n"
 "            your traceability."
 msgstr ""
-"Вы могли тестировать этот пакет с использованием демо-данных или без них. "
-"<br/>В любом случае,\n"
+"Вы могли тестировать этот пакет с использованием демо-данных или без них. <"
+"br/>В любом случае,\n"
 "            в журналах сохраняются записи, не подлежащие удалению, что может "
 "затруднить\n"
 "            прослеживаемость операций."

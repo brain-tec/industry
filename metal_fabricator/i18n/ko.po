@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * metal_fabricator
 #
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:49+0000\n"
-"PO-Revision-Date: 2025-12-17 15:54+0000\n"
+"PO-Revision-Date: 2026-01-29 07:51+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "metal_fabricator/ko/>\n"
@@ -128,7 +128,7 @@ msgstr ""
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Setting up the Purchase App</b>"
-msgstr ""
+msgstr "<b>매입 앱 설정</b>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -287,7 +287,7 @@ msgstr "<span class=\"h2-fs\">웹사이트 관리🌐</span>"
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h2-fs\">Managing Receipts &amp; Deliveries</span>🚛"
-msgstr ""
+msgstr "<span class=\"h2-fs\">영수증 및 배송 관리</span>🚛"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -673,7 +673,7 @@ msgstr "제조 관리 앱"
 #. module: metal_fabricator
 #: model:sale.order.template.line,name:metal_fabricator.sale_order_template_line_1
 msgid "Include on-site installation & transport"
-msgstr ""
+msgstr "현장 설치 및 배송 포함"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -1103,9 +1103,9 @@ msgstr ""
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "about its features and capabilities."
-msgstr ""
+msgstr "기능 및 성능에 대한 정보입니다."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
 msgid "black and white floor tiles"
-msgstr ""
+msgstr "흑백 바닥 타일"

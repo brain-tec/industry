@@ -3,14 +3,14 @@
 # * veterinary_clinic
 #
 # Odoo Translation Bot <c3p@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:15+0000\n"
-"PO-Revision-Date: 2025-12-17 15:56+0000\n"
+"PO-Revision-Date: 2026-01-27 22:45+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "veterinary_clinic/nl/>\n"
@@ -57,6 +57,9 @@ msgid ""
 "directly to their animal's medical\n"
 "                profiles for easy access."
 msgstr ""
+"<b>Contacten-app</b>: Houd een overzichtelijk adresboek bij van "
+"huisdiereneigenaren, dat rechtstreeks is gekoppeld aan de medische profielen "
+"van hun dieren, zodat je ze gemakkelijk kunt raadplegen."
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -325,6 +328,9 @@ msgid ""
 "pet owners, allowing them to\n"
 "                schedule check-ups and surgeries online 24/7.<br/>"
 msgstr ""
+"<strong><b>Afspraken-app</b>:</strong> Stroomlijn het boekingsproces voor "
+"eigenaren van huisdieren, zodat zij 24/7 online afspraken kunnen maken voor "
+"controles en operaties.<br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -333,6 +339,9 @@ msgid ""
 "automatically generating invoices from\n"
 "                completed consultations and product sales.<br/>"
 msgstr ""
+"<strong><b>Facturatie-app</b>:</strong> Vereenvoudig je financiën door "
+"automatisch facturen te genereren op basis van afgeronde consulten en "
+"productverkopen.<br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -341,6 +350,9 @@ msgid ""
 "email campaigns for vaccination\n"
 "                reminders and seasonal health check-ups.<br/>"
 msgstr ""
+"<strong><b>Marketing-app</b>: </strong>Betrek je community met gerichte e-"
+"mailcampagnes voor vaccinatieherinneringen en seizoensgebonden "
+"gezondheidscontroles.<br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -349,6 +361,9 @@ msgid ""
 "experience by linking consultations and\n"
 "                product sales directly to your payment terminal.<br/>"
 msgstr ""
+"<strong><b>Kassa-app</b>: </strong>Zorg voor een soepele afrekenervaring "
+"door consultaties en productverkopen rechtstreeks te koppelen aan je "
+"betaalterminal.<br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -357,6 +372,9 @@ msgid ""
 "market your clinic, share health\n"
 "                tips, and attract new pet owners.<br/>"
 msgstr ""
+"<strong><b>Website-app</b>: </strong>Bouw een professionele online "
+"aanwezigheid om je kliniek te promoten, gezondheidstips te delen en nieuwe "
+"eigenaren van huisdieren aan te trekken.<br/>"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -784,12 +802,12 @@ msgstr "Contacteer ons om je huisdier te registreren als een client.&amp;nbsp;"
 #. module: veterinary_clinic
 #: model:base.automation,name:veterinary_clinic.appointment_sequence_automation_rule
 msgid "Appointment Sequence"
-msgstr ""
+msgstr "Afspraakreeks"
 
 #. module: veterinary_clinic
 #: model:ir.actions.server,name:veterinary_clinic.action_server_appointment_sequence
 msgid "Appointment Sequence server action"
-msgstr ""
+msgstr "Afspraakreeks serveractie"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_appointment_date_pets_line_field
@@ -2164,7 +2182,7 @@ msgstr "Vaccins"
 #. module: veterinary_clinic
 #: model:ir.ui.menu,name:veterinary_clinic.menu_contacts_vaccine_config
 msgid "Vaccines Items"
-msgstr ""
+msgstr "Vaccins Artikelen"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.vaccines_tags_window_action

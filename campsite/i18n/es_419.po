@@ -2,15 +2,15 @@
 # This file contains the translation of the following modules:
 # * campsite
 #
-# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025.
+# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2025, 2026.
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:44+0000\n"
-"PO-Revision-Date: 2026-01-21 05:12+0000\n"
-"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"PO-Revision-Date: 2026-01-27 22:43+0000\n"
+"Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/campsite/es_419/>\n"
 "Language: es_419\n"
@@ -959,6 +959,8 @@ msgid ""
 "On a daily basis, house keeping tasks are created depending\n"
 "                    the current stays."
 msgstr ""
+"El sistema crea tareas de limpieza a diario\n"
+"                    según las estancias actuales."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1058,6 +1060,9 @@ msgid ""
 "is\n"
 "                the daily list of house keeping tasks to be tackled."
 msgstr ""
+"Ahora abre las tareas desde el menú Limpieza de la aplicación de "
+"alojamiento.<br/>Esa es\n"
+"                la lista diaria de tareas de limpieza a realizar."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
