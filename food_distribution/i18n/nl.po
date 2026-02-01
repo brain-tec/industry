@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 14:31+0000\n"
-"PO-Revision-Date: 2026-01-09 09:20+0000\n"
+"PO-Revision-Date: 2026-01-31 22:50+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s18-3/"
 "food_distribution/nl/>\n"
@@ -136,9 +136,9 @@ msgid ""
 "          your sales, so that the manufacturing team plans at best the production at all time\n"
 "          accordingly!"
 msgstr ""
-"Het is slim om die prognoses voor de komende maanden up-to-date te houden "
-"met je verkoop, zodat het productieteam te allen tijde zo goed mogelijk kan "
-"plannen!"
+"Het is slim om die voorspellingen voor de komende maanden up-to-date te "
+"houden met je verkoop, zodat het productieteam te allen tijde zo goed "
+"mogelijk kan plannen!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -491,8 +491,8 @@ msgstr ""
 "Geen zorgen: verhoog eenvoudig de aanvulhoeveelheid voor de verpakking van "
 "mayonaise om de indirecte vraag naar mayonaise net onder je werkelijke "
 "aanvulling te houden.<br/>Zo zorg je ervoor dat je zoveel mogelijk kunt "
-"verpakken, je klanten volgens de prognose kunt beleveren en bovendien een "
-"buffer opbouwt voor de start van de volgende maand."
+"verpakken, je klanten volgens de voorspelling kunt beleveren en bovendien "
+"een buffer opbouwt voor de start van de volgende maand."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -796,7 +796,7 @@ msgid ""
 msgstr ""
 "Er is nog genoeg voorraad voor Emmers en Dispensers, dus je hoeft voorlopig "
 "geen nieuwe te bestellen.<br/> Je moet echter wel mayonaise-emmers bestellen "
-"om aan je prognose te voldoen!"
+"om aan je voorspelling te voldoen!"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -898,7 +898,7 @@ msgid ""
 msgstr ""
 "Je kunt het hoofdproductieschema gebruiken in de <strong>Productie-app</"
 "strong>, zowel voor productie op basis van bestaande verkooporders als op "
-"basis van een prognose."
+"basis van een voorspelling."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -971,16 +971,17 @@ msgid ""
 "          the\n"
 "          outcome of all the planned Manufacturing Orders..."
 msgstr ""
-"Je kan de prognose bekijken door op het grafieksymbool te klikken. Onderaan "
-"zie je vervolgens dat dit het gevolg is van de geplande productieorders."
+"Je kan de voorspelling bekijken door op het grafieksymbool te klikken. "
+"Onderaan zie je vervolgens dat dit het gevolg is van de geplande "
+"productieorders."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "You can see you're about to get low on Vinegar and Mustard in the Forecast."
 msgstr ""
-"In de prognose zie je dat de voorraad Azijn en Mosterd binnenkort laag zal "
-"worden."
+"In de voorspelling zie je dat de voorraad Azijn en Mosterd binnenkort laag "
+"zullen worden."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body

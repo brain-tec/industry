@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 14:31+0000\n"
-"PO-Revision-Date: 2026-01-09 09:20+0000\n"
+"PO-Revision-Date: 2026-01-31 22:50+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-s18-3/"
 "food_distribution/fr/>\n"
@@ -68,9 +68,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Bannière d’information\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label="
-"\"Bannière d’information\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -78,9 +77,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Bannière d’information\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label="
-"\"Bannière d’information\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">🚀</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -88,9 +86,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Bannière de succès\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Bannière de succès\">🎉"
-"</i>"
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1023,8 +1020,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries &gt; Upgrade\n"
 "          your Bar &amp; Pub package and check the related box"
 msgstr ""
-"Vous n’avez pas importé les données de démonstration ? Vous pouvez encore le faire. Allez dans Applications > Industries > Mettez à jour\n"
-"          votre package Bar & Pub et cochez la case correspondante."
+"Vous n'avez pas importé les données de démonstration ? Vous pouvez toujours "
+"le faire. Allez dans Applications &gt; Industries &gt; Mettre à jour votre "
+"package et cochez la case correspondante"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1042,9 +1040,9 @@ msgid ""
 "      written records in journals which are not deletable and which might be an issue for your\n"
 "      traceability."
 msgstr ""
-"Vous avez peut-être testé ce module avec ou sans données de démonstration. Dans tous les cas, vous avez peut-être\n"
-"      écrit des enregistrements dans des journaux qui ne sont pas supprimables et cela peut poser un problème pour votre\n"
-"      traçabilité."
+"Vous avez peut-être testé ce module avec ou sans données de démonstration. "
+"Dans tous les cas, des écritures ont pu être enregistrées dans des journaux "
+"non supprimables, ce qui peut poser un problème en matière de traçabilité."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
