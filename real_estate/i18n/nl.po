@@ -8,13 +8,13 @@
 # Manon Rondou, 2025
 # Wil Odoo, 2025
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
-# Bren Driesen <brdri@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-01 16:32+0000\n"
-"PO-Revision-Date: 2025-12-27 23:51+0000\n"
+"PO-Revision-Date: 2026-01-29 15:59+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s18-4/"
 "real_estate/nl/>\n"
@@ -53,7 +53,7 @@ msgstr "04"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "24/7 Property Search Assistance"
-msgstr "24/7 hulp bij het zoeken naar objecten"
+msgstr "24/7 hulp bij het zoeken naar panden"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
@@ -1134,12 +1134,18 @@ msgid ""
 "                                <option id=\"oslt4pk2b1cr4\" value=\"Other\">Other</option>\n"
 "                              </select>"
 msgstr ""
-"<select class=\"form-select s_website_form_input\" name=\"Property Type\" required=\"1\" id=\"oslt4pk2b1cr\">\n"
-"                                <option id=\"oslt4pk2b1cr0\" value=\"House\" selected=\"selected\">Huis</option>\n"
-"                                <option id=\"oslt4pk2b1cr1\" value=\"Flat\">Flat</option>\n"
-"                                <option id=\"oslt4pk2b1cr2\" value=\"Field\">Veld</option>\n"
-"                                <option id=\"oslt4pk2b1cr3\" value=\"Commercial Building\">Commercieel gebouw</option>\n"
-"                                <option id=\"oslt4pk2b1cr4\" value=\"Other\">Andere</option>\n"
+"<select class=\"form-select s_website_form_input\" name=\"Property Type\" "
+"required=\"1\" id=\"oslt4pk2b1cr\">\n"
+"                                <option id=\"oslt4pk2b1cr0\" value=\"House\" "
+"selected=\"selected\">Huis</option>\n"
+"                                <option id=\"oslt4pk2b1cr1\" value=\"Flat\""
+">Appartement</option>\n"
+"                                <option id=\"oslt4pk2b1cr2\" value=\"Field\""
+">Grond</option>\n"
+"                                <option id=\"oslt4pk2b1cr3\" value="
+"\"Commercial Building\">Commercieel gebouw</option>\n"
+"                                <option id=\"oslt4pk2b1cr4\" value=\"Other\""
+">Andere</option>\n"
 "                              </select>"
 
 #. module: real_estate
@@ -1321,8 +1327,9 @@ msgid ""
 "<span class=\"s_website_form_label_content\">Property Type</span>\n"
 "                                <span class=\"s_website_form_mark\">                                                           *</span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Type object</span>\n"
-"                                <span class=\"s_website_form_mark\">                                                           *</span>"
+"<span class=\"s_website_form_label_content\">Type pand</span>\n"
+"                                <span class=\"s_website_form_mark\""
+">                                                           *</span>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
@@ -1479,8 +1486,10 @@ msgid ""
 "<strong>Commissions are managed in</strong> <em>Sales &gt; Commissions</em>. You can add a commission plan and compute commissions for both the <strong>Salesperson</strong> (the person who closed the deal) and the\n"
 "                    <strong>Seller</strong> of the property."
 msgstr ""
-"<strong>Commissies worden beheerd in</strong> <em>Verkoop &gt; Commissies</em>. Je kunt een commissieschema toevoegen en commissies berekenen voor zowel de <strong>Verkoper</strong> (de persoon die de deal heeft gesloten) als de\n"
-"                   <strong>Verkoper</strong> van het object."
+"<strong>Commissies worden beheerd in</strong> <em>Verkoop &gt; Commissies</"
+"em>. Je kunt een commissieschema toevoegen en commissies berekenen voor "
+"zowel de <strong>Verkoper</strong> (de persoon die de deal heeft gesloten) "
+"als de <strong>Verkoper</strong> van het pand."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -1594,7 +1603,7 @@ msgid ""
 "the property's pipeline."
 msgstr ""
 "Elke e-mail die naar dat adres wordt gestuurd, creëert automatisch een "
-"nieuwe lead in de pijplijn van het object."
+"nieuwe lead in de pijplijn van het pand."
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_33
@@ -1830,12 +1839,12 @@ msgstr "Bouwjaar"
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_matching_partners
 msgid "Contact matches (Properties)"
-msgstr "Contact matches (Objecten)"
+msgstr "Contact matches (Panden)"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_res_partner_contact_matches_properties_count
 msgid "Contact matches (Properties) count"
-msgstr "Aantal contactmatches (objecten)"
+msgstr "Aantal contactmatches (panden)"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3166
@@ -1890,7 +1899,7 @@ msgid ""
 "Create new properties and store all relevant data: address, price, features,"
 " status, images, and more"
 msgstr ""
-"Nieuwe objecten creëren en alle relevante gegevens opslaan: adres, prijs, "
+"Nieuwe panden creëren en alle relevante gegevens opslaan: adres, prijs, "
 "kenmerken, status, afbeeldingen en meer"
 
 #. module: real_estate
@@ -1942,8 +1951,8 @@ msgid ""
 " bedrooms, this property offers the perfect blend of elegance and comfort."
 msgstr ""
 "Ontdek dit prachtige landhuis in het charmante dorpje Grand-Rosière. Met "
-"350m² doordachte woonruimte verdeeld over vijf slaapkamers biedt dit object "
-"de perfecte mix van elegantie en comfort."
+"350m² doordachte woonruimte verdeeld over vijf slaapkamers biedt dit pand de "
+"perfecte mix van elegantie en comfort."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -1966,7 +1975,7 @@ msgid ""
 "Each property has a dedicated form—accessible directly from its product "
 "page—that sends leads straight into its sales pipeline."
 msgstr ""
-"Elk object heeft een speciaal formulier dat direct toegankelijk is vanaf de "
+"Elk pand heeft een speciaal formulier dat direct toegankelijk is vanaf de "
 "productpagina en dat leads rechtstreeks naar de verkooppijplijn stuurt."
 
 #. module: real_estate
@@ -1975,7 +1984,7 @@ msgid ""
 "Each time a property's price is updated, it becomes eligible again for "
 "Matchmaking notifications."
 msgstr ""
-"Elke keer dat de prijs van een object wordt bijgewerkt, komt deze weer in "
+"Elke keer dat de prijs van een pand wordt bijgewerkt, komt deze weer in "
 "aanmerking voor Matchmaking-meldingen."
 
 #. module: real_estate
@@ -2016,7 +2025,7 @@ msgstr "Uitzonderlijke goederen"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
 msgid "Explore Our Properties"
-msgstr "Ontdek onze objecten"
+msgstr "Ontdek onze panden"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_reference_ids
@@ -2054,7 +2063,7 @@ msgid ""
 "emails, and property visits"
 msgstr ""
 "Follow-up door middel van geplande <strong>CRM-activiteiten</strong> zoals "
-"telefoontjes, e-mails en objectbezoeken"
+"telefoontjes, e-mails en pandbezoeken"
 
 #. module: real_estate
 #: model:product.public.category,name:real_estate.product_public_category_2
@@ -2140,9 +2149,9 @@ msgid ""
 "<strong>External Reference</strong> field and set the portal’s contact email"
 " to <strong>buyers@[your_domain]</strong>."
 msgstr ""
-"Als een object op een portal van derden staat, voeg dan de unieke ID toe aan"
-" het veld <strong>Externe referentie</strong> en stel het e-mailadres van de"
-" portal in op <strong>buyers@[jouw_domein]</strong>."
+"Als een pand op een portaal van derden staat, voeg dan de unieke ID toe aan "
+"het veld <strong>Externe referentie</strong> en stel het e-mailadres van de "
+"portaal in op <strong>buyers@[jouw_domein]</strong>."
 
 #. module: real_estate
 #: model:ir.model.fields,help:real_estate.x_receiver_customer_field
@@ -2215,7 +2224,7 @@ msgstr "Aantal geïnteresseerd in"
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3249
 msgid "Interested in this property?"
-msgstr "Geïnteresseerd in dit object?"
+msgstr "Geïnteresseerd in dit pand?"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -2701,7 +2710,7 @@ msgstr "Voorkom publicatie van conceptproducten"
 #: model:ir.ui.menu,name:real_estate.properties_properties_menu
 #: model_terms:ir.ui.view,arch_db:real_estate.res_partner_form_customization_view
 msgid "Properties"
-msgstr "Objecten"
+msgstr "Vastgoed"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_appointment_type_property_id
