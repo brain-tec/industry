@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:44+0000\n"
-"PO-Revision-Date: 2026-01-23 09:04+0000\n"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/hotel/pt_BR/>\n"
@@ -352,6 +352,9 @@ msgid ""
 "shifts, binding them to rental orders\n"
 "                to ensure rooms are ready for new arrivals."
 msgstr ""
+"<strong><b>App Planejamento</b>: </strong>Organize os turnos da limpeza e da "
+"recepção conforme os pedidos de aluguel\n"
+"para garantir que os quartos estejam prontos para as novas chegadas."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -360,6 +363,9 @@ msgid ""
 "models, ensuring that every booking is\n"
 "                tracked and double-bookings are impossible.<br/>"
 msgstr ""
+"<strong><b>App Locações</b>: </strong>Gerencie a disponibilidade de quartos "
+"e modelos de preços, garantindo que todas as reservas sejam\n"
+"                rastreadas e que não haja reservas duplicadas.<br/>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -369,6 +375,10 @@ msgid ""
 "                customers to book directly through a professional, mobile-"
 "friendly portal.<br/>"
 msgstr ""
+"<strong><b>App Site e e-Commerce</b>: </strong>especifique seus quartos e "
+"comodidades online, permitindo que\n"
+"                os clientes façam reservas diretamente por meio de um portal "
+"profissional e compatível com dispositivos móveis.<br/>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -378,7 +388,7 @@ msgstr "<strong>Noções básicas</strong>"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "<strong>Company specific offers</strong>"
-msgstr ""
+msgstr "<strong>Ofertas específicas da empresa</strong>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -404,7 +414,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "<strong>Shared offers</strong>"
-msgstr ""
+msgstr "<strong>Ofertas compartilhadas</strong>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body

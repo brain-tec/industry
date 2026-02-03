@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:04+0000\n"
-"PO-Revision-Date: 2026-01-23 09:05+0000\n"
+"PO-Revision-Date: 2026-01-29 17:23+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/team_sports_club/pt_BR/>\n"
@@ -214,6 +214,9 @@ msgid ""
 "invoicing members and sponsors\n"
 "                    and tracking incoming payments.<br/>"
 msgstr ""
+"<strong><b>App Faturamento</b>: </strong>Mantenha as finanças do clube "
+"saudáveis, emitindo faturas para membros e patrocinadores\n"
+"e acompanhando os pagamentos recebidos.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -278,6 +281,9 @@ msgid ""
 "showcase team profiles, sell\n"
 "                    merchandise, and manage online enrollments.<br/>"
 msgstr ""
+"<strong><b>App Site</b>: </strong>Crie um espaço digital para o seu clube "
+"para exibir perfis de equipes, vender\n"
+"mercadorias e gerenciar inscrições online.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body

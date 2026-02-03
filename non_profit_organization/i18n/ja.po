@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 11:44+0000\n"
-"PO-Revision-Date: 2026-01-15 09:20+0000\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "non_profit_organization/ja/>\n"
@@ -2715,6 +2715,10 @@ msgid ""
 "                    <strong>Website &amp; eCommerce</strong>\n"
 "                </font>."
 msgstr ""
+"イベントの宣伝、寄付・請願フォームの作成、オンラインでのグッズ販売を<font "
+"class=\"text-o-color-1\">\n"
+"                    <strong>ウェブサイト&amp; eコマース</strong>\n"
+"                </font> を使用して行います。"
 
 #. module: non_profit_organization
 #: model:event.tag,name:non_profit_organization.event_tag_2
@@ -2724,7 +2728,7 @@ msgstr "パブリック"
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Publish petition forms online and share via email or social media."
-msgstr ""
+msgstr "請願書をオンラインで公開し、メールやソーシャルメディアで共有します。"
 
 #. module: non_profit_organization
 #: model:ir.model.fields.selection,name:non_profit_organization.x_petition_state_field_x_petition_selection_published
@@ -2735,17 +2739,17 @@ msgstr "公開済"
 #. module: non_profit_organization
 #: model:x_petition,x_name:non_profit_organization.x_petition_1
 msgid "Raise the Minimum Wage to a Living Wage"
-msgstr ""
+msgstr "最低賃金を生活賃金に引き上げ"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.view_search_x_petition
 msgid "Reached Goal"
-msgstr ""
+msgstr "目標達成"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_2
 msgid "Real-world examples from successful campaigns"
-msgstr ""
+msgstr "成功したキャンペーンの実例"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
@@ -2757,6 +2761,12 @@ msgid ""
 "that you helped make\n"
 "                                                    possible."
 msgstr ""
+"あなたの支援によって実現した\n"
+"                                                    キャンペーンやアクション"
+"、成果に関する最新情報とともに、\n"
+"                                                    限定配信の人権ジャーナル"
+"を\n"
+"                                                    お届けします。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2765,37 +2775,41 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Subscription</font>\n"
 "                </strong>."
 msgstr ""
+"定期会員と自動更新は、<strong>\n"
+"                    <font class=\"text-o-color-1\">サブスクリプション（</font"
+">\n"
+"                </strong> ）によって管理されています。"
 
 #. module: non_profit_organization
 #: model:event.event,name:non_profit_organization.event_event_3
 msgid "Refugee Welcome Pack Distribution"
-msgstr ""
+msgstr "難民向けウェルカムパック配布"
 
 #. module: non_profit_organization
 #: model:event.event.ticket,name:non_profit_organization.event_event_ticket_3
 msgid "Registration for 2025 Annual General Assembly "
-msgstr ""
+msgstr "2025年年次総会への登録 "
 
 #. module: non_profit_organization
 #: model:event.event.ticket,name:non_profit_organization.event_event_ticket_1
 #: model:event.event.ticket,name:non_profit_organization.event_event_ticket_2
 msgid "Registration for Annual Human Rights Dinner & Talk "
-msgstr ""
+msgstr "年次人権ディナー&トークの登録 "
 
 #. module: non_profit_organization
 #: model:event.event.ticket,name:non_profit_organization.event_event_ticket_8
 msgid "Registration for Refugee Welcome Pack Distribution"
-msgstr ""
+msgstr "難民向けウェルカムパック配布の登録"
 
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_related_signatures_ids_field_x_petition
 msgid "Related Signatures"
-msgstr ""
+msgstr "関連署名"
 
 #. module: non_profit_organization
 #: model:crm.tag,name:non_profit_organization.crm_tag_3
 msgid "Reseller"
-msgstr ""
+msgstr "再販業者"
 
 #. module: non_profit_organization
 #: model:product.pricelist,name:non_profit_organization.product_pricelist_2
@@ -2819,6 +2833,8 @@ msgid ""
 "Review and confirm expenses in the <em>Expense</em> app for tracking and\n"
 "                    accounting."
 msgstr ""
+"追跡および会計処理のため、<em>経費</em>アプリで経費を確認・\n"
+"                    承認してください。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -2830,7 +2846,8 @@ msgstr "SO123"
 msgid ""
 "Sales and Invoicing handle partner contributions, large donations, and "
 "eCommerce orders."
-msgstr ""
+msgstr "販売と請求業務では、取引先からの拠出金、大口寄付、およびeコマースオーダを処理"
+"します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2839,6 +2856,8 @@ msgid ""
 "future\n"
 "                        campaigns."
 msgstr ""
+"このフィルタを<strong>お気に入り</strong> として保存し、今後の\n"
+"                        キャンペーンで簡単に再利用できます。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -2854,7 +2873,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Schedule Volunteer Shifts with Planning"
-msgstr ""
+msgstr "「計画」でボランティのシフトを組む"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2862,6 +2881,8 @@ msgid ""
 "Schedule a\n"
 "                        demo"
 msgstr ""
+"デモを\n"
+"                        予約する"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.petition_list_qweb_view
@@ -2882,7 +2903,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Select <strong>\"Contacts\"</strong> as the recipient type."
-msgstr ""
+msgstr "受信者タイプとして<strong> \"連絡先\"</strong> を選択してください。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2891,6 +2912,9 @@ msgid ""
 "Members, or\n"
 "                Volunteers."
 msgstr ""
+"寄付者、会員、ボランティアなど、カスタマイズフィルタやお気に入りフィルタを使"
+"用して受信者を\n"
+"                選択します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2899,6 +2923,8 @@ msgid ""
 "with<strong>\n"
 "                    eCommerce</strong>."
 msgstr ""
+"ブランド商品、募金プロダクト、会員権のオンライン販売は<strong>\n"
+"                    eコマース</strong>で簡単に行えます。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2906,11 +2932,13 @@ msgid ""
 "Send PDFs of fiscal attestations to donors via email as proof of their\n"
 "                contributions."
 msgstr ""
+"寄付の証明として、財務証明書(PDF)を寄付者にメールで\n"
+"                送信します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Send or schedule and track opens and clicks."
-msgstr ""
+msgstr "送信または予約送信し、開封状況やクリックを追跡します。"
 
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_sequence_field_x_petition
@@ -2925,6 +2953,9 @@ msgid ""
 "<strong>\n"
 "                    attendance</strong> limits if needed."
 msgstr ""
+"必要に応じて、入場<strong>枠</strong>、<strong>チケット</strong>の種類、"
+"<strong>\n"
+"                   参加人数</strong>の上限を設定します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2933,11 +2964,14 @@ msgid ""
 "helps\n"
 "                    manage discounts automatically for larger orders."
 msgstr ""
+"価格表を設定して、再販業者がまとめ買いをする際に特別価格を提供できます。\n"
+"                    これにより、大口注文に対する割引を自動的に管理できます。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Share event links via email or social media for easy sign-up."
-msgstr ""
+msgstr "メールやソーシャルメディアでイベントリンクを共有し、簡単に申し込みできるよう"
+"にしましょう。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2947,6 +2981,10 @@ msgid ""
 "                NGO’s goals, ongoing projects, and how visitors can get "
 "involved or support."
 msgstr ""
+"<strong>ウェブサイト</strong>上で、団体の使命や活動の成果を分かりやすく伝えま"
+"しょう。\n"
+"                NGOの目標や進行中のプロジェクト、そして訪問者がどのように参加"
+"・支援できるかを説明します。"
 
 #. module: non_profit_organization
 #: model:res.partner.category,name:non_profit_organization.partner_category_signatory
@@ -3636,12 +3674,12 @@ msgstr "以下の期限内に支払われた場合"
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.sale_order_form_customization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.sale_order_tree_customization
 msgid "e.g. 123455 555 6"
-msgstr ""
+msgstr "例：123455 555 6"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.view_form_x_petition
 msgid "e.g. Raise the minimum wage to a living wage"
-msgstr ""
+msgstr "例：最低賃金を生活賃金まで引き上げる"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.petition_list_qweb_view

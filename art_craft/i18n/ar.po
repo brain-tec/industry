@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-20 12:30+0000\n"
-"PO-Revision-Date: 2026-01-13 16:50+0000\n"
+"PO-Revision-Date: 2026-01-29 17:16+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s19-1/"
 "art_craft/ar/>\n"
@@ -463,6 +463,9 @@ msgid ""
 "interests and engaging them with\n"
 "                personalized updates on new arrivals."
 msgstr ""
+"<b>تطبيق إدارة علاقات العملاء (CRM)</b>: ابنِ مجتمعًا من العملاء المخلصين من "
+"خلال تتبع اهتماماتهم وإشراكهم عبر\n"
+"                تحديثات مخصصة عند وصول منتجات جديدة."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -471,6 +474,9 @@ msgid ""
 "track of every color, size, and\n"
 "                material type to prevent stockouts of best-sellers."
 msgstr ""
+"<b>تطبيق المخزون:</b> أتقن فن التعامل مع التعقيدات الكامنة في تنوع المنتجات، "
+"وتابع كل لون وحجم ونوع مادة\n"
+"                لتجنب نفاد المخزون من المنتجات الأكثر مبيعًا."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
@@ -484,6 +490,9 @@ msgid ""
 "easily handling thousands of small\n"
 "                items like beads, ribbons, and brushes."
 msgstr ""
+"<b>تطبيق نقطة البيع</b>: امنح عملائك تجربة دفع سريعة وسهلة من خلال معالجة "
+"آلاف العناصر الصغيرة\n"
+"                مثل الخرز والشرائط والفرش."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -492,6 +501,9 @@ msgid ""
 "materials, ensuring your shelves are always\n"
 "                stocked with the tools your customers need."
 msgstr ""
+"<b>تطبيق المشتريات</b>: قم بأتمتة عمليات إعادة طلب المواد الأساسية للحرف "
+"اليدوية، مما يضمن أن تكون أرففك دائمًا\n"
+"                مليئة بالأدوات التي يحتاجها عملاؤك."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.homepage
@@ -510,6 +522,9 @@ msgid ""
 "products but showcases creative\n"
 "                projects and ideas to drive engagement."
 msgstr ""
+"<b>تطبيق الموقع الإلكتروني</b>: ابتكر مساحة إلكترونية ملهمة لا تقتصر فقط على "
+"بيع المنتجات، بل تعرض أيضًا المشاريع والأفكار الإبداعية\n"
+"                لتعزيز التفاعل."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -518,6 +533,9 @@ msgid ""
 "offering a convenient shopping\n"
 "                experience for hobbyists everywhere."
 msgstr ""
+"<b>تطبيق التجارة الإلكترونية</b>: وسّع نطاق إبداعاتك من خلال بيع المستلزمات "
+"عبر الإنترنت، وتوفير تجربة تسوق مريحة\n"
+"                لمحبي الفنون والحرف اليدوية في كل مكان."
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
@@ -739,6 +757,21 @@ msgid ""
 "                </font>\n"
 "            </span>"
 msgstr ""
+"<span style=\"font-size: 13pt; color: #000000; background-color: transparent;"
+" font-weight: 400; font-style: normal; text-decoration: none;\"/>\n"
+"            <span class=\"text-o-color-2\" style=\"background-color: "
+"transparent; font-weight: 400; font-style: normal; text-decoration: none;\">"
+"\n"
+"                <font class=\"text-800\">\n"
+"                    صُممت باقة أودو هذه خصيصًا للقطاع الإبداعي، وهي تُقدم حلاً "
+"متكاملاً لمتاجر الفنون والحرف اليدوية. فهي تُدير بفعالية مجموعة متنوعة من "
+"المنتجات ذات المتغيرات المعقدة، مما يضمن لك تلبية طلبات العملاء دائمًا فيما "
+"يتعلق بالألوان أو المواد الخاصة. يدمج النظام أدوات فعّالة لنقاط البيع "
+"والتجارة الإلكترونية، مما يسهّل عليك إدارة متجرك بكفاءة سواء عبر الإنترنت أو "
+"في المتجر الفعلي. إنها الأداة الأساسية للجمع بين الشغف الفني وإدارة الأعمال "
+"الاحترافية.\n"
+"                </font>\n"
+"            </span>"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.report_saleorder_document_inherit
@@ -897,7 +930,7 @@ msgstr "الحقائب"
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body
 msgid "Basics"
-msgstr ""
+msgstr "الأساسيات"
 
 #. module: art_craft
 #: model_terms:ir.ui.view,arch_db:art_craft.welcome_article_body

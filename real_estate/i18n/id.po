@@ -3,16 +3,16 @@
 # * real_estate
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Abe Manyo (abem)" <abem@odoo.com>, 2025.
+# "Abe Manyo (abem)" <abem@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:51+0000\n"
-"PO-Revision-Date: 2025-12-11 08:31+0000\n"
+"PO-Revision-Date: 2026-01-29 17:22+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
-"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "real_estate/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -2380,6 +2380,9 @@ msgid ""
 "name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\">Offers start "
 "at<br></span><br>"
 msgstr ""
+"<span class=\"s_badge badge o_animable oe_snippet_body text-bg-info\" data-"
+"name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\">Tawaran dimulai "
+"pada<br></span><br>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.matchmaking
@@ -2659,7 +2662,7 @@ msgstr ""
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "<strong>💡 Project Potential</strong>"
-msgstr ""
+msgstr "<strong>💡 Potensi Project</strong>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2914,7 +2917,7 @@ msgstr "Tindakan server Rencana Komisi"
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_31
 msgid "Compact and functional studio near Botanique."
-msgstr ""
+msgstr "Studio yang padat dan fungsional dekat Botanique."
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_res_partner_condition_ids
@@ -3037,6 +3040,9 @@ msgid ""
 "Rosière. With 350m² of thoughtfully designed living space spread across five "
 "bedrooms, this property offers the perfect blend of elegance and comfort."
 msgstr ""
+"Discover this magnificent manor nestled in the charming village of Grand-"
+"Rosière. With 350m² of thoughtfully designed living space spread across five "
+"bedrooms, this property offers the perfect blend of elegance and comfort."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3080,7 +3086,7 @@ msgstr "Elegant Simplicity"
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_26
 msgid "Elegant villa surrounded by greenery, perfect for a large family."
-msgstr ""
+msgstr "Villa elegan dikelilingi hijau, sempurna untuk keluarga besar."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3413,6 +3419,11 @@ msgid ""
 "and tranquil views, it offers both serenity and strategic access to one of "
 "Belgium’s cultural hubs."
 msgstr ""
+"Located just outside the city of Antwerp, Starvine Farmstead is a unique "
+"opportunity to transform a historic Flemish estate into a high-end "
+"restaurant and charming guesthouse. Surrounded by nature, cycling trails, "
+"and tranquil views, it offers both serenity and strategic access to one of "
+"Belgium’s cultural hubs."
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_27
@@ -3938,7 +3949,7 @@ msgstr ""
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_32
 msgid "Spacious home with garden and garage, close to schools in Namur."
-msgstr ""
+msgstr "Rumah lebar dengan kebun dan garasi, dekat dengan Sekolah di Namur."
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_street
@@ -3954,6 +3965,7 @@ msgstr "Studio"
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_27
 msgid "Stylish industrial loft with modern finishes in the heart of Brussels."
 msgstr ""
+"Loft industri yang stylish dengan sentuhan moderen di tengah kota Brussel."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.contactus
@@ -4013,6 +4025,9 @@ msgid ""
 "outdoor entertainment space. The landscaped grounds provide both privacy and "
 "serenity, while still offering ample space for outdoor activities."
 msgstr ""
+"The spacious 700m² plot features a stunning swimming pool, creating an ideal "
+"outdoor entertainment space. The landscaped grounds provide both privacy and "
+"serenity, while still offering ample space for outdoor activities."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.product_template_product_form_customization_view
@@ -4067,7 +4082,7 @@ msgstr ""
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_28
 msgid "Traditional townhouse near the scenic canal of Bruges."
-msgstr ""
+msgstr "Townhouse tradisional dekat kanal indah Bruges."
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -4292,22 +4307,22 @@ msgstr "product_template_line"
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🌼 Host private events, wellness retreats, or creative workshops"
-msgstr ""
+msgstr "🌼 Host acara privat, retret, atau loka karya kreatif"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🌿 <strong>A Rare Countryside Gem Minutes from Antwerp</strong>"
-msgstr ""
+msgstr "🌿 <strong>A Rare Countryside Gem Minutes from Antwerp</strong>"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🍷 Add a wine bar, microbrewery, or farm shop"
-msgstr ""
+msgstr "🍷 Tambahkan wine bar, microbrewery, atau farm shop"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🍽️ Convert the barn into a destination restaurant"
-msgstr ""
+msgstr "🍽️ Sulap lumbung menjadi restoran tujuan"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -4332,4 +4347,4 @@ msgstr "🎓 Website"
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🛏️ Renovate the outbuildings into a boutique B&amp;B or guesthouse"
-msgstr ""
+msgstr "🛏️ Renovasi outbuilding menjadi butik B&amp;B atau rumah tamu"

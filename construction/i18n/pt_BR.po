@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-01-23 09:02+0000\n"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/construction/pt_BR/>\n"
@@ -171,13 +171,12 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
-"normal\" aria-label=\"Banner Info\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -190,33 +189,30 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Success\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -231,7 +227,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Accounting</strong> – Advanced financial management and reporting."
-msgstr ""
+msgstr "<strong>Financeiro</strong> – Gestão financeira avançada e relatórios."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -246,10 +242,11 @@ msgid ""
 "<strong>Assignments:</strong> Allocate engineers, site managers, and\n"
 "                    subcontractors."
 msgstr ""
+"<strong>Atribuições:</strong> Alocar engenheiros, gerentes de obra e\n"
+"                    subcontratados."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Billing:</strong> Invoice based on work completion or project\n"
 "                    milestones."
@@ -259,7 +256,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Calendar Views:</strong> Visualize overlapping tasks and adjust\n"
 "                    workloads."
@@ -280,7 +276,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Client Portal:</strong> Allow customers to track the status of "
 "their\n"
@@ -304,23 +299,31 @@ msgstr "<strong>Empreiteiro de construção</strong>"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Cost Analysis:</strong> Link labor to project expenses."
 msgstr ""
+"<strong>Análise de custos:</strong> Vincule a mão de obra às despesas do "
+"projeto."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Daily Logs:</strong> Employees enter hours per task."
 msgstr ""
+"<strong>Registros diários:</strong> Os funcionários inserem as horas por "
+"tarefa."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Document Requests:</strong> Send requests with follow up activities."
 msgstr ""
+"<strong>Solicitações de documentos:</strong> Envie solicitações com "
+"atividades de acompanhamento."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Employees</strong> – Manage workforce, skills, and certifications."
 msgstr ""
+"<strong>Funcionários</strong> – Gerencie a força de trabalho, as habilidades "
+"e as certificações."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -328,6 +331,8 @@ msgid ""
 "<strong>Fleet</strong> – Track machinery, vehicles, and maintenance "
 "schedules."
 msgstr ""
+"<strong>Frotas</strong> – Acompanhe máquinas, veículos e cronogramas de "
+"manutenção."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -336,19 +341,26 @@ msgid ""
 "inquiries,\n"
 "            and resolves issues efficiently."
 msgstr ""
+"<strong>O app Central de Ajuda</strong> oferece atendimento ágil ao cliente, "
+"rastreia consultas e\n"
+"resolve problemas com eficiência."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>How to use it:</strong>"
-msgstr ""
+msgstr "<strong>Como usar:</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then\n"
 "                        to create a new one for your own usage.</strong>"
 msgstr ""
+"<strong>Nesse caso, fique à vontade para fazer testes com essa base de dados "
+"e, em seguida,\n"
+"para criar uma nova para uso.</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -357,6 +369,9 @@ msgid ""
 "monitors site\n"
 "            stock to prevent delays or shortages."
 msgstr ""
+"<strong>O app Inventário</strong> gerencia materiais, rastreia entregas e "
+"monitora o estoque do local\n"
+"para evitar atrasos ou faltas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
