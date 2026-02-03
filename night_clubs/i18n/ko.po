@@ -2,14 +2,14 @@
 # This file contains the translation of the following modules:
 # * night_clubs
 #
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 10:21+0000\n"
-"PO-Revision-Date: 2025-12-11 08:32+0000\n"
+"PO-Revision-Date: 2026-01-30 14:17+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "night_clubs/ko/>\n"
@@ -88,6 +88,9 @@ msgid ""
 "                                    <span class=\"visually-hidden\">Next</"
 "span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                                    <span class=\"visually-hidden\">다음</spa"
+"n>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -96,12 +99,15 @@ msgid ""
 "                                    <span class=\"visually-"
 "hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                                    <span class=\"visually-hidden\">이전</spa"
+"n>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Night Clubs</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 나이트클럽</strong></span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -119,6 +125,13 @@ msgid ""
 "muted\">Manager of Nightlife Club</span>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                                                        <strong>Iris "
+"DOE</strong>\n"
+"                                                        <br/>\n"
+"                                                        <span class=\"text-"
+"muted\">Nightlife 클럽 매니저</span>\n"
+"                                                    </span>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -268,7 +281,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>How to optimize bar operations:</strong>"
-msgstr ""
+msgstr "<strong>바 경영 최적화 방법:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -428,7 +441,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "<strong>Ways to leverage Odoo Purchase:</strong>"
-msgstr ""
+msgstr "<strong>Odoo 매입 앱 최대한 활용하기:</strong>"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
@@ -709,7 +722,7 @@ msgstr "입장권"
 #. module: night_clubs
 #: model:event.type.ticket,name:night_clubs.event_type_ticket_2
 msgid "Entrance Ticket + VIP Table"
-msgstr ""
+msgstr "입장권 + VIP 테이블"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_43_product_template
@@ -756,7 +769,7 @@ msgstr ""
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
 msgid "Get your entrace tickets now!&amp;nbsp;"
-msgstr ""
+msgstr "지금 바로 입장권을 구매하세요!&amp;nbsp;"
 
 #. module: night_clubs
 #: model:product.template,name:night_clubs.product_product_51_product_template
@@ -930,7 +943,7 @@ msgstr "진토닉과 완벽하게 어울립니다."
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.welcome_article_body
 msgid "Point of Sale App Documentation"
-msgstr ""
+msgstr "POS 앱 참고 문서"
 
 #. module: night_clubs
 #: model:event.tag,name:night_clubs.event_tag_4
@@ -985,7 +998,7 @@ msgstr "힙합 테이크오버 참가 등록"
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_3
 msgid "Registration for Latin Fever Friday"
-msgstr ""
+msgstr "라틴 피버 프라이데이 등록"
 
 #. module: night_clubs
 #: model:event.event.ticket,name:night_clubs.event_event_ticket_5
@@ -1104,7 +1117,7 @@ msgstr "생수 50cl"
 #. module: night_clubs
 #: model_terms:product.template,description:night_clubs.product_product_55_product_template
 msgid "Still mineral water 50cl bottle."
-msgstr ""
+msgstr "50cl 생수병"
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.contactus
@@ -1214,7 +1227,7 @@ msgstr ""
 #. module: night_clubs
 #: model:product.template,description_sale:night_clubs.product_product_43_product_template
 msgid "Velvety pick‑me‑up with real espresso."
-msgstr ""
+msgstr "진한 에스프레소가 함유된 부드러운 음료입니다."
 
 #. module: night_clubs
 #: model_terms:ir.ui.view,arch_db:night_clubs.homepage
@@ -1307,7 +1320,7 @@ msgstr "무알콜 모히토."
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_1
 msgid "✨ Neon Nights: Glow Party"
-msgstr ""
+msgstr "✨ 네온 나이트: 글로우 파티"
 
 #. module: night_clubs
 #: model_terms:event.event,description:night_clubs.event_event_4

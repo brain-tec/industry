@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 09:48+0000\n"
-"PO-Revision-Date: 2026-01-13 16:14+0000\n"
+"PO-Revision-Date: 2026-01-31 19:51+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "event_management/ru/>\n"
@@ -76,7 +76,7 @@ msgstr "1 Телефонный звонок"
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "1 free drink token"
-msgstr ""
+msgstr "1 бесплатный жетон на напиток"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
@@ -86,12 +86,12 @@ msgstr "1 бесплатное блюдо из фудтрака"
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_30_product_template
 msgid "1 professional with digital delivery"
-msgstr ""
+msgstr "1 специалист (эл. передача материалов)"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_5_product_template
 msgid "100m² Tent"
-msgstr ""
+msgstr "Палатка 100 м²"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -105,7 +105,7 @@ msgstr "12 дней в году, включая <br>6 по вашему выбо
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid "2 days"
-msgstr ""
+msgstr "2 дня"
 
 #. module: event_management
 #: model_terms:hr.job,job_details:event_management.hr_job_1
@@ -119,7 +119,7 @@ msgstr "2 дня открытых дверей"
 #. module: event_management
 #: model_terms:sale.order.template,note:event_management.sale_order_template_3
 msgid "30% deposit upon signature."
-msgstr ""
+msgstr "30% депозит при подписании."
 
 #. module: event_management
 #: model_terms:hr.job,job_details:event_management.hr_job_1
@@ -133,7 +133,7 @@ msgstr "через 4 дня после собеседования"
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_29_product_template
 msgid "4-hour set with sound included"
-msgstr ""
+msgstr "4-часовой сет, включая звуковое оборудование"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -362,6 +362,9 @@ msgid ""
 "                                              <span "
 "class=\"s_website_form_mark\">       *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Бюджет</span>\n"
+"                                              <span class="
+"\"s_website_form_mark\">       *</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -370,6 +373,9 @@ msgid ""
 "                                              <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Бюджет</span>\n"
+"                                              <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -397,22 +403,28 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid "<span class=\"s_website_form_label_content\">Ideal Event  Period</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Идеальный период проведения  "
+"мероприятия</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Ideal Event Duration</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Идеальная продолжительность "
+"мероприятия</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid "<span class=\"s_website_form_label_content\">Ideal Event Period</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Идеальный период проведения "
+"мероприятия</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid "<span class=\"s_website_form_label_content\">Participants</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Участники</span>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -558,6 +570,8 @@ msgid ""
 "<strong>Get&amp;nbsp;a Quote</strong>\n"
 "                  <br/>"
 msgstr ""
+"<strong>Получить КП</strong>\n"
+"                  <br/>"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
@@ -572,12 +586,12 @@ msgstr ""
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "<strong>Premium Entry – €15</strong>"
-msgstr ""
+msgstr "<strong>Входной билет премиум-класса – 15 €</strong>"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "<strong>Standard Entry – €0</strong>"
-msgstr ""
+msgstr "<strong>Стандартный входной билет – 0 €</strong>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -598,17 +612,17 @@ msgstr "<strong>☀️ Вечер на крыше в честь открытия
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "<strong>✨ What to expect:</strong>"
-msgstr ""
+msgstr "<strong>✨ Чего ожидать</strong>"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "<strong>🎟 Tickets:</strong>"
-msgstr ""
+msgstr "<strong>🎟 Билеты:</strong>"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
 msgid "<strong>🎯 Highlights include:</strong>"
-msgstr ""
+msgstr "<strong>🎯 В центре внимания:</strong>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -643,7 +657,7 @@ msgstr "Полная занятость <br>Привлекательный па�
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_24
 msgid "AV Equipment"
-msgstr ""
+msgstr "Аудио-видео оборудование"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
@@ -673,7 +687,7 @@ msgstr ""
 #. module: event_management
 #: model:product.template,name:event_management.product_product_38_product_template
 msgid "Activity Pack"
-msgstr ""
+msgstr "Пакет «Активный отдых»"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -741,22 +755,22 @@ msgstr "Дополнительные языки"
 #. module: event_management
 #: model:product.template,name:event_management.product_product_34_product_template
 msgid "Adventure Activity Pack"
-msgstr ""
+msgstr "Пакет «Активный отдых»"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_16_product_template
 msgid "After-Movie"
-msgstr ""
+msgstr "Отчетное видео"
 
 #. module: event_management
 #: model:planning.role,name:event_management.planning_role_4
 msgid "Animator"
-msgstr ""
+msgstr "Аниматор"
 
 #. module: event_management
 #: model:hr.job,name:event_management.hr_job_5
 msgid "Animator – Outdoor Activities"
-msgstr ""
+msgstr "Аниматор – активный отдых"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -888,17 +902,17 @@ msgstr "Перед началом мероприятия проверьте ар
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_26_product_template
 msgid "Belgian waffles or seasonal sweets"
-msgstr ""
+msgstr "Бельгийские вафли или сезонные сладости"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_25_product_template
 msgid "Beverage Package"
-msgstr ""
+msgstr "Пакет «Напитки»"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_37_product_template
 msgid "Bus service for participants"
-msgstr ""
+msgstr "Автобусный трансфер для участников"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -966,27 +980,27 @@ msgstr "Индикатор карусели"
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_9
 msgid "Casey Admin"
-msgstr ""
+msgstr "Кейси Администратор"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_24_product_template
 msgid "Catered Buffet"
-msgstr ""
+msgstr "Фуршет с обслуживанием"
 
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_41
 msgid "Catering & Bar"
-msgstr ""
+msgstr "Кейтеринг и бар"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_20
 msgid "Catering Free: NO"
-msgstr ""
+msgstr "Бесплатное питание: НЕТ"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_14
 msgid "Catering Free: YES"
-msgstr ""
+msgstr "Бесплатное питание: ДА"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1000,28 +1014,28 @@ msgstr ""
 #. module: event_management
 #: model:product.template,name:event_management.product_product_22_product_template
 msgid "Christmas Decor Package"
-msgstr ""
+msgstr "Пакет «Рождественский декор»"
 
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_18
 msgid "Clara De Wilde"
-msgstr ""
+msgstr "Клара Де Вильде"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_31_product_template
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_23
 msgid "Clean-Up & Sustainability"
-msgstr ""
+msgstr "Уборка и экологическая ответственность"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_20_product_template
 msgid "Coat Check & Reception"
-msgstr ""
+msgstr "Гардероб и регистрация"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_23_product_template
 msgid "Cocktail tables, lounge seating"
-msgstr ""
+msgstr "Коктейльные столики, кресла для отдыха"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1040,7 +1054,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
 msgid "Comprehensive Event Management"
-msgstr ""
+msgstr "Организация мероприятий под ключ"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1122,7 +1136,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Create a new rental order."
-msgstr ""
+msgstr "Создайте новый заказ на аренду."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1153,12 +1167,12 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Create quotations"
-msgstr ""
+msgstr "Создание КП"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Create shifts by event."
-msgstr ""
+msgstr "Создание смен по мероприятиям."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1168,7 +1182,7 @@ msgstr "Создаем незабываемые моменты. Каждое м�
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
 msgid "Creative Event Solutions"
-msgstr ""
+msgstr "Креативные решения для мероприятий"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1182,7 +1196,7 @@ msgstr ""
 #. module: event_management
 #: model:product.template,name:event_management.product_product_29_product_template
 msgid "DJ or Live Band"
-msgstr ""
+msgstr "Диджей или живая музыка"
 
 #. module: event_management
 #: model:uom.uom,name:event_management.uom_uom_35
@@ -1192,12 +1206,12 @@ msgstr "Дней"
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_44
 msgid "Decoration & Entertainment"
-msgstr ""
+msgstr "Декор и развлечения"
 
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_5
 msgid "Decoration & Material"
-msgstr ""
+msgstr "Декор и материалы"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1211,7 +1225,7 @@ msgstr ""
 #. module: event_management
 #: model:product.template,name:event_management.product_product_26_product_template
 msgid "Dessert Truck"
-msgstr ""
+msgstr "Фургон с десертами"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1244,7 +1258,7 @@ msgstr "Готово"
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "Don’t miss out! 🎉"
-msgstr ""
+msgstr "Не пропустите! 🎉"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1282,12 +1296,12 @@ msgstr "Еда и напитки"
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_32_product_template
 msgid "Eco bins &amp; end-of-night sorting"
-msgstr ""
+msgstr "Эко-контейнеры и сортировка в конце мероприятия"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
 msgid "Eco-Friendly Event Practices"
-msgstr ""
+msgstr "Экологичные методы проведения мероприятий"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1306,7 +1320,7 @@ msgstr "Сотрудники"
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
 msgid "End-of-day networking session"
-msgstr ""
+msgstr "Сессия по нетворкингу в конце дня"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1367,17 +1381,17 @@ msgstr "Развлечения"
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "Entry + 3 drink tokens"
-msgstr ""
+msgstr "Вход + 3 жетона на напитки"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "Entry to the event"
-msgstr ""
+msgstr "Входной билет на мероприятие"
 
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_37
 msgid "Even Coordination"
-msgstr ""
+msgstr "Координация мероприятия"
 
 #. module: event_management
 #: model:uom.uom,name:event_management.uom_uom_42
@@ -1387,7 +1401,7 @@ msgstr "Событие"
 #. module: event_management
 #: model:planning.role,name:event_management.planning_role_3
 msgid "Event Logistics Specialist"
-msgstr ""
+msgstr "Специалист по логистике мероприятий"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_27_product_template
@@ -1398,18 +1412,18 @@ msgstr "Компания по организации мероприятий"
 #: model:documents.document,name:event_management.documents_document_20
 #: model:project.project,name:event_management.project_project_3
 msgid "Event Management Template"
-msgstr ""
+msgstr "Шаблон организации мероприятий"
 
 #. module: event_management
 #: model:hr.job,name:event_management.hr_job_3
 #: model:planning.role,name:event_management.planning_role_2
 msgid "Event Manager"
-msgstr ""
+msgstr "Менеджер по мероприятиям"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_30_product_template
 msgid "Event Photographer"
-msgstr ""
+msgstr "Фотограф мероприятий"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1451,7 +1465,7 @@ msgstr "Facebook"
 #. module: event_management
 #: model:product.template,name:event_management.product_product_40_product_template
 msgid "Floral Design Package"
-msgstr ""
+msgstr "Пакет «Флористика»"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1475,17 +1489,17 @@ msgstr "Еда"
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_11
 msgid "Food & Beverages"
-msgstr ""
+msgstr "Еда и напитки"
 
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_28
 msgid "Food & Setup"
-msgstr ""
+msgstr "Питание и сервировка"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "Food trucks on-site"
-msgstr ""
+msgstr "Фургоны с едой на территории"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1511,17 +1525,17 @@ msgstr "Полная координация мероприятия до и во 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_6_product_template
 msgid "Furniture (Tables, Chairs,...)"
-msgstr ""
+msgstr "Мебель (столы, стулья...)"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_23_product_template
 msgid "Furniture Rental"
-msgstr ""
+msgstr "Аренда мебели"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Go to the <strong>Inventory</strong> app."
-msgstr ""
+msgstr "Перейдите в модуль <strong>Склад</strong>."
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1637,22 +1651,22 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "In <strong>CRM</strong>:"
-msgstr ""
+msgstr "В модуле <strong>CRM</strong>:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "In <strong>Employee</strong>:"
-msgstr ""
+msgstr "В модуле <strong>Сотрудники</strong>:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "In <strong>Planning</strong>:"
-msgstr ""
+msgstr "В модуле <strong>Планирование</strong>:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "In <strong>Recruitment</strong>:"
-msgstr ""
+msgstr "В модуле <strong>Подбор персонала</strong>:"
 
 #. module: event_management
 #: model:project.task.type,name:event_management.project_task_type_21
@@ -1662,12 +1676,12 @@ msgstr "В процессе"
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "Includes:"
-msgstr ""
+msgstr "Включает:"
 
 #. module: event_management
 #: model:event.event.ticket,name:event_management.event_event_ticket_3
 msgid "Innovation Days 2025"
-msgstr ""
+msgstr "Дни инноваций 2025"
 
 #. module: event_management
 #: model:event.event,name:event_management.event_event_2
@@ -1682,7 +1696,7 @@ msgstr "Инновационное планирование мероприяти
 #. module: event_management
 #: model:product.template,name:event_management.product_product_35_product_template
 msgid "Instructor Team"
-msgstr ""
+msgstr "Команда инструкторов"
 
 #. module: event_management
 #: model_terms:sale.order.template,note:event_management.sale_order_template_3
@@ -1697,7 +1711,7 @@ msgstr "Внутренний"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Invoice clients"
-msgstr ""
+msgstr "Выставление счетов клиентам"
 
 #. module: event_management
 #: model:website.menu,name:event_management.website_menu_9
@@ -1738,7 +1752,7 @@ msgstr "Будущее в наших руках! 🌍"
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_22_product_template
 msgid "Lights, tree, centerpieces"
-msgstr ""
+msgstr "Освещение, елка, центральные украшения"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1763,7 +1777,7 @@ msgstr "LinkedIn"
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_24
 msgid "Location & Activity"
-msgstr ""
+msgstr "Местоположение и активности"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1779,17 +1793,17 @@ msgstr ""
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_18
 msgid "Logistic"
-msgstr ""
+msgstr "Логистика"
 
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_32
 msgid "Logistics & Management"
-msgstr ""
+msgstr "Логистика и управление"
 
 #. module: event_management
 #: model:hr.job,name:event_management.hr_job_2
 msgid "Logistics Coordinator"
-msgstr ""
+msgstr "Координатор по логистике"
 
 #. module: event_management
 #: model:crm.stage,name:event_management.crm_stage_5
@@ -1799,7 +1813,7 @@ msgstr "Проигрыш"
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_19
 msgid "Lucas Vermeer"
-msgstr ""
+msgstr "Лукас Вермеер"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_36_product_template
@@ -1816,7 +1830,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage logistics &amp; rentals"
-msgstr ""
+msgstr "Управление логистикой и арендой"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1831,12 +1845,12 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage purchases and supplier orders"
-msgstr ""
+msgstr "Управление закупками и заказами поставщиков"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage recruitment and employee planning"
-msgstr ""
+msgstr "Управление подбором сотрудников и планирование ресурсов"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1865,7 +1879,7 @@ msgstr "Управляйте своим графиком с помощью мо�
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage your business opportunities"
-msgstr ""
+msgstr "Управление бизнес-возможностями"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1879,7 +1893,7 @@ msgstr "Мастер-демонстрации нашего программно�
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_17
 msgid "Mehdi Choukri"
-msgstr ""
+msgstr "Мехди Шукри"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_19
@@ -1889,7 +1903,7 @@ msgstr "Музыка"
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "Music &amp; DJ sets"
-msgstr ""
+msgstr "Музыка и сет от диджея"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1903,7 +1917,7 @@ msgstr "Должен быть"
 #. module: event_management
 #: model:product.template,name:event_management.product_product_33_product_template
 msgid "Nature Park / Forest Site"
-msgstr ""
+msgstr "Парк / Лес"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1998,12 +2012,12 @@ msgstr "Открытый бар (вино, пиво, прохладительн�
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Open the <strong>Calendar app</strong>."
-msgstr ""
+msgstr "Откройте <strong>модуль Календарь</strong> ."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Open the <strong>Contact</strong> app:"
-msgstr ""
+msgstr "Откройте модуль <strong>Контакты</strong>:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2024,12 +2038,12 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Organize event management into projects"
-msgstr ""
+msgstr "Организуйте управление мероприятиями в виде проектов"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Organize your contacts database"
-msgstr ""
+msgstr "Организуйте базу данных своих контактов"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2052,7 +2066,7 @@ msgstr "Наш товар"
 #. module: event_management
 #: model:crm.tag,name:event_management.crm_tag_5
 msgid "Outdoor"
-msgstr ""
+msgstr "На открытом воздухе"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2062,7 +2076,7 @@ msgstr "Интеграция с Outlook"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid "Particular"
-msgstr ""
+msgstr "Особый"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2102,22 +2116,22 @@ msgstr "Компоненты"
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_33_product_template
 msgid "Permit &amp; base setup"
-msgstr ""
+msgstr "Разрешения и базовая подготовка"
 
 #. module: event_management
 #: model:uom.uom,name:event_management.uom_uom_40
 msgid "Person"
-msgstr ""
+msgstr "Гость"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_17
 msgid "Photographer"
-msgstr ""
+msgstr "Фотограф"
 
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_47
 msgid "Photography & Media"
-msgstr ""
+msgstr "Фото и медиа"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2131,7 +2145,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_27_product_template
 msgid "Planning, coordination, on-site lead"
-msgstr ""
+msgstr "Планирование, координация, ответственный на объекте"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2154,7 +2168,7 @@ msgstr ""
 #. module: event_management
 #: model:event.event.ticket,name:event_management.event_event_ticket_2
 msgid "Premium Entry"
-msgstr ""
+msgstr "Входной билет премиум-класса"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -2175,7 +2189,7 @@ msgstr "Общий"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Publish them on the website."
-msgstr ""
+msgstr "Опубликуйте их на вебсайте."
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2210,7 +2224,7 @@ msgstr "Реальные обязанности и задачи в быстро 
 #. module: event_management
 #: model:hr.job,name:event_management.hr_job_4
 msgid "Reception Manager"
-msgstr ""
+msgstr "Менеджер по приему гостей"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2254,7 +2268,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
 msgid "Rooftop bar and chill zones"
-msgstr ""
+msgstr "Бар на крыше и зоны отдыха"
 
 #. module: event_management
 #: model:uom.uom,name:event_management.uom_uom_44
@@ -2265,12 +2279,12 @@ msgstr "Круглый"
 #: model:documents.document,name:event_management.documents_document_22
 #: model:project.project,name:event_management.project_project_5
 msgid "S00001 - Event Management Template"
-msgstr ""
+msgstr "S00001 – Шаблон организации мероприятий"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_35_product_template
 msgid "Safety guides and coordination"
-msgstr ""
+msgstr "Руководства по безопасности и координации"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2301,7 +2315,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_20_product_template
 msgid "Seasonal check-in, greeting staff"
-msgstr ""
+msgstr "Сезонная регистрация, встреча гостей"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_22
@@ -2334,12 +2348,12 @@ msgstr "Отправка счетов клиенту напрямую из Odoo.
 #: model:hr.job,name:event_management.hr_job_1
 #: model:planning.role,name:event_management.planning_role_1
 msgid "Senior Event Manager"
-msgstr ""
+msgstr "Старший менеджер по мероприятиям"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_28_product_template
 msgid "Servers, setup crew"
-msgstr ""
+msgstr "Официанты, технический персонал"
 
 #. module: event_management
 #: model:uom.uom,name:event_management.uom_uom_38
@@ -2349,7 +2363,7 @@ msgstr "Услуга"
 #. module: event_management
 #: model:product.template,name:event_management.product_product_12_product_template
 msgid "Service Staff"
-msgstr ""
+msgstr "Обслуживающий персонал"
 
 #. module: event_management
 #: model:uom.uom,name:event_management.uom_uom_39
@@ -2368,7 +2382,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_21_product_template
 msgid "Shuttle from Event to Employee's home"
-msgstr ""
+msgstr "Трансфер от места проведения мероприятия до дома сотрудника"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2387,12 +2401,12 @@ msgstr "Сотрудник"
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_14
 msgid "Staff & Management"
-msgstr ""
+msgstr "Команда и менеджмент"
 
 #. module: event_management
 #: model:event.event.ticket,name:event_management.event_event_ticket_1
 msgid "Standard Entry"
-msgstr ""
+msgstr "Стандартный входной билет"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2429,12 +2443,12 @@ msgstr "Отправить"
 #. module: event_management
 #: model:event.event,name:event_management.event_event_1
 msgid "Summer Afterwork"
-msgstr ""
+msgstr "Летнее afterwork-мероприятие"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_28_product_template
 msgid "Support Staff"
-msgstr ""
+msgstr "Вспомогательный персонал"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
@@ -2464,27 +2478,27 @@ msgstr "Задачи"
 #. module: event_management
 #: model:product.template,name:event_management.product_product_21_product_template
 msgid "Taxi Service"
-msgstr ""
+msgstr "Такси"
 
 #. module: event_management
 #: model:crm.tag,name:event_management.crm_tag_3
 msgid "Team Building"
-msgstr ""
+msgstr "Тимбилдинг"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_15
 msgid "Technical Free: NO"
-msgstr ""
+msgstr "Технический сбор: НЕТ"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_16
 msgid "Technical Free: YES"
-msgstr ""
+msgstr "Технический сбор: ДА"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_25
 msgid "Technical Rental"
-msgstr ""
+msgstr "Аренда оборудования"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -2512,7 +2526,7 @@ msgstr "Шаблон"
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
 msgid "Themed workshops (choose your track!)"
-msgstr ""
+msgstr "Тематические воркшопы (выберите свой трек!)"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2561,12 +2575,12 @@ msgstr ""
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
 msgid "Thought-provoking talks &amp; panels"
-msgstr ""
+msgstr "Заставляющие задуматься выступления и обсуждения"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid "Thursdays, in Summer"
-msgstr ""
+msgstr "По четвергам, летом"
 
 #. module: event_management
 #: model:project.task.type,name:event_management.project_task_type_20
@@ -2614,7 +2628,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
 msgid "Unveil Our Unique Event Concepts"
-msgstr ""
+msgstr "Наши уникальные концепции мероприятий"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2639,7 +2653,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Use <strong>Rental</strong> to:"
-msgstr ""
+msgstr "Используйте модуль <strong>Аренда</strong> для:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2647,8 +2661,8 @@ msgid ""
 "Use <strong>sub-locations</strong> like Room 1/ Shelf A to show exactly "
 "where items are stored in the warehouse."
 msgstr ""
-"Используйте <strong>подзоны</strong> (напр., Зал 1 / Полка А), чтобы указать "
-"точное место хранения оборудования на складе."
+"Используйте <strong>подзоны</strong> (напр., Зал 1 / Стеллаж А), чтобы "
+"указать точное место хранения оборудования на складе."
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2696,7 +2710,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Using down payments for Event Booking:"
-msgstr ""
+msgstr "Использование авансовых платежей для бронирования мероприятий:"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2718,12 +2732,12 @@ msgstr ""
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_24_product_template
 msgid "Vegetarian &amp; local festive menu"
-msgstr ""
+msgstr "Вегетарианское праздничное меню из местных продуктов"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_36_product_template
 msgid "Veggie Food Truck"
-msgstr ""
+msgstr "Вегетарианский фургончик с едой"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_13
@@ -2738,17 +2752,17 @@ msgstr "Место проведения и логистика"
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_38
 msgid "Venue & Setup"
-msgstr ""
+msgstr "Площадка и подготовка"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_19_product_template
 msgid "Venue Rental"
-msgstr ""
+msgstr "Аренда площадки"
 
 #. module: event_management
 #: model:product.template,description_picking:event_management.product_product_5_product_template
 msgid "WH/Room 1/Shelf A"
-msgstr ""
+msgstr "Склад/Зал 1/Стеллаж A"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2793,7 +2807,7 @@ msgstr ""
 #. module: event_management
 #: model:planning.role,name:event_management.planning_role_5
 msgid "Welcome Team"
-msgstr ""
+msgstr "Группа встречи"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2814,7 +2828,7 @@ msgstr "Наше предложение"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
 msgid "What is your estimated budget?"
-msgstr ""
+msgstr "Какой бюджет вы планируете выделить?"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -2971,7 +2985,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_34_product_template
 msgid "Zip-line, obstacle course, orientation"
-msgstr ""
+msgstr "Зиплайн, полоса препятствий, инструктаж"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2991,7 +3005,7 @@ msgstr "документация"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "https://www.youtube.com/watch?v=N4zw-2t6spk"
-msgstr ""
+msgstr "https://www.youtube.com/watch?v=N4zw-2t6spk"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -3011,7 +3025,7 @@ msgstr "люди смеются и разговаривают на улице д
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
 msgid "person performing heart hand gesture"
-msgstr ""
+msgstr "человек, выполняющий жест рукой в виде сердца"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -3021,7 +3035,7 @@ msgstr "запросить демо"
 #. module: event_management
 #: model:crm.tag,name:event_management.crm_tag_2
 msgid "summer"
-msgstr ""
+msgstr "лето"
 
 #. module: event_management
 #: model:crm.tag,name:event_management.crm_tag_1

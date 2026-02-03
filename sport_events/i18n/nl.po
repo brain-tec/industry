@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:55+0000\n"
-"PO-Revision-Date: 2026-01-06 09:29+0000\n"
+"PO-Revision-Date: 2026-01-27 22:44+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19/"
 "sport_events/nl/>\n"
@@ -300,6 +300,9 @@ msgid ""
 "strong>Maintain a database of teams, athletes, sponsors, and volunteers to "
 "streamline communication and coordination.<br/>"
 msgstr ""
+"<strong><font class=\"text-o-color-1\"><b>Contacten-app</b>:</font></"
+"strong>Onderhoud een database met teams, atleten, sponsors en vrijwilligers "
+"om de communicatie en coördinatie te stroomlijnen.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -308,6 +311,9 @@ msgid ""
 "strong>Keep the excitement high by sending automated updates, newsletters, "
 "and reminders to attendees and participants.<br/>"
 msgstr ""
+"<strong><font class=\"text-o-color-1\"><b>E-mailmarketing-app</b>: </font></"
+"strong>Houd de spanning erin door automatische updates, nieuwsbrieven en "
+"herinneringen te sturen naar bezoekers en deelnemers.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -316,6 +322,9 @@ msgid ""
 "strong>Orchestrate tournaments and matches with ease, handling participant "
 "registrations, ticketing, and capacity management online.<br/>"
 msgstr ""
+"<strong><font class=\"text-o-color-1\"><b>Evenementen-app</b>:</font></"
+"strong>Organiseer eenvoudig toernooien en wedstrijden, beheer "
+"deelnemersregistraties, ticketverkoop en capaciteitsbeheer online.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -324,6 +333,10 @@ msgid ""
 "strong>Manage the logistical setup of the event, assigning tasks to staff "
 "and volunteers to ensure the venue is ready on time."
 msgstr ""
+"<strong><font class=\"text-o-color-1\"><b>Project-app</b>: </font></"
+"strong>Beheer de logistieke opzet van het evenement, wijs taken toe aan "
+"medewerkers en vrijwilligers om ervoor te zorgen dat de locatie op tijd "
+"klaar is."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -332,6 +345,9 @@ msgid ""
 "strong>Build a dedicated event portal to publish schedules, results, and "
 "venue information for fans and athletes.<br/>"
 msgstr ""
+"<strong><font class=\"text-o-color-1\"><b>Website-app</b>: </font></"
+"strong>Bouw een speciaal evenementenportaal om schema's, resultaten en "
+"locatie-informatie voor fans en atleten te publiceren.<br/>"
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -340,6 +356,9 @@ msgid ""
 "strong>Boost revenue by selling event merchandise, gear, and concessions "
 "directly through your event website.<br/>"
 msgstr ""
+"<strong><font class=\"text-o-color-1\"><b>E-commerce-app</b>: </font></"
+"strong>Verhoog je omzet door evenementmerchandise, uitrusting en concessies "
+"rechtstreeks via je evenementwebsite te verkopen.<br/>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1173,7 +1192,7 @@ msgstr ""
 "Exporteer je voorraadlijst vanuit Odoo in een spreadsheet en maak een kolom "
 "aan voor 'Benodigde hoeveelheid' voor een specifiek evenement. "
 "Evenementmanagers kunnen deze kolom invullen, zodat de voorraadbeheerder "
-"deze kan vergelijken met de 'Beschikbare hoeveelheid' en direct weet wat er "
+"deze kan vergelijken met de 'Aanwezige hoeveelheid' en direct weet wat er "
 "opnieuw besteld moet worden."
 
 #. module: sport_events

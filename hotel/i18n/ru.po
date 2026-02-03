@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:44+0000\n"
-"PO-Revision-Date: 2026-01-23 08:44+0000\n"
+"PO-Revision-Date: 2026-01-31 19:51+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/hotel/ru/"
 ">\n"
@@ -56,6 +56,8 @@ msgid ""
 "<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/shop\">Book "
 "Your Stay</a>"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/shop\""
+">Забронировать проживание</a>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -123,6 +125,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">🎉</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -159,6 +163,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>Отель</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -170,6 +178,12 @@ msgid ""
 "span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>Айрис Доу</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">Менеджер "
+"OurHotel</span>\n"
+"                          </span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -181,6 +195,12 @@ msgid ""
 "span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>Джейн Доу</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">Генеральный директор "
+"OurHotel</span>\n"
+"                          </span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -192,6 +212,12 @@ msgid ""
 "span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>Джон Доу</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">Директор по работе с "
+"клиентами OurHotel</span>\n"
+"                          </span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -202,6 +228,11 @@ msgid ""
 "                          <span class=\"s_pricelist_cafe_item_price ms-auto "
 "ps-3\">$200.00</span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_name\">Номер Делюкс</span>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_price ms-auto ps-3\">200,00 $</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -212,6 +243,11 @@ msgid ""
 "                          <span class=\"s_pricelist_cafe_item_price ms-auto "
 "ps-3\">$300.00</span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_name\">Представительский люкс</span>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_price ms-auto ps-3\">300,00 $</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -222,6 +258,11 @@ msgid ""
 "                          <span class=\"s_pricelist_cafe_item_price ms-auto "
 "ps-3\">$180.00</span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_name\">Семейный номер</span>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_price ms-auto ps-3\">180,00 $</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -232,6 +273,11 @@ msgid ""
 "                          <span class=\"s_pricelist_cafe_item_price ms-auto "
 "ps-3\">$250.00</span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_name\">Номер-люкс (</span>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_price ms-auto ps-3\">250,00 $</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -242,6 +288,11 @@ msgid ""
 "                          <span class=\"s_pricelist_cafe_item_price ms-auto "
 "ps-3\">$75.00</span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_name\">Шатер у бассейна</span>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_price ms-auto ps-3\">75,00 $</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -252,6 +303,11 @@ msgid ""
 "                          <span class=\"s_pricelist_cafe_item_price ms-auto "
 "ps-3\">$150.00</span>"
 msgstr ""
+"<span class=\"s_pricelist_cafe_item_name\">Стандартный номер</span>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_line flex-grow-1 ms-2 border-top\"/>\n"
+"                          <span class="
+"\"s_pricelist_cafe_item_price ms-auto ps-3\">150,00 $</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -333,7 +389,7 @@ msgstr "<strong>Основы</strong>"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "<strong>Company specific offers</strong>"
-msgstr ""
+msgstr "<strong>Специальные предложения для компаний</strong>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -369,12 +425,12 @@ msgstr "<strong>Пример использования</strong>"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "A Journey into Comfort and Luxury"
-msgstr ""
+msgstr "Путешествие в мир комфорта и роскоши"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "A perfect getaway for families and couples alike"
-msgstr ""
+msgstr "Идеальное место для отдыха как для семей, так и для пар"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -382,6 +438,8 @@ msgid ""
 "A welcoming atmosphere that makes you feel right at home, no matter where "
 "you are from."
 msgstr ""
+"Приветливая атмосфера, в которой вы почувствуете себя как дома, откуда бы вы "
+"ни приехали."
 
 #. module: hotel
 #: model_terms:product.template,description_ecommerce:hotel.product_template_12
@@ -390,6 +448,9 @@ msgid ""
 "fruits and vegetables<br>Locally roasted Italian coffee<br>Veggie and vegan "
 "available"
 msgstr ""
+"Прекрасный выбор местных продуктов<br>Сладости и соленья<br>Свежие фрукты и "
+"овощи<br>Итальянский кофе местного обжаривания<br>Доступны вегетарианские и "
+"веганские блюда"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -398,6 +459,9 @@ msgid ""
 "per guest\n"
 "                request."
 msgstr ""
+"Добавьте строку с услугой «Ужин в номер» или «Трансфер из аэропорта» и "
+"обновите количество согласно запросу\n"
+"                гостя."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -437,12 +501,12 @@ msgstr "Соответствующая корректировка ваших п�
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
 "Again, the <strong>Hotel App </strong>helps you manage the end of the stay!"
-msgstr ""
+msgstr "<strong>Модуль Отель</strong> поможет вам оформить выезд гостей!"
 
 #. module: hotel
 #: model:product.template,name:hotel.product_template_17
 msgid "Airport Shuttle"
-msgstr ""
+msgstr "Трансфер"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -453,6 +517,11 @@ msgid ""
 "                    account. At the end of the stay the customer account "
 "will be charged as well."
 msgstr ""
+"В качестве альтернативы вы можете использовать интерфейс стойки регистрации "
+"в модуле POS, выбрав\n"
+"                    клиента, добавив любые дополнительные услуги и оплатив "
+"их через счет\n"
+"                    клиента. Общий расчет произойдет при выезде гостя."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -506,6 +575,8 @@ msgstr "Назначьте им ресурс – это поможет вам в
 msgid ""
 "At any time during their stay, open their rental order from the Hotel App."
 msgstr ""
+"В любое время в течение их пребывания вы можете открыть заказ на аренду в "
+"модуле Отель."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -535,17 +606,17 @@ msgstr "В конце своего пребывания гости оплатя�
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Bar &amp; Restaurant and extra services"
-msgstr ""
+msgstr "Бар, ресторан и дополнительные услуги"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Blocking a room"
-msgstr ""
+msgstr "Блокировка комнаты"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Booking a room"
-msgstr ""
+msgstr "Бронирование номера"
 
 #. module: hotel
 #: model:product.template,name:hotel.product_template_12
@@ -555,7 +626,7 @@ msgstr "Завтрак"
 #. module: hotel
 #: model:product.template,name:hotel.product_template_14
 msgid "Breakfast Tray"
-msgstr ""
+msgstr "Завтрак в номер"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -576,7 +647,7 @@ msgstr "Индикатор карусели"
 #. module: hotel
 #: model:product.template,name:hotel.product_template_16
 msgid "Champagne Bottle"
-msgstr ""
+msgstr "Бутылка шампанского"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -590,6 +661,9 @@ msgid ""
 "confirm the number of city tax to be charged, which updated the delivered "
 "city tax count."
 msgstr ""
+"Проверьте и при необходимости скорректируйте количество гостей, проживавших "
+"в каждой комнате. Затем подтвердите сумму городского налога к списанию; это "
+"обновит учтенное количество налога."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -618,7 +692,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Click one of the room to book."
-msgstr ""
+msgstr "Нажмите на один из номеров, чтобы забронировать его."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -664,7 +738,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Comfort and elegance in every room"
-msgstr ""
+msgstr "Комфорт и элегантность в каждом номере"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -672,6 +746,7 @@ msgid ""
 "Contemporary design with a touch of sophistication, ensuring a memorable "
 "stay."
 msgstr ""
+"Современный дизайн с оттенком изысканности, гарантирующий незабываемый отдых."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -692,17 +767,17 @@ msgstr "Предоставление дополнительных услуг"
 #. module: hotel
 #: model:product.template,name:hotel.product_template_9
 msgid "Deluxe Room"
-msgstr ""
+msgstr "Номер Делюкс"
 
 #. module: hotel
 #: model:product.template,name:hotel.product_template_10
 msgid "Deluxe Suite"
-msgstr ""
+msgstr "Люкс"
 
 #. module: hotel
 #: model:product.template,name:hotel.product_template_15
 msgid "Dinner Tray"
-msgstr ""
+msgstr "Ужин в номер"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -715,6 +790,8 @@ msgid ""
 "Discover our luxurious accommodations, exceptional service, and stunning "
 "views. Experience comfort like never before!"
 msgstr ""
+"Откройте для себя наше роскошное жилье, исключительный сервис и потрясающие "
+"виды. Испытайте комфорт, которого вы не знали прежде!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -734,6 +811,9 @@ msgid ""
 "members or a\n"
 "            spa with massages!"
 msgstr ""
+"Не ограничивайтесь этими примерами, вы можете предложить своим клиентам "
+"тренажерный зал или\n"
+"            спа-салон с массажем!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -761,6 +841,9 @@ msgid ""
 "style. Enjoy breathtaking views and personalized service that caters to your "
 "every need."
 msgstr ""
+"Повысьте уровень своего отдыха с помощью наших роскошных удобств, где "
+"комфорт сочетается со стилем. Наслаждайтесь захватывающими видами и "
+"индивидуальным обслуживанием, которое удовлетворит все ваши потребности."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -783,6 +866,10 @@ msgid ""
 "here for business or leisure, our offerings are designed to make your stay "
 "unforgettable.<br/><br/> Experience the warmth of our hospitality."
 msgstr ""
+"Наслаждайтесь лучшими традициями гостеприимства с нашими персональными "
+"услугами. Независимо от того, приехали вы по делам или на отдых, наши "
+"предложения созданы для того, чтобы сделать ваше пребывание незабываемым.<br/"
+"><br/>Почувствуйте тепло нашего гостеприимства."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -801,16 +888,18 @@ msgid ""
 "Experience a truly exquisite dining experience at our hotel restaurant. I "
 "highly recommend trying our Mustard Sauce, it's out of this world."
 msgstr ""
+"Насладитесь поистине изысканными блюдами в ресторане нашего отеля. Особенно "
+"рекомендуем попробовать наш горчичный соус – он просто божественный."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Experience our commitment to exceptional hospitality"
-msgstr ""
+msgstr "Оцените наше стремление к исключительному гостеприимству"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Explore our amenities"
-msgstr ""
+msgstr "Ознакомьтесь с нашими удобствами"
 
 #. module: hotel
 #: model:product.template,name:hotel.product_template_11
@@ -862,7 +951,7 @@ msgstr "Привет!"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.res_config_settings_form_view_inherited
 msgid "Hotel"
-msgstr ""
+msgstr "Отель"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -882,6 +971,9 @@ msgid ""
 "customer account due amount will be displayed as well as a button for you to "
 "settle the associated orders."
 msgstr ""
+"Если гости в какой-либо момент оплачивали заказы в модуле POS через свой "
+"счет клиента, сумма их задолженности будет отображена вместе с кнопкой для "
+"закрытия связанных заказов."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -892,7 +984,7 @@ msgid ""
 msgstr ""
 "В режиме согласования уборки ответственные\n"
 "                    лица проверяют номера и меняют их статус на «Готово», "
-"завершая тем самым задач."
+"завершая тем самым задачи."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -914,6 +1006,10 @@ msgid ""
 "customer list) and ask for the room they stay in.<br/>Note: Their room is "
 "listed in the Guests tab of their order."
 msgstr ""
+"Если вы не уверены, есть ли у клиентов активные бронирования, прежде чем "
+"записывать суммы на их счета, откройте данные контакта из меню "
+"(из списка клиентов) и уточните номер размещения, в котором они проживают.<"
+"br/>Примечание: номер размещения указан на вкладке «Гости» в их заказе."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -945,7 +1041,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Indulge in Our Exquisite Accommodations"
-msgstr ""
+msgstr "Насладитесь нашими изысканными номерами"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -964,7 +1060,7 @@ msgstr "Написание отзыва"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Let's book a room!"
-msgstr ""
+msgstr "Давайте забронируем номер!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -989,6 +1085,7 @@ msgstr "Управление бизнесом"
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Modern rooms equipped with all the amenities for a comfortable stay."
 msgstr ""
+"Современные номера, оснащенные всеми удобствами для комфортного проживания."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -1002,6 +1099,9 @@ msgid ""
 "even more\n"
 "            comfortable!"
 msgstr ""
+"Теперь, когда гости расслабились, вы можете предложить им дополнительные "
+"услуги, чтобы они чувствовали себя еще более\n"
+"            комфортно!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1154,7 +1254,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open the <strong>Website App</strong> and navigate to the Rooms."
-msgstr ""
+msgstr "Откройте <strong>модуль Вебсайт</strong> и перейдите в раздел «Номера»."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1170,12 +1270,12 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open the Hotel App Schedule."
-msgstr ""
+msgstr "Откройте расписание модуле Отель."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open the Hotel App and then navigate to the orders from the menu."
-msgstr ""
+msgstr "Откройте модуль Отель и перейдите к заказам в меню."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1183,6 +1283,9 @@ msgid ""
 "Open the Hotel App to appreciate the currently planned bookings with the\n"
 "                Schedule."
 msgstr ""
+"Откройте модуль Отель, чтобы ознакомиться с текущими запланированными "
+"бронированиями в разделе\n"
+"                «Расписание»."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1208,7 +1311,7 @@ msgstr "Откройте заказ только что прибывших го�
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open your guest order from the Hotel App."
-msgstr ""
+msgstr "Откройте заказ гостя в модуле Отель."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1219,12 +1322,20 @@ msgid ""
 "                    <font class=\"text-o-color-5\"> App</font>\n"
 "                </strong><font class=\"text-o-color-5\">.</font>"
 msgstr ""
+"Организуйте графики работы ваших сотрудников с помощью<strong><font class="
+"\"text-o-color-5\">\n"
+"                модуля</font></strong>\n"
+"                    <font class=\"text-o-color-5\"> "
+"<strong>Планирование</strong></font>\n"
+"                <font class=\"text-o-color-5\">.</font>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid ""
 "Our hotel restaurant is the perfect spot for groups or a casual date night."
 msgstr ""
+"Ресторан нашего отеля – идеальное место для групп или непринужденного "
+"свидания."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -1256,12 +1367,12 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Relax and Unwind in Style"
-msgstr ""
+msgstr "Расслабьтесь и отдохните со стилем"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Relaxing spaces that cater to your every need"
-msgstr ""
+msgstr "Пространства для отдыха, отвечающие всем вашим потребностям"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1302,6 +1413,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Spacious family accommodations designed for togetherness and fun."
 msgstr ""
+"Просторное семейное жилье, созданное для совместного времяпрепровождения и "
+"веселья."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -1309,16 +1422,18 @@ msgid ""
 "Spacious suites designed for relaxation, featuring plush bedding and "
 "stunning views."
 msgstr ""
+"Просторные люксы, созданные для релаксации, с мягкими постельными "
+"принадлежностями и потрясающими видами."
 
 #. module: hotel
 #: model:product.template,name:hotel.product_template_8
 msgid "Standard Room"
-msgstr ""
+msgstr "Стандартный номер"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
 msgid "Stay &amp; Enjoy"
-msgstr ""
+msgstr "Остановитесь в отеле и наслаждайтесь отдыхом"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1327,6 +1442,9 @@ msgid ""
 "another\n"
 "                more comfortable room!"
 msgstr ""
+"В расписании модуля Отель вы можете просто перетащить бронирование в другой,"
+"\n"
+"                более комфортабельный номер!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1339,6 +1457,8 @@ msgid ""
 "Stylish and cozy rooms that provide a perfect retreat after a day of "
 "exploration."
 msgstr ""
+"Стильные и уютные номера, обеспечивающие идеальный отдых после дня, полного "
+"открытий."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1369,7 +1489,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "They want multiple rooms?"
-msgstr ""
+msgstr "Им нужно несколько номеров?"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1436,16 +1556,19 @@ msgid ""
 "atmosphere and delicious food. Don't miss our signature dish, the spiced "
 "fruit crumble."
 msgstr ""
+"Добро пожаловать в наш уютный и гостеприимный отель, где вы сможете "
+"насладиться прекрасной атмосферой и вкусной едой. Не пропустите наше "
+"фирменное блюдо – фруктовый крамбл с пряностями."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Welcome your guests as well from the <strong>Hotel App</strong>."
-msgstr ""
+msgstr "Приветствуйте ваших гостей также через модуль <strong>Отель</strong>."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "When all is in order, confirm their invoice for payment."
-msgstr ""
+msgstr "Как только все будет проверено, подтвердите их счет для оплаты."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1469,6 +1592,13 @@ msgid ""
 "the payment and the\n"
 "                validation buttons!"
 msgstr ""
+"Когда гости просят счет, вы можете принять оплату сразу или записать сумму "
+"на их\n"
+"                счет клиента. <br/>Для этого откройте соответствующий заказ "
+"со стола или из\n"
+"                списка заказов и выберите клиента для оплаты.<br/> Нажмите "
+"кнопки оплаты и\n"
+"                подтверждения!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1484,7 +1614,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "You Hotel is online and future guests found it!"
-msgstr ""
+msgstr "Ваш отель доступен онлайн, и потенциальные гости уже нашли ваш сайт!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1562,6 +1692,10 @@ msgid ""
 "            is how you might centralize those and bind them to your "
 "customers in a single database."
 msgstr ""
+".Даже если у вас небольшой отель, вы можете предлагать множество "
+"сопутствующих услуг.<br/>Рассказываем,\n"
+"            как централизовать их и объединить с данными о клиентах в единой "
+"базе."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1570,6 +1704,8 @@ msgid ""
 "installed a\n"
 "            bunch of necessary apps to run your Hotel efficiently."
 msgstr ""
+"Вы установили пакет Odoo для отелей. Вместе с ним были установлены\n"
+"            все необходимые модули для эффективной работы вашего бизнеса."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1658,6 +1794,8 @@ msgid ""
 "if you need\n"
 "                    help!"
 msgstr ""
+"﻿ если вам нужна\n"
+"                    помощь!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1755,12 +1893,12 @@ msgstr "🎓Система бронирования"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "🎓Planning"
-msgstr ""
+msgstr "🎓Планирование"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "🎓Rental"
-msgstr ""
+msgstr "🎓Аренда"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1785,7 +1923,7 @@ msgstr "😎 Встреча гостей"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "🧽 Managing house keeping"
-msgstr ""
+msgstr "🧽 Управление уборкой"
 
 #~ msgid "Manage your customers from the <strong>Contact App</strong>"
 #~ msgstr ""

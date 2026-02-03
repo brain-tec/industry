@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-05 12:55+0000\n"
-"PO-Revision-Date: 2026-01-16 10:46+0000\n"
+"PO-Revision-Date: 2026-01-31 19:50+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "coworking/ru/>\n"
@@ -132,8 +132,8 @@ msgid ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Discover more</"
 "a>"
 msgstr ""
-"<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Узнать больше</"
-"a>"
+"<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Узнать "
+"больше</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -152,8 +152,8 @@ msgid ""
 "<a href=\"/appointment/*free_tour_appointment_type*\" "
 "class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
 msgstr ""
-"<a href=\"/appointment/*free_tour_appointment_type*\" "
-"class=\"o_translate_inline btn btn-secondary\">Записаться на бесплатную "
+"<a href=\"/appointment/*free_tour_appointment_type*\" class="
+"\"o_translate_inline btn btn-secondary\">Записаться на бесплатную "
 "экскурсию</a>"
 
 #. module: coworking
@@ -173,8 +173,8 @@ msgid ""
 "<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-"
 "secondary\">Book</a>"
 msgstr ""
-"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-"
-"secondary\">Забронировать</a>"
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-secondary\""
+">Забронировать</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -198,9 +198,9 @@ msgid ""
 "primary\"><span style=\"font-family: Verdana, sans-serif;\"><strong>CONTACT "
 "US</strong></span></a>&amp;nbsp;"
 msgstr ""
-"<a href=\"/become-a-member\" class=\"o_translate_inline btn btn-"
-"primary\"><span style=\"font-family: Verdana, sans-serif;"
-"\"><strong>СВЯЗАТЬСЯ С НАМИ</strong></span></a>&amp;nbsp;"
+"<a href=\"/become-a-member\" class=\"o_translate_inline btn btn-primary\""
+"><span style=\"font-family: Verdana, sans-serif;\"><strong>СВЯЗАТЬСЯ С "
+"НАМИ</strong></span></a>&amp;nbsp;"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -230,8 +230,8 @@ msgid ""
 "\">&amp;nbsp; Meeting rooms&amp;nbsp;</span>"
 msgstr ""
 "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>\n"
-"                          <span style=\"font-family: Verdana, sans-serif;"
-"\">&amp;nbsp; Переговорные&amp;nbsp;</span>"
+"                          <span style=\"font-family: Verdana, sans-serif;\""
+">&amp;nbsp; Переговорные&amp;nbsp;</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -241,8 +241,8 @@ msgid ""
 "\">&amp;nbsp; Quiet working spaces</span>"
 msgstr ""
 "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>\n"
-"                          <span style=\"font-family: Verdana, sans-serif;"
-"\">&amp;nbsp; Тихие рабочие зоны</span>"
+"                          <span style=\"font-family: Verdana, sans-serif;\""
+">&amp;nbsp; Тихие рабочие зоны</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -252,8 +252,8 @@ msgid ""
 "\">&amp;nbsp; Wifi &amp;amp; quick support</span>"
 msgstr ""
 "<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>\n"
-"                          <span style=\"font-family: Verdana, sans-serif;"
-"\">&amp;nbsp;WiFi и оперативная техническая поддержка &amp;amp;</span>"
+"                          <span style=\"font-family: Verdana, sans-serif;\""
+">&amp;nbsp;WiFi и оперативная техническая поддержка &amp;amp;</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -422,8 +422,8 @@ msgid ""
 msgstr ""
 "<span class=\"s_website_form_label_content\">Какое предложение вас "
 "интересует?</span>\n"
-"                                  <span class=\"s_website_form_mark\"> *</"
-"span>"
+"                                  <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -476,9 +476,9 @@ msgid ""
 "<span style=\"font-family: Verdana, sans-serif;\">be&amp;nbsp;productive +</"
 "span></span>"
 msgstr ""
-"<span style=\"font-family: Verdana, sans-serif;\">400 "
-"€&amp;nbsp;чтобы&amp;nbsp;<span style=\"font-family: Verdana, sans-serif;"
-"\">стать&amp;nbsp;продуктивным +</span></span>"
+"<span style=\"font-family: Verdana, sans-serif;"
+"\">400 €&amp;nbsp;чтобы&amp;nbsp;<span style=\"font-family: Verdana, sans-"
+"serif;\">стать&amp;nbsp;продуктивным +</span></span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -612,7 +612,7 @@ msgid ""
 "manage quotations for memberships, room bookings, and services."
 msgstr ""
 "<strong><font class=\"text-o-color-1\">Продажи</font>: </strong>Создавайте и "
-"управляйте коммерческими предложениями для членства, бронирования офисов и "
+"управляйте коммерческими предложениями для резидентов, бронирования офисов и "
 "услуг."
 
 #. module: coworking
@@ -674,7 +674,7 @@ msgid ""
 "<strong>Convert to Member:</strong> Once confirmed, create a quotation or "
 "start a subscription plan."
 msgstr ""
-"<strong>Превратить в участника:</strong> После подтверждения создайте "
+"<strong>Превратить в резидента:</strong> После подтверждения создайте "
 "коммерческое предложение или запустите план подписки."
 
 #. module: coworking
@@ -790,7 +790,7 @@ msgstr "<strong>Время:</strong> 15:00 – 17:00"
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
 msgid "<strong>Time:</strong> 5:00 PM – 8:00 PM"
-msgstr "<strong>Время:</strong> 17:00 – 20:00"
+msgstr "<strong>Время:</strong> 17:00 – 20:00"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
@@ -1085,8 +1085,8 @@ msgstr "Преданные профессионалы, способствующ�
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Define <strong>Operating Hours</strong> (e.g., 8am–8pm, Monday–Friday)."
 msgstr ""
-"Определите <strong>рабочие часы</strong> (например, 08:00 – 20:00, с "
-"понедельника по пятницу)."
+"Определите <strong>рабочие часы</strong> "
+"(например, 08:00 – 20:00, с понедельника по пятницу)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1221,7 +1221,7 @@ msgstr "Администратор и менеджер по продажам"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
 msgid "Get in touch with us, we'll contact you soon!"
-msgstr "Свяжитесь с нами, и мы скоро вам ответим!"
+msgstr "Свяжитесь с нами, и мы ответим вам как можно скорее!"
 
 #. module: coworking
 #: model:product.template,name:coworking.product_product_7_product_template
@@ -1329,7 +1329,7 @@ msgstr ""
 msgid ""
 "Link each product to its corresponding <strong>Membership Level</strong>."
 msgstr ""
-"Свяжите каждый товар с соответствующим <strong>уровнем абонементам</strong>."
+"Свяжите каждый товар с соответствующим <strong>уровнем абонементов</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1362,8 +1362,9 @@ msgid ""
 "Make <strong>member-only pages</strong> for internal events, resources, or "
 "booking links."
 msgstr ""
-"Создавайте <strong>страницы только для резидентов</strong> для внутренних "
-"мероприятий, ресурсов или ссылок на бронирование."
+"Создавайте <strong>закрытые страницы</strong> для внутренних мероприятий, "
+"ресурсов или ссылок на бронирование, <strong>доступные только резидентам</"
+"strong> вашего коворкинг-пространства."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1469,8 +1470,8 @@ msgstr ""
 msgid ""
 "Odoo offers endless customization possibilities for your Coworking company:"
 msgstr ""
-"Odoo предлагает безграничные возможности настройки для вашей коворкинг-"
-"компании:"
+"Odoo предлагает безграничные возможности настройки для вашей "
+"коворкинг-компании:"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1542,8 +1543,8 @@ msgstr ""
 msgid ""
 "Personalize content using dynamic fields (e.g., member name, booked room)."
 msgstr ""
-"Персонализируйте контент с помощью динамических полей (например, имя "
-"участника, забронированный офис)."
+"Персонализируйте контент с помощью динамических полей "
+"(например, имя участника, забронированный офис)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -1625,8 +1626,8 @@ msgstr "Смотреть всё<span class=\"fa fa-long-arrow-right ms-2\"/>"
 msgid ""
 "Select recipients using filters like Members, Prospects, or Event Attendees."
 msgstr ""
-"Выберите получателей с помощью фильтров, таких как «Резиденты», "
-"«Потенциальные клиенты» или «Участники мероприятия»."
+"Выберите получателей с помощью фильтров, таких как «Резиденты», «"
+"Потенциальные клиенты» или «Участники мероприятия»."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1644,8 +1645,8 @@ msgid ""
 "<strong>Email Marketing</strong>."
 msgstr ""
 "Отправляйте резидентам новый пароль от WiFi, информацию о предстоящих "
-"мероприятиях и важные обновления через <strong>модуль E-mail рассылки</"
-"strong>."
+"мероприятиях и важные обновления через <strong>модуль E-mail "
+"рассылки</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1740,8 +1741,9 @@ msgid ""
 "Tag opportunities by interest type (e.g., “Day Pass,” “Private Office”) for "
 "better reporting."
 msgstr ""
-"Отмечайте сделки тегами по типу интереса (например, «Доступ на день», "
-"«Личный офис») для более качественной отчетности."
+"Отмечайте сделки тегами по типу интереса "
+"(например, «Доступ на день», «Личный офис») для более качественной "
+"отчетности."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1849,7 +1851,7 @@ msgstr ""
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Welcome to the Odoo Coworking Management package!"
-msgstr "Добро пожаловать в решению для управления коворкингом от Odoo!"
+msgstr "Добро пожаловать в решение для управления коворкингом от Odoo!"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -1947,7 +1949,7 @@ msgstr "обеденный стол со скамейкой под ним"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 msgid "a large building with a clock on it"
-msgstr "большое здание с часами на нем"
+msgstr "большое здание с часами"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
