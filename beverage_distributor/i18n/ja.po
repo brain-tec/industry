@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:33+0000\n"
-"PO-Revision-Date: 2026-01-23 09:01+0000\n"
+"PO-Revision-Date: 2026-01-29 17:17+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "beverage_distributor/ja/>\n"
@@ -1482,7 +1482,8 @@ msgstr "はい"
 msgid ""
 "You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
-msgstr ""
+msgstr "POSで直接デポジットを回収することも可能です。該当プロダクトを選択し、数量をマ"
+"イナスで入力してください。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1523,7 +1524,7 @@ msgstr "🎓 CRM"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Deposit Management"
-msgstr ""
+msgstr "🎓 デポジット管理"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body

@@ -2,17 +2,17 @@
 # This file contains the translation of the following modules:
 # * spa_resort
 #
-# "Chloe Wang (chwa)" <chwa@odoo.com>, 2025.
+# "Chloe Wang (chwa)" <chwa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:54+0000\n"
-"PO-Revision-Date: 2025-12-17 15:55+0000\n"
+"PO-Revision-Date: 2026-01-29 17:22+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/spa_resort/zh_Hans/>\n"
+"projects/odoo-s19-1/spa_resort/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,7 +71,7 @@ msgstr ""
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_37_product_template
 msgid "100% Discount"
-msgstr ""
+msgstr "100% 折扣"
 
 #. module: spa_resort
 #: model:loyalty.reward,description:spa_resort.loyalty_reward_3
@@ -93,37 +93,37 @@ msgstr "15%"
 #. module: spa_resort
 #: model:loyalty.program,name:spa_resort.loyalty_program_4
 msgid "15% Off - Influencer"
-msgstr ""
+msgstr "八五折优惠 - 影响者"
 
 #. module: spa_resort
 #: model:loyalty.reward,description:spa_resort.loyalty_reward_7
 msgid "15% on specific products"
-msgstr ""
+msgstr "特定产品八五折"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "25€"
-msgstr ""
+msgstr "25€"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "29€"
-msgstr ""
+msgstr "29€"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "39€"
-msgstr ""
+msgstr "39€"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "70€"
-msgstr ""
+msgstr "70€"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "75€"
-msgstr ""
+msgstr "75€"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -131,6 +131,8 @@ msgid ""
 "<a class=\"o_translate_inline btn btn-primary\" href=\"/wellness-"
 "access\">Book your me time</a>"
 msgstr ""
+"<a class=\"o_translate_inline btn btn-primary\" href=\"/wellness-access\">预"
+"约属于自己的时间</a>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -139,6 +141,9 @@ msgid ""
 "href=\"request.env.ref('spa_resort.product_product_21').website_url\" "
 "class=\"btn btn-primary o_translate_inline\">Buy your wellness journey</a>"
 msgstr ""
+"<a t-att-href="
+"\"request.env.ref('spa_resort.product_product_21').website_url\" class="
+"\"btn btn-primary o_translate_inline\">开启您的健康之旅</a>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
@@ -199,6 +204,11 @@ msgid ""
 "            </font></strong>\n"
 "        </span>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"            <strong><font class=\"text-800\">\n"
+"                <span style=\"font-size: 30px;\">使用案例</span>\n"
+"            </font></strong>\n"
+"        </span>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -302,7 +312,7 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Coupons</strong>"
-msgstr ""
+msgstr "<strong>优惠券</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -388,86 +398,87 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Track Products</strong>"
-msgstr ""
+msgstr "<strong>追踪产品</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "<strong>Website &amp; eCommerce</strong>"
-msgstr ""
+msgstr "<strong>网站及电子商务</strong>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid ""
 "A full day of unlimited spa &amp;amp; sauna access. Perfect for unwinding "
 "and leaving daily stress behind.&amp;nbsp;"
-msgstr ""
+msgstr "全天无限次使用水疗及桑拿。非常适合放松身心，将日常压力抛诸脑后。&amp;nbsp;"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid ""
 "A rejuvenating facial ritual designed to hydrate and brighten your skin, "
 "leaving you refreshed and radiant."
-msgstr ""
+msgstr "焕发青春活力的面部护理，旨在为您的肌肤补充水分和亮泽，让您神清气爽、容光焕发"
+"。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid ""
 "A targeted massage that works deep into the muscles to release tension and "
 "improve circulation."
-msgstr ""
+msgstr "有针对性的按摩可深入肌肉，释放紧张，促进血液循环。"
 
 #. module: spa_resort
 #: model:pos.category,name:spa_resort.pos_category_1
 msgid "Accessories / Spa Essentials"
-msgstr ""
+msgstr "配件 / 水疗必需品"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Adjust schedules quickly for peak hours or last-minute changes."
-msgstr ""
+msgstr "针对高峰时段或临时变更，快速调整时间表。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Allow guests to book spa entries, massage sessions, or treatments online."
-msgstr ""
+msgstr "允许客人在线预订水疗项目、按摩疗程或护理。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Applied automatically at checkout for eligible services."
-msgstr ""
+msgstr "结账时自动应用于符合条件的服务。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Apply coupons, gift cards, or loyalty cards during the sale."
-msgstr ""
+msgstr "在促销期间使用优惠券、礼品卡或会员卡。"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_25_product_template
 msgid "Aromatherapy Massage Oil (100ml)"
-msgstr ""
+msgstr "芳香疗法按摩油（100 毫升）"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Assign <strong>staff or resources</strong> (therapists, rooms, spa areas) to "
 "each appointment."
-msgstr ""
+msgstr "为每个预约分配 <strong>工作人员或资源</strong>（治疗师、房间、水疗区）。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Assign roles: Front Desk, Therapist, Event Support."
-msgstr ""
+msgstr "分配角色： 前台、治疗师、活动支持。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Auto-assign staff based on availability and role."
-msgstr ""
+msgstr "根据可用性和角色自动分配员工。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Automatically send unique codes to recipients after purchase."
-msgstr ""
+msgstr "购买后自动向收件人发送唯一代码。"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_22_product_template
@@ -478,7 +489,7 @@ msgstr "浴袍租赁"
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Book now, relax soon"
-msgstr ""
+msgstr "现在预订，马上放松"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -502,19 +513,19 @@ msgstr "关闭"
 msgid ""
 "Confirm orders with suppliers for products and recurring services (e.g., "
 "cleaning)."
-msgstr ""
+msgstr "与供应商确认产品和经常性服务（如清洁）订单。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Connect appointments and products so availability is always accurate."
-msgstr ""
+msgstr "将预约和产品连接起来，以确保可用性始终准确。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Connect each appointment to a product so bookings, payments, and "
 "availability are synchronized."
-msgstr ""
+msgstr "将每个预约连接到产品，以便同步预订、付款和可用性。"
 
 #. module: spa_resort
 #: model:loyalty.program,portal_point_name:spa_resort.loyalty_program_3
@@ -524,36 +535,36 @@ msgstr "优惠券积分"
 #. module: spa_resort
 #: model:loyalty.program,name:spa_resort.loyalty_program_3
 msgid "Coupon program"
-msgstr ""
+msgstr "优惠券计划"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Create Your Wellness Offers"
-msgstr ""
+msgstr "创建您的健康优惠"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Create an appointment for each service:"
-msgstr ""
+msgstr "为每项服务创建预约："
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Create pricelists for different guest categories (e.g., weekdays/weekends, "
 "seniors, students)."
-msgstr ""
+msgstr "为不同的客人类别（如平日/周末、老年人、学生）创建价目表。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Day Pass - Serenity Escape"
-msgstr ""
+msgstr "全日通票 - 谧境出逃"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_4
 #: model:product.template,name:spa_resort.product_product_27_product_template
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Day Pass – Serenity Escape"
-msgstr ""
+msgstr "全日通票 - 谧境出逃"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_1
@@ -584,58 +595,59 @@ msgid ""
 "Discover our spa facilities with flexible day passes and memberships. "
 "Whether you come for a full day, a student break, or a senior retreat, we "
 "have the perfect option for you."
-msgstr ""
+msgstr "使用灵活的日票和会员卡，探索我们的水疗设施。无论您是全天游玩、学生假期还是老"
+"年疗养，我们都能为您提供完美的选择。"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_3
 #: model:product.template,name:spa_resort.product_product_32_product_template
 msgid "Duo Massage (2 persons)"
-msgstr ""
+msgstr "双人按摩（2 人）"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Each time they book a spa day, they apply one prepaid entry."
-msgstr ""
+msgstr "每次预订水疗日，都可使用一次预付费项目。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Enable <strong>automatic confirmations and reminders</strong> for guests."
-msgstr ""
+msgstr "为客人启用<strong>自动确认和提醒</strong>。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Enable online payments via credit card, PayPal, or bank transfer."
-msgstr ""
+msgstr "可通过信用卡、PayPal 或银行转账进行在线支付。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Example: <em>10-Day Wellness Pass</em> → guests buy a prepaid card for 10 "
 "spa entrances."
-msgstr ""
+msgstr "例如：<em>10天健康通行证</em>→ 客人购买预付卡，用于 10 次水疗入口。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Example: <em>Bongo or Vivabox Voucher</em> → fixed discount applied on "
 "selected entries or massages."
-msgstr ""
+msgstr "示例：<em>Bongo 或 Vivabox 代金券</em> → 对选定项目或按摩应用固定折扣。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Example: <em>WELLNESS10</em> → 10% off for influencer promotions."
-msgstr ""
+msgstr "示例：<em>WELLNESS10</em> → 影响者推广可享受 10% 折扣。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Example: <em>€50 Gift Card</em> → can be redeemed for any spa service."
-msgstr ""
+msgstr "示例：<em>50欧元礼品卡</em> → 可兑换任何水疗服务。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "Explore Treatments"
-msgstr ""
+msgstr "探索治疗"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -643,12 +655,13 @@ msgid ""
 "Explore our range of services designed to support your health and well-"
 "being. <br/> Our offerings are crafted to meet the unique needs of each "
 "individual. <br/><br/>"
-msgstr ""
+msgstr "探索我们一系列旨在支持您健康和福祉的服务。<br/>我们的服务专为满足每个人的独特"
+"需求而设计。<br/><br/>"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_34_product_template
 msgid "Free relax time"
-msgstr ""
+msgstr "自由放松时间"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_20_product_template
@@ -666,30 +679,30 @@ msgstr "礼品卡"
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Golden Age Retreat (65+)"
-msgstr ""
+msgstr "颐年静修（65 岁以上）"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Import external codes into Odoo for online redemption."
-msgstr ""
+msgstr "将外部编码导入 Odoo 系统，支持线上核销。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Include multiple services in one quotation (entries + massages + add-ons)."
-msgstr ""
+msgstr "可在单一报价单中包含多项服务（入场服务 + 按摩服务 + 增值项目）。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Keep front desk and spa operations running smoothly."
-msgstr ""
+msgstr "保障前台与水疗中心运营高效顺畅。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Link pricelists to appointments so the correct price is applied "
 "automatically."
-msgstr ""
+msgstr "将价目表与预约单关联，实现价格自动精准匹配。"
 
 #. module: spa_resort
 #: model:loyalty.program,portal_point_name:spa_resort.loyalty_program_2
@@ -699,44 +712,44 @@ msgstr "会员积分"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Manage Inventory &amp; Services"
-msgstr ""
+msgstr "管理库存和服务"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Massage &amp; Treatment Services: Relaxing Massage, Deep Tissue, Radiance "
 "Facial"
-msgstr ""
+msgstr "按摩及护理服务：舒缓按摩、深层组织按摩、焕彩面部护理"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "Massage therapist giving a back massage."
-msgstr ""
+msgstr "按摩师提供背部按摩服务"
 
 #. module: spa_resort
 #: model:website.menu,name:spa_resort.website_menu_2
 msgid "Massages & Treatments"
-msgstr ""
+msgstr "按摩与护理服务"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "Massages &amp;amp; Treatments"
-msgstr ""
+msgstr "按摩与护理服务"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "Massages &amp;amp; Treatments<br/><br/>"
-msgstr ""
+msgstr "按摩与护理服务<br/><br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Monitor bathrobes, slippers, oils, creams, and other consumables."
-msgstr ""
+msgstr "对浴袍、拖鞋、精油、润肤乳及其他消耗品进行库存监控"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Odoo for Spa Resort"
-msgstr ""
+msgstr "水疗度假酒店专属 Odoo 解决方案"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -750,7 +763,7 @@ msgstr "Odoo 完全整合在一个应用中。下载该应用，即可在手机�
 msgid ""
 "Odoo lets you sell your wellness offers both online and on-site, and create "
 "custom quotations for special requests."
-msgstr ""
+msgstr "Odoo 支持您线上线下同步售卖康养服务套餐，亦可针对个性化需求定制专属报价单。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -765,12 +778,12 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Offer <strong>seasonal promotions</strong> or group discounts."
-msgstr ""
+msgstr "推出<strong>时令特惠</strong>及团体折扣。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Once all 10 visits are used, future bookings are paid normally."
-msgstr ""
+msgstr "10 次体验额度使用完毕后，后续预约将按常规价格计费。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -778,7 +791,8 @@ msgid ""
 "Our journey began with a commitment to holistic health and well-being. From "
 "a small team, we've evolved into a wellness center dedicated to enhancing "
 "lives through personalized care and community support."
-msgstr ""
+msgstr "我们始终秉持全维健康的初心起步，从最初的小团队，逐步发展为一家以个性化护理与"
+"社群支持赋能美好生活的康养中心。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -790,23 +804,23 @@ msgstr "弹出"
 msgid ""
 "Quickly create custom offers for corporate wellness days, retreats, or "
 "private events."
-msgstr ""
+msgstr "可快速为企业康养日、静修活动及私人定制活动打造专属服务方案。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "Radiance Facial (50 min)&amp;nbsp;"
-msgstr ""
+msgstr "焕彩面部按摩护理（50 分钟）&amp;nbsp;"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_2
 #: model:product.template,name:spa_resort.product_product_31_product_template
 msgid "Radiance Facial Massage"
-msgstr ""
+msgstr "焕彩面部按摩护理"
 
 #. module: spa_resort
 #: model:planning.role,name:spa_resort.planning_role_1
 msgid "Reception"
-msgstr "接收"
+msgstr "前台"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -814,22 +828,23 @@ msgid ""
 "Relax, restore, and recharge with our selection of massages and body "
 "treatments. From soothing aromatherapy to deep tissue relief, our therapists "
 "are here to care for you."
-msgstr ""
+msgstr "多款按摩及身体护理项目，助您舒缓身心、焕活状态、重拾活力。从轻柔的香薰按摩到"
+"深层舒缓的组织护理，专业理疗师为您全程贴心服务。"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_24_product_template
 msgid "Relaxing Body Cream (250ml)"
-msgstr ""
+msgstr "舒缓身体乳（250 毫升）"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_26_product_template
 msgid "Revitalizing Face Mask (50ml)"
-msgstr ""
+msgstr "焕活修护面膜（50 毫升）"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Schedule Your Reception &amp; Support Staff"
-msgstr ""
+msgstr "前台及后勤人员排班管理"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -839,34 +854,34 @@ msgstr "预约演示"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "See assigned appointments and tasks at a glance."
-msgstr ""
+msgstr "已分配的预约及工作任务，一目了然。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Sell Your Spa Services Online and On-Site"
-msgstr ""
+msgstr "水疗服务线上线下一体化售卖"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Sell spa entries, bathrobe/slippers rentals, and cosmetics directly at "
 "reception."
-msgstr ""
+msgstr "在前台直接出售水疗券、浴袍/拖鞋租赁以及化妆品。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Send professional quotations automatically or manually via email."
-msgstr ""
+msgstr "通过电子邮件自动或手动发送专业报价。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Set automatic reorder rules to avoid running out of essentials."
-msgstr ""
+msgstr "设置自动重新订购规则，避免必需品短缺。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Set spa operating hours (e.g., 8am–8pm, Monday–Sunday)."
-msgstr ""
+msgstr "设定水疗中心的营业时间（如周一至周日上午 8 点至晚上 8 点）。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
@@ -875,23 +890,25 @@ msgid ""
 "treatment, or product at our resort.&amp;nbsp;<br/>A thoughtful present for "
 "someone special.<br/><br/>"
 msgstr ""
+"赠予一份松弛疗愈的美好心意，本礼券可在本店兑换任意水疗入场体验、护理项目及馆"
+"内产品。&amp;nbsp;<br/>致珍贵之人的暖心之选。<br/><br/>"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid ""
 "Share the spa experience with someone special. Two therapists provide a "
 "synchronized massage in a private room."
-msgstr ""
+msgstr "与挚爱共享水疗体验，专属私享空间内，两位理疗师为您提供同步按摩服务。"
 
 #. module: spa_resort
 #: model:product.template,name:spa_resort.product_product_23_product_template
 msgid "Slippers Rental"
-msgstr ""
+msgstr "拖鞋租赁"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Staff can view schedules in their portal or via email."
-msgstr ""
+msgstr "员工可通过专属工作台或邮件查看工作排班。"
 
 #. module: spa_resort
 #: model:appointment.type,name:spa_resort.appointment_type_6
@@ -899,21 +916,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Student Wellness Break"
-msgstr ""
+msgstr "学生焕活休憩体验"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid ""
 "The ideal choice for regular visitors. Come back again and again to recharge "
 "your body and mind."
-msgstr ""
+msgstr "常客臻选体验，常来常新，为身心充能焕活。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "This ensures that guests can book online or at reception and see real-time "
 "availability."
-msgstr ""
+msgstr "系统支持宾客线上预订、前台预订，且可实时查看服务可预约余量。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -923,59 +940,63 @@ msgid ""
 "helps you manage everything in one place: bookings, massages and  "
 "treatments, gift cards, staff planning, and guest experiences."
 msgstr ""
+"本套应用方案适配各规模水疗度假酒店，无论您主打日间体验券、舒缓按摩，还是健康"
+"休养套餐，Odoo 均可实现一站式管理：预订统筹、按摩及理疗服务、礼品卡、员工排班"
+"、宾客体验全流程把控。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Track deliveries and record vendor bills."
-msgstr ""
+msgstr "追踪产品配送，记录供应商账单。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Track essential spa products and stock levels."
-msgstr ""
+msgstr "管理水疗核心耗材，实时监控库存水平。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Track payment methods (cash, card) and generate receipts automatically."
-msgstr ""
+msgstr "记录支付方式（现金、刷卡），自动生成消费凭证。"
 
 #. module: spa_resort
 #: model:pos.category,name:spa_resort.pos_category_2
 msgid "Treatments / Wellness Products"
-msgstr ""
+msgstr "理疗服务 / 康养产品"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "View Wellness Entries"
-msgstr ""
+msgstr "查看康养服务记录"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "Welcome to the Odoo Spa Resort Management package!"
-msgstr ""
+msgstr "欢迎使用 Odoo 水疗度假酒店管理套件！"
 
 #. module: spa_resort
 #: model:pos.category,name:spa_resort.pos_category_3
 #: model:website.menu,name:spa_resort.website_menu_1
 msgid "Wellness Access"
-msgstr ""
+msgstr "康养体验通行权限"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "Wellness Access &amp;amp; Spa Entries"
-msgstr ""
+msgstr "康养体验通行权限 & 水疗服务记录"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "Wellness Gift Card – €50"
-msgstr ""
+msgstr "康养礼品卡 ——50 欧元"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid ""
 "Whether it's a day pass, massage treatment, or gift card, Odoo makes your "
 "offer setup easy."
-msgstr ""
+msgstr "无论日间体验券、理疗按摩服务，还是礼品卡，Odoo 都能让您的产品上架配置轻松便捷"
+"。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -983,7 +1004,8 @@ msgid ""
 "With connected tools like Appointments, Website &amp; eCommerce, POS, and "
 "Planning, you can save time on administration and focus more on delivering "
 "relaxation and wellbeing for your visitors.❇️"
-msgstr ""
+msgstr "对接预约、官网及电子商务、收银点单、员工排班等联动工具，大幅减少日常行政工作"
+"耗时，让您能更专注地为宾客打造舒享放松、焕活身心的体验。❇️"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -1011,7 +1033,8 @@ msgstr ""
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Spa Resort package and check the related box."
-msgstr ""
+msgstr "尚未导入演示数据？现在操作仍可完成。前往应用程序 → 行业方案 → 升级水疗度假酒"
+"店套件，勾选对应选项即可。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -1025,17 +1048,17 @@ msgstr ""
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "Your body, your soul, your mind."
-msgstr ""
+msgstr "身之舒享，心之宁静，灵之治愈。"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "a basket filled with rocks sitting on top of a wooden table"
-msgstr ""
+msgstr "石簇摆件，静置木桌之上"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "a large indoor swimming pool with a view of the trees"
-msgstr ""
+msgstr "阔境室内泳池，林景入窗尽览"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -1050,12 +1073,12 @@ msgstr "and"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "brown wooden round table near gray concrete wall"
-msgstr ""
+msgstr "灰调水泥墙旁，棕木圆桌一隅"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
 msgid "documentation"
-msgstr "文档"
+msgstr "说明文档"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -1065,17 +1088,17 @@ msgstr "如果您需要帮助！"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "person holding amber glass bottle"
-msgstr ""
+msgstr "琥珀玻璃瓶执于掌心"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "persons hand on top of sun"
-msgstr ""
+msgstr "掌心轻托沐光而憩"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.wellness_access
 msgid "red and brown tunnel with glass windows"
-msgstr ""
+msgstr "红棕调玻璃穹廊光影交织"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.welcome_article_body
@@ -1085,9 +1108,9 @@ msgstr "申请演示"
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.massages_treatments
 msgid "rule of thirds photography of lit candle"
-msgstr ""
+msgstr "三分构图，烛火暖影"
 
 #. module: spa_resort
 #: model_terms:ir.ui.view,arch_db:spa_resort.homepage
 msgid "water ripple"
-msgstr ""
+msgstr "水波涟漪"

@@ -7,21 +7,22 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:28+0000\n"
-"PO-Revision-Date: 2025-11-14 08:32+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-01-29 17:17+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
-"projects/odoo-19/agriculture_shop/zh_Hant/>\n"
+"projects/odoo-s19-1/agriculture_shop/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_28
@@ -158,6 +159,9 @@ msgid ""
 "track of stock levels for diverse products\n"
 "                like pesticides and equipment."
 msgstr ""
+"<b><font class=\"text-o-color-1\">庫存應用程式</font></b>：精確追蹤殺蟲劑、設"
+"備等\n"
+"                各類產品的庫存水平。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -166,6 +170,8 @@ msgid ""
 "store transactions efficiently, handling sales of seeds, tools, and supplies "
 "with ease."
 msgstr ""
+"<b><font class=\"text-o-color-1\">POS 銷售點管理應用程式</font></b>：高效率地"
+"管理實體店交易，輕鬆處理種子、工具等各類用品的銷售工作。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -174,6 +180,8 @@ msgid ""
 "procurement of farming products from suppliers, managing costs and lead "
 "times."
 msgstr ""
+"<b><font class=\"text-o-color-1\">採購應用程式</font></b>：簡化向供應商採購農"
+"產品的流程，控制成本及交貨時間。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -181,6 +189,8 @@ msgid ""
 "<b><font class=\"text-o-color-1\">Sales App:</font></b> Handle B2B orders "
 "and contracts for large farming clients, ensuring accurate pricing."
 msgstr ""
+"<b><font class=\"text-o-color-1\">銷售應用程式</font></b>：處理大型農場客戶的"
+" B2B 訂單及合約，確保定價準確。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -189,6 +199,8 @@ msgid ""
 "o-color-3\"> Build a professional online presence to showcase your catalog "
 "and attract new customers.</font>"
 msgstr ""
+"<b><font class=\"text-o-color-1\">網站製作應用程式</font></b>：<font class="
+"\"text-o-color-3\">建立專業的線上形象，展示你的產品目錄，吸引新客戶。</font>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -196,6 +208,8 @@ msgid ""
 "<b><font class=\"text-o-color-1\">eCommerce App:</font></b> Expand your "
 "reach by selling products online, offering convenience to modern farmers."
 msgstr ""
+"<b><font class=\"text-o-color-1\">電子商務應用程式</font></b>：運用網店線上銷"
+"售產品，擴大生意範圍，為現代農民提供方便快捷的購物方式。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -204,6 +218,8 @@ msgid ""
 "tax\n"
 "                    reports."
 msgstr ""
+"<b>會計</b>：自動記錄付款資料、關閉營業時段，\n"
+"                    並產生稅務報告。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -211,6 +227,8 @@ msgid ""
 "<b>Automated Trigger</b> will instantly create a\n"
 "                    purchase order."
 msgstr ""
+"<b>自動觸發器</b>會即時建立一張\n"
+"                    採購訂單。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -220,6 +238,9 @@ msgid ""
 "<b>Delivery Order</b>, just\n"
 "                    as it does for a regular e-commerce order."
 msgstr ""
+"<b>自動送貨</b>：報價單獲接納後，\n"
+"                    系統會自動建立一張關聯的<b>送貨單</b>，\n"
+"                    就如一般的電子商務網店訂單一樣。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -228,6 +249,9 @@ msgid ""
 "                    Us\"</b> page instantly generates a new <b>CRM "
 "opportunity</b>."
 msgstr ""
+"<b>捕捉客戶需求</b>：透過「<b>聯絡我們</b>」\n"
+"                    頁面提交的任何請求，都會即時產生一項新的 <b>CRM 銷售商機<"
+"/b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -239,6 +263,10 @@ msgid ""
 "customer check-in is\n"
 "                    required for ordering, etc.)."
 msgstr ""
+"<b>關鍵檢查</b>：請務必審查所有電子商務設定，\n"
+"                    確保它們與你公司的內部業務政策一致，\n"
+"                    例如：何時產生發票、是否要求客戶\n"
+"                    必須登入才可訂購等。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -249,6 +277,9 @@ msgid ""
 "                    website so the customer sees their agreed-upon prices "
 "upon login."
 msgstr ""
+"<b>制定 B2B 價目表</b>：你可為每位 B2B 聯絡人建立及指定<b>專屬價目表</b>。\n"
+"                    記得將相關價目表設定為在網站上可用，\n"
+"                    讓客戶登入後即可看見雙方協定的價格。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -258,6 +289,9 @@ msgid ""
 "available options and\n"
 "                    their costs."
 msgstr ""
+"<b>送貨方式</b>：前往<b>網站 &gt; \n"
+"                    配置 &gt; 送貨方式</b>，定義所有可用選項及\n"
+"                    相關費用。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -265,6 +299,8 @@ msgid ""
 "<b>E-commerce Category:</b> For easier product\n"
 "                    retrieval by customers on your online store."
 msgstr ""
+"<b>電子商務類別</b>：方便顧客在你的網店中，\n"
+"                    更輕鬆地找到心儀商品。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -274,6 +310,9 @@ msgid ""
 "with specific shipping\n"
 "                            carriers."
 msgstr ""
+"<b>外部服務商</b>：若與特定運輸商合作，\n"
+"                            請檢查是否有預先設定的 Odoo 連接功能\n"
+"                            可用。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -282,6 +321,8 @@ msgid ""
 "or\n"
 "                maintenance services</b>."
 msgstr ""
+"<b>外勤服務</b>：若你<b>提供上門維修或保養維護服務</b>，\n"
+"                請安裝及推行此模組。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -291,6 +332,9 @@ msgid ""
 "the setting</b> within\n"
 "                            the <b>Website Settings</b> first."
 msgstr ""
+"<b>店內取貨（網購店取）</b>：\n"
+"                            若想提供此功能，必須先在<b>網站設定</b>中，\n"
+"                            <b>啟動相關設定</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -304,6 +348,8 @@ msgid ""
 "                    presentation and layout of products using the <b>website "
 "editor</b>."
 msgstr ""
+"<b>版面設定</b>：利用<b>網站編輯器</b>，\n"
+"                    調整產品的視覺顯示方式及版面佈局。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -313,6 +359,9 @@ msgid ""
 "and increase lifetime\n"
 "                            value."
 msgstr ""
+"<b>會員/忠誠度計劃</b>：推行<b>會員卡</b>作為核心\n"
+"                            策略，以<b>提升客戶留存率</b>，增加客戶的終身\n"
+"                            價值。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -323,6 +372,10 @@ msgid ""
 "                    Reordering rules work in conjunction with defined lead "
 "times.)</i>"
 msgstr ""
+"<b>手動觸發</b>後，\n"
+"                    庫存的<b>補貨檢視畫面</b>會顯示需求量，讓你確認。<b>請留"
+"意：\n"
+"                    重新訂購規則需配合所設定的交貨期一同使用。</b><i></i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -332,6 +385,8 @@ msgid ""
 "            Suggested Replenishment</b> to ensure a comprehensive, forecast-"
 "aware stock follow-up."
 msgstr ""
+"透過<b>結合重新訂購規則及補貨建議功能</b>，你可輕鬆實現\n"
+"            <b>最適化庫存管理</b>，確保全面、妥善掌控預測數據的庫存追蹤工作。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -343,6 +398,11 @@ msgid ""
 "card processors, PayPal,\n"
 "                    etc.)."
 msgstr ""
+"<b>付款服務商及付款方式</b>：前往<b>網站 \n"
+"                    &gt; 配置 &gt; 付款服務商</b>，安裝<b>所有</b>你打算提供"
+"的\n"
+"                    付款方式及付款服務商，例如：信用卡處理商、PayPal \n"
+"                    等。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -351,6 +411,8 @@ msgid ""
 "holiday\n"
 "                requests</b>."
 msgstr ""
+"<b>薪酬管理</b>：使用此功能，<b>處理員工薪酬及管理休假\n"
+"                申請</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -358,6 +420,8 @@ msgid ""
 "<b>Point of Sale Category:</b> For organizing\n"
 "                    transactions within your shop system."
 msgstr ""
+"<b>POS 銷售點類別</b>：可用作整理\n"
+"                    商店系統中的交易資料。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -368,6 +432,10 @@ msgid ""
 "                            and enabling <b>client-specific pricing "
 "contracts</b>."
 msgstr ""
+"<b>價目表細分</b>：你可為同一項產品設定多種定價結構，\n"
+"                            支援各類業務模式（例如：B2B 企業對企業、B2C 企業"
+"對消費者等），\n"
+"                            同時支援<b>為指定客戶制定特別價格合約</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -375,6 +443,8 @@ msgid ""
 "<b>Product Category:</b> For internal tracking and\n"
 "                    reporting."
 msgstr ""
+"<b>產品類別</b>：可用於內部追蹤及\n"
+"                    資料匯報。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -382,6 +452,8 @@ msgid ""
 "<b>Product-Level Settings:</b> Define core product\n"
 "                    settings directly on the <b>product form</b>."
 msgstr ""
+"<b>產品級別設定</b>：可直接在<b>產品表單</b>上，\n"
+"                    設定核心產品資料及設定。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -391,6 +463,9 @@ msgid ""
 "give targeted, <b>manual\n"
 "                            reductions</b> at the point of sale."
 msgstr ""
+"<b>優惠靈活度</b>：利用<b>折扣及促銷優惠</b>，\n"
+"                            快速調整促銷活動的優惠價格，或在銷售點\n"
+"                            <b>手動打折</b>、提供有針對性的折扣。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -398,6 +473,8 @@ msgid ""
 "<b>Publishing:</b> Each product can be <b>published\n"
 "                    independently</b> on your online store."
 msgstr ""
+"<b>發佈</b>：每項產品都可在你的網店上\n"
+"                    <b>獨立發佈</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -408,6 +485,10 @@ msgid ""
 "                    specific product, a supplier inquiry, or general "
 "information."
 msgstr ""
+"<b>評定潛在客戶資格</b>：利用 CRM 客戶關係管理系統，\n"
+"                    與客戶保持互動，充份理解他們的需求，\n"
+"                    無論是想尋找指定產品，供應商諮詢，還是一般查詢，都妥善管"
+"理。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -417,6 +498,10 @@ msgid ""
 "the opportunity</b>. The\n"
 "                    client can then <b>confirm and sign it online</b>."
 msgstr ""
+"<b>報價及確認</b>：若某項需求\n"
+"                    需要特別定價，<b>可在銷售商機畫面中，直接產生報價單</b>。"
+"\n"
+"                    客戶隨後可<b>透過線上方式，確認並簽署報價單</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -431,6 +516,10 @@ msgid ""
 "package.</font>\n"
 "                </strong></font>"
 msgstr ""
+"<font color=\"#343541\">歡迎使用 <strong>\n"
+"                    <font class=\"text-o-color-1\">Odoo 農業用品商店套裝</fon"
+"t>！\n"
+"                </strong></font>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -498,6 +587,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🚀</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label=\"橫幅成"
+"功\">🚀</i>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -525,6 +616,9 @@ msgid ""
 "                <strong>Agricultural Store</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>農業用品商店</strong>\n"
+"            </span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -534,6 +628,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>活動</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -542,26 +640,29 @@ msgid ""
 "                <strong>Basics</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>基礎知識</strong>\n"
+"            </span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your products️ and inventory 📦</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">管理你的產品及庫存 📦</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your website 🌐</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">管理你的網站 🌐</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Selling Online 💻️</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">透過線上銷售 💻️</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span class=\"h2-fs\">Selling in the Store 🛍️</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">實體店銷售 🛍️</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -570,6 +671,9 @@ msgid ""
 "                <strong>Method A: Reordering Rules</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h5-fs\">\n"
+"                <strong>方法 A：重新訂購規則</strong>\n"
+"            </span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -578,6 +682,9 @@ msgid ""
 "                <strong>Method B: Suggested Replenishment</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h5-fs\">\n"
+"                <strong>方法 B：補充建議</strong>\n"
+"            </span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -699,17 +806,17 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 CRM</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 客戶關係</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Delivery Methods</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 送貨方式</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Hardware</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 硬件</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -719,7 +826,7 @@ msgstr "<span style=\"font-weight: normal;\">🎓 重新訂購規則</span>"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Sales</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 銷售</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -731,6 +838,11 @@ msgid ""
 "specific weight, and the\n"
 "                final price will be calculated immediately.<br/>"
 msgstr ""
+"<strong/>若要在 POS 銷售點操作時段中開始下單，\n"
+"                請掃瞄或選取所有商品。對於按重量（克或公斤）計算售價的商品，"
+"\n"
+"                系統會自動彈出相關視窗。請輸入具體重量，\n"
+"                然後系統會即時計算最終價格。<br/>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -743,32 +855,32 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>1. Configure Products and Their Display</u>"
-msgstr ""
+msgstr "<u>1. 配置產品及其顯示方式</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>1. Create and Categorize Products</u>"
-msgstr ""
+msgstr "<u>1. 建立產品記錄並分類</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>2. Define Replenishment Methods</u>"
-msgstr ""
+msgstr "<u>2. 定義補貨方式</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>2. Review General E-commerce Policies</u>"
-msgstr ""
+msgstr "<u>2. 審視一般電子商務政策</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "<u>3. Set Up Payment and Delivery</u>"
-msgstr ""
+msgstr "<u>3. 設定付款及送貨方式</u>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Accept multiple payment options: cash, card, and mobile payments."
-msgstr ""
+msgstr "接受多種付款方式：現金、付款卡、流動支付等。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -778,7 +890,7 @@ msgstr "會計及銷售管理"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Accurately <b>update the inventoried quantity</b>."
-msgstr ""
+msgstr "準確<b>更新庫存數量</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -789,6 +901,9 @@ msgid ""
 "factor if you anticipate a\n"
 "            change in demand."
 msgstr ""
+"啟用此功能後，應用程式可根據設定的天數，\n"
+"            計算建議的補貨數量。如果預計需求會有變化，\n"
+"            也可採用百分比系數計算。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.homepage
@@ -833,7 +948,7 @@ msgstr "B2B（企業對企業）"
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "B2B Customer Configuration and Sales Workflow<span class=\"h2-fs\">🤝</span>"
-msgstr ""
+msgstr "B2B 客戶配置及銷售工作流程 <span class=\"h2-fs\">🤝</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -866,6 +981,8 @@ msgid ""
 "By uploading this module's demo data, your database has been\n"
 "            filled with a few contacts."
 msgstr ""
+"上載此模組的模擬數據後，資料庫現已\n"
+"            載入幾名聯絡人的資料。"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_6_product_template
@@ -924,6 +1041,8 @@ msgid ""
 "Decide whether to allow sales of <b>out-of-stock\n"
 "                    products</b>."
 msgstr ""
+"決定是否允許銷售<b>缺貨\n"
+"                    產品</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -934,6 +1053,10 @@ msgid ""
 "                    attribute to prevent the system from creating separate "
 "stock entities.</i>"
 msgstr ""
+"為不同款式設定<b>產品變體</b>，\n"
+"                    改善電商客戶的購物旅程體驗。<b>重要提示：\n"
+"                    每項屬性應只指派一個值，以防止系統建立重複的庫存實體。"
+"</b><i></i>"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_34
@@ -981,6 +1104,10 @@ msgid ""
 "                    of Sale &gt; Three dot menu &gt; IoT Box &gt; Electronic "
 "Scale)."
 msgstr ""
+"將計量單位設定為<strong>克或公斤</strong>，\n"
+"                    便可為自選配搭糖果啟用<strong>按重量定價</strong>。（前往"
+" \n"
+"                    POS &gt; 三點圖示選單 &gt; IoT Box &gt; 電子磅秤）"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_37
@@ -1046,11 +1173,13 @@ msgid ""
 "For full automation, connect a scale to your POS system using\n"
 "                    anIoT Box."
 msgstr ""
+"要完全自動化，請使用 IoT Box 將磅秤連接至你的 POS \n"
+"                    系統。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Generate printed or digital receipts for customers."
-msgstr ""
+msgstr "為客戶產生紙本或電子收據。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -1088,6 +1217,10 @@ msgid ""
 "the <b>Replenishment</b>\n"
 "                    view (as detailed in the inventory settings)."
 msgstr ""
+"如果已為線上訂單預留的產品，之後在實體商店售出，\n"
+"                    系統會識別由此引致的庫存短缺，\n"
+"                    而該產品的新需求，會顯示在<b>補貨</b>\n"
+"                    檢視畫面中（按照庫存設定的詳細設定）。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1097,6 +1230,9 @@ msgid ""
 "and then apply the\n"
 "                        specific tracking type to the products themselves."
 msgstr ""
+"若要<b>追蹤產品的批次及有效期</b>，\n"
+"                        請先在<b>庫存設定</b>啟用這些功能，\n"
+"                        然後將特定的追蹤類型，套用至產品本身。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1111,7 +1247,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "It automatically creates a <b>Sales Order</b> in your Sales App."
-msgstr ""
+msgstr "系統會在你的銷售應用程式中，自動建立一張<b>銷售單</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1121,6 +1257,9 @@ msgid ""
 "and E-commerce</b>\n"
 "            applications is key to accelerating growth in this sector."
 msgstr ""
+"套裝整合了多個 Odoo 必備模組，包括 <b>POS 銷售點管理、\n"
+"            庫存、銷售、採購</b>等。若能夠好好利用<b>網站製作及電子商務</b>\n"
+"            應用程式，是在行業中加速增長的關鍵。"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_51
@@ -1181,6 +1320,8 @@ msgid ""
 "Navigate to <b>Website Settings</b> to configure\n"
 "                    global e-commerce policies."
 msgstr ""
+"前往<b>網站設定</b>，\n"
+"                    配置全域電子商務政策。"
 
 #. module: agriculture_shop
 #: model:crm.tag,name:agriculture_shop.crm_tag_30
@@ -1216,6 +1357,10 @@ msgid ""
 "                        <br/>\n"
 "                    </s>"
 msgstr ""
+"Odoo 系統已完全整合至這個應用程式中。下載使用，\n"
+"                    <b>只需一部手機，便可管理整個業務</b>。<s>\n"
+"                        <br/>\n"
+"                    </s>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1225,6 +1370,9 @@ msgid ""
 "individual packaged seeds,\n"
 "            or bulk pick &amp; mix, Odoo has you covered."
 msgstr ""
+"Odoo 的 <strong>POS 銷售點管理</strong>系統，可確保你的農業用品商店\n"
+"            實現快速流暢的交易。無論你是零售獨立包裝的種子，\n"
+"            還是散裝批發自選配搭產品，Odoo 都能滿足你的需要。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1234,6 +1382,9 @@ msgid ""
 "data, and test everything\n"
 "            around!"
 msgstr ""
+"當然，這只是此軟體套裝所涵蓋功能的概述。\n"
+"            你可隨意加入新的應用程式、刪除或修改模擬資料，並在不同介面\n"
+"            盡情測試！"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.soil_guard_vermi_compost_powder
@@ -1257,13 +1408,15 @@ msgid ""
 "Once products are created, you must establish how and when\n"
 "            they should be restocked. There are two primary methods:"
 msgstr ""
+"完成建立產品後，你必須設定補貨的方式及時機。\n"
+"            主要有兩種補貨方法："
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid ""
 "Once your core operations are running smoothly, consider expanding your "
 "toolset:"
-msgstr ""
+msgstr "核心業務開始流暢運作後，便可考慮擴展工具套裝："
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_8_product_template
@@ -1433,6 +1586,8 @@ msgid ""
 "Set <b>minimal and maximal stock levels</b> for a product.\n"
 "            Based on your trigger setting (Automated or Manual):"
 msgstr ""
+"為產品設定<b>最低及最高庫存水平</b>。\n"
+"            根據你所設定的觸發機制（自動或手動）："
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_21_product_template
@@ -1467,6 +1622,9 @@ msgid ""
 "distinct categories to\n"
 "            provide maximum flexibility across your business:"
 msgstr ""
+"首先，在<b>產品</b>分頁建立各項產品記錄，\n"
+"            填寫所有必要的資料。系統使用三種不同的產品類別，\n"
+"            為你的業務提供最大的靈活度："
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -1484,6 +1642,8 @@ msgid ""
 "The <b>Inventory app</b> is very powerful. If your warehouse needs enhanced\n"
 "                    features for better product tracking, consult the"
 msgstr ""
+"<b>庫存應用程式</b>功能強大，若你的倉庫需要增強功能，\n"
+"                    以更好地追蹤產品，請參閱"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_22_product_template
@@ -1502,6 +1662,8 @@ msgid ""
 "The Delivery Order instantly <b>reserves the ordered product</b> in your\n"
 "                    inventory."
 msgstr ""
+"送貨單會即時在你的庫存記錄中，<b>預留已被訂購的產品</b>\n"
+"                    。"
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_19_product_template
@@ -1573,6 +1735,8 @@ msgid ""
 "interactions\n"
 "                    effectively:"
 msgstr ""
+"這些工具可以幫助你有效管理銷售策略\n"
+"                    及與客戶的互動："
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_14_product_template
@@ -1592,7 +1756,7 @@ msgstr ""
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "This Sales Order generates a linked <b>Delivery Order</b>."
-msgstr ""
+msgstr "此銷售單會產生一張相關聯的<b>送貨單</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1602,6 +1766,9 @@ msgid ""
 "ensuring your inventory\n"
 "            data is always accurate."
 msgstr ""
+"這款強大的庫存應用程式，\n"
+"            助你完全掌控<b>產品目錄</b>及<b>庫存數據管理</b>，\n"
+"            確保你的庫存數據時刻準確無誤。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1613,6 +1780,11 @@ msgid ""
 "offering organized categories\n"
 "            like <b>seeds, pesticides, nutrition, and equipment</b>."
 msgstr ""
+"此解決方案旨在協助你管理農業用品零售業務的不同範疇，\n"
+"            支援農產品的 <b>B2B（企業對企業）及 B2C（企業對消費者）銷售</b>。"
+"\n"
+"            套裝涵蓋 <b>POS 銷售點管理及網站營運</b>，提供多種產品分類，\n"
+"            例如<b>種子、殺蟲劑、肥料、設備</b>等。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1622,6 +1794,9 @@ msgid ""
 "configure the settings to suit\n"
 "            your Agricultural Store."
 msgstr ""
+"要快速了解此 Odoo 套裝支援的功能，\n"
+"            你可執行以下流程，並配置適當的設定，\n"
+"            以配合你的農業用品店的運作方式。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1635,6 +1810,13 @@ msgid ""
 "physically segregating the\n"
 "                    items is essential to guarantee fulfillment."
 msgstr ""
+"為防止已承諾留給線上顧客的商品被出售，\n"
+"                    <b>請即時將收到電子商務訂單所涉及的貨品，移至獨立的儲存位"
+"置</b>。\n"
+"                    由於你的 POS 銷售點系統<b>不會</b><i></i>\n"
+"                    為已由配送訂單預留的庫存發出提醒，因此將這些商品進行實體"
+"隔離，\n"
+"                    對於確保妥善履行訂單是至關重要。"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_5_product_template
@@ -1671,11 +1853,13 @@ msgid ""
 "Use the <b>Website &gt; Configuration</b> menu to enable all\n"
 "            your transaction options."
 msgstr ""
+"使用<b>網站 &gt; 配置</b>選單，\n"
+"            啟用所有交易選項。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "Use these settings to tailor the experience for your B2B clients:"
-msgstr ""
+msgstr "你可使用以下設定，為你的 B2B 客戶度身設計專屬體驗："
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_12_product_template
@@ -1745,7 +1929,7 @@ msgstr "歡迎！請享受探索過程。"
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "When an <b>e-commerce order</b> is placed:"
-msgstr ""
+msgstr "顧客在網店進行<b>電子商務訂單</b>下單時："
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1754,6 +1938,8 @@ msgid ""
 "            the <b>Suggest toggle</b> on the catalog (available from the "
 "purchase line)."
 msgstr ""
+"建立<b>新的採購訂單</b>時，請在產品目錄中尋找\n"
+"            「<b>建議</b>」切換按鈕（可在採購資料行中找到）。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1771,6 +1957,8 @@ msgid ""
 "You also have the option to require a <b>down payment</b> initially, with\n"
 "                            the remainder invoiced later."
 msgstr ""
+"你也可選擇先要求<b>收取訂金</b>，\n"
+"                            餘款稍後才開立發票收取。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1778,6 +1966,8 @@ msgid ""
 "You can access every installed App in your Odoo database on\n"
 "            your main dashboard."
 msgstr ""
+"你可在主要 Dashboard 上，存取 Odoo 資料庫內所有\n"
+"            已安裝的應用程式。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1785,6 +1975,8 @@ msgid ""
 "You can choose in the settings to <b>invoice either before or after\n"
 "                            delivery</b>."
 msgstr ""
+"你可在設定中，選擇在<b>送貨之前或之後\n"
+"                            開立發票</b>。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1793,6 +1985,8 @@ msgid ""
 "potential\n"
 "            leads."
 msgstr ""
+"你可輕鬆自訂你的網站，向潛在客戶提供你想他們知道的\n"
+"            資訊。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1802,11 +1996,14 @@ msgid ""
 "                    Upgrade your Agricultural Shop package and select the\n"
 "                    relevant checkbox"
 msgstr ""
+"還未匯入模擬數據？現在仍可執行此操作。請前往應用程式 &gt; 行業 &gt; \n"
+"                    升級你的「農業用品商店」套裝，\n"
+"                    然後勾選相關方格。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
 msgid "You have flexibility regarding when to generate invoices:"
-msgstr ""
+msgstr "你可靈活選擇何時產生發票："
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1815,6 +2012,8 @@ msgid ""
 "            Settings</b>, <b>Website-Wide Settings</b>, and <b>Payment &amp; "
 "Delivery Methods</b>."
 msgstr ""
+"你的電子商務設定，主要涉及三個層面：<b>產品\n"
+"            設定</b>、<b>網站整體設定</b>，以及<b>付款及送貨方式</b>設定。"
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_16_product_template
@@ -1841,6 +2040,9 @@ msgid ""
 "access many other\n"
 "                    advanced options."
 msgstr ""
+"使用說明，了解如何調整<b>\n"
+"                    位置</b>設定、使用<b>條碼掃瞄器</b>，以及存取許多其他\n"
+"                    進階選項。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1848,6 +2050,8 @@ msgid ""
 "to improve your website's online visibility and\n"
 "                    search rankings."
 msgstr ""
+"以提升你公司網站的線上曝光率及\n"
+"                    搜尋結果排名。"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body

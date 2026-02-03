@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-01-23 09:05+0000\n"
+"PO-Revision-Date: 2026-01-31 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/construction_developer/pt_BR/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_portal_content_inherit
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_report_document_inherit
 msgid "<strong>Contract Type </strong>"
-msgstr ""
+msgstr "<strong>Tipo de contrato</strong>"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_77
@@ -117,7 +117,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_sol_contract_type
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_so_contract_type
 msgid "Contract Type"
-msgstr ""
+msgstr "Tipo de contrato"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_73
@@ -158,7 +158,7 @@ msgstr "Sistema de drenagem"
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_line_sol_contract_type_selection_fixed_price
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_fixed_price
 msgid "Fixed Price"
-msgstr ""
+msgstr "Preço fixo"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_67
@@ -173,7 +173,7 @@ msgstr "Totalmente faturado"
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_63
 msgid "Geotextile fabric"
-msgstr ""
+msgstr "Tecido geotêxtil"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_64
@@ -208,33 +208,36 @@ msgstr "É um produto entregável"
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_is_undeliverable
 msgid "Is an undeliverable Product"
-msgstr ""
+msgstr "É um produto não entregável"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_68
 msgid "Material order, staff management, coordination, customer meetings"
 msgstr ""
+"Pedido de materiais, gestão de pessoal, coordenação, reuniões com clientes"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Not Started"
-msgstr ""
+msgstr "Não iniciado"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_line_sol_contract_type_selection_open_book
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_open_book
+#, fuzzy
 msgid "Open Book"
-msgstr ""
+msgstr "Open Book"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Order"
-msgstr ""
+msgstr "Pedido"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_71
+#, fuzzy
 msgid "PVC gutter"
-msgstr ""
+msgstr "Calha de PVC"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_per_line

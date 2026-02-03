@@ -7,16 +7,16 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Abe Manyo (abem)" <abem@odoo.com>, 2025.
+# "Abe Manyo (abem)" <abem@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 11:44+0000\n"
-"PO-Revision-Date: 2025-12-11 08:28+0000\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
-"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "non_profit_organization/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -333,11 +333,13 @@ msgid ""
 "<em><strong>Please note: membership fees are not eligible for a fiscal "
 "certificate.</strong></em>"
 msgstr ""
+"<em><strong>Mohon ingat: biaya anggota tidak berlaku untuk sertifikat "
+"fiskal.</strong></em>"
 
 #. module: non_profit_organization
 #: model_terms:product.template,description_ecommerce:non_profit_organization.product_template_4
 msgid "<em><strong>​<br></strong></em>"
-msgstr ""
+msgstr "<em><strong>​<br></strong></em>"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
@@ -866,6 +868,8 @@ msgid ""
 "A beautifully designed A5 notebook with quotes from historical human rights "
 "defenders. Perfect for activists, students, and dreamers."
 msgstr ""
+"Notebook A5 yang dengan incah dirancang dengan kutipan dari pembela hak "
+"asasi manusia historis. Sempurna untuk aktivis, murid, dan pemimpi."
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
@@ -879,6 +883,9 @@ msgid ""
 "fairness. Written and illustrated by educators and activists. Ideal for ages "
 "6–10."
 msgstr ""
+"Buku dengan gambar yang menyentuh hati mengajari anak-anak mengenai "
+"ekualitas, kebaikan, dan keadilan. Ditulis dan digambar oleh edukator dan "
+"aktivis. Ideal untuk anak-anak umur 6-10."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -903,6 +910,9 @@ msgid ""
 "artisans. Light a candle for justice and support our cause with every "
 "purchase. Profits fund human rights education."
 msgstr ""
+"Set 3 lilin solidaritas handmade yang dibuat sebagai kolaborasi dengan "
+"artisan lokal. Nyalakan lilin untuk keadilan dan dukung kami dengan setiap "
+"pembelian. Laba mendanai edukasi hak asasi manusia."
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
@@ -1127,6 +1137,9 @@ msgid ""
 "practical and powerful. Screen-printed with our slogan: <em>Justice Is for "
 "Everyone.</em>"
 msgstr ""
+"Bawa value Anda dengan Anda. Tote bag 100% organic cotton ini praktis dan "
+"membawa pesan yang kuat. Dicetak dengan slogan kami: <em>Justice Is for "
+"Everyone.</em>"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -1158,7 +1171,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:non_profit_organization.x_citizen_id_number_field_res_partner
 #: model:ir.model.fields,field_description:non_profit_organization.x_related_citizen_id_number_field_account_journal
 msgid "Citizen ID Number"
-msgstr ""
+msgstr "Nomor ID Penduduk"
 
 #. module: non_profit_organization
 #: model:event.event,name:non_profit_organization.event_event_1
@@ -1213,7 +1226,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_2
 msgid "Complete your look with unique items that make a difference."
-msgstr ""
+msgstr "Complete your look with unique items that make a difference."
 
 #. module: non_profit_organization
 #: model:ir.ui.menu,name:non_profit_organization.menu_community_configuration
@@ -1251,7 +1264,7 @@ msgstr "Kontak"
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_signature_count_field_res_partner
 msgid "Contact count"
-msgstr ""
+msgstr "Jumlah Kontak"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.contact_us_qweb_view
@@ -1365,7 +1378,7 @@ msgstr "Catatan Kredit"
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_current_signatures_field_x_petition
 msgid "Current Signatures"
-msgstr ""
+msgstr "Tanda Tangan Saat Ini"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1386,7 +1399,7 @@ msgstr "Tanggal"
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.view_form_x_signature
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.view_search_default_x_signature
 msgid "Date Signed"
-msgstr ""
+msgstr "Tanggal Ditandatangani"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1431,6 +1444,7 @@ msgstr ""
 msgid ""
 "Discover inspiring pieces created by talented artists supporting our mission."
 msgstr ""
+"Discover inspiring pieces created by talented artists supporting our mission."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1642,7 +1656,7 @@ msgstr "Direktur Eksekutif"
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_5
 msgid "Expand your knowledge with impactful reads that support our work."
-msgstr ""
+msgstr "Expand your knowledge with impactful reads that support our work."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1700,7 +1714,7 @@ msgstr "Manajer Keuangan"
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_6
 msgid "Find the perfect gift that gives back to the community."
-msgstr ""
+msgstr "Find the perfect gift that gives back to the community."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -1953,7 +1967,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_7
 msgid "Join us for exciting events that foster connection and support."
-msgstr ""
+msgstr "Join us for exciting events that foster connection and support."
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
@@ -2016,7 +2030,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:survey.survey,description:non_profit_organization.survey_survey_1
 msgid "Let’s build impact together."
-msgstr ""
+msgstr "Let’s build impact together."
 
 #. module: non_profit_organization
 #: model:event.tag,name:non_profit_organization.event_tag_3
@@ -2036,7 +2050,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_8
 msgid "Make a direct impact with your generous contributions."
-msgstr ""
+msgstr "Make a direct impact with your generous contributions."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2159,7 +2173,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:product.template,description:non_profit_organization.product_template_4
 msgid "Not included in fiscal certificate totals."
-msgstr ""
+msgstr "Tidak termasuk di total sertifikat fiskal."
 
 #. module: non_profit_organization
 #: model:survey.question.answer,value:non_profit_organization.survey_question_answer_3
@@ -2285,7 +2299,7 @@ msgstr "Petisi"
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.view_form_x_petition
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.view_search_default_x_signature
 msgid "Petition Name"
-msgstr ""
+msgstr "Nama Petisi"
 
 #. module: non_profit_organization
 #: model:ir.actions.act_window,name:non_profit_organization.action_window_petition_tag
@@ -2478,7 +2492,7 @@ msgstr "Pendaftaran untuk Distribusi Welcome Pack Pengungsi"
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_related_signatures_ids_field_x_petition
 msgid "Related Signatures"
-msgstr ""
+msgstr "Tanda Tangan Terkait"
 
 #. module: non_profit_organization
 #: model:crm.tag,name:non_profit_organization.crm_tag_3
@@ -2715,7 +2729,7 @@ msgstr "Label"
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_target_signatures_field_x_petition
 msgid "Target Signatures"
-msgstr ""
+msgstr "Tanda Tangan Target"
 
 #. module: non_profit_organization
 #: model:project.project,label_tasks:non_profit_organization.project_project_1
@@ -2755,7 +2769,7 @@ msgstr "Terima Kasih!"
 #. module: non_profit_organization
 #: model_terms:survey.survey,description:non_profit_organization.survey_survey_1
 msgid "Thank you for attending our event!"
-msgstr ""
+msgstr "Terima kasih sudah menghadiri acara kami!"
 
 #. module: non_profit_organization
 #: model_terms:survey.survey,description_done:non_profit_organization.survey_survey_1
@@ -2763,6 +2777,8 @@ msgid ""
 "Thank you for your feedback! Your input helps us make our future events "
 "better and more impactful."
 msgstr ""
+"Terima kasih atas feedback Anda! Input Anda membantu kami membuat acara masa "
+"depan kami lebih baik dan lebih berdampak."
 
 #. module: non_profit_organization
 #: model:mail.template,subject:non_profit_organization.mail_template_50
@@ -2873,7 +2889,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_3
 msgid "Transform your space with products that promote our cause."
-msgstr ""
+msgstr "Transform your space with products that promote our cause."
 
 #. module: non_profit_organization
 #: model:event.event.ticket,name:non_profit_organization.event_event_ticket_4
@@ -3054,11 +3070,15 @@ msgid ""
 "events and better serve our community, we kindly ask you to take 2–3 minutes "
 "to complete this short survey."
 msgstr ""
+"Kami betul-betul menghargai kehadiran dan dukungan Anda. Untuk membantu kami "
+"memperbarui acara-acara di masa depan dan lebih baik melayani komunitas "
+"kami, kami memitna bantuan Anda untuk mengambil 2-3 menit untuk "
+"menyelesaikan survei singkat ini."
 
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_1
 msgid "Wear your support proudly with our stylish, mission-driven clothing."
-msgstr ""
+msgstr "Wear your support proudly with our stylish, mission-driven clothing."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3134,6 +3154,9 @@ msgid ""
 "Whether you joined for the cause, the content, or the community, we’d love "
 "to hear what worked, what didn’t, and how we can do better next time."
 msgstr ""
+"Baik Anda bergabung karena tujuan, konten, atau komunitas, kami sangat ingin "
+"mendengar apa yang bekerja, apa yang tidak, dan bagaimana kami dapat menjadi "
+"lebih baik lain kali."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3233,6 +3256,8 @@ msgid ""
 "Your feedback is anonymous and will be used solely for evaluation purposes "
 "by our team."
 msgstr ""
+"Feedback Anda bersifat anonim dan akan digunakan hanya untuk tujuan evaluasi "
+"oleh tim kami."
 
 #. module: non_profit_organization
 #: model_terms:product.template,description_ecommerce:non_profit_organization.product_template_donation
@@ -3240,6 +3265,8 @@ msgid ""
 "Your generosity makes a difference. This donation helps fund vital programs "
 "that create lasting change in our communities."
 msgstr ""
+"Kemurahan hati Anda membuat perbedaan. Donasi ini membantu mendanai program-"
+"program vital yang membuat perubahan berkelanjutan di komunitas kami."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
@@ -3260,6 +3287,10 @@ msgid ""
 "human rights. As a member, you will have voting rights at our General "
 "Assembly and receive exclusive updates on our work and campaigns."
 msgstr ""
+"Membership Anda mendukung misi kami untuk melawan ketidakadilan sosial dan "
+"mempromosikan hak asasi manusia. Sebagai anggota, Anda akan memiliki hak "
+"voting di Majelis Umum kami dan menerima update-update eksklusif di "
+"pekerjaan dan kampanye kami."
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5

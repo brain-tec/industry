@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * sport_events
 #
-# "Abe Manyo (abem)" <abem@odoo.com>, 2025.
+# "Abe Manyo (abem)" <abem@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:55+0000\n"
-"PO-Revision-Date: 2025-12-05 09:33+0000\n"
+"PO-Revision-Date: 2026-01-30 14:42+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
-"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "sport_events/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -674,7 +674,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:survey.survey,description_done:sport_events.survey_survey_1
 msgid "<strong>Thank you for sharing your thoughts!</strong>"
-msgstr ""
+msgstr "<strong>Terima kasih sudah membagikan pemikiran Anda!</strong>"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1276,7 +1276,7 @@ msgstr "Pemasaran"
 #. module: sport_events
 #: model_terms:product.template,description:sport_events.product_product_14_product_template
 msgid "Maurten Gel 100 - 12 Box"
-msgstr ""
+msgstr "Maurten Gel 100 - 12 Box"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1863,6 +1863,10 @@ msgid ""
 "accessibility to nearby attractions and facilities. Your input helps us "
 "improve the experience for future participants and promote local tourism."
 msgstr ""
+"Kami menginginkan feedback Anda di area sekitar racecourse — dari "
+"pemandangan dan aksesibilitas ke atraksi dan fasilitas sekitar. Input Anda "
+"membantu kami memperbarui pengalaman untuk peserta masa depan dan "
+"mempromosikan turisme lokal."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -1954,6 +1958,9 @@ msgid ""
 "Your feedback supports both our event organization and the local communities "
 "that welcome us. We hope to see you again soon — until then, keep exploring!"
 msgstr ""
+"Feedback Anda mendukung organisasi acara kami dan komunitas lokal yang "
+"menyambut kami. Kami harap untuk bertemu Anda lagi — sampai saat itu, terus "
+"eksplorasi!"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_9
