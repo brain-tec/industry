@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-13 08:09+0000\n"
-"PO-Revision-Date: 2026-01-23 08:44+0000\n"
+"PO-Revision-Date: 2026-01-30 14:17+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "elearning_platform/ko/>\n"
@@ -210,7 +210,7 @@ msgstr ""
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for eLearning Platforms</strong></"
 "span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 이러닝 플랫폼</strong></span>"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -275,7 +275,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid ""
 "<strong>Certifications</strong>: Issue completion certificates automatically."
-msgstr ""
+msgstr "<strong>증명서</strong>: 전체 증명서를 자동 발급합니다."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -748,7 +748,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Build the Pieces You’ll Love"
-msgstr ""
+msgstr "마음에 드는 콘텐츠를 만들어 보세요"
 
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
@@ -894,7 +894,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Create and Customize Courses 🎓"
-msgstr ""
+msgstr "강좌 생성 및 맞춤 설정 🎓"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1085,7 +1085,7 @@ msgstr "주요 통계 <br/>살펴보기"
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Explore our<br/>variety of DIY workshops"
-msgstr ""
+msgstr "다양한 DIY 워크숍<br/>살펴보기"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_50
@@ -1738,7 +1738,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_73
 msgid "Practical exercises for real-world understanding"
-msgstr ""
+msgstr "실제 상황에 그대로 적용할 수 있도록 실습합니다"
 
 #. module: elearning_platform
 #: model_terms:product.template,description_ecommerce:elearning_platform.product_template_67
@@ -1823,7 +1823,7 @@ msgstr ""
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.welcome_article_body
 msgid "Promote and Engage Learners 📣"
-msgstr ""
+msgstr "수강 참여 유도 및 홍보 📣"
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_52
@@ -1851,6 +1851,11 @@ msgid ""
 "principle, you’ll make your code easier to read, easier to debug, and easier "
 "to share with others."
 msgstr ""
+"가독성 높은 코드란 이제 선택이 아니라 필수입니다. 프로젝트 규모가 커질수록 지"
+"저분한 코드는 점점 더 골치거리가 되고, 깔끔한 코드는 관리하기가 쉬워집니다. "
+"연관성 있는 이름을 사용하거나, 적절한 들여쓰기와 유용한 주석 활용 그리고 DRY "
+"원칙을 활용하면 코드는 더욱 이해하기 쉽고, 디버깅하기 편하며, 다른 사람과 공"
+"유하기도 훨씬 수월해집니다."
 
 #. module: elearning_platform
 #: model_terms:slide.slide,html_content:elearning_platform.slide_slide_51
@@ -2427,7 +2432,7 @@ msgstr "이제 이러닝 참여가 가능합니다."
 #. module: elearning_platform
 #: model_terms:ir.ui.view,arch_db:elearning_platform.homepage
 msgid "Your Green Thumb Starts Here"
-msgstr ""
+msgstr "전문적인 원예 실력이 여기서 시작됩니다"
 
 #. module: elearning_platform
 #: model:product.template,description_sale:elearning_platform.product_template_73

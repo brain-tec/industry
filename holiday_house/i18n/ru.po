@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:44+0000\n"
-"PO-Revision-Date: 2026-01-23 08:44+0000\n"
+"PO-Revision-Date: 2026-01-31 19:52+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "holiday_house/ru/>\n"
@@ -101,8 +101,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -276,8 +276,7 @@ msgid ""
 "Again, the <strong>Holiday House App </strong>helps you manage the end of "
 "the stay!"
 msgstr ""
-"<strong>Модуль Жилье для отпуска</strong> поможет вам организовать выезд "
-"гостей!"
+"<strong>Модуль Жилье для отпуска</strong> поможет вам оформить выезд гостей!"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.custom_product_name
@@ -620,8 +619,8 @@ msgid ""
 "If not OK, then click the contact, fill in the Identity section and save the "
 "contact."
 msgstr ""
-"Если данные неверны, нажмите на контакт, заполните раздел «Проверка "
-"личности» и сохраните изменения."
+"Если данные неверны, нажмите на контакт, заполните раздел «Проверка личности»"
+" и сохраните изменения."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -632,7 +631,7 @@ msgid ""
 msgstr ""
 "В режиме согласования уборки ответственные\n"
 "                    лица проверяют номера и меняют их статус на «Готово», "
-"завершая тем самым задач."
+"завершая тем самым задачи."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -789,6 +788,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "On the house to block line, click, drag and drop to create a slot."
 msgstr ""
+"На строке дома, который нужно заблокировать, нажмите и потяните курсор, "
+"чтобы создать слот."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -899,8 +900,8 @@ msgid ""
 "Open the Holiday<strong/> House App to appreciate the currently planned "
 "bookings with the Schedule."
 msgstr ""
-"Откройте модуль Жилье для отпуска<strong/>, чтобы оценить текущие "
-"запланированные бронирования."
+"Откройте модуль Жилье для отпуска<strong/>, чтобы ознакомиться с текущими "
+"запланированными бронированиями в разделе «Расписание»."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -932,8 +933,8 @@ msgid ""
 "Plan, check in and and check out bookings with the <strong>Holiday House "
 "App</strong>"
 msgstr ""
-"Планируйте заезд и выезд гостей с помощью <strong>модуля Жилье для отпуска</"
-"strong>"
+"Планируйте заезд и выезд гостей с помощью <strong>модуля Жилье для "
+"отпуска</strong>"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.homepage
@@ -1120,8 +1121,8 @@ msgstr ""
 msgid ""
 "Welcome your guests as well from the Holiday<strong> House App</strong>."
 msgstr ""
-"Приветствуйте ваших гостей также через <strong>модуль Жилье для отпуска</"
-"strong>."
+"Приветствуйте ваших гостей также через <strong>модуль Жилье для "
+"отпуска</strong>."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
