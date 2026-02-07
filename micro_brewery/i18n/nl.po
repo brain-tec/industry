@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 10:36+0000\n"
+"POT-Creation-Date: 2026-02-02 09:00+0000\n"
 "PO-Revision-Date: 2026-01-15 09:20+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-1/"
@@ -130,8 +130,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -190,8 +190,8 @@ msgid ""
 "<span class=\"h3-fs\"><strong>Visit the website and make an order.</strong></"
 "span>"
 msgstr ""
-"<span class=\"h3-fs\"><strong>De website bezoeken en een bestelling "
-"doen</strong></span>"
+"<span class=\"h3-fs\"><strong>De website bezoeken en een bestelling doen</"
+"strong></span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -206,8 +206,8 @@ msgstr ""
 "<span class=\"o_small\">\n"
 "                            <strong>Emily JONES</strong>\n"
 "                            <br/>\n"
-"                            <span class=\"text-muted\"> Klant,&amp;nbsp;"
-"zelfs vaste klant</span>\n"
+"                            <span class=\"text-muted\"> "
+"Klant,&amp;nbsp;zelfs vaste klant</span>\n"
 "                          </span>"
 
 #. module: micro_brewery
@@ -240,8 +240,8 @@ msgstr ""
 "<span class=\"o_small\">\n"
 "                            <strong>John SNOW</strong>\n"
 "                            <br/>\n"
-"                            <span class=\"text-muted\"> Klant,&amp;nbsp;"
-"brouwerijbezoek en bar</span>\n"
+"                            <span class=\"text-muted\"> "
+"Klant,&amp;nbsp;brouwerijbezoek en bar</span>\n"
 "                          </span>"
 
 #. module: micro_brewery
@@ -330,8 +330,8 @@ msgid ""
 "<strong><span class=\"h3-fs\">Sell your products and deliver it to a bar</"
 "span></strong>"
 msgstr ""
-"<strong><span class=\"h3-fs\">Je producten verkopen en leveren bij een "
-"bar</span></strong>"
+"<strong><span class=\"h3-fs\">Je producten verkopen en leveren bij een bar</"
+"span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -347,7 +347,8 @@ msgstr "<strong>Brouwen 📦</strong>"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong>Create and add the By-product</strong>s, for example:Spent Grain"
-msgstr "<strong>Maak de bijproducten aan en voeg ze toe</strong>, bijvoorbeeld:"
+msgstr ""
+"<strong>Maak de bijproducten aan en voeg ze toe</strong>, bijvoorbeeld:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -501,8 +502,8 @@ msgid ""
 "Bar &amp; Shop at the Brewery (B2C) - Using the <strong><font class=\"text-o-"
 "color-1\">Point of Sales App</font></strong>"
 msgstr ""
-"Bar &amp; Shop in de Brouwerij (B2C) - Met behulp van de <strong><font class="
-"\"text-o-color-1\">Kassa-app</font></strong>"
+"Bar &amp; Shop in de Brouwerij (B2C) - Met behulp van de <strong><font "
+"class=\"text-o-color-1\">Kassa-app</font></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -729,16 +730,11 @@ msgstr "Chaudfontaine"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposits when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"Verzamel statiegeld bij de levering aan je klant, eenvoudig en moeiteloos. "
-"Bij het bevestigen van de levering kan je meteen een retour instellen en het "
-"aantal verschillende statiegeldartikelen dat je klant teruggeeft nauwkeurig "
-"registreren. Dit wordt automatisch verwerkt op de factuur of er wordt een "
-"creditfactuur opgesteld."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -780,8 +776,8 @@ msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
 "color-1\"><strong>Manufacture App</strong></font>"
 msgstr ""
-"Bier brouwen - Voornamelijk met de <font class=\"text-o-color-1\"><strong"
-">Productie-app</strong></font>"
+"Bier brouwen - Voornamelijk met de <font class=\"text-o-"
+"color-1\"><strong>Productie-app</strong></font>"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_55
@@ -794,8 +790,8 @@ msgid ""
 "Crate &amp; Bottles 24x33cl is the complete deposit product (deposits of all "
 "bottles and crate)"
 msgstr ""
-"Krat &amp; Flessen 24x33cl is het complete statiegeldproduct "
-"(bestaande uit statiegeld voor alle flessen en krat)"
+"Krat &amp; Flessen 24x33cl is het complete statiegeldproduct (bestaande uit "
+"statiegeld voor alle flessen en krat)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_56
@@ -1370,11 +1366,11 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
-"Beheer al je communicatiekanalen op één plek met Odoo <strong><font class="
-"\"text-o-color-1\">Marketingautomatisering</font></strong>, <strong><font "
-"class=\"text-o-color-1\">E-mailmarketing</font></strong>, <strong><font "
-"class=\"text-o-color-1\">Social Marketing</font></strong>en <strong><font "
-"class=\"text-o-color-1\">Sms-marketing</font></strong>."
+"Beheer al je communicatiekanalen op één plek met Odoo <strong><font "
+"class=\"text-o-color-1\">Marketingautomatisering</font></strong>, "
+"<strong><font class=\"text-o-color-1\">E-mailmarketing</font></strong>, "
+"<strong><font class=\"text-o-color-1\">Social Marketing</font></strong>en "
+"<strong><font class=\"text-o-color-1\">Sms-marketing</font></strong>."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1424,8 +1420,8 @@ msgid ""
 "bar (or restaurant), indicate how much cash you have when opening the bar. "
 "An now you are ready to take an order."
 msgstr ""
-"Ga nu terug in het Kassa-dashboard en start een Sessie van de bar "
-"(of restaurant), geef aan hoeveel contant geld je hebt bij het openen van de "
+"Ga nu terug in het Kassa-dashboard en start een Sessie van de bar (of "
+"restaurant), geef aan hoeveel contant geld je hebt bij het openen van de "
 "bar. Nu ben je klaar om een bestelling op te nemen."
 
 #. module: micro_brewery
@@ -1992,8 +1988,8 @@ msgid ""
 "Visit of the Brewery (B2C) - Managed via the <strong><font class=\"text-o-"
 "color-1\">Appointment App</font></strong>"
 msgstr ""
-"Brouwerijbezoek (B2C) - Beheerd via de <strong><font class=\"text-o-color-1\""
-">Afspraken-app</font></strong>"
+"Brouwerijbezoek (B2C) - Beheerd via de <strong><font class=\"text-o-"
+"color-1\">Afspraken-app</font></strong>"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_11
@@ -2301,8 +2297,8 @@ msgstr "de statiegeldproducten uit de stuklijst te verwijderen"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "removing the tracking of deposit products (in the product form"
 msgstr ""
-"het tracken van statiegeldproducten uit te schakelen "
-"(in het productformulier)"
+"het tracken van statiegeldproducten uit te schakelen (in het "
+"productformulier)"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2323,3 +2319,15 @@ msgstr "🎓 Accijnsbeheer"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 Maateenheden"
+
+#~ msgid ""
+#~ "Collect deposits when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "Verzamel statiegeld bij de levering aan je klant, eenvoudig en "
+#~ "moeiteloos. Bij het bevestigen van de levering kan je meteen een retour "
+#~ "instellen en het aantal verschillende statiegeldartikelen dat je klant "
+#~ "teruggeeft nauwkeurig registreren. Dit wordt automatisch verwerkt op de "
+#~ "factuur of er wordt een creditfactuur opgesteld."

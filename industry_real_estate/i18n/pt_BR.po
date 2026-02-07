@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2026-01-31 20:20+0000\n"
+"PO-Revision-Date: 2026-02-07 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/industry_real_estate/pt_BR/>\n"
@@ -196,6 +196,9 @@ msgid ""
 "quarterly, etc.) and the expiration of\n"
 "                the contract."
 msgstr ""
+"<b>Cronograma:</b> Especifique a data de início, o período de recorrência "
+"(mensal, trimestral, etc.) e a expiração do\n"
+"contrato."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -385,19 +388,18 @@ msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
-#, fuzzy
 msgid "<strong>Do you want to go further?</strong>"
 msgstr "<strong>Quer ir mais além?</strong>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Odoo offers you infinite possibilities, such as:</strong>"
-msgstr ""
+msgstr "<strong>O Odoo oferece infinitas possibilidades, tais como:</strong>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr ""
+msgstr "<strong>Caso de uso</strong>"
 
 #. module: industry_real_estate
 #: model:website.menu,name:industry_real_estate.website_menu_10
@@ -475,7 +477,7 @@ msgstr "Disponibilidade"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Basics"
-msgstr ""
+msgstr "Noções básicas"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.field_property_building
@@ -497,6 +499,8 @@ msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products, sale orders and more."
 msgstr ""
+"Ao carregar os dados de demonstração deste módulo, seu banco de dados foi "
+"preenchido com alguns produtos, pedidos de venda e muito mais."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -515,6 +519,8 @@ msgstr "Cidade"
 msgid ""
 "Click on the <b>Availability</b> to view your portfolio in a Gantt view."
 msgstr ""
+"Clique em <b>Disponibilidade</b> para visualizar seu portfólio em uma "
+"visualização Gantt."
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_commercial_space
@@ -595,7 +601,7 @@ msgstr "Descubra mais"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Descubra mais sobre o Odoo mergulhando em nosso"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -603,6 +609,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
+"Conheça os elementos básicos deste pacote e explore todas as possibilidades "
+"que o Odoo oferece para melhorar sua experiência."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -635,6 +643,8 @@ msgid ""
 "From the <b>Properties App</b>, you can define the physical assets you "
 "manage."
 msgstr ""
+"No <b>app Propriedades</b> , você pode definir os ativos físicos que "
+"gerencia."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -681,7 +691,7 @@ msgstr ""
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "Olá!"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:51+0000\n"
-"PO-Revision-Date: 2026-01-13 16:57+0000\n"
+"PO-Revision-Date: 2026-02-05 19:05+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/real_estate/pt_BR/>\n"
@@ -2651,6 +2651,9 @@ msgid ""
 "visits and consultations directly with agents, synchronizing calendars "
 "automatically.<br/>"
 msgstr ""
+"<strong><b>App Compromissos</b>:</strong> Permita que os clientes agendem "
+"visitas a imóveis e consultas diretamente com os agentes, sincronizando "
+"calendários automaticamente.<br/>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2659,6 +2662,9 @@ msgid ""
 "dedicated app to manage property listings, details, and availability status."
 "<br/>"
 msgstr ""
+"<strong><b>App Propriedades</b>:</strong> Organize seu portfólio com um "
+"aplicativo dedicado para gerenciar listagens de imóveis, detalhes e status "
+"de disponibilidade.<br/>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -2666,6 +2672,8 @@ msgid ""
 "<strong><b>Sales App</b>:</strong> Handle offers, negotiations, and closing "
 "deals with professional quotations and digital signatures.<br/>"
 msgstr ""
+"<strong><b>App Vendas</b>:</strong> Gerencie ofertas, negociações e feche "
+"negócios com cotações profissionais e assinaturas digitais.<br/>"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body

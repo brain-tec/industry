@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-01-31 20:20+0000\n"
+"PO-Revision-Date: 2026-02-07 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/construction_developer/pt_BR/>\n"
@@ -224,7 +224,6 @@ msgstr "Não iniciado"
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_line_sol_contract_type_selection_open_book
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_open_book
-#, fuzzy
 msgid "Open Book"
 msgstr "Open Book"
 
@@ -235,14 +234,13 @@ msgstr "Pedido"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_71
-#, fuzzy
 msgid "PVC gutter"
 msgstr "Calha de PVC"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_per_line
 msgid "Per Line"
-msgstr ""
+msgstr "Por linha"
 
 #. module: construction_developer
 #: model:ir.model.fields,help:construction_developer.field_sale_order_so_contract_type
@@ -257,122 +255,132 @@ msgid ""
 "- Per Line: Mixed billing logic where you define individually for each line "
 "item."
 msgstr ""
+"Especifique no documento de cotação o tipo de contrato:\n"
+"- Não especificado: nenhum termo de faturamento específico será exibido "
+"neste documento.\n"
+"- Preço fixo: é exibida uma menção especificando que o tipo de contrato é "
+"preço fixo.\n"
+"- Livro aberto: é exibida uma menção especificando que o tipo de contrato é "
+"livro aberto.\n"
+"- Por linha: lógica de faturamento mista em que você define individualmente "
+"para cada item da linha."
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Product"
-msgstr ""
+msgstr "Produto"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_service_policy
 msgid "Product Service Policy"
-msgstr ""
+msgstr "Política de Serviço do Produto"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.action_progress_view
 #: model:ir.embedded.actions,name:construction_developer.construction_embedded_action_sales_order_lines
 #: model:ir.embedded.actions,name:construction_developer.construction_embedded_action_sales_order_lines_dashboard
 msgid "Progress"
-msgstr ""
+msgstr "Progresso"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_progress_increment
 msgid "Progress Increment"
-msgstr ""
+msgstr "Aumento do progresso"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_71
 msgid "Project Management"
-msgstr ""
+msgstr "Gerenciamento de projetos"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_list_view
 msgid "Qty"
-msgstr ""
+msgstr "Quantidade"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_quantity_increment
 msgid "Quantity Increment"
-msgstr ""
+msgstr "Aumento da quantidade"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_69
 msgid "Roofing"
-msgstr ""
+msgstr "Telhados"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_74
 msgid "Roofing fixation screws"
-msgstr ""
+msgstr "Parafusos de fixação para telhados"
 
 #. module: construction_developer
 #: model:project.project,name:construction_developer.project_project_16
 msgid "S00003 - Project Template"
-msgstr ""
+msgstr "S00003 - Modelo de projeto"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Sales Order Lines that are at 100% progress"
-msgstr ""
+msgstr "Linhas do pedido de venda que estão em 100% de progresso"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Sales Order Lines that are between 0 and 100% progress"
-msgstr ""
+msgstr "Linhas do pedido de venda que estão entre 0 e 100% de progresso"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Sales Order Lines that have not been started yet (0% progress)"
 msgstr ""
+"Linhas do pedido de venda que ainda não foram iniciadas (0% de progresso)"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Search Sales Order"
-msgstr ""
+msgstr "Buscar pedido de venda"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_76
 msgid "Steel beam (matching profile)"
-msgstr ""
+msgstr "Viga de aço (perfil correspondente)"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_75
 msgid "Steel post (galvanized, coated)"
-msgstr ""
+msgstr "Poste de aço (galvanizado, revestido)"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_81
 msgid "Steel reinforcement mesh"
-msgstr ""
+msgstr "Malha de reforço de aço"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_70
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Structure"
-msgstr ""
+msgstr "Estrutura"
 
 #. module: construction_developer
 #: model:project.project,label_tasks:construction_developer.project_project_16
 msgid "Tasks"
-msgstr ""
+msgstr "Tarefas"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "The structure Sale Order Lines"
-msgstr ""
+msgstr "A estrutura Linha do pedido de venda"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_portal_content_inherit
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_report_document_inherit
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_unspecified
 msgid "Unspecified"
-msgstr ""
+msgstr "Não especificado"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_list_view
 msgid "Update Delivery"
-msgstr ""
+msgstr "Atualizar entrega"

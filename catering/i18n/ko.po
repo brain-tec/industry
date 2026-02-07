@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 10:16+0000\n"
-"PO-Revision-Date: 2026-01-29 17:18+0000\n"
+"PO-Revision-Date: 2026-02-06 09:45+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-s19-1/"
 "catering/ko/>\n"
@@ -1014,7 +1014,7 @@ msgstr "주방 보조"
 #. module: catering
 #: model:product.template,name:catering.product_product_224_product_template
 msgid "Lamb Chop (Rack - kg)"
-msgstr ""
+msgstr "양 갈비 (랙 - kg)"
 
 #. module: catering
 #: model:crm.tag,name:catering.crm_tag_20
@@ -1099,12 +1099,12 @@ msgstr ""
 #. module: catering
 #: model:product.template,name:catering.product_product_104_product_template
 msgid "Menu: Fruit Platter (per person)"
-msgstr ""
+msgstr "메뉴: 과일 플래터 (1인분)"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_121_product_template
 msgid "Menu: Gourmet Cheese Board (small)"
-msgstr ""
+msgstr "메뉴: 고메 치즈 플래터 (소)"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_99_product_template
@@ -1114,7 +1114,7 @@ msgstr ""
 #. module: catering
 #: model:product.template,name:catering.product_product_122_product_template
 msgid "Menu: Mini Quiches (per dozen)"
-msgstr ""
+msgstr "메뉴: 미니 키쉬 (12개 세트)"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_101_product_template
@@ -1154,7 +1154,7 @@ msgstr "홍합 (생물 - kg)"
 #. module: catering
 #: model:product.template,name:catering.product_product_105_product_template
 msgid "Non-alcoholic Beverage Package (per person)"
-msgstr ""
+msgstr "무알코올 음료 패키지 (1인 기준)"
 
 #. module: catering
 #: model:sale.order.template.line,name:catering.sale_order_template_line_26
@@ -1279,7 +1279,7 @@ msgstr ""
 #. module: catering
 #: model:product.template,name:catering.product_product_242_product_template
 msgid "Penne Pasta (Bulk - kg)"
-msgstr ""
+msgstr "펜네 파스타 (대용량 - kg)"
 
 #. module: catering
 #: model:crm.tag,name:catering.crm_tag_30
@@ -1304,7 +1304,7 @@ msgstr "감자 (러셋 - kg)"
 #. module: catering
 #: model:product.template,name:catering.product_product_106_product_template
 msgid "Premium Wine Pairing (per person)"
-msgstr ""
+msgstr "프리미엄 와인 페어링 (1인당)"
 
 #. module: catering
 #: model:crm.tag,name:catering.crm_tag_34
@@ -1355,7 +1355,7 @@ msgstr ""
 #. module: catering
 #: model:product.template,name:catering.product_product_246_product_template
 msgid "Sea Salt (Coarse - kg)"
-msgstr ""
+msgstr "씨솔트 (굵은 입자 - kg)"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1411,7 +1411,7 @@ msgstr "표준 바 서비스"
 #. module: catering
 #: model:product.template,name:catering.product_product_90_product_template
 msgid "Standard Round Table Rental (6ft)"
-msgstr ""
+msgstr "기본 원형 테이블 대여 (6ft)"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1530,7 +1530,7 @@ msgstr ""
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
 msgid "The synchronization with the banks."
-msgstr ""
+msgstr "은행 동기화를 실시합니다."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1573,6 +1573,20 @@ msgid ""
 "alcoholic and 5 alcoholic drinks per guest. Any drinks consumed above this "
 "allowance will be itemized and charged separately after the event."
 msgstr ""
+"이 패키지에는 행사 전 기간 동안 전담 배치되는 바 전문 웨이터 서비스가 포함되"
+"어 있습니다. 단, 해당 서비스에서는 디저트 코스 이후에는 테이블 서비스가 제공"
+"되지 않습니다.\n"
+"\n"
+"패키지 구성:\n"
+"\n"
+"- 소프트 드링크 및 탄산음료\n"
+"- 생수 및 스파클링 워터\n"
+"- 레드 와인 및 화이트 와인\n"
+"- 맥주\n"
+"\n"
+"사전에 안내된 가격 패키지는 1인당 무알콜 음료 5잔과 알콜 음료 5잔을 기준으로 "
+"산정되어 있습니다. 이 기준을 초과하여 음료가 제공되는 경우에는 행사 종료 후 "
+"항목별로 별도 청구됩니다."
 
 #. module: catering
 #: model:product.template,description_sale:catering.product_product_128_product_template
@@ -1725,7 +1739,7 @@ msgstr "채식"
 #. module: catering
 #: model:product.template,name:catering.product_product_95_product_template
 msgid "Wait Staff Service (per hour)"
-msgstr ""
+msgstr "서빙 직원 서비스 (시간당)"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
