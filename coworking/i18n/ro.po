@@ -4,27 +4,28 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Odoo Translation Bot <c3p@odoo.com>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-05 12:55+0000\n"
-"PO-Revision-Date: 2025-12-17 15:45+0000\n"
-"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
+"PO-Revision-Date: 2026-02-02 13:38+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "coworking/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid "&amp;nbsp;<br/>"
-msgstr ""
+msgstr "&amp;nbsp;<br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -108,6 +109,9 @@ msgid ""
 "                          <strong>Contact Us</strong>\n"
 "                        </a>"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/contactus\">\n"
+"                          <strong>Contactați-ne</strong>\n"
+"                        </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -119,6 +123,12 @@ msgid ""
 "                        </span>\n"
 "                      </a>"
 msgstr ""
+"<a class=\"o_translate_inline btn btn-primary\" href="
+"\"*one_day_pass_product*\">\n"
+"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
+"                          <strong>CUMPĂRĂ</strong>\n"
+"                        </span>\n"
+"                      </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -126,6 +136,8 @@ msgid ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Discover more</"
 "a>"
 msgstr ""
+"<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Descoperiți mai "
+"mult</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -137,6 +149,12 @@ msgid ""
 "                        </span>\n"
 "                      </a>"
 msgstr ""
+"<a href=\"*10_day_pass_card_product*\" class="
+"\"o_translate_inline btn btn-primary\">\n"
+"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
+"                          <strong>CUMPĂRĂ</strong>\n"
+"                        </span>\n"
+"                      </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -144,6 +162,8 @@ msgid ""
 "<a href=\"/appointment/*free_tour_appointment_type*\" "
 "class=\"o_translate_inline btn btn-secondary\">Book a free tour</a>"
 msgstr ""
+"<a href=\"/appointment/*free_tour_appointment_type*\" class="
+"\"o_translate_inline btn btn-secondary\">Rezervați un tur gratuit</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -152,6 +172,9 @@ msgid ""
 "                            <strong>Book</strong>\n"
 "                          </a>"
 msgstr ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-primary\">\n"
+"                            <strong>Rezervă</strong>\n"
+"                          </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -159,6 +182,8 @@ msgid ""
 "<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-"
 "secondary\">Book</a>"
 msgstr ""
+"<a href=\"/appointment/1\" class=\"o_translate_inline btn btn-secondary\""
+">Rezervă</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -169,6 +194,11 @@ msgid ""
 "                        </span>\n"
 "                      </a>"
 msgstr ""
+"<a href=\"/become-a-member\" class=\"o_translate_inline btn btn-primary\">\n"
+"                        <span style=\"font-family: Verdana, sans-serif;\">\n"
+"                          <strong>CONTACTAȚI-NE</strong>\n"
+"                        </span>\n"
+"                      </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -177,6 +207,9 @@ msgid ""
 "primary\"><span style=\"font-family: Verdana, sans-serif;\"><strong>CONTACT "
 "US</strong></span></a>&amp;nbsp;"
 msgstr ""
+"<a href=\"/become-a-member\" class=\"o_translate_inline btn btn-primary\""
+"><span style=\"font-family: Verdana, sans-serif;\"><strong>CONTACTAȚI-"
+"NE</strong></span></a>&amp;nbsp;"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -185,6 +218,9 @@ msgid ""
 "                            <strong>Contact us</strong>\n"
 "                          </a>"
 msgstr ""
+"<a href=\"/contactus\" class=\"btn btn-primary o_translate_inline\">\n"
+"                            <strong>Contactați-ne</strong>\n"
+"                          </a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -202,6 +238,9 @@ msgid ""
 "                          <span style=\"font-family: Verdana, sans-serif;"
 "\">&amp;nbsp; Meeting rooms&amp;nbsp;</span>"
 msgstr ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>\n"
+"                          <span style=\"font-family: Verdana, sans-serif;\""
+">&amp;nbsp; Săli de întâlnire&amp;nbsp;</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -210,6 +249,9 @@ msgid ""
 "                          <span style=\"font-family: Verdana, sans-serif;"
 "\">&amp;nbsp; Quiet working spaces</span>"
 msgstr ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>\n"
+"                          <span style=\"font-family: Verdana, sans-serif;\""
+">&amp;nbsp; Spații de lucru liniștite</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -218,6 +260,9 @@ msgid ""
 "                          <span style=\"font-family: Verdana, sans-serif;"
 "\">&amp;nbsp; Wifi &amp;amp; quick support</span>"
 msgstr ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"img\"/>\n"
+"                          <span style=\"font-family: Verdana, sans-serif;\""
+">&amp;nbsp; Wifi și suport rapid</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -288,6 +333,15 @@ msgid ""
 "value=\"o5f78thi851m1\">Business Address</option>\n"
 "                                  </select>"
 msgstr ""
+"<select class=\"form-select s_website_form_input\" name="
+"\"Which offer are you interested in?\" id=\"o5f78thi851m\" required=\"\">\n"
+"                                    <option id=\"o5f78thi851m0\" value=\""
+"\" selected=\"selected\"/>\n"
+"                                    <option id=\"o5f78thi851m1\" value="
+"\"o5f78thi851m0\">Membri</option>\n"
+"                                    <option id=\"o5f78thi851m2\" value="
+"\"o5f78thi851m1\">Adresă de afaceri</option>\n"
+"                                  </select>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -307,7 +361,7 @@ msgstr "<span class=\"display-3-fs text-o-color-1\">3</span>"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid "<span class=\"display-3-fs text-o-color-1\">4</span>"
-msgstr ""
+msgstr "<span class=\"display-3-fs text-o-color-1\">4</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -318,26 +372,31 @@ msgid ""
 "                      </span>\n"
 "                      <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                        <font class=\"text-o-color-1\">Spații coworking de "
+"închiriat</font>\n"
+"                      </span>\n"
+"                      <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid "<span class=\"display-4-fs\">what we offer</span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\">ce oferim</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid "<span class=\"h3-fs\">10 days pass card</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Card de acces pentru 10 zile</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid "<span class=\"h3-fs\">Business address</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Adresă de afaceri</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid "<span class=\"h3-fs\">ONE DAY pasS</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">ABONAMENT O ZI</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -345,6 +404,8 @@ msgid ""
 "<span class=\"h3-fs\">Unlimited&amp;nbsp;</span>\n"
 "                      <br/>"
 msgstr ""
+"<span class=\"h3-fs\">Nelimitat&amp;nbsp;</span>\n"
+"                      <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -370,6 +431,10 @@ msgid ""
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">De care ofertă ești "
+"interesat?</span>\n"
+"                                  <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4210
@@ -378,8 +443,8 @@ msgid ""
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Subiect</"
-"span>                                 <span class=\"s_website_form_mark\"> "
+"<span class=\"s_website_form_label_content\">Compania ta</span>\n"
+"                                  <span class=\"s_website_form_mark\"> "
 "*</span>"
 
 #. module: coworking
@@ -422,6 +487,9 @@ msgid ""
 "<span style=\"font-family: Verdana, sans-serif;\">be&amp;nbsp;productive +</"
 "span></span>"
 msgstr ""
+"<span style=\"font-family: Verdana, sans-serif;"
+"\">400€&amp;nbsp;pentru a&amp;nbsp;<span style=\"font-family: Verdana, sans-"
+"serif;\">fi&amp;nbsp;productiv +</span></span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -429,6 +497,8 @@ msgid ""
 "<span style=\"font-family: Verdana, sans-serif;\">45€&amp;nbsp;to be "
 "productive</span>"
 msgstr ""
+"<span style=\"font-family: Verdana, sans-serif;\">45€&amp;nbsp;pentru a fi "
+"productiv</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -437,6 +507,9 @@ msgid ""
 "family: Verdana, sans-serif;\">/month</span> to&amp;nbsp;<span style=\"font-"
 "family: Verdana, sans-serif;\">be productive ++</span></span>"
 msgstr ""
+"<span style=\"font-family: Verdana, sans-serif;\">500 €<span style=\"font-"
+"family: Verdana, sans-serif;\">/lună</span> pentru a&amp;nbsp;<span style=\""
+"font-family: Verdana, sans-serif;\">fi productiv ++</span></span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -444,6 +517,8 @@ msgid ""
 "<span style=\"font-family: Verdana, sans-serif;\">80€&amp;nbsp;per "
 "month&amp;nbsp;</span>"
 msgstr ""
+"<span style=\"font-family: Verdana, sans-serif;\">80€&amp;nbsp;pe "
+"lună&amp;nbsp;</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
@@ -451,11 +526,14 @@ msgid ""
 "<span style=\"font-family: Verdana, sans-serif;\">Become productive today. "
 "Join us in a place where working becomes a pleasure</span>"
 msgstr ""
+"<span style=\"font-family: Verdana, sans-serif;\">Deveniți productivi "
+"astăzi. Alațurați-vă nouă într-un loc unde munca devine o plăcere</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.homepage
 msgid "<span style=\"font-family: Verdana, sans-serif;\">More info</span>"
 msgstr ""
+"<span style=\"font-family: Verdana, sans-serif;\">Mai multe informații</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -463,11 +541,13 @@ msgid ""
 "<span style=\"font-size: 50px;\">Let&amp;nbsp;yourself&amp;nbsp;be "
 "inspired<br/><br/></span>"
 msgstr ""
+"<span style=\"font-size: 50px;\">Lăsați-vă&amp;nbsp;să&amp;nbsp;fiți "
+"inspirați<br/><br/></span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
 msgid "<span style=\"font-size: 70px;\">Community</span>"
-msgstr ""
+msgstr "<span style=\"font-size: 70px;\">Comunitate</span>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -475,6 +555,8 @@ msgid ""
 "<strong>10-Day Pass</strong> → product linked to a loyalty card (prepaid "
 "pack of 10 days)."
 msgstr ""
+"<strong>Abonament 10 zile</strong> → produs legat de un card de fidelitate "
+"(pachet prepaid de 10 zile)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -482,6 +564,9 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Appointment</font></strong>: Allow "
 "prospects to book a free tour, shared desk, or meeting room online."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Programări</font></strong>: Permite "
+"potențialilor clienți să rezerve un tur gratuit, birou comun sau sală de "
+"întâlnire online."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -490,6 +575,9 @@ msgid ""
 "strong>Track and manage coworking opportunities, follow-up, and convert them "
 "into active members."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">CRM și Membership</font>: </"
+"strong>Urmăriți și gestionați oportunitățile de coworking, urmăriți-le și "
+"convertiți-le în membri activi."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -497,6 +585,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Email Marketing</font></strong>: "
 "Share news, updates, and promotions with your members."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Email Marketing</font></strong>: "
+"Partajați știri, actualizări și promoții cu membrii dvs."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -504,6 +594,9 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Events</font>: </strong>Organize "
 "networking sessions, workshops, and community-building activities."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Evenimente</font>: </"
+"strong>Organizați sesiuni de networking, ateliere și activități de "
+"construire a comunității."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -511,6 +604,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Helpdesk</font>: </strong>Handle "
 "member requests and issues efficiently."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Helpdesk</font>: </strong>Gestionați "
+"eficient cererile și problemele membrilor."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -518,6 +613,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Planning</font>: </strong>Schedule "
 "reception desk coverage and other staff shifts."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Planificare</font>: </"
+"strong>Programați acoperirea recepției și alte schimburi de personal."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -525,6 +622,8 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Sales</font>: </strong>Generate and "
 "manage quotations for memberships, room bookings, and services."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Vânzări</font>: </strong>Generați și "
+"gestionați cotatții pentru abonămente, rezervări de camere și servicii."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -533,6 +632,9 @@ msgid ""
 "strong>Automate recurring memberships such as Business Address or Unlimited "
 "Monthly Access."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Abonament</font>: </"
+"strong>Automatizați abonămentele recurente cum ar fi Adresa de Afaceri sau "
+"Accesul Lunar Nelimitat."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -541,26 +643,29 @@ msgid ""
 "coworking offers, showcase events, and provide member-exclusive tools and "
 "support forms."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Website</font>: </strong>Promovați "
+"oferele de coworking, afișați evenimente și oferiți instrumente exclusive "
+"membrilor și formulare de suport."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Appointment Booking:</strong>"
-msgstr ""
+msgstr "<strong>Rezervarea programărilor:</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Automate Quotations &amp; Invoicing</strong>"
-msgstr ""
+msgstr "<strong>Automatizare cotatții și facturare</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Basics</strong><br/>"
-msgstr ""
+msgstr "<strong>Elementele de bază</strong><br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
 msgid "<strong>Book</strong>"
-msgstr ""
+msgstr "<strong>Rezervă</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -568,6 +673,8 @@ msgid ""
 "<strong>Business Address</strong> → subscription product for a registered "
 "business address."
 msgstr ""
+"<strong>Adresă de afaceri</strong> → produs de abonament pentru o adresă de "
+"afaceri înregistrată."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -575,31 +682,33 @@ msgid ""
 "<strong>Convert to Member:</strong> Once confirmed, create a quotation or "
 "start a subscription plan."
 msgstr ""
+"<strong>Convertiți în membru:</strong> Odată confirmat, creați o cotatție "
+"sau începeți un plan de abonament."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Create and Sell Your Coworking Offers</strong>"
-msgstr ""
+msgstr "<strong>Creați și vândeți oferele dvs. de coworking</strong>"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
 msgid "<strong>Date:</strong> Friday, September 11th"
-msgstr ""
+msgstr "<strong>Data:</strong> Vineri, 11 septembrie"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
 msgid "<strong>Date:</strong> Tuesday, September 22th"
-msgstr ""
+msgstr "<strong>Data:</strong> Marți, 22 septembrie"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
 msgid "<strong>Date:</strong> Wednesday, September 3th"
-msgstr ""
+msgstr "<strong>Data:</strong> Miercuri, 3 septembrie"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Do You Want to Go Further?</strong>"
-msgstr ""
+msgstr "<strong>Vreți să mergeți mai departe?</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -608,6 +717,9 @@ msgid ""
 "skill-sharing sessions; publish them on your website and allow online "
 "registration."
 msgstr ""
+"<strong>Crearea evenimentelor:</strong> Organizați seri de networking, "
+"ateliere sau sesiuni de partajare a competențelor; publicați-le pe website-"
+"ul dvs. și permiteți înregistrarea online."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -615,31 +727,33 @@ msgid ""
 "<strong>Follow-Up:</strong> Track the opportunity in the CRM pipeline, add "
 "notes, schedule calls or meetings."
 msgstr ""
+"<strong>Urmărire:</strong> Urmăriți oportunitatea în pipeline-ul CRM, "
+"adăugați note, programați apeluri sau întâlniri."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Keep Your Website Engaging &amp; Member-Friendly</strong>"
-msgstr ""
+msgstr "<strong>Mențineți website-ul atractiv și prietenos cu membrii</strong>"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
 msgid "<strong>Location:</strong> Kitchen &amp; Common Area"
-msgstr ""
+msgstr "<strong>Locația:</strong> Bucătărie și zona comună"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
 msgid "<strong>Location:</strong> Lounge Area"
-msgstr ""
+msgstr "<strong>Locația:</strong> Zona lounge"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
 msgid "<strong>Location:</strong> Meeting Room B"
-msgstr ""
+msgstr "<strong>Locația:</strong> Sala de întâlniri B"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Manage and Track Membership Opportunities</strong>"
-msgstr ""
+msgstr "<strong>Gestionați și urmăriți oportunitățile de membru</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -648,11 +762,14 @@ msgid ""
 "for unlimited monthly access.<br/>\n"
 "                        <br/>"
 msgstr ""
+"<strong>Abonament lunar nelimitat</strong> → produs bazat pe abonament "
+"pentru acces lunar nelimitat.<br/>\n"
+"                        <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Odoo for Coworking</strong>"
-msgstr ""
+msgstr "<strong>Odoo pentru coworking</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -660,21 +777,23 @@ msgid ""
 "<strong>One-Day Pass</strong> → simple service product for single-day "
 "coworking access."
 msgstr ""
+"<strong>Abonament o zi</strong> → produs de servicii simplu pentru accesul "
+"la coworking pentru o zi."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Schedule Your Reception &amp; Support Staff</strong>"
-msgstr ""
+msgstr "<strong>Programați recepția și personalul de suport</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Stay Connected with Your Community</strong>"
-msgstr ""
+msgstr "<strong>Rămâneți conectați cu comunitatea dvs.</strong>"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
 msgid "<strong>Time:</strong> 3:00 PM – 5:00 PM"
-msgstr ""
+msgstr "<strong>Ora:</strong> 15:00 – 17:00"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -694,21 +813,21 @@ msgstr "<strong>Caz de utilizare</strong>"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "<strong>Website Form:</strong>"
-msgstr ""
+msgstr "<strong>Formular website:</strong>"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
 #: model_terms:event.event,description:coworking.event_event_2
 #: model_terms:event.event,description:coworking.event_event_3
 msgid "<strong>What to expect:</strong>"
-msgstr ""
+msgstr "<strong>La ce să te aștepți:</strong>"
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
 #: model_terms:event.event,description:coworking.event_event_2
 #: model_terms:event.event,description:coworking.event_event_3
 msgid "<strong>Why join?</strong>"
-msgstr ""
+msgstr "<strong>De ce să te alături?</strong>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -717,6 +836,9 @@ msgid ""
 "<strong>Apps &gt; Industries &gt; Upgrade your Coworking Package </"
 "strong>and check the related box."
 msgstr ""
+"<strong>Nu ați importat datele demo?</strong> Puteți să o faceți încă. "
+"Mergeți la <strong>Apps &gt; Industries &gt; Upgrade your Coworking Package "
+"</strong>și bifați caseta corespunzătoare."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -726,6 +848,12 @@ msgid ""
 "rooms</strong>, and <strong>10% off event space rentals</strong>.<br/>\n"
 "                <br/>"
 msgstr ""
+"<u/>Setați liste de prețuri: Creați o listă de prețuri pentru membrii "
+"nelimitați, de exemplu: <strong>100% reducere la zilele de coworking</"
+"strong>, <strong>20% reducere la sălile de întâlnire</strong>, și "
+"<strong>10% reducere la închirierea spațiilor pentru evenimente</strong>.<br/"
+">\n"
+"                <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -771,6 +899,10 @@ msgid ""
 "automatic renewal using the <strong>Subscriptions</strong> module.<br/>\n"
 "                <br/>"
 msgstr ""
+"Automatizare înnoire: Pentru planurile recurente precum <strong>Adresa de "
+"afaceri</strong> sau <strong>Abonămente lunare nelimitate</strong>, activați "
+"înnoirea automată folosind modulul <strong>Abonămente</strong>.<br/>\n"
+"                <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
@@ -865,6 +997,8 @@ msgid ""
 "Configure it so each submission creates an <strong>opportunity</strong> in "
 "<strong>CRM</strong>."
 msgstr ""
+"Configurați-l astfel încât fiecare trimitere să creeze o "
+"<strong>oportunitate</strong> în <strong>CRM</strong>."
 
 #. module: coworking
 #: model:website.menu,name:coworking.website_menu_6
@@ -960,6 +1094,7 @@ msgstr "Profesioniști dedicați care alimentează creșterea noastră"
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Define <strong>Operating Hours</strong> (e.g., 8am–8pm, Monday–Friday)."
 msgstr ""
+"Definiți <strong>orele de funcționare</strong> (ex. 8:00–20:00, luni–vineri)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1006,6 +1141,8 @@ msgid ""
 "Enable online <strong>payment methods</strong> (credit card, bank transfer) "
 "for convenience."
 msgstr ""
+"Activați <strong>metodele de plată</strong> online "
+"(card de credit, transfer bancar) pentru convență."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -1052,6 +1189,8 @@ msgid ""
 "For subscriptions (monthly/yearly), invoices are generated and sent "
 "<strong>automatically</strong>."
 msgstr ""
+"Pentru abonămente (lunare/anuale), facturile sunt generate și trimise "
+"<strong>automat</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -1105,6 +1244,8 @@ msgid ""
 "Go to <strong>Discount &amp; Loyalty</strong> and create a new "
 "<strong>Loyalty Card</strong>."
 msgstr ""
+"Mergeți la <strong>Reduceri și fidelitate</strong> și creați un nou "
+"<strong>card de fidelitate</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1143,6 +1284,9 @@ msgid ""
 "thriving community. She is passionate about enhancing member experiences and "
 "driving innovation within our spaces."
 msgstr ""
+"Iris, cu experiența sa vastă în coworking, ne ajută să cultivăm o comunitate "
+"înfloritoare. Ea este pasionată de îmbunătățirea experiențelor membrilor și "
+"de impulsionarea inovației în spațiile noastre."
 
 #. module: coworking
 #: model:website.menu,name:coworking.website_menu_12
@@ -1188,12 +1332,16 @@ msgid ""
 "Let members report issues (e.g., coffee machine broken, Wi-Fi down) via a "
 "website form and manage all requests in the <strong>Helpdesk app</strong>."
 msgstr ""
+"Permiteți membrilor să raporteze probleme "
+"(de ex. mașina de cafea defectă, Wi-Fi căzut) printr-un formular pe site-ul "
+"web și gestionați toate cererile în <strong>aplicația Helpdesk</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid ""
 "Link each product to its corresponding <strong>Membership Level</strong>."
 msgstr ""
+"Legați fiecare produs la <strong>nivelul de membru</strong> corespunzător."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1206,6 +1354,14 @@ msgid ""
 "with Unlimited).<br/>\n"
 "                        <br/>"
 msgstr ""
+"Legați nivelul de membru la o <strong>listă de prețuri</strong> specifică "
+"(de ex. 0 € pentru zilele de coworking dacă sunt incluse în Unlimited).<br/>"
+"\n"
+"                        → Când un client cumpără abonamentul, este atribuit "
+"automat nivelul și lista de prețuri conexă. În portalul lor, vor vedea "
+"accesul eligibil la coworking la prețul corect (cum ar fi 0€/zi cu Unlimited)"
+".<br/>\n"
+"                        <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3303
@@ -1218,6 +1374,8 @@ msgid ""
 "Make <strong>member-only pages</strong> for internal events, resources, or "
 "booking links."
 msgstr ""
+"Creați <strong>pagini doar pentru membri</strong> pentru evenimente interne, "
+"resurse sau linkuri de rezervare."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1232,6 +1390,10 @@ msgid ""
 ">\n"
 "                <br/>"
 msgstr ""
+"Gestionați anulările: setați o dată de încheiere pentru ca abonamentul să se "
+"închidă automat sau permiteți clienților să anuleze oricând prin portalul "
+"Odoo.<br/>\n"
+"                <br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1239,6 +1401,8 @@ msgid ""
 "Manage all finances in one place with automatic entries from sales and "
 "subscriptions using <strong>Accounting</strong>."
 msgstr ""
+"Gestionați toate finanțele într-un singur loc cu intrări automate din "
+"vânzări și abonamente folosind <strong>Contabilitatea</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1246,6 +1410,8 @@ msgid ""
 "Manage walk-in visitors, check-ins, and instant bookings for desks or rooms "
 "using <strong>Front Desk</strong>."
 msgstr ""
+"Gestionați vizitatorii neplanificați, check-in-urile și rezervările instant "
+"pentru birouri sau săli folosind <strong>Front Desk</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -1409,6 +1575,8 @@ msgid ""
 "Promote your space, events, and member stories on social media directly from "
 "<strong>Social Marketing</strong>."
 msgstr ""
+"Promovați spațiul, evenimentele și poveștile membrilor pe social media "
+"direct din <strong>Social Marketing</strong>."
 
 #. module: coworking
 #: model:planning.role,name:coworking.planning_role_1
@@ -1462,7 +1630,7 @@ msgstr "Vezi tot"
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_4092
 msgid "See all<span class=\"fa fa-long-arrow-right ms-2\"/>"
-msgstr ""
+msgstr "Vezi tot<span class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1478,6 +1646,8 @@ msgid ""
 "Send <strong>professional offers</strong> for meeting room packages, private "
 "offices, or custom services."
 msgstr ""
+"Trimiteți <strong>oferte profesionale</strong> pentru pachete de săli de "
+"întâlniri, birouri private sau servicii personalizate."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1485,6 +1655,8 @@ msgid ""
 "Send members the new Wi-Fi code, upcoming events, and important updates via "
 "<strong>Email Marketing</strong>."
 msgstr ""
+"Trimiteți membrilor noul cod Wi-Fi, evenimentele viitoare și actualizări "
+"importante prin <strong>Email Marketing</strong>."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1503,6 +1675,8 @@ msgid ""
 "Set a Loyalty Rule to give <strong>10 points</strong> when the product is "
 "purchased."
 msgstr ""
+"Setați o regulă de fidelitate pentru a acorda <strong>10 puncte</strong> "
+"când produsul este cumpărat."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1513,6 +1687,11 @@ msgid ""
 "their points at checkout. Once all 10 points are used, the standard day "
 "price applies for future bookings."
 msgstr ""
+"Setați o recompensă unde <strong>1 punct = 100% reducere pentru 1 zi de "
+"coworking</strong>.<br/>\n"
+"                        → Când clientul rezervă zile de coworking, aplică "
+"punctele la finalizarea comenzii. Odată utilizate toate cele 10 puncte, "
+"prețul standard pe zi se aplică pentru rezervările viitoare."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1520,6 +1699,8 @@ msgid ""
 "Set the product type to <strong>Service – Membership / Partnership</strong> "
 "for subscription offers (Business Address and Unlimited monthly access)."
 msgstr ""
+"Setați tipul de produs la <strong>Serviciu - Membru / Parteneriat</strong> "
+"pentru ofertele de abonament (Adresa de afaceri și accesul lunar nelimitat)."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1578,6 +1759,12 @@ msgid ""
 "            one place: from selling memberships and booking meeting rooms to "
 "engaging your community and organizing staff schedules."
 msgstr ""
+"Această suită de aplicații este proiectată pentru a răspunde nevoilor "
+"spațiilor de coworking; fie că gestionați un birou boutique partajat, un "
+"centru de coworking multi-locații sau un spațiu de lucru orientat către "
+"comunitate. Cu Odoo, puteți centraliza operațiunile într-un\n"
+"            singur loc: de la vânzarea de abonamente și rezervarea sălilor "
+"de ședințe la implicarea comunității și organizarea programelor personalului."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.ir_ui_view_3304
@@ -1600,6 +1787,8 @@ msgid ""
 "Track and schedule repairs for equipment like printers, or coffee machines "
 "with <strong>Maintenance</strong>."
 msgstr ""
+"Urmăriți și programați reparații pentru echipamente precum imprimante sau "
+"mașini de cafea cu <strong>Mentenanță</strong>."
 
 #. module: coworking
 #: model:crm.tag,name:coworking.crm_tag_1
@@ -1611,6 +1800,8 @@ msgstr "Permis nelimitat"
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
 msgid "Use <strong>Auto-Plan</strong> to assign shifts based on availability."
 msgstr ""
+"Folosiți <strong>Auto-Plan</strong> pentru a atribui schimburi în funcție de "
+"disponibilitate."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1618,6 +1809,8 @@ msgid ""
 "Use <strong>Rental</strong> to support a \"Private office\" offer in your "
 "coworking."
 msgstr ""
+"Folosiți <strong>Rental</strong> pentru a susține oferta de \"Birou privat\" "
+"în coworking-ul dvs."
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1653,6 +1846,9 @@ msgid ""
 "connect with like-minded individuals, and embrace the joy of collaboration "
 "and creativity.<br/><br/>"
 msgstr ""
+"Bine ați venit în comunitatea noastră de coworking. Vă invităm să explorați "
+"spațiile noastre, să vă conectați cu persoane care gândesc la fel și să vă "
+"bucurați de bucuria colaborării și creativității.<br/><br/>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -1818,6 +2014,8 @@ msgid ""
 "☕ <strong>Quality Coffee &amp; Tea</strong> – Fuel for a productive day "
 "ahead."
 msgstr ""
+"☕ <strong>Cafea și ceai de calitate</strong> – Combustibilul pentru o zi "
+"productivă în față."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
@@ -1825,6 +2023,8 @@ msgid ""
 "✍ <strong>Hands-On Exercises</strong> – Apply new methods immediately to "
 "your work."
 msgstr ""
+"✍ <strong>Exerciții practice</strong> – Aplicați imediat metodele noi în "
+"munca dvs."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -1832,6 +2032,8 @@ msgid ""
 "🍹 <strong>Drinks &amp; Snacks</strong> – A curated selection to keep the "
 "conversation flowing."
 msgstr ""
+"🍹 <strong>Băuturi și gustări</strong> – O selecție atent curată pentru a "
+"menține conversația viuă."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
@@ -1839,6 +2041,8 @@ msgid ""
 "👋 <strong>Morning Networking</strong> – Meet fellow members before diving "
 "into work."
 msgstr ""
+"👋 <strong>Networking matinal</strong> – Cunoașteți colegii membri înainte "
+"de a vă apuca de lucru."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -1846,6 +2050,8 @@ msgid ""
 "💡 <strong>Inspiration</strong> – Exchange ideas in a relaxed, social "
 "setting."
 msgstr ""
+"💡 <strong>Inspirație</strong> – Schimbați idei într-un cadru relaxat și "
+"social."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
@@ -1853,6 +2059,8 @@ msgid ""
 "🤝 <strong>Collaborative Atmosphere</strong> – Connect with others who value "
 "creativity and growth."
 msgstr ""
+"🤝 <strong>Atmosferă colaborativă</strong> – Conectați-vă cu alții care "
+"pretuțesc creativitatea și creșterea."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_1
@@ -1860,6 +2068,8 @@ msgid ""
 "🤝 <strong>Networking</strong> – Meet entrepreneurs, freelancers, and "
 "creatives."
 msgstr ""
+"🤝 <strong>Networking</strong> – Întâlniți antreprenori, freelanceri și "
+"creativi."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_2
@@ -1867,6 +2077,8 @@ msgid ""
 "🥯 <strong>Fresh Bagels</strong> – With a variety of toppings to suit every "
 "taste."
 msgstr ""
+"🥯 <strong>Bagele proaspete</strong> – Cu o varietate de garnituri pentru "
+"toate gusturile."
 
 #. module: coworking
 #: model_terms:event.event,description:coworking.event_event_3
@@ -1874,3 +2086,5 @@ msgid ""
 "🧠 <strong>Proven Strategies</strong> – Learn practical tools to stay "
 "productive and inspired."
 msgstr ""
+"🧠 <strong>Strategii dovedite</strong> – Învațați instrumente practice "
+"pentru a rămâne productivi și inspirați."

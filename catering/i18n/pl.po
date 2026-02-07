@@ -1,19 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* catering
+# * catering
 #
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 10:16+0000\n"
-"PO-Revision-Date: 2025-11-25 10:16+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2026-02-03 10:35+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/catering/"
+"pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: catering
 #: model:project.project,name:catering.project_project_2
@@ -838,6 +843,10 @@ msgid ""
 "For large catering events, different types of logistics are required to get all the products and materials where they need to go. By registering these movements in Odoo, you can ensure every item is accounted for. Here's how to manage\n"
 "            each type of purchase and delivery."
 msgstr ""
+"Dla dużych wydarzeń kateringowych, aby dostarczyć wszystkie produkty tam, "
+"gdzie są potrzebne, wymagane są różne rodzaje logistyki. Rejestrując ruchy w "
+"Odoo, możesz mieć pewność, że każdy element zostanie uwzględniony. Oto jak "
+"zarządzać każdym typem zakupu i dostawy."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body

@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 10:36+0000\n"
+"POT-Creation-Date: 2026-02-02 09:00+0000\n"
 "PO-Revision-Date: 2026-01-30 14:17+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19/"
@@ -485,8 +485,8 @@ msgid ""
 "Bar &amp; Shop at the Brewery (B2C) - Using the <strong><font class=\"text-o-"
 "color-1\">Point of Sales App</font></strong>"
 msgstr ""
-"ブルワリー内のバーおよび店舗(B2C) -  <strong><font class=\"text-o-color-1\">P"
-"OSアプリ</font></strong>で運営"
+"ブルワリー内のバーおよび店舗(B2C) -  <strong><font class=\"text-o-"
+"color-1\">POSアプリ</font></strong>で運営"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -711,15 +711,11 @@ msgstr "Chaudfontaine"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposits when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"顧客に配達した際にデポジットを簡単に回収できます。配達を検証済の場合、\"返却"
-"\" を直接設定し、顧客から預かった各タイプのデポジットの数を正確に数えることが"
-"できます。 自動的に\n"
-"顧客請求書に反映さ れたり、クレジットノートが発行されます。"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -1087,7 +1083,8 @@ msgstr ""
 msgid ""
 "Go on the delivery order and indicate the quantity you received and create "
 "the lot numbers for each components."
-msgstr "出荷オーダを開き、入荷した数量を入力し、各構成品に対してロット番号を作成して"
+msgstr ""
+"出荷オーダを開き、入荷した数量を入力し、各構成品に対してロット番号を作成して"
 "ください。"
 
 #. module: micro_brewery
@@ -1404,7 +1401,8 @@ msgid ""
 "Now if you go back on the quotation in the Sales application, you will see "
 "that it is now a confirmed order and a delivery order has been created. Go "
 "on that delivery order and validate it."
-msgstr "販売アプリケーションで見積に戻ると、オーダが確定し、出荷オーダが作成されてい"
+msgstr ""
+"販売アプリケーションで見積に戻ると、オーダが確定し、出荷オーダが作成されてい"
 "ることがわかります。その出荷オーダを検証して下さい。"
 
 #. module: micro_brewery
@@ -1498,7 +1496,8 @@ msgstr ""
 msgid ""
 "Once it is confirmed a delivery order should have been created meaning you "
 "are waiting for the vendor to deliver the goods."
-msgstr "オーダが確定されると、出荷オーダ(入荷予定)が作成され、仕入先からの納品を待つ"
+msgstr ""
+"オーダが確定されると、出荷オーダ(入荷予定)が作成され、仕入先からの納品を待つ"
 "状態になります。"
 
 #. module: micro_brewery
@@ -1662,7 +1661,8 @@ msgstr ""
 msgid ""
 "Set a deposit product on your product to apply deposit taxes. This will "
 "ensure that you invoice correctly the price of consignments."
-msgstr "デポジット税を適用するには、商品にデポジットプロダクトを設定してください。こ"
+msgstr ""
+"デポジット税を適用するには、商品にデポジットプロダクトを設定してください。こ"
 "れにより、委託品の価格を正しく請求できるようになります。"
 
 #. module: micro_brewery
@@ -2109,7 +2109,8 @@ msgstr ""
 msgid ""
 "You can also collect deposits directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
-msgstr "POSで直接デポジットを回収することも可能です。該当プロダクトを選択し、数量をマ"
+msgstr ""
+"POSで直接デポジットを回収することも可能です。該当プロダクトを選択し、数量をマ"
 "イナスで入力してください。"
 
 #. module: micro_brewery
@@ -2257,6 +2258,17 @@ msgstr "🎓 物品税管理"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 単位"
+
+#~ msgid ""
+#~ "Collect deposits when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "顧客に配達した際にデポジットを簡単に回収できます。配達を検証済の場合、\"返"
+#~ "却\" を直接設定し、顧客から預かった各タイプのデポジットの数を正確に数える"
+#~ "ことができます。 自動的に\n"
+#~ "顧客請求書に反映さ れたり、クレジットノートが発行されます。"
 
 #~ msgid ""
 #~ "Apply DEP XX taxes to those products, creating some if necessary, and "

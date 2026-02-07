@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-12 09:36+0000\n"
-"PO-Revision-Date: 2026-01-20 11:01+0000\n"
+"POT-Creation-Date: 2026-02-04 22:03+0000\n"
+"PO-Revision-Date: 2026-02-06 13:18+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "condominium/ko/>\n"
@@ -24,6 +24,22 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "% of the owner ratios"
+msgstr "% 소유자 비율"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+msgid "% of the owner ratios;"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid ", representing"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -121,6 +137,95 @@ msgid ""
 msgstr ""
 
 #. module: condominium
+#: model:mail.template,body_html:condominium.mail_template_2
+msgid ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hi,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                Please find attached the agenda for the "
+"upcoming meeting:\n"
+"                                <t t-out=\"object.name or ''\">General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">Kind regards.</"
+"p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
+msgstr ""
+
+#. module: condominium
+#: model:mail.template,body_html:condominium.mail_template_3
+msgid ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hi,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                Please find attached the report from the "
+"meeting:\n"
+"                                <t t-out=\"object.name or ''\">General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">Kind regards.</"
+"p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<font style=\"background-color: rgba(156, 156, 148, 0.6);\"> Note: this tour "
+"will create undeletable data inside your database.</font>"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
@@ -131,8 +236,24 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgid ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
@@ -140,9 +261,146 @@ msgid "<span class=\"fw-bold\">Address</span>"
 msgstr "<span class=\"fw-bold\">주소</span>"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+msgid ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\tGENERAL MEETING AGENDA\n"
+"\t\t\t\t\t\t\t</strong>"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\tGENERAL MEETING REPORT\n"
+"\t\t\t\t\t\t\t</strong>"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "<strong><u>onboarding tour</u></strong>"
 msgstr "<strong><u>온보딩 투어</u></strong>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Accounting:</strong> Manage shared expenses, distribute costs by "
+"owner, and maintain owner-specific balance sheets."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Automate recurring tasks</strong>, like meter reading imports or "
+"expense allocation."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>CRM:</strong> Track and manage incoming leads and communications "
+"with potential new condominiums."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Calendar:</strong> Schedule and organize association meetings, "
+"collecting votes during general assemblies and share the report."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Condominium:</strong> Define buildings, properties, owner and tenant "
+"histories, meter readings and distribution keys."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Contacts:</strong> Manage contacts turning prospects into "
+"condominiums, as well as owners, tenants and suppliers."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Define a chart of accounts template for condominiums</strong> to "
+"save time setting up accounting aspects. Don't hesitate to contact us if "
+"needed!"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "<strong>Documents App: </strong>Request and share documents."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>In such situation, feel free to experiment with this database and "
+"then to create a new one for your own usage.</strong>"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Keep contact data up-to-date</strong> to ensure seamless "
+"communication during meetings, billing and accounting."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Leverage tags and filters</strong> in Contacts and CRM to segment "
+"your audience (owners, tenants, suppliers, condominiums...)."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "<strong>Motions</strong>"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Sales:</strong> Send quotations, confirm orders, and invoice shared "
+"expenses to owners."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Sign</strong> <strong>App: </strong>Send digital property "
+"reservation contracts."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Use quotation templates</strong> in the Sales app to standardize "
+"quotes and reduce manual errors."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>VoIP Integration:</strong> Organize online meetings directly from "
+"Odoo with integrated call capabilities."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Website Builder:</strong> Build a professional website with lead "
+"capture forms and member areas."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "<strong>and delegating</strong>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -157,14 +415,81 @@ msgstr ""
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
+"A distribution key is needed for several actions.<br/>\n"
+"                    Defining a distribution key is efficient by populating "
+"defined properties in a click."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
 "A name to identify the property, for example the post box or the "
 "identification code."
 msgstr "우편함이나 식별 코드와 같은 숙소를 식별할 수 있는 이름입니다."
 
 #. module: condominium
+#: model:x_vote_criteria,x_name:condominium.x_vote_criteria_1
+msgid "Absolute Majority"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_total_abstention
+#: model:ir.model.fields.selection,name:condominium.x_vote_abstention
+msgid "Abstention"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Abstention:"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_new_decimal_vote_criteria
+msgid "Acceptation threshold"
+msgstr ""
+
+#. module: condominium
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_7
+msgid "Accesses"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_line_account
+#: model:ir.model.fields,field_description:condominium.field_x_analytic_account_id
+msgid "Account"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_account_analytic_split_line
+msgid "Account Analytic Line Split"
+msgstr ""
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_36
+msgid "Accounting 2024 approval"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Accounting opening/handover<br/>"
 msgstr "계좌 개설/인계<br/>"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.properties_act_window_account
+#: model:ir.model.fields,field_description:condominium.field_property_account_ids
+#: model:ir.ui.menu,name:condominium.owners_properties_menu
+msgid "Accounts"
+msgstr ""
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_65
+msgid "Accounts approbation for 2024"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Acquire a new company"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -173,8 +498,10 @@ msgstr "조항 분석"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.active_buildings
+#: model:ir.model.fields,field_description:condominium.active_distribution_field
 #: model:ir.model.fields,field_description:condominium.active_properties_type
-#: model:ir.model.fields,field_description:condominium.active_ratios_field
+#: model:ir.model.fields,field_description:condominium.field_active_vote_criteria
+#: model:ir.model.fields,field_description:condominium.field_property_active
 msgid "Active"
 msgstr "활성화"
 
@@ -196,6 +523,17 @@ msgstr ""
 "새로 만들 수 있습니다."
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_total_against
+#: model:ir.model.fields.selection,name:condominium.x_vote_against
+msgid "Against"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Against:"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_714_product_template
 msgid "Air and smoke extractors"
 msgstr "공기 및 연기 흡입기"
@@ -206,13 +544,21 @@ msgid "Air conditioning and air treatment"
 msgstr "에어컨 및 공기 정화"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "All Against"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "All In Favor"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,description_sale:condominium.product_product_7_product_template
 msgid ""
 "All other extra services will be invoiced at the hourly rate, See Terms & "
-"Condition for further information about the hourly rate"
+"Conditions for further information about the hourly rate"
 msgstr ""
-"모든 추가 서비스는 시간당 요금으로 청구됩니다. 시간당 요금에 대한 자세한 내용"
-"은 이용약관을 참조하세요."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_698_product_template
@@ -230,48 +576,68 @@ msgid "Amortization on tangible assets"
 msgstr "유형자산 상각"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_total
+msgid "Amount"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_analytic_line_id
+msgid "Analytic Line"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
+msgid "Analytic item split"
+msgstr ""
+
+#. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_1
 msgid "Apartment"
 msgstr "아파트"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_12
+#: model:x_property,x_name:condominium.x_property_1
 msgid "Apartment A0"
 msgstr "아파트 A0"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_14
+#: model:x_property,x_name:condominium.x_property_2
 msgid "Apartment A1"
 msgstr "아파트 A1"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_15
+#: model:x_property,x_name:condominium.x_property_3
 msgid "Apartment A2"
 msgstr "아파트 A2"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_17
+#: model:x_property,x_name:condominium.x_property_6
 msgid "Apartment B0"
 msgstr "아파트 B0"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_19
+#: model:x_property,x_name:condominium.x_property_7
 msgid "Apartment B1.1"
 msgstr "아파트 B1.1"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_18
+#: model:x_property,x_name:condominium.x_property_8
 msgid "Apartment B1.2"
 msgstr "아파트 B1.2"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-msgid "Apartment..."
-msgstr "아파트..."
+#: model:x_motion,x_name:condominium.x_motion_16
+msgid "Approbation of accounting 2024"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_outcome_approved
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Approved"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_15_product_template
-#: model:product.template,description_sale:condominium.product_product_3_product_template
 msgid ""
 "Approximately $80 per property per month, See Terms & Condition for further "
 "information about the coverage of the Service Fees"
@@ -280,14 +646,28 @@ msgstr ""
 "관을 참조하세요."
 
 #. module: condominium
+#: model:product.template,description_sale:condominium.product_product_3_product_template
+msgid ""
+"Approximately $80 per property per month, See Terms & Conditions for further "
+"information about the coverage of the Service Fees"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Apps Overview"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_784_product_template
 msgid "Architect/engineer fees"
 msgstr "건축가/엔지니어 수수료"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_building
-#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_for_x_ratios
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_property_type
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_search_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_search_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_vote_criteria_search_view
 msgid "Archived"
 msgstr "보관됨"
 
@@ -297,16 +677,10 @@ msgid "Archives fees"
 msgstr "보관 수수료"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_area_field
+#: model:ir.model.fields,field_description:condominium.field_property_area
 #: model:ir.model.fields,field_description:condominium.x_area_related_field
 msgid "Area"
 msgstr "지역"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
-msgid "Area as distribution key"
-msgstr "배포 키로서의 영역"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -317,33 +691,66 @@ msgstr "인공지능"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "As soon as a condominium reaches out to you to get a quote, quickly send "
-"them an overview of your services and fees by creating\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Quotations</font> in the Sales application where you can directly use the "
-"\"Kick-Off Quote\" quotation template. This will automatically fill the "
-"quote by adding the kick-off fees\n"
-"            and also the price of all the extra services such as the "
-"recurring contribution, the hourly rate, etc. Don't forget to attach the "
-"terms &amp; conditions as well. Of course, the price of each service and the "
-"content of the\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Quotation Templates</font> can be adapted accordingly."
+"them an overview of your services and fees by creating Quotations in the "
+"<strong>Sales App</strong> where you can directly use the \"Kick-Off "
+"Quote\"\n"
+"            quotation template. This will automatically fill the quote by "
+"adding the kick-off fees and also the price of all the extra services such "
+"as the recurring contribution, the hourly rate, etc. Don't forget to attach "
+"the terms &amp;\n"
+"            conditions as well. Of course, the price of each service and the "
+"content of the Quotation Templates can be adapted accordingly."
 msgstr ""
-"콘도에서 견적서 문의 접수를 받게 될 경우, 신속하게 서비스 및 수수료에 대한 전"
-"체 내용을 간략하게 작성하여 전송하세요.\n"
-"            판매 앱에 있는 <font class=\"text-o-color-1\" style=\"font-"
-"weight: bolder;\">견적서</font>를 통해 \"킥오프 견적서\" 템플릿을 즉시 활용"
-"할 수 있습니다. 이 템플릿에는 착수 수수료와 정기적으로 발생하는 비용, 시간당 "
-"요금 등의 추가 서비스 비용이\n"
-"            견적서에 자동으로 입력됩니다. 이용약관도 문제없이 추가할 수 있습"
-"니다. 당연히\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">견"
-"적서 템플릿</font>에서 서비스 비용과 내용은 필요에 따라 조정할 수 있습니다."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Assign the appropriate distribution key and if relevant the distribution "
+"period.."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"At the end of the meeting, you can preview the meeting report and send it to "
+"the owners."
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image
 msgid "Attachment"
 msgstr "첨부 파일"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.meter_image_name
+msgid "Attachment name "
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_vote_attendee_id
+msgid "Attendee"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_attendee_vote_ids
+msgid "Attendee Votes"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_is_attending
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Attending"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_owners
+msgid "Attending and Delegating Owners"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_ratio
+msgid "Attending and Delegating Ratio"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -361,12 +768,18 @@ msgid "Bank fees and debt charges"
 msgstr "은행 수수료 및 부채 비용"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.base_on_account_move_field
+#: model:ir.model.fields,field_description:condominium.field_distribution_key_base_on
+msgid "Based on"
+msgstr ""
+
+#. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_5
 msgid "Basement"
 msgstr "지하"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_16
+#: model:x_property,x_name:condominium.x_property_4
 msgid "Basement AB"
 msgstr "지하실 AB"
 
@@ -379,6 +792,13 @@ msgstr "지하실 유지 보수"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Basics"
 msgstr "기본 사항"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Be aware that additional users lead to additional Odoo subscription costs. "
+"We therefore recommend you :"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_710_product_template
@@ -396,26 +816,15 @@ msgid "Book the right numbers 🧮"
 msgstr "적절한 번호로 예약하기 🧮"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_building_field
+#: model:x_motion,x_name:condominium.x_motion_66
+msgid "Budget approbation for 2025"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_building
 #: model:ir.model.fields,field_description:condominium.x_building_related_field
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "Building"
 msgstr "빌딩"
-
-#. module: condominium
-#: model:x_buildings,x_name:condominium.x_buildings_6
-msgid "Building 1"
-msgstr "빌딩 1"
-
-#. module: condominium
-#: model:x_buildings,x_name:condominium.x_buildings_7
-msgid "Building 2"
-msgstr "빌딩 2"
-
-#. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_condominium_account_analytic_account_count
-msgid "Building Condominium count"
-msgstr "건물 콘도 수"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_732_product_template
@@ -423,12 +832,6 @@ msgid "Building cleaning under contract"
 msgstr "계약에 따른 건물 청소"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_x_building_account_analytic_account_count_field
-msgid "Building count"
-msgstr "빌딩 수"
-
-#. module: condominium
-#: model:ir.actions.act_window,name:condominium.bu_act_window
 #: model:ir.actions.act_window,name:condominium.buildings_act_window
 #: model:ir.model,name:condominium.model_buildings
 #: model:ir.ui.menu,name:condominium.building_menu
@@ -440,7 +843,6 @@ msgstr "빌딩"
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.buildings_tags_act_window
 #: model:ir.model,name:condominium.model_buildings_tags
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 msgid "Buildings Tags"
 msgstr "빌딩 태그"
 
@@ -453,10 +855,8 @@ msgstr "업무 흐름"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "By the end of the period, easily generate the legal reporting such as "
-"Balance Sheet and Profit &amp; Loss for each condominium."
+"Balance Sheet and Profit &amp; Loss for each"
 msgstr ""
-"기간이 끝나면 각 콘도의 대차대조표와 손익 계산서와 같은 법적 보고서를 쉽게 생"
-"성할 수 있습니다."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_781_product_template
@@ -464,9 +864,24 @@ msgid "Cable distribution"
 msgstr "케이블 분배"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.calendar_event_line_event
+msgid "Calendar Event"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.calendar_event_line_vote
+msgid "Calendar Event Line Vote"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Call for working and reserve funds"
 msgstr "작업 및 예비비 요청"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
+msgid "Cancel"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_664_product_template
@@ -477,6 +892,11 @@ msgstr "미수금 실현으로 인한 자본 손실."
 #: model:product.template,name:condominium.product_product_726_product_template
 msgid "Carpentry maintenance contracts"
 msgstr "목공 유지보수 계약"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_50
+msgid "Chairman of the session"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -516,18 +936,28 @@ msgstr "청소용 제품"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Click on \"Split per Property\" button: this will cancel the current "
-"quotation and will create as many quotations as there are properties in the "
-"condominium for which the costs are shared."
+"Click on \"Split by Property\" button: this will cancel the current "
+"quotation and will create as many quotations as there are ongoing owners in "
+"the condominium for which the costs are shared, with a line by property "
+"they\n"
+"                own."
 msgstr ""
-"\"숙소별 분할\" 버튼을 클릭하면 현재 견적을 취소하고 비용이 공유되는 콘도 내 "
-"각 숙소에 대해 별도의 견적을 생성합니다."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Click on the \"Sales Orders\" buttons to access all the generated quotations."
 msgstr "생성된 모든 견적에 액세스하려면 \"판매 주문\" 버튼을 클릭합니다."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_condominium
+msgid "Closed"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.co_owners_property_line_field
+msgid "Co-Owners"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.color_buildings_tags
@@ -542,7 +972,10 @@ msgstr "공증인에게 정보 제공"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.company_buildings
+#: model:ir.model.fields,field_description:condominium.company_distribution_field
 #: model:ir.model.fields,field_description:condominium.company_ratios_field
+#: model:ir.model.fields,field_description:condominium.field_property_company_id
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Company"
 msgstr "회사"
 
@@ -557,8 +990,18 @@ msgid "Compensation for members of the internal council and internal auditor"
 msgstr "내부 위원회 위원 및 내부 감사관에 대한 보상"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_actions_server_compute_ratio
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model:x_motion,x_name:condominium.x_motion_51
+#: model:x_motion,x_name:condominium.x_motion_62
+msgid "Comptes 2024"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_compute_distribution_key_ratios
+msgid "Compute Distribution Key Ratios"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Compute Ratios"
 msgstr "계산 비율"
 
@@ -575,16 +1018,19 @@ msgstr "컨시어지 유지보수"
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.condo_act_window
 #: model:ir.model.fields,field_description:condominium.building_condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_condominium
+#: model:ir.model.fields,field_description:condominium.field_property_condominium
 #: model:ir.model.fields,field_description:condominium.x_condominium_field
 #: model:ir.ui.menu,name:condominium.condo_menu
-#: model:ir.ui.menu,name:condominium.infra_condo_menu
+#: model:ir.ui.menu,name:condominium.infra_condominium_menu
 msgid "Condominium"
 msgstr "콘도"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.condominium_property_ids
-msgid "Condominium Properties"
-msgstr "콘도미니엄 속성"
+#: model:ir.model.fields,field_description:condominium.field_partner_condominium_x_property_count
+msgid "Condominium count"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -594,9 +1040,119 @@ msgid ""
 msgstr "Odoo에서 콘도 만들기 (<em>빠르게 콘도 설정하기 🚀</em> 섹션 참조)"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_custom
+#: model:ir.actions.server,name:condominium.action_archive_related_accounts
+msgid "Condominium: Archive related accounts"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
+msgid "Condominium: Compute Meter Reading Consumption"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_create_task_from_motion
+msgid "Condominium: Create Task from Motion"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
+msgid "Condominium: Distribute Costs"
+msgstr ""
+
+#. module: condominium
+#: model:mail.template,name:condominium.mail_template_2
+msgid "Condominium: General Meeting Agenda"
+msgstr ""
+
+#. module: condominium
+#: model:mail.template,name:condominium.mail_template_3
+msgid "Condominium: General Meeting Report"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_update_for_voters_line
+msgid "Condominium: On Attendee and delegating Edit"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_call_distribute_costs_on_save
+msgid "Condominium: On Distribution input save"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_call_distribute_costs_on_update
+msgid "Condominium: On Distribution input update"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_populate_voters
+msgid "Condominium: On Vote Edit"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_update_property_current_owner
+msgid "Condominium: On owners edit"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_archive_related_accounts
+msgid "Condominium: On property deletion"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_populate_distribution_key
+msgid "Condominium: Populate Distribution Key"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_populate_voters
+msgid "Condominium: Populate Voters"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_send_general_meeting_agenda
+msgid "Condominium: Send General Meeting Agenda"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_send_general_meeting_report
+msgid "Condominium: Send General Meeting Report"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_set_usage_meter_reading
+msgid "Condominium: Set Usage in Meter Readings"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_set_votes_as_all_against
+msgid "Condominium: Set Votes as All Against"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_set_votes_as_all_favor
+msgid "Condominium: Set Votes as All In Favor"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
+msgid "Condominium: Split SO per Owner"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_update_property_current_owner
+msgid "Condominium: Update Property Current Owner"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_search_inherit
 msgid "Condominiums"
 msgstr "콘도"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_action_create_condominium
+msgid "Condomnium: Create Condominium"
+msgstr ""
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.config_menu
@@ -605,8 +1161,14 @@ msgstr "환경설정"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_confirm_action
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
 msgid "Confirm"
 msgstr "승인"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.confirm_analytic_account_item_split_action
+msgid "Confirm Account Analytic Line"
+msgstr ""
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.acquisition_tour
@@ -614,9 +1176,19 @@ msgid "Congrats! You did your first sell."
 msgstr ""
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Connect your calendar to your Odoo database to never miss any meeting!"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Contacts"
 msgstr "연락처"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_39
+msgid "Contract renewal for 2025"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_4_product_template
@@ -649,14 +1221,18 @@ msgid "Contracts establishment<br/>"
 msgstr "계약 설정<br/>"
 
 #. module: condominium
+#: model:ir.ui.menu,name:condominium.condominium_costs_menu
+msgid "Costs"
+msgstr ""
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.country
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Country"
 msgstr "국가"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_action_create_condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Create Condominium"
 msgstr "콘도 만들기"
 
@@ -666,14 +1242,9 @@ msgid "Create and manage the buildings that compose this condominium<br>"
 msgstr "콘도를 구성하는 건물을 생성하고 관리하기 <br>"
 
 #. module: condominium
-#: model_terms:ir.actions.act_window,help:condominium.properties_act_window
-msgid "Create and manage the properties that compose this condominium"
-msgstr "이 콘도를 구성하는 자산을 생성하고 관리하기"
-
-#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Create the buildings that compounds the condominium."
-msgstr "콘도를 구성하는 건물을 생성합니다."
+msgid "Create the buildings that compounds the"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -684,9 +1255,20 @@ msgstr ""
 "건물을 구성하는 속성 생성하기: 아파트, 스튜디오, 플랫, 펜트하우스, 차고 등"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.field_meters_currency
-msgid "Currency"
-msgstr "통화"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Create the relevant motions in advance to efficiently drive the meeting."
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_current_owner_property
+msgid "Current Owner"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_partner_current_owner_x_property_count
+msgid "Current Owner count"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_686_product_template
@@ -705,7 +1287,7 @@ msgid "Deductible (insurance)"
 msgstr "공제액 (보험)"
 
 #. module: condominium
-#: model:product.pricelist,name:condominium.product_pricelist_1
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_3
 msgid "Default"
 msgstr "기본값"
 
@@ -720,13 +1302,25 @@ msgid "Define a recurring plan, monthly or yearly."
 msgstr "월별 또는 연간 단위로 정기결제 요금을 정의합니다."
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_is_delegating
+msgid "Delegating"
+msgstr ""
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.description_building
+#: model:ir.model.fields,field_description:condominium.description_key_field
 #: model:ir.model.fields,field_description:condominium.description_property_types
-#: model:ir.model.fields,field_description:condominium.description_ratios_field
+#: model:ir.model.fields,field_description:condominium.description_vote_criteria
 #: model:ir.model.fields,field_description:condominium.field_meters_name
 #: model:ir.model.fields,field_description:condominium.field_meters_reading_description
+#: model:ir.model.fields,field_description:condominium.field_property_name
 msgid "Description"
 msgstr "설명"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_48
+msgid "Designation of the meeting president"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -734,23 +1328,81 @@ msgid "Discover how to setup and use the application by starting the"
 msgstr ""
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 msgid "Distribute Costs"
 msgstr "비용 분배"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_distribution_key_field
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_list_custom_view
-#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Distributing costs"
+msgstr ""
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.condominium_invoices_menu
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+msgid "Distribution"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_distribution_key
+#: model:ir.model.fields,field_description:condominium.distribution_key_account_move_field
+#: model:ir.model.fields,field_description:condominium.distribution_key_sale_order_field
+#: model:ir.model.fields,field_description:condominium.field_x_distribution_key_on_x_ratios
+#: model_terms:ir.ui.view,arch_db:condominium.view_account_invoice_filter_inherit
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Distribution Key"
 msgstr "분배 키"
 
 #. module: condominium
-#: model:ir.actions.act_window,name:condominium.distribution_keys_act_window
+#: model:ir.actions.act_window,name:condominium.distribution_keys_actions_window
 #: model:ir.ui.menu,name:condominium.infra_distribution_menu
 msgid "Distribution Keys"
 msgstr "분배 키"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on meter reading require the period start and end "
+"inputs.<br/>\n"
+"                    When distributing costs, for each property, the closest "
+"meter readings to period boundaries are used to compute the consumption over "
+"the period, and in case of owner change, the consumption by owner is "
+"captured if a meter\n"
+"                    reading is near the owner change date."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on meter readings only refer to a meter. When used "
+"to split costs, the recorded meter readings for the corresponding period "
+"will be used."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on shares can be populated with all properties from "
+"the condominium and the ratios computed based on properties' surface. You "
+"can still edit the ratios as you need and includes only a sub selection of "
+"the\n"
+"                properties when relevant."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on shares directly use the ratios.<br/>\n"
+"                    Without period inputs, the distribution is handled "
+"between the current owners.<br/>\n"
+"                    With period inputs, the distribution is computed between "
+"owners over the corresponding period, in proportion to the ownership."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Do You Want to Go Further?"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_799_product_template
@@ -763,11 +1415,6 @@ msgid "Documents"
 msgstr "문서"
 
 #. module: condominium
-#: model:helpdesk.team,name:condominium.helpdesk_team_4
-msgid "Dominican Condominium"
-msgstr "도미니카 콘도미니엄"
-
-#. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_18
 msgid "Done"
 msgstr "완료"
@@ -776,20 +1423,6 @@ msgstr "완료"
 #: model:product.template,name:condominium.product_product_723_product_template
 msgid "Drainage, sewers, and pumping installations maintenance"
 msgstr "배수, 하수도 및 펌프 설비 유지 관리"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid ""
-"During the general meetings, counting the votes depending on the ownership "
-"percentage could be painful. From the properties screen, select all the "
-"properties of the corresponding condominium and insert them in a spreadsheet "
-"by using the\n"
-"            said feature under the Actions menu."
-msgstr ""
-"총회에서 소유권 비율에 따라 투표수를 집계하는 것은 어려울 수 있습니다. 속성 "
-"화면에서 각 콘도와 관련된 모든 속성을 선택하고 작업 메뉴의 해당 기능을 사용하"
-"여 \n"
-"            스프레드시트에 삽입합니다."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -807,9 +1440,9 @@ msgid "Easily convert the condominiums 🖋️"
 msgstr "콘도를 쉽게 전환하세요 🖋️"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Efficiently count the votes 🙋‍♂️"
-msgstr "효율적인 투표 집계 🙋‍♂️"
+#: model:x_motion,x_name:condominium.x_motion_64
+msgid "Election of the president"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_707_product_template
@@ -825,11 +1458,6 @@ msgstr "전기 설비 유지보수 계약"
 #: model:product.template,name:condominium.product_product_711_product_template
 msgid "Electrical installations renovation"
 msgstr "전기 설비 리노베이션"
-
-#. module: condominium
-#: model:product.template,name:condominium.product_product_772_product_template
-msgid "Electricity for common areas"
-msgstr "공용 공간 전기"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_688_product_template
@@ -883,27 +1511,69 @@ msgid "Employer contributions for social insurance"
 msgstr "사회 보험에 대한 고용주 부담금"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_account_analytic_account_end_date
+#: model:ir.model.fields,field_description:condominium.field_property_line_end_date
+#: model:ir.model.fields,field_description:condominium.property_line_field_end_date
+msgid "End Date"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Every year, a general meeting is scheduled to talk about the financial "
 "statements, to take important decisions and so on. This event can easily be "
 "scheduled in the Calendar app by creating\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Meetings</font>. To invite all the owners of a condominium, use the "
-"\"Search More\" on \"Attendees\" and type the name of the condominium in... "
-"\"Condominiums\"."
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-1\">Meetings</font>. To invite all the owners of a condominium, use "
+"the \"Search More\" on \"Attendees\" and type the name of the condominium "
+"in... \"Condominiums\" and set the condominium\n"
+"            field."
 msgstr ""
-"매년 재무제표를 논의하고 중요한 결정 등을 내리는 총회가 예정되어 있습니다. "
-"이 이벤트는 캘린더 앱에서\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">회"
-"의</font>를 생성하여 쉽게 구성할 수 있습니다. 콘도미니엄의 모든 소유주를 초대"
-"하려면 \"참석자\" 아래의 \"자세히 검색\" 옵션을 사용하여 “콘도미니엄\"을 입력"
-"합니다."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Examples"
+msgstr ""
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_47
+msgid "Exceptional work: Parking door replacement"
+msgstr ""
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_46
+msgid "Exceptional work: Roof rework"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Excused"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+msgid "Expected attendees"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Expenses regarding a single owner can be assigned setting the analytic "
+"distribution of the corresponding invoice lines to the corresponding "
+"account, from the invoice form."
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_785_product_template
 msgid "Expert fees"
 msgstr "전문가 수수료"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Explore <strong>automations</strong>, <strong>community portals</strong>, "
+"and <strong>custom dashboards</strong> tailored to your needs."
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_674_product_template
@@ -936,19 +1606,28 @@ msgid "Fairly split the costs ⚖️"
 msgstr "공정한 비용 분담 ⚖️"
 
 #. module: condominium
-#: model:product.template,name:condominium.product_product_749_product_template
-msgid "Façade maintenance"
-msgstr "파사드 유지보수"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Final word"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Finally, you can also define the distribution keys per property. The goal is "
-"to assign a ratio for each property that will be used for splitting the fees "
-"per owner and for distributing the costs."
+"Finally, for condominiums organised with a general meter for the condominium "
+"to be expenses and then with meters for each owners to split the expenses, "
+"the distribution key based on meter is relevant and requires period inputs "
+"and\n"
+"                associated meter readings for each property to be "
+"representative."
 msgstr ""
-"마지막으로, 각 속성에 대한 분배 키를 정의할 수 있습니다. 이 키는 소유자 간에 "
-"비용을 분할하고 그에 따라 비용을 할당하는 데 사용되는 비율을 결정합니다."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Finally, you can also define the distribution keys. The goal is to assign a "
+"ratio for each property that will be used for splitting the fees per owner "
+"and for distributing the costs:"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_677_product_template
@@ -971,10 +1650,17 @@ msgid "Fixed fee and water consumption"
 msgstr "고정 요금 및 물 사용량"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_floor_field
+#: model:ir.model.fields,field_description:condominium.field_property_floor
 #: model:ir.model.fields,field_description:condominium.x_floor_related_field
 msgid "Floor"
 msgstr "층"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"For each motion, assign the relevant motion criteria, take notes while "
+"discussion goes on and record the owners votes."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -998,16 +1684,17 @@ msgstr "기초 유지 보수"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"From the Settings, create a new company in <font class=\"text-o-color-1\" "
-"style=\"font-weight: bolder;\">Companies</font>. Once done, it will appear "
-"on the top right of all screens with the aim to quickly switch between your "
+"From the Settings, create a new company in <font style=\"font-weight: bolder;"
+"\" class=\"text-o-color-1\">Companies</font>. Once done, it will appear on "
+"the top right of all screens with the aim to quickly switch between your "
 "company and the\n"
 "            different condominiums."
 msgstr ""
-"설정에서 관리할 <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">회사</font>를 새로 생성합니다. 완료되면 모든 화면의 오른쪽 상단에 표시되"
-"어 회사와 다른 콘도간에\n"
-"            빠르게 전환할 수 있습니다."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_749_product_template
+msgid "Front face of building maintenance"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_780_product_template
@@ -1020,7 +1707,7 @@ msgid "Garage"
 msgstr "차고"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_13
+#: model:x_property,x_name:condominium.x_property_5
 msgid "Garage AG"
 msgstr "차고 AG"
 
@@ -1043,6 +1730,23 @@ msgstr "계약에 따른 정원 및 주변 환경 유지 관리"
 #: model:product.template,name:condominium.product_product_690_product_template
 msgid "Gas for concierge"
 msgstr "컨시어지용 가스"
+
+#. module: condominium
+#: model:ir.actions.report,name:condominium.calendar_event_general_meeting_agenda
+msgid "General Meeting Agenda"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.report,name:condominium.calendar_event_general_meeting_report
+#: model:mail.template,subject:condominium.mail_template_2
+#: model:mail.template,subject:condominium.mail_template_3
+msgid "General Meeting Report"
+msgstr ""
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.condominium_general_meeting_menu
+msgid "General Meetings"
+msgstr ""
 
 #. module: condominium
 #. odoo-javascript
@@ -1091,6 +1795,11 @@ msgid "Helpdesk"
 msgstr "헬프데스크"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Here are the steps to follow:"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_7_product_template
 msgid "Hourly Rate"
 msgstr "시간당 요금"
@@ -1101,7 +1810,7 @@ msgid "House"
 msgstr "하우스"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_20
+#: model:x_property,x_name:condominium.x_property_9
 msgid "House C1"
 msgstr "하우스 C1"
 
@@ -1118,13 +1827,20 @@ msgstr "계약에 따른 생활 폐기물 / PMC / 종이 및 유리"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"If there is no distribution keys set, the area will be used as default key."
-msgstr "배포 키가 설정되어 있지 않으면 해당 영역이 기본 키로 사용됩니다."
+"If you want to easily discover every features of this package, try "
+"downloading the demo data."
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.image_buildings
 msgid "Image"
 msgstr "이미지"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_total_in_favor
+#: model:ir.model.fields.selection,name:condominium.x_vote_in_favor
+msgid "In Favor"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1142,11 +1858,24 @@ msgid "In case of recurring fees:"
 msgstr "반복 요금의 경우:"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "In favor:"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"In the Sales application, create a quotation and set the condominium as "
-"customer."
-msgstr "판매 앱에서 견적을 생성하고 콘도를 고객으로 지정합니다."
+"In many cases, direct access to the condominium accounting shall be provided "
+"to some owners. This is the case for example when some are given review "
+"duties."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In the <strong>Sales App</strong>, create a quotation and set the "
+"condominium as customer."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1193,9 +1922,21 @@ msgid "Internet information communication"
 msgstr "인터넷 정보 통신"
 
 #. module: condominium
+#: model:ir.actions.act_window,name:condominium.distribution_action_window
+msgid "Invoices"
+msgstr ""
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_is_a_property
 msgid "Is a property"
 msgstr "속성"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Just be careful, once demo data are uploaded, it cannot be easily deleted. "
+"But you can restart a fresh database at"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_4_product_template
@@ -1234,19 +1975,25 @@ msgid "Legal fees for recovering co-owners' arrears"
 msgstr "공동 소유자의 체납액 회수를 위한 법률 비용"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Logo"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_700_product_template
 msgid "Maintenance contracts"
 msgstr "유지보수 계약"
 
 #. module: condominium
+#: model:x_vote_criteria,x_name:condominium.x_vote_criteria_3
+msgid "Majority of 2/3rd"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Make sure that the products added are recurring."
 msgstr "추가된 제품이 정기결제 제품인지 확인합니다."
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
-msgid "Manage Companies"
-msgstr "회사 관리"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.employees_act_window
@@ -1264,6 +2011,18 @@ msgid "Manage the vendors related to this condominium<br>"
 msgstr "이 콘도와 관련된 공급업체 관리하기<br>"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Managing property owner associations involves multiple stakeholders, "
+"recurring tasks, and detailed records. Odoo empowers associations by "
+"streamlining processes—from handling new prospects to managing shared "
+"expenses—through a fully\n"
+"            integrated suite of applications. Whether you're organizing "
+"general meetings, tracking owner history, or handling complex expense "
+"distributions, Odoo provides the tools to stay efficient and transparent."
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_796_product_template
 msgid "Meeting consumables"
 msgstr "회의용 비품"
@@ -1274,19 +2033,31 @@ msgid "Meeting room usage"
 msgstr "회의실 사용"
 
 #. module: condominium
+#: model:ir.actions.act_window,name:condominium.meeting_action_window
+#: model:ir.ui.menu,name:condominium.condominium_meetings_menu
+msgid "Meetings"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_distribution_key_base_meter
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_meter_id
 msgid "Meter"
 msgstr "미터"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
 #: model:ir.model,name:condominium.model_meter_reading
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Meter Reading"
 msgstr "미터 판독"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_meter_reading_ids
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+msgid "Meter Reading ids"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_based_on_meter_readings
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Meter Readings"
 msgstr "계량기 판독"
 
@@ -1298,7 +2069,7 @@ msgstr "계량기 검침"
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.action_configuration_meters
 #: model:ir.model,name:condominium.model_meters
-#: model:ir.ui.menu,name:condominium.condo_meters
+#: model:ir.ui.menu,name:condominium.condominium_meters_menu
 msgid "Meters"
 msgstr "미터"
 
@@ -1313,14 +2084,35 @@ msgid "Miscellaneous expenses"
 msgstr "기타 비용"
 
 #. module: condominium
-#: model:product.template,name:condominium.product_product_15_product_template
-msgid "Monthly Service Fees"
-msgstr "월간 서비스 요금"
+#: model:ir.model,name:condominium.model_x_motion
+#: model:ir.model.fields,field_description:condominium.description_calendar_motion
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Motion"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.motion_criteria_action_window
+#: model:ir.model.fields,field_description:condominium.field_vote_criteria
+#: model:ir.ui.menu,name:condominium.condominium_motion_criteria_menu
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Motion Criteria"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Motion..."
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_motions
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Motions"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
 #: model:ir.model.fields,field_description:condominium.name_properties_tags
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Name"
 msgstr "이름"
 
@@ -1330,8 +2122,10 @@ msgid "Name or reference..."
 msgstr "이름 또는 참조..."
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_vote_criteria_form_view
 msgid "Name..."
 msgstr "이름..."
 
@@ -1341,24 +2135,26 @@ msgid "Never forget a task 📑"
 msgstr "업무를 잊어버리지 마세요 📑"
 
 #. module: condominium
-#: model:project.task.type,name:condominium.project_task_type_26
-msgid "New"
-msgstr "신규"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
-msgid "New condominiums should be created as companies from the settings"
-msgstr "새로운 콘도는 설정에서 회사로 생성되어야 합니다."
-
-#. module: condominium
 #: model:product.template,name:condominium.product_product_682_product_template
 msgid "Non-professional trustee liability"
 msgstr "비전문 신탁관리인의 책임"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_notes
 #: model:ir.model.fields,field_description:condominium.notes_buildings
+#: model:ir.model.fields,field_description:condominium.x_notes_analytic_items
 msgid "Notes"
 msgstr "메모"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Odoo offers additional possibilities to enhance your business:"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Odoo.com/trial"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_5_product_template
@@ -1370,11 +2166,8 @@ msgstr "오프보딩"
 msgid ""
 "On the one hand, the funds requests are sent by the condominium to the "
 "owners. On the other hand, the service fees can be invoiced by \"My "
-"Condominium Management\" to the owners. Here are the steps to follow:"
+"Condominium Management\" to the owners."
 msgstr ""
-"한편으로는 자금 요청이 콘도에서 소유주에게 전송됩니다. 반면에 서비스 요금은 "
-"'내 콘도 관리'에서 소유주에게 청구서를 보낼 수 있습니다. 따라야 할 단계는 다"
-"음과 같습니다:"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_7
@@ -1385,28 +2178,16 @@ msgstr "온디맨드 요금"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Once done, it is time to create the composition of the condominium by "
-"selecting the right one on the top right of the screen. Then, open the "
-"<strong><font class=\"text-o-color-1\">Condominium</font></strong> app where "
-"you can:"
+"selecting the right one on the top right of the screen."
 msgstr ""
-"설정을 완료한 후, 화면 오른쪽 상단에서 적절한 콘도 구성을 선택합니다. 그런 다"
-"음 <strong><font class=\"text-o-color-1\">콘도</font></strong> 앱을 열어 다음"
-"과 같은 작업을 수행합니다:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Once the quotation is confirmed, it automatically creates <font class=\"text-"
-"o-color-1\" style=\"font-weight: bolder;\">Projects</font> including several "
-"tasks to properly start the collaboration. This is based on the\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Kick-Off Template</font> Template project:"
+"Once the quotation is confirmed, it automatically creates Projects including "
+"several tasks to properly start the collaboration. This is based on the Kick-"
+"Off Template project:"
 msgstr ""
-"견적이 확정되면 협업을 효과적으로 시작할 수 있도록 여러 작업이 포함된 <font "
-"class=\"text-o-color-1\" style=\"font-weight: bolder;\">프로젝트</font>가 자"
-"동으로 생성됩니다. 이것은\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">킥"
-"오프 템플릿</font> 프로젝트를 기반으로 합니다:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1424,9 +2205,33 @@ msgid "One-Time Fees"
 msgstr "일회성 요금"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_condominium
+msgid "Ongoing"
+msgstr ""
+
+#. module: condominium
 #: model:ir.actions.server,name:condominium.action_view_company_partner
 msgid "Open company partner form view"
 msgstr "회사 파트너 양식 보기 열기"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Open the <strong><font class=\"text-o-color-1\">Condominium</font></strong> "
+"App where you can:"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Open the<strong> Condominium App</strong> and reach the Distributions from "
+"the Purchase menu."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Organize and lead general meetings 📅"
+msgstr ""
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_7
@@ -1569,28 +2374,35 @@ msgid "Other water expenses"
 msgstr "기타 수도 비용"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_outcome
+msgid "Outcome"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_line_owner
 #: model:ir.model.fields,field_description:condominium.x_owner_field
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_list_view
 msgid "Owner"
 msgstr "소유자"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.property_line_owner_field
+msgid "Owner ids"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_analytic_owner_line
+msgid "Owner line"
+msgstr ""
+
+#. module: condominium
 #: model:ir.actions.act_window,name:condominium.owners_act_window
+#: model:ir.ui.menu,name:condominium.condominium_owners_menu
 #: model:ir.ui.menu,name:condominium.owners_menu
-#: model:ir.ui.menu,name:condominium.owners_owners_menu
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Owners"
 msgstr "소유자"
-
-#. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_parent_field
-msgid "Parent"
-msgstr "상위"
-
-#. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_parent_account_analytic_account_count
-msgid "Parent count"
-msgstr "상위 항목 수"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_6
@@ -1598,7 +2410,7 @@ msgid "Parking"
 msgstr "주차"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_21
+#: model:x_property,x_name:condominium.x_property_10
 msgid "Parking CP"
 msgstr "주차 CP"
 
@@ -1618,14 +2430,30 @@ msgid "Partner's Companies"
 msgstr "파트너 회사"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.field_meters_price
-msgid "Price"
-msgstr "가격"
+#: model:ir.model.fields,field_description:condominium.field_account_move_period_end
+msgid "Period End"
+msgstr ""
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_pricelist_field
-msgid "Pricelist"
-msgstr "가격표"
+#: model:ir.model.fields,field_description:condominium.field_account_move_period_start
+msgid "Period Start"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Plan Task"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Plan your general meeting agenda with motions to vote in the Motions tab."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
+msgid "Populate"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_666_product_template
@@ -1633,23 +2461,20 @@ msgid "Private expenses"
 msgstr "개인 경비"
 
 #. module: condominium
-#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
-#: model:ir.actions.act_window,name:condominium.properties_act_window
-#: model:ir.actions.act_window,name:condominium.properties_act_window_view
-#: model:ir.actions.act_window,name:condominium.properties_parent_act_window
-#: model:ir.actions.act_window,name:condominium.props_build_act_window
-#: model:ir.ui.menu,name:condominium.conf_prop_menu
-#: model:ir.ui.menu,name:condominium.infra_properties_menu
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
-msgid "Properties"
-msgstr "속성"
+#: model:ir.model.fields,field_description:condominium.product_category_field
+msgid "Product Category"
+msgstr ""
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_properties_ids
-msgid "Properties "
-msgstr "부동산 "
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
+#: model:ir.actions.act_window,name:condominium.condominium_property_count_contact_smart_button
+#: model:ir.actions.act_window,name:condominium.owner_properties_contact_smart_button
+#: model:ir.actions.act_window,name:condominium.property_actions_window
+#: model:ir.ui.menu,name:condominium.conf_prop_menu
+#: model:ir.ui.menu,name:condominium.infra_properties_menu
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
+msgid "Properties"
+msgstr "속성"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.properties_tags_act_window
@@ -1672,15 +2497,32 @@ msgstr "Odoo에서 부동산 생성 (<em>이해관계자 알아보기 🔎</em> 
 
 #. module: condominium
 #: model:documents.document,name:condominium.documents_folder_12
-#: model:ir.model.fields,field_description:condominium.field_meter_reading_account_analytic_account
-#: model:ir.model.fields,field_description:condominium.x_property_field
+#: model:ir.model,name:condominium.model_x_property
+#: model:ir.model.fields,field_description:condominium.field_analytic_property
+#: model:ir.model.fields,field_description:condominium.field_partner_property_ids
+#: model:ir.model.fields,field_description:condominium.field_ratios_property
+#: model:ir.model.fields,field_description:condominium.property_line_field_property
+#: model:ir.model.fields,field_description:condominium.property_line_property_field
+#: model:ir.model.fields,field_description:condominium.x_property_on_meter
+#: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_standard
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Property"
 msgstr "속성"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_property_owner
+msgid "Property Owner"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Property Owner Association"
 msgstr "부동산 소유자 협회"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_property_tenant
+msgid "Property Tenant"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_807_product_template
@@ -1691,6 +2533,11 @@ msgstr "부동산 가입 수수료"
 #: model:ir.model.fields,field_description:condominium.x_is_a_property_plan
 msgid "Property plan"
 msgstr "부동산 계획"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Provide access to the owners 🔑"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1708,9 +2555,9 @@ msgid "Quantity"
 msgstr "수량"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Quickly set up a condominium 🚀"
-msgstr "빠르게 콘도 설정하기 🚀"
+#: model:sale.subscription.plan,name:condominium.sale_subscription_plan_3
+msgid "Quarterly"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_730_product_template
@@ -1718,18 +2565,28 @@ msgid "Railings and terrace separation partitions"
 msgstr "난간 및 테라스 분리 칸막이"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_ratio
 #: model:ir.model.fields,field_description:condominium.x_ratio_field
 msgid "Ratio"
 msgstr "비율"
 
 #. module: condominium
-#: model:ir.actions.act_window,name:condominium.ratios_act_window
 #: model:ir.model,name:condominium.ratios_model
-#: model:ir.model.fields,field_description:condominium.x_ratios_field
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_for_x_ratios
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model:ir.model.fields,field_description:condominium.field_distribution_key_ratio_ids
 msgid "Ratios"
 msgstr "비율"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Reach us"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Record invoices from from supplier from <strong>Accounting App</strong>, by "
+"assigning supplier and listing products."
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_764_product_template
@@ -1744,9 +2601,30 @@ msgid "Recurring Fees"
 msgstr "반복 수수료"
 
 #. module: condominium
+#: model:product.template,name:condominium.product_product_15_product_template
+msgid "Recurring Service Fees"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_outcome_rejected
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Rejected"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_672_product_template
 msgid "Renovation work"
 msgstr "리모델링 공사"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_67
+msgid "Repair of the main door of wing A"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Requesting funds"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_14_product_template
@@ -1759,6 +2637,11 @@ msgid ""
 "Reserve Fund: to collect all the money that will be used in case of "
 "exceptional expense."
 msgstr "예비 자금: 예외적인 지출을 위해 모든 돈을 모으기 위한 자금입니다."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Reset Votes"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_662_product_template
@@ -1792,11 +2675,6 @@ msgid "Sales Orders"
 msgstr "판매 주문"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Schedule the meetings 📅"
-msgstr "회의 일정 📅"
-
-#. module: condominium
 #: model:product.template,name:condominium.product_product_11_product_template
 msgid "Second Reminder"
 msgstr "두 번째 알림"
@@ -1810,19 +2688,43 @@ msgstr "콘도 정보를 확인하고 업체를 추가하여 주소록을 만듭
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid ""
-"Select the right company from which the fees will be invoiced (see "
-"<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
-"company)."
+msgid "Select the relevant distribution key to account for owner ratios."
 msgstr ""
-"요금이 청구될 적절한 회사를 선택하세요. (회사 변경에 대한 안내는 <em>[콘도 빠"
-"르게 설정하기 🚀]</em> 섹션을 참조하세요)"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Select the right company from which the fees will be invoiced (see <em>Set "
+"up a condominium 🚀</em> section to see how to switch the company)."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Send Agenda"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Send Report"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Send the meeting agenda upfront to all expected attendees"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
+#: model:ir.model.fields,field_description:condominium.field_property_sequence
+#: model:ir.model.fields,field_description:condominium.property_line_field_sequence
+#: model:ir.model.fields,field_description:condominium.property_line_sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_buildings
+#: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence
+#: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence_field
+#: model:ir.model.fields,field_description:condominium.sequence_distributio_field
 #: model:ir.model.fields,field_description:condominium.sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_properties_types
+#: model:ir.model.fields,field_description:condominium.sequence_vote_criter_sequence
 msgid "Sequence"
 msgstr "순서"
 
@@ -1830,11 +2732,6 @@ msgstr "순서"
 #: model:product.template,name:condominium.product_product_3_product_template
 msgid "Service Fees"
 msgstr "서비스 수수료"
-
-#. module: condominium
-#: model:base.automation,name:condominium.automation_set_usage_meter_reading
-msgid "Set Usage in Meter Readings"
-msgstr "계량기 검침에서 사용량 설정"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1850,6 +2747,31 @@ msgstr "적정 (반복) 가격 설정"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the right distribution key."
 msgstr "올바른 배포 키를 설정하세요."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set up a condominium 🚀"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_share
+msgid "Share"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
+msgid "Share (%)"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_share_total
+msgid "Share Total"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_based_on_shares
+msgid "Shares"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_798_product_template
@@ -1872,10 +2794,34 @@ msgid "Source Sales Order count"
 msgstr "소스 판매 주문 개수"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
+#: model:ir.actions.act_window,name:condominium.split_act_window
+#: model:ir.actions.server,name:condominium.split_analytic_item_action
+#: model_terms:ir.ui.view,arch_db:condominium.view_account_analytic_line_form_inherit
+msgid "Split"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_split_analytic_items_wizard
+#: model:ir.model.fields,field_description:condominium.field_x_split_analytic_items_id
+msgid "Split Analytic Items"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_line_ids
+msgid "Split Lines"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Split per Owner"
 msgstr "소유주별로 분할"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_account_analytic_account_start_date
+#: model:ir.model.fields,field_description:condominium.field_property_line_start_date
+#: model:ir.model.fields,field_description:condominium.property_line_field_start_date
+msgid "Start Date"
+msgstr ""
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country_state
@@ -1914,7 +2860,7 @@ msgid "Studio"
 msgstr "스튜디오"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_22
+#: model:x_property,x_name:condominium.x_property_11
 msgid "Studio CS"
 msgstr "스튜디오 CS"
 
@@ -1924,12 +2870,12 @@ msgid "Study and supervision fees"
 msgstr "연구 및 감독 비용"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Sum of Area"
 msgstr "면적 합계"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Sum of Ratio"
 msgstr "비율 합계"
 
@@ -1969,8 +2915,8 @@ msgid "TV distribution for concierge"
 msgstr "컨시어지용 TV 배포"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_tags
 #: model:ir.model.fields,field_description:condominium.tags_buildings
-#: model:ir.model.fields,field_description:condominium.x_tags_field
 #: model:ir.ui.menu,name:condominium.conf_prop_tag_menu
 #: model:ir.ui.menu,name:condominium.conf_tags_menu
 msgid "Tags"
@@ -1998,13 +2944,29 @@ msgstr "세금 및 수수료"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_687_product_template
-msgid "Telephone - Internet - concierge cell phone"
-msgstr "전화 - 인터넷 - 컨시어지 휴대폰 서비스"
+msgid "Telephone - Internet - Concierge cell phone"
+msgstr ""
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_tenant_field
+#: model:ir.model.fields,field_description:condominium.property_line_field_tenant
 msgid "Tenant"
 msgstr "세입자"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_line_tenant
+msgid "Tenant ids"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
+msgid "Tenants"
+msgstr ""
+
+#. module: condominium
+#: model_terms:res.company,sign_terms:condominium.res_company_2
+#: model_terms:res.company,sign_terms_html:condominium.res_company_2
+msgid "Terms &amp; Conditions"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_750_product_template
@@ -2023,13 +2985,50 @@ msgstr "부동산이 속한 건물."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The chart of account and relationships with products and product categories "
+"is not setup in this module."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The cost distribution inputs are available on each invoice in the "
+"distribution tab."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The floor."
 msgstr "플로어."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "The owner of the property."
-msgstr "부동산 소유주"
+msgid ""
+"The following tour shows you how to create a new customer, from the sale "
+"order creation to the new company in your database"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The meter readings history, leveraged to split bills based on consumption."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "The motion is"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "The motion is not submitted to vote."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The owner history."
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2054,14 +3053,7 @@ msgstr "콘도 관리 회사에서 제공하는 서비스."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "The tenant if relevant."
-msgstr "임차인이 있는 경우."
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid ""
-"The tour will invite you to create undeletable data. Make sure you can reuse "
-"afterwards or launch it in a testing environment."
+msgid "The tenant history if relevant."
 msgstr ""
 
 #. module: condominium
@@ -2078,6 +3070,20 @@ msgid ""
 msgstr ""
 "운영 기금은 월별 비용 (수도, 전기, 가스 등), 보험, 유지 보수, 수리, 공용 공"
 "간 청소 등 공용 비용을 충당하는 데 사용됩니다."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Then, on a regular basis or at invoice confirmation, distribute the costs of "
+"each expenses:"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"These features can be added to your current subscription. Feel free to "
+"explore and expand your Odoo experience!"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2104,9 +3110,55 @@ msgid "This does not include the fees from the ushers, lawyers, experts, etc."
 msgstr "여기에는 비서, 변호사, 전문가 등의 수수료는 포함되지 않습니다."
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Tips for Success"
+msgstr ""
+
+#. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_17
 msgid "To Do"
 msgstr "To Do"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "To account for this additional cost in your pricing."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To distribute costs related to an annual services, such as condominium "
+"insurance fees, the distribution based on shares over a period is relevant "
+"to expense each owner in proportion of their ownership and share."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To distribute costs which only impact current owners, a distribution key "
+"based on shares without period inputs is required."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To maintain the number of users to the minimum needed, creating and deleting "
+"them when relevant."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To setup such access, you shall create users for such owners and restrict "
+"rights to the level which suite your needs so that they can access in read "
+"only most likely."
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_total_field
+#: model_terms:ir.ui.view,arch_db:condominium.view_invoice_tree_inherit
+msgid "Total"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_673_product_template
@@ -2145,7 +3197,7 @@ msgid "Trustee stamps"
 msgstr "수탁자 스탬프"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_type_field
+#: model:ir.model.fields,field_description:condominium.field_property_type
 #: model:ir.model.fields,field_description:condominium.x_type_related_field
 #: model:ir.ui.menu,name:condominium.conf_prop_type
 msgid "Type"
@@ -2157,12 +3209,27 @@ msgid "Type down your notes here..."
 msgstr "여기에 메모를 입력하세요..."
 
 #. module: condominium
+#: model:x_vote_criteria,x_name:condominium.x_vote_criteria_2
+msgid "Unanimity"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_update_voter_line_for_motion
+msgid "Update Voter Lines Of Motion"
+msgstr ""
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_usage
 msgid "Usage"
 msgstr "사용량"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+msgid "Used to distribute costs by meter; closest meter reading date used"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "VAT"
 msgstr "부가가치세"
 
@@ -2187,10 +3254,15 @@ msgid "Various works"
 msgstr "다양한 작품"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_invoice_tree_inherit
+msgid "Vendor"
+msgstr ""
+
+#. module: condominium
 #: model:ir.actions.act_window,name:condominium.vendors_act_window
 #: model:ir.model.fields,field_description:condominium.vendor_ids
 #: model:ir.ui.menu,name:condominium.purchase_vendor_menu
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Vendors"
 msgstr "공급업체"
 
@@ -2210,14 +3282,47 @@ msgid "Video surveillance"
 msgstr "비디오 감시"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "View Report"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_680_product_template
 msgid "Volunteer insurance"
 msgstr "자원봉사자 보험"
 
 #. module: condominium
+#: model:ir.model,name:condominium.model_x_motion_vote
+#: model:ir.model.fields,field_description:condominium.field_motion_vote_vote
+msgid "Vote"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_vote_criteria
+#: model_terms:ir.ui.view,arch_db:condominium.x_vote_criteria_form_view
+msgid "Vote Criteria"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Votes (need"
+msgstr ""
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_voting_key_id
+msgid "Voting key"
+msgstr ""
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_739_product_template
 msgid "Waste cleaning and treatment controls"
 msgstr "폐기물 청소 및 처리 관리"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_772_product_template
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_8
+msgid "Water"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_719_product_template
@@ -2257,13 +3362,10 @@ msgstr "수처리 용품"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Welcome to your Odoo Property Owner Association package! This guide will "
-"help you manage the condominiums efficiently, from setting up to general "
-"meetings."
+"We recommend your accountants to setup the appropriate chart of account "
+"based on your localization to generate the appropriate balance sheet and "
+"other needed accounting documents through Odoo."
 msgstr ""
-"Odoo 부동산 소유주 조합 패키지를 이용해주셔서 감사합니다! 이 가이드는 콘도미"
-"니엄 부동산을 효율적으로 관리하는 데 도움이 될 수 있도록, 초기 세팅부터 정기 "
-"회의에 이르기까지 모든 세부 내용을 안내해 드립니다."
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
@@ -2271,19 +3373,35 @@ msgid "Welcome! Happy exploring."
 msgstr "환영합니다! 마음껏 둘러 보세요."
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"When the quote is confirmed for a new condominium, you can convert the "
+"prospect contact into a condominium with a click from the contact form, in "
+"the <strong>Contact App</strong>."
+msgstr ""
+
+#. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_1
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_4
 msgid "Wing A"
 msgstr "윙 A"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_4
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_5
 msgid "Wing B"
 msgstr "윙 B"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_5
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_6
 msgid "Wing C"
 msgstr "윙 C"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_account_invoice_filter_inherit
+msgid "Without distribution"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_679_product_template
@@ -2303,27 +3421,62 @@ msgid ""
 msgstr "작업 기금: 정기결제 수수료에 사용되는 모든 돈을 모으기 위한 것입니다."
 
 #. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_24
+msgid "Working fund call"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Would you like to discuss your Odoo setup with us or explore more features?"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"You can find all past meeting for a condominium from the Condominium App, by "
+"the Owners menu."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "You can still do it by upgrading your package in Apps."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"You might have tested this package with or without demo data.<br/>\n"
+"            In any case, you may have written records in journals which are "
+"not deletable and which might be an issue for your traceability."
+msgstr ""
+
+#. module: condominium
+#: model_terms:res.company,sign_terms:condominium.res_company_2
+#: model_terms:res.company,sign_terms_html:condominium.res_company_2
+msgid "Your conditions..."
+msgstr ""
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.zip
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "ZIP"
 msgstr "우편번호"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
-msgid "e.g. Apartment"
-msgstr "예: 아파트"
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "and delegating"
+msgstr ""
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_kanban_view
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
-msgid "e.g. Apartment A0"
-msgstr "e.g. 아파트 A0"
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "calendar_event_line"
+msgstr ""
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
-msgid "e.g. John Smith"
-msgstr "예: 홍길동"
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "of the owner ratios.<br/><br/>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2331,9 +3484,29 @@ msgid "or by following the steps below."
 msgstr ""
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "owners"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "were present and represented"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Access Rights"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Accounting"
 msgstr "🎓 회계"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Calendar"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2347,6 +3520,11 @@ msgstr "🎓 헬프데스크"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Project"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Quotation Template"
 msgstr "🎓 견적서 템플릿"
 
@@ -2357,13 +3535,267 @@ msgstr "🎓 판매"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "🎓 Spreadsheet"
-msgstr "🎓 스프레드시트"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Subscription"
 msgstr "🎓 구독"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#~ msgid ""
+#~ "All other extra services will be invoiced at the hourly rate, See Terms & "
+#~ "Condition for further information about the hourly rate"
+#~ msgstr ""
+#~ "모든 추가 서비스는 시간당 요금으로 청구됩니다. 시간당 요금에 대한 자세한 "
+#~ "내용은 이용약관을 참조하세요."
+
+#~ msgid "Apartment..."
+#~ msgstr "아파트..."
+
+#~ msgid "Area as distribution key"
+#~ msgstr "배포 키로서의 영역"
+
+#~ msgid ""
+#~ "As soon as a condominium reaches out to you to get a quote, quickly send "
+#~ "them an overview of your services and fees by creating\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Quotations</font> in the Sales application where you can directly use "
+#~ "the \"Kick-Off Quote\" quotation template. This will automatically fill "
+#~ "the quote by adding the kick-off fees\n"
+#~ "            and also the price of all the extra services such as the "
+#~ "recurring contribution, the hourly rate, etc. Don't forget to attach the "
+#~ "terms &amp; conditions as well. Of course, the price of each service and "
+#~ "the content of the\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Quotation Templates</font> can be adapted accordingly."
+#~ msgstr ""
+#~ "콘도에서 견적서 문의 접수를 받게 될 경우, 신속하게 서비스 및 수수료에 대"
+#~ "한 전체 내용을 간략하게 작성하여 전송하세요.\n"
+#~ "            판매 앱에 있는 <font class=\"text-o-color-1\" style=\"font-"
+#~ "weight: bolder;\">견적서</font>를 통해 \"킥오프 견적서\" 템플릿을 즉시 활"
+#~ "용할 수 있습니다. 이 템플릿에는 착수 수수료와 정기적으로 발생하는 비용, 시"
+#~ "간당 요금 등의 추가 서비스 비용이\n"
+#~ "            견적서에 자동으로 입력됩니다. 이용약관도 문제없이 추가할 수 있"
+#~ "습니다. 당연히\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
+#~ "견적서 템플릿</font>에서 서비스 비용과 내용은 필요에 따라 조정할 수 있습니"
+#~ "다."
+
+#~ msgid "Building 1"
+#~ msgstr "빌딩 1"
+
+#~ msgid "Building 2"
+#~ msgstr "빌딩 2"
+
+#~ msgid "Building Condominium count"
+#~ msgstr "건물 콘도 수"
+
+#~ msgid "Building count"
+#~ msgstr "빌딩 수"
+
+#~ msgid ""
+#~ "By the end of the period, easily generate the legal reporting such as "
+#~ "Balance Sheet and Profit &amp; Loss for each condominium."
+#~ msgstr ""
+#~ "기간이 끝나면 각 콘도의 대차대조표와 손익 계산서와 같은 법적 보고서를 쉽"
+#~ "게 생성할 수 있습니다."
+
+#~ msgid ""
+#~ "Click on \"Split per Property\" button: this will cancel the current "
+#~ "quotation and will create as many quotations as there are properties in "
+#~ "the condominium for which the costs are shared."
+#~ msgstr ""
+#~ "\"숙소별 분할\" 버튼을 클릭하면 현재 견적을 취소하고 비용이 공유되는 콘도 "
+#~ "내 각 숙소에 대해 별도의 견적을 생성합니다."
+
+#~ msgid "Condominium Properties"
+#~ msgstr "콘도미니엄 속성"
+
+#~ msgid "Create and manage the properties that compose this condominium"
+#~ msgstr "이 콘도를 구성하는 자산을 생성하고 관리하기"
+
+#~ msgid "Create the buildings that compounds the condominium."
+#~ msgstr "콘도를 구성하는 건물을 생성합니다."
+
+#~ msgid "Currency"
+#~ msgstr "통화"
+
+#~ msgid "Dominican Condominium"
+#~ msgstr "도미니카 콘도미니엄"
+
+#~ msgid ""
+#~ "During the general meetings, counting the votes depending on the "
+#~ "ownership percentage could be painful. From the properties screen, select "
+#~ "all the properties of the corresponding condominium and insert them in a "
+#~ "spreadsheet by using the\n"
+#~ "            said feature under the Actions menu."
+#~ msgstr ""
+#~ "총회에서 소유권 비율에 따라 투표수를 집계하는 것은 어려울 수 있습니다. 속"
+#~ "성 화면에서 각 콘도와 관련된 모든 속성을 선택하고 작업 메뉴의 해당 기능을 "
+#~ "사용하여 \n"
+#~ "            스프레드시트에 삽입합니다."
+
+#~ msgid "Efficiently count the votes 🙋‍♂️"
+#~ msgstr "효율적인 투표 집계 🙋‍♂️"
+
+#~ msgid "Electricity for common areas"
+#~ msgstr "공용 공간 전기"
+
+#~ msgid ""
+#~ "Every year, a general meeting is scheduled to talk about the financial "
+#~ "statements, to take important decisions and so on. This event can easily "
+#~ "be scheduled in the Calendar app by creating\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Meetings</font>. To invite all the owners of a condominium, use the "
+#~ "\"Search More\" on \"Attendees\" and type the name of the condominium "
+#~ "in... \"Condominiums\"."
+#~ msgstr ""
+#~ "매년 재무제표를 논의하고 중요한 결정 등을 내리는 총회가 예정되어 있습니"
+#~ "다. 이 이벤트는 캘린더 앱에서\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
+#~ "회의</font>를 생성하여 쉽게 구성할 수 있습니다. 콘도미니엄의 모든 소유주"
+#~ "를 초대하려면 \"참석자\" 아래의 \"자세히 검색\" 옵션을 사용하여 “콘도미니"
+#~ "엄\"을 입력합니다."
+
+#~ msgid "Façade maintenance"
+#~ msgstr "파사드 유지보수"
+
+#~ msgid ""
+#~ "Finally, you can also define the distribution keys per property. The goal "
+#~ "is to assign a ratio for each property that will be used for splitting "
+#~ "the fees per owner and for distributing the costs."
+#~ msgstr ""
+#~ "마지막으로, 각 속성에 대한 분배 키를 정의할 수 있습니다. 이 키는 소유자 간"
+#~ "에 비용을 분할하고 그에 따라 비용을 할당하는 데 사용되는 비율을 결정합니"
+#~ "다."
+
+#~ msgid ""
+#~ "From the Settings, create a new company in <font class=\"text-o-color-1\" "
+#~ "style=\"font-weight: bolder;\">Companies</font>. Once done, it will "
+#~ "appear on the top right of all screens with the aim to quickly switch "
+#~ "between your company and the\n"
+#~ "            different condominiums."
+#~ msgstr ""
+#~ "설정에서 관리할 <font class=\"text-o-color-1\" style=\"font-weight: "
+#~ "bolder;\">회사</font>를 새로 생성합니다. 완료되면 모든 화면의 오른쪽 상단"
+#~ "에 표시되어 회사와 다른 콘도간에\n"
+#~ "            빠르게 전환할 수 있습니다."
+
+#~ msgid ""
+#~ "If there is no distribution keys set, the area will be used as default "
+#~ "key."
+#~ msgstr "배포 키가 설정되어 있지 않으면 해당 영역이 기본 키로 사용됩니다."
+
+#~ msgid ""
+#~ "In the Sales application, create a quotation and set the condominium as "
+#~ "customer."
+#~ msgstr "판매 앱에서 견적을 생성하고 콘도를 고객으로 지정합니다."
+
+#~ msgid "Manage Companies"
+#~ msgstr "회사 관리"
+
+#~ msgid "Monthly Service Fees"
+#~ msgstr "월간 서비스 요금"
+
+#~ msgid "New"
+#~ msgstr "신규"
+
+#~ msgid "New condominiums should be created as companies from the settings"
+#~ msgstr "새로운 콘도는 설정에서 회사로 생성되어야 합니다."
+
+#~ msgid ""
+#~ "On the one hand, the funds requests are sent by the condominium to the "
+#~ "owners. On the other hand, the service fees can be invoiced by \"My "
+#~ "Condominium Management\" to the owners. Here are the steps to follow:"
+#~ msgstr ""
+#~ "한편으로는 자금 요청이 콘도에서 소유주에게 전송됩니다. 반면에 서비스 요금"
+#~ "은 '내 콘도 관리'에서 소유주에게 청구서를 보낼 수 있습니다. 따라야 할 단계"
+#~ "는 다음과 같습니다:"
+
+#~ msgid ""
+#~ "Once done, it is time to create the composition of the condominium by "
+#~ "selecting the right one on the top right of the screen. Then, open the "
+#~ "<strong><font class=\"text-o-color-1\">Condominium</font></strong> app "
+#~ "where you can:"
+#~ msgstr ""
+#~ "설정을 완료한 후, 화면 오른쪽 상단에서 적절한 콘도 구성을 선택합니다. 그"
+#~ "런 다음 <strong><font class=\"text-o-color-1\">콘도</font></strong> 앱을 "
+#~ "열어 다음과 같은 작업을 수행합니다:"
+
+#~ msgid ""
+#~ "Once the quotation is confirmed, it automatically creates <font "
+#~ "class=\"text-o-color-1\" style=\"font-weight: bolder;\">Projects</font> "
+#~ "including several tasks to properly start the collaboration. This is "
+#~ "based on the\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Kick-Off Template</font> Template project:"
+#~ msgstr ""
+#~ "견적이 확정되면 협업을 효과적으로 시작할 수 있도록 여러 작업이 포함된 "
+#~ "<font class=\"text-o-color-1\" style=\"font-weight: bolder;\">프로젝트</"
+#~ "font>가 자동으로 생성됩니다. 이것은\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
+#~ "킥오프 템플릿</font> 프로젝트를 기반으로 합니다:"
+
+#~ msgid "Parent"
+#~ msgstr "상위"
+
+#~ msgid "Parent count"
+#~ msgstr "상위 항목 수"
+
+#~ msgid "Price"
+#~ msgstr "가격"
+
+#~ msgid "Pricelist"
+#~ msgstr "가격표"
+
+#~ msgid "Properties "
+#~ msgstr "부동산 "
+
+#~ msgid "Quickly set up a condominium 🚀"
+#~ msgstr "빠르게 콘도 설정하기 🚀"
+
+#~ msgid "Schedule the meetings 📅"
+#~ msgstr "회의 일정 📅"
+
+#~ msgid ""
+#~ "Select the right company from which the fees will be invoiced (see "
+#~ "<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
+#~ "company)."
+#~ msgstr ""
+#~ "요금이 청구될 적절한 회사를 선택하세요. (회사 변경에 대한 안내는 <em>[콘"
+#~ "도 빠르게 설정하기 🚀]</em> 섹션을 참조하세요)"
+
+#~ msgid "Set Usage in Meter Readings"
+#~ msgstr "계량기 검침에서 사용량 설정"
+
+#~ msgid "Telephone - Internet - concierge cell phone"
+#~ msgstr "전화 - 인터넷 - 컨시어지 휴대폰 서비스"
+
+#~ msgid "The owner of the property."
+#~ msgstr "부동산 소유주"
+
+#~ msgid "The tenant if relevant."
+#~ msgstr "임차인이 있는 경우."
+
+#~ msgid ""
+#~ "Welcome to your Odoo Property Owner Association package! This guide will "
+#~ "help you manage the condominiums efficiently, from setting up to general "
+#~ "meetings."
+#~ msgstr ""
+#~ "Odoo 부동산 소유주 조합 패키지를 이용해주셔서 감사합니다! 이 가이드는 콘도"
+#~ "미니엄 부동산을 효율적으로 관리하는 데 도움이 될 수 있도록, 초기 세팅부터 "
+#~ "정기 회의에 이르기까지 모든 세부 내용을 안내해 드립니다."
+
+#~ msgid "e.g. Apartment"
+#~ msgstr "예: 아파트"
+
+#~ msgid "e.g. Apartment A0"
+#~ msgstr "e.g. 아파트 A0"
+
+#~ msgid "e.g. John Smith"
+#~ msgstr "예: 홍길동"
+
+#~ msgid "🎓 Spreadsheet"
+#~ msgstr "🎓 스프레드시트"
 
 #~ msgid "Apartment A01"
 #~ msgstr "아파트 A01"

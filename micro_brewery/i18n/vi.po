@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 10:36+0000\n"
+"POT-Creation-Date: 2026-02-02 09:00+0000\n"
 "PO-Revision-Date: 2026-01-05 08:07+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
@@ -130,8 +130,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -208,8 +208,8 @@ msgstr ""
 "<span class=\"o_small\">\n"
 "                            <strong>Emily JONES</strong>\n"
 "                            <br/>\n"
-"                           <span class=\"text-muted\"> Khách hàng,&amp;nbsp;"
-"thực tế là khách hàng thường xuyên</span>\n"
+"                           <span class=\"text-muted\"> Khách "
+"hàng,&amp;nbsp;thực tế là khách hàng thường xuyên</span>\n"
 "                          </span>"
 
 #. module: micro_brewery
@@ -242,8 +242,8 @@ msgstr ""
 "<span class=\"o_small\">\n"
 "                            <strong>John SNOW</strong>\n"
 "                            <br/>\n"
-"                           <span class=\"text-muted\"> Khách hàng,&amp;nbsp;"
-"ghé thăm và quầy bar</span>\n"
+"                           <span class=\"text-muted\"> Khách "
+"hàng,&amp;nbsp;ghé thăm và quầy bar</span>\n"
 "                          </span>"
 
 #. module: micro_brewery
@@ -726,16 +726,11 @@ msgstr "Chaudfontaine"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposits when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"Thu tiền đặt cọc khi bạn giao hàng cho khách hàng. Thật dễ dàng. Khi xác "
-"thực lệnh giao hàng, bạn có thể trực tiếp thiết lập \"Trả hàng\" và đếm "
-"chính xác số lượng từng loại đặt cọc mà khách hàng đã đưa cho bạn. Số tiền "
-"này sẽ tự động được phản ánh trên hóa đơn của khách hàng hoặc xuất phiếu ghi "
-"có."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -1645,8 +1640,8 @@ msgid ""
 "Rely on the kit setup mentioned in the \"Products and Bills of Material\" "
 "section."
 msgstr ""
-"Hãy dựa vào bộ dụng cụ được đề cập trong phần \"Sản phẩm và Danh mục vật tư\""
-"."
+"Hãy dựa vào bộ dụng cụ được đề cập trong phần \"Sản phẩm và Danh mục vật "
+"tư\"."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1801,9 +1796,9 @@ msgid ""
 "The automated crate split based on BoM (defined from crate products with "
 "\"contains\" fields) is not supported from the bar (PoS)."
 msgstr ""
-"Chức năng chia thùng tự động dựa trên Danh sách vật liệu (BoM) "
-"(được định nghĩa từ các sản phẩm trong thùng có trường \"chứa\") không được "
-"hỗ trợ từ quầy (PoS)."
+"Chức năng chia thùng tự động dựa trên Danh sách vật liệu (BoM) (được định "
+"nghĩa từ các sản phẩm trong thùng có trường \"chứa\") không được hỗ trợ từ "
+"quầy (PoS)."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2321,6 +2316,18 @@ msgstr "🎓 Quản lý thuế tiêu thụ đặc biệt"
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 Đơn vị tính"
+
+#~ msgid ""
+#~ "Collect deposits when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "Thu tiền đặt cọc khi bạn giao hàng cho khách hàng. Thật dễ dàng. Khi xác "
+#~ "thực lệnh giao hàng, bạn có thể trực tiếp thiết lập \"Trả hàng\" và đếm "
+#~ "chính xác số lượng từng loại đặt cọc mà khách hàng đã đưa cho bạn. Số "
+#~ "tiền này sẽ tự động được phản ánh trên hóa đơn của khách hàng hoặc xuất "
+#~ "phiếu ghi có."
 
 #~ msgid ""
 #~ "Apply DEP XX taxes to those products, creating some if necessary, and "
