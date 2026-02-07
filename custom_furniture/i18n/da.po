@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 05:37+0000\n"
-"PO-Revision-Date: 2026-01-03 18:50+0000\n"
+"PO-Revision-Date: 2026-02-07 18:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "custom_furniture/da/>\n"
@@ -28,74 +28,76 @@ msgstr ""
 msgid ""
 "*This list will, of course, depend on your installed apps and configuration."
 msgstr ""
+"*Listen afhænger naturligvis af, hvilke apps du har installeret, og hvordan "
+"din konfiguration ser ud."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 ", and feel free\n"
 "                        to"
-msgstr ""
+msgstr ", og du kan altid"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "1. Opportunities &amp; CRM 🎯"
-msgstr ""
+msgstr "1. Salgsmuligheder og CRM 🎯"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "2. Products &amp; services 🪑"
-msgstr ""
+msgstr "2. Produkter og tjenester 🪑"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "3. Quotations &amp; sales 💰"
-msgstr ""
+msgstr "3. Tilbud og salg 💰"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_24_product_template
 msgid "3/8 Hex Head Bolts"
-msgstr ""
+msgstr "3/8-sekskantskruer"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_28_product_template
 msgid "38x38 - 270 pine"
-msgstr ""
+msgstr "Fyr 38x38 – 270"
 
 #. module: custom_furniture
 #: model:planning.role,name:custom_furniture.planning_role_3
 msgid "3D Designer"
-msgstr ""
+msgstr "3D-designer"
 
 #. module: custom_furniture
 #: model:account.analytic.account,name:custom_furniture.account_analytic_account_1
 #: model:project.project,name:custom_furniture.project_project_1
 msgid "3D Renderings"
-msgstr ""
+msgstr "3D-gengivelse"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "4. Purchases &amp; inventory 📦"
-msgstr ""
+msgstr "4. Indkøb og lager 📦"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "5. Project &amp; Field Services 🦺"
-msgstr ""
+msgstr "5. Projekt og Udkørende Service 🦺"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "6. Manufacture &amp; Quality ✅"
-msgstr ""
+msgstr "6. Produktion og Kvalitet ✅"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "7. Planning &amp; resources 🗓️"
-msgstr ""
+msgstr "7. Planlægning og ressourcer 🗓️"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "8. Invoicing 🧾"
-msgstr ""
+msgstr "8. Fakturering 🧾"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -121,11 +123,13 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "<span class=\"h1-fs\"><strong>Do you want to go further? 🚀</strong></span>"
 msgstr ""
+"<span class=\"h1-fs\"><strong>Vil du tage det et skridt videre? 🚀</strong></"
+"span>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "<span style=\"font-weight: normal;\">🎓 Reordering rules</span>"
-msgstr ""
+msgstr "<span style=\"font-weight: normal;\">🎓 Genbestillingsregler</span>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -133,21 +137,23 @@ msgid ""
 "<strong><span class=\"h1-fs\" style=\"font-size: 3rem;\">Custom Furniture "
 "Production</span></strong>"
 msgstr ""
+"<strong><span class=\"h1-fs\" style=\"font-size: 3rem;\">Fremstilling af "
+"specialdesignede møbler</span></strong>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "<strong><span class=\"h1-fs\">Use case:</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h1-fs\">Brugsscenarie:</span></strong>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "<strong><span class=\"h4-fs\">Goods</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h4-fs\">Varer</span></strong>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "<strong><span class=\"h4-fs\">Services</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h4-fs\">Tjenester</span></strong>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -156,6 +162,10 @@ msgid ""
 "&amp; revisions, this config will create a new Purchase Order to buy this "
 "prestation and create a task in the dedicated project)."
 msgstr ""
+"<strong>Baseret på tidsregistreringer, der er udliciteret til "
+"underleverandører</strong> (designpræsentation og revisioner), opretter "
+"denne konfiguration en ny ordre til køb af ydelsen samt en opgave i det "
+"relevante projekt."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -164,6 +174,9 @@ msgid ""
 " this one will create a specific task in the existing \"3D Renderings\" "
 "Project)"
 msgstr ""
+"<strong>Baseret på tidsregistreringer</strong> "
+"(konceptudvikling og 3D-renderinger) oprettes dette som en specifik opgave i "
+"det eksisterende projekt \"3D-gengivelser\""
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -172,17 +185,22 @@ msgid ""
 "installation &amp; Electrical and lighting installation) will automatically "
 "create a task in the Field Service App."
 msgstr ""
+"<strong>Baseret på tidsregistreringer</strong> – eksterne tjenester "
+"(levering og installation samt el- og belysningsinstallation) – oprettes der "
+"automatisk en opgave i appen til eksterne tjenester."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "<strong>Basics:</strong>"
-msgstr ""
+msgstr "<strong>Det grundlæggende:</strong>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "<strong>Components </strong>that will serve to create manufactured products."
 msgstr ""
+"<strong>Komponenter,</strong> der anvendes til fremstilling af færdige "
+"produkter."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -190,6 +208,8 @@ msgid ""
 "<strong>Consumable goods:</strong> These will not be tracked (Such as bolts,"
 " finish painting, and sandpaper)."
 msgstr ""
+"<strong>Forbrugsvarer:</strong> Disse spores ikke "
+"(f.eks. skruer, maling og sandpapir)."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -197,13 +217,15 @@ msgid ""
 "<strong>Jane Design</strong>: She is your subcontractor for Design "
 "presentations and revisions."
 msgstr ""
+"<strong>Jane Design</strong>: Hun fungerer som underleverandør for "
+"designpræsentationer og -revisioner."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "<strong>Manufactured Goods </strong>will be manufactured based on a Bill of "
 "Material."
-msgstr ""
+msgstr "<strong>Færdige varer </strong>fremstilles på baggrund af styklisten."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -211,6 +233,8 @@ msgid ""
 "<strong>My Chairs Vendor</strong>: Will provide you Conference chairs to "
 "complete your order."
 msgstr ""
+"<strong>Min stoleleverandør</strong>: Leverer konferencestole til dig som "
+"led i færdiggørelsen af din ordre."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -218,6 +242,8 @@ msgid ""
 "<strong>My Metal Vendor</strong>: Will provide the Conference Table Metal "
 "Legs you need to manufacture the conference table."
 msgstr ""
+"<strong>Min metalleverandør</strong>: Leverer metalbenene til "
+"konferencebordet, som er nødvendige for fremstillingen af bordet."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -225,6 +251,8 @@ msgid ""
 "<strong>My Rug Vendor</strong>: Will provide you the custom area rug in "
 "sufficient square meters."
 msgstr ""
+"<strong>Min tæppehandler</strong>: Leverer det skræddersyede tæppe i den "
+"nødvendige størrelse."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -232,6 +260,8 @@ msgid ""
 "<strong>My Wood Vendor</strong>: Will send you the Oak Wood Panels you need "
 "to create the tables."
 msgstr ""
+"<strong>Min træleverandør</strong>: Leverer de nødvendige egetræsplader til "
+"produktionen af bordene."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -240,6 +270,10 @@ msgid ""
 "&amp; Final Inspection. Note that the first one will also create a new "
 "project for each confirmed order to ensure Project follow-up)."
 msgstr ""
+"<strong>Forudbetalte tjenester til fast pris</strong> "
+"(første designkonsultation og endelig godkendelse). Bemærk, at der ved den "
+"første konsultation også oprettes et nyt projekt for hver bekræftet ordre, "
+"så opfølgning på projektet sikres."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -247,6 +281,8 @@ msgid ""
 "<strong>Purchased Goods</strong> that will be purchased and sold to your "
 "customers."
 msgstr ""
+"<strong>Købte varer,</strong> der anskaffes med henblik på videresalg til "
+"kunder."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -255,11 +291,14 @@ msgid ""
 " or the Quality Team to take a picture of any manufactured item. Use any "
 "image to pass the check for this demo."
 msgstr ""
+"Der er fastsat et kvalitetskontrolpunkt for hvert produkt. Din medarbejder "
+"eller kvalitetsteam skal tage et foto af hvert fremstillet produkt. I denne "
+"demo kan du bruge et vilkårligt billede for at bestå testen."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_7_product_template
 msgid "Accent chairs"
-msgstr ""
+msgstr "Accentstole"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -267,6 +306,8 @@ msgid ""
 "All these components will give you an accurate overview on the project "
 "profitability."
 msgstr ""
+"Alle disse komponenter giver dig et klart overblik over projektets "
+"rentabilitet."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -274,6 +315,8 @@ msgid ""
 "Analytic Items ➡️ Track any cost using Analytic Items from the Accounting "
 "App"
 msgstr ""
+"Analyseposter ➡️ Hold styr på alle omkostninger med analyseposter i "
+"Bogføringsappen"
 
 #. module: custom_furniture
 #: model:planning.role,name:custom_furniture.planning_role_2
@@ -303,6 +346,16 @@ msgid ""
 "                </strong>\n"
 "                app to get an overview of the progress in terms of:"
 msgstr ""
+"Inden du genererer en mellemfaktura i\n"
+"                <strong>\n"
+"                        <font class=\"text-o-color-1\""
+">Faktureringsappen,</font>\n"
+"                </strong>\n"
+"                skal du fryse projektstatus i\n"
+"                <strong>\n"
+"                        <font class=\"text-o-color-1\">Projektappen</font>\n"
+"                </strong>\n"
+"                for at få et overblik over fremskridtene med hensyn til:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -325,6 +378,8 @@ msgid ""
 "By default, there is a filter on \"Sales\" products; remove it from the "
 "search bar to see all products available."
 msgstr ""
+"Som standard er filteret for salgsprodukter aktiveret. Fjern det i "
+"søgefeltet for at se alle tilgængelige produkter."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -333,26 +388,29 @@ msgid ""
 "complete flow from the opportunity to delivery and some demo data to execute"
 " the flows described hereunder."
 msgstr ""
+"Ved at uploade demodataene for dette modul blev din database fyldt med en "
+"komplet proces fra salgsmulighed til levering samt nogle demo-data, så du "
+"uden problemer kan udføre de følgende processer."
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_1
 msgid "Concept & Creation"
-msgstr ""
+msgstr "Koncept og udarbejdelse"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_3_product_template
 msgid "Concept development and 3D renderings"
-msgstr ""
+msgstr "Konceptudvikling og 3D-gengivelser"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_template_19
 msgid "Conference Table Metal Legs"
-msgstr ""
+msgstr "Metallben til konferencebord"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_9_product_template
 msgid "Conference chairs"
-msgstr ""
+msgstr "Konferencestole"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -360,6 +418,11 @@ msgid ""
 "Confirm the quotation. Your top bar shows that it creates different tasks in different projects, an upcoming delivery, a purchase, and various hours to plan. These are all automated actions based on your product configuration.\n"
 "                These will be detailed in the following topics."
 msgstr ""
+"Bekræft tilbuddet. Din øverste menulinje viser, at der er oprettet "
+"forskellige opgaver i forskellige projekter, en forestående levering, et køb "
+"og forskellige timer, der skal planlægges. Dette er alle automatiserede "
+"handlinger, der er baseret på din produktkonfiguration.\n"
+"                Disse beskrives detaljeret i de følgende emner."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -370,6 +433,15 @@ msgid ""
 "                </strong>\n"
 "                app. Then, schedule one or several \"Invoicing Schedule\" activities on the sales order so you never forget to send an intermediary invoice to sustain your cash flow."
 msgstr ""
+"Opret en forskudsbetaling fra salgsordren som det første faktureringstrin. "
+"Dette genererer den første faktura i\n"
+"                <strong>\n"
+"                        <font class=\"text-o-color-1\""
+">Faktureringsappen.</font>\n"
+"                </strong>\n"
+"                Planlæg derefter en eller flere \"Faktureringsplan\"-"
+"aktiviteter på salgsordren, så du aldrig glemmer at sende en mellemfaktura "
+"og dermed opretholder din pengestrøm."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -377,6 +449,10 @@ msgid ""
 "Create a stunning <strong><font class=\"text-o-color-1\">website</font></strong> and start receiving orders directly in Odoo. Go live with your <strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few\n"
 "                        minutes."
 msgstr ""
+"Lav en flot <strong><font class=\"text-o-color-1\">hjemmeside,</font></"
+"strong> start med at modtage ordrer direkte i Odoo. Gå live med din "
+"<strong><font class=\"text-o-color-1\">netbutik</font></strong> på få\n"
+"                        minutter."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -384,21 +460,23 @@ msgid ""
 "Create an opportunity each time you face a potential customer, receive a "
 "phone call, etc."
 msgstr ""
+"Opret en salgsmulighed, hver gang du møder en potentiel kunde, modtager et "
+"opkald eller lignende."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_12_product_template
 msgid "Custom area rug"
-msgstr ""
+msgstr "Specialfremstillet tæppe"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_template_8
 msgid "Custom conference table"
-msgstr ""
+msgstr "Specialdesignet konferencebord"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_10_product_template
 msgid "Custom dresser"
-msgstr ""
+msgstr "Specialfremstillet kommode"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_5_product_template
@@ -408,28 +486,28 @@ msgstr ""
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_11_product_template
 msgid "Custom wall shelving unit"
-msgstr ""
+msgstr "Specialfremstillet væghylde"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Dashboard ➡️ Your project's status at a glance."
-msgstr ""
+msgstr "Dashboard ➡️ Få et hurtigt overblik over dit projekt."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_13_product_template
 msgid "Delivery and installation"
-msgstr ""
+msgstr "Levering og installation"
 
 #. module: custom_furniture
 #: model:account.analytic.account,name:custom_furniture.account_analytic_account_4
 #: model:project.project,name:custom_furniture.project_project_4
 msgid "Design Subcontracting"
-msgstr ""
+msgstr "Underleverandører til design"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_4_product_template
 msgid "Design presentation and revisions"
-msgstr ""
+msgstr "Præsentation og gennemgang af designet"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -448,7 +526,7 @@ msgstr ""
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Do you want to go further? 🚀"
-msgstr ""
+msgstr "Vil du tage det et skridt videre? 🚀"
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_21
@@ -458,14 +536,14 @@ msgstr "Udført"
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_14_product_template
 msgid "Electrical and lighting installation"
-msgstr ""
+msgstr "El- og belysningsinstallation"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "Ensure a frictionless manufacturing process by accessing the Manufacture "
 "App."
-msgstr ""
+msgstr "Få en problemfri produktionsproces ved at bruge Produktionsappen."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -474,11 +552,14 @@ msgid ""
 "o-color-1\">Project</font></strong> &amp; <strong><font class=\"text-o-"
 "color-1\">Field Services Apps</font></strong>."
 msgstr ""
+"Få fuld opfølgning på dine projekter med <strong><font class="
+"\"text-o-color-1\">Projekt-</font></strong> &amp; <strong><font class="
+"\"text-o-color-1\">Udkørende Service-appen</font></strong>."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_6_product_template
 msgid "Executive chairs"
-msgstr ""
+msgstr "Kontorstole"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -486,6 +567,8 @@ msgid ""
 "Explore our documentation to ensure the correct configuration for each "
 "product, and do not hesitate to duplicate and edit an existing product."
 msgstr ""
+"Konsultér dokumentationen for korrekt produktkonfiguration, og du kan frit "
+"duplikere og tilpasse eksisterende produkter."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -495,6 +578,9 @@ msgid ""
 "follow your deliveries in the <strong><font class=\"text-o-"
 "color-1\">Inventory App</font></strong>."
 msgstr ""
+"Effektivisér dine <strong><font class=\"text-o-color-1\">Indkøb</font></"
+"strong>. hold styr på lager og leverancer i <strong><font class="
+"\"text-o-color-1\">Lagerappen</font></strong>."
 
 #. module: custom_furniture
 #: model:account.analytic.account,name:custom_furniture.account_analytic_account_3
@@ -504,7 +590,7 @@ msgstr "Felt tjeneste"
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_15_product_template
 msgid "Final inspection and client walkthrough"
-msgstr ""
+msgstr "Afsluttende inspektion og gennemgang med kunden"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -512,6 +598,8 @@ msgid ""
 "Follow your equipment status and maintenance with the <strong><font "
 "class=\"text-o-color-1\">Maintenance App</font></strong>."
 msgstr ""
+"Hold styr på dit udstyrs status og vedligeholdelse med <strong><font class="
+"\"text-o-color-1\">Vedligeholdelsesappen</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -519,6 +607,9 @@ msgid ""
 "Follow your planning and keep track of worked time in the <strong><font "
 "class=\"text-o-color-1\">Planning &amp; Timesheets Apps</font></strong>."
 msgstr ""
+"Hold styr på din planlægning, og registrér arbejdstiden i <strong><font "
+"class=\"text-o-color-1\">Planlægnings- &amp; og "
+"Tidsregistreringsappen</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -526,11 +617,14 @@ msgid ""
 "For this use case, open the David Patel quotation. You can see a complete "
 "setup using all the products mentioned in the previous topic."
 msgstr ""
+"Åbn David Patels tilbud for denne anvendelse. Du får et komplet overblik "
+"over indretningen med alle de produkter, der blev nævnt i det foregående "
+"afsnit."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "From WH ➡️ Deliveries from your warehouse to this specific customer"
-msgstr ""
+msgstr "Fra lageret ➡️ Leverancer fra dit lager til denne specifikke kunde"
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_3
@@ -544,6 +638,9 @@ msgid ""
 "clicking on it. Continue with the other steps until you can register your "
 "production."
 msgstr ""
+"Gå til Værkstedsappen, og bekræft det første trin i din produktion ved at "
+"klikke på det. Fortsæt med de resterende trin, indtil produktionen kan "
+"registreres."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -556,6 +653,8 @@ msgid ""
 "If you do not have a specific installation task or want to deliver it "
 "separately, you can do it in the Inventory App."
 msgstr ""
+"Hvis du ikke har en specifik installation, eller hvis du ønsker at udføre "
+"den separat, kan du gøre det i Lagerappen."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -564,6 +663,9 @@ msgid ""
 "Template feature. It will allow you to configure a set of products and "
 "sections that will always be imported when you select it."
 msgstr ""
+"Hvis du normalt opretter dine tilbud på samme måde, kan du bruge funktionen "
+"\"Tilbudsskabelon\". Her kan du konfigurere produkter og afsnit, som "
+"automatisk importeres, når du vælger skabelonen."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -572,6 +674,9 @@ msgid ""
 "Import demo data and try the Demo - Use Case. (In the next Knowledge "
 "Article)"
 msgstr ""
+"Hvis du vil gennemgå en praktisk rundvisning af dette modul, bør du "
+"importere demodata og afprøve demobrugsscenariet "
+"(som beskrevet i næste artikel i Vidensdelingsappen)"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -580,6 +685,9 @@ msgid ""
 "rules. These will ensure a fluid replenishment based on minimum quantities "
 "of each product or based on orders."
 msgstr ""
+"Hvis du ønsker at fjerne denne del af processen, kan du bruge regler for "
+"genbestilling. De sikrer en problemfri genopfyldning baseret på "
+"minimumsmængder for hvert produkt eller på eksisterende ordrer."
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_19
@@ -593,6 +701,9 @@ msgid ""
 " ready to be sent to your providers. When you have confirmation that your "
 "order has been placed, confirm each RFQ to continue the process."
 msgstr ""
+"I Indkøbsappen kan du se alle dine tilbudsanmodninger, der er klar til at "
+"blive sendt til leverandørerne. Når du har modtaget bekræftelse på, at "
+"ordren er afgivet, skal du bekræfte tilbudsanmodningen for at fortsætte."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -600,11 +711,17 @@ msgid ""
 "In this App, you can see that the delivery is not yet ready to be shipped, as you currently don't have the necessary products. If you navigate to Operations &gt; Replenishment, you will find the list of suggested purchase/manufacture\n"
 "                orders missing to complete this order. Select everything, and click on \"Replenish\" &gt; \"Order.\""
 msgstr ""
+"I denne app kan du se, at leveringen endnu ikke er klar til afsendelse, da "
+"de nødvendige produkter mangler. Gå til \"Operationer\" &gt; "
+"\"Genopfyldning\" for at se listen over foreslåede indkøbs- eller "
+"produktionsordrer,\n"
+"                der mangler for at fuldføre ordren. Vælg alle, og klik på "
+"\"Genopfyldning\" &gt; \"Ordre\"."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_2_product_template
 msgid "Initial design consultation and space assessment"
-msgstr ""
+msgstr "Rådgivning om første design og rumlayout"
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_5
@@ -614,7 +731,7 @@ msgstr "Installation"
 #. module: custom_furniture
 #: model:planning.role,name:custom_furniture.planning_role_1
 msgid "Installer"
-msgstr ""
+msgstr "Installér"
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_6
@@ -627,6 +744,8 @@ msgid ""
 "Invoice at the right time with the <strong><font class=\"text-o-"
 "color-1\">Invoice App</font></strong>."
 msgstr ""
+"Fakturér på det rette tidspunkt med <strong><font class=\"text-o-color-1\""
+">Faktureringsappen</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -639,6 +758,8 @@ msgid ""
 "Level up your Manufacture process with the <strong><font class=\"text-o-"
 "color-1\">Manufacture App</font></strong>."
 msgstr ""
+"Optimér din produktionsproces med <strong><font class=\"text-o-color-1\""
+">Produktionsappen</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -669,6 +790,8 @@ msgid ""
 "Manage your employees and all your human resources using the <strong><font "
 "class=\"text-o-color-1\">HR Suite.</font></strong>"
 msgstr ""
+"Administrér dine medarbejdere og alle personaleanliggender med <strong><font "
+"class=\"text-o-color-1\">HR-appen.</font></strong>"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -676,6 +799,10 @@ msgid ""
 "Manage your entire projects with the Project App. You can see that your Sale Order has created a Project with a bunch of already configured tasks. Follow the evolution of your project with tasks, stages, status, and\n"
 "                activities."
 msgstr ""
+"Administrér alle dine projekter med Projektappen. Du kan se, hvordan en "
+"salgsordre automatisk opretter et projekt med en række foruddefinerede "
+"opgaver. Følg projektets fremdrift via opgaver, faser, status og\n"
+"                aktiviteter."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -684,6 +811,9 @@ msgid ""
 "package includes several configs, which you can explore by navigating to the"
 " Sales App -&gt; Products."
 msgstr ""
+"Administrationen af dine produkter og deres egenskaber er afgørende i Odoo. "
+"Denne pakke indeholder flere konfigurationer, som du kan udforske ved at gå "
+"til Salgsappen &gt; Produkter."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -693,17 +823,17 @@ msgstr "Produktionsordrer"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Materials purchased."
-msgstr ""
+msgstr "Indkøbte materialer."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Materials sold."
-msgstr ""
+msgstr "Solgte materialer."
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_5
 msgid "Natural"
-msgstr ""
+msgstr "Naturlig"
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_1
@@ -714,12 +844,12 @@ msgstr "Ny"
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_33_product_template
 msgid "Oak Wood Panel 120x160"
-msgstr ""
+msgstr "Egetræsplade 120 x 160"
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_18_product_template
 msgid "Oak Wood Panel 320x160"
-msgstr ""
+msgstr "Egetræsplade 320 x 160"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -727,6 +857,8 @@ msgid ""
 "Odoo is also integrated into an App. You may want your worker to complete "
 "their reports and follow the task on their mobile phone!"
 msgstr ""
+"Odoo er også tilgængelig som mobilapp. Du kan lade dine medarbejdere udfylde "
+"rapporter og følge opgaver direkte på deres telefon!"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -740,7 +872,7 @@ msgstr ""
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr ""
+msgstr "Odoo giver dig ubegrænsede muligheder:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -759,6 +891,9 @@ msgid ""
 "On your dashboard, you can see 1 order \"To Launch\" in the Core Board "
 "Composing Machine. Open it to start logging your manufacturing process."
 msgstr ""
+"På dit dashboard kan du se én ordre markeret \"Sæt i gang\" i Core Board "
+"Composing Machine (maskine til fremstilling af plader). Åbn ordren for at "
+"starte produktionen."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -767,6 +902,8 @@ msgid ""
 "Inventory App. Access it and select the 4 to process button in the Receipts "
 "category. You can now validate the reception of all your orders."
 msgstr ""
+"Når alle ordrer er bekræftet, modtages de i Lagerappen. Gå til \"Indgående\" "
+"og klik på \"Til behandling\" for at bekræfte modtagelsen af samtlige ordrer."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -775,11 +912,14 @@ msgid ""
 "extremely easy. Access the Sales App and click the New button to create a "
 "new quotation. Select your customer and start adding your products."
 msgstr ""
+"Når dine produkter er korrekt konfigureret, er det nemt at oprette tilbud. "
+"Åbn salgsappen og klik på \"Ny\" for at oprette et nyt tilbud. Vælg kunden "
+"og tilføj de ønskede produkter."
 
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_product_27_product_template
 msgid "Orbital Sander 20x20"
-msgstr ""
+msgstr "Orbital slibemaskine 20 x 20"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -803,7 +943,7 @@ msgstr "Planlægning"
 #. module: custom_furniture
 #: model:product.template,name:custom_furniture.product_template_21
 msgid "Polyurethane Finish 10L"
-msgstr ""
+msgstr "Polyuretanbelægning (10 l)"
 
 #. module: custom_furniture
 #: model:sale.order.template.line,name:custom_furniture.sale_order_template_line_2
@@ -816,6 +956,8 @@ msgid ""
 "Provide an excellent after-sales service using the <strong><font "
 "class=\"text-o-color-1\">Helpdesk App</font></strong>."
 msgstr ""
+"Tilbyd en fremragende eftersalgsservice med <strong><font class="
+"\"text-o-color-1\">Kundeserviceappen</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -838,6 +980,8 @@ msgid ""
 "Record your employees' time spent on each project using the Timesheets app. "
 "On the employee form, remember to define an hourly cost."
 msgstr ""
+"Registrér den tid, dine medarbejdere har brugt på hvert projekt, i "
+"Tidsregistreringsappen. Husk at angive timesatsen i medarbejderformularen."
 
 #. module: custom_furniture
 #: model:product.attribute.value,name:custom_furniture.product_attribute_value_2
@@ -847,7 +991,7 @@ msgstr "Rød"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Redirect the emails sent to"
-msgstr ""
+msgstr "Omdirigér de e-mails, der sendes til"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -860,6 +1004,10 @@ msgid ""
 "Suppose you navigate to the Field Service App. You can also find service tasks like Delivery and Installation or Electrical and lighting installation. This will allow your workers to log time, pick products, and keep track of the tasks\n"
 "                directly from there."
 msgstr ""
+"Gå til Udkørende Service-appen. Her finder du også servicetjenester som "
+"levering og installation samt el- og belysningsinstallation. Dine "
+"medarbejdere kan registrere arbejdstid, plukke produkter og følge opgaver\n"
+"                direkte fra appen."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -867,6 +1015,11 @@ msgid ""
 "Take advantage of every opportunity. The <strong> <font class=\"text-o-color-1\">CRM</font> </strong> centralizes everything and allows you to ensure the efficient follow-up of each request. If the request becomes concrete, create\n"
 "                the customer in the <strong> <font class=\"text-o-color-1\">Contact</font> </strong> app."
 msgstr ""
+"Udnyt alle salgsmuligheder. <strong> <font class=\"text-o-color-1\">CRM-"
+"appen</font> </strong> samler al information og sikrer, at alle henvendelser "
+"bliver fulgt op. Når en henvendelse bliver konkret, kan du oprette\n"
+"                kunden i <strong> <font class=\"text-o-color-1\""
+">Kontaktappen</font> </strong>."
 
 #. module: custom_furniture
 #: model:project.project,label_tasks:custom_furniture.project_project_1
@@ -883,6 +1036,9 @@ msgid ""
 " allows you to collect requests from your potential customers by aggregating"
 " several sources:"
 msgstr ""
+"Med <font class=\"text-o-color-1\"> <strong>CRM-</strong> </font>kan du "
+"indsamle forespørgsler fra dine potentielle kunder ved at samle dem fra "
+"flere kilder:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -891,12 +1047,15 @@ msgid ""
 "specific view for your worker to keep track of any task in a particular Work"
 " Center."
 msgstr ""
+"Produktionsappen leveres sammen med Værkstedsappen. Den giver dine "
+"medarbejdere en overskuelig visning, hvor de kan følge alle opgaver i et "
+"bestemt arbejdsområde."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid ""
 "There are 4 different kinds of services available in this configuration:"
-msgstr ""
+msgstr "Denne konfiguration indeholder fire forskellige typer tjenester:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -909,12 +1068,12 @@ msgstr ""
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "This will create two purchase orders and a manufacturing order."
-msgstr ""
+msgstr "Dette resulterer i to ordrer og en produktionsordre."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "Time spent on the project."
-msgstr ""
+msgstr "Tid brugt på projektet."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -924,7 +1083,7 @@ msgstr "Timesedler"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "To WH ➡️ Products sent back to your warehouse"
-msgstr ""
+msgstr "Til lageret ➡️ Produkter returneret til dit lager"
 
 #. module: custom_furniture
 #: model:project.task.type,name:custom_furniture.project_task_type_18
@@ -937,6 +1096,8 @@ msgid ""
 "To manage your inventory and everything you need to complete the order, "
 "navigate to the Inventory App."
 msgstr ""
+"Åbn Lagerappen for at administrere dit lager og alt, hvad der skal til for "
+"at fuldføre ordren."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -950,6 +1111,10 @@ msgid ""
 "<strong><font class=\"text-o-color-1\">Sales Apps </font></strong>to manage "
 "your customer relations, your opportunities and create stunning quotations."
 msgstr ""
+"Brug <strong><font class=\"text-o-color-1\">CRM-</font></strong> og "
+"<strong><font class=\"text-o-color-1\">Salgsappen </font></strong>til at "
+"administrere dine kundeforhold og salgsmuligheder samt udarbejde "
+"overbevisende tilbud."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -958,6 +1123,9 @@ msgid ""
 "to create a contact form that will redirect all the requests to the <strong>"
 " <font class=\"text-o-color-1\">CRM</font></strong>."
 msgstr ""
+"Brug <strong><font class=\"text-o-color-1\">Hjemmesideappen</font></strong> "
+"til at oprette en kontaktformular, der automatisk sender alle forespørgsler "
+"videre til <strong> <font class=\"text-o-color-1\">CRM</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -965,6 +1133,11 @@ msgid ""
 "Use the Planning in the Field Service <strong><font class=\"text-o-color-1\">​</font> </strong> app to organize the work of your employees. Define which project and when they have to work. Easily manage shift conflicts, workload, and\n"
 "                replacements in case of leave."
 msgstr ""
+"Brug planlægningsfunktionen i appen Udkørende service <strong><font class="
+"\"text-o-color-1\">​</font> </strong> til at organisere dine medarbejderes "
+"arbejde. Bestem, hvilket projekt de skal arbejde på, og hvornår. Håndtér "
+"nemt skifteholdsændringer, arbejdsbyrde og\n"
+"                afløsninger i tilfælde af fravær."
 
 #. module: custom_furniture
 #: model_terms:web_tour.tour,rainbow_man_message:custom_furniture.knowledge_tour
@@ -977,6 +1150,10 @@ msgid ""
 "When you are done with your production, you can finally deliver the complete order to your customer. To do so, navigate to the Field Service Apps. From the Installation task, you can see 31 Products that require pick-up. Click\n"
 "                on the smart button and validate this picking."
 msgstr ""
+"Når produktionen er afsluttet, leveres ordren til kunden. Åbn appen til "
+"eksternt arbejde, gå til opgaven \"Installation\", gennemse de 31 produkter, "
+"der skal plukkes. Klik\n"
+"                på den intelligente knap, og bekræft plukningen."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1002,6 +1179,9 @@ msgid ""
 " bunch of practical views to get the complete overview of your project, "
 "including* :"
 msgstr ""
+"Du kan tilpasse oversigten for hvert projekt ved at klikke på det lille "
+"\"skyder\"-ikon øverst til højre på skærmen. Her kan du tilføje forskellige "
+"visninger, så du får et komplet overblik over projektet, herunder*:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1009,11 +1189,13 @@ msgid ""
 "You can add other views with specific filters and ease your project follow-"
 "up."
 msgstr ""
+"Du kan tilføje flere visninger med specifikke filtre, så det bliver lettere "
+"at følge med i dit projekt."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "You can also find 4 different kinds of goods:"
-msgstr ""
+msgstr "Der findes også fire forskellige typer varer:"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1021,6 +1203,8 @@ msgid ""
 "You can see a new Manufacture order has been posted by navigating into "
 "Operations &gt; Manufacture Orders."
 msgstr ""
+"Gå til \"Processer\" &gt; \"Produktionsordrer\" for at se den nyligt "
+"oprettede produktionsordre."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1038,6 +1222,9 @@ msgid ""
 "&gt; Industries &gt; Upgrade your Custom Furniture Production package and "
 "check the related box."
 msgstr ""
+"Hvis demodata ikke er importeret, kan du stadig gøre det. Gå til Apps &gt; "
+"Brancher &gt; Opdatér pakken til produktion af specialfremstillede møbler, "
+"og markér det relevante felt."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1046,6 +1233,9 @@ msgid ""
 "companies. By doing so, we have installed many necessary apps to run your "
 "company efficiently."
 msgstr ""
+"Du har netop installeret Odoo-pakken til produktion af skræddersyede møbler. "
+"Samtidig er mange nødvendige apps blevet installeret, så din virksomhed kan "
+"drives effektivt."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1053,12 +1243,14 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various actions you can quickly execute with this package using Odoo."
 msgstr ""
+"Med denne pakke i Odoo kan du gennemføre følgende flows for hurtigt at få "
+"overblik over de forskellige processer."
 
 #. module: custom_furniture
 #: model:account.analytic.account,name:custom_furniture.account_analytic_account_6
 #: model:project.project,name:custom_furniture.project_project_6
 msgid "[TEMPLATE] Interior Design Project"
-msgstr ""
+msgstr "[SKABELON] Indretningsprojekt"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1083,7 +1275,7 @@ msgstr ", hvis du har brug for hjælp!<br/>"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "info@my-construction-business.com"
-msgstr ""
+msgstr "info@my-construction-business.com"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1093,12 +1285,12 @@ msgstr "anmode om en demo"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "to the <strong> <font class=\"text-o-color-1\">CRM</font></strong>."
-msgstr ""
+msgstr "til <strong> <font class=\"text-o-color-1\">CRM</font></strong>."
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "🎓 Activities"
-msgstr ""
+msgstr "🎓 Aktiviteter"
 
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
@@ -1113,4 +1305,4 @@ msgstr "🎓 Fakturering"
 #. module: custom_furniture
 #: model_terms:ir.ui.view,arch_db:custom_furniture.welcome_article_body
 msgid "🎓 Timesheets"
-msgstr ""
+msgstr "🎓 Tidsregistreringer"

@@ -3,13 +3,13 @@
 # * environmental_agency
 #
 # Oakarmin Iron <oakarminiron@gmail.com>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-17 12:51+0000\n"
-"PO-Revision-Date: 2025-11-21 06:44+0000\n"
+"PO-Revision-Date: 2026-02-07 18:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/"
 "environmental_agency/my/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.ir_ui_view_3007
@@ -451,7 +451,7 @@ msgstr ""
 #. module: environmental_agency
 #: model:crm.tag,name:environmental_agency.crm_tag_2
 msgid "Food"
-msgstr ""
+msgstr "အစားအစာ"
 
 #. module: environmental_agency
 #: model_terms:product.template,description:environmental_agency.product_product_5_product_template
