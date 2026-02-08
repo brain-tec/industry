@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 15:15+0000\n"
-"PO-Revision-Date: 2026-01-10 18:50+0000\n"
+"PO-Revision-Date: 2026-02-07 18:50+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "condominium/ja/>\n"
@@ -74,7 +74,7 @@ msgstr "法務分析"
 #: model:ir.model.fields,field_description:condominium.active_properties_type
 #: model:ir.model.fields,field_description:condominium.active_ratios_field
 msgid "Active"
-msgstr "アクティブ"
+msgstr "有効"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1993,7 +1993,7 @@ msgstr "ベンダー会社"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.vendor_condominium_ids
 msgid "Vendors Condominiums"
-msgstr "ベンダー分譲マンション"
+msgstr "仕入先マンション"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_715_product_template
