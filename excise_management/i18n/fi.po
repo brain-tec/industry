@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-08 12:59+0000\n"
-"PO-Revision-Date: 2026-01-03 19:52+0000\n"
+"PO-Revision-Date: 2026-02-02 13:38+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "excise_management/fi/>\n"
@@ -206,12 +206,12 @@ msgstr "Valmisteveron kuvaus"
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.product_template_x_excise_packaging_tax
 msgid "Excise packaging tax"
-msgstr ""
+msgstr "Pakkausvalmistevero"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_report
 msgid "Excise report ID"
-msgstr ""
+msgstr "Valmisteveroraportin tunnus"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.product_template_uom
@@ -239,34 +239,34 @@ msgstr "Valmisteverojen analyysi"
 #: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_entry_exit
 #: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_entry_exit
 msgid "Exit"
-msgstr ""
+msgstr "Poistu"
 
 #. module: excise_management
 #: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_exit_fd
 #: model:ir.model.fields.selection,name:excise_management.stock_move_fiscal_deposit_move_selection_exit_fd
 msgid "Exit to FD"
-msgstr ""
+msgstr "Poistu vapaaseen jakeluun"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.external_id_excise_report
 #: model:ir.model.fields,field_description:excise_management.stock_picking_external_id
 msgid "External ID"
-msgstr ""
+msgstr "Ulkoinen tunnus"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.field_account_move_external_ids_count
 msgid "External ID count"
-msgstr ""
+msgstr "Ulkoisten tunnusten lukumäärä"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.field_account_move_x_external_ids
 msgid "External IDs"
-msgstr ""
+msgstr "Ulkoiset tunnukset"
 
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.account_move_form_view
 msgid "External Transfers"
-msgstr ""
+msgstr "Ulkoiset siirrot"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.stock_move_fiscal_deposit_move
@@ -276,28 +276,28 @@ msgstr "Verotalletussiirto"
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.from_date_excise_report
 msgid "From Date"
-msgstr ""
+msgstr "Aloituspäivä"
 
 #. module: excise_management
 #: model:ir.actions.server,name:excise_management.cron_generate_excise_report_ir_actions_server
 msgid "Generate Excise Report"
-msgstr ""
+msgstr "Luo valmisteveroraportti"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.account_move_has_excise_line_field
 #: model:ir.model.fields,field_description:excise_management.sale_order_has_excise_line_field
 msgid "Has Excise Line"
-msgstr ""
+msgstr "Sisältää valmisteverorivin"
 
 #. module: excise_management
 #: model:ir.model.fields.selection,name:excise_management.state_excise_report_selection_progress
 msgid "In progress"
-msgstr ""
+msgstr "Käynnissä"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.stock_picking_invoice_ids
 msgid "Invoice IDs"
-msgstr ""
+msgstr "Laskujen tunnukset"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.account_tax_group_is_excise
@@ -314,22 +314,22 @@ msgstr "On verotalletus"
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.details_computation_excise_report
 msgid "Line Computation"
-msgstr ""
+msgstr "Rivilaskenta"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.excise_report_excise_report_line
 msgid "Lines IDs"
-msgstr ""
+msgstr "Rivien tunnukset"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.excise_report_line_move_ids
 msgid "Move IDs"
-msgstr ""
+msgstr "Siirtotunnukset"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_move_type
 msgid "Move Type"
-msgstr ""
+msgstr "Siirtotyyppi"
 
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.form_view_x_excise_report
@@ -347,7 +347,7 @@ msgstr "Nimi"
 #: model:account.tax,name:excise_management.no_excise_tax_purchase
 #: model:account.tax,name:excise_management.no_excise_tax_sale
 msgid "No Excises"
-msgstr ""
+msgstr "Ei valmisteveroja"
 
 #. module: excise_management
 #: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_none
@@ -358,65 +358,65 @@ msgstr "Tyhjä"
 #. module: excise_management
 #: model:ir.actions.server,name:excise_management.action_excise_report_stock_moves
 msgid "Open stock moves"
-msgstr ""
+msgstr "Avaa varastosiirrot"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_packaging_amount
 #: model:ir.model.fields,field_description:excise_management.stock_move_excise_packaging_amount
 msgid "Packaging Amount"
-msgstr ""
+msgstr "Pakkausmäärä"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_packaging_units
 #: model:ir.model.fields,field_description:excise_management.stock_move_excise_packaging_units
 msgid "Packaging Units"
-msgstr ""
+msgstr "Pakkausyksiköt"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.packaging_tax_excise_category
 msgid "Packaging tax"
-msgstr ""
+msgstr "Pakkausvero"
 
 #. module: excise_management
 #: model:ir.model.fields,help:excise_management.packaging_tax_excise_category
 msgid "Packaging tax per product packaging units for reporting purpose."
-msgstr ""
+msgstr "Tuotepakkauskohtainen pakkausvero raportointitarkoitukseen."
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.product_template_excise_packaging_units
 msgid "Packaging units"
-msgstr ""
+msgstr "Pakkausyksiköt"
 
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.form_view_x_excise_report
 msgid "Period"
-msgstr ""
+msgstr "Kausi"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.field_account_move_picking_ids
 msgid "Picking IDs"
-msgstr ""
+msgstr "Keräilytunnisteet"
 
 #. module: excise_management
 #: model:ir.actions.act_window,name:excise_management.action_account_move_pickings
 msgid "Pickings"
-msgstr ""
+msgstr "Keräilyt"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.excise_report_line_excise_quantity
 msgid "Quantity"
-msgstr ""
+msgstr "Määrä"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.res_company_reporter
 #: model:ir.model.fields,field_description:excise_management.res_config_reporter
 msgid "Reporter"
-msgstr ""
+msgstr "Reportteri"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.reporter_id_excise_report
 msgid "Reporter ID"
-msgstr ""
+msgstr "Reportteritunnus"
 
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.x_excise_category_view_list
@@ -451,28 +451,28 @@ msgstr "Järjestys"
 #. module: excise_management
 #: model:base.automation,name:excise_management.base_automation_8
 msgid "Sequence the Excise taxes"
-msgstr ""
+msgstr "Sekvensoi valmisteverot"
 
 #. module: excise_management
 #: model:ir.actions.server,name:excise_management.resequence_the_order_of_taxes
 msgid "Sequence the excise taxes"
-msgstr ""
+msgstr "Sekvensoi valmisteverot"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.state_excise_report
 #: model_terms:ir.ui.view,arch_db:excise_management.search_view_x_excise_report
 msgid "State"
-msgstr ""
+msgstr "Tila"
 
 #. module: excise_management
 #: model:ir.model.fields,field_description:excise_management.to_date_excise_report
 msgid "To Date"
-msgstr ""
+msgstr "Lopetuspäivä"
 
 #. module: excise_management
 #: model_terms:ir.ui.view,arch_db:excise_management.search_view_x_excise_report
 msgid "To do"
-msgstr ""
+msgstr "Tehtävälista"
 
 #. module: excise_management
 #: model:ir.model.fields.selection,name:excise_management.excise_report_line_excise_move_type_selection_transfer
