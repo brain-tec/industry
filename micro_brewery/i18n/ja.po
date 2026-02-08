@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-29 14:10+0000\n"
-"PO-Revision-Date: 2026-01-31 21:50+0000\n"
+"PO-Revision-Date: 2026-02-07 21:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s18-2/"
 "micro_brewery/ja/>\n"
@@ -1190,7 +1190,8 @@ msgid ""
 "Now if you go back on the quotation in the Sales application, you will see "
 "that it is now a confirmed order and a delivery order has been created. Go "
 "on that delivery order and validate it."
-msgstr "販売アプリケーションで見積に戻ると、オーダが確定し、配送オーダが作成されていることがわかります。その配送オーダを検証して下さい。"
+msgstr "販売アプリケーションで見積に戻ると、オーダが確定し、出荷オーダが作成されてい"
+"ることがわかります。その出荷オーダを検証して下さい。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
