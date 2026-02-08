@@ -3,17 +3,17 @@
 # * guest_house
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Maitê Dietze (madi)" <madi@odoo.com>, 2025.
+# "Maitê Dietze (madi)" <madi@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 15:05+0000\n"
-"PO-Revision-Date: 2025-12-19 11:10+0000\n"
+"PO-Revision-Date: 2026-02-05 19:04+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
-"odoo-19/guest_house/pt_BR/>\n"
+"odoo-s19-1/guest_house/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -528,6 +528,8 @@ msgid ""
 "Employee would open the tasks from their hand and update the status until "
 "Clean."
 msgstr ""
+"O funcionário abriria as tarefas em suas mãos e atualizaria o status até que "
+"estivessem concluídas."
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_20
@@ -631,7 +633,7 @@ msgstr "Quarto Jardim (2 hóspedes)"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.res_config_settings_form_view_inherited
 msgid "Guest House"
-msgstr ""
+msgstr "Hospedagem"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body

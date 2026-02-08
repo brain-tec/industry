@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:43+0000\n"
-"PO-Revision-Date: 2026-01-31 20:20+0000\n"
+"PO-Revision-Date: 2026-02-05 19:04+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/booking_engine/pt_BR/>\n"
@@ -253,17 +253,17 @@ msgstr "Número de impostos municipais"
 #. module: booking_engine
 #: model:project.task.type,name:booking_engine.project_task_type_17
 msgid "Clean"
-msgstr ""
+msgstr "Limpar"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_cleaning_field_project_task
 msgid "Cleaning"
-msgstr ""
+msgstr "Limpeza"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_cleaning_color_field_project_task
 msgid "Cleaning Color"
-msgstr ""
+msgstr "Cor de limpeza"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_14
@@ -273,17 +273,17 @@ msgstr "Máquina de café"
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_menu
 msgid "Configuration"
-msgstr ""
+msgstr "Configuração"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.industry_create_roles
 msgid "Create Plan Services"
-msgstr ""
+msgstr "Criar serviços de plano"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.industry_on_product_template_create
 msgid "Create role on stay offer creation"
-msgstr ""
+msgstr "Criar função na criação da oferta de estadia"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.res_partner_x_ongoing_bookings
@@ -298,22 +298,22 @@ msgstr "Cliente"
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_unset
 msgid "Deactivate House Keeping"
-msgstr ""
+msgstr "Desativar serviço de limpeza"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_resource_form
 msgid "Default Stay Offer"
-msgstr ""
+msgstr "Oferta de permanência padrão"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.industry_delete_roles
 msgid "Delete Plan Services"
-msgstr ""
+msgstr "Excluir Planejamento de serviços"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.industry_on_product_template_delete
 msgid "Delete role on stay offer deletion"
-msgstr ""
+msgstr "Excluir função na exclusão da oferta de estadia"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_model_guests_line_x_name
@@ -343,24 +343,24 @@ msgstr "Carteira de habilitação"
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.x_occupancy_field_selection_due_out
 msgid "Due Out"
-msgstr ""
+msgstr "Previsão de lançamento"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.industry_edit_roles
 msgid "Edit Plan Services"
-msgstr ""
+msgstr "Editar serviços do plano"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.industry_on_product_template_edit
 msgid "Edit role name on stay offer modification"
-msgstr ""
+msgstr "Editar nome da função na modificação da oferta de estadia"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_employee_id_field_project_task
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_planning_resource_view_search
 #: model_terms:ir.ui.view,arch_db:booking_engine.project_task_search_view_primary
 msgid "Employee"
-msgstr ""
+msgstr "Funcionário"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
@@ -420,7 +420,7 @@ msgstr "Secador de cabelo"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_has_city_tax_field
 msgid "Has City Tax"
-msgstr ""
+msgstr "Tem imposto municipal"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_house_keeping
@@ -431,32 +431,32 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_config_settings_form_view_inherited
 #: model_terms:ir.ui.view,arch_db:booking_engine.resource_resource_form_view_extension
 msgid "House Keeping"
-msgstr ""
+msgstr "Serviço de limpeza"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_is_house_keeping_project_field_project_project
 msgid "House Keeping Project"
-msgstr ""
+msgstr "Projeto de Limpeza Doméstica"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_house_keeping_stage_id_field_resource_resource
 msgid "House Keeping Stage"
-msgstr ""
+msgstr "Etapa de limpeza da casa"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_rooms
 msgid "HouseKeeping: Daily room update"
-msgstr ""
+msgstr "Serviço de limpeza: arrumação diária do quarto"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_check_has_right_to_approve_tasks
 msgid "HouseKeeping: Has right to approve tasks"
-msgstr ""
+msgstr "Serviço de Limpeza: Tem o direito de aprovar tarefas"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_x_setting_approvers_set
 msgid "HouseKeeping: On approvers setting set"
-msgstr ""
+msgstr "Serviço de Limpeza: Na configuração dos aprovadores"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_check_in
@@ -476,17 +476,17 @@ msgstr ""
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_task_stage_clean
 msgid "HouseKeeping: On task stage reaching Clean"
-msgstr ""
+msgstr "Serviço de Limpeza: Ao atingir o estágio Limpeza"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_task_stage_ready
 msgid "HouseKeeping: On task stage set to Ready"
-msgstr ""
+msgstr "Serviço de Limpeza: Estágio da tarefa definido como Pronto"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_x_setting_approvers
 msgid "HouseKeeping: Set approvers setting"
-msgstr ""
+msgstr "Serviço de Limpeza: Definir configuração dos aprovadores"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_resources_occupied
@@ -496,7 +496,7 @@ msgstr ""
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_resources_vacant
 msgid "HouseKeeping: Set resources as vacant"
-msgstr ""
+msgstr "Serviço de Limpeza: Definir recursos como vagos"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_task_ready_if_no_approvers
@@ -506,7 +506,7 @@ msgstr ""
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_task_cleaning_state
 msgid "HouseKeeping: Update task cleaning state"
-msgstr ""
+msgstr "Serviço de Limpeza: Atualizar o estado da tarefa de limpeza"
 
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.base_model_res_partner_x_document_type_field_selection_id_card

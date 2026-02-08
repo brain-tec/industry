@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 11:44+0000\n"
-"PO-Revision-Date: 2026-01-30 14:42+0000\n"
+"PO-Revision-Date: 2026-02-05 19:05+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "non_profit_organization/ja/>\n"
@@ -3021,7 +3021,7 @@ msgstr "ソーシャルメディア"
 #. module: non_profit_organization
 #: model:product.template,name:non_profit_organization.product_template_5
 msgid "Solidarity Candle (Set of 3) "
-msgstr ""
+msgstr "連帯キャンドル (3個セット) "
 
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_date_start_field_x_petition
@@ -3032,17 +3032,17 @@ msgstr "開始日"
 #. module: non_profit_organization
 #: model:project.project,name:non_profit_organization.project_project_1
 msgid "Stop Child Labor Now"
-msgstr ""
+msgstr "今すぐSTOP、児童労働"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Store and organize all contacts in <strong>Contacts</strong>."
-msgstr ""
+msgstr "<strong>連絡先</strong>で、すべての連絡先を保存・管理できます。"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_2
 msgid "Students and teachers"
-msgstr ""
+msgstr "学生・教師"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.contact_us_qweb_view
@@ -3065,7 +3065,7 @@ msgstr "タグ"
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_target_signatures_field_x_petition
 msgid "Target Signatures"
-msgstr ""
+msgstr "目標署名数"
 
 #. module: non_profit_organization
 #: model:project.project,label_tasks:non_profit_organization.project_project_1
@@ -3085,17 +3085,17 @@ msgstr "登録番号"
 #. module: non_profit_organization
 #: model:hr.job,name:non_profit_organization.hr_job_3
 msgid "Team Coordinator"
-msgstr ""
+msgstr "チームコーディネーター"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Team members submit expenses with receipts for approval."
-msgstr ""
+msgstr "チームメンバーは領収書付きで経費を申請します。"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
 msgid "Testimonies from activists, educators, and legal advocates"
-msgstr ""
+msgstr "活動家、教育関係者、法的支援者からの証言"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.signature_thanks_qweb_view
@@ -3105,7 +3105,7 @@ msgstr "ありがとうございます!"
 #. module: non_profit_organization
 #: model_terms:survey.survey,description:non_profit_organization.survey_survey_1
 msgid "Thank you for attending our event!"
-msgstr ""
+msgstr "イベントにご参加いただき、ありがとうございました！"
 
 #. module: non_profit_organization
 #: model_terms:survey.survey,description_done:non_profit_organization.survey_survey_1
@@ -3113,11 +3113,14 @@ msgid ""
 "Thank you for your feedback! Your input helps us make our future events "
 "better and more impactful."
 msgstr ""
+"ご意見をお寄せいただき、ありがとうございます。皆さまからのフィードバックは、"
+"今後のイベントをより良いものにし、さらに意義あるものにするために役立ててまい"
+"ります。"
 
 #. module: non_profit_organization
 #: model:mail.template,subject:non_profit_organization.mail_template_50
 msgid "Thank you for your support !"
-msgstr ""
+msgstr "ご支援ありがとうございます!"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3127,6 +3130,11 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Email Marketing</font>\n"
 "                </strong>."
 msgstr ""
+"支援者へのお礼メール、請願のフォローアップ、ニュースレターの配信は、<strong>"
+"\n"
+"                    <font class=\"text-o-color-1\">Eメールマーケティング</fon"
+"t>\n"
+"                </strong>を使用して行います。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -3136,12 +3144,12 @@ msgstr "31ドル5セント"
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.petition_form_qweb_view
 msgid "This petition is closed."
-msgstr ""
+msgstr "この署名活動は締め切りました。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.petition_form_qweb_view
 msgid "This petition will open for signatures on"
-msgstr ""
+msgstr "この請願書は署名受付を開始します"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3154,11 +3162,17 @@ msgid ""
 "volunteers, events, memberships,\n"
 "            and communication."
 msgstr ""
+"このアプリケーション群は、あらゆる規模のNGO向けに構築されています。地域コミュ"
+"ニティの支援、環境保護、\n"
+"            人権擁護など、活動内容に関わらずご利用いただけます。Odooは\n"
+"            寄付金、請願活動、ボランティア、イベント、会員管理、コミュニケー"
+"ションなど、\n"
+"            あらゆる業務を一元管理します。"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_2
 msgid "Tips for mobilizing supporters using simple tools"
-msgstr ""
+msgstr "シンプルなツールで支援者を動員するためのヒント"
 
 #. module: non_profit_organization
 #: model:project.task.type,name:non_profit_organization.project_task_type_1
@@ -3168,12 +3182,12 @@ msgstr "プラン"
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid "Together for Justice.&amp;nbsp;"
-msgstr ""
+msgstr "正義のために共に立ち上がろう。&amp;nbsp;"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
 msgid "Together, we honor the progress made and ignite the path forward."
-msgstr ""
+msgstr "共に、成し遂げた進歩を称え、未来への道を照らし出そう。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -3183,7 +3197,7 @@ msgstr "合計金額の文字表記： <br/>"
 #. module: non_profit_organization
 #: model:product.template,name:non_profit_organization.product_template_6
 msgid "Tote Bag – “Justice Is for Everyone”"
-msgstr ""
+msgstr "トートバッグ – 「すべての人に正義を」"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3192,22 +3206,25 @@ msgid ""
 "<strong>CRM</strong>\n"
 "                    app."
 msgstr ""
+"<strong>CRM</strong>\n"
+"                    アプリで、やり取りの追跡、活動の計画、コミュニケーション"
+"を記録します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Track payment status and send reminders as needed."
-msgstr ""
+msgstr "支払い状況を追跡し、必要に応じてリマインダを送信します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid ""
 "Track progress by updating task statuses and using the project overview."
-msgstr ""
+msgstr "タスクのステータスを更新し、プロジェクト概要を活用して進捗を追跡します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Track signature progress and analyze data per petition in real time."
-msgstr ""
+msgstr "署名進捗を追跡し、請願ごとにリアルタイムでデータを分析します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3219,16 +3236,22 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Purchase</font>\n"
 "                </strong> app."
 msgstr ""
+"<font class=\"text-o-color-1\">\n"
+"                    <strong>在庫</strong>\n"
+"                </font> でキャンペーン資材の在庫を追跡し、<strong>\n"
+"                    <font class=\"text-o-color-1\">購買</font>\n"
+"                </strong> アプリを活用して\n"
+"仕入先オーダを効率的に管理します。"
 
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_3
 msgid "Transform your space with products that promote our cause."
-msgstr ""
+msgstr "私たちの理念を広める商品で、あなたの空間を彩りましょう。"
 
 #. module: non_profit_organization
 #: model:event.event.ticket,name:non_profit_organization.event_event_ticket_4
 msgid "Trash collection"
-msgstr ""
+msgstr "ごみ回収"
 
 #. module: non_profit_organization
 #: model:project.task.type,name:non_profit_organization.project_task_type_5
@@ -3238,7 +3261,7 @@ msgstr "確認中"
 #. module: non_profit_organization
 #: model:ir.actions.server,name:non_profit_organization.action_server_add_signatory_category_to_contact
 msgid "Update Contact"
-msgstr ""
+msgstr "連絡先を更新"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3248,6 +3271,12 @@ msgid ""
 "                </strong> to\n"
 "                communicate easily with field volunteers."
 msgstr ""
+"<strong>\n"
+"                    <font class=\"text-o-color-1\">WhatsAppモジュール（</font"
+">\n"
+"                </strong> を活用し、\n"
+"                現地ボランティアとの円滑なコミュニケーションを実現しましょう"
+"。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3256,6 +3285,9 @@ msgid ""
 "briefings,\n"
 "            fieldwork missions, or training sessions."
 msgstr ""
+"<strong>カレンダー</strong> を使用して、内部会議、ボランティア説明会、\n"
+"            現地調査ミッション、またはトレーニングセッションをスケジュールし"
+"てください。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3264,6 +3296,9 @@ msgid ""
 "and\n"
 "            keep supporters and members informed."
 msgstr ""
+"メールマーケティングを活用して、ニュースレター、寄付のお願い、イベントの告知"
+"を送信し、\n"
+"            支援者や会員に継続して情報を提供します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3272,6 +3307,9 @@ msgid ""
 "the\n"
 "                    project."
 msgstr ""
+"プロジェクト内でタスクについて話し合い、ファイルを共有するには、組み込みのコ"
+"ミュニケーションツール\n"
+"                    を使用してください。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3279,6 +3317,9 @@ msgid ""
 "Use tags and filters in <strong>Contacts</strong> to segment contacts for\n"
 "                    targeted campaigns or follow-ups."
 msgstr ""
+"<strong>連絡先</strong>でタグとフィルタを使用し、対象を絞ったキャンペーンやフ"
+"ォローアップのために\n"
+"                    連絡先を分類します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3287,6 +3328,9 @@ msgid ""
 "on\n"
 "                    availability and roles."
 msgstr ""
+"<strong>計画</strong> アプリを使用して、\n"
+"                    空き状況と役割に基づいてシフトを自動的にスケジュールしま"
+"す。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3296,6 +3340,10 @@ msgid ""
 "documents electronically\n"
 "                        before sending them to donors."
 msgstr ""
+"<strong>署名アプリ</strong> を使用して、財務証明書のテンプレート\n"
+"                        アップロードし、署名欄と日付欄を追加し、寄付者に送付"
+"する前に電子署名でドキュメントに\n"
+"                        署名します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3304,6 +3352,9 @@ msgid ""
 "key\n"
 "                donor information and preferred amounts."
 msgstr ""
+"<strong>ウェブサイト</strong>アプリを使用して、 主要な寄付者情報と希望金額を"
+"収集する\n"
+"                寄付フォームを作成します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3311,6 +3362,8 @@ msgid ""
 "Use the <strong>filter</strong> feature to find contacts based on specific\n"
 "                        tags."
 msgstr ""
+"<strong>フィルタ</strong>機能を使用して、特定のタグに基づいて連絡先を\n"
+"                        検索します。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -3326,12 +3379,13 @@ msgstr "仕入先クレジットノート"
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid ""
 "View team availability by toggling on their calendars to avoid conflicts."
-msgstr ""
+msgstr "チームの空き状況を確認するには、カレンダーをオンに切り替えて、予定が重ならな"
+"いようにしてください。"
 
 #. module: non_profit_organization
 #: model:planning.role,name:non_profit_organization.planning_role_1
 msgid "Volunteer"
-msgstr ""
+msgstr "ボランティア"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3340,6 +3394,9 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Planning</font>\n"
 "                </strong>."
 msgstr ""
+"ボランティアのシフトや役割の管理は <strong>\n"
+"                    <font class=\"text-o-color-1\">計画</font>\n"
+"                </strong>を活用して簡単に行えます。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3348,16 +3405,18 @@ msgid ""
 "or\n"
 "                    through email notifications."
 msgstr ""
+"ボランティアは、<strong>ポータル</strong>または\n"
+"                    メール通知を通じて、今後の割り当てを確認できます。"
 
 #. module: non_profit_organization
 #: model:project.task.type,name:non_profit_organization.project_task_type_4
 msgid "Waiting / Blocked"
-msgstr ""
+msgstr "待機中 / ブロック中"
 
 #. module: non_profit_organization
 #: model:survey.question,title:non_profit_organization.survey_question_3
 msgid "Was the event easy to access (location, timing, info)?"
-msgstr ""
+msgstr "イベントにはアクセスしやすかったですか(場所、時間、案内など)?"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_footer_qweb_view
@@ -3368,6 +3427,11 @@ msgid ""
 "                                            are designed for small to medium "
 "size companies."
 msgstr ""
+"当社は、すべての人の生活を向上させることを目指す、情熱的なスタッフからなるチ"
+"ームです。\n"
+"                                            目標はすべての人々の生活を向上さ"
+"せることです。<br/>当社のサービスは\n"
+"                                             中小企業向けに設計されています。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3378,6 +3442,11 @@ msgid ""
 "                                                        things "
 "change.&amp;nbsp;"
 msgstr ""
+"私たちは最初からすべての答えを持っているわけではありません。\n"
+"                                                        耳を傾け、共に築き、"
+"状況の変化に応じて\n"
+"                                                        柔軟に対応します。"
+"&amp;nbsp;"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3387,6 +3456,11 @@ msgid ""
 "changes&amp;nbsp;that\n"
 "                                                        meet community needs."
 msgstr ""
+"私たちは、地域社会のニーズに応える\n"
+"                                                        持続可能な変化をもた"
+"らす、&amp;nbsp;\n"
+"                                                        インパクトのあるプロ"
+"グラムの創出に力を入れています。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3396,6 +3470,11 @@ msgid ""
 "honesty, not promises we\n"
 "                                                        can’t keep.&amp;nbsp;"
 msgstr ""
+"私たちは言ったことを実行し、実行することだけを口にします。\n"
+"                                                        人々に必要なのは、守"
+"れない約束ではなく、\n"
+"                                                        誠実さです。"
+"&amp;nbsp;"
 
 #. module: non_profit_organization
 #: model_terms:survey.survey,description:non_profit_organization.survey_survey_1
@@ -3404,11 +3483,14 @@ msgid ""
 "events and better serve our community, we kindly ask you to take 2–3 minutes "
 "to complete this short survey."
 msgstr ""
+"ご参加ならびにご支援に心より感謝申し上げます。今後のイベントをより良いものに"
+"し、コミュニティの皆さまにさらに貢献するため、2～3 分ほどで完了する簡単なアン"
+"ケートへのご協力をお願いいたします。"
 
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_1
 msgid "Wear your support proudly with our stylish, mission-driven clothing."
-msgstr ""
+msgstr "スタイリッシュでミッション志向のウェアで、理念をファッションで表現!"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3419,6 +3501,9 @@ msgid ""
 "managing petitions forms for\n"
 "            signatures."
 msgstr ""
+"ウェブサイト&amp; eコマースでミッションや活動を発信し、\n"
+"            会員募集やグッズ販売、寄付の受付、請願の署名管理を\n"
+"            行えます。"
 
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_website_description_field_x_petition
@@ -3439,11 +3524,15 @@ msgid ""
 "                                    together to create real and lasting "
 "change."
 msgstr ""
+"正義、平等、そして尊厳を目指す私たちのムーブメントへようこそ。\n"
+"                                    ここは、あなたの声や価値観、そして行動が"
+"ひとつになり、真の、\n"
+"                                    そして持続的な変化を生み出す場所です。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Welcome to the Odoo Non-Profit Management package!"
-msgstr ""
+msgstr "Odoo非営利団体管理パッケージへようこそ!"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3453,6 +3542,12 @@ msgid ""
 "alongside the people we\n"
 "                                                    serve.&amp;nbsp;"
 msgstr ""
+"私たちは、小さなチームながら大きな使命を掲げ、支援する人々に常に寄り添いなが"
+"ら、\n"
+"                                                    「耳を傾け、支え、行動す"
+"る」ことを\n"
+"                                                    大切にしています。"
+"&amp;nbsp;"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3460,6 +3555,8 @@ msgid ""
 "We’re inviting passionate individuals to join our\n"
 "                                            mission"
 msgstr ""
+"私たちのミッションに情熱をもって参加してくれる仲間を\n"
+"                                            募っています"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3467,16 +3564,18 @@ msgid ""
 "What\n"
 "                                                you will gain"
 msgstr ""
+"あなたが\n"
+"                                                得られること"
 
 #. module: non_profit_organization
 #: model:survey.question,title:non_profit_organization.survey_question_9
 msgid "What was your favorite part of the event?"
-msgstr ""
+msgstr "イベントで一番気に入った部分はどこでしたか?"
 
 #. module: non_profit_organization
 #: model:survey.question,title:non_profit_organization.survey_question_10
 msgid "What would you suggest to improve future events?"
-msgstr ""
+msgstr "今後のイベントをより良くするために、何かご提案いただけることはありますか?"
 
 #. module: non_profit_organization
 #: model_terms:survey.survey,description:non_profit_organization.survey_survey_1
@@ -3484,6 +3583,9 @@ msgid ""
 "Whether you joined for the cause, the content, or the community, we’d love "
 "to hear what worked, what didn’t, and how we can do better next time."
 msgstr ""
+"活動の趣旨や内容、コミュニティに惹かれてご参加いただいた理由にかかわらず、良"
+"かった点や改善が必要だと感じた点、そして次回に向けてより良くするためのご意見"
+"をぜひお聞かせください。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3492,16 +3594,19 @@ msgid ""
 "can save\n"
 "            time on admin work and focus more on your mission."
 msgstr ""
+"寄付や CRM、イベント、Webサイト、計画などの連携ツールにより、管理業務を効率化"
+"し、\n"
+"            活動の目的により多くの時間を割くことができます。"
 
 #. module: non_profit_organization
 #: model:survey.question.answer,value:non_profit_organization.survey_question_answer_6
 msgid "Word of Mouth"
-msgstr ""
+msgstr "口コミ"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
 msgid "Workflow Example"
-msgstr ""
+msgstr "ワークフローの例"
 
 #. module: non_profit_organization
 #: model:event.tag,name:non_profit_organization.event_tag_1
@@ -3511,7 +3616,7 @@ msgstr "ワークショップ"
 #. module: non_profit_organization
 #: model:survey.question,title:non_profit_organization.survey_question_12
 msgid "Would you attend another ONG event in the future?"
-msgstr ""
+msgstr "今後、別のNGOイベントに参加されますか?"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3521,7 +3626,7 @@ msgstr "Odooのセットアップについてご相談、またはそれ以上�
 #. module: non_profit_organization
 #: model:survey.question,title:non_profit_organization.survey_question_13
 msgid "Would you like to receive updates or volunteer opportunities from us?"
-msgstr ""
+msgstr "今後、当団体からの最新情報やボランティア募集のお知らせを受け取りたいですか?"
 
 #. module: non_profit_organization
 #: model:survey.question.answer,value:non_profit_organization.survey_question_answer_1
@@ -3533,7 +3638,7 @@ msgstr "はい"
 #. module: non_profit_organization
 #: model:survey.question.answer,value:non_profit_organization.survey_question_answer_15
 msgid "Yes, definitely"
-msgstr ""
+msgstr "はい、ぜひ希望します"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3554,6 +3659,9 @@ msgid ""
 "                    Upgrade your Non-profit organization package and check "
 "the related box."
 msgstr ""
+"デモデータのインポートはまだ可能です。アプリ&gt; インダストリー&gt;\n"
+"                    から非営利団体パッケージをアップグレードし、関連するボッ"
+"クスにチェックを入れてください。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3574,25 +3682,30 @@ msgid ""
 "It's a celebration of solidarity, a platform for unheard voices, and an "
 "opportunity to connect with like-minded changemakers."
 msgstr ""
+"今年の中でも、特に意義深いイベントへご招待します。人権のための歩みを振り返り"
+"、仲間と集い、これからに向けて想いを新たにする時間です。<strong>年次人権ディ"
+"ナー＆トーク</strong>は、ただの食事会ではありません。連帯を分かち合い、これま"
+"で届きにくかった声に耳を傾け、同じ志をもつ人たちとつながる場です。"
 
 #. module: non_profit_organization
 #: model:survey.survey,title:non_profit_organization.survey_survey_1
 msgid "Your Feedback Matters – [Event Name] Evaluation"
-msgstr ""
+msgstr "ご意見をお聞かせください – ［イベント名］アンケート"
 
 #. module: non_profit_organization
 #: model_terms:survey.survey,description:non_profit_organization.survey_survey_1
 msgid ""
 "Your feedback is anonymous and will be used solely for evaluation purposes "
 "by our team."
-msgstr ""
+msgstr "ご回答は匿名で、当団体の評価目的のみに使用されます。"
 
 #. module: non_profit_organization
 #: model_terms:product.template,description_ecommerce:non_profit_organization.product_template_donation
 msgid ""
 "Your generosity makes a difference. This donation helps fund vital programs "
 "that create lasting change in our communities."
-msgstr ""
+msgstr "皆さまのご厚意が、確かな変化を生み出しています。このご寄付は、地域に持続的な"
+"変化をもたらす重要なプログラムの支援に活用されます。"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
@@ -3605,6 +3718,13 @@ msgid ""
 "                                                    voices of those too "
 "often ignored"
 msgstr ""
+"皆さまの会員登録は、\n"
+"                                                    草の根の活動や動員の取り"
+"組み、\n"
+"                                                    重要なアドボカシー活動を"
+"支え、&amp;nbsp;\n"
+"                                                    これまで十分に届かなかっ"
+"た声を社会に広げる力となります。"
 
 #. module: non_profit_organization
 #: model_terms:product.template,description_ecommerce:non_profit_organization.product_template_4
@@ -3613,31 +3733,34 @@ msgid ""
 "human rights. As a member, you will have voting rights at our General "
 "Assembly and receive exclusive updates on our work and campaigns."
 msgstr ""
+"皆さまの会員登録は、社会的不公正と闘い、人権を推進する私たちの使命を支えるも"
+"のです。会員の皆さまには、総会での議決権に加え、活動やキャンペーンに関する最"
+"新情報を会員限定でお届けします。"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
 msgid "Youth leaders &amp; educators"
-msgstr ""
+msgstr "若者リーダー&amp; 教育者"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid "a group of hands holding each other"
-msgstr ""
+msgstr "握り合う手"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid "a group of people standing next to each other"
-msgstr ""
+msgstr "互いに隣り合って立っている人々の集団"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
 msgid "a pile of newspapers sitting on top of a table"
-msgstr ""
+msgstr "テーブルの上に置かれた新聞の山"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid "a woman holding a sign that says people not profits"
-msgstr ""
+msgstr "「利益より人々を大切に」と書かれたプラカードを持つ女性"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3647,12 +3770,12 @@ msgstr "アカデミー"
 #. module: non_profit_organization
 #: model:ir.actions.server,name:non_profit_organization.action_server_assign_invoicing_journal_to_so
 msgid "action_server_assign_invoicing_journal_to_so"
-msgstr ""
+msgstr "action_server_assign_invoicing_journal_to_so"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid "an aerial view of a run down building with clothes hanging out to dry"
-msgstr ""
+msgstr "荒れ果てた建物の空撮写真、洗濯物が干してある"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3703,12 +3826,12 @@ msgstr "info@yourcompany.example.com"
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid "person holding brown cardboard box"
-msgstr ""
+msgstr "茶色の段ボール箱を持っている人"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
 msgid "polling station poster on clear glass door"
-msgstr ""
+msgstr "透明ガラス扉の投票所ポスター"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3723,12 +3846,12 @@ msgstr "単位"
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_2
 msgid "☕ Coffee included"
-msgstr ""
+msgstr "☕ コーヒー付き"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
 msgid "♿ Accessible venue"
-msgstr ""
+msgstr "♿ バリアフリー会場"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3739,6 +3862,11 @@ msgid ""
 "str(env.ref('non_profit_organization.product_product_donation').id)"
 "\">﻿&amp;nbsp;Donate Now&amp;nbsp;﻿</a>﻿"
 msgstr ""
+"﻿<a class=\"btn btn-primary mb-2 o_translate_inline\" href=\"/contactus\">﻿&amp"
+";nbsp;参加する</a>﻿ ﻿<a class=\"mb-2 o_translate_inline btn btn-secondary\" t"
+"-att-href=\"'/shop/' + str"
+"(env.ref('non_profit_organization.product_product_donation').id)\">﻿&amp;nbsp;"
+"寄付する&amp;nbsp;﻿</a>﻿"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3746,13 +3874,15 @@ msgid ""
 "﻿<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/>﻿ Healthy "
 "Communities"
 msgstr ""
+"﻿<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/>﻿ 健全なコミュ"
+"ニティ"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid ""
 "﻿<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/>﻿ Lifelong "
 "Learning"
-msgstr ""
+msgstr "<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/>生涯学習"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3760,6 +3890,8 @@ msgid ""
 "﻿<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/>﻿ Meaningful\n"
 "                                                Experience"
 msgstr ""
+"﻿<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/>﻿意味のある\n"
+"                                                体験"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3767,18 +3899,20 @@ msgid ""
 "﻿Connect\n"
 "                                                with us﻿"
 msgstr ""
+"私たちと\n"
+"                                                つながる"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_2
 msgid "📅 <strong>Date</strong>: Saturday, September 13, 2025"
-msgstr ""
+msgstr "📅<strong>日付</strong>: 2025年9月13日(土)"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
 msgid "📅 <strong>Date</strong>: Thursday, November 20, 2025"
-msgstr ""
+msgstr "📅<strong>日付</strong>: 2025年11月20日(木)"
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_2
 msgid "📍 <strong>Location</strong>: Maison des Droits Humains, Brussels"
-msgstr ""
+msgstr "📍<strong>場所</strong>: ブリュッセル人権の家"

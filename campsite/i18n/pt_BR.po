@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:44+0000\n"
-"PO-Revision-Date: 2026-01-30 14:39+0000\n"
+"PO-Revision-Date: 2026-02-07 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/campsite/pt_BR/>\n"
@@ -472,7 +472,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.res_config_settings_form_view_inherited
 msgid "Campsite"
-msgstr ""
+msgstr "Camping"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -571,6 +571,9 @@ msgid ""
 "a result, they are available from all companies and branches, as well as all "
 "websites from those."
 msgstr ""
+"As ofertas criadas não são atribuídas a nenhuma empresa ou filial "
+"(comportamento padrão).<br/>Como resultado, ficam disponíveis em todas as "
+"empresas e filiais, bem como em todos os sites dessas empresas e filiais."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -619,12 +622,12 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Each company can have its own website!"
-msgstr ""
+msgstr "Cada empresa pode ter seu próprio site!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Employee assignations"
-msgstr ""
+msgstr "Atribuições dos funcionários"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -632,6 +635,8 @@ msgid ""
 "Employee would open the tasks from their hand and update the status until "
 "Clean."
 msgstr ""
+"O funcionário abriria as tarefas em suas mãos e atualizaria o status até que "
+"estivessem concluídas."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -693,10 +698,13 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+#, fuzzy
 msgid ""
 "From the Roles sections, you can select the companies and branches this "
 "employee shall have access to as well as the default one."
 msgstr ""
+"Na seção Funções, você pode selecionar as empresas e filiais às quais esse "
+"funcionário terá acesso, além da padrão."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
