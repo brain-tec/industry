@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:27+0000\n"
-"PO-Revision-Date: 2026-01-29 17:17+0000\n"
+"PO-Revision-Date: 2026-02-06 09:45+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "accounting_firm/ja/>\n"
@@ -171,7 +171,7 @@ msgstr "<strong>顧客データベースに接続</strong>"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Customer identity management</strong>"
-msgstr "<strong>顧客ID管理</strong>"
+msgstr "<strong>Client ID管理</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -308,7 +308,7 @@ msgstr "会計サービス (タイムシート)"
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_active_field_x_mandate
 msgid "Active"
-msgstr "アクティブ"
+msgstr "有効"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1164,7 +1164,7 @@ msgstr "Q4"
 #: model:ir.model.fields.selection,name:accounting_firm.x_interim_situation_field_selection_quarterly
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_quarterly
 msgid "Quarterly"
-msgstr "四半期毎"
+msgstr "四半期"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-01-31 20:20+0000\n"
+"PO-Revision-Date: 2026-02-07 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/construction/pt_BR/>\n"
@@ -352,7 +352,6 @@ msgstr "<strong>Como usar:</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then\n"
@@ -379,6 +378,7 @@ msgid ""
 "<strong>Invoice from Quotation:</strong> Convert approved quotes into "
 "invoices."
 msgstr ""
+"<strong>Fatura da Cotação:</strong> Converta cotações aprovadas em faturas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -387,6 +387,8 @@ msgid ""
 "invoices, and\n"
 "            integrates with project milestones."
 msgstr ""
+"<strong>App Faturamento</strong> garante o faturamento pontual, automatiza "
+"faturas recorrentes e é integrado com os marcos do projeto."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -395,6 +397,8 @@ msgid ""
 "                            Centralize contracts, drawings, and permits for "
 "easy access."
 msgstr ""
+"<strong>Mantenha a documentação organizada:</strong>\n"
+"Centralize contratos, desenhos e licenças para facilitar o acesso."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -402,11 +406,14 @@ msgid ""
 "<strong>Leads &amp; Opportunities:</strong> Record incoming inquiries from\n"
 "                    emails, forms, or calls."
 msgstr ""
+"<strong>Oportunidades de leads &amp;:</strong> Registre as consultas "
+"recebidas por\n"
+"                    e-mail, formulários ou chamadas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Milestones:</strong> Define major project achievements."
-msgstr ""
+msgstr "<strong>Marcos:</strong> Defina as principais realizações do projeto."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -415,6 +422,9 @@ msgid ""
 "photos\n"
 "                or client signatures on site."
 msgstr ""
+"<strong>Execução móvel:</strong> Registre o tempo, os materiais utilizados e "
+"capture fotos\n"
+"ou assinaturas de clientes no local."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -423,22 +433,29 @@ msgid ""
 "                            project delays by tracking inventory in real-"
 "time."
 msgstr ""
+"<strong>Monitore o estoque de forma proativa:</strong> Evite atrasos no "
+"projeto acompanhando o estoque em tempo real."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Online Approval:</strong> Enable online customer approval."
 msgstr ""
+"<strong>Aprovação online:</strong> Habilite a aprovação online do cliente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>PDF Output:</strong> Send branded quotations for client approval."
 msgstr ""
+"<strong>Saída em PDF:</strong> Envie cotações com a marca da empresa para "
+"aprovação do cliente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Payment Tracking:</strong> Monitor outstanding client payments."
 msgstr ""
+"<strong>Acompanhamento de pagamentos:</strong> Monitore os pagamentos "
+"pendentes dos clientes."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -446,6 +463,9 @@ msgid ""
 "<strong>Pipeline Management:</strong> Visualize lead stages and prioritize\n"
 "                    follow-ups."
 msgstr ""
+"<strong>Gerenciamento de funil:</strong> Visualize os estágios dos leads e "
+"priorize\n"
+"                    os acompanhamentos."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -454,12 +474,16 @@ msgid ""
 "client\n"
 "                    agreements."
 msgstr ""
+"<strong>Preços &amp; Descontos:</strong> Ajustar com base no tamanho do "
+"projeto ou nos acordos com o cliente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Prioritization:</strong> Assign critical tickets to senior staff."
 msgstr ""
+"<strong>Priorização:</strong> Atribua chamados críticos a funcionários "
+"seniores."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -467,17 +491,22 @@ msgid ""
 "<strong>Product Prices:</strong> Capture prices by suppliers to make the\n"
 "                    best moves."
 msgstr ""
+"<strong>Preços dos produtos:</strong> Capture os preços dos fornecedores "
+"para tomar as melhores decisões."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Progress Reporting:</strong> Compare actual time vs planned."
 msgstr ""
+"<strong>Relatório de progresso:</strong> Compare o tempo real com o "
+"planejado."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Project Files:</strong> Attach blueprints, permits, and contracts."
 msgstr ""
+"<strong>Arquivos do projeto:</strong> Anexe plantas, licenças e contratos."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -486,6 +515,10 @@ msgid ""
 "from\n"
 "                    the dashboard."
 msgstr ""
+"<strong>Atualizações do projeto</strong>: Capture instantâneos do projeto ao "
+"longo do caminho a partir do painel.\n"
+"                    O painel é uma visualização dinâmica do seu projeto, que "
+"mostra o progresso, os recursos e as tarefas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -494,6 +527,9 @@ msgid ""
 "suppliers\n"
 "            and contractors."
 msgstr ""
+"<strong>O app Compras</strong>ajuda você a gerenciar solicitações de "
+"propostas, seus fornecedores\n"
+"            e prestadores de serviços."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -501,6 +537,9 @@ msgid ""
 "<strong>Purchase Orders:</strong> Create purchase order for needed products\n"
 "                    and services."
 msgstr ""
+"<strong>Pedidos de compra:</strong> Crie um pedido de compra para os "
+"produtos\n"
+"e serviços necessários."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -508,20 +547,28 @@ msgid ""
 "<strong>Quotation Templates:</strong> Predefine templates for recurrent\n"
 "                    offers."
 msgstr ""
+"<strong>Modelos de cotação:</strong> Predefina modelos para ofertas "
+"recorrentes."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "<strong>Reordering:</strong> Automate purchase orders for low-stock items."
 msgstr ""
+"<strong>Reposição:</strong> Automatize os pedidos de compra para itens com "
+"estoque baixo."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "<strong>Reporting &amp; Invoicing:</strong> Generate detailed intervention "
 "reports\n"
 "                and invoice billable work when applicable."
 msgstr ""
+"<strong>Relatórios &amp; Faturamento:</strong> Gere relatórios detalhados de "
+"intervenção\n"
+"e fature trabalhos cobráveis quando aplicável."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -529,6 +576,9 @@ msgid ""
 "<strong>Resource Allocation:</strong> Assign workers, subcontractors, and\n"
 "                    machinery."
 msgstr ""
+"<strong>Alocação de recursos:</strong> Designe trabalhadores, subcontratados "
+"e\n"
+"                    maquinário."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -537,14 +587,19 @@ msgid ""
 "assign\n"
 "                    capability."
 msgstr ""
+"<strong>Funções:</strong> Atribua funções aos trabalhadores e aproveite o "
+"recurso de atribuição automática."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "<strong>Scheduling:</strong> Assign technicians to visits and optimize "
 "their\n"
 "                calendars."
 msgstr ""
+"<strong>Agendamento:</strong> Designe técnicos para visitas e otimize suas "
+"agendas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -552,13 +607,19 @@ msgid ""
 "<strong>Service Requests:</strong> Create tasks for maintenance, warranty\n"
 "                interventions, or client modifications."
 msgstr ""
+"<strong>Solicitações de Serviço:</strong> Crie tarefas para manutenção, "
+"intervenções de garantia\n"
+"ou modificações do cliente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "<strong>Sign</strong> – Collect digital signatures for contracts and "
 "approvals."
 msgstr ""
+"<strong>Assinar</strong> – Colete assinaturas digitais para contratos e "
+"aprovações."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -567,6 +628,9 @@ msgid ""
 "construction\n"
 "                    sites."
 msgstr ""
+"<strong>Transferências de locais:</strong> Alocar materiais para locais de "
+"construção específicos.\n"
+"                    locais."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -575,6 +639,8 @@ msgid ""
 "                            quotation and project templates to save time and "
 "maintain consistency."
 msgstr ""
+"<strong>Padronize modelos:</strong> Use\n"
+"modelos de cotação e projeto para economizar tempo e manter a consistência."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -583,14 +649,19 @@ msgid ""
 "them for\n"
 "                    projects."
 msgstr ""
+"<strong>Monitoramento de estoque:</strong> Verifique os materiais "
+"disponíveis e reserve-os para projetos."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "<strong>Task Creation:</strong> Break down construction phases into "
 "actionable\n"
 "                    items."
 msgstr ""
+"<strong>Criação de tarefas:</strong> Divida as fases de construção em itens "
+"acionáveis."
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
@@ -601,6 +672,8 @@ msgstr "<strong>Condições</strong>"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Ticket Management:</strong> Record issues or change requests."
 msgstr ""
+"<strong>Gerenciamento de chamados:</strong> Registre problemas ou "
+"solicitações de alteração."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -609,32 +682,43 @@ msgid ""
 "enabling\n"
 "            managers to measure performance and costs in real-time."
 msgstr ""
+"<strong>App Planilhas de Horas</strong> ajuda a controlar as horas de "
+"trabalho e o andamento do projeto, permitindo que\n"
+"os gerentes avaliem o desempenho e os custos em tempo real."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Tips for success</strong>"
-msgstr ""
+msgstr "<strong>Dicas para o sucesso</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "<strong>Track progress daily:</strong> Encourage\n"
 "                            teams to log time and update task status "
 "regularly."
 msgstr ""
+"<strong>Acompanhe o progresso diariamente:</strong> Incentive\n"
+"as equipes a registrar o tempo e atualizar o status das tarefas regularmente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "<strong>Use dashboards:</strong> Set up reporting\n"
 "                            dashboards to monitor costs, schedules, and "
 "client satisfaction."
 msgstr ""
+"<strong>Use painéis:</strong> Configure painéis de relatórios para monitorar "
+"custos, cronogramas e satisfação do cliente."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Version Control:</strong> Track updates to important documents."
 msgstr ""
+"<strong>Controle de versão:</strong> Acompanhe as atualizações de documentos "
+"importantes."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -642,6 +726,8 @@ msgid ""
 "<strong>Website</strong> – Publish projects, showcase services, and capture\n"
 "                    leads."
 msgstr ""
+"<strong>Site</strong> – Publique projetos, apresente serviços e capture "
+"leads."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -649,6 +735,8 @@ msgid ""
 "A complete solution tailored for construction companies overseeing "
 "<strong>complex and multi-trade projects</strong>."
 msgstr ""
+"Uma solução completa adaptada para empresas de construção que supervisionam "
+"<strong>projetos complexos e multissetoria</strong>."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -657,13 +745,18 @@ msgid ""
 "and\n"
 "                        sign it."
 msgstr ""
+"Link para acessar a cotação on-line, pelo qual o cliente pode confirmá-la e\n"
+"assiná-la."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid ""
 "A streamlined industry package for companies focused on <strong>simple jobs, "
 "rapid quoting, and efficient execution</strong>."
 msgstr ""
+"Um pacote simplificado para empresas focadas em <strong>trabalhos simples, "
+"orçamentos rápidos e execução eficiente</strong>."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11

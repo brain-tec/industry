@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2026-01-29 17:20+0000\n"
+"PO-Revision-Date: 2026-02-06 09:48+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "industry_real_estate/ja/>\n"
@@ -189,8 +189,8 @@ msgid ""
 "quarterly, etc.) and the expiration of\n"
 "                the contract."
 msgstr ""
-"<b>タイムライン:</b> 契約の開始日、繰り返しの期間(毎月、四半期ごとなど)、およ"
-"び契約の終了日を\n"
+"<b>タイムライン:</b> 契約の開始日、繰り返しの期間(毎月、四半期など)、および契"
+"約の終了日を\n"
 "                指定します。"
 
 #. module: industry_real_estate
@@ -1035,7 +1035,7 @@ msgstr "お客様を第一に – 顧客が望むものを見極めて提供し�
 #: model:ir.model.fields,field_description:industry_real_estate.country_state
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.default_form_view_building
 msgid "State"
-msgstr "状況"
+msgstr "ステータス"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.street

@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 09:18+0000\n"
-"PO-Revision-Date: 2026-01-31 20:20+0000\n"
+"PO-Revision-Date: 2026-02-05 19:05+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/software_reseller/pt_BR/>\n"
@@ -388,12 +388,12 @@ msgstr "Crie uma tarefa para rastrear a licença"
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_partner_id_project_task_count_field
 msgid "Customer count"
-msgstr ""
+msgstr "Contagem de clientes"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Deadline: corresponding to the license key expiration date"
-msgstr ""
+msgstr "Prazo: correspondente à data de expiração da chave de licença"
 
 #. module: software_reseller
 #: model:account.analytic.plan,name:software_reseller.account_analytic_plan_1
@@ -430,12 +430,12 @@ msgstr "Serviços de Desenvolvimento"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Explore mais sobre o Odoo mergulhando em nosso"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "Quer ir mais além?"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -443,6 +443,8 @@ msgid ""
 "Don't forget to hit the Publish button from your planning to let your "
 "employees know what their coming weeks look like."
 msgstr ""
+"Não se esqueça de clicar no botão Publicar no seu planejamento para que seus "
+"funcionários saibam como serão as próximas semanas."
 
 #. module: software_reseller
 #: model:project.task.type,name:software_reseller.project_task_type_23
@@ -452,7 +454,7 @@ msgstr "Concluído"
 #. module: software_reseller
 #: model:hr.department,name:software_reseller.hr_department_2
 msgid "Employees"
-msgstr ""
+msgstr "Funcionários"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -462,12 +464,12 @@ msgstr "Ambiente: Produção"
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_environment_field
 msgid "Environment"
-msgstr ""
+msgstr "Ambiente"
 
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_expiration_check_field
 msgid "Expiration check"
-msgstr ""
+msgstr "Verificação de validade"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -508,6 +510,10 @@ msgid ""
 "track license\n"
 "            keys belonging to each customer."
 msgstr ""
+"A partir do <strong><font class=\"text-o-color-1\">App Licenças</font></"
+"strong> , especialmente desenvolvido para o setor de revenda de software, "
+"você tem uma visão geral de todas as suas licenças de software. Clique em "
+"uma licença específica para rastrear as chaves de licença de cada cliente."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -515,6 +521,8 @@ msgid ""
 "From the <strong><font class=\"text-o-color-1\">Planning App</font></"
 "strong>, click New:"
 msgstr ""
+"No aplicativo de planejamento <strong><font class=\"text-o-color-1\">App "
+"Planejamento</font></strong> , clique em Novo:"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -526,6 +534,12 @@ msgid ""
 "            Configuration, or Training &amp; Support. This will be reflected "
 "as \"Delivered Quantity\" on the sale order lines."
 msgstr ""
+"A partir do <strong><font class=\"text-o-color-1\">App Planilha de "
+"Horas</font></strong> ou em uma tarefa, consultores e desenvolvedores podem "
+"registrar o tempo gasto nas diferentes fases do projeto: Análise de "
+"Necessidades Comerciais, Configuração do Odoo\n"
+"ou Treinamento &amp; Suporte. Isso será refletido como “Quantidade Entregue” "
+"nas linhas do pedido de venda."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -533,6 +547,8 @@ msgid ""
 "From the Product Sales tab, you can also add development serves in one click "
 "as Optional Products."
 msgstr ""
+"Na aba Vendas de produtos, você também pode adicionar serviços de "
+"desenvolvimento com um clique como Produtos opcionais."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -542,6 +558,10 @@ msgid ""
 "quotation, then confirm the order. At that point, Oracle will send you the "
 "license number."
 msgstr ""
+"Em uma assinatura, pelos botões superiores, vá para o pedido de compra para "
+"adquirir essas licenças da Oracle. Você pode enviar sua solicitação de "
+"cotação por e-mail e, em seguida, confirmar o pedido. Nesse momento, a "
+"Oracle lhe enviará o número da licença."
 
 #. module: software_reseller
 #. odoo-javascript
@@ -563,7 +583,7 @@ msgstr ""
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_hosted_on_field
 msgid "Hosted on"
-msgstr ""
+msgstr "Hospedado em"
 
 #. module: software_reseller
 #: model:sale.order.template.line,name:software_reseller.sale_order_template_line_1
@@ -582,6 +602,7 @@ msgstr "Em uso"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
 msgid ""
 "In the chatter, leverage the email template to send those information to "
 "your customer by hitting the Send message button, opening the full composer "
@@ -589,11 +610,16 @@ msgid ""
 "the composer\n"
 "            bottom bar. The sent email appears in the chatter!"
 msgstr ""
+"No chat, utilize o modelo de e-mail para enviar essas informações ao seu "
+"cliente clicando no botão Enviar mensagem, abrindo o editor completo e "
+"selecionando o modelo Enviar licenças no menu de três pontos da barra "
+"inferior do editor.\n"
+"O e-mail enviado aparece no chat!"
 
 #. module: software_reseller
 #: model:mail.template,name:software_reseller.mail_template_48
 msgid "Industry: Send license data"
-msgstr ""
+msgstr "Setor: Enviar dados da licença"
 
 #. module: software_reseller
 #: model:account.analytic.account,name:software_reseller.account_analytic_account_6
@@ -604,7 +630,7 @@ msgstr "Interno"
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.is_license_field
 msgid "Is license"
-msgstr ""
+msgstr "É licença"
 
 #. module: software_reseller
 #: model:product.template,name:software_reseller.product_product_2_product_template
@@ -667,6 +693,8 @@ msgstr "Licenças por software (em kanban)"
 msgid ""
 "Licenses to rework: licenses for which you have to some work periodically"
 msgstr ""
+"Licenças para retrabalho: licenças para as quais você precisa realizar algum "
+"trabalho periodicamente"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.project_project_form_customization
