@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 11:38+0000\n"
-"PO-Revision-Date: 2026-01-31 20:20+0000\n"
+"PO-Revision-Date: 2026-02-05 19:04+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/hvac_services/pt_BR/>\n"
@@ -434,12 +434,13 @@ msgstr ""
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.action_product_related_document
 msgid "Documents"
-msgstr ""
+msgstr "Documentos"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Easing the sharing of documents on the field on customer's request."
 msgstr ""
+"Facilita o compartilhamento de documentos em campo, a pedido do cliente."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -461,6 +462,7 @@ msgstr "Execução de tarefas"
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Feel free to add some document tags for clarity purpose."
 msgstr ""
+"Fique à vontade para adicionar marcadores ao documento para maior clareza."
 
 #. module: hvac_services
 #: model:ir.actions.act_window,name:hvac_services.get_field_services_action
@@ -519,9 +521,12 @@ msgstr ""
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
+#, fuzzy
 msgid ""
 "From a field service task, open then product catalog from the smart buttons."
 msgstr ""
+"A partir de uma tarefa de Serviços de Campo, abra o catálogo de produtos a "
+"partir dos botões inteligentes."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -548,7 +553,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "From the smart buttons, reach the product documents."
-msgstr ""
+msgstr "A partir dos botões inteligentes, acesse os documentos do produto."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -567,16 +572,21 @@ msgid ""
 "a\n"
 "                document and import it."
 msgstr ""
+"Clique no botão Novo ou Carregar para adicionar um novo documento a este "
+"produto, selecione um\n"
+"                documento e importe-o."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "Hit the Preview button to access the document itself."
-msgstr ""
+msgstr "Clique no botão Pré-visualização para acessar o documento."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "How do field worker access and share product documents?"
 msgstr ""
+"Como os funcionários de campo acessam e compartilham documentos sobre os "
+"produtos?"
 
 #. module: hvac_services
 #: model:ir.model,name:hvac_services.x_project_task_worksheet_template

@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-12 09:36+0000\n"
-"PO-Revision-Date: 2026-01-30 14:40+0000\n"
+"POT-Creation-Date: 2026-02-04 22:03+0000\n"
+"PO-Revision-Date: 2026-02-06 09:47+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
 "condominium/ja/>\n"
@@ -25,6 +25,22 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "% of the owner ratios"
+msgstr "% 所有者比率"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+msgid "% of the owner ratios;"
+msgstr "% 所有者比率"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid ", representing"
+msgstr "(代理)"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -54,7 +70,8 @@ msgstr ""
 msgid ""
 "<b>CRM App</b>: Track opportunities to acquire new building management "
 "contracts and grow your portfolio."
-msgstr "<b>CRMアプリ</b>: 新規ビル管理契約獲得の案件を追跡し、ポートフォリオを拡大し"
+msgstr ""
+"<b>CRMアプリ</b>: 新規ビル管理契約獲得の案件を追跡し、ポートフォリオを拡大し"
 "ましょう。"
 
 #. module: condominium
@@ -62,7 +79,8 @@ msgstr "<b>CRMアプリ</b>: 新規ビル管理契約獲得の案件を追跡し
 msgid ""
 "<b>Calendar App</b>: Schedule board meetings, maintenance visits, and annual "
 "general assemblies."
-msgstr "<b>カレンダーアプリ</b>: 取締役会、保守点検の訪問、年次総会のスケジュールを管"
+msgstr ""
+"<b>カレンダーアプリ</b>: 取締役会、保守点検の訪問、年次総会のスケジュールを管"
 "理します。"
 
 #. module: condominium
@@ -70,7 +88,8 @@ msgstr "<b>カレンダーアプリ</b>: 取締役会、保守点検の訪問、
 msgid ""
 "<b>Contacts App</b>: Maintain a centralized directory of unit owners, "
 "tenants, and maintenance suppliers."
-msgstr "<b>連絡先アプリ</b>: 区分所有者、入居者、保守・メンテナンス業者の連絡先を一元"
+msgstr ""
+"<b>連絡先アプリ</b>: 区分所有者、入居者、保守・メンテナンス業者の連絡先を一元"
 "管理します。"
 
 #. module: condominium
@@ -80,8 +99,8 @@ msgid ""
 "policies, and contracts to prevent data\n"
 "                loss."
 msgstr ""
-"<b>ドキュメントアプリ</b>：規約、保険証券、契約書などの重要書類をアーカイブし"
-"、データ損失を\n"
+"<b>ドキュメントアプリ</b>：規約、保険証券、契約書などの重要書類をアーカイブ"
+"し、データ損失を\n"
 "                防ぎます。"
 
 #. module: condominium
@@ -89,7 +108,8 @@ msgstr ""
 msgid ""
 "<b>Employees App</b>: Assign property managers to specific buildings and "
 "manage your internal team's workload."
-msgstr "<b>従業員アプリ</b>：物件管理者を建物ごとに割り当て、社内チームの業務量を管理"
+msgstr ""
+"<b>従業員アプリ</b>：物件管理者を建物ごとに割り当て、社内チームの業務量を管理"
 "します。"
 
 #. module: condominium
@@ -109,7 +129,8 @@ msgstr ""
 msgid ""
 "<b>Project App</b>: Manage maintenance tasks, renovation projects, and "
 "follow-ups on resident requests."
-msgstr "<b>プロジェクトアプリ</b>: 整備・保守作業、改修プロジェクト、居住者からのリク"
+msgstr ""
+"<b>プロジェクトアプリ</b>: 整備・保守作業、改修プロジェクト、居住者からのリク"
 "エストへの対応を管理します。"
 
 #. module: condominium
@@ -127,7 +148,8 @@ msgstr ""
 msgid ""
 "<b>Subscription App</b>: Automate the collection of recurring common charges "
 "and monthly fees from owners."
-msgstr "<b>サブスクリプションアプリ</b>: オーナーからの共益費や月額料金などの定期的な"
+msgstr ""
+"<b>サブスクリプションアプリ</b>: オーナーからの共益費や月額料金などの定期的な"
 "請求を自動化しましょう。"
 
 #. module: condominium
@@ -142,6 +164,101 @@ msgstr ""
 "                管理費の根拠として活用しましょう。"
 
 #. module: condominium
+#: model:mail.template,body_html:condominium.mail_template_2
+msgid ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hi,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                Please find attached the agenda for the "
+"upcoming meeting:\n"
+"                                <t t-out=\"object.name or ''\">General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">Kind regards.</"
+"p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
+msgstr ""
+
+#. module: condominium
+#: model:mail.template,body_html:condominium.mail_template_3
+msgid ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hi,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                Please find attached the report from the "
+"meeting:\n"
+"                                <t t-out=\"object.name or ''\">General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">Kind regards.</"
+"p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<font style=\"background-color: rgba(156, 156, 148, 0.6);\"> Note: this tour "
+"will create undeletable data inside your database.</font>"
+msgstr ""
+"<font style=\"background-color: rgba(156, 156, 148, 0.6);\"> 注意：このツアー"
+"はデータベース内に削除不可能なデータを作成します。</font>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">💡</i>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
+msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">✅</i>"
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
@@ -152,13 +269,57 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgid ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
+msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
+msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
+msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "<span class=\"fw-bold\">Address</span>"
 msgstr "<span class=\"fw-bold\">住所</span>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+msgid ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\tGENERAL MEETING AGENDA\n"
+"\t\t\t\t\t\t\t</strong>"
+msgstr ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\t総会議事次第\n"
+"\t\t\t\t\t\t\t</strong>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\tGENERAL MEETING REPORT\n"
+"\t\t\t\t\t\t\t</strong>"
+msgstr ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\t総会報告書\n"
+"\t\t\t\t\t\t\t</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -168,12 +329,163 @@ msgstr "<strong><u>オンボーディングツアー</u></strong>"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
+"<strong>Accounting:</strong> Manage shared expenses, distribute costs by "
+"owner, and maintain owner-specific balance sheets."
+msgstr "<strong>会計:</strong> 共有費用の管理、所有者ごとの費用配分、各所有者別の貸借"
+"対照表の管理を行います。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Automate recurring tasks</strong>, like meter reading imports or "
+"expense allocation."
+msgstr "たとえば、メーター検針データの取込みや費用配分など<strong>定期的な作業を自動"
+"化</strong>します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>CRM:</strong> Track and manage incoming leads and communications "
+"with potential new condominiums."
+msgstr "<strong>CRM:</strong> 新規マンションの見込み顧客からの問い合わせ、やり取りを"
+"追跡・管理します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Calendar:</strong> Schedule and organize association meetings, "
+"collecting votes during general assemblies and share the report."
+msgstr "<strong>カレンダー:</strong> 協会の会議をスケジュールし、組織化します。総会で"
+"の投票を集計し、報告書を共有します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Condominium:</strong> Define buildings, properties, owner and tenant "
+"histories, meter readings and distribution keys."
+msgstr "<strong>マンション:</strong> 建物、物件、所有者および入居者の履歴、メーター検"
+"針、配分キーを定義します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Contacts:</strong> Manage contacts turning prospects into "
+"condominiums, as well as owners, tenants and suppliers."
+msgstr "<strong>連絡先:</strong> 見込み客をマンション管理へと移行して管理するとともに"
+"、所有者、入居者、仕入先を管理します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Define a chart of accounts template for condominiums</strong> to "
+"save time setting up accounting aspects. Don't hesitate to contact us if "
+"needed!"
+msgstr ""
+"<strong>マンション管理向け勘定科目テンプレートを定義</strong>することで、会計"
+"設定にかかる時間を節約できます。必要に応じて、お気軽にお問い合わせください。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "<strong>Documents App: </strong>Request and share documents."
+msgstr "<strong>ドキュメントアプリ:</strong>ドキュメントを申請して共有します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>In such situation, feel free to experiment with this database and "
+"then to create a new one for your own usage.</strong>"
+msgstr ""
+"<strong>このような場合は、まずこのデータベースで自由に操作や実験を行ってみて"
+"ください。その後、ご自身の用途に合わせた新しいデータベースを作成することがで"
+"きます。</strong>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Keep contact data up-to-date</strong> to ensure seamless "
+"communication during meetings, billing and accounting."
+msgstr "<strong>連絡先情報を最新の状態に保ち</strong> 会議、請求、会計業務における円"
+"滑なコミュニケーションを確保します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Leverage tags and filters</strong> in Contacts and CRM to segment "
+"your audience (owners, tenants, suppliers, condominiums...)."
+msgstr ""
+"連絡先とCRMで<strong>タグとフィルタを活用</strong>し、対象者(所有者、テナント"
+"、サプライヤー、マンション管理組合など)をセグメント化します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "<strong>Motions</strong>"
+msgstr "<strong>議案</strong>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Sales:</strong> Send quotations, confirm orders, and invoice shared "
+"expenses to owners."
+msgstr "<strong>販売:</strong>見積を送付し、オーダを確定し、共有費用を所有者へ請求し"
+"ます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Sign</strong> <strong>App: </strong>Send digital property "
+"reservation contracts."
+msgstr "<strong>署名</strong> <strong>アプリ: </strong>デジタル不動産予約契約書を送信"
+"します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Use quotation templates</strong> in the Sales app to standardize "
+"quotes and reduce manual errors."
+msgstr "<strong>販売アプリ</strong> の見積書テンプレートを使用し、見積書を標準化して"
+"手作業によるミスを削減します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>VoIP Integration:</strong> Organize online meetings directly from "
+"Odoo with integrated call capabilities."
+msgstr "<strong>VoIP連携:</strong> 通話機能を連携し、Odooから直接オンライン会議を管理"
+"できます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"<strong>Website Builder:</strong> Build a professional website with lead "
+"capture forms and member areas."
+msgstr ""
+"<strong>ウェブサイトビルダ:</strong> リード獲得フォームや会員専用エリアを備え"
+"た、プロフェッショナルなウェブサイトを構築できます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "<strong>and delegating</strong>"
+msgstr "<strong>および委任</strong>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
 "A condominium works like a company. It gets revenues from the owners. These "
 "are collected in two bank accounts that can be directly integrated with the "
 "bank:"
+msgstr "マンションは会社と同じように機能します。オーナーから収益を得ます。以下は銀行"
+"と直接統合できる2つの銀行口座に集められます:"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"A distribution key is needed for several actions.<br/>\n"
+"                    Defining a distribution key is efficient by populating "
+"defined properties in a click."
 msgstr ""
-"分譲マンションは会社と同じように機能します。オーナーから収益を得ます。以下は"
-"銀行と直接統合できる2つの銀行口座に集められます:"
+"配分キーは、いくつかの操作で必要になります。<br/>\n"
+"                    配分キーを定義しておくと、定義済みの物件をワンクリックで"
+"反映でき、効率的です。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -183,9 +495,68 @@ msgid ""
 msgstr "物件を特定するための名称、例えば郵便受けや識別コードなど。"
 
 #. module: condominium
+#: model:x_vote_criteria,x_name:condominium.x_vote_criteria_1
+msgid "Absolute Majority"
+msgstr "絶対多数"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_total_abstention
+#: model:ir.model.fields.selection,name:condominium.x_vote_abstention
+msgid "Abstention"
+msgstr "棄権"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Abstention:"
+msgstr "棄権："
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_new_decimal_vote_criteria
+msgid "Acceptation threshold"
+msgstr "受容閾値"
+
+#. module: condominium
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_7
+msgid "Accesses"
+msgstr "アクセス"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_line_account
+#: model:ir.model.fields,field_description:condominium.field_x_analytic_account_id
+msgid "Account"
+msgstr "アカウント"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_account_analytic_split_line
+msgid "Account Analytic Line Split"
+msgstr "分析明細分割"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_36
+msgid "Accounting 2024 approval"
+msgstr "会計2024承認"
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Accounting opening/handover<br/>"
 msgstr "会計 開設/引渡<br/>"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.properties_act_window_account
+#: model:ir.model.fields,field_description:condominium.field_property_account_ids
+#: model:ir.ui.menu,name:condominium.owners_properties_menu
+msgid "Accounts"
+msgstr "勘定科目"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_65
+msgid "Accounts approbation for 2024"
+msgstr "2024年度 決算承認"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Acquire a new company"
+msgstr "新会社を買収"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -194,10 +565,12 @@ msgstr "法務分析"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.active_buildings
+#: model:ir.model.fields,field_description:condominium.active_distribution_field
 #: model:ir.model.fields,field_description:condominium.active_properties_type
-#: model:ir.model.fields,field_description:condominium.active_ratios_field
+#: model:ir.model.fields,field_description:condominium.field_active_vote_criteria
+#: model:ir.model.fields,field_description:condominium.field_property_active
 msgid "Active"
-msgstr "アクティブ"
+msgstr "有効"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -216,6 +589,17 @@ msgstr ""
 "いタスクを作成・編集して下さい。"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_total_against
+#: model:ir.model.fields.selection,name:condominium.x_vote_against
+msgid "Against"
+msgstr "反対"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Against:"
+msgstr "反対："
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_714_product_template
 msgid "Air and smoke extractors"
 msgstr "排気・排煙装置"
@@ -226,13 +610,22 @@ msgid "Air conditioning and air treatment"
 msgstr "空調・空気処理"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "All Against"
+msgstr "全員反対"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "All In Favor"
+msgstr "全員賛成"
+
+#. module: condominium
 #: model:product.template,description_sale:condominium.product_product_7_product_template
 msgid ""
 "All other extra services will be invoiced at the hourly rate, See Terms & "
-"Condition for further information about the hourly rate"
-msgstr ""
-"その他の追加サービスは全て時間制料金で顧客請求書を発行します。時間制料金の詳"
-"細については利用規約をご覧下さい。"
+"Conditions for further information about the hourly rate"
+msgstr "その他の追加サービスはすべて時間単価で請求されます。時間単価の詳細については"
+"取引条件をご確認ください"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_698_product_template
@@ -250,48 +643,68 @@ msgid "Amortization on tangible assets"
 msgstr "有形固定資産償却費"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_total
+msgid "Amount"
+msgstr "金額"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_analytic_line_id
+msgid "Analytic Line"
+msgstr "分析明細"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
+msgid "Analytic item split"
+msgstr "分析項目の分割"
+
+#. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_1
 msgid "Apartment"
 msgstr "アパート"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_12
+#: model:x_property,x_name:condominium.x_property_1
 msgid "Apartment A0"
 msgstr "アパート A0"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_14
+#: model:x_property,x_name:condominium.x_property_2
 msgid "Apartment A1"
 msgstr "アパート A1"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_15
+#: model:x_property,x_name:condominium.x_property_3
 msgid "Apartment A2"
 msgstr "アパート A2"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_17
+#: model:x_property,x_name:condominium.x_property_6
 msgid "Apartment B0"
 msgstr "アパート B0"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_19
+#: model:x_property,x_name:condominium.x_property_7
 msgid "Apartment B1.1"
 msgstr "アパート B1.1"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_18
+#: model:x_property,x_name:condominium.x_property_8
 msgid "Apartment B1.2"
 msgstr "アパート B1.2"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-msgid "Apartment..."
-msgstr "アパート..."
+#: model:x_motion,x_name:condominium.x_motion_16
+msgid "Approbation of accounting 2024"
+msgstr "2024年度 決算承認"
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_outcome_approved
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Approved"
+msgstr "承認済"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_15_product_template
-#: model:product.template,description_sale:condominium.product_product_3_product_template
 msgid ""
 "Approximately $80 per property per month, See Terms & Condition for further "
 "information about the coverage of the Service Fees"
@@ -300,14 +713,29 @@ msgstr ""
 "下さい。"
 
 #. module: condominium
+#: model:product.template,description_sale:condominium.product_product_3_product_template
+msgid ""
+"Approximately $80 per property per month, See Terms & Conditions for further "
+"information about the coverage of the Service Fees"
+msgstr "物件あたり月額約80ドル。サービス料金の適用範囲に関する詳細は契約条件をご参照"
+"ください"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Apps Overview"
+msgstr "アプリ概要"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_784_product_template
 msgid "Architect/engineer fees"
 msgstr "設計士/エンジニア費用"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_building
-#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_for_x_ratios
 #: model_terms:ir.ui.view,arch_db:condominium.default_search_view_property_type
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_search_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_search_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_vote_criteria_search_view
 msgid "Archived"
 msgstr "アーカイブ済"
 
@@ -317,16 +745,10 @@ msgid "Archives fees"
 msgstr "文書保管料"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_area_field
+#: model:ir.model.fields,field_description:condominium.field_property_area
 #: model:ir.model.fields,field_description:condominium.x_area_related_field
 msgid "Area"
 msgstr "エリア"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
-msgid "Area as distribution key"
-msgstr "エリアを配布キーとして使用"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -337,32 +759,73 @@ msgstr "人工知能"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "As soon as a condominium reaches out to you to get a quote, quickly send "
-"them an overview of your services and fees by creating\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Quotations</font> in the Sales application where you can directly use the "
-"\"Kick-Off Quote\" quotation template. This will automatically fill the "
-"quote by adding the kick-off fees\n"
-"            and also the price of all the extra services such as the "
-"recurring contribution, the hourly rate, etc. Don't forget to attach the "
-"terms &amp; conditions as well. Of course, the price of each service and the "
-"content of the\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Quotation Templates</font> can be adapted accordingly."
+"them an overview of your services and fees by creating Quotations in the "
+"<strong>Sales App</strong> where you can directly use the \"Kick-Off "
+"Quote\"\n"
+"            quotation template. This will automatically fill the quote by "
+"adding the kick-off fees and also the price of all the extra services such "
+"as the recurring contribution, the hourly rate, etc. Don't forget to attach "
+"the terms &amp;\n"
+"            conditions as well. Of course, the price of each service and the "
+"content of the Quotation Templates can be adapted accordingly."
 msgstr ""
-"分譲マンションから見積もりの依頼を受けたら、すぐに販売アプリケーションで\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">見"
-"積</font> を作成し、サービスと料金の概要を送信します。\"キックオフ見積\"の見"
-"積テンプレートを直接使用できます。これにより、キックオフ料金や、定期的な貢"
-"献、時間給など、\n"
-"            全ての追加サービスの価格が自動的に追加され、見積書が作成されま"
-"す。利用規約を添付することもお忘れなく。もちろん、各サービス価格や\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">見"
-"積テンプレート</font> の内容は、必要に応じて変更することができます。"
+"マンション管理組合から見積依頼があったら、<strong>販売アプリ</strong> で見積"
+"書を作成し、「キックオフ見積」の見積テンプレートを使って、サービス内容と料金"
+"の概要を迅速に送付しましょう。\n"
+"            このテンプレートを使用すると、キックオフ費用に加え、定期拠出金や"
+"時間単価などの追加サービス料金が自動的に見積に反映されます。\n"
+"            また、利用規約の添付も忘れないでください。もちろん、各サービスの"
+"価格や見積テンプレートの内容は、必要に応じて調整できます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Assign the appropriate distribution key and if relevant the distribution "
+"period.."
+msgstr "適切な分配キーを割り当て、該当する場合は分配期間も割り当ててください。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"At the end of the meeting, you can preview the meeting report and send it to "
+"the owners."
+msgstr "会議の終了後、総会報告書をプレビューし、所有者へ送付できます。"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image
 msgid "Attachment"
 msgstr "添付ファイル"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.meter_image_name
+msgid "Attachment name "
+msgstr "添付ファイル名 "
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_vote_attendee_id
+msgid "Attendee"
+msgstr "参加者"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_attendee_vote_ids
+msgid "Attendee Votes"
+msgstr "参加者投票"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_is_attending
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Attending"
+msgstr "出席"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_owners
+msgid "Attending and Delegating Owners"
+msgstr "出席および委任された所有者"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_ratio
+msgid "Attending and Delegating Ratio"
+msgstr "出席・委任比率"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -380,12 +843,18 @@ msgid "Bank fees and debt charges"
 msgstr "銀行手数料および債務手数料"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.base_on_account_move_field
+#: model:ir.model.fields,field_description:condominium.field_distribution_key_base_on
+msgid "Based on"
+msgstr "基準"
+
+#. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_5
 msgid "Basement"
 msgstr "地下"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_16
+#: model:x_property,x_name:condominium.x_property_4
 msgid "Basement AB"
 msgstr "地下 AB"
 
@@ -398,6 +867,14 @@ msgstr "地下メンテナンス"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Basics"
 msgstr "基本"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Be aware that additional users lead to additional Odoo subscription costs. "
+"We therefore recommend you :"
+msgstr "追加ユーザはOdooのサブスクリプション費用の増加につながりますのでご注意くださ"
+"い。そのため、以下のことをお勧めします："
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_710_product_template
@@ -415,26 +892,15 @@ msgid "Book the right numbers 🧮"
 msgstr "正しい数字を予約して下さい 🧮"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_building_field
+#: model:x_motion,x_name:condominium.x_motion_66
+msgid "Budget approbation for 2025"
+msgstr "2025年度予算承認"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_building
 #: model:ir.model.fields,field_description:condominium.x_building_related_field
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
 msgid "Building"
 msgstr "ビル"
-
-#. module: condominium
-#: model:x_buildings,x_name:condominium.x_buildings_6
-msgid "Building 1"
-msgstr "1棟"
-
-#. module: condominium
-#: model:x_buildings,x_name:condominium.x_buildings_7
-msgid "Building 2"
-msgstr "2棟"
-
-#. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_condominium_account_analytic_account_count
-msgid "Building Condominium count"
-msgstr "分譲マンションの棟数"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_732_product_template
@@ -442,12 +908,6 @@ msgid "Building cleaning under contract"
 msgstr "契約に基づく建物清掃"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_x_building_account_analytic_account_count_field
-msgid "Building count"
-msgstr "棟数"
-
-#. module: condominium
-#: model:ir.actions.act_window,name:condominium.bu_act_window
 #: model:ir.actions.act_window,name:condominium.buildings_act_window
 #: model:ir.model,name:condominium.model_buildings
 #: model:ir.ui.menu,name:condominium.building_menu
@@ -459,7 +919,6 @@ msgstr "ビルディング"
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.buildings_tags_act_window
 #: model:ir.model,name:condominium.model_buildings_tags
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 msgid "Buildings Tags"
 msgstr "棟タグ"
 
@@ -472,10 +931,8 @@ msgstr "ビジネスフロー"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "By the end of the period, easily generate the legal reporting such as "
-"Balance Sheet and Profit &amp; Loss for each condominium."
-msgstr ""
-"期間終了までに、各分譲マンションの貸借対照表や損益計算書などの法定報告書を簡"
-"単に作成できます。"
+"Balance Sheet and Profit &amp; Loss for each"
+msgstr "期間終了時には、貸借対照表や損益計算書などの法定報告書を簡単に生成できます"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_781_product_template
@@ -483,9 +940,24 @@ msgid "Cable distribution"
 msgstr "ケーブル配信"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.calendar_event_line_event
+msgid "Calendar Event"
+msgstr "カレンダーイベント"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.calendar_event_line_vote
+msgid "Calendar Event Line Vote"
+msgstr "カレンダーイベント投票"
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Call for working and reserve funds"
 msgstr "運営資金と予備資金の調達"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
+msgid "Cancel"
+msgstr "キャンセル"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_664_product_template
@@ -496,6 +968,11 @@ msgstr "債権の実現による資本損失"
 #: model:product.template,name:condominium.product_product_726_product_template
 msgid "Carpentry maintenance contracts"
 msgstr "大工工事メンテナンス契約"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_50
+msgid "Chairman of the session"
+msgstr "議事進行委員長"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -535,12 +1012,16 @@ msgstr "清掃用品"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Click on \"Split per Property\" button: this will cancel the current "
-"quotation and will create as many quotations as there are properties in the "
-"condominium for which the costs are shared."
+"Click on \"Split by Property\" button: this will cancel the current "
+"quotation and will create as many quotations as there are ongoing owners in "
+"the condominium for which the costs are shared, with a line by property "
+"they\n"
+"                own."
 msgstr ""
-"\"物件別に分割\" ボタンをクリックします: これにより、現在の見積はキャンセルさ"
-"れ、原価が共有されている分譲マンションと同数の見積が作成されます。"
+"「物件別に分割」ボタンをクリックしてください。これにより、現在の見積はキャン"
+"セルされ、費用を共有している当該マンション内の現行の所有者数分の見積書が新た"
+"に作成されます。それぞれの見積書には、所有している物件ごとの明細行が\n"
+"                含まれます。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -548,6 +1029,16 @@ msgid ""
 "Click on the \"Sales Orders\" buttons to access all the generated quotations."
 msgstr ""
 "\"販売オーダ\" ボタンをクリックすると、生成された見積全てにアクセスできます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_condominium
+msgid "Closed"
+msgstr "終了"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.co_owners_property_line_field
+msgid "Co-Owners"
+msgstr "共同所有者"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.color_buildings_tags
@@ -562,7 +1053,10 @@ msgstr "公証人への情報提供"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.company_buildings
+#: model:ir.model.fields,field_description:condominium.company_distribution_field
 #: model:ir.model.fields,field_description:condominium.company_ratios_field
+#: model:ir.model.fields,field_description:condominium.field_property_company_id
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Company"
 msgstr "会社"
 
@@ -577,8 +1071,18 @@ msgid "Compensation for members of the internal council and internal auditor"
 msgstr "内部協議会メンバーおよび内部監査人の報酬"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_actions_server_compute_ratio
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model:x_motion,x_name:condominium.x_motion_51
+#: model:x_motion,x_name:condominium.x_motion_62
+msgid "Comptes 2024"
+msgstr "2024年度決算"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_compute_distribution_key_ratios
+msgid "Compute Distribution Key Ratios"
+msgstr "主要な分配比率を計算"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Compute Ratios"
 msgstr "比率計算"
 
@@ -595,30 +1099,142 @@ msgstr "コンシェルジュメンテナンス"
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.condo_act_window
 #: model:ir.model.fields,field_description:condominium.building_condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_condominium
+#: model:ir.model.fields,field_description:condominium.field_property_condominium
 #: model:ir.model.fields,field_description:condominium.x_condominium_field
 #: model:ir.ui.menu,name:condominium.condo_menu
-#: model:ir.ui.menu,name:condominium.infra_condo_menu
+#: model:ir.ui.menu,name:condominium.infra_condominium_menu
 msgid "Condominium"
-msgstr "分譲マンション"
+msgstr "マンション"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.condominium_property_ids
-msgid "Condominium Properties"
-msgstr "分譲マンション物件"
+#: model:ir.model.fields,field_description:condominium.field_partner_condominium_x_property_count
+msgid "Condominium count"
+msgstr "マンション数"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Condominium creation in Odoo (see <em>Quickly Set Up a Condominium 🚀 </"
 "em>section)"
-msgstr ""
-"Odooで分譲マンション作成 (<em>分譲マンションのクイック設定 🚀 </em>セクション"
-"をご覧下さい)"
+msgstr "Odooでマンション作成 (<em>マンションのクイック設定 🚀 </em>セクションをご覧下"
+"さい)"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_custom
+#: model:ir.actions.server,name:condominium.action_archive_related_accounts
+msgid "Condominium: Archive related accounts"
+msgstr "マンション：関連する勘定科目をアーカイブ"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
+msgid "Condominium: Compute Meter Reading Consumption"
+msgstr "マンション：メーター検針による消費量計算"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_create_task_from_motion
+msgid "Condominium: Create Task from Motion"
+msgstr "マンション：議案からタスクを作成"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
+msgid "Condominium: Distribute Costs"
+msgstr "マンション：費用を分担"
+
+#. module: condominium
+#: model:mail.template,name:condominium.mail_template_2
+msgid "Condominium: General Meeting Agenda"
+msgstr "マンション：議案からタスク作成"
+
+#. module: condominium
+#: model:mail.template,name:condominium.mail_template_3
+msgid "Condominium: General Meeting Report"
+msgstr "マンション：総会報告"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_update_for_voters_line
+msgid "Condominium: On Attendee and delegating Edit"
+msgstr "マンション: 出席・委任の編集時"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_call_distribute_costs_on_save
+msgid "Condominium: On Distribution input save"
+msgstr "マンション：分配入力保存時"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_call_distribute_costs_on_update
+msgid "Condominium: On Distribution input update"
+msgstr "マンション：分配入力更新時"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_populate_voters
+msgid "Condominium: On Vote Edit"
+msgstr "マンション: 投票の編集時"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_update_property_current_owner
+msgid "Condominium: On owners edit"
+msgstr "マンション: 所有者の編集時"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_archive_related_accounts
+msgid "Condominium: On property deletion"
+msgstr "マンション：物件削除時"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_populate_distribution_key
+msgid "Condominium: Populate Distribution Key"
+msgstr "マンション管理：配分キーを反映"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_populate_voters
+msgid "Condominium: Populate Voters"
+msgstr "マンション：有権者を登録"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_send_general_meeting_agenda
+msgid "Condominium: Send General Meeting Agenda"
+msgstr "マンション：総会議題を送付"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_send_general_meeting_report
+msgid "Condominium: Send General Meeting Report"
+msgstr "マンション：総会報告書送付"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_set_usage_meter_reading
+msgid "Condominium: Set Usage in Meter Readings"
+msgstr "マンション：メーター検針における使用量設定"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_set_votes_as_all_against
+msgid "Condominium: Set Votes as All Against"
+msgstr "マンション：投票を全員反対に設定"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_set_votes_as_all_favor
+msgid "Condominium: Set Votes as All In Favor"
+msgstr "マンション：投票を全員賛成に設定"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
+msgid "Condominium: Split SO per Owner"
+msgstr "マンション：販売オーダを所有者ごとに分割"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_update_property_current_owner
+msgid "Condominium: Update Property Current Owner"
+msgstr "マンション: 物件の現在の所有者を更新"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_search_inherit
 msgid "Condominiums"
-msgstr "分譲マンション"
+msgstr "マンション"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_action_create_condominium
+msgid "Condomnium: Create Condominium"
+msgstr "マンション：マンションを作成"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.config_menu
@@ -627,8 +1243,14 @@ msgstr "設定"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_confirm_action
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
 msgid "Confirm"
 msgstr "確定"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.confirm_analytic_account_item_split_action
+msgid "Confirm Account Analytic Line"
+msgstr "分析明細を確定"
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.acquisition_tour
@@ -636,9 +1258,19 @@ msgid "Congrats! You did your first sell."
 msgstr "おめでとうございます! はじめての売上です。"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Connect your calendar to your Odoo database to never miss any meeting!"
+msgstr "カレンダーをOdooデータベースに連携して、会議を見逃さないようにしましょう!"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Contacts"
 msgstr "連絡先"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_39
+msgid "Contract renewal for 2025"
+msgstr "2025年契約更新"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_4_product_template
@@ -671,31 +1303,30 @@ msgid "Contracts establishment<br/>"
 msgstr "契約締結<br/>"
 
 #. module: condominium
+#: model:ir.ui.menu,name:condominium.condominium_costs_menu
+msgid "Costs"
+msgstr "費用"
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.country
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "Country"
 msgstr "国"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_action_create_condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Create Condominium"
-msgstr "分譲マンションを作成"
+msgstr "マンションを作成"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.buildings_act_window
 msgid "Create and manage the buildings that compose this condominium<br>"
-msgstr "この分譲マンションを構成する棟の作成と管理<br>"
-
-#. module: condominium
-#: model_terms:ir.actions.act_window,help:condominium.properties_act_window
-msgid "Create and manage the properties that compose this condominium"
-msgstr "この分譲マンションを構成する 棟の作成と管理"
+msgstr "このマンションを構成する棟の作成と管理<br>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Create the buildings that compounds the condominium."
-msgstr "分譲マンションの複合施設を構成する建物を作成します。"
+msgid "Create the buildings that compounds the"
+msgstr "構成する建物を作成"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -707,9 +1338,20 @@ msgstr ""
 "車庫など。"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.field_meters_currency
-msgid "Currency"
-msgstr "通貨"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Create the relevant motions in advance to efficiently drive the meeting."
+msgstr "会議を効率的に進行するために、関連する議案を事前に作成しておきましょう。"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_current_owner_property
+msgid "Current Owner"
+msgstr "現在の所有者"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_partner_current_owner_x_property_count
+msgid "Current Owner count"
+msgstr "現在の所有者数"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_686_product_template
@@ -728,7 +1370,7 @@ msgid "Deductible (insurance)"
 msgstr "免責金額 (保険)"
 
 #. module: condominium
-#: model:product.pricelist,name:condominium.product_pricelist_1
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_3
 msgid "Default"
 msgstr "デフォルト"
 
@@ -743,13 +1385,25 @@ msgid "Define a recurring plan, monthly or yearly."
 msgstr "月次または年次で定期的な計画を立てましょう。"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_is_delegating
+msgid "Delegating"
+msgstr "委任"
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.description_building
+#: model:ir.model.fields,field_description:condominium.description_key_field
 #: model:ir.model.fields,field_description:condominium.description_property_types
-#: model:ir.model.fields,field_description:condominium.description_ratios_field
+#: model:ir.model.fields,field_description:condominium.description_vote_criteria
 #: model:ir.model.fields,field_description:condominium.field_meters_name
 #: model:ir.model.fields,field_description:condominium.field_meters_reading_description
+#: model:ir.model.fields,field_description:condominium.field_property_name
 msgid "Description"
 msgstr "説明"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_48
+msgid "Designation of the meeting president"
+msgstr "会議議長の指名"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -757,23 +1411,97 @@ msgid "Discover how to setup and use the application by starting the"
 msgstr "アプリケーションの設定と使用方法を、起動して確認してください"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 msgid "Distribute Costs"
 msgstr "費用配分"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_distribution_key_field
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_list_custom_view
-#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Distributing costs"
+msgstr "費用配分"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.condominium_invoices_menu
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+msgid "Distribution"
+msgstr "配分"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_distribution_key
+#: model:ir.model.fields,field_description:condominium.distribution_key_account_move_field
+#: model:ir.model.fields,field_description:condominium.distribution_key_sale_order_field
+#: model:ir.model.fields,field_description:condominium.field_x_distribution_key_on_x_ratios
+#: model_terms:ir.ui.view,arch_db:condominium.view_account_invoice_filter_inherit
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Distribution Key"
 msgstr "配分キー"
 
 #. module: condominium
-#: model:ir.actions.act_window,name:condominium.distribution_keys_act_window
+#: model:ir.actions.act_window,name:condominium.distribution_keys_actions_window
 #: model:ir.ui.menu,name:condominium.infra_distribution_menu
 msgid "Distribution Keys"
 msgstr "配分キー"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on meter reading require the period start and end "
+"inputs.<br/>\n"
+"                    When distributing costs, for each property, the closest "
+"meter readings to period boundaries are used to compute the consumption over "
+"the period, and in case of owner change, the consumption by owner is "
+"captured if a meter\n"
+"                    reading is near the owner change date."
+msgstr ""
+"メーター検針に基づく配分キーでは、期間の開始日と終了日の入力が必要です。<br/>"
+"\n"
+"                    費用を配分する際には、各物件について、期間の境界に最も近"
+"いメーター検針値を使用して、その期間中の使用量を算出します。\n"
+"                    また、所有者が変更された場合は、所有者変更日に近い検針値"
+"があれば、所有者ごとの使用量が算出されます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on meter readings only refer to a meter. When used "
+"to split costs, the recorded meter readings for the corresponding period "
+"will be used."
+msgstr "検針に基づく配分キーは、メーター1台のみを指します。費用を分割する際に使用され"
+"る場合、対応する期間の記録された検針値が使用されます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on shares can be populated with all properties from "
+"the condominium and the ratios computed based on properties' surface. You "
+"can still edit the ratios as you need and includes only a sub selection of "
+"the\n"
+"                properties when relevant."
+msgstr ""
+"持分に基づく配分キーでは、マンション内のすべての物件を自動的に反映し、各物件"
+"の面積に基づいて比率が算出されます。\n"
+"                必要に応じて比率を編集したり、対象となる物件を一部のみに限定"
+"することも可能です。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Distribution keys based on shares directly use the ratios.<br/>\n"
+"                    Without period inputs, the distribution is handled "
+"between the current owners.<br/>\n"
+"                    With period inputs, the distribution is computed between "
+"owners over the corresponding period, in proportion to the ownership."
+msgstr ""
+"持分に基づく配分キーでは、比率がそのまま使用されます。<br/>\n"
+"                    期間の入力がない場合、配分は現在の所有者間で行われます。<"
+"br/>\n"
+"                    期間を指定した場合は、その期間における所有状況に応じて、"
+"所有者間で持分比率に基づいた配分が算出されます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Do You Want to Go Further?"
+msgstr "進みますか?"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_799_product_template
@@ -786,11 +1514,6 @@ msgid "Documents"
 msgstr "ドキュメント"
 
 #. module: condominium
-#: model:helpdesk.team,name:condominium.helpdesk_team_4
-msgid "Dominican Condominium"
-msgstr "ドミニカ・コンドミニアム"
-
-#. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_18
 msgid "Done"
 msgstr "完了"
@@ -799,20 +1522,6 @@ msgstr "完了"
 #: model:product.template,name:condominium.product_product_723_product_template
 msgid "Drainage, sewers, and pumping installations maintenance"
 msgstr "排水、下水、ポンプ設備のメンテナンス"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid ""
-"During the general meetings, counting the votes depending on the ownership "
-"percentage could be painful. From the properties screen, select all the "
-"properties of the corresponding condominium and insert them in a spreadsheet "
-"by using the\n"
-"            said feature under the Actions menu."
-msgstr ""
-"総会では、所有割合に応じた議決権の集計が大変な作業になる可能性があります。物"
-"件画面から、該当する分譲マンションの物件を全て選択し、\n"
-"アクションメニューにある\n"
-"            同機能を使用してスプレッドシートに挿入します。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -827,12 +1536,12 @@ msgstr "各物件の特徴は以下の通りです:"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Easily convert the condominiums 🖋️"
-msgstr "分譲マンションを簡単に変換 🖋️"
+msgstr "マンションを簡単に変換 🖋️"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Efficiently count the votes 🙋‍♂️"
-msgstr "投票を効率的に集計 🙋‍♂️"
+#: model:x_motion,x_name:condominium.x_motion_64
+msgid "Election of the president"
+msgstr "理事長選任"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_707_product_template
@@ -848,11 +1557,6 @@ msgstr "電気設備メンテナンス契約"
 #: model:product.template,name:condominium.product_product_711_product_template
 msgid "Electrical installations renovation"
 msgstr "電気設備改修工事"
-
-#. module: condominium
-#: model:product.template,name:condominium.product_product_772_product_template
-msgid "Electricity for common areas"
-msgstr "共用部分電気"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_688_product_template
@@ -906,27 +1610,80 @@ msgid "Employer contributions for social insurance"
 msgstr "雇用者負担の社会保険料"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_account_analytic_account_end_date
+#: model:ir.model.fields,field_description:condominium.field_property_line_end_date
+#: model:ir.model.fields,field_description:condominium.property_line_field_end_date
+msgid "End Date"
+msgstr "終了日"
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Every year, a general meeting is scheduled to talk about the financial "
 "statements, to take important decisions and so on. This event can easily be "
 "scheduled in the Calendar app by creating\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Meetings</font>. To invite all the owners of a condominium, use the "
-"\"Search More\" on \"Attendees\" and type the name of the condominium in... "
-"\"Condominiums\"."
+"            <font style=\"font-weight: bolder;\" class=\"text-o-"
+"color-1\">Meetings</font>. To invite all the owners of a condominium, use "
+"the \"Search More\" on \"Attendees\" and type the name of the condominium "
+"in... \"Condominiums\" and set the condominium\n"
+"            field."
 msgstr ""
-"毎年、総会が開催され、財務諸表の報告や重要な意思決定などが行われます。このイ"
-"ベントは、カレンダーアプリで\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
-"ミーティング</font>を作成することで簡単にスケジュールできます。 分譲マンショ"
-"ンのオーナーを全て招待するには、 \"参加者\" の \"さらに検索\" を使用し、マン"
-"ション名を \"マンション\" に入力します。"
+"毎年、財務諸表について協議し、重要な決定を行うために総会が開催されます。この"
+"イベントは、カレンダーアプリで\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-color-1\">ミ"
+"ーティング</font>を作成することで、簡単にスケジュールできます。 マンションの"
+"すべての所有者を招待するには、「出席者」で 「さらに検索」 を使用し、\n"
+"「マンション」欄にマンション名を入力して、該当するマンションを\n"
+"            設定してください。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Examples"
+msgstr "例"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_47
+msgid "Exceptional work: Parking door replacement"
+msgstr "特別工事：駐車場扉の交換"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_46
+msgid "Exceptional work: Roof rework"
+msgstr "特別工事：屋根の改修工事"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Excused"
+msgstr "欠席(届出)"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+msgid "Expected attendees"
+msgstr "出席予定者"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Expenses regarding a single owner can be assigned setting the analytic "
+"distribution of the corresponding invoice lines to the corresponding "
+"account, from the invoice form."
+msgstr "単一所有者に関する経費は、請求書フォームから対応する請求書明細行の分析分配を"
+"対応する勘定科目に設定することで割り当てられます。"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_785_product_template
 msgid "Expert fees"
 msgstr "エキスパート費用"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Explore <strong>automations</strong>, <strong>community portals</strong>, "
+"and <strong>custom dashboards</strong> tailored to your needs."
+msgstr ""
+"ニーズに合わせてカスタマイズされた<strong>自動化機能</strong>、<strong>コミュ"
+"ニティポータル</strong>、<strong>カスタムダッシュボード</strong> を活用しまし"
+"ょう。"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_674_product_template
@@ -959,18 +1716,33 @@ msgid "Fairly split the costs ⚖️"
 msgstr "費用を公平に分担 ⚖️"
 
 #. module: condominium
-#: model:product.template,name:condominium.product_product_749_product_template
-msgid "Façade maintenance"
-msgstr "ファサードメンテナンス"
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Final word"
+msgstr "最後に"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Finally, you can also define the distribution keys per property. The goal is "
-"to assign a ratio for each property that will be used for splitting the fees "
-"per owner and for distributing the costs."
+"Finally, for condominiums organised with a general meter for the condominium "
+"to be expenses and then with meters for each owners to split the expenses, "
+"the distribution key based on meter is relevant and requires period inputs "
+"and\n"
+"                associated meter readings for each property to be "
+"representative."
 msgstr ""
-"最後に、プロパティごとに分配キーを定義することもできます。各プロパティに比率"
+"最後に、マンション全体の費用算出に用いる共用メーターがあり、さらに各所有者ご"
+"とに費用を分担するための個別メーターが設置されている場合には、メーター検針に"
+"基づく配分キーが適しています。\n"
+"この配分キーを適切に機能させるためには、\n"
+"               期間の指定と、各物件に紐づく検針値の登録が必要です。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Finally, you can also define the distribution keys. The goal is to assign a "
+"ratio for each property that will be used for splitting the fees per owner "
+"and for distributing the costs:"
+msgstr "最後に、プロパティごとに分配キーを定義することもできます。各プロパティに比率"
 "を割当て、オーナーごとの手数料の分割と費用の分配に使用します。"
 
 #. module: condominium
@@ -994,10 +1766,18 @@ msgid "Fixed fee and water consumption"
 msgstr "固定料金と水道使用料"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_floor_field
+#: model:ir.model.fields,field_description:condominium.field_property_floor
 #: model:ir.model.fields,field_description:condominium.x_floor_related_field
 msgid "Floor"
 msgstr "フロア"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"For each motion, assign the relevant motion criteria, take notes while "
+"discussion goes on and record the owners votes."
+msgstr "各議案ごとに該当する議案基準を設定し、議論の進行中にメモを取り、所有者の投票"
+"を記録します。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1008,9 +1788,9 @@ msgid ""
 "must be the\n"
 "            condominium to be invoiced."
 msgstr ""
-"例えば、分担金を徴収する場合、選択した会社は分譲マンションで、顧客もマンショ"
-"ンでなければなりません。サービスに対する請求書を作成する場合は、選択した会社"
-"は自分の会社で、顧客は\n"
+"例えば、分担金を徴収する場合、選択した会社はマンションで、顧客もマンションで"
+"なければなりません。サービスに対する請求書を作成する場合は、選択した会社は自"
+"分の会社で、顧客は\n"
 "            請求先のマンションでなければなりません。"
 
 #. module: condominium
@@ -1021,16 +1801,21 @@ msgstr "基礎メンテナンス"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"From the Settings, create a new company in <font class=\"text-o-color-1\" "
-"style=\"font-weight: bolder;\">Companies</font>. Once done, it will appear "
-"on the top right of all screens with the aim to quickly switch between your "
+"From the Settings, create a new company in <font style=\"font-weight: bolder;"
+"\" class=\"text-o-color-1\">Companies</font>. Once done, it will appear on "
+"the top right of all screens with the aim to quickly switch between your "
 "company and the\n"
 "            different condominiums."
 msgstr ""
-"設定から <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">会社</"
-"font>で新しい会社を作成します。完了すると、全ての画面の右上に表示され、あなた"
-"の会社と他のマンションを素早く切替える\n"
-"            ことができます。"
+"管理設定から、<font style=\"font-weight: bolder;\" class=\"text-o-color-1\">"
+"会社</font>で新しい会社を作成します。\n"
+"作成後は、画面右上に表示され、自社と各マンションを\n"
+"            すばやく切り替えられるようになります。"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_749_product_template
+msgid "Front face of building maintenance"
+msgstr "建物の正面の整備"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_780_product_template
@@ -1043,7 +1828,7 @@ msgid "Garage"
 msgstr "車庫"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_13
+#: model:x_property,x_name:condominium.x_property_5
 msgid "Garage AG"
 msgstr "車庫 AG"
 
@@ -1066,6 +1851,23 @@ msgstr "契約に基づく庭園および周辺のメンテナンス"
 #: model:product.template,name:condominium.product_product_690_product_template
 msgid "Gas for concierge"
 msgstr "コンシェルジュ用ガス"
+
+#. module: condominium
+#: model:ir.actions.report,name:condominium.calendar_event_general_meeting_agenda
+msgid "General Meeting Agenda"
+msgstr "総会議題"
+
+#. module: condominium
+#: model:ir.actions.report,name:condominium.calendar_event_general_meeting_report
+#: model:mail.template,subject:condominium.mail_template_2
+#: model:mail.template,subject:condominium.mail_template_3
+msgid "General Meeting Report"
+msgstr "総会報告書"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.condominium_general_meeting_menu
+msgid "General Meetings"
+msgstr "総会"
 
 #. module: condominium
 #. odoo-javascript
@@ -1114,6 +1916,11 @@ msgid "Helpdesk"
 msgstr "ヘルプデスク"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Here are the steps to follow:"
+msgstr "以下の手順に従ってください："
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_7_product_template
 msgid "Hourly Rate"
 msgstr "時間料金"
@@ -1124,7 +1931,7 @@ msgid "House"
 msgstr "家"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_20
+#: model:x_property,x_name:condominium.x_property_9
 msgid "House C1"
 msgstr "ハウス C1"
 
@@ -1141,15 +1948,21 @@ msgstr "契約に基づく家庭ゴミ / PMC / 紙・ガラス類"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"If there is no distribution keys set, the area will be used as default key."
-msgstr ""
-"分配キーが設定されていない場合は、そのエリアがデフォルトのキーとして使用され"
-"ます。"
+"If you want to easily discover every features of this package, try "
+"downloading the demo data."
+msgstr "このパッケージのすべての機能を簡単に確認したい場合は、デモデータをダウンロー"
+"ドしてお試しください。"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.image_buildings
 msgid "Image"
 msgstr "画像"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_total_in_favor
+#: model:ir.model.fields.selection,name:condominium.x_vote_in_favor
+msgid "In Favor"
+msgstr "賛成"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1168,12 +1981,28 @@ msgid "In case of recurring fees:"
 msgstr "定期費用が発生する場合:"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "In favor:"
+msgstr "賛成："
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"In the Sales application, create a quotation and set the condominium as "
-"customer."
+"In many cases, direct access to the condominium accounting shall be provided "
+"to some owners. This is the case for example when some are given review "
+"duties."
 msgstr ""
-"販売アプリケーションで、見積を作成し、顧客としてマンションを設定します。"
+"多くの場合、一部の所有者にはマンション会計への直接アクセス権を付与する必要が"
+"あります。たとえば、会計内容の確認や監査といった役割を任されている場合がこれ"
+"に該当します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In the <strong>Sales App</strong>, create a quotation and set the "
+"condominium as customer."
+msgstr "<strong>販売アプリ</strong> で、見積書を作成し、マンションを顧客として設定し"
+"てください。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1221,9 +2050,22 @@ msgid "Internet information communication"
 msgstr "インターネット情報コミュニケーション"
 
 #. module: condominium
+#: model:ir.actions.act_window,name:condominium.distribution_action_window
+msgid "Invoices"
+msgstr "請求書"
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_is_a_property
 msgid "Is a property"
 msgstr "物件"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Just be careful, once demo data are uploaded, it cannot be easily deleted. "
+"But you can restart a fresh database at"
+msgstr "デモデータを一度アップロードすると、簡単には削除できませんのでご注意ください"
+"。必要な場合は、新しいデータベースを再作成することが可能です。"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_4_product_template
@@ -1262,19 +2104,25 @@ msgid "Legal fees for recovering co-owners' arrears"
 msgstr "共有者の期限超過分を回収するための弁護士費用"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Logo"
+msgstr "ロゴ"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_700_product_template
 msgid "Maintenance contracts"
 msgstr "メンテナンス契約"
 
 #. module: condominium
+#: model:x_vote_criteria,x_name:condominium.x_vote_criteria_3
+msgid "Majority of 2/3rd"
+msgstr "3分の2以上の多数"
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Make sure that the products added are recurring."
 msgstr "追加されたプロダクトが継続的に発生することを確認して下さい。"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
-msgid "Manage Companies"
-msgstr "マルチカンパニー管理"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.employees_act_window
@@ -1292,6 +2140,24 @@ msgid "Manage the vendors related to this condominium<br>"
 msgstr "マンションに関連するベンダーを管理<br>"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Managing property owner associations involves multiple stakeholders, "
+"recurring tasks, and detailed records. Odoo empowers associations by "
+"streamlining processes—from handling new prospects to managing shared "
+"expenses—through a fully\n"
+"            integrated suite of applications. Whether you're organizing "
+"general meetings, tracking owner history, or handling complex expense "
+"distributions, Odoo provides the tools to stay efficient and transparent."
+msgstr ""
+"不動産所有者団体(管理組合)の運営には、複数の関係者、定期的な業務、そして詳細"
+"な記録管理が伴います。Odooは、新規見込み案件の対応から共用費用の管理まで、業"
+"務プロセスを効率化する完全に統合されたアプリケーション群を通じて、管理組合の"
+"運営を支援します。\n"
+"            総会の運営、所有者履歴の管理、複雑な費用配分の処理など、あらゆる"
+"業務においてもOdooは効率性と透明性を維持するためのツールを提供します。"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_796_product_template
 msgid "Meeting consumables"
 msgstr "ミーティング消耗品"
@@ -1302,19 +2168,31 @@ msgid "Meeting room usage"
 msgstr "会議室使用"
 
 #. module: condominium
+#: model:ir.actions.act_window,name:condominium.meeting_action_window
+#: model:ir.ui.menu,name:condominium.condominium_meetings_menu
+msgid "Meetings"
+msgstr "ミーティング"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_distribution_key_base_meter
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_meter_id
 msgid "Meter"
 msgstr "メータ"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
 #: model:ir.model,name:condominium.model_meter_reading
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Meter Reading"
 msgstr "メータ検針"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_meter_reading_ids
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+msgid "Meter Reading ids"
+msgstr "検針ID"
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_based_on_meter_readings
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Meter Readings"
 msgstr "メータ検針"
 
@@ -1326,7 +2204,7 @@ msgstr "メータ検針"
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.action_configuration_meters
 #: model:ir.model,name:condominium.model_meters
-#: model:ir.ui.menu,name:condominium.condo_meters
+#: model:ir.ui.menu,name:condominium.condominium_meters_menu
 msgid "Meters"
 msgstr "メータ"
 
@@ -1341,14 +2219,35 @@ msgid "Miscellaneous expenses"
 msgstr "諸経費"
 
 #. module: condominium
-#: model:product.template,name:condominium.product_product_15_product_template
-msgid "Monthly Service Fees"
-msgstr "月額サービス料"
+#: model:ir.model,name:condominium.model_x_motion
+#: model:ir.model.fields,field_description:condominium.description_calendar_motion
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Motion"
+msgstr "議案"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.motion_criteria_action_window
+#: model:ir.model.fields,field_description:condominium.field_vote_criteria
+#: model:ir.ui.menu,name:condominium.condominium_motion_criteria_menu
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Motion Criteria"
+msgstr "議案基準"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Motion..."
+msgstr "議案..."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_motions
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Motions"
+msgstr "議案"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
 #: model:ir.model.fields,field_description:condominium.name_properties_tags
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Name"
 msgstr "名称"
 
@@ -1358,8 +2257,10 @@ msgid "Name or reference..."
 msgstr "名前または参照番号..."
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_vote_criteria_form_view
 msgid "Name..."
 msgstr "名称..."
 
@@ -1369,24 +2270,26 @@ msgid "Never forget a task 📑"
 msgstr "タスク漏れなし 📑"
 
 #. module: condominium
-#: model:project.task.type,name:condominium.project_task_type_26
-msgid "New"
-msgstr "新規"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
-msgid "New condominiums should be created as companies from the settings"
-msgstr "設定された会社から、新しい分譲マンションを作成する必要があります。"
-
-#. module: condominium
 #: model:product.template,name:condominium.product_product_682_product_template
 msgid "Non-professional trustee liability"
 msgstr "ノンプロフェッショナル受託者責任"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_notes
 #: model:ir.model.fields,field_description:condominium.notes_buildings
+#: model:ir.model.fields,field_description:condominium.x_notes_analytic_items
 msgid "Notes"
 msgstr "メモ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Odoo offers additional possibilities to enhance your business:"
+msgstr "Odooは、ビジネスを強化するための追加プランを提供します："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Odoo.com/trial"
+msgstr "Odoo.com/trial"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_5_product_template
@@ -1398,11 +2301,11 @@ msgstr "オフボーディング"
 msgid ""
 "On the one hand, the funds requests are sent by the condominium to the "
 "owners. On the other hand, the service fees can be invoiced by \"My "
-"Condominium Management\" to the owners. Here are the steps to follow:"
+"Condominium Management\" to the owners."
 msgstr ""
-"一方では、マンションからオーナーに資金要求が送られます。他方では、\"自分のマ"
-"ンション管理\"からオーナーにサービス料の請求書が送られます。以下がその手順で"
-"す。"
+"一方で、資金請求はマンションから所有者へ送付されます。他方で、サービス手数料"
+"は \"My Condominium Management(マンション管理)\"から所有者へ請求することがで"
+"きます。"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_7
@@ -1413,29 +2316,20 @@ msgstr "オンデマンド料金"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Once done, it is time to create the composition of the condominium by "
-"selecting the right one on the top right of the screen. Then, open the "
-"<strong><font class=\"text-o-color-1\">Condominium</font></strong> app where "
-"you can:"
-msgstr ""
-"完了したら、画面右上で適切なものを選択して、分譲マンションの構成を作成しま"
-"す。次に、<strong><font class=\"text-o-color-1\">分譲マンション</font></"
-"strong>アプリを開きます。このアプリでは、次の操作が可能です。"
+"selecting the right one on the top right of the screen."
+msgstr "完了したら、画面右上で該当するマンションを選択し、マンションの構成を作成しま"
+"す。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Once the quotation is confirmed, it automatically creates <font class=\"text-"
-"o-color-1\" style=\"font-weight: bolder;\">Projects</font> including several "
-"tasks to properly start the collaboration. This is based on the\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
-"\">Kick-Off Template</font> Template project:"
+"Once the quotation is confirmed, it automatically creates Projects including "
+"several tasks to properly start the collaboration. This is based on the Kick-"
+"Off Template project:"
 msgstr ""
-"見積が確定されると、コラボレーションを適切に開始するために、複数のタスクを含"
-"む<font class=\"text-o-color-1\" style=\"font-weight: bolder;\">プロジェクト"
-"</font>が自動的に作成され、適切にコラボレーションを開始することができます。こ"
-"れはテンプレートプロジェクトの\n"
-"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
-"キックオフテンプレート</font> に基づいています:"
+"見積が確定すると、協業を円滑に開始するために、複数のタスクを含むプロジェクト"
+"が自動的に作成されます。これは キックオフ用テンプレートプロジェクト に基づい"
+"ています。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1444,9 +2338,9 @@ msgid ""
 "Basically, a<strong> </strong>condominium is like a company that is funded "
 "by the owners and that has to pay for operating costs."
 msgstr ""
-"見積もりが確定したら、Odooに分譲マンションを作成します。基本的に、<strong></"
-"strong>マンションはオーナーが出資する会社のようなもので、運営経費を支払う必要"
-"があります。"
+"見積もりが確定したら、Odooにマンションを作成します。基本的に、<strong></stron"
+"g>マンションはオーナーが出資する会社のようなもので、運営経費を支払う必要があ"
+"ります。"
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_4
@@ -1454,9 +2348,36 @@ msgid "One-Time Fees"
 msgstr "ワンタイム料金"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_condominium
+msgid "Ongoing"
+msgstr "進行中"
+
+#. module: condominium
 #: model:ir.actions.server,name:condominium.action_view_company_partner
 msgid "Open company partner form view"
 msgstr "会社パートナーフォームビューを開く"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Open the <strong><font class=\"text-o-color-1\">Condominium</font></strong> "
+"App where you can:"
+msgstr ""
+"<strong><font class=\"text-o-color-1\">マンション</font></strong>アプリを開く"
+"と、以下の操作が可能です："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Open the<strong> Condominium App</strong> and reach the Distributions from "
+"the Purchase menu."
+msgstr "<strong> マンションアプリ</strong>を開き、購買メニューから分配金にアクセスし"
+"てください。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Organize and lead general meetings 📅"
+msgstr "総会を企画・運営し、進行する 📅"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_7
@@ -1599,28 +2520,35 @@ msgid "Other water expenses"
 msgstr "その他水道経費"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_motion_outcome
+msgid "Outcome"
+msgstr "結果"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_line_owner
 #: model:ir.model.fields,field_description:condominium.x_owner_field
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_list_view
 msgid "Owner"
 msgstr "オーナー"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.property_line_owner_field
+msgid "Owner ids"
+msgstr "所有者ID"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_analytic_owner_line
+msgid "Owner line"
+msgstr "所有者明細"
+
+#. module: condominium
 #: model:ir.actions.act_window,name:condominium.owners_act_window
+#: model:ir.ui.menu,name:condominium.condominium_owners_menu
 #: model:ir.ui.menu,name:condominium.owners_menu
-#: model:ir.ui.menu,name:condominium.owners_owners_menu
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Owners"
 msgstr "所有者"
-
-#. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_parent_field
-msgid "Parent"
-msgstr "親"
-
-#. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_parent_account_analytic_account_count
-msgid "Parent count"
-msgstr "親カウント"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_6
@@ -1628,7 +2556,7 @@ msgid "Parking"
 msgstr "駐車場"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_21
+#: model:x_property,x_name:condominium.x_property_10
 msgid "Parking CP"
 msgstr "パーキングCP"
 
@@ -1648,14 +2576,30 @@ msgid "Partner's Companies"
 msgstr "取引先の会社"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.field_meters_price
-msgid "Price"
-msgstr "価格"
+#: model:ir.model.fields,field_description:condominium.field_account_move_period_end
+msgid "Period End"
+msgstr "期間終了日"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_pricelist_field
-msgid "Pricelist"
-msgstr "価格表"
+#: model:ir.model.fields,field_description:condominium.field_account_move_period_start
+msgid "Period Start"
+msgstr "期間開始日"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Plan Task"
+msgstr "タスクを計画"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Plan your general meeting agenda with motions to vote in the Motions tab."
+msgstr "議案タブで、投票対象となる議案を設定し、総会の議題を計画してください。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
+msgid "Populate"
+msgstr "自動入力"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_666_product_template
@@ -1663,23 +2607,20 @@ msgid "Private expenses"
 msgstr "個人経費"
 
 #. module: condominium
-#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
-#: model:ir.actions.act_window,name:condominium.properties_act_window
-#: model:ir.actions.act_window,name:condominium.properties_act_window_view
-#: model:ir.actions.act_window,name:condominium.properties_parent_act_window
-#: model:ir.actions.act_window,name:condominium.props_build_act_window
-#: model:ir.ui.menu,name:condominium.conf_prop_menu
-#: model:ir.ui.menu,name:condominium.infra_properties_menu
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
-msgid "Properties"
-msgstr "属性"
+#: model:ir.model.fields,field_description:condominium.product_category_field
+msgid "Product Category"
+msgstr "プロダクトカテゴリ"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_properties_ids
-msgid "Properties "
-msgstr "物件 "
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
+#: model:ir.actions.act_window,name:condominium.condominium_property_count_contact_smart_button
+#: model:ir.actions.act_window,name:condominium.owner_properties_contact_smart_button
+#: model:ir.actions.act_window,name:condominium.property_actions_window
+#: model:ir.ui.menu,name:condominium.conf_prop_menu
+#: model:ir.ui.menu,name:condominium.infra_properties_menu
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
+msgid "Properties"
+msgstr "属性"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.properties_tags_act_window
@@ -1703,15 +2644,32 @@ msgstr ""
 
 #. module: condominium
 #: model:documents.document,name:condominium.documents_folder_12
-#: model:ir.model.fields,field_description:condominium.field_meter_reading_account_analytic_account
-#: model:ir.model.fields,field_description:condominium.x_property_field
+#: model:ir.model,name:condominium.model_x_property
+#: model:ir.model.fields,field_description:condominium.field_analytic_property
+#: model:ir.model.fields,field_description:condominium.field_partner_property_ids
+#: model:ir.model.fields,field_description:condominium.field_ratios_property
+#: model:ir.model.fields,field_description:condominium.property_line_field_property
+#: model:ir.model.fields,field_description:condominium.property_line_property_field
+#: model:ir.model.fields,field_description:condominium.x_property_on_meter
+#: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_standard
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Property"
 msgstr "物件"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_property_owner
+msgid "Property Owner"
+msgstr "不動産所有者"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Property Owner Association"
 msgstr "住宅所有者組合"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_property_tenant
+msgid "Property Tenant"
+msgstr "入居者"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_807_product_template
@@ -1722,6 +2680,11 @@ msgstr "物件アクイジションフィー"
 #: model:ir.model.fields,field_description:condominium.x_is_a_property_plan
 msgid "Property plan"
 msgstr "不動産計画"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Provide access to the owners 🔑"
+msgstr "所有者にアクセス権を付与 🔑"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1739,9 +2702,9 @@ msgid "Quantity"
 msgstr "数量"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Quickly set up a condominium 🚀"
-msgstr "分譲マンションをクイック設定 🚀"
+#: model:sale.subscription.plan,name:condominium.sale_subscription_plan_3
+msgid "Quarterly"
+msgstr "四半期"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_730_product_template
@@ -1749,18 +2712,29 @@ msgid "Railings and terrace separation partitions"
 msgstr "手すり・テラスを仕切るパーテーション"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_attendee_ratio
 #: model:ir.model.fields,field_description:condominium.x_ratio_field
 msgid "Ratio"
 msgstr "比率"
 
 #. module: condominium
-#: model:ir.actions.act_window,name:condominium.ratios_act_window
 #: model:ir.model,name:condominium.ratios_model
-#: model:ir.model.fields,field_description:condominium.x_ratios_field
-#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_for_x_ratios
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model:ir.model.fields,field_description:condominium.field_distribution_key_ratio_ids
 msgid "Ratios"
 msgstr "比率"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Reach us"
+msgstr "お問い合わせ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Record invoices from from supplier from <strong>Accounting App</strong>, by "
+"assigning supplier and listing products."
+msgstr "<strong>会計アプリ</strong> から、仕入先を割り当ててプロダクトをリスト化する"
+"ことで、仕入先からの請求書を記録します。"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_764_product_template
@@ -1774,9 +2748,30 @@ msgid "Recurring Fees"
 msgstr "定期費用"
 
 #. module: condominium
+#: model:product.template,name:condominium.product_product_15_product_template
+msgid "Recurring Service Fees"
+msgstr "定期サービス料金"
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_outcome_rejected
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Rejected"
+msgstr "否決"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_672_product_template
 msgid "Renovation work"
 msgstr "改修工事"
+
+#. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_67
+msgid "Repair of the main door of wing A"
+msgstr "A棟メインドアの修理"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Requesting funds"
+msgstr "資金の申請"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_14_product_template
@@ -1791,6 +2786,11 @@ msgid ""
 msgstr ""
 "予備資金: 例外的な経費が発生した場合に使用される資金を全て集めるためのもので"
 "す。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "Reset Votes"
+msgstr "投票をリセット"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_662_product_template
@@ -1824,11 +2824,6 @@ msgid "Sales Orders"
 msgstr "販売オーダ"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Schedule the meetings 📅"
-msgstr "ミーティングをスケジュール 📅"
-
-#. module: condominium
 #: model:product.template,name:condominium.product_product_11_product_template
 msgid "Second Reminder"
 msgstr "2回目リマインダ"
@@ -1838,23 +2833,48 @@ msgstr "2回目リマインダ"
 msgid ""
 "See the information of the condominium and fill the vendors to build an "
 "address book."
-msgstr "分譲マンションの情報を確認し、仕入先を記入してアドレス帳を作成します。"
+msgstr "マンションの情報を確認し、仕入先を記入してアドレス帳を作成します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Select the relevant distribution key to account for owner ratios."
+msgstr "所有者比率を考慮するため、関連する分配キーを選択してください。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Select the right company from which the fees will be invoiced (see "
-"<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
-"company)."
-msgstr ""
-"料金の請求元の適正な会社を選択して下さい (会社を切替えるには<em>分譲マンショ"
-"ンのクイック設定 🚀</em> セクションをご覧下さい)。"
+"Select the right company from which the fees will be invoiced (see <em>Set "
+"up a condominium 🚀</em> section to see how to switch the company)."
+msgstr "請求先となる適切な管理会社を選択してください(管理会社の切り替え方法については"
+"、<em>マンション設定 🚀</em> セクションを参照)。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Send Agenda"
+msgstr "議題を送信"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "Send Report"
+msgstr "レポートを送信"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Send the meeting agenda upfront to all expected attendees"
+msgstr "会議の議題を事前に全出席予定者に送付"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
+#: model:ir.model.fields,field_description:condominium.field_property_sequence
+#: model:ir.model.fields,field_description:condominium.property_line_field_sequence
+#: model:ir.model.fields,field_description:condominium.property_line_sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_buildings
+#: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence
+#: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence_field
+#: model:ir.model.fields,field_description:condominium.sequence_distributio_field
 #: model:ir.model.fields,field_description:condominium.sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_properties_types
+#: model:ir.model.fields,field_description:condominium.sequence_vote_criter_sequence
 msgid "Sequence"
 msgstr "シーケンス"
 
@@ -1862,11 +2882,6 @@ msgstr "シーケンス"
 #: model:product.template,name:condominium.product_product_3_product_template
 msgid "Service Fees"
 msgstr "サービス料金"
-
-#. module: condominium
-#: model:base.automation,name:condominium.automation_set_usage_meter_reading
-msgid "Set Usage in Meter Readings"
-msgstr "メータ検針で使用量を設定"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1882,6 +2897,31 @@ msgstr "適正な (定期) 価格を設定して下さい。"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set the right distribution key."
 msgstr "適切な分配キーを設定します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set up a condominium 🚀"
+msgstr "マンションを設定 🚀"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_share
+msgid "Share"
+msgstr "持分"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
+msgid "Share (%)"
+msgstr "持分（%）"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_x_share_total
+msgid "Share Total"
+msgstr "持分合計"
+
+#. module: condominium
+#: model:ir.model.fields.selection,name:condominium.x_based_on_shares
+msgid "Shares"
+msgstr "持分に基づく"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_798_product_template
@@ -1904,10 +2944,34 @@ msgid "Source Sales Order count"
 msgstr "参照元販売オーダ数"
 
 #. module: condominium
-#: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
+#: model:ir.actions.act_window,name:condominium.split_act_window
+#: model:ir.actions.server,name:condominium.split_analytic_item_action
+#: model_terms:ir.ui.view,arch_db:condominium.view_account_analytic_line_form_inherit
+msgid "Split"
+msgstr "分割"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_split_analytic_items_wizard
+#: model:ir.model.fields,field_description:condominium.field_x_split_analytic_items_id
+msgid "Split Analytic Items"
+msgstr "分析項目を分割"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_line_ids
+msgid "Split Lines"
+msgstr "明細を分割"
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
 msgid "Split per Owner"
 msgstr "所有者ごとに分割"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_account_analytic_account_start_date
+#: model:ir.model.fields,field_description:condominium.field_property_line_start_date
+#: model:ir.model.fields,field_description:condominium.property_line_field_start_date
+msgid "Start Date"
+msgstr "開始日"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country_state
@@ -1946,7 +3010,7 @@ msgid "Studio"
 msgstr "スタジオ"
 
 #. module: condominium
-#: model:account.analytic.account,name:condominium.account_analytic_account_22
+#: model:x_property,x_name:condominium.x_property_11
 msgid "Studio CS"
 msgstr "スタジオ CS"
 
@@ -1956,12 +3020,12 @@ msgid "Study and supervision fees"
 msgstr "調査・監督費用"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Sum of Area"
 msgstr "エリア合計"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+#: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Sum of Ratio"
 msgstr "比率合計"
 
@@ -2001,8 +3065,8 @@ msgid "TV distribution for concierge"
 msgstr "コンシェルジュ向けのTV配信"
 
 #. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_tags
 #: model:ir.model.fields,field_description:condominium.tags_buildings
-#: model:ir.model.fields,field_description:condominium.x_tags_field
 #: model:ir.ui.menu,name:condominium.conf_prop_tag_menu
 #: model:ir.ui.menu,name:condominium.conf_tags_menu
 msgid "Tags"
@@ -2030,13 +3094,29 @@ msgstr "税・手数料"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_687_product_template
-msgid "Telephone - Internet - concierge cell phone"
+msgid "Telephone - Internet - Concierge cell phone"
 msgstr "電話 - インターネット - コンシェルジュ携帯"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_tenant_field
+#: model:ir.model.fields,field_description:condominium.property_line_field_tenant
 msgid "Tenant"
 msgstr "入居者"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_line_tenant
+msgid "Tenant ids"
+msgstr "入居者ID"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
+msgid "Tenants"
+msgstr "入居者"
+
+#. module: condominium
+#: model_terms:res.company,sign_terms:condominium.res_company_2
+#: model_terms:res.company,sign_terms_html:condominium.res_company_2
+msgid "Terms &amp; Conditions"
+msgstr "利用規約"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_750_product_template
@@ -2055,13 +3135,52 @@ msgstr "その物件に属する建物。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The chart of account and relationships with products and product categories "
+"is not setup in this module."
+msgstr "このモジュールでは、勘定科目表およびプロダクト・プロダクトカテゴリとの関係が"
+"設定されていません。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The cost distribution inputs are available on each invoice in the "
+"distribution tab."
+msgstr "費用配分の入力項目は、各請求書の配分タブで利用できます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The floor."
 msgstr "フロア。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "The owner of the property."
-msgstr "物件のオーナー。"
+msgid ""
+"The following tour shows you how to create a new customer, from the sale "
+"order creation to the new company in your database"
+msgstr "以下のツアーでは、販売オーダの作成からデータベース内の新規会社まで、新規顧客"
+"を作成する方法を説明します"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The meter readings history, leveraged to split bills based on consumption."
+msgstr "使用量に基づく請求書の分割に活用される、検針履歴。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "The motion is"
+msgstr "議案："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "The motion is not submitted to vote."
+msgstr "この議案は採決にかけられません。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The owner history."
+msgstr "所有者の履歴。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2084,20 +3203,12 @@ msgstr ""
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The services provided by the condominium management company."
-msgstr "分譲マンション管理会社が提供するサービス。"
+msgstr "マンション管理会社が提供するサービス。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "The tenant if relevant."
-msgstr "関連する場合、テナント。"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid ""
-"The tour will invite you to create undeletable data. Make sure you can reuse "
-"afterwards or launch it in a testing environment."
-msgstr "このツアーでは削除できないデータが作成されます。後で再利用できることを確認す"
-"るか、テスト環境で実行してください。"
+msgid "The tenant history if relevant."
+msgstr "該当する場合は入居者の履歴。"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2113,6 +3224,21 @@ msgid ""
 msgstr ""
 "管理費は、月次経費(水道、電気、ガスなど)、保険、メンテナンス、修理、共用部分"
 "の清掃など、共用部分の費用に充てられます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Then, on a regular basis or at invoice confirmation, distribute the costs of "
+"each expenses:"
+msgstr "その後、定期的に、または請求書確認時に、各経費の費用を配分します："
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"These features can be added to your current subscription. Feel free to "
+"explore and expand your Odoo experience!"
+msgstr "これらの機能は、現在のサブスクリプションに追加することができます。Odooをご自"
+"由に体験し、拡張して下さい!"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2139,9 +3265,61 @@ msgid "This does not include the fees from the ushers, lawyers, experts, etc."
 msgstr "アッシャー、弁護士、エキスパートなどからの費用は含まれていません。"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Tips for Success"
+msgstr "成功のためのヒント"
+
+#. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_17
 msgid "To Do"
 msgstr "未処理"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "To account for this additional cost in your pricing."
+msgstr "この追加コストを価格設定に反映させるため。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To distribute costs related to an annual services, such as condominium "
+"insurance fees, the distribution based on shares over a period is relevant "
+"to expense each owner in proportion of their ownership and share."
+msgstr ""
+"マンション保険料などの年次サービスに関連する費用を配分するには、一定期間にわ"
+"たって持分に基づく配分を行うことで、各所有者の所有割合および持分に応じて適切"
+"に費用を計上できます。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To distribute costs which only impact current owners, a distribution key "
+"based on shares without period inputs is required."
+msgstr "現在の所有者のみに影響する費用を配分するには、期間を指定しない持分ベースの配"
+"分キーが必要です。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To maintain the number of users to the minimum needed, creating and deleting "
+"them when relevant."
+msgstr "必要に応じてユーザを作成・削除し、必要最小限のユーザ数を維持します。"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"To setup such access, you shall create users for such owners and restrict "
+"rights to the level which suite your needs so that they can access in read "
+"only most likely."
+msgstr ""
+"このようなアクセスを設定するには、対象となる所有者のユーザを作成し、必要に応"
+"じて権限レベルを制限してください。通常は読み取り専用でのアクセスが適切です。"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_total_field
+#: model_terms:ir.ui.view,arch_db:condominium.view_invoice_tree_inherit
+msgid "Total"
+msgstr "合計"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_673_product_template
@@ -2180,7 +3358,7 @@ msgid "Trustee stamps"
 msgstr "受託者印"
 
 #. module: condominium
-#: model:ir.model.fields,field_description:condominium.x_type_field
+#: model:ir.model.fields,field_description:condominium.field_property_type
 #: model:ir.model.fields,field_description:condominium.x_type_related_field
 #: model:ir.ui.menu,name:condominium.conf_prop_type
 msgid "Type"
@@ -2192,12 +3370,28 @@ msgid "Type down your notes here..."
 msgstr "ここにメモを入力してください..."
 
 #. module: condominium
+#: model:x_vote_criteria,x_name:condominium.x_vote_criteria_2
+msgid "Unanimity"
+msgstr "全員一致"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_update_voter_line_for_motion
+msgid "Update Voter Lines Of Motion"
+msgstr "議案の投票者明細を更新"
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_usage
 msgid "Usage"
 msgstr "用途"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+msgid "Used to distribute costs by meter; closest meter reading date used"
+msgstr "メーターに基づいて費用を配分するために使用され、最も近いメーター検針日が使用"
+"されます"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "VAT"
 msgstr "VAT（Value Added Tax）"
 
@@ -2222,10 +3416,15 @@ msgid "Various works"
 msgstr "様々な工事"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_invoice_tree_inherit
+msgid "Vendor"
+msgstr "仕入先"
+
+#. module: condominium
 #: model:ir.actions.act_window,name:condominium.vendors_act_window
 #: model:ir.model.fields,field_description:condominium.vendor_ids
 #: model:ir.ui.menu,name:condominium.purchase_vendor_menu
-#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Vendors"
 msgstr "仕入先"
 
@@ -2237,7 +3436,7 @@ msgstr "ベンダー会社"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.vendor_condominium_ids
 msgid "Vendors Condominiums"
-msgstr "ベンダー分譲マンション"
+msgstr "仕入先マンション"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_715_product_template
@@ -2245,14 +3444,47 @@ msgid "Video surveillance"
 msgstr "ビデオ監視"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
+msgid "View Report"
+msgstr "レポートを表示"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_680_product_template
 msgid "Volunteer insurance"
 msgstr "ボランティア保険"
 
 #. module: condominium
+#: model:ir.model,name:condominium.model_x_motion_vote
+#: model:ir.model.fields,field_description:condominium.field_motion_vote_vote
+msgid "Vote"
+msgstr "投票"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_x_vote_criteria
+#: model_terms:ir.ui.view,arch_db:condominium.x_vote_criteria_form_view
+msgid "Vote Criteria"
+msgstr "投票基準"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "Votes (need"
+msgstr "投票 (必要:"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_calendar_event_voting_key_id
+msgid "Voting key"
+msgstr "投票キー"
+
+#. module: condominium
 #: model:product.template,name:condominium.product_product_739_product_template
 msgid "Waste cleaning and treatment controls"
 msgstr "廃棄物清掃・処理管理"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_772_product_template
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_8
+msgid "Water"
+msgstr "水"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_719_product_template
@@ -2292,12 +3524,13 @@ msgstr "水処理用品"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
-"Welcome to your Odoo Property Owner Association package! This guide will "
-"help you manage the condominiums efficiently, from setting up to general "
-"meetings."
+"We recommend your accountants to setup the appropriate chart of account "
+"based on your localization to generate the appropriate balance sheet and "
+"other needed accounting documents through Odoo."
 msgstr ""
-"Odoo不動産所有者組合パッケージへようこそ! このガイドでは、総会から設定まで、"
-"分譲マンションの効率的な管理に役立つ情報をご覧頂けます。"
+"Odooを通じて適切な貸借対照表やその他必要な会計ドキュメントを作成できるよう、"
+"ご利用のローカリゼーションに基づいた適切な勘定科目表を、会計担当者に設定して"
+"もらうことを推奨します。"
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
@@ -2305,19 +3538,35 @@ msgid "Welcome! Happy exploring."
 msgstr "ようこそ！"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"When the quote is confirmed for a new condominium, you can convert the "
+"prospect contact into a condominium with a click from the contact form, in "
+"the <strong>Contact App</strong>."
+msgstr ""
+
+#. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_1
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_4
 msgid "Wing A"
 msgstr "ウィング A"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_4
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_5
 msgid "Wing B"
 msgstr "ウィング B"
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_5
+#: model:x_distribution_key,x_name:condominium.x_distribution_key_6
 msgid "Wing C"
 msgstr "ウィング C"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.view_account_invoice_filter_inherit
+msgid "Without distribution"
+msgstr ""
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_679_product_template
@@ -2337,27 +3586,62 @@ msgid ""
 msgstr "運営資金: 定期費用の支払に使用される全ての資金を集める。"
 
 #. module: condominium
+#: model:x_motion,x_name:condominium.x_motion_24
+msgid "Working fund call"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Would you like to discuss your Odoo setup with us or explore more features?"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"You can find all past meeting for a condominium from the Condominium App, by "
+"the Owners menu."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "You can still do it by upgrading your package in Apps."
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"You might have tested this package with or without demo data.<br/>\n"
+"            In any case, you may have written records in journals which are "
+"not deletable and which might be an issue for your traceability."
+msgstr ""
+
+#. module: condominium
+#: model_terms:res.company,sign_terms:condominium.res_company_2
+#: model_terms:res.company,sign_terms_html:condominium.res_company_2
+msgid "Your conditions..."
+msgstr ""
+
+#. module: condominium
 #: model:ir.model.fields,field_description:condominium.zip
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
 msgid "ZIP"
 msgstr "郵便番号"
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
-msgid "e.g. Apartment"
-msgstr "例: アパート"
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "and delegating"
+msgstr ""
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
-#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_kanban_view
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
-msgid "e.g. Apartment A0"
-msgstr "例: アパート A0"
+#: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
+msgid "calendar_event_line"
+msgstr ""
 
 #. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
-msgid "e.g. John Smith"
-msgstr "例: John Smith"
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "of the owner ratios.<br/><br/>"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2365,9 +3649,29 @@ msgid "or by following the steps below."
 msgstr "または以下の手順に従ってください。"
 
 #. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "owners"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
+msgid "were present and represented"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Access Rights"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Accounting"
 msgstr "🎓 会計"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Calendar"
+msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2381,6 +3685,11 @@ msgstr "🎓 ヘルプデスク"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Project"
+msgstr ""
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Quotation Template"
 msgstr "🎓 見積テンプレート"
 
@@ -2391,10 +3700,271 @@ msgstr "🎓 販売"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "🎓 Spreadsheet"
-msgstr "🎓 スプレッドシート"
-
-#. module: condominium
-#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Subscription"
 msgstr "🎓 サブスクリプション"
+
+#~ msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+#~ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#~ msgid ""
+#~ "All other extra services will be invoiced at the hourly rate, See Terms & "
+#~ "Condition for further information about the hourly rate"
+#~ msgstr ""
+#~ "その他の追加サービスは全て時間制料金で顧客請求書を発行します。時間制料金の"
+#~ "詳細については利用規約をご覧下さい。"
+
+#~ msgid "Apartment..."
+#~ msgstr "アパート..."
+
+#~ msgid "Area as distribution key"
+#~ msgstr "エリアを配布キーとして使用"
+
+#~ msgid ""
+#~ "As soon as a condominium reaches out to you to get a quote, quickly send "
+#~ "them an overview of your services and fees by creating\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Quotations</font> in the Sales application where you can directly use "
+#~ "the \"Kick-Off Quote\" quotation template. This will automatically fill "
+#~ "the quote by adding the kick-off fees\n"
+#~ "            and also the price of all the extra services such as the "
+#~ "recurring contribution, the hourly rate, etc. Don't forget to attach the "
+#~ "terms &amp; conditions as well. Of course, the price of each service and "
+#~ "the content of the\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Quotation Templates</font> can be adapted accordingly."
+#~ msgstr ""
+#~ "分譲マンションから見積もりの依頼を受けたら、すぐに販売アプリケーションで\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
+#~ "見積</font> を作成し、サービスと料金の概要を送信します。\"キックオフ見積"
+#~ "\"の見積テンプレートを直接使用できます。これにより、キックオフ料金や、定期"
+#~ "的な貢献、時間給など、\n"
+#~ "            全ての追加サービスの価格が自動的に追加され、見積書が作成されま"
+#~ "す。利用規約を添付することもお忘れなく。もちろん、各サービス価格や\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
+#~ "見積テンプレート</font> の内容は、必要に応じて変更することができます。"
+
+#~ msgid "Building 1"
+#~ msgstr "1棟"
+
+#~ msgid "Building 2"
+#~ msgstr "2棟"
+
+#~ msgid "Building Condominium count"
+#~ msgstr "分譲マンションの棟数"
+
+#~ msgid "Building count"
+#~ msgstr "棟数"
+
+#~ msgid ""
+#~ "By the end of the period, easily generate the legal reporting such as "
+#~ "Balance Sheet and Profit &amp; Loss for each condominium."
+#~ msgstr ""
+#~ "期間終了までに、各分譲マンションの貸借対照表や損益計算書などの法定報告書を"
+#~ "簡単に作成できます。"
+
+#~ msgid ""
+#~ "Click on \"Split per Property\" button: this will cancel the current "
+#~ "quotation and will create as many quotations as there are properties in "
+#~ "the condominium for which the costs are shared."
+#~ msgstr ""
+#~ "\"物件別に分割\" ボタンをクリックします: これにより、現在の見積はキャンセ"
+#~ "ルされ、原価が共有されている分譲マンションと同数の見積が作成されます。"
+
+#~ msgid "Condominium Properties"
+#~ msgstr "分譲マンション物件"
+
+#~ msgid "Create and manage the properties that compose this condominium"
+#~ msgstr "この分譲マンションを構成する 棟の作成と管理"
+
+#~ msgid "Create the buildings that compounds the condominium."
+#~ msgstr "分譲マンションの複合施設を構成する建物を作成します。"
+
+#~ msgid "Currency"
+#~ msgstr "通貨"
+
+#~ msgid "Dominican Condominium"
+#~ msgstr "ドミニカ・コンドミニアム"
+
+#~ msgid ""
+#~ "During the general meetings, counting the votes depending on the "
+#~ "ownership percentage could be painful. From the properties screen, select "
+#~ "all the properties of the corresponding condominium and insert them in a "
+#~ "spreadsheet by using the\n"
+#~ "            said feature under the Actions menu."
+#~ msgstr ""
+#~ "総会では、所有割合に応じた議決権の集計が大変な作業になる可能性があります。"
+#~ "物件画面から、該当する分譲マンションの物件を全て選択し、\n"
+#~ "アクションメニューにある\n"
+#~ "            同機能を使用してスプレッドシートに挿入します。"
+
+#~ msgid "Efficiently count the votes 🙋‍♂️"
+#~ msgstr "投票を効率的に集計 🙋‍♂️"
+
+#~ msgid "Electricity for common areas"
+#~ msgstr "共用部分電気"
+
+#~ msgid ""
+#~ "Every year, a general meeting is scheduled to talk about the financial "
+#~ "statements, to take important decisions and so on. This event can easily "
+#~ "be scheduled in the Calendar app by creating\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Meetings</font>. To invite all the owners of a condominium, use the "
+#~ "\"Search More\" on \"Attendees\" and type the name of the condominium "
+#~ "in... \"Condominiums\"."
+#~ msgstr ""
+#~ "毎年、総会が開催され、財務諸表の報告や重要な意思決定などが行われます。この"
+#~ "イベントは、カレンダーアプリで\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
+#~ "ミーティング</font>を作成することで簡単にスケジュールできます。 分譲マン"
+#~ "ションのオーナーを全て招待するには、 \"参加者\" の \"さらに検索\" を使用"
+#~ "し、マンション名を \"マンション\" に入力します。"
+
+#~ msgid "Façade maintenance"
+#~ msgstr "ファサードメンテナンス"
+
+#~ msgid ""
+#~ "Finally, you can also define the distribution keys per property. The goal "
+#~ "is to assign a ratio for each property that will be used for splitting "
+#~ "the fees per owner and for distributing the costs."
+#~ msgstr ""
+#~ "最後に、プロパティごとに分配キーを定義することもできます。各プロパティに比"
+#~ "率を割当て、オーナーごとの手数料の分割と費用の分配に使用します。"
+
+#~ msgid ""
+#~ "From the Settings, create a new company in <font class=\"text-o-color-1\" "
+#~ "style=\"font-weight: bolder;\">Companies</font>. Once done, it will "
+#~ "appear on the top right of all screens with the aim to quickly switch "
+#~ "between your company and the\n"
+#~ "            different condominiums."
+#~ msgstr ""
+#~ "設定から <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">会"
+#~ "社</font>で新しい会社を作成します。完了すると、全ての画面の右上に表示さ"
+#~ "れ、あなたの会社と他のマンションを素早く切替える\n"
+#~ "            ことができます。"
+
+#~ msgid ""
+#~ "If there is no distribution keys set, the area will be used as default "
+#~ "key."
+#~ msgstr ""
+#~ "分配キーが設定されていない場合は、そのエリアがデフォルトのキーとして使用さ"
+#~ "れます。"
+
+#~ msgid ""
+#~ "In the Sales application, create a quotation and set the condominium as "
+#~ "customer."
+#~ msgstr ""
+#~ "販売アプリケーションで、見積を作成し、顧客としてマンションを設定します。"
+
+#~ msgid "Manage Companies"
+#~ msgstr "マルチカンパニー管理"
+
+#~ msgid "Monthly Service Fees"
+#~ msgstr "月額サービス料"
+
+#~ msgid "New"
+#~ msgstr "新規"
+
+#~ msgid "New condominiums should be created as companies from the settings"
+#~ msgstr "設定された会社から、新しい分譲マンションを作成する必要があります。"
+
+#~ msgid ""
+#~ "On the one hand, the funds requests are sent by the condominium to the "
+#~ "owners. On the other hand, the service fees can be invoiced by \"My "
+#~ "Condominium Management\" to the owners. Here are the steps to follow:"
+#~ msgstr ""
+#~ "一方では、マンションからオーナーに資金要求が送られます。他方では、\"自分の"
+#~ "マンション管理\"からオーナーにサービス料の請求書が送られます。以下がその手"
+#~ "順です。"
+
+#~ msgid ""
+#~ "Once done, it is time to create the composition of the condominium by "
+#~ "selecting the right one on the top right of the screen. Then, open the "
+#~ "<strong><font class=\"text-o-color-1\">Condominium</font></strong> app "
+#~ "where you can:"
+#~ msgstr ""
+#~ "完了したら、画面右上で適切なものを選択して、分譲マンションの構成を作成しま"
+#~ "す。次に、<strong><font class=\"text-o-color-1\">分譲マンション</font></"
+#~ "strong>アプリを開きます。このアプリでは、次の操作が可能です。"
+
+#~ msgid ""
+#~ "Once the quotation is confirmed, it automatically creates <font "
+#~ "class=\"text-o-color-1\" style=\"font-weight: bolder;\">Projects</font> "
+#~ "including several tasks to properly start the collaboration. This is "
+#~ "based on the\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;"
+#~ "\">Kick-Off Template</font> Template project:"
+#~ msgstr ""
+#~ "見積が確定されると、コラボレーションを適切に開始するために、複数のタスクを"
+#~ "含む<font class=\"text-o-color-1\" style=\"font-weight: bolder;\">プロジェ"
+#~ "クト</font>が自動的に作成され、適切にコラボレーションを開始することができ"
+#~ "ます。これはテンプレートプロジェクトの\n"
+#~ "            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">"
+#~ "キックオフテンプレート</font> に基づいています:"
+
+#~ msgid "Parent"
+#~ msgstr "親"
+
+#~ msgid "Parent count"
+#~ msgstr "親カウント"
+
+#~ msgid "Price"
+#~ msgstr "価格"
+
+#~ msgid "Pricelist"
+#~ msgstr "価格表"
+
+#~ msgid "Properties "
+#~ msgstr "物件 "
+
+#~ msgid "Quickly set up a condominium 🚀"
+#~ msgstr "分譲マンションをクイック設定 🚀"
+
+#~ msgid "Schedule the meetings 📅"
+#~ msgstr "ミーティングをスケジュール 📅"
+
+#~ msgid ""
+#~ "Select the right company from which the fees will be invoiced (see "
+#~ "<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
+#~ "company)."
+#~ msgstr ""
+#~ "料金の請求元の適正な会社を選択して下さい (会社を切替えるには<em>分譲マン"
+#~ "ションのクイック設定 🚀</em> セクションをご覧下さい)。"
+
+#~ msgid "Set Usage in Meter Readings"
+#~ msgstr "メータ検針で使用量を設定"
+
+#~ msgid "Telephone - Internet - concierge cell phone"
+#~ msgstr "電話 - インターネット - コンシェルジュ携帯"
+
+#~ msgid "The owner of the property."
+#~ msgstr "物件のオーナー。"
+
+#~ msgid "The tenant if relevant."
+#~ msgstr "関連する場合、テナント。"
+
+#~ msgid ""
+#~ "The tour will invite you to create undeletable data. Make sure you can "
+#~ "reuse afterwards or launch it in a testing environment."
+#~ msgstr ""
+#~ "このツアーでは削除できないデータが作成されます。後で再利用できることを確認"
+#~ "するか、テスト環境で実行してください。"
+
+#~ msgid ""
+#~ "Welcome to your Odoo Property Owner Association package! This guide will "
+#~ "help you manage the condominiums efficiently, from setting up to general "
+#~ "meetings."
+#~ msgstr ""
+#~ "Odoo不動産所有者組合パッケージへようこそ! このガイドでは、総会から設定ま"
+#~ "で、分譲マンションの効率的な管理に役立つ情報をご覧頂けます。"
+
+#~ msgid "e.g. Apartment"
+#~ msgstr "例: アパート"
+
+#~ msgid "e.g. Apartment A0"
+#~ msgstr "例: アパート A0"
+
+#~ msgid "e.g. John Smith"
+#~ msgstr "例: John Smith"
+
+#~ msgid "🎓 Spreadsheet"
+#~ msgstr "🎓 スプレッドシート"
