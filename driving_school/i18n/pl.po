@@ -3,13 +3,13 @@
 # * driving_school
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Marta (wacm)" <wacm@odoo.com>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:39+0000\n"
-"PO-Revision-Date: 2025-11-04 13:56+0000\n"
+"PO-Revision-Date: 2026-02-06 13:18+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "driving_school/pl/>\n"
@@ -17,9 +17,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.homepage
@@ -542,6 +542,11 @@ msgid ""
 "online 24/7, syncing automatically with\n"
 "            instructor availability to prevent double-booking.<br/>"
 msgstr ""
+"<strong><b>Aplikacja Spotkania</b>:</strong> Umożliwia studentom "
+"rezerwowanie lekcji online 24 godziny na dobę, 7 dni w tygodniu, "
+"automatycznie synchronizując je z\n"
+"            dostępnością instruktorów, aby zapobiec podwójnym rezerwacjom.<"
+"br/>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -550,6 +555,10 @@ msgid ""
 "monitoring fuel logs, service contracts,\n"
 "            and odometer readings to keep your cars road-ready.<br/>"
 msgstr ""
+"<strong><b>Aplikacja Flota</b>:</strong> Śledź i konserwuj swoje pojazdy, "
+"monitoruj zużycie paliwa, umowy serwisowe\n"
+"            i stan licznika kilometrów, aby Twoje samochody były zawsze "
+"gotowe do jazdy.<br/>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -558,6 +567,9 @@ msgid ""
 "efficiently, assigning shifts and ensuring\n"
 "            the right teacher is available for the right class.<br/>"
 msgstr ""
+"<strong><b>Aplikacja Planowanie</b>:</strong> Efektywnie zarządzaj "
+"harmonogramami instruktorów, przydzielając im zmiany i zapewniając\n"
+"            dostępność odpowiedniego instruktora do danych zajęć.<br/>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -566,6 +578,9 @@ msgid ""
 "directly to students, managing\n"
 "            invoices and payments in one place.<br/>"
 msgstr ""
+"<strong><b>Aplikacja Sprzedaż</b>:</strong> Sprzedawaj lekcje, egzaminy i "
+"pakiety kursów bezpośrednio uczniom, zarządzając\n"
+"fakturami i płatnościami w jednym miejscu.<br/>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -574,6 +589,9 @@ msgid ""
 "agreements digitally, ensuring all necessary\n"
 "            documentation is signed and stored securely.<br/>"
 msgstr ""
+"<strong><b>Aplikacja Podpisy</b>:</strong> Obsługuj cyfrowo zwolnienia "
+"prawne i umowy studenckie, zapewniając, że wszystkie niezbędne\n"
+"            dokumenty są podpisane i bezpiecznie przechowywane.<br/>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body
@@ -583,6 +601,10 @@ msgid ""
 "            professional portal for new students to register and learn about "
 "your services.<br/>"
 msgstr ""
+"<strong><b>Aplikacja Strony internetowe</b>:</strong> Zwiększ widoczność "
+"swojej szkoły i zarządzaj swoją stroną internetową, tworząc profesjonalny "
+"portal, na którym nowi uczniowie mogą się rejestrować i zapoznawać z Twoją "
+"ofertą.<br/>"
 
 #. module: driving_school
 #: model_terms:ir.ui.view,arch_db:driving_school.welcome_article_body

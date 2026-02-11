@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:43+0000\n"
-"PO-Revision-Date: 2026-01-13 16:14+0000\n"
+"PO-Revision-Date: 2026-02-05 15:28+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "booking_engine/pl/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: booking_engine
@@ -182,7 +182,7 @@ msgstr "Silnik rezerwacyjny oferuje"
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_settings_action
 msgid "Booking Engine Settings"
-msgstr ""
+msgstr "Ustawienia systemu rezerwacji"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_21
@@ -272,7 +272,7 @@ msgstr "Ekspres do kawy"
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_menu
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguracja"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.industry_create_roles
@@ -390,7 +390,7 @@ msgstr "Gość"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.model_sale_order_x_guest_line_ids
 msgid "Guest Line"
-msgstr ""
+msgstr "Linia gości"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.model_planning_slot_x_guests
@@ -404,7 +404,7 @@ msgstr "Goście"
 #. module: booking_engine
 #: model:ir.model,name:booking_engine.x_model_guests_line
 msgid "Guests Line"
-msgstr ""
+msgstr "Linia gości"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.res_partner_x_guests_count
@@ -419,7 +419,7 @@ msgstr "Suszarka do włosów"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_has_city_tax_field
 msgid "Has City Tax"
-msgstr ""
+msgstr "Zawiera opłatę klimatyczną?"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_house_keeping
@@ -550,7 +550,7 @@ msgstr "Opłata klimatyczna"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_is_in_stage_clean_field_resource_resource
 msgid "Is In House Keeping Stage Clean"
-msgstr ""
+msgstr "Czy sprzątanie jest na etapie czyszczenia"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.planning_model_planning_role_x_is_a_room_offer_field
@@ -561,7 +561,7 @@ msgstr "Oferta pobytu"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.resource_x_is_stay_resource
 msgid "Is Stay Resource"
-msgstr ""
+msgstr "Czy zasoby pozostają"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_2
@@ -615,7 +615,7 @@ msgstr "OK"
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_planning_resource_view_search
 #: model_terms:ir.ui.view,arch_db:booking_engine.project_task_search_view_primary
 msgid "Occupancy"
-msgstr ""
+msgstr "Zajętość"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_occupancy_color_field_resource_resource
@@ -784,7 +784,7 @@ msgstr "Skonfiguruj godziny rozpoczęcia/zakończenia wynajmu przy tworzeniu"
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_settings_menu
 msgid "Settings"
-msgstr ""
+msgstr "Ustawienia"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_12
@@ -854,7 +854,7 @@ msgstr "Tagi"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_resource_employee_id_field_resource_resource
 msgid "Task Employee"
-msgstr ""
+msgstr "Zadanie Pracownik"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_task_stage_color_field_project_task

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 12:07+0000\n"
-"PO-Revision-Date: 2026-01-13 16:16+0000\n"
+"PO-Revision-Date: 2026-02-05 15:29+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "industry_lawyer/ru/>\n"
@@ -29,6 +29,9 @@ msgid ""
 "\"The legal team was incredibly supportive and knowledgeable. They made a "
 "challenging process much easier for me.\" - A satisfied client"
 msgstr ""
+"«Команда юристов оказала мне невероятную поддержку и проявила глубокие "
+"знания. Они значительно облегчили для меня этот сложный процесс». – "
+"Довольный клиент"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
@@ -36,11 +39,13 @@ msgid ""
 "&amp;nbsp;<strong>The foundation of trust, integrity, and legal excellence.</"
 "strong>"
 msgstr ""
+"&amp;nbsp;<strong>Фундамент доверия, честности и профессионального "
+"превосходства.</strong>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "&amp;nbsp;Excellence&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;Профессионализм&amp;nbsp;"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -74,7 +79,7 @@ msgstr "04"
 #. module: industry_lawyer
 #: model:documents.document,name:industry_lawyer.documents_document_1
 msgid "10_1.pdf"
-msgstr ""
+msgstr "10_1.pdf"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -93,6 +98,8 @@ msgid ""
 "<a class=\"btn btn-secondary mb-2 o_translate_inline\" href=\"/"
 "contactus\">Contact Us </a>"
 msgstr ""
+"<a class=\"btn btn-secondary mb-2 o_translate_inline\" href=\"/contactus\""
+">Связаться с нами </a>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -126,6 +133,8 @@ msgid ""
 "<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/> Competitive "
 "Rates"
 msgstr ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/> "
+"Конкурентоспособные цены"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
@@ -133,6 +142,8 @@ msgid ""
 "<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/> Ongoing "
 "Education"
 msgstr ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/> Постоянное "
+"обучение"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
@@ -140,6 +151,8 @@ msgid ""
 "<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/> Supportive "
 "Environment"
 msgstr ""
+"<i class=\"fa fa-check text-o-color-1\" role=\"presentation\"/> "
+"Благоприятная среда"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.contactus
@@ -243,6 +256,12 @@ msgid ""
 "MyCompany</span>\n"
 "                            </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                              <strong>Айрис ДОУ</strong>\n"
+"                              <br/>\n"
+"                              <span class=\"text-muted\">Помощник юриста в "
+"MyCompany</span>\n"
+"                            </span>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
@@ -254,6 +273,11 @@ msgid ""
 "span>\n"
 "                            </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                              <strong>Джейн ДОУ</strong>\n"
+"                              <br/>\n"
+"                              <span class=\"text-muted\">Адвокат</span>\n"
+"                            </span>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
@@ -265,6 +289,12 @@ msgid ""
 "MyCompany</span>\n"
 "                            </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                              <strong>Джон ДОУ</strong>\n"
+"                              <br/>\n"
+"                              <span class=\"text-muted\">Управляющий партнер "
+"MyCompany</span>\n"
+"                            </span>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.contactus
@@ -284,6 +314,9 @@ msgid ""
 "                                    <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Имя</span>\n"
+"                                    <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.contactus
@@ -292,6 +325,9 @@ msgid ""
 "                                    <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Фамилия</span>\n"
+"                                    <span class=\"s_website_form_mark\"> "
+"*</span>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.contactus
@@ -339,6 +375,17 @@ msgid ""
 "                </strong>\n"
 "                <br/>"
 msgstr ""
+"<strong>\n"
+"                    <font style=\"color: rgb(66, 66, 66);\"><span style"
+"=\"font-weight: normal;"
+"\">Держите все расходы фирмы под контролем в</span> </font><font class=\""
+"text-o-color-1\">модуле Расходы</font>,\n"
+"                    <font style=\"color: rgb(66, 66, 66);\"><span style"
+"=\"font-weight: normal;"
+"\">обеспечив полную прозрачность внутренних трат.</span></font><font class=\""
+"text-o-color-1\"/>\n"
+"                </strong>\n"
+"                <br/>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -364,7 +411,7 @@ msgstr "<strong><span class=\"h4-fs\">Отслеживание времени:</
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "<strong>Employment Law</strong>"
-msgstr ""
+msgstr "<strong>Трудовое право</strong>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -495,17 +542,17 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "A personal&amp;nbsp;relationship, with a dedicated point of contact."
-msgstr ""
+msgstr "Личный&amp;nbsp;подход и наличие выделенного контактного лица."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "A statue of lady justice holding a scale of justice"
-msgstr ""
+msgstr "Статуя богини правосудия Фемиды с весами в руках"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "A steadfast commitment to ethics, honesty, and justice."
-msgstr ""
+msgstr "Неизменная приверженность этике, честности и справедливости."
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -558,6 +605,10 @@ msgid ""
 "                <strong>Sign App</strong>, and request the client's "
 "signature for the agreement."
 msgstr ""
+"Настраивайте свои <strong>Условия и положения</strong> прямо в коммерческом "
+"предложении, и клиенты смогут подписать его через свой портал Odoo, либо "
+"создайте и используйте шаблон <strong>Договора об оказании услуг</strong> в\n"
+"                <strong>модуле Подпись</strong>, и запросите подпись клиента."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -571,7 +622,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "Administrative Law"
-msgstr ""
+msgstr "Административное право"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -594,6 +645,9 @@ msgid ""
 "Aline is dedicated to empowering clients through legal education and "
 "support, helping them navigate complex legal landscapes."
 msgstr ""
+"Алин стремится расширять возможности клиентов посредством юридического "
+"образования и поддержки, помогая им ориентироваться в сложных правовых "
+"вопросах."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -616,6 +670,8 @@ msgstr "Назначение <strong>ответственных пользова
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid "Attach it directly to the related contact or opportunity in the CRM."
 msgstr ""
+"Прикрепите его непосредственно к соответствующему контакту или возможности в "
+"CRM."
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -635,7 +691,7 @@ msgstr "Базовая почасовая ставка для старшего �
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "Business Law"
-msgstr ""
+msgstr "Корпоративное право"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -666,6 +722,11 @@ msgid ""
 "on delivering\n"
 "            high-quality legal services."
 msgstr ""
+"Используя этот модуль, вы получите доступ к таким важным функциям, как "
+"управление делами, выставление счетов и учет времени. Эти инструменты "
+"оптимизируют рабочий процесс от первичных консультаций до биллинга, позволяя "
+"юридическим фирмам сосредоточиться на предоставлении\n"
+"            высококачественных услуг."
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -715,22 +776,22 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Chief Legal Officer"
-msgstr ""
+msgstr "Директор по правовым вопросам"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "Civil &amp;amp; Family Law"
-msgstr ""
+msgstr "Гражданское и &amp;amp; семейное право"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Client Confidentiality First"
-msgstr ""
+msgstr "Конфиденциальность клиентов прежде всего"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Client-Centric Approach"
-msgstr ""
+msgstr "Клиентоориентированный подход"
 
 #. module: industry_lawyer
 #: model:sign.template,redirect_url_text:industry_lawyer.sign_template_4
@@ -741,12 +802,12 @@ msgstr "Закрыть"
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid ""
 "Complete respect for the privacy and sensitive information of our clients."
-msgstr ""
+msgstr "Полная конфиденциальность и защита личных данных наших клиентов."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Confidentiality&amp;nbsp;"
-msgstr ""
+msgstr "Конфиденциальность&amp;nbsp;"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -784,6 +845,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Continuous pursuit of the highest standards in legal representation."
 msgstr ""
+"Постоянное стремление к высочайшим стандартам юридического представительства."
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -800,6 +862,8 @@ msgstr "Корпоративное право"
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "Corporate counsel, contract drafting, commercial dispute resolution."
 msgstr ""
+"Корпоративное консультирование, составление договоров, разрешение "
+"коммерческих споров."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -829,7 +893,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Discover New <strong>Legal Solutions</strong>"
-msgstr ""
+msgstr "Откройте для себя новые <strong>юридические решения</strong>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -841,11 +905,13 @@ msgstr "Узнайте больше об Odoo, погрузившись в на�
 msgid ""
 "Disputes with public authorities, civil service, zoning and urban planning."
 msgstr ""
+"Споры с государственными органами, государственная служба, зонирование и "
+"градостроительство."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "Divorce, inheritance, personal liability, residential leases."
-msgstr ""
+msgstr "Развод, наследство, личная ответственность, аренда жилых помещений."
 
 #. module: industry_lawyer
 #: model:project.task.type,name:industry_lawyer.project_task_type_3
@@ -855,7 +921,7 @@ msgstr "Выполнено"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Driving Justice Through Expertise"
-msgstr ""
+msgstr "Обеспечение справедливости с помощью экспертных знаний"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -885,16 +951,18 @@ msgstr "Сотрудник"
 msgid ""
 "Employment termination, labor disputes, drafting of employment contracts."
 msgstr ""
+"Расторжение трудового договора, трудовые споры, составление трудовых "
+"контрактов."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Empowering Clients to Achieve Justice"
-msgstr ""
+msgstr "Помогаем клиентам добиваться справедливости"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Enhance Your <strong>Legal Experience</strong>"
-msgstr ""
+msgstr "Новый уровень <strong>юридической поддержки</strong>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -908,7 +976,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Experience the real <br/> justice"
-msgstr ""
+msgstr "Правосудие в <br/> действии"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
@@ -916,16 +984,19 @@ msgid ""
 "Experience top-tier legal services designed to protect your rights, <br/> "
 "ensure compliance, and drive successful outcomes for your case."
 msgstr ""
+"Воспользуйтесь юридическими услугами высшего уровня, предназначенными для "
+"защиты ваших прав, <br/> обеспечения правового соответствия и достижения "
+"успешных результатов по вашему делу."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Experienced attorneys committed to your legal success"
-msgstr ""
+msgstr "Опытные адвокаты, приверженные вашему юридическому успеху"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Expert advice to navigate complex legal challenges"
-msgstr ""
+msgstr "Экспертные советы для решения сложных правовых задач"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -976,6 +1047,9 @@ msgid ""
 "actively engages in case development, client relations, and strategic "
 "planning."
 msgstr ""
+"Основатель и главный стратег, Дэвид является идейным вдохновителем нашей "
+"фирмы. Он активно участвует в развитии дел, отношениях с клиентами и "
+"стратегическом планировании."
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -985,7 +1059,7 @@ msgstr "ОБЩИЕ УСЛОВИЯ И ПОЛОЖЕНИЯ СОГЛАШЕНИЯ"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Get in touch with us"
-msgstr ""
+msgstr "Свяжитесь с нами"
 
 #. module: industry_lawyer
 #. odoo-javascript
@@ -1022,7 +1096,7 @@ msgstr "Информировать адвоката о любых существ
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Integrity&amp;nbsp;"
-msgstr ""
+msgstr "Профессиональная этика&amp;nbsp;"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
@@ -1036,6 +1110,10 @@ msgid ""
 "attorney, he has successfully represented clients in various legal matters. "
 "John is recognized as a leading advocate in the field."
 msgstr ""
+"Джон страстно увлечен вопросами правосудия. Имея более чем десятилетний опыт "
+"работы в качестве судебного адвоката, он успешно представлял интересы "
+"клиентов в различных юридических вопросах. Джон признан ведущим адвокатом в "
+"этой области."
 
 #. module: industry_lawyer
 #: model:hr.job,name:industry_lawyer.hr_job_2
@@ -1071,7 +1149,7 @@ msgstr "Помощник юриста"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Legal Excellence"
-msgstr ""
+msgstr "Высший стандарт права"
 
 #. module: industry_lawyer
 #: model:product.template,name:industry_lawyer.product_product_12_product_template
@@ -1083,6 +1161,8 @@ msgstr "Юридические услуги"
 msgid ""
 "Link Knowledge articles or notes with practical info (e.g., KYC assessment)."
 msgstr ""
+"Привязывайте статьи модуля Knowledge или заметки с полезной информацией "
+"(например, оценку KYC)."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1152,7 +1232,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Managing Partner"
-msgstr ""
+msgstr "Управляющий партнер"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1169,7 +1249,7 @@ msgstr "Помечайте важные документы как избранн
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Meet Our Legal Experts"
-msgstr ""
+msgstr "Познакомьтесь с нашими экспертами"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
@@ -1193,6 +1273,9 @@ msgid ""
 "cases and achieve favorable outcomes. He is committed to delivering "
 "excellence and driving client success."
 msgstr ""
+"Майкл, обладая обширным юридическим опытом, помогает нам вести сложные дела "
+"и добиваться благоприятных результатов. Он стремится к достижению "
+"совершенства и обеспечению успеха клиентов."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.contactus
@@ -1271,7 +1354,7 @@ msgstr "Наши услуги"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Our Values<br/>"
-msgstr ""
+msgstr "Наши ценности<br/>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
@@ -1280,6 +1363,9 @@ msgid ""
 "law, criminal defense, and business law. We are committed to providing "
 "personalized support to meet your legal needs."
 msgstr ""
+"Наша фирма специализируется на широком спектре юридических услуг, включая "
+"семейное право, уголовную защиту и коммерческое право. Мы стремимся "
+"обеспечить индивидуальную поддержку для решения ваших правовых вопросов."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
@@ -1287,6 +1373,8 @@ msgid ""
 "Our specialists bring a wealth of legal knowledge and experience to deliver "
 "top-quality representation every time."
 msgstr ""
+"Наши специалисты обладают обширными юридическими знаниями и опытом, что "
+"позволяет им всегда обеспечивать высочайшее качество представительства."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1296,7 +1384,7 @@ msgstr "Интеграция с Outlook"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Partner with us to safeguard your future"
-msgstr ""
+msgstr "Сотрудничайте с нами, чтобы обеспечить свое будущее"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -1306,7 +1394,7 @@ msgstr "Оплачивать услуги в согласованные срок
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Personalized legal solutions for your needs"
-msgstr ""
+msgstr "Индивидуальные юридические решения для ваших нужд"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
@@ -1331,7 +1419,7 @@ msgstr "Шаблоны проектов"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "Proven strategies for successful legal outcomes"
-msgstr ""
+msgstr "Проверенные стратегии для достижения успешных юридических результатов"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -1341,7 +1429,7 @@ msgstr "Предоставить всю необходимую информац�
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "Proximity&amp;nbsp;"
-msgstr ""
+msgstr "География присутствия&amp;nbsp;"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1349,6 +1437,8 @@ msgid ""
 "Quickly access all essential data when reviewing a case or preparing a "
 "proposal."
 msgstr ""
+"Быстрый доступ ко всем необходимым данным при рассмотрении дела или "
+"подготовке предложения."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1380,6 +1470,8 @@ msgid ""
 "Save key info like KYC details, risk level, or client background in the "
 "<strong>Knowledge App</strong>’s clipboard."
 msgstr ""
+"Сохраняйте важную информацию, такую как данные KYC, уровень риска или "
+"сведения о клиенте, в буфере <strong>модуля Knowledge</strong>."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1431,6 +1523,13 @@ msgid ""
 "span></font>\n"
 "                </strong>"
 msgstr ""
+"Демонстрируйте свои услуги и отзывы клиентов без лишних усилий на вашем "
+"профессиональном сайте, используя\n"
+"                <strong>\n"
+"                    <font class=\"text-o-color-1\">модуль Вебсайт</"
+"font><font style=\"color: rgb(66, 66, 66);\"><span style=\"font-weight: "
+"normal;\">.</span></font>\n"
+"                </strong>"
 
 #. module: industry_lawyer
 #: model:crm.tag,name:industry_lawyer.crm_tag_3
@@ -1444,6 +1543,8 @@ msgid ""
 "Start with the client – understand their needs and provide tailored legal "
 "solutions."
 msgstr ""
+"Начните с клиента – поймите его потребности и предложите индивидуальные "
+"юридические решения."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1465,6 +1566,11 @@ msgid ""
 "collaboration, and\n"
 "                compliance."
 msgstr ""
+"Оптимизируйте правовое исследование и совместную работу благодаря "
+"<strong><font class=\"text-o-color-1\">модулю Knowledge</font></strong>, "
+"централизуя судебную практику, нормативные акты и внутренние руководства для "
+"быстрого поиска, совместной работы и соблюдения\n"
+"                требований."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.contactus
@@ -1535,6 +1641,11 @@ msgid ""
 "and protect their\n"
 "            interests during legal proceedings."
 msgstr ""
+"Этот модуль предоставляет полный набор инструментов, разработанных "
+"специально для юридических фирм и позволяющих эффективно управлять временем, "
+"встречами, сроками, делами и отношениями с клиентами. Юристы представляют "
+"своих клиентов и защищают их\n"
+"            интересы в ходе судебных разбирательств."
 
 #. module: industry_lawyer
 #: model_terms:product.template,description:industry_lawyer.product_product_12_product_template
@@ -1590,6 +1701,10 @@ msgid ""
 "costs in one place, such as a restaurant with a client or office supplies. "
 "This ensures internal expenses remain transparent and easy to manage."
 msgstr ""
+"Используйте <strong>модуль Расходы</strong>, чтобы отслеживать все затраты "
+"фирмы в одном месте, будь то поход в ресторан с клиентом или покупка офисных "
+"принадлежностей. Это гарантирует, что внутренние расходы останутся "
+"прозрачными и простыми в управлении."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1608,6 +1723,8 @@ msgid ""
 "Use the <strong>Website App</strong> to enhance your law firm’s online "
 "visibility and make it easy for clients to contact you."
 msgstr ""
+"Используйте <strong>модуль Вебсайт</strong>, чтобы повысить видимость вашей "
+"юридической фирмы в интернете и упростить клиентам процесс связи с вами."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1641,6 +1758,9 @@ msgid ""
 "We focus on thorough research and strategic planning, ensuring comprehensive "
 "legal representation that meets industry standards."
 msgstr ""
+"Мы уделяем особое внимание тщательному исследованию и стратегическому "
+"планированию, обеспечивая комплексное юридическое представительство, "
+"соответствующее отраслевым стандартам."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
@@ -1648,6 +1768,8 @@ msgid ""
 "We provide expert legal representation, ensuring your rights are protected "
 "in every case we handle."
 msgstr ""
+"Мы предоставляем профессиональные юридические услуги, обеспечивая защиту "
+"ваших прав в каждом деле, которое мы ведем."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1666,7 +1788,7 @@ msgstr "Добро пожаловать! Приятного изучения."
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "We’re seeking exceptional legal talent to join our firm"
-msgstr ""
+msgstr "Мы ищем талантливых юристов"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
@@ -1679,6 +1801,9 @@ msgid ""
 "With a client-focused approach, we offer personalized legal solutions that "
 "adapt to your unique circumstances and needs."
 msgstr ""
+"Благодаря клиентоориентированному подходу мы предлагаем индивидуальные "
+"юридические решения, адаптированные к вашим уникальным обстоятельствам и "
+"потребностям."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1688,6 +1813,11 @@ msgid ""
 "your calendar that works for both of you, saving time and avoiding\n"
 "                    back-and-forth communication."
 msgstr ""
+"С <strong>модулем Встречи</strong> вы можете легко планировать встречи с "
+"клиентами, делясь ссылкой для бронирования. Клиенты могут выбрать время "
+"прямо в вашем календаре, которое удобно обеим сторонам, что экономит время и "
+"избавляет\n"
+"                    от лишней переписки."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1745,7 +1875,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "a close up of a shoe"
-msgstr ""
+msgstr "ботинок крупным планом"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1760,13 +1890,13 @@ msgstr "и"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "assorted-title of books piled in the shelves"
-msgstr ""
+msgstr "книги с разными названиями на полках"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "black book on shelf"
-msgstr ""
+msgstr "черная книга на полке"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1781,23 +1911,23 @@ msgstr "если вам нужна помощь!"
 #. module: industry_lawyer
 #: model:documents.document,name:industry_lawyer.documents_document_2
 msgid "lettre-de-mission-altalaw-01-04-2018-.pdf"
-msgstr ""
+msgstr "lettre-de-mission-altalaw-01-04-2018-.pdf"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "low angle photo of city high rise buildings during daytime"
-msgstr ""
+msgstr "фото городских небоскребов с нижнего ракурса в дневное время"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "people walking on grey concrete floor during daytime"
-msgstr ""
+msgstr "люди, идущие по серому бетонному полу в дневное время"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 msgid "people walking on spiral staircase"
-msgstr ""
+msgstr "люди, идущие по винтовой лестнице"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1808,14 +1938,14 @@ msgstr "запросить демо"
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "two people shaking hands"
-msgstr ""
+msgstr "два человека пожимают друг другу руки"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.homepage
 msgid "white and black happy birthday signage"
-msgstr ""
+msgstr "бело-черная надпись «С днем рождения»"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
 msgid "yellow family sign"
-msgstr ""
+msgstr "желтый знак «Семья»"

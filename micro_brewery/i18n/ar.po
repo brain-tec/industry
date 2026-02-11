@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 10:36+0000\n"
+"POT-Creation-Date: 2026-02-02 09:00+0000\n"
 "PO-Revision-Date: 2026-01-06 09:25+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
@@ -714,15 +714,11 @@ msgstr "Chaudfontaine"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
-"Collect deposits when you deliver your customer. It is easy. When validating "
-"your delivery, you can directly set a \"Return\" and precisely count the "
-"number of each type of deposit your customer gave you. It will automatically "
-"be reflected on his invoice or issue a credit note."
+"Collect deposits when you deliver to your customer. It is easy. When "
+"validating your delivery, you can directly set a \"Return\" and precisely "
+"count the number of each type of deposit your customer gave you. It will "
+"automatically be reflected on his invoice or issue a credit note."
 msgstr ""
-"قم بتحصيل مبلغ التأمين عند توصيل العميل. الأمر سهل. عند تصديق عملية التوصيل "
-"الخاصة بك، يمكنك تعيين عملية ”إرجاع“ مباشرةً وحساب عدد كل نوع من أنواع مبالغ "
-"التأمين التي قدمها لك عميلك بدقة سينعكس ذلك تلقائياً على فاتورته أو سيتم "
-"إصدار إشعار دائن."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -1754,8 +1750,8 @@ msgid ""
 "The automated crate split based on BoM (defined from crate products with "
 "\"contains\" fields) is not supported from the bar (PoS)."
 msgstr ""
-"لا يتم دعم تقسيم الصناديق تلقائيًا استنادًا إلى قائمة المواد "
-"(المحدد من منتجات الصناديق التي تحتوي على حقول \"يحتوي على\")(نقاط البيع)."
+"لا يتم دعم تقسيم الصناديق تلقائيًا استنادًا إلى قائمة المواد (المحدد من منتجات "
+"الصناديق التي تحتوي على حقول \"يحتوي على\")(نقاط البيع)."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2254,6 +2250,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
 msgstr "🎓 وحدات القياس"
+
+#~ msgid ""
+#~ "Collect deposits when you deliver your customer. It is easy. When "
+#~ "validating your delivery, you can directly set a \"Return\" and precisely "
+#~ "count the number of each type of deposit your customer gave you. It will "
+#~ "automatically be reflected on his invoice or issue a credit note."
+#~ msgstr ""
+#~ "قم بتحصيل مبلغ التأمين عند توصيل العميل. الأمر سهل. عند تصديق عملية "
+#~ "التوصيل الخاصة بك، يمكنك تعيين عملية ”إرجاع“ مباشرةً وحساب عدد كل نوع من "
+#~ "أنواع مبالغ التأمين التي قدمها لك عميلك بدقة سينعكس ذلك تلقائياً على "
+#~ "فاتورته أو سيتم إصدار إشعار دائن."
 
 #~ msgid ""
 #~ "Apply DEP XX taxes to those products, creating some if necessary, and "

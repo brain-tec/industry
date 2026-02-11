@@ -4,13 +4,13 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Marta (wacm)" <wacm@odoo.com>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 15:05+0000\n"
-"PO-Revision-Date: 2025-11-06 13:13+0000\n"
+"PO-Revision-Date: 2026-02-06 13:18+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "guest_house/pl/>\n"
@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -163,7 +163,7 @@ msgstr "<strong>Podstawy</strong>"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<strong>Company specific offers</strong>"
-msgstr ""
+msgstr "<strong>Oferty specyficzne dla firmy</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -189,7 +189,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "<strong>Shared offers</strong>"
-msgstr ""
+msgstr "<strong>Oferty wspólne</strong>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -231,7 +231,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Adjusting your offers in consequence"
-msgstr ""
+msgstr "Dostosowanie ofert w konsekwencji"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -285,7 +285,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Assign them a resource, which helps you keeping track."
-msgstr ""
+msgstr "Przypisz im zasób, który pomoże Ci śledzić postępy."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -456,6 +456,9 @@ msgid ""
 "a result, they are available from all companies and branches, as well as all "
 "websites from those."
 msgstr ""
+"Utworzone oferty nie są przypisane do żadnej firmy ani oddziału "
+"(domyślne zachowanie).<br/>W rezultacie są one dostępne dla wszystkich firm "
+"i oddziałów, a także wszystkich stron internetowych tych podmiotów."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -499,19 +502,19 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Each company can have its own website!"
-msgstr ""
+msgstr "Każda firma może mieć własną stronę internetową!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Employee assignations"
-msgstr ""
+msgstr "Przydziały pracowników"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Employee would open the tasks from their hand and update the status until "
 "Clean."
-msgstr ""
+msgstr "Pracownik otworzy zadania ręcznie i zaktualizuje status na „Czyste”."
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_20
@@ -587,6 +590,8 @@ msgid ""
 "From the Roles sections, you can select the companies and branches this "
 "employee shall have access to as well as the default one."
 msgstr ""
+"W sekcji „Role” można wybrać firmy i oddziały, do których pracownik będzie "
+"miał dostęp, a także domyślną firmę i oddział."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -602,7 +607,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "From there you can add new companies."
-msgstr ""
+msgstr "Z tego miejsca można dodawać nowe firmy."
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_19
@@ -636,6 +641,10 @@ msgid ""
 "                    approvers can check each room and set their state to "
 "ready to close the tasks."
 msgstr ""
+"W przypadku korzystania z ustawienia zatwierdzającego sprzątanie, "
+"wyznaczeni\n"
+"                    zatwierdzający mogą sprawdzić każdy pokój i ustawić jego "
+"stan na gotowy do zamknięcia zadań."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -653,7 +662,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "In any case, the resources are company and branch dependent."
-msgstr ""
+msgstr "W każdym razie zasoby zależą od firmy i oddziału."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -683,6 +692,8 @@ msgid ""
 "It enables each place manager to adjust the stay offers with greater "
 "flexibility without impacting other places."
 msgstr ""
+"Umożliwia to każdemu kierownikowi obiektu dostosowanie ofert pobytu z "
+"większą elastycznością, bez wpływu na inne obiekty."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -721,7 +732,7 @@ msgstr "Zarządzaj swoimi klientami w aplikacji <strong>Kontakty</strong>"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Managing your businesses"
-msgstr ""
+msgstr "Zarządzanie firmą"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_19
@@ -751,6 +762,9 @@ msgid ""
 "employees to access only to some of them in case they always work in some of "
 "your places."
 msgstr ""
+"Teraz, gdy masz kilka firm lub oddziałów, możesz chcieć, aby niektórzy "
+"pracownicy mieli dostęp tylko do niektórych z nich, na przykład jeśli zawsze "
+"pracują w niektórych z Twoich lokalizacji."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -776,6 +790,9 @@ msgid ""
 "On a daily basis, house keeping tasks are created depending\n"
 "                    the current stays."
 msgstr ""
+"Codziennie tworzone są zadania związane z utrzymaniem porządku w zależności "
+"od\n"
+"                    aktualnych pobytów."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -787,7 +804,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "On top of guest and stay management, you need to keep the place clean!"
-msgstr ""
+msgstr "Oprócz zarządzania gośćmi i pobytami, musisz dbać o czystość miejsca!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -803,6 +820,10 @@ msgid ""
 "selector at the top right of your screen.<br/>This will expose depending on "
 "where you are, only the selected companies and branches data."
 msgstr ""
+"Po zdefiniowaniu można przełączać się między firmami lub oddziałami za "
+"pomocą selektora firm znajdującego się w prawym górnym rogu ekranu.<br/>W "
+"zależności od lokalizacji użytkownika wyświetlane będą tylko dane wybranych "
+"firm i oddziałów."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -844,12 +865,17 @@ msgid ""
 "is\n"
 "                the daily list of house keeping tasks to be tackled."
 msgstr ""
+"Otwórz teraz aplikację zakwaterowania, menu Sprzątanie.<br/>To jest\n"
+"                codzienna lista zadań związanych ze sprzątaniem, które "
+"należy wykonać."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Open one, assign it to an employee to plan the house keeping of the day."
 msgstr ""
+"Otwórz jakieś i przypisz je pracownikowi, aby zaplanował sprzątanie na dany "
+"dzień."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -857,6 +883,8 @@ msgid ""
 "Open the <strong>Settings App</strong> and reach the companies from the menu "
 "Users &amp; Companies."
 msgstr ""
+"Otwórz aplikację <strong>Ustawienia</strong> i przejdź do sekcji Firmy z "
+"menu Użytkowników &amp; Firm."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -864,6 +892,8 @@ msgid ""
 "Open the <strong>Settings App</strong> and reach the users from the menu "
 "Users &amp; Companies."
 msgstr ""
+"Otwórz aplikację <strong>Ustawienia</strong> i przejdź do sekcji Użytkownicy "
+"z menu Użytkowników &amp; Firm."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -878,6 +908,9 @@ msgid ""
 "have an\n"
 "                overview of the cleanness state of your resources."
 msgstr ""
+"Otwórz tablicę w aplikacji do zarządzania obiektami noclegowymi, w menu "
+"„Sprzątanie”.<br/>Tutaj masz\n"
+"                przegląd stanu czystości swoich zasobów."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -992,7 +1025,7 @@ msgstr "Zarejestruj tożsamość gości"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Recording the guest attendance is an obligation in numerous countries."
-msgstr ""
+msgstr "Rejestrowanie obecności gości jest obowiązkowe w wielu krajach."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -1034,7 +1067,7 @@ msgstr "Zobacz wszystkie<span class=\"fa fa-long-arrow-right ms-2\"/>"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Select one of your employee."
-msgstr ""
+msgstr "Wybierz jednego ze swoich pracowników."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1053,13 +1086,15 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Setup company or branch specific offers when relevant."
-msgstr ""
+msgstr "W razie potrzeby skonfiguruj oferty specyficzne dla firmy lub oddziału."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Share your stay offers across your companies and branches (default behavior);"
 msgstr ""
+"Udostępniaj oferty pobytu we wszystkich swoich firmach i oddziałach "
+"(domyślne zachowanie);"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_16
@@ -1080,7 +1115,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Still from their Rental Order, open the Guests tab."
-msgstr ""
+msgstr "Wciąż w sekcji Zamówienia wynajmu otwórz zakładkę Goście."
 
 #. module: guest_house
 #: model:product.template,name:guest_house.product_template_15
@@ -1098,6 +1133,8 @@ msgid ""
 "The strength of Odoo is to separate the accounting and many other aspects "
 "which are company dependent!"
 msgstr ""
+"Siłą Odoo jest oddzielenie księgowości i wielu innych aspektów, które są "
+"zależne od firmy!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1113,6 +1150,8 @@ msgid ""
 "They as well share the same pricing, defined at the stay offer level, which "
 "has its pros and cons."
 msgstr ""
+"Oferują one również te same ceny, określone na poziomie oferty pobytu, co ma "
+"swoje wady i zalety."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1130,6 +1169,8 @@ msgid ""
 "This setup is relevant in case of place specific offers or when pricing "
 "varies between places."
 msgstr ""
+"Ta konfiguracja ma znaczenie w przypadku ofert dotyczących konkretnych "
+"miejsc lub gdy ceny różnią się w zależności od lokalizacji."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1159,7 +1200,7 @@ msgstr "Śledź obecność gości"
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Two options are now available to you with multiple companies and branches:"
-msgstr ""
+msgstr "W przypadku wielu firm i oddziałów dostępne są teraz dwie opcje:"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1197,6 +1238,9 @@ msgid ""
 "they are available only for the selected company or branch, and will be "
 "available only from its website."
 msgstr ""
+"Podczas tworzenia oferty przypisz ją do firmy lub oddziału.<br/>W rezultacie "
+"będzie ona dostępna tylko dla wybranej firmy lub oddziału i będzie dostępna "
+"wyłącznie na jego stronie internetowej."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1232,6 +1276,7 @@ msgstr ""
 msgid ""
 "You can as well select your company and in the Branches tab define branches."
 msgstr ""
+"Możesz również wybrać swoją firmę i w zakładce Oddziały zdefiniować oddziały."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1300,6 +1345,9 @@ msgid ""
 "willing to run them all from the same database.<b/>We got you covered with "
 "this using multiple companies or branches!"
 msgstr ""
+"Być może prowadzisz wiele placówek jednocześnie i najprawdopodobniej chcesz "
+"zarządzać nimi wszystkimi z tej samej bazy danych.<b/>Mamy dla Ciebie "
+"rozwiązanie, które pozwala na korzystanie z wielu firm lub oddziałów!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1402,6 +1450,8 @@ msgid ""
 "🎓\n"
 "                Companies"
 msgstr ""
+"🎓\n"
+"                Firmy"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1409,6 +1459,8 @@ msgid ""
 "🎓\n"
 "                Websites"
 msgstr ""
+"🎓\n"
+"                Strony internetowe"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1441,17 +1493,17 @@ msgstr "🎓 Sklep internetowy"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🎓Booking Engine"
-msgstr ""
+msgstr "🎓 System rezerwacji"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🎓Planning"
-msgstr ""
+msgstr "🎓 Planowanie"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🎓Rental"
-msgstr ""
+msgstr "🎓 Wynajem"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1461,7 +1513,7 @@ msgstr "👋 Pomachaj swoim gościom"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🔢 Running multiple places"
-msgstr ""
+msgstr "🔢 Zarządzanie wieloma lokacjami"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1476,7 +1528,7 @@ msgstr "😎 Powitaj gości"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🧽 Managing house keeping"
-msgstr ""
+msgstr "🧽 Zarządzanie sprzątaniem"
 
 #~ msgid "Comfy Room"
 #~ msgstr "Wygodny pokój"
