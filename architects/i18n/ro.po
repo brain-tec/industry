@@ -4,21 +4,22 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Dorin Hongu <dhongu@gmail.com>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:29+0000\n"
-"PO-Revision-Date: 2025-11-29 19:52+0000\n"
-"Last-Translator: Dorin Hongu <dhongu@gmail.com>\n"
+"PO-Revision-Date: 2026-02-03 12:50+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "architects/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: architects
@@ -27,6 +28,8 @@ msgid ""
 "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3575 "
 "Fake Buena Vista Avenue"
 msgstr ""
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3575 "
+"Fake Buena Vista Avenue"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -35,6 +38,9 @@ msgid ""
 "class=\"o_translate_inline\" href=\"mail-to:info@yourcompany.example.com\" "
 "title=\"Send an email\">info@yourcompany.example.com</a>"
 msgstr ""
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<a "
+"class=\"o_translate_inline\" href=\"mail-to:info@yourcompany.example.com\" "
+"title=\"Trimite un email\">info@yourcompany.example.com</a>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -43,6 +49,9 @@ msgid ""
 "class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title=\"Call "
 "Customer Service\">+1555-555-5556</a>"
 msgstr ""
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<a "
+"class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title="
+"\"Sună Serviciul Clienți\">+1555-555-5556</a>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -85,6 +94,10 @@ msgid ""
 "and convert design proposals into\n"
 "                signed contracts."
 msgstr ""
+"<b>Aplicația CRM</b>: Centralizează interacțiunile cu clienții pentru a "
+"gestiona eficient potențialii clienți și a transforma propunerile de design "
+"în\n"
+"                contracte semnate."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -93,6 +106,9 @@ msgid ""
 "such as architectural drawings,\n"
 "                permits, and blueprints."
 msgstr ""
+"<b>Aplicația Documente</b>: Organizează, versionează și partajează în "
+"siguranță fișiere critice precum desenele arhitecturale,\n"
+"                autorizațiile și planurile."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -101,6 +117,9 @@ msgid ""
 "based on project milestones or\n"
 "                actual time spent."
 msgstr ""
+"<b>Aplicația Facturare</b>: Menține un flux de numerar sănătos prin "
+"facturarea flexibilă a clienților bazată pe reperele proiectului sau\n"
+"                timpul efectiv petrecut."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -109,6 +128,9 @@ msgid ""
 "internal guidelines to ensure consistency\n"
 "                across the team."
 msgstr ""
+"<b>Aplicația Cunoaștere</b>: Centralizează standardele de design, codurile "
+"de construcție și ghidurile interne pentru a asigura coerența\n"
+"                în cadrul echipei."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -117,6 +139,9 @@ msgid ""
 "distinct phases like schematic\n"
 "                design, development, and construction."
 msgstr ""
+"<b>Aplicația Proiecte</b>: Orchestrează proiecte arhitecturale complexe prin "
+"gestionarea fazelor distincte precum designul\n"
+"                schematic, dezvoltarea și construcția."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -125,6 +150,9 @@ msgid ""
 "architectural services, streamlining\n"
 "                the agreement process."
 msgstr ""
+"<b>Aplicația Vânzări</b>: Creeză propuneri și contracte profesionale "
+"personalizate pentru servicii arhitecturale, eficientizând\n"
+"                procesul de înțelegere."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -133,6 +161,9 @@ msgid ""
 "spent on design drafting, client\n"
 "                meetings, and site visits."
 msgstr ""
+"<b>Aplicația Pontaj</b>: Asigură rentabilitatea prin monitorizarea precisă a "
+"timpului petrecut pe proiectarea schematică, întâlnirile cu clienții\n"
+"                și vizitele pe șantier."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -263,8 +294,8 @@ msgid ""
 "                                  <span class=\"s_website_form_mark\"> *</"
 "span>"
 msgstr ""
-"<span class=\"s_website_form_label_content\">Subiect</"
-"span>                                 <span class=\"s_website_form_mark\"> "
+"<span class=\"s_website_form_label_content\">Compania ta</span>\n"
+"                                  <span class=\"s_website_form_mark\"> "
 "*</span>"
 
 #. module: architects
@@ -312,6 +343,16 @@ msgid ""
 "opportunity are created when the quotation is sent)\n"
 "                </span>"
 msgstr ""
+"<span style=\"font-size: 14px\">\n"
+"                    Acțiuni automatizate au fost create pentru a genera "
+"activități la momentele potrivite (o acțiune de apelare a potențialului "
+"client\n"
+"                    este creată când există o oportunitate nouă, o acțiune "
+"de sarcină este generată când oportunitatea se află în stadiul de \"analiză "
+"a\n"
+"                    necesităților\", un reminder și o activitate de anulare "
+"a oportunității sunt create când cotația este trimisă)\n"
+"                </span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -323,6 +364,12 @@ msgid ""
 "can be suited to the client's request)\n"
 "                </span>"
 msgstr ""
+"<span style=\"font-size: 14px\">\n"
+"                    Din oportunitate, o cotat̆ie poate fi creat̆ simplu "
+"folosind butonul \"crează cotat̆ie\", și folosind unul dintre\n"
+"                    șabloanele de cotat̆ie pre-create "
+"(serviciile și cantit̆ăt̆ile pot fi adaptate cerint̆ei clientului)\n"
+"                </span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -340,6 +387,19 @@ msgid ""
 "                </span>\n"
 "                <br/>"
 msgstr ""
+"<span style=\"font-size: 14px\">\n"
+"                    Setează un cost pentru fiecare angajat și folosește "
+"aplicația de Cheltuieli pentru a înregistra cheltuielile proiectului. Nu "
+"este doar\n"
+"                    despre forța de muncă și materiale, ci și despre "
+"urmărirea costurilor subcontractorilor și orice\n"
+"                    alte cheltuieli legate de proiect. Deschide raportul de "
+"rentabilitate pentru proiectul tău și acolo vei vedea\n"
+"                    costurile bugetate, costurile reale, veniturile și "
+"marjele de profit. Aceasta te va ajuta să afli cum să crești\n"
+"                    profitul.\n"
+"                </span>\n"
+"                <br/>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -349,6 +409,10 @@ msgid ""
 "                    the customer. A set of tasks are created in this "
 "project, based on the sale order lines.</span>"
 msgstr ""
+"<span style=\"font-size: 14px\">Mulțumită configurării serviciilor, un "
+"proiect este creat automat odată ce cotația este confirmată de\n"
+"                    client. Un set de sarcini sunt create în acest proiect, "
+"bazat pe liniile comenzii de vânzare.</span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -369,7 +433,7 @@ msgstr ""
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
-msgstr ""
+msgstr "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -395,6 +459,8 @@ msgid ""
 "A set of architectural services have already been created and can be edited "
 "to match the architects' services."
 msgstr ""
+"Un set de servicii arhitecturale au fost deja create și pot fi editate "
+"pentru a se potrivi serviciilor arhitecților."
 
 #. module: architects
 #: model:planning.role,name:architects.planning_role_1
@@ -409,7 +475,7 @@ msgstr "Industria Arhitecților"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Architectural Designer"
-msgstr ""
+msgstr "Designer Arhitectural"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_15
@@ -445,7 +511,7 @@ msgstr "Studiu BEP"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Basics"
-msgstr ""
+msgstr "Baza"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -575,7 +641,7 @@ msgstr "Plan Parter.jpg"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Follow project profitability"
-msgstr ""
+msgstr "Urmărește rentabilitatea proiectului"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -632,7 +698,7 @@ msgstr "Jane Ford"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Lead Architect"
-msgstr ""
+msgstr "Arhitect Principal"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -640,6 +706,8 @@ msgid ""
 "Leads get created in the CRM by filling the \"Contact us\" form of the "
 "website or manually by the salesperson."
 msgstr ""
+"Potențialii clienți sunt creați în CRM prin completarea formularului "
+"\"„Contactați-ne\" de pe site-ul web sau manual de către vânzător."
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -654,7 +722,7 @@ msgstr "Hai să discutăm cum putem aduce viziunea ta la viață<br/><br/>"
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid "Manage documents"
-msgstr ""
+msgstr "Gestionează documente"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -802,7 +870,7 @@ msgstr "Promotor"
 #. module: architects
 #: model:documents.document,name:architects.documents_document_28
 msgid "Regulatory & Permits"
-msgstr ""
+msgstr "Reglementări și autorizații"
 
 #. module: architects
 #: model:sale.order.template.line,name:architects.sale_order_template_line_24
@@ -810,6 +878,9 @@ msgid ""
 "Reimbursable expenses not included: Large prints, third-party studies (e.g., "
 "structural, thermal, acoustic), travel outside project zone"
 msgstr ""
+"Cheltuieli rambursabile neinclude: Tipar mare, studii terțe "
+"(de ex., structurale, termice, acustice), călătorii în afara zonei "
+"proiectului"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.crm_lead_form_customization_architects
@@ -908,6 +979,10 @@ msgid ""
 "                either with the address or with the geolocation if there's "
 "no assigned address yet)"
 msgstr ""
+"Există de asemenea o vizualizare pe hartă pentru proiecte (proiectele sunt "
+"asociate unui partener pe baza locației proiectelor,\n"
+"                fie cu adresa sau cu geolocația dacă nu există încă o adresă "
+"atribuită)"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -963,11 +1038,14 @@ msgid ""
 "philosophy, or a specific project.<br/> To be successful, your content needs "
 "to resonate with your audience.<br/><br/>"
 msgstr ""
+"Scrieți unul sau două paragrafe descriind serviciile dvs. arhitecturale, "
+"filozofia de design sau un proiect specific.<br/> Pentru a reuși, conținutul "
+"dvs. trebuie să rezoneze cu publicul dvs.<br/><br/>"
 
 #. module: architects
 #: model:documents.document,name:architects.documents_document_36
 msgid "plan.jpg"
-msgstr ""
+msgstr "plan.jpg"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -981,6 +1059,15 @@ msgid ""
 "                    produced documents.\n"
 "                </span>"
 msgstr ""
+"​\n"
+"                <span style=\"font-size: 14px\">\n"
+"                    Folosește aplicația de documente pentru a stoca și "
+"partaja toate documentele proiectului. Sub-spații de lucru sunt create "
+"pentru fiecare proiect,\n"
+"                    și link-ul către aceste sub-spații de lucru poate fi "
+"partajat cu clienții astfel încât aceștia să aibă acces direct la toate\n"
+"                    documentele produse.\n"
+"                </span>"
 
 #~ msgid ""
 #~ "<span style=\"font-size: 14px;\">\n"

@@ -5,13 +5,14 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Dorin Hongu <dhongu@gmail.com>, 2025.
 # Odoo Translation Bot <c3p@odoo.com>, 2025.
+# Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 06:08+0000\n"
-"PO-Revision-Date: 2025-12-17 15:48+0000\n"
-"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
+"PO-Revision-Date: 2026-02-03 12:50+0000\n"
+"Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
 "climbing_gym/ro/>\n"
 "Language: ro\n"
@@ -66,6 +67,7 @@ msgstr "100% la 1 intrare nelimitat"
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 msgid "2,000 climbers<br/> have enjoyed our gym this month."
 msgstr ""
+"2.000 de escaladatori<br/> s-au bucurat de sala noastră în această lună."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -73,6 +75,8 @@ msgid ""
 "<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/"
 "contactus\">Start Climbing Now <span class=\"fa fa-angle-right ms-2\"/></a>"
 msgstr ""
+"<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/contactus\""
+">Începe escalada acum <span class=\"fa fa-angle-right ms-2\"/></a>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -80,6 +84,8 @@ msgid ""
 "<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/"
 "contactus\">Get in touch with us</a>"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/contactus\""
+">Contactează-ne</a>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -87,21 +93,23 @@ msgid ""
 "<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Join us today</"
 "a>"
 msgstr ""
+"<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Alătură-te "
+"astăzi</a>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 msgid "<br/> For every climber"
-msgstr ""
+msgstr "<br/> Pentru fiecare escaladator"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 msgid "<br/> Open-door policy"
-msgstr ""
+msgstr "<br/> Politica ușii deschise"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 msgid "<br/> Our mission"
-msgstr ""
+msgstr "<br/> Misiunea noastră"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -119,6 +127,10 @@ msgid ""
 "style=\"color: rgb(66, 66, 66);\"> configuration if you have a bar or a "
 "restaurant</font>"
 msgstr ""
+"<font style=\"color: rgb(66, 66, 66);\">Extindeți configurația </"
+"font><strong><font style=\"color: rgb(66, 66, 66);\">aplicației Point of "
+"Sales</font></strong><font style=\"color: rgb(66, 66, 66);\"> dacă aveți un "
+"bar sau un restaurant</font>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -127,6 +139,9 @@ msgid ""
 "the </font><strong><font style=\"color: rgb(66, 66, 66);\">Inventory App</"
 "font></strong>"
 msgstr ""
+"<font style=\"color: rgb(66, 66, 66);\">Gestionați stocul de bunuri "
+"mulțumită </font><strong><font style=\"color: rgb(66, 66, 66);\">aplicației "
+"Inventory</font></strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -135,6 +150,9 @@ msgid ""
 "font><strong><font style=\"color: rgb(66, 66, 66);\"> Purchase App</font></"
 "strong>"
 msgstr ""
+"<font style=\"color: rgb(66, 66, 66);\">Reaprovizionați eficient cu</"
+"font><strong><font style=\"color: rgb(66, 66, 66);\"> aplicația "
+"Purchase</font></strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -176,7 +194,7 @@ msgid ""
 "label=\"Banner Info\">💡</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"\"Informații Banner\">💡</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -185,7 +203,7 @@ msgid ""
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"\"Informații Banner\">🚀</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -194,7 +212,8 @@ msgid ""
 "label=\"Banner Success\">✅</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"\"Banner Succes\">✅</i><i class=\"o_editor_banner_icon mb-3 fst-normal\" "
+"data-oe-aria-label=\"Banner Success\">✅</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -211,6 +230,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🕝</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\">🕝</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -227,6 +248,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -242,6 +265,8 @@ msgid ""
 "<span class=\"h3-fs\"><strong>15€ </strong></span><span class=\"h5-"
 "fs\"><strong>/ session anytime</strong></span>"
 msgstr ""
+"<span class=\"h3-fs\"><strong>15€ </strong></span><span class=\"h5-fs\""
+"><strong>/ sesiune oricând</strong></span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -269,6 +294,8 @@ msgid ""
 "<span class=\"h3-fs\"><strong>99€ </strong></span><span class=\"h5-"
 "fs\"><strong>/ 10 sessions anytime</strong></span>"
 msgstr ""
+"<span class=\"h3-fs\"><strong>99€ </strong></span><span class=\"h5-fs\""
+"><strong>/ 10 sesiuni oricând</strong></span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -290,6 +317,14 @@ msgid ""
 "absolute overflow-visible top-0 start-0 w-100 h-100 pe-none\">\n"
 "</svg></span></span> Spots are limited!"
 msgstr ""
+"<span class="
+"\"o_text_highlight o_translate_inline o_text_highlight_underline\" style"
+"=\"--text-highlight-width: 2px;\">\n"
+"<span class=\"o_text_highlight_item\"><strong>Înregistrează-te pentru a "
+"participa.</strong>\n"
+"<svg fill=\"none\" class=\"o_text_highlight_svg o_content_no_merge position-"
+"absolute overflow-visible top-0 start-0 w-100 h-100 pe-none\">\n"
+"</svg></span></span> Locurile sunt limitate!"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.contactus
@@ -360,6 +395,11 @@ msgid ""
 "strong><font style=\"color: rgb(66, 66, 66);\"> </font><strong><font "
 "style=\"color: rgb(66, 66, 66);\">Website App</font></strong>"
 msgstr ""
+"<strong><font style=\"color: rgb(66, 66, 66);\"><span style=\"font-weight: "
+"normal;\">Personalizați site-ul web pentru a se potrivi ofertei "
+"cu</span></font></strong><font style=\"color: rgb(66, 66, 66);\"> </"
+"font><strong><font style=\"color: rgb(66, 66, 66);\">aplicația "
+"Website</font></strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -374,7 +414,7 @@ msgstr "<strong>Vrei să mergi mai departe?</strong>"
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "<strong>Final word</strong>"
-msgstr ""
+msgstr "<strong>Cuvânt final</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -389,6 +429,8 @@ msgstr ""
 #: model_terms:event.event,description:climbing_gym.event_event_2
 msgid "<strong>Spots are limited for each session.</strong> Reserve yours now."
 msgstr ""
+"<strong>Locurile sunt limitate pentru fiecare sesiune.</strong> Rezervați-vă "
+"acum."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -398,7 +440,7 @@ msgstr "<strong>Caz de utilizare</strong>"
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 msgid "A little place <br/> of adventure"
-msgstr ""
+msgstr "Un loc mic <br/> de aventură"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -407,6 +449,9 @@ msgid ""
 "in <strong><font style=\"color: rgb(66, 66, 66);\">Accounting App</font></"
 "strong>"
 msgstr ""
+"Contabilitatea este mai ușoară ca niciodată cu un mediu complet integrat în "
+"<strong><font style=\"color: rgb(66, 66, 66);\">Aplicația "
+"Contabilitate</font></strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -478,6 +523,9 @@ msgid ""
 ">Open the contact form to appreciate the change.<br/>This gives access to "
 "entrances as well as discounts at the point of sales."
 msgstr ""
+"Ca rezultat, clientul dvs. este acum membru al nivelului corespunzător.<br/"
+">Deschideți formularul de contact pentru a aprecia schimbarea.<br/>Acest "
+"lucru oferă acces la intrări, precum și reduceri la punctul de vânzări."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -513,7 +561,7 @@ msgstr ""
 #: model_terms:event.event,description:climbing_gym.event_event_1
 msgid "Categories for all levels - from first-timers to elite climbers"
 msgstr ""
-"Categorii pentru toate nivelurile - de la începători la alpiniști de elită"
+"Categorii pentru toate nivelurile - de la începători la escaladatori de elită"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -571,7 +619,7 @@ msgstr ""
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
 msgid "Come for fun and&amp;nbsp;to push yourself!<br/>"
-msgstr ""
+msgstr "Vino pentru divertisment și pentru a te depăși!<br/>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -693,7 +741,7 @@ msgstr "Atmosferă prietenoasă, fără presiune"
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Generate visibility through the <strong>Website App</strong>"
-msgstr ""
+msgstr "Generați vizibilitate prin <strong>aplicația Website</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -741,6 +789,8 @@ msgid ""
 "Hit the Auto Plan button beside the Publish one.<br/>This assign the shifts "
 "to employees based on their roles."
 msgstr ""
+"Apăsați butonul Planificare automată de lângă cel de Publicare.<br/>Aceasta "
+"atribuie schimburile angajaților în funcție de rolurile lor."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -834,6 +884,8 @@ msgid ""
 "Leverage the shift templates for recurrent shifts by roles.<br/>You can edit "
 "those from the Configuration menu."
 msgstr ""
+"Profitați de șabloanele de schimburi pentru schimburi recurente pe roluri.<"
+"br/>Le puteți edita din meniul de Configurare."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -841,6 +893,9 @@ msgid ""
 "Leverage the<strong><font class=\"text-o-color-1\"> </font><font>Barcode "
 "App</font></strong> to manipulate subscription and loyalty cards"
 msgstr ""
+"Profitați de <strong><font class=\"text-o-color-1\"> </font><font>Aplicația "
+"Coduri de bare</font></strong> pentru a manipula abonamentele și cardurile "
+"de loialitate"
 
 #. module: climbing_gym
 #: model_terms:event.event,description:climbing_gym.event_event_3
@@ -860,7 +915,7 @@ msgstr "DJ live, MC și food truck-uri la fața locului"
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Manage waiver with the <strong>Sign App</strong>"
-msgstr ""
+msgstr "Gestionați renunțările cu <strong>Aplicația de Semnare</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -971,11 +1026,13 @@ msgid ""
 "Open the <strong>Contact App </strong>and create a new customer record "
 "filling in especially the email address."
 msgstr ""
+"Deschideți <strong>aplicația Contacte </strong>și creați o nouă înregistrare "
+"client completând mai ales adresa de e-mail."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Open the <strong>Sales App</strong> and create a new order."
-msgstr ""
+msgstr "Deschideți <strong>aplicația Vânzări</strong> și creați o comandă nouă."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -983,6 +1040,8 @@ msgid ""
 "Open the <strong>Sales App</strong> or alternatively the "
 "<strong>Subscription App</strong> and create a new order."
 msgstr ""
+"Deschideți <strong>aplicația Vânzări</strong> sau alternativ "
+"<strong>aplicația Abonamente</strong> și creați o comandă nouă."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1060,6 +1119,7 @@ msgstr "Continuați cu plata!"
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Promote your upcoming events with the <strong>Events App</strong>"
 msgstr ""
+"Promovați-vă evenimentele viitoare cu <strong>aplicația Evenimente</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1094,6 +1154,8 @@ msgid ""
 "Record entrances through the <strong>Contact App</strong> based on "
 "subscription or prepaid cards"
 msgstr ""
+"Înregistrați intrările prin <strong>Aplicația Contact</strong> pe baza "
+"abonamentelor sau cardurilor preplătite"
 
 #. module: climbing_gym
 #: model:event.tag.category,name:climbing_gym.event_tag_category_1
@@ -1116,6 +1178,8 @@ msgid ""
 "Resupply when needed with <strong>Purchase App</strong>\n"
 "                    <br/>"
 msgstr ""
+"Reaprovizionați-vă când este nevoie cu <strong>Aplicația Achiziții</strong>\n"
+"                    <br/>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1141,7 +1205,7 @@ msgstr "Selectați clientul nou creat."
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Sell goods on the fly from the<strong> Point of Sale App</strong>"
-msgstr ""
+msgstr "Vindeți bunuri direct din <strong>Aplicația Point of Sale</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1149,6 +1213,8 @@ msgid ""
 "Sell subscriptions product from the <strong>Subscription App</strong> and "
 "the <strong>Sales App</strong>"
 msgstr ""
+"Vindeți produse de abonament din <strong>Aplicația Abonamente</strong> și "
+"<strong>Aplicația Vânzări</strong>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1259,6 +1325,9 @@ msgid ""
 "To handle the front desk, to provide lessons and more, employees are needed. "
 "And to organize all this, <strong>Planning App </strong>is the place to be."
 msgstr ""
+"Pentru a se ocupa de recepție, pentru a oferi lecții și multe altele, sunt "
+"necesari angajați. Și pentru a organiza toate acestea, <strong>aplicația "
+"Planificare </strong>este locul potrivit."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1267,6 +1336,9 @@ msgid ""
 "you most likely are organizing events. The <strong>Events App </strong>got "
 "your back for this."
 msgstr ""
+"Pentru a face zgomot și a genera un sentiment de comunitate printre clienții "
+"dvs., probabil organizați evenimente. <strong>Aplicația Evenimente </"
+"strong>vă acoperă pentru aceasta."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1314,7 +1386,7 @@ msgstr "Utilizați sesiunea"
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
 msgid "Use the <strong>Appointment App</strong> to sell courses"
-msgstr ""
+msgstr "Folosiți <strong>Aplicația Programări</strong> pentru a vinde cursuri"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1432,6 +1504,9 @@ msgid ""
 "<br/>Make sure only one template with \"Is Waiver\" field is set (visible in "
 "the list view)."
 msgstr ""
+"Puteți defini propriul formular de renunțare din aplicația Sign, din cadrul "
+"șabloanelor.<br/>Asigurați-vă că este setat un singur șablon cu câmpul "
+"\"Is Waiver\" (vizibil în vizualizarea listă)."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1475,6 +1550,10 @@ msgid ""
 "case, you may have written records in journals which are not deletable and "
 "which might be an issue for your traceability."
 msgstr ""
+"S-ar putea să fi testat acest pachet cu sau fără date demo.<br/>În orice "
+"caz, este posibil să fi scris înregistrări în jurnale care nu sunt "
+"ștergabile și care ar putea reprezenta o problemă pentru trasabilitatea "
+"dumneavoastră."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -1493,6 +1572,10 @@ msgid ""
 "can reach the loyalty cards and appreciate their balances from the smart "
 "button for Loyalty Cards in the Contact form."
 msgstr ""
+"Clientul dumneavoastră are acum un card de loialitate pentru sesiunile "
+"corespunzătoare.<br/>Puteți accesa cardurile de loialitate și verifica "
+"soldurile acestora din butonul inteligent pentru Carduri de Loialitate din "
+"formularul de Contact."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body

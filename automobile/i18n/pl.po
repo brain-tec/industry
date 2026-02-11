@@ -6,13 +6,13 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Marta (wacm)" <wacm@odoo.com>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:32+0000\n"
-"PO-Revision-Date: 2025-11-12 10:20+0000\n"
+"PO-Revision-Date: 2026-02-05 15:27+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "automobile/pl/>\n"
@@ -21,9 +21,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
-"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
-"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -135,6 +135,9 @@ msgid ""
 "precision, tracking stock levels across\n"
 "                brands, models, and compatibility."
 msgstr ""
+"<b>Aplikacja Magazyn</b>: Precyzyjnie zarządzaj ogromnym katalogiem części "
+"samochodowych, śledząc poziomy zapasów w podziale na\n"
+"                marki, modele i kompatybilność."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -143,6 +146,9 @@ msgid ""
 "your shop floor or warehouse is\n"
 "                always adequately staffed."
 msgstr ""
+"<b>Aplikacja Planowanie</b>: Organizuj zmiany zespołów i przydzielanie "
+"zasobów, aby zapewnić odpowiednią obsadę personelu na hali produkcyjnej lub "
+"w magazynie."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -151,6 +157,9 @@ msgid ""
 "accessories with a user-friendly interface\n"
 "                designed for high-volume retail."
 msgstr ""
+"<b>Aplikacja Punktu Sprzedaży</b>: Przyspiesz sprzedaż części zamiennych i "
+"akcesoriów dzięki przyjaznemu dla użytkownika interfejsowi zaprojektowanemu "
+"z myślą o sprzedaży detalicznej na dużą skalę."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -159,6 +168,9 @@ msgid ""
 "filters and oil, ensuring your shelves\n"
 "                are always stocked."
 msgstr ""
+"<b>Aplikacja Zakupy</b>: Zautomatyzuj uzupełnianie szybko sprzedających się "
+"produktów, takich jak filtry i oleje, i zapewnij stałą dostępność towaru na "
+"półkach."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -167,6 +179,9 @@ msgid ""
 "efficiently, creating professional quotes and\n"
 "                managing contract pricing."
 msgstr ""
+"<b>Aplikacja Sprzedaż</b>: Efektywne obsługiwanie zamówień B2B dla "
+"warsztatów i partnerów Floty, tworzenie profesjonalnych ofert i\n"
+"                zarządzanie cenami umownymi."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -175,6 +190,9 @@ msgid ""
 "consumers, with search filters for\n"
 "                vehicle compatibility."
 msgstr ""
+"<b>Aplikacja eCommerce</b>: Uruchom solidny sklep internetowy, aby "
+"sprzedawać części bezpośrednio konsumentom, z filtrami wyszukiwania "
+"zgodności pojazdów."
 
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
@@ -256,7 +274,7 @@ msgstr "Cennik B2B"
 #. module: automobile
 #: model_terms:ir.ui.view,arch_db:automobile.welcome_article_body
 msgid "Basics"
-msgstr ""
+msgstr "Podstawy"
 
 #. module: automobile
 #: model:product.attribute,name:automobile.product_attribute_1

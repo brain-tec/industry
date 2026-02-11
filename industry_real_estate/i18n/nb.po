@@ -4,13 +4,14 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Arild Madsen <arild@flytconsulting.no>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2025-11-11 13:49+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-02-05 15:29+0000\n"
+"Last-Translator: Arild Madsen <arild@flytconsulting.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.odoo.com/projects/odoo-19/"
 "industry_real_estate/nb_NO/>\n"
 "Language: nb\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -930,7 +931,7 @@ msgstr "Begynn med kundene – finn ut hva de vil ha og gi dem det."
 #: model:ir.model.fields,field_description:industry_real_estate.country_state
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.default_form_view_building
 msgid "State"
-msgstr "Modus"
+msgstr "Status"
 
 #. module: industry_real_estate
 #: model:ir.model.fields,field_description:industry_real_estate.street

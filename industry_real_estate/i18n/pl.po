@@ -7,13 +7,14 @@
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2025-11-11 13:49+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-02-05 15:27+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "industry_real_estate/pl/>\n"
 "Language: pl\n"
@@ -21,14 +22,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
-"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
-"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ", and feel free to"
-msgstr ""
+msgstr "i nie wahaj się"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -43,6 +44,9 @@ msgid ""
 "selling opportunities in a visual\n"
 "                pipeline."
 msgstr ""
+"<b>Aplikacja CRM</b>: Efektywnie zarządzaj potencjalnymi klientami, śledząc "
+"bieżące możliwości zakupu i sprzedaży w wizualnym\n"
+"                pipeline."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -52,6 +56,10 @@ msgid ""
 "                tenants, and service providers within a single, searchable "
 "directory with full communication history."
 msgstr ""
+"<b>Aplikacja Kontakty: </b>Scentralizuj wszystkie dane interesariuszy, "
+"zarządzając unikalnymi relacjami między właścicielami nieruchomości,\n"
+"                najemcami i dostawcami usług w ramach jednego, "
+"przeszukiwalnego katalogu z pełną historią komunikacji."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
