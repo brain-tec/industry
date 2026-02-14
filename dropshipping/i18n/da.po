@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 08:03+0000\n"
-"PO-Revision-Date: 2026-01-31 23:50+0000\n"
+"PO-Revision-Date: 2026-02-14 23:51+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "dropshipping/da/>\n"
@@ -28,17 +28,17 @@ msgstr ""
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_26
 msgid " eco-friendly"
-msgstr ""
+msgstr " miljøvenlig"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_30
 msgid " slim"
-msgstr ""
+msgstr " slank"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_34
 msgid " wireless charging compatible"
-msgstr ""
+msgstr " kompatibel med trådløs opladning"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
@@ -47,6 +47,9 @@ msgid ""
 "                      <br/>\n"
 "for Companies"
 msgstr ""
+"<b>Designet</b>\n"
+"                      <br/>\n"
+"til virksomheder"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -54,6 +57,9 @@ msgid ""
 "<br/>\n"
 "Durability meets design—our cases provide the ultimate protection without sacrificing style. Shop drop-tested, shockproof, and scratch-resistant cases today!"
 msgstr ""
+"<br/>\n"
+"Holdbarhed møder design – vores covers giver optimal beskyttelse uden at gå "
+"på kompromis med stilen. Køb faldtestede, stød- og ridsefaste covers i dag!"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -66,6 +72,13 @@ msgid ""
 "                      </span>\n"
 "                    </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"                      <span class=\"display-3-fs text-o-color-5\">\n"
+"                        <span class=\"display-3-fs text-o-color-2\">\n"
+"                          <font class=\"text-o-color-4\">3</font>\n"
+"                        </span>\n"
+"                      </span>\n"
+"                    </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -74,6 +87,10 @@ msgid ""
 "        Benefit from unique collaborations and partnerships that give your phone cases a competitive edge in the market.\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Få glæde af unikke samarbejder og partnerskaber, der giver din "
+"virksomhed en stærk konkurrencefordel på markedet.\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -82,6 +99,9 @@ msgid ""
 "        Dedicated Support\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Dedikeret støtte\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -90,6 +110,9 @@ msgid ""
 "        Durable Protection\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Langvarig beskyttelse\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -98,6 +121,9 @@ msgid ""
 "        Exclusive Collaborations\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Eksklusive samarbejder\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -106,6 +132,10 @@ msgid ""
 "        Our team provides continuous support, ensuring your phone case needs are met and any issues are addressed promptly.\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Vores team tilbyder løbende support for at sikre, at du finder det "
+"perfekte mobilcover, og at eventuelle problemer løses med det samme.\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -114,26 +144,30 @@ msgid ""
 "        We offer tailored strategies that align with your phone case needs, driving growth and maximizing efficiency.\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Vi tilbyder skræddersyede strategier, der opfylder dine "
+"forventninger til mobilcovers og bidrager til vækst samt øget effektivitet.\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">+1 555-555-5556</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">+1 555-555-5556</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Contact us</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">Kontakt os</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Home</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">Startside</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Privacy Policy</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">Privatlivspolitik</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -141,11 +175,13 @@ msgid ""
 "<font class=\"text-o-color-4\">Why Choose CaseShippers\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">Derfor skal du vælge CaseShippers\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">info@yourcompany.example.com</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">info@dinvirksomhed.eksempel.com</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -187,6 +223,9 @@ msgid ""
 "                      <font class=\"text-o-color-4\">1</font>\n"
 "                    </span>"
 msgstr ""
+"<span class=\"display-3-fs text-o-color-1\">\n"
+"                      <font class=\"text-o-color-4\">1</font>\n"
+"                    </span>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -195,6 +234,9 @@ msgid ""
 "                      <font class=\"text-o-color-4\">2</font>\n"
 "                    </span>"
 msgstr ""
+"<span class=\"display-3-fs text-o-color-2\">\n"
+"                      <font class=\"text-o-color-4\">2</font>\n"
+"                    </span>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -204,11 +246,15 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>Odoo til dropshipping</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "<span class=\"h1-fs\">Basics</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">Det grundlæggende</span>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -217,6 +263,9 @@ msgid ""
 "<strong>Marketing Automation App</strong>, guiding potential buyers "
 "seamlessly from interest to purchase."
 msgstr ""
+"<strong>Automatiserede salgstrager</strong> – Maksimér konverteringer med "
+"<strong>automatiseret marketing</strong>, der guider potentielle kunder "
+"problemfrit fra interesse til køb."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -225,6 +274,9 @@ msgid ""
 "Marketing App</strong> to send newsletters, promotions, and updates straight"
 " to your customers' inboxes."
 msgstr ""
+"<strong>E-mailkampagner, der fungerer</strong> – Brug "
+"<strong>E-mailmarketingappen</strong> til at sende nyhedsbreve, kampagner og "
+"opdateringer direkte til dine kunders indbakker."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -232,11 +284,13 @@ msgid ""
 "<strong>Find the perfect case for your phone – durable, stylish, and built "
 "for everyday life.</strong>"
 msgstr ""
+"<strong>Find det perfekte cover til din smartphone – robust, stilfuldt og "
+"designet til hverdagsbrug.</strong>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "<strong>Japanese collection</strong>"
-msgstr ""
+msgstr "<strong>Japansk samling</strong>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -244,6 +298,8 @@ msgid ""
 "<strong>One-Click Confirmation:</strong> Review and confirm purchase orders "
 "instantly."
 msgstr ""
+"<strong>Bekræftelse med ét klik:</strong> Gennemse og bekræft indkøbsordrer "
+"med det samme."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -251,6 +307,9 @@ msgid ""
 "<strong>Seamless Supplier Communication:</strong> Send orders to your "
 "supplier in just one click, ensuring smooth and timely fulfillment."
 msgstr ""
+"<strong>Problemfri leverandørkommunikation:</strong> Send ordrer til din "
+"leverandør med ét enkelt klik, og sikr dermed en problemfri og rettidig "
+"udførelse."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -259,11 +318,14 @@ msgid ""
 "effortlessly with the <strong>Social Marketing App</strong> to keep your "
 "audience engaged."
 msgstr ""
+"<strong>Gør arbejdet med sociale medier nemt</strong> – Planlæg og "
+"administrer nemt indlæg med <strong>appen til markedsføring på sociale "
+"medier</strong> for at begejstre dit publikum."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "<strong>Tips for Success</strong>"
-msgstr ""
+msgstr "<strong>Tips til succes</strong>"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_17
@@ -275,23 +337,25 @@ msgstr "Resumé"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_1
 msgid "Aegis Flex"
-msgstr ""
+msgstr "Aegis Flex"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid ""
 "Attract customers using our complete <strong>Marketing apps suite</strong>"
 msgstr ""
+"Tiltræk kunder ved hjælp af vores komplette <strong>pakke med "
+"marketingapps</strong>"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_16
 msgid "Aurora Cases"
-msgstr ""
+msgstr "Aurora Cases"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_2
 msgid "Aurora Shield"
-msgstr ""
+msgstr "Aurora Shield"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_10
@@ -311,7 +375,7 @@ msgstr "Brun"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Browse Collections"
-msgstr ""
+msgstr "Gennemgå sortiment"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -321,7 +385,7 @@ msgstr "Karruselindikator"
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_9
 msgid "Case-Io"
-msgstr ""
+msgstr "Case-Io"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -331,7 +395,7 @@ msgstr "Klik her"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Collections"
-msgstr ""
+msgstr "Kollektioner"
 
 #. module: dropshipping
 #: model:website.menu,name:dropshipping.website_menu_6
@@ -345,6 +409,9 @@ msgid ""
 "catalog with categories, tags, attributes, and values so customers can find "
 "what they need effortlessly."
 msgstr ""
+"Opret tiltalende og informative produktlister. Organisér dit katalog med "
+"kategorier, nøgleord, attributter og værdier, så kunderne nemt kan finde, "
+"hvad de har brug for."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -352,16 +419,18 @@ msgid ""
 "Create <strong>exclusive discount codes</strong> and share them via social "
 "media for viral engagement."
 msgstr ""
+"Opret <strong>eksklusive rabatkoder</strong>, og del dem på sociale medier "
+"for at gå viralt."
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_18
 msgid "Crystal Cases"
-msgstr ""
+msgstr "Crystal Cases"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_3
 msgid "Crystal Grip"
-msgstr ""
+msgstr "Crystal Grip"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -380,12 +449,12 @@ msgstr ""
 #. module: dropshipping
 #: model:stock.picking.type,name:dropshipping.stock_picking_type_9
 msgid "Dropship"
-msgstr "Dropship"
+msgstr "Dropshipping"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_4
 msgid "Eclipse Shell"
-msgstr ""
+msgstr "Eclipse Shell"
 
 #. module: dropshipping
 #: model:hr.department,name:dropshipping.hr_department_2
@@ -398,95 +467,98 @@ msgid ""
 "Ensure your delivery methods and fees are clear, competitive, and easy to "
 "understand—no surprises at checkout!"
 msgstr ""
+"Sørg for, at dine forsendelsesmetoder og -omkostninger er tydelige, "
+"konkurrencedygtige og lette at forstå – så der ikke opstår nogen "
+"overraskelser ved kassen!"
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_1
 msgid "Experience the ultimate protection with the Aegis Flex rugged cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med de robuste Aegis Flex-covers."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_2
 msgid ""
 "Experience the ultimate protection with the Aurora Shield leather cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med de robuste Aurora Shield-læderetuier."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_3
 msgid "Experience the ultimate protection with the Crystal Grip rugged cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med de robuste Crystal Grip-covers."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_4
 msgid ""
 "Experience the ultimate protection with the Eclipse Shell leather cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med de robuste Eclipse-Shell-læderetuier."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_5
 msgid ""
 "Experience the ultimate protection with the Fortress Max silicone cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Fortress Max-silikonehylstre."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_6
 msgid ""
 "Experience the ultimate protection with the Infinity Edge leather cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Infinity Edge-læderetuier."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_7
 msgid "Experience the ultimate protection with the Nebula Grip rugged cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med de robuste Nebula Grip-covers."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_8
 msgid "Experience the ultimate protection with the Nimbus Case leather cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Nimbus-Case-læderetuier."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_9
 msgid ""
 "Experience the ultimate protection with the Obsidian Frame leather cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Obsidian-Ramme-læderetuier."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_10
 msgid "Experience the ultimate protection with the Pulse Guard rugged cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med de robuste Pulse Guard-covers."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_11
 msgid ""
 "Experience the ultimate protection with the Quantum Cover silicone cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Quantum Cover-silikonehylstre."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_12
 msgid ""
 "Experience the ultimate protection with the Stealth Armor silicone cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Stealth Armor-silikonehylstre."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_13
 msgid ""
 "Experience the ultimate protection with the Titan Guard silicone cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Titan Guard-silikonehylstre."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_14
 msgid ""
 "Experience the ultimate protection with the Vortex Shield silicone cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med Vortex Shield-silikonehylstre."
 
 #. module: dropshipping
 #: model:product.template,description_sale:dropshipping.product_template_15
 msgid "Experience the ultimate protection with the Zenith Wrap rugged cases."
-msgstr ""
+msgstr "Oplev optimal beskyttelse med de robuste Zenith-Wrap-covers."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Explore Our Protective Cases."
-msgstr ""
+msgstr "Gå på opdagelse i vores beskyttelsesetuier."
 
 #. module: dropshipping
 #: model:delivery.carrier,name:dropshipping.delivery_carrier_2
@@ -507,17 +579,17 @@ msgstr "Udvalgte"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "Follow Us"
-msgstr "Følg os:"
+msgstr "Følg os"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_5
 msgid "Fortress Max"
-msgstr ""
+msgstr "Fortress Max"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Glossy"
-msgstr ""
+msgstr "Glinsende"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -525,6 +597,8 @@ msgid ""
 "Go beyond the basics and <strong>supercharge your growth</strong> with these"
 " advanced strategies:"
 msgstr ""
+"Gå ud over det grundlæggende, og <strong>øg din vækst</strong> med disse "
+"avancerede strategier:"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_3
@@ -534,7 +608,7 @@ msgstr "Grøn"
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_22
 msgid "Hardcase"
-msgstr ""
+msgstr "Hårdt cover"
 
 #. module: dropshipping
 #: model:website.menu,name:dropshipping.website_menu_5
@@ -547,11 +621,13 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the Demo Data."
 msgstr ""
+"Hvis du blot ønsker at udforske alle funktionerne i denne pakke, kan du "
+"downloade demodataene."
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_6
 msgid "Infinity Edge"
-msgstr ""
+msgstr "Infinity Edge"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
@@ -564,6 +640,8 @@ msgid ""
 "Integrate with existing delivery services to provide order tracking for your"
 " customers."
 msgstr ""
+"Integrér eksisterende leveringstjenester for at give dine kunder mulighed "
+"for at spore deres forsendelser."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -571,6 +649,8 @@ msgid ""
 "Invite customers to create an account on your website to boost loyalty and "
 "retention."
 msgstr ""
+"Invitér kunderne til at oprette en konto på din hjemmeside for at styrke "
+"loyalitet og fastholdelse af kunder."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -578,6 +658,8 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database on"
 msgstr ""
+"Bemærk: Når demodata er uploadet, kan de ikke slettes. Du kan dog oprette en "
+"ny database på"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_7
@@ -591,6 +673,9 @@ msgid ""
 "automatically generate purchase orders—no manual work required—<strong>as "
 "long as a supplier is linked</strong> to each product."
 msgstr ""
+"Din butik <strong>vil fungere problemfrit</strong>! Dine salg kan automatisk "
+"generere ordrer – uden manuelt arbejde – <strong>såfremt der er knyttet en "
+"leverandør til hvert produkt</strong>."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -600,7 +685,7 @@ msgstr "Link til produkt"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Made for you"
-msgstr ""
+msgstr "Designet til dig"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -609,11 +694,14 @@ msgid ""
 "business! Drive traffic, engage customers, and boost sales with the right "
 "tools:"
 msgstr ""
+"Marketing er <strong>hjertet</strong> i en succesfuld forhandlers "
+"forretning. Øg antallet af besøgende, fasthold kunderne, og øg omsætningen "
+"med de rigtige værktøjer:"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_7
 msgid "Nebula Grip"
-msgstr ""
+msgstr "Nebula Grip"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -623,28 +711,28 @@ msgstr "Næste"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_8
 msgid "Nimbus Case"
-msgstr ""
+msgstr "Nimbus Case"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_9
 msgid "Obsidian Frame"
-msgstr ""
+msgstr "Obsidian Frame"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "Odoo.com/trial"
-msgstr ""
+msgstr "Odoo.com/trial"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid ""
 "Offer <strong>loyalty discounts</strong> to encourage repeat purchases."
-msgstr ""
+msgstr "Tilbyd <strong>loyalitetsrabatter</strong> for at fremme gentagne køb."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Ongoing Promotions"
-msgstr ""
+msgstr "Løbende kampagner"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_5
@@ -659,7 +747,7 @@ msgstr "Andet"
 #. module: dropshipping
 #: model:product.attribute,name:dropshipping.product_attribute_10
 msgid "Phone Model"
-msgstr ""
+msgstr "Mobilmodel"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_19
@@ -669,80 +757,90 @@ msgstr "Pink"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Premium Quality &amp;amp; Features"
-msgstr ""
+msgstr "Premiumkvalitet og funktioner"
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_8
 msgid "Premium phone case with eco-friendly, slim features."
-msgstr ""
+msgstr "Højkvalitets mobilcover med miljøvenlige og praktiske egenskaber."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_4
 msgid "Premium phone case with eco-friendly, wallet features."
-msgstr ""
+msgstr "Højkvalitets mobiletui med miljøvenlige egenskaber og indbygget pung."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_2
 #: model_terms:product.template,description:dropshipping.product_template_6
 msgid "Premium phone case with kickstand, eco-friendly features."
 msgstr ""
+"Højkvalitets mobilcover med miljøvenlige egenskaber og indbygget stativ."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_5
 msgid "Premium phone case with kickstand, shockproof features."
 msgstr ""
+"Højkvalitets mobilcover med indbygget stativ og stødbeskyttende egenskaber."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_15
 msgid "Premium phone case with kickstand, wallet features."
-msgstr ""
+msgstr "Højkvalitets mobiletui med indbygget stativ og pung."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_7
 msgid "Premium phone case with shockproof, kickstand features."
 msgstr ""
+"Højkvalitets mobilcover med indbygget stativ og stødbeskyttende egenskaber."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_12
 msgid "Premium phone case with shockproof, slim features."
-msgstr ""
+msgstr "Højkvalitets mobilcover med indbygget stativ og praktiske funktioner."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_3
 msgid "Premium phone case with slim, eco-friendly features."
-msgstr ""
+msgstr "Højkvalitets mobilcover med miljøvenlige og praktiske funktioner."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_13
 msgid "Premium phone case with wallet, eco-friendly features."
-msgstr ""
+msgstr "Højkvalitets mobiletui med miljøvenlige egenskaber og indbygget pung."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_11
 msgid "Premium phone case with wallet, kickstand features."
-msgstr ""
+msgstr "Højkvalitets mobiletui med indbygget stativ og pung."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_1
 msgid "Premium phone case with wallet, shockproof features."
 msgstr ""
+"Højkvalitets mobiletui med indbygget pung og stødbeskyttende egenskaber."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_10
 msgid "Premium phone case with wallet, wireless charging compatible features."
 msgstr ""
+"Højkvalitets mobiletui med indbygget pung og funktioner til trådløs "
+"opladning."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_9
 msgid ""
 "Premium phone case with wireless charging compatible, eco-friendly features."
 msgstr ""
+"Højkvalitets mobilcover med funktioner til trådløs opladning og miljøvenlige "
+"egenskaber."
 
 #. module: dropshipping
 #: model_terms:product.template,description:dropshipping.product_template_14
 msgid ""
 "Premium phone case with wireless charging compatible, shockproof features."
 msgstr ""
+"Højkvalitets mobilcover med funktioner til trådløs opladning og "
+"stødbeskyttelse."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -752,7 +850,7 @@ msgstr "Forrige"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_10
 msgid "Pulse Guard"
-msgstr ""
+msgstr "Pulse Guard"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_24
@@ -762,7 +860,7 @@ msgstr "Lilla"
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_11
 msgid "Quantum Cover"
-msgstr ""
+msgstr "Quantum Cover"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -777,22 +875,22 @@ msgstr "Rød"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Rugged"
-msgstr ""
+msgstr "Robust"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_20
 msgid "Rugged IO"
-msgstr ""
+msgstr "Rugged IO"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "SMS marketing can also be beneficial to expand your customer base."
-msgstr ""
+msgstr "SMS-marketing kan også hjælpe med at udvide din kundebase."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Safe never looked this good"
-msgstr ""
+msgstr "Sikkerhed har aldrig set bedre ud"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -805,36 +903,38 @@ msgid ""
 "Seamlessly manage your vendor orders through the <strong>Purchase app "
 "</strong>"
 msgstr ""
+"Administrér dine leverandørordrer problemfrit via "
+"<strong>Indkøbsappen</strong>"
 
 #. module: dropshipping
 #: model:website.menu,name:dropshipping.website_menu_9
 msgid "Shop"
-msgstr "Shop"
+msgstr "Butik"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Shop now<font style=\"background-color: rgb(87, 180, 186);\"/>"
-msgstr ""
+msgstr "Køb nu<font style=\"background-color: rgb(87, 180, 186);\"/>"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_6
 msgid "Silicone"
-msgstr ""
+msgstr "Silikone"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Smooth"
-msgstr ""
+msgstr "Glat"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Soft touch"
-msgstr ""
+msgstr "Blød overflade"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_12
 msgid "Stealth Armor"
-msgstr ""
+msgstr "Stealth Armor"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_8
@@ -844,7 +944,7 @@ msgstr "Tekstil"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Textured"
-msgstr ""
+msgstr "Tekstureret"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -852,11 +952,13 @@ msgid ""
 "This Odoo module is destined for dropshippers that want a quick and easy way"
 " of establishing their dropshipping business."
 msgstr ""
+"Dette Odoo-modul er designet til direkte forhandlere, der ønsker en hurtig "
+"og nem måde at opbygge deres forhandleraktiviteter på."
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_13
 msgid "Titan Guard"
-msgstr ""
+msgstr "Titan Guard"
 
 #. module: dropshipping
 #: model:website.menu,name:dropshipping.website_menu_4
@@ -866,7 +968,7 @@ msgstr "Hovedmenu for hjemmeside 1"
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "Tough on Drops, Easy on the Eyes"
-msgstr ""
+msgstr "Faldsikker og pæn"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -874,11 +976,13 @@ msgid ""
 "Use the <strong>Website</strong> and <strong>Ecommerce apps</strong> to "
 "create a beautiful shopping experience"
 msgstr ""
+"Brug appsene <strong>Hjemmeside</strong> og <strong>e-Handel</strong> til at "
+"skabe en perfekt købsoplevelse"
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_14
 msgid "Vortex Shield"
-msgstr ""
+msgstr "Vortex Shield"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
@@ -886,6 +990,9 @@ msgid ""
 "We are a team of passionate people whose goal is to improve everyone's life.<br/>\n"
 "Our services are designed for small to medium size companies."
 msgstr ""
+"Vi er et team af passionerede mennesker, hvis mål er at forbedre alles liv.<"
+"br/>\n"
+"Vores tjenester er designet til små og mellemstore virksomheder."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -893,6 +1000,8 @@ msgid ""
 "With automation on your side, you can <strong>focus on growing your "
 "business</strong> while your supply chain keeps running smoothly!"
 msgstr ""
+"Med automatisering kan du <strong>fokusere fuldt ud på at vækste din "
+"virksomhed</strong>, mens forsyningskæden kører problemfrit i baggrunden!"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -900,6 +1009,8 @@ msgid ""
 "With the right marketing mix, your store will stay top-of-mind and ahead of "
 "the competition!"
 msgstr ""
+"Med det rette marketingmiks forbliver din virksomhed synlig og et skridt "
+"foran konkurrenterne!"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -920,11 +1031,14 @@ msgid ""
 "your purchase orders based on customer location, lead times and order "
 "quantities."
 msgstr ""
+"Du kan have flere leverandører til et produkt, og det kan være en fordel at "
+"optimere dine ordrer ud fra kundens placering, leveringstider og "
+"ordrestørrelser."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
-msgstr ""
+msgstr "Du kan fortsat gøre dette ved at opdatere din pakke via Apps."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -932,6 +1046,8 @@ msgid ""
 "Your Phone,<br/>\n"
 "Your Style"
 msgstr ""
+"Din mobil,<br/>\n"
+"din stil"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -940,51 +1056,55 @@ msgid ""
 "<strong>irresistible!</strong> A stunning lead page will capture attention "
 "and draw customers in, setting the stage for a seamless shopping experience."
 msgstr ""
+"Din hjemmeside er dit digitale udstillingsvindue – gør den "
+"<strong>uimodståelig!</strong> En stærk og indbydende startside fanger "
+"opmærksomheden, tiltrækker kunder og skaber grundlaget for en problemfri "
+"shoppingoplevelse."
 
 #. module: dropshipping
 #: model:product.template,name:dropshipping.product_template_15
 msgid "Zenith Wrap"
-msgstr ""
+msgstr "Zenith Wrap"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_15
 msgid "iPhone 12"
-msgstr ""
+msgstr "iPhone 12"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_14
 msgid "iPhone 13"
-msgstr ""
+msgstr "iPhone 13"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_11
 msgid "iPhone 14"
-msgstr ""
+msgstr "iPhone 14"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_12
 msgid "iPhone 15"
-msgstr ""
+msgstr "iPhone 15"
 
 #. module: dropshipping
 #: model:product.attribute.value,name:dropshipping.product_attribute_value_13
 msgid "iPhone 16"
-msgstr ""
+msgstr "iPhone 16"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_27
 msgid "kickstand"
-msgstr ""
+msgstr "støtteben"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_28
 msgid "shockproof"
-msgstr ""
+msgstr "stødsikker"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_25
 msgid "wallet"
-msgstr ""
+msgstr "pung"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -993,16 +1113,20 @@ msgid ""
 "<strong>Studio</strong> and automate purchase order sending for a hands-"
 "free, efficient ordering process, as well as customizing your PDFs."
 msgstr ""
+"⚙️                <strong>Fuld automatisering</strong> – Installér "
+"<strong>Studio</strong>, og automatisér forsendelsen af ordrer for en "
+"effektiv proces uden manuelle indtastninger. Du kan desuden tilpasse dine "
+"PDF-filer individuelt."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
 msgid "✽&amp;nbsp;What makes us great"
-msgstr ""
+msgstr "✽&amp;nbsp;Det, der kendetegner os"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🌟 Build a High-Converting Online Store"
-msgstr ""
+msgstr "🌟 Byg en onlinebutik med maksimal konvertering"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -1011,51 +1135,54 @@ msgid ""
 "<strong>Wishlists &amp; Gift Cards</strong> to increase engagement and "
 "encourage repeat purchases."
 msgstr ""
+"🎁                <strong>Øg din omsætning med smarte funktioner</strong> – "
+"Aktivér <strong>ønskelister og gavekort</strong> for at styrke "
+"kundeloyaliteten og fremme gentagne køb."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 E-Commerce Documentation"
-msgstr ""
+msgstr "🎓 Dokumentation til e-Handel"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Email Marketing Documentation"
-msgstr ""
+msgstr "🎓 Dokumentation til e-mailmarketing"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Marketing Automation Documentation"
-msgstr ""
+msgstr "🎓 Dokumentation til automatiseret marketing"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Purchase Documentation"
-msgstr ""
+msgstr "🎓 Dokumentation til Indkøb"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Shipping Carrier Documentation"
-msgstr ""
+msgstr "🎓 Dokumentation til transportfirmaer"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Social Marketing Documentation"
-msgstr ""
+msgstr "🎓 Dokumentation til markedsføring til sociale medier"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🎓 Website Documentation"
-msgstr ""
+msgstr "🎓 Dokumentation til Hjemmeside"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "💰            <strong>Boost Sales with Smart Promotions:</strong>"
-msgstr ""
+msgstr "💰            <strong>Øg salget gennem effektive kampagner:</strong>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "📢 Power Up Your Marketing Strategy"
-msgstr ""
+msgstr "📢 Løft din markedsføring til næste niveau"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -1063,6 +1190,9 @@ msgid ""
 "📧                <strong>Master Email Funnels</strong> – Design strategic "
 "email sequences that nurture leads and drive conversions effortlessly."
 msgstr ""
+"📧                <strong>Optimér dine e-mailtragte</strong> – Design "
+"strategiske e-mailsekvenser, der plejer leads og skaber konverteringer uden "
+"besvær."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -1070,22 +1200,27 @@ msgid ""
 "📩                <strong>Capture More Leads</strong> – Activate website "
 "popups to collect visitor emails and grow your subscriber list."
 msgstr ""
+"📩                <strong>Få flere leads</strong> – Aktivér pop op-vinduer "
+"på dit websted for at indsamle e-mailadresser fra besøgende og udvide din "
+"abonnentliste."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🔄 Effortless Purchasing &amp; Order Fulfillment"
-msgstr ""
+msgstr "🔄 Ubesværet indkøb og problemfri ordreafvikling"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid ""
 "🚚            <strong>Set Up Smooth &amp; Transparent Shipping:</strong>"
 msgstr ""
+"🚚            <strong>Gør forsendelsen problemfri og fuldt "
+"gennemsigtig:</strong>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
 msgid "🛍            <strong>Optimize Your Product Pages:</strong>"
-msgstr ""
+msgstr "🛍            <strong>Optimér dine produktsider:</strong>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -1094,6 +1229,9 @@ msgid ""
 "<strong>Helpdesk App</strong> to provide quick and efficient responses to "
 "customer inquiries."
 msgstr ""
+"🛠                <strong>Optimér kundesupporten</strong> – Med "
+"<strong>Kundeserviceappen</strong> kan du reagere hurtigt og effektivt på "
+"alle kundehenvendelser."
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -1101,3 +1239,5 @@ msgid ""
 "🤝                <strong>Leverage Influencer Marketing</strong> – Partner "
 "with influencers to amplify your brand’s reach and credibility."
 msgstr ""
+"🤝                <strong>Boost dit brand med influencer-marketing</strong> –"
+" Samarbejd med influencers, og nå flere kunder med øget troværdighed."
