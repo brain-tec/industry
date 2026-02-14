@@ -3,16 +3,16 @@
 # * team_sports_club
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-29 09:59+0000\n"
-"PO-Revision-Date: 2025-12-11 08:31+0000\n"
+"PO-Revision-Date: 2026-02-10 12:18+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
-"Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Korean <https://translate.odoo.com/projects/odoo-s19-1/"
 "team_sports_club/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -989,12 +989,12 @@ msgstr "스폰서 제안 &amp; 회원 기부 안내 📄"
 #: model:ir.ui.menu,name:team_sports_club.teams_staffs_menu
 #: model:res.partner.grade,name:team_sports_club.res_partner_grade_15
 msgid "Staff"
-msgstr ""
+msgstr "직원"
 
 #. module: team_sports_club
 #: model:ir.actions.act_window,name:team_sports_club.staffs_menu_action
 msgid "Staffs"
-msgstr ""
+msgstr "직원"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_15

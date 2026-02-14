@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-02-07 20:20+0000\n"
+"POT-Creation-Date: 2026-02-12 09:56+0000\n"
+"PO-Revision-Date: 2026-02-14 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/construction/pt_BR/>\n"
@@ -175,8 +175,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -193,8 +193,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -202,8 +202,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -211,8 +211,25 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"<span class=\"o_file_image d-flex o_image user-select-none\" "
+"title=\"WorkItems_PoolDeck.xlsx\" data-mimetype=\"application/"
+"vnd.openxmlformats-officedocument.spreadsheetml.sheet\" "
+"contenteditable=\"false\">\n"
+"                         <br/>\n"
+"                    </span>"
+msgstr ""
+"<span class=\"o_file_image d-flex o_image user-select-none\" title="
+"\"WorkItems_PoolDeck.xlsx\" data-mimetype="
+"\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\" "
+"contenteditable=\"false\">\n"
+"                         <br/>\n"
+"                   </span>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -560,7 +577,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Reporting &amp; Invoicing:</strong> Generate detailed intervention "
 "reports\n"
@@ -592,7 +608,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Scheduling:</strong> Assign technicians to visits and optimize "
 "their\n"
@@ -613,7 +628,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Sign</strong> – Collect digital signatures for contracts and "
 "approvals."
@@ -654,7 +668,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Task Creation:</strong> Break down construction phases into "
 "actionable\n"
@@ -693,7 +706,6 @@ msgstr "<strong>Dicas para o sucesso</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Track progress daily:</strong> Encourage\n"
 "                            teams to log time and update task status "
@@ -704,7 +716,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Use dashboards:</strong> Set up reporting\n"
 "                            dashboards to monitor costs, schedules, and "
@@ -750,7 +761,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
 msgid ""
 "A streamlined industry package for companies focused on <strong>simple jobs, "
 "rapid quoting, and efficient execution</strong>."
@@ -779,6 +789,11 @@ msgid "Adapted WC"
 msgstr "WC adaptado"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Adjust quantities according to customer needs."
+msgstr "Ajuste as quantidades de acordo com as necessidades do cliente."
+
+#. module: construction
 #: model:documents.document,name:construction.documents_document_27
 #: model:documents.document,name:construction.documents_document_7
 msgid "Administrative & Legal"
@@ -796,6 +811,9 @@ msgid ""
 "project\n"
 "                    folder. Adjust it according to your needs!"
 msgstr ""
+"Todos os novos projetos recebem sua pasta de documentos dedicada da pasta de "
+"projetos modelo.\n"
+"Ajuste-a de acordo com suas necessidades!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -804,6 +822,9 @@ msgid ""
 "can be\n"
 "                    assigned to ensure the follow-up."
 msgstr ""
+"Todos os e-mails enviados para help@domínio-da-sua-empresa criarão um "
+"chamado, que pode ser\n"
+"                    atribuído para garantir o acompanhamento."
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
@@ -822,6 +843,9 @@ msgid ""
 "recorded\n"
 "                    time is used as delivery metric!"
 msgstr ""
+"Assim que as folhas de ponto associadas às linhas do pedido de venda forem "
+"aprovadas, o tempo registrado\n"
+"será usado como métrica de entrega!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -833,6 +857,10 @@ msgid ""
 "                for project management and purchases are computed "
 "accordingly..."
 msgstr ""
+"Supondo que haverá trabalho manual por trás de cada produto da cotação, "
+"comece a preencher a estimativa de tempo para alguns deles. <br/>O tempo "
+"total de trabalho e até mesmo o tempo para gerenciamento de projetos e "
+"compras são calculados de acordo..."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -862,6 +890,9 @@ msgid ""
 "its\n"
 "                    dashboard."
 msgstr ""
+"Antes de gerar uma fatura intermediária, obtenha a atualização do projeto a "
+"partir do seu\n"
+"                    painel."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_16
@@ -880,6 +911,9 @@ msgid ""
 "few products,\n"
 "            sale orders and more."
 msgstr ""
+"Ao carregar os dados de demonstração deste módulo, seu banco de dados foi "
+"preenchido com alguns produtos,\n"
+"pedidos de venda e muito mais."
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_4
@@ -904,12 +938,12 @@ msgstr "Telhas de barro, impermeabilização"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Click the Create Invoices button at the top of the list."
-msgstr ""
+msgstr "Clique no botão Criar Faturas na parte superior da lista."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Click the Sale Orders shortcut from the top bar."
-msgstr ""
+msgstr "Clique no atalho Pedidos de Venda na barra superior."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_25
@@ -938,6 +972,8 @@ msgid ""
 "Configure it as needed in terms of amount and assign it to your newly "
 "created fiscal position."
 msgstr ""
+"Configure-o conforme necessário em termos de valor e atribua-o à sua posição "
+"fiscal recém-criada."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -954,6 +990,13 @@ msgid ""
 "contract type which helps you clarifying that upfront any issue, directly in "
 "your quote."
 msgstr ""
+"A construção nem sempre corre como planejado e as cotações podem ser "
+"elaboradas com base em estimativas. A questão que se coloca quando é "
+"necessário mais tempo ou mais material devido a estimativas erradas é: quem "
+"assume o risco?<br/>\n"
+"Para o ajudar nessa questão, o setor da construção civil dispõe de um tipo "
+"de contrato que o ajuda a esclarecer antecipadamente qualquer problema, "
+"diretamente na sua cotação."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_16
@@ -963,9 +1006,18 @@ msgstr "Linha de cozimento"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Copy paste the export outcome in the \"2. Product Variants Export\" sheet"
+msgstr ""
+"Copie e cole o resultado da exportação na planilha “2. Exportação de "
+"variantes do produto”"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Create a new fiscal position, give it a name and assign the applicable "
 "country."
 msgstr ""
+"Crie uma nova posição fiscal, atribua-lhe um nome e indique o país aplicável."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -973,6 +1025,8 @@ msgid ""
 "Create a new quotation / sale order, assign a customer and select a "
 "quotation template to save time."
 msgstr ""
+"Crie uma nova cotação/Pedido de venda, atribua um cliente e selecione um "
+"modelo de cotação para economizar tempo."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -984,7 +1038,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Discover more about Odoo by diving into our ﻿"
-msgstr ""
+msgstr "Saiba mais sobre o Odoo mergulhando no"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_19
@@ -1002,6 +1056,8 @@ msgid ""
 "Do your construction projects go always according to plan?\n"
 "            If not, here is how to handle change orders and extras."
 msgstr ""
+"Os seus projetos de construção decorrem sempre conforme o planejado?\n"
+"Se não, veja aqui como lidar com alterações de pedidos e extras."
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_3
@@ -1017,6 +1073,11 @@ msgstr "Ajustes da porta"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Down Payment"
 msgstr "Pagamento de entrada"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Download the herein file."
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_28
@@ -1089,6 +1150,21 @@ msgid "Final word"
 msgstr ""
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Find your work item templates from the Sales App / Products / Work Items "
+"menu."
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Fine tune each work item clicking the line magic stick icon to secure your\n"
+"                margin. <br/>You're all set to send a first quote to your "
+"customer!"
+msgstr ""
+
+#. module: construction
 #: model:product.template,name:construction.product_template_55
 msgid "Fire-rated partitions"
 msgstr "Divisórias corta-fogo"
@@ -1129,6 +1205,11 @@ msgstr ""
 #: model:product.template,name:construction.product_template_10
 msgid "Garden cleanup"
 msgstr "Limpeza do jardim"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Generate a new quotation and select the Carport Construction template."
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1215,6 +1296,11 @@ msgid ""
 msgstr ""
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Import your work item database in few clicks!"
+msgstr ""
+
+#. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_2
 msgid "In Progress"
 msgstr "Em andamento"
@@ -1294,6 +1380,12 @@ msgid ""
 msgstr ""
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Iterate as needed until your customer approves the order, then confirm it!"
+msgstr ""
+
+#. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_48
 msgid "Joint repointing & patching"
 msgstr "Reponte e remendo de juntas"
@@ -1358,6 +1450,18 @@ msgstr "Iluminação"
 #: model:documents.document,name:construction.documents_document_33
 msgid "Maintenance & Handover"
 msgstr "Manutenção e entrega"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Making sure you don't waste time generating quotes which may never be signed "
+"is paramount\n"
+"            to run your business efficiently. <br/>To help you with this "
+"aspects, we configured the <strong>\n"
+"            Sales App</strong> with work items to be leveraged straight "
+"from\n"
+"            quotation from."
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_2
@@ -1480,6 +1584,13 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open again the Product Variants list, select them all and proceed to an\n"
+"                        (import-compatible) export with only their names"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open now the Taxes still from the configuration menu."
 msgstr ""
 
@@ -1493,8 +1604,23 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Open the Product Variants list and proceed to import of the \"1. Product\n"
+"                        Variants Import\" sheet"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Open the Progress view. It captures all sale order lines associated to this "
 "project."
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open the Work Items list and proceed to import of the \"3. Work Items "
+"Import\"\n"
+"                        sheet"
 msgstr ""
 
 #. module: construction
@@ -2113,6 +2239,11 @@ msgid "Work Manager"
 msgstr ""
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "WorkItems_PoolDeck.xlsx"
+msgstr ""
+
+#. module: construction
 #: model:planning.role,name:construction.planning_role_4
 msgid "Worker"
 msgstr "Funcionário"
@@ -2179,6 +2310,13 @@ msgstr "planta.png"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "⏲️ Time sheet based progress management"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"⏳ First quote in record time leveraging the work items (Construction "
+"Developer)"
 msgstr ""
 
 #. module: construction

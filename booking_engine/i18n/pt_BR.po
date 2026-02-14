@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 05:43+0000\n"
-"PO-Revision-Date: 2026-02-05 19:04+0000\n"
+"POT-Creation-Date: 2026-02-09 15:28+0000\n"
+"PO-Revision-Date: 2026-02-14 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/booking_engine/pt_BR/>\n"
@@ -171,11 +171,6 @@ msgid "Board"
 msgstr "Painel"
 
 #. module: booking_engine
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
-msgid "Booking"
-msgstr "Agendamento"
-
-#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
 msgid "Booking Engine Offers"
 msgstr "Ofertas do motor de reservas"
@@ -189,6 +184,11 @@ msgstr "Configurações do mecanismo de reservas"
 #: model:product.attribute,name:booking_engine.product_attribute_21
 msgid "Breakfast"
 msgstr "Café da manhã"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_2
+msgid "Budget / Economy"
+msgstr "Orçamento / Economia"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.x_city_tax_form_view
@@ -316,6 +316,11 @@ msgid "Delete role on stay offer deletion"
 msgstr "Excluir função na exclusão da oferta de estadia"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_4
+msgid "Deluxe"
+msgstr "Deluxe"
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_model_guests_line_x_name
 msgid "Description"
 msgstr "Descrição"
@@ -423,6 +428,11 @@ msgid "Has City Tax"
 msgstr "Tem imposto municipal"
 
 #. module: booking_engine
+#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
+msgid "Hotel"
+msgstr "Hotel"
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_house_keeping
 #: model:ir.ui.menu,name:booking_engine.menu_house_keeping
 #: model:project.project,name:booking_engine.project_project_1
@@ -461,17 +471,17 @@ msgstr "Serviço de Limpeza: Na configuração dos aprovadores"
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_check_in
 msgid "HouseKeeping: On check in"
-msgstr ""
+msgstr "Serviço de limpeza: No check-in"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_check_out
 msgid "HouseKeeping: On check out"
-msgstr ""
+msgstr "Serviço de limpeza: No check-out"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_task_stage_modified
 msgid "HouseKeeping: On stage change"
-msgstr ""
+msgstr "Serviço doméstico: Mudança no palco"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_task_stage_clean
@@ -491,7 +501,7 @@ msgstr "Serviço de Limpeza: Definir configuração dos aprovadores"
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_resources_occupied
 msgid "HouseKeeping: Set resources as occupied"
-msgstr ""
+msgstr "Serviço de Limpeza: Definir recursos como ocupados"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_set_resources_vacant
@@ -502,6 +512,8 @@ msgstr "Serviço de Limpeza: Definir recursos como vagos"
 #: model:ir.actions.server,name:booking_engine.server_action_set_task_ready_if_no_approvers
 msgid "HouseKeeping: Set task ready if no approvers required after cleaning"
 msgstr ""
+"Serviço de Limpeza: definir tarefa como pronta se não forem necessários "
+"aprovadores após a limpeza"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_task_cleaning_state
@@ -522,7 +534,7 @@ msgstr "Verificação de identidade"
 #. module: booking_engine
 #: model:project.task.type,name:booking_engine.project_task_type_16
 msgid "In Progress"
-msgstr ""
+msgstr "Em andamento"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_10
@@ -534,7 +546,7 @@ msgstr "Incluído"
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.x_action_activate_house_keeping
 msgid "Install House Keeping"
-msgstr ""
+msgstr "Instalar Serviço de Limpeza"
 
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.base_model_res_partner_x_identity_check_field_selection_invalid
@@ -549,18 +561,23 @@ msgstr "É imposto municipal"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_is_in_stage_clean_field_resource_resource
 msgid "Is In House Keeping Stage Clean"
-msgstr ""
+msgstr "Está no estágio de limpeza"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.planning_model_planning_role_x_is_a_room_offer_field
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_is_a_room_offer_field
 msgid "Is Stay Offer"
-msgstr ""
+msgstr "Oferta de estadia"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.resource_x_is_stay_resource
 msgid "Is Stay Resource"
-msgstr ""
+msgstr "É um recurso de estadia"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_5
+msgid "Junior Suite"
+msgstr "Suíte Júnior"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_2
@@ -596,7 +613,7 @@ msgstr "Noites"
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.resource_resource_form_view_extension
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_15
@@ -614,13 +631,13 @@ msgstr "OK"
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_planning_resource_view_search
 #: model_terms:ir.ui.view,arch_db:booking_engine.project_task_search_view_primary
 msgid "Occupancy"
-msgstr ""
+msgstr "Ocupação"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_occupancy_color_field_resource_resource
 #: model:ir.model.fields,field_description:booking_engine.x_task_occupancy_color_field_project_task
 msgid "Occupancy Color"
-msgstr ""
+msgstr "Cor de ocupação"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.resource_x_occupant_ids
@@ -630,7 +647,12 @@ msgstr "Ocupante"
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.x_occupancy_field_selection_occupied
 msgid "Occupied"
-msgstr ""
+msgstr "Ocupado"
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_offer_type
+msgid "Offer Type"
+msgstr "Tipo de oferta"
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_offers_menu
@@ -650,7 +672,7 @@ msgstr ""
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_ongoing_task_id_field_resource_resource
 msgid "Ongoing Task"
-msgstr ""
+msgstr "Tarefa em andamento"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.sale_order_x_order_involves_room
@@ -706,7 +728,7 @@ msgstr "Publicado"
 #. module: booking_engine
 #: model:project.task.type,name:booking_engine.project_task_type_18
 msgid "Ready"
-msgstr ""
+msgstr "Pronto"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.model_sale_order_line_x_resource_id
@@ -811,6 +833,11 @@ msgid "Stage"
 msgstr ""
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_1
+msgid "Standard"
+msgstr ""
+
+#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
 msgid "Status"
 msgstr "Status"
@@ -844,6 +871,16 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_partner_form_view
 msgid "Stays"
 msgstr "Estadias"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_6
+msgid "Suite"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_3
+msgid "Superior"
+msgstr ""
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
@@ -914,6 +951,11 @@ msgid "Uninstall House Keeping"
 msgstr ""
 
 #. module: booking_engine
+#: model:ir.model.fields,help:booking_engine.product_model_product_template_x_offer_type
+msgid "Used by channel manager and OTAs to categorize offers."
+msgstr ""
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_approver_users_ids
 #: model:ir.model.fields,field_description:booking_engine.x_setting_related_field_approver_users_ids
 msgid "Users"
@@ -958,6 +1000,9 @@ msgid ""
 "When set, the tasks from this project are used for house keeping management "
 "in the accommodation app."
 msgstr ""
+
+#~ msgid "Booking"
+#~ msgstr "Agendamento"
 
 #~ msgid "Roles"
 #~ msgstr "Funções"

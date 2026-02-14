@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-23 10:35+0000\n"
-"PO-Revision-Date: 2026-01-29 17:24+0000\n"
+"PO-Revision-Date: 2026-02-10 12:19+0000\n"
 "Last-Translator: \"Abe Manyo (abem)\" <abem@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "deposit_management/id/>\n"
@@ -175,12 +175,12 @@ msgstr "Produk induk"
 #. module: deposit_management
 #: model:ir.model.fields,help:deposit_management.field_deposit_product_1
 msgid "Product capturing the total deposits due on sale"
-msgstr ""
+msgstr "Produk yang menangkap total deposit oleh karena penjualan"
 
 #. module: deposit_management
 #: model:ir.model.fields,help:deposit_management.x_is_a_deposit_category
 msgid "Products assigned with this category are considered deposit products."
-msgstr ""
+msgstr "Produk yang ditugaskan dengan kategori ini dianggap produk deposit."
 
 #. module: deposit_management
 #: model:base.automation,name:deposit_management.base_automation_8
@@ -210,6 +210,9 @@ msgid ""
 "product in those components. Leave second field empty if this product is the"
 " smallest unit."
 msgstr ""
+"Saat diisi, BoM otomatis akan disetup untuk secara otomatis break down "
+"produk ini di komponen-komponen tersebut. Tinggalkan field kedua kosong bila "
+"produk ini adalah unit terkecil."
 
 #. module: deposit_management
 #: model_terms:ir.ui.view,arch_db:deposit_management.product_template_form_deposit

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 15:05+0000\n"
-"PO-Revision-Date: 2026-02-05 19:04+0000\n"
+"PO-Revision-Date: 2026-02-14 20:21+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/guest_house/pt_BR/>\n"
@@ -658,6 +658,10 @@ msgid ""
 "                    approvers can check each room and set their state to "
 "ready to close the tasks."
 msgstr ""
+"Se estiver usando a configuração de aprovação de limpeza, os aprovadores "
+"designados\n"
+"podem verificar cada quarto e definir seu status como pronto para encerrar "
+"as tarefas."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -802,6 +806,8 @@ msgid ""
 "On a daily basis, house keeping tasks are created depending\n"
 "                    the current stays."
 msgstr ""
+"Diariamente, as tarefas de limpeza são criadas dependendo\n"
+"das estadias atuais."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -813,6 +819,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "On top of guest and stay management, you need to keep the place clean!"
 msgstr ""
+"Além da gestão dos hóspedes e das estadias, você precisa manter o local "
+"limpo!"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -870,12 +878,17 @@ msgid ""
 "is\n"
 "                the daily list of house keeping tasks to be tackled."
 msgstr ""
+"Abra agora as Tarefas do aplicativo de acomodação, menu Serviço de Limpeza.<"
+"br/>Esta é\n"
+"                a lista diária de tarefas de limpeza a serem realizadas."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid ""
 "Open one, assign it to an employee to plan the house keeping of the day."
 msgstr ""
+"Abra um, atribua-o a um funcionário para planejar as tarefas domésticas do "
+"dia."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -907,6 +920,9 @@ msgid ""
 "have an\n"
 "                overview of the cleanness state of your resources."
 msgstr ""
+"Abra o quadro no aplicativo de acomodações, no menu Serviço de Limpeza.<br/"
+">Aqui você tem uma\n"
+"                visão geral do estado de limpeza dos seus recursos."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body

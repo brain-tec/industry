@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 22:03+0000\n"
-"PO-Revision-Date: 2026-02-06 09:47+0000\n"
+"POT-Creation-Date: 2026-02-11 14:31+0000\n"
+"PO-Revision-Date: 2026-02-13 14:46+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-s19-1/"
 "condominium/ko/>\n"
@@ -169,6 +169,34 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hi,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                향후 예정되어 있는 미팅 안건을 첨부 드립니"
+"다:\n"
+"                                <t t-out=\"object.name or ''\">General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">감사합니다.</p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
 
 #. module: condominium
 #: model:mail.template,body_html:condominium.mail_template_3
@@ -203,6 +231,33 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hi,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                회의 보고서를 첨부 드립니다:\n"
+"                                <t t-out=\"object.name or ''\">General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">감사합니다.</p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -475,6 +530,7 @@ msgid "Accounting opening/handover<br/>"
 msgstr "계좌 개설/인계<br/>"
 
 #. module: condominium
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.properties_act_window_account
 #: model:ir.model.fields,field_description:condominium.field_property_account_ids
 #: model:ir.ui.menu,name:condominium.owners_properties_menu
@@ -701,6 +757,12 @@ msgid ""
 "            conditions as well. Of course, the price of each service and the "
 "content of the Quotation Templates can be adapted accordingly."
 msgstr ""
+"콘도미니엄에서 견적을 요청하는 연락이 오면, 즉시 <strong>영업 앱(</strong> )"
+"에서 견적서를 생성하여 서비스 개요와 수수료를 신속히 보내주십시오. 여기서 \""
+"시작 견적서\" 템플릿을 바로 활용할 수 있습니다. 이를 통해 킥오프 비용과 정기 "
+"기여금, 시간당 요금 등 모든 추가 서비스 가격이 자동으로 견적서에 반영됩니다. "
+"&amp;            약관도 반드시 첨부하세요. 물론 각 서비스 가격과 견적서 템플"
+"릿 내용은 상황에 맞게 조정 가능합니다."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1146,6 +1208,26 @@ msgid "Condominium: Update Property Current Owner"
 msgstr ""
 
 #. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_owner_dates
+msgid "Condominium: Validate Owner Dates"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_tenant_dates
+msgid "Condominium: Validate Tenant Dates"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_owner_dates
+msgid "Condominium: Validate owner dates"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_tenant_dates
+msgid "Condominium: Validate tenant dates"
+msgstr ""
+
+#. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_search_inherit
 msgid "Condominiums"
 msgstr "콘도"
@@ -1530,6 +1612,11 @@ msgid ""
 "in... \"Condominiums\" and set the condominium\n"
 "            field."
 msgstr ""
+"매년 재무제표 논의 및 중요 의사결정 등을 위한 정기 총회가 예정됩니다. 이 행사"
+"는 캘린더 앱에서 다음과 같이 쉽게 일정으로 등록할 수 있습니다: <font style"
+"=\"font-weight: bolder;\" class=\"text-o-color-1\">Meetings</font> 공동주택 "
+"소유주 전체를 초대하려면 \"참석자\" 항목의 \"추가 검색\"을 사용해 공동주택 이"
+"름을 입력하고... \"공동주택\" 필드를 설정하세요."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2113,6 +2200,7 @@ msgstr "동의서"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
 #: model:ir.model.fields,field_description:condominium.name_properties_tags
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_list_view
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Name"
 msgstr "이름"
@@ -2467,7 +2555,6 @@ msgid "Product Category"
 msgstr "품목 카테고리"
 
 #. module: condominium
-#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.condominium_property_count_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.owner_properties_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.property_actions_window
@@ -2717,8 +2804,6 @@ msgstr ""
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
 #: model:ir.model.fields,field_description:condominium.field_property_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_field_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_buildings
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence_field

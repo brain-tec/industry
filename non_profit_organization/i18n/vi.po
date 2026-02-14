@@ -7,16 +7,16 @@
 # Thi Huong Nguyen, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 11:44+0000\n"
-"PO-Revision-Date: 2025-12-20 19:50+0000\n"
+"PO-Revision-Date: 2026-02-14 20:21+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
-"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-s19-1/"
 "non_profit_organization/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -344,6 +344,15 @@ msgid ""
 "out=\"object.company_id.email\"/> | <t t-out=\"object.company_id.phone\"/></"
 "div>\n"
 msgstr ""
+"<div data-oe-version=\"2.0\">Kính gửi <t t-out=\"object.partner_id.name\""
+"/>,</div><br/><div>Cảm ơn bạn đã luôn đồng hành và ủng hộ trong năm <t t-out="
+"\"object.invoice_date.year if object.invoice_date else ''\"/>.</div><br/"
+"><div>Vui lòng xem chứng từ thuế của bạn cho năm nay trong tệp đính kèm. "
+"</div><br/><div>Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ với chúng tôi qua "
+"<t t-out=\"object.company_id.email\"/>.</div><br/><div>Trân trọng, </"
+"div><div><t t-out=\"object.company_id.name\"/> Đội ngũ</div><div><t t-out="
+"\"object.company_id.email\"/> | <t t-out=\"object.company_id.phone\"/></div>"
+"\n"
 
 #. module: non_profit_organization
 #: model:mail.template,body_html:non_profit_organization.mail_template_51
@@ -359,6 +368,14 @@ msgid ""
 "out=\"object.user_id.email\"/> | <t t-out=\"object.company_id.phone\"/></"
 "div>\n"
 msgstr ""
+"<div data-oe-version=\"2.0\">Kính gửi Quý ông/bà,</div><div><br/></"
+"div><div>Vui lòng xem tệp CSV đính kèm, trong đó chứa toàn bộ chứng từ thuế "
+"cho năm <t t-out=\"object.invoice_date.year if object.invoice_date else ''\""
+"/>.</div><br/><div>Nếu ông/bà cần thêm thông tin, xin vui lòng liên hệ với "
+"chúng tôi qua địa chỉ <t t-out=\"object.company_id.email\"/>.</div><br/"
+"><div>Trân trọng, </div><div><t t-out=\"object.user_id.name\"/></div><div><t "
+"t-out=\"object.company_id.name\"/> </div><div><t t-out="
+"\"object.user_id.email\"/> | <t t-out=\"object.company_id.phone\"/></div>\n"
 
 #. module: non_profit_organization
 #: model_terms:product.template,description_ecommerce:non_profit_organization.product_template_4
