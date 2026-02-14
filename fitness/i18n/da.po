@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 05:43+0000\n"
-"PO-Revision-Date: 2026-01-10 18:50+0000\n"
+"PO-Revision-Date: 2026-02-14 18:51+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/fitness/"
 "da/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 msgid ""
 ", and feel free\n"
 "                    to"
-msgstr ""
+msgstr ", og du kan altid"
 
 #. module: fitness
 #: model:product.template,name:fitness.product_product_14_product_template
@@ -413,7 +413,7 @@ msgstr "Kundekonto"
 #. module: fitness
 #: model:product.pricelist,name:fitness.product_pricelist_1
 msgid "Default Website Pricelist"
-msgstr ""
+msgstr "Standardprisliste for hjemmeside"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
@@ -459,6 +459,8 @@ msgid ""
 "supplements and workout gear. This will save you time for the next "
 "subscriptions."
 msgstr ""
+"Opret alle de produkter, du ofte sælger, f.eks. kosttilskud og træningstøj. "
+"Det sparer dig tid, når du opretter de næste abonnementer."
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.aboutus
@@ -757,6 +759,9 @@ msgid ""
 "sales orders are centralized in the <strong><font class=\"text-o-"
 "color-1\">Sales</font></strong> app."
 msgstr ""
+"Efter bekræftelsen omdannes tilbuddet til en salgsordre. Alle tilbud og "
+"salgsordrer samles i <strong><font class=\"text-o-color-1\""
+">Salgsappen</font></strong>."
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.pricing
@@ -1050,6 +1055,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries"
 " &gt; Upgrade your Fitness Center package and check the related box."
 msgstr ""
+"Har du ikke importeret demodata endnu? Du kan stadig nå det. Gå til Apps &gt;"
+" Brancher &gt; Opgradér din pakke til fitnesscentre, og markér det relevante "
+"felt."
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
@@ -1079,7 +1087,7 @@ msgstr "anmode om en demo"
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body
 msgid "🎓 Accounting"
-msgstr ""
+msgstr "🎓 Bogføring"
 
 #. module: fitness
 #: model_terms:ir.ui.view,arch_db:fitness.welcome_article_body

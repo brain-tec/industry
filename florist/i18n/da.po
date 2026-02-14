@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 07:19+0000\n"
-"PO-Revision-Date: 2026-01-17 18:51+0000\n"
+"PO-Revision-Date: 2026-02-14 18:51+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/florist/"
 "da/>\n"
@@ -79,6 +79,10 @@ msgid ""
 "                    <small>+1 555-555-5556</small>\n"
 "                  </span>"
 msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
+"                  <span class=\"o_force_ltr\">\n"
+"                    <small>+1 555-555-5556</small>\n"
+"                  </span>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -150,6 +154,18 @@ msgid ""
 "                        Standard Shipping\n"
 "                    </small>"
 msgstr ""
+"<small class=\"d-flex align-items-center\"><i class="
+"\"fa fa-1x fa-fw fa-usd fa-stack me-1\"/>\n"
+"                        Lavprisgaranti\n"
+"                    </small>\n"
+"                <small class=\"d-flex align-items-center\"><i class="
+"\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
+"                        30 dages online returret\n"
+"                    </small>\n"
+"                <small class=\"d-flex align-items-center\"><i class="
+"\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/>\n"
+"                        Standardforsendelse\n"
+"                    </small>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -158,6 +174,9 @@ msgid ""
 "                            info@yourcompany.example.com\n"
 "                        </small>"
 msgstr ""
+"<small><i class=\"fa fa-1x fa-fw fa-envelope me-1\"/>\n"
+"                            info@dinvirksomhed.eksempel.com\n"
+"                        </small>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
@@ -297,7 +316,7 @@ msgstr ""
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr ""
+msgstr "<strong>Det grundlæggende</strong>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -367,7 +386,7 @@ msgstr ""
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid "<strong>Use Case</strong>"
-msgstr ""
+msgstr "<strong>Brugsscenarie</strong>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -376,6 +395,9 @@ msgid ""
 "<strong>Apps &gt; Industries &gt; Upgrade your Florist Package</strong> and "
 "check the related box."
 msgstr ""
+"<strong>Har du ikke importeret demodata endnu?</strong> Du kan stadig nå "
+"det. Gå til <strong>Apps &gt; Brancher &gt; Opgradér din pakke til "
+"blomsterhandlere</strong>, og markér det relevante felt."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
@@ -676,7 +698,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
 msgid ""
 "Odoo offers endless customization possibilities for your flower business:"
-msgstr ""
+msgstr "Odoo giver din blomsterforretning uendelige tilpasningsmuligheder:"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body

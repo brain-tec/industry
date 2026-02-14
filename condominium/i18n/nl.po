@@ -9,13 +9,14 @@
 # Manon Rondou, 2025
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2025.
+# Bren Driesen <brdri@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 15:15+0000\n"
-"PO-Revision-Date: 2025-08-20 22:20+0000\n"
-"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"PO-Revision-Date: 2026-02-14 18:51+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-18/"
 "condominium/nl/>\n"
 "Language: nl\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -216,7 +217,7 @@ msgstr "Oppervlakte als verdeelsleutel"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Artificial Intelligence"
-msgstr "Kunstmatige Intelligentie"
+msgstr "Artificiële Intelligentie"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -279,7 +280,7 @@ msgstr "Onderhoudscontracten voor ketels"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Book the right numbers 🧮"
-msgstr "Boek de juiste nummers 🧮"
+msgstr "De juiste cijfers boeken 🧮"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_building_field
@@ -808,7 +809,7 @@ msgstr "Buitengewone werkkosten"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Fairly split the costs ⚖️"
-msgstr "Verdeel de kosten eerlijk ⚖️"
+msgstr "Kosten eerlijk verdelen ⚖️"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_749_product_template
@@ -873,8 +874,10 @@ msgid ""
 "From the Settings, create a new company in <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Companies</font>. Once done, it will appear on the top right of all screens with the aim to quickly switch between your company and the\n"
 "            different condominiums."
 msgstr ""
-"Maak vanuit de Instellingen een nieuw bedrijf aan in <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Bedrijven</font>. Als je dat gedaan hebt, verschijnt het rechtsboven in alle schermen met als doel om snel te kunnen schakelen tussen je bedrijf en de\n"
-"            verschillende condominiums."
+"Maak vanuit de instellingen een nieuw bedrijf aan in <font style=\"font-"
+"weight: bolder;\" class=\"text-o-color-1\">Bedrijven</font>. Zodra je dit "
+"hebt gedaan, verschijnt het bedrijf rechtsboven in alle schermen, zodat je "
+"snel kunt schakelen tussen je bedrijf en de verschillende condominiums."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_780_product_template
@@ -1195,7 +1198,7 @@ msgstr "Naam…"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Never forget a task 📑"
-msgstr "Vergeet nooit een taak 📑"
+msgstr "Geen enkele taak vergeten 📑"
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_26
@@ -1531,7 +1534,7 @@ msgstr "Woning"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Property Owner Association"
-msgstr "Vereniging van Eigenaren"
+msgstr "Vereniging van mede-eigenaren"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_807_product_template
@@ -1926,9 +1929,9 @@ msgid ""
 "expenses (water, electricity, gas, etc.), insurances, maintenance, repairs, "
 "cleaning of common areas, etc."
 msgstr ""
-"Het werkfonds dat wordt gebruikt om de gemeenschappelijke kosten te betalen,"
-" zoals maandelijkse kosten (water, elektriciteit, gas, etc.), verzekeringen,"
-" onderhoud, reparaties, schoonmaken van gemeenschappelijke ruimten, etc."
+"Het werkfonds dat wordt gebruikt om de gemeenschappelijke kosten te betalen, "
+"zoals maandelijkse kosten (water, elektriciteit, gas, etc.), verzekeringen, "
+"onderhoud, reparaties, schoonmaak van gemeenschappelijke ruimten, enz."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
