@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:26+0000\n"
-"PO-Revision-Date: 2026-02-02 11:34+0000\n"
+"PO-Revision-Date: 2026-02-10 08:14+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-19/3pl_logistic_company/zh_Hant/>\n"
@@ -34,12 +34,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:spreadsheet.dashboard.group,name:3pl_logistic_company.spreadsheet_dashboard_group_3pl
 msgid "3PL - INVOICING"
-msgstr ""
+msgstr "3PL 第三方物流 - 發票"
 
 #. module: 3pl_logistic_company
 #: model:spreadsheet.dashboard,name:3pl_logistic_company.spreadsheet_dashboard_15
 msgid "3PL Data"
-msgstr ""
+msgstr "3PL 第三方物流數據"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.server_action_account_move_create_next
@@ -132,27 +132,27 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Going Further!</b>"
-msgstr ""
+msgstr "<b>進一步功能</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>In the Contact App:</b>"
-msgstr ""
+msgstr "<b>聯絡人應用程式：</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>In the Inventory App:</b>"
-msgstr ""
+msgstr "<b>庫存應用程式：</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Locate the customer's last invoice.</b>"
-msgstr ""
+msgstr "<b>找出客戶的上一張發票。</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Login as:</b>"
-msgstr ""
+msgstr "<b>登入為：</b>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -218,7 +218,7 @@ msgstr "<b>開啟客戶關係應用程式</b>，建立一項新的商機。"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Password:</b> portal"
-msgstr ""
+msgstr "<b>密碼</b>：portal"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -300,12 +300,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>User:</b> portal@portal.com"
-msgstr ""
+msgstr "<b>使用者名稱</b>：portal@portal.com"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Validate</b> the invoice."
-msgstr ""
+msgstr "<b>驗證</b>發票。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -315,12 +315,12 @@ msgstr "<b>驗證</b>核實報價單，以確定最終銷售單資料。"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Validate</b> the transfer."
-msgstr ""
+msgstr "<b>驗證</b>轉移。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<b>Validate</b> to finalize the order."
-msgstr ""
+msgstr "<b>驗證</b>資料，以確定最終訂單內容。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -524,6 +524,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>活動</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -532,11 +536,14 @@ msgid ""
 "                <strong>Basics</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h1-fs\">\n"
+"                <strong>基礎知識</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Configure quality checks ✅</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">配置品質檢查 ✅</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -551,6 +558,8 @@ msgid ""
 "<span class=\"h2-fs\">Fixed-Space\n"
 "            Subscription Management</span>🔁"
 msgstr ""
+"<span class=\"h2-fs\">固定空間\n"
+"            訂閱管理</span> 🔁"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -558,21 +567,23 @@ msgid ""
 "<span class=\"h2-fs\">Invoice customer💲</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h2-fs\">向客戶開立發票💲</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Clients and Products 📖</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">管理客戶及產品 📖</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Stock Moves 🔄</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">管理庫存移動 🔄</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage quotations 🤝</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">管理報價單 🤝</span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -610,6 +621,9 @@ msgid ""
 "                <strong>Monitor Stock Occupation</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h4-fs\">\n"
+"                <strong>監察庫存空間佔用情況</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -654,6 +668,9 @@ msgid ""
 "                <strong>Creating the Invoice</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>建立發票</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -662,6 +679,9 @@ msgid ""
 "                <strong>Internal Moves</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>內部轉移/調撥</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -670,6 +690,9 @@ msgid ""
 "                <strong>Outbound Deliveries</strong>\n"
 "            </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                <strong>出庫發貨</strong>\n"
+"            </span>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -796,6 +819,8 @@ msgid ""
 "<span class=\"h6-fs\">​</span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"h6-fs\">​</span>\n"
+"            <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -860,7 +885,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<span style=\"font-size: 21px;\">Barcode App</span> 🤳"
-msgstr ""
+msgstr "<span style=\"font-size: 21px;\">條碼應用程式</span> 🤳"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -868,6 +893,8 @@ msgid ""
 "<span style=\"font-weight: normal;\">Your Logistics, Perfected.</span>\n"
 "                  <br/>"
 msgstr ""
+"<span style=\"font-weight: normal;\">物流工作，盡善盡美。</span>\n"
+"                  <br/>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -883,17 +910,17 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<strong>Accounting made easy 🧮</strong>"
-msgstr ""
+msgstr "<strong>會計工作變簡單 🧮</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<strong>In the Manufacturing App:</strong>"
-msgstr ""
+msgstr "<strong>製造管理應用程式：</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "<strong>Inbound</strong>"
-msgstr ""
+msgstr "<strong>入庫</strong>"
 
 #. module: 3pl_logistic_company
 #: model_terms:sale.order.template,note:3pl_logistic_company.sale_order_template_1
@@ -936,7 +963,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_products
 msgid "Available quantity"
-msgstr ""
+msgstr "可用數量"
 
 #. module: 3pl_logistic_company
 #: model:uom.uom,name:3pl_logistic_company.uom_uom_29
@@ -980,12 +1007,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_10
 msgid "Christmas Tree Waterfall Lights"
-msgstr ""
+msgstr "聖誕樹瀑布燈"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Click on <b>Mark as to do</b>."
-msgstr ""
+msgstr "按一下<b>標記為待辦</b>。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1015,7 +1042,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_point_id_title_field_quality_check
 msgid "Control Point Title"
-msgstr ""
+msgstr "控制點標題"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1029,7 +1056,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create a new internal transfer."
-msgstr ""
+msgstr "建立一項新的內部轉移。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1055,12 +1082,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.account_move_form_view_inherit
 msgid "Create next"
-msgstr ""
+msgstr "建立下一個"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Create product categories."
-msgstr ""
+msgstr "建立產品類別。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1096,7 +1123,7 @@ msgstr "目前月份"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.extension_stock_occupation_search_view
 msgid "Current Occupation"
-msgstr ""
+msgstr "目前佔用情況"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_date_field_x_stock_history
@@ -1114,6 +1141,8 @@ msgid ""
 "Do you want to go\n"
 "            further?"
 msgstr ""
+"想再探索\n"
+"            更多？"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1128,17 +1157,17 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_7
 msgid "Energy Bar"
-msgstr ""
+msgstr "能量棒"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_8
 msgid "Energy Pack"
-msgstr ""
+msgstr "能量包"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_9
 msgid "Energy Packaging"
-msgstr ""
+msgstr "能量包裝"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1152,7 +1181,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
 msgid "Entrust your logistics to an expert!&amp;nbsp;"
-msgstr ""
+msgstr "將你的物流工作，交給值得信賴的專家！"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.action_change_product_storable_lots
@@ -1169,12 +1198,12 @@ msgstr "到期日期"
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_14
 msgid "Extra Quality Check"
-msgstr ""
+msgstr "額外品質檢查"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_17
 msgid "Extra's"
-msgstr ""
+msgstr "額外"
 
 #. module: 3pl_logistic_company
 #: model:ir.model,name:3pl_logistic_company.x_fee_rate_model
@@ -1182,12 +1211,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_location_fee_rate_id_field_stock_location
 #: model:ir.ui.menu,name:3pl_logistic_company.fee_rate_menuitem
 msgid "Fee Rate"
-msgstr ""
+msgstr "收費率"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_fee_rate_list_view
 msgid "Fee rate list view"
-msgstr ""
+msgstr "收費率列表檢視畫面"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1209,22 +1238,22 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Go to <b>Reporting &gt; Stock Occupation</b>."
-msgstr ""
+msgstr "前往<b>報告 &gt; 庫存空間佔用情況</b>。"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_15
 msgid "Handling Charges Input"
-msgstr ""
+msgstr "處理費用輸入"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_16
 msgid "Handling Charges Output"
-msgstr ""
+msgstr "處理費用輸出"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Here's how to create an outbound delivery:"
-msgstr ""
+msgstr "要建立出庫發貨，步驟如下："
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1234,12 +1263,12 @@ msgstr "若要按營運操作及倉儲情況，向客戶開立發票，方法如
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Here's how:"
-msgstr ""
+msgstr "步驟如下："
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_5
 msgid "Hydrate powder"
-msgstr ""
+msgstr "水份補充劑粉"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1264,7 +1293,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "If it's the first time invoicing:"
-msgstr ""
+msgstr "若是首次開立發票："
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1299,7 +1328,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "If you've invoiced this customer before:"
-msgstr ""
+msgstr "若之前已向此客戶開立過發票："
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1327,12 +1356,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "In the pop-up window, click <b>\"Grant Access.\"</b>"
-msgstr ""
+msgstr "在彈出的視窗中，按一下「<b>授予存取權限</b>」。"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_invoice_period_id_field_account_move
 msgid "Invoice Period"
-msgstr ""
+msgstr "發票期間"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_location_id_field_x_stock_history
@@ -1365,12 +1394,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_my_home_products
 msgid "Manage you products and stock"
-msgstr ""
+msgstr "管理你的產品及庫存"
 
 #. module: 3pl_logistic_company
 #: model:sale.order.template.line,name:3pl_logistic_company.sale_order_template_line_4
 msgid "Manutention"
-msgstr ""
+msgstr "物料處理"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -1420,17 +1449,17 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_move_line_created
 msgid "On Move Line Created"
-msgstr ""
+msgstr "移動資料行建立時"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_owner_set_change_tracking
 msgid "On Owner Set On Product"
-msgstr ""
+msgstr "擁有人為產品設定時"
 
 #. module: 3pl_logistic_company
 #: model:base.automation,name:3pl_logistic_company.base_automation_on_stock_move_changed
 msgid "On Stock Move Create"
-msgstr ""
+msgstr "庫存移動建立時"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1498,7 +1527,7 @@ msgstr "包裹"
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_package_master_container_id_field_stock_quants
 msgid "Package Master Container"
-msgstr ""
+msgstr "包裝主容器"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_package_type_field_x_stock_history
@@ -1513,7 +1542,7 @@ msgstr "包裹"
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_partner_see_products
 msgid "Partner related products view"
-msgstr ""
+msgstr "合作夥伴相關產品檢視畫面"
 
 #. module: 3pl_logistic_company
 #: model:stock.picking.type,name:3pl_logistic_company.picking_type_pick
@@ -1555,22 +1584,22 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_12
 msgid "Reserved Warehouse Space - Ground"
-msgstr ""
+msgstr "預留倉庫空間 - 地面"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_13
 msgid "Reserved Warehouse Space - High-Bay"
-msgstr ""
+msgstr "預留倉庫空間 - 高層貨架"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_products
 msgid "Reserved quantity"
-msgstr ""
+msgstr "預留數量"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.product_route
 msgid "Route displaying products"
-msgstr ""
+msgstr "路線展示產品"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1578,11 +1607,13 @@ msgid ""
 "Schedule a\n"
 "                        demo"
 msgstr ""
+"預約觀看\n"
+"                        示範"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Select or scan the <b>destination location</b>."
-msgstr ""
+msgstr "選擇或掃瞄<b>目標位置</b>。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1592,7 +1623,7 @@ msgstr "選取或掃瞄需要移動的<b>產品</b>或<b>包裝</b>。"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Select or scan the <b>source location</b>."
-msgstr ""
+msgstr "選擇或掃瞄<b>來源位置</b>。"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1639,22 +1670,22 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Select their contact in the <b>Contacts</b> app."
-msgstr ""
+msgstr "在<b>聯絡人</b>應用程式中，選擇他們的聯絡人記錄。"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_2
 msgid "Shampoo"
-msgstr ""
+msgstr "洗髮水"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_3
 msgid "Soap"
-msgstr ""
+msgstr "肥皂"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_6
 msgid "Sports Gel"
-msgstr ""
+msgstr "運動啫喱"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_stock_history_list_view
@@ -1662,19 +1693,19 @@ msgstr ""
 #: model:ir.ui.menu,name:3pl_logistic_company.stock_history_menuitem
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.default_stock_history_pivot_view
 msgid "Stock History"
-msgstr ""
+msgstr "庫存歷史記錄"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.server,name:3pl_logistic_company.ir_cron_update_dgi_state_ir_actions_server
 msgid "Stock History-Create Daily Records"
-msgstr ""
+msgstr "庫存歷史記錄 - 建立每日記錄"
 
 #. module: 3pl_logistic_company
 #: model:ir.actions.act_window,name:3pl_logistic_company.action_window_stock_occupation_list_view
 #: model:ir.ui.menu,name:3pl_logistic_company.stock_occupation_menuitem
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.default_stock_occupation_pivot_view
 msgid "Stock Occupation"
-msgstr ""
+msgstr "庫存空間佔用情況"
 
 #. module: 3pl_logistic_company
 #: model:stock.picking.type,name:3pl_logistic_company.picking_type_store
@@ -1684,17 +1715,17 @@ msgstr "貯存位置"
 #. module: 3pl_logistic_company
 #: model:sale.order.template.line,name:3pl_logistic_company.sale_order_template_line_1
 msgid "Storage "
-msgstr ""
+msgstr "儲存空間 "
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_19
 msgid "Storage - Ground"
-msgstr ""
+msgstr "儲存空間 - 地面"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_20
 msgid "Storage - High-Bay"
-msgstr ""
+msgstr "儲存空間 - 高層貨架"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_3810
@@ -1761,7 +1792,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "The dashboard provides the following reports:"
-msgstr ""
+msgstr "概覽畫面提供以下報告："
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1811,7 +1842,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Tips for success:"
-msgstr ""
+msgstr "小提示：成功秘訣"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1862,7 +1893,7 @@ msgstr "為產品收貨前，必須先建立一項新的收貨。"
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_4
 msgid "Toothpaste"
-msgstr ""
+msgstr "牙膏"
 
 #. module: 3pl_logistic_company
 #: model:product.template,name:3pl_logistic_company.product_template_18
@@ -1929,11 +1960,13 @@ msgid ""
 "Use the <strong>Accounting</strong> app to easily\n"
 "            handle:"
 msgstr ""
+"利用<strong>會計</strong>應用程式，\n"
+"            輕鬆處理："
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Use this information to create your invoice:"
-msgstr ""
+msgstr "使用這項資訊去建立發票："
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1971,17 +2004,17 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the <strong>Inventory App</strong>"
-msgstr ""
+msgstr "在<strong>庫存應用程式</strong>內"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the Quality<strong> App</strong>"
-msgstr ""
+msgstr "在<strong>品質管理應用程式</strong>內"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Within the Sales app"
-msgstr ""
+msgstr "在銷售應用程式內"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2064,12 +2097,12 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.portal_my_home_products
 msgid "Your Products"
-msgstr ""
+msgstr "你的產品"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
 msgid "brown wooden shelf on white floor tiles"
-msgstr ""
+msgstr "啡色木架放在白色地磚上"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_operation_type_field_stock_move_line
@@ -2082,6 +2115,8 @@ msgid ""
 "🎓\n"
 "                    Document"
 msgstr ""
+"🎓\n"
+"                    文件管理"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2089,6 +2124,8 @@ msgid ""
 "🎓\n"
 "                Accounting"
 msgstr ""
+"🎓\n"
+"                會計"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2096,6 +2133,8 @@ msgid ""
 "🎓\n"
 "                Dashboard"
 msgstr ""
+"🎓\n"
+"                Dashboard 概覽畫面"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2103,6 +2142,8 @@ msgid ""
 "🎓\n"
 "                Quality"
 msgstr ""
+"🎓\n"
+"                品質管理"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2110,6 +2151,8 @@ msgid ""
 "🎓\n"
 "                Subscription"
 msgstr ""
+"🎓\n"
+"                訂閱"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2117,6 +2160,8 @@ msgid ""
 "🎓\n"
 "                Website"
 msgstr ""
+"🎓\n"
+"                網站製作"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2124,6 +2169,8 @@ msgid ""
 "🎓\n"
 "            CRM"
 msgstr ""
+"🎓\n"
+"            客戶關係管理（CRM）"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2131,6 +2178,8 @@ msgid ""
 "🎓\n"
 "            Import - Export"
 msgstr ""
+"🎓\n"
+"            匯入及匯出"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2145,7 +2194,7 @@ msgstr "🎓 庫存"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "🎓 Printer"
-msgstr ""
+msgstr "🎓 打印機"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2165,4 +2214,4 @@ msgstr "🎓 電子簽名"
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "🎓 Third party carrier"
-msgstr ""
+msgstr "🎓 第三方物流承運商"

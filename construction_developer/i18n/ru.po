@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-02-02 11:35+0000\n"
+"POT-Creation-Date: 2026-02-12 09:56+0000\n"
+"PO-Revision-Date: 2026-02-14 19:50+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "construction_developer/ru/>\n"
@@ -23,8 +23,19 @@ msgstr ""
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_portal_content_inherit
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_report_document_inherit
-msgid "<strong>Contract Type </strong>"
-msgstr "<strong>Тип договора </strong>"
+msgid "<strong>Contract Type</strong>"
+msgstr "<strong>Тип договора</strong>"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_active_field_x_work_item
+msgid "Active"
+msgstr "Активно"
+
+#. module: construction_developer
+#: model:ir.actions.act_window,name:construction_developer.action_window_add_work_item
+#: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_form_view_extension
+msgid "Add Work Item"
+msgstr "Добавить рабочую позицию"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_77
@@ -44,6 +55,11 @@ msgid "Apply to subsection"
 msgstr "Применить к подразделу"
 
 #. module: construction_developer
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_search_view
+msgid "Archived"
+msgstr "Архивация"
+
+#. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_70
 msgid "Carport"
 msgstr "Навес для автомобиля"
@@ -52,6 +68,11 @@ msgstr "Навес для автомобиля"
 #: model:product.template,name:construction_developer.product_template_65
 msgid "Compacted sand"
 msgstr "Уплотненный песок"
+
+#. module: construction_developer
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid "Components"
+msgstr "Материалы"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_80
@@ -71,6 +92,27 @@ msgid ""
 msgstr ""
 "Строительство: Инициализировать последовательность строк заказа на продажу "
 "при создании заказа на продажу"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_archive_old_wi_template
+msgid "Construction: Product - Archive Old Work Item Template"
+msgstr "Строительство: Товар – Архивация старого шаблона рабочей позиции"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_create_associated_work_item
+msgid "Construction: SOL - Create associated Work Item"
+msgstr ""
+"Строительство: Создать связанные рабочие позиции на основе позиций сметы"
+
+#. module: construction_developer
+#: model:base.automation,name:construction_developer.base_automation_sol_on_write
+msgid "Construction: SOL - On save"
+msgstr "Строительство: Позиция сметы – При сохранении"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_open_sol_work_item
+msgid "Construction: SOL - Open SOL Work Item"
+msgstr "Строительство: Открыть рабочую позицию по строке сметы"
 
 #. module: construction_developer
 #: model:ir.actions.server,name:construction_developer.action_sol_update_progress_increment_on_change
@@ -114,6 +156,82 @@ msgstr ""
 "изменении прироста прогресса"
 
 #. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_create_product_for_wi
+msgid "Construction: Work Item - Create new product for work item"
+msgstr ""
+"Строительство: Рабочая позиция – Создать новый товар для рабочей позиции"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_create_or_modify_wi_on_sol
+msgid "Construction: Work Item - Create/modify work item on sale order line"
+msgstr ""
+"Строительство: Рабочая позиция – Создать/изменить рабочую позицию в строке "
+"заказа на продажу"
+
+#. module: construction_developer
+#: model:base.automation,name:construction_developer.base_automation_on_product_from_wi_change
+msgid "Construction: Work Item - On product change"
+msgstr "Строительство: Рабочая позиция – При изменении товара"
+
+#. module: construction_developer
+#: model:base.automation,name:construction_developer.base_automation_work_item_on_write
+msgid "Construction: Work Item - On save"
+msgstr "Строительство: Рабочая позиция – При сохранении"
+
+#. module: construction_developer
+#: model:base.automation,name:construction_developer.base_automation_work_item_on_write_unit_cost_price_change
+msgid "Construction: Work Item - On save and unit cost/price change"
+msgstr ""
+"Строительство: Рабочая позиция – При сохранении и изменении себестоимости/"
+"цены за единицу"
+
+#. module: construction_developer
+#: model:base.automation,name:construction_developer.base_automation_work_item_template_on_write
+msgid "Construction: Work Item - On save of non template"
+msgstr ""
+"Строительство: Рабочая позиция – При сохранении позиции, не являющейся "
+"шаблоном"
+
+#. module: construction_developer
+#: model:base.automation,name:construction_developer.base_automation_wi_template_without_product_on_write
+msgid "Construction: Work Item - On save of work item template without product"
+msgstr ""
+"Строительство: Рабочая позиция – Сохранение шаблона рабочей позиции без "
+"товара"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_set_work_item_name
+msgid "Construction: Work Item - Set Work Item name"
+msgstr "Строительство: Рабочая позиция – Установить название рабочей позиции"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_set_work_item_as_template
+msgid "Construction: Work Item - Set as template"
+msgstr "Строительство: Рабочая позиция – Установить как шаблон"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_set_unit_cost_price_from_product
+msgid "Construction: Work Item - Set unit cost and unit price from product"
+msgstr ""
+"Строительство: Рабочая позиция – Установить себестоимость и цену за единицу "
+"из товара"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_update_product_cost
+msgid "Construction: Work Item - Update product cost"
+msgstr "Строительство: Рабочая позиция – Обновить себестоимость товара"
+
+#. module: construction_developer
+#: model:ir.actions.server,name:construction_developer.server_action_update_product_price
+msgid "Construction: Work Item - Update product price"
+msgstr "Строительство: Рабочая позиция – Обновить цену товара"
+
+#. module: construction_developer
+#: model:base.automation,name:construction_developer.base_automation_on_product_from_wi_line_change
+msgid "Construction: Work Item line - On product change"
+msgstr "Строительство: Строка рабочей позиции – При изменении товара"
+
+#. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_sol_contract_type
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_so_contract_type
 msgid "Contract Type"
@@ -125,6 +243,12 @@ msgid "Corrugated metal sheet"
 msgstr "Профнастил"
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_currency_id_field_x_work_item
+#: model:ir.model.fields,field_description:construction_developer.x_currency_id_field_x_work_item_line
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_current_progress
 msgid "Current Progress"
 msgstr "Текущий прогресс"
@@ -133,6 +257,11 @@ msgstr "Текущий прогресс"
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_delivered_progress
 msgid "Delivered Progress"
 msgstr "Объем сданных работ"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_name_field_x_work_item
+msgid "Description"
+msgstr "Описание"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_display_button
@@ -201,6 +330,11 @@ msgid "In Progress"
 msgstr "В процессе"
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_is_template_field_x_work_item
+msgid "Is Template"
+msgstr "Шаблон"
+
+#. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_is_deliverable
 msgid "Is a deliverable Product"
 msgstr "Является поставляемым товаром"
@@ -211,10 +345,26 @@ msgid "Is an undeliverable Product"
 msgstr "Является непоставляемым товаром"
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.field_account_move_line_x_reference
+#: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_reference
+msgid "Line Reference"
+msgstr "Ссылка на строку"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_margin_field_x_work_item_line
+msgid "Margin"
+msgstr "Маржа"
+
+#. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_68
 msgid "Material order, staff management, coordination, customer meetings"
 msgstr ""
 "Заказ материалов, управление персоналом, координация, встречи с клиентами"
+
+#. module: construction_developer
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid "Name..."
+msgstr "Название..."
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
@@ -260,12 +410,14 @@ msgstr ""
 "выставления счетов.\n"
 "– Фиксированная цена: отображается упоминание о том, что тип договора "
 "предполагает фиксированную цену.\n"
-"– Открытая смета: отображается упоминание о том, что тип договора – «"
-"открытая смета».\n"
+"– Открытая смета: отображается упоминание о том, что тип договора – "
+"«открытая смета».\n"
 "– Построчно: смешанная логика расчетов, при которой условия определяются "
 "индивидуально для каждой позиции."
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_product_id_field_x_work_item
+#: model:ir.model.fields,field_description:construction_developer.x_product_id_field_x_work_item_line
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Product"
 msgstr "Товар"
@@ -274,6 +426,11 @@ msgstr "Товар"
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_service_policy
 msgid "Product Service Policy"
 msgstr "Политика обслуживания продукции"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_product_wi_template_id_field_x_work_item
+msgid "Product Work Item Template"
+msgstr "Шаблон рабочей позиции товара"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.action_progress_view
@@ -298,9 +455,19 @@ msgid "Qty"
 msgstr "Кол-во"
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_quantity_field_x_work_item_line
+msgid "Quantity"
+msgstr "Количество"
+
+#. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_quantity_increment
 msgid "Quantity Increment"
 msgstr "Прирост количества"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_reference_field_x_work_item
+msgid "Reference"
+msgstr ""
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_69
@@ -318,6 +485,11 @@ msgid "S00003 - Project Template"
 msgstr "S00003 – Шаблон проектов"
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_sale_order_line_id_field_x_work_item
+msgid "Sale Order Line"
+msgstr "Строка заказа на продажу"
+
+#. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Sales Order Lines that are at 100% progress"
 msgstr "Строки заказа со 100% прогрессом"
@@ -333,9 +505,36 @@ msgid "Sales Order Lines that have not been started yet (0% progress)"
 msgstr "Строки заказа, работа по которым еще не начата (0% прогресса)"
 
 #. module: construction_developer
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid "Saving this Work Item will archive the current one for this product."
+msgstr ""
+"Сохранение этой рабочей позиции приведет к архивации текущей позиции для "
+"данного товара."
+
+#. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "Search Sales Order"
 msgstr "Поиск заказа на продажу"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_sequence_field_x_work_item
+#: model:ir.model.fields,field_description:construction_developer.x_sequence_field_x_work_item_line
+msgid "Sequence"
+msgstr "Последовательность"
+
+#. module: construction_developer
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid "Set as Template"
+msgstr "Установить как шаблон"
+
+#. module: construction_developer
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid ""
+"Sets the current work item as new template (archives the current template if "
+"any)."
+msgstr ""
+"Устанавливает текущую рабочую позицию в качестве нового шаблона "
+"(архивирует текущий шаблон, если он есть)."
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_76
@@ -359,6 +558,11 @@ msgid "Structure"
 msgstr "Конструкция"
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_targeted_so_field_x_work_item
+msgid "Targeted SO"
+msgstr "Целевой заказ на продажу"
+
+#. module: construction_developer
 #: model:project.project,label_tasks:construction_developer.project_project_16
 msgid "Tasks"
 msgstr "Задачи"
@@ -375,6 +579,30 @@ msgid "Type"
 msgstr "Тип"
 
 #. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_unit_id_field_x_work_item
+#: model:ir.model.fields,field_description:construction_developer.x_unit_id_field_x_work_item_line
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid "Unit"
+msgstr "Единица"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_unit_cost_field_x_work_item
+#: model:ir.model.fields,field_description:construction_developer.x_unit_cost_field_x_work_item_line
+msgid "Unit Cost"
+msgstr "Себестоимость единицы"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_unit_margin_field_x_work_item
+msgid "Unit Margin"
+msgstr "Маржа на единицу"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_unit_price_field_x_work_item
+#: model:ir.model.fields,field_description:construction_developer.x_unit_price_field_x_work_item_line
+msgid "Unit Price"
+msgstr "Цена за единицу"
+
+#. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_unspecified
 msgid "Unspecified"
 msgstr "Не указано"
@@ -383,3 +611,40 @@ msgstr "Не указано"
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_list_view
 msgid "Update Delivery"
 msgstr "Обновить данные о выполнении"
+
+#. module: construction_developer
+#: model:ir.model,name:construction_developer.x_work_item_model
+#: model:ir.model.fields,field_description:construction_developer.x_line_work_item_id_field_sale_order_line
+#: model:ir.model.fields,field_description:construction_developer.x_work_item_id_field_x_work_item_line
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid "Work Item"
+msgstr "Рабочая позиция"
+
+#. module: construction_developer
+#: model:ir.model,name:construction_developer.x_work_item_line_model
+msgid "Work Item Line"
+msgstr "Строка рабочей позиции"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_work_item_line_ids_field_x_work_item
+msgid "Work Item Lines"
+msgstr "Строки рабочих позиций"
+
+#. module: construction_developer
+#: model:ir.model.fields,field_description:construction_developer.x_work_item_template_id_field_product_product
+msgid "Work Item Template"
+msgstr "Шаблон рабочей позиции"
+
+#. module: construction_developer
+#: model:ir.actions.act_window,name:construction_developer.action_window_work_items
+#: model:ir.ui.menu,name:construction_developer.work_items_menu_sales
+msgid "Work Items"
+msgstr "Рабочие позиции"
+
+#. module: construction_developer
+#: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
+msgid "m²"
+msgstr "м²"
+
+#~ msgid "<strong>Contract Type </strong>"
+#~ msgstr "<strong>Тип договора </strong>"

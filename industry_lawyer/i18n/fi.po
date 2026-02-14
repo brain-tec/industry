@@ -8,13 +8,14 @@
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-10 12:07+0000\n"
-"PO-Revision-Date: 2025-11-10 13:26+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-02-11 14:47+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "industry_lawyer/fi/>\n"
 "Language: fi\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
@@ -245,7 +246,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid "<span class=\"h2-fs\"><strong>Use Case</strong></span>"
-msgstr "<span class=\"h2-fs\"><strong>Oikeustapaus</strong></span>"
+msgstr "<span class=\"h2-fs\"><strong>Esimerkkitapaus</strong></span>"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.services
@@ -517,9 +518,9 @@ msgid ""
 "use tools like Google Calendar or Outlook, follow these steps to sync them "
 "with Odoo:"
 msgstr ""
-"<strong>Ulkoisten kalenterien synkronointi</strong>: Jos lakimiehet tai "
-"sihteerit käyttävät esimerkiksi Google-kalenteria tai Outlookia, noudata "
-"näitä ohjeita kalenterien synkronointiin Odoon kanssa."
+"<strong>Ulkoisten kalenterien synkronointi:</strong> Jos asianajajat tai "
+"sihteerit käyttävät Google-kalenterin tai Outlookin kaltaisia työkaluja, "
+"noudata näitä ohjeita Odoon kanssa synkronoidaksesi:"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -538,9 +539,9 @@ msgid ""
 "Website </font></strong>in a few clicks. Get new clients or direct "
 "appointment online in a few clicks."
 msgstr ""
-"Ilmainen, personoitu ja integroitu <strong><font class=\"text-o-color-1\""
-">Verkkosivu</strong> vain muutamalla klikkauksella. Uusia asiakkaita tai "
-"ajanvarauksia helposti verkossa."
+"Ilmainen, personoitu ja integroitu<strong><font class=\"text-o-color-1\"> "
+"Verkkosivusto </font></strong>muutamalla klikkauksella. Hanki uusia "
+"asiakkaita tai suoria ajanvarauksia helposti verkossa."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
@@ -1071,7 +1072,7 @@ msgstr "Ota meihin yhteyttä"
 #. odoo-javascript
 #: code:addons/industry_lawyer/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
-msgstr ""
+msgstr "Aloita tutustumalla Odoo-käyttöäsi koskeviin suosituksiimme täällä!"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1081,7 +1082,7 @@ msgstr "Google Kalenterin Integraatio"
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid "How to build your court bundle:"
-msgstr "Kuinka koota oikeudenkäyntiaineisto"
+msgstr "Miten rakentaa oikeudenkäyntiaineisto:"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -1096,7 +1097,7 @@ msgstr "Käynnissä"
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid "Inform the Attorney of any relevant changes"
-msgstr "Ilmoita asianajajalle kaikista olennaisista muutoksista."
+msgstr "Ilmoita asianajajalle kaikista olennaisista muutoksista"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.aboutus
@@ -1188,7 +1189,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid "Maintain attorney-client privilege"
-msgstr "Säilytä asianajajan ja asiakkaan välinen luottamuksellisuus."
+msgstr "Säilytä asianajajan salassapitovelvollisuus"
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1448,12 +1449,12 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid "Refer to the following guides for detailed steps:"
-msgstr "Katso seuraavat oppaat saadaksesi tarkemmat ohjeet."
+msgstr "Katso seuraavat oppaat tarkkoja vaiheita varten:"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
 msgid "Regularly inform the Client of case developments"
-msgstr "Pidä asiakas säännöllisesti ajan tasalla oikeustapauksen etenemisestä."
+msgstr "Päivitä asiakas oikeustapauksen etenemisestä säännöllisesti"
 
 #. module: industry_lawyer
 #: model_terms:sale.order.template,note:industry_lawyer.sale_order_template_1
@@ -1494,7 +1495,7 @@ msgstr ""
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
 msgid "Select all your favorite documents."
-msgstr "Valitse suosikkiasiakirjasi"
+msgstr "Valitse suosikkiasiakirjasi."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1696,8 +1697,8 @@ msgid ""
 "the required <strong>Know Your Customer (KYC) assessment</strong> before "
 "accepting a case."
 msgstr ""
-"Käytä <strong>CRM-sovellusta</strong> asiakasvuorovaikutusten hallinnointiin "
-"ja suorita vaadittu <strong>Tunne asiakkaasi (KYC) arviointi</strong> ennen "
+"Käytä <strong>CRM-sovellusta</strong> asiakasvuorovaikutuksen hallintaan ja "
+"suorita vaadittu <strong>Tunne asiakkaasi (KYC) -arviointi</strong> ennen "
 "tapauksen hyväksymistä."
 
 #. module: industry_lawyer
@@ -1739,7 +1740,7 @@ msgid ""
 "specific client case."
 msgstr ""
 "Käytä <strong>ajastintoimintoa</strong> seurataksesi tiettyyn "
-"asiakastapaukseen käytettyjä työtunteja."
+"asiakastapaukseen käytettyä aikaa."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body
@@ -1856,8 +1857,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: industry_lawyer
 #: model_terms:ir.ui.view,arch_db:industry_lawyer.welcome_article_body

@@ -4,13 +4,13 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# Saara Hakanen <sahak@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 11:38+0000\n"
-"PO-Revision-Date: 2025-12-19 11:11+0000\n"
+"PO-Revision-Date: 2026-02-13 10:38+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "hvac_services/fi/>\n"
@@ -140,7 +140,7 @@ msgstr ""
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr "<strong>Käyttötapaus</strong>"
+msgstr "<strong>Esimerkkitapaus</strong>"
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body
@@ -599,9 +599,9 @@ msgid ""
 "                    demo data and try the Demo - Use Case (In the next "
 "Knowledge Article)"
 msgstr ""
-"Jos haluat suorittaa tämän moduulin käytännöllisen opastetun kierroksen, "
-"sinun kannattaa tuoda\n"
-"                        demotiedot ja kokeilla Demo - Esimerkkitapausta "
+"Jos haluat suorittaa tämän moduulin käytännönläheisen opastetun kierroksen, "
+"sinun kannattaa tuoda demotiedot ja kokeilla\n"
+"                    demon esimerkkitapausta "
 "(seuraavassa Tietokirjaston artikkelissa)"
 
 #. module: hvac_services
@@ -1623,9 +1623,9 @@ msgid ""
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon esimerkkitapauksen valmiiksi! On monia muitakin tapoja mukauttaa\n"
-"                                         Odoo-asetukset yritystarpeisiisi "
-"sopiviksi."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset\n"
+"                    yrityksesi tarpeiden mukaiseksi."
 
 #. module: hvac_services
 #: model_terms:ir.ui.view,arch_db:hvac_services.welcome_article_body

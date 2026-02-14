@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:27+0000\n"
-"PO-Revision-Date: 2026-01-20 11:02+0000\n"
+"PO-Revision-Date: 2026-02-11 14:47+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/fi/>\n"
@@ -169,7 +169,7 @@ msgstr "<span class=\"h1-fs\">Viimeinen sana</span>"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Use case</span>"
-msgstr "<span class=\"h1-fs\">Käyttötapaus</span>"
+msgstr "<span class=\"h1-fs\">Esimerkkitapaus</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -610,8 +610,8 @@ msgid ""
 "For the project tasks, you can assign the owner or more employees in case "
 "you work with Junior / Senior pairing."
 msgstr ""
-"Projektitehtävissä voit määrittää vastuuhenkilön tai useita työntekijöitä, "
-"jos työskentelet esimerkiksi juniori–seniori-parina."
+"Voit määrittää projektitehtäville omistajan tai useita työntekijöitä, jos "
+"työskentelet juniori/seniori -parina."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
@@ -1601,8 +1601,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
