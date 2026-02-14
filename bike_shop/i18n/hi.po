@@ -7,13 +7,14 @@
 # Ujjawal Pathak, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Ujjawal Pathak (pauj)" <pauj@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-14 12:55+0000\n"
-"PO-Revision-Date: 2025-11-22 22:50+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-02-07 22:50+0000\n"
+"Last-Translator: \"Ujjawal Pathak (pauj)\" <pauj@odoo.com>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-s18-3/"
 "bike_shop/hi/>\n"
 "Language: hi\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: bike_shop
 #: model_terms:ir.ui.view,arch_db:bike_shop.welcome_article_body
@@ -145,6 +146,27 @@ msgid ""
 "    </t>\n"
 "    </p></div>"
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\" data-oe-version=\"1.0\"> \n"
+"    <p style=\"box-sizing:border-box;margin: 0px; padding: 0px; font-size: "
+"12px;\"> \n"
+"    नमस्ते <span style=\"font-weight:bold;\" t-out=\""
+"object.partner_id.display_name or ''\"/>,<br/>\n"
+"    <br/> \n"
+"    आपका ऑर्डर <span style=\"font-weight:bold;\" t-out=\"object.name or ''\"/> "
+"तैयार है.\n"
+"    <br/>\n"
+"    आप अपनी सुविधा के अनुसार इसे हमारे स्टोर से ले सकते हैं.\n"
+"    <br/>\n"
+"    हम पर विश्वास रखने और इंतज़ार करने के लिए आपका शुक्रिया!<br/>\n"
+"    <br/> \n"
+"    अगर आपके मन में कोई भी सवाल हो, तो आप बेझिझक हमसे पूछ सकते हैं. <br/>\n"
+"    <br/>\n"
+"    <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
+"quote-container=\"1\">\n"
+"        <span style=\"font-weight:bold;\" t-out=\"object.user_id.signature\""
+"/>\n"
+"    </t>\n"
+"    </p></div>"
 
 #. module: bike_shop
 #: model_terms:product.template,out_of_stock_message:bike_shop.product_template_13
