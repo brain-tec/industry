@@ -12,13 +12,14 @@
 # Miika Nissi <miika.nissi@tawasta.fi>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:45+0000\n"
-"PO-Revision-Date: 2025-11-12 13:39+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-02-13 10:36+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "industry_restaurant/fi/>\n"
 "Language: fi\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.website_page_menu
@@ -143,10 +144,10 @@ msgid ""
 "and their Hourly Cost in the Settings tab for your profitability "
 "computations."
 msgstr ""
-"1.  Luo <strong>Työntekijät-sovelluksessa</strong>  uusi työntekijä ja "
-"varmista, että määrität roolit Työtiedot-välilehdellä, jotta voit "
-"suunnitella heidän työvuorojaan automaattisesti, sekä tuntipalkan asetukset-"
-"välilehdellä kannattavuus laskelmiasi varten."
+"1. Luo <strong>Työntekijät-sovelluksessa</strong> uusia työntekijöitä ja "
+"määritä roolit Työtiedot-välilehdellä. Voit suunnitella työvuorot "
+"automaattisesti sekä tuntipalkan asetukset-välilehdellä "
+"kannattavuuslaskelmiasi varten."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -339,6 +340,9 @@ msgid ""
 "customers to book tables online 24/7, reducing phone calls and optimizing "
 "your seating capacity."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Ajanvaraukset-sovellus</b>: </font>Anna "
+"asiakkaiden tehdä pöytävarauksia verkossa ympäri vuorokauden, mikä vähentää "
+"puheluita ja optimoi istumapaikkakapasiteettisi."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -347,6 +351,9 @@ msgid ""
 "ingredients and recipes in real-time, using \"Bill of Materials\" (BoM) to "
 "deduct stock automatically as dishes are sold."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Varastointi-sovellus</b>: </font>Seuraa "
+"raaka-aineita ja reseptejä reaaliajassa \"Materiaaliluettelolla\" ja vähennä "
+"varastoa automaattisesti myytyjen annosten perusteella."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -355,6 +362,9 @@ msgid ""
 "Send orders instantly to the kitchen or bar with specific printing "
 "instructions for different stations (e.g., \"Cold Station\", \"Grill\")."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Keittiönäyttö / tulostimet</b>:</font> "
+"Lähetä tilaukset välittömästi keittiöön tai baariin tietyille työpisteille "
+"(esim. \"Kylmäpiste\", \"Grilli\") tarkoitettujen tulostusohjeiden kanssa."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -363,6 +373,9 @@ msgid ""
 "for chefs, servers, and bartenders, ensuring you are adequately staffed for "
 "peak service hours."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Suunnittelu-sovellus</b>:</font> Järjestä "
+"kokkien, tarjoilijoiden ja baarimikkojen työvuorot sekä varmista "
+"henkilökunnan riittävyys ruuhka-aikoina."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -371,6 +384,9 @@ msgid ""
 "reordering of fresh produce and dry goods based on minimum stock rules and "
 "supplier lead times."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Ostot-sovellus</b>:</font> Automatisoi "
+"tuoreiden tuotteiden sekä kuivatuotteiden uudelleentilaaminen "
+"vähimmäisvarastosääntöjen ja toimittajien toimitusaikojen perusteella."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -379,6 +395,10 @@ msgid ""
 "your floor plan visually, handling table seating, order taking, and bill "
 "splitting directly from the interface."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Ravintola-sovellus (Kassajärjestelmä)"
+"</b>:</font> Hallinnoi pöytäkarttaasi visuaalisesti ja käsittele "
+"pöytävaraukset, tilausten vastaanotto sekä laskujen jakaminen suoraan "
+"käyttöliittymästä."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -387,6 +407,9 @@ msgid ""
 "menu, share chef bios, and promote special events with a mouth-watering "
 "online presence."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Verkkosivu-sovellus</b>:</font> Esittele "
+"ruokalistasi, jaa kokkien esittelyt ja mainosta erityistapahtumia "
+"herkullisella verkkosivustolla."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -524,7 +547,7 @@ msgstr "<strong>Haluatko jatkaa?</strong>"
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
 msgid "<strong>Use Case:</strong>"
-msgstr "<strong>Käyttötapaus</strong>"
+msgstr "<strong>Esimerkkitapaus:</strong>"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -791,8 +814,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case. (In the next Knowledge Article)"
 msgstr ""
-"Jos haluat tutustua moduuliin käytännössä, sinun kannattaa tuoda demotiedot "
-"ja kokeilla Demo - käyttötapausta. (Seuraavassa Tietokirjaston artikkelissa)"
+"Jos haluat suorittaa tämän moduulin käytännönläheisen opastetun kierroksen, "
+"sinun kannattaa tuoda demotiedot ja kokeilla demon esimerkkitapausta. "
+"(seuraavassa Tietokirjaston artikkelissa)"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.homepage
@@ -1051,10 +1075,10 @@ msgid ""
 "services a day (12:00 AM to 15:00 PM and 18:00 PM to 23:00 PM), and slots "
 "every 15 minutes. Feel free to edit this to reflect on your opening hours!"
 msgstr ""
-"Tällä asetuksella aukioloajat voidaan asettaa välille maanantai-sunnuntai, "
-"kahdessa palvelujaksossa per päivä (klo 12:00–15:00 ja klo 18:00–23:00), ja "
-"15 minuutin ajanjaksoissa. Voit vapaasti muokata tätä vastaamaan omia "
-"aukioloaikojasi."
+"Tällä asetuksella saatavuuden voi asettaa maanantaista sunnuntaihin, "
+"kahdessa palvelujaksossa per päivä (klo 12:00–15:00 ja klo 18:00–23:00), 15 "
+"minuutin ajanjaksoissa. Voit muokata tätä vapaasti vastaamaan omia "
+"aukioloaikojasi!"
 
 #. module: industry_restaurant
 #: model:project.task.type,name:industry_restaurant.project_task_type_1
@@ -1098,7 +1122,7 @@ msgid ""
 "&gt; Operations &gt; Replenishment"
 msgstr ""
 "Pääset kaikkiin tuotteisiin ja niiden uudelleentilaussääntöihin kohdasta "
-"Varastointi &gt; Toiminnot &gt; Täydennys."
+"Varastointi &gt; Toiminnot &gt; Täydennys"
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body
@@ -1170,8 +1194,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: industry_restaurant
 #: model_terms:ir.ui.view,arch_db:industry_restaurant.welcome_article_body

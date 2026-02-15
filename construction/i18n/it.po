@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 12:05+0000\n"
-"PO-Revision-Date: 2026-01-21 09:02+0000\n"
+"POT-Creation-Date: 2026-02-12 09:56+0000\n"
+"PO-Revision-Date: 2026-02-14 19:50+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-19/"
 "construction/it/>\n"
@@ -213,6 +213,23 @@ msgid ""
 msgstr ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"<span class=\"o_file_image d-flex o_image user-select-none\" "
+"title=\"WorkItems_PoolDeck.xlsx\" data-mimetype=\"application/"
+"vnd.openxmlformats-officedocument.spreadsheetml.sheet\" "
+"contenteditable=\"false\">\n"
+"                         <br/>\n"
+"                    </span>"
+msgstr ""
+"<span class=\"o_file_image d-flex o_image user-select-none\" title="
+"\"WorkItems_PoolDeck.xlsx\" data-mimetype="
+"\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\" "
+"contenteditable=\"false\">\n"
+"                         <br/>\n"
+"                   </span>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -783,6 +800,11 @@ msgid "Adapted WC"
 msgstr "WC accessibile"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Adjust quantities according to customer needs."
+msgstr "Regola le quantità in base alle esigenze del cliente."
+
+#. module: construction
 #: model:documents.document,name:construction.documents_document_27
 #: model:documents.document,name:construction.documents_document_7
 msgid "Administrative & Legal"
@@ -995,6 +1017,14 @@ msgstr "Linea di cottura"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Copy paste the export outcome in the \"2. Product Variants Export\" sheet"
+msgstr ""
+"Copia e incolla il risultato dell'esportazione nel foglio "
+"\"2. Esportazione varianti prodotto\"."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Create a new fiscal position, give it a name and assign the applicable "
 "country."
 msgstr ""
@@ -1057,6 +1087,11 @@ msgstr "Regolazioni porte"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Down Payment"
 msgstr "Anticipo"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Download the herein file."
+msgstr "Scarica il file allegato."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_28
@@ -1129,6 +1164,27 @@ msgid "Final word"
 msgstr "Per concludere"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Find your work item templates from the Sales App / Products / Work Items "
+"menu."
+msgstr ""
+"Trova i modelli dei tuoi elementi di lavoro dal menu App Vendite / Prodotti /"
+" Elementi di lavoro."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Fine tune each work item clicking the line magic stick icon to secure your\n"
+"                margin. <br/>You're all set to send a first quote to your "
+"customer!"
+msgstr ""
+"Ottimizza ogni voce di lavoro cliccando sull'icona della bacchetta magica "
+"per garantire il tuo\n"
+"                margine. <br/>Sei pronto per inviare un primo preventivo al "
+"tuo cliente!"
+
+#. module: construction
 #: model:product.template,name:construction.product_template_55
 msgid "Fire-rated partitions"
 msgstr "Pareti tagliafuoco"
@@ -1177,6 +1233,13 @@ msgstr ""
 #: model:product.template,name:construction.product_template_10
 msgid "Garden cleanup"
 msgstr "Pulizia giardino"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Generate a new quotation and select the Carport Construction template."
+msgstr ""
+"Genera un nuovo preventivo e seleziona il modello "
+"\"Costruzione di un posto auto coperto\"."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1284,6 +1347,11 @@ msgstr ""
 "che sostituirà automaticamente l'aliquota predefinita con quella ridotta."
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Import your work item database in few clicks!"
+msgstr "Importa il tuo database degli elementi di lavoro in pochi clic!"
+
+#. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_2
 msgid "In Progress"
 msgstr "In corso"
@@ -1381,6 +1449,14 @@ msgstr ""
 "stato di avanzamento dei lavori."
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Iterate as needed until your customer approves the order, then confirm it!"
+msgstr ""
+"Ripeti l'operazione tutte le volte necessarie fino a quando il cliente non "
+"approva l'ordine, quindi confermalo!"
+
+#. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_48
 msgid "Joint repointing & patching"
 msgstr "Rifacimento e riparazione delle fughe"
@@ -1445,6 +1521,24 @@ msgstr "Illuminazione"
 #: model:documents.document,name:construction.documents_document_33
 msgid "Maintenance & Handover"
 msgstr "Manutenzione e consegna"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Making sure you don't waste time generating quotes which may never be signed "
+"is paramount\n"
+"            to run your business efficiently. <br/>To help you with this "
+"aspects, we configured the <strong>\n"
+"            Sales App</strong> with work items to be leveraged straight "
+"from\n"
+"            quotation from."
+msgstr ""
+"Assicurarsi di non perdere tempo a generare preventivi che potrebbero non "
+"essere mai firmati è fondamentale\n"
+"per gestire il proprio business in modo efficiente. <br/>Per aiutarti in "
+"questo, abbiamo configurato l'app <strong>Vendite</strong> con elementi di "
+"lavoro da sfruttare direttamente dal\n"
+"preventivo."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_2
@@ -1585,6 +1679,16 @@ msgstr "Una volta confermato, il preventivo diventa un ordine di vendita."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open again the Product Variants list, select them all and proceed to an\n"
+"                        (import-compatible) export with only their names"
+msgstr ""
+"Riapri l'elenco delle varianti prodotto, selezionale tutte e procedi a un'\n"
+"                        esportazione (compatibile con l'importazione) "
+"contenente solo i loro nomi."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open now the Taxes still from the configuration menu."
 msgstr "apri ora la voce Imposte dal menu di configurazione"
 
@@ -1600,11 +1704,32 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Open the Product Variants list and proceed to import of the \"1. Product\n"
+"                        Variants Import\" sheet"
+msgstr ""
+"Apri l'elenco delle varianti di prodotto e procedi all'importazione del "
+"foglio \"1. Importazione\n"
+"                         varianti di prodotto\"."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Open the Progress view. It captures all sale order lines associated to this "
 "project."
 msgstr ""
 "apri la vista Progressi. Essa raccoglie tutte le righe degli ordini di "
 "vendita associate a questo progetto"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open the Work Items list and proceed to import of the \"3. Work Items "
+"Import\"\n"
+"                        sheet"
+msgstr ""
+"Apri l'elenco degli elementi di lavoro e procedi all'importazione del foglio "
+"\"3. Importazione\n"
+"                        elementi di lavoro\"."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2308,6 +2433,11 @@ msgid "Work Manager"
 msgstr "Direttore lavori"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "WorkItems_PoolDeck.xlsx"
+msgstr "WorkItems_PoolDeck.xlsx"
+
+#. module: construction
 #: model:planning.role,name:construction.planning_role_4
 msgid "Worker"
 msgstr "Operaio"
@@ -2393,6 +2523,15 @@ msgstr "pianta.png"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "⏲️ Time sheet based progress management"
 msgstr "⏲️ Gestione dei progressi basata su fogli ore"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"⏳ First quote in record time leveraging the work items (Construction "
+"Developer)"
+msgstr ""
+"⏳ Primo preventivo in tempo record sfruttando gli elementi di lavoro "
+"(Sviluppatore immobiliare)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
