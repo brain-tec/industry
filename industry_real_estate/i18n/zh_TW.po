@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-16 05:39+0000\n"
+"POT-Creation-Date: 2026-02-10 10:46+0000\n"
 "PO-Revision-Date: 2026-01-29 17:21+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -55,8 +55,8 @@ msgid ""
 "                tenants, and service providers within a single, searchable "
 "directory with full communication history."
 msgstr ""
-"<b>聯絡人應用程式</b>：集中管理所有持份者的資料，利用一個容易搜尋的聯絡人目錄"
-"，管理業主、\n"
+"<b>聯絡人應用程式</b>：集中管理所有持份者的資料，利用一個容易搜尋的聯絡人目"
+"錄，管理業主、\n"
 "                租戶及服務提供者之間的獨特關係，同時保留完整的通訊記錄。"
 
 #. module: industry_real_estate
@@ -64,14 +64,16 @@ msgstr ""
 msgid ""
 "<b>Create a Contract:</b> Click \"New\" and select the tenant as the "
 "\"Customer\" and add the Rental fee product."
-msgstr "<b>建立新合約</b>：按一下「新增」，選擇租戶作為「客戶」，然後加入租金產品。"
+msgstr ""
+"<b>建立新合約</b>：按一下「新增」，選擇租戶作為「客戶」，然後加入租金產品。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<b>Create a Property:</b> Click \"New\" to create a unit. Fill in its "
 "building, location and other details."
-msgstr "<b>建立新物業</b>：按一下「新增」以建立單位，然後填寫建築物或樓宇名稱、地址等"
+msgstr ""
+"<b>建立新物業</b>：按一下「新增」以建立單位，然後填寫建築物或樓宇名稱、地址等"
 "其他詳細資料。"
 
 #. module: industry_real_estate
@@ -79,7 +81,8 @@ msgstr "<b>建立新物業</b>：按一下「新增」以建立單位，然後�
 msgid ""
 "<b>Documents App:</b> Store signed leases, property deeds, and insurance "
 "certificates with expiration alerts."
-msgstr "<b>文件管理應用程式</b>：儲存已簽署的租賃合約、房產契約、保險證明書等，並可加"
+msgstr ""
+"<b>文件管理應用程式</b>：儲存已簽署的租賃合約、房產契約、保險證明書等，並可加"
 "入到期提醒。"
 
 #. module: industry_real_estate
@@ -100,8 +103,8 @@ msgid ""
 "navigate through the app menu\n"
 "                Availability."
 msgstr ""
-"<b>開啟可用情況</b>：開啟<strong>物業應用程式</strong>，然後在應用程式選單中"
-"，選擇\n"
+"<b>開啟可用情況</b>：開啟<strong>物業應用程式</strong>，然後在應用程式選單"
+"中，選擇\n"
 "                「可用情況」。"
 
 #. module: industry_real_estate
@@ -118,8 +121,8 @@ msgid ""
 "through the app menu Properties /\n"
 "                Properties."
 msgstr ""
-"<b>開啟物業記錄</b>：開啟<b>物業應用程式</b>，然後在應用程式選單中，選擇物業 "
-"/\n"
+"<b>開啟物業記錄</b>：開啟<b>物業應用程式</b>，然後在應用程式選單中，選擇物"
+"業 /\n"
 "                物業。"
 
 #. module: industry_real_estate
@@ -139,8 +142,8 @@ msgid ""
 "manage property listings, contracts, and\n"
 "                availability status."
 msgstr ""
-"<b>物業應用程式</b>：利用專門的應用程式整理物業組合，妥善管理房源列表、合約、"
-"\n"
+"<b>物業應用程式</b>：利用專門的應用程式整理物業組合，妥善管理房源列表、合"
+"約、\n"
 "                可用狀態等。"
 
 #. module: industry_real_estate
@@ -150,8 +153,8 @@ msgid ""
 "professional quotations and digital\n"
 "                signatures."
 msgstr ""
-"<b>銷售應用程式</b>：利用專業的報價單及電子簽名功能，快速處理報價、議價談判、"
-"\n"
+"<b>銷售應用程式</b>：利用專業的報價單及電子簽名功能，快速處理報價、議價談"
+"判、\n"
 "                達成交易等工作。"
 
 #. module: industry_real_estate
@@ -164,7 +167,8 @@ msgstr "<b>選擇物業</b>：選取要出租的「物業」。"
 msgid ""
 "<b>Sign App:</b> Send lease agreements for legally binding electronic "
 "signatures."
-msgstr "<b>電子簽名應用程式</b>：發送租賃協議，讓租戶透過有法律效力的電子簽名，簽署各"
+msgstr ""
+"<b>電子簽名應用程式</b>：發送租賃協議，讓租戶透過有法律效力的電子簽名，簽署各"
 "類文件。"
 
 #. module: industry_real_estate
@@ -290,7 +294,8 @@ msgstr ""
 msgid ""
 "<i>Note: Only properties with at least one current or future contract will "
 "appear in this visualization.</i>"
-msgstr "<b>請留意：只限最少有一份目前或未來生效合約的物業，才會在此視覺化檢視畫面中顯"
+msgstr ""
+"<b>請留意：只限最少有一份目前或未來生效合約的物業，才會在此視覺化檢視畫面中顯"
 "示。</b><i></i>"
 
 #. module: industry_real_estate
@@ -364,14 +369,19 @@ msgstr ""
 "class=\"s_website_form_mark\"> *（必填）</span>"
 
 #. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "<span>to</span>"
+msgstr ""
+
+#. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<strong>Accounting App: </strong>Manage your accounting easier than ever "
 "with a completely integrated\n"
 "                environment."
 msgstr ""
-"<strong>會計應用程式</strong>：利用完全整合、資料互通的系統，管理會計賬目從此"
-"\n"
+"<strong>會計應用程式</strong>：利用完全整合、資料互通的系統，管理會計賬目從"
+"此\n"
 "                無比輕鬆。"
 
 #. module: industry_real_estate
@@ -618,6 +628,11 @@ msgstr ""
 "件開發、\n"
 "                                                                推廣和客戶體"
 "驗策略，來保持忙碌。"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "From"
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1077,7 +1092,8 @@ msgstr "這些項目在你目前的服務計劃中，全部都是免費的，儘
 msgid ""
 "This screen visualizes all active rental contracts and identifies vacancies "
 "at a glance."
-msgstr "此畫面以視覺化形式顯示所有正在生效的租賃合約，讓你可一目了然識別空置房源。"
+msgstr ""
+"此畫面以視覺化形式顯示所有正在生效的租賃合約，讓你可一目了然識別空置房源。"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_invoice_status_selection_to_invoice

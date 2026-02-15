@@ -8,16 +8,16 @@
 # Wil Odoo, 2024
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 22:03+0000\n"
-"PO-Revision-Date: 2025-12-01 08:12+0000\n"
+"POT-Creation-Date: 2026-02-11 14:31+0000\n"
+"PO-Revision-Date: 2026-02-14 20:21+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
-"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-s19-1/"
 "condominium/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -170,6 +170,34 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-family:"
+"Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"               <tbody>\n"
+"                    <tr> \n"
+"                       <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\"> Chào,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                Xin vui lòng xem kèm theo lịch trình cho "
+"cuộc họp sắp tới:\n"
+"                               <t t-out=\"object.name or ''\"> General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                           <p style=\"margin:0 0 16px 0;\"> Trân trọng,</p>\n"
+"                        </td>\n"
+"                   </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\"> \n"
+"                       <td style=\"padding:15px 20px 10px 20px;\" t-out="
+"\"object.user_id.signature or ''\" data-o-mail-quote=\"1\"> \n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                       </td>\n"
+"                    </tr> \n"
+"               </tbody>\n"
+"            </table> \n"
+"       </div> \n"
+"            "
 
 #. module: condominium
 #: model:mail.template,body_html:condominium.mail_template_3
@@ -204,6 +232,34 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-family:"
+"Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"               <tbody>\n"
+"                    <tr> \n"
+"                       <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\"> Chào,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                Xin vui lòng xem báo cáo từ cuộc họp đính "
+"kèm:\n"
+"                               <t t-out=\"object.name or ''\"> General "
+"Meeting</t>\n"
+"                            </p>\n"
+"                           <p style=\"margin:0 0 16px 0;\"> Trân trọng,</p>\n"
+"                        </td>\n"
+"                   </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\"> \n"
+"                       <td style=\"padding:15px 20px 10px 20px;\" t-out="
+"\"object.user_id.signature or ''\" data-o-mail-quote=\"1\"> \n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                       </td>\n"
+"                    </tr> \n"
+"               </tbody>\n"
+"            </table> \n"
+"       </div> \n"
+"            "
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -477,6 +533,7 @@ msgid "Accounting opening/handover<br/>"
 msgstr "Mở/bàn giao kế toán<br/>"
 
 #. module: condominium
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.properties_act_window_account
 #: model:ir.model.fields,field_description:condominium.field_property_account_ids
 #: model:ir.ui.menu,name:condominium.owners_properties_menu
@@ -704,6 +761,16 @@ msgid ""
 "            conditions as well. Of course, the price of each service and the "
 "content of the Quotation Templates can be adapted accordingly."
 msgstr ""
+"Ngay khi một chung cư liên hệ với bạn để yêu cầu báo giá, hãy nhanh chóng "
+"gửi cho họ tổng quan về dịch vụ và phí của bạn bằng cách tạo Báo giá trong "
+"Ứng dụng Bán hàng <strong></strong> , nơi bạn có thể sử dụng trực tiếp mẫu "
+"báo giá \"Kick-Off Quote\".  \n"
+"            Mẫu báo giá. Mẫu này sẽ tự động điền báo giá bằng cách thêm các "
+"khoản phí khởi đầu và giá của tất cả các dịch vụ bổ sung như khoản đóng góp "
+"định kỳ, mức phí theo giờ, v.v. Đừng quên đính kèm các điều khoản và điều "
+"kiện &amp;\n"
+"            . Tất nhiên, giá của từng dịch vụ và nội dung của các mẫu báo "
+"giá có thể được điều chỉnh cho phù hợp."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -945,6 +1012,10 @@ msgid ""
 "they\n"
 "                own."
 msgstr ""
+"Nhấp vào nút \"Chia theo tài sản\": điều này sẽ hủy bỏ báo giá hiện tại và "
+"tạo ra nhiều báo giá tương ứng với số lượng chủ sở hữu đang hoạt động trong "
+"khu chung cư mà chi phí được chia sẻ, với một dòng cho từng tài sản mà họ\n"
+"                sở hữu."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1147,6 +1218,26 @@ msgstr ""
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_update_property_current_owner
 msgid "Condominium: Update Property Current Owner"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_owner_dates
+msgid "Condominium: Validate Owner Dates"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_tenant_dates
+msgid "Condominium: Validate Tenant Dates"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_owner_dates
+msgid "Condominium: Validate owner dates"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_tenant_dates
+msgid "Condominium: Validate tenant dates"
 msgstr ""
 
 #. module: condominium
@@ -1376,6 +1467,13 @@ msgid ""
 "captured if a meter\n"
 "                    reading is near the owner change date."
 msgstr ""
+"Các khóa phân phối dựa trên số liệu đồng hồ yêu cầu đầu vào thời gian bắt "
+"đầu và kết thúc của kỳ.<br/>\n"
+"                    Khi phân phối chi phí, đối với mỗi tài sản, các số liệu "
+"đồng hồ gần nhất với ranh giới kỳ được sử dụng để tính toán lượng tiêu thụ "
+"trong kỳ, và trong trường hợp thay đổi chủ sở hữu, lượng tiêu thụ của chủ sở "
+"hữu được ghi nhận nếu số liệu đồng hồ\n"
+"                    gần với ngày thay đổi chủ sở hữu."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1384,6 +1482,9 @@ msgid ""
 "to split costs, the recorded meter readings for the corresponding period "
 "will be used."
 msgstr ""
+"Các khóa phân phối dựa trên chỉ số đồng hồ chỉ áp dụng cho một đồng hồ. Khi "
+"được sử dụng để chia sẻ chi phí, các chỉ số đồng hồ được ghi lại trong "
+"khoảng thời gian tương ứng sẽ được sử dụng."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1394,6 +1495,11 @@ msgid ""
 "the\n"
 "                properties when relevant."
 msgstr ""
+"Các khóa phân phối dựa trên cổ phần có thể được điền đầy đủ các thông tin từ "
+"khu chung cư và tỷ lệ được tính toán dựa trên diện tích của các căn hộ. Bạn "
+"vẫn có thể chỉnh sửa các tỷ lệ theo nhu cầu và chỉ bao gồm một phần chọn lọc "
+"của\n"
+"                các căn hộ khi cần thiết."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1404,6 +1510,12 @@ msgid ""
 "                    With period inputs, the distribution is computed between "
 "owners over the corresponding period, in proportion to the ownership."
 msgstr ""
+"Các khóa phân phối dựa trên cổ phần sử dụng trực tiếp các tỷ lệ.<br/>\n"
+"                    Nếu không có thông tin về khoảng thời gian, việc phân "
+"phối được thực hiện giữa các chủ sở hữu hiện tại.<br/>\n"
+"                    Nếu có thông tin về khoảng thời gian, việc phân phối "
+"được tính toán giữa các chủ sở hữu trong khoảng thời gian tương ứng, theo tỷ "
+"lệ sở hữu."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1535,6 +1647,14 @@ msgid ""
 "in... \"Condominiums\" and set the condominium\n"
 "            field."
 msgstr ""
+"Hàng năm, một cuộc họp thường niên được tổ chức để thảo luận về báo cáo tài "
+"chính, đưa ra các quyết định quan trọng và các vấn đề khác. Sự kiện này có "
+"thể dễ dàng được lên lịch trong ứng dụng Lịch bằng cách tạo\n"
+"           <font style=\"font-weight: bolder;\" class=\"text-o-color-1\"> "
+"Meetings</font>. Để mời tất cả chủ sở hữu của một khu chung cư, hãy sử dụng "
+"tính năng \"Tìm kiếm thêm\" trong phần \"Người tham dự\" và nhập tên của khu "
+"chung cư vào... \"Khu chung cư\" và thiết lập trường khu chung cư\n"
+"            ."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1626,6 +1746,12 @@ msgid ""
 "                associated meter readings for each property to be "
 "representative."
 msgstr ""
+"Cuối cùng, đối với các khu chung cư được tổ chức với một đồng hồ đo chung "
+"cho toàn khu chung cư để tính toán chi phí, sau đó sử dụng các đồng hồ đo "
+"riêng cho từng chủ sở hữu để chia sẻ chi phí, phương pháp phân bổ dựa trên "
+"đồng hồ đo là phù hợp và yêu cầu nhập liệu định kỳ\n"
+"                cùng với các chỉ số đồng hồ đo tương ứng cho từng căn hộ để "
+"đảm bảo tính đại diện."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1634,6 +1760,9 @@ msgid ""
 "ratio for each property that will be used for splitting the fees per owner "
 "and for distributing the costs:"
 msgstr ""
+"Cuối cùng, bạn cũng có thể định nghĩa các khóa phân phối. Mục tiêu là gán "
+"một tỷ lệ cho từng tài sản, tỷ lệ này sẽ được sử dụng để chia phí cho từng "
+"chủ sở hữu và phân phối chi phí:"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_677_product_template
@@ -1696,6 +1825,11 @@ msgid ""
 "company and the\n"
 "            different condominiums."
 msgstr ""
+"Từ Cài đặt, tạo một công ty mới trong <font style=\"font-weight: bolder;"
+"\" class=\"text-o-color-1\">Công ty</font>. Sau khi hoàn tất, công ty sẽ "
+"xuất hiện ở góc trên bên phải của tất cả màn hình để bạn có thể chuyển đổi "
+"nhanh chóng giữa công ty\n"
+"của bạn và các chung cư khác nhau."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_749_product_template
@@ -1876,6 +2010,9 @@ msgid ""
 "to some owners. This is the case for example when some are given review "
 "duties."
 msgstr ""
+"Trong nhiều trường hợp, quyền truy cập trực tiếp vào sổ sách kế toán của "
+"chung cư sẽ được cấp cho một số chủ sở hữu. Điều này áp dụng ví dụ khi một "
+"số chủ sở hữu được giao nhiệm vụ kiểm tra."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2029,6 +2166,13 @@ msgid ""
 "general meetings, tracking owner history, or handling complex expense "
 "distributions, Odoo provides the tools to stay efficient and transparent."
 msgstr ""
+"Quản lý các hiệp hội chủ sở hữu bất động sản đòi hỏi sự tham gia của nhiều "
+"bên liên quan, các tác vụ lặp đi lặp lại và hồ sơ chi tiết. Odoo hỗ trợ các "
+"hiệp hội bằng cách tối ưu hóa quy trình - từ việc xử lý các khách hàng tiềm "
+"năng mới đến quản lý chi phí chung - thông qua một bộ ứng dụng hoàn toàn\n"
+"            tích hợp. Dù bạn đang tổ chức các cuộc họp chung, theo dõi lịch "
+"sử của chủ sở hữu hay xử lý việc phân bổ chi phí phức tạp, Odoo cung cấp các "
+"công cụ để duy trì hiệu quả và minh bạch."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_796_product_template
@@ -2120,6 +2264,7 @@ msgstr ""
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
 #: model:ir.model.fields,field_description:condominium.name_properties_tags
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_list_view
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Name"
 msgstr "Tên"
@@ -2176,6 +2321,9 @@ msgid ""
 "owners. On the other hand, the service fees can be invoiced by \"My "
 "Condominium Management\" to the owners."
 msgstr ""
+"Một mặt, các yêu cầu về kinh phí được gửi từ ban quản lý chung cư đến các "
+"chủ sở hữu. Mặt khác, phí dịch vụ có thể được xuất hóa đơn bởi "
+"\"My Condominium Management\" cho các chủ sở hữu."
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_7
@@ -2475,7 +2623,6 @@ msgid "Product Category"
 msgstr ""
 
 #. module: condominium
-#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.condominium_property_count_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.owner_properties_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.property_actions_window
@@ -2729,8 +2876,6 @@ msgstr ""
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
 #: model:ir.model.fields,field_description:condominium.field_property_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_field_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_buildings
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence_field
@@ -3147,6 +3292,10 @@ msgid ""
 "insurance fees, the distribution based on shares over a period is relevant "
 "to expense each owner in proportion of their ownership and share."
 msgstr ""
+"Để phân bổ chi phí liên quan đến các dịch vụ hàng năm, chẳng hạn như phí bảo "
+"hiểm chung cư, việc phân bổ dựa trên tỷ lệ sở hữu trong một khoảng thời gian "
+"là phù hợp để tính toán chi phí cho từng chủ sở hữu theo tỷ lệ sở hữu và "
+"phần trăm của họ."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3169,6 +3318,9 @@ msgid ""
 "rights to the level which suite your needs so that they can access in read "
 "only most likely."
 msgstr ""
+"Để thiết lập quyền truy cập này, bạn cần tạo tài khoản người dùng cho các "
+"chủ sở hữu và giới hạn quyền truy cập ở mức phù hợp với nhu cầu của bạn, sao "
+"cho họ chỉ có thể truy cập ở chế độ chỉ đọc."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_total_field
@@ -3382,6 +3534,9 @@ msgid ""
 "based on your localization to generate the appropriate balance sheet and "
 "other needed accounting documents through Odoo."
 msgstr ""
+"Chúng tôi khuyến nghị các kế toán viên của quý công ty thiết lập bảng tài "
+"khoản phù hợp dựa trên quy định địa phương để tạo ra bảng cân đối kế toán và "
+"các tài liệu kế toán cần thiết khác thông qua Odoo."
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
@@ -3395,6 +3550,10 @@ msgid ""
 "prospect contact into a condominium with a click from the contact form, in "
 "the <strong>Contact App</strong>."
 msgstr ""
+"Khi báo giá cho một căn hộ chung cư mới được xác nhận, bạn có thể chuyển đổi "
+"thông tin liên hệ của khách hàng tiềm năng thành một căn hộ chung cư chỉ với "
+"một cú nhấp chuột từ biểu mẫu liên hệ, trong ứng dụng liên hệ "
+"<strong>Contact App</strong>."
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_1
@@ -3468,6 +3627,9 @@ msgid ""
 "            In any case, you may have written records in journals which are "
 "not deletable and which might be an issue for your traceability."
 msgstr ""
+"Bạn có thể đã kiểm thử gói này khi có hoặc không có dữ liệu mẫu.<br/>\n"
+"Dù trong trường hợp nào, bạn có thể đã có những dữ liệu không thể xóa được, "
+"điều này có thể ảnh hưởng đến khả năng truy xuất của bạn."
 
 #. module: condominium
 #: model_terms:res.company,sign_terms:condominium.res_company_2

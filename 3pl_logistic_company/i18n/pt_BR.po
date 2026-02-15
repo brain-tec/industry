@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:26+0000\n"
-"PO-Revision-Date: 2026-02-05 19:04+0000\n"
+"PO-Revision-Date: 2026-02-10 12:18+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/3pl_logistic_company/pt_BR/>\n"
@@ -1060,7 +1060,7 @@ msgstr "Clique em <b>Marcar como A fazer</b>."
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "Click the \"<b>Create Next</b>\" button on that invoice."
-msgstr ""
+msgstr "Clique no botão “<b>Criar próximo</b> ” nessa fatura."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1130,7 +1130,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.account_move_form_view_inherit
 msgid "Create next"
-msgstr ""
+msgstr "Criar próximo"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1221,6 +1221,9 @@ msgid ""
 "Ensure you select the <b>correct \"Invoice Period\"</b> and specify\n"
 "                                    the appropriate <b>Invoice date</b>."
 msgstr ""
+"Certifique-se de selecionar o <b>“Período da fatura” correto</b> e "
+"especificar\n"
+"                                    a <b>data de fatura</b> apropriada."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.ir_ui_view_2473
@@ -1341,7 +1344,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "If it's the first time invoicing:"
-msgstr ""
+msgstr "Se for a primeira vez que você está emitindo uma fatura:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1378,7 +1381,7 @@ msgstr ""
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
 msgid "If you've invoiced this customer before:"
-msgstr ""
+msgstr "Se você já faturou esse cliente anteriormente:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -1413,7 +1416,7 @@ msgstr "Na janela pop-up, clique em <b>Conceder Acesso.</b>"
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_invoice_period_id_field_account_move
 msgid "Invoice Period"
-msgstr ""
+msgstr "Período da fatura"
 
 #. module: 3pl_logistic_company
 #: model:ir.model.fields,field_description:3pl_logistic_company.x_location_id_field_x_stock_history
@@ -1926,6 +1929,8 @@ msgid ""
 "To access this database with the demonstration data\n"
 "                    and view the live stock from a customer's perspective:"
 msgstr ""
+"Para acessar este base de dados com os dados de demonstração\n"
+"e visualizar o estoque em tempo real da perspectiva do cliente:"
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
@@ -2006,6 +2011,10 @@ msgid ""
 "information</b> precisely as a\n"
 "                    customer would view it."
 msgstr ""
+"Após o login bem-sucedido, você será conectado como <b>Segunda\n"
+"                    Empresa</b> e verá as informações em <b>tempo real sobre "
+"as ações</b> exatamente como um\n"
+"                    cliente as veria."
 
 #. module: 3pl_logistic_company
 #: model_terms:ir.ui.view,arch_db:3pl_logistic_company.welcome_article_body
