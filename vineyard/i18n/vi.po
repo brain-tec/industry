@@ -1,25 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* vineyard
+# * vineyard
 #
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:16+0000\n"
-"PO-Revision-Date: 2025-10-07 08:50+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2026-02-14 20:22+0000\n"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
+"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-s19-1/"
+"vineyard/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "+12"
-msgstr ""
+msgstr "+12"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -27,11 +30,13 @@ msgid ""
 ", and feel\n"
 "                    free to"
 msgstr ""
+"của chúng tôi, và đừng\n"
+"                        ngần ngại"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "22%"
-msgstr ""
+msgstr "22%"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -39,6 +44,8 @@ msgid ""
 "<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/"
 "appointment\">Explore our vineyard</a>"
 msgstr ""
+"<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/appointment\""
+">Khám phá vườn nho của chúng tôi</a>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -46,6 +53,8 @@ msgid ""
 "<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/"
 "appointment\">Book a Tour</a>"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/appointment\""
+">Đặt tour</a>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.view_product_attribute_filters_form_inherit
@@ -58,6 +67,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\">💡</i>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -65,6 +76,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -72,6 +85,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">🎉</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">🎉</i>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -79,11 +94,13 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Warning\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Vineyard</strong></span>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Vườn nho</strong></span>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -132,6 +149,9 @@ msgid ""
 "door with an easy-to-use interface\n"
 "                    for visitors and tourists.<br/>"
 msgstr ""
+"<strong><b>Ứng dụng Quản lý POS (POS)</b>: </strong>Quản lý bán hàng trực "
+"tiếp tại cửa hàng với giao diện dễ sử dụng\n"
+"                    cho khách tham quan và du khách.<br/>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -588,6 +608,9 @@ msgid ""
 "At anytime, you can create quality checks for aging barrels and recipe "
 "iterations which will trigger wastes you can monitor:"
 msgstr ""
+"Bất cứ lúc nào, bạn cũng có thể tạo các bước kiểm tra chất lượng cho thùng ủ "
+"và các phiên bản công thức, những bước này sẽ phát sinh hao hụt để bạn theo "
+"dõi:"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -598,6 +621,11 @@ msgid ""
 "Every sip tells the story of passion, precision, and the art of transforming "
 "exceptional grapes into extraordinary wine."
 msgstr ""
+"Cốt lõi trong nghề làm rượu của chúng tôi là sự chăm chút tỉ mỉ ở từng công "
+"đoạn. Từ việc lựa chọn nước nho chất lượng nhất đến quá trình phối trộn tinh "
+"tế, chúng tôi đảm bảo mỗi chai rượu đều là kết tinh của sự tận tâm và chuẩn "
+"mực cao nhất. Mỗi ngụm rượu kể một câu chuyện về đam mê, sự chính xác và "
+"nghệ thuật biến những trái nho thượng hạng thành một dòng vang đặc biệt."
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_9
@@ -641,6 +669,10 @@ msgid ""
 "and elegant in the mouth, offering red currant, floral notes, and fine "
 "tannins. Brings freshness, structure, and aromatic lift.&amp;nbsp;"
 msgstr ""
+"Màu ruby sáng với hương thơm của dâu tây, hoa violet và các loại thảo mộc "
+"nhẹ nhàng. Vị tươi mát và thanh lịch trong miệng, mang đến hương vị của quả "
+"mâm xôi đỏ, hương hoa và tannin mịn màng. Mang lại sự tươi mát, cấu trúc và "
+"hương thơm tinh tế.&amp;nbsp;"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -649,6 +681,9 @@ msgid ""
 "few products,\n"
 "            sale orders and more."
 msgstr ""
+"Bằng cách tải lên dữ liệu demo của phân hệ này, cơ sở dữ liệu của bạn đã có "
+"sẵn một số sản phẩm,\n"
+"đơn bán hàng và nhiều dữ liệu khác."
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_9_product_template
@@ -714,6 +749,9 @@ msgid ""
 "yet balanced, with hints of smoke, spice, and chocolate. Contributes bold "
 "flavor, firm tannins, and a long, warming finish.&amp;nbsp;"
 msgstr ""
+"Đậm đà và sâu lắng, với hương vị của mâm xôi, việt quất và tiêu đen. Đậm đà "
+"nhưng cân bằng, với những nốt hương khói, gia vị và sô cô la. Mang lại hương "
+"vị mạnh mẽ, tannin chắc chắn và hậu vị dài, ấm áp.&amp;nbsp;"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -722,6 +760,10 @@ msgid ""
 "velvety and full-bodied, with rich dark fruit, subtle spice, and a smooth, "
 "lingering finish. Adds depth and plush texture to blends."
 msgstr ""
+"Màu tím đậm với hương thơm của mâm xôi đen, mận chín và ca cao. Trên vòm "
+"miệng, rượu cho cảm giác mượt mà, đậm đà, nổi bật với trái cây sẫm màu phong "
+"phú, chút gia vị tinh tế và hậu vị êm ái, kéo dài. Mang lại chiều sâu và kết "
+"cấu mềm mại, tròn đầy cho các bản phối."
 
 #. module: vineyard
 #: model_terms:product.template,public_description:vineyard.product_product_27_product_template
@@ -746,6 +788,11 @@ msgid ""
 "depth, perfect for those who savor bold, sophisticated wines. Ideal for "
 "pairing with hearty meats or enjoying slowly on its own."
 msgstr ""
+"Khám phá nghệ thuật của phong cách thanh lịch lấy cảm hứng từ Bordeaux trong "
+"từng ngụm Bordoo Grand Cru. Dòng vang đỏ đậm đà này sở hữu cấu trúc tannin "
+"rõ nét cùng chiều sâu phong phú, càng để lâu càng giá trị, dành cho những ai "
+"yêu thích rượu vang mạnh mẽ và tinh tế. Lý tưởng khi kết hợp với các món "
+"thịt đậm vị hoặc nhâm nhi chậm rãi để tự mình cảm nhận trọn vẹn."
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_13_product_template
@@ -796,6 +843,15 @@ msgid ""
 "elegance, and spice into wines that speak of both our terroir and our "
 "heritage."
 msgstr ""
+"Suốt nhiều thế hệ, gia đình chúng tôi đã chăm sóc vườn nho với niềm đam mê "
+"và sự tỉ mỉ, lựa chọn những giống nho tốt nhất để tạo ra những chai rượu "
+"vang mang đậm cá tính và sự tinh tế. Trong số đó, <strong>Malbec</strong>, "
+"<strong>Cabernet Franc</strong>, và <strong>Syrah</strong> đã khẳng định vị "
+"trí trong hầm rượu của chúng tôi — mỗi loại được chọn lựa vì sự thể hiện độc "
+"đáo về hương vị, hương thơm và sự cân bằng. Khi kết hợp lại, chúng trở thành "
+"nền tảng cho những dòng rượu pha trộn, hòa quyện sự phong phú, thanh lịch và "
+"hương vị cay nồng, tạo nên những chai vang phản ánh cả vùng đất và di sản "
+"của chúng tôi."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -805,6 +861,11 @@ msgid ""
 "tours, tracking harvest yields, or monitoring quality, Odoo’s interconnected "
 "apps bring visibility and efficiency to every process."
 msgstr ""
+"Từ việc chăm sóc lead đến đóng chai những dòng vang đạt giải thưởng, Odoo "
+"giúp bạn vận hành mọi hoạt động một cách chính xác và hiệu quả. Dù bạn bán "
+"hàng online, tổ chức tour tham quan nhà máy rượu, theo dõi sản lượng thu "
+"hoạch hay kiểm soát chất lượng, hệ thống ứng dụng liên kết chặt chẽ của Odoo "
+"mang lại khả năng theo dõi minh bạch và hiệu suất cao cho từng quy trình."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -812,6 +873,8 @@ msgid ""
 "From the Manufacturing App, create a new manufacturing order to bottle some "
 "wine choosing one of the finished products and adjust the quantities"
 msgstr ""
+"Từ Ứng dụng Sản xuất, tạo một đơn đặt hàng sản xuất mới để đóng chai rượu "
+"vang bằng cách chọn một trong các sản phẩm hoàn thiện và điều chỉnh số lượng"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -819,6 +882,8 @@ msgid ""
 "From the gear icon, hit the Scrap option and record the wastes you observed "
 "compared to barrels few years ago."
 msgstr ""
+"Từ biểu tượng bánh răng, chọn mục Phế phẩm và ghi nhận lượng hao hụt bạn "
+"quan sát được so với các thùng gỗ sồi của những năm trước."
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_8
@@ -856,6 +921,9 @@ msgid ""
 "Import\n"
 "                    demo data and try the Demo - Use Case"
 msgstr ""
+"Nếu bạn muốn dùng thử tour được hướng dẫn thực tế về phân hệ này, bạn nên "
+"nhập\n"
+"dữ liệu demo và thử Demo - Trường hợp vận dụng."
 
 #. module: vineyard
 #: model:mrp.eco.stage,legend_normal:vineyard.mrp_eco_stage_9
@@ -869,6 +937,10 @@ msgid ""
 "shaping the character of our wines. From fermentation tanks to blending "
 "rooms, you’ll see every step of the journey — from grape to glass."
 msgstr ""
+"Trong hầm rượu \" <strong>\" của chúng tôi</strong>, bạn sẽ khám phá những "
+"hàng thùng gỗ sồi đang âm thầm định hình hương vị đặc trưng của rượu vang. "
+"Từ bồn lên men đến phòng pha trộn, bạn sẽ được chứng kiến từng bước trong "
+"hành trình — từ nho đến ly rượu."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -924,6 +996,10 @@ msgid ""
 "balanced, it’s a versatile red that pairs beautifully with poultry, salmon, "
 "or a relaxed evening with friends."
 msgstr ""
+"Nhẹ nhàng, tinh nghịch và đầy cuốn hút, Pinodoo Noir mang đến sự thanh lịch "
+"cùng hương trái cây quyến rũ mà người yêu Pinot Noir luôn say mê. Kết cấu "
+"mượt mà, cân bằng hoàn hảo, đây là một dòng vang đỏ linh hoạt, kết hợp tuyệt "
+"vời với các món gia cầm, cá hồi, hoặc một buổi tối thư giãn bên bạn bè."
 
 #. module: vineyard
 #: model:project.tags,name:vineyard.project_tags_2
@@ -952,6 +1028,9 @@ msgid ""
 "conversations, plan activities, and ensure timely follow-ups to secure long-"
 "term contracts for distributors and restaurants."
 msgstr ""
+"Quản lý toàn bộ mối quan hệ với khách hàng tiềm năng trên một nền tảng duy "
+"nhất. Theo dõi các cuộc trao đổi, lên kế hoạch hoạt động và đảm bảo chăm sóc "
+"đúng thời điểm để chốt những hợp đồng dài hạn với nhà phân phối và nhà hàng."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -994,6 +1073,9 @@ msgid ""
 "            to add new apps, delete/modify demo data, and test everything "
 "around!"
 msgstr ""
+"Tất nhiên, đây chỉ là thông tin tổng quan về những tính năng có trong gói "
+"này. Hãy thoải mái \n"
+"thêm ứng dụng mới, xóa/sửa đổi dữ liệu demo và kiểm thử các chức năng!"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1008,6 +1090,8 @@ msgid ""
 "Once all quality checks are completed, validate the harvest to account for "
 "those grapes in your stock"
 msgstr ""
+"Sau khi hoàn thành toàn bộ các bước kiểm tra chất lượng, hãy xác thực vụ thu "
+"hoạch để ghi nhận số nho đó vào tồn kho"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1015,6 +1099,8 @@ msgid ""
 "Once done with the field work, record the harvested quantity in the details "
 "of the product line and associate a new serial number"
 msgstr ""
+"Sau khi hoàn tất công việc ngoài vườn, hãy ghi nhận sản lượng đã thu hoạch "
+"trong phần chi tiết của dòng sản phẩm và gán một số sê-ri mới"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1029,6 +1115,8 @@ msgid ""
 "Open now the Dashboard App and navigate to the scrap page to see the scrap "
 "ratio for each products, from must to bottles."
 msgstr ""
+"Bây giờ, hãy mở ứng dụng Bảng điều khiển và truy cập trang Phế phẩm để xem "
+"tỷ lệ hao hụt của từng sản phẩm, từ nước nho cho đến chai thành phẩm."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1124,6 +1212,11 @@ msgid ""
 "managers to integrate every stage of their business into one unified "
 "platform."
 msgstr ""
+"Vận hành một vườn nho không chỉ đơn thuần là trồng nho — mà còn là quản lý "
+"các mối quan hệ, hoàn thiện quy trình làm rượu, đảm bảo tuân thủ quy định và "
+"mang đến những trải nghiệm đáng nhớ cho khách hàng. Odoo giúp chủ vườn nho "
+"và nhà quản lý kết nối và quản trị toàn bộ các khâu trong hoạt động kinh "
+"doanh trên một nền tảng thống nhất."
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_19_product_template
@@ -1168,6 +1261,9 @@ msgid ""
 "Select the corresponding product and lot if testing some aging must or "
 "blend, or the recipe iteration when testing a recipe variation"
 msgstr ""
+"Chọn đúng sản phẩm và lô tương ứng nếu bạn đang kiểm tra nước nho hoặc rượu "
+"phối trộn đang ủ, hoặc chọn phiên bản công thức nếu đang thử nghiệm một biến "
+"thể công thức."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1180,6 +1276,9 @@ msgid ""
 "Sell directly to consumers or businesses via your Odoo-powered website. "
 "Handle product availability, payment, and delivery from one platform."
 msgstr ""
+"Bán trực tiếp cho người tiêu dùng hoặc doanh nghiệp thông qua trang web vận "
+"hành bằng Odoo. Quản lý tình trạng còn hàng của sản phẩm, thanh toán và giao "
+"hàng trên cùng một nền tảng duy nhất."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1214,6 +1313,8 @@ msgid ""
 "Some quality checks are to be completed prior validating the harvest, which "
 "you can adjust from the Quality App control pointso"
 msgstr ""
+"Một số kiểm tra chất lượng cần được hoàn thành trước khi xác nhận thu hoạch, "
+"mà bạn có thể điều chỉnh từ các điểm kiểm soát trong Ứng dụng Chất lượng"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_5
@@ -1238,6 +1339,11 @@ msgid ""
 "life to our finest blends, breathe in the aromas of ripening grapes, and "
 "learn the secrets behind each harvest."
 msgstr ""
+"Hãy bước vào thế giới làm rượu vang với tour tham quan nhà máy rượu vang "
+"tương tác \" <strong>\" của chúng tôi</strong>, nơi truyền thống gặp gỡ sự "
+"đổi mới. Dạo bước giữa những hàng nho mang lại sự sống cho những loại rượu "
+"vang tinh túy nhất của chúng tôi, hít thở hương thơm của những quả nho chín "
+"mọng, và khám phá những bí quyết đằng sau mỗi vụ thu hoạch."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.stock_move_graph_view_inherit
@@ -1327,6 +1433,11 @@ msgid ""
 "smooth, aromatic experience that’s vibrant on the palate. Perfect with "
 "grilled dishes, cheeses, or whenever you crave a wine with character."
 msgstr ""
+"Đánh thức vị giác với Odoomatic Spice — một dòng vang đỏ cá tính, bùng nổ "
+"hương cay nồng ấm áp và độ đậm đà quyến rũ. Sự kết hợp giữa nho Syrah và "
+"Malbec mang đến trải nghiệm mượt mà, thơm nồng, đầy sức sống trên vòm miệng. "
+"Hoàn hảo khi dùng cùng các món nướng, phô mai, hoặc bất cứ lúc nào bạn muốn "
+"thưởng thức một chai rượu vang đậm dấu ấn riêng."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1358,6 +1469,9 @@ msgid ""
 "Whether you’re a wine enthusiast or simply curious, our tour is a feast for "
 "the senses — and a memory to savor."
 msgstr ""
+"Dù bạn là người đam mê rượu vang hay chỉ đơn giản là tò mò, chuyến tham quan "
+"của chúng tôi sẽ đánh thức mọi giác quan — và để lại một ký ức đáng để "
+"thưởng thức chậm rãi."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -1376,6 +1490,10 @@ msgid ""
 "time, and adapt quickly to seasonal and market changes — all while "
 "preserving the artistry that makes your wine unique."
 msgstr ""
+"Với Odoo, vườn nho của bạn có thể giảm bớt công việc thủ công, theo dõi hiệu "
+"suất theo thời gian thực và thích ứng nhanh chóng với những thay đổi theo "
+"mùa và thị trường — đồng thời vẫn giữ được nét nghệ thuật làm nên sự độc đáo "
+"của rượu vang của bạn."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1407,6 +1525,9 @@ msgid ""
 "You can mark it as failed and create a new ECO based on new learnings but "
 "let's mark it as passed and come back to the test list from the breadcrumb"
 msgstr ""
+"Bạn có thể đánh dấu nó là không thành công và tạo một ECO mới dựa trên những "
+"kiến thức mới, nhưng hãy đánh dấu nó là thành công và quay lại danh sách "
+"kiểm tra từ thanh điều hướng"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1415,6 +1536,9 @@ msgid ""
 "your\n"
 "                    Odoo setup to fit your business needs."
 msgstr ""
+"Vậy là bạn đã hoàn thành trường hợp vận dụng demo đó! Còn hàng triệu cách "
+"khác để điều chỉnh cài đặt\n"
+"Odoo sao cho phù hợp với nhu cầu kinh doanh của bạn."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1423,6 +1547,9 @@ msgid ""
 "&gt;\n"
 "                    Upgrade your package and check the related box"
 msgstr ""
+"Bạn chưa nhập dữ liệu demo? Đừng lo! Bạn vẫn có thể làm được bằng cách đi "
+"đến Ứng dụng &gt; Ngành &gt; \n"
+"Nâng cấp gói của bạn và đánh dấu vào ô liên quan."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1430,6 +1557,8 @@ msgid ""
 "You now have a new recipe as BOM which will be used for the structured &amp; "
 "bold assemblage!"
 msgstr ""
+"Giờ đây bạn đã có một công thức mới dưới dạng BOM, sẽ được sử dụng cho bản "
+"phối mang cấu trúc rõ nét &amp; cá tính mạnh mẽ!"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -1443,6 +1572,9 @@ msgid ""
 "various flows\n"
 "            you can quickly execute with this package using Odoo."
 msgstr ""
+"Bạn sẽ có thể dùng thử các quy trình sau để có cái nhìn tổng quan về nhiều "
+"quy trình kinh doanh\n"
+"mà bạn có thể thực hiện nhanh chóng bằng gói này khi sử dụng Odoo."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -1450,6 +1582,8 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide both a filter and a template to use.<br/>"
 msgstr ""
+"Đoạn snippet động của bạn sẽ được hiển thị tại đây... Thông báo này xuất "
+"hiện vì bạn chưa cung cấp đầy đủ cả bộ lọc và mẫu để sử dụng.<br/>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_4048
@@ -1460,6 +1594,12 @@ msgid ""
 "strong>. Each sip tells a story of passion, craftsmanship, and the unique "
 "terroir that defines our vineyard."
 msgstr ""
+"Chuyến tham quan của bạn khép lại bằng một <strong>buổi thử rượu có hướng "
+"dẫn</strong> với những dòng rượu đặc trưng của chúng tôi, gồm <strong>Bordoo "
+"Grand Cru</strong> đậm đà, <strong>Odoomatic Spice</strong> sống động và "
+"<strong>Pinodoo Noir</strong> thanh lịch. Mỗi ngụm rượu là một câu chuyện về "
+"đam mê, tay nghề chế tác và dấu ấn thổ nhưỡng độc đáo làm nên bản sắc riêng "
+"của vườn nho."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body

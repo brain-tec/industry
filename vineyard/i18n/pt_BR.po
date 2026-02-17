@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:16+0000\n"
-"PO-Revision-Date: 2026-02-07 20:20+0000\n"
+"PO-Revision-Date: 2026-02-14 20:21+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/vineyard/pt_BR/>\n"
@@ -411,7 +411,6 @@ msgstr ""
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_17_product_template
-#, fuzzy
 msgid "<strong>Goal</strong>: Deep color, spice, aging potential"
 msgstr ""
 "<strong>Objetivo</strong>: Cor intensa, especiarias, potencial de "
@@ -419,7 +418,6 @@ msgstr ""
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_15_product_template
-#, fuzzy
 msgid "<strong>Goal</strong>: Round mouthfeel, fruit-forward, soft tannins"
 msgstr "<strong>Objetivo</strong>: Paladar redondo, frutado, taninos suaves"
 
@@ -468,7 +466,6 @@ msgstr "<strong>Registre o tempo e os materiais</strong> utilizados."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
-#, fuzzy
 msgid "<strong>Manufacturing 🛠</strong>"
 msgstr "<strong>Fabricação 🛠</strong>"
 
@@ -526,7 +523,6 @@ msgstr "<strong>Publique links de reserva</strong> no seu site."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Qualify prospects</strong> by checking interest level, wine "
 "preferences, and budget."
@@ -585,25 +581,26 @@ msgstr "<strong>Execute testes</strong> antes de aprovar a OAE."
 msgid ""
 "<strong>Schedule activities</strong> such as follow-up calls or tastings."
 msgstr ""
+"<strong>Agende atividades</strong>, como ligações de acompanhamento ou "
+"degustações."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Scrap Ratio Dashboard 📊</strong>"
-msgstr ""
+msgstr "<strong>Painel de índice de sucata 📊</strong>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Select items</strong> during checkout."
-msgstr ""
+msgstr "<strong>Selecione os itens</strong> durante o checkout."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Set availability</strong> by day and time."
-msgstr ""
+msgstr "<strong>Defina a disponibilidade</strong> por dia e hora."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
-#, fuzzy
 msgid "<strong>Set pricing and availability</strong> for bottles or cases."
 msgstr ""
 "<strong>Defina preços e disponibilidade</strong> para garrafas ou caixas."
@@ -617,15 +614,16 @@ msgstr "<strong>Configure as aprovações de OAEs</strong> conforme necessário.
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Spot problem steps</strong> and take corrective action."
 msgstr ""
+"<strong>Identifique as etapas problemáticas</strong> e tome medidas "
+"corretivas."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Tips for Success</strong>"
-msgstr ""
+msgstr "<strong>Dicaspara o sucesso</strong>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
-#, fuzzy
 msgid "<strong>Track orders</strong> from sale to delivery."
 msgstr "<strong>Acompanhe os pedidos</strong> desde a venda até a entrega."
 
@@ -640,21 +638,23 @@ msgid ""
 "<strong>Train your team</strong> to log data consistently, ensuring reliable "
 "reporting."
 msgstr ""
+"<strong>Treine sua equipe</strong> para registrar dados de forma "
+"consistente, garantindo relatórios confiáveis."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Trigger alerts</strong> if results fail."
-msgstr ""
+msgstr "<strong>Acionar alertas</strong> se os resultados falharem."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Upload photos</strong> for documentation."
-msgstr ""
+msgstr "<strong>Envie fotos para</strong> para documentação."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Use cases</strong>"
-msgstr ""
+msgstr "<strong>Casos de uso</strong>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -662,16 +662,20 @@ msgid ""
 "<strong>Use dashboards</strong> to monitor KPIs like yield, sales "
 "performance, and scrap ratio."
 msgstr ""
+"<strong>Use painéis</strong> para monitorar KPIs como rendimento, desempenho "
+"de vendas e índice de refugo."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "<strong>Website &amp; eCommerce 🌐</strong>"
-msgstr ""
+msgstr "<strong>Site &amp; e-Commerce 🌐</strong>"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Add the corresponding grapes as product adjusting the expected quantity"
 msgstr ""
+"Adicione as uvas correspondentes como produto, ajustando a quantidade "
+"esperada."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -679,6 +683,9 @@ msgid ""
 "At anytime, you can create quality checks for aging barrels and recipe "
 "iterations which will trigger wastes you can monitor:"
 msgstr ""
+"A qualquer momento, você pode criar verificações de qualidade para barris "
+"envelhecidos e iterações de receitas que irão gerar resíduos que você pode "
+"monitorar:"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -689,41 +696,46 @@ msgid ""
 "Every sip tells the story of passion, precision, and the art of transforming "
 "exceptional grapes into extraordinary wine."
 msgstr ""
+"No centro da nossa arte está um cuidado meticuloso em cada etapa da produção "
+"do vinho. Desde a seleção do melhor mosto de uva até ao delicado processo de "
+"mistura, garantimos que cada garrafa reflete excelência e dedicação. Cada "
+"gole conta a história da paixão, da precisão e da arte de transformar uvas "
+"excepcionais em vinhos extraordinários."
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_9
 msgid "Balanced"
-msgstr ""
+msgstr "Balanceado"
 
 #. module: vineyard
 #: model:uom.uom,name:vineyard.uom_uom_29
 msgid "Barrels"
-msgstr ""
+msgstr "Barris"
 
 #. module: vineyard
 #: model:mrp.eco.stage,legend_blocked:vineyard.mrp_eco_stage_9
 msgid "Blocked"
-msgstr ""
+msgstr "Bloqueado"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_4
 msgid "Bold"
-msgstr ""
+msgstr "Negrito"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_27_product_template
 msgid "Bordoo Grand Cru"
-msgstr ""
+msgstr "Bordoo Grand Cru"
 
 #. module: vineyard
 #: model:uom.uom,name:vineyard.uom_uom_32
 msgid "Bottle Box"
-msgstr ""
+msgstr "Caixa para garrafas"
 
 #. module: vineyard
 #: model:pos.category,name:vineyard.pos_category_1
 msgid "Bottles"
-msgstr ""
+msgstr "Garrafas"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -732,6 +744,9 @@ msgid ""
 "and elegant in the mouth, offering red currant, floral notes, and fine "
 "tannins. Brings freshness, structure, and aromatic lift.&amp;nbsp;"
 msgstr ""
+"Tonalidade rubi brilhante com aromas de framboesa, violeta e ervas suaves. "
+"Fresco e elegante na boca, oferecendo groselha vermelha, notas florais e "
+"taninos finos. Traz frescura, estrutura e aroma intenso.&amp;nbsp;"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -747,37 +762,38 @@ msgstr ""
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_9_product_template
 msgid "Cabernet Franc Grapes"
-msgstr ""
+msgstr "Uvas Cabernet Franc"
 
 #. module: vineyard
 #: model:product.template,name:vineyard.product_product_12_product_template
 msgid "Cabernet Franc Must"
-msgstr ""
+msgstr "Mosto de Cabernet Franc"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Cabernet Franc&amp;nbsp;"
-msgstr ""
+msgstr "Cabernet Franc&amp;nbsp;"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Chat'odoo&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Chat'odoo&amp;nbsp;<br/>"
 
 #. module: vineyard
 #: model:ir.actions.server,name:vineyard.industry_check_harvest_is_from_harvest_location_server_action
 msgid "Check Harvest Is From Harvest Location"
-msgstr ""
+msgstr "Verificar se a colheita é proveniente do local de colheita"
 
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_14_product_template
 msgid "Color, plushness, and soft tannin integration"
-msgstr ""
+msgstr "Cor, suavidade e integração suave dos taninos"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Come back to the ECO from the breadcrumb and mark set it as effective."
 msgstr ""
+"Volte para o OEA a partir das trilhas de navegação e marque-o como efetivo."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -785,21 +801,23 @@ msgid ""
 "Come back to the manufacturing order from the breadcrumb and hit the produce "
 "all button"
 msgstr ""
+"Volte para a Ordem de Produção a partir da trilha de navegação e clique no "
+"botão “Produzir tudo”."
 
 #. module: vineyard
 #: model:ir.model.fields,field_description:vineyard.quality_check_control_point_title
 msgid "Control Point Title"
-msgstr ""
+msgstr "Título do ponto de controle"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Crafting Exceptional Wines"
-msgstr ""
+msgstr "Produzindo vinhos excepcionais"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Create a new harvest and select the parcel to harvest"
-msgstr ""
+msgstr "Crie uma nova colheita e selecione a parcela a ser colhida"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -808,6 +826,10 @@ msgid ""
 "yet balanced, with hints of smoke, spice, and chocolate. Contributes bold "
 "flavor, firm tannins, and a long, warming finish.&amp;nbsp;"
 msgstr ""
+"Escuro e expressivo, revelando aromas de amora, mirtilo e pimenta moída. "
+"Rico, mas equilibrado, com notas de fumo, especiarias e chocolate. Contribui "
+"com um sabor ousado, taninos firmes e um final longo e "
+"aconchegante.&amp;nbsp;"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -816,11 +838,14 @@ msgid ""
 "velvety and full-bodied, with rich dark fruit, subtle spice, and a smooth, "
 "lingering finish. Adds depth and plush texture to blends."
 msgstr ""
+"Roxo profundo com aromas de amora, ameixa e cacau. No paladar, aveludado e "
+"encorpado, com frutas escuras ricas, especiarias sutis e um final suave e "
+"prolongado. Adiciona profundidade e textura aveludada às misturas."
 
 #. module: vineyard
 #: model_terms:product.template,public_description:vineyard.product_product_27_product_template
 msgid "Deep structure and Bordeaux-inspired authority"
-msgstr ""
+msgstr "Estrutura profunda e autoridade inspirada em Bordeaux"
 
 #. module: vineyard
 #: model:mrp.eco.stage,name:vineyard.mrp_eco_stage_9
@@ -830,7 +855,7 @@ msgstr ""
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Descubra mais sobre o Odoo mergulhando em nosso"
 
 #. module: vineyard
 #: model_terms:product.template,description_ecommerce:vineyard.product_product_27_product_template
@@ -844,12 +869,12 @@ msgstr ""
 #. module: vineyard
 #: model_terms:product.template,description:vineyard.product_product_13_product_template
 msgid "Dominates body and spices"
-msgstr ""
+msgstr "Domina o corpo e as especiarias"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_7
 msgid "Elegant"
-msgstr ""
+msgstr "Elegante"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -866,17 +891,17 @@ msgstr ""
 #. module: vineyard
 #: model:project.tags,name:vineyard.project_tags_1
 msgid "Fertilization"
-msgstr ""
+msgstr "Fertilização"
 
 #. module: vineyard
 #: model:product.tag,name:vineyard.product_tag_3
 msgid "Flavorful"
-msgstr ""
+msgstr "Saboroso"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
 msgid "Focus"
-msgstr ""
+msgstr "Foco"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.ir_ui_view_3070
@@ -890,6 +915,14 @@ msgid ""
 "elegance, and spice into wines that speak of both our terroir and our "
 "heritage."
 msgstr ""
+"Por gerações, nossa família tem cuidado das videiras com paixão e precisão, "
+"selecionando apenas as melhores variedades de uvas para produzir vinhos com "
+"personalidade e distinção. Entre eles, <strong>Malbec</strong>, "
+"<strong>Cabernet Franc</strong> e <strong>Syrah</strong> conquistaram seu "
+"lugar em nossa adega — cada um escolhido por sua expressão única de sabor, "
+"aroma e equilíbrio. Juntos, eles formam a base de nossos blends, "
+"harmonizando riqueza, elegância e especiarias em vinhos que refletem tanto "
+"nosso terroir quanto nossa herança."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -899,6 +932,11 @@ msgid ""
 "tours, tracking harvest yields, or monitoring quality, Odoo’s interconnected "
 "apps bring visibility and efficiency to every process."
 msgstr ""
+"Desde a captação de clientes potenciais até o engarrafamento de blends "
+"premiados, o Odoo ajuda você a gerenciar suas operações com precisão. Seja "
+"para vender online, organizar visitas à vinícola, acompanhar a produtividade "
+"da colheita ou monitorar a qualidade, os aplicativos interconectados do Odoo "
+"trazem visibilidade e eficiência a todos os processos."
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body
@@ -906,6 +944,8 @@ msgid ""
 "From the Manufacturing App, create a new manufacturing order to bottle some "
 "wine choosing one of the finished products and adjust the quantities"
 msgstr ""
+"No aplicativo de Fabricação, crie uma nova ordem de produção para engarrafar "
+"vinho, escolhendo um dos produtos acabados e ajustando as quantidades"
 
 #. module: vineyard
 #: model_terms:ir.ui.view,arch_db:vineyard.welcome_article_body

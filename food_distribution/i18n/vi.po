@@ -3,15 +3,15 @@
 # * food_distribution
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:40+0000\n"
-"PO-Revision-Date: 2025-12-04 20:09+0000\n"
+"PO-Revision-Date: 2026-02-14 20:21+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
-"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-s19-1/"
 "food_distribution/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -64,6 +64,10 @@ msgid ""
 "          and Expiration Dates to enforce FEFO (First Expired, First Out) "
 "removal strategies."
 msgstr ""
+"<b>Ứng dụng Tồn kho</b>: Quản lý kho hàng của bạn với các tính năng nâng cao "
+"như Số lô ( &amp; ) và Số seri (Serial Numbers) để theo dõi nguồn gốc,\n"
+"          cùng với Ngày hết hạn (Expiration Dates) để áp dụng chiến lược "
+"loại bỏ FEFO (First Expired, First Out)."
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body

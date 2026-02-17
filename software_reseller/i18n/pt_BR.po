@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 09:18+0000\n"
-"PO-Revision-Date: 2026-02-05 19:05+0000\n"
+"PO-Revision-Date: 2026-02-14 20:21+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/software_reseller/pt_BR/>\n"
@@ -602,7 +602,6 @@ msgstr "Em uso"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
-#, fuzzy
 msgid ""
 "In the chatter, leverage the email template to send those information to "
 "your customer by hitting the Send message button, opening the full composer "
@@ -658,7 +657,7 @@ msgstr "Chave de licença: XYZ"
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_license_key_field
 msgid "License key"
-msgstr ""
+msgstr "Chave de licença"
 
 #. module: software_reseller
 #: model:ir.actions.act_window,name:software_reseller.licenses_act_window
@@ -682,6 +681,12 @@ msgid ""
 "            users periodically, but Oracle requires a lot of information: "
 "number of CPUs, number of developer seats, size of DB, etc)"
 msgstr ""
+"As licenças são gerenciadas como tarefas no aplicativo de gerenciamento de "
+"projetos, com propriedades personalizadas; chave de licença, número de "
+"usuários, versão do software, ... essas propriedades dependem do tipo de "
+"software vendido (ou seja, o Odoo é vendido com base no número de\n"
+"usuários periodicamente, mas a Oracle exige muitas informações: número de "
+"CPUs, número de licenças de desenvolvedor, tamanho do banco de dados, etc.)"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -708,6 +713,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
+"Gerencie sua contabilidade com mais facilidade do que nunca em um ambiente "
+"totalmente integrado. "
+"(<strong><font class=\"text-o-color-1\">app Financeiro</font></strong>)"
 
 #. module: software_reseller
 #: model:uom.uom,name:software_reseller.uom_uom_31
@@ -749,7 +757,7 @@ msgstr "Implementação Padrão Odoo"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as:"
-msgstr ""
+msgstr "O Odoo oferece infinitas possibilidades, tais como:"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -757,6 +765,8 @@ msgid ""
 "On this order, the way to manage licenses is similar to the above section. "
 "So, we'll mostly focus on the delivery of the extra services."
 msgstr ""
+"Neste pedido, a forma de gerenciar licenças é semelhante à seção acima. "
+"Portanto, vamos nos concentrar principalmente na entrega dos serviços extras."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -769,6 +779,13 @@ msgid ""
 "users for one year. Once you confirm this order, two documents will be "
 "created:"
 msgstr ""
+"Abra o aplicativo de vendas <strong><font class=\"text-o-color-1\"></font></"
+"strong> e crie uma assinatura <strong><font class=\"text-o-color-2\""
+"></font></strong> para qualquer cliente com o\n"
+"            produto <strong><font class=\"text-o-color-2\">“Oracle "
+"Database”</font></strong><font class=\"text-o-color-2\"> ,</font> para 5 "
+"usuários por um ano. Depois de confirmar esse pedido, dois documentos serão "
+"criados:"
 
 #. module: software_reseller
 #: model:product.template,name:software_reseller.product_product_1_product_template
@@ -784,7 +801,7 @@ msgstr "Licenças da base de dados Oracle"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Entre em contato"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -825,6 +842,9 @@ msgid ""
 "Start receiving orders directly in Odoo or go live with your <strong><font "
 "class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
 msgstr ""
+"Comece a receber pedidos diretamente no Odoo ou coloque em funcionamento sua "
+"<strong><font class=\"text-o-color-1\">loja virtual</font></strong> em "
+"poucos minutos."
 
 #. module: software_reseller
 #: model:project.project,label_tasks:software_reseller.project_project_4
@@ -845,12 +865,17 @@ msgid ""
 "class=\"text-o-color-1\"> </font><strong><font class=\"text-o-color-1\">App</"
 "font></strong> has 3 menus:"
 msgstr ""
+"O aplicativo <strong><font class=\"text-o-color-1\">app Licenças</font></"
+"strong><font class=\"text-o-color-1\"> </font> <strong><font class="
+"\"text-o-color-1\"> </font></strong> tem 3 menus:"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"Todos estes recursos são gratuitos na sua assinatura atual; fique à vontade "
+"para explorá-los! :)"
 
 #. module: software_reseller
 #: model_terms:ir.actions.act_window,help:software_reseller.by_software_act_window
@@ -860,13 +885,13 @@ msgstr "É aqui que você gerencia suas licenças de software."
 #. module: software_reseller
 #: model_terms:ir.actions.act_window,help:software_reseller.to_review_act_window
 msgid "This is your new action."
-msgstr ""
+msgstr "Esta é a sua nova ação."
 
 #. module: software_reseller
 #: model:ir.actions.act_window,name:software_reseller.to_review_act_window
 #: model:ir.ui.menu,name:software_reseller.licenses_to_review_menu
 msgid "To Review"
-msgstr ""
+msgstr "A revisar"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -874,6 +899,8 @@ msgid ""
 "To renew a license, you should just renew the subscription from the sale "
 "order; the task remains the same."
 msgstr ""
+"Para renovar uma licença, basta renovar a assinatura a partir do Pedido de "
+"venda; a tarefa permanece a mesma."
 
 #. module: software_reseller
 #: model:sale.order.template.line,name:software_reseller.sale_order_template_line_4
@@ -888,7 +915,7 @@ msgstr "Usuário / Mês"
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_users_field
 msgid "Users"
-msgstr ""
+msgstr "Usuários"
 
 #. module: software_reseller
 #: model:uom.uom,name:software_reseller.uom_uom_27
@@ -909,11 +936,22 @@ msgid ""
 "sell days, but timesheets per hour).</span></font>\n"
 "            </strong>"
 msgstr ""
+"Normalmente, você vende as licenças de software com serviços adicionais. "
+"Para testar esse fluxo a partir do aplicativo de vendas <font class="
+"\"text-o-color-1\"><strong>app Vendas</strong></font>, ao criar uma cotação, "
+"use o modelo de cotação <strong>\n"
+"                <font class=\"text-o-color-2\"> “Implementação Padrão "
+"Odoo”</font>\n"
+"                <font style=\"color: inherit;\"><span style=\"font-weight: "
+"normal;\"> . Isso adicionará os serviços faturados nas Planilhas de Horas "
+"(configuração padrão: dias vendidos, mas Planilhas de Horas por hora)"
+".</span></font>\n"
+"           </strong>"
 
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_version_field
 msgid "Version"
-msgstr ""
+msgstr "Versão"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -930,6 +968,8 @@ msgstr "Boas-vindas! Boa exploração."
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
+"Gostaria de discutir sua configuração do Odoo conosco ou explorar mais "
+"recursos?"
 
 #. module: software_reseller
 #: model:uom.uom,name:software_reseller.uom_uom_29
@@ -955,6 +995,9 @@ msgid ""
 "instructions, even including additional documents such as license setup "
 "procedure."
 msgstr ""
+"Você pode personalizar o modelo de e-mail com detalhes e instruções "
+"adicionais, incluindo até mesmo documentos adicionais, como o procedimento "
+"de configuração da licença."
 
 #. module: software_reseller
 #: model_terms:ir.actions.act_window,help:software_reseller.to_review_act_window
@@ -964,6 +1007,10 @@ msgid ""
 "                    top right corner (you can also customize this help "
 "message there)."
 msgstr ""
+"Você pode começar a personalizar essas telas clicando no ícone do Estúdio "
+"no\n"
+"canto superior direito "
+"(você também pode personalizar esta mensagem de ajuda lá)."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -979,25 +1026,26 @@ msgstr ""
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
+#, fuzzy
 msgid "academy"
-msgstr ""
+msgstr "academy"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "documentation"
-msgstr ""
+msgstr "documentação"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "if you need help!"
-msgstr ""
+msgstr "se você precisar de ajuda!"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "solicite uma demonstração"
