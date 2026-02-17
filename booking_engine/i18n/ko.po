@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 05:43+0000\n"
-"PO-Revision-Date: 2026-01-29 07:51+0000\n"
+"POT-Creation-Date: 2026-02-09 15:28+0000\n"
+"PO-Revision-Date: 2026-02-11 12:29+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "booking_engine/ko/>\n"
@@ -170,11 +170,6 @@ msgid "Board"
 msgstr "보드"
 
 #. module: booking_engine
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
-msgid "Booking"
-msgstr "예약"
-
-#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
 msgid "Booking Engine Offers"
 msgstr "엔진 예약 혜택"
@@ -188,6 +183,11 @@ msgstr "예약 엔진 설정"
 #: model:product.attribute,name:booking_engine.product_attribute_21
 msgid "Breakfast"
 msgstr "조식"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_2
+msgid "Budget / Economy"
+msgstr "실속형 / 절약형"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.x_city_tax_form_view
@@ -315,6 +315,11 @@ msgid "Delete role on stay offer deletion"
 msgstr ""
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_4
+msgid "Deluxe"
+msgstr "디럭스"
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_model_guests_line_x_name
 msgid "Description"
 msgstr "내용"
@@ -420,6 +425,11 @@ msgstr "헤어드라이어"
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_has_city_tax_field
 msgid "Has City Tax"
 msgstr "도시세 여부"
+
+#. module: booking_engine
+#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
+msgid "Hotel"
+msgstr "호텔"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_house_keeping
@@ -562,6 +572,11 @@ msgid "Is Stay Resource"
 msgstr "숙박 리소스 여부"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_5
+msgid "Junior Suite"
+msgstr "주니어 스위트"
+
+#. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_2
 msgid "Large double bed"
 msgstr "대형 더블 베드"
@@ -630,6 +645,11 @@ msgstr "이용객"
 #: model:ir.model.fields.selection,name:booking_engine.x_occupancy_field_selection_occupied
 msgid "Occupied"
 msgstr "사용 중"
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_offer_type
+msgid "Offer Type"
+msgstr "패키지 유형"
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_offers_menu
@@ -810,6 +830,11 @@ msgid "Stage"
 msgstr "단계"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_1
+msgid "Standard"
+msgstr "스탠다드"
+
+#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
 msgid "Status"
 msgstr "상태"
@@ -843,6 +868,16 @@ msgstr "숙박 중 청소"
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_partner_form_view
 msgid "Stays"
 msgstr "숙박"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_6
+msgid "Suite"
+msgstr "스위트"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_3
+msgid "Superior"
+msgstr "수페리어"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
@@ -913,6 +948,11 @@ msgid "Uninstall House Keeping"
 msgstr "하우스키핑 제거"
 
 #. module: booking_engine
+#: model:ir.model.fields,help:booking_engine.product_model_product_template_x_offer_type
+msgid "Used by channel manager and OTAs to categorize offers."
+msgstr ""
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_approver_users_ids
 #: model:ir.model.fields,field_description:booking_engine.x_setting_related_field_approver_users_ids
 msgid "Users"
@@ -956,8 +996,8 @@ msgid ""
 "in the accommodation app."
 msgstr ""
 
-#~ msgid "Hotel"
-#~ msgstr "호텔"
+#~ msgid "Booking"
+#~ msgstr "예약"
 
 #~ msgid "Is Room Offer"
 #~ msgstr "객실 특가 여부"

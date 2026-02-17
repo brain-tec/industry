@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 05:43+0000\n"
-"PO-Revision-Date: 2026-01-27 22:56+0000\n"
-"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"POT-Creation-Date: 2026-02-09 15:28+0000\n"
+"PO-Revision-Date: 2026-02-10 15:03+0000\n"
+"Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/booking_engine/es_419/>\n"
 "Language: es_419\n"
@@ -171,11 +171,6 @@ msgid "Board"
 msgstr "Tablero"
 
 #. module: booking_engine
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
-msgid "Booking"
-msgstr "Reservación"
-
-#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
 msgid "Booking Engine Offers"
 msgstr "Ofertas del motor de reservaciones"
@@ -189,6 +184,11 @@ msgstr "Ajustes del motor de reservaciones"
 #: model:product.attribute,name:booking_engine.product_attribute_21
 msgid "Breakfast"
 msgstr "Desayuno"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_2
+msgid "Budget / Economy"
+msgstr "Económico"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.x_city_tax_form_view
@@ -316,6 +316,11 @@ msgid "Delete role on stay offer deletion"
 msgstr "Eliminar función al eliminar la oferta de estancia"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_4
+msgid "Deluxe"
+msgstr "Deluxe"
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_model_guests_line_x_name
 msgid "Description"
 msgstr "Descripción"
@@ -421,6 +426,11 @@ msgstr "Secadora de cabello"
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_has_city_tax_field
 msgid "Has City Tax"
 msgstr "Tiene impuesto local"
+
+#. module: booking_engine
+#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
+msgid "Hotel"
+msgstr "Hotel"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_house_keeping
@@ -565,6 +575,11 @@ msgid "Is Stay Resource"
 msgstr "Es un recurso de estancia"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_5
+msgid "Junior Suite"
+msgstr "Suite junior"
+
+#. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_2
 msgid "Large double bed"
 msgstr "Cama matrimonial grande"
@@ -633,6 +648,11 @@ msgstr "Inquilino"
 #: model:ir.model.fields.selection,name:booking_engine.x_occupancy_field_selection_occupied
 msgid "Occupied"
 msgstr "Ocupado"
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_offer_type
+msgid "Offer Type"
+msgstr "Tipo de oferta"
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_offers_menu
@@ -813,6 +833,11 @@ msgid "Stage"
 msgstr "Etapa"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_1
+msgid "Standard"
+msgstr "Estándar"
+
+#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
 msgid "Status"
 msgstr "Estado"
@@ -846,6 +871,16 @@ msgstr "Limpieza de estancia"
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_partner_form_view
 msgid "Stays"
 msgstr "Estadías"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_6
+msgid "Suite"
+msgstr "Suite"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_3
+msgid "Superior"
+msgstr "Superior"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
@@ -916,6 +951,13 @@ msgid "Uninstall House Keeping"
 msgstr "Desinstalar Limpieza"
 
 #. module: booking_engine
+#: model:ir.model.fields,help:booking_engine.product_model_product_template_x_offer_type
+msgid "Used by channel manager and OTAs to categorize offers."
+msgstr ""
+"Usado por los gerentes de canal y agencias de viajes en línea para "
+"categorizar ofertas."
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_approver_users_ids
 #: model:ir.model.fields,field_description:booking_engine.x_setting_related_field_approver_users_ids
 msgid "Users"
@@ -967,8 +1009,8 @@ msgstr ""
 "Al seleccionarla, el sistema usa las tareas de este proyecto para la gestión "
 "de limpieza en la aplicación de alojamiento."
 
-#~ msgid "Hotel"
-#~ msgstr "Hotel"
+#~ msgid "Booking"
+#~ msgstr "Reservación"
 
 #~ msgid "Is Room Offer"
 #~ msgstr "Es una oferta de habitación"

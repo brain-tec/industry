@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 05:43+0000\n"
+"POT-Creation-Date: 2026-02-09 15:28+0000\n"
 "PO-Revision-Date: 2026-01-20 13:20+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
@@ -171,11 +171,6 @@ msgid "Board"
 msgstr "لوحة"
 
 #. module: booking_engine
-#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
-msgid "Booking"
-msgstr "الحجز"
-
-#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
 msgid "Booking Engine Offers"
 msgstr "عروض محرك الحجز"
@@ -189,6 +184,11 @@ msgstr ""
 #: model:product.attribute,name:booking_engine.product_attribute_21
 msgid "Breakfast"
 msgstr "الفطور"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_2
+msgid "Budget / Economy"
+msgstr ""
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.x_city_tax_form_view
@@ -316,6 +316,11 @@ msgid "Delete role on stay offer deletion"
 msgstr "حذف الدور عند حذف عرض الإقامة"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_4
+msgid "Deluxe"
+msgstr ""
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_model_guests_line_x_name
 msgid "Description"
 msgstr "الوصف"
@@ -421,6 +426,11 @@ msgstr "مجفف الشعر"
 #: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_has_city_tax_field
 msgid "Has City Tax"
 msgstr "يحتوي على ضريبة المدن"
+
+#. module: booking_engine
+#: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
+msgid "Hotel"
+msgstr "فندق"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_house_keeping
@@ -565,6 +575,11 @@ msgid "Is Stay Resource"
 msgstr "المورِد المرتبط بإقامتك"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_5
+msgid "Junior Suite"
+msgstr ""
+
+#. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_2
 msgid "Large double bed"
 msgstr "غرفة مزدوجة كبيرة"
@@ -633,6 +648,11 @@ msgstr "المقيم"
 #: model:ir.model.fields.selection,name:booking_engine.x_occupancy_field_selection_occupied
 msgid "Occupied"
 msgstr "محجوز"
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.product_model_product_template_x_offer_type
+msgid "Offer Type"
+msgstr ""
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_offers_menu
@@ -813,6 +833,11 @@ msgid "Stage"
 msgstr "المرحلة"
 
 #. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_1
+msgid "Standard"
+msgstr ""
+
+#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
 msgid "Status"
 msgstr "الحالة"
@@ -846,6 +871,16 @@ msgstr "تنظيف أماكن الإقامة"
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_partner_form_view
 msgid "Stays"
 msgstr "الإقامة"
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_6
+msgid "Suite"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_3
+msgid "Superior"
+msgstr ""
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
@@ -916,6 +951,11 @@ msgid "Uninstall House Keeping"
 msgstr "إلغاء تثبيت نظام تنظيف الغرف"
 
 #. module: booking_engine
+#: model:ir.model.fields,help:booking_engine.product_model_product_template_x_offer_type
+msgid "Used by channel manager and OTAs to categorize offers."
+msgstr ""
+
+#. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_approver_users_ids
 #: model:ir.model.fields,field_description:booking_engine.x_setting_related_field_approver_users_ids
 msgid "Users"
@@ -965,8 +1005,8 @@ msgstr ""
 "عند تعيينها، يتم استخدام المهام من هذا المشروع لإدارة أعمال التنظيف في تطبيق "
 "الإقامة."
 
-#~ msgid "Hotel"
-#~ msgstr "فندق"
+#~ msgid "Booking"
+#~ msgstr "الحجز"
 
 #~ msgid "Is Room Offer"
 #~ msgstr "عرض على غرفة"

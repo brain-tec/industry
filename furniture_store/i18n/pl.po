@@ -7,13 +7,14 @@
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:42+0000\n"
-"PO-Revision-Date: 2025-10-17 14:12+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@odoo.com>\n"
+"PO-Revision-Date: 2026-02-13 10:36+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-19/"
 "furniture_store/pl/>\n"
 "Language: pl\n"
@@ -21,9 +22,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
-"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
-"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -53,8 +54,8 @@ msgid ""
 "Customer Service\">+1555-555-5556</a>"
 msgstr ""
 "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<a "
-"class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title=\"Call "
-"Customer Service\">+1555-555-5556</a>"
+"class=\"o_translate_inline\" href=\"tel:+1555-555-5556\" title="
+"\"Call Customer Service\">+1555-555-5556</a>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -100,8 +101,8 @@ msgstr "80 cm"
 msgid ""
 "<b><span class=\"h4-fs\"><strong>Order preparation</strong></span></b><br/>"
 msgstr ""
-"<b><span class=\"h4-fs\"><strong>Przygotowanie zamówienia</strong></span></"
-"b><br/>"
+"<b><span class=\"h4-fs\"><strong>Przygotowanie "
+"zamówienia</strong></span></b><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -109,8 +110,8 @@ msgid ""
 "<b><span class=\"h4-fs\"><strong>Processing a click and collect transaction</"
 "strong></span></b>"
 msgstr ""
-"<b><span class=\"h4-fs\"><strong>Przetwarzanie transakcji \"kliknij i "
-"odbierz\"</strong></span></b>"
+"<b><span class=\"h4-fs\"><strong>Przetwarzanie transakcji "
+"\"kliknij i odbierz\"</strong></span></b>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -171,8 +172,8 @@ msgid ""
 "<b>Integrate WhatsApp</b> to send automatic reminders about deliveries, "
 "keeping your customers informed effortlessly."
 msgstr ""
-"<b>Zintegruj WhatsApp</b>, aby wysyłać automatycznie przypomnienia o "
-"dostawach i informuj swoich klientów bez wysiłku."
+"<b>Zintegruj WhatsApp</b>, aby automatycznie wysyłać przypomnienia o "
+"dostawach i informuj swoich klientów na bieżąco."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -234,6 +235,10 @@ msgid ""
 "perform stock counts, receive goods,\n"
 "                    and check prices on the shop floor using mobile scanners."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Kody Kreskowe</b>:</font> "
+"Umożliwia pracownikom przeprowadzanie inwentaryzacji, odbiór towarów\n"
+"                    i sprawdzanie cen na hali produkcyjnej za pomocą "
+"skanerów mobilnych."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -244,6 +249,12 @@ msgid ""
 "Dates</b> to track perishables and automate removal\n"
 "                    strategies."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Magazyn</b>: </font>Precyzyjne "
+"magazynowanie zapasów przy użyciu\n"
+"                   <b> Numerów partii i serii</b> i <b>dat ważności</b> w "
+"celu śledzenia produktów łatwo psujących się i automatyzacji strategii "
+"usuwania\n"
+"                    zapasów."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -253,6 +264,10 @@ msgid ""
 "                    supplier bills and customer invoices directly into your "
 "accounting system."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Fakturowanie</b>:</font> Uprość "
+"swoje procesy finansowe, integrując\n"
+"                    rachunki dostawców i faktury klientów bezpośrednio z "
+"systemem księgowym."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -262,6 +277,10 @@ msgid ""
 "                    optimized for speed, supporting barcode scanners, "
 "integrated scales, and customer loyalty cards."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Punkt Sprzedaży</b>:</font> "
+"Szybko przetwarzaj transakcje dzięki interfejsowi\n"
+"                    zoptymalizowanemu pod kątem szybkości, obsługującemu "
+"skanery kodów kreskowych, zintegrowane wagi i karty lojalnościowe klientów."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -271,6 +290,10 @@ msgid ""
 "                    minimum stock rules, ensuring you never run out of milk "
 "or bread."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja Zakupy</b>:</font> Zautomatyzuj "
+"ponowne zamawianie szybko zbywalnych towarów w oparciu o\n"
+"                    zasady minimalnych stanów magazynowych, dzięki czemu "
+"nigdy nie zabraknie Ci mleka ani chleba."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -279,6 +302,9 @@ msgid ""
 "reach by offering online ordering for\n"
 "                    \"click and collect\" or home delivery services."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplikacja eCommerce</b>:</font> Zwiększ "
+"swój zasięg, oferując możliwość składania zamówień online z opcją\n"
+"                    „kliknij i odbierz” lub z dostawą do domu."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -288,8 +314,8 @@ msgid ""
 "span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                <span>info@yourcompany.example.com</"
-"span>"
+"                                                "
+"<span>info@yourcompany.example.com</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3955
@@ -333,8 +359,8 @@ msgid ""
 "                                                    Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                                                <span "
-"class=\"o_force_ltr\">3575 Fake Buena Vista\n"
+"                                                <span class=\"o_force_ltr\""
+">3575 Fake Buena Vista\n"
 "                                                    Avenue</span>"
 
 #. module: furniture_store
@@ -345,8 +371,8 @@ msgid ""
 "class=\"o_force_ltr\">+1 555-555-5556</span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                                                <span "
-"class=\"o_force_ltr\">+1 555-555-5556</span>"
+"                                                <span class=\"o_force_ltr\">+"
+"1 555-555-5556</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -354,8 +380,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Informacyjny\">💡</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -363,8 +389,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Informacyjny\">🚀</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -372,8 +398,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner powodzenie\">✅</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -381,8 +407,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
-"normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner informacyjny\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -390,8 +416,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
-"fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner powodzenie\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -399,8 +425,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Ostrzeżenie\" class=\"o_editor_banner_icon "
-"mb-3 fst-normal\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Ostrzeżenie\" class="
+"\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3955
@@ -415,14 +441,14 @@ msgid ""
 "center\"><i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/> Standard\n"
 "                                    Shipping </small>"
 msgstr ""
-"<small class=\"d-flex align-items-center\"><i class=\"fa fa-1x fa-fw fa-usd "
-"fa-stack me-1\"/> Gwarancja\n"
+"<small class=\"d-flex align-items-center\"><i class="
+"\"fa fa-1x fa-fw fa-usd fa-stack me-1\"/> Gwarancja\n"
 "                                    niskiej ceny </small>\n"
-"                                <small class=\"d-flex align-items-"
-"center\"><i class=\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
+"                                <small class=\"d-flex align-items-center\""
+"><i class=\"fa fa-1x fa-fw fa-shopping-basket fa-stack me-1\"/>\n"
 "                                    30 dni na zwrot online </small>\n"
-"                                <small class=\"d-flex align-items-"
-"center\"><i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/> Standardowa\n"
+"                                <small class=\"d-flex align-items-center\""
+"><i class=\"fa fa-1x fa-fw fa-truck fa-stack me-1\"/> Standardowa\n"
 "                                    wysyłka </small>"
 
 #. module: furniture_store
@@ -472,8 +498,8 @@ msgid ""
 "offer?</span>"
 msgstr ""
 "<span class=\"flex-grow-1\">Jakie produkty\n"
-"                                                            oferujecie?</"
-"span>"
+"                                                            "
+"oferujecie?</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_2244
@@ -483,8 +509,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"flex-grow-1\">Jaka jest wasza\n"
-"                                                            polityka zwrotu?"
-"</span>"
+"                                                            polityka "
+"zwrotu?</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -500,8 +526,7 @@ msgstr "<span class=\"h1-fs\"><strong>Podstawy</strong></span>"
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid ""
 "<span class=\"h1-fs\"><strong>Do you want to go further?</strong></span>"
-msgstr ""
-"<span class=\"h1-fs\"><strong>Czy chcesz przejść dalej?</strong></span>"
+msgstr "<span class=\"h1-fs\"><strong>Czy chcesz przejść dalej?</strong></span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -544,8 +569,8 @@ msgstr "<span class=\"h2-fs\">​</span><br/>"
 msgid ""
 "<span class=\"h4-fs\"><strong>Manage Purchase Orders</strong></span><br/>"
 msgstr ""
-"<span class=\"h4-fs\"><strong>Zarządzaj zamówieniami zakupu</strong></"
-"span><br/>"
+"<span class=\"h4-fs\"><strong>Zarządzaj zamówieniami zakupu</strong></span><"
+"br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -568,8 +593,8 @@ msgstr "<span class=\"h4-fs\"><strong>Przetwarzanie zwrotów</strong></span>"
 msgid ""
 "<span class=\"h4-fs\"><strong>Processing a Store transaction</strong></span>"
 msgstr ""
-"<span class=\"h4-fs\"><strong>Przetwarzanie transakcji sklepowej</strong></"
-"span>"
+"<span class=\"h4-fs\"><strong>Przetwarzanie transakcji "
+"sklepowej</strong></span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -599,8 +624,9 @@ msgid ""
 "<span class=\"h6-fs\">Welcome to the <strong><font style=\"color: rgb(113, "
 "75, 103);\">Odoo Furniture Store package</font></strong>!</span>"
 msgstr ""
-"<span class=\"h6-fs\">Witaj w <strong><font style=\"color: rgb(113, 75, 103);"
-"\">Pakiecie sklep z meblami Odoo</font></strong>!</span>"
+"<span class=\"h6-fs\">Witaj w <strong><font style="
+"\"color: rgb(113, 75, 103);\">Pakiecie Odoo sklep z "
+"meblami</font></strong>!</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -612,8 +638,8 @@ msgid ""
 msgstr ""
 "<span class=\"h6-fs\">Twój <b>Punkt sprzedaży (PoS)</b> jest Twoim centrum "
 "obsługi wszystkich transakcji w sklepie, zarządzania przygotowywaniem i "
-"ekspozycją zamówień oraz przetwarzania zamówień \"kliknij i odbierz\".</"
-"span><span class=\"h2-fs\"/><br/>"
+"ekspozycją oraz przetwarzania zamówień \"kliknij i odbierz\".</span><span "
+"class=\"h2-fs\"/><br/>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -637,12 +663,12 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">\n"
-"                                                                        Temat</"
-"span>\n"
+"                                                                        "
+"Temat</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\">\n"
-"                                                                        *</"
-"span>"
+"                                                                        "
+"*</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -652,8 +678,8 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Numer\n"
-"                                                                        telefonu</"
-"span>"
+"                                                                        "
+"telefonu</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -667,12 +693,12 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Twoja\n"
-"                                                                        firma</"
-"span>\n"
+"                                                                        "
+"firma</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\">\n"
-"                                                                        *</"
-"span>"
+"                                                                        "
+"*</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -686,12 +712,12 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Twój\n"
-"                                                                        e-"
-"mail</span>\n"
+"                                                                        "
+"e-mail</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\">\n"
-"                                                                        *</"
-"span>"
+"                                                                        "
+"*</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -705,12 +731,12 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Twoje\n"
-"                                                                        imię</"
-"span>\n"
+"                                                                        "
+"imię</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\">\n"
-"                                                                        *</"
-"span>"
+"                                                                        "
+"*</span>"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.ir_ui_view_3972
@@ -724,12 +750,12 @@ msgid ""
 "span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Twoje\n"
-"                                                                        zapytanie</"
-"span>\n"
+"                                                                        "
+"zapytanie</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\">\n"
-"                                                                        *</"
-"span>"
+"                                                                        "
+"*</span>"
 
 #. module: furniture_store
 #: model:product.public.category,name:furniture_store.product_public_category_12
@@ -859,8 +885,8 @@ msgstr "Kliknij na przycisk \"Zwrot\"."
 msgid ""
 "Click the <b>three dots</b> and choose \"<strong>Quotation/Order</strong>.\""
 msgstr ""
-"Kliknij na <b>trzy kropki</b> i wybierz \"<strong>Oferta/Zamówienie</"
-"strong>\"."
+"Kliknij na <b>trzy kropki</b> i wybierz "
+"\"<strong>Oferta/Zamówienie</strong>\"."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -955,7 +981,7 @@ msgstr ""
 "                                            w sobie nowoczesną estetykę i "
 "praktyczne zastosowania. Naszą misją jest\n"
 "                                            oferowanie projektów, które "
-"zbogaca Twoją przestrzeń\n"
+"wzbogacą Twoją przestrzeń,\n"
 "                                            zarówno swoim stylem jak i "
 "praktycznością. Każdy produkt podkreśla nasze\n"
 "                                            oddanie rzemiosłu i użyteczność, "
@@ -991,7 +1017,7 @@ msgstr "Kategorie ecommerce dla sekcji strony internetowej"
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
 msgid "Each combination can have is own price, picture, and much more"
-msgstr "Każda kombinacja może mieć swoją własną cenę, zdjęcie i więcej"
+msgstr "Każda kombinacja może mieć swoją własną cenę, zdjęcie i nie tylko"
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body
@@ -1082,15 +1108,15 @@ msgid ""
 "                                                    designer for some "
 "inspiration."
 msgstr ""
-"Porozmawiajmy o projekcie, który\n"
-"                                                    masz na myśli dla siebie "
-"lub swojej\n"
+"Porozmawiajmy o projekcie, o którym\n"
+"                                                    myślisz dla siebie lub "
+"swojej\n"
 "                                                    firmy? Jeśli szukasz "
 "pomysłów\n"
 "                                                    możemy zorganizować "
 "spotkanie z naszym\n"
-"                                                    projektantem, abyś "
-"zaczerpnął inspiracji."
+"                                                    projektantem, aby Cię "
+"zainspirować."
 
 #. module: furniture_store
 #: model_terms:ir.ui.view,arch_db:furniture_store.welcome_article_body

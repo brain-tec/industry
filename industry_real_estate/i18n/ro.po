@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-16 05:39+0000\n"
+"POT-Creation-Date: 2026-02-10 10:46+0000\n"
 "PO-Revision-Date: 2025-11-11 13:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
@@ -316,6 +316,11 @@ msgstr ""
 "class=\"s_website_form_mark\"> *</span>"
 
 #. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "<span>to</span>"
+msgstr ""
+
+#. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<strong>Accounting App: </strong>Manage your accounting easier than ever "
@@ -570,6 +575,11 @@ msgstr ""
 "implicat în dezvoltarea software-ului,\n"
 "                                                                marketing și "
 "strategiile de experiență a clientului."
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "From"
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body

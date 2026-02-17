@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-16 05:39+0000\n"
-"PO-Revision-Date: 2026-02-05 15:29+0000\n"
+"POT-Creation-Date: 2026-02-10 10:46+0000\n"
+"PO-Revision-Date: 2026-02-11 14:48+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "industry_real_estate/ru/>\n"
@@ -125,7 +125,7 @@ msgid ""
 "through the app menu Properties /\n"
 "                Properties."
 msgstr ""
-"<b>Объекты недвижимости:</b>Откройте <b>модуль Недвижимость</b> и перейдите "
+"<b>Объекты недвижимости: </b>Откройте <b>модуль Недвижимость</b> и перейдите "
 "через меню модуля в раздел\n"
 "                Объекты недвижимости."
 
@@ -136,9 +136,9 @@ msgid ""
 "by clicking on an empty slot in\n"
 "                    the timeline."
 msgstr ""
-"<b>Полезный совет:</b> Вы можете создать новый договор аренды прямо из этого "
+"<b>Полезный совет: </b>Вы можете создать новый договор аренды прямо из этого "
 "представления, кликнув на пустое место в\n"
-"                    шкале времени."
+"                    графике."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -209,7 +209,7 @@ msgid ""
 "beautiful, mobile-responsive\n"
 "                property management portal."
 msgstr ""
-"<b>Модуль Вебсайт:</b>Привлекайте целевой трафик, продвигая ваши услуги с "
+"<b>Модуль Вебсайт: </b>Привлекайте целевой трафик, продвигая ваши услуги с "
 "помощью эффектного портала, адаптированном\n"
 "                под мобильные устройства."
 
@@ -378,6 +378,11 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">Ваш вопрос</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\"> *</span>"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "<span>to</span>"
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -643,6 +648,11 @@ msgstr ""
 "на пульсе, участвуя в разработке программного обеспечения\n"
 "                                                                создании "
 "маркетинговых стратегий и улучшении клиентского опыта."
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "From"
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1290,7 +1300,7 @@ msgstr "запросить демо"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "🏠 Managing Properties &amp; Products"
-msgstr "🏠 Управление недвижимостью &amp; Товары"
+msgstr "🏠 Управление недвижимостью и товарами"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
