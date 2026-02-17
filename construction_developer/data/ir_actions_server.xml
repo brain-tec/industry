@@ -2,7 +2,7 @@
 <odoo>
     <record id="action_initialize_sales_order_line_sequence_on_sales_order_create" model="ir.actions.server">
         <field name="model_id" ref="sale.model_sale_order"/>
-        <field name="name">Construction: Initialize Sales Order Line Sequence on Sales Order create</field>
+        <field name="name">Construction Developer: Initialize Sales Order Line Sequence on Sales Order create</field>
         <field name="state">code</field>
         <field name="code"><![CDATA[
 sequences = record.order_line.mapped('sequence')
@@ -21,7 +21,7 @@ for sol in record.order_line: sol['sequence'] = seqs[sol.id] + 1
     <record id="action_sol_update_progress_increment_on_change" model="ir.actions.server">
         <field name="model_id" ref="sale.model_sale_order_line"/>
         <field name="state">code</field>
-        <field name="name">Construction: Update Progress Increment on Quantity Increment change</field>
+        <field name="name">Construction Developer: Update Progress Increment on Quantity Increment change</field>
         <field name="code"><![CDATA[
 record['x_progress_increment'] = record.x_quantity_increment / record.product_uom_qty if record.product_uom_qty > 0 else False
 ]]></field>
@@ -29,7 +29,7 @@ record['x_progress_increment'] = record.x_quantity_increment / record.product_uo
     <record id="action_sol_update_quantity_increment_on_change" model="ir.actions.server">
         <field name="model_id" ref="sale.model_sale_order_line"/>
         <field name="state">code</field>
-        <field name="name">Construction: Update Quantity Increment on Progress Increment change</field>
+        <field name="name">Construction Developer: Update Quantity Increment on Progress Increment change</field>
         <field name="code"><![CDATA[
 record['x_quantity_increment'] = record.x_progress_increment * record.product_uom_qty
 ]]></field>
@@ -37,7 +37,7 @@ record['x_quantity_increment'] = record.x_progress_increment * record.product_uo
     <record id="action_sol_update_section_progress" model="ir.actions.server">
         <field name="model_id" ref="sale.model_sale_order_line"/>
         <field name="state">code</field>
-        <field name="name">Construction: Update Quantity Increment on section button click</field>
+        <field name="name">Construction Developer: Update Quantity Increment on section button click</field>
         <field name="code"><![CDATA[
 lines = record.order_id.order_line.sorted(key=lambda sol: sol.sequence)
 i = [sol.sequence for sol in lines].index(record.sequence) + 1
@@ -60,6 +60,165 @@ action = {'type': 'ir.actions.client', 'tag': 'display_notification', 'params': 
 ]]></field>
         <field name="model_id" ref="sale.model_sale_order_line"/>
         <field name="state">code</field>
-        <field name="name">Construction: Update Quantity Delivered</field>
+        <field name="name">Construction Developer: Update Quantity Delivered</field>
+    </record>
+    <!-- 
+    server action and not compute because otherwise compute generates the same ID if
+    creating multiple remarks from a one2many list since they are not saved yet so
+    we cannot access the previous reference, resulting in duplicates
+    -->
+    <record id="action_x_remark_generate_x_reference_on_create" model="ir.actions.server">
+        <field name="model_id" ref="model_x_remark"/>
+        <field name="state">code</field>
+        <field name="name">Construction Developer: Generate Remark Reference on Create</field>
+        <field name="code"><![CDATA[
+for record in records:
+    # project already has remarks
+    if (project := record.x_project_id) and (last_ref := env['x_remark'].search([('x_project_id', '=', project.id), ('x_reference', '!=', False)], order='x_reference DESC', limit=1)): 
+        pid, rid = last_ref.x_reference.split('-')
+    # project has no remarks but has SO
+    elif so := project.sale_order_id:  
+        pid, rid = so.name[1:], 0
+    # no SO but made from SO
+    elif project and (soid := project.name.split('-')[0].strip()).startswith('S') and soid[1:].isnumeric(): 
+        pid, rid = soid[1:], 0
+    # no SO (fallback case, should ideally not be needed)
+    else:
+        pid, rid = last_rem[0].x_reference.split('-') if (last_rem := env['x_remark'].search([('x_reference', 'like', '00000-')], order='x_reference DESC')) else ("00000", 0)
+    record['x_reference'] = f"{pid}-{int(rid) + 1:05d}"
+]]></field>
+    </record>
+    <record model="ir.actions.server" id="action_x_remark_write_remark_stage_on_create_or_write">
+        <field name="name">Construction Developer: Write Remark Stages on Create or Write</field>
+        <field name="model_id" ref="model_x_remark"/>
+        <field name="state">code</field>
+        <field name="code"><![CDATA[ 
+for record in records:
+    if not record.x_project_id.x_remark_stage_ids and (stage := env.ref('construction_developer.project_x_remark_stage_1', raise_if_not_found=False)): stage.update({'x_project_ids': [Command.link(record.x_project_id.id)]})
+    record['x_stage_id'] = env['x_remark_stage'].search([('x_project_ids', 'in', record.x_project_id)], order='x_sequence', limit=1)
+]]></field>
+    </record>
+
+    <record id="server_action_set_work_item_name" model="ir.actions.server">
+        <field name="name">Construction: Work Item - Set Work Item name</field>
+        <field name="model_id" ref="x_work_item_model" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+record.write({'x_name': record.x_product_id.name})
+]]></field>
+    </record>
+    <record id="server_action_set_unit_cost_price_from_product" model="ir.actions.server">
+        <field name="name">Construction: Work Item - Set unit cost and unit price from product</field>
+        <field name="model_id" ref="x_work_item_line_model" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+record.write({'x_unit_price': record.x_product_id.list_price, 'x_unit_cost': record.x_product_id.standard_price})
+]]></field>
+    </record>
+    <record id="server_action_update_product_cost" model="ir.actions.server">
+        <field name="name">Construction: Work Item - Update product cost</field>
+        <field name="model_id" ref="x_work_item_model"/>
+        <field name="state">object_write</field>
+        <field name="crud_model_id" ref="product.model_product_product"/>
+        <field name="update_path">x_product_id.standard_price</field>
+        <field name="update_field_id" ref="product.field_product_product__standard_price"/>
+        <field name="evaluation_type">equation</field>
+        <field name="value"><![CDATA[record.x_unit_cost]]></field>
+    </record>
+    <record id="server_action_update_product_price" model="ir.actions.server">
+        <field name="name">Construction: Work Item - Update product price</field>
+        <field name="model_id" ref="x_work_item_model"/>
+        <field name="state">object_write</field>
+        <field name="crud_model_id" ref="product.model_product_product"/>
+        <field name="update_path">x_product_id.lst_price</field>
+        <field name="update_field_id" ref="product.field_product_product__lst_price"/>
+        <field name="evaluation_type">equation</field>
+        <field name="value"><![CDATA[record.x_unit_price]]></field>
+    </record>
+    <record id="server_action_set_work_item_as_template" model="ir.actions.server">
+        <field name="name">Construction: Work Item - Set as template</field>
+        <field name="model_id" ref="x_work_item_model" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+record.copy(default={'x_sale_order_line_id': False, 'x_is_template': True, 'x_targeted_so_id': False})
+action = {
+    'type': 'ir.actions.client',
+    'tag': 'display_notification',
+    'params': {'message': record.x_name + " template saved.", 'type': 'success'},
+}
+]]></field>
+    </record>
+    <record id="server_action_create_product_for_wi" model="ir.actions.server">
+        <field name="name">Construction: Work Item - Create new product for work item</field>
+        <field name="model_id" ref="x_work_item_model" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+for wi in records:
+    new_product = env['product.product'].create({
+        'name': wi.x_name,
+        'default_code': wi.x_reference,
+        'type': 'service',
+        'service_policy': "delivered_manual",
+        'list_price': wi.x_unit_price,
+        'standard_price': wi.x_unit_cost,
+        'uom_id': wi.x_unit_id.id,
+    })
+    wi.write({'x_product_id': new_product.id})
+]]></field>
+    </record>
+    <record id="server_action_create_or_modify_wi_on_sol" model="ir.actions.server">
+        <field name="name">Construction: Work Item - Create/modify work item on sale order line</field>
+        <field name="model_id" ref="x_work_item_model" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+if record.x_sale_order_line_id:
+    record.x_sale_order_line_id.write({
+        'price_unit': record.x_unit_price,
+        'purchase_price': record.x_unit_cost,
+    })
+elif record.x_targeted_so_id:
+    env['ir.actions.server'].browse(env.ref('construction_developer.server_action_create_product_for_wi').id).run()
+    env['sale.order.line'].create({
+        'order_id': record.x_targeted_so_id.id,
+        'product_id': record.x_product_id.id,
+        'price_unit': record.x_unit_price,
+        'purchase_price': record.x_unit_cost,
+        'x_line_work_item_id': record.id,
+    })
+]]></field>
+    </record>
+    <record id="server_action_create_associated_work_item" model="ir.actions.server">
+        <field name="name">Construction: SOL - Create associated Work Item</field>
+        <field name="model_id" ref="sale.model_sale_order_line" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+for sol in records:
+    wi = sol.product_id.x_work_item_template_id.copy({
+        'x_sale_order_line_id': record.id,
+        'x_is_template': False,
+    })
+    sol['x_line_work_item_id'] = wi.id
+]]></field>
+    </record>
+    <record id="server_action_open_sol_work_item" model="ir.actions.server">
+        <field name="name">Construction: SOL - Open SOL Work Item</field>
+        <field name="model_id" ref="sale.model_sale_order_line" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+action = {
+    "type": "ir.actions.act_window",
+    "res_model": "x_work_item",
+    "res_id": record.x_line_work_item_id.id,
+    "view_mode": "form",
+    "target": "new",
+}
+]]></field>
+    </record>
+    <record id="server_action_archive_old_wi_template" model="ir.actions.server">
+        <field name="name">Construction: Product - Archive Old Work Item Template</field>
+        <field name="model_id" ref="x_work_item_model" />
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+env['x_work_item'].search([("x_active", "!=", False), ("id", "not in", records.ids), ("x_product_id", "in", records.x_product_id.ids), ("x_is_template", "!=", False)]).write({'x_active': False})]]></field>
     </record>
 </odoo>
