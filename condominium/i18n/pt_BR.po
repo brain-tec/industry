@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 22:03+0000\n"
-"PO-Revision-Date: 2026-02-07 20:20+0000\n"
+"POT-Creation-Date: 2026-02-11 14:31+0000\n"
+"PO-Revision-Date: 2026-02-14 20:21+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/condominium/pt_BR/>\n"
@@ -166,7 +166,6 @@ msgstr ""
 
 #. module: condominium
 #: model:mail.template,body_html:condominium.mail_template_2
-#, fuzzy
 msgid ""
 "<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
 "family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
@@ -198,8 +197,8 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
-"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-family:"
-"Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
 "            <table style=\"width:600px; margin:0 auto; background:white; "
 "border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
 "Helvetica, sans-serif; border-collapse:collapse;\">\n"
@@ -208,18 +207,18 @@ msgstr ""
 "                       <td style=\"padding:15px 20px 10px 20px;\">\n"
 "                            <p style=\"margin:0 0 16px 0;\"> Olá,</p>\n"
 "                            <p style=\"margin:0 0 16px 0;\">\n"
-"                                Em anexo, segue a agenda da próxima reunião:"
-"\n"
-"                                Reunião Geral da <t t-out="
-"\"object.name or ''\"></t>\n"
+"                                Em anexo, segue a agenda da próxima "
+"reunião:\n"
+"                                Reunião Geral da <t t-out=\"object.name or "
+"''\"></t>\n"
 "                            </p> \n"
-"                           <p style=\"margin:0 0 16px 0;\"> "
-"Atenciosamente.</p>\n"
+"                           <p style=\"margin:0 0 16px 0;\"> Atenciosamente.</"
+"p>\n"
 "                        </td>\n"
 "                   </tr>\n"
 "                    <tr data-o-mail-quote-container=\"1\"> \n"
-"                       <td style=\"padding:15px 20px 10px 20px;\" t-out="
-"\"object.user_id.signature or ''\" data-o-mail-quote=\"1\"> \n"
+"                       <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\"> \n"
 "                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
 "                       </td>\n"
 "                    </tr> \n"
@@ -230,7 +229,6 @@ msgstr ""
 
 #. module: condominium
 #: model:mail.template,body_html:condominium.mail_template_3
-#, fuzzy
 msgid ""
 "<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
 "family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
@@ -262,8 +260,8 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
-"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-family:"
-"Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
 "            <table style=\"width:600px; margin:0 auto; background:white; "
 "border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
 "Helvetica, sans-serif; border-collapse:collapse;\">\n"
@@ -276,13 +274,13 @@ msgstr ""
 "                               <t t-out=\"object.name or ''\"> Assembleia "
 "Geral</t>\n"
 "                            </p>\n"
-"                           <p style=\"margin:0 0 16px 0;\"> "
-"Atenciosamente.</p>\n"
+"                           <p style=\"margin:0 0 16px 0;\"> Atenciosamente.</"
+"p>\n"
 "                        </td>\n"
 "                   </tr>\n"
 "                    <tr data-o-mail-quote-container=\"1\"> \n"
-"                       <td style=\"padding:15px 20px 10px 20px;\" t-out="
-"\"object.user_id.signature or ''\" data-o-mail-quote=\"1\"> \n"
+"                       <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\"> \n"
 "                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
 "                       </td>\n"
 "                    </tr> \n"
@@ -302,23 +300,21 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">💡</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -331,33 +327,30 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\">✅</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
@@ -366,7 +359,6 @@ msgstr "<span class=\"fw-bold\">Endereço</span>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
-#, fuzzy
 msgid ""
 "<strong>\n"
 "\t\t\t\t\t\t\t\tGENERAL MEETING AGENDA\n"
@@ -378,7 +370,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
-#, fuzzy
 msgid ""
 "<strong>\n"
 "\t\t\t\t\t\t\t\tGENERAL MEETING REPORT\n"
@@ -405,7 +396,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Automate recurring tasks</strong>, like meter reading imports or "
 "expense allocation."
@@ -415,7 +405,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>CRM:</strong> Track and manage incoming leads and communications "
 "with potential new condominiums."
@@ -425,7 +414,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Calendar:</strong> Schedule and organize association meetings, "
 "collecting votes during general assemblies and share the report."
@@ -435,7 +423,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Condominium:</strong> Define buildings, properties, owner and tenant "
 "histories, meter readings and distribution keys."
@@ -445,7 +432,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Contacts:</strong> Manage contacts turning prospects into "
 "condominiums, as well as owners, tenants and suppliers."
@@ -455,7 +441,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Define a chart of accounts template for condominiums</strong> to "
 "save time setting up accounting aspects. Don't hesitate to contact us if "
@@ -472,17 +457,15 @@ msgstr "<strong>App Documentos: </strong>Solicite e compartilhe documentos."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then to create a new one for your own usage.</strong>"
 msgstr ""
-"<strong>Nessa situação, sinta-se à vontade para experimentar este banco de "
-"dados e, em seguida, criar um novo para seu próprio uso.</strong>"
+"<strong>Nessas situações, sinta-se à vontade para fazer experiências com "
+"essa base de dados e criar um novo para seu próprio uso.</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Keep contact data up-to-date</strong> to ensure seamless "
 "communication during meetings, billing and accounting."
@@ -497,8 +480,8 @@ msgid ""
 "your audience (owners, tenants, suppliers, condominiums...)."
 msgstr ""
 "<strong>Utilize marcadores e filtros</strong> em Contatos e CRM para "
-"segmentar seu público "
-"(proprietários, inquilinos, fornecedores, condomínios...)."
+"segmentar seu público (proprietários, inquilinos, fornecedores, "
+"condomínios...)."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
@@ -507,7 +490,6 @@ msgstr "<strong>Moções</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Sales:</strong> Send quotations, confirm orders, and invoice shared "
 "expenses to owners."
@@ -526,7 +508,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Use quotation templates</strong> in the Sales app to standardize "
 "quotes and reduce manual errors."
@@ -536,7 +517,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>VoIP Integration:</strong> Organize online meetings directly from "
 "Odoo with integrated call capabilities."
@@ -546,7 +526,6 @@ msgstr ""
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid ""
 "<strong>Website Builder:</strong> Build a professional website with lead "
 "capture forms and member areas."
@@ -638,6 +617,7 @@ msgid "Accounting opening/handover<br/>"
 msgstr "Abertura/entrega de contabilidade<br/>"
 
 #. module: condominium
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.properties_act_window_account
 #: model:ir.model.fields,field_description:condominium.field_property_account_ids
 #: model:ir.ui.menu,name:condominium.owners_properties_menu
@@ -744,17 +724,17 @@ msgstr "Amortização de ativos tangíveis"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_x_total
 msgid "Amount"
-msgstr ""
+msgstr "Total"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_x_analytic_line_id
 msgid "Analytic Line"
-msgstr ""
+msgstr "Linha Analítica"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
 msgid "Analytic item split"
-msgstr ""
+msgstr "Divisão analítica de itens"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_1
@@ -794,13 +774,13 @@ msgstr "Apartamento B1.2"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_16
 msgid "Approbation of accounting 2024"
-msgstr ""
+msgstr "Aprovação das contas de 2024"
 
 #. module: condominium
 #: model:ir.model.fields.selection,name:condominium.x_outcome_approved
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "Approved"
-msgstr ""
+msgstr "Aprovado"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_15_product_template
@@ -817,11 +797,13 @@ msgid ""
 "Approximately $80 per property per month, See Terms & Conditions for further "
 "information about the coverage of the Service Fees"
 msgstr ""
+"Aproximadamente US$ 80 por propriedade por mês. Consulte os Termos e "
+"Condições para obter mais informações sobre a cobertura das Taxas de Serviço."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Apps Overview"
-msgstr ""
+msgstr "Visão geral dos aplicativos"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_784_product_template
@@ -867,6 +849,18 @@ msgid ""
 "            conditions as well. Of course, the price of each service and the "
 "content of the Quotation Templates can be adapted accordingly."
 msgstr ""
+"Assim que um condomínio entrar em contato com você para obter um orçamento, "
+"envie rapidamente uma visão geral dos seus serviços e taxas criando Cotações "
+"no aplicativo de vendas <strong></strong> , onde você pode usar diretamente "
+"o modelo de cotação “Kick-Off Quote” (Cotação inicial).\n"
+"Isso preencherá automaticamente a cotação adicionando as taxas iniciais e "
+"também o preço de todos os serviços extras, como contribuição recorrente, "
+"taxa horária, etc. Não se esqueça de anexar os termos xml-ph-0002. Isso "
+"preencherá automaticamente a cotação, adicionando as taxas iniciais e também "
+"o preço de todos os serviços extras, como a contribuição recorrente, a taxa "
+"horária, etc. Não se esqueça de anexar os termos e condições &amp;.\n"
+" É claro que o preço de cada serviço e o conteúdo dos modelos de cotação "
+"podem ser adaptados de acordo com a necessidade."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -874,6 +868,8 @@ msgid ""
 "Assign the appropriate distribution key and if relevant the distribution "
 "period.."
 msgstr ""
+"Atribua a chave de distribuição apropriada e, se relevante, o período de "
+"distribuição."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -881,6 +877,8 @@ msgid ""
 "At the end of the meeting, you can preview the meeting report and send it to "
 "the owners."
 msgstr ""
+"No final da reunião, você pode visualizar o relatório da reunião e enviá-lo "
+"aos proprietários."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image
@@ -890,33 +888,33 @@ msgstr "Anexo"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image_name
 msgid "Attachment name "
-msgstr ""
+msgstr "Nome do anexo"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_motion_vote_attendee_id
 msgid "Attendee"
-msgstr ""
+msgstr "Participante"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_motion_attendee_vote_ids
 msgid "Attendee Votes"
-msgstr ""
+msgstr "Votos dos participantes"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_attendee_is_attending
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "Attending"
-msgstr ""
+msgstr "Participação"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_owners
 msgid "Attending and Delegating Owners"
-msgstr ""
+msgstr "Proprietários presentes e delegados"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_ratio
 msgid "Attending and Delegating Ratio"
-msgstr ""
+msgstr "Índice de participação e delegação"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -937,7 +935,7 @@ msgstr "Taxas bancárias e encargos de dívida"
 #: model:ir.model.fields,field_description:condominium.base_on_account_move_field
 #: model:ir.model.fields,field_description:condominium.field_distribution_key_base_on
 msgid "Based on"
-msgstr ""
+msgstr "Baseado em"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_5
@@ -965,6 +963,8 @@ msgid ""
 "Be aware that additional users lead to additional Odoo subscription costs. "
 "We therefore recommend you :"
 msgstr ""
+"Esteja ciente de que usuários adicionais acarretam custos adicionais de "
+"assinatura do Odoo. Portanto, recomendamos que você:"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_710_product_template
@@ -984,7 +984,7 @@ msgstr "Reserve os números certos 🧮"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_66
 msgid "Budget approbation for 2025"
-msgstr ""
+msgstr "Aprovação do orçamento para 2025"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_building
@@ -1032,7 +1032,7 @@ msgstr "Distribuição de cabos"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.calendar_event_line_event
 msgid "Calendar Event"
-msgstr ""
+msgstr "Evento no calendário"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.calendar_event_line_vote
@@ -1047,7 +1047,7 @@ msgstr "Solicitação de fundos de trabalho e de reserva"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_664_product_template
@@ -1062,7 +1062,7 @@ msgstr "Contratos de manutenção de carpintaria"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_50
 msgid "Chairman of the session"
-msgstr ""
+msgstr "Presidente da sessão"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1312,6 +1312,26 @@ msgstr ""
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_update_property_current_owner
 msgid "Condominium: Update Property Current Owner"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_owner_dates
+msgid "Condominium: Validate Owner Dates"
+msgstr ""
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_tenant_dates
+msgid "Condominium: Validate Tenant Dates"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_owner_dates
+msgid "Condominium: Validate owner dates"
+msgstr ""
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_tenant_dates
+msgid "Condominium: Validate tenant dates"
 msgstr ""
 
 #. module: condominium
@@ -2288,6 +2308,7 @@ msgstr ""
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
 #: model:ir.model.fields,field_description:condominium.name_properties_tags
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_list_view
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Name"
 msgstr "Nome"
@@ -2643,7 +2664,6 @@ msgid "Product Category"
 msgstr ""
 
 #. module: condominium
-#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.condominium_property_count_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.owner_properties_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.property_actions_window
@@ -2897,8 +2917,6 @@ msgstr ""
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
 #: model:ir.model.fields,field_description:condominium.field_property_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_field_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_buildings
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence_field

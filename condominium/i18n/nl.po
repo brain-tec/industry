@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 22:03+0000\n"
-"PO-Revision-Date: 2026-01-20 14:59+0000\n"
+"POT-Creation-Date: 2026-02-11 14:31+0000\n"
+"PO-Revision-Date: 2026-02-13 14:47+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-1/"
 "condominium/nl/>\n"
@@ -28,18 +28,18 @@ msgstr ""
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "% of the owner ratios"
-msgstr ""
+msgstr "% van de eigenaarratio's"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
 msgid "% of the owner ratios;"
-msgstr ""
+msgstr "% van de eigenaarratio's;"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid ", representing"
-msgstr ""
+msgstr ", vertegenwoordigt"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -61,9 +61,9 @@ msgid ""
 "condominium, ensuring balanced books and\n"
 "                transparent financial reporting."
 msgstr ""
-"<b>Boekhouding-app</b>: Beheer de volledige boekhoudcyclus voor elk "
-"appartementencomplex en zorg voor een evenwichtige boekhouding en "
-"transparante financiële rapportage."
+"<b>Boekhouding-app</b>: Beheer de volledige boekhoudcyclus voor elk mede-"
+"eigendom en zorg voor een evenwichtige boekhouding en transparante "
+"financiële rapportage."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -119,9 +119,9 @@ msgid ""
 "                accounting records, while managing them from a single "
 "interface."
 msgstr ""
-"<b>Meerdere bedrijven</b>: Configureer elk condominium als een afzonderlijke "
-"entiteit om een strikte scheiding van fondsen en gegevens over de "
-"boekhouding te garanderen, terwijl je ze vanuit één interface beheert."
+"<b>Meerdere bedrijven</b>: Configureer elk mede-eigendom als een "
+"afzonderlijke entiteit om een strikte scheiding van fondsen en gegevens over "
+"de boekhouding te garanderen, terwijl je ze vanuit één interface beheert."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -139,8 +139,8 @@ msgid ""
 "and manage\n"
 "                <b>fund raising</b> campaigns for major works."
 msgstr ""
-"<b>Verkoop-app</b>: Factureer de condominiumverenigingen voor je "
-"beheerskosten en beheer <b>fondsenwerving</b>-campagnes voor grote "
+"<b>Verkoop-app</b>: Factureer de verenigingen van mede-eigenaars voor je "
+"beheerskosten en beheer <b>fondsenwervingcampagnes</b> voor grote "
 "werkzaamheden."
 
 #. module: condominium
@@ -149,7 +149,7 @@ msgid ""
 "<b>Subscription App</b>: Automate the collection of recurring common charges "
 "and monthly fees from owners."
 msgstr ""
-"<b>Abonnementen-app-</b>: Automatiseer het innen van terugkerende "
+"<b>Abonnementen-app</b>: Automatiseer het innen van terugkerende "
 "gemeenschappelijke kosten en maandelijkse vergoedingen van eigenaren."
 
 #. module: condominium
@@ -196,6 +196,35 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hallo,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                In de bijlage kun je de agenda vinden voor "
+"de komende vergadering\n"
+"                                <t t-out=\"object.name or ''\">Algemene "
+"vergadering</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">Met vriendelijke "
+"groet,</p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
 
 #. module: condominium
 #: model:mail.template,body_html:condominium.mail_template_3
@@ -230,6 +259,35 @@ msgid ""
 "        </div>\n"
 "            "
 msgstr ""
+"<div style=\"background:#F0F0F0; color:#515166; padding:10px 0; font-"
+"family:Arial, Helvetica, sans-serif; font-size:14px;\">\n"
+"            <table style=\"width:600px; margin:0 auto; background:white; "
+"border:1px solid #e1e1e1; color:#515166; font-size:14px; font-family:Arial, "
+"Helvetica, sans-serif; border-collapse:collapse;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\">\n"
+"                            <p style=\"margin:0 0 16px 0;\">Hallo,</p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">\n"
+"                                In de bijlage kun je het verslag vinden van "
+"de vergadering:\n"
+"                                <t t-out=\"object.name or ''\">Algemene "
+"vergadering</t>\n"
+"                            </p>\n"
+"                            <p style=\"margin:0 0 16px 0;\">Met vriendelijke "
+"groet,</p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                    <tr data-o-mail-quote-container=\"1\">\n"
+"                        <td style=\"padding:15px 20px 10px 20px;\" t-"
+"out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">\n"
+"                            --<br data-o-mail-quote=\"1\"/>Mitchell Admin\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </div>\n"
+"            "
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -237,6 +295,8 @@ msgid ""
 "<font style=\"background-color: rgba(156, 156, 148, 0.6);\"> Note: this tour "
 "will create undeletable data inside your database.</font>"
 msgstr ""
+"<font style=\"background-color: rgba(156, 156, 148, 0.6);\"> Opmerking: deze "
+"tour zal onwisbare gegevens in je database aanmaken.</font>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -244,6 +304,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Infobanner\">💡</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -251,6 +313,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Successbanner\">✅</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -267,6 +331,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Infobanner\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -274,6 +340,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">🚀</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Infobanner\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">🚀</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -281,6 +349,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Succesbanner\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">✅</i>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
@@ -294,6 +364,9 @@ msgid ""
 "\t\t\t\t\t\t\t\tGENERAL MEETING AGENDA\n"
 "\t\t\t\t\t\t\t</strong>"
 msgstr ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\tAGENDA ALGEMENE VERGADERING\n"
+"\t\t\t\t\t\t\t</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
@@ -302,6 +375,9 @@ msgid ""
 "\t\t\t\t\t\t\t\tGENERAL MEETING REPORT\n"
 "\t\t\t\t\t\t\t</strong>"
 msgstr ""
+"<strong>\n"
+"\t\t\t\t\t\t\t\tVERSLAG ALGEMENE VERGADERING\n"
+"\t\t\t\t\t\t\t</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -314,6 +390,8 @@ msgid ""
 "<strong>Accounting:</strong> Manage shared expenses, distribute costs by "
 "owner, and maintain owner-specific balance sheets."
 msgstr ""
+"<strong>Boekhouding:</strong> Beheer gedeelde kosten, verdeel kosten onder "
+"eigenaars en houd eigenaarspecifieke balansen bij."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -321,6 +399,8 @@ msgid ""
 "<strong>Automate recurring tasks</strong>, like meter reading imports or "
 "expense allocation."
 msgstr ""
+"<strong>Automatiseer terugkerende taken</strong>, zoals het importeren van "
+"meterstanden of het toewijzen van uitgaven."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -328,6 +408,8 @@ msgid ""
 "<strong>CRM:</strong> Track and manage incoming leads and communications "
 "with potential new condominiums."
 msgstr ""
+"<strong>CRM:</strong> Volg en beheer binnenkomende leads en communicatie met "
+"potentiële nieuwe mede-eigendommen."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -335,6 +417,8 @@ msgid ""
 "<strong>Calendar:</strong> Schedule and organize association meetings, "
 "collecting votes during general assemblies and share the report."
 msgstr ""
+"<strong>Agenda:</strong> Plan en organiseer verenigingsvergaderingen, "
+"verzamel stemmen tijdens algemene vergaderingen en deel het verslag."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -342,6 +426,8 @@ msgid ""
 "<strong>Condominium:</strong> Define buildings, properties, owner and tenant "
 "histories, meter readings and distribution keys."
 msgstr ""
+"<strong>Mede-eigendom:</strong> Definieer gebouwen, eigendommen, "
+"geschiedenis van eigenaren en huurders, meterstanden en verdeelsleutels."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -349,6 +435,8 @@ msgid ""
 "<strong>Contacts:</strong> Manage contacts turning prospects into "
 "condominiums, as well as owners, tenants and suppliers."
 msgstr ""
+"<strong>Contacten:</strong> Beheer contacten door prospects om te zetten in "
+"mede-eigendommen, evenals eigenaren, huurders en leveranciers."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -357,11 +445,14 @@ msgid ""
 "save time setting up accounting aspects. Don't hesitate to contact us if "
 "needed!"
 msgstr ""
+"<strong>Definieer een grootboekschema-sjabloon voor mede-eigendommen</"
+"strong> om tijd te besparen bij het opzetten van boekhoudaspecten. Aarzel "
+"niet om contact met ons op te nemen indien nodig!"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "<strong>Documents App: </strong>Request and share documents."
-msgstr ""
+msgstr "<strong>Documenten-app: </strong>Vraag documenten aan en deel ze."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -369,6 +460,8 @@ msgid ""
 "<strong>In such situation, feel free to experiment with this database and "
 "then to create a new one for your own usage.</strong>"
 msgstr ""
+"<strong>In zo’n situatie kun je gerust experimenteren met deze database en "
+"daarna een nieuwe aanmaken voor je eigen gebruik.</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -376,6 +469,8 @@ msgid ""
 "<strong>Keep contact data up-to-date</strong> to ensure seamless "
 "communication during meetings, billing and accounting."
 msgstr ""
+"<strong>Houd contactgegevens up-to-date</strong> voor een feilloze "
+"communicatie tijdens vergaderingen, facturatie en boekhouding."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -383,11 +478,14 @@ msgid ""
 "<strong>Leverage tags and filters</strong> in Contacts and CRM to segment "
 "your audience (owners, tenants, suppliers, condominiums...)."
 msgstr ""
+"<strong>Maak gebruik van labels en filters</strong> in Contacten en CRM om "
+"je publiek te segmenteren "
+"(eigenaren, huurders, leveranciers, mede-eigendommen...)."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "<strong>Motions</strong>"
-msgstr ""
+msgstr "<strong>Agendapunten</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -395,6 +493,8 @@ msgid ""
 "<strong>Sales:</strong> Send quotations, confirm orders, and invoice shared "
 "expenses to owners."
 msgstr ""
+"<strong>Verkoop:</strong> Stuur offertes, bevestig bestellingen en stuur "
+"facturen voor gedeelde kosten aan eigenaren."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -402,6 +502,8 @@ msgid ""
 "<strong>Sign</strong> <strong>App: </strong>Send digital property "
 "reservation contracts."
 msgstr ""
+"<strong>Ondertekenen-app: </strong>Verstuur digitale reserveringscontracten "
+"voor eigendommen."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -409,6 +511,8 @@ msgid ""
 "<strong>Use quotation templates</strong> in the Sales app to standardize "
 "quotes and reduce manual errors."
 msgstr ""
+"<strong>Gebruik offertesjablonen</strong> in de Verkoop-app om offertes te "
+"standaardiseren en handmatige fouten te verminderen."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -416,6 +520,9 @@ msgid ""
 "<strong>VoIP Integration:</strong> Organize online meetings directly from "
 "Odoo with integrated call capabilities."
 msgstr ""
+"<strong>VoIP-integratie:</strong> Organiseer online vergaderingen "
+"rechtstreeks vanuit Odoo met geïntegreerde mogelijkheden voor "
+"telefoongesprekken."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -423,11 +530,13 @@ msgid ""
 "<strong>Website Builder:</strong> Build a professional website with lead "
 "capture forms and member areas."
 msgstr ""
+"<strong>Websitebouwer:</strong> Bouw een professionele website met "
+"formulieren om leads te verzamelen en ledenportalen."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "<strong>and delegating</strong>"
-msgstr ""
+msgstr "<strong>en delegeert</strong>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -436,7 +545,7 @@ msgid ""
 "are collected in two bank accounts that can be directly integrated with the "
 "bank:"
 msgstr ""
-"Een condominium werkt als een bedrijf. Het krijgt inkomsten van de "
+"Een mede-eigendom werkt als een bedrijf. Het krijgt inkomsten van de "
 "eigenaren. Deze worden verzameld op twee bankrekeningen die direct kunnen "
 "worden geïntegreerd met de bank:"
 
@@ -447,6 +556,9 @@ msgid ""
 "                    Defining a distribution key is efficient by populating "
 "defined properties in a click."
 msgstr ""
+"Een verdeelsleutel is nodig voor verschillende acties.<br/>\n"
+"Het definiëren van een verdeelsleutel is efficiënt. Met één klik worden de "
+"gedefinieerde eigendommen ingevuld."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -454,50 +566,50 @@ msgid ""
 "A name to identify the property, for example the post box or the "
 "identification code."
 msgstr ""
-"Een naam om het object te identificeren, bijvoorbeeld de postbus of de "
-"identificatiecode."
+"Een naam om het eigendom te kunnen identificeren, bijvoorbeeld de postbus of "
+"de identificatiecode."
 
 #. module: condominium
 #: model:x_vote_criteria,x_name:condominium.x_vote_criteria_1
 msgid "Absolute Majority"
-msgstr ""
+msgstr "Absolute meerderheid"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_motion_total_abstention
 #: model:ir.model.fields.selection,name:condominium.x_vote_abstention
 msgid "Abstention"
-msgstr ""
+msgstr "Onthouding"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "Abstention:"
-msgstr ""
+msgstr "Onthouding:"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_new_decimal_vote_criteria
 msgid "Acceptation threshold"
-msgstr ""
+msgstr "Acceptatiegrenswaarde"
 
 #. module: condominium
 #: model:x_distribution_key,x_name:condominium.x_distribution_key_7
 msgid "Accesses"
-msgstr ""
+msgstr "Toegang"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_line_account
 #: model:ir.model.fields,field_description:condominium.field_x_analytic_account_id
 msgid "Account"
-msgstr ""
+msgstr "Rekening"
 
 #. module: condominium
 #: model:ir.model,name:condominium.model_x_account_analytic_split_line
 msgid "Account Analytic Line Split"
-msgstr ""
+msgstr "Boekhouding splitsing analytische boeking"
 
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_36
 msgid "Accounting 2024 approval"
-msgstr ""
+msgstr "Goedkeuring boekhouding 2024"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -505,21 +617,22 @@ msgid "Accounting opening/handover<br/>"
 msgstr "Opening/overdracht boekhouding<br/>"
 
 #. module: condominium
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.properties_act_window_account
 #: model:ir.model.fields,field_description:condominium.field_property_account_ids
 #: model:ir.ui.menu,name:condominium.owners_properties_menu
 msgid "Accounts"
-msgstr ""
+msgstr "Rekeningen"
 
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_65
 msgid "Accounts approbation for 2024"
-msgstr ""
+msgstr "Goedkeuring jaarafsluit 2024"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Acquire a new company"
-msgstr ""
+msgstr "Een nieuw bedrijf toevoegen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -550,19 +663,19 @@ msgid ""
 "Again, feel free to edit and/or create new tasks to never forget a step "
 "during the kick-off process."
 msgstr ""
-"Nogmaals, voel je vrij om taken aan te passen en/of nieuwe taken aan te "
-"maken om nooit een stap te vergeten tijdens het kick-off proces."
+"Ook hier kun je taken aanpassen en/of nieuwe taken aanmaken om geen enkele "
+"stap te vergeten tijdens het kick-off-proces."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_motion_total_against
 #: model:ir.model.fields.selection,name:condominium.x_vote_against
 msgid "Against"
-msgstr ""
+msgstr "Tegen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "Against:"
-msgstr ""
+msgstr "Tegen:"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_714_product_template
@@ -577,12 +690,12 @@ msgstr "Airconditioning en luchtbehandeling"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "All Against"
-msgstr ""
+msgstr "Allemaal tegen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "All In Favor"
-msgstr ""
+msgstr "Allemaal voor"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_7_product_template
@@ -590,6 +703,8 @@ msgid ""
 "All other extra services will be invoiced at the hourly rate, See Terms & "
 "Conditions for further information about the hourly rate"
 msgstr ""
+"Alle andere extra diensten worden gefactureerd tegen het uurtarief. Zie de "
+"Algemene voorwaarden voor meer informatie over het uurtarief"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_698_product_template
@@ -609,17 +724,17 @@ msgstr "Afschrijving op materiële vaste activa"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_x_total
 msgid "Amount"
-msgstr ""
+msgstr "Bedrag"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_x_analytic_line_id
 msgid "Analytic Line"
-msgstr ""
+msgstr "Analytische boeking"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
 msgid "Analytic item split"
-msgstr ""
+msgstr "Splitsing analytische boekingen"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_1
@@ -659,13 +774,13 @@ msgstr "Appartement B1.2"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_16
 msgid "Approbation of accounting 2024"
-msgstr ""
+msgstr "Goedkeuring boekhouding 2024"
 
 #. module: condominium
 #: model:ir.model.fields.selection,name:condominium.x_outcome_approved
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "Approved"
-msgstr ""
+msgstr "Goedgekeurd"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_15_product_template
@@ -682,11 +797,13 @@ msgid ""
 "Approximately $80 per property per month, See Terms & Conditions for further "
 "information about the coverage of the Service Fees"
 msgstr ""
+"Ongeveer € 80 per eigendom per maand. Zie de algemene voorwaarden voor meer "
+"informatie over de dekking van de servicekosten."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Apps Overview"
-msgstr ""
+msgstr "Overzicht van apps"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_784_product_template
@@ -716,7 +833,7 @@ msgstr "Oppervlakte"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Artificial Intelligence"
-msgstr "Kunstmatige Intelligentie"
+msgstr "Artificiële Intelligentie"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -732,6 +849,14 @@ msgid ""
 "            conditions as well. Of course, the price of each service and the "
 "content of the Quotation Templates can be adapted accordingly."
 msgstr ""
+"Zodra een mede-eigendom contact met je opneemt voor een offerte, stuur je "
+"snel een overzicht van je diensten en tarieven door offertes aan te maken in "
+"de <strong>Verkoop-app</strong>, waar je gebruik kunt maken van het "
+"offertesjabloon \"Kick-off-offerte\". Dit sjabloon vult de offerte "
+"automatisch aan met de opstartkosten en de prijs van bijkomende diensten, "
+"zoals de terugkerende bijdrage, het uurtarief enzovoort. Vergeet niet om ook "
+"de algemene voorwaarden toe te voegen. Uiteraard kunt je zowel de prijzen "
+"als de inhoud van de offertesjablonen volledig aanpassen."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -739,6 +864,7 @@ msgid ""
 "Assign the appropriate distribution key and if relevant the distribution "
 "period.."
 msgstr ""
+"Wijs de juiste verdeelsleutel toe en, indien relevant, de verdeelperiode."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -746,6 +872,8 @@ msgid ""
 "At the end of the meeting, you can preview the meeting report and send it to "
 "the owners."
 msgstr ""
+"Aan het einde van de vergadering kun je een voorvertoning van het "
+"vergaderverslag bekijken en dit naar de eigenaren sturen."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image
@@ -755,33 +883,33 @@ msgstr "Bijlage"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.meter_image_name
 msgid "Attachment name "
-msgstr ""
+msgstr "Naam van de bijlage "
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_motion_vote_attendee_id
 msgid "Attendee"
-msgstr ""
+msgstr "Deelnemer"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_motion_attendee_vote_ids
 msgid "Attendee Votes"
-msgstr ""
+msgstr "Stemmen van deelnemers"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_attendee_is_attending
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "Attending"
-msgstr ""
+msgstr "Aanwezig"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_owners
 msgid "Attending and Delegating Owners"
-msgstr ""
+msgstr "Aanwezige en gedelegeerde eigenaren"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_event_attending_ratio
 msgid "Attending and Delegating Ratio"
-msgstr ""
+msgstr "Verhouding aanwezig-delegerend"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -802,7 +930,7 @@ msgstr "Bankkosten en schulden"
 #: model:ir.model.fields,field_description:condominium.base_on_account_move_field
 #: model:ir.model.fields,field_description:condominium.field_distribution_key_base_on
 msgid "Based on"
-msgstr ""
+msgstr "Gebaseerd op"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_5
@@ -830,6 +958,8 @@ msgid ""
 "Be aware that additional users lead to additional Odoo subscription costs. "
 "We therefore recommend you :"
 msgstr ""
+"Houd er rekening mee dat extra gebruikers extra Odoo-abonnementskosten met "
+"zich meebrengen. We raden daarom aan om:"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_710_product_template
@@ -844,12 +974,12 @@ msgstr "Onderhoudscontracten voor ketels"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Book the right numbers 🧮"
-msgstr "Boek de juiste nummers 🧮"
+msgstr "De juiste cijfers boeken 🧮"
 
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_66
 msgid "Budget approbation for 2025"
-msgstr ""
+msgstr "Goedkeuring budget voor 2025"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_building
@@ -897,12 +1027,13 @@ msgstr "Kabeldistributie"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.calendar_event_line_event
 msgid "Calendar Event"
-msgstr ""
+msgstr "Agenda-afspraak"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.calendar_event_line_vote
+#, fuzzy
 msgid "Calendar Event Line Vote"
-msgstr ""
+msgstr "Stem Agenda-afspraakregel"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -912,7 +1043,7 @@ msgstr "Oproep voor werk- en reservefondsen"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_664_product_template
@@ -927,7 +1058,7 @@ msgstr "Onderhoudscontracten voor timmerwerk"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_50
 msgid "Chairman of the session"
-msgstr ""
+msgstr "Voorzitter van de zitting"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -973,6 +1104,10 @@ msgid ""
 "they\n"
 "                own."
 msgstr ""
+"Klik op de knop \"Splitsen per eigendom\": hierdoor wordt de huidige offerte "
+"geannuleerd en worden er evenveel offertes aangemaakt als er eigenaren zijn "
+"in het mede-eigendom waarvoor de kosten worden gedeeld, met een regel per "
+"eigendom dat ze bezitten."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -985,12 +1120,12 @@ msgstr ""
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_condominium
 msgid "Closed"
-msgstr ""
+msgstr "Gesloten"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.co_owners_property_line_field
 msgid "Co-Owners"
-msgstr ""
+msgstr "Mede-eigenaren"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.color_buildings_tags
@@ -1026,12 +1161,12 @@ msgstr "Vergoeding voor leden van de interne raad en interne auditor"
 #: model:x_motion,x_name:condominium.x_motion_51
 #: model:x_motion,x_name:condominium.x_motion_62
 msgid "Comptes 2024"
-msgstr ""
+msgstr "Rekeningen 2024"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_compute_distribution_key_ratios
 msgid "Compute Distribution Key Ratios"
-msgstr ""
+msgstr "Verdeelsleutelverhoudingen berekenen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
@@ -1058,12 +1193,12 @@ msgstr "Conciërge onderhoud"
 #: model:ir.ui.menu,name:condominium.condo_menu
 #: model:ir.ui.menu,name:condominium.infra_condominium_menu
 msgid "Condominium"
-msgstr "Condominium"
+msgstr "Mede-eigendom"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_partner_condominium_x_property_count
 msgid "Condominium count"
-msgstr ""
+msgstr "Aantal mede-eigendommen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1071,123 +1206,143 @@ msgid ""
 "Condominium creation in Odoo (see <em>Quickly Set Up a Condominium 🚀 </"
 "em>section)"
 msgstr ""
-"Condominium aanmaken in Odoo (zie sectie <em>Snel een Condominium opzetten "
-"🚀 </em>)"
+"Mede-eigendom aanmaken in Odoo (zie sectie <em>Snel een mede-eigendom "
+"instellen 🚀 </em>)"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_archive_related_accounts
 msgid "Condominium: Archive related accounts"
-msgstr ""
+msgstr "Mede-eigendom: Gerelateerde rekeningen archiveren"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
 msgid "Condominium: Compute Meter Reading Consumption"
-msgstr ""
+msgstr "Mede-eigendom: Verbruik berekenen aan de hand van meterstand"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_create_task_from_motion
 msgid "Condominium: Create Task from Motion"
-msgstr ""
+msgstr "Mede-eigendom: Taak aanmaken vanuit agendapunt"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
 msgid "Condominium: Distribute Costs"
-msgstr ""
+msgstr "Mede-eigendom: Kosten verdelen"
 
 #. module: condominium
 #: model:mail.template,name:condominium.mail_template_2
 msgid "Condominium: General Meeting Agenda"
-msgstr ""
+msgstr "Mede-eigendom: Agenda algemene vergadering"
 
 #. module: condominium
 #: model:mail.template,name:condominium.mail_template_3
 msgid "Condominium: General Meeting Report"
-msgstr ""
+msgstr "Mede-eigendom: Verslag algemene vergadering"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_update_for_voters_line
 msgid "Condominium: On Attendee and delegating Edit"
-msgstr ""
+msgstr "Mede-eigendom: Bij bewerken van deelnemend en delegerend"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_call_distribute_costs_on_save
 msgid "Condominium: On Distribution input save"
-msgstr ""
+msgstr "Mede-eigendom: Bij opslaan van invoer voor verdeling"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_call_distribute_costs_on_update
 msgid "Condominium: On Distribution input update"
-msgstr ""
+msgstr "Mede-eigendom: Bij update van invoer voor verdeling"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_populate_voters
 msgid "Condominium: On Vote Edit"
-msgstr ""
+msgstr "Mede-eigendom:Bij bewerking van stemming"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_update_property_current_owner
 msgid "Condominium: On owners edit"
-msgstr ""
+msgstr "Mede-eigendom: Bij bewerking van eigenaren"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_archive_related_accounts
 msgid "Condominium: On property deletion"
-msgstr ""
+msgstr "Mede-eigendom: Bij verwijdering van een eigendom"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_populate_distribution_key
 msgid "Condominium: Populate Distribution Key"
-msgstr ""
+msgstr "Mede-eigendom: Verdeelsleutel invullen"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_populate_voters
 msgid "Condominium: Populate Voters"
-msgstr ""
+msgstr "Mede-eigendom: Stemmers invullen"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_send_general_meeting_agenda
 msgid "Condominium: Send General Meeting Agenda"
-msgstr ""
+msgstr "Mede-eigendom: Agenda algemene vergadering versturen"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_send_general_meeting_report
 msgid "Condominium: Send General Meeting Report"
-msgstr ""
+msgstr "Mede-eigendom: Verslag algemene vergadering versturen"
 
 #. module: condominium
 #: model:base.automation,name:condominium.automation_set_usage_meter_reading
 msgid "Condominium: Set Usage in Meter Readings"
-msgstr ""
+msgstr "Mede-eigendom: Gebruik instellen in meterstanden"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_set_votes_as_all_against
 msgid "Condominium: Set Votes as All Against"
-msgstr ""
+msgstr "Mede-eigendom: Stemmen instellen als allemaal tegen"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_set_votes_as_all_favor
 msgid "Condominium: Set Votes as All In Favor"
-msgstr ""
+msgstr "Mede-eigendom: Stemmen instellen als allemaal voor"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
 msgid "Condominium: Split SO per Owner"
-msgstr ""
+msgstr "Mede-eigendom: Gesplitste verkooporder per eigenaar"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_update_property_current_owner
 msgid "Condominium: Update Property Current Owner"
-msgstr ""
+msgstr "Mede-eigendom: Huidige eigenaar van eigendom bijwerken"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_owner_dates
+msgid "Condominium: Validate Owner Dates"
+msgstr "Mede-eigendom: Data eigenaar valideren"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_validate_property_tenant_dates
+msgid "Condominium: Validate Tenant Dates"
+msgstr "Mede-eigendom: Data huurder valideren"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_owner_dates
+msgid "Condominium: Validate owner dates"
+msgstr "Mede-eigendom: Data eigenaar valideren"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_validate_property_tenant_dates
+msgid "Condominium: Validate tenant dates"
+msgstr "Mede-eigendom: Data huurder valideren"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_search_inherit
 msgid "Condominiums"
-msgstr "Condominiums"
+msgstr "Mede-eigendommen"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.ir_action_create_condominium
 msgid "Condomnium: Create Condominium"
-msgstr ""
+msgstr "Mede-eigendom: Mede-eigendom aanmaken"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.config_menu
@@ -1214,6 +1369,7 @@ msgstr "Gefeliciteerd! Je hebt je eerste verkoop gedaan."
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Connect your calendar to your Odoo database to never miss any meeting!"
 msgstr ""
+"Koppel je agenda aan je Odoo-database om geen enkele vergadering te missen!"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
@@ -1223,7 +1379,7 @@ msgstr "Contacten"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_39
 msgid "Contract renewal for 2025"
-msgstr ""
+msgstr "Contractverlenging voor 2025"
 
 #. module: condominium
 #: model:product.template,description_sale:condominium.product_product_4_product_template
@@ -1258,7 +1414,7 @@ msgstr "Contracten opstellen<br/>"
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.condominium_costs_menu
 msgid "Costs"
-msgstr ""
+msgstr "Kosten"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country
@@ -1269,12 +1425,12 @@ msgstr "Land"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Create Condominium"
-msgstr "Condominium maken"
+msgstr "Mede-eigendom maken"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.buildings_act_window
 msgid "Create and manage the buildings that compose this condominium<br>"
-msgstr "Maak en beheer de gebouwen waaruit dit condominium bestaat<br>"
+msgstr "Maak en beheer de gebouwen waaruit dit mede-eigendom bestaat<br>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1287,24 +1443,26 @@ msgid ""
 "Create the properties that compounds the buildings: apartment, studio, flat, "
 "penthouse, garage, etc."
 msgstr ""
-"Maak de panden aan waaruit de gebouwen bestaan: appartement, studio, flat, "
-"penthouse, garage, enzovoort."
+"Maak de eigendommen aan waaruit de gebouwen bestaan: appartement, studio, "
+"flat, penthouse, garage, enzovoort."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Create the relevant motions in advance to efficiently drive the meeting."
 msgstr ""
+"Maak vooraf de relevante agendapunten om de vergadering vlot te laten "
+"verlopen."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_current_owner_property
 msgid "Current Owner"
-msgstr ""
+msgstr "Huidige eigenaar"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_partner_current_owner_x_property_count
 msgid "Current Owner count"
-msgstr ""
+msgstr "Aantal huidige eigenaren"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_686_product_template
@@ -1339,8 +1497,9 @@ msgstr "Bepaal een terugkerend plan, maandelijks of jaarlijks."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_attendee_is_delegating
+#, fuzzy
 msgid "Delegating"
-msgstr ""
+msgstr "Delegeert"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.description_building
@@ -1356,13 +1515,12 @@ msgstr "Omschrijving"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_48
 msgid "Designation of the meeting president"
-msgstr ""
+msgstr "Benoeming van de voorzitter van de vergadering"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-#, fuzzy
 msgid "Discover how to setup and use the application by starting the"
-msgstr "Ontdek hoe je de applicatie kunt instellen en gebruiken door de"
+msgstr "Ontdek hoe je de applicatie kunt instellen en gebruiken met de"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
@@ -1372,13 +1530,13 @@ msgstr "Kosten verdelen"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Distributing costs"
-msgstr ""
+msgstr "Kosten verdelen"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.condominium_invoices_menu
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 msgid "Distribution"
-msgstr ""
+msgstr "Verdeling"
 
 #. module: condominium
 #: model:ir.model,name:condominium.model_x_distribution_key
@@ -1407,6 +1565,13 @@ msgid ""
 "captured if a meter\n"
 "                    reading is near the owner change date."
 msgstr ""
+"Voor verdeelsleutels op basis van meterstanden zijn de begin- en einddatum "
+"van de periode nodig.<br/>\n"
+"                    Bij de verdeling van de kosten wordt voor elk eigendom "
+"de meterstand die het dichtst bij de periode-einddatum ligt gebruikt om het "
+"verbruik over de periode te berekenen. Bij een verandering van eigenaar "
+"wordt het verbruik per eigenaar geregistreerd als de meterstand-opname dicht "
+"bij de datum van de verandering van eigenaar ligt."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1415,6 +1580,9 @@ msgid ""
 "to split costs, the recorded meter readings for the corresponding period "
 "will be used."
 msgstr ""
+"Verdeelsleutels op basis van meterstanden hebben uitsluitend betrekking op "
+"een specifieke meter. Bij het verdelen van kosten worden de geregistreerde "
+"meterstanden voor de betreffende periode gebruikt."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1425,6 +1593,11 @@ msgid ""
 "the\n"
 "                properties when relevant."
 msgstr ""
+"Verdeelsleutels op basis van aandelen kunnen worden ingevuld met alle "
+"privatieve eigendommen van het mede-eigendom, waarbij de verhoudingen "
+"automatisch worden berekend op basis van de oppervlakte van elk privatief "
+"eigendom. Je kunt deze verhoudingen nadien nog aanpassen indien nodig en, "
+"waar relevant, slechts een selectie van de privatieve delen opnemen."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1435,11 +1608,17 @@ msgid ""
 "                    With period inputs, the distribution is computed between "
 "owners over the corresponding period, in proportion to the ownership."
 msgstr ""
+"Verdeelsleutels op basis van aandelen maken rechtstreeks gebruik van de "
+"verhoudingen.<br/>\n"
+"                    Zonder periode-invoer wordt de verdeling tussen de "
+"huidige eigenaren afgehandeld.<br/>\n"
+"                    Met periode-invoer wordt de verdeling tussen eigenaren "
+"over de betreffende periode berekend, in verhouding tot het eigendomsaandeel."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "Wil je nog verder gaan?"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_799_product_template
@@ -1469,17 +1648,17 @@ msgstr "Elke eigenaar moet terugkerende kosten betalen:"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Each property is characterized by:"
-msgstr "Elke woning wordt gekenmerkt door:"
+msgstr "Elk eigendom wordt gekenmerkt door:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Easily convert the condominiums 🖋️"
-msgstr "Eenvoudig de condominiums ombouwen 🖋️"
+msgstr "Eenvoudig mede-eigendommen binnenhalen 🖋️"
 
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_64
 msgid "Election of the president"
-msgstr ""
+msgstr "Verkiezing van de voorzitter"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_707_product_template
@@ -1552,7 +1731,7 @@ msgstr "Werkgeversbijdragen voor sociale verzekeringen"
 #: model:ir.model.fields,field_description:condominium.field_property_line_end_date
 #: model:ir.model.fields,field_description:condominium.property_line_field_end_date
 msgid "End Date"
-msgstr ""
+msgstr "Einddatum"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1566,31 +1745,38 @@ msgid ""
 "in... \"Condominiums\" and set the condominium\n"
 "            field."
 msgstr ""
+"Elk jaar wordt er een algemene vergadering gepland om de jaarrekening te "
+"bespreken, belangrijke beslissingen te nemen, enzovoort. Dit evenement kan "
+"eenvoudig worden gepland in de Agenda-app door <font style=\"font-weight: "
+"bolder;\" class=\"text-o-color-1\">Vergaderingen</font> aan te maken. Om "
+"alle eigenaren van een mede-eigendom uit te nodigen, gebruik je de functie "
+"\"Meer zoeken\" bij \"Deelnemers\" en typ je de naam van het mede-eigendom "
+"in \"Mede-eigendommen\" en stel je het veld \"Mede-eigendom\" in."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Examples"
-msgstr ""
+msgstr "Voorbeelden"
 
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_47
 msgid "Exceptional work: Parking door replacement"
-msgstr ""
+msgstr "Uitzonderlijk werk: Vervanging van parkeerdeur"
 
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_46
 msgid "Exceptional work: Roof rework"
-msgstr ""
+msgstr "Uitzonderlijk werk: Dakrenovatie"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "Excused"
-msgstr ""
+msgstr "Verontschuldigd"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
 msgid "Expected attendees"
-msgstr ""
+msgstr "Verwachte deelnemers"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1599,6 +1785,9 @@ msgid ""
 "distribution of the corresponding invoice lines to the corresponding "
 "account, from the invoice form."
 msgstr ""
+"Uitgaven met betrekking tot één enkele eigenaar kunnen worden toegewezen "
+"door de analytische verdeling van de bijbehorende factuurregels in te "
+"stellen op de bijbehorende rekening, vanuit het factuurformulier."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_785_product_template
@@ -1611,6 +1800,8 @@ msgid ""
 "Explore <strong>automations</strong>, <strong>community portals</strong>, "
 "and <strong>custom dashboards</strong> tailored to your needs."
 msgstr ""
+"Ontdek <strong>automatiseringen</strong>, <strong>communityportalen</strong> "
+"en <strong>gepersonaliseerde dashboards</strong> op maat van jouw bedrijf."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_674_product_template
@@ -1640,12 +1831,12 @@ msgstr "Buitengewone werkkosten"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Fairly split the costs ⚖️"
-msgstr "Verdeel de kosten eerlijk ⚖️"
+msgstr "Kosten eerlijk verdelen ⚖️"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Final word"
-msgstr ""
+msgstr "Slotwoord"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1665,6 +1856,9 @@ msgid ""
 "ratio for each property that will be used for splitting the fees per owner "
 "and for distributing the costs:"
 msgstr ""
+"Ten slotte kun je ook de verdeelsleutels definiëren. Het doel is om voor elk "
+"eigendom een verhouding toe te wijzen die zal worden gebruikt om de kosten "
+"per eigenaar op te splitsen en uitgaven correct te verdelen:"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_677_product_template
@@ -1698,6 +1892,8 @@ msgid ""
 "For each motion, assign the relevant motion criteria, take notes while "
 "discussion goes on and record the owners votes."
 msgstr ""
+"Wijs aan elk agendapunt het relevante agendapunt-criterium toe, maak "
+"notities tijdens de discussie en registreer de stemmen van eigenaars."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1708,11 +1904,10 @@ msgid ""
 "must be the\n"
 "            condominium to be invoiced."
 msgstr ""
-"Om bijvoorbeeld de cotisaties te innen, moet het geselecteerde bedrijf het "
-"condominium zijn en de klant moet ook het condominium zijn. Als je je "
-"diensten wilt factureren, moet het geselecteerde bedrijf van jou zijn en de "
-"klant moet het condominium zijn dat gefactureerd moet worden\n"
-"            condominium zijn dat gefactureerd moet worden."
+"Om bijvoorbeeld bijdragen te innen, moet het geselecteerde bedrijf het mede-"
+"eigendom zijn en moet ook de klant het mede-eigendom zijn. Wil je eigen "
+"diensten factureren, dan moet je eigen onderneming geselecteerd zijn en is "
+"de klant het mede-eigendom dat gefactureerd wordt."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_748_product_template
@@ -1728,11 +1923,15 @@ msgid ""
 "company and the\n"
 "            different condominiums."
 msgstr ""
+"Maak vanuit de instellingen een nieuw bedrijf aan in <font style=\"font-"
+"weight: bolder;\" class=\"text-o-color-1\">Bedrijven</font>. Zodra je dit "
+"hebt gedaan, verschijnt het bedrijf rechtsboven in alle schermen, zodat je "
+"snel kunt schakelen tussen je bedrijf en de verschillende mede-eigendommen."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_749_product_template
 msgid "Front face of building maintenance"
-msgstr ""
+msgstr "Onderhoud voorgevel"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_780_product_template
@@ -1772,19 +1971,19 @@ msgstr "Gas voor conciërge"
 #. module: condominium
 #: model:ir.actions.report,name:condominium.calendar_event_general_meeting_agenda
 msgid "General Meeting Agenda"
-msgstr ""
+msgstr "Agenda algemene vergadering"
 
 #. module: condominium
 #: model:ir.actions.report,name:condominium.calendar_event_general_meeting_report
 #: model:mail.template,subject:condominium.mail_template_2
 #: model:mail.template,subject:condominium.mail_template_3
 msgid "General Meeting Report"
-msgstr ""
+msgstr "Verslag van de algemene vergadering"
 
 #. module: condominium
 #: model:ir.ui.menu,name:condominium.condominium_general_meeting_menu
 msgid "General Meetings"
-msgstr ""
+msgstr "Algemene vergaderingen"
 
 #. module: condominium
 #. odoo-javascript
@@ -1836,7 +2035,7 @@ msgstr "Helpdesk"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Here are the steps to follow:"
-msgstr ""
+msgstr "Dit zijn de stappen die je moet volgen:"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_7_product_template
@@ -1869,6 +2068,8 @@ msgid ""
 "If you want to easily discover every features of this package, try "
 "downloading the demo data."
 msgstr ""
+"Als je eenvoudig alle functies van dit pakket wilt ontdekken, download dan "
+"de demodata."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.image_buildings
@@ -1879,7 +2080,7 @@ msgstr "Afbeelding"
 #: model:ir.model.fields,field_description:condominium.field_motion_total_in_favor
 #: model:ir.model.fields.selection,name:condominium.x_vote_in_favor
 msgid "In Favor"
-msgstr ""
+msgstr "Voor"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1889,9 +2090,8 @@ msgid ""
 "just send them using your preferred way!"
 msgstr ""
 "In het geval van terugkerende kosten worden de facturen automatisch door "
-"Odoo gegenereerd op de juiste datum. Zo niet, dan kun je ze handmatig "
-"massaal posten. Verstuur ze dan gewoon op de manier die jij het prettigst "
-"vindt!"
+"Odoo gegenereerd op de juiste datum. Zo niet, dan kun je ze handmatig in één "
+"keer posten. Verstuur ze dan gewoon op de manier die jij het prettigst vindt!"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1901,7 +2101,7 @@ msgstr "In het geval van terugkerende kosten:"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "In favor:"
-msgstr ""
+msgstr "Voor:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1910,6 +2110,9 @@ msgid ""
 "to some owners. This is the case for example when some are given review "
 "duties."
 msgstr ""
+"In veel gevallen wordt aan sommige eigenaren directe toegang tot de "
+"boekhouding van het mede-eigendom verleend. Dit is bijvoorbeeld het geval "
+"wanneer sommigen controlerende taken krijgen toebedeeld."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1917,6 +2120,8 @@ msgid ""
 "In the <strong>Sales App</strong>, create a quotation and set the "
 "condominium as customer."
 msgstr ""
+"Maak in de <strong>Verkoop-app</strong> een offerte aan en stel het mede-"
+"eigendom in als klant."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -1929,13 +2134,12 @@ msgid ""
 "follow-up and the invoicing in case the time spent is not covered by the "
 "service fees."
 msgstr ""
-"In hun dagelijks leven kunnen eigenaren en huurders te maken krijgen met een "
-"aantal problemen. Om deze te verzamelen en te centraliseren, gebruik je de "
-"<strong><font class=\"text-o-color-1\">Helpdesk</font></strong> toepassing. "
-"Zo kan elk lid een e-mail sturen\n"
-"            die bij het juiste helpdeskteam terechtkomt. Dit vergemakkelijkt "
-"de follow-up en de facturering als de bestede tijd niet wordt gedekt door de "
-"servicekosten."
+"Eigenaren en huurders krijgen soms te maken krijgen met een aantal "
+"problemen. Om deze te verzamelen en te centraliseren, gebruik je de "
+"<strong><font class=\"text-o-color-1\">Helpdesk</font></strong>-app. Zo kan "
+"elk lid een e-mail sturen die bij het juiste helpdeskteam terechtkomt. Dit "
+"vergemakkelijkt de opvolging en de facturatie als de bestede tijd niet wordt "
+"gedekt door de servicekosten."
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.condominium_act_window
@@ -1966,7 +2170,7 @@ msgstr "Internet informatie communicatie"
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.distribution_action_window
 msgid "Invoices"
-msgstr ""
+msgstr "Facturen"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_is_a_property
@@ -1979,6 +2183,9 @@ msgid ""
 "Just be careful, once demo data are uploaded, it cannot be easily deleted. "
 "But you can restart a fresh database at"
 msgstr ""
+"Wees gewoon voorzichtig, want zodra de demodata zijn geüpload, kunnen ze "
+"niet gemakkelijk worden verwijderd. Maar je kunt altijd een nieuwe database "
+"starten via"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_4_product_template
@@ -2021,7 +2228,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_agenda_document
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_700_product_template
@@ -2031,7 +2238,7 @@ msgstr "Onderhoudscontracten"
 #. module: condominium
 #: model:x_vote_criteria,x_name:condominium.x_vote_criteria_3
 msgid "Majority of 2/3rd"
-msgstr ""
+msgstr "Tweederdemeerderheid"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2041,17 +2248,17 @@ msgstr "Zorg ervoor dat de toegevoegde producten terugkerend zijn."
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.employees_act_window
 msgid "Manage the employees working for this condominium<br>"
-msgstr "De werknemers managen die voor dit condominium werken<br>"
+msgstr "De werknemers managen die voor dit mede-eigendom werken<br>"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.owners_act_window
 msgid "Manage the owners of this condominium<br>"
-msgstr "Beheer de eigenaren van dit condominium<br>"
+msgstr "Beheer de eigenaren van dit mede-eigendom<br>"
 
 #. module: condominium
 #: model_terms:ir.actions.act_window,help:condominium.vendors_act_window
 msgid "Manage the vendors related to this condominium<br>"
-msgstr "Beheer de leveranciers van dit condominium<br>"
+msgstr "Beheer de leveranciers van dit mede-eigendom<br>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2064,6 +2271,14 @@ msgid ""
 "general meetings, tracking owner history, or handling complex expense "
 "distributions, Odoo provides the tools to stay efficient and transparent."
 msgstr ""
+"Het beheren van verenigingen van mede-eigenaars brengt meerdere "
+"stakeholders, terugkerende taken en uitgebreide administratie met zich mee. "
+"Odoo ondersteunt VME's door processen te stroomlijnen — van het opvolgen van "
+"nieuwe aanvragen tot het beheren van gemeenschappelijke kosten — via een "
+"volledig geïntegreerde applicatiesuite. Of je nu algemene vergaderingen "
+"organiseert, de historiek van eigenaren bijhoudt of complexe "
+"kostenverdelingen afhandelt, Odoo biedt de tools om efficiënt en transparant "
+"te werken."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_796_product_template
@@ -2079,7 +2294,7 @@ msgstr "Gebruik vergaderruimte"
 #: model:ir.actions.act_window,name:condominium.meeting_action_window
 #: model:ir.ui.menu,name:condominium.condominium_meetings_menu
 msgid "Meetings"
-msgstr ""
+msgstr "Vergaderingen"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_distribution_key_base_meter
@@ -2096,7 +2311,7 @@ msgstr "Meterstand"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_meter_reading_ids
 msgid "Meter Reading ids"
-msgstr ""
+msgstr "Meterstanden-ID's"
 
 #. module: condominium
 #: model:ir.model.fields.selection,name:condominium.x_based_on_meter_readings
@@ -2119,7 +2334,7 @@ msgstr "Meters"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Meters reading"
-msgstr "Meters aflezen"
+msgstr "Meterstanden opnemen"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_665_product_template
@@ -2131,7 +2346,7 @@ msgstr "Diverse kosten"
 #: model:ir.model.fields,field_description:condominium.description_calendar_motion
 #: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
 msgid "Motion"
-msgstr ""
+msgstr "Agendapunt"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.motion_criteria_action_window
@@ -2139,22 +2354,23 @@ msgstr ""
 #: model:ir.ui.menu,name:condominium.condominium_motion_criteria_menu
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "Motion Criteria"
-msgstr ""
+msgstr "Agendapunt-criterium"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "Motion..."
-msgstr ""
+msgstr "Agendapunt..."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_event_motions
 #: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
 msgid "Motions"
-msgstr ""
+msgstr "Agendapunten"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.name_buildings_tags
 #: model:ir.model.fields,field_description:condominium.name_properties_tags
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_list_view
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
 msgid "Name"
 msgstr "Naam"
@@ -2175,7 +2391,7 @@ msgstr "Naam…"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Never forget a task 📑"
-msgstr "Vergeet nooit een taak 📑"
+msgstr "Geen enkele taak vergeten 📑"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_682_product_template
@@ -2192,12 +2408,12 @@ msgstr "Notities"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Odoo offers additional possibilities to enhance your business:"
-msgstr ""
+msgstr "Odoo biedt extra mogelijkheden om je bedrijf te verbeteren:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Odoo.com/trial"
-msgstr ""
+msgstr "odoo.com/nl_NL/trial"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_5_product_template
@@ -2211,6 +2427,9 @@ msgid ""
 "owners. On the other hand, the service fees can be invoiced by \"My "
 "Condominium Management\" to the owners."
 msgstr ""
+"Enerzijds worden de betaalverzoeken door het mede-eigendom naar de eigenaren "
+"gestuurd. Anderzijds kunnen de servicekosten door \"Mijn mede-"
+"eigendomsbeheer\" aan de eigenaren worden gefactureerd."
 
 #. module: condominium
 #: model:sale.order.template.line,name:condominium.sale_order_template_line_7
@@ -2223,6 +2442,9 @@ msgid ""
 "Once done, it is time to create the composition of the condominium by "
 "selecting the right one on the top right of the screen."
 msgstr ""
+"Als je dat gedaan hebt, is het tijd om de samenstelling van het mede-"
+"eigendom te maken. Selecteer het juiste mede-eigendom rechtsboven in het "
+"scherm."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2231,6 +2453,9 @@ msgid ""
 "several tasks to properly start the collaboration. This is based on the Kick-"
 "Off Template project:"
 msgstr ""
+"Zodra de offerte is bevestigd, worden automatisch projecten aangemaakt met "
+"verschillende taken om de samenwerking goed van start te laten gaan. Dit is "
+"gebaseerd op het Kick-off sjabloon-project:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2239,8 +2464,8 @@ msgid ""
 "Basically, a<strong> </strong>condominium is like a company that is funded "
 "by the owners and that has to pay for operating costs."
 msgstr ""
-"Zodra de offerte is bevestigd, moet het condominium worden aangemaakt in "
-"Odoo. In principe is een<strong> </strong>condominium als een bedrijf dat "
+"Zodra de offerte is bevestigd, moet het mede-eigendom worden aangemaakt in "
+"Odoo. In principe is een <strong>mede-eigendom</strong> als een bedrijf dat "
 "wordt gefinancierd door de eigenaren en dat de bedrijfskosten moet betalen."
 
 #. module: condominium
@@ -2251,7 +2476,7 @@ msgstr "Eenmalige kosten"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.account_analytic_account_search_view_condominium
 msgid "Ongoing"
-msgstr ""
+msgstr "Lopend"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_view_company_partner
@@ -2264,6 +2489,8 @@ msgid ""
 "Open the <strong><font class=\"text-o-color-1\">Condominium</font></strong> "
 "App where you can:"
 msgstr ""
+"Open de app <strong><font class=\"text-o-color-1\">Mede-eigendom</font></"
+"strong>, waar je het volgende kunt doen:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2271,11 +2498,13 @@ msgid ""
 "Open the<strong> Condominium App</strong> and reach the Distributions from "
 "the Purchase menu."
 msgstr ""
+"Open de app <strong>Mede-eigendom</strong> en ga naar 'Verdeling' in het "
+"menu 'Inkoop'."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Organize and lead general meetings 📅"
-msgstr ""
+msgstr "Algemene vergaderingen organiseren en leiden 📅"
 
 #. module: condominium
 #: model:x_properties_types,x_name:condominium.x_properties_types_7
@@ -2300,7 +2529,7 @@ msgstr "Andere conciërge kosten"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_790_product_template
 msgid "Other condominium council expenses"
-msgstr "Overige kosten van de condominiumraad"
+msgstr "Overige kosten van de mede-eigendom-raad"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_709_product_template
@@ -2420,7 +2649,7 @@ msgstr "Andere waterkosten"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_motion_outcome
 msgid "Outcome"
-msgstr ""
+msgstr "Resultaat"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_line_owner
@@ -2433,12 +2662,12 @@ msgstr "Eigenaar"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.property_line_owner_field
 msgid "Owner ids"
-msgstr ""
+msgstr "Eigenaar-id's"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_analytic_owner_line
 msgid "Owner line"
-msgstr ""
+msgstr "Eigenaarsregel"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.owners_act_window
@@ -2476,28 +2705,30 @@ msgstr "Bedrijven van partners"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_account_move_period_end
 msgid "Period End"
-msgstr ""
+msgstr "Einde periode"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_account_move_period_start
 msgid "Period Start"
-msgstr ""
+msgstr "Begin periode"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "Plan Task"
-msgstr ""
+msgstr "Taak plannen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Plan your general meeting agenda with motions to vote in the Motions tab."
 msgstr ""
+"Plan de agenda van je algemene vergadering door te stemmen agendapunten toe "
+"te voegen in het tabblad Agendapunten."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_distribution_key_form_view
 msgid "Populate"
-msgstr ""
+msgstr "Invullen"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_666_product_template
@@ -2507,10 +2738,9 @@ msgstr "Privé-uitgaven"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.product_category_field
 msgid "Product Category"
-msgstr ""
+msgstr "Productcategorie"
 
 #. module: condominium
-#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
 #: model:ir.actions.act_window,name:condominium.condominium_property_count_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.owner_properties_contact_smart_button
 #: model:ir.actions.act_window,name:condominium.property_actions_window
@@ -2531,7 +2761,7 @@ msgstr "Tags voor panden"
 #: model:ir.model,name:condominium.model_properties_types
 #: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
 msgid "Properties Types"
-msgstr "Pandtypes"
+msgstr "Eigendomstypes"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2556,17 +2786,17 @@ msgstr "Woning"
 #. module: condominium
 #: model:ir.model,name:condominium.model_x_property_owner
 msgid "Property Owner"
-msgstr ""
+msgstr "Eigenaar van eigendom"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Property Owner Association"
-msgstr "Vereniging van Eigenaren"
+msgstr "Vereniging van mede-eigenaren"
 
 #. module: condominium
 #: model:ir.model,name:condominium.model_x_property_tenant
 msgid "Property Tenant"
-msgstr ""
+msgstr "Huurder van eigendom"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_807_product_template
@@ -2581,7 +2811,7 @@ msgstr "Eigendomsplan"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Provide access to the owners 🔑"
-msgstr ""
+msgstr "Toegang verlenen aan eigenaars 🔑"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2601,7 +2831,7 @@ msgstr "Aantal"
 #. module: condominium
 #: model:sale.subscription.plan,name:condominium.sale_subscription_plan_3
 msgid "Quarterly"
-msgstr ""
+msgstr "Per kwartaal"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_730_product_template
@@ -2623,7 +2853,7 @@ msgstr "Verhoudingen"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Contact"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2631,6 +2861,8 @@ msgid ""
 "Record invoices from from supplier from <strong>Accounting App</strong>, by "
 "assigning supplier and listing products."
 msgstr ""
+"Registreer facturen van leveranciers in <strong>Boekhouding-app</strong> "
+"door leveranciers toe te wijzen en producten op te lijsten."
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_764_product_template
@@ -2645,13 +2877,13 @@ msgstr "Herhalend kosten"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_15_product_template
 msgid "Recurring Service Fees"
-msgstr ""
+msgstr "Terugkerende servicekosten"
 
 #. module: condominium
 #: model:ir.model.fields.selection,name:condominium.x_outcome_rejected
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "Rejected"
-msgstr ""
+msgstr "Geweigerd"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_672_product_template
@@ -2661,12 +2893,12 @@ msgstr "Renovatiewerkzaamheden"
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_67
 msgid "Repair of the main door of wing A"
-msgstr ""
+msgstr "Reparatie van de hoofdingang van vleugel A"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Requesting funds"
-msgstr ""
+msgstr "Betaalverzoeken"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_14_product_template
@@ -2685,7 +2917,7 @@ msgstr ""
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "Reset Votes"
-msgstr ""
+msgstr "Stemmen resetten"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_662_product_template
@@ -2729,13 +2961,15 @@ msgid ""
 "See the information of the condominium and fill the vendors to build an "
 "address book."
 msgstr ""
-"Bekijk de informatie van het condominium en vul de verkopers in om een "
-"adresboek te maken."
+"De informatie van het cmede-eigendom bekijken en de verkopers invullen om "
+"een adresboek te maken."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Select the relevant distribution key to account for owner ratios."
 msgstr ""
+"Selecteer de relevante verdeelsleutel om rekening te houden met de aandelen "
+"van eigenaars."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -2743,27 +2977,29 @@ msgid ""
 "Select the right company from which the fees will be invoiced (see <em>Set "
 "up a condominium 🚀</em> section to see how to switch the company)."
 msgstr ""
+"Selecteer het juiste bedrijf waarvan de kosten worden gefactureerd (zie de "
+"sectie <em>Een mede-eigendom instellen 🚀</em> om te zien hoe je wisselt "
+"tussen bedrijven)."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
 msgid "Send Agenda"
-msgstr ""
+msgstr "Agenda verzenden"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
 msgid "Send Report"
-msgstr ""
+msgstr "Verslag verzenden"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Send the meeting agenda upfront to all expected attendees"
 msgstr ""
+"Stuur de agenda van de vergadering vooraf naar alle verwachte deelnemers"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meters_sequence
 #: model:ir.model.fields,field_description:condominium.field_property_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_field_sequence
-#: model:ir.model.fields,field_description:condominium.property_line_sequence_field
 #: model:ir.model.fields,field_description:condominium.sequence_buildings
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence
 #: model:ir.model.fields,field_description:condominium.sequence_calendar_sequence_field
@@ -2797,27 +3033,27 @@ msgstr "Stel de juiste verdeelsleutel in."
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Set up a condominium 🚀"
-msgstr ""
+msgstr "Een mede-eigendom opzetten 🚀"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_x_share
 msgid "Share"
-msgstr ""
+msgstr "Delen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.analytic_account_wizard_form
 msgid "Share (%)"
-msgstr ""
+msgstr "Aandeel (%)"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_x_share_total
 msgid "Share Total"
-msgstr ""
+msgstr "Totaalaandeel"
 
 #. module: condominium
 #: model:ir.model.fields.selection,name:condominium.x_based_on_shares
 msgid "Shares"
-msgstr ""
+msgstr "Aandelen"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_798_product_template
@@ -2844,18 +3080,18 @@ msgstr "Bron Aantal verkooporders"
 #: model:ir.actions.server,name:condominium.split_analytic_item_action
 #: model_terms:ir.ui.view,arch_db:condominium.view_account_analytic_line_form_inherit
 msgid "Split"
-msgstr ""
+msgstr "Splitsen"
 
 #. module: condominium
 #: model:ir.model,name:condominium.model_x_split_analytic_items_wizard
 #: model:ir.model.fields,field_description:condominium.field_x_split_analytic_items_id
 msgid "Split Analytic Items"
-msgstr ""
+msgstr "Analytische boekingen splitsen"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_line_ids
 msgid "Split Lines"
-msgstr ""
+msgstr "Regels splitsen"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
@@ -2867,7 +3103,7 @@ msgstr "Verdeling per eigenaar"
 #: model:ir.model.fields,field_description:condominium.field_property_line_start_date
 #: model:ir.model.fields,field_description:condominium.property_line_field_start_date
 msgid "Start Date"
-msgstr ""
+msgstr "Begindatum"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.country_state
@@ -2991,7 +3227,7 @@ msgstr "Belastingen en heffingen"
 #. module: condominium
 #: model:product.template,name:condominium.product_product_687_product_template
 msgid "Telephone - Internet - Concierge cell phone"
-msgstr ""
+msgstr "Telefoon - internet - mobiele telefoon conciërge"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.property_line_field_tenant
@@ -3001,18 +3237,18 @@ msgstr "Huurder"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_property_line_tenant
 msgid "Tenant ids"
-msgstr ""
+msgstr "Huurders-ID's"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_property_form_view
 msgid "Tenants"
-msgstr ""
+msgstr "Huurders"
 
 #. module: condominium
 #: model_terms:res.company,sign_terms:condominium.res_company_2
 #: model_terms:res.company,sign_terms_html:condominium.res_company_2
 msgid "Terms &amp; Conditions"
-msgstr ""
+msgstr "Algemene voorwaarden"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_750_product_template
@@ -3035,6 +3271,8 @@ msgid ""
 "The chart of account and relationships with products and product categories "
 "is not setup in this module."
 msgstr ""
+"Het grootboekschema en de relaties met producten en productcategorieën zijn "
+"niet ingesteld in deze module."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3042,11 +3280,13 @@ msgid ""
 "The cost distribution inputs are available on each invoice in the "
 "distribution tab."
 msgstr ""
+"De kostenverdelingsgegevens zijn beschikbaar op elke verkoopfactuur in het "
+"tabblad 'Verdeling'."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The floor."
-msgstr "De vloer."
+msgstr "De verdieping."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3054,27 +3294,31 @@ msgid ""
 "The following tour shows you how to create a new customer, from the sale "
 "order creation to the new company in your database"
 msgstr ""
+"De volgende tour toont hoe je een nieuwe klant aanmaakt, vanaf het aanmaken "
+"van de verkooporder tot het nieuwe bedrijf in je database"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "The meter readings history, leveraged to split bills based on consumption."
 msgstr ""
+"De geschiedenis van meterstanden, gebruikt om rekeningen op te splitsen op "
+"basis van verbruik."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "The motion is"
-msgstr ""
+msgstr "Het agendapunt is"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "The motion is not submitted to vote."
-msgstr ""
+msgstr "Het agendapunt wordt niet ter stemming voorgelegd."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The owner history."
-msgstr ""
+msgstr "De geschiedenis van eigenaars"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3082,8 +3326,8 @@ msgid ""
 "The parent property, for example to indicate that a garage is linked with an "
 "apartment."
 msgstr ""
-"De parent property, bijvoorbeeld om aan te geven dat een garage is gekoppeld "
-"aan een appartement."
+"Het bovenliggende eigendom, bijvoorbeeld om aan te geven dat een garage is "
+"gekoppeld aan een appartement."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3098,17 +3342,17 @@ msgstr ""
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The services provided by the condominium management company."
-msgstr "De diensten van het beheerbedrijf van het condominium."
+msgstr "De diensten van het beheerbedrijf van het mede-eigendom."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The tenant history if relevant."
-msgstr ""
+msgstr "De huurdersgeschiedenis, indien relevant."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "The type to easily classify it."
-msgstr "Het type om het gemakkelijk in te delen."
+msgstr "Het type, om het gemakkelijk te kunnen categoriseren."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3119,7 +3363,7 @@ msgid ""
 msgstr ""
 "Het werkfonds dat wordt gebruikt om de gemeenschappelijke kosten te betalen, "
 "zoals maandelijkse kosten (water, elektriciteit, gas, etc.), verzekeringen, "
-"onderhoud, reparaties, schoonmaken van gemeenschappelijke ruimten, etc."
+"onderhoud, reparaties, schoonmaak van gemeenschappelijke ruimten, enz."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3127,6 +3371,8 @@ msgid ""
 "Then, on a regular basis or at invoice confirmation, distribute the costs of "
 "each expenses:"
 msgstr ""
+"Verdeel vervolgens regelmatig of bij factuurbevestiging de kosten van alle "
+"uitgaven:"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3134,6 +3380,8 @@ msgid ""
 "These features can be added to your current subscription. Feel free to "
 "explore and expand your Odoo experience!"
 msgstr ""
+"Deze functies kunnen worden toegevoegd aan je huidige abonnement. Ontdek "
+"alle mogelijkheden en breid je Odoo-ervaring uit!"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3141,9 +3389,9 @@ msgid ""
 "These will be used to pay the <strong><font class=\"text-o-color-1\">Vendor "
 "Bills</font></strong> that can be uploaded and automatically filled thanks to"
 msgstr ""
-"Deze worden gebruikt om de <strong><font class=\"text-o-color-1\">Facturen</"
-"font></strong> die kunnen worden geüpload en automatisch worden ingevuld "
-"dankzij"
+"Deze worden gebruikt om de <strong><font class=\"text-o-"
+"color-1\">Leveranciersfacturen</font></strong> te betalen die kunnen worden "
+"geüpload en automatisch worden ingevuld met"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_12_product_template
@@ -3163,7 +3411,7 @@ msgstr "Dit is exclusief de kosten van de bodes, advocaten, experts, enz."
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "Tips for Success"
-msgstr ""
+msgstr "Tips voor succes"
 
 #. module: condominium
 #: model:project.task.type,name:condominium.project_task_type_17
@@ -3173,7 +3421,7 @@ msgstr "Te doen"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "To account for this additional cost in your pricing."
-msgstr ""
+msgstr "Deze extra kosten mee te nemen in je prijsstelling."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3182,6 +3430,9 @@ msgid ""
 "insurance fees, the distribution based on shares over a period is relevant "
 "to expense each owner in proportion of their ownership and share."
 msgstr ""
+"Bij kosten voor jaarlijkse diensten, zoals verzekeringspremies, is de "
+"verdeling op basis van aandelen over een bepaalde periode relevant om elke "
+"eigenaar te belasten in verhouding tot zijn eigendom en aandeel."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3189,6 +3440,8 @@ msgid ""
 "To distribute costs which only impact current owners, a distribution key "
 "based on shares without period inputs is required."
 msgstr ""
+"Om kosten te verdelen die alleen van invloed zijn op de huidige eigenaren, "
+"is een verdeelsleutel op basis van aandelen zonder periode-invoer vereist."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3196,6 +3449,8 @@ msgid ""
 "To maintain the number of users to the minimum needed, creating and deleting "
 "them when relevant."
 msgstr ""
+"Het aantal gebruikers tot het minimum te beperken, door ze aan te maken en "
+"te verwijderen wanneer dat nodig is."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3204,12 +3459,15 @@ msgid ""
 "rights to the level which suite your needs so that they can access in read "
 "only most likely."
 msgstr ""
+"Om deze toegang in te stellen, moet je gebruikers voor deze eigenaren "
+"aanmaken en de rechten beperken tot het gewenste niveau, meestal 'alleen-"
+"lezen'-toegang."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.x_total_field
 #: model_terms:ir.ui.view,arch_db:condominium.view_invoice_tree_inherit
 msgid "Total"
-msgstr ""
+msgstr "Totaal"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_673_product_template
@@ -3262,12 +3520,12 @@ msgstr "Voeg hier notities toe..."
 #. module: condominium
 #: model:x_vote_criteria,x_name:condominium.x_vote_criteria_2
 msgid "Unanimity"
-msgstr ""
+msgstr "Unanimiteit"
 
 #. module: condominium
 #: model:ir.actions.server,name:condominium.action_update_voter_line_for_motion
 msgid "Update Voter Lines Of Motion"
-msgstr ""
+msgstr "Agendapuntregels van kiezer bijwerken"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_meter_reading_usage
@@ -3278,6 +3536,8 @@ msgstr "Gebruik"
 #: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
 msgid "Used to distribute costs by meter; closest meter reading date used"
 msgstr ""
+"Gebruikt voor de verdeling van kosten per meter; de dichtstbijzijnde "
+"meteropnamedatum wordt gebruikt."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view_inherit
@@ -3307,7 +3567,7 @@ msgstr "Diverse werken"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.view_invoice_tree_inherit
 msgid "Vendor"
-msgstr ""
+msgstr "Leverancier"
 
 #. module: condominium
 #: model:ir.actions.act_window,name:condominium.vendors_act_window
@@ -3325,7 +3585,7 @@ msgstr "Verkopers Bedrijven"
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.vendor_condominium_ids
 msgid "Vendors Condominiums"
-msgstr "Verkopers Condominiums"
+msgstr "Leveranciers Mede-eigendommen"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_715_product_template
@@ -3335,7 +3595,7 @@ msgstr "Videobewaking"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.view_calendar_event_form_inherit
 msgid "View Report"
-msgstr ""
+msgstr "Verslag bekijken"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_680_product_template
@@ -3346,23 +3606,23 @@ msgstr "Vrijwilligersverzekering"
 #: model:ir.model,name:condominium.model_x_motion_vote
 #: model:ir.model.fields,field_description:condominium.field_motion_vote_vote
 msgid "Vote"
-msgstr ""
+msgstr "Stem"
 
 #. module: condominium
 #: model:ir.model,name:condominium.model_x_vote_criteria
 #: model_terms:ir.ui.view,arch_db:condominium.x_vote_criteria_form_view
 msgid "Vote Criteria"
-msgstr ""
+msgstr "Stemcriteria"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "Votes (need"
-msgstr ""
+msgstr "Stemmen (nodig:"
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.field_calendar_event_voting_key_id
 msgid "Voting key"
-msgstr ""
+msgstr "Stemmingssleutel"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_739_product_template
@@ -3373,7 +3633,7 @@ msgstr "Beheer van afvalreiniging en -verwerking"
 #: model:product.template,name:condominium.product_product_772_product_template
 #: model:x_distribution_key,x_name:condominium.x_distribution_key_8
 msgid "Water"
-msgstr ""
+msgstr "Water"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_719_product_template
@@ -3417,6 +3677,9 @@ msgid ""
 "based on your localization to generate the appropriate balance sheet and "
 "other needed accounting documents through Odoo."
 msgstr ""
+"Wij raden je accountants aan om op basis van je lokalisatie het juiste "
+"grootboekschema op te zetten, zodat je via Odoo de juiste balans en andere "
+"benodigde documenten voor de boekhouding kunt genereren."
 
 #. module: condominium
 #: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
@@ -3430,6 +3693,9 @@ msgid ""
 "prospect contact into a condominium with a click from the contact form, in "
 "the <strong>Contact App</strong>."
 msgstr ""
+"Wanneer de offerte voor een nieuw mede-eigendom wordt bevestigd, kun je de "
+"prospect met één klik omzetten naar een mede-eigendom via het "
+"contactformulier in de <strong>Contacten-app</strong>."
 
 #. module: condominium
 #: model:x_buildings,x_name:condominium.x_buildings_1
@@ -3452,7 +3718,7 @@ msgstr "Vleugel C"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.view_account_invoice_filter_inherit
 msgid "Without distribution"
-msgstr ""
+msgstr "Zonder verdeling"
 
 #. module: condominium
 #: model:product.template,name:condominium.product_product_679_product_template
@@ -3476,13 +3742,13 @@ msgstr ""
 #. module: condominium
 #: model:x_motion,x_name:condominium.x_motion_24
 msgid "Working fund call"
-msgstr ""
+msgstr "Oproep werkfonds"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
-msgstr ""
+msgstr "Wil je jouw Odoo-setup met ons bespreken of meer functies ontdekken?"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3490,11 +3756,13 @@ msgid ""
 "You can find all past meeting for a condominium from the Condominium App, by "
 "the Owners menu."
 msgstr ""
+"Je kunt alle eerdere vergaderingen voor een mede-eigendom vinden in de Mede-"
+"eigendom-aapp, onder het menu Eigenaars."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "You can still do it by upgrading your package in Apps."
-msgstr ""
+msgstr "Je kunt het nog steeds doen door je pakket in Apps te upgraden."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3503,12 +3771,15 @@ msgid ""
 "            In any case, you may have written records in journals which are "
 "not deletable and which might be an issue for your traceability."
 msgstr ""
+"Je hebt dit pakket misschien getest met of zonder demogegevens.<br/>In elk "
+"geval heb je misschien records in dagboeken gemaakt die niet verwijderbaar "
+"zijn en die een probleem kunnen vormen voor je traceerbaarheid."
 
 #. module: condominium
 #: model_terms:res.company,sign_terms:condominium.res_company_2
 #: model_terms:res.company,sign_terms_html:condominium.res_company_2
 msgid "Your conditions..."
-msgstr ""
+msgstr "Je voorwaarden..."
 
 #. module: condominium
 #: model:ir.model.fields,field_description:condominium.zip
@@ -3524,12 +3795,12 @@ msgstr ""
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.x_motion_form_view
 msgid "calendar_event_line"
-msgstr ""
+msgstr "calendar_event_line"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "of the owner ratios.<br/><br/>"
-msgstr ""
+msgstr "van de eigenaarverhoudingen.<br/><br/>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3540,17 +3811,17 @@ msgstr "of door de onderstaande stappen te volgen."
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "owners"
-msgstr ""
+msgstr "eigenaars"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.report_calendar_event_general_meeting_document
 msgid "were present and represented"
-msgstr ""
+msgstr "waren aanwezig en vertegenwoordigden"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Access Rights"
-msgstr ""
+msgstr "🎓 Toegangsrechten"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3560,7 +3831,7 @@ msgstr "🎓 Boekhouding"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Calendar"
-msgstr ""
+msgstr "🎓 Agenda"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3575,7 +3846,7 @@ msgstr "🎓 Helpdesk"
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Project"
-msgstr ""
+msgstr "🎓 Project"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body

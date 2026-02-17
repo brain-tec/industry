@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:27+0000\n"
-"PO-Revision-Date: 2026-01-16 17:17+0000\n"
+"PO-Revision-Date: 2026-02-10 12:17+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/accounting_firm/pt_BR/>\n"
@@ -655,6 +655,8 @@ msgid ""
 "Having access in record time to all activities and metrics from your "
 "customer databases is key."
 msgstr ""
+"Ter acesso em tempo recorde a todas as atividades e métricas dos bancos de "
+"dados dos seus clientes é fundamental."
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -720,6 +722,9 @@ msgid ""
 "additional required inputs, including API credentials provided by your "
 "customer."
 msgstr ""
+"Na aba Base de dados, defina a opção de hospedagem apropriada e preencha as "
+"informações adicionais necessárias, incluindo as credenciais da API "
+"fornecidas pelo seu cliente."
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1068,6 +1073,8 @@ msgid ""
 "Open the Databases App to have your customer database metrics at your finger "
 "tips!"
 msgstr ""
+"Abra o aplicativo Bases de Dados para ter as métricas da base de dados de "
+"clientes na ponta dos dedos!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1085,7 +1092,6 @@ msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-#, fuzzy
 msgid ""
 "Open the contact form of the company you have to handle this for, Second "
 "Company for example."
@@ -1115,7 +1121,7 @@ msgstr "Abra o projeto em que você trabalhou."
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Open your new customer project settings."
-msgstr ""
+msgstr "Abra as configurações do novo projeto do cliente."
 
 #. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_mandate_parent_id_field_x_mandate
@@ -1384,6 +1390,8 @@ msgid ""
 "The Databases App comes with capabilities to efficiently manage tasks, "
 "access rights and more!"
 msgstr ""
+"O aplicativo Bases de Dados vem com recursos para gerenciar tarefas, "
+"direitos de acesso e muito mais com eficiência!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1796,7 +1804,7 @@ msgstr "Como chegar a \"Ir\""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "📬 Follow up on your customer database"
-msgstr ""
+msgstr "📬 Acompanhe seu base de dados de clientes"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body

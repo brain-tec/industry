@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-21 05:44+0000\n"
-"PO-Revision-Date: 2026-02-07 20:20+0000\n"
+"PO-Revision-Date: 2026-02-14 20:20+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
 "odoo-s19-1/campsite/pt_BR/>\n"
@@ -698,7 +698,6 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
-#, fuzzy
 msgid ""
 "From the Roles sections, you can select the companies and branches this "
 "employee shall have access to as well as the default one."
@@ -730,7 +729,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "From there you can add new companies."
-msgstr ""
+msgstr "Ali, você pode adicionar novas empresas."
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_18
@@ -787,6 +786,10 @@ msgid ""
 "                    approvers can check each room and set their state to "
 "ready to close the tasks."
 msgstr ""
+"Se estiver usando a configuração de aprovação de limpeza, os aprovadores "
+"designados\n"
+"podem verificar cada quarto e definir seu status como pronto para encerrar "
+"as tarefas."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -808,11 +811,15 @@ msgid ""
 "customer list) and ask for the room they stay in<br/>Note: Their room is "
 "listed in the Guests tab of their order."
 msgstr ""
+"Se não tiver certeza de que os clientes têm reservas em andamento, antes de "
+"cobrar suas contas, abra os detalhes de contato deles no menu "
+"(na lista de clientes) e pergunte em qual quarto estão hospedados<br/"
+">Observação: o quarto deles está listado na guia “Hóspedes” do pedido."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "In any case, the resources are company and branch dependent."
-msgstr ""
+msgstr "De qualquer forma, os recursos dependem da empresa e da filial."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -841,6 +848,8 @@ msgid ""
 "It enables each place manager to adjust the stay offers with greater "
 "flexibility without impacting other places."
 msgstr ""
+"Isso permite que cada gerente de local ajuste as ofertas de estadia com "
+"maior flexibilidade, sem afetar outros locais."
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_7
@@ -893,7 +902,7 @@ msgstr "Gerencie seus clientes pelo <strong>app Contatos</strong>"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Managing your businesses"
-msgstr ""
+msgstr "Gerenciar seus negócios"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -918,6 +927,9 @@ msgid ""
 "employees to access only to some of them in case they always work in some of "
 "your places."
 msgstr ""
+"Agora que você tem várias empresas ou filiais, talvez queira que alguns de "
+"seus funcionários tenham acesso apenas a algumas delas, caso trabalhem "
+"sempre em alguns dos seus locais."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -943,6 +955,8 @@ msgid ""
 "On a daily basis, house keeping tasks are created depending\n"
 "                    the current stays."
 msgstr ""
+"Diariamente, as tarefas de limpeza são criadas dependendo\n"
+"das estadias atuais."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -961,6 +975,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "On top of guest and stay management, you need to keep the place clean!"
 msgstr ""
+"Além da gestão dos hóspedes e das estadias, você precisa manter o local "
+"limpo!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1028,11 +1044,15 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+#, fuzzy
 msgid ""
 "Open now, the Tasks from the accommodation app, House Keeping menu.<br/>This "
 "is\n"
 "                the daily list of house keeping tasks to be tackled."
 msgstr ""
+"Abra agora as Tarefas do aplicativo de acomodação, menu Serviço de Limpeza.<"
+"br/>Esta é\n"
+"                a lista diária de tarefas de limpeza a serem realizadas."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1053,6 +1073,8 @@ msgid ""
 "Open the <strong>Settings App</strong> and reach the users from the menu "
 "Users &amp; Companies."
 msgstr ""
+"Abra o aplicativo <strong>Definições</strong> e acesse os usuários no menu "
+"Usuários &amp; Empresas."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1068,6 +1090,9 @@ msgid ""
 "have an\n"
 "                overview of the cleanness state of your resources."
 msgstr ""
+"Abra o quadro no aplicativo de acomodações, no menu Serviço de Limpeza.<br/"
+">Aqui você tem uma\n"
+"                visão geral do estado de limpeza dos seus recursos."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body

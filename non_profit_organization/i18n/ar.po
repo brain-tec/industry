@@ -6,16 +6,16 @@
 # Malaz Abuidris <msea@odoo.com>, 2024
 # Wil Odoo, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 11:44+0000\n"
-"PO-Revision-Date: 2025-12-20 19:50+0000\n"
+"PO-Revision-Date: 2026-02-13 14:47+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
-"Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s19-1/"
 "non_profit_organization/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -247,6 +247,9 @@ msgid ""
 "updates and\n"
 "            thank-you messages to donors and petition signers."
 msgstr ""
+"8. <strong>حافظ على تفاعل المؤيدين</strong>: استخدم تطبيق التسويق عبر البريد "
+"الإلكتروني لإرسال التحديثات و\n"
+"            رسائل الشكر إلى المتبرعين والموقعين على العريضة."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -338,6 +341,15 @@ msgid ""
 "out=\"object.company_id.email\"/> | <t t-out=\"object.company_id.phone\"/></"
 "div>\n"
 msgstr ""
+"<div data-oe-version=\"2.0\">عزيزي <t t-out=\"object.partner_id.name\"/> "
+"،</div><br/><div> شكراً لدعمك المستمر لـ <t t-out="
+"\"object.invoice_date.year if object.invoice_date else ''\"/>.</div><br/"
+"><div> ستجد في المرفقات شهادتك المالية لهذا العام. </div><br/><div> إذا كان "
+"لديك أي أسئلة، لا تتردد في الاتصال بنا على <t t-out="
+"\"object.company_id.email\"/>.</div><br/><div> مع أطيب التحيات، </"
+"div><div>فريق <t t-out=\"object.company_id.name\"/> </div><div> <t t-out="
+"\"object.company_id.email\"/> | <t t-out=\"object.company_id.phone\"/></div>"
+"\n"
 
 #. module: non_profit_organization
 #: model:mail.template,body_html:non_profit_organization.mail_template_51
@@ -353,6 +365,14 @@ msgid ""
 "out=\"object.user_id.email\"/> | <t t-out=\"object.company_id.phone\"/></"
 "div>\n"
 msgstr ""
+"<div data-oe-version=\"2.0\">السيد/ة الموقرين،</div><div><br/></div> <div> "
+"ستجد في المرفقات ملف CSV يحتوي على جميع الشهادات المالية للسنة <t t-out="
+"\"object.invoice_date.year if object.invoice_date else ''\"/>.</div><br/"
+"><div> إذا كنتم بحاجة إلى أي معلومات إضافية، لا تترددوا في الاتصال بنا على "
+"<t t-out=\"object.company_id.email\"/>.</div><br/><div> مع أطيب التحيات، </"
+"div><div><t t-out=\"object.user_id.name\"/> </div> <div><t t-out="
+"\"object.company_id.name\"/> </div><div> <t t-out=\"object.user_id.email\"/> "
+"| <t t-out=\"object.company_id.phone\"/></div>\n"
 
 #. module: non_profit_organization
 #: model_terms:product.template,description_ecommerce:non_profit_organization.product_template_4
@@ -390,6 +410,11 @@ msgid ""
 "we’re louder, stronger,\n"
 "                                                and driving real change.</em>"
 msgstr ""
+"<em>لقد أصبح صوتك جزءاً حركة متنامية من أجل العدالة\n"
+"                                                وحقوق الإنسان. معًا، نحن أقوى "
+"وأكثر تأثيرًا،\n"
+"                                                وأكثر قدرة على إحداث تغيير "
+"حقيقي.</em>"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.contact_us_qweb_view
@@ -758,6 +783,11 @@ msgid ""
 "                                            change that lasts.</em>\n"
 "                                    </strong>"
 msgstr ""
+"<strong>\n"
+"                                        <em>نحن نعمل مع الناس، وليس لصالحهم، "
+"ونطمح إلى تحقيق تغيير محلي\n"
+"                                            ذو أثر دائم.</em>\n"
+"                                    </strong>"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -887,7 +917,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
 msgid "<strong>Local-first projects&amp;nbsp;<br/></strong>"
-msgstr ""
+msgstr "<strong>المشاريع المحلية أولاً &amp;nbsp;<br/></strong>"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -965,6 +995,8 @@ msgid ""
 "A beautifully designed A5 notebook with quotes from historical human rights "
 "defenders. Perfect for activists, students, and dreamers."
 msgstr ""
+"دفتر ملاحظات بحجم A5 بتصميم جميل يحتوي على اقتباسات من المدافعين عن حقوق "
+"الإنسان عبر التاريخ. مثالي للنشطاء والطلاب والحالمين."
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
@@ -978,6 +1010,8 @@ msgid ""
 "fairness. Written and illustrated by educators and activists. Ideal for ages "
 "6–10."
 msgstr ""
+"كتاب مصور مؤثر يعلم الأطفال المساواة واللطف والإنصاف. كتبه ورسمه معلمون "
+"وناشطون. مناسب للأطفال من سن 6 إلى 10 سنوات."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -1001,6 +1035,9 @@ msgid ""
 "artisans. Light a candle for justice and support our cause with every "
 "purchase. Profits fund human rights education."
 msgstr ""
+"مجموعة من 3 شموع مصنوعة يدويًا بالتعاون مع حرفيين محليين. أشعل شمعة من أجل "
+"العدالة وادعم قضيتنا مع كل عملية شراء. الأرباح تذهب لتمويل التثقيف في مجال "
+"حقوق الإنسان."
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_5
@@ -1113,6 +1150,14 @@ msgid ""
 "                                    mobilize with courage, and educate with "
 "heart."
 msgstr ""
+"بصفتك عضواً، فأنت الآن جزء من الشبكة التي تضم\n"
+"                                    أفراداً ملتزمين يؤمنون بالعدالة ليس كمجرد "
+"فكرة، بل كواقع\n"
+"                                    ملموس، سواءً كان ذلك في السياسة أو في "
+"المدارس أو حتى\n"
+"                                    الشوارع. عضويتك تساعدنا على الدفاع بقوة،"
+"\n"
+"                                    والتحرك بشجاعة، والتثقيف بقلب جريء."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
@@ -1123,6 +1168,10 @@ msgid ""
 "                                                    the future direction of "
 "our work."
 msgstr ""
+"بصفتك عضواً، يحق لك\n"
+"                                                    التصويت في جمعيتنا "
+"العامة والمساعدة في تشكيل\n"
+"                                                    الاتجاه المستقبلي لعملنا."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1434,6 +1483,8 @@ msgid ""
 "and\n"
 "                    embed petition forms directly on the website."
 msgstr ""
+"قم بإنشاء نموذج تبرع باستخدام قسم \"التبرع\" في محرر الموقع الإلكتروني، و\n"
+"قم بتضمين نماذج العريضة مباشرة على الموقع الإلكتروني."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1465,6 +1516,9 @@ msgid ""
 "                petition page and form using the <strong>Website Editor</"
 "strong>."
 msgstr ""
+"أنشئ عريضة جديدة في تطبيق <strong>العرائض</strong> ثم قم بتخصيص\n"
+"                صفحة العريضة والاستمارة باستخدام <strong>أداة تحرير المواقع "
+"الإلكترونية</strong>."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1484,6 +1538,8 @@ msgid ""
 "for\n"
 "                members or a Human Rights talk &amp; dinner."
 msgstr ""
+"قم بإنشاء الفعاليات للجمهور العام أو الخاص، مثل الجمعية العامة للأعضاء\n"
+"                أو محاضرة عن حقوق الإنسان أو أمسية عشاء وحوار."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -1543,6 +1599,9 @@ msgid ""
 "the <strong>Employee\n"
 "                    form</strong>, under the Settings tab."
 msgstr ""
+"حدد أدوار المتطوعين مثل ”منسق التواصل” أو ”مساعد الفعاليات” في "
+"<strong>استمارة الموظف\n"
+"                    </strong>، ضمن علامة التبويب الإعدادات."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.default_kanban_view_x_petition
@@ -1734,6 +1793,10 @@ msgid ""
 "participation\n"
 "            efficiently."
 msgstr ""
+"يساعدك تطبيق \"الفعاليات\" على تنظيم أنشطتك مثل المحاضرات العامة وحملات جمع "
+"التبرعات وأيام التطوع\n"
+"            أو الاجتماعات السنوية لإشراك الداعمين وتنظيم المشاركة\n"
+"            بكفاءة."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
@@ -1867,6 +1930,9 @@ msgid ""
 "donor\n"
 "                names, total donations amount, and transaction dates."
 msgstr ""
+"قم بتصدير قائمة الشهادات المالية كملف CSV للسلطات، بما في ذلك أسماء "
+"المتبرعين\n"
+"                ومجموع التبرعات وتواريخ المعاملات."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_checkout_extra_info
@@ -1948,6 +2014,8 @@ msgid ""
 "                relevant year and defining the minimum donation amount "
 "required for eligibility."
 msgstr ""
+"قم بإنشاء شهادات ضريبية في تطبيق <strong>التبرعات</strong> عن طريق تحديد\n"
+"السنة ذات الصلة وتحديد الحد الأدنى لمبلغ التبرع المطلوب للتأهل."
 
 #. module: non_profit_organization
 #: model:website.menu,name:non_profit_organization.website_menu_16
@@ -2013,7 +2081,7 @@ msgstr ""
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_2
 msgid "Grassroots activists"
-msgstr ""
+msgstr "النشطاء الشعبيون"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_footer_qweb_view
@@ -2164,6 +2232,8 @@ msgid ""
 "Join us for powerful talks, a shared meal, and rich conversations that spark "
 "ideas and action."
 msgstr ""
+"انضم إلينا في حوارات مؤثرة وحفل عشاء جماعي ومحادثات غنية تثير الأفكار وتحث "
+"على إحداث التغيير. "
 
 #. module: non_profit_organization
 #: model_terms:event.event,description:non_profit_organization.event_event_1
@@ -2275,6 +2345,10 @@ msgid ""
 "                    volunteers can select which ones they want to "
 "participate in."
 msgstr ""
+"أدر عملية تسجيل المتطوعين في الفعاليات مثل \"توزيع حزم استقبال اللاجئين\".\n"
+"                    أرسل قائمة بالأعمال المقررة كل شهر، وأنشئ الفعاليات حتى\n"
+"                    يتمكن المتطوعون من اختيار الفعاليات التي يرغبون في "
+"المشاركة فيها."
 
 #. module: non_profit_organization
 #: model:survey.question.answer,value:non_profit_organization.survey_question_answer_16
@@ -2381,6 +2455,8 @@ msgid ""
 "manage\n"
 "                    your entire business in it."
 msgstr ""
+"نظام أودو مدمج تماماً في تطبيق واحد. قم بتنزيله لتتمكن من إدارة \n"
+"                    كافة أعمالك من خلال هاتفك."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2406,6 +2482,8 @@ msgid ""
 "strong> app\n"
 "                with full donor and payment details."
 msgstr ""
+"بمجرد تقديم التبرع ودفعه، يظهر التبرع في تطبيق <strong>التبرعات</strong>\n"
+"                مع كافة التفاصيل المتعلقة بالمتبرع ومبالغ التبرعات. "
 
 #. module: non_profit_organization
 #: model:ir.actions.server,name:non_profit_organization.open_x_petition_website_page
@@ -2443,6 +2521,11 @@ msgid ""
 "social impact and\n"
 "                                            sustainability."
 msgstr ""
+"تشير مؤشراتنا الرئيسية، والتي تتراوح ما بين تفاعل المتطوعين\n"
+"                                            والتواصل مع المجتمع ومدى تأثير "
+"البرامج،\n"
+"                                            إلى التزامنا بالتأثير الاجتماعي\n"
+"                                            والاستدامة."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -2621,6 +2704,11 @@ msgid ""
 "                    <strong>Website &amp; eCommerce</strong>\n"
 "                </font>."
 msgstr ""
+"قم بالترويج للفعاليات، وإنشاء استمارات التبرع والعرائض، وبع البضائع عبر "
+"الإنترنت\n"
+"باستخدام تطبيقي<font class=\"text-o-color-1\">\n"
+"                    <strong>الموقع الإلكتروني والمجر الإلكتروني</strong>\n"
+"                </font>."
 
 #. module: non_profit_organization
 #: model:event.tag,name:non_profit_organization.event_tag_2
@@ -2665,6 +2753,12 @@ msgid ""
 "that you helped make\n"
 "                                                    possible."
 msgstr ""
+"احصل على نشرة حقوق الإنسان الحصرية الخاصة بنا\n"
+"                                                    وآخر المستجدات حول "
+"الحملات\n"
+"                                                    والأنشطة والإنجازات التي "
+"ساهمت في\n"
+"                                                    تحقيقها."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2863,6 +2957,9 @@ msgid ""
 "helps\n"
 "                    manage discounts automatically for larger orders."
 msgstr ""
+"قم بإعداد قوائم الأسعار حتى تتمكن من تقديم أسعار خاصة عندما يشتري الموزعون "
+"بكميات كبيرة. يساعدك ذلك\n"
+"                    على إدارة الخصومات تلقائيًا للطلبات الكبيرة."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -2879,6 +2976,9 @@ msgid ""
 "                NGO’s goals, ongoing projects, and how visitors can get "
 "involved or support."
 msgstr ""
+"شارك المهمة والتأثير بوضوح على <strong>الموقع الإلكتروني</strong>. اشرح\n"
+"                أهداف المنظمة غير الحكومية والمشاريع الجارية وكيف يمكن "
+"للزوار المشاركة أو تقديم الدعم."
 
 #. module: non_profit_organization
 #: model:res.partner.category,name:non_profit_organization.partner_category_signatory
@@ -3008,6 +3108,8 @@ msgid ""
 "Thank you for your feedback! Your input helps us make our future events "
 "better and more impactful."
 msgstr ""
+"شكراً على ملاحظاتك! تساعدنا آرائك في جعل فعالياتنا المستقبلية أفضل وأكثر "
+"تأثيراً. "
 
 #. module: non_profit_organization
 #: model:mail.template,subject:non_profit_organization.mail_template_50
@@ -3022,6 +3124,11 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Email Marketing</font>\n"
 "                </strong>."
 msgstr ""
+"يتم إرسال رسائل الشكر للمتبرعين ومتابعة العرائض والنشرات الإخبارية باستخدام "
+"<strong>\n"
+"                    <font class=\"text-o-color-1\">تطبيق التسويق عبر البريد "
+"الإلكتروني</font>\n"
+"                </strong>."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.report_fiscal_attestation_document
@@ -3126,6 +3233,12 @@ msgid ""
 "                    <font class=\"text-o-color-1\">Purchase</font>\n"
 "                </strong> app."
 msgstr ""
+"تتبع مخزون مواد الحملة باستخدام تطبيق <font class=\"text-o-color-1\">\n"
+"                    <strong>المخزون</strong>\n"
+"                </font> وأدر طلبات الموردين\n"
+"بكفاءة باستخدام تطبيق <strong>\n"
+"                    <font class=\"text-o-color-1\">المشتريات</font>\n"
+"                </strong>."
 
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_3
@@ -3177,6 +3290,9 @@ msgid ""
 "and\n"
 "            keep supporters and members informed."
 msgstr ""
+"استخدم تطبيق التسويق عبر البريد الإلكتروني لإرسال النشرات الإخبارية وطلبات "
+"التبرع والترويج للفعاليات وإبقاء\n"
+"            المؤيدين والأعضاء على اطلاع بآخر التحديثات."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3216,6 +3332,10 @@ msgid ""
 "documents electronically\n"
 "                        before sending them to donors."
 msgstr ""
+"استخدم تطبيق <strong>التوقيع الإلكتروني</strong> لرفع قالب شهادتك المالية\n"
+"                        وإضافة حقول التوقيع والتاريخ والتوقيع على المستندات "
+"إلكترونيًا\n"
+"                        قبل إرسالها إلى المتبرعين."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3224,6 +3344,10 @@ msgid ""
 "key\n"
 "                donor information and preferred amounts."
 msgstr ""
+"استخدم تطبيق <strong>الموقع الإلكتروني</strong> لإنشاء استمارة تبرع تقوم من "
+"خلالها بجمع\n"
+"                المعلومات الأساسية عن المتبرعين والمبالغ التي يُفضّل التبرع "
+"بها. "
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3297,6 +3421,11 @@ msgid ""
 "                                            are designed for small to medium "
 "size companies."
 msgstr ""
+"نحن فريق من الأفراد الذين \n"
+"                                            يملؤهم الشغف، نهدف إلى جعل حياة "
+"الجميع أسهل.<br/>\n"
+"                                            خدماتنا مصممة خصيصاً من أجل "
+"الشركات الصغيرة إلى المتوسطة."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3307,6 +3436,11 @@ msgid ""
 "                                                        things "
 "change.&amp;nbsp;"
 msgstr ""
+"نحن لا نأتي بكل الإجابات، بل\n"
+"                                                        نستمع ونبني معًا "
+"ونتكيف عندما\n"
+"                                                        تتغير "
+"الأمور.&amp;nbsp;"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3329,6 +3463,11 @@ msgid ""
 "honesty, not promises we\n"
 "                                                        can’t keep.&amp;nbsp;"
 msgstr ""
+"نحن نعي ما نقوله ونفي بكلمتنا.\n"
+"                                                        الناس يستحقون الصدق، "
+"لا الوعود التي\n"
+"                                                        لا يمكننا الوفاء "
+"بها.&amp;nbsp;"
 
 #. module: non_profit_organization
 #: model_terms:survey.survey,description:non_profit_organization.survey_survey_1
@@ -3337,6 +3476,8 @@ msgid ""
 "events and better serve our community, we kindly ask you to take 2–3 minutes "
 "to complete this short survey."
 msgstr ""
+"نحن نقدر حضوركم ودعمكم حقًا. لمساعدتنا على تحسين الفعاليات المستقبلية وتقديم "
+"خدمة أفضل لمجتمعنا، نرجو منكم تخصيص 2-3 دقائق لملء هذا الاستطلاع القصير."
 
 #. module: non_profit_organization
 #: model_terms:product.public.category,website_description:non_profit_organization.product_public_category_1
@@ -3352,6 +3493,11 @@ msgid ""
 "managing petitions forms for\n"
 "            signatures."
 msgstr ""
+"يعمل تطبيقي \"الموقع الإلكتروني\" و\"المتجر الإلكتروني\" على الترويج لمنظمتك "
+"غير الحكومية عبر الإنترنت\n"
+"             من خلال مشاركة رسالتك وأنشطتك، وبيع العضويات والسلع، وجمع "
+"التبرعات، وإدارة نماذج العرائض\n"
+"             للتوقيع عليها."
 
 #. module: non_profit_organization
 #: model:ir.model.fields,field_description:non_profit_organization.x_website_description_field_x_petition
@@ -3372,6 +3518,9 @@ msgid ""
 "                                    together to create real and lasting "
 "change."
 msgstr ""
+"نرحب بكم في حركتنا من أجل العدالة والمساواة والكرامة؛\n"
+"                                    حيث تجتمع أصواتكم وقيمكم وأفعالكم\n"
+"                                    لتحقيق تغيير حقيقي ودائم."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3386,6 +3535,10 @@ msgid ""
 "alongside the people we\n"
 "                                                    serve.&amp;nbsp;"
 msgstr ""
+"نحن فريق صغير يسعى إلى تحقيق مهمة كبيرة: الاستماع\n"
+"                                                    والدعم وإحداث التغيير؛ "
+"دائمًا إلى جانب الأشخاص الذين\n"
+"                                                    نعمل من أجلهم.&amp;nbsp;"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view
@@ -3421,6 +3574,8 @@ msgid ""
 "Whether you joined for the cause, the content, or the community, we’d love "
 "to hear what worked, what didn’t, and how we can do better next time."
 msgstr ""
+"سواء انضممت إلى القضية أو المحتوى أو المجتمع، نود أن نسمع ما نجح وما لم ينجح،"
+" وكيف يمكننا أن نحسن أداءنا في المرة القادمة."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3429,6 +3584,9 @@ msgid ""
 "can save\n"
 "            time on admin work and focus more on your mission."
 msgstr ""
+"بفضل الأدوات المتصلة مثل أداة التبرعات، وإدارة علاقات العملاء، والفعاليات، "
+"والموقع الإلكتروني، والتخطيط، يمكنك توفير\n"
+"            الوقت المقضي في الأعمال الإدارية والتركيز أكثر على مهمتك."
 
 #. module: non_profit_organization
 #: model:survey.question.answer,value:non_profit_organization.survey_question_answer_6
@@ -3490,6 +3648,10 @@ msgid ""
 "                    Upgrade your Non-profit organization package and check "
 "the related box."
 msgstr ""
+"لم تقم باستيراد البيانات التجريبية؟ لا يزال بإمكانك القيام بذلك. انتقل إلى "
+"التطبيقات > قطاعات الأعمال > \n"
+"                    ترقية الباقة الخاصة بالمنظمات غير الربحية وحدد المربع ذي "
+"الصلة."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.welcome_article_body
@@ -3535,6 +3697,8 @@ msgid ""
 "Your generosity makes a difference. This donation helps fund vital programs "
 "that create lasting change in our communities."
 msgstr ""
+"مساهماتكم يحدث فرقاً. تساعد هذه التبرعات في تمويل الحركة نحو إحداث تغيير دائم "
+"في مجتمعاتنا."
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.become_a_member_qweb_view
@@ -3547,6 +3711,12 @@ msgid ""
 "                                                    voices of those too "
 "often ignored"
 msgstr ""
+"تدعم عضويتك\n"
+"                                                    الأنشطة الشعبية، والجهود "
+"التنظيمية،\n"
+"                                                    والمناصرات والنقد، "
+"وإيصال الأصوات\n"
+"                                                    التي غالباً ما يتم تجاهلها"
 
 #. module: non_profit_organization
 #: model_terms:product.template,description_ecommerce:non_profit_organization.product_template_4
@@ -3684,6 +3854,11 @@ msgid ""
 "str(env.ref('non_profit_organization.product_product_donation').id)"
 "\">﻿&amp;nbsp;Donate Now&amp;nbsp;﻿</a>﻿"
 msgstr ""
+"﻿<a class=\"btn btn-primary mb-2 o_translate_inline\" href=\"/contactus\""
+">﻿&amp;nbsp;كن جزءاً من التغيير ﻿</a>﻿ ﻿<a class="
+"\"mb-2 o_translate_inline btn btn-secondary\" t-att-href=\"'/shop/' + str"
+"(env.ref('non_profit_organization.product_product_donation').id)\">﻿&amp;nbsp;"
+"تبرع الآن&amp;nbsp;﻿</a>﻿"
 
 #. module: non_profit_organization
 #: model_terms:ir.ui.view,arch_db:non_profit_organization.website_homepage_qweb_view

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-16 05:39+0000\n"
+"POT-Creation-Date: 2026-02-10 10:46+0000\n"
 "PO-Revision-Date: 2026-02-06 09:48+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
@@ -65,7 +65,8 @@ msgstr ""
 msgid ""
 "<b>Create a Contract:</b> Click \"New\" and select the tenant as the "
 "\"Customer\" and add the Rental fee product."
-msgstr "<b>契約を作成:</b>「新規」をクリックし、「顧客」としてテナントを選択し、レン"
+msgstr ""
+"<b>契約を作成:</b>「新規」をクリックし、「顧客」としてテナントを選択し、レン"
 "タル料金のプロダクトを追加します。"
 
 #. module: industry_real_estate
@@ -73,7 +74,8 @@ msgstr "<b>契約を作成:</b>「新規」をクリックし、「顧客」と�
 msgid ""
 "<b>Create a Property:</b> Click \"New\" to create a unit. Fill in its "
 "building, location and other details."
-msgstr "<b>物件を作成:</b> 「新規」をクリックしてユニットを作成します。建物、場所、そ"
+msgstr ""
+"<b>物件を作成:</b> 「新規」をクリックしてユニットを作成します。建物、場所、そ"
 "の他の詳細を入力してください。"
 
 #. module: industry_real_estate
@@ -81,7 +83,8 @@ msgstr "<b>物件を作成:</b> 「新規」をクリックしてユニットを
 msgid ""
 "<b>Documents App:</b> Store signed leases, property deeds, and insurance "
 "certificates with expiration alerts."
-msgstr "<b>ドキュメントアプリ:</b> 署名済み賃貸契約書、不動産権利証書、保険証書を保管"
+msgstr ""
+"<b>ドキュメントアプリ:</b> 署名済み賃貸契約書、不動産権利証書、保険証書を保管"
 "し、有効期限アラートを設定できます。"
 
 #. module: industry_real_estate
@@ -112,7 +115,8 @@ msgstr ""
 msgid ""
 "<b>Open the Contracts</b>: Open the <strong>Properties App</strong> to reach "
 "the Subscriptions."
-msgstr "<b>契約を開く</b>:<strong>プロパティ アプリ</strong> を開いてサブスクリプショ"
+msgstr ""
+"<b>契約を開く</b>:<strong>プロパティ アプリ</strong> を開いてサブスクリプショ"
 "ンにアクセスします。"
 
 #. module: industry_real_estate
@@ -132,8 +136,8 @@ msgid ""
 "by clicking on an empty slot in\n"
 "                    the timeline."
 msgstr ""
-"<b>プロのヒント:</b> このビュー上のタイムラインの空きスロットをクリックすると"
-"、新しいレンタル契約を\n"
+"<b>プロのヒント:</b> このビュー上のタイムラインの空きスロットをクリックする"
+"と、新しいレンタル契約を\n"
 "                    直接作成できます。"
 
 #. module: industry_real_estate
@@ -143,8 +147,8 @@ msgid ""
 "manage property listings, contracts, and\n"
 "                availability status."
 msgstr ""
-"<b>物件アプリ: </b>物件リスト、契約書、空き状況を一元管理できる専用アプリで、"
-"\n"
+"<b>物件アプリ: </b>物件リスト、契約書、空き状況を一元管理できる専用アプリ"
+"で、\n"
 "               ポートフォリオを整理しましょう。"
 
 #. module: industry_real_estate
@@ -154,8 +158,8 @@ msgid ""
 "professional quotations and digital\n"
 "                signatures."
 msgstr ""
-"<b>販売アプリ: </b>プロフェッショナルな見積書とデジタル署名を活用して、オファ"
-"ーの管理、交渉、契約締結まで\n"
+"<b>販売アプリ: </b>プロフェッショナルな見積書とデジタル署名を活用して、オ"
+"ファーの管理、交渉、契約締結まで\n"
 "                スムーズに対応できます。"
 
 #. module: industry_real_estate
@@ -168,7 +172,8 @@ msgstr "<b>物件を選択：</b> 賃貸対象の「物件」を選択してく�
 msgid ""
 "<b>Sign App:</b> Send lease agreements for legally binding electronic "
 "signatures."
-msgstr "<b>署名アプリ:</b> 賃貸契約書を法的効力のある電子署名付きで送信できます。"
+msgstr ""
+"<b>署名アプリ:</b> 賃貸契約書を法的効力のある電子署名付きで送信できます。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -260,8 +265,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\">🚀</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">🚀</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -269,8 +274,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">✅</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">✅</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -278,8 +283,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\">🎉</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\">🎉</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -287,15 +292,16 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Warning\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\">⚠️</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "<i>Note: Only properties with at least one current or future contract will "
 "appear in this visualization.</i>"
-msgstr "<i>注：現在または将来の契約が少なくとも1件ある物件のみ、このビューに表示され"
+msgstr ""
+"<i>注：現在または将来の契約が少なくとも1件ある物件のみ、このビューに表示され"
 "ます。</i>"
 
 #. module: industry_real_estate
@@ -367,6 +373,11 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">質問</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\"> *</span>"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "<span>to</span>"
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -491,7 +502,8 @@ msgstr "ビルディング"
 msgid ""
 "By uploading this module's demo data, your database has been filled with a "
 "few products, sale orders and more."
-msgstr "このモジュールのデモデータをアップロードすることで、データベースにいくつかの"
+msgstr ""
+"このモジュールのデモデータをアップロードすることで、データベースにいくつかの"
 "プロダクト、販売オーダなどが追加されました。"
 
 #. module: industry_real_estate
@@ -510,7 +522,8 @@ msgstr "都市町村"
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "Click on the <b>Availability</b> to view your portfolio in a Gantt view."
-msgstr "<b>空き状況</b>をクリックすると、ポートフォリオをガントビューで表示できます。"
+msgstr ""
+"<b>空き状況</b>をクリックすると、ポートフォリオをガントビューで表示できます。"
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_commercial_space
@@ -598,7 +611,8 @@ msgstr "Odoo についてさらに知るには、こちらをご覧ください�
 msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
-msgstr "本パッケージの基本を理解し、Odooで提供している全てについて詳しく知ることで、"
+msgstr ""
+"本パッケージの基本を理解し、Odooで提供している全てについて詳しく知ることで、"
 "ユーザ経験を向上させることができます。"
 
 #. module: industry_real_estate
@@ -626,6 +640,11 @@ msgstr ""
 "ア、マーケティング、カスタマー・エクスペリエンス戦略の開発\n"
 "                                                                に関わり、忙"
 "しく働くことが大好きです。"
+
+#. module: industry_real_estate
+#: model_terms:ir.ui.view,arch_db:industry_real_estate.rental_form_view
+msgid "From"
+msgstr ""
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1077,14 +1096,16 @@ msgstr "入居者"
 msgid ""
 "The <b>Subscriptions App</b> handles the legal and financial bridge between "
 "the property and the tenant."
-msgstr "<b>サブスクリプションアプリ</b> で、不動産とテナントとの間の法的・財務的な業"
+msgstr ""
+"<b>サブスクリプションアプリ</b> で、不動産とテナントとの間の法的・財務的な業"
 "務を管理できます。"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr "これらはすべて現在のサブスクリプションで無料でご利用可能です。お気軽にお試し"
+msgstr ""
+"これらはすべて現在のサブスクリプションで無料でご利用可能です。お気軽にお試し"
 "ください!🙃"
 
 #. module: industry_real_estate
@@ -1092,7 +1113,8 @@ msgstr "これらはすべて現在のサブスクリプションで無料でご
 msgid ""
 "This screen visualizes all active rental contracts and identifies vacancies "
 "at a glance."
-msgstr "この画面では、すべての有効な賃貸契約を可視化し、空室状況をひと目で把握できま"
+msgstr ""
+"この画面では、すべての有効な賃貸契約を可視化し、空室状況をひと目で把握できま"
 "す。"
 
 #. module: industry_real_estate
@@ -1167,7 +1189,8 @@ msgstr "製品やサービスについて軽く説明しましょう。"
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
-msgstr "メインダッシュボードから、Odooデータベースにインストールされているすべてのア"
+msgstr ""
+"メインダッシュボードから、Odooデータベースにインストールされているすべてのア"
 "プリにアクセスできます。"
 
 #. module: industry_real_estate

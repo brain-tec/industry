@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 12:05+0000\n"
+"POT-Creation-Date: 2026-02-12 09:56+0000\n"
 "PO-Revision-Date: 2026-01-30 14:40+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-1/"
@@ -211,6 +211,17 @@ msgid ""
 msgstr ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"<span class=\"o_file_image d-flex o_image user-select-none\" "
+"title=\"WorkItems_PoolDeck.xlsx\" data-mimetype=\"application/"
+"vnd.openxmlformats-officedocument.spreadsheetml.sheet\" "
+"contenteditable=\"false\">\n"
+"                         <br/>\n"
+"                    </span>"
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -749,6 +760,11 @@ msgid "Adapted WC"
 msgstr "バリアフリー対応トイレ"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Adjust quantities according to customer needs."
+msgstr ""
+
+#. module: construction
 #: model:documents.document,name:construction.documents_document_27
 #: model:documents.document,name:construction.documents_document_7
 msgid "Administrative & Legal"
@@ -957,6 +973,12 @@ msgstr "調理ライン設置工事"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Copy paste the export outcome in the \"2. Product Variants Export\" sheet"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Create a new fiscal position, give it a name and assign the applicable "
 "country."
 msgstr "新しい会計ポジションを作成し、名前を付け、該当する国を割り当てます。"
@@ -966,7 +988,8 @@ msgstr "新しい会計ポジションを作成し、名前を付け、該当す
 msgid ""
 "Create a new quotation / sale order, assign a customer and select a "
 "quotation template to save time."
-msgstr "新しい見積書/販売オーダを作成し、顧客を割り当て、見積書テンプレートを選択して"
+msgstr ""
+"新しい見積書/販売オーダを作成し、顧客を割り当て、見積書テンプレートを選択して"
 "処理時間を節約します。"
 
 #. module: construction
@@ -974,7 +997,8 @@ msgstr "新しい見積書/販売オーダを作成し、顧客を割り当て�
 msgid ""
 "Create a new tax or select the applicable one if existing in your "
 "localisation package."
-msgstr "新しい税を作成するか、ローカリゼーションパッケージに既存のものがあれば該当す"
+msgstr ""
+"新しい税を作成するか、ローカリゼーションパッケージに既存のものがあれば該当す"
 "るものを選択してください。"
 
 #. module: construction
@@ -1016,6 +1040,11 @@ msgstr "ドア調整"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Down Payment"
 msgstr "前受金"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Download the herein file."
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_28
@@ -1088,6 +1117,21 @@ msgid "Final word"
 msgstr "最後に"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Find your work item templates from the Sales App / Products / Work Items "
+"menu."
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Fine tune each work item clicking the line magic stick icon to secure your\n"
+"                margin. <br/>You're all set to send a first quote to your "
+"customer!"
+msgstr ""
+
+#. module: construction
 #: model:product.template,name:construction.product_template_55
 msgid "Fire-rated partitions"
 msgstr "耐火間仕切り"
@@ -1135,8 +1179,14 @@ msgstr "庭の清掃"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Generate a new quotation and select the Carport Construction template."
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Generate a new quotation and select the Renovation Project template."
-msgstr "新しい見積書を作成し、リノベーションプロジェクトのテンプレートを選択してくだ"
+msgstr ""
+"新しい見積書を作成し、リノベーションプロジェクトのテンプレートを選択してくだ"
 "さい。"
 
 #. module: construction
@@ -1167,7 +1217,8 @@ msgstr "暖房・換気設備"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Here click \"New\" and adjust the sale order details as needed."
-msgstr "ここで「新規」をクリックし、必要に応じて販売オーダの詳細を調整してください。"
+msgstr ""
+"ここで「新規」をクリックし、必要に応じて販売オーダの詳細を調整してください。"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_37
@@ -1179,7 +1230,8 @@ msgstr "給湯設備"
 msgid ""
 "I the popup keep the consolidated billing checked and create your draft "
 "invoice!"
-msgstr "ポップアップ画面で「まとめ請求」にチェックを入れたまま、ドラフト請求書を作成"
+msgstr ""
+"ポップアップ画面で「まとめ請求」にチェックを入れたまま、ドラフト請求書を作成"
 "してください。"
 
 #. module: construction
@@ -1194,7 +1246,8 @@ msgstr "不要な複雑さを伴わずに業務効率化を求めるチームに
 msgid ""
 "If properly setup, the Replaces field is displayed and can be populated with "
 "the taxes this tax replaces in this fiscal position."
-msgstr "正しく設定されている場合、「置き換え先」フィールドが表示され、この税が当該会"
+msgstr ""
+"正しく設定されている場合、「置き換え先」フィールドが表示され、この税が当該会"
 "計ポジション内で置き換える税金を指定できます。"
 
 #. module: construction
@@ -1229,6 +1282,11 @@ msgstr ""
 "                    デフォルトの税率を自動的に減税された税率に置き換える会計"
 "ポジションを作成することで、\n"
 "                    見積全体に簡単に適用することができます。"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Import your work item database in few clicks!"
+msgstr ""
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_2
@@ -1266,7 +1324,8 @@ msgstr ""
 msgid ""
 "In the Advanced Options tab, adjust the label, country and assign or create "
 "a tax group for it."
-msgstr "詳細オプションタブで、ラベルと国を調整し、その商品に税グループを割り当てるか"
+msgstr ""
+"詳細オプションタブで、ラベルと国を調整し、その商品に税グループを割り当てるか"
 "作成します。"
 
 #. module: construction
@@ -1309,7 +1368,8 @@ msgstr "請求スケジュール"
 msgid ""
 "It covers essential quoting, basic project setup, straightforward planning, "
 "material coordination, and smooth on-site delivery."
-msgstr "必要な見積もり、基本的なプロジェクト設定、明快な計画立案、資材調整、そして円"
+msgstr ""
+"必要な見積もり、基本的なプロジェクト設定、明快な計画立案、資材調整、そして円"
 "滑な現場納品を網羅しています。"
 
 #. module: construction
@@ -1320,6 +1380,12 @@ msgid ""
 msgstr ""
 "柔軟な見積調整、外注先の一元管理、先進的なスケジューリング、資材の予測、そし"
 "て進捗連動型の請求など、プロジェクト管理に必要な機能をすべて搭載しています。"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Iterate as needed until your customer approves the order, then confirm it!"
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_48
@@ -1386,6 +1452,18 @@ msgstr "照明"
 #: model:documents.document,name:construction.documents_document_33
 msgid "Maintenance & Handover"
 msgstr "保守整備および引き渡し"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Making sure you don't waste time generating quotes which may never be signed "
+"is paramount\n"
+"            to run your business efficiently. <br/>To help you with this "
+"aspects, we configured the <strong>\n"
+"            Sales App</strong> with work items to be leveraged straight "
+"from\n"
+"            quotation from."
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_2
@@ -1527,6 +1605,13 @@ msgstr "見積書が確定すると、販売オーダとなります。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open again the Product Variants list, select them all and proceed to an\n"
+"                        (import-compatible) export with only their names"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open now the Taxes still from the configuration menu."
 msgstr "設定メニューから「税」を開いてください。"
 
@@ -1535,23 +1620,41 @@ msgstr "設定メニューから「税」を開いてください。"
 msgid ""
 "Open the Other Info tab and in the Invoicing section, adjust the Contract "
 "Type per your needs."
-msgstr "「その他の情報」タブを開き、「請求」セクションで、必要に応じて契約タイプを調"
+msgstr ""
+"「その他の情報」タブを開き、「請求」セクションで、必要に応じて契約タイプを調"
 "整してください。"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open the Product Variants list and proceed to import of the \"1. Product\n"
+"                        Variants Import\" sheet"
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "Open the Progress view. It captures all sale order lines associated to this "
 "project."
-msgstr "進捗ビューを開いてください。このビューでは、このプロジェクトに関連付けられた"
+msgstr ""
+"進捗ビューを開いてください。このビューでは、このプロジェクトに関連付けられた"
 "すべての販売オーダ明細が表示されます。"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open the Work Items list and proceed to import of the \"3. Work Items "
+"Import\"\n"
+"                        sheet"
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "Open the contact form of your contact eligible to the tax discount "
 "associated to this fiscal position."
-msgstr "この会計ポジションに関連する税額控除の対象となる連絡先の連絡先フォームを開い"
+msgstr ""
+"この会計ポジションに関連する税額控除の対象となる連絡先の連絡先フォームを開い"
 "てください。"
 
 #. module: construction
@@ -1580,7 +1683,8 @@ msgstr "スマートボタンから見積計算ツールを開きます。"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the sale orders of your project from the project top bar."
-msgstr "プロジェクトのトップバーから、プロジェクトの販売オーダを開いてください。"
+msgstr ""
+"プロジェクトのトップバーから、プロジェクトの販売オーダを開いてください。"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_23
@@ -1612,8 +1716,9 @@ msgstr "間仕切り・断熱工事"
 msgid ""
 "Perfect for companies needing structured workflows and high-precision "
 "project management."
-msgstr "構造化されたワークフローと高精度なプロジェクト管理を必要とする企業に最適です"
-"。"
+msgstr ""
+"構造化されたワークフローと高精度なプロジェクト管理を必要とする企業に最適で"
+"す。"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_19
@@ -1823,8 +1928,9 @@ msgstr "請求対象とするすべての販売オーダを選択してくださ
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "Setup an email alias for your pipeline to automatically create new leads!"
-msgstr "パイプライン用のメールエイリアスを設定して、自動的に新しいリードを作成しまし"
-"ょう!"
+msgstr ""
+"パイプライン用のメールエイリアスを設定して、自動的に新しいリードを作成しま"
+"しょう!"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_13
@@ -2003,8 +2109,8 @@ msgid ""
 "resources, and\n"
 "            create milestones for each construction project."
 msgstr ""
-"<strong>プロジェクトアプリ</strong>を使えば、各建設プロジェクトのタスク管理、"
-"\n"
+"<strong>プロジェクトアプリ</strong>を使えば、各建設プロジェクトのタスク管"
+"理、\n"
 "            リソースの割り当て、マイルストーンの作成が可能です。"
 
 #. module: construction
@@ -2032,8 +2138,9 @@ msgstr "建設業界は2つに分かれます："
 msgid ""
 "The module comes of top of the Construction Builder setup "
 "providing additional capabilities."
-msgstr "このモジュールは、建設ビルダのセットアップを基盤に、さらなる機能を提供します"
-"。"
+msgstr ""
+"このモジュールは、建設ビルダのセットアップを基盤に、さらなる機能を提供しま"
+"す。"
 
 #. module: construction
 #: model:product.template,description_sale:construction.product_product_6_product_template
@@ -2060,8 +2167,9 @@ msgstr "サーマルブレイク複層ガラス"
 msgid ""
 "This information reflects straight away in your quotations, whether send as "
 "pdf file or with a preview."
-msgstr "この情報は、PDFファイルとして送信する場合でもプレビュー付きで送信する場合でも"
-"、すぐに見積書に反映されます。"
+msgstr ""
+"この情報は、PDFファイルとして送信する場合でもプレビュー付きで送信する場合で"
+"も、すぐに見積書に反映されます。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2178,7 +2286,8 @@ msgstr ""
 msgid ""
 "When selecting Per Line, a new column is exposed for you to specify for each "
 "lines the contract type."
-msgstr "「明細ごと」を選択すると、各明細ごとに契約タイプを指定するための新しい列が表"
+msgstr ""
+"「明細ごと」を選択すると、各明細ごとに契約タイプを指定するための新しい列が表"
 "示されます。"
 
 #. module: construction
@@ -2225,6 +2334,11 @@ msgid "Work Manager"
 msgstr "作業マネジャー"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "WorkItems_PoolDeck.xlsx"
+msgstr ""
+
+#. module: construction
 #: model:planning.role,name:construction.planning_role_4
 msgid "Worker"
 msgstr "作業者"
@@ -2254,8 +2368,8 @@ msgid ""
 msgstr ""
 "デモデータをインポートしていない場合でも、あとから追加することができます。ア"
 "プリ&gt;インダストリー &gt;\n"
-"                    パッケージをアップグレードに進み、該当するボックスにチェ"
-"ックを入れてください"
+"                    パッケージをアップグレードに進み、該当するボックスに"
+"チェックを入れてください"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2309,6 +2423,13 @@ msgstr "図面.png"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "⏲️ Time sheet based progress management"
 msgstr "⏲️ タイムシートに基づく進捗管理"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"⏳ First quote in record time leveraging the work items (Construction "
+"Developer)"
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
