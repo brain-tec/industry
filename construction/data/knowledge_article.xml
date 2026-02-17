@@ -66,9 +66,8 @@
                 </p>
             </li>
         </ul>
-        <p>
-             <br/>
-        </p>
+        <br/>
+        <br/>
         <h1>Use case</h1>
         <hr/>
         <p>By uploading this module's demo data, your database has been filled with a few products,
@@ -101,16 +100,16 @@
         </p>
         <ul>
             <li>
-                <p><strong>Leads &amp; Opportunities:</strong> Record incoming inquiries from
-                    emails, forms, or calls.</p>
+                <strong>Leads &amp; Opportunities:</strong> Record incoming inquiries from
+                    emails, forms, or calls.
             </li>
             <li>
-                <p><strong>Pipeline Management:</strong> Visualize lead stages and prioritize
-                    follow-ups.</p>
+                <strong>Pipeline Management:</strong> Visualize lead stages and prioritize
+                    follow-ups.
             </li>
             <li>
-                <p><strong>Chatter &amp; Communication:</strong> Collaborate internally using notes
-                    and messages linked to opportunities.</p>
+                <strong>Chatter &amp; Communication:</strong> Collaborate internally using notes
+                    and messages linked to opportunities.
             </li>
         </ul>
         <div
@@ -139,22 +138,22 @@
         </p>
         <ul>
             <li>
-                <p><strong>Quotation Templates:</strong> Predefine templates for recurrent
-                    offers.</p>
+                <strong>Quotation Templates:</strong> Predefine templates for recurrent
+                    offers.
             </li>
             <li>
-                <p><strong>Pricing &amp; Discounts:</strong> Adjust based on project size or client
-                    agreements.</p>
+                <strong>Pricing &amp; Discounts:</strong> Adjust based on project size or client
+                    agreements.
             </li>
             <li>
-                <p><strong>PDF Output:</strong> Send branded quotations for client approval.</p>
+                <strong>PDF Output:</strong> Send branded quotations for client approval.
             </li>
             <li>
-                <p><strong>Online Approval:</strong> Enable online customer approval.</p>
+                <strong>Online Approval:</strong> Enable online customer approval.
             </li>
             <li>
-                <p><strong>Chatter &amp; Communication:</strong> Collaborate internally using notes
-                    and messages linked to opportunities.</p>
+                <strong>Chatter &amp; Communication:</strong> Collaborate internally using notes
+                    and messages linked to opportunities.
             </li>
         </ul>
         <p>Once confirmed, the quotation becomes a sales order.</p>
@@ -352,9 +351,9 @@
                 <li>In the Sales &amp; Purchase tab, select the applicable fiscal position.</li>
             </ul>
         </p>
-        <p>
-            <a class="btn btn-outline-primary btn-sm" href="https://www.odoo.com/documentation/latest/applications/finance/accounting/taxes/fiscal_positions.html">🎓 Fiscal Positions</a>
-        </p>
+        <p>&#xFEFF;<a
+                href="https://www.odoo.com/documentation/latest/applications/finance/accounting/taxes/fiscal_positions.html"
+                class="btn btn-fill-secondary">&#xFEFF;🎓 Fiscal Positions&#xFEFF;</a>&#xFEFF;</p>
         <p>
             <br/>
         </p>
@@ -372,16 +371,16 @@
         </p>
         <ul>
             <li>
-                <p><strong>Project Files:</strong> Attach blueprints, permits, and contracts.</p>
+                <strong>Project Files:</strong> Attach blueprints, permits, and contracts.
             </li>
             <li>
-                <p><strong>Version Control:</strong> Track updates to important documents.</p>
+                <strong>Version Control:</strong> Track updates to important documents.
             </li>
             <li>
-                <p><strong>Access Control:</strong> Limit sensitive files to relevant team members.</p>
+                <strong>Access Control:</strong> Limit sensitive files to relevant team members.
             </li>
             <li>
-                <p><strong>Document Requests:</strong> Send requests with follow up activities.</p>
+                <strong>Document Requests:</strong> Send requests with follow up activities.
             </li>
         </ul>
         <div
@@ -404,36 +403,39 @@
         <h3>🏗️ Manage your construction project with ease </h3>
         <hr/>
         <p> The <strong>Projects App</strong> allows you to manage tasks, assign resources, and
-            create milestones for each construction project.</p>
+            create milestones for each construction project.
+        </p>
         <p>
             <strong>How to use it:</strong>
         </p>
         <ul>
             <li>
-                <p><strong>Task Creation:</strong> Break down construction phases into actionable
-                    items.</p>
+                <strong>Task Creation:</strong> Break down construction phases into actionable items.
             </li>
             <li>
-                <p><strong>Milestones:</strong> Define major project achievements.</p>
+                <strong>Milestones:</strong> Define major project achievements.
             </li>
             <li>
-                <p><strong>Assignments:</strong> Allocate engineers, site managers, and
-                    subcontractors.</p>
+                <strong>Assignments:</strong> Allocate engineers, site managers, and subcontractors.
             </li>
             <li>
-                <p><strong>Project Updates</strong>: Capture project snapshots along the way from
-                    the dashboard.</p>
+                <strong>Project Updates</strong>: Capture project snapshots along the way from the dashboard.
             </li>
         </ul>
         <p>&#xFEFF;<a
                 href="https://www.odoo.com/documentation/latest/applications/services/project.html"
                 class="btn btn-fill-secondary">&#xFEFF;🎓 Project&#xFEFF;</a>&#xFEFF;</p>
         <h5>📐 Project template</h5>
-        <p>On sale order confirmation, the project template is duplicated for the new project to
-            start. <br/>It comes with some predefined tasks and some additional ones directly coming
-            from the sold products:</p>
+        <p>
+            On sale order confirmation, the project template is duplicated for the new project to
+            start (triggered by the Project Management product). 
+            <br/>
+            It comes with some predefined tasks and some additional ones directly coming
+            from the sold products:
+        </p>
         <ul>
-            <li>Architect
+            <li>
+                Architect
             </li>
             <li>
                 Down Payment
@@ -445,7 +447,8 @@
                 Work
             </li>
             <li>
-                Receipt</li>
+                Receipt
+            </li>
         </ul>
         <div
             class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3"
@@ -454,30 +457,75 @@
                 aria-label="Banner Info">💡</i>
             <div class="o_editor_banner_content o-contenteditable-true w-100 px-3"
                 contenteditable="true">
-                <div class="o-paragraph">Of course, these default tasks can be adapted in the
+                <div class="o-paragraph">
+                    Of course, these default tasks can be adapted in the
                     Project Template according to your personal way of managing a construction
-                    project.</div>
+                    project.
+                </div>
             </div>
         </div>
         <h5>🧙‍♂️ Project management</h5>
+        <p>
+            Efficient project management comes with every needed input at your fingertips, simple ways to handle work and follow up.
+        </p>
         <ul>
-            <li>From the project, expose all related aspects you want to have at fingertips with the
-                slider icon (🎚️).</li>
-            <li>Open the project dashboard and create new updates to capture all on site visit
-                outcomes. <br/>This helps you keeping track of progress in terms of:</li>
+            <li>
+                From the project, expose all related aspects you want to have at your fingertips with the
+                slider icon (🎚️): tasks, time sheets, planning, documents... and most importantly the dashboard.
+            </li>
+            <li>
+                Open the project dashboard and create new updates to capture progress in terms of:
+            </li>
             <li class="oe-nested">
                 <ul>
-                    <li>Time spent on the project.
-                    </li>
-                    <li>
-                        Materials purchased.
-                    </li>
-                    <li>
-                        Materials sold.</li>
+                    <li>Time spent on the project.</li>
+                    <li>Materials purchased.</li>
+                    <li>Materials sold.</li>
                 </ul>
             </li>
-
         </ul>
+        <h5>📅 Delivery remarks (Construction Developer) </h5>
+        <p>
+            Capturing remarks during on-site visits and easily following up on them is 
+            paramount for clarity with stakeholders and workers.
+        </p>
+        <ul>
+            <li>
+                From project updates, navigate to the Remarks tab, add as many remarks 
+                as needed with the corresponding details.
+            </li>
+            <li>
+                From calendar meetings, add as many remarks as needed to the Remarks 
+                tab after selecting the related project.
+            </li>
+            <li>
+                Find all project remarks and efficiently review them from the Remarks button
+                shortcut in the project top bar.
+            </li>
+            <li>
+                Alternatively, open the Remarks, from the Reporting menu of the Project App, 
+                to access them all (filter by project for more clarity).
+            </li>
+        </ul>
+        <div
+            class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-info pb-0 pt-3"
+            data-oe-role="status" contenteditable="false" role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info"
+                aria-label="Banner Info">💡</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3"
+                contenteditable="true">
+                <div class="o-paragraph">
+                    To automatically set a remark to "Done" or "Cancelled" state when they reach a given stage, create an automation from the Kanban view:
+                    <ul>
+                        <li>Open the remarks Kanban view of a given project.</li>
+                        <li>Near the stage name (when unfolded), click the gear icon and then Automation.</li>
+                        <li>Create a new automation and add an action.</li>
+                        <li>Select the Update Record action and set the state to the desired value.</li>
+                    </ul>
+                    This works for task stages as well!
+                </div>
+            </div>
+        </div>
         <p>
              <br/>
         </p>
@@ -491,15 +539,15 @@
         </p>
         <ul>
             <li>
-                <p><strong>Stock Monitoring:</strong> Check available materials and reserve them for
-                    projects.</p>
+                <strong>Stock Monitoring:</strong> Check available materials and reserve them for
+                    projects.
             </li>
             <li>
-                <p><strong>Reordering:</strong> Automate purchase orders for low-stock items.</p>
+                <strong>Reordering:</strong> Automate purchase orders for low-stock items.
             </li>
             <li>
-                <p><strong>Site Transfers:</strong> Allocate materials to specific construction
-                    sites.</p>
+                <strong>Site Transfers:</strong> Allocate materials to specific construction
+                    sites.
             </li>
         </ul>
         <p>&#xFEFF;<a class="btn btn-fill-secondary"
@@ -512,12 +560,12 @@
         </p>
         <ul>
             <li>
-                <p><strong>Purchase Orders:</strong> Create purchase order for needed products
-                    and services.</p>
+                <strong>Purchase Orders:</strong> Create purchase order for needed products
+                    and services.
             </li>
             <li>
-                <p><strong>Product Prices:</strong> Capture prices by suppliers to make the
-                    best moves.</p>
+                <strong>Product Prices:</strong> Capture prices by suppliers to make the
+                    best moves.
             </li>
         </ul>
         <div
@@ -546,19 +594,19 @@
         </p>
         <ul>
             <li>
-                <p><strong>Resource Allocation:</strong> Assign workers, subcontractors, and
-                    machinery.</p>
+                <strong>Resource Allocation:</strong> Assign workers, subcontractors, and
+                    machinery.
             </li>
             <li>
-                <p><strong>Calendar Views:</strong> Visualize overlapping tasks and adjust
-                    workloads.</p>
+                <strong>Calendar Views:</strong> Visualize overlapping tasks and adjust
+                    workloads.
             </li>
             <li>
-                <p><strong>Roles:</strong> Assign roles to workers and leverage the auto-assign
-                    capability.</p>
+                <strong>Roles:</strong> Assign roles to workers and leverage the auto-assign
+                    capability.
             </li>
             <li>
-                <p><strong>Alerts &amp; Notifications:</strong> Ensure deadlines are met.</p>
+                <strong>Alerts &amp; Notifications:</strong> Ensure deadlines are met.
             </li>
         </ul>
         <p>&#xFEFF;<a
@@ -577,13 +625,13 @@
         </p>
         <ul>
             <li>
-                <p><strong>Daily Logs:</strong> Employees enter hours per task.</p>
+                <strong>Daily Logs:</strong> Employees enter hours per task.
             </li>
             <li>
-                <p><strong>Progress Reporting:</strong> Compare actual time vs planned.</p>
+                <strong>Progress Reporting:</strong> Compare actual time vs planned.
             </li>
             <li>
-                <p><strong>Cost Analysis:</strong> Link labor to project expenses.</p>
+                <strong>Cost Analysis:</strong> Link labor to project expenses.
             </li>
         </ul>
         <p>&#xFEFF;<a class="btn btn-fill-secondary"
@@ -602,14 +650,14 @@
         </p>
         <ul>
             <li>
-                <p><strong>Invoice from Quotation:</strong> Convert approved quotes into invoices.</p>
+                <strong>Invoice from Quotation:</strong> Convert approved quotes into invoices.
             </li>
             <li>
-                <p><strong>Billing:</strong> Invoice based on work completion or project
-                    milestones.</p>
+                <strong>Billing:</strong> Invoice based on work completion or project
+                    milestones.
             </li>
             <li>
-                <p><strong>Payment Tracking:</strong> Monitor outstanding client payments.</p>
+                <strong>Payment Tracking:</strong> Monitor outstanding client payments.
             </li>
         </ul>
         <div
@@ -719,14 +767,14 @@
         </p>
         <ul>
             <li>
-                <p><strong>Ticket Management:</strong> Record issues or change requests.</p>
+                <strong>Ticket Management:</strong> Record issues or change requests.
             </li>
             <li>
-                <p><strong>Prioritization:</strong> Assign critical tickets to senior staff.</p>
+                <strong>Prioritization:</strong> Assign critical tickets to senior staff.
             </li>
             <li>
-                <p><strong>Client Portal:</strong> Allow customers to track the status of their
-                    requests.</p>
+                <strong>Client Portal:</strong> Allow customers to track the status of their
+                    requests.
             </li>
         </ul>
         <div
@@ -833,20 +881,20 @@
         <p>Explore additional apps to enhance your construction business:</p>
         <ul>
             <li>
-                <p><strong>Employees</strong> – Manage workforce, skills, and certifications.</p>
+                <strong>Employees</strong> – Manage workforce, skills, and certifications.
             </li>
             <li>
-                <p><strong>Fleet</strong> – Track machinery, vehicles, and maintenance schedules.</p>
+                <strong>Fleet</strong> – Track machinery, vehicles, and maintenance schedules.
             </li>
             <li>
-                <p><strong>Website</strong> – Publish projects, showcase services, and capture
-                    leads.</p>
+                <strong>Website</strong> – Publish projects, showcase services, and capture
+                    leads.
             </li>
             <li>
-                <p><strong>Accounting</strong> – Advanced financial management and reporting.</p>
+                <strong>Accounting</strong> – Advanced financial management and reporting.
             </li>
             <li>
-                <p><strong>Sign</strong> – Collect digital signatures for contracts and approvals.</p>
+                <strong>Sign</strong> – Collect digital signatures for contracts and approvals.
             </li>
         </ul>
         <p>Odoo offers scalable solutions that grow with your business. By integrating these apps,

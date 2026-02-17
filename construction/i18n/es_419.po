@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-15 12:05+0000\n"
+"POT-Creation-Date: 2026-02-12 09:56+0000\n"
 "PO-Revision-Date: 2026-01-29 07:51+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
@@ -21,8 +21,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: construction
@@ -141,8 +141,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -150,8 +150,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">🥇</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Info\" aria-label=\"Banner Info\">🥇</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\" aria-label=\"Banner Info\">🥇</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -159,8 +159,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -168,8 +168,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
-"\"Mensaje de advertencia\">⚠️</i>"
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Mensaje de advertencia\">⚠️</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -177,8 +177,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">🚀</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -186,8 +186,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\" aria-label=\"Banner Info\">🚀</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Info\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Info\">🚀</i>"
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\" aria-label=\"Banner Info\">🚀</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -195,8 +195,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -204,8 +204,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Success\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label=\"Banner Success\">🎉</i>"
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -213,9 +213,19 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
-"<i data-oe-aria-label=\"Banner Warning\" class="
-"\"o_editor_banner_icon mb-3 fst-normal\" aria-label="
-"\"Mensaje de advertencia\">⚠️</i>"
+"<i data-oe-aria-label=\"Banner Warning\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\" aria-label=\"Mensaje de advertencia\">⚠️</i>"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"<span class=\"o_file_image d-flex o_image user-select-none\" "
+"title=\"WorkItems_PoolDeck.xlsx\" data-mimetype=\"application/"
+"vnd.openxmlformats-officedocument.spreadsheetml.sheet\" "
+"contenteditable=\"false\">\n"
+"                         <br/>\n"
+"                    </span>"
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -421,7 +431,8 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Milestones:</strong> Define major project achievements."
-msgstr "<strong>Objetivos:</strong> Define los principales logros del proyecto."
+msgstr ""
+"<strong>Objetivos:</strong> Define los principales logros del proyecto."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -793,6 +804,11 @@ msgid "Adapted WC"
 msgstr "WC adaptado"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Adjust quantities according to customer needs."
+msgstr ""
+
+#. module: construction
 #: model:documents.document,name:construction.documents_document_27
 #: model:documents.document,name:construction.documents_document_7
 msgid "Administrative & Legal"
@@ -857,8 +873,8 @@ msgid ""
 "accordingly..."
 msgstr ""
 "Como cada producto de la cotización implica trabajo manual, empieza\n"
-"                a completar la estimación de tiempo para algunos de ellos. <"
-"br/>El tiempo total de mano de obra, así como\n"
+"                a completar la estimación de tiempo para algunos de ellos. "
+"<br/>El tiempo total de mano de obra, así como\n"
 "                el tiempo de gestión del proyecto y de compras, se calcula "
 "en función de ello..."
 
@@ -1009,6 +1025,12 @@ msgstr "Línea de cocina"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Copy paste the export outcome in the \"2. Product Variants Export\" sheet"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Create a new fiscal position, give it a name and assign the applicable "
 "country."
 msgstr ""
@@ -1072,6 +1094,11 @@ msgstr "Ajustes a puertas"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Down Payment"
 msgstr "Anticipo"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Download the herein file."
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_28
@@ -1146,6 +1173,21 @@ msgid "Final word"
 msgstr "Comentario final"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Find your work item templates from the Sales App / Products / Work Items "
+"menu."
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Fine tune each work item clicking the line magic stick icon to secure your\n"
+"                margin. <br/>You're all set to send a first quote to your "
+"customer!"
+msgstr ""
+
+#. module: construction
 #: model:product.template,name:construction.product_template_55
 msgid "Fire-rated partitions"
 msgstr "Particiones resistentes al fuego"
@@ -1197,10 +1239,15 @@ msgstr "Limpieza de jardínes"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Generate a new quotation and select the Carport Construction template."
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Generate a new quotation and select the Renovation Project template."
 msgstr ""
-"Genera una nueva cotización y selecciona la plantilla "
-"\"Proyecto de renovación\"."
+"Genera una nueva cotización y selecciona la plantilla \"Proyecto de "
+"renovación\"."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_9
@@ -1304,6 +1351,11 @@ msgstr ""
 "reducida de forma automática."
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Import your work item database in few clicks!"
+msgstr ""
+
+#. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_2
 msgid "In Progress"
 msgstr "En progreso"
@@ -1328,8 +1380,8 @@ msgid ""
 "            Assigning the applicable fiscal position to your customer will "
 "make sure to use the appropriate taxes!"
 msgstr ""
-"En algunos países se aplican descuentos fiscales específicos en construcción."
-"\n"
+"En algunos países se aplican descuentos fiscales específicos en "
+"construcción.\n"
 "            Para gestionarlos, usa la posición fiscal y define qué impuesto "
 "sustituye a otro.\n"
 "            Al asignar la posición fiscal correspondiente a tu cliente, el "
@@ -1348,8 +1400,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "In the Sales &amp; Purchase tab, select the applicable fiscal position."
 msgstr ""
-"Selecciona la posición fiscal correspondiente en la pestaña "
-"\"Ventas y compras\"."
+"Selecciona la posición fiscal correspondiente en la pestaña \"Ventas y "
+"compras\"."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_42
@@ -1400,6 +1452,12 @@ msgstr ""
 "Ofrece herramientas de estimación precisas, gestión de subcontratistas, "
 "planeación avanzada, previsión de materiales y facturación basada en "
 "progreso."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Iterate as needed until your customer approves the order, then confirm it!"
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_48
@@ -1466,6 +1524,18 @@ msgstr "Iluminación"
 #: model:documents.document,name:construction.documents_document_33
 msgid "Maintenance & Handover"
 msgstr "Mantenimiento y entrega"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Making sure you don't waste time generating quotes which may never be signed "
+"is paramount\n"
+"            to run your business efficiently. <br/>To help you with this "
+"aspects, we configured the <strong>\n"
+"            Sales App</strong> with work items to be leveraged straight "
+"from\n"
+"            quotation from."
+msgstr ""
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_2
@@ -1611,6 +1681,13 @@ msgstr "Una vez confirmada, la cotización se convierte en una orden de venta."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open again the Product Variants list, select them all and proceed to an\n"
+"                        (import-compatible) export with only their names"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open now the Taxes still from the configuration menu."
 msgstr "Ahora abre \"Impuestos\" desde el menú de configuración."
 
@@ -1626,11 +1703,26 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Open the Product Variants list and proceed to import of the \"1. Product\n"
+"                        Variants Import\" sheet"
+msgstr ""
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Open the Progress view. It captures all sale order lines associated to this "
 "project."
 msgstr ""
 "Abre la vista de progreso. Podrás ver todas las líneas de la orden de venta "
 "asociadas a este proyecto."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open the Work Items list and proceed to import of the \"3. Work Items "
+"Import\"\n"
+"                        sheet"
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2058,8 +2150,8 @@ msgid ""
 msgstr ""
 "El <strong>módulo CRM</strong> ayuda a las empresas de construcción a "
 "recibir leads desde varias\n"
-"            fuentes, comunicarse con clientes y programar seguimientos. <br/>"
-"Puedes\n"
+"            fuentes, comunicarse con clientes y programar seguimientos. <br/"
+">Puedes\n"
 "            priorizar oportunidades de alto valor y convertir consultas en "
 "proyectos rentables."
 
@@ -2329,6 +2421,11 @@ msgid "Work Manager"
 msgstr "Gerente de trabajo"
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "WorkItems_PoolDeck.xlsx"
+msgstr ""
+
+#. module: construction
 #: model:planning.role,name:construction.planning_role_4
 msgid "Worker"
 msgstr "Trabajador"
@@ -2383,8 +2480,8 @@ msgid ""
 "which might be an issue for\n"
 "            your traceability."
 msgstr ""
-"Es probable que hayas probado este paquete con o sin datos de demostración. <"
-"br/>De cualquier forma, es probable\n"
+"Es probable que hayas probado este paquete con o sin datos de demostración. "
+"<br/>De cualquier forma, es probable\n"
 "             que hayas escrito registros en diarios que no se pueden "
 "eliminar y eso puede ocasionar problemas con \n"
 "            tu trazabilidad."
@@ -2415,6 +2512,13 @@ msgstr "plan.png"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "⏲️ Time sheet based progress management"
 msgstr "⏲️ Gestión del progreso basada en el registro de horas"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"⏳ First quote in record time leveraging the work items (Construction "
+"Developer)"
+msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body

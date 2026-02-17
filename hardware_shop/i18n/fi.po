@@ -13,13 +13,13 @@
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# Saara Hakanen <sahak@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-20 12:53+0000\n"
-"PO-Revision-Date: 2025-12-13 19:51+0000\n"
+"PO-Revision-Date: 2026-02-11 14:47+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "hardware_shop/fi/>\n"
@@ -338,8 +338,8 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Use Case."
 msgstr ""
-"Jos haluat suorittaa tämän moduulin käytännöllisen opastuskierroksen, sinun "
-"tulisi tuoda demotiedot ja testata  käyttötapausta."
+"Jos haluat tutustua moduuliin käytännönläheisen ohjatun esittelyn kautta, "
+"sinun kannattaa tuoda demotiedot ja kokeilla esimerkkitapausta."
 
 #. module: hardware_shop
 #: model:product.template,name:hardware_shop.product_template_104
@@ -579,7 +579,7 @@ msgstr "Tämä kaikki kuuluu ilmaiseksi tilaukseesi; tutustu siihen vapaasti! �
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
 msgid "Use Case"
-msgstr "Käyttötapaus"
+msgstr "Esimerkkitapaus"
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
@@ -716,8 +716,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Sait demon käyttötapauksen valmiiksi! On olemassa monia muitakin tapoja "
-"mukauttaa Odoo-asetuksia vastaamaan yrityksesi tarpeita."
+"Suoritit demon esimerkkitapauksen! On olemassa lukuisia muitakin tapoja "
+"räätälöidä Odoo-asetukset yrityksesi tarpeiden mukaiseksi."
 
 #. module: hardware_shop
 #: model_terms:ir.ui.view,arch_db:hardware_shop.welcome_article_body
