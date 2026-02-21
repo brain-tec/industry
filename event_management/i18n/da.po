@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-23 17:53+0000\n"
-"PO-Revision-Date: 2026-01-24 23:52+0000\n"
+"PO-Revision-Date: 2026-02-14 23:52+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "event_management/da/>\n"
@@ -1437,7 +1437,7 @@ msgstr "Følg os"
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_21
 msgid "Food"
-msgstr "Kost"
+msgstr "Mad"
 
 #. module: event_management
 #: model:sale.order.template.line,name:event_management.sale_order_template_line_11
@@ -2759,7 +2759,7 @@ msgstr "Velkomstkomité"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Welcome to the <strong>Odoo Event Management</strong> package!"
-msgstr "Velkommen til <strong>Odoos eventadministrationspakke</strong>!"
+msgstr "Velkommen til <strong>Odoo-pakken til eventadministration</strong>!"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2926,8 +2926,8 @@ msgid ""
 "You’ll see how often each tent has been rented, the total revenue generated "
 "(based on the sales price), and compare it with the product’s cost."
 msgstr ""
-"Du kan se, hvor ofte hvert telt er blevet udlejet, den samlede indtjening ("
-"baseret på salgsprisen) og sammenligne den med produktets omkostninger."
+"Du kan se, hvor ofte hvert telt er blevet udlejet, den samlede indtjening "
+"(baseret på salgsprisen) og sammenligne den med produktets omkostninger."
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_34_product_template

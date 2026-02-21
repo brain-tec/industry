@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 15:53+0000\n"
-"PO-Revision-Date: 2026-01-24 23:52+0000\n"
+"PO-Revision-Date: 2026-02-14 23:53+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "shoe_maker/da/>\n"
@@ -171,7 +171,7 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr ""
+msgstr "<strong>Det grundlæggende</strong>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -302,6 +302,8 @@ msgid ""
 "Discover the basics of this package in this article, and explore all the "
 "possibilities Odoo offers to make your day-to-day more efficient to run."
 msgstr ""
+"Få indsigt i de grundlæggende funktioner i denne pakke, og udforsk de mange "
+"muligheder, Odoo tilbyder, for at gøre din dagligdag mere effektiv."
 
 #. module: shoe_maker
 #: model:project.task.type,name:shoe_maker.project_task_type_20
@@ -575,7 +577,7 @@ msgstr ""
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Kontakt os"
 
 #. module: shoe_maker
 #: model:ir.model.fields,field_description:shoe_maker.field_sale_order_collectible
