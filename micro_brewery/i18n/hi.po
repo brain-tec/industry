@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-03 09:18+0000\n"
-"PO-Revision-Date: 2026-01-03 22:50+0000\n"
+"PO-Revision-Date: 2026-02-14 22:51+0000\n"
 "Last-Translator: \"Ujjawal Pathak (pauj)\" <pauj@odoo.com>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-s18-3/"
 "micro_brewery/hi/>\n"
@@ -25,33 +25,39 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#, fuzzy
 msgid "+1 555-555-5556"
-msgstr ""
+msgstr "+1 555-555-5556"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_17
+#, fuzzy
 msgid "+16"
-msgstr ""
+msgstr "+16"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_18
+#, fuzzy
 msgid "+18"
-msgstr ""
+msgstr "+18"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ", and feel free to"
-msgstr ""
+msgstr ", और बेझिझक"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_34
+#, fuzzy
 msgid "24x33cl"
-msgstr ""
+msgstr "24x33cl"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_29
+#, fuzzy
 msgid "33cl"
-msgstr ""
+msgstr "33cl"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -59,6 +65,8 @@ msgid ""
 "<font class=\"text-o-color-1\">o-beer ®</font><br/>The craft beers made for "
 "you"
 msgstr ""
+"<font class=\"text-o-color-1\">o-beer ®</font><br/>खास आपके लिए तैयार की गई क्राफ्ट "
+"बीयर"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -95,46 +103,61 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\" aria-label=\"Banner Success\">✅</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Success\" aria-label=\"Banner Success\">🎉</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-label="
+"\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">⚠️</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
-msgstr ""
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -142,6 +165,8 @@ msgid ""
 "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
 "                  <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">अगला</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -149,22 +174,26 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
 "                  <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">पिछला</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h1-fs\">Do you want to go further?</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">क्या आप आगे बढ़ना चाहते हैं?</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<span class=\"h3-fs\"><strong>Analyse your sales.</strong></span>"
 msgstr ""
+"<span class=\"h3-fs\"><strong>अपनी सेल्स का विश्लेषण करें.</strong></span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<span class=\"h3-fs\"><strong>Take an order at the Bar</strong></span> <br/>"
-msgstr ""
+msgstr "<span class=\"h3-fs\"><strong>बार से ऑर्डर लें</strong></span> <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -172,6 +201,7 @@ msgid ""
 "<span class=\"h3-fs\"><strong>Visit the website and make an order.</strong></"
 "span>"
 msgstr ""
+"<span class=\"h3-fs\"><strong>वेबसाइट पर जाएं और ऑर्डर करें.</strong></span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -183,6 +213,12 @@ msgid ""
 "Customer,&amp;nbsp;regular customer in fact</span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>एमिली जोन्स</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\"> ग्राहक,&amp;nbsp;असल में "
+"नियमित ग्राहक</span>\n"
+"                          </span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -194,6 +230,12 @@ msgid ""
 "Operations at New beach house restaurant chain</span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>जोन स्मिथ</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\">&amp;nbsp; चीफ ऑफ़ ऑपरेशं"
+"स, न्यू बीच हाउस रेस्टोरेंट चेन</span>\n"
+"                          </span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -205,6 +247,12 @@ msgid ""
 "Customer,&amp;nbsp;visit and bar</span>\n"
 "                          </span>"
 msgstr ""
+"<span class=\"o_small\">\n"
+"                            <strong>जॉन स्नो</strong>\n"
+"                            <br/>\n"
+"                            <span class=\"text-muted\"> ग्राहक,&amp;nbsp;बार में "
+"आते रहते हैं</span>\n"
+"                          </span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -269,12 +317,12 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong><font class=\"text-o-color-1\">Ecommerce</font></strong> (B2C)"
-msgstr ""
+msgstr "<strong><font class=\"text-o-color-1\">ई-कॉमर्स</font></strong> (B2C)"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong><span class=\"h3-fs\">Rental</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h3-fs\">रेंटल</span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -282,6 +330,7 @@ msgid ""
 "<strong><span class=\"h3-fs\">Schedule a visit from the website.</span></"
 "strong> <br/>"
 msgstr ""
+"<strong><span class=\"h3-fs\">वेबसाइट से विज़िट शेड्यूल करें.</span></strong> <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -289,22 +338,26 @@ msgid ""
 "<strong><span class=\"h3-fs\">Sell your products and deliver it to a bar</"
 "span></strong>"
 msgstr ""
+"<strong><span class=\"h3-fs\">अपने प्रॉडक्ट बेचें और उनकी डिलीवरी बार में "
+"करें</span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Basics</strong>"
-msgstr ""
+msgstr "<strong>बेसिक</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Crafting 📦</strong>"
-msgstr ""
+msgstr "<strong>क्राफ़्टिंग 📦</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "<strong>Create and add the By-product</strong>s, for example:Spent Grain"
 msgstr ""
+"<strong>मुख्य प्रॉडक्ट के साथ बनने वाले अन्य प्रॉडक्ट बनाएं और शामिल करें</strong>, उदाहरण के लिए: "
+"स्पेंट ग्रेन"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -312,16 +365,17 @@ msgid ""
 "<strong>Create the operations</strong> of your recipe with the right work "
 "center, for example:"
 msgstr ""
+"सही वर्क सेंटर के साथ अपनी रेसिपी के <strong>ऑपरेशंस बनाएं</strong>, उदाहरण के लिए:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Excise categories maintenance</strong>"
-msgstr ""
+msgstr "<strong>एक्साइज टैक्स की अलग-अलग कैटेगरी को मैनेज करना</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Excise reporting</strong>"
-msgstr ""
+msgstr "<strong>एक्साइज टैक्स रिपोर्ट</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -329,6 +383,8 @@ msgid ""
 "<strong>Indicate if there are instructions</strong> the operator should do "
 "during some operation, for example:"
 msgstr ""
+"<strong>बताएं कि क्या कोई निर्देश हैं</strong> जो ऑपरेटर को किसी ऑपरेशन के दौरान करने चाहिए, उदाहरण के"
+" लिए:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -337,21 +393,23 @@ msgid ""
 "your recipe and the quantity that should be produced with the recipe. for "
 "example:"
 msgstr ""
+"<strong>बताएं कि आपकी रेसिपी के अंत में फिनिश्ड प्रॉडक्ट</strong> क्या होगा और उस रेसिपी से कितनी मात्रा तैया"
+"र होनी चाहिए, उदाहरण के लिए:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Selling 💸</strong>"
-msgstr ""
+msgstr "<strong>सेलिंग 💸</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr ""
+msgstr "<strong>यूज़ केस</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Visiting the Brewery 🎫</strong>"
-msgstr ""
+msgstr "<strong>ब्रूअरी की विज़िट 🎫</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -360,11 +418,14 @@ msgid ""
 "boxes, which in practice the same as the as the finished product beer "
 "bottle, the last one being here to support the split use case at the bar."
 msgstr ""
+"यहां एक ऐसी बीयर बोतल (सेमी-फिनिश्ड) की ज़रूरत है जिसे बॉक्स में पैक किया जा सके. असल में यह बोतल वैसी ही है "
+"जैसी फाइनल बीयर बोतल होती है, लेकिन यहां इसे अलग से इसलिए रखा गया है, ताकि बार में बोतलों को अलग-अलग सर्"
+"व करने या बेचने की सुविधा मिल सके।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "About us"
-msgstr ""
+msgstr "हमारे बारे में"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -372,6 +433,7 @@ msgid ""
 "Add products in your cart and pay using the payment method \"Demo\" which is "
 "a fake payment method you can use to test flows."
 msgstr ""
+"कार्ट में प्रॉडक्ट जोड़ें और \"डेमो\" पेमेंट मोड से भुगतान करें. फ्लो टेस्ट करने के लिए यह एक डमी पेमेंट मोड है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -379,6 +441,8 @@ msgid ""
 "After (or during) the meeting, you can use the button \"New Quotation\" to "
 "create an offer for the customer. Once it is done, send it to the customer."
 msgstr ""
+"मीटिंग के बाद (या दौरान), ग्राहक के लिए ऑफर बनाने हेतु \"नया कोटेशन\" बटन का उपयोग करें. ऑफ़र तैयार होने "
+"पर उसे ग्राहक को भेजें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -388,16 +452,18 @@ msgid ""
 "create a product to sell in your bar/restaurant (e.g. Draft beer, "
 "snack, ...)."
 msgstr ""
+"विज़िट के बाद, मेहमानों के लिए बीयर का आनंद लेना हमेशा शानदार रहता है. \"पॉइंट ऑफ़ सेल\" ऐप में जाएं और अपने"
+" बार/रेस्टोरेंट में बेचने के लिए प्रॉडक्ट (जैसे ड्रॉफ्ट बीयर, स्नैक वगैरह) बनाएं।"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_15
 msgid "Age Limit"
-msgstr ""
+msgstr "उम्र सीमा"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_5
 msgid "Amber"
-msgstr ""
+msgstr "एंबर"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -405,6 +471,8 @@ msgid ""
 "Apply DEP XX taxes to those products, creating some if necessary, and assign "
 "them a category with \"Is a deposit category\" set like the Deposit category."
 msgstr ""
+"इन प्रॉडक्ट पर DEP XX टैक्स लगाएं, ज़रूरत पड़ने पर नए टैक्स बनाएं. साथ ही, इन्हें उस कैटेगरी में रखें जहां"
+" \"डिपोज़िट कैटगरी है\" सेट हो।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -412,28 +480,29 @@ msgid ""
 "Assign the relevant excise category, input the Excise Amount and the Excise "
 "Quantity in the reporting unit and then save your product."
 msgstr ""
+"संबंधित एक्साइज कैटेगरी चुनें, रिपोर्टिंग यूनिट में एक्साइज राशि और मात्रा दर्ज करें और फिर अपना प्रॉडक्ट सेव करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "At any time you can select a table and register the payment to close the "
 "table."
-msgstr ""
+msgstr "किसी भी समय टेबल चुनें और टेबल क्लोज करने के लिए पेमेंट रजिस्टर करें।"
 
 #. module: micro_brewery
 #: model:base.automation,name:micro_brewery.auto_production
 msgid "Auto Production"
-msgstr ""
+msgstr "ऑटो प्रॉडक्शन"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_aut_production
 msgid "Auto-production"
-msgstr ""
+msgstr "ऑटो-प्रॉडक्शन"
 
 #. module: micro_brewery
 #: model:base.automation,name:micro_brewery.bom_automation
 msgid "Automated BoM"
-msgstr ""
+msgstr "ऑटोमेटेड बीओएम"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -441,16 +510,19 @@ msgid ""
 "Automated manufacturing order bill of materials define how semi-finished "
 "bottles are packaged into boxes and how boxes can be split into beer bottles."
 msgstr ""
+"ऑटोमेटेड मैन्युफैक्चरिंग ऑर्डर बिल ऑफ मैटेरियल्स यह तय करते हैं कि सेमी-फिनिश्ड बोतलों को बॉक्स में कैसे पैक किया जा"
+"ए और बॉक्स को अलग-अलग बोतलों में कैसे बांटा जाए।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Automated manufacturing orders / Inventory in crates"
-msgstr ""
+msgstr "ऑटोमेटेड मैन्युफैक्चरिंग ऑर्डर्स / क्रेट्स में इन्वेंट्री"
 
 #. module: micro_brewery
 #: model:product.pricelist,name:micro_brewery.product_pricelist_2
+#, fuzzy
 msgid "B2B"
-msgstr "बी-टू-बी "
+msgstr "B2B"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -458,121 +530,123 @@ msgid ""
 "Bar &amp; Shop at the Brewery (B2C) - Using the <strong><font class=\"text-o-"
 "color-1\">Point of Sales App</font></strong>"
 msgstr ""
+"ब्रूअरी पर बार और शॉप (B2C) - <strong><font class=\"text-o-color-1\">पॉइंट ऑफ़ सेल्स "
+"ऐप्लिकेशन</font> का इस्तेमाल करें</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Beer bottle (33cl), 3000 units (+- 10hL)"
-msgstr ""
+msgstr "बीयर की बोतल (33cl), 3000 यूनिट (+- 10hL)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_90_product_template
 msgid "Beer cooler with tap - for 1 x 50 litre keg "
-msgstr ""
+msgstr "टैप के साथ बीयर कूलर - 1 x 50 लीटर केग के लिए "
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_10
 msgid "Beer type"
-msgstr ""
+msgstr "बीयर टाइप"
 
 #. module: micro_brewery
 #: model:pos.category,name:micro_brewery.pos_category_4
 #: model:product.public.category,name:micro_brewery.product_public_category_3
 msgid "Beers"
-msgstr ""
+msgstr "बीयर"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_32
 msgid "Bin"
-msgstr ""
+msgstr "बिन"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_5
 msgid "Black"
-msgstr ""
+msgstr "ब्लैक"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_2
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_7
 msgid "Blond"
-msgstr ""
+msgstr "ब्लॉन्ड"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_20
 msgid "Blond Beer"
-msgstr ""
+msgstr "ब्लॉन्ड बीयर"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_30_product_template
 msgid "Blond Beer (25cl)"
-msgstr ""
+msgstr "ब्लॉन्ड बीयर (25cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_29
 msgid "Blond Beer (50cl)"
-msgstr ""
+msgstr "ब्लॉन्ड बीयर (50cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_2
 msgid "Blond Beer - Bottle"
-msgstr ""
+msgstr "ब्लॉन्ड बीयर - बॉटल"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_3
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_4
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_8
 msgid "Blond Beer - Box"
-msgstr ""
+msgstr "ब्लॉन्ड बीयर - बॉक्स"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_17
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_9
 msgid "Blond Beer - Keg 20L"
-msgstr ""
+msgstr "ब्लॉन्ड बीयर - Keg 20L"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_1
 msgid "Blond Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "ब्लॉन्ड बीयर - केग 20L जिसमें 24 x 33cl शामिल है"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_6
 msgid "Blue"
-msgstr ""
+msgstr "ब्लू"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Boiling - Work center: Kettle"
-msgstr ""
+msgstr "बॉयलिंग - वर्क सेंटर: केटल"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Book a visit"
-msgstr ""
+msgstr "विज़िट बुक करें"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
 msgid "Book your spot now and raise a glass to a memorable brewery experience!"
-msgstr ""
+msgstr "अभी अपनी जगह बुक करें और ब्रूअरी के शानदार अनुभव का आनंद लें!"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_6
 msgid "Bottle"
-msgstr ""
+msgstr "बॉटल"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bottling - Work center: Bottler"
-msgstr ""
+msgstr "बॉटलिंग - वर्क सेंटर: बॉटलर"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bown Beer - Bottle in 33cl is the unit sale product"
-msgstr ""
+msgstr "ब्राउन बीयर - 33cl की बोतल यूनिट सेल प्रॉडक्ट है"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bown Beer - Box in 24x33cl is your main product"
-msgstr ""
+msgstr "ब्राउन बीयर - 24x33cl का बॉक्स आपका मुख्य प्रॉडक्ट है"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_16
@@ -583,55 +657,55 @@ msgstr "ब्रैंड"
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_3
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_10
 msgid "Brown"
-msgstr ""
+msgstr "ब्राउन"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_21
 msgid "Brown Beer"
-msgstr ""
+msgstr "ब्राउन बीयर"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_35_product_template
 msgid "Brown Beer (25cl)"
-msgstr ""
+msgstr "ब्राउन बीयर (25cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_36_product_template
 msgid "Brown Beer (50cl)"
-msgstr ""
+msgstr "ब्राउन बीयर (50cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_14
 msgid "Brown Beer - Bottle"
-msgstr ""
+msgstr "ब्राउन बीयर - बॉटल"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_92
 msgid "Brown Beer - Bottle unit"
-msgstr ""
+msgstr "ब्राउन बीयर - बॉटल यूनिट"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_16
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_11
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_5
 msgid "Brown Beer - Box"
-msgstr ""
+msgstr "ब्राउन बीयर - बॉक्स"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_18
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_12
 msgid "Brown Beer - Keg 20L"
-msgstr ""
+msgstr "ब्राउन बीयर - Keg 20L"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_3
 msgid "Brown Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "ब्राउन बीयर - केग 20L जिसमें 24 x 33cl शामिल है"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_24
 msgid "Brussels beer project"
-msgstr ""
+msgstr "ब्रसेल्स बीयर प्रोजेक्ट"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -640,6 +714,8 @@ msgid ""
 "but you can edit the page and change the behavior of the submit button to "
 "create a lead into the CRM application instead."
 msgstr ""
+"डिफ़ॉल्ट रूप से वेबसाइट का \"हमसे संपर्क करें\" पेज आपको ईमेल भेजेगा, लेकिन आप पेज को एडिट कर सकते हैं "
+"और सबमिट बटन के व्यवहार को बदल कर सीआरएम एप्लिकेशन में लीड बना सकते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -648,26 +724,29 @@ msgid ""
 "bunch of interesting presets to ensure you can easily execute the following "
 "use case."
 msgstr ""
+"इस मॉड्यूल का डेमो डेटा अपलोड करने से आपके डेटाबेस में कई उपयोगी प्रीसेट्स भर दिए गए हैं, ताकि आप नीचे दिए "
+"गए यूज़ केस को आसानी से चला सकें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Carefully brewed by our master brewers"
-msgstr ""
+msgstr "हमारे अनुभवी कारीगरों द्वारा बेहद बारीकी से बनाई गई बीयर"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Carousel indicator"
-msgstr ""
+msgstr "कैरोसल इंडिकेटर"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_5
 msgid "Case"
-msgstr ""
+msgstr "केस"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_21
+#, fuzzy
 msgid "Chaudfontaine"
-msgstr ""
+msgstr "Chaudfontaine"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -678,6 +757,10 @@ msgid ""
 "be\n"
 "        reflected on his invoice or issue a credit note."
 msgstr ""
+"जब आप अपने कस्टमर को डिलीवरी दें, तब डिपॉजिट कलेक्ट करें. यह आसान है. अपनी डिलीवरी वैलिडेट करते समय, "
+"आप सीधे \"वापसी\" सेट कर सकते हैं और कस्टमर द्वारा दिए गए प्रत्येक प्रकार के डिपॉजिट को सटीक रूप से गिन "
+"सकते हैं. यह अपने-आप\n"
+"        उसके इनवॉइस पर दिखाई देगा या क्रेडिट नोट जारी कर देगा।"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -687,12 +770,12 @@ msgstr "कलर"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Come visit the brewery&amp;nbsp;<br/>"
-msgstr ""
+msgstr "ब्रूअरी देखने आएं&amp;nbsp;<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Connect with us"
-msgstr ""
+msgstr "हमसे जुड़ें"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_6
@@ -708,6 +791,9 @@ msgid ""
 "                                            We'll do our best to get back to "
 "you as soon as possible."
 msgstr ""
+"हमारी कंपनी या सेवाओं से संबंधित किसी भी चीज़ के लिए हमसे संपर्क करें.<br/>\n"
+"                                            हम जल्द से जल्द आपको जवाब देने की पूरी कोशिश "
+"करेंगे।"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_quantity_by_deposit_product
@@ -720,6 +806,8 @@ msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
 "color-1\"><strong>Manufacture App</strong></font>"
 msgstr ""
+"क्राफ्टिंग बीयर - मुख्य रूप से <font class=\"text-o-color-1\"><strong>मैन्युफ़ैक्चर "
+"ऐप्लिकेशन</strong></font> का इस्तेमाल करना"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -727,145 +815,156 @@ msgid ""
 "Create a new excise category defining its name, description and reporting "
 "unit following the legislation which applies."
 msgstr ""
+"कानूनी नियमों का पालन करते हुए एक नई एक्साइज कैटेगरी बनाएं और उसका नाम, जानकारी और रिपोर्टिंग यूनिट भरें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Create a recipe"
-msgstr ""
+msgstr "एक रेसिपी बनाएं"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Create deposit products for each different type of consigns."
 msgstr ""
+"हर तरह के रिटर्नेबल आइटम (जैसे बोतल या केग) के लिए अलग डिपॉजिट प्रॉडक्ट तैयार करें।"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_01_purchase
 #: model:account.tax,name:micro_brewery.account_tax_01_sale
+#, fuzzy
 msgid "DEP 0.1"
-msgstr ""
+msgstr "DEP 0.1"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_21_sale
+#, fuzzy
 msgid "DEP 2.1"
-msgstr ""
+msgstr "DEP 2.1"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_24_purchase
 #: model:account.tax,name:micro_brewery.account_tax_24_sale
+#, fuzzy
 msgid "DEP 2.4"
-msgstr ""
+msgstr "DEP 2.4"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_46_purchase
 #: model:account.tax,name:micro_brewery.account_tax_46_sale
+#, fuzzy
 msgid "DEP 35"
-msgstr ""
+msgstr "DEP 35"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_45_purchase
 #: model:account.tax,name:micro_brewery.account_tax_45_sale
+#, fuzzy
 msgid "DEP 4.5"
-msgstr ""
+msgstr "DEP 4.5"
 
 #. module: micro_brewery
 #: model:base.automation,name:micro_brewery.make_deposit_storable_delivery_invoice
 msgid "Default fields for deposits"
-msgstr ""
+msgstr "डिपोज़िट के लिए डिफ़ॉल्ट फ़ील्ड"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Define the required product fields."
-msgstr ""
+msgstr "प्रॉडक्ट की ज़रूरी जानकारी भरने के लिए जगह तय करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deliveries of beer boxes are clear."
-msgstr ""
+msgstr "बीयर के बक्सों की डिलीवरी की प्रक्रिया साफ और पूरी है।"
 
 #. module: micro_brewery
 #: model:account.tax.group,name:micro_brewery.deposit_tax_group
 #: model:pos.category,name:micro_brewery.pos_category_5
 msgid "Deposit"
-msgstr "डिपोज़िट "
+msgstr "डिपोज़िट"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_90
 msgid "Deposit 0.1"
-msgstr ""
+msgstr "डिपोज़िट 0.1"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_56
 msgid "Deposit 2.1"
-msgstr ""
+msgstr "डिपोज़िट 2.1"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit 2.1 is the empty deposit product"
-msgstr ""
+msgstr "डिपॉजिट 2.1 खाली डिपॉजिट प्रॉडक्ट है"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_53
 msgid "Deposit 2.4"
-msgstr ""
+msgstr "डिपोज़िट 2.4"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_55
 msgid "Deposit 4.5"
-msgstr ""
+msgstr "डिपोज़िट 4.5"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Deposit 4.5 is the complete deposit product (deposits of all bottles and "
 "crate)"
-msgstr ""
+msgstr "डिपॉजिट 4.5 में सभी बोतलों और क्रेट के डिपॉजिट की कुल राशि शामिल है"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
 msgid "Deposit Keg"
-msgstr ""
+msgstr "डिपॉजिट केग"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit Management 🍻"
-msgstr ""
+msgstr "डिपोज़िट मैनेजमेंट 🍻"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit assignation"
-msgstr ""
+msgstr "डिपोज़िट असाइनेशन"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
 msgid "Deposit product"
-msgstr ""
+msgstr "डिपोज़िट प्रॉडक्ट"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
 msgid "Deposit product must be set in Deposit category"
-msgstr ""
+msgstr "डिपॉजिट प्रॉडक्ट को डिपॉजिट कैटेगरी में सेट किया जाना चाहिए"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit return from customers"
-msgstr ""
+msgstr "ग्राहकों से डिपोज़िट रिटर्न"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "पर जाकर Odoo के बारे में और जानें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Discover our latest brews"
-msgstr ""
+msgstr "हमारे नए ब्रूज़ देखें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
+"इस पैकेज की मूल बातें जानें और अपने अनुभव को बेहतर बनाने के लिए Odoo द्वारा दिए गए सभी विकल्पों को एक्सप्लो"
+"र करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -873,6 +972,8 @@ msgid ""
 "Don't hesitate to come visit us!&amp;nbsp;<br/>We will show you the way we "
 "craft our delicious beers."
 msgstr ""
+"हमसे मिलने आने में संकोच न करें! &amp;nbsp;<br/>हम आपको दिखाएंगे कि हम अपनी बेहतरीन बीयर कैसे तैयार "
+"करते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -882,6 +983,9 @@ msgid ""
 "shirt, sweet shirt, beer glass, ...) that will be bought by your fans that "
 "will become your ambassadors."
 msgstr ""
+"ई-कॉमर्स का इस्तेमाल एक ऐसा ब्रैंड बनाने के लिए किया जा सकता है जो सिर्फ एक बीयर से बढ़कर हो. आप मर्चेंडाइजिं"
+"ग प्रॉडक्ट (टी-शर्ट, स्वेटशर्ट, बीयर ग्लास, वगैरह) जोड़कर \"क्रॉस-सेलिंग\" कर सकते हैं. इन्हें आपके प्रशं"
+"सक खरीदेंगे और वे आपके ब्रैंड एंबेसडर बन जाएंगे।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
@@ -891,7 +995,7 @@ msgstr "ईमेल"
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_empty_deposit
 msgid "Empty deposit product"
-msgstr ""
+msgstr "डिपोज़िट प्रॉडक्ट खाली है"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -900,6 +1004,8 @@ msgid ""
 "from the fiscal deposit of a supplier. To define such suppliers, adapt their "
 "fiscal position to handle excise tax."
 msgstr ""
+"FD से एंट्री उन प्रॉडक्ट से संबंधित है जो सप्लायर के फिजिकल डिपोज़िट से आपके फिजिकल डिपोज़िट वेयरहाउस में आते हैं"
+". ऐसे सप्लायर को तय करने के लिए, उनकी फिस्कल पोजीशन को एक्साइज टैक्स संभालने के लिए बदलें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -908,6 +1014,8 @@ msgid ""
 "from a fiscal deposit warehouse. In such case, you ask for excise credits "
 "with your excise declaration."
 msgstr ""
+"एंट्री का इस्तेमाल तब किया जाता है जब आप प्रॉडक्ट खरीदते हैं या प्रॉडक्ट वापस आते हैं जो फिस्कल डिपोज़िट वेयरहा"
+"उस से नहीं होते हैं. ऐसे मामले में, आप अपने एक्साइज डिक्लेरेशन के साथ एक्साइज क्रेडिट की मांग करते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -917,28 +1025,31 @@ msgid ""
 "stock, in 24 units and take into account an extra empty bin that will be "
 "left at the end."
 msgstr ""
+"हर बार जब आपको एक अकेली ब्राउन बीयर - बॉटल बेचने की ज़रूरत होती है और स्टॉक कम होता है, तो सिस्टम स्टॉ"
+"क में मौजूद ब्राउन बीयर - बॉक्स को 24 यूनिट में बाँट देगा और अंत में बचने वाले एक खाली बिन को भी हिसाब में "
+"रखेगा।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Excise Management 🧾"
-msgstr ""
+msgstr "एक्साइज़ मैनेजमेंट 🧾"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Excise management consists in two dimensions in this package:"
-msgstr ""
+msgstr "इस पैकेज में एक्साइज़ मैनेजमेंट के दो डाइमेंशन शामिल हैं:"
 
 #. module: micro_brewery
 #: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
 #: model:ir.actions.server,name:micro_brewery.bom_server_action
 #: model:ir.actions.server,name:micro_brewery.update_sales_taxes_server_action
 msgid "Execute Code"
-msgstr ""
+msgstr "कोड लागू करें"
 
 #. module: micro_brewery
 #: model:ir.actions.server,name:micro_brewery.update_state
 msgid "Execute Existing Actions"
-msgstr ""
+msgstr "जो एक्शन पहले से सेट हैं, उन्हें चलाएं"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -946,6 +1057,8 @@ msgid ""
 "Exit means that products exited your fiscal deposit, to another warehouse of "
 "your or through a delivery to a customer without fiscal deposit warehouse."
 msgstr ""
+"एग्ज़िट का मतलब है प्रॉडक्ट का टैक्स-फ्री वेयरहाउस से बाहर जाना. चाहे वे आपके किसी अन्य वेयरहाउस में गए हों या"
+" बिना फिस्कल डिपोज़िट वाले किसी ग्राहक को डिलीवर किए गए हों।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -954,6 +1067,8 @@ msgid ""
 "fiscal deposit of a customer. To define such customers, adapt their fiscal "
 "position to handle excise tax."
 msgstr ""
+"FD से एग्जिट उन प्रॉडक्ट को दिखाता है जो आपके फिस्कल डिपॉजिट वेयरहाउस से किसी ग्राहक के फिस्कल डिपॉजिट में जाते "
+"हैं. ऐसे ग्राहकों को सेट करने के लिए, उनकी फिस्कल पोजीशन को एक्साइज टैक्स संभालने के लिए बदलें।"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
@@ -962,37 +1077,40 @@ msgid ""
 "a behind-the-scenes look at our brewing process, sample our best brews, and "
 "learn from our experts."
 msgstr ""
+"90 मिनट की गाइडेड ब्रुअरी विज़िट के साथ क्राफ्ट बीयर की कला को जानें. हमारी ब्रूइंग प्रक्रिया को करीब से देखें, "
+"हमारे बेहतरीन ब्रूज़ का स्वाद लें और हमारे विशेषज्ञों से सीखें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Extra page"
-msgstr ""
+msgstr "अतिरिक्त पेज"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+#, fuzzy
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Fermenting - Work center: Fermentation Vessel"
-msgstr ""
+msgstr "फर्मेंटिंग - वर्क सेंटर: फर्मेंटेशन वेसल"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Filtering - Work center: Fermentation Vessel"
-msgstr ""
+msgstr "फ़िल्टरिंग - वर्क सेंटर: फ़र्मेंटेशन वेसल"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Follow us"
-msgstr ""
+msgstr "हमें फ़ॉलो करें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "For example:"
-msgstr ""
+msgstr "उदाहरण के लिए:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1001,6 +1119,8 @@ msgid ""
 "happy with the tasting experience at the bar just after with all those "
 "explanations in mind!"
 msgstr ""
+"शुरू से अंत तक, टीम ने ब्रूअरी का शानदार टूर कराया. बाद में बार में चखने के अनुभव और मिली जानकारियों से बहुत खु"
+"श हूँ!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1009,6 +1129,8 @@ msgid ""
 "menu Configuration / Excise Categories. <br/>Here you can define new and "
 "maintain existing excise categories."
 msgstr ""
+"<strong>इन्वेंट्री ऐप्लिकेशन</strong> से, मेन्यू कॉन्फ़िगरेशन / एक्साइज़ कैटगरी से एक्साइज़ कैटगरी खोलें. <"
+"br/>यहां नई एक्साइज़ कैटगरी बनाएं और मौजूदा को मैनेज करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1018,6 +1140,9 @@ msgid ""
 "all your beers already in it. You can also create pricelists that you can "
 "assign on your customers too;"
 msgstr ""
+"सेल्स ऐप का इस्तेमाल करके आप बार-बार इस्तेमाल होने वाले ऑफ़र के लिए एक खास टेम्पलेट तैयार कर सकते हैं, ताकि"
+" समय बचाया जा सके. उदाहरण के लिए, आप एक ऐसा टेम्पलेट बना सकते हैं जिसमें आपके सभी बियर पहले से ही शामि"
+"ल हों. आप मूल्य सूची भी बना सकते हैं जिन्हें आप अपने ग्राहकों को सौंप सकते हैं."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1027,11 +1152,14 @@ msgid ""
 "a product to land on the product page, customize it then publish it so "
 "visitors can start ordering it."
 msgstr ""
+"वेबसाइट ऐप्लिकेशन से, \"शॉप\" पेज पर नेविगेट ऐक्सेस करें. आप देखेंगे कि आपके प्रॉडक्ट अभी पब्लिश नहीं हुए हैं"
+". किसी प्रॉडक्ट पर क्लिक करके प्रॉडक्ट पेज पर जाएं, उसे कस्टमाइज़ करें, फिर पब्लिश करें, ताकि ग्राहक उसे ऑर्"
+"डर कर सकें।"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_25_product_template
 msgid "Glass"
-msgstr ""
+msgstr "ग्लास"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1040,6 +1168,8 @@ msgid ""
 "the components you need to execute your recipe. Make sure you buy enough "
 "quantity of each components and validate the order."
 msgstr ""
+"परचेज़ ऐप्लिकेशन में जाएं और अपनी रेसिपी के लिए ज़रूरी सभी कंपोनेंट्स का नया परचेज़ ऑर्डर बनाएं. पक्का करें कि "
+"आप हर कंपोनेंट पर्याप्त मात्रा में खरीदें और ऑर्डर को वैलिडेट करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1047,46 +1177,48 @@ msgid ""
 "Go on the delivery order and indicate the quantity you received and create "
 "the lot numbers for each components."
 msgstr ""
+"डिलीवरी ऑर्डर खोलें, उसमें मिली हुई मात्रा लिखें और हर हिस्से के लिए एक अलग लॉट नंबर तैयार करें।"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_2
 msgid "Goodies"
-msgstr ""
+msgstr "गुडीज़"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_7
 msgid "Green"
-msgstr ""
+msgstr "ग्रीन"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_31
 msgid "Half-Pint"
-msgstr ""
+msgstr "हाफ़-पिन्ट"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Hello there!"
-msgstr ""
+msgstr "नमस्ते!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 msgid "Home"
-msgstr ""
+msgstr "होम"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_5_product_template
 msgid "Hops"
-msgstr ""
+msgstr "हॉप्स"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Hops - Goods, inventory tracking by lot."
-msgstr ""
+msgstr "हॉप्स - सामान, लॉट के ज़रिए इन्वेंट्री ट्रैकिंग।"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_14
+#, fuzzy
 msgid "IPA"
-msgstr ""
+msgstr "IPA"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1095,6 +1227,9 @@ msgid ""
 "strong>, ensure your unit of measure and products are correctly configured "
 "and use the Pivot Table in Sales App &gt; Reporting &gt; Sales."
 msgstr ""
+"अगर आपको <strong>एक निश्चित समय की कुल सेल्स</strong> रिपोर्ट एक साथ दिखानी है, तो पहले यूनिट्स "
+"और प्रॉडक्ट की सेटिंग्स चेक करें. इसके बाद सेल्स ऐप &gt; रिपोर्टिंग&gt; सेल्स सेक्शन में जाकर पिवट टेबल का "
+"इस्तेमाल करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1103,6 +1238,8 @@ msgid ""
 "such as beer boxes, precise a unit sale product in the so-called field and "
 "the number of units contained."
 msgstr ""
+"अगर आप चाहते हैं कि बीयर बॉक्स जैसा बड़ा पैक बिकने पर अपने आप छोटी यूनिट्स में बंट जाए, तो सेटिंग्स में सिंगल "
+"प्रॉडक्ट का नाम और एक बॉक्स में आने वाली बोतलों की गिनती भरें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1110,6 +1247,7 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Use Case."
 msgstr ""
+"इस मॉड्यूल को चलाकर सीखने के लिए, पहले सैंपल डेटा लोड करें और फिर दिए गए उदाहरण को टेस्ट करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1118,12 +1256,15 @@ msgid ""
 "App and discover how you can manage your rental schedule easily and provide "
 "a great extended service to your customers."
 msgstr ""
+"अगर आप अपने ग्राहकों को बीयर टैप किराए पर देना चाहते हैं, तो आप रेंटल ऐप देख सकते हैं और जान सकते हैं कि "
+"आप अपने रेंटल शेड्यूल को आसानी से कैसे मैनेज कर सकते हैं और अपने ग्राहकों को एक बेहतरीन सर्विस दे सकते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Imagine you create a new category of products which need excise management..."
 msgstr ""
+"मान लीजिए आप कोई नया प्रॉडक्ट ग्रुप बना रहे हैं जिसमें टैक्स या एक्साइज ड्यूटी का हिसाब रखना ज़रूरी है..।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1131,6 +1272,8 @@ msgid ""
 "In case you import or purchase products for which excises need to be "
 "recorded, you can handle it with this package."
 msgstr ""
+"अगर आप बाहर से प्रॉडक्ट मंगाते हैं या खरीदते हैं और उन पर एक्साइज ड्यूटी का हिसाब रखना है, तो यह सॉफ़्टवे"
+"यर पैकेज आपकी मदद करेगा।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1142,6 +1285,10 @@ msgid ""
 "Website\" to see the website page where future visitors can book online a "
 "visit of the brewery."
 msgstr ""
+"अपॉइंटमेंट ऐप्लिकेशन में, आप ब्रुअरी टूर के लिए एक एजेंडा बना सकते हैं. आप चुन सकते हैं कि कौन सा कर्मचारी टू"
+"र कराएगा और बुकिंग के लिए पेमेंट मांग सकते हैं, जिसे \"ब्रुअरी का विज़िट\" प्रॉडक्ट से जोड़ा जा सकता है. सब ठीक "
+"होने पर, आप इसे पब्लिश कर सकते हैं और \"वेबसाइट पर जाएं\" बटन दबाकर वह पेज देख सकते हैं जहां से विज़ि"
+"टर ऑनलाइन बुकिंग कर सकेंगे।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1149,16 +1296,17 @@ msgid ""
 "In the manufacturing application, you can create a bill of materials to "
 "define how the beer should be crafted."
 msgstr ""
+"मैन्युफ़ैक्चरिंग ऐप्लिकेशन में, आप बीयर बनाने के तरीके को बताने के लिए बिल ऑफ मैटेरियल्स बना सकते हैं।"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
 msgid "Is a deposit"
-msgstr ""
+msgstr "डिपोज़िट है"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
 msgid "Is a deposit category"
-msgstr ""
+msgstr "डिपोज़िट कैटगरी है"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1167,11 +1315,14 @@ msgid ""
 "simply some pack of beers after the visit. You can have both a bar/"
 "restaurant and a shop or you can manage both from the same"
 msgstr ""
+"विज़िट के बाद आपके ग्राहकों के लिए यादगार चीज़ें, उपहार या बीयर के पैक खरीदना दिलचस्प हो सकता है. आप "
+"बार/रेस्टोरेंट और शॉप दोनों रख सकते हैं या एक ही जगह से दोनों को मैनेज कर सकते हैं"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "It is however possible to neglect this by:"
 msgstr ""
+"लेकिन, अगर आप चाहें तो इसे इन तरीकों से छोड़ सकते हैं या अनदेखा कर सकते हैं:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1180,96 +1331,99 @@ msgid ""
 "machines for the kegging but it is possible to create a separate bill of "
 "Materials with the type subcontracting, if the bottling is made externally."
 msgstr ""
+"यह उल्लेख करना दिलचस्प है कि कई माइक्रोब्रुअरीज के पास केगिंग के लिए मशीनें नहीं होती हैं, लेकिन यदि बॉटलिंग बा"
+"हर से की जाती है, तो 'सबकॉन्ट्रैक्टिंग' प्रकार के साथ एक अलग बिल ऑफ मैटेरियल्स बनाना संभव है।"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_4
 #: model:uom.uom,name:micro_brewery.uom_uom_28
 msgid "Keg"
-msgstr ""
+msgstr "केग"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Kits only / Inventory in bottles"
-msgstr ""
+msgstr "सिर्फ़ किट / बोतलों में इन्वेंट्री"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
 msgid "Lager Beer"
-msgstr ""
+msgstr "लाजर बीयर"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_38_product_template
 msgid "Lager Beer (25cl)"
-msgstr ""
+msgstr "लाजर बीयर (25cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_37_product_template
 msgid "Lager Beer (50cl)"
-msgstr ""
+msgstr "लाजर बीयर (50cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_13
 msgid "Lager Beer - Bottle"
-msgstr ""
+msgstr "लाजर बीयर - बोतल"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_93
 msgid "Lager Beer - Bottle unit"
-msgstr ""
+msgstr "लाजर बीयर - बॉटल यूनिट"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_15
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_14
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_6
 msgid "Lager Beer - Box"
-msgstr ""
+msgstr "लाजर बीयर - बॉक्स"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_19
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_15
 msgid "Lager Beer - Keg 20L"
-msgstr ""
+msgstr "लाजर बीयर - केग 20L"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_2
 msgid "Lager Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "लाजर बीयर - केग 20L (इसमें 24 x 33cl शामिल हैं)"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_13
 msgid "Lagger"
-msgstr ""
+msgstr "लाजर"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Lautering - Work center: Lauter tun"
-msgstr ""
+msgstr "लौटरिंग - वर्क सेंटर: लौटर टुन"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
 msgid "Leave empty if this product is the smallest unit"
-msgstr ""
+msgstr "अगर यह प्रॉडक्ट सबसे छोटी यूनिट है, तो इस बॉक्स को खाली रहने दें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+#, fuzzy
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_13
 msgid "Local Brand"
-msgstr ""
+msgstr "लोकल ब्रैंड"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
 msgid "Malt"
-msgstr ""
+msgstr "माल्ट"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Malt - Goods, inventory tracking by lot. <br/>"
-msgstr ""
+msgstr "माल्ट - सामान, लॉट के ज़रिए इन्वेंट्री ट्रैकिंग. <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1277,9 +1431,12 @@ msgid ""
 "Manage Internal Projects and research and development in the <strong><font "
 "class=\"text-o-color-1\">Project App</font></strong>."
 msgstr ""
+"कंपनी के अंदरूनी प्रोजेक्ट और रिसर्च के कामों को मैनेज करने के लिए <strong><font class="
+"\"text-o-color-1\">प्रोजेक्ट ऐप</font></strong> का इस्तेमाल करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Manage all your communication channels in one place with Odoo <strong><font "
 "class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font "
@@ -1287,24 +1444,33 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
+"Odoo के <strong><font class=\"text-o-color-1\">मार्केटिंग ऑटोमेशन</font></strong>, "
+"<strong><font class=\"text-o-color-1\">ईमेल मार्केटिंग</font></strong>, "
+"<strong><font class=\"text-o-color-1\">सोशल मीडिया मार्केटिंग</font></strong> और "
+"<strong><font class=\"text-o-color-1\">एसएमएस मार्केटिंग</font></strong> की मदद से "
+"अपने सभी कम्यूनिकेशन चैनलों को एक ही जगह पर मैनेज करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Manage your accounting easier than ever with a completely integrated "
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
+"<strong><font class=\"text-o-color-1\">अकाउंटिंग ऐप</font></strong> से आप अपनी अकाउंटिं"
+"ग को पहले से कहीं ज़्यादा आसानी से मैनेज करें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Manage your deposit more precisely and efficiently than ever before."
-msgstr ""
+msgstr "अपने डिपॉज़िट को पहले से कहीं ज़्यादा सटीक और कुशलता से मैनेज करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Mashing - Work center: Mash tun"
-msgstr ""
+msgstr "मैशिंग - वर्क सेंटर: मैश टुन"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -1314,17 +1480,17 @@ msgstr "मेरी कंपनी"
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_volume_sold
 msgid "New Decimal"
-msgstr ""
+msgstr "नया डेसिमल"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Next"
-msgstr ""
+msgstr "अगला"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_16
 msgid "No"
-msgstr "नही"
+msgstr "नहीं"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1333,6 +1499,8 @@ msgid ""
 "bar (or restaurant), indicate how much cash you have when opening the bar. "
 "An now you are ready to take an order."
 msgstr ""
+"अब \"पॉइंट ऑफ सेल्स\" डैशबोर्ड पर वापस जाएं और बार (या रेस्टोरेंट) का एक सेशन शुरू करें, बार खोलते समय "
+"आपके पास कितनी नकदी है, इसकी जानकारी दें. और अब आप ऑर्डर लेने के लिए तैयार हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1341,6 +1509,8 @@ msgid ""
 "that it is now a confirmed order and a delivery order has been created. Go "
 "on that delivery order and validate it."
 msgstr ""
+"अब अगर आप सेल्स ऐप्लिकेशन में कोटेशन पर वापस जाते हैं, तो आप देखेंगे कि यह अब एक कन्फर्म ऑर्डर है और "
+"एक डिलीवरी ऑर्डर बन गया है. उस डिलीवरी ऑर्डर पर जाएं और उसे वैलिडेट करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1349,6 +1519,8 @@ msgid ""
 "will see that if you don't have the components to create your beer, you will "
 "need to purchase the required components."
 msgstr ""
+"अब जब रेसिपी तैयार है, तो आप मैन्युफ़ैक्चरिंग ऑर्डर बना सकते हैं, लेकिन आप देखेंगे कि यदि आपके पास बीयर बनाने "
+"के लिए जरूरी कंपोनेंट्स नहीं हैं, तो आपको उन्हें खरीदना होगा।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1357,6 +1529,8 @@ msgid ""
 "brewing beer. In the manufacturing application, create a new manufacturing "
 "order for the bill of materials you made for your recipe."
 msgstr ""
+"अब जबकि आपके पास बीयर बनाने के लिए सभी ज़रूरी सामग्री मौजूद हैं, तो चलिए बीयर बनाना शुरू करते हैं. मैन्युफैक्चरिं"
+"ग ऐप्लिकेशन में, अपनी रेसिपी के लिए बनाए गए बिल ऑफ मैटेरियल्स के लिए एक नया मैन्युफ़ैक्चरिंग ऑर्डर बनाएं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1367,34 +1541,42 @@ msgid ""
 "finally you can schedule a meeting with him."
 msgstr ""
 "अब आप फ़ॉर्म सबमिट करके एक नई लीड जनरेट करें और इस नई लीड को ढूंढने के लिए सीआरएम ऐप्लिकेशन में जाएं"
-". इस लीड के सेल्सपर्सन के तौर पर, आप चैटर के साथ सीधे ग्राहक से ईमेल का एक्सचेंज करें और आखिर में आप "
-"उसके साथ एक मीटिंग शेड्यूल करें।"
+". इस लीड के सेल्सपर्सन के तौर पर, आप चैटर के साथ सीधे ग्राहक से ईमेल का एक्सचेंज कर सकते हैं और आखिर "
+"में उसके साथ एक मीटिंग शेड्यूल कर सकते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Odoo for Microbrewery"
-msgstr ""
+msgstr "माइक्रोब्रूअरी के लिए Odoo"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr ""
+msgstr "Odoo आपको असीमित संभावनाएं देता है, जैसे:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Of course, this is just an overview of the features included in this "
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"बेशक, यह इस पैकेज में शामिल सुविधाओं का बस एक ओवरव्यू है. बेझिझक नए ऐप जोड़ें, डेमो डेटा मिटाएं/बदलें, और "
+"सब कुछ आज़माकर देखें!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
 "duty, a report is setup to reach the quantity by excise category entering "
 "and exiting your fiscal deposit warehouse."
 msgstr ""
+"नियमित रूप से, आबकारी की घोषणा करने की ज़रूरत होती है. इस काम में आपकी मदद करने के लिए, आपके फ़िस्कल डिपॉज़ि"
+"ट वेयरहाउस में आबकारी कैटगरी के हिसाब से अंदर और बाहर जाने वाले सामान की मात्रा बताने के लिए एक रिपोर्ट तैयार "
+"की जाती है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1403,6 +1585,8 @@ msgid ""
 "can consult the dashboard application to follow the volume of Sales you have "
 "made."
 msgstr ""
+"अलग-अलग ऐप्स में मौजूद रिपोर्ट्स के साथ-साथ, आप 'डैशबोर्ड ऐप' का इस्तेमाल करके यह देख सकते हैं कि आपने "
+"अब तक कितनी सेल्स की है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1410,6 +1594,8 @@ msgid ""
 "Once it is confirmed a delivery order should have been created meaning you "
 "are waiting for the vendor to deliver the goods."
 msgstr ""
+"ऑर्डर कन्फर्म होते ही एक रिसीविंग या डिलीवरी ऑर्डर जनरेट हो जाता है. इसका मतलब है कि अब आप वेंडर की "
+"तरफ से माल आने का इंतज़ार कर रहे हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1417,6 +1603,7 @@ msgid ""
 "Once you finished all the operations, you should now be ready to sell your "
 "crafted beer."
 msgstr ""
+"एक बार जब आप सभी ऑपरेशन पूरे कर लेते हैं, तो अब आप अपनी तैयार बीयर बेचने के लिए तैयार हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1424,6 +1611,7 @@ msgid ""
 "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
 "the Excises."
 msgstr ""
+"<strong>इन्वेंट्री ऐप</strong> खोलें और रिपोर्टिंग मेन्यू से एक्साइज तक पहुंचें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1431,11 +1619,13 @@ msgid ""
 "Organise your events and connect with your customers easily with the<strong> "
 "<font class=\"text-o-color-1\">Events App</font></strong>."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">इवेंट ऐप्लिकेशन</font></strong> के साथ अपने इवें"
+"ट को व्यवस्थित करें और अपने ग्राहकों से आसानी से जुड़ें।"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_9
 msgid "Our eShop"
-msgstr ""
+msgstr "हमारा ई-शॉप"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1443,22 +1633,25 @@ msgid ""
 "Outside Sales (B2B - Bar &amp; Retail) - Using the <strong><font "
 "class=\"text-o-color-1\">Sales App</font></strong>"
 msgstr ""
+"आउटसाइड सेल्स (B2B - बार &amp; रिटेल) - <strong><font class=\"text-o-color-1\">सेल्स "
+"ऐप्लिकेशन</font></strong> का इस्तेमाल करके"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
 #: model:ir.model.fields,field_description:micro_brewery.field_parent_product_rr
 msgid "Parent product"
-msgstr ""
+msgstr "पैरेंट प्रॉडक्ट"
 
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
 msgid "Pint"
-msgstr ""
+msgstr "पिंट"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+#, fuzzy
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1466,11 +1659,13 @@ msgid ""
 "Positive energy, great team spirit, hard workers, and awesome people!"
 "&amp;nbsp;I warmly recommend their craft o-beers!"
 msgstr ""
+"सकारात्मक ऊर्जा, शानदार टीम भावना, मेहनती और अद्भुत लोग!&amp;nbsp;मैं उनके क्राफ्ट ओ-बियर्स की तहे दिल "
+"से सिफ़ारिश करता हूं!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Previous"
-msgstr ""
+msgstr "पिछला"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -1480,12 +1675,12 @@ msgstr "प्रॉडक्ट"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Products and Bills of Material"
-msgstr ""
+msgstr "प्रॉडक्ट और बिल ऑफ़ मैटेरियल"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Purchase and receive components"
-msgstr ""
+msgstr "सामान खरीदें और उसकी डिलीवरी लें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1498,17 +1693,20 @@ msgid ""
 "Receipts and Deliveries from and to Partners having no Fiscal Position "
 "defined are handled with the product taxes."
 msgstr ""
+"अगर किसी वेंडर या कस्टमर के लिए कोई खास टैक्स नियम सेट नहीं है, तो सामान लेने या भेजने पर वही टैक्स लगेगा जो"
+" प्रॉडक्ट पर पहले से सेट है।"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_8
 msgid "Red"
-msgstr ""
+msgstr "रेड"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "Register the quantity of spent grain produced at the end of the lautering."
 msgstr ""
+"जब छानने की प्रक्रिया (लौटरिंग) खत्म हो जाए, तो उसके बाद निकले हुए वेस्ट अनाज की मात्रा को दर्ज करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1517,26 +1715,30 @@ msgid ""
 "reported here.<br/>This is normal not to see any move related to a sale from "
 "a front store warehouse since it is not a fiscal deposit for example."
 msgstr ""
+"याद रखें कि यहाँ केवल आपके फिस्कल डिपॉजिट वेयरहाउस से होने वाले स्टॉक मूवमेंट की रिपोर्ट दी जाती है. <br/>उदा"
+"हरण के लिए, फ्रंट स्टोर वेयरहाउस से होने वाली बिक्री से संबंधित कोई मूवमेंट यहाँ न दिखना सामान्य है, क्योंकि वह "
+"फिस्कल डिपॉजिट नहीं है।"
 
 #. module: micro_brewery
 #: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
+#, fuzzy
 msgid "S005"
-msgstr ""
+msgstr "S005"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "See All"
-msgstr ""
+msgstr "सभी देखें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "See all <i class=\"fa fa-long-arrow-right ms-2\"/>"
-msgstr ""
+msgstr "सभी देखें <i class=\"fa fa-long-arrow-right ms-2\"/>"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_confirmation:micro_brewery.appointment_type_1
 msgid "See you soon"
-msgstr ""
+msgstr "जल्दी ही मिलते हैं"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1544,6 +1746,7 @@ msgid ""
 "Select a table (inside or outside), then select the ordered products and "
 "confirm the order."
 msgstr ""
+"एक टेबल चुनें (अंदर या बाहर), फिर ऑर्डर किए गए प्रॉडक्ट चुनें और ऑर्डर की पुष्टि करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1551,6 +1754,8 @@ msgid ""
 "Set a deposit product on your product to apply these taxes. This will ensure "
 "that you invoice correctly the price of consigns."
 msgstr ""
+"इन टैक्स को लागू करने के लिए अपने प्रॉडक्ट पर एक डिपॉजिट प्रॉडक्ट सेट करें. यह पक्का करेगा कि आप कंसाइनमें"
+"ट की कीमत का सही इनवॉइस बना सकें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
@@ -1560,33 +1765,33 @@ msgstr "शेयर करें"
 #. module: micro_brewery
 #: model:pos.category,name:micro_brewery.pos_category_3
 msgid "Shop"
-msgstr ""
+msgstr "शॉप"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Shop Now"
-msgstr ""
+msgstr "अभी खरीदारी करें"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_4
 msgid "Size"
-msgstr ""
+msgstr "साइज़"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_10_product_template
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Spent Grain"
-msgstr ""
+msgstr "स्पेंट ग्रेन"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Start brewing"
-msgstr ""
+msgstr "बीयर बनाने की प्रक्रिया शुरू करें"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_4
 msgid "Stout"
-msgstr ""
+msgstr "स्टाउट"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -1596,17 +1801,17 @@ msgstr "सबमिट करें"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_7_product_template
 msgid "Sugar"
-msgstr ""
+msgstr "शुगर"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_24
 msgid "Sweat Shirt"
-msgstr ""
+msgstr "स्वीट शर्ट"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_23
 msgid "T-Shirt"
-msgstr ""
+msgstr "टी-शर्ट"
 
 #. module: micro_brewery
 #: model_terms:appointment.type,message_confirmation:micro_brewery.appointment_type_1
@@ -1614,6 +1819,8 @@ msgid ""
 "Thank you for visiting us, we are waiting for you now and hope you will "
 "enjoy the visit and our beers!"
 msgstr ""
+"हमसे मिलने के लिए धन्यवाद, हम आपका इंतज़ार कर रहे हैं और आशा करते हैं कि आप इस विज़िट और हमारी बीयर का "
+"आनंद लेंगे!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1621,6 +1828,8 @@ msgid ""
 "The appointment app can also be used to share your availability with a "
 "customer or a vendor if you want him to book a meeting with you."
 msgstr ""
+"अगर आप चाहते हैं कि कोई ग्राहक या वेंडर आपके साथ मीटिंग बुक करे, तो अपनी उपलब्धता शेयर करने के लिए "
+"अपॉइंटमेंट ऐप का इस्तेमाल किया जा सकता है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1628,6 +1837,8 @@ msgid ""
 "The bottled beer is directly the finished product and no semi-finished "
 "bottle product is required."
 msgstr ""
+"बीयर की बोतल सीधे बिक्री के लिए तैयार है, इसलिए इसे अलग से किसी 'सेमी-फिनिश्ड' कैटेगरी में डालने की ज़रूरत नहीं "
+"है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1635,6 +1846,8 @@ msgid ""
 "The count on beer boxes is informative only since boxes are considered "
 "available as soon as the components, beer bottles and crate, are available."
 msgstr ""
+"बॉक्स का स्टॉक सिर्फ जानकारी देने के लिए दिखाया गया है. जैसे ही आपके पास बोतलें और खाली क्रेट तैयार होते हैं, सिस्"
+"टम मान लेता है कि बॉक्स भी तैयार हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1642,32 +1855,38 @@ msgid ""
 "The default breakdown is done by week and you can configure it to be by "
 "month if needed."
 msgstr ""
+"डेटा को डिफ़ॉल्ट रूप से हफ़्तों में बाँटा गया है, लेकिन ज़रूरत पड़ने पर आप इसे महीनों के हिसाब से भी सेट कर सकते "
+"हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "The described setup accounts for the inventory management of crates."
 msgstr ""
+"यहाँ जो सेटिंग्स बताई गई हैं, वे खाली क्रेट्स के स्टॉक और इन्वेंट्री मैनेजमेंट को मैनेज करने के लिए हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "The inventory is driven by beer bottles."
 msgstr ""
+"इन्वेंट्री का पूरा मैनेजमेंट बीयर की बोतलों की संख्या पर निर्भर करता है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "The inventory is driven by beer boxes."
-msgstr ""
+msgstr "इन्वेंट्री का पूरा मैनेजमेंट बीयर के बॉक्स की संख्या पर निर्भर करता है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "The inventory of all products will be updated accordingly."
 msgstr ""
+"किए गए बदलावों के आधार पर सभी सामानों का स्टॉक रिकॉर्ड अपने आप अपडेट हो जाएगा।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "The kit defines the assembly of beer bottles and a crate into a beer box."
 msgstr ""
+"किट बीयर की बोतलों और एक क्रेट को बीयर बॉक्स में असेंबल करने की प्रक्रिया को परिभाषित करती है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1675,6 +1894,7 @@ msgid ""
 "The maintenance of excise categories and the assignation of excises to "
 "products"
 msgstr ""
+"एक्साइज टैक्स की कैटगरी बनाना और अलग-अलग प्रॉडक्ट पर सही टैक्स नियम लागू करना"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1682,11 +1902,13 @@ msgid ""
 "The reporting of received and delivered excise concerned products, a legal "
 "implication for any fiscal deposit"
 msgstr ""
+"एक्साइज ड्यूटी वाले सामान के लेन-देन की रिपोर्ट देना सरकारी गोदामों के लिए कानूनी रूप से ज़रूरी है"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "The split of beer box into beer bottles a the bar is clear."
 msgstr ""
+"बार में बीयर के पूरे बॉक्स को अलग-अलग बोतलों में बांटने की व्यवस्था साफ़ है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1695,11 +1917,13 @@ msgid ""
 "required and you can also indicate in which operation it will be consumed, "
 "for example:"
 msgstr ""
+"<strong>रेसिपी या मैन्युफैक्चरिंग के लिए ज़रूरी आइटम जो</strong>ड़ें, उनकी मात्रा तय करें और बताएं कि वे कि"
+"स स्टेप पर काम आएंगे, उदाहरण के लिए:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Then create your product:"
-msgstr ""
+msgstr "इसके बाद अपना प्रॉडक्ट बनाएं:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1707,6 +1931,7 @@ msgid ""
 "Then, from the \"Shop Floor\" application, execute the different operations "
 "and follow the instruction as you were the operator."
 msgstr ""
+"फिर, \"शॉप फ्लोर\" ऐप्लिकेशन से, अलग-अलग ऑपरेशन पूरे करें और ऑपरेटर की तरह निर्देशों का पालन करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1714,12 +1939,14 @@ msgid ""
 "There are two ways to handle your products and bills of material, each "
 "coming with pros and cons."
 msgstr ""
+"अपने प्रॉडक्ट और बिल ऑफ मटेरियल को संभालने के दो तरीके हैं, जिनमें से प्रत्येक के अपने फायदे और नुकसान हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
-msgstr ""
+msgstr "ये सब आपके मौजूदा सब्सक्रिप्शन में मुफ़्त हैं; बेझिझक एक्सप्लोर करें! 🙃"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1728,10 +1955,9 @@ msgid ""
 "see how Odoo can support all these critical activities for a microbrewery to "
 "help people so they can be efficient and spend more time on what matters."
 msgstr ""
-"यह लेख आपको बताएगा कि माइक्रोब्रूअरी (छोटी शराब बनाने वाली कंपनी) में काम कैसे होता है. "
-"इसमें दिखाया जाएगा कि Odoo कैसे उन सभी जरूरी कामों में मदद कर सकता है, जिससे लोग अपना "
-"काम बेहतर तरीके से कर सकें और जिस चीज़ पर ध्यान देना सबसे ज़्यादा ज़रूरी है, उस पर ज़्यादा "
-"समय लगा सकें."
+"इस लेख से आपको पता चलेगा कि माइक्रोब्रूअरी (छोटी शराब बनाने वाली कंपनी) में काम कैसे होता है. इसमें दिखाया जाएगा कि"
+" Odoo कैसे उन सभी जरूरी कामों में मदद कर सकता है, जिससे लोग अपना काम बेहतर तरीके से कर सकें और जिस चीज़"
+" पर ध्यान देना सबसे ज़्यादा ज़रूरी है, उस पर ज़्यादा समय लगा सकें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1739,6 +1965,7 @@ msgid ""
 "This deposit management system is a specific features of this package. "
 "Proceed carefully if you need to adapt anything."
 msgstr ""
+"यह डिपॉजिट सिस्टम इस पैकेज का खास हिस्सा है. इसमें कोई भी बदलाव करते समय सावधानी बरतें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1747,48 +1974,55 @@ msgid ""
 "Order each time you need to split your product and reflect this operation in "
 "your stock perfectly."
 msgstr ""
+"जब भी आप किसी प्रॉडक्ट को हिस्सों में बांटते हैं, तो यह सिस्टम अपने-आप बिल ऑफ़ मटेरियल बना देता है और मैन्युफ़ैक्"
+"चर ऑर्डर को प्रोसेस करता है. इससे, आपके स्टॉक में यह बदलाव सही तरीके से दर्ज हो जाता है।"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_4
+#, fuzzy
 msgid "Top Menu for Website 1"
-msgstr ""
+msgstr "वेबसाइट 1 के लिए टॉप मेन्यू"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Transfer is here to handle the transfers between multiple fiscal deposit "
 "warehouses of yours."
 msgstr ""
+"ट्रांसफ़र टूल आपके अपने कई फ़िस्कल डिपॉज़िट वेयरहाउस के बीच होने वाले सामान के ट्रांसफर को मैनेज करने के लिए है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Two bills of material are needed."
-msgstr ""
+msgstr "दो बिल ऑफ मटेरियल की ज़रूरत है।"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
 msgid "Unit sale product"
-msgstr ""
+msgstr "यूनिट सेल प्रॉडक्ट"
 
 #. module: micro_brewery
 #: model:base.automation,name:micro_brewery.update_sales_taxes
 msgid "Update Taxes"
-msgstr ""
+msgstr "टैक्स अपडेट करें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#, fuzzy
 msgid "Useful Links"
-msgstr ""
+msgstr "काम के लिंक"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Validate the delivery and check your inventory, now you have everything"
 msgstr ""
+"सामान मिलने की पुष्टि करें और अपना स्टॉक देखें, अब आपके पास सारा सामान मौजूद है"
 
 #. module: micro_brewery
 #: model:appointment.type,name:micro_brewery.appointment_type_1
 msgid "Visit of Brewery"
-msgstr ""
+msgstr "ब्रुअरी विज़िट करें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1796,26 +2030,28 @@ msgid ""
 "Visit of the Brewery (B2C) - Managed via the <strong><font class=\"text-o-"
 "color-1\">Appointment App</font></strong>"
 msgstr ""
+"ब्रुअरी विज़िट करें (B2C) - <strong><font class=\"text-o-color-1\">अपॉइंटमेंट "
+"ऐप्लिकेशन</font></strong> के ज़रिए मैनेज किया जाता है"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_11
 msgid "Visit the brewery"
-msgstr ""
+msgstr "ब्रुअरी विज़िट करें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Want to know more about unit of measures ?"
-msgstr ""
+msgstr "मापन की इकाइयों के बारे में और जानना चाहते हैं?"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_9_product_template
 msgid "Water"
-msgstr ""
+msgstr "पानी"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Water - Good, no inventory tracking - Mashing"
-msgstr ""
+msgstr "पानी - अच्छा, कोई इन्वेंट्री ट्रैकिंग नहीं - मैशिंग"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -1824,6 +2060,8 @@ msgid ""
 "a good mix of heritage and innovation. We brew quality beers with intense "
 "taste and exotic flavors.&amp;nbsp;"
 msgstr ""
+"हमारी टीम पुरानी परंपरा और नई तकनीक को मिलाकर लाजवाब बीयर बनाने के लिए समर्पित है. हम बेहतरीन क्वालिटी "
+"और ज़बरदस्त स्वाद वाली बीयर तैयार करते हैं.&amp;nbsp;"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1833,6 +2071,9 @@ msgid ""
 "by collaboration we have with o-beer and keep following up on their next "
 "creation!&amp;nbsp;<br/>"
 msgstr ""
+"हम 2 साल से ज़्यादा समय से अपने रेस्टोरेंट्स में o-beers पेश कर रहे हैं और हमारे ग्राहक हमेशा ऐसी शानदार बी"
+"यर का स्वाद लेकर खुश होते हैं. मैं o-beer के साथ अपने सहयोग से बहुत खुश हूँ और उनकी अगली रचनाओं पर नज़"
+"र रखता हूं!&amp;nbsp;<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1840,6 +2081,7 @@ msgid ""
 "We setup an example of this setup with the blond beer bottle and box "
 "products in this module."
 msgstr ""
+"हमने इस मॉड्यूल में ब्लोंड बीयर बोतल और बॉक्स प्रॉडक्ट के साथ इस सेटअप का एक उदाहरण तैयार किया है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1847,24 +2089,30 @@ msgid ""
 "We setup an example of this setup with the lager and brown beer bottle and "
 "box products in this module."
 msgstr ""
+"हमने इस मॉड्यूल में लागर और ब्राउन बीयर की बोतल और बॉक्स प्रॉडक्ट के साथ इस सेटअप का एक उदाहरण से"
+"टअप किया है।"
 
 #. module: micro_brewery
 #: model_terms:web_tour.tour,rainbow_man_message:micro_brewery.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "आपका स्वागत है! मज़े से खोजबीन करें."
+msgstr "आपका स्वागत है! मज़े से खोजबीन करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+#, fuzzy
 msgid "WhatsApp"
-msgstr ""
+msgstr "WhatsApp"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "When installing this module, all Fiscal Positions are set as Fiscal Deposit."
 "<br/>Adjust the Fiscal Positions which are not to consider the Excise Taxes "
 "in your orders."
 msgstr ""
+"इस मॉड्यूल को इंस्टॉल करते समय, सभी फ़िस्कल पोज़िशन को फ़िस्कल डिपॉज़िट के तौर पर सेट किया जाता है. <br/>उन "
+"फ़िस्कल पोज़िशन को बदलें जिनमें आपके ऑर्डर में आबकारी टैक्स शामिल नहीं है।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1872,6 +2120,8 @@ msgid ""
 "When moving boxes from a place to another using box product, in practice, "
 "beer bottles and deposits are moved (see corresponding deliveries)."
 msgstr ""
+"जब आप सिस्टम में बॉक्स को एक जगह से दूसरी जगह भेजते हैं, तो असल में उसके अंदर की बीयर बोतलें और जमा राशि"
+" भी साथ में मूव होती हैं. इसकी जानकारी आप डिलीवरी रसीद में देख सकते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1880,16 +2130,18 @@ msgid ""
 "summarised at the end of your sale orders, allowing you to offer clear "
 "discounts on your product irrespectively of the excise."
 msgstr ""
+"इस प्रॉडक्ट की बिक्री पर एक्साइज टैक्स अलग से जोड़ा जाता है और बिल के आखिर में दिखाया जाता है. इससे आप टैक्स "
+"को अलग रखकर सिर्फ प्रॉडक्ट की कीमत पर आसानी से डिस्काउंट दे पाते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Where every o-beer tells a story."
-msgstr ""
+msgstr "जहां हर ओ-बीयर एक कहानी सुनाती है।"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_4
 msgid "White"
-msgstr ""
+msgstr "सफेद"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1897,56 +2149,66 @@ msgid ""
 "With a simple click, finding your favorite craft beer has never been easier."
 "<br/><br/>"
 msgstr ""
+"एक साधारण क्लिक के साथ, अपनी पसंदीदा क्राफ्ट बीयर ढूंढना अब और भी आसान हो गया है.<br/><br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "With or without crate inventory?"
-msgstr ""
+msgstr "क्रेट इन्वेंट्री के साथ या बिना?"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
+"क्या आप हमसे अपने Odoo सेटअप के बारे में बात करना चाहेंगे या इसे और बेहतर बनाना चाहेंगे?"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
+#, fuzzy
 msgid "XL"
-msgstr ""
+msgstr "XL"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_9
+#, fuzzy
 msgid "XS"
-msgstr ""
+msgstr "XS"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_6_product_template
 msgid "Yeast"
-msgstr ""
+msgstr "यीस्ट"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Yeast - Goods, inventory tracking by lot."
-msgstr ""
+msgstr "यीस्ट - सामान, लॉट द्वारा इन्वेंट्री ट्रैकिंग।"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_15
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_25
 msgid "Yes"
-msgstr "हाँ"
+msgstr "हां"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
+"आप अपने मुख्य डैशबोर्ड पर अपने Odoo डेटाबेस में इंस्टॉल किए गए हर ऐप को ऐक्सेस कर सकते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "You can also collect deposit directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
+"आप सीधे अपने पॉइंट ऑफ़ सेल पर भी डिपॉज़िट इकट्ठा कर सकते हैं. सही प्रॉडक्ट चुनें और नकारात्मक मात्रा को एन्को"
+"ड करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1955,16 +2217,18 @@ msgid ""
 "selecting \"Product categories\" in X axis and \"Order date &gt; Month\" in "
 "Y axis."
 msgstr ""
+"आप \"वॉल्यूम\" माप का इस्तेमाल करके महीने के हिसाब से सेल्स की पूरी रिपोर्ट कॉन्फ़िगर कर सकते हैं. इसके लिए "
+"X अक्ष में \"प्रॉडक्ट कैटगरी\" तथा Y अक्ष में \"ऑर्डर की तारीख >महीना\" चुनें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "You can now finalize the flow by creating the invoice."
-msgstr ""
+msgstr "आप अब इनवॉइस बनाकर फ़्लो पूरा कर सकते हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "You can pick a time and pay to finalize the booking."
-msgstr ""
+msgstr "बुकिंग पूरी करने के लिए समय चुनें और पेमेंट करके बुकिंग फ़ाइऩल करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1972,13 +2236,18 @@ msgid ""
 "You can then use the \"Preview\" button on the offer to see the result and "
 "accept it as if you were the customer!"
 msgstr ""
+"ऑफ़र कैसा दिख रहा है यह देखने के लिए \"प्रीव्यू\" बटन दबाएं और फिर एक ग्राहक की तरह उसे स्वीकार करके "
+"प्रक्रिया की जांच करें!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"आपने वह डेमो यूज़ केस पूरा कर लिया है! अपनी बिज़नेस ज़रूरतों के अनुसार अपनी Odoo सेटिंग को बदलने के लिए लाखों "
+"अन्य तरीके हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1986,11 +2255,13 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Microbrewery package and check the related box."
 msgstr ""
+"क्या आपने डेमो डेटा इंपोर्ट नहीं किया? आप अब भी कर सकते हैं. ऐप्स &gt; इंडस्ट्रीज़ पर जाएं, माइक्रोब्रूअरी पैके"
+"ज को अपग्रेड करें और संबंधित बॉक्स को चेक करें।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "You have no plan for the weekend?"
-msgstr ""
+msgstr "क्या आपने वीकेंड के लिए कुछ तय नहीं किया है?"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1998,78 +2269,92 @@ msgid ""
 "You just installed the Odoo for Microbrewery package. By doing so, we have "
 "installed a bunch of necessary apps to run your Microbrewery efficiently."
 msgstr ""
+"आपने अभी माइक्रोब्रूअरी के लिए Odoo पैकेज इंस्टॉल किया है. ऐसा करके, हमने आपकी माइक्रोब्रूअरी को बेहतर तरीके "
+"से चलाने के लिए कई ज़रूरी ऐप्स इंस्टॉल कर दिए हैं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "You now have the keys to easily report those to the relevant authorities!"
 msgstr ""
+"अब आपके पास इन्हें संबंधित अधिकारियों को आसानी से रिपोर्ट करने की सुविधा है!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
+"इस पैकेज के साथ Odoo का इस्तेमाल करके, आप कई फ़्लो को जल्दी से चलाने का ओवरव्यू पाने के लिए, नीचे दिए गए "
+"फ़्लो को चलाएं।"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
+#, fuzzy
 msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide both a filter and a template to use.<br/>"
 msgstr ""
+"आपका डाइनैमिक स्निपेट यहां दिखाया जाएगा... यह मैसेज इसलिए दिखाया गया है, क्योंकि आपने इस्तेमाल करने के लिए फ़िल्"
+"टर और टेंप्लेट, दोनों नहीं दिए हैं.<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "एकेडमी"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "और"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "documentation"
-msgstr ""
+msgstr "दस्तावेज़"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
+#, fuzzy
 msgid "ex. Delta I.P.A. - 33cl"
-msgstr ""
+msgstr "ex. Delta I.P.A. - 33cl"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "if you need help! <br/>"
-msgstr ""
+msgstr "अगर आपको मदद की ज़रूरत है! <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
+#, fuzzy
 msgid "info@yourcompany.example.com"
-msgstr ""
+msgstr "info@yourcompany.example.com"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_5
 msgid "o-beer"
-msgstr ""
+msgstr "ओ-बीयर"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "removing the deposit products from the bill of materials"
-msgstr ""
+msgstr "बिल ऑफ मटेरियल्स से डिपॉजिट प्रॉडक्ट हटाया जा रहा है"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "removing the tracking of deposit products (in the product form"
 msgstr ""
+"प्रॉडक्ट फ़ॉर्म में जाकर डिपॉजिट प्रॉडक्ट को ट्रैक करना बंद किया जा रहा है"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "request a demo"
-msgstr ""
+msgstr "डेमो का अनुरोध करें"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
-msgstr ""
+msgstr "🎓 माप की इकाइयां (यूनिट ऑफ़ मेज़र)"

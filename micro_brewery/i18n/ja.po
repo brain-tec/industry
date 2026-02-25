@@ -7,13 +7,13 @@
 # Wil Odoo, 2025
 # Junko Augias, 2025
 #
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-03 09:18+0000\n"
-"PO-Revision-Date: 2025-12-06 22:51+0000\n"
+"PO-Revision-Date: 2026-01-31 22:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s18-3/"
 "micro_brewery/ja/>\n"
@@ -391,7 +391,7 @@ msgstr "<strong>ユースケース</strong>"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Visiting the Brewery 🎫</strong>"
-msgstr "<strong>醸造所見学 🎫</strong>"
+msgstr "<strong>ブルワリー見学 🎫</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -513,8 +513,8 @@ msgid ""
 "Bar &amp; Shop at the Brewery (B2C) - Using the <strong><font class=\"text-o-"
 "color-1\">Point of Sales App</font></strong>"
 msgstr ""
-"バー &amp; 店舗  醸造所内 (B2C) -  <strong><font class=\"text-o-color-1\">POS"
-"アプリ</font></strong>を使用"
+"ブルワリー内のバーおよび店舗(B2C) -  <strong><font class=\"text-o-color-1\">P"
+"OSアプリ</font></strong>で運営"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -753,7 +753,7 @@ msgstr "色"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Come visit the brewery&amp;nbsp;<br/>"
-msgstr "当醸造所にお越し下さい&amp;nbsp;<br/>"
+msgstr "私たちのブルワリーにぜひお越し下さい&amp;nbsp;<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -906,7 +906,7 @@ msgstr "デポジット管理 🍻"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit assignation"
-msgstr "デポジットの割り当て"
+msgstr "デポジットの割当"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
@@ -1096,8 +1096,9 @@ msgid ""
 "happy with the tasting experience at the bar just after with all those "
 "explanations in mind!"
 msgstr ""
-"最初から最後まで、チームは素晴らしい醸造所ツアーを行ってくれました。説明を聞"
-"きながらバーで味わった試飲体験も、とても満足のいくものでした。"
+"最初から最後まで、スタッフの案内によるブルワリー見学は素晴らしい内容でした。"
+"見学後にバーで行ったテイスティングも、説明を聞いたあとなので、より深く楽しめ"
+"ました!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1152,7 +1153,8 @@ msgstr ""
 msgid ""
 "Go on the delivery order and indicate the quantity you received and create "
 "the lot numbers for each components."
-msgstr " 配送オーダで入荷数量を記入し、各構成品のロット番号を作成します。"
+msgstr "出荷オーダを開き、入荷した数量を入力し、各構成品に対してロット番号を作成して"
+"ください。"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_2
@@ -1483,9 +1485,8 @@ msgid ""
 "Now if you go back on the quotation in the Sales application, you will see "
 "that it is now a confirmed order and a delivery order has been created. Go "
 "on that delivery order and validate it."
-msgstr ""
-"販売アプリケーションで見積に戻ると、オーダが確定し、配送オーダが作成されてい"
-"ることがわかります。その配送オーダを検証して下さい。"
+msgstr "販売アプリケーションで見積に戻ると、オーダが確定し、出荷オーダが作成されてい"
+"ることがわかります。その出荷オーダを検証して下さい。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1565,9 +1566,8 @@ msgstr ""
 msgid ""
 "Once it is confirmed a delivery order should have been created meaning you "
 "are waiting for the vendor to deliver the goods."
-msgstr ""
-"確認されると配送オーダが作成され、仕入先が商品を配送するのを待つことになりま"
-"す。"
+msgstr "オーダが確定されると、出荷オーダ(入荷予定)が作成され、仕入先からの納品を待つ"
+"状態になります。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1961,7 +1961,7 @@ msgstr "2 つの部品表が必要です。"
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
 msgid "Unit sale product"
-msgstr "ユニット販売プロダクト"
+msgstr "単体販売プロダクト"
 
 #. module: micro_brewery
 #: model:base.automation,name:micro_brewery.update_sales_taxes
@@ -1981,7 +1981,7 @@ msgstr "配送を検証し、在庫を確認します。これで全て揃いま
 #. module: micro_brewery
 #: model:appointment.type,name:micro_brewery.appointment_type_1
 msgid "Visit of Brewery"
-msgstr "醸造所見学"
+msgstr "ブルワリー見学"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1989,13 +1989,13 @@ msgid ""
 "Visit of the Brewery (B2C) - Managed via the <strong><font class=\"text-o-"
 "color-1\">Appointment App</font></strong>"
 msgstr ""
-"醸造所見学 (B2C) -  <strong><font class=\"text-o-color-1\">予約アプリ</"
-"font></strong>による管理"
+"ブルワリー見学 (B2C) -  <strong><font class=\"text-o-color-1\">アポイントメン"
+"トアプリ</font></strong>で簡単に管理"
 
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_11
 msgid "Visit the brewery"
-msgstr "醸造所見学"
+msgstr "ブルワリー見学"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
