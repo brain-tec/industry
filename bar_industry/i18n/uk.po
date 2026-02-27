@@ -5,13 +5,13 @@
 # Translators:
 # Wil Odoo, 2024
 # Svyatoslav Nadozirny, 2025
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 05:06+0000\n"
-"PO-Revision-Date: 2025-08-12 10:39+0000\n"
+"PO-Revision-Date: 2026-02-14 18:51+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "bar_industry/uk/>\n"
@@ -20,10 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
+"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
+"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
+" ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -73,8 +74,12 @@ msgid ""
 "2. To make it more interesting, feel free to create a second order. For this one, you can simulate an Happy Hour. To do so, click the \"More\" button in the order summary, and choose the pricelist \"Happy Hour\" instead of the Default one.\n"
 "                You will see that if you take twice the same drink, it'll cost half the price."
 msgstr ""
-"2. Щоб зробити замовлення цікавішим, створіть друге замовлення. Для цього ви можете імітувати «Щасливу годину». Для цього натисніть кнопку «Більше» у зведенні замовлення та виберіть прайс-лист «Щаслива година» замість прайс-листа за замовчуванням.\n"
-"Ви побачите, що якщо ви візьмете один і той самий напій двічі, він коштуватиме вдвічі дешевше."
+"2. Щоб зробити замовлення цікавішим, створіть друге замовлення. Для цього ви "
+"можете імітувати «Щасливу годину». Для цього натисніть кнопку «Більше» у "
+"зведенні замовлення та виберіть прайс-лист «Щаслива година» замість прайс-"
+"листа за замовчуванням.\n"
+"Ви побачите, що якщо ви візьмете один і той самий напій двічі, він "
+"коштуватиме вдвічі дешевше."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -101,9 +106,9 @@ msgid ""
 "availability."
 msgstr ""
 "3. Поверніться до модуля планування. Ви побачите кілька змін, готових до "
-"планування. Виберіть стрілку вниз поруч із кнопкою публікації та натисніть "
-"«Автоматичне планування». Ваші зміни будуть автоматично призначені на основі"
-" доступності ваших співробітників."
+"планування. Виберіть стрілку вниз поруч із кнопкою публікації та натисніть «"
+"Автоматичне планування». Ваші зміни будуть автоматично призначені на основі "
+"доступності ваших співробітників."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -120,8 +125,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "4. You can still reassign any shift to adapt the planning."
 msgstr ""
-"4. Ви все ще можете перепризначити будь-яку зміну, щоб адаптувати "
-"планування."
+"4. Ви все ще можете перепризначити будь-яку зміну, щоб адаптувати планування."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -129,8 +133,8 @@ msgid ""
 "5. Once you are happy with it, send it to your co-workers by smashing the "
 "publish button."
 msgstr ""
-"5. Як тільки ви будете задоволені результатом, надішліть його своїм колегам,"
-" натиснувши кнопку публікації."
+"5. Як тільки ви будете задоволені результатом, надішліть його своїм колегам, "
+"натиснувши кнопку публікації."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -209,8 +213,11 @@ msgid ""
 "A free, personalized, integrated <strong><font class=\"text-o-color-1\">Website</font></strong> in a few clicks. Start receiving orders directly in Odoo or go live with your \n"
 "                        <strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
 msgstr ""
-"Безкоштовний, персоналізований, інтегрований <strong><font class=\"text-o-color-1\">Вебсайт</font></strong> за кілька кліків. Почніть отримувати замовлення безпосередньо в Odoo або опублікуйте свій \n"
-"                        <strong><font class=\"text-o-color-1\">Електронний магазин</font></strong> за кілька хвилин."
+"Безкоштовний, персоналізований, інтегрований <strong><font class="
+"\"text-o-color-1\">Вебсайт</font></strong> за кілька кліків. Почніть "
+"отримувати замовлення безпосередньо в Odoo або опублікуйте свій \n"
+"                        <strong><font class=\"text-o-color-1\">Електронний "
+"магазин</font></strong> за кілька хвилин."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -341,8 +348,8 @@ msgid ""
 "existing one."
 msgstr ""
 "Якщо ви перейдете до свого модуля Купівлі, ви побачите нове замовлення на "
-"купівлю, готове до відправлення. Ви можете вибрати пакування, якщо ваш товар"
-" вже має упаковку."
+"купівлю, готове до відправлення. Ви можете вибрати пакування, якщо ваш товар "
+"вже має упаковку."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -361,8 +368,8 @@ msgid ""
 "Article)."
 msgstr ""
 "Якщо ви хочете виконати практичний огляд цього модуля, вам слід імпортувати "
-"демонстраційні дані та спробувати варіант використання Демонстрація (у "
-"наступній статті Бази знань)."
+"демонстраційні дані та спробувати варіант використання Демонстрація "
+"(у наступній статті Бази знань)."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -370,8 +377,13 @@ msgid ""
 "Manage all your communication channels in one place with Odoo <strong><font class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font class=\"text-o-color-1\">Email Marketing</font></strong>, \n"
 "                        <strong><font class=\"text-o-color-1\">Social Media Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
-"Керуйте всіма своїми каналами зв'язку в одному місці за допомогою Odoo <strong><font class=\"text-o-color-1\">Автоматизація Маркетингу</font></strong>, <strong><font class=\"text-o-color-1\">Email-маркетинг</font></strong>, \n"
-"                        <strong><font class=\"text-o-color-1\">Маркетинг соцмереж</font></strong>, та <strong><font class=\"text-o-color-1\">SMS-маркетинг</font></strong>."
+"Керуйте всіма своїми каналами зв'язку в одному місці за допомогою Odoo "
+"<strong><font class=\"text-o-color-1\">Автоматизація Маркетингу</font></"
+"strong>, <strong><font class=\"text-o-color-1\">Email-маркетинг</font></"
+"strong>, \n"
+"                        <strong><font class=\"text-o-color-1\">Маркетинг "
+"соцмереж</font></strong>, та <strong><font class=\"text-o-color-1\""
+">SMS-маркетинг</font></strong>."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -381,8 +393,8 @@ msgid ""
 "App</font></strong>)"
 msgstr ""
 "Керуйте своїм бухобліком легше, ніж будь-коли, завдяки повністю "
-"інтегрованому середовищу. (<strong><font class=\"text-o-color-1\">Модуль "
-"Бухобліку</font></strong>)"
+"інтегрованому середовищу. "
+"(<strong><font class=\"text-o-color-1\">Модуль Бухобліку</font></strong>)"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -448,8 +460,8 @@ msgstr ""
 "Правила повторного замовлення відображаються у смарт-кнопках у верхній "
 "частині вашого товару. Ви можете побачити мінімальну та максимальну "
 "кількість. Щоразу, коли прогнозований запас падає нижче мінімального рівня, "
-"автоматично створюється замовлення на купівлю для поповнення до максимальної"
-" кількості."
+"автоматично створюється замовлення на купівлю для поповнення до максимальної "
+"кількості."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -490,8 +502,8 @@ msgid ""
 "The stock is only updated when you close your register. Let's do it before "
 "continuing to the next step."
 msgstr ""
-"Запаси оновлюються лише після закриття каси. Зробимо це, перш ніж переходити"
-" до наступного кроку."
+"Запаси оновлюються лише після закриття каси. Зробимо це, перш ніж переходити "
+"до наступного кроку."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -515,8 +527,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong>"
 " to manage your stock and receive products."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">модуль "
-"Склад</font></strong> щоб керувати своїми запасами та отримувати продукцію."
+"Використовуйте <strong><font class=\"text-o-color-1\">модуль Склад</font></"
+"strong> щоб керувати своїми запасами та отримувати продукцію."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -535,10 +547,10 @@ msgid ""
 " for your sales at the desk. You can also download the Odoo Mobile App on "
 "any phone to take orders."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">Точку "
-"продажу</font></strong> для ваших продажів за стійкою реєстрації. Ви також "
-"можете завантажити мобільний додаток Odoo на будь-який телефон, щоб приймати"
-" замовлення."
+"Використовуйте <strong><font class=\"text-o-color-1\">Точку продажу</font></"
+"strong> для ваших продажів за стійкою реєстрації. Ви також можете "
+"завантажити мобільний додаток Odoo на будь-який телефон, щоб приймати "
+"замовлення."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -546,9 +558,9 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Project App</font></strong> "
 "to never miss a reordering or a cleaning task."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">модуль "
-"Проєкти</font></strong> щоб ніколи не пропустити повторне замовлення чи "
-"завдання з прибирання."
+"Використовуйте <strong><font class=\"text-o-color-1\">модуль Проєкти</font></"
+"strong> щоб ніколи не пропустити повторне замовлення чи завдання з "
+"прибирання."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -556,8 +568,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
 "to reorder your products."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">модуль "
-"Купівлі</font></strong> щоб повторно замовити ваші товари."
+"Використовуйте <strong><font class=\"text-o-color-1\">модуль Купівлі</font></"
+"strong> щоб повторно замовити ваші товари."
 
 #. module: bar_industry
 #: model_terms:web_tour.tour,rainbow_man_message:bar_industry.knowledge_tour
@@ -567,8 +579,7 @@ msgstr "Ласкаво просимо! Приємного дослідження
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
-"Ви хотіли б обговорити з нами налаштування вашого Odoo чи піти ще далі?"
+msgstr "Ви хотіли б обговорити з нами налаштування вашого Odoo чи піти ще далі?"
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -576,8 +587,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Ви можете отримати доступ до кожного встановленого модуля у вашій базі даних"
-" Odoo на головній панелі інструментів."
+"Ви можете отримати доступ до кожного встановленого модуля у вашій базі даних "
+"Odoo на головній панелі інструментів."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body
@@ -612,8 +623,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Ви завершили цей демонстраційний сценарій використання! Існує мільйони інших"
-" способів адаптувати налаштування Odoo до потреб вашого бізнесу."
+"Ви завершили цей демонстраційний сценарій використання! Існує мільйони інших "
+"способів адаптувати налаштування Odoo до потреб вашого бізнесу."
 
 #. module: bar_industry
 #: model_terms:ir.ui.view,arch_db:bar_industry.welcome_article_body

@@ -6,13 +6,13 @@
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Svyatoslav Nadozirny, 2025
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 08:19+0000\n"
-"PO-Revision-Date: 2025-08-12 10:39+0000\n"
+"PO-Revision-Date: 2026-02-14 18:51+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "bookstore/uk/>\n"
@@ -21,10 +21,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
+"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
+"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
+" ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -140,7 +141,10 @@ msgid ""
 "2. Once you've found it on your local books database, go to the sales app and create a new product using its ISBN code : 9781941753354. Define the current distributor in your region by going to the \"Purchase\" tab (use \"My Book\n"
 "                Distributor\" for this case)."
 msgstr ""
-"2. Щойно ви знайдете його у вашій місцевій базі даних книг, перейдіть до модуля продажів і створіть новий товар, використовуючи його ISBN-код: 9781941753354. Визначте поточного дистриб'ютора у вашому регіоні, перейшовши на вкладку «Купівля» (у цьому випадку використовуйте «Моя книга\n"
+"2. Щойно ви знайдете його у вашій місцевій базі даних книг, перейдіть до "
+"модуля продажів і створіть новий товар, використовуючи його ISBN-код: "
+"9781941753354. Визначте поточного дистриб'ютора у вашому регіоні, перейшовши "
+"на вкладку «Купівля» (у цьому випадку використовуйте «Моя книга\n"
 " - дистриб'ютор»)."
 
 #. module: bookstore
@@ -214,8 +218,8 @@ msgid ""
 "directly click on the confirm button to turn your quotation in a Sales "
 "Order."
 msgstr ""
-"4. Додайте товар до своєї комерційної пропозиції, знайшовши його за ISBN. Ви"
-" можете безпосередньо натиснути кнопку підтвердження, щоб перетворити свою "
+"4. Додайте товар до своєї комерційної пропозиції, знайшовши його за ISBN. Ви "
+"можете безпосередньо натиснути кнопку підтвердження, щоб перетворити свою "
 "комерційну пропозицію на замовлення на продаж."
 
 #. module: bookstore
@@ -224,8 +228,8 @@ msgid ""
 "4. Check the smart buttons, a new delivery has been created, but you need to"
 " have all products in stock."
 msgstr ""
-"4. Перевірте смарт-кнопки, нова доставка створена, але вам потрібно мати всі"
-" товари в наявності."
+"4. Перевірте смарт-кнопки, нова доставка створена, але вам потрібно мати всі "
+"товари в наявності."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -249,8 +253,8 @@ msgid ""
 "4. Register Elise's payment. You can now go back to your main dashboard by "
 "selecting \"Backend\" in the top-right burger menu."
 msgstr ""
-"4. Зареєструйте платіж Елізи. Тепер ви можете повернутися до головної панелі"
-" керування, вибравши \"Backend\" у верхньому правому куті бургер-меню."
+"4. Зареєструйте платіж Елізи. Тепер ви можете повернутися до головної панелі "
+"керування, вибравши \"Backend\" у верхньому правому куті бургер-меню."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -376,7 +380,8 @@ msgid ""
 msgstr ""
 "<span class=\"display-4-fs\">\n"
 "                        <strong>\n"
-"                        <font class=\"text-800\"><span class=\"h1-fs\">Приклад використання</span></font>\n"
+"                        <font class=\"text-800\"><span class=\"h1-fs\""
+">Приклад використання</span></font>\n"
 "                        </strong>\n"
 "                </span>"
 
@@ -398,7 +403,8 @@ msgid ""
 "                </strong>"
 msgstr ""
 "<strong>\n"
-"                        <span class=\"display-4-fs\"><font class=\"text-800\">Odoo для книжкового магазину</font></span>\n"
+"                        <span class=\"display-4-fs\"><font class=\"text-800\""
+">Odoo для книжкового магазину</font></span>\n"
 "                </strong>"
 
 #. module: bookstore
@@ -433,8 +439,8 @@ msgstr ""
 "показує нам, як дерева спілкуються, відчувають і живуть у соціальних "
 "мережах. Після прочитання цієї книги прогулянка лісом ніколи не буде такою, "
 "як раніше. Відкриває абсолютно нові горизонти... [Пітер Вольлебен] слухав "
-"дерева та розшифрував їхню мову. Тепер він говорить від їхнього імені. --The"
-" New York Review of Books НАЗВАНА ОДНІЄЮ З НАЙКРАЩИХ КНИГ РОКУ ЗА ВЕРСІЄЮ "
+"дерева та розшифрував їхню мову. Тепер він говорить від їхнього імені. --The "
+"New York Review of Books НАЗВАНА ОДНІЄЮ З НАЙКРАЩИХ КНИГ РОКУ ЗА ВЕРСІЄЮ "
 "BRAINPICKINGS – ПОЧЕСНА ВІДМІНА: Премія SEJ Rachel Carson Environment Book "
 "Award – Увійшла до короткого списку: Нагорода Audible International Book of "
 "the Year – Нагорода Books For a Better Life – Нагорода Indie Choice – "
@@ -479,16 +485,16 @@ msgstr ""
 "модифікований Cadillac, названий Phantom Dream Car, проїхав крізь стіну з "
 "палаючих телевізорів. Спочатку задумана як концептуальна архітектурна "
 "практика, Ant Farm перетворилася на повноцінний мистецький колаборатив, "
-"кульмінацією якого стали такі помітні роботи, як «Будинок століття» "
-"(1971-73), «Кадилак Ранч» (1974) та «Вічна рама» (1975). У «Медіа Берн» "
-"митці розквітли в багатому пориві ідей, що залучили сучасну теорію медіа до "
-"дивно складного естетичного видовища, текстової апропріації та всеохоплюючих"
-" зусиль брендингу. Написана Стівом Сеїдом (Берклійський художній "
-"музей/Тихоокеанський кіноархів) та спираючись на багату візуальну "
-"документацію, ця книга заглиблюється в маловідому критичну історію цього "
-"впливового перформансу (і відеороботи), що передбачає масштабні зусилля з "
-"метою підривної критики медіагегемонії, водночас постійно переосмислюючи "
-"суть самого перформансу."
+"кульмінацією якого стали такі помітні роботи, як «Будинок століття» (1971-73)"
+", «Кадилак Ранч» (1974) та «Вічна рама» (1975). У «Медіа Берн» митці "
+"розквітли в багатому пориві ідей, що залучили сучасну теорію медіа до дивно "
+"складного естетичного видовища, текстової апропріації та всеохоплюючих "
+"зусиль брендингу. Написана Стівом Сеїдом "
+"(Берклійський художній музей/Тихоокеанський кіноархів) та спираючись на "
+"багату візуальну документацію, ця книга заглиблюється в маловідому критичну "
+"історію цього впливового перформансу (і відеороботи), що передбачає "
+"масштабні зусилля з метою підривної критики медіагегемонії, водночас "
+"постійно переосмислюючи суть самого перформансу."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -496,8 +502,11 @@ msgid ""
 "A free, personalized, integrated <strong><font class=\"text-o-color-1\">Website</font></strong> in a few clicks. Start receiving orders directly in Odoo and go live with your \n"
 "                        <strong><font class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
 msgstr ""
-"Безкоштовний, персоналізований, інтегрований <strong><font class=\"text-o-color-1\">Вебсайт</font></strong> лише у кілька кліків. Почніть отримувати замовлення безпосередньо в Odoo та опублікуйте свій \n"
-"                        <strong><font class=\"text-o-color-1\">E-shop</font></strong> за кілька хвилин."
+"Безкоштовний, персоналізований, інтегрований <strong><font class="
+"\"text-o-color-1\">Вебсайт</font></strong> лише у кілька кліків. Почніть "
+"отримувати замовлення безпосередньо в Odoo та опублікуйте свій \n"
+"                        <strong><font class=\"text-o-color-1\""
+">E-shop</font></strong> за кілька хвилин."
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_9_product_template
@@ -519,8 +528,8 @@ msgid ""
 "As monitoring your success is essential, there are some views that might "
 "interest you:"
 msgstr ""
-"Оскільки моніторинг вашого успіху є важливим, є деякі точки зору, які можуть"
-" вас зацікавити:"
+"Оскільки моніторинг вашого успіху є важливим, є деякі точки зору, які можуть "
+"вас зацікавити:"
 
 #. module: bookstore
 #: model:ir.model.fields,field_description:bookstore.x_author_template_field
@@ -669,8 +678,8 @@ msgid ""
 "Article)"
 msgstr ""
 "Якщо ви хочете виконати практичний огляд цього модуля, вам слід імпортувати "
-"демонстраційні дані та спробувати варіант використання. (У наступній статті "
-"бази знань)"
+"демонстраційні дані та спробувати варіант використання. "
+"(У наступній статті бази знань)"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -742,8 +751,13 @@ msgid ""
 "Manage all your communication channels in one place with Odoo <strong><font class=\"text-o-color-1\">Marketing Automation</font></strong>, <strong><font class=\"text-o-color-1\">Email Marketing</font></strong>, \n"
 "                        <strong><font class=\"text-o-color-1\">Social Media Marketing</font></strong>, and <strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
-"Керуйте всіма своїми каналами зв'язку в одному місці за допомогою Odoo <strong><font class=\"text-o-color-1\">Автоматизація Маркетингу</font></strong>, <strong><font class=\"text-o-color-1\">Email-маркетинг</font></strong>, \n"
-"                        <strong><font class=\"text-o-color-1\">Маркетинг соцмереж</font></strong>, та <strong><font class=\"text-o-color-1\">SMS-маркетинг</font></strong>."
+"Керуйте всіма своїми каналами зв'язку в одному місці за допомогою Odoo "
+"<strong><font class=\"text-o-color-1\">Автоматизація Маркетингу</font></"
+"strong>, <strong><font class=\"text-o-color-1\">Email-маркетинг</font></"
+"strong>, \n"
+"                        <strong><font class=\"text-o-color-1\">Маркетинг "
+"соцмереж</font></strong>, та <strong><font class=\"text-o-color-1\""
+">SMS-маркетинг</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -753,14 +767,13 @@ msgid ""
 "App</font></strong>)"
 msgstr ""
 "Керуйте своїм бухобліком легше, ніж будь-коли, завдяки повністю "
-"інтегрованому середовищу. (<strong><font class=\"text-o-color-1\">Модуль "
-"Бухобліку</font></strong>)"
+"інтегрованому середовищу. "
+"(<strong><font class=\"text-o-color-1\">Модуль Бухобліку</font></strong>)"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_20_product_template
 msgid "Media Burn: Ant Farm and the Making of an Image (Paperback)"
-msgstr ""
-"Медіа-вигорання: Мурашина ферма та створення образу (м’яка обкладинка)"
+msgstr "Медіа-вигорання: Мурашина ферма та створення образу (м’яка обкладинка)"
 
 #. module: bookstore
 #: model_terms:product.template,description:bookstore.product_product_12_product_template
@@ -796,8 +809,8 @@ msgstr ""
 "коригувати свої плани крок за кроком хвилину. Замість створення складного "
 "бізнес-плану та орієнтованого на продукт підходу, Lean Startup цінує "
 "постійне тестування вашого бачення з вашими клієнтами та постійне внесення "
-"корективів — час від часу з'являється бізнес-книга, яка змінює наше уявлення"
-" про інновації та підприємництво. Книга Еріка Ріса «Lean Startup» має всі "
+"корективів — час від часу з'являється бізнес-книга, яка змінює наше уявлення "
+"про інновації та підприємництво. Книга Еріка Ріса «Lean Startup» має всі "
 "шанси приєднатися до цієї висококласної компанії."
 
 #. module: bookstore
@@ -936,10 +949,10 @@ msgid ""
 "products and create new entries directly from this App to encode new books "
 "faster than ever."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">модуль Штрих-"
-"кодів</font></strong><font class=\"text-o-color-1\"> </font>щоб сканувати "
-"ваші товари та створювати нові записи безпосередньо з цього додатка, щоб "
-"кодувати нові книги швидше, ніж будь-коли."
+"Використовуйте <strong><font class=\"text-o-color-1\">модуль "
+"Штрих-кодів</font></strong><font class=\"text-o-color-1\"> </font>щоб "
+"сканувати ваші товари та створювати нові записи безпосередньо з цього "
+"додатка, щоб кодувати нові книги швидше, ніж будь-коли."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -947,9 +960,9 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Inventory App</font></strong>"
 " to manage your orders receive and deliver your products."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">модуль "
-"Складу</font></strong> щоб керувати вашими замовленнями, отримувати та "
-"доставляти вашу продукцію."
+"Використовуйте <strong><font class=\"text-o-color-1\">модуль Складу</font></"
+"strong> щоб керувати вашими замовленнями, отримувати та доставляти вашу "
+"продукцію."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -958,10 +971,10 @@ msgid ""
 " for your sales at the desk. Manage your customer accounts and advantage in "
 "the <strong><font class=\"text-o-color-1\">Contacts App</font></strong>."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">Точку "
-"продажу</font></strong> для ваших продажів за столом. Керуйте своїми "
-"клієнтськими обліковими записами та отримуйте переваги в<strong><font "
-"class=\"text-o-color-1\">модулі Контакти</font></strong>."
+"Використовуйте <strong><font class=\"text-o-color-1\">Точку продажу</font></"
+"strong> для ваших продажів за столом. Керуйте своїми клієнтськими обліковими "
+"записами та отримуйте переваги в<strong><font class=\"text-o-color-1\""
+">модулі Контакти</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -969,8 +982,8 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Purchase App</font></strong> "
 "to order books from your distributors."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">модуль "
-"Купівлі</font></strong> для замовлення книг у своїх дистриб'юторів."
+"Використовуйте <strong><font class=\"text-o-color-1\">модуль Купівлі</font></"
+"strong> для замовлення книг у своїх дистриб'юторів."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -978,8 +991,12 @@ msgid ""
 "Use the <strong><font class=\"text-o-color-1\">Sales App</font></strong> to order books for your customers, create quotations for your institutional clients (libraries, schools, etc.), and invoice them on the go using\n"
 "                        the <strong><font class=\"text-o-color-1\">Invoicing App</font></strong>."
 msgstr ""
-"Використовуйте <strong><font class=\"text-o-color-1\">модуль Продажі</font></strong> для створення замовлень книг своїм клієнтам, створюйте комерційні пропозиції для своїх інституційних клієнтів (бібліотек, шкіл тощо) та виставляти їм рахунки на ходу за допомогою\n"
-"                         <strong><font class=\"text-o-color-1\">модуля Виставлення рахунків</font></strong>."
+"Використовуйте <strong><font class=\"text-o-color-1\">модуль Продажі</font></"
+"strong> для створення замовлень книг своїм клієнтам, створюйте комерційні "
+"пропозиції для своїх інституційних клієнтів (бібліотек, шкіл тощо) та "
+"виставляти їм рахунки на ходу за допомогою\n"
+"                         <strong><font class=\"text-o-color-1\">модуля "
+"Виставлення рахунків</font></strong>."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -990,8 +1007,8 @@ msgid ""
 msgstr ""
 "Скористайтеся кнопкою внутрішнього посилання праворуч від поля, щоб "
 "переглянути створений запис контактної особи, і не забудьте додати адресу "
-"електронної пошти, на яку вона отримуватиме сповіщення. Поверніться до своєї"
-" комерційної пропозиції за допомогою панелі навігації."
+"електронної пошти, на яку вона отримуватиме сповіщення. Поверніться до своєї "
+"комерційної пропозиції за допомогою панелі навігації."
 
 #. module: bookstore
 #: model:pos.category,name:bookstore.pos_category_2
@@ -1006,8 +1023,7 @@ msgstr "Ласкаво просимо! Приємного дослідження
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
-"Ви хотіли б обговорити з нами налаштування вашого Odoo чи піти ще далі?"
+msgstr "Ви хотіли б обговорити з нами налаштування вашого Odoo чи піти ще далі?"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1015,8 +1031,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Ви можете отримати доступ до кожного встановленого модуля у вашій базі даних"
-" Odoo на головній панелі інструментів."
+"Ви можете отримати доступ до кожного встановленого модуля у вашій базі даних "
+"Odoo на головній панелі інструментів."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1035,8 +1051,8 @@ msgid ""
 "Order."
 msgstr ""
 "Ви можете здійснити авансовий платіж за допомогою точки продажу. Для цього "
-"просто поверніться до цього модуля та натисніть кнопку "
-"Пропозиції/Замовлення, щоб отримати замовлення на продаж."
+"просто поверніться до цього модуля та натисніть кнопку Пропозиції/"
+"Замовлення, щоб отримати замовлення на продаж."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1064,8 +1080,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Ви завершили цей демонстраційний сценарій використання! Існує мільйони інших"
-" способів адаптувати налаштування Odoo до потреб вашого бізнесу."
+"Ви завершили цей демонстраційний сценарій використання! Існує мільйони інших "
+"способів адаптувати налаштування Odoo до потреб вашого бізнесу."
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1170,8 +1186,7 @@ msgstr "надіслати запит на демо"
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
 msgid "​Track your Point of Sales results in Point of Sales &gt; Reporting"
 msgstr ""
-"Відстежуйте результати своєї точки продажу в модулі Точка продажу > "
-"Звітність"
+"Відстежуйте результати своєї точки продажу в модулі Точка продажу > Звітність"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body

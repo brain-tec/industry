@@ -8,13 +8,13 @@
 # Wil Odoo, 2024
 # Junko Augias, 2024
 #
-# "Junko Augias (juau)" <juau@odoo.com>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 12:51+0000\n"
-"PO-Revision-Date: 2025-11-14 14:51+0000\n"
+"PO-Revision-Date: 2026-02-07 18:50+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "construction/ja/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -268,7 +268,8 @@ msgstr "フィールドサービス"
 msgid ""
 "For each ordered material, don't forget to fill the analytic distribution in"
 " which you will be able to set for which project it will be used."
-msgstr "各オーダされた材料について、どのプロジェクトで使用されるかを設定できる分析分布を忘れずに記入して下さい。"
+msgstr "各オーダされた材料について、どのプロジェクトで使用されるかを設定できる分析分"
+"配を忘れずに記入して下さい。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -363,7 +364,7 @@ msgstr "請求スケジュール"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Keep an eye on materials 📦"
-msgstr "材料を監視しておく 📦"
+msgstr "資材を常に把握 📦"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -382,7 +383,7 @@ msgstr "設備労働時間"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Make your customers happy 🆘"
-msgstr "顧客をハッピーにしましょう 🆘"
+msgstr "顧客満足度を高めましょう 🆘"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -421,7 +422,7 @@ msgstr "材料が販売されました。"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Never miss an opportunity 🎯"
-msgstr "案件を見逃しません 🎯"
+msgstr "チャンスを逃しません 🎯"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_0
@@ -694,8 +695,11 @@ msgid ""
 "            <strong><font class=\"text-o-color-1\">Manufacturing</font></strong> app allows you to create kits. These can contain several products. When added in a quotation, the kits is displayed as a single line but the delivery order displays\n"
 "            all the components to pick up."
 msgstr ""
-" 通常一緒に販売される製品の見積を簡単に作成できるように\n"
-"            <strong><font class=\"text-o-color-1\">製造</font></strong> アプリでキットを作成することができます。キットには複数のプロダクトを含むことができます。 見積書に追加すると、キットは1つの明細として表示されますが、配送オーダには\n"
+"通常一緒に販売される製品の見積を簡単に作成できるように\n"
+"            <strong><font class=\"text-o-color-1\">製造</font></strong> アプ"
+"リでキットを作成することができます。キットには複数のプロダクトを含むことがで"
+"きます。 見積書に追加すると、キットは1つの明細として表示されますが、出荷オー"
+"ダには\n"
 "            ピックアップする全ての構成品が表示されます。"
 
 #. module: construction

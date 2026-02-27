@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* micro_brewery
-# 
+# * micro_brewery
+#
 # Translators:
 # Jolien De Paepe, 2024
 # vavaodoo, 2024
@@ -9,20 +9,24 @@
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
 # Manon Rondou, 2025
-# 
+#
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-29 14:10+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Manon Rondou, 2025\n"
-"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"PO-Revision-Date: 2026-01-31 18:50+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
+"micro_brewery/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_2543
@@ -705,7 +709,7 @@ msgstr "Champs par défaut pour les consignes"
 #: model:account.tax.group,name:micro_brewery.deposit_tax_group
 #: model:pos.category,name:micro_brewery.pos_category_5
 msgid "Deposit"
-msgstr "Dépôt"
+msgstr "Consigne"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_90
@@ -1035,7 +1039,7 @@ msgstr "Est une consigne"
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
 msgid "Is a deposit category"
-msgstr "Est une catégorie des dépôts"
+msgstr "Est une catégorie de consigne"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1605,7 +1609,7 @@ msgstr ""
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_unit_sale_product
 msgid "Unit sale product"
-msgstr "Vente à l'unité de produit"
+msgstr "Produit de vente à l’unité"
 
 #. module: micro_brewery
 #: model:base.automation,name:micro_brewery.update_sales_taxes
