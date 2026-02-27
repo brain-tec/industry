@@ -9,13 +9,14 @@
 # Wil Odoo, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-12 12:04+0000\n"
-"PO-Revision-Date: 2025-11-21 06:43+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-01-31 18:50+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "dropshipping/uk/>\n"
 "Language: uk\n"
@@ -23,25 +24,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
+"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
+"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
+" ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_26
 msgid " eco-friendly"
-msgstr ""
+msgstr " екологічно чистий"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_30
 msgid " slim"
-msgstr ""
+msgstr " slim"
 
 #. module: dropshipping
 #: model:product.tag,name:dropshipping.product_tag_34
 msgid " wireless charging compatible"
-msgstr ""
+msgstr " сумісний з бездротовою зарядкою"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
@@ -50,6 +52,9 @@ msgid ""
 "                      <br/>\n"
 "for Companies"
 msgstr ""
+"<b>Зроблено</b>\n"
+"                      <br/>\n"
+"для компаній"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -57,6 +62,10 @@ msgid ""
 "<br/>\n"
 "Durability meets design—our cases provide the ultimate protection without sacrificing style. Shop drop-tested, shockproof, and scratch-resistant cases today!"
 msgstr ""
+"<br/>\n"
+"Міцність поєднується з дизайном — наші чохли забезпечують максимальний "
+"захист без шкоди для стилю. Купуйте чохли, стійкі до падінь, ударів та "
+"подряпин, вже сьогодні!"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -69,6 +78,13 @@ msgid ""
 "                      </span>\n"
 "                    </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"                      <span class=\"display-3-fs text-o-color-5\">\n"
+"                        <span class=\"display-3-fs text-o-color-2\">\n"
+"                          <font class=\"text-o-color-4\">3</font>\n"
+"                        </span>\n"
+"                      </span>\n"
+"                    </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -77,6 +93,10 @@ msgid ""
 "        Benefit from unique collaborations and partnerships that give your phone cases a competitive edge in the market.\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Скористайтеся перевагами унікальної співпраці та партнерства, які "
+"надають вашим чохлам для телефонів конкурентну перевагу на ринку.\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -85,6 +105,9 @@ msgid ""
 "        Dedicated Support\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Виділена підтримка\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -93,6 +116,9 @@ msgid ""
 "        Durable Protection\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Міцний захист\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -101,6 +127,9 @@ msgid ""
 "        Exclusive Collaborations\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Ексклюзивні колаборації\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -109,6 +138,11 @@ msgid ""
 "        Our team provides continuous support, ensuring your phone case needs are met and any issues are addressed promptly.\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Наша команда забезпечує постійну підтримку, гарантуючи задоволення "
+"ваших потреб у чохлах для телефону та оперативне вирішення будь-яких проблем."
+"\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -117,26 +151,31 @@ msgid ""
 "        We offer tailored strategies that align with your phone case needs, driving growth and maximizing efficiency.\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">\n"
+"        Ми пропонуємо індивідуальні стратегії, що відповідають вашим "
+"потребам у чохлах для телефонів, стимулюючи зростання та максимізуючи "
+"ефективність.\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">+1 555-555-5556</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">+1 555-555-5556</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Contact us</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">Звʼяжіться з нами</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Home</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">Головна</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">Privacy Policy</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">Політика конфіденційності</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -144,11 +183,13 @@ msgid ""
 "<font class=\"text-o-color-4\">Why Choose CaseShippers\n"
 "                      </font>"
 msgstr ""
+"<font class=\"text-o-color-4\">Чому варто обрати CaseShippers\n"
+"                      </font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_3467
 msgid "<font class=\"text-o-color-4\">info@yourcompany.example.com</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-4\">info@yourcompany.example.com</font>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -171,6 +212,8 @@ msgid ""
 "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
 "                  <span class=\"visually-hidden\">Next</span>"
 msgstr ""
+"<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">Далі</span>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -178,6 +221,8 @@ msgid ""
 "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
 "                  <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
+"<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"/>\n"
+"                  <span class=\"visually-hidden\">Назад</span>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -186,6 +231,9 @@ msgid ""
 "                      <font class=\"text-o-color-4\">1</font>\n"
 "                    </span>"
 msgstr ""
+"<span class=\"display-3-fs text-o-color-1\">\n"
+"                      <font class=\"text-o-color-4\">1</font>\n"
+"                    </span>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.ir_ui_view_1661
@@ -194,6 +242,9 @@ msgid ""
 "                      <font class=\"text-o-color-4\">2</font>\n"
 "                    </span>"
 msgstr ""
+"<span class=\"display-3-fs text-o-color-2\">\n"
+"                      <font class=\"text-o-color-4\">2</font>\n"
+"                    </span>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body
@@ -203,6 +254,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>Odoo дропшипперів</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: dropshipping
 #: model_terms:ir.ui.view,arch_db:dropshipping.welcome_article_body

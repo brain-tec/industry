@@ -1,25 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* bike_leasing
-# 
+# * bike_leasing
+#
 # Translators:
 # Wil Odoo, 2024
 # Svyatoslav Nadozirny, 2025
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
-# 
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 05:09+0000\n"
-"PO-Revision-Date: 2024-09-27 12:51+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
-"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
+"PO-Revision-Date: 2026-02-14 18:50+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
+"bike_leasing/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
+"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
+"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
+" ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: bike_leasing
 #: model:product.template,description_sale:bike_leasing.product_template_10
@@ -65,7 +70,8 @@ msgid ""
 "<strong class=\"o_default_snippet_text\">The best cargo bike</strong>\n"
 "                                            <br/>"
 msgstr ""
-"<strong class=\"o_default_snippet_text\">Найкращий вантажний велосипед</strong>\n"
+"<strong class=\"o_default_snippet_text\">Найкращий вантажний "
+"велосипед</strong>\n"
 "                                            <br/>"
 
 #. module: bike_leasing
@@ -87,8 +93,8 @@ msgid ""
 "high-quality chromoly steel. The engines are sourced from Shimano and Bosch,"
 " while the spoking of the bicycle wheels is handled in Brittany."
 msgstr ""
-"Близько 80% вартості велосипедів складають компоненти, виготовлені в Європі."
-" Рами ретельно зварюються вручну у Східній Європі з високоякісної "
+"Близько 80% вартості велосипедів складають компоненти, виготовлені в Європі. "
+"Рами ретельно зварюються вручну у Східній Європі з високоякісної "
 "хромомолібденової сталі. Двигуни постачаються від Shimano та Bosch, а спиці "
 "велосипедних коліс виготовляються в Бретані."
 
@@ -98,7 +104,10 @@ msgid ""
 "As soon as the quotation is confirmed, a delivery is automatically created in the <strong><font class=\"text-o-color-1\">Inventory</font></strong> app. This is essential to track which bike is rent. During the delivery process, you will\n"
 "                have to fill the serial number of the bike."
 msgstr ""
-"Щойно комерційну пропозицію підтверджено, доставка автоматично створюється в модулі <strong><font class=\"text-o-color-1\">Склад</font></strong>. Це важливо для відстеження того, який велосипед орендовано. Під час процесу доставки\n"
+"Щойно комерційну пропозицію підтверджено, доставка автоматично створюється в "
+"модулі <strong><font class=\"text-o-color-1\">Склад</font></strong>. Це "
+"важливо для відстеження того, який велосипед орендовано. Під час процесу "
+"доставки\n"
 " вам потрібно буде вказати серійний номер велосипеда."
 
 #. module: bike_leasing
@@ -130,8 +139,8 @@ msgid ""
 msgstr ""
 "Bike 43 з гордістю збирає свої велосипеди в Брюсселі. З початку виробництва "
 "у 2016 році компанія співпрацює з адаптованим робочим місцем у Брюсселі, "
-"надаючи можливості працевлаштування та реінтеграції для людей з інвалідністю"
-" та соціально незахищених осіб. Під керівництвом Етьєна команда, що "
+"надаючи можливості працевлаштування та реінтеграції для людей з інвалідністю "
+"та соціально незахищених осіб. Під керівництвом Етьєна команда, що "
 "складається переважно з людей з вадами слуху, розвинула виняткові механічні "
 "навички."
 
@@ -197,8 +206,8 @@ msgid ""
 "Display the different combinations of bikes on your <strong><font "
 "class=\"text-o-color-1\">eCommerce</font></strong>, such as:"
 msgstr ""
-"Покажіть різні комбінації велосипедів у вашій <strong><font class=\"text-o-"
-"color-1\">Електронній комерції</font></strong>, такі як:"
+"Покажіть різні комбінації велосипедів у вашій <strong><font class="
+"\"text-o-color-1\">Електронній комерції</font></strong>, такі як:"
 
 #. module: bike_leasing
 #: model_terms:ir.ui.view,arch_db:bike_leasing.welcome_article_body
@@ -209,9 +218,11 @@ msgid ""
 "                </strong>\n"
 "                app. All the emails sent to"
 msgstr ""
-"Протягом періоду оренди забезпечуйте п'ятизіркове обслуговування клієнтів, відповідаючи на запитання та надаючи допомогу своїм клієнтам через модуль\n"
+"Протягом періоду оренди забезпечуйте п'ятизіркове обслуговування клієнтів, "
+"відповідаючи на запитання та надаючи допомогу своїм клієнтам через модуль\n"
 "                <strong>\n"
-"                        <font class=\"text-o-color-1\">Служби підтримки</font>\n"
+"                        <font class=\"text-o-color-1\">Служби "
+"підтримки</font>\n"
 "                </strong>\n"
 "                . Усі листи надіслані"
 
@@ -242,8 +253,8 @@ msgstr "Передній кошик"
 #: model_terms:ir.ui.view,arch_db:bike_leasing.homepage
 msgid "Get it from 90€/month&amp;nbsp;<span class=\"fa fa-angle-right ms-2\"/>"
 msgstr ""
-"Отримайте від 90 євро/місяць&amp;nbsp;<span class=\"fa fa-angle-right "
-"ms-2\"/>"
+"Отримайте від 90 євро/місяць&amp;nbsp;<span class=\"fa fa-angle-right ms-2\""
+"/>"
 
 #. module: bike_leasing
 #: model_terms:ir.ui.view,arch_db:bike_leasing.welcome_article_body
@@ -262,11 +273,14 @@ msgstr ""
 "                <strong>\n"
 "                        <font class=\"text-o-color-1\">Купівлі</font>\n"
 "                </strong>\n"
-"                створивши замовлення на купівлю, пов’язане з потрібним постачальником. У модулі\n"
+"                створивши замовлення на купівлю, пов’язане з потрібним "
+"постачальником. У модулі\n"
 "                <strong>\n"
 "                        <font class=\"text-o-color-1\">Контакти</font>\n"
 "                </strong>\n"
-"                , Ви можете легко керувати всіма своїми бажаними постачальниками та не соромтеся встановлювати попередження, щоб нагадати, чи є мінімальна сума для отримання безкоштовних транспортних витрат."
+"                , Ви можете легко керувати всіма своїми бажаними "
+"постачальниками та не соромтеся встановлювати попередження, щоб нагадати, чи "
+"є мінімальна сума для отримання безкоштовних транспортних витрат."
 
 #. module: bike_leasing
 #: model_terms:ir.ui.view,arch_db:bike_leasing.catalogue
@@ -329,8 +343,8 @@ msgid ""
 "the following fields:"
 msgstr ""
 "Звичайно, ви також можете створити гарну та індивідуальну комерційну "
-"пропозицію в модулі <strong><font class=\"text-o-"
-"color-1\">Продажі</font></strong> встановивши додаткові поля:"
+"пропозицію в модулі <strong><font class=\"text-o-color-1\">Продажі</font></"
+"strong> встановивши додаткові поля:"
 
 #. module: bike_leasing
 #: model_terms:ir.ui.view,arch_db:bike_leasing.homepage
@@ -480,8 +494,8 @@ msgstr ""
 "виділило її в галузі, що переважно базується в Азії. Цей стратегічний вибір "
 "дозволяє швидку ітерацію та постійне вдосконалення дизайну продукції. "
 "Компанія розробила понад 30 версій своїх рам та постійно впроваджує "
-"інновації в свою екосистему аксесуарів, зосереджуючись на безпеці для дітей,"
-" зручності для сімей та простоті складання для механіків."
+"інновації в свою екосистему аксесуарів, зосереджуючись на безпеці для дітей, "
+"зручності для сімей та простоті складання для механіків."
 
 #. module: bike_leasing
 #: model_terms:ir.ui.view,arch_db:bike_leasing.welcome_article_body
@@ -489,8 +503,12 @@ msgid ""
 "Thereby, the customer can configure its bike then get an accurate quote. On your side, this quote is created in the <strong><font class=\"text-o-color-1\">Sales</font></strong> app where you can discuss with the customer using the\n"
 "                chatter. It is really useful to define the terms of the renting contract such as the delivery date, the rent duration, etc."
 msgstr ""
-"Таким чином, клієнт може налаштувати свій велосипед, а потім отримати точну комерційну пропозицію. З вашого боку, ця цінова пропозиція створюється в модулі <strong><font class=\"text-o-color-1\">Продажі</font></strong> де ви можете обговорити це з клієнтом за допомогою\n"
-" чату. Дуже корисно визначити умови договору оренди, такі як дата поставки, термін оренди тощо."
+"Таким чином, клієнт може налаштувати свій велосипед, а потім отримати точну "
+"комерційну пропозицію. З вашого боку, ця цінова пропозиція створюється в "
+"модулі <strong><font class=\"text-o-color-1\">Продажі</font></strong> де ви "
+"можете обговорити це з клієнтом за допомогою\n"
+" чату. Дуже корисно визначити умови договору оренди, такі як дата поставки, "
+"термін оренди тощо."
 
 #. module: bike_leasing
 #: model_terms:ir.ui.view,arch_db:bike_leasing.welcome_article_body
@@ -498,8 +516,8 @@ msgid ""
 "This can be sent by email to your customer who will be able to confirm it "
 "with a signature."
 msgstr ""
-"Це можна надіслати електронною поштою вашому клієнту, який зможе підтвердити"
-" це своїм підписом."
+"Це можна надіслати електронною поштою вашому клієнту, який зможе підтвердити "
+"це своїм підписом."
 
 #. module: bike_leasing
 #: model_terms:ir.ui.view,arch_db:bike_leasing.welcome_article_body
@@ -542,7 +560,10 @@ msgid ""
 "Use the variants and the optional products features to make sure that your customer will find the most suitable bike. Moreover, the customer can choose the recurring plan, i.e. Monthly, Quarterly or Yearly. The corresponding prices must\n"
 "                be defined in the three predefined \"selectable\" pricelists."
 msgstr ""
-"Використовуйте варіанти та додаткові функції продуктів, щоб ваш клієнт міг знайти найбільш підходящий велосипед. Крім того, клієнт може обрати періодичний план, тобто щомісячний, щоквартальний або річний. Відповідні ціни повинні бути \n"
+"Використовуйте варіанти та додаткові функції продуктів, щоб ваш клієнт міг "
+"знайти найбільш підходящий велосипед. Крім того, клієнт може обрати "
+"періодичний план, тобто щомісячний, щоквартальний або річний. Відповідні "
+"ціни повинні бути \n"
 "визначені у трьох попередньо визначених прайс-листах."
 
 #. module: bike_leasing
@@ -561,8 +582,8 @@ msgid ""
 "Write one or two paragraphs describing your product or services. To be "
 "successful your content needs to be useful to your readers."
 msgstr ""
-"Напишіть один-два абзаци з описом вашого продукту чи послуг. Щоб ваш контент"
-" був успішним, він повинен бути корисним для ваших читачів."
+"Напишіть один-два абзаци з описом вашого продукту чи послуг. Щоб ваш контент "
+"був успішним, він повинен бути корисним для ваших читачів."
 
 #. module: bike_leasing
 #: model:product.pricelist,name:bike_leasing.product_pricelist_4

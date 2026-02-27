@@ -6,13 +6,13 @@
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Svyatoslav Nadozirny, 2025
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 10:35+0000\n"
-"PO-Revision-Date: 2025-08-12 10:39+0000\n"
+"PO-Revision-Date: 2026-02-14 18:51+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "beverage_distributor/uk/>\n"
@@ -21,10 +21,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
+"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
+"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
+" ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -50,8 +51,8 @@ msgstr "&amp;nbsp;Покладається на дивовижних партн�
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
 msgid "&amp;nbsp;Visit us to get a free degustation for B2B partners !<br/>"
 msgstr ""
-"&amp;nbsp;Завітайте до нас, щоб отримати безкоштовну дегустацію для "
-"B2B-партнерів !<br/>"
+"&amp;nbsp;Завітайте до нас, щоб отримати безкоштовну дегустацію для B2B-"
+"партнерів !<br/>"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_17
@@ -69,7 +70,8 @@ msgid ""
 "<font class=\"text-o-color-5\">Thanks to our new wine specialist, we are now proud to propose more than 100 different wines in our stock.</font>\n"
 "                                    <br/>"
 msgstr ""
-"<font class=\"text-o-color-5\">Завдяки нашому новому винному спеціалісту, ми з гордістю пропонуємо понад 100 різних вин у нашому асортименті.</font>\n"
+"<font class=\"text-o-color-5\">Завдяки нашому новому винному спеціалісту, ми "
+"з гордістю пропонуємо понад 100 різних вин у нашому асортименті.</font>\n"
 "                                    <br/>"
 
 #. module: beverage_distributor
@@ -78,7 +80,8 @@ msgid ""
 "<font class=\"text-o-color-5\">Welcome our wine assortment</font>\n"
 "                                    <br/>"
 msgstr ""
-"<font class=\"text-o-color-5\">Ласкаво просимо до нашого асортименту вин</font>\n"
+"<font class=\"text-o-color-5\">Ласкаво просимо до нашого асортименту "
+"вин</font>\n"
 "                                    <br/>"
 
 #. module: beverage_distributor
@@ -113,7 +116,8 @@ msgid ""
 "                                        <span class=\"visually-hidden\">Next</span>"
 msgstr ""
 "<span class=\"carousel-control-next-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Далі</span>"
+"                                        <span class=\"visually-hidden\""
+">Далі</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -122,7 +126,8 @@ msgid ""
 "                                    <span class=\"visually-hidden\">Next</span>"
 msgstr ""
 "<span class=\"carousel-control-next-icon\"/>\n"
-"                                    <span class=\"visually-hidden\">Далі</span>"
+"                                    <span class=\"visually-hidden\""
+">Далі</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -131,7 +136,8 @@ msgid ""
 "                                        <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
-"                                        <span class=\"visually-hidden\">Назад</span>"
+"                                        <span class=\"visually-hidden\""
+">Назад</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -140,7 +146,8 @@ msgid ""
 "                                    <span class=\"visually-hidden\">Previous</span>"
 msgstr ""
 "<span class=\"carousel-control-prev-icon\"/>\n"
-"                                    <span class=\"visually-hidden\">Назад</span>"
+"                                    <span class=\"visually-hidden\""
+">Назад</span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -188,8 +195,7 @@ msgid ""
 "A truly exquisite drinking experience. I highly recommend the Margarita, out"
 " of this world."
 msgstr ""
-"Справді вишуканий досвід напою. Я дуже рекомендую Маргариту, вона "
-"неймовірна."
+"Справді вишуканий досвід напою. Я дуже рекомендую Маргариту, вона неймовірна."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -198,8 +204,8 @@ msgid ""
 "to propose new drinks and flavors. While respecting seasons' products and "
 "nature."
 msgstr ""
-"Широкий вибір напоїв з місцевих продуктів. Ми постійно шукаємо нові напої та"
-" смаки. Поважаючи сезонні продукти та природу."
+"Широкий вибір напоїв з місцевих продуктів. Ми постійно шукаємо нові напої та "
+"смаки. Поважаючи сезонні продукти та природу."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -241,8 +247,8 @@ msgid ""
 "you’ll discover our Today’s Special."
 msgstr ""
 "У бістро на вас чекає широкий вибір напоїв до вашої трапези. Завітайте до "
-"нас на недільний бранч, освіжаючі соки, сповнені смаку, або смачні коктейлі,"
-" які вгамують вашу спрагу. А щодня ви відкриєте для себе нашу сьогоднішню "
+"нас на недільний бранч, освіжаючі соки, сповнені смаку, або смачні коктейлі, "
+"які вгамують вашу спрагу. А щодня ви відкриєте для себе нашу сьогоднішню "
 "спеціальну пропозицію."
 
 #. module: beverage_distributor
@@ -348,7 +354,10 @@ msgid ""
 "Collect deposit when you deliver your customer. It is easy. When validating your delivery, you can directly set a \"Return\" and precisely count the number of each type of deposit your customer gave you. It will automatically be\n"
 "                        reflected on his invoice or issue a credit note."
 msgstr ""
-"Стягуйте депозит під час доставки клієнту. Це легко. Під час підтвердження доставки ви можете безпосередньо встановити \"Повернення\" та точно порахувати кількість кожного типу депозиту, який вам надав ваш клієнт. Це буде автоматично\n"
+"Стягуйте депозит під час доставки клієнту. Це легко. Під час підтвердження "
+"доставки ви можете безпосередньо встановити \"Повернення\" та точно "
+"порахувати кількість кожного типу депозиту, який вам надав ваш клієнт. Це "
+"буде автоматично\n"
 " відображено в його рахунку-фактурі або видавати сторно."
 
 #. module: beverage_distributor
@@ -1039,8 +1048,8 @@ msgid ""
 " your stock perfectly."
 msgstr ""
 "Це автоматично створюватиме специфікацію матеріалів та оброблятиме "
-"замовлення на виробництво щоразу, коли вам потрібно буде розділити ваш товар"
-" та ідеально відобразити цю операцію на вашому складі."
+"замовлення на виробництво щоразу, коли вам потрібно буде розділити ваш товар "
+"та ідеально відобразити цю операцію на вашому складі."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services

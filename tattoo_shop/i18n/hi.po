@@ -6,13 +6,13 @@
 # Wil Odoo, 2025
 # Ujjawal Pathak, 2025
 #
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-18 08:26+0000\n"
-"PO-Revision-Date: 2025-11-21 06:44+0000\n"
+"PO-Revision-Date: 2026-02-07 18:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "tattoo_shop/hi/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.homepage
@@ -886,6 +886,9 @@ msgid ""
 "your first tattoo or adding to your collection, our team is here to guide "
 "you through the process."
 msgstr ""
+"अपने टैटू विज़न को हकीकत में बदलने के लिए तैयार हैं? आज ही अपॉइंटमेंट बुक करके हमारे प्रतिभाशाली कलाकारों के साथ "
+"अपनी जगह सुरक्षित करें. चाहे आप अपना पहला टैटू बनवा रहे हों या अपने कलेक्शन में और टैटू जोड़ रहे हों, हमारी "
+"टीम इस प्रक्रिया में आपका मदद करने के लिए यहां है।"
 
 #. module: tattoo_shop
 #: model_terms:appointment.type,message_intro:tattoo_shop.appointment_type_2
@@ -1072,7 +1075,7 @@ msgstr ""
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.about_us
 msgid "Tony Fred"
-msgstr ""
+msgstr "टोन फ्रेड"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.homepage
@@ -1165,7 +1168,7 @@ msgstr ""
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
 msgid "🎓 Appointments"
-msgstr ""
+msgstr "🎓 अपॉइंटमेंट"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -1185,7 +1188,7 @@ msgstr "🎓 साइन"
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
 msgid "🎓 Social Marketing"
-msgstr ""
+msgstr "🎓 सोशल मार्केटिंग"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body

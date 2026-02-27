@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-28 08:55+0000\n"
-"PO-Revision-Date: 2026-01-03 18:50+0000\n"
+"PO-Revision-Date: 2026-02-07 18:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "shoe_maker/da/>\n"
@@ -224,12 +224,12 @@ msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "<strong>Basics:</strong>"
-msgstr ""
+msgstr "<strong>Det grundlæggende:</strong>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr ""
+msgstr "<strong>Vil du tage det et skridt videre?</strong>"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -368,7 +368,7 @@ msgstr "Medarbejdere"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "From the <strong>Sales App</strong>, you can manage your orders."
-msgstr ""
+msgstr "Du kan administrere salgsordrer direkte i <strong>Salgsappen</strong>."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -435,6 +435,9 @@ msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo data and try the Demo - Use Case (In the next Knowledge Article)"
 msgstr ""
+"Hvis du vil gennemgå en praktisk rundvisning af dette modul, bør du "
+"importere demodata og afprøve demobrugsscenariet "
+"(som beskrevet i næste artikel i Vidensdelingsappen)"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -885,6 +888,9 @@ msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Bar &amp; Pub package and check the related box"
 msgstr ""
+"Har du ikke importeret demodata endnu? Du kan stadig nå det. Gå til Apps &gt;"
+" Brancher &gt; Opgradér din pakke til klatrecentre, og markér det relevante "
+"felt"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body

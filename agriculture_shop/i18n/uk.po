@@ -5,13 +5,13 @@
 # Translators:
 # Wil Odoo, 2024
 # Svyatoslav Nadozirny, 2025
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 10:16+0000\n"
-"PO-Revision-Date: 2025-08-08 22:21+0000\n"
+"PO-Revision-Date: 2026-02-14 18:51+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "agriculture_shop/uk/>\n"
@@ -20,10 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
-"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
-"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
+"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
+"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
+" ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: agriculture_shop
 #: model:loyalty.reward,description:agriculture_shop.loyalty_reward_2
@@ -67,7 +68,10 @@ msgid ""
 "            </font>"
 msgstr ""
 "<font color=\"#343541\">\n"
-"                Спеціальне налаштування для підприємств роздрібної торгівлі сільськогосподарською продукцією B2B та B2C. Магазини точки продажу (POS) &amp; веб-сайт пропонує класифіковані товари, такі як насіння, пестициди, живлення рослин і сільськогосподарське обладнання.\n"
+"                Спеціальне налаштування для підприємств роздрібної торгівлі "
+"сільськогосподарською продукцією B2B та B2C. Магазини точки продажу (POS) "
+"&amp; веб-сайт пропонує класифіковані товари, такі як насіння, пестициди, "
+"живлення рослин і сільськогосподарське обладнання.\n"
 "            </font>"
 
 #. module: agriculture_shop
@@ -86,7 +90,8 @@ msgid ""
 "                                                <span>info@yourcompany.example.com</span>"
 msgstr ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>\n"
-"                                                <span>info@yourcompany.example.com</span>"
+"                                                "
+"<span>info@yourcompany.example.com</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -95,7 +100,8 @@ msgid ""
 "                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 msgstr ""
 "<i class=\"fa fa-map-marker fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
+"                                                <span class=\"o_force_ltr\""
+">3575 Fake Buena Vista Avenue</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -104,7 +110,8 @@ msgid ""
 "                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 msgstr ""
 "<i class=\"fa fa-phone fa-fw me-2\"/>\n"
-"                                                <span class=\"o_force_ltr\">+1 (650) 555-0111</span>"
+"                                                <span class=\"o_force_ltr\">+"
+"1 (650) 555-0111</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -126,10 +133,12 @@ msgid ""
 "                                                    <span class=\"s_comparisons_decimal\">.00</span>"
 msgstr ""
 "<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
+"                                                    <span class="
+"\"s_comparisons_price\">\n"
 "                                                        <b>125</b>\n"
 "                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
+"                                                    <span class="
+"\"s_comparisons_decimal\">.00</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -141,10 +150,12 @@ msgid ""
 "                                                    <span class=\"s_comparisons_decimal\">.00</span>"
 msgstr ""
 "<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
+"                                                    <span class="
+"\"s_comparisons_price\">\n"
 "                                                        <b>35</b>\n"
 "                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
+"                                                    <span class="
+"\"s_comparisons_decimal\">.00</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -156,10 +167,12 @@ msgid ""
 "                                                    <span class=\"s_comparisons_decimal\">.00</span>"
 msgstr ""
 "<span class=\"s_comparisons_currency\">$</span>\n"
-"                                                    <span class=\"s_comparisons_price\">\n"
+"                                                    <span class="
+"\"s_comparisons_price\">\n"
 "                                                        <b>65</b>\n"
 "                                                    </span>\n"
-"                                                    <span class=\"s_comparisons_decimal\">.00</span>"
+"                                                    <span class="
+"\"s_comparisons_decimal\">.00</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -173,7 +186,8 @@ msgid ""
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Тема</span>\n"
-"                                                                    <span class=\"s_website_form_mark\"> *</span>"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -182,7 +196,8 @@ msgid ""
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Your Company</span>\n"
-"                                                                    <span class=\"s_website_form_mark\"> *</span>"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -191,7 +206,8 @@ msgid ""
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Ваш Email</span>\n"
-"                                                                    <span class=\"s_website_form_mark\"> *</span>"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -200,7 +216,8 @@ msgid ""
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Ваше імʼя</span>\n"
-"                                                                    <span class=\"s_website_form_mark\"> *</span>"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.contactus
@@ -209,7 +226,8 @@ msgid ""
 "                                                                    <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Ваше запитання</span>\n"
-"                                                                    <span class=\"s_website_form_mark\"> *</span>"
+"                                                                    <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -219,8 +237,12 @@ msgid ""
 "                growth in the agricultural retail sector.\n"
 "            </span>"
 msgstr ""
-"<span style=\"color: rgb(52, 53, 65); font-style: normal; font-weight: 400;\">\n"
-"                Вони використовують набір модулів, включаючи точку продажу, склад, продажі, купівлі, опитування, бухоблік, контакти та дашборд. Розширення в онлайн-сферу, веб-сайт і додатки для електронної комерції можуть значно сприяти їх зростанню в секторі роздрібної торгівлі\n"
+"<span style=\"color: rgb(52, 53, 65); font-style: normal; font-weight: 400;\""
+">\n"
+"                Вони використовують набір модулів, включаючи точку продажу, "
+"склад, продажі, купівлі, опитування, бухоблік, контакти та дашборд. "
+"Розширення в онлайн-сферу, веб-сайт і додатки для електронної комерції "
+"можуть значно сприяти їх зростанню в секторі роздрібної торгівлі\n"
 " сільськогосподарською продукцією.\n"
 "            </span>"
 
@@ -248,8 +270,8 @@ msgid ""
 "Add Promocode \"<strong><font style=\"color: rgb(57, 132, "
 "198);\">AGROFARMA10</font></strong>\""
 msgstr ""
-"Додайте промокод \"<strong><font style=\"color: rgb(57, 132, "
-"198);\">AGROFARMA10</font></strong>\""
+"Додайте промокод \"<strong><font style=\"color: rgb(57, 132, 198);"
+"\">AGROFARMA10</font></strong>\""
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -257,8 +279,8 @@ msgid ""
 "Add a Promocode \"<font style=\"color: rgb(57, 132, "
 "198);\"><strong>AGROFARMA10</strong></font>\""
 msgstr ""
-"Додайте промокод \"<font style=\"color: rgb(57, 132, "
-"198);\"><strong>AGROFARMA10</strong></font>\""
+"Додайте промокод \"<font style=\"color: rgb(57, 132, 198);"
+"\"><strong>AGROFARMA10</strong></font>\""
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.homepage
@@ -406,10 +428,10 @@ msgid ""
 "style=\"color: rgb(57, 132, 198); font-size: 0.9625rem;\"><strong>Gloster "
 "Organics</strong></span>\""
 msgstr ""
-"Створіть RFQ для товару \"<font style=\"color: rgb(57, 132, "
-"198);\"><strong>Насіння цибулі</strong></font>\" для постачальника \"<span "
-"style=\"color: rgb(57, 132, 198); font-size: 0.9625rem;\"><strong>Gloster "
-"Organics</strong></span>\""
+"Створіть RFQ для товару \"<font style=\"color: rgb(57, 132, 198);"
+"\"><strong>Насіння цибулі</strong></font>\" для постачальника "
+"\"<span style=\"color: rgb(57, 132, 198); font-size: 0.9625rem;"
+"\"><strong>Gloster Organics</strong></span>\""
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -422,8 +444,8 @@ msgid ""
 "Create other RFQ for same product with vendor \"<font style=\"color: rgb(57,"
 " 132, 198);\"><strong>Astron Agro</strong></font>\""
 msgstr ""
-"Створіть інші RFQ з тими ж товарами для постачальника \"<font style=\"color:"
-" rgb(57, 132, 198);\"><strong>Astron Agro</strong></font>\""
+"Створіть інші RFQ з тими ж товарами для постачальника \"<font style=\"color: "
+"rgb(57, 132, 198);\"><strong>Astron Agro</strong></font>\""
 
 #. module: agriculture_shop
 #: model:product.template,name:agriculture_shop.product_product_9_product_template
@@ -439,8 +461,8 @@ msgid ""
 "satisfaction of growing this hydrating and versatile vegetable."
 msgstr ""
 "Насіння огірків - це перший крок до вирощування освіжаючих і хрустких "
-"огірків. Ці крихітні насіння обіцяють рясний врожай, дозволяючи садівникам і"
-" фермерам насолоджуватися вирощуванням цього зволожуючого та універсального "
+"огірків. Ці крихітні насіння обіцяють рясний врожай, дозволяючи садівникам і "
+"фермерам насолоджуватися вирощуванням цього зволожуючого та універсального "
 "овоча."
 
 #. module: agriculture_shop
@@ -521,8 +543,8 @@ msgid ""
 msgstr ""
 "Добриво Fast Root - це потужна спеціалізована формула, розроблена для "
 "сприяння швидкому розвитку коренів рослин. Наповнене основними поживними "
-"речовинами та стимуляторами росту, це добриво прискорює формування сильних і"
-" здорових кореневих систем, підвищуючи загальний ріст і життєву силу рослин."
+"речовинами та стимуляторами росту, це добриво прискорює формування сильних і "
+"здорових кореневих систем, підвищуючи загальний ріст і життєву силу рослин."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -782,11 +804,11 @@ msgid ""
 msgstr ""
 "Насіння цибулі — це крихітний, потужний початок одного з найбільш "
 "універсальних та основних овочів у кулінарному світі. Ці насінини містять "
-"обіцянку перетворитися на пікантні, багатошарові цибулини, які можуть додати"
-" глибини та смаку широкому спектру страв. З різними доступними сортами "
-"цибулі кожне насіння втілює потенціал створення різноманітних смаків, від "
-"солодкого до гострого. Посаджене та дбайливо вирощене насіння цибулі "
-"закладає основу для безлічі пікантних рецептів і садових насолод."
+"обіцянку перетворитися на пікантні, багатошарові цибулини, які можуть додати "
+"глибини та смаку широкому спектру страв. З різними доступними сортами цибулі "
+"кожне насіння втілює потенціал створення різноманітних смаків, від солодкого "
+"до гострого. Посаджене та дбайливо вирощене насіння цибулі закладає основу "
+"для безлічі пікантних рецептів і садових насолод."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.pricing
@@ -904,12 +926,12 @@ msgid ""
 "opportunity to nurture and harvest chili peppers that can elevate dishes "
 "with their distinctive taste and fiery zest."
 msgstr ""
-"Насіння перцю Роял Булет Мірчі представляє потенціал для вирощування пекучих"
-" і смачних стручкових перців. Це насіння є ключем до вирощування рослин, які"
-" приносять яскраві червоні перці з інтенсивним рівнем гостроти, додаючи "
+"Насіння перцю Роял Булет Мірчі представляє потенціал для вирощування пекучих "
+"і смачних стручкових перців. Це насіння є ключем до вирощування рослин, які "
+"приносять яскраві червоні перці з інтенсивним рівнем гостроти, додаючи "
 "сміливого присмаку кулінарним стравам. Відоме своєю багатою пікантністю, це "
-"насіння пропонує можливість вирощувати і збирати стручкові перці, які можуть"
-" підняти страви своїм особливим смаком і пекучим завзяттям."
+"насіння пропонує можливість вирощувати і збирати стручкові перці, які можуть "
+"підняти страви своїм особливим смаком і пекучим завзяттям."
 
 #. module: agriculture_shop
 #: model:survey.question.answer,value:agriculture_shop.survey_question_answer_8
@@ -934,9 +956,9 @@ msgstr ""
 "Пестицид Сафая - це надійне рішення, розроблене для захисту культур від "
 "шкідливих шкідників та забезпечення їх здорового росту. Завдяки своїй "
 "передовій формулі, Сафая ефективно бореться з широким спектром шкідників, "
-"мінімізуючи вплив на навколишнє середовище. Захищаючи рослини від зараження,"
-" цей пестицид сприяє підвищенню врожайності та якості урожаю, сприяючи "
-"сталим сільськогосподарським практикам."
+"мінімізуючи вплив на навколишнє середовище. Захищаючи рослини від зараження, "
+"цей пестицид сприяє підвищенню врожайності та якості урожаю, сприяючи сталим "
+"сільськогосподарським практикам."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -949,8 +971,8 @@ msgstr ""
 msgid ""
 "Sales person visit the farmer and fill survey(According to Farmer's Input)."
 msgstr ""
-"Менеджер з продажу відвідує фермера та заповнює опитування (відповідно до "
-"даних фермера)."
+"Менеджер з продажу відвідує фермера та заповнює опитування "
+"(відповідно до даних фермера)."
 
 #. module: agriculture_shop
 #: model:pos.category,name:agriculture_shop.pos_category_1
@@ -1000,8 +1022,8 @@ msgid ""
 "Perfect for various tasks like plant care and cleaning, its rechargeable "
 "battery and adjustable nozzle ensure hassle-free operation."
 msgstr ""
-"Акумуляторний обприскувач - це портативний та ефективний садовий інструмент,"
-" який усуває необхідність ручного накачування, роблячи нанесення рідини "
+"Акумуляторний обприскувач - це портативний та ефективний садовий інструмент, "
+"який усуває необхідність ручного накачування, роблячи нанесення рідини "
 "простим і зручним. Ідеальний для різних завдань, таких як догляд за "
 "рослинами та очищення, його акумулятор, що перезаряджається, та регульована "
 "форсунка забезпечують безпроблемну експлуатацію."
@@ -1028,9 +1050,9 @@ msgid ""
 "enhancing waste management and data security processes."
 msgstr ""
 "Подрібнювач - це міцний пристрій, розроблений для ефективного подрібнення "
-"матеріалів на менші, зручні шматки. Незалежно від того, чи це папір, пластик"
-" чи інші матеріали, цей пристрій забезпечує швидке та ефективне подрібнення,"
-" покращуючи управління відходами та процеси захисту даних."
+"матеріалів на менші, зручні шматки. Незалежно від того, чи це папір, пластик "
+"чи інші матеріали, цей пристрій забезпечує швидке та ефективне подрібнення, "
+"покращуючи управління відходами та процеси захисту даних."
 
 #. module: agriculture_shop
 #: model:product.template,description_sale:agriculture_shop.product_product_13_product_template
@@ -1040,8 +1062,8 @@ msgid ""
 "the soil ecosystem, promoting better nutrient absorption and stronger, more "
 "vibrant plants."
 msgstr ""
-"Активатор ґрунту - це природне рішення, яке покращує здоров'я ґрунту та ріст"
-" рослин. Наповнений корисними мікроорганізмами та поживними речовинами, він "
+"Активатор ґрунту - це природне рішення, яке покращує здоров'я ґрунту та ріст "
+"рослин. Наповнений корисними мікроорганізмами та поживними речовинами, він "
 "відновлює екосистему ґрунту, сприяючи кращому засвоєнню поживних речовин та "
 "формуванню сильніших, більш яскравих рослин."
 
@@ -1054,10 +1076,10 @@ msgid ""
 "gardening and agricultural tasks, ensuring clean and effortless cuts with "
 "every use."
 msgstr ""
-"Ручний серп - це компактний та універсальний різальний інструмент з вигнутим"
-" лезом, розроблений для ефективного та точного підрізання рослин, трави та "
-"сільськогосподарських культур. Його ергономічна ручка та гостре лезо роблять"
-" його зручним інструментом для садівничих та сільськогосподарських завдань, "
+"Ручний серп - це компактний та універсальний різальний інструмент з вигнутим "
+"лезом, розроблений для ефективного та точного підрізання рослин, трави та "
+"сільськогосподарських культур. Його ергономічна ручка та гостре лезо роблять "
+"його зручним інструментом для садівничих та сільськогосподарських завдань, "
 "забезпечуючи чисті та легкі розрізи при кожному використанні."
 
 #. module: agriculture_shop
@@ -1084,8 +1106,8 @@ msgid ""
 "crops and promoting robust and thriving vegetation."
 msgstr ""
 "Тірам - це ефективний пестицид, відомий своїм широким спектром захисту від "
-"грибків та шкідників. При нанесенні на рослини він створює бар'єр, захищаючи"
-" культури та сприяючи міцній та квітучій рослинності."
+"грибків та шкідників. При нанесенні на рослини він створює бар'єр, захищаючи "
+"культури та сприяючи міцній та квітучій рослинності."
 
 #. module: agriculture_shop
 #: model_terms:ir.ui.view,arch_db:agriculture_shop.welcome_article_body
@@ -1160,8 +1182,8 @@ msgid ""
 "soil fertility and promoting healthy plant growth when applied to gardens "
 "and crops."
 msgstr ""
-"Вермокомпостний порошок - це багатий на поживні речовини органічний добриво,"
-" створений шляхом природного процесу компостування з дощовими червами. Цей "
+"Вермокомпостний порошок - це багатий на поживні речовини органічний добриво, "
+"створений шляхом природного процесу компостування з дощовими червами. Цей "
 "дрібний порошок містить корисні мікроорганізми та основні поживні речовини, "
 "підвищуючи родючість ґрунту та сприяючи здоровому росту рослин при "
 "застосуванні до садів та сільськогосподарських культур."
@@ -1177,13 +1199,13 @@ msgid ""
 " castings. These castings are collected, separated from the bedding, and "
 "then dried to an appropriate moisture level."
 msgstr ""
-"Вермокомпостний порошок - це багатий на поживні речовини органічний добриво,"
-" виготовлений шляхом вермікомпостування. Цей процес включає введення "
+"Вермокомпостний порошок - це багатий на поживні речовини органічний добриво, "
+"виготовлений шляхом вермікомпостування. Цей процес включає введення "
 "компостувальних червів у контрольоване середовище, де вони споживають та "
 "розкладають органічні відходи, такі як кухонні відходи та рослинні рештки. "
 "Коли черви перетравлюють відходи, вони проходять мікробний розпад, в "
-"результаті чого утворюються багатий на поживні речовини черв'ячі відходи. Ці"
-" відходи збираються, відокремлюються від підстилки та підсушуються до "
+"результаті чого утворюються багатий на поживні речовини черв'ячі відходи. Ці "
+"відходи збираються, відокремлюються від підстилки та підсушуються до "
 "відповідного рівня вологості."
 
 #. module: agriculture_shop
@@ -1265,6 +1287,5 @@ msgid ""
 "​Prospect will go to website and fill the \"<font style=\"color: rgb(57, "
 "132, 198);\"><strong>Contact us</strong></font>\" form."
 msgstr ""
-"Потенційний клієнт перейде на веб-сайт і заповнить форму \"<font "
-"style=\"color: rgb(57, 132, 198);\"><strong>Звʼяжіться з "
-"нами</strong></font>\"."
+"Потенційний клієнт перейде на веб-сайт і заповнить форму \"<font style=\""
+"color: rgb(57, 132, 198);\"><strong>Звʼяжіться з нами</strong></font>\"."
