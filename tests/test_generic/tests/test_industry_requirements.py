@@ -3,7 +3,7 @@
 import logging
 import re
 
-from odoo.tests import tagged, get_db_name
+from odoo.tests import tagged
 from odoo.tools import cloc
 
 from .industry_case import IndustryCase
@@ -15,8 +15,7 @@ _logger = logging.getLogger(__name__)
 class TestEnv(IndustryCase):
 
     def test_payment_demo(self):
-        db_name = get_db_name()
-        if db_name.endswith('imported_no_demo'):
+        if not self.env['ir.module.module'].search_count([('demo', '=', True)], limit=1):
             return
         no_online_payment_industries = [
             'bike_leasing',
@@ -81,8 +80,12 @@ class TestEnv(IndustryCase):
             if model in self.env and "is_published" in self.env[model]._fields:
                 records = self.env[model].search(
                     [("is_published", "=", True), ("sale_ok", "=", False)]
-                )
-
+                ).filtered(lambda x: any(
+                    xmlid.startswith(module + '.')
+                    for module in self.installed_modules
+                    for xmlids in x._get_external_ids().values()
+                    for xmlid in xmlids
+                ))
                 self.assertFalse(
                     records,
                     "Found records with 'is_published=True' and 'sale_ok=False' in the database. Records: %s"
