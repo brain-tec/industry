@@ -1,15 +1,15 @@
 {
     'name': 'Handyman Services',
-    'version': '1.2',
+    'version': '1.3',
     'category': 'Services',
     'depends': [
         'account_accountant',
         'appointment_account_payment',
         'base_industry_data',
         'hr',
-        'industry_fsm_sale_report',
-        'industry_fsm_stock',
         'knowledge',
+        'planning_field_service_sale_stock',
+        'planning_field_service_sale_worksheet',
         'project_purchase',
         'project_timesheet_forecast_sale',
         'sale_crm',
