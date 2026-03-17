@@ -8,12 +8,13 @@
 # Svyatoslav Nadozirny, 2025
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-17 12:51+0000\n"
-"PO-Revision-Date: 2026-02-07 18:50+0000\n"
+"PO-Revision-Date: 2026-03-07 18:50+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "environmental_agency/uk/>\n"
@@ -22,11 +23,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
-"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && "
-"(n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && "
-"(n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 ))"
-" ? 2: 3);\n"
-"X-Generator: Weblate 5.14.3\n"
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
+"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
+"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.ir_ui_view_3007
@@ -34,6 +34,8 @@ msgid ""
 "&amp;nbsp;Let us simplify your sustainability reporting and ensure you're "
 "fully compliant.<br/><br/>"
 msgstr ""
+"&amp;nbsp;Дозвольте нам спростити вашу звітність зі сталого розвитку та "
+"забезпечити повну відповідність вимогам.<br/><br/>"
 
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.welcome_article_body
@@ -326,8 +328,10 @@ msgid ""
 "Contact us about anything related to our company or services.<br/>\n"
 "                                    We'll do our best to get back to you as soon as possible."
 msgstr ""
-"Зв'яжіться з нами щодо будь-яких питань, пов'язаних з нашою компанією або послугами.<br/>\n"
-"                                    Ми зробимо все можливе, щоб повернутись до вас якомога швидше."
+"Зв'яжіться з нами щодо будь-яких питань, пов'язаних з нашою компанією або "
+"послугами.<br/>\n"
+"                                    Ми зробимо все можливе, щоб повернутись "
+"до вас якомога швидше."
 
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.welcome_article_body
@@ -865,8 +869,8 @@ msgid ""
 "willing to optimize their performance."
 msgstr ""
 "Ми — команда пристрасних людей, мета яких — покращити життя кожного за "
-"допомогою революційних продуктів. Ми створюємо чудові продукти для вирішення"
-" ваших бізнес-проблем. Наші продукти розроблені для малих і середніх "
+"допомогою революційних продуктів. Ми створюємо чудові продукти для вирішення "
+"ваших бізнес-проблем. Наші продукти розроблені для малих і середніх "
 "компаній, які бажають оптимізувати свою роботу."
 
 #. module: environmental_agency
@@ -913,8 +917,7 @@ msgstr ""
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
-"Ви хотіли б обговорити з нами налаштування вашого Odoo чи піти ще далі?"
+msgstr "Ви хотіли б обговорити з нами налаштування вашого Odoo чи піти ще далі?"
 
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.welcome_article_body
@@ -922,8 +925,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Ви можете отримати доступ до кожного встановленого модуля у вашій базі даних"
-" Odoo на головній панелі інструментів."
+"Ви можете отримати доступ до кожного встановленого модуля у вашій базі даних "
+"Odoo на головній панелі інструментів."
 
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.welcome_article_body
@@ -931,8 +934,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
-"Ви завершили цей демонстраційний сценарій використання! Існує мільйони інших"
-" способів адаптувати налаштування Odoo до потреб вашого бізнесу."
+"Ви завершили цей демонстраційний сценарій використання! Існує мільйони інших "
+"способів адаптувати налаштування Odoo до потреб вашого бізнесу."
 
 #. module: environmental_agency
 #: model_terms:ir.ui.view,arch_db:environmental_agency.welcome_article_body
