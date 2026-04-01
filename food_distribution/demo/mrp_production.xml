@@ -9,7 +9,7 @@
     <function name="write" model="mrp.production">
         <value model="mrp.production" eval="obj().search([(
         'product_id', '=', ref('product_product_13')
-        )]).id"/>
+        )], limit=1).id"/>
         <value eval="{'lot_producing_ids': [ref('stock_lot_8')]}"/>
     </function>
 
@@ -49,14 +49,9 @@
     <function name="do_pass" model="quality.check">
         <value model="quality.check" eval="obj().search([('product_id', '=', ref('product_product_13'))], offset=1, limit=1).id"/>
     </function>
-     <!-- TODO check why quality check of archived quality point get created -->
-    <function name="write" model="quality.check">
-        <value model="quality.check" eval="obj().search([('product_id', '=', ref('product_product_13'))], offset=2, limit=1).id"/>
-        <value model="quality.check" eval="{'quality_state': 'pass', 'user_id': obj().env.user.id, 'control_date': datetime.now()}"/>
-    </function>
 
     <function name="button_mark_done" model="mrp.production">
-        <value model="mrp.production" eval="obj().search([('name', '=', 'Mayonnaise Production')]).id"/>
+        <value model="mrp.production" eval="obj().search([('name', '=', 'Mayonnaise Production')], limit=1).id"/>
     </function>
     <record id="move_line_1" model="stock.move.line">
         <field name="move_id" model="stock.move" eval="obj().search([
@@ -68,6 +63,6 @@
         <field name="quantity">940.5</field>
     </record>
     <function name="button_mark_done" model="mrp.production">
-        <value model="mrp.production" eval="obj().search([('product_id', '=', ref('product_product_13'))]).id"/>
+        <value model="mrp.production" eval="obj().search([('product_id', '=', ref('product_product_13'))], limit=1).id"/>
     </function>
 </odoo>
