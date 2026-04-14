@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 09:44+0000\n"
-"PO-Revision-Date: 2026-03-08 01:00+0000\n"
+"POT-Creation-Date: 2026-04-03 20:01+0000\n"
+"PO-Revision-Date: 2026-04-11 14:16+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/odoo-"
 "s19-2/wellness_practitioner/pt_BR/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -218,10 +218,10 @@ msgid ""
 "display canned responses in the system. Then just select the one you want, "
 "click send, and the customer receives the message! It's that easy! <br/><br/>"
 msgstr ""
-"<strong>1. Respostas pré-definidas</strong><br/><br/> Clique em \"<strong>"
-"Enviar mensagem</strong>\", depois digite <strong> \"::\"</strong> no "
-"conteúdo da mensagem para exibir as respostas pré-definidas no sistema. Em "
-"seguida, basta selecionar a que você deseja, clicar em enviar e o cliente "
+"<strong>1. Respostas pré-definidas</strong><br/><br/> Clique em "
+"\"<strong>Enviar mensagem</strong>\", depois digite <strong> \"::\"</strong> "
+"no conteúdo da mensagem para exibir as respostas pré-definidas no sistema. "
+"Em seguida, basta selecionar a que você deseja, clicar em enviar e o cliente "
 "receberá a mensagem! É muito fácil! <br/><br/>"
 
 #. module: wellness_practitioner
@@ -238,9 +238,9 @@ msgid ""
 "                follow-up reminders in one central hub.</span></font><font "
 "class=\"text-o-color-1\"/></strong><br/>"
 msgstr ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal\"><b>"
-"App CRM</b>: Cultive relações de longo prazo acompanhando as interações, "
-"preferências e\n"
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>App CRM</b>: Cultive relações de longo prazo acompanhando as "
+"interações, preferências e\n"
 "                lembretes de acompanhamento dos clientes em um hub central.</"
 "span></font><font class=\"text-o-color-1\"/></strong><br/>"
 
@@ -253,9 +253,10 @@ msgid ""
 "                health records for easy reference.</span></font></strong><br/"
 ">"
 msgstr ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal\"><b>"
-"App Conhecimento</b>: Armazene e organize com segurança notas detalhadas "
-"sobre pacientes, planos de tratamento e registros de saúde holísticos\n"
+"<strong><font class=\"text-black\"><span style=\"font-weight: "
+"normal\"><b>App Conhecimento</b>: Armazene e organize com segurança notas "
+"detalhadas sobre pacientes, planos de tratamento e registros de saúde "
+"holísticos\n"
 "                para fácil referência.</span></font></strong><br/>"
 
 #. module: wellness_practitioner
@@ -418,15 +419,8 @@ msgstr ""
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
-msgid ""
-"Getting Started\n"
-"        To begin, you'll find the key applications you need on your Odoo "
-"dashboard. Let's take a closer look at how you can use these tools."
-msgstr ""
-"Introdução\n"
-"Para começar, você encontrará os principais aplicativos necessários no "
-"Painel do Odoo. Vamos examinar mais de perto como você pode usar essas "
-"ferramentas."
+msgid "Getting Started"
+msgstr "Introdução"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -642,6 +636,16 @@ msgstr ""
 "Isso abre o <strong>editor de e-mails do</strong>. Quando estiver no editor, "
 "basta clicar no <strong>ícone de três pontos</strong> na barra de "
 "ferramentas e escolher o <strong>modelo de e-mail</strong> desejado."
+
+#. module: wellness_practitioner
+#: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
+msgid ""
+"To begin, you'll find the key applications you need on your Odoo dashboard. "
+"Let's take a closer look at how you can use these tools."
+msgstr ""
+"Para começar, você encontrará os principais aplicativos de que precisa no "
+"seu painel do Odoo. Vamos dar uma olhada mais de perto em como você pode "
+"usar essas ferramentas."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body

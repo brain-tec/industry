@@ -3,21 +3,22 @@
 # * cleaning_services
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Ujjawal Pathak (pauj)" <pauj@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 18:45+0000\n"
-"PO-Revision-Date: 2025-11-17 11:10+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19/"
+"POT-Creation-Date: 2026-04-03 18:51+0000\n"
+"PO-Revision-Date: 2026-04-11 14:07+0000\n"
+"Last-Translator: \"Ujjawal Pathak (pauj)\" <pauj@odoo.com>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-s19-2/"
 "cleaning_services/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: cleaning_services
 #: model:crm.tag,name:cleaning_services.crm_tag_31
@@ -228,19 +229,19 @@ msgstr "एयर डक्ट की सफ़ाई"
 #. module: cleaning_services
 #: model_terms:ir.ui.view,arch_db:cleaning_services.welcome_article_body
 msgid ""
-"Assign the tasks to the right responsible and easily check the progress in "
-"the Kanban view."
-msgstr "टास्क को सही व्यक्ति को असाइन करें और कानबन व्यू में उनकी प्रगति को आसानी से देखें।"
-
-#. module: cleaning_services
-#: model_terms:ir.ui.view,arch_db:cleaning_services.welcome_article_body
-msgid ""
 "At any time, you can create from an opportunity a beautiful and tailor-made "
 "quotation that displays the price, the discount, the unit of measure, and "
 "the tax of each:"
 msgstr ""
 "आप किसी भी समय अवसर से एक शानदार और कस्टम-कोटेशन बना सकते हैं, जो हर चीज़ की कीमत, "
 "छूट, माप की इकाई और टैक्स को दिखाता है:"
+
+#. module: cleaning_services
+#: model_terms:ir.ui.view,arch_db:cleaning_services.welcome_article_body
+msgid ""
+"Auto-Plan shifts based on roles or manually assign the shift to the right "
+"responsible and easily check the progress from Planning app."
+msgstr ""
 
 #. module: cleaning_services
 #: model:crm.tag,name:cleaning_services.crm_tag_21
@@ -261,6 +262,11 @@ msgstr "सतहों और हाथों के लिए बायोड�
 #: model:product.template,name:cleaning_services.product_product_54_product_template
 msgid "Carpet Shampooing"
 msgstr "कालीन पर शैम्पू से सफाई"
+
+#. module: cleaning_services
+#: model:planning.role,name:cleaning_services.planning_role_1
+msgid "Cleaning"
+msgstr ""
 
 #. module: cleaning_services
 #: model:product.category,name:cleaning_services.product_category_7
@@ -656,16 +662,12 @@ msgstr "केवल एक बार दी जाने वाली सेव
 #. module: cleaning_services
 #: model_terms:ir.ui.view,arch_db:cleaning_services.welcome_article_body
 msgid ""
-"Our recurring task setting enables managing periodic cleaning appointments, "
+"Our recurring shift setting enables managing periodic cleaning appointments, "
 "reducing manual scheduling and fostering client loyalty. It only takes one "
 "click. From there on out, you can generate new quotations or sales orders in "
 "just\n"
 "            another click."
 msgstr ""
-"हमारी बार-बार आने वाली टास्क सेटिंग समय-समय पर सफ़ाई की अपॉइंटमेंट को मैनेज करने, मैन्युअल "
-"शेड्यूलिंग को कम करने और ग्राहक की वफ़ादारी बढ़ाने में मदद करती है. इसमें सिर्फ़ एक क्लिक "
-"लगता है. उसके बाद, आप बस एक और क्लिक में \n"
-"            नए कोटेशन या सेल्स ऑर्डर जनरेट कर सकते हैं।"
 
 #. module: cleaning_services
 #: model:product.template,name:cleaning_services.product_product_55_product_template
@@ -846,11 +848,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:cleaning_services.welcome_article_body
 msgid ""
 "The confirmation of the quotation automatically triggers the creation of "
-"dedicated tasks in the <strong>Field Service app</strong>! Each task is "
-"linked to its parent Sales Order."
+"dedicated shifts in the <strong>Planning app</strong>! Each shift is linked "
+"to its parent Sales Order."
 msgstr ""
-"कोटेशन की पुष्टि होने पर, <strong>फ़ील्ड सर्विस ऐप</strong> में अपने-आप टास्क बन जाते हैं! "
-"हर टास्क अपने मूल सेल्स ऑर्डर से जुड़ा होता है।"
 
 #. module: cleaning_services
 #: model_terms:ir.ui.view,arch_db:cleaning_services.welcome_article_body
