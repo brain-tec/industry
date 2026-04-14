@@ -14,26 +14,22 @@
 # Mikko Salmela <salmemik@gmail.com>, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 19:23+0000\n"
-"PO-Revision-Date: 2025-11-17 11:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
+"POT-Creation-Date: 2026-04-10 19:37+0000\n"
+"PO-Revision-Date: 2026-04-11 14:14+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
+"Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s19-2/"
 "solar_installation/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
-msgid "+1 (079) 400-5001"
-msgstr "+1 (079) 400-5001"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -153,15 +149,7 @@ msgstr "3 kW"
 msgid ""
 "<b>CRM App</b>: Capture leads from your website and track them through the "
 "sales funnel, managing site visits\n"
-"                and technical feasibility checks."
-msgstr ""
-
-#. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
-msgid ""
-"<b>Field Service App</b>: Schedule your installation crews and maintenance "
-"teams efficiently, allowing them to\n"
-"                log time and consume parts via mobile."
+"            and technical feasibility checks."
 msgstr ""
 
 #. module: solar_installation
@@ -169,7 +157,7 @@ msgstr ""
 msgid ""
 "<b>Inventory App</b>: Keep track of high-value stock like solar modules and "
 "batteries, ensuring you have the\n"
-"                right components for every job."
+"            right components for every job."
 msgstr ""
 
 #. module: solar_installation
@@ -177,7 +165,7 @@ msgstr ""
 msgid ""
 "<b>Project App</b>: Manage installation projects with clear stages (e.g., "
 "\"Permitting,\" \"Installation,\"\n"
-"                \"Inspection\"), tracking tasks and deadlines."
+"            \"Inspection\"), tracking tasks and deadlines."
 msgstr ""
 
 #. module: solar_installation
@@ -185,7 +173,7 @@ msgstr ""
 msgid ""
 "<b>Sales App</b>: Create professional, detailed proposals that include "
 "technical specifications for panels,\n"
-"                inverters, and labor costs."
+"            inverters, and labor costs."
 msgstr ""
 
 #. module: solar_installation
@@ -193,7 +181,7 @@ msgstr ""
 msgid ""
 "<b>Sign App</b>: Securely collect digital signatures for contracts, "
 "interconnection agreements, and financing\n"
-"                documents."
+"            documents."
 msgstr ""
 
 #. module: solar_installation
@@ -201,7 +189,7 @@ msgstr ""
 msgid ""
 "<b>Website App</b>: Showcase your portfolio of successful installations and "
 "attract new eco-conscious clients\n"
-"                with a professional online presence."
+"            with a professional online presence."
 msgstr ""
 
 #. module: solar_installation
@@ -219,7 +207,7 @@ msgstr ""
 "                                                <span>\n"
 "                                                    <span style=\"color: "
 "rgb(55, 65, 81);font-size: 14px;font-style: normal;font-weight: "
-"400;background-color: rgb(255, 255, 255)\">info@yourcompany.example.com</"
+"400;background-color: rgb(255, 255, 255)\">info@yrityksesi.esimerkki.fi</"
 "span>\n"
 "                                                </span>"
 
@@ -286,23 +274,22 @@ msgstr ""
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid "<span style=\"font-size: 14px;\">Planning Shift for Installation</span>"
+msgstr "<span style=\"font-size: 14px;\">Asennuksen suunnitteluvuoro</span>"
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid ""
-"<span style=\"font-size: 14px;\">Field Service Task for Installation</span>"
-msgstr "<span style=\"font-size: 14px;\">Kenttähuollon tehtävä; asennus</span>"
+"<span style=\"font-size: 14px;\">Planning for Installation and Delivery of "
+"Equipments</span>"
+msgstr ""
+"<span style=\"font-size: 14px;\">Asennuksen ja tarvikkeiden toimituksen "
+"suunnittelu</span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid "<span style=\"font-size: 14px;\">Quotation for Installation</span>"
 msgstr "<span style=\"font-size: 14px;\">Tarjous asennuksesta</span>"
-
-#. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
-msgid ""
-"<span style=\"font-size: 14px;\">Task Assignment &amp; Planning for "
-"Installation and Delivery of Equipments</span>"
-msgstr ""
-"<span style=\"font-size: 14px;\">Tehtävien määrääminen &amp; Asennuksen "
-"suunnittelu ja varusteiden toimitus</span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -313,25 +300,26 @@ msgstr "<span style=\"font-size: 14px;\">Asennuksen työkirjat</span>"
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid ""
 "<span style=\"font-size: 18px;\">Flow 1: Website Form -&gt; CRM -&gt; Sales "
-"-&gt; Accounting -&gt; Field Service </span>"
+"-&gt; Accounting -&gt;  Planning </span>"
 msgstr ""
-"<span style=\"font-size: 18px;\">Vaihe 1: Verkkosivun lomake -&gt; CRM -&gt; "
-"Myynti -&gt; Kirjanpito -&gt; Kenttähuolto </span>"
+"<span style=\"font-size: 18px;\">Työnkulku 1: Verkkosivun lomake -&gt; CRM "
+"-&gt; Myynti -&gt; Kirjanpito -&gt; Suunnittelu </span>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid ""
 "<span style=\"font-size: 18px;\">Flow 2: Manual Opportunity -&gt; CRM -&gt; "
-"Sales -&gt; Accounting -&gt; Field Service </span><br/>"
+"Sales -&gt; Accounting -&gt; Planning </span><br/>"
 msgstr ""
-"<span style=\"font-size: 18px;\">Vaihe 2: Manuaalinen myyntimahdollisuus "
-"-&gt; CRM -&gt; Myynti -&gt; Kirjanpito -&gt; Kenttähuolto </span><br/>"
+"<span style=\"font-size: 18px;\">Työnkulku 2: Manuaalinen myyntimahdollisuus "
+"-&gt; CRM -&gt; Myynti -&gt; Kirjanpito -&gt; Suunnittelu </span><br/>"
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid "<span style=\"font-size: 18px;\">Flow 3: Helpdesk -&gt; Repair </span>"
 msgstr ""
-"<span style=\"font-size: 18px;\">Vaihe 3: Asiakastuki -&gt; Korjaus </span>"
+"<span style=\"font-size: 18px;\">Työnkulku 3: Asiakastuki -&gt; Korjaus </"
+"span>"
 
 #. module: solar_installation
 #: model:product.template,name:solar_installation.product_product_14_product_template
@@ -358,19 +346,17 @@ msgid ""
 "            customer's confirmation and signature in Worksheet. The "
 "worksheet includes customized fields like Start date, End date, plan, "
 "signature, etc which are configured through\n"
-"            <strong><font style=\"color: rgb(165, 74, 123);\">Studio App</"
-"font></strong>."
+"            <strong><font style=\"color: rgb(107, 165, 74);\">the Planning "
+"Worksheet Templates</font></strong>."
 msgstr ""
-"Määrätyt käyttäjät täyttävät Työkirjan, kun asennus on valmis. Useita "
-"<strong><font style=\"color: rgb(107, 165, 74);\">kuvia "
-"aurinkosähköjärjestelmän asennuksesta</font></strong> asiakkaan sijainnissa "
-"otetaan\n"
-"            asiakkaan vahvistuksen ja allekirjoituksen vahvistamana "
-"Työkirjoja varten. Työkirja sisältää mukautettuja kenttiä, kuten "
-"aloituspäivämäärä, loppupäivämäärä, suunnitelma, allekirjoitus jne., jotka "
-"voi määrittää\n"
-"            <strong><font style=\"color: rgb(165, 74, 123);\">Studio-"
-"sovelluksessa</font></strong>."
+"Määritetyt käyttäjät täyttävät Työkirjan asennuksen valmistuttua. Asiakkaan "
+"sijainnissa otetaan useita <strong><font style=\"color: rgb(107, 165, 74);"
+"\">kuvia aurinkoenergiajärjestelmän asennuksesta</font></strong> sekä\n"
+"            kerätään asiakkaan vahvistus ja allekirjoitus. Nämä lisätään "
+"työkirjaan, joka sisältää aloituspäivän, päättymispäivän, suunnitelman ja "
+"allekirjoituksen kaltaisia mukautettuja kenttiä. Ne määritetään\n"
+"            <strong><font style=\"color: rgb(107, 165, 74);\">Suunnittelun "
+"työkirjapohjien</font></strong> avulla."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
@@ -416,12 +402,12 @@ msgstr "Kaupallinen"
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid ""
 "Confirmation of Sales Order <strong><font style=\"color: rgb(107, 165, 74);"
-"\">creates 1 Field Service Task</font></strong> automatically for Solar "
-"system installation in a Project dedicated to Installation."
+"\">creates 1 Planning Shift</font></strong> automatically for Solar system "
+"installation."
 msgstr ""
-"Myyntitilauksen vahvistus <strong><font style=\"color: rgb(107, 165, 74);"
-"\">luo yhden Kenttähuollon tehtävän</font></strong> automaattisesti "
-"Aurinkopaneelien asennusta varten sille omistetussa Projektissa."
+"Myyntitilauksen vahvistaminen <strong><font style=\"color: rgb(107, 165, 74);"
+"\">luo yhden suunnitteluvuoron</font></strong> automaattisesti "
+"aurinkoenergiajärjestelmän asennusta varten."
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_2702
@@ -544,6 +530,11 @@ msgstr "Aloitussivu"
 #: model_terms:ir.ui.view,arch_db:solar_installation.get_a_quote
 msgid "I want to install 2 kW solar system"
 msgstr "Haluan asentaa 2 kW aurinkopaneelijärjestelmän"
+
+#. module: solar_installation
+#: model:planning.role,name:solar_installation.planning_role_1
+msgid "Installation"
+msgstr "Asennus"
 
 #. module: solar_installation
 #: model:project.task.type,name:solar_installation.project_task_type_17
@@ -713,6 +704,23 @@ msgstr ""
 
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
+msgid ""
+"Shift is assigned to employees/workers. Site visit is planned and "
+"<strong><font style=\"color: rgb(107, 165, 74);\">shift is moved to Planned "
+"stage</font></strong>. <strong/> Assignees takes all the equipments listed\n"
+"            in <strong><font style=\"color: rgb(107, 165, 74);\">Delivery "
+"Order</font></strong> along with them while visiting Client's site for "
+"Installation."
+msgstr ""
+"Työvuoro annetaan työntekijän tehtäväksi. Käynti kohteessa suunnitellaan ja "
+"<strong><font style=\"color: rgb(107, 165, 74);\">vuoro siirretään projektin "
+"Suunniteltu-vaiheeseen</font></strong>. <strong/> Vastuuhenkilöt ottavat "
+"mukaansa asennuskäynnille kaikki\n"
+"            <strong><font style=\"color: rgb(107, 165, 74);"
+"\">toimitustilauksessa</font></strong> listatut tarvikkeet."
+
+#. module: solar_installation
+#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
 msgid "Solar Installation"
 msgstr "Aurinkopaneelien asennus"
 
@@ -768,23 +776,9 @@ msgid "Submit"
 msgstr "Tallenna"
 
 #. module: solar_installation
-#: model_terms:ir.ui.view,arch_db:solar_installation.welcome_article_body
-msgid ""
-"Task is assigned to employees/workers. Site visit is planned and "
-"<strong><font style=\"color: rgb(107, 165, 74);\">task is moved to Planned "
-"stage in project</font></strong>. <strong/> Assignees takes all the "
-"equipments listed\n"
-"            in <strong><font style=\"color: rgb(107, 165, 74);\">Delivery "
-"Order</font></strong> along with them while visiting Client's site for "
-"Installation."
+#: model:planning.role,name:solar_installation.planning_role_2
+msgid "Survey"
 msgstr ""
-"Tehtävä määrätään alaisille/työntekijöille. Käynti sijaintipaikalla "
-"suunnitellaan, ja <strong><font style=\"color: rgb(107, 165, 74);\">tehtävä "
-"siirtyy projektin 'suunniteltu'-vaiheeseen</font></strong>. <strong/> "
-"Vastuuhenkilöt ottavat mukaansa kaikki\n"
-"            <strong><font style=\"color: rgb(107, 165, 74);"
-"\">toimitustilauksessa</font></strong> mainitut välineet, kun he vierailevat "
-"asiakkaan sijainnissa asennusta varten."
 
 #. module: solar_installation
 #: model:project.project,label_tasks:solar_installation.project_project_1
@@ -856,7 +850,16 @@ msgstr "Työnkulut"
 #. module: solar_installation
 #: model_terms:ir.ui.view,arch_db:solar_installation.ir_ui_view_3265
 msgid "info@yourcompany.example.com"
-msgstr "info@yourcompany.example.com"
+msgstr "info@yrityksesi.esimerkki.fi"
+
+#~ msgid "+1 (079) 400-5001"
+#~ msgstr "+1 (079) 400-5001"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px;\">Field Service Task for Installation</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px;\">Kenttähuollon tehtävä; asennus</span>"
 
 #~ msgid "Commencement Date & Time"
 #~ msgstr "Aloituksen aika & päivämäärä"

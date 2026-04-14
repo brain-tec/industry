@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 18:56+0000\n"
-"PO-Revision-Date: 2026-03-17 14:37+0000\n"
+"POT-Creation-Date: 2026-04-03 18:58+0000\n"
+"PO-Revision-Date: 2026-04-11 14:10+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-2/"
 "construction/nl/>\n"
@@ -120,19 +120,14 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
-#| msgid ""
-#| "<b>Timesheets App</b>: Track labor hours accurately with a mobile app "
-#| "that allows workers to log time\n"
-#| "                    against specific tasks or cost codes on-site."
 msgid ""
 "<b>Timesheets App</b>: Track labour hours accurately with a mobile app that "
 "allows workers to log time\n"
 "                    against specific tasks or cost codes on-site."
 msgstr ""
-"<b>Urenstaten-app</b>: Houd gewerkte uren nauwkeurig bij met een mobiele app "
-"waarmee werknemers ter plaatse hun tijd kunnen registreren voor specifieke "
-"taken of kostencodes."
+"<b>Urenstaten-app</b>: Houd werkuren nauwkeurig bij met een mobiele app "
+"waarmee werknemers ter plaatse tijd kunnen registreren\n"
+"                    voor specifieke taken of kostencodes."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -258,6 +253,15 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"<strong>Alternativelly, from the Sales App, you can capture such work \"on "
+"the fly\":</strong>"
+msgstr ""
+"<strong>Als alternatief kun je vanuit de Verkoop-app dergelijk werk 'on the "
+"fly' vastleggen:</strong>"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "<strong>Assignments:</strong> Allocate engineers, site managers, and "
 "subcontractors."
 msgstr ""
@@ -314,11 +318,8 @@ msgstr "<strong>Projectontwikkelaar</strong>"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
-#| msgid "<strong>Cost Analysis:</strong> Link labor to project expenses."
 msgid "<strong>Cost Analysis:</strong> Link labour to project expenses."
-msgstr ""
-"<strong>Kostenanalyse:</strong> Koppel arbeidskosten aan projectkosten."
+msgstr "<strong>Kostenanalyse:</strong> Koppel werk aan Project-onkosten."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -429,16 +430,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Milestones:</strong> Define major project achievements."
 msgstr "<strong>Mijlpalen:</strong> Definieer belangrijke projectmijlpalen."
-
-#. module: construction
-#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-msgid ""
-"<strong>Mobile Execution:</strong> Record time, materials used, and capture "
-"photos\n"
-"                or client signatures on site."
-msgstr ""
-"<strong>Mobiel registreren:</strong> Registreer tijd, gebruikte materialen "
-"en maak foto'sof verzamel handtekeningen van klanten ter plaatse."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -569,16 +560,6 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
-"<strong>Reporting &amp; Invoicing:</strong> Generate detailed intervention "
-"reports\n"
-"                and invoice billable work when applicable."
-msgstr ""
-"<strong>Rapportage &amp; Facturatie:</strong> Genereer gedetailleerde "
-"interventierapporten en factureer factureerbaar werk indien van toepassing."
-
-#. module: construction
-#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-msgid ""
 "<strong>Resource Allocation:</strong> Assign workers, subcontractors, and\n"
 "                    machinery."
 msgstr ""
@@ -594,25 +575,6 @@ msgid ""
 msgstr ""
 "<strong>Rollen:</strong> Wijs rollen toe aan werknemers en gebruik de "
 "functie voor automatisch toewijzen."
-
-#. module: construction
-#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-msgid ""
-"<strong>Scheduling:</strong> Assign technicians to visits and optimize "
-"their\n"
-"                calendars."
-msgstr ""
-"<strong>Planning:</strong> Wijs technici toe aan bezoeken en optimaliseer "
-"hun agenda's."
-
-#. module: construction
-#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-msgid ""
-"<strong>Service Requests:</strong> Create tasks for maintenance, warranty\n"
-"                interventions, or client modifications."
-msgstr ""
-"<strong>Serviceverzoeken:</strong> Maak taken aan voor onderhoud, garantie-"
-"interventies of aanpassingen door klanten."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -673,19 +635,14 @@ msgstr "<strong>Tickets:</strong> Verzamel problemen of wijzigingsverzoeken."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
-#| msgid ""
-#| "<strong>Timesheets App</strong> help track labor hours and project "
-#| "progress, enabling\n"
-#| "            managers to measure performance and costs in real-time."
 msgid ""
 "<strong>Timesheets App</strong> help track labour hours and project "
 "progress, enabling\n"
 "            managers to measure performance and costs in real-time."
 msgstr ""
-"De <strong>Urenstaten-app</strong> helpt bij het bijhouden van arbeidsuren "
-"en projectvoortgang, waardoor managers de prestaties en kosten realtime "
-"kunnen meten."
+"De <strong>Urenstaten-app</strong> helpt bij het registreren van werkuren en "
+"de voortgang van projecten, waardoor\n"
+"            managers prestaties en kosten realtime kunnen meten."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -759,7 +716,7 @@ msgstr ""
 #. module: construction
 #: model:product.category,name:construction.product_category_14
 msgid "Access"
-msgstr ""
+msgstr "Toegang"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11
@@ -849,14 +806,6 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
-#| msgid ""
-#| "Assuming there will be manual labor behind every product from the quote, "
-#| "start\n"
-#| "                filling the time estimate for some of them. <br/>The "
-#| "total labor time and even time\n"
-#| "                for project management and purchases are computed "
-#| "accordingly..."
 msgid ""
 "Assuming there will be manual labour behind every product from the quote, "
 "start\n"
@@ -865,10 +814,10 @@ msgid ""
 "                for project management and purchases are computed "
 "accordingly..."
 msgstr ""
-"Ervan uitgaande dat bij elk product uit de offerte handmatig werk hoort, kan "
-"je hier de geschatte werktijd voor sommige producten invullen.<br/>De totale "
-"arbeidstijd en zelfs de tijd voor projectbeheer en Inkoop worden "
-"dienovereenkomstig berekend..."
+"We gaan ervan uit dat er fysieke arbeid zit achter elk product uit de "
+"offerte. Begin met het invullen van de tijdschatting voor een aantal van de "
+"producten. <br/>De totale werktijd en zelfs de tijd voor projectbeheer en "
+"inkopen worden dienovereenkomstig berekend..."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1047,6 +996,15 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
+"Create a new line, select the customer order this refer to, add the Field "
+"Service product and capture the time spent."
+msgstr ""
+"Maak een nieuwe regel, selecteer de klantorder waarnaar dit verwijst, voeg "
+"het Buitendienstproduct toe en registreer de bestede tijd."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
 "Create a new quotation / sale order, assign a customer and select a "
 "quotation template to save time."
 msgstr ""
@@ -1063,11 +1021,18 @@ msgstr ""
 "lokalisatiepakket bestaat."
 
 #. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Create shift, assign the Field service role, detail the intervention in the "
+"description and select the appropriate date."
+msgstr ""
+"Maak een shift aan, wijs de rol 'Buitendienst' toe, beschrijf de interventie "
+"en selecteer de juiste datum."
+
+#. module: construction
 #: model:product.category,name:construction.product_category_20
-#, fuzzy
-#| msgid "Labor & supervision"
 msgid "Direct Supervision"
-msgstr "Arbeid & toezicht"
+msgstr "Direct toezicht"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1115,10 +1080,8 @@ msgstr "Download het onderstaande bestand."
 
 #. module: construction
 #: model:product.category,name:construction.product_category_48
-#, fuzzy
-#| msgid "Extraction system"
 msgid "Drainage Systems"
-msgstr "Afzuigsysteem"
+msgstr "Afvoersystemen"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_28
@@ -1128,7 +1091,7 @@ msgstr "Leidingen, motor"
 #. module: construction
 #: model:product.category,name:construction.product_category_10
 msgid "Earth Moving"
-msgstr ""
+msgstr "Grondverzet"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1168,14 +1131,12 @@ msgstr "Werknemers"
 #. module: construction
 #: model:product.category,name:construction.product_category_30
 msgid "Envelope & Exterior"
-msgstr ""
+msgstr "Bekleding & buitenkant"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_8
-#, fuzzy
-#| msgid "Equipment + layout"
 msgid "Equipment"
-msgstr "Benodigdheden + lay-out"
+msgstr "Uitrusting"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_22
@@ -1185,7 +1146,7 @@ msgstr "Benodigdheden + lay-out"
 #. module: construction
 #: model:product.template,name:construction.product_template_79
 msgid "Excavator"
-msgstr ""
+msgstr "Graafmachine"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1204,10 +1165,8 @@ msgstr "Tuinarchitectuur"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_33
-#, fuzzy
-#| msgid "Exterior Joinery"
 msgid "Exterior Works"
-msgstr "Buitenschrijnwerk"
+msgstr "Buitenwerkzaamheden"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_11
@@ -1223,6 +1182,11 @@ msgstr "Afzuigkap"
 #: model:product.template,name:construction.product_template_20
 msgid "Extraction system"
 msgstr "Afzuigsysteem"
+
+#. module: construction
+#: model:planning.role,name:construction.planning_role_6
+msgid "Field Service"
+msgstr "Buitendienst ﻿"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1271,10 +1235,8 @@ msgstr "Plan_begane_grond.png"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_38
-#, fuzzy
-#| msgid "Lighting"
 msgid "Fittings"
-msgstr "Verlichting"
+msgstr "Fittings"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_9
@@ -1293,10 +1255,8 @@ msgstr ""
 
 #. module: construction
 #: model:product.category,name:construction.product_category_49
-#, fuzzy
-#| msgid "Communications"
 msgid "Foundations"
-msgstr "Communicatie"
+msgstr "Fundering"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1350,6 +1310,8 @@ msgid ""
 "From the quotation, simply hit the Cost Nature smart button to access the "
 "analysis."
 msgstr ""
+"Klik vanuit de offerte op de slimme knop 'Kostenaard' om naar de analyse te "
+"gaan."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_10
@@ -1358,15 +1320,13 @@ msgstr "Tuinieren"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_56
-#, fuzzy
-#| msgid "Labour"
 msgid "General Labour"
-msgstr "Arbeid"
+msgstr "Algemene arbeid"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_25
 msgid "General Workers"
-msgstr ""
+msgstr "Algemene medewerkers"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1379,6 +1339,15 @@ msgstr ""
 msgid "Generate a new quotation and select the Renovation Project template."
 msgstr ""
 "Maak een nieuwe offerte aan en selecteer het sjabloon 'Renovatieproject'."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Generate detailed intervention reports, capturing time spent on the shift "
+"and invoice billable work when applicable."
+msgstr ""
+"Genereer gedetailleerde interventierapporten met daarop de tijd die werd "
+"besteeds aan de shift en factureer factureerbaar werk indien van toepassing."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_9
@@ -1398,12 +1367,12 @@ msgstr "Gastenkamers & gang"
 #. module: construction
 #: model:product.category,name:construction.product_category_40
 msgid "HVAC & Plumbing"
-msgstr ""
+msgstr "HVAC & Sanitair"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_15
 msgid "Handheld & Consumables"
-msgstr ""
+msgstr "Handgereedschap & verbruiksartikelen"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_25
@@ -1418,7 +1387,7 @@ msgstr "Verwarming en ventilatie"
 #. module: construction
 #: model:product.category,name:construction.product_category_9
 msgid "Heavy Plant"
-msgstr ""
+msgstr "Zware machines"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1555,7 +1524,7 @@ msgstr ""
 #. module: construction
 #: model:product.category,name:construction.product_category_28
 msgid "Infrastructure & Groundworks"
-msgstr ""
+msgstr "Infrastructuur & grondwerken"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_42
@@ -1564,10 +1533,8 @@ msgstr "Douche, wastafel en toilet installeren"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_33
-#, fuzzy
-#| msgid "Installation labor"
 msgid "Installation Labour"
-msgstr "Installatiewerkzaamheden"
+msgstr "Installatiewerken"
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
@@ -1576,10 +1543,8 @@ msgstr "Verzekeringscertificaat bijgevoegd"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_32
-#, fuzzy
-#| msgid "Exterior Joinery"
 msgid "Interior Finishes"
-msgstr "Buitenschrijnwerk"
+msgstr "Interieurafwerking"
 
 #. module: construction
 #: model:project.task.type,name:construction.internal_project_default_stage
@@ -1626,7 +1591,7 @@ msgstr "Voegen herstellen en repareren"
 #. module: construction
 #: model:product.category,name:construction.product_category_26
 msgid "Junior/Apprentice"
-msgstr ""
+msgstr "Junior/Leerling"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_10
@@ -1660,24 +1625,18 @@ msgstr "Arbeid & Projectopvolging"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_46
-#, fuzzy
-#| msgid "Labor & site management"
 msgid "Labour & site management"
 msgstr "Arbeid & bouwplaatsbeheer"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_41
-#, fuzzy
-#| msgid "Labor & supervision"
 msgid "Labour & supervision"
-msgstr "Arbeid & toezicht"
+msgstr "Arbeid & supervisie"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_35
-#, fuzzy
-#| msgid "Exterior Landscaping"
 msgid "Landscaping"
-msgstr "Tuinarchitectuur"
+msgstr "Landschapsarchitectuur"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_14
@@ -1687,7 +1646,7 @@ msgstr "Nivellering + geotextiel"
 #. module: construction
 #: model:product.category,name:construction.product_category_11
 msgid "Lifting & Handling"
-msgstr ""
+msgstr "Heffen & transporteren"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_30
@@ -1697,7 +1656,7 @@ msgstr "Verlichting"
 #. module: construction
 #: model:product.category,name:construction.product_category_52
 msgid "Logistics & Waste"
-msgstr ""
+msgstr "Logistiek & Afval"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_1
@@ -1725,12 +1684,12 @@ msgstr ""
 #. module: construction
 #: model:product.category,name:construction.product_category_18
 msgid "Management & Overhead"
-msgstr ""
+msgstr "Beheer & Overhead"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_17
 msgid "Manual Tools"
-msgstr ""
+msgstr "Handgereedschap"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_2
@@ -1740,7 +1699,7 @@ msgstr "Metselwerk en constructiewerkzaamheden"
 #. module: construction
 #: model:product.category,name:construction.product_category_45
 msgid "Masonry & Walling"
-msgstr ""
+msgstr "Metselwerk & wanden"
 
 #. module: construction
 #: model:product.template,name:construction.product_product_6_product_template
@@ -1749,10 +1708,8 @@ msgstr "Metselmortel 25kg"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_5
-#, fuzzy
-#| msgid "Materials sold."
 msgid "Material"
-msgstr "Verkochte materialen."
+msgstr "Materiaal"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1924,6 +1881,11 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Open the Planning App."
+msgstr "Open de Planning-app."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "Open the Product Variants list and proceed to import of the \"1. Product\n"
 "                        Variants Import\" sheet"
@@ -1939,6 +1901,14 @@ msgid ""
 msgstr ""
 "Open de voortgangsweergave. Hierin worden alle verkooporderregels "
 "weergegeven die aan dit project zijn gekoppeld."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid ""
+"Open the Sales App and open from the menu To Invoice, Services &amp; "
+"Materials."
+msgstr ""
+"Open de Verkoop-app en open in 'Te factureren', 'Diensten &amp; Materialen'."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1990,22 +1960,18 @@ msgstr ""
 
 #. module: construction
 #: model:product.category,name:construction.product_category_44
-#, fuzzy
-#| msgid "New openings"
 msgid "Openings"
-msgstr "Nieuwe openingen"
+msgstr "Openingen"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_7
 msgid "Others"
-msgstr ""
+msgstr "Andere"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_34
-#, fuzzy
-#| msgid "Construction"
 msgid "Outdoor Construction"
-msgstr "Constructie"
+msgstr "Buitenbouw"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_23
@@ -2086,10 +2052,8 @@ msgstr "Loodgieterswerk & Sanitair"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_16
-#, fuzzy
-#| msgid "Power outlets"
 msgid "Power Tools"
-msgstr "Stopcontacten"
+msgstr "Elektrisch gereedschap"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_39
@@ -2099,7 +2063,7 @@ msgstr "Stopcontacten"
 #. module: construction
 #: model:product.category,name:construction.product_category_27
 msgid "Preliminaries & Site Setup"
-msgstr ""
+msgstr "Voorbereidingen"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
@@ -2117,10 +2081,8 @@ msgstr ""
 
 #. module: construction
 #: model:product.category,name:construction.product_category_13
-#, fuzzy
-#| msgid "Construction"
 msgid "Production"
-msgstr "Constructie"
+msgstr "Productie"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_57
@@ -2151,10 +2113,8 @@ msgstr "Offertes & financiën"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_43
-#, fuzzy
-#| msgid "Waste disposal"
 msgid "Rainwater Disposal"
-msgstr "Afvalverwerking"
+msgstr "Afvoer van regenwater"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_15
@@ -2170,6 +2130,12 @@ msgstr "Meer informatie over de offertecalculator vind je"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Receipt"
 msgstr "Ontvangst"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Record time, materials used, and capture photos during intervention."
+msgstr ""
+"Registreer tijd, gebruikte materialen en maak foto's tijdens interventies."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_17
@@ -2204,7 +2170,7 @@ msgstr "Reparatie van dakconstructie"
 #. module: construction
 #: model:product.category,name:construction.product_category_42
 msgid "Roofing"
-msgstr ""
+msgstr "Dakdekking"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_3
@@ -2228,10 +2194,8 @@ msgstr "S00001 - VDK Project"
 
 #. module: construction
 #: model:project.project,name:construction.project_project_7
-#, fuzzy
-#| msgid "S00005 - Old Farm renovation in guest house"
 msgid "S00002 - Davis / Old Farm renovation in guest house"
-msgstr "S00005 - Renovatie van oude boerderij tot gastenverblijf"
+msgstr "S00002 - Davis / Renovatie van oude boerderij tot gastenverblijf"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_23
@@ -2240,10 +2204,8 @@ msgstr "S00005 - Renovatie van oude boerderij tot gastenverblijf"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_51
-#, fuzzy
-#| msgid "Safety lighting, signage"
 msgid "Safety & Signage"
-msgstr "Veiligheidsverlichting, bewegwijzering"
+msgstr "Veiligheid & bewegwijzering"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_40
@@ -2290,6 +2252,11 @@ msgstr "Dekvloer"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Select a customer, a project if applicable."
+msgstr "Selecteer een klant of project indien van toepassing."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Select all sale orders you aim at billing."
 msgstr "Selecteer alle verkooporders die je wilt factureren."
 
@@ -2302,10 +2269,8 @@ msgstr ""
 
 #. module: construction
 #: model:product.category,name:construction.product_category_19
-#, fuzzy
-#| msgid "Labor & supervision"
 msgid "Senior Supervision"
-msgstr "Arbeid & toezicht"
+msgstr "Senior supervisie"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2322,13 +2287,12 @@ msgstr "Bewegwijzering"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
-#| msgid "Open the sale orders of your project from the project top bar."
 msgid ""
 "Similarly, this is available for all sale orders of a project from the "
 "project form smart buttons."
 msgstr ""
-"Open de verkooporders van je project vanuit de bovenbalk van het project."
+"Deze functie is ook beschikbaar voor alle verkooporders van een project via "
+"de slimme knoppen in het projectformulier."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_27
@@ -2342,18 +2306,19 @@ msgid "Site Execution & Planning"
 msgstr "Werf uitvoering & planning"
 
 #. module: construction
+#: model:planning.role,name:construction.planning_role_5
+msgid "Site Manager"
+msgstr "Werfleider"
+
+#. module: construction
 #: model:product.category,name:construction.product_category_47
-#, fuzzy
-#| msgid "Site protection"
 msgid "Site Preparation"
-msgstr "Beveiliging van de site"
+msgstr "Werfvoorbereiding"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_50
-#, fuzzy
-#| msgid "Site protection"
 msgid "Site Protection"
-msgstr "Beveiliging van de site"
+msgstr "Werfbeveiliging"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_40
@@ -2362,17 +2327,18 @@ msgstr "Beveiliging van de site"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_21
-#, fuzzy
-#| msgid "Labour"
 msgid "Skilled Labour"
-msgstr "Arbeid"
+msgstr "Expertise-arbeid"
+
+#. module: construction
+#: model:planning.role,name:construction.planning_role_7
+msgid "Skilled Worker"
+msgstr "Werknemer met expertise"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_23
-#, fuzzy
-#| msgid "Qualified Worker"
 msgid "Skilled Workers"
-msgstr "Gekwalificeerd werknemer"
+msgstr "Werknemers met expertise"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_24
@@ -2387,7 +2353,7 @@ msgstr "Schuifdeuren"
 #. module: construction
 #: model:product.category,name:construction.product_category_12
 msgid "Small Plant"
-msgstr ""
+msgstr "Kleine machines"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_31
@@ -2417,12 +2383,12 @@ msgstr "Geluidsisolerende panelen"
 #. module: construction
 #: model:product.category,name:construction.product_category_22
 msgid "Specialized Trades"
-msgstr ""
+msgstr "Gespecialiseerde beroepen"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_41
 msgid "Specialty Equipment"
-msgstr ""
+msgstr "Speciale apparatuur"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_18
@@ -2478,28 +2444,22 @@ msgstr "Fornuis, oven, plancha"
 #. module: construction
 #: model:product.category,name:construction.product_category_46
 msgid "Structural Steel & Timber"
-msgstr ""
+msgstr "Constructiestaal & Hout"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_29
-#, fuzzy
-#| msgid "Masonry & Structural Work"
 msgid "Structural Works"
-msgstr "Metselwerk en constructiewerkzaamheden"
+msgstr "Structurele werkzaamheden"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_24
-#, fuzzy
-#| msgid "Labour"
 msgid "Support Labour"
-msgstr "Arbeid"
+msgstr "Ondersteunend werk"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_37
-#, fuzzy
-#| msgid "Skirting & details"
 msgid "Surfaces & Details"
-msgstr "Plinten & details"
+msgstr "Oppervlakken & Details"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_26
@@ -2515,10 +2475,8 @@ msgstr "Taken"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_31
-#, fuzzy
-#| msgid "Kitchen Installation"
 msgid "Technical Installations"
-msgstr "Keukeninstallatie"
+msgstr "Technische installaties"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_28
@@ -2544,17 +2502,18 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
-"The <strong>Field Service App</strong> helps you manage on-site "
-"interventions such as\n"
+"The <strong>Planning App</strong> with its field service capabilities helps "
+"you manage on-site interventions such as\n"
 "            follow-up works, warranty services, or urgent client requests. "
 "Technicians can access\n"
 "            tasks, log hours, and report outcomes directly from their mobile "
 "devices."
 msgstr ""
-"De <strong>Buitendienst-app</strong> helpt je bij het beheren van "
-"interventies op locatie, zoals vervolgwerkzaamheden, garantieservices of "
-"dringende verzoeken van klanten. Technici hebben vanaf hun mobiele apparaten "
-"toegang tot taken, kunnen uren registreren en resultaten rapporteren."
+"De <strong>Planning-app</strong> met Buitendienst-functionaliteiten helpt je "
+"bij het beheren van interventies op locatie, zoals vervolgwerkzaamheden, "
+"garantieservices of dringende verzoeken van klanten. Technici hebben vanaf "
+"hun mobiele apparaten toegang tot taken, kunnen uren registreren en "
+"resultaten rapporteren."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2714,6 +2673,11 @@ msgstr "Behandelde terrasplanken, frame"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+msgid "Trigger the Auto-Plan to automatically assign workers."
+msgstr "Activeer 'Automatisch plannen' om automatisch arbeiders toe te wijzen."
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Triggers:"
 msgstr "Triggers:"
 
@@ -2837,11 +2801,6 @@ msgid "Work"
 msgstr "Werk"
 
 #. module: construction
-#: model:planning.role,name:construction.planning_role_5
-msgid "Work Manager"
-msgstr "Werfleider"
-
-#. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "WorkItems_PoolDeck.xlsx"
 msgstr "Werkitems_Zwembadterras.xlsx"
@@ -2855,6 +2814,16 @@ msgstr "Werknemer"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr "Wil je je Odoo-configuratie met ons bespreken of nog verder uitbouwen?"
+
+#. module: construction
+#: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
+msgid ""
+"You can as well chose to make products expensable the same way from Services "
+"&amp; Materials configuring their expense policy."
+msgstr ""
+"Je kunt er ook voor kiezen om producten 'expensable' te maken vanuit "
+"'Diensten &amp; Materialen' door hun onkostenbeleid te configureren."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2909,6 +2878,9 @@ msgid ""
 "product categories, work items and products to capture where to be more "
 "competitive or marge more!"
 msgstr ""
+"Je hebt hier niet alleen toegang tot een uitsplitsing per kostenaard, maar "
+"kunt ook inzoomen op productcategorieën, werkitems en producten om te zien "
+"waar je meer concurrerend kunt zijn of meer marge kunt behalen!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2916,6 +2888,8 @@ msgid ""
 "You setup a quote and now want to know how it breaks down in terms of cost "
 "nature, it is available at your finger tips!"
 msgstr ""
+"Je hebt een offerte opgestelt en wilt nu weten hoe deze is opgebouwd wat "
+"betreft de aard van de kosten. Deze informatie is binnen handbereik!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3151,10 +3125,8 @@ msgstr "📈 Factureer het juiste bedrag op het juiste moment"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
-#, fuzzy
-#| msgid "📅 Delivery remarks (Construction Developer)"
 msgid "📊 Cost nature analysis (Construction Developer)"
-msgstr "📅 Opmerkingen bij de oplevering (Projectontwikkelaar)"
+msgstr "📊 Analyse van de aard van de kosten (Projectontwikkelaar)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3190,6 +3162,22 @@ msgstr "🧮 Geavanceerde offerteberekeningen met de calculator"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🧾 Multiple orders turning into one bill"
 msgstr "🧾 Meerdere orders in één factuur samennemen"
+
+#~ msgid ""
+#~ "<strong>Scheduling:</strong> Assign technicians to visits and optimize "
+#~ "their\n"
+#~ "                calendars."
+#~ msgstr ""
+#~ "<strong>Planning:</strong> Wijs technici toe aan bezoeken en optimaliseer "
+#~ "hun agenda's."
+
+#~ msgid ""
+#~ "<strong>Service Requests:</strong> Create tasks for maintenance, "
+#~ "warranty\n"
+#~ "                interventions, or client modifications."
+#~ msgstr ""
+#~ "<strong>Serviceverzoeken:</strong> Maak taken aan voor onderhoud, "
+#~ "garantie-interventies of aanpassingen door klanten."
 
 #~ msgid "Installation"
 #~ msgstr "Installatie"
