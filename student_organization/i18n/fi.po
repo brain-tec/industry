@@ -7,13 +7,14 @@
 # Wil Odoo, 2025
 # Jessica Jakara, 2025
 # "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
+# Saara Hakanen <sahak@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-09 09:07+0000\n"
-"PO-Revision-Date: 2025-08-28 10:11+0000\n"
-"Last-Translator: \"Jessica Tuulia Sade Jäkärä (jtsj)\" <jtsj@odoo.com>\n"
+"POT-Creation-Date: 2026-04-10 19:28+0000\n"
+"PO-Revision-Date: 2026-04-04 22:50+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-3/"
 "student_organization/fi/>\n"
 "Language: fi\n"
@@ -21,12 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
-
-#. module: student_organization
-#: model_terms:ir.ui.view,arch_db:student_organization.ir_ui_view_4382
-msgid "+1 555-555-5556"
-msgstr "+1 555-555-5556"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -39,19 +35,9 @@ msgstr ""
 "tietokantasi.<br/>"
 
 #. module: student_organization
-#: model:product.attribute.value,name:student_organization.product_attribute_value_1
-msgid "100"
-msgstr "100"
-
-#. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.homepage
 msgid "100+&amp;nbsp;"
 msgstr "100+&amp;nbsp;"
-
-#. module: student_organization
-#: model:product.attribute.value,name:student_organization.product_attribute_value_5
-msgid "1000"
-msgstr "1000"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.homepage
@@ -59,18 +45,8 @@ msgid "15+<font style=\"background-color: rgba(156, 198, 239, 0.6);\">​</font>
 msgstr "15+<font style=\"background-color: rgba(156, 198, 239, 0.6);\">​</font>"
 
 #. module: student_organization
-#: model:product.attribute.value,name:student_organization.product_attribute_value_6
-msgid "1500"
-msgstr "1500"
-
-#. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "2 complimentary tickets to attend the gala"
-msgstr ""
-
-#. module: student_organization
-#: model:product.attribute.value,name:student_organization.product_attribute_value_2
-msgid "200"
 msgstr ""
 
 #. module: student_organization
@@ -79,16 +55,6 @@ msgid ""
 "250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States"
 msgstr ""
 "250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • Yhdysvallat"
-
-#. module: student_organization
-#: model:product.attribute.value,name:student_organization.product_attribute_value_3
-msgid "400"
-msgstr ""
-
-#. module: student_organization
-#: model:product.attribute.value,name:student_organization.product_attribute_value_4
-msgid "500"
-msgstr ""
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.homepage
@@ -816,6 +782,11 @@ msgid ""
 msgstr ""
 
 #. module: student_organization
+#: model:product.attribute.value,name:student_organization.product_attribute_value_9
+msgid "L"
+msgstr ""
+
+#. module: student_organization
 #: model_terms:event.event,description:student_organization.event_event_1
 msgid ""
 "Let this be your first big memory of the year — one you’ll never forget. 🎇"
@@ -846,6 +817,11 @@ msgstr "Oman yritykseni logo"
 msgid ""
 "Logo placement on all event materials (posters, banners, social media, and "
 "website)"
+msgstr ""
+
+#. module: student_organization
+#: model:product.attribute.value,name:student_organization.product_attribute_value_8
+msgid "M"
 msgstr ""
 
 #. module: student_organization
@@ -1059,6 +1035,11 @@ msgid "Reserve your spot for our next expert guest talk."
 msgstr ""
 
 #. module: student_organization
+#: model:product.attribute.value,name:student_organization.product_attribute_value_7
+msgid "S"
+msgstr ""
+
+#. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
 msgid "Shout-outs during the event by our MC"
 msgstr ""
@@ -1213,8 +1194,13 @@ msgstr ""
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
-"Haluaisitko keskustella kanssamme Odoo-asennuksestasi tai tutkia lisää "
-"ominaisuuksia?"
+"Haluatko keskustella kanssamme Odoon käyttöönotosta tai tutustua muihinkin "
+"sen ominaisuuksiin?"
+
+#. module: student_organization
+#: model_terms:ir.ui.view,arch_db:student_organization.ir_ui_view_4382
+msgid "X"
+msgstr ""
 
 #. module: student_organization
 #: model:product.attribute.value,name:student_organization.product_attribute_value_10
@@ -1229,7 +1215,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.ir_ui_view_4382
 msgid "info@yourcompany.example.com"
-msgstr "info@yourcompany.example.com"
+msgstr "info@yrityksesi.esimerkki.fi"
 
 #. module: student_organization
 #: model_terms:product.template,description_ecommerce:student_organization.product_template_41
@@ -1317,3 +1303,15 @@ msgstr ""
 #: model_terms:event.event,description:student_organization.event_event_1
 msgid "🫶 Icebreaker games to meet your future besties"
 msgstr ""
+
+#~ msgid "+1 555-555-5556"
+#~ msgstr "+1 555-555-5556"
+
+#~ msgid "100"
+#~ msgstr "100"
+
+#~ msgid "1000"
+#~ msgstr "1000"
+
+#~ msgid "1500"
+#~ msgstr "1500"
