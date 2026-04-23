@@ -64,7 +64,7 @@ class TestOverbooking(PaymentHttpCommon):
 
         def create_planning_slot(cls):
             cls.env['planning.slot'].create({
-                'resource_id': cls.resource.id,
+                'resource_ids': [Command.link(cls.resource.id)],
                 'role_id': cls.role.id,
                 'start_datetime': cls.start_date,
                 'end_datetime': cls.end_date,
@@ -79,7 +79,7 @@ class TestOverbooking(PaymentHttpCommon):
         sale_order.action_confirm()
         slot = sale_order.order_line.planning_slot_ids
         self.assertEqual(len(slot), 1, "One planning slot should be created.")
-        self.assertEqual(slot.resource_id, self.resource, "The slot should be assigned to the available room.")
+        self.assertEqual(slot.resource_ids.id, self.resource.id, "The slot should be assigned to the available room.")
         self.assertEqual(slot.start_datetime, sale_order.rental_start_date, "Slot start should match SO rental start.")
         self.assertEqual(slot.end_datetime, sale_order.rental_return_date, "Slot end should match SO rental return.")
 
@@ -101,13 +101,13 @@ class TestOverbooking(PaymentHttpCommon):
             'date_from': self.start_date,
             'date_to': self.end_date,
             'resource_id': self.resource.id,
-            'time_type': 'leave',
+            'count_as': 'absence',
         }])
         sale_order = self.create_sale_order()
         with self.assertRaises(ValidationError, msg="This Sales Order can't be confirmed. No resources are available for the shifts in: %s." % self.product.name):
             sale_order.action_confirm()
 
-    def _test_user_cant_book_stay_offer_unavailable_leaves_without_resource(self):
+    def test_user_cant_book_stay_offer_unavailable_leaves_without_resource(self):
         """
         Scenario: User can't book a stay offer when resources are not available due to leaves without a resource
         """
@@ -115,7 +115,7 @@ class TestOverbooking(PaymentHttpCommon):
             'name': 'Maintenance',
             'date_from': self.start_date,
             'date_to': self.end_date,
-            'time_type': 'leave',
+            'count_as': 'absence',
         }])
         sale_order = self.create_sale_order()
         with self.assertRaises(ValidationError, msg="This Sales Order can't be confirmed. No resources are available for the shifts in: %s." % self.product.name):
