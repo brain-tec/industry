@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:08+0000\n"
-"PO-Revision-Date: 2026-04-18 12:34+0000\n"
+"PO-Revision-Date: 2026-04-23 11:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "event_management/ja/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1242,6 +1242,10 @@ msgid ""
 "                        own catering service, or <strong>“NO”</strong> if "
 "you must use the venue’s catering."
 msgstr ""
+"会場でケータリングサービスを自由に選択できる場合は<strong>“ケータリング無料: "
+"はい”</strong>と、\n"
+"                        会場指定のケータリングサービスを利用しなければならな"
+"い場合は<strong>“いいえ”</strong>と、具体的なタグを追加してください。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1250,6 +1254,9 @@ msgid ""
 "knows exactly which shifts they are\n"
 "                qualified to fill."
 msgstr ""
+"「役割」に特定の<b>職位</b>を追加してください。これにより、その従業員がどの"
+"シフトに割り当て可能かを\n"
+"                Odooが正確に把握できるようになります。"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1274,7 +1281,7 @@ msgstr "アフタームービー"
 #: model:documents.document,name:event_management.documents_document_22
 #: model:project.project,name:event_management.project_project_5
 msgid "Amanda White Event"
-msgstr ""
+msgstr "アマンダ・ホワイト イベント"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1282,6 +1289,8 @@ msgid ""
 "An <b>ICS file</b> that allows them to sync their shifts directly to their "
 "personal phone calendars."
 msgstr ""
+"<b>ICSファイル</b> により、シフトを個人の携帯電話のカレンダーに直接同期させる"
+"ことができます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1289,6 +1298,8 @@ msgid ""
 "An email notification (you can include the <b>Shared Document links</b> from "
 "your Project app here)."
 msgstr ""
+"メール通知(プロジェクトアプリから<b>共有ドキュメントリンク</b> をここに含める"
+"ことができます)。"
 
 #. module: event_management
 #: model:planning.role,name:event_management.planning_role_4
@@ -1319,6 +1330,16 @@ msgid ""
 "done\"\n"
 "spirit. To be successful, you will have solid solving problem skills."
 msgstr ""
+"当社の社員として、<b>各部門と協力しながら、革新的な製品を企画・開発し、\n"
+"市場投入まで推進していただきます。</b>充実した福利厚生を備え、\n"
+"成長を続ける会社で働きませんか。経験豊富なリーダーのもとで学びながら、\n"
+"前進し成長できる機会があります。私たちは、経験があり優秀な\n"
+"メンバーを募集しています。\n"
+"<br><br>\n"
+"このポジションは、その性質上 <b>創造性と厳密さ</b>の両方が求められ、既成概念"
+"にとらわれない\n"
+"発想が必要です。主体的に行動し、「やり切る」姿勢を持つ方を期待しています。\n"
+"成果を出すためには、高い問題解決力が求められます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1333,6 +1354,9 @@ msgid ""
 "                        information to have a comprehensive overview of each "
 "venue when planning events."
 msgstr ""
+"この情報を関連する連絡先のメモに直接添付し、イベントを計画する際に\n"
+"                        各会場の概要を包括的に把握できるよう、必要な情報をす"
+"べて記入してください。"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1362,12 +1386,15 @@ msgid ""
 "scheduled as a <b>draft</b> while awaiting\n"
 "                    confirmation."
 msgstr ""
+"今回は単純な依頼のため、案件から直接<b>レンタルオーダ</b>を作成しました。\n"
+"                    現在、このレンタルは確認待ちの<b>ドラフト</b>状態\n"
+"                    となっています。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ""
 "Before confirming your Purchase Order, decide where your goods need to go:"
-msgstr ""
+msgstr "購買オーダを確定する前に、商品の配送先を決定してください："
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_26_product_template
@@ -1387,6 +1414,10 @@ msgid ""
 "        sessions, or workshops. This app provides a full suite of tools to "
 "manage your event from announcement to check-in:"
 msgstr ""
+"顧客プロジェクト以外にも、<b>イベントアプリ</b> ）を使用して、社内イベント、"
+"チームビルディング\n"
+"        セッション、またはワークショップを企画できます。このアプリは、告知か"
+"らチェックインまでイベントを管理するための包括的なツールセットを提供します："
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1395,6 +1426,9 @@ msgid ""
 "or Activity Instructors) through the\n"
 "        <b>Recruitment app</b>:"
 msgstr ""
+"臨時ポジション(例：司会、警備、アクティビティ講師)を管理し、イベント運営"
+"チームを編成するには\n"
+"        <b>採用アプリ</b>を活用します:"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_37_product_template
@@ -1424,6 +1458,10 @@ msgid ""
 "operations, save time, and improve coordination across\n"
 "        your entire team."
 msgstr ""
+"このソリューションを導入することで、CRM、販売、プロジェクト、レンタル、"
+"プランニングなど、業務に不可欠なツールを活用できるようになります。\n"
+"        各アプリがシームレスに連携するため、業務効率化と時間短縮を実現し、\n"
+"        チーム全体の連携を大幅に強化します。"
 
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_16
@@ -1449,6 +1487,10 @@ msgid ""
 "<strong>CRM</strong>, where you\n"
 "                can follow up, plan meetings, and qualify opportunities."
 msgstr ""
+"リードを自社<strong>ウェブサイト</strong>から直接取得し、<strong>CRM</strong>"
+"で追跡できます。\n"
+"                フォローアップ、ミーティングの計画、案件の確度測定を行うこと"
+"ができます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1489,7 +1531,7 @@ msgstr "クリスマスデコレーションパッケージ"
 #: model:documents.document,name:event_management.documents_document_20
 #: model:project.project,name:event_management.project_project_4
 msgid "City Festival – Summer in the Square – Brussels"
-msgstr ""
+msgstr "シティ・フェスティバル – スクエアの夏 – ブリュッセル"
 
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_18
@@ -1505,7 +1547,7 @@ msgstr "清掃・サステナビリティ対策"
 #. module: event_management
 #: model:planning.role,name:event_management.planning_role_8
 msgid "Cleaning"
-msgstr ""
+msgstr "清掃"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_20_product_template
@@ -1534,7 +1576,7 @@ msgstr "包括的なイベント管理"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Confirm the quotation or rentals to generate an invoice automatically."
-msgstr ""
+msgstr "見積もりまたはレンタル料金を確定し、自動的に請求書を生成します。"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
@@ -1566,7 +1608,7 @@ msgstr "コーポレート"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Crafting Precise Offers 📰"
-msgstr ""
+msgstr "的確なプランの作成 📰"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1585,6 +1627,9 @@ msgid ""
 "                (e.g., activity type, participants, ideal period and "
 "duration, budget,...)."
 msgstr ""
+"<strong>ウェブサイト</strong> に顧客がイベントの見積を依頼できるフォームを作"
+"成します\n"
+"                (アクティビティの種類、参加者、希望期間、予算など)。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1676,6 +1721,10 @@ msgid ""
 "                        you can view the <b>Purchase Order</b> where we are "
 "sourcing catering quotes."
 msgstr ""
+"このイベントは複雑なため、すでに<b>プロジェクト</b>にリンクされています。この"
+"プロジェクト内で、,\n"
+"                        ケータリングの見積依頼を行っている<b>購買オーダ</b>を"
+"確認できます。"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1727,11 +1776,14 @@ msgid ""
 "        restocking your warehouse, Odoo keeps your costs and logistics in "
 "one view."
 msgstr ""
+"仕入先管理と機器調達をより効率的に。イベント用の発注から倉庫の在庫補充まで"
+"、\n"
+"        Odooならコストと物流を一元管理できます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Efficiently organize your event schedule using these three steps:"
-msgstr ""
+msgstr "以下の3つのステップで、イベントスケジュールを効率的に整理しましょう："
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1761,6 +1813,10 @@ msgid ""
 "            <strong><font style=\"color: rgb(113, 75, 103)\">VoIP and "
 "WhatsApp</font></strong> modules."
 msgstr ""
+"Odooと連携した <strong><font style=\"color: rgb(113, 75, 103)\">VoIP および "
+"WhatsApp</font></strong>モジュールを活用することで、現場でのベンダーとの"
+"コミュニケーションを強化できます。電話の発信や SMS、WhatsApp メッセージの送信"
+"を、Odooから直接行うことが可能です。"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
@@ -1782,11 +1838,14 @@ msgid ""
 "maintenance using the\n"
 "                <strong>Maintenance app</strong>."
 msgstr ""
+"<strong>整備アプリ</strong>を使用して修理やメンテナンスをスケジューリングする"
+"ことで、すべてのイベント機材を\n"
+"                常に最良の状態に保ちましょう。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Ensure every billable item is invoiced so that nothing is missed."
-msgstr ""
+msgstr "請求対象の項目はすべて請求書に明記し、漏れがないようにしてください。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1930,7 +1989,7 @@ msgstr "イベント会場でのフードトラック"
 msgid ""
 "For a detailed walkthrough of the configuration, please refer to the "
 "following resources:"
-msgstr ""
+msgstr "設定の詳細な手順については、以下の資料を参照してください:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -1938,6 +1997,8 @@ msgid ""
 "For every confirmed Rental Order involving traced products, Odoo "
 "automatically generates two movements:"
 msgstr ""
+"追跡対象のプロダクトを含む確定済のレンタルオーダごとに、Odooは自動的に 2つの"
+"在庫移動を生成します："
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1971,6 +2032,10 @@ msgid ""
 "        mentioned, these can be initiated directly from a <b>CRM "
 "Opportunity</b> or from within a <b>Pre-Sales Project</b>."
 msgstr ""
+"提供するサービス、仕入先の稼働状況、納期を正確に反映した、明確で詳細な見積書"
+"を作成します。前述のとおり、\n"
+"        これらは<b>CRM案件</b> から直接、または<b>プリセールスプロジェクト</"
+"b>内から開始できます。"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2035,6 +2100,9 @@ msgid ""
 "synchronize them with your personal calendar\n"
 "        to keep your schedule consistent across all devices."
 msgstr ""
+"Odooで活動やミーティングを頻繁に管理する場合、個人のカレンダーと同期して、す"
+"べての端末で\n"
+"        スケジュールを一貫させることができます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2044,6 +2112,10 @@ msgid ""
 "                your Project page. This gives you a clear view of costs and "
 "revenues to see how profitable each event is."
 msgstr ""
+"プロジェクトの収益性を確認したい場合は、上記と同じフィルターボタンで"
+"プロジェクトページにダッシュボードを\n"
+"                表示してください。コストと収益を一覧でき、各イベントの採算を"
+"把握できます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2063,6 +2135,10 @@ msgid ""
 "                        then click <b>View</b> to manage its settings. "
 "Ensure the following are configured correctly:"
 msgstr ""
+"<b>計画</b> アプリで <b>設定</b> タブを開き、新しい <b>役割</b> を作成します"
+"。\n"
+"                        続いて <b>表示</b> をクリックし、役割の設定を調整して"
+"ください。以下の項目が正しく設定されていることを確認します："
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2071,12 +2147,15 @@ msgid ""
 "hourly, depending\n"
 "                                on your needs)."
 msgstr ""
+"<b>販売</b> タブで<b>レンタル周期</b> を「日次」(必要に応じて「時間単位」)"
+"に\n"
+"                                設定してください。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ""
 "In the <b>Work Information</b> tab, navigate to the <b>Planning</b> section."
-msgstr ""
+msgstr "<b>作業情報</b> タブで、<b>計画</b> セクションに移動してください。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2084,6 +2163,8 @@ msgid ""
 "In the<strong> Rental app</strong>, create a <strong>new product</strong> "
 "(Here \"My Location\"):"
 msgstr ""
+"<strong>レンタルアプリ</strong>で<strong>新規プロダクト</strong> (ここでは "
+"\"自分のロケーション\")を作成します:"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
@@ -2108,7 +2189,7 @@ msgstr "革新的なイベントプラニング <br/>と持続可能なソリュ
 #. module: event_management
 #: model:planning.role,name:event_management.planning_role_7
 msgid "Installation & Set up"
-msgstr ""
+msgstr "インストールと管理設定"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_35_product_template
@@ -2128,7 +2209,7 @@ msgstr "内部"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Invoice clients 💲"
-msgstr ""
+msgstr "顧客への請求💲"
 
 #. module: event_management
 #: model:website.menu,name:event_management.website_menu_9
@@ -2138,7 +2219,7 @@ msgstr "採用情報"
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_44
 msgid "John Williams"
-msgstr ""
+msgstr "John Williams"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2146,6 +2227,8 @@ msgid ""
 "Keep all essential files in the <b>Documents section</b>. This is the single "
 "source of truth for:"
 msgstr ""
+"重要なファイルはすべて <b>ドキュメントセクション</b> に保管してください。ここ"
+"は、次の内容に関する唯一の正しい情報源です:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2211,6 +2294,9 @@ msgid ""
 "                        the chatter of the corresponding contact via the "
 "\"Log notes\" button."
 msgstr ""
+"今後のイベントで仕入先や会場の対応を評価できるよう、該当する連絡先のチャター"
+"で「ログメモ」ボタンから、\n"
+"                        社内レビューやフィードバックを残しておきましょう。"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_18
@@ -2245,12 +2331,12 @@ msgstr "地元の旬の野菜を使ったベジタリアンランチ"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage Internal Events 🎊"
-msgstr ""
+msgstr "内部イベントの管理 🎊"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage logistics &amp; rentals 📦"
-msgstr ""
+msgstr "物流・レンタルの管理 📦"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2259,11 +2345,14 @@ msgid ""
 "and <strong>Inventory</strong>,\n"
 "                ensuring item availability."
 msgstr ""
+"<strong>レンタル</strong>と<strong>在庫</strong>を活用して物流と機材レンタル"
+"をスムーズに管理し、\n"
+"                在庫状況を確認しながら確実に手配できます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage recruitment and employee planning 🧑‍🤝‍🧑"
-msgstr ""
+msgstr "採用および従業員計画の管理 🧑‍🤝‍🧑"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2276,16 +2365,22 @@ msgid ""
 "span></font>\n"
 "            </strong>"
 msgstr ""
+"完全に統合された環境で、これまで以上に簡単に会計を管理できます。\n"
+"            <strong>\n"
+"                Odoo<font style=\"color: rgb(113, 75, 103)\">会計アプリ</"
+"font><font class=\"text-o-color-2\"><span style=\"font-weight: normal\">にお"
+"まかせください。</span></font>\n"
+"            </strong>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage your agenda with the calendar app 📆"
-msgstr ""
+msgstr "カレンダーアプリで予定を管理 📆"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage your business opportunities 🎯"
-msgstr ""
+msgstr "ビジネス案件を管理 🎯"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2304,7 +2399,7 @@ msgstr "Mehdi Choukri"
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_46
 msgid "Mike Stevens"
-msgstr ""
+msgstr "Mike Stevens"
 
 #. module: event_management
 #: model:res.partner.category,name:event_management.res_partner_category_19
@@ -2378,11 +2473,13 @@ msgid ""
 "Now, every single item—from a massive stage tent to a box of cables—is "
 "tracked and centralized in one view."
 msgstr ""
+"これで、大型のステージテントからケーブル一箱まで、すべての品目を追跡し、1つの"
+"画面で一元管理できます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Now, your venue’s calendar manages itself!"
-msgstr ""
+msgstr "これで、会場のカレンダーが自動的に管理されるようになりました!"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2391,6 +2488,9 @@ msgid ""
 "manage your entire business in\n"
 "                it."
 msgstr ""
+"Odooはアプリに完全に統合されています。アプリをダウンロードすれば、"
+"スマートフォン1台でビジネス全体を\n"
+"               管理できます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2399,6 +2499,9 @@ msgid ""
 "package. Feel free to add new apps,\n"
 "        delete/modify demo data, and test everything around!"
 msgstr ""
+"もちろん、これは本パッケージに含まれる機能の概要です。. 新しいアプリの追加"
+"、\n"
+"        デモデータの削除や変更など、ぜひご自由にいろいろとお試しください!"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2406,12 +2509,14 @@ msgid ""
 "Once a candidate is hired, ensure their <b>Employee Profile</b> is set up "
 "for scheduling:"
 msgstr ""
+"候補者を採用したら、スケジュールを作成できるように <b>従業員プロフィール</b> "
+"を設定してください:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ""
 "Once approved, simply use the existing project to manage the execution phase."
-msgstr ""
+msgstr "承認後は、既存のプロジェクトをそのまま使って実行フェーズを管理できます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2423,6 +2528,11 @@ msgid ""
 "                    return—ensuring seamless tracking of the tent's "
 "availability."
 msgstr ""
+"確定後は、案件を<b>「成約」</b>としてマークし、請求書を作成できます。すると"
+"Odooが、\n"
+"                    納品用と返却用の2つの在庫移動を自動で作成して物流を管理し"
+"、テントの空き状況を\n"
+"                    途切れなく追跡できるようにします。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2431,11 +2541,14 @@ msgid ""
 "reflect in your Odoo dashboard, and vice\n"
 "        versa."
 msgstr ""
+"連携が完了すると、Odoo外で作成した予定も自動的にOdooのダッシュボードに反映さ"
+"れ、逆にOdooで作成した予定も\n"
+"        外部側に反映されます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Once this is set up and published on your website:"
-msgstr ""
+msgstr "これを設定し、ウェブサイトに公開したら:"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_25_product_template
@@ -2450,12 +2563,12 @@ msgstr "<strong>連絡先</strong>アプリを開きます:"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Organize event management into projects 💪"
-msgstr ""
+msgstr "イベント管理をプロジェクトごとに整理 💪"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Organize your contacts database 🤝"
-msgstr ""
+msgstr "連絡先データベースを整理 🤝"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2464,6 +2577,9 @@ msgid ""
 "profiles in\n"
 "                <strong>Contacts</strong>."
 msgstr ""
+"会場、仕入先、取引先などの連絡先を、詳細なプロフィール付きで整理・管理するに"
+"は\n"
+"                <strong>連絡先</strong>を活用します。"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2578,7 +2694,7 @@ msgstr ""
 #. module: event_management
 #: model:project.project.stage,name:event_management.project_project_stage_5
 msgid "Pre-Sales"
-msgstr ""
+msgstr "プリセールス"
 
 #. module: event_management
 #: model:event.event.ticket,name:event_management.event_event_ticket_2
@@ -2593,7 +2709,7 @@ msgstr "前へ"
 #. module: event_management
 #: model:product.template,name:event_management.product_product_46_product_template
 msgid "Printed T-shirt"
-msgstr ""
+msgstr "プリントTシャツ"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_18_product_template
@@ -2668,7 +2784,7 @@ msgstr "安全ガイドおよび調整業務"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Sales &amp; Quotations"
-msgstr ""
+msgstr "販売・見積もり"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2677,6 +2793,8 @@ msgid ""
 "available outdoor\n"
 "                        space, in the Knowledge app’s clipboard."
 msgstr ""
+"駐車場情報、収容人数、利用可能な屋外スペースなどの実用的な情報のリストを、\n"
+"                        ナレッジアプリのクリップボードに保存します。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2685,6 +2803,9 @@ msgid ""
 "tasks once, then reuse them every time you\n"
 "        launch a new project to ensure no detail is overlooked."
 msgstr ""
+"<b>プロジェクトテンプレート</b>を作成して時間を節約しましょう。標準のタスク一"
+"式を一度定義しておけば、\n"
+"        新しいプロジェクトを開始するたびに再利用でき、抜け漏れを防げます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2697,6 +2818,8 @@ msgid ""
 "Seamlessly transition from hiring to shift management by connecting your "
 "Recruitment, Employee, and Planning apps."
 msgstr ""
+"採用、従業員、計画の各アプリを連携させることで、採用からシフト管理へと"
+"シームレスに移行できます。"
 
 #. module: event_management
 #: model_terms:product.template,description:event_management.product_product_20_product_template
@@ -2714,6 +2837,8 @@ msgid ""
 "Send attractive proposals and service offers using <strong>Sales app</"
 "strong>."
 msgstr ""
+"<strong>販売アプリ</strong> を使用して、魅力的な提案やサービスプランを送信し"
+"ます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2749,7 +2874,7 @@ msgstr "設定"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Set the <b>Product Type</b> to <b>Service</b>."
-msgstr ""
+msgstr "<b>プロダクトタイプ</b>を<b>サービス</b> に設定します。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2768,7 +2893,7 @@ msgstr "イベント会場から従業員の自宅へのシャトル送迎"
 #. module: event_management
 #: model:documents.document,name:event_management.documents_document_35
 msgid "Site Plan.jpg"
-msgstr ""
+msgstr "会場レイアウト図.jpg"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2797,7 +2922,7 @@ msgstr "スタンダード入場"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Streamlined Procurement: Purchases &amp; Dropshipping 🛒"
-msgstr ""
+msgstr "調達を効率化：購買・直送 🛒"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2835,6 +2960,9 @@ msgid ""
 "other important info to\n"
 "                        remember."
 msgstr ""
+"各連絡先について、価格帯や覚えておきたい重要な情報などを含めて、詳細なメモ"
+"を\n"
+"                        残しましょう。"
 
 #. module: event_management
 #: model:event.tag.category,name:event_management.event_tag_category_1
@@ -2893,12 +3021,12 @@ msgstr ""
 #. module: event_management
 #: model:hr.department,name:event_management.hr_department_2
 msgid "Temporary Worker"
-msgstr ""
+msgstr "臨時スタッフ"
 
 #. module: event_management
 #: model:product.template,name:event_management.product_product_45_product_template
 msgid "Tent Outdoor capacity 100 people"
-msgstr ""
+msgstr "屋外テント(定員100名)"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2908,6 +3036,10 @@ msgid ""
 "        <b>smart buttons</b> in the top bar to navigate between linked "
 "documents, tasks, and financial data instantly."
 msgstr ""
+"<b>プロジェクト</b>アプリは、イベントに紐づくすべてのアクションと情報を管理す"
+"るための中心拠点です。アプリ上部バーにある\n"
+"        <b>スマートボタン</b>を使えば、関連するドキュメント、タスク、財務"
+"データへすぐに移動できます。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2916,6 +3048,9 @@ msgid ""
 "consolidates every movement related to the\n"
 "        event:"
 msgstr ""
+"プロジェクト内の<b>在庫移動</b>タブは、指令センターです。イベントに関連するす"
+"べての移動を\n"
+"        集約して表示します："
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
@@ -2934,6 +3069,13 @@ msgid ""
 "        quotations, to scheduling staff, handling logistics, and invoicing "
 "clients."
 msgstr ""
+"このアプリ一式は、イベント業界のビジネス向けに設計されています。\n"
+"        企業向けリトリート、屋外でのチームビルディング、ワークショップ／"
+"セミナー、スポーツイベントなど、r\n"
+"        あらゆる企画に対応します。Odooなら、顧客からの問い合わせ対応や魅力的"
+"な見積書の作成・送付から、\n"
+"        スタッフのスケジューリング、物流管理、請求処理まで、ビジネス運営に必"
+"要なすべてを一元管理できます。"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2
@@ -2953,7 +3095,7 @@ msgstr "未処理"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "To create a truly tailor-made proposal, you can utilize:"
-msgstr ""
+msgstr "完全にカスタマイズした提案書を作成するには、以下を活用できます:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2962,6 +3104,9 @@ msgid ""
 "equipment. The <b>Rental App</b> is your primary\n"
 "        tool for tracking high-value assets and avoiding double-bookings."
 msgstr ""
+"イベントを成功させるには、機材の状況を明確に把握することが重要です。<b>"
+"レンタル</b>アプリは、\n"
+"        高価な資産を追跡し、二重予約を防ぐための主要なツールです。"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2969,6 +3114,8 @@ msgid ""
 "To ensure your space is never double-booked, follow these steps to link your "
 "venue to your online store:"
 msgstr ""
+"会場が二重予約にならないよう、次の手順で会場をオンラインストアに紐付けてくだ"
+"さい:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body

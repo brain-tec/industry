@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 19:30+0000\n"
-"PO-Revision-Date: 2026-04-11 14:13+0000\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-s19-2/it_hardware/zh_Hans/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: it_hardware
 #: model:product.template,name:it_hardware.product_template_9
@@ -314,7 +314,7 @@ msgstr "<strong>报价  &amp; 销售</strong>"
 #. module: it_hardware
 #: model_terms:ir.ui.view,arch_db:it_hardware.welcome_article_body
 msgid "<strong>Receipt</strong>"
-msgstr "<strong>收据</strong>"
+msgstr "<strong>收货</strong>"
 
 #. module: it_hardware
 #: model_terms:ir.ui.view,arch_db:it_hardware.welcome_article_body
@@ -953,7 +953,7 @@ msgstr "挑选合适的产品并扫描收到的产品"
 #. module: it_hardware
 #: model_terms:ir.ui.view,arch_db:it_hardware.welcome_article_body
 msgid "scan a product from the receipt screen"
-msgstr "从收据界面扫描产品"
+msgstr "从收货界面扫描产品"
 
 #. module: it_hardware
 #: model_terms:ir.ui.view,arch_db:it_hardware.welcome_article_body
@@ -963,12 +963,12 @@ msgstr "扫描或者记录批号"
 #. module: it_hardware
 #: model_terms:ir.ui.view,arch_db:it_hardware.welcome_article_body
 msgid "that filters on pending receipts containing this product"
-msgstr "可筛选包含该产品的待收据"
+msgstr "，它会筛选包含此产品的待处理收货"
 
 #. module: it_hardware
 #: model_terms:ir.ui.view,arch_db:it_hardware.welcome_article_body
 msgid "validate the receipt<br/>"
-msgstr "验证收据<br/>"
+msgstr "验证收货<br/>"
 
 #~ msgid "<strong>Deliver products</strong>"
 #~ msgstr "<strong>产品发货</strong>"

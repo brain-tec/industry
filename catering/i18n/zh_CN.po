@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 18:44+0000\n"
-"PO-Revision-Date: 2026-03-18 14:55+0000\n"
+"PO-Revision-Date: 2026-04-23 11:51+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-s19-2/catering/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: catering
 #: model:project.project,name:catering.project_project_2
@@ -123,7 +123,7 @@ msgstr ""
 msgid ""
 "<b>Material Tracking:</b> Track specific materials within your planning to "
 "ensure you have everything needed for the project."
-msgstr ""
+msgstr "<b>物料追踪：</b> 在排期中追踪特定物料，确保项目所需一切均已备齐。"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
