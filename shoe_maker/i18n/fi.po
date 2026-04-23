@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-28 08:55+0000\n"
-"PO-Revision-Date: 2026-02-27 05:16+0000\n"
+"POT-Creation-Date: 2026-04-10 19:08+0000\n"
+"PO-Revision-Date: 2026-04-04 18:50+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "shoe_maker/fi/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -112,24 +112,9 @@ msgstr ""
 "kaikkien tehtävien kohdalla ikään kuin olisit saanut tilauksen valmiiksi."
 
 #. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_22
-msgid "36-38"
-msgstr "36-38"
-
-#. module: shoe_maker
 #: model:product.attribute.value,name:shoe_maker.product_attribute_value_7
 msgid "36mm"
 msgstr "36mm"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_19
-msgid "38"
-msgstr "38"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_20
-msgid "38-40"
-msgstr "38-40"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -149,16 +134,6 @@ msgstr ""
 msgid ""
 "4. Introduce the means of payment, pay and you're all done with this order!"
 msgstr "4. Esittele maksutapa, maksa ja olet valmis tilauksen kanssa!"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_21
-msgid "40-42"
-msgstr "40-42"
-
-#. module: shoe_maker
-#: model:product.attribute.value,name:shoe_maker.product_attribute_value_23
-msgid "42-44"
-msgstr "42-44"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1037,9 +1012,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Sinun pitäisi pystyä suorittamaan seuraavat työnkulut, jotta saat yleiskuvan "
-"erilaisista virroista, joita voit nopeasti suorittaa tämän paketin avulla "
-"Odoon avulla."
+"Sinun pitäisi pystyä suorittamaan seuraavat toiminnot, jotta saat yleiskuvan "
+"erilaisista tämän Odoo-paketin avulla nopeasti suoritettavista työnkuluista."
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1059,7 +1033,7 @@ msgstr "automaation dokumentointi"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "documentation"
-msgstr "dokumentointi"
+msgstr "dokumentaatio"
 
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
@@ -1079,7 +1053,7 @@ msgstr "jos tarvitset apua!"
 #. module: shoe_maker
 #: model_terms:ir.ui.view,arch_db:shoe_maker.welcome_article_body
 msgid "request a demo"
-msgstr "pyydä esittelyä"
+msgstr "pyydä demoa"
 
 #. module: shoe_maker
 #: model:mail.template,subject:shoe_maker.mail_template_45
@@ -1089,6 +1063,21 @@ msgid ""
 msgstr ""
 "{{ object.sale_order_id.company_id.name }} - Tilaus valmis (viite "
 "{{ object.sale_order_id.name tai 'n/a' }})"
+
+#~ msgid "36-38"
+#~ msgstr "36-38"
+
+#~ msgid "38"
+#~ msgstr "38"
+
+#~ msgid "38-40"
+#~ msgstr "38-40"
+
+#~ msgid "40-42"
+#~ msgstr "40-42"
+
+#~ msgid "42-44"
+#~ msgstr "42-44"
 
 #~ msgid "Shoe Maker Services"
 #~ msgstr "Suutarin palvelut"
