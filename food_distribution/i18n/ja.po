@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-27 19:16+0000\n"
-"PO-Revision-Date: 2026-04-18 12:35+0000\n"
+"PO-Revision-Date: 2026-04-23 11:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "food_distribution/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: food_distribution
 #: model:ir.actions.report,print_report_name:food_distribution.mrp_bom_product_label_action_report
@@ -1005,7 +1005,7 @@ msgstr "塩"
 #. module: food_distribution
 #: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_7
 msgid "Saturated fatty acids"
-msgstr ""
+msgstr "飽和脂肪酸"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1024,7 +1024,7 @@ msgstr "見積テンプレートを活用すると、準備の時間を短縮で
 #. module: food_distribution
 #: model:product.category,name:food_distribution.product_category_5
 msgid "Semi Finished"
-msgstr ""
+msgstr "未完成"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1036,7 +1036,7 @@ msgstr "見積書をオンライン署名用に送信しましょう。"
 #: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_sequence
 #: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_sequence
 msgid "Sequence"
-msgstr ""
+msgstr "表示順"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1120,7 +1120,7 @@ msgstr ""
 msgid ""
 "The nutritional fact list is available from the Inventory App, Configuration "
 "menu."
-msgstr ""
+msgstr "栄養成分リストは、在庫アプリの設定メニューから利用できます。"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1190,13 +1190,13 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
 msgid "Traceability"
-msgstr ""
+msgstr "トレーサビリティ"
 
 #. module: food_distribution
 #: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_unit
 #: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_unit
 msgid "Unit"
-msgstr ""
+msgstr "単位"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1324,6 +1324,8 @@ msgid ""
 "You can easily maintain from here for each product its list of ingredients, "
 "the nutritional facts and specific notes to add to the label."
 msgstr ""
+"ここから、各プロダクトごとに原材料リスト、栄養成分表示、およびラベルに追加す"
+"る特定のメモを簡単に管理できます。"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1400,6 +1402,10 @@ msgid ""
 "&gt; Upgrade\n"
 "          your Food Distribution package and check the related box"
 msgstr ""
+"デモデータのインポートはまだ可能です。アプリ&gt;インダストリー&gt; にアクセス"
+"し、\n"
+"          食品流通業パッケージをアップグレードし、関連するボックスにチェック"
+"を入れてください"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1473,7 +1479,7 @@ msgstr "サポートが必要な場合!"
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_37
 msgid "mg"
-msgstr ""
+msgstr "mg"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1540,7 +1546,7 @@ msgstr "📦 資材管理"
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🖨️ Labels with ingredients and nutritional facts"
-msgstr ""
+msgstr "🖨️ 原材料と栄養成分表示のラベル"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-27 18:47+0000\n"
-"PO-Revision-Date: 2026-04-11 14:07+0000\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-s19-2/"
 "campsite/es/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -48,6 +48,9 @@ msgid ""
 "                  <br/>\n"
 "                  <font class=\"text-o-color-3\">Your perfect escape</font>"
 msgstr ""
+"<font class=\"text-o-color-3\">Odoo campsite®</font>\n"
+"                  <br/>\n"
+"                  <font class=\"text-o-color-3\">Tu descanso perfecto</font>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -136,7 +139,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "<span class=\"display-4-fs\"><strong>Campsite</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"display-4-fs\"><strong>Camping</strong></span><br/>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -293,6 +296,8 @@ msgid ""
 "Again, the <strong>Campsite App </strong>helps you manage the end of the "
 "stay!"
 msgstr ""
+"Una vez más, la aplicación <strong>Camping </strong>te ayuda a gestionar el "
+"final de la estancia."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.custom_product_name
@@ -381,6 +386,8 @@ msgstr ""
 msgid ""
 "At any time during their stay, open their rental order from the Campsite App."
 msgstr ""
+"En cualquier momento durante tu estancia, abre tu reserva desde la "
+"aplicación Camping."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -438,7 +445,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.res_config_settings_form_view_inherited
 msgid "Campsite"
-msgstr ""
+msgstr "Camping"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -672,6 +679,11 @@ msgid ""
 "with a few\n"
 "            customizations."
 msgstr ""
+"Desde la aplicación <strong>Camping</strong> puedes gestionar tus "
+"reservas.<br/>Esta\n"
+"            aplicación depende de la integración de las aplicaciones "
+"Alquiler y Planificación, pero con algunas\n"
+"            personalizaciones."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1029,12 +1041,12 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Campsite App and navigate to the Configuration / Leaves menu."
-msgstr ""
+msgstr "Abre la aplicación Camping y dirígete al menú Configuración/Permisos."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Campsite App and then navigate to the orders from the menu."
-msgstr ""
+msgstr "Abre la aplicación Camping y utiliza el menú para ir a los pedidos."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1042,6 +1054,8 @@ msgid ""
 "Open the Campsite App to appreciate the currently planned bookings with the\n"
 "                Schedule."
 msgstr ""
+"Abre la aplicación Camping para ver las reservas planificadas actualmente\n"
+"                en la vista de planificación."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1060,6 +1074,8 @@ msgid ""
 "Open the Pricelists from the <strong>Campsite App</strong>, Configuration / "
 "Pricelists menu."
 msgstr ""
+"Abre las listas de precios desde el menú Configuración / Listas de precios "
+"de la <strong>aplicación Camping</strong>."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1087,7 +1103,7 @@ msgstr "Abra la reserva de los huéspedes que acaban de llegar."
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open your guest order from the Campsite App."
-msgstr ""
+msgstr "Abre el pedido del huésped desde la aplicación Camping."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1120,6 +1136,8 @@ msgid ""
 "Plan, check in and and check out bookings with the <strong>Campsite App</"
 "strong>"
 msgstr ""
+"Planifica y registra la entrada y la salida de reservas con la <strong>"
+"aplicación Camping</strong>"
 
 #. module: campsite
 #: model:product.template,name:campsite.product_template_8
@@ -1223,6 +1241,9 @@ msgid ""
 "Still from the Campsite App Schedule, simply drag and drop a booking to "
 "another offer, from small pitch to large pitch for example!"
 msgstr ""
+"También desde la planificación de la aplicación Camping: ¡basta con "
+"arrastrar y soltar una reserva a otra oferta, por ejemplo, de una parcela "
+"pequeña a una grande!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1363,6 +1384,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Welcome your guests as well from the <strong>Campsite App</strong>."
 msgstr ""
+"Dale la bienvenida a tus huéspedes también desde la aplicación <strong>"
+"Camping</strong>."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1425,6 +1448,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "You Campsite is online and future guests found it!"
 msgstr ""
+"¡Tu camping está publicado online y ya lo han encontrado los próximos "
+"huéspedes!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1500,6 +1525,10 @@ msgid ""
 "            is how you might centralize those and bind them to your "
 "customers in a single database."
 msgstr ""
+"Tienes un camping, pero también ofreces varios servicios y ofertas "
+"adicionales.<br/>Aquí\n"
+"            te mostramos cómo centralizarlos y vincularlos a tus clientes en "
+"una sola base de datos."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1508,6 +1537,10 @@ msgid ""
 "installed a\n"
 "            bunch of necessary apps to run your business efficiently."
 msgstr ""
+"Acabas de instalar el paquete de Odoo para campings. Al hacerlo, hemos "
+"instalado un\n"
+"            conjunto de aplicaciones necesarias para gestionar tu negocio de "
+"forma eficiente."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body

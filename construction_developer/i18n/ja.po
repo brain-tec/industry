@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 19:01+0000\n"
-"PO-Revision-Date: 2026-04-18 12:38+0000\n"
+"PO-Revision-Date: 2026-04-23 11:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "construction_developer/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.project_form_view_extension
@@ -28,7 +28,7 @@ msgstr "<span class=\"o_stat_text\">原価区分</span>"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_form_view_extension
 msgid "<span class=\"o_stat_text\">Procurement</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">調達</span>"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.product_product_form_view_extension
@@ -414,7 +414,7 @@ msgstr "建設: 作業項目明細 - プロダクト変更時"
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_work_item_line_x_consumed
 msgid "Consumed"
-msgstr ""
+msgstr "消費済"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_sol_contract_type
@@ -686,7 +686,7 @@ msgstr "名前..."
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_work_item_line_x_demand
 msgid "Needed"
-msgstr ""
+msgstr "必要"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_cost_nature_analysis_report_search
@@ -787,7 +787,7 @@ msgstr "非公開"
 #: model:ir.embedded.actions,name:construction_developer.project_embedded_action_x_work_item_lines_dashboard
 #: model:ir.ui.menu,name:construction_developer.menu_reordering_rules_replenish
 msgid "Procurement"
-msgstr ""
+msgstr "調達"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_cost_nature_analysis_report_x_product_id
@@ -812,7 +812,7 @@ msgstr "プロダクト作業項目テンプレート"
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_x_product_product_x_work_items_count_field_product_product
 msgid "Product Work items count"
-msgstr ""
+msgstr "プロダクトの作業項目数"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.action_progress_view
@@ -867,12 +867,12 @@ msgstr "数量増加"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "Recompute"
-msgstr ""
+msgstr "再計算"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "Recomputes the unit price based on components"
-msgstr ""
+msgstr "構成品に基づいて価格を再計算します"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_reference
@@ -955,12 +955,12 @@ msgstr "S00003 - Rodriguez / Carport のインストール"
 #: model:ir.model.fields,field_description:construction_developer.field_x_work_item_line_x_sale_order_id
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_cost_nature_analysis_report_search
 msgid "Sale Order"
-msgstr ""
+msgstr "販売オーダ"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_sale_order_line_id_field_x_work_item
 msgid "Sale Order Line"
-msgstr ""
+msgstr "受注明細"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
@@ -981,6 +981,8 @@ msgstr "まだ開始されていない販売オーダ明細行 (進捗率0% p)"
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "Saving this Work Item will archive the current one for this product."
 msgstr ""
+"この作業項目を保存すると、このプロダクトに関する現在の作業項目がアーカイブさ"
+"れます。"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
@@ -992,12 +994,12 @@ msgstr "販売オーダ検索"
 #: model:ir.model.fields,field_description:construction_developer.x_sequence_field_x_work_item
 #: model:ir.model.fields,field_description:construction_developer.x_sequence_field_x_work_item_line
 msgid "Sequence"
-msgstr ""
+msgstr "シーケンス"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "Set as Template"
-msgstr ""
+msgstr "テンプレートとして設定"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
@@ -1005,21 +1007,23 @@ msgid ""
 "Sets the current work item as new template (archives the current template if "
 "any)."
 msgstr ""
+"現在の作業項目を新しいテンプレートとして管理設定します(現在のテンプレートがあ"
+"る場合はアーカイブします)。"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Stage"
-msgstr ""
+msgstr "ステージ"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_stage_form
 msgid "Stage Name..."
-msgstr ""
+msgstr "ステージ名..."
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_state
 msgid "State"
-msgstr ""
+msgstr "ステータス"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_76
@@ -1045,32 +1049,32 @@ msgstr "構造物"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_margin_report_analysis_list
 msgid "Sum of Cost Shares"
-msgstr ""
+msgstr "費用分担の合計"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_margin_report_analysis_list
 msgid "Sum of Costs"
-msgstr ""
+msgstr "費用合計"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_margin_report_analysis_list
 msgid "Sum of Margin Shares"
-msgstr ""
+msgstr "マージン配分要素の合計"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_margin_report_analysis_list
 msgid "Sum of Margins"
-msgstr ""
+msgstr "マージンの合計"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_margin_report_analysis_list
 msgid "Sum of Prices"
-msgstr ""
+msgstr "価格の合計"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_targeted_so_field_x_work_item
 msgid "Targeted SO"
-msgstr ""
+msgstr "対象販売オーダ"
 
 #. module: construction_developer
 #: model:project.project,label_tasks:construction_developer.project_project_16
@@ -1080,7 +1084,7 @@ msgstr "タスク"
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_x_product_template_x_work_items_count_field_product_template
 msgid "Template Work items count"
-msgstr ""
+msgstr "テンプレート作業項目数"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
@@ -1090,22 +1094,22 @@ msgstr "販売オーダの受注明細"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "This Week"
-msgstr ""
+msgstr "今週"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_cost_nature_analysis_report_x_total_cost
 msgid "Total Cost"
-msgstr ""
+msgstr "原価合計"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_cost_nature_analysis_report_x_total_price
 msgid "Total Price"
-msgstr ""
+msgstr "合計価格"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_portal_content_inherit
@@ -1116,36 +1120,36 @@ msgstr "タイプ"
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_product_template_x_uom_matches_category
 msgid "UOM Matches Category"
-msgstr ""
+msgstr "単位はカテゴリと一致"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Unassigned"
-msgstr ""
+msgstr "未割当"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_unit_id_field_x_work_item
 #: model:ir.model.fields,field_description:construction_developer.x_unit_id_field_x_work_item_line
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "Unit"
-msgstr ""
+msgstr "単位"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_unit_cost_field_x_work_item
 #: model:ir.model.fields,field_description:construction_developer.x_unit_cost_field_x_work_item_line
 msgid "Unit Cost"
-msgstr ""
+msgstr "単位原価"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_unit_margin_field_x_work_item
 msgid "Unit Margin"
-msgstr ""
+msgstr "単位マージン"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_unit_price_field_x_work_item
 #: model:ir.model.fields,field_description:construction_developer.x_unit_price_field_x_work_item_line
 msgid "Unit Price"
-msgstr ""
+msgstr "単価"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_so_contract_type_selection_unspecified
@@ -1160,12 +1164,12 @@ msgstr "配送を更新"
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_x_remark_x_priority_selection_3
 msgid "Urgent"
-msgstr ""
+msgstr "緊急"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "When set, unit price is computed based on unit margin"
-msgstr ""
+msgstr "設定されている場合、単価は単位マージンに基づいて計算されます"
 
 #. module: construction_developer
 #: model:ir.model,name:construction_developer.x_work_item_model
@@ -1176,22 +1180,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_line_search_view
 msgid "Work Item"
-msgstr ""
+msgstr "作業項目"
 
 #. module: construction_developer
 #: model:ir.model,name:construction_developer.x_work_item_line_model
 msgid "Work Item Line"
-msgstr ""
+msgstr "作業項目明細"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_work_item_line_ids_field_x_work_item
 msgid "Work Item Lines"
-msgstr ""
+msgstr "作業項目明細"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_work_item_template_id_field_product_product
 msgid "Work Item Template"
-msgstr ""
+msgstr "作業項目テンプレート"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.action_window_see_work_items_from_product_product
@@ -1199,29 +1203,29 @@ msgstr ""
 #: model:ir.actions.act_window,name:construction_developer.action_window_work_items
 #: model:ir.ui.menu,name:construction_developer.work_items_menu_sales
 msgid "Work Items"
-msgstr ""
+msgstr "作業項目"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_kanban
 msgid "e.g. Apartment A0"
-msgstr ""
+msgstr "例: アパート A0"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.quick_create_remark_form
 msgid "e.g. Broken window"
-msgstr ""
+msgstr "例: 壊れた窓"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_form
 msgid "ex. 2nd floor, bathroom"
-msgstr ""
+msgstr "例：2階、バスルーム"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "m²"
-msgstr ""
+msgstr "m²"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.project_template_view_form_inherit
 msgid "x"
-msgstr ""
+msgstr "x"

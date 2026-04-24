@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:20+0000\n"
-"PO-Revision-Date: 2026-04-18 12:38+0000\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "hotel/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1187,6 +1187,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "On a resource to block line, click, drag and drop to create a slot."
 msgstr ""
+"リソースからブロック行へ、クリックしてドラッグ&ドロップし、スロットを作成しま"
+"す。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1308,11 +1310,13 @@ msgstr ""
 msgid ""
 "Open the Default pricelist to see the existing price rules which apply to it."
 msgstr ""
+"デフォルトの価格表を開いて、それに適用される既存の価格ルールを確認してくださ"
+"い。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open the Hotel App and navigate to the Configuration / Leaves menu."
-msgstr ""
+msgstr "ホテルアプリを開き、設定 / 休暇メニューに移動します。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1339,6 +1343,8 @@ msgid ""
 "Open the Pricelists from the <strong>Hotel App</strong>, Configuration / "
 "Pricelists menu."
 msgstr ""
+"<strong>ホテルアプリ</strong> の設定 / 価格表メニューから価格表を開いてくださ"
+"い。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1430,6 +1436,8 @@ msgid ""
 "See that for demo purpose we setup typical uplift and discount rules to "
 "adjust your prices during key periods."
 msgstr ""
+"デモ用に、主要な期間中に価格を調整するための典型的な値上げおよび値引きルール"
+"を設定しています。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1553,6 +1561,8 @@ msgid ""
 "This blocks simulataneously all resources related to this working schedule "
 "during the prescribed period."
 msgstr ""
+"これにより、指定された期間中、この作業スケジュールに関連するすべてのリソース"
+"が同時にブロックされます。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1658,6 +1668,9 @@ msgid ""
 "created.<br/>Care about the start and end time or this blockage to make to "
 "re-open when suited."
 msgstr ""
+"このリソースのスロットを使用する場合、重複する予約スロットは作成されません"
+"。<br/>開始時間と終了時間を確認し、適切なタイミングでこのブロックを解除して再"
+"開してください。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1676,6 +1689,9 @@ msgid ""
 "book it?<br/>Alternatively, you are closing for a week during an inter "
 "season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
+"お部屋の修繕やご家族の滞在などで、ゲストからの予約を受け付けたくないときはあ"
+"りますか?<br/>あるいは、閑散期に1週間ほど休業される予定でしょうか?<br/>その予"
+"定をスケジュールに反映させましょう!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1774,6 +1790,8 @@ msgid ""
 "You may want to uplift your margin during high season and be attractive "
 "during low one playing on price.<br/>To do so, let's define price rules."
 msgstr ""
+"ハイシーズンには利益率を上げ、ローシーズンには価格で魅力を出したいこともある"
+"でしょう。<br/>そのために、価格ルールを設定しましょう。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1953,7 +1971,7 @@ msgstr "🎓計画"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "🎓Pricelists"
-msgstr ""
+msgstr "🎓価格表"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body

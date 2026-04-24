@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:45+0000\n"
-"PO-Revision-Date: 2026-04-18 12:39+0000\n"
+"PO-Revision-Date: 2026-04-23 11:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "bookstore/ja/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1061,27 +1061,27 @@ msgstr "補充"
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_15
 msgid "Romance"
-msgstr ""
+msgstr "ロマンス"
 
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_41
 msgid "Science & Technology"
-msgstr ""
+msgstr "科学・技術"
 
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_8
 msgid "Science Fiction"
-msgstr ""
+msgstr "サイエンスフィクション"
 
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_31
 msgid "Self-help"
-msgstr ""
+msgstr "自己啓発"
 
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_22
 msgid "Short Story"
-msgstr ""
+msgstr "短編小説"
 
 #. module: bookstore
 #: model:product.template,name:bookstore.product_product_12_product_template
@@ -1117,7 +1117,7 @@ msgstr ""
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_13
 msgid "Thriller & Suspense"
-msgstr ""
+msgstr "スリラー&サスペンス"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1131,12 +1131,12 @@ msgstr ""
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_33
 msgid "Travel"
-msgstr ""
+msgstr "旅行"
 
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_34
 msgid "True Crime"
-msgstr ""
+msgstr "実録犯罪"
 
 #. module: bookstore
 #: model:base.automation,name:bookstore.update_inventory_description
@@ -1172,7 +1172,7 @@ msgstr "ようこそ！"
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_16
 msgid "Women's Fiction"
-msgstr ""
+msgstr "女性小説"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
@@ -1266,7 +1266,7 @@ msgstr ""
 #. module: bookstore
 #: model:product.category,name:bookstore.product_category_23
 msgid "Young Adult"
-msgstr ""
+msgstr "ヤングアダルト"
 
 #. module: bookstore
 #: model_terms:ir.ui.view,arch_db:bookstore.welcome_article_body
