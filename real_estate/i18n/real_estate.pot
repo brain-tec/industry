@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 19:23+0000\n"
-"PO-Revision-Date: 2026-04-10 19:23+0000\n"
+"POT-Creation-Date: 2026-04-24 18:07+0000\n"
+"PO-Revision-Date: 2026-04-24 18:07+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1396,11 +1396,6 @@ msgid "External References"
 msgstr ""
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr ""
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_3
 msgid "Flemish Brabant"
 msgstr ""
@@ -1688,7 +1683,7 @@ msgstr ""
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
+msgid "Livable Area"
 msgstr ""
 
 #. module: real_estate
@@ -1699,6 +1694,11 @@ msgstr ""
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_27
 msgid "Loft"
+msgstr ""
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
 msgstr ""
 
 #. module: real_estate
