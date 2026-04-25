@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:44+0000\n"
-"PO-Revision-Date: 2026-02-24 09:37+0000\n"
+"PO-Revision-Date: 2026-04-21 22:26+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "booking_engine/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_guest1
@@ -70,17 +70,17 @@ msgstr ""
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 msgid "<span>Available:</span>"
-msgstr ""
+msgstr "<span>Verfügbar:</span>"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 msgid "<span>Booked:</span>"
-msgstr ""
+msgstr "<span>Gebucht:</span>"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 msgid "<span>Total Units:</span>"
-msgstr ""
+msgstr "<span>Gesamteinheiten:</span>"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_config_settings_form_view_inherited
@@ -100,7 +100,7 @@ msgstr "Reinigungsservice aktivieren"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_active_field_x_availability
 msgid "Active"
-msgstr ""
+msgstr "Aktiv"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.product_form_view
@@ -163,7 +163,7 @@ msgstr "Attribute"
 #: model:ir.model.fields,field_description:booking_engine.x_availability_ids_field_planning_slot
 #: model:ir.model.fields,field_description:booking_engine.x_availability_ids_field_resource_calendar_leaves
 msgid "Availabilities"
-msgstr ""
+msgstr "Verfügbarkeiten"
 
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.action_window_availability_availability
@@ -173,12 +173,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_form
 msgid "Availability"
-msgstr ""
+msgstr "Verfügbarkeit"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_availability_color_field_x_availability
 msgid "Availability Color"
-msgstr ""
+msgstr "Verfügbarkeitsfarbe"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_available_field_x_availability
@@ -216,7 +216,7 @@ msgstr "Verpflegung"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_booked_field_x_availability
 msgid "Booked"
-msgstr ""
+msgstr "Gebucht"
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
@@ -237,96 +237,115 @@ msgstr "Einstellungen des Buchungsprogramms"
 #: model:ir.actions.server,name:booking_engine.server_action_helper_compute_new_avails_to_recompute
 msgid "Booking Engine: Availability Helper - Compute New Availabilities M2M"
 msgstr ""
+"Buchungsplattform: Verfügbarkeitsassistent – Neue Verfügbarkeiten berechnen "
+"(M2M)"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_calendar_leaves
 msgid "Booking Engine: Availability Leave Modify Logic"
-msgstr ""
+msgstr "Buchungsplattform: Logik zur Änderung von Urlaubsverfügbarkeiten"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_product_template
 msgid "Booking Engine: Availability Offer Modify Logic"
-msgstr ""
+msgstr "Buchungsplattform: Logik zur Änderung von Verfügbarkeitsangeboten"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_resource
 msgid "Booking Engine: Availability Room Modify Logic"
-msgstr ""
+msgstr "Buchungsplattform: Logik zur Änderung der Raumsverfügbarkeit"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_planning_slot
 msgid "Booking Engine: Availability Slot Modify Logic"
-msgstr ""
+msgstr "Buchungsplattform: Logik zur Änderung von Verfügbarkeitszeitraums"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_create_500_days_availability
 msgid "Booking Engine: Daily availability creation"
-msgstr ""
+msgstr "Buchungsplattform: Tägliche Verfügbarkeitserstellung"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_calendar_leaves_delete
 msgid "Booking Engine: Leave Delete Availability Logic"
-msgstr ""
+msgstr "Buchungsplattform: Logik zum Löschen der Verfügbarkeit für Urlaube"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Leave Change"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: "
+"Urlaubsänderung"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Leave Delete"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: Urlaub "
+"löschen"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_product_template_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Offer Change"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: Angebot "
+"ändern"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_product_template_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Offer Delete"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: Angebot "
+"löschen"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_resource_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Room Change"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: Zimmer ändern"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_resource_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Room Delete"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: Zimmer "
+"löschen"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_planning_slot_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Slot Change"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: Zeitfenster "
+"ändern"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_planning_slot_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Slot Delete"
 msgstr ""
+"Buchungsplattform: Verfügbarkeiten zur Neuberechnung markieren: Zeitfenster "
+"löschen"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_resource_delete
 msgid "Booking Engine: Room Delete Availability Logic"
-msgstr ""
+msgstr "Buchungsplattform: Logik zur Löschung der Zimmerverfügbarkeit"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_planning_slot_delete
 msgid "Booking Engine: Slot Delete Availability Logic"
-msgstr ""
+msgstr "Buchungsplattform: Logik zur Löschung von Verfügbarkeiten"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_product_template_delete
 msgid "Booking Engine: Stay Offer Delete Availability Logic"
 msgstr ""
+"Buchungsplattform: Logik zum Löschen der Verfügbarkeit von "
+"Übernachtungsangeboten"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availabilities
 msgid "Booking Engine: Update Availabilities"
-msgstr ""
+msgstr "Buchungsplattform: Verfügbarkeiten aktualisieren"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_21
@@ -446,7 +465,7 @@ msgstr "Kunde"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_date_field_x_availability
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_unset
@@ -1006,7 +1025,7 @@ msgstr "Status"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_stay_offer_field_x_availability
 msgid "Stay Offer"
-msgstr ""
+msgstr "Aufenthaltsangebot"
 
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_rooms_offers_action
@@ -1042,7 +1061,7 @@ msgstr "Aufenthalte"
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.menu_availability_steering
 msgid "Steering"
-msgstr ""
+msgstr "Steuerung"
 
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_6
@@ -1105,7 +1124,7 @@ msgstr "Zu reinigen"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_to_recompute_field_x_availability
 msgid "To Recompute"
-msgstr ""
+msgstr "Zur Neuberechnung"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
@@ -1120,7 +1139,7 @@ msgstr "Gesamt"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_total_units_field_x_availability
 msgid "Total Units"
-msgstr ""
+msgstr "Gesamteinheiten"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_17

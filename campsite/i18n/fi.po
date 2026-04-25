@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:46+0000\n"
-"PO-Revision-Date: 2026-04-04 09:41+0000\n"
+"PO-Revision-Date: 2026-04-21 22:26+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/campsite/"
 "fi/>\n"
@@ -276,7 +276,7 @@ msgstr "AAA-paristot (4)"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Access to more details clicking the slot."
-msgstr ""
+msgstr "Saat lisätietoja klikkaamalla paikkaa."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -453,6 +453,10 @@ msgid ""
 "Bridge\" of your campsite. It provides a 500-day horizon to anticipate "
 "market trends, manage risks, and optimize your revenue."
 msgstr ""
+"Päivittäisten toimintojen lisäksi Ohjausvalikko toimii leirintäalueesi "
+"\"kapteenin komentosiltana\". Se tarjoaa 500 päivän näkymän, jonka avulla "
+"voit ennakoida markkinatrendejä, hallita riskejä sekä optimoida "
+"liikevaihtosi."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -962,7 +966,7 @@ msgstr "Hallitse asiakkaitasi <strong>Yhteystiedot-sovelluksessa</strong>"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Managing scarcity with availability"
-msgstr ""
+msgstr "Niukkuuden hallinta saatavuuden avulla"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -972,7 +976,7 @@ msgstr "Yrityksesi hallinta"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Monitoring success with occupancy"
-msgstr ""
+msgstr "Menestyksen seuranta käyttöasteen avulla"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1204,12 +1208,12 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Steering menu and select Availability."
-msgstr ""
+msgstr "Avaa ohjausvalikko ja valitse saatavuus."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Steering menu and select Occupancy."
-msgstr ""
+msgstr "Avaa ohjausvalikko ja valitse käyttöaste."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1399,6 +1403,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the availability for you to "
 "work on filling in."
 msgstr ""
+"Gantt-kaavio on värikoodattu näyttämään saatavuuden, mikä helpottaa "
+"täydentämistä."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1406,6 +1412,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the occupancy, the higher the "
 "better."
 msgstr ""
+"Gantt-kaavio on värikoodattu näyttämään käyttöasteen; mitä korkeampi, sitä "
+"parempi."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1413,6 +1421,9 @@ msgid ""
 "The Occupancy view allows you to visualize your \"Sales Success\". It "
 "answers one simple question: <i>How well am I filling my campsite?</i>"
 msgstr ""
+"Käyttöaste-näkymän avulla voit visualisoida \"myyntimenestyksesi\". Se "
+"vastaa yhteen yksinkertaiseen kysymykseen: <i>Miten hyvin täytän "
+"leirintäaluettani?</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1604,6 +1615,9 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Käyttöaste keskittyy täytettyihin paikkoihin ja Saatavuus-näkymä siihen, "
+"mitä on vielä myytävänä. Se on ensisijainen työkalusi toiminnallisen "
+"turvallisuuden ja \"Kysyntäpohjaisen\" hinnoittelun kannalta."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1973,7 +1987,7 @@ msgstr "😎 Toivota vieraat tervetulleiksi"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🚀 Strategic Oversight"
-msgstr ""
+msgstr "🚀 Strateginen valvonta"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body

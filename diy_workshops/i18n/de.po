@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:02+0000\n"
-"PO-Revision-Date: 2026-04-04 09:41+0000\n"
+"PO-Revision-Date: 2026-04-24 19:32+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "diy_workshops/de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: diy_workshops
 #: model_terms:event.event,description:diy_workshops.event_event_3
@@ -1033,7 +1033,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body
@@ -1638,8 +1638,8 @@ msgid ""
 "You can access every installed app in your Odoo database from your main "
 "dashboard."
 msgstr ""
-"Sie können über Ihr Hauptdashboard auf jede in Ihrer Odoo-Datenbank "
-"installierte App zugreifen."
+"Sie können auf jede installierte App in Ihrer Odoo-Datenbank über Ihr "
+"Hauptdashboard zugreifen."
 
 #. module: diy_workshops
 #: model_terms:ir.ui.view,arch_db:diy_workshops.welcome_article_body

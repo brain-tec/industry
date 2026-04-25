@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 09:27+0000\n"
-"PO-Revision-Date: 2026-04-18 09:35+0000\n"
+"PO-Revision-Date: 2026-04-24 19:31+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "accounting_firm/ru/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -515,7 +515,7 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Discover more about Odoo by diving into our ﻿"
-msgstr "Узнайте больше об Odoo, погрузившись в нашу"
+msgstr "Узнайте больше об Odoo, изучив нашу"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -988,7 +988,7 @@ msgid ""
 "Otherwise, open the <strong>Sales App</strong> and create a new quote."
 msgstr ""
 "Откройте <strong>модуль CRM</strong>, если это результат возможности, и "
-"нажмите Создать коммерческое предложение», чтобы преобразовать ее в "
+"нажмите «Создать коммерческое предложение», чтобы преобразовать ее в "
 "коммерческое предложение.<br/>\n"
 "В противном случае откройте <strong>модуль Продажи</strong> и создайте новое "
 "коммерческое предложение."
@@ -1701,7 +1701,7 @@ msgstr "﻿Связаться с нами﻿"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "﻿academy﻿"
-msgstr "академия"
+msgstr "академию"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body

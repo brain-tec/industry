@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:46+0000\n"
-"PO-Revision-Date: 2026-04-04 09:41+0000\n"
+"PO-Revision-Date: 2026-04-24 19:28+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/campsite/"
 "de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -279,7 +279,7 @@ msgstr "AAA-Batterien (4)"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Access to more details clicking the slot."
-msgstr ""
+msgstr "Weitere Details erhalten Sie durch Klicken auf das Zeitfenster."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -463,6 +463,10 @@ msgid ""
 "Bridge\" of your campsite. It provides a 500-day horizon to anticipate "
 "market trends, manage risks, and optimize your revenue."
 msgstr ""
+"Über den täglichen Betrieb hinaus dient das Menü „Steuerung“ als „"
+"Kommandobrücke“ Ihres Campingplatzes. Es bietet einen 500-Tage-Horizont, um "
+"Markttrends zu antizipieren, Risiken zu managen und Ihre Einnahmen zu "
+"optimieren."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -983,7 +987,7 @@ msgstr "Verwalten Sie Ihre Kunden über die <strong>Kontakte-App</strong>."
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Managing scarcity with availability"
-msgstr ""
+msgstr "Umgang mit Knappheit und Verfügbarkeit"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -993,7 +997,7 @@ msgstr "Unternehmen verwalten"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Monitoring success with occupancy"
-msgstr ""
+msgstr "Erfolgsmessung anhand der Auslastung"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1238,12 +1242,12 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Steering menu and select Availability."
-msgstr ""
+msgstr "Öffnen Sie das Menü „Steuerung“ und wählen Sie „Verfügbarkeit“."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Steering menu and select Occupancy."
-msgstr ""
+msgstr "Öffnen Sie das Menü „Steuerung“ und wählen Sie „Belegung“."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1443,6 +1447,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the availability for you to "
 "work on filling in."
 msgstr ""
+"Das Gantt-Diagramm ist farblich gekennzeichnet, um die Verfügbarkeit der "
+"Felder anzuzeigen, die Sie ausfüllen können."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1450,6 +1456,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the occupancy, the higher the "
 "better."
 msgstr ""
+"Das Gantt-Diagramm ist farblich gekennzeichnet, um die Auslastung "
+"widerzuspiegeln; je höher, desto besser."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1457,6 +1465,9 @@ msgid ""
 "The Occupancy view allows you to visualize your \"Sales Success\". It "
 "answers one simple question: <i>How well am I filling my campsite?</i>"
 msgstr ""
+"Die Ansicht „Belegung“ ermöglicht es Ihnen, Ihren „Verkaufserfolg“ zu "
+"visualisieren. Sie beantwortet eine einfache Frage: <i>Wie gut ist mein "
+"Campingplatz ausgelastet?</i>"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1493,7 +1504,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1654,6 +1666,10 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Während sich die Belegungsansicht darauf konzentriert, was ausgebucht ist, "
+"konzentriert sich die Verfügbarkeitsansicht darauf, was noch zu verkaufen "
+"ist. Sie ist Ihr wichtigstes Werkzeug für die Betriebssicherheit und die „"
+"Preisgestaltung bei Knappheit“."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1710,8 +1726,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Sie können über Ihr Hauptdashboard auf jede in Ihrer Odoo-Datenbank "
-"installierte App zugreifen."
+"Sie können auf jede installierte App in Ihrer Odoo-Datenbank über Ihr "
+"Hauptdashboard zugreifen."
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1910,7 +1926,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -2033,7 +2049,7 @@ msgstr "😎 Gäste begrüßen"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🚀 Strategic Oversight"
-msgstr ""
+msgstr "🚀 Strategische Aufsicht"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body

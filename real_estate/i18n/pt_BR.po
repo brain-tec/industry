@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 19:38+0000\n"
+"POT-Creation-Date: 2026-04-24 18:31+0000\n"
 "PO-Revision-Date: 2025-12-27 19:53+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
@@ -3220,11 +3220,6 @@ msgid "External References"
 msgstr "Referências externas"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "Superfície do campo"
-
-#. module: real_estate
 #: model:sign.item.type,tip:real_estate.sign_item_type_14
 #: model:sign.item.type,tip:real_estate.sign_item_type_15
 msgid "Fill in"
@@ -3525,8 +3520,8 @@ msgstr "Limburg"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "Área útil"
+msgid "Livable Area"
+msgstr ""
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3552,6 +3547,11 @@ msgstr ""
 #: model:product.attribute.value,name:real_estate.product_attribute_value_27
 msgid "Loft"
 msgstr "Loft"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr ""
 
 #. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
@@ -4563,6 +4563,12 @@ msgid "🛏️ Renovate the outbuildings into a boutique B&amp;B or guesthouse"
 msgstr ""
 "🛏️ Renovar as dependências para transformá-las em um hotel boutique ou em uma "
 "pousada"
+
+#~ msgid "Field Surface"
+#~ msgstr "Superfície do campo"
+
+#~ msgid "Living Surface"
+#~ msgstr "Área útil"
 
 #~ msgid "+1 555-555-5556"
 #~ msgstr "+1 555-555-5556"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 19:48+0000\n"
-"PO-Revision-Date: 2026-04-16 20:11+0000\n"
+"PO-Revision-Date: 2026-04-24 19:25+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "physical_therapy/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -153,10 +153,10 @@ msgid ""
 "class=\"text-o-color-1\">Calendar App</font><font class=\"text-black\"><span "
 "style=\"font-weight: normal;\">.</span></font></strong>"
 msgstr ""
-"<strong><font class=\"text-black\"><span style=\"font-weight: normal;"
-"\">Управляйте своим расписанием и доступностью в </span></font><font "
-"class=\"text-o-color-1\">модуле Календарь</font><font class=\"text-"
-"black\"><span style=\"font-weight: normal;\">.</span></font></strong>"
+"<strong><font class=\"text-black\"><span style=\"font-weight: normal;\">"
+"Управляйте своим расписанием и доступностью в </span></font><font "
+"class=\"text-o-color-1\">модуле Календарь</font><font class=\"text-black\">"
+"<span style=\"font-weight: normal;\">.</span></font></strong>"
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -189,11 +189,11 @@ msgid ""
 "synchronized across CRM, Appointments, and Calendar, keeping your schedule "
 "up to date without manual work."
 msgstr ""
-"Все отправленные и полученные письма автоматически фиксируются в "
-"<strong>чате</strong>, обеспечивая прозрачную историю общения с пациентом. "
-"Как только пациент записывается на прием, данные автоматически "
-"синхронизируются в модулях CRM, Встречи и Календарь, поддерживая "
-"актуальность вашего расписания без ручного ввода."
+"Все отправленные и полученные письма автоматически фиксируются в <strong>"
+"чате</strong>, обеспечивая прозрачную историю общения с пациентом. Как "
+"только пациент записывается на прием, данные автоматически синхронизируются "
+"в модулях CRM, Встречи и Календарь, поддерживая актуальность вашего "
+"расписания без ручного ввода."
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -300,7 +300,7 @@ msgstr ""
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Узнайте больше об Odoo, погрузившись в нашу"
+msgstr "Узнайте больше об Odoo, изучив нашу"
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -316,8 +316,8 @@ msgid ""
 "Ease your invoicing process with the <strong><font class=\"text-o-"
 "color-1\">Invoice App</font></strong>."
 msgstr ""
-"Упростите процесс выставления счетов с <strong><font class=\"text-o-"
-"color-1\">модулем Выставление счетов</font></strong>."
+"Упростите процесс выставления счетов с <strong><font class=\"text-o-color-"
+"1\">модулем Выставление счетов</font></strong>."
 
 #. module: physical_therapy
 #: model:calendar.alarm,name:physical_therapy.alarm_mail_1
@@ -422,9 +422,9 @@ msgid ""
 "strong>."
 msgstr ""
 "Управляйте всеми коммуникационными каналами в одном месте с помощью модулей "
-"Odoo<strong><font class=\"text-o-color-1\"> Автоматизация маркетинга </"
-"font></strong>,<strong><font class=\"text-o-color-1\">E-mail рассылки</"
-"font></strong>, <strong><font class=\"text-o-color-1\">SMM</font></strong> и "
+"Odoo <strong><font class=\"text-o-color-1\">Автоматизация маркетинга</font></"
+"strong>, <strong><font class=\"text-o-color-1\">E-mail рассылки</font></"
+"strong>, <strong><font class=\"text-o-color-1\">SMM</font></strong> и "
 "<strong><font class=\"text-o-color-1\">СМС рассылки</font></strong>."
 
 #. module: physical_therapy
@@ -435,8 +435,8 @@ msgid ""
 "strong>)"
 msgstr ""
 "Автоматизируйте бухгалтерский учет благодаря бесшовной интеграции всех "
-"процессов. (<strong><font class=\"text-o-color-1\">Модуль Бухгалтерия</"
-"font></strong>)"
+"процессов. (<strong><font class=\"text-o-color-1\">Модуль Бухгалтерия</font>"
+"</strong>)"
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -486,8 +486,8 @@ msgid ""
 "Once an appointment is booked, you can see it in the <strong>Calendar App</"
 "strong>."
 msgstr ""
-"После подтверждения записи информация о приеме будет доступна в "
-"<strong>модуле Календарь</strong>."
+"После подтверждения записи информация о приеме будет доступна в <strong>"
+"модуле Календарь</strong>."
 
 #. module: physical_therapy
 #: model:crm.stage,name:physical_therapy.crm_stage_6
@@ -519,8 +519,8 @@ msgid ""
 msgstr ""
 "<strong><font class=\"text-o-color-1\">Модуль Встречи</font><font "
 "class=\"text-black\"><span style=\"font-weight: normal;\"> управляет типами "
-"приемов и позволяет пациентам записываться на консультацию.</span></"
-"font><font class=\"text-o-color-1\"/></strong>"
+"приемов и позволяет пациентам записываться на консультацию.</span></font>"
+"<font class=\"text-o-color-1\"/></strong>"
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -659,11 +659,11 @@ msgid ""
 "booking link, allowing the patient to select an available time slot and book "
 "the appointment online."
 msgstr ""
-"Используя чат в правой части карточки возможности, нажмите "
-"<strong>«Отправить сообщение»</strong>, выберите шаблон письма "
-"«<strong>Записаться на следующий прием</strong>» и отправьте его пациенту. "
-"Письмо содержит прямую ссылку на бронирование, что позволяет пациенту "
-"выбрать свободное время и записаться на прием онлайн."
+"Используя чат в правой части карточки возможности, нажмите <strong>«"
+"Отправить сообщение»</strong>, выберите шаблон письма «<strong>Записаться на "
+"следующий прием</strong>» и отправьте его пациенту. Письмо содержит прямую "
+"ссылку на бронирование, что позволяет пациенту выбрать свободное время и "
+"записаться на прием онлайн."
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -769,7 +769,7 @@ msgstr ""
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
 msgid "academy"
-msgstr "академия"
+msgstr "академию"
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
@@ -779,7 +779,7 @@ msgstr "и"
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
 msgid "documentation"
-msgstr "документация"
+msgstr "документацию"
 
 #. module: physical_therapy
 #: model_terms:ir.ui.view,arch_db:physical_therapy.welcome_article_body
