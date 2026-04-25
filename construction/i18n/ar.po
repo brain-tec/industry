@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:56+0000\n"
-"PO-Revision-Date: 2026-04-04 12:25+0000\n"
+"PO-Revision-Date: 2026-04-25 12:05+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s19-1/"
 "construction/ar/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
@@ -130,6 +130,9 @@ msgid ""
 "allows workers to log time\n"
 "                    against specific tasks or cost codes on-site."
 msgstr ""
+"<b>تطبيق الجداول الزمنية</b>: تتبع ساعات العمل بدقة باستخدام تطبيق الهاتف "
+"المحمول الذي يُتيح للعمال تسجيل الوقت\n"
+"                    المستغرق في مهام محددة أو رموز التكلفة في الموقع."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -313,7 +316,7 @@ msgstr "<strong>مطور عقاري</strong>"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "<strong>Cost Analysis:</strong> Link labour to project expenses."
-msgstr ""
+msgstr "<strong>تحليل التكاليف:</strong> قم بربط العمالة بنفقات المشروع."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -683,6 +686,9 @@ msgid ""
 "progress, enabling\n"
 "            managers to measure performance and costs in real-time."
 msgstr ""
+"يساعدك <strong>تطبيق الجداول الزمنية</strong> على تتبع ساعات العمل وتقدم "
+"المشروع، مما يتيح\n"
+"            للمدراء قياس الأداء والتكاليف في الوقت الفعلي."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -763,6 +769,9 @@ msgid ""
 "well as from the <strong>Inventory App</strong> and the Project Top Bar "
 "<strong>\"Needs\" button</strong>"
 msgstr ""
+"يمكنك الوصول إلى متطلباتك المُجمّعة عبر الزر الذكي ”المشتريات“، وكذلك من "
+"<strong>تطبيق المخزون</strong> ومن<strong>زر ”الاحتياجات“</strong> الموجود في "
+"الشريط العلوي لتطبيق المشاريع"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11
@@ -863,11 +872,15 @@ msgid ""
 "                for project management and purchases are computed "
 "accordingly..."
 msgstr ""
+"بافتراض أن كل منتج من المنتجات الواردة في عرض الأسعار يتطلب عملاً يدوياً، ابدأ\n"
+"                بملء الوقت التقديري لبعضها. <br/>يتم حساب إجمالي وقت العمل "
+"وحتى الوقت\n"
+"                اللازم لإدارة المشروع والمشتريات وفقاً لذلك..."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Automated extraction:"
-msgstr ""
+msgstr "الاستخراج الآلي:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1140,6 +1153,10 @@ msgid ""
 "required for your project by decomposing your Work Items into a consolidated "
 "shopping list."
 msgstr ""
+"لا مزيد من إدخال البيانات يدويًا أو التخمين، حيث يمكنك تحويل عروض الأسعار إلى "
+"بيانات مشتريات قابلة للتنفيذ.\n"
+"            تقوم هذه الخاصية تلقائيًا باستخراج كل مسمار ولبنة وعارضة تحتاج "
+"إليها في مشروعك من خلال تقسيم بنود العمل إلى قائمة مشتريات موحدة."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_32
@@ -1159,7 +1176,7 @@ msgstr "المعدات + التخطيط"
 #. module: construction
 #: model:product.template,name:construction.product_template_79
 msgid "Excavator"
-msgstr ""
+msgstr "آلة الحفر"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1305,6 +1322,8 @@ msgid ""
 "From the quotation, simply hit the Cost Nature smart button to access the "
 "analysis."
 msgstr ""
+"من عرض الأسعار، يمكنك ببساطة الضغط على الزر الذكي ”طبيعة التكلفة“ للوصول إلى "
+"التحليل."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_10
@@ -1314,7 +1333,7 @@ msgstr "تنظيف الحدائق"
 #. module: construction
 #: model:product.template,name:construction.product_template_56
 msgid "General Labour"
-msgstr ""
+msgstr "العمالة العامة"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1382,6 +1401,8 @@ msgid ""
 "Identical materials across different sections are summed up, giving you "
 "total volumes for better supplier negotiations."
 msgstr ""
+"يتم تجميع المواد المتطابقة عبر الأقسام المختلفة، مما يوفر لك إجمالي الكميات "
+"حتى تتمكن من التفاوض بشكل أفضل مع الموردين."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1497,7 +1518,7 @@ msgstr "تركيب دش، حوض، مرحاض"
 #. module: construction
 #: model:product.template,name:construction.product_template_33
 msgid "Installation Labour"
-msgstr ""
+msgstr "تكلفة اليد العاملة للتركيب"
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
@@ -1571,12 +1592,12 @@ msgstr "العمل ومتابعة المشاريع"
 #. module: construction
 #: model:product.template,name:construction.product_template_46
 msgid "Labour & site management"
-msgstr ""
+msgstr "إدارة العمالة والموقع"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_41
 msgid "Labour & supervision"
-msgstr ""
+msgstr "العمل والإشراف"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_14
@@ -1703,6 +1724,9 @@ msgid ""
 "filtering components by the Material Cost Nature, ensuring your list isn't "
 "cluttered with labor or equipment hours."
 msgstr ""
+"يقوم أودو بمسح كل مكون من مكونات \"عناصر العمل\" الخاصة بك لتحديد الاحتياجات "
+"الأساسية، مع تصفية المكونات حسب \"طبيعة تكلفة المواد\"، مما يضمن عدم ازدحام "
+"قائمتك بساعات العمل أو ساعات استخدام المعدات."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1954,6 +1978,8 @@ msgid ""
 "Prepare your Sale Order with structured sections and articles containing "
 "Work Items."
 msgstr ""
+"قم بإعداد أمر البيع الخاص بك باستخدام أقسام منظمة ومقالات تحتوي على عناصر "
+"العمل."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
@@ -2064,7 +2090,7 @@ msgstr "S00001 - VDK Project"
 #. module: construction
 #: model:project.project,name:construction.project_project_7
 msgid "S00002 - Davis / Old Farm renovation in guest house"
-msgstr ""
+msgstr "S00002 - دايفيس / تجديد مزرعة قديمة تابعة لبيت ضيافة"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_23
@@ -2147,6 +2173,8 @@ msgid ""
 "Similarly, this is available for all sale orders of a project from the "
 "project form smart buttons."
 msgstr ""
+"كذلك، يتوفر هذا الخيار لجميع أوامر البيع الخاصة بمشروع ما من خلال الأزرار "
+"الذكية الموجودة في استمارة المشروع."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_27
@@ -2669,6 +2697,8 @@ msgid ""
 "You setup a quote and now want to know how it breaks down in terms of cost "
 "nature, it is available at your finger tips!"
 msgstr ""
+"إذا قمت بإعداد عرض أسعار وتريد معرفة تفاصيله من حيث طبيعة التكاليف، فستجدها "
+"في متناول يدك!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2909,7 +2939,7 @@ msgstr "📈 قم بإصدار الفواتير بالمبلغ الصحيح في
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "📊 Cost nature analysis (Construction Developer)"
-msgstr ""
+msgstr "📊 تحليل طبيعة التكلفة (مطور بناء)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2934,7 +2964,7 @@ msgstr "🔍 تتبع الوقت المستغرق بدقة"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🛒 Material Shopping List (Construction Developer)"
-msgstr ""
+msgstr "🛒 قائمة التسوق للمواد (مطور البناء)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
