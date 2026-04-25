@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:39+0000\n"
-"PO-Revision-Date: 2026-01-17 18:51+0000\n"
+"PO-Revision-Date: 2026-04-24 07:52+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-18/beverage_distributor/zh_Hant/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -144,8 +144,7 @@ msgstr ""
 msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Beverages distributor</"
 "strong></span>"
-msgstr ""
-"<span class=\"display-4-fs\"><strong>Odoo 飲品經銷商數據套裝</strong></span>"
+msgstr "<span class=\"display-4-fs\"><strong>Odoo 飲品分銷商套裝</strong></span>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -223,7 +222,7 @@ msgstr "橙酒"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Apply DEP XX taxes to these consigns."
-msgstr "對這些貨物徵收 DEP XX 稅。"
+msgstr "對這些寄售貨物徵收 DEP XX 稅。"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -367,7 +366,7 @@ msgstr "建立及追蹤銷售訂單"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Create deposit products for each different type of consigns"
-msgstr "為每種不同類型的貨物建立訂金產品"
+msgstr "為各類寄售貨物建立訂金產品"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -887,7 +886,7 @@ msgid ""
 "Set a deposit product on your product to apply these taxes. This will ensure "
 "that you invoice correctly the price of consigns."
 msgstr ""
-"為產品設定「訂金產品」，以套用這些稅項。這可確保你正確開立寄售物品價格的發"
+"為產品設定「訂金產品」，以套用這些稅項。這可確保你為寄售物品開立價格正確的發"
 "票。"
 
 #. module: beverage_distributor
