@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:44+0000\n"
-"PO-Revision-Date: 2026-04-14 15:08+0000\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "team_sports_club/ja/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -1027,7 +1027,7 @@ msgstr "スポンサーシップ提案 &amp; メンバーシップ寄付 📄"
 #. module: team_sports_club
 #: model:product.category,name:team_sports_club.product_category_8
 msgid "Sponsorships"
-msgstr ""
+msgstr "スポンサーシップ"
 
 #. module: team_sports_club
 #: model:ir.model.fields.selection,name:team_sports_club.partnership_model_res_partner_grade_x_type_field_selection_staff

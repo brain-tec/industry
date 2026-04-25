@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 19:00+0000\n"
-"PO-Revision-Date: 2026-04-18 12:38+0000\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-s19-2/"
 "construction/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
@@ -761,6 +761,9 @@ msgid ""
 "well as from the <strong>Inventory App</strong> and the Project Top Bar "
 "<strong>\"Needs\" button</strong>"
 msgstr ""
+"Greifen Sie auf Ihre konsolidierten Anforderungen über die intelligente "
+"Schaltfläche „Beschaffung“ sowie über die <strong>Lagerapp</strong> und die "
+"<strong>Schaltfläche „Bedarf“</strong> in der oberen Projektleiste."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11
@@ -873,7 +876,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Automated extraction:"
-msgstr ""
+msgstr "Automatische Entnahme:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1089,11 +1092,13 @@ msgid ""
 "Create shift, assign the Field service role, detail the intervention in the "
 "description and select the appropriate date."
 msgstr ""
+"Erstellen Sie eine Schicht, weisen Sie die Außendienstrolle zu, beschreiben "
+"Sie den Einsatz im Detail und wählen Sie das entsprechende Datum aus."
 
 #. module: construction
 #: model:product.category,name:construction.product_category_20
 msgid "Direct Supervision"
-msgstr ""
+msgstr "Direkte Aufsicht"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1143,7 +1148,7 @@ msgstr "Laden Sie die hierin enthaltene Datei herunter."
 #. module: construction
 #: model:product.category,name:construction.product_category_48
 msgid "Drainage Systems"
-msgstr ""
+msgstr "Entwässerungssysteme"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_28
@@ -1190,6 +1195,11 @@ msgid ""
 "required for your project by decomposing your Work Items into a consolidated "
 "shopping list."
 msgstr ""
+"Vermeiden Sie manuelle Eingaben und Spekulationen, indem Sie Ihre "
+"technischen Angebote in verwertbare Daten der Beschaffung umwandeln.\n"
+"            Diese Funktion entnimmt automatisch jede Schraube, jeden "
+"Ziegelstein und jeden Balken, die für Ihr Projekt benötigt werden, indem sie "
+"Ihre Arbeitsaufgaben in eine konsolidierte Einkaufsliste aufschlüsselt."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_32
@@ -1209,7 +1219,7 @@ msgstr "Verkleidung & Außenbereich"
 #. module: construction
 #: model:product.category,name:construction.product_category_8
 msgid "Equipment"
-msgstr ""
+msgstr "Ausrüstung"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_22
@@ -1239,7 +1249,7 @@ msgstr "Außenanlagen"
 #. module: construction
 #: model:product.category,name:construction.product_category_33
 msgid "Exterior Works"
-msgstr ""
+msgstr "Außenarbeiten"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_11
@@ -1259,7 +1269,7 @@ msgstr "Absaugsystem"
 #. module: construction
 #: model:planning.role,name:construction.planning_role_6
 msgid "Field Service"
-msgstr ""
+msgstr "Außendienst"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1312,7 +1322,7 @@ msgstr "Grundriss_des_ersten_Stockwerks.png"
 #. module: construction
 #: model:product.category,name:construction.product_category_38
 msgid "Fittings"
-msgstr ""
+msgstr "Fittings"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_9
@@ -1333,7 +1343,7 @@ msgstr ""
 #. module: construction
 #: model:product.category,name:construction.product_category_49
 msgid "Foundations"
-msgstr ""
+msgstr "Unterbau"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1429,6 +1439,9 @@ msgid ""
 "Generate detailed intervention reports, capturing time spent on the shift "
 "and invoice billable work when applicable."
 msgstr ""
+"Erstellen Sie detaillierte Einsatzberichte, erfassen Sie die während der "
+"Schicht aufgewendete Zeit und stellen Sie gegebenenfalls abrechenbare "
+"Leistungen in Rechnung."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_9
@@ -1506,6 +1519,9 @@ msgid ""
 "Identical materials across different sections are summed up, giving you "
 "total volumes for better supplier negotiations."
 msgstr ""
+"Identische Materialien in verschiedenen Abschnitten werden zusammengefasst, "
+"sodass Sie Gesamtmengen erhalten, die Ihnen bessere Verhandlungen mit "
+"Lieferanten ermöglichen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1634,7 +1650,7 @@ msgstr "Versicherungsbescheinigung beigefügt"
 #. module: construction
 #: model:product.category,name:construction.product_category_32
 msgid "Interior Finishes"
-msgstr ""
+msgstr "Innenausstattung"
 
 #. module: construction
 #: model:project.task.type,name:construction.internal_project_default_stage
@@ -1726,7 +1742,7 @@ msgstr "Arbeit & Überwachung"
 #. module: construction
 #: model:product.category,name:construction.product_category_35
 msgid "Landscaping"
-msgstr ""
+msgstr "Landschaftsgestaltung"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_14
@@ -1801,7 +1817,7 @@ msgstr "Mauermörtel 25kg"
 #. module: construction
 #: model:product.category,name:construction.product_category_5
 msgid "Material"
-msgstr ""
+msgstr "Material"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1884,6 +1900,10 @@ msgid ""
 "filtering components by the Material Cost Nature, ensuring your list isn't "
 "cluttered with labor or equipment hours."
 msgstr ""
+"Odoo scannt jede Komponente in Ihren Arbeitsaufträgen, um zugrunde liegende "
+"Anforderungen zu ermitteln, und filtert die Komponenten nach der "
+"Materialkostenart, um sicherzustellen, dass Ihre Liste nicht mit Arbeits- "
+"oder Maschinenstunden überladen ist."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1990,7 +2010,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the Planning App."
-msgstr ""
+msgstr "Öffnen Sie die Planungsapp."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2017,6 +2037,8 @@ msgid ""
 "Open the Sales App and open from the menu To Invoice, Services &amp; "
 "Materials."
 msgstr ""
+"Öffnen Sie die Verkaufsapp und wählen Sie im Menü „Abzurechnen“, „"
+"Dienstleistungen“ &amp; „Materialien“."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2074,7 +2096,7 @@ msgstr ""
 #. module: construction
 #: model:product.category,name:construction.product_category_44
 msgid "Openings"
-msgstr ""
+msgstr "Durchbrüche"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_7
@@ -2084,7 +2106,7 @@ msgstr "Andere"
 #. module: construction
 #: model:product.category,name:construction.product_category_34
 msgid "Outdoor Construction"
-msgstr ""
+msgstr "Außenbau"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_23
@@ -2166,7 +2188,7 @@ msgstr "Sanitär- und Klempnerarbeiten"
 #. module: construction
 #: model:product.category,name:construction.product_category_16
 msgid "Power Tools"
-msgstr ""
+msgstr "Elektrowerkzeug"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_39
@@ -2184,6 +2206,8 @@ msgid ""
 "Prepare your Sale Order with structured sections and articles containing "
 "Work Items."
 msgstr ""
+"Bereiten Sie Ihren Verkaufsauftrag mit strukturierten Abschnitten und "
+"Artikeln vor, die Arbeitselemente enthalten."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
@@ -2202,7 +2226,7 @@ msgstr ""
 #. module: construction
 #: model:product.category,name:construction.product_category_13
 msgid "Production"
-msgstr ""
+msgstr "Produktion"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_57
@@ -2234,7 +2258,7 @@ msgstr "Angebote & Finanzen"
 #. module: construction
 #: model:product.category,name:construction.product_category_43
 msgid "Rainwater Disposal"
-msgstr ""
+msgstr "Regenwasserableitung"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_15
@@ -2255,6 +2279,8 @@ msgstr "Eingang"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Record time, materials used, and capture photos during intervention."
 msgstr ""
+"Dokumentieren Sie den Zeitaufwand, die verwendeten Materialien und Fotos "
+"während des Einsatzes."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_17
@@ -2324,7 +2350,7 @@ msgstr "S00005 - Renovierung eines alten Bauernhofs zu einem Gästehaus"
 #. module: construction
 #: model:product.category,name:construction.product_category_51
 msgid "Safety & Signage"
-msgstr ""
+msgstr "Sicherheit & Beschilderung"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_40
@@ -2376,7 +2402,7 @@ msgstr "Estrich"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Select a customer, a project if applicable."
-msgstr ""
+msgstr "Wählen Sie einen Kunden und gegebenenfalls ein Projekt aus."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2394,7 +2420,7 @@ msgstr ""
 #. module: construction
 #: model:product.category,name:construction.product_category_19
 msgid "Senior Supervision"
-msgstr ""
+msgstr "Leitende Aufsicht"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2432,17 +2458,17 @@ msgstr "Baustellenleitung & -planung"
 #. module: construction
 #: model:planning.role,name:construction.planning_role_5
 msgid "Site Manager"
-msgstr ""
+msgstr "Bauleiter"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_47
 msgid "Site Preparation"
-msgstr ""
+msgstr "Vorbereitung der Baustelle"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_50
 msgid "Site Protection"
-msgstr ""
+msgstr "Baustellenschutz"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_40
@@ -2452,17 +2478,17 @@ msgstr "Baustellenschutz"
 #. module: construction
 #: model:product.category,name:construction.product_category_21
 msgid "Skilled Labour"
-msgstr ""
+msgstr "Fachkräfte"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_7
 msgid "Skilled Worker"
-msgstr ""
+msgstr "Fachkraft"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_23
 msgid "Skilled Workers"
-msgstr ""
+msgstr "Fachkräfte"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_24
@@ -2577,17 +2603,17 @@ msgstr "Baustahl & Holz"
 #. module: construction
 #: model:product.category,name:construction.product_category_29
 msgid "Structural Works"
-msgstr ""
+msgstr "Strukturelle Arbeiten"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_24
 msgid "Support Labour"
-msgstr ""
+msgstr "Unterstützende Arbeit"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_37
 msgid "Surfaces & Details"
-msgstr ""
+msgstr "Oberflächen & Feinarbeiten"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_26
@@ -2604,7 +2630,7 @@ msgstr "Aufgaben"
 #. module: construction
 #: model:product.category,name:construction.product_category_31
 msgid "Technical Installations"
-msgstr ""
+msgstr "Technische Installationen"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_28
@@ -2639,6 +2665,11 @@ msgid ""
 "            tasks, log hours, and report outcomes directly from their mobile "
 "devices."
 msgstr ""
+"Die <strong>Planungsapp</strong> mit ihren Außendienst-Funktionen hilft "
+"Ihnen bei der Verwaltung von Einsätzen vor Ort, wie z. B.\n"
+"            Nacharbeiten, Garantieleistungen oder dringenden Kundenanfragen. "
+"Techniker können direkt von ihren Mobilgeräten aus auf\n"
+"            Aufgaben zugreifen, Arbeitszeiten erfassen und Ergebnisse melden."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2802,6 +2833,8 @@ msgstr "Behandeltes Terrassenholz, Rahmen"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Trigger the Auto-Plan to automatically assign workers."
 msgstr ""
+"Lösen Sie die Schaltfläche „Automatisch planen“ aus, um automatisch Arbeiter "
+"zuzuweisen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2953,6 +2986,9 @@ msgid ""
 "You can as well chose to make products expensable the same way from Services "
 "&amp; Materials configuring their expense policy."
 msgstr ""
+"Sie können Produkte auch auf die gleiche Weise über „Dienstleistunge &amp; "
+"Materialien“ durch Konfiguration ihrer Spesenrichtlinie als erstattungsfähig "
+"kennzeichnen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3296,7 +3332,7 @@ msgstr "🔍 Die aufgewendete Zeit genau nachverfolgen"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🛒 Material Shopping List (Construction Developer)"
-msgstr ""
+msgstr "🛒 Material-Einkaufsliste (Bauunternehmer)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
