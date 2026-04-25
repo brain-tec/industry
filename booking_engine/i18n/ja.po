@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-04 09:55+0000\n"
+"POT-Creation-Date: 2026-04-24 17:43+0000\n"
 "PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
@@ -69,6 +69,21 @@ msgstr ""
 "span>"
 
 #. module: booking_engine
+#: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
+msgid "<span>Available:</span>"
+msgstr ""
+
+#. module: booking_engine
+#: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
+msgid "<span>Booked:</span>"
+msgstr ""
+
+#. module: booking_engine
+#: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
+msgid "<span>Total Units:</span>"
+msgstr ""
+
+#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_config_settings_form_view_inherited
 msgid "Access cleanness state and manage tasks."
 msgstr "清掃状況にアクセスし、タスクを管理します。"
@@ -82,6 +97,11 @@ msgstr "宿泊施設"
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_set
 msgid "Activate House Keeping"
 msgstr "ハウスキーピングを有効化"
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_active_field_x_availability
+msgid "Active"
+msgstr ""
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.product_form_view
@@ -131,6 +151,7 @@ msgstr "承認者"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_offers_search
+#: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_search
 msgid "Archived"
 msgstr "アーカイブ済"
 
@@ -146,6 +167,28 @@ msgid "Attributes"
 msgstr "属性"
 
 #. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_availability_ids_field_planning_slot
+#: model:ir.model.fields,field_description:booking_engine.x_availability_ids_field_resource_calendar_leaves
+msgid "Availabilities"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.act_window,name:booking_engine.action_window_availability_availability
+#: model:ir.model,name:booking_engine.x_model_availability
+#: model:ir.model.fields,field_description:booking_engine.x_availability_field_x_availability
+#: model:ir.ui.menu,name:booking_engine.menu_availability_availability
+#: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
+#: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_form
+msgid "Availability"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_availability_color_field_x_availability
+msgid "Availability Color"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_available_field_x_availability
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_11
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_13
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_3
@@ -178,6 +221,11 @@ msgid "Board"
 msgstr "ボード"
 
 #. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_booked_field_x_availability
+msgid "Booked"
+msgstr ""
+
+#. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
 msgid "Booking"
 msgstr "予約"
@@ -191,6 +239,101 @@ msgstr "予約エンジンのオファー"
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_settings_action
 msgid "Booking Engine Settings"
 msgstr "予約エンジン設定"
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_helper_compute_new_avails_to_recompute
+msgid "Booking Engine: Availability Helper - Compute New Availabilities M2M"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_calendar_leaves
+msgid "Booking Engine: Availability Leave Modify Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_product_template
+msgid "Booking Engine: Availability Offer Modify Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_resource
+msgid "Booking Engine: Availability Room Modify Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_planning_slot
+msgid "Booking Engine: Availability Slot Modify Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_create_500_days_availability
+msgid "Booking Engine: Daily availability creation"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_calendar_leaves_delete
+msgid "Booking Engine: Leave Delete Availability Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_change
+msgid "Booking Engine: Mark Availabilities To Recompute: Leave Change"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_delete
+msgid "Booking Engine: Mark Availabilities To Recompute: Leave Delete"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_product_template_change
+msgid "Booking Engine: Mark Availabilities To Recompute: Offer Change"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_product_template_delete
+msgid "Booking Engine: Mark Availabilities To Recompute: Offer Delete"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_resource_resource_change
+msgid "Booking Engine: Mark Availabilities To Recompute: Room Change"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_resource_resource_delete
+msgid "Booking Engine: Mark Availabilities To Recompute: Room Delete"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_planning_slot_change
+msgid "Booking Engine: Mark Availabilities To Recompute: Slot Change"
+msgstr ""
+
+#. module: booking_engine
+#: model:base.automation,name:booking_engine.automation_on_planning_slot_delete
+msgid "Booking Engine: Mark Availabilities To Recompute: Slot Delete"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_resource_delete
+msgid "Booking Engine: Room Delete Availability Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_planning_slot_delete
+msgid "Booking Engine: Slot Delete Availability Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_product_template_delete
+msgid "Booking Engine: Stay Offer Delete Availability Logic"
+msgstr ""
+
+#. module: booking_engine
+#: model:ir.actions.server,name:booking_engine.server_action_update_availabilities
+msgid "Booking Engine: Update Availabilities"
+msgstr ""
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_21
@@ -308,6 +451,11 @@ msgid "Customer"
 msgstr "顧客"
 
 #. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_date_field_x_availability
+msgid "Date"
+msgstr ""
+
+#. module: booking_engine
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_unset
 msgid "Deactivate House Keeping"
 msgstr "ハウスキーピングを停止"
@@ -339,6 +487,7 @@ msgstr "デラックス"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_model_guests_line_x_name
+#: model:ir.model.fields,field_description:booking_engine.x_name_field_x_availability
 msgid "Description"
 msgstr "説明"
 
@@ -651,15 +800,20 @@ msgid "OK"
 msgstr "OK"
 
 #. module: booking_engine
+#: model:ir.actions.act_window,name:booking_engine.action_window_availability_occupancy
 #: model:ir.model.fields,field_description:booking_engine.x_occupancy_field_resource_resource
+#: model:ir.model.fields,field_description:booking_engine.x_occupancy_field_x_availability
 #: model:ir.model.fields,field_description:booking_engine.x_task_occupancy_field_project_task
+#: model:ir.ui.menu,name:booking_engine.menu_availability_occupancy
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_planning_resource_view_search
 #: model_terms:ir.ui.view,arch_db:booking_engine.project_task_search_view_primary
+#: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_occupancy_gantt
 msgid "Occupancy"
 msgstr "稼働状況"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_occupancy_color_field_resource_resource
+#: model:ir.model.fields,field_description:booking_engine.x_occupancy_color_field_x_availability
 #: model:ir.model.fields,field_description:booking_engine.x_task_occupancy_color_field_project_task
 msgid "Occupancy Color"
 msgstr "稼働状況色"
@@ -831,6 +985,7 @@ msgstr "スケジュール"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_model_guests_line_x_sequence
+#: model:ir.model.fields,field_description:booking_engine.x_sequence_field_x_availability
 msgid "Sequence"
 msgstr "表示順"
 
@@ -885,6 +1040,7 @@ msgid "Status"
 msgstr "状態"
 
 #. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_stay_offer_field_x_availability
 #: model:product.category,name:booking_engine.product_category_6
 msgid "Stay Offer"
 msgstr "宿泊プラン"
@@ -919,6 +1075,11 @@ msgstr "滞在中清掃"
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_partner_form_view
 msgid "Stays"
 msgstr "ステイ"
+
+#. module: booking_engine
+#: model:ir.ui.menu,name:booking_engine.menu_availability_steering
+msgid "Steering"
+msgstr ""
 
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_6
@@ -979,6 +1140,11 @@ msgid "To Clean"
 msgstr "要清掃"
 
 #. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_to_recompute_field_x_availability
+msgid "To Recompute"
+msgstr ""
+
+#. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
 msgid "Today"
 msgstr "今日"
@@ -987,6 +1153,11 @@ msgstr "今日"
 #: model:ir.model.fields,field_description:booking_engine.x_model_city_tax_x_total
 msgid "Total"
 msgstr "合計"
+
+#. module: booking_engine
+#: model:ir.model.fields,field_description:booking_engine.x_total_units_field_x_availability
+msgid "Total Units"
+msgstr ""
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_17
@@ -1001,7 +1172,8 @@ msgstr "ハウスキーピング機能をアンインストール"
 #. module: booking_engine
 #: model:ir.model.fields,help:booking_engine.product_model_product_template_x_offer_type
 msgid "Used by channel manager and OTAs to categorize offers."
-msgstr "チャネルマネージャーやOTAが、販売プラン(オファー)を分類するために使用します。"
+msgstr ""
+"チャネルマネージャーやOTAが、販売プラン(オファー)を分類するために使用します。"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_setting_field_approver_users_ids
