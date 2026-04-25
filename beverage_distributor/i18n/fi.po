@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:42+0000\n"
-"PO-Revision-Date: 2026-03-28 21:50+0000\n"
+"PO-Revision-Date: 2026-04-25 21:51+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-2/"
 "beverage_distributor/fi/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -256,7 +256,7 @@ msgstr "Automaattinen tuotanto"
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.bom_automation
 msgid "Automated BoM"
-msgstr "Automatisoitu osaluettelo"
+msgstr "Automatisoitu materiaaliluettelo"
 
 #. module: beverage_distributor
 #: model:product.pricelist,name:beverage_distributor.product_pricelist_2
@@ -537,7 +537,7 @@ msgstr "Suorita koodi"
 #. module: beverage_distributor
 #: model:ir.actions.server,name:beverage_distributor.update_state
 msgid "Execute Existing Actions"
-msgstr "Suorita olemassa oleva toiminto"
+msgstr "Suorita olemassa olevia toimintoja"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.services
@@ -628,12 +628,12 @@ msgstr "Iris SMITH - Beverage Co:n toimitusjohtaja."
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit
 msgid "Is a deposit"
-msgstr "Onko talletus"
+msgstr "On talletus"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit_category
 msgid "Is a deposit category"
-msgstr "Onko talletusluokka"
+msgstr "On talletuskategoria"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_23
@@ -818,7 +818,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_bom
 #: model:ir.model.fields,field_description:beverage_distributor.field_parent_product_rr
 msgid "Parent product"
-msgstr "Ylemmän tason tuote"
+msgstr "Yläkategorian tuote"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1227,7 +1227,7 @@ msgstr "verkkokaupan verkkosivusto 🌐"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "ex. Delta I.P.A. - 33cl"
-msgstr "ex. Delta I.P.A. - 33cl"
+msgstr "esim. Delta I.P.A. - 33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
