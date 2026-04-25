@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 18:36+0000\n"
+"POT-Creation-Date: 2026-04-24 17:36+0000\n"
 "PO-Revision-Date: 2025-07-07 08:48+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
@@ -1227,7 +1227,6 @@ msgstr ""
 "                                                        na naslednjo raven."
 
 #. module: art_craft
-#: model:ir.model.fields,field_description:art_craft.field_stock_picking_x_is_it_consignee
 #: model_terms:ir.ui.view,arch_db:art_craft.view_purchase_order_form_inherit
 msgid "Is Consignee"
 msgstr "Je prejemnik"
