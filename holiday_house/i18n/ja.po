@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-27 19:25+0000\n"
-"PO-Revision-Date: 2026-04-18 12:39+0000\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "holiday_house/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1037,6 +1037,10 @@ msgid ""
 "By restricting check-ins and check-outs to specific days, you synchronize "
 "your housekeeping and eliminate calendar gaps."
 msgstr ""
+"繁忙期の稼働状況を最大化するために週単位の入れ替えを最適化するには、予約を週"
+"単位のレンタルパターン(例：土曜日から土曜日)に合わせることができます。"
+"チェックインとチェックアウトを特定の日に限定することで、ハウスキーピングの"
+"スケジュールを調整し、カレンダー上の空き期間をなくすことができます。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1097,6 +1101,8 @@ msgid ""
 "See that for demo purpose we setup typical uplift and discount rules to "
 "adjust your prices during key periods."
 msgstr ""
+"デモ用に、主要な期間中に価格を調整するための典型的な値上げおよび値引きルール"
+"を設定しています。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1161,6 +1167,8 @@ msgid ""
 "Then set the days during which you want to prevent check in and check out to "
 "take place, ex. All days but Saturday"
 msgstr ""
+"次に、チェックインおよびチェックアウトを禁止したい日を設定します。例:土曜日を"
+"除くすべての日"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1191,6 +1199,8 @@ msgid ""
 "This blocks simulataneously all resources related to this working schedule "
 "during the prescribed period."
 msgstr ""
+"これにより、指定された期間中、この作業スケジュールに関連するすべてのリソース"
+"が同時にブロックされます。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1262,6 +1272,9 @@ msgid ""
 "created.<br/>Care about the start and end time or this blockage to make to "
 "re-open when suited."
 msgstr ""
+"このリソースのスロットを使用する場合、重複する予約スロットは作成されません"
+"。<br/>開始時間と終了時間を確認し、適切なタイミングでこのブロックを解除して再"
+"開してください。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1275,6 +1288,9 @@ msgid ""
 "to book it?<br/>Alternatively, you are closing for a week during an inter "
 "season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
+"住宅の修繕やご家族の滞在など、予約を受け付けたくない期間はありますか?<br/>あ"
+"るいは、閑散期に1週間休業される予定はありますか?<br/>そうした予定を"
+"スケジュールに反映させましょう!"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1336,6 +1352,8 @@ msgid ""
 "You just installed the Odoo for Holiday House package. By doing so, we have "
 "installed a bunch of necessary apps to run your business efficiently."
 msgstr ""
+"Odooホリデーハウスパッケージのインストールが完了しました。これにより、"
+"ビジネスを効率的に運営するために必要な様々なアプリがインストールされました。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1354,6 +1372,8 @@ msgid ""
 "You may want to uplift your margin during high season and be attractive "
 "during low one playing on price.<br/>To do so, let's define price rules."
 msgstr ""
+"ハイシーズンには利益率を上げ、ローシーズンには価格で魅力を出したいこともある"
+"でしょう。<br/>そのために、価格ルールを設定しましょう。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1484,7 +1504,7 @@ msgstr "🎓計画"
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "🎓Pricelists"
-msgstr ""
+msgstr "🎓 価格表"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body

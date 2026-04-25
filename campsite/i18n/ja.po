@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-27 18:47+0000\n"
-"PO-Revision-Date: 2026-04-18 12:39+0000\n"
+"PO-Revision-Date: 2026-04-23 11:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "campsite/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1144,7 +1144,7 @@ msgstr ""
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Open the Campsite App and navigate to the Configuration / Leaves menu."
-msgstr ""
+msgstr "キャンプサイトアプリを開き、設定/ 休暇メニューに移動します。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1165,6 +1165,8 @@ msgstr ""
 msgid ""
 "Open the Default pricelist to see the existing price rules which apply to it."
 msgstr ""
+"デフォルトの価格表を開いて、それに適用される既存の価格ルールを確認してくださ"
+"い。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1177,6 +1179,8 @@ msgid ""
 "Open the Pricelists from the <strong>Campsite App</strong>, Configuration / "
 "Pricelists menu."
 msgstr ""
+"<strong>キャンプサイトアプリ</strong> の 設定 / 価格表メニューから価格表を開"
+"いてください。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1184,6 +1188,8 @@ msgid ""
 "Open the Settings App and navigate to the Rental section or search for "
 "\"Unavailability days\"."
 msgstr ""
+"管理設定アプリを開き、「レンタル」セクションに移動するか、「利用不可日」を検"
+"索してください。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1214,6 +1220,10 @@ msgid ""
 "By restricting check-ins and check-outs to specific days, you synchronize "
 "your housekeeping and eliminate calendar gaps."
 msgstr ""
+"繁忙期の稼働状況を最大化するために週単位の入れ替えを最適化するには、予約を週"
+"単位のレンタルパターン(例：土曜日から土曜日)に合わせることができます。"
+"チェックインとチェックアウトを特定の日に限定することで、ハウスキーピングの"
+"スケジュールを調整し、カレンダー上の空き期間をなくすことができます。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1301,6 +1311,8 @@ msgid ""
 "See that for demo purpose we setup typical uplift and discount rules to "
 "adjust your prices during key periods."
 msgstr ""
+"デモ用に、主要な期間中に価格を調整するための典型的な値上げおよび値引きルール"
+"を設定しています。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1394,6 +1406,8 @@ msgid ""
 "Then set the days during which you want to prevent check in and check out to "
 "take place, ex. All days but Saturday"
 msgstr ""
+"次に、チェックインおよびチェックアウトを禁止したい日を設定します。例:土曜日を"
+"除くすべての日"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1435,6 +1449,8 @@ msgid ""
 "This blocks simulataneously all resources related to this working schedule "
 "during the prescribed period."
 msgstr ""
+"これにより、指定された期間中、この作業スケジュールに関連するすべてのリソース"
+"が同時にブロックされます。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1562,6 +1578,9 @@ msgid ""
 "created.<br/>Care about the start and end time or this blockage to make to "
 "re-open when suited."
 msgstr ""
+"このリソースのスロットを使用する場合、重複する予約スロットは作成されません"
+"。<br/>開始時間と終了時間を確認し、適切なタイミングでこのブロックを解除して再"
+"開してください。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1581,6 +1600,9 @@ msgid ""
 "guests to book it?<br/>Alternatively, you are closing for a week during an "
 "inter season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
+"バンガローの改修中や、ご家族の滞在で予約を受け付けたくない時。<br/>あるいは、"
+"閑散期に1週間ほど休業したい場合など。<br/>そんな時は、スケジュールにその旨を"
+"反映させましょう!"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1659,6 +1681,9 @@ msgid ""
 "installed a\n"
 "            bunch of necessary apps to run your business efficiently."
 msgstr ""
+"Odooキャンプ場パッケージがインストールされました。\n"
+"            それに伴い、バーの運営を効率化するために、必要なアプリがまとめて"
+"インストールされました。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1691,6 +1716,8 @@ msgid ""
 "You may want to uplift your margin during high season and be attractive "
 "during low one playing on price.<br/>To do so, let's define price rules."
 msgstr ""
+"ハイシーズンには利益率を上げ、ローシーズンには価格で魅力を出したいこともある"
+"でしょう。<br/>そのために、価格ルールを設定しましょう。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1879,7 +1906,7 @@ msgstr "🎓計画"
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "🎓Pricelists"
-msgstr ""
+msgstr "🎓 価格表"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body

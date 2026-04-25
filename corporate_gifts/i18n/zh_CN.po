@@ -8,23 +8,23 @@
 # Chloe Wang, 2024
 # Wil Odoo, 2024
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
-# "Chloe Wang (chwa)" <chwa@odoo.com>, 2025.
+# "Chloe Wang (chwa)" <chwa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:59+0000\n"
-"PO-Revision-Date: 2025-11-10 10:34+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
+"Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
-"projects/odoo-19/corporate_gifts/zh_Hans/>\n"
+"projects/odoo-s19-2/corporate_gifts/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: corporate_gifts
 #: model:product.attribute.value,name:corporate_gifts.product_attribute_value_10
@@ -401,10 +401,10 @@ msgid ""
 "color and\n"
 "            sizes opens, allowing to place an order for:"
 msgstr ""
-"创建一个来自 B&amp;C 的<strong><font class=\"text-o-color-1\">采购订单</"
-"font></strong>，产品为 “B&amp;C Inspire Women”。由于该产品经常分批购买和销"
-"售，因此会打开一个按颜色和\n"
-"            尺码排列的数量矩阵，以便下订单："
+"为B&amp;C 创建一张<strong><font class=\"text-o-color-1\">采购订单</font></"
+"strong>，产品为 “B&amp;C 女性启发”。由于该产品经常以大批形式购买和销售，因此"
+"系统会开启每种按颜色和\n"
+"            尺码的数量矩阵，允许为下列选项下订单："
 
 #. module: corporate_gifts
 #: model:sale.order.template.line,name:corporate_gifts.sale_order_template_line_3

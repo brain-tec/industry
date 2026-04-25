@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:08+0000\n"
-"PO-Revision-Date: 2026-04-04 12:52+0000\n"
+"PO-Revision-Date: 2026-04-23 11:49+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s19-2/"
 "event_management/fi/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1321,8 +1321,8 @@ msgid ""
 "Cancellation policy: Free until 30 days before. 50% refundable up to 15 days "
 "prior."
 msgstr ""
-"Peruutusehdot: Maksuton peruutus 30 päivää ennen tapahtumaa. 50 % hyvitys 15 "
-"päivää ennen tapahtumaa."
+"Peruutusehdot: Maksuton peruutus 30 päivää ennen tapahtumaa. 50% hyvitys "
+"vähintään 15 päivää ennen tapahtumaa peruutettaessa."
 
 #. module: event_management
 #: model:project.task.type,name:event_management.project_task_type_18
@@ -1581,14 +1581,13 @@ msgid ""
 "                    sports sessions, team building events, monthly drink, "
 "and much more"
 msgstr ""
-"Jokaisella työntekijällä on mahdollisuus nähdä työnsä vaikutus.\n"
-"                            Voit antaa todellisen panoksen yrityksen "
-"menestykseen.\n"
+"Jokainen työntekijä näkee työnsä vaikutuksen.\n"
+"                            Voit todella vaikuttaa yrityksen menestykseen.\n"
 "                           <br>\n"
-"                            Usein järjestetään useita toimintoja ympäri "
-"vuoden, kuten viikoittaisia\n"
-"                            urheilutilaisuudet, tiiminrakennustapahtumat, "
-"kuukausittaiset juomat ja paljon muuta."
+"                            Valitse useista aktiviteeteista, kuten "
+"viikoittaisista\n"
+"                            urheilutunneista, ryhmäytymistapahtumista, "
+"kuukausittaisista afterworkeista ja monista muista"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -2777,7 +2776,8 @@ msgid ""
 "Tell us about your vision and get a personalized quote tailored to your "
 "needs.&amp;nbsp;"
 msgstr ""
-"Kerro meille visiostasi ja saat räätälöidyn tarjouksen tarpeidesi mukaan."
+"Kerro meille visiostasi ja saat tarpeidesi mukaan räätälöidyn "
+"tarjouksen.&amp;nbsp;"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus

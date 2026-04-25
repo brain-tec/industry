@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 18:44+0000\n"
-"PO-Revision-Date: 2026-04-18 12:40+0000\n"
+"PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "catering/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: catering
 #: model:project.project,name:catering.project_project_2
@@ -1069,7 +1069,7 @@ msgstr "折りたたみ椅子レンタル (クッション付き)"
 #. module: catering
 #: model:product.category,name:catering.product_category_36
 msgid "Food"
-msgstr ""
+msgstr "料理"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1122,7 +1122,7 @@ msgstr "フルサービス"
 #. module: catering
 #: model:product.category,name:catering.product_category_22
 msgid "Furniture"
-msgstr ""
+msgstr "家具"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1243,7 +1243,7 @@ msgstr "リネンナプキンレンタル（白）"
 #. module: catering
 #: model:product.category,name:catering.product_category_21
 msgid "Linens"
-msgstr ""
+msgstr "リネン類"
 
 #. module: catering
 #: model:crm.tag,name:catering.crm_tag_24
@@ -1253,7 +1253,7 @@ msgstr "地元の食材"
 #. module: catering
 #: model:product.category,name:catering.product_category_25
 msgid "Logistics"
-msgstr ""
+msgstr "ロジスティクス"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_125_product_template
@@ -1288,7 +1288,7 @@ msgstr "サービス責任者"
 #. module: catering
 #: model:product.category,name:catering.product_category_44
 msgid "Meat & Poultry"
-msgstr ""
+msgstr "肉・鶏肉"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.homepage
@@ -1302,7 +1302,7 @@ msgstr ""
 #. module: catering
 #: model:product.category,name:catering.product_category_4
 msgid "Menu"
-msgstr ""
+msgstr "メニュー"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_102_product_template
@@ -1599,7 +1599,7 @@ msgstr "海塩 (粗粒 - kg)"
 #. module: catering
 #: model:product.category,name:catering.product_category_46
 msgid "Seafood"
-msgstr ""
+msgstr "シーフード"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1614,7 +1614,7 @@ msgstr "宛先ロケーション(イベント会場)を選択してください�
 #. module: catering
 #: model:product.category,name:catering.product_category_23
 msgid "Serving"
-msgstr ""
+msgstr "サービング"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1637,7 +1637,7 @@ msgstr "設営・撤去サービス"
 #. module: catering
 #: model:product.category,name:catering.product_category_32
 msgid "Shelter"
-msgstr ""
+msgstr "シェルター"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_236_product_template
@@ -1647,7 +1647,7 @@ msgstr "エビ (大 - kg)"
 #. module: catering
 #: model:product.category,name:catering.product_category_27
 msgid "Sides"
-msgstr ""
+msgstr "サイド"
 
 #. module: catering
 #: model:crm.tag,name:catering.crm_tag_27
@@ -1664,7 +1664,7 @@ msgstr ""
 #. module: catering
 #: model:product.category,name:catering.product_category_48
 msgid "Spices & Herbs"
-msgstr ""
+msgstr "スパイス・ハーブ"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_218_product_template
@@ -1674,7 +1674,7 @@ msgstr "ほうれん草 (生鮮 - kg)"
 #. module: catering
 #: model:product.category,name:catering.product_category_24
 msgid "Staffing"
-msgstr ""
+msgstr "スタッフ手配"
 
 #. module: catering
 #: model:product.template,name:catering.product_product_127_product_template
@@ -1713,7 +1713,7 @@ msgstr "テーブルランナー (バーガンディ)"
 #. module: catering
 #: model:product.category,name:catering.product_category_20
 msgid "Tableware"
-msgstr ""
+msgstr "テーブルウエア"
 
 #. module: catering
 #: model:project.project,label_tasks:catering.project_project_2
@@ -2057,7 +2057,7 @@ msgstr "購買オーダを検証します。"
 #. module: catering
 #: model:product.category,name:catering.product_category_43
 msgid "Vegetables"
-msgstr ""
+msgstr "野菜"
 
 #. module: catering
 #: model:crm.tag,name:catering.crm_tag_28
