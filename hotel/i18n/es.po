@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 19:21+0000\n"
-"PO-Revision-Date: 2026-04-11 09:37+0000\n"
+"PO-Revision-Date: 2026-04-21 22:26+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
-"Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/hotel/es/"
-">\n"
+"Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/hotel/"
+"es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -462,7 +462,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Access to more details clicking the slot."
-msgstr ""
+msgstr "Accede a más información al hacer clic en el intervalo/franja horaria."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -637,7 +637,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "At the end of their stay, your guests will pay for all those extras."
-msgstr "Al final de tu estancia, tus huéspedes pagarán todos esos extras."
+msgstr "Al final de tu estancia, tus huéspedes pagarán todos esos extra."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -651,6 +651,9 @@ msgid ""
 "Bridge\" of your hotel. It provides a 500-day horizon to anticipate market "
 "trends, manage risks, and optimize your revenue."
 msgstr ""
+"Más allá de las operaciones diarias, el menú de dirección actúa como el «"
+"puente de mando» de tu hotel. Ofrece una visión a 500 días para anticipar "
+"las tendencias del mercado, gestionar los riesgos y optimizar tus ingresos."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1159,7 +1162,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Managing scarcity with availability"
-msgstr ""
+msgstr "Optimizar la disponibilidad ante la escasez"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1176,7 +1179,7 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Monitoring success with occupancy"
-msgstr ""
+msgstr "Evaluar el éxito según la ocupación"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.homepage
@@ -1389,12 +1392,12 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open the Steering menu and select Availability."
-msgstr ""
+msgstr "Accede al menú de dirección y selecciona «Disponibilidad»."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Open the Steering menu and select Occupancy."
-msgstr ""
+msgstr "Accede al menú de dirección y selecciona «Ocupación»."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1566,6 +1569,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the availability for you to "
 "work on filling in."
 msgstr ""
+"El diagrama de Gantt está codificado por colores para indicar la "
+"disponibilidad de los campos que puedes rellenar."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1573,6 +1578,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the occupancy, the higher the "
 "better."
 msgstr ""
+"El diagrama de Gantt está codificado por colores para reflejar la ocupación; "
+"cuanto más alto, mejor."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1580,6 +1587,8 @@ msgid ""
 "The Occupancy view allows you to visualize your \"Sales Success\". It "
 "answers one simple question: <i>How well am I filling my hotel?</i>"
 msgstr ""
+"La vista de ocupación te permite visualizar tu «éxito de ventas». Responde a "
+"una pregunta sencilla: <i>¿Qué nivel de ocupación tiene tu hotel?</i>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1739,6 +1748,9 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Mientras que la ocupación muestra lo que está completo, la vista de "
+"disponibilidad muestra lo que queda por vender. Es tu herramienta principal "
+"para la gestión operativa y la «tarificación por escasez»"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -2082,7 +2094,7 @@ msgstr "😎 Dar la bienvenida a los huéspedes"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "🚀 Strategic Oversight"
-msgstr ""
+msgstr "🚀 Supervisión estratégica"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body

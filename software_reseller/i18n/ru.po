@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 19:41+0000\n"
-"PO-Revision-Date: 2026-04-11 09:37+0000\n"
+"PO-Revision-Date: 2026-04-24 19:38+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "software_reseller/ru/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -28,6 +28,8 @@ msgid ""
 ", and feel free\n"
 "                    to"
 msgstr ""
+", и не\n"
+"                        стесняйтесь"
 
 #. module: software_reseller
 #: model:sale.subscription.plan,name:software_reseller.sale_subscription_plan_3
@@ -82,6 +84,44 @@ msgid ""
 "<div><br/></div>\n"
 "<div><t t-out=\"user.signature or ''\">Mitchell Admin</t></div>"
 msgstr ""
+"<div>Здравствуйте!</div>\n"
+"<div>\n"
+"    <br/>\n"
+"</div>\n"
+"<div>Ваша лицензия <t t-out=\"object.x_software or ''\">Odoo</t> готова.</"
+"div>\n"
+"<ul style=\"border-radius:0px;border-style:none;padding:0 0 0 "
+"32px;margin:0px 0 16px 0;box-sizing:border-box;border-left-width:0px;border-"
+"bottom-width:0px;border-right-width:0px;border-top-width:0px;list-style-"
+"type:disc;\">\n"
+"    <t t-if=\"object.task_properties.get('environment')\">\n"
+"        <li>Среда: <t t-out=\"object.task_properties.get('environment') or "
+"''\">Продакшн</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('hosted_on')\">\n"
+"        <li>Размещение: <t t-out=\"object.task_properties.get('hosted_on') "
+"or ''\">Odoo Online</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('number_of_users')\">\n"
+"        <li>Пользователи: <t t-out=\"object.task_properties.get"
+"('number_of_users') or ''\">2025</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('version')\">\n"
+"        <li>Версия: <t t-out=\"object.task_properties.get('version') or ''\">"
+"18.3</t></li>\n"
+"    </t>\n"
+"    <t t-if=\"object.task_properties.get('license_key')\">\n"
+"        <p>Лицензионный ключ: <t t-out=\"object.task_properties.get"
+"('license_key') or ''\">LICXYZ00001</t></p>\n"
+"    </t>\n"
+"</ul>\n"
+"<t t-if=\"object.date_deadline\">\n"
+"    Срок действия лицензии истекает <t t-out=\"object.date_deadline\" "
+"style=\"font-weight: bolder;\">12/3/2026</t>.\n"
+"</t>\n"
+"<div>Буду рад помочь, если у вас возникнут вопросы или трудности.</div>\n"
+"<div><br/></div>\n"
+"<div><t t-out=\"user.signature or ''\">Митчелл Админ</t></div>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -98,6 +138,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -105,6 +147,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">✅</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">✅</i>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -112,6 +156,8 @@ msgid ""
 "<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
 "fst-normal\">🎉</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Success\" class=\"o_editor_banner_icon mb-3 "
+"fst-normal\">🎉</i>"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -217,6 +263,9 @@ msgid ""
 "leverage the \"Auto Plan\" capability beside the Publish button. This "
 "creates and assign all shifts automatically."
 msgstr ""
+"Альтернативно вы можете использовать роли, назначенные вашим сотрудникам, и "
+"функцию «Автопланирование» рядом с кнопкой «Опубликовать». Это автоматически "
+"создаст и распределит все смены."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -317,12 +366,13 @@ msgstr "Создание задачи для учета лицензии"
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_partner_id_project_task_count_field
 msgid "Customer count"
-msgstr ""
+msgstr "Количество клиентов"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Deadline: corresponding to the license key expiration date"
 msgstr ""
+"Крайний срок: Соответствует дате истечения срока действия лицензионного ключа"
 
 #. module: software_reseller
 #: model:account.analytic.plan,name:software_reseller.account_analytic_plan_1
@@ -359,12 +409,12 @@ msgstr "Разработка ПО"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr ""
+msgstr "Узнайте больше об Odoo, изучив нашу"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr ""
+msgstr "Хотите узнать больше?"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -372,6 +422,8 @@ msgid ""
 "Don't forget to hit the Publish button from your planning to let your "
 "employees know what their coming weeks look like."
 msgstr ""
+"Не забудьте нажать кнопку «Опубликовать» в вашем планировщике, чтобы "
+"сотрудники увидели свое расписание на ближайшие недели."
 
 #. module: software_reseller
 #: model:project.task.type,name:software_reseller.project_task_type_23
@@ -381,7 +433,7 @@ msgstr "Готово"
 #. module: software_reseller
 #: model:hr.department,name:software_reseller.hr_department_2
 msgid "Employees"
-msgstr ""
+msgstr "Сотрудники"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -391,7 +443,7 @@ msgstr "Среда: Продакшн"
 #. module: software_reseller
 #: model:ir.model.fields,field_description:software_reseller.x_expiration_check_field
 msgid "Expiration check"
-msgstr ""
+msgstr "Проверка срока действия"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -443,6 +495,8 @@ msgid ""
 "From the <strong><font class=\"text-o-color-1\">Planning App</font></"
 "strong>, click New:"
 msgstr ""
+"В <strong><font class=\"text-o-color-1\">модуле Планирование</font></strong> "
+"нажмите «Создать»:"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -515,6 +569,10 @@ msgid ""
 "the composer\n"
 "            bottom bar. The sent email appears in the chatter!"
 msgstr ""
+"В чате используйте шаблон электронной почты, чтобы отправить эту информацию "
+"клиенту: нажмите кнопку «Отправить сообщение», откройте расширенный редактор "
+"и выберите шаблон «Отправка лицензий» в меню с тремя точками на\n"
+"            нижней панели редактора. Отправленное письмо отобразится в чате!"
 
 #. module: software_reseller
 #: model:account.analytic.account,name:software_reseller.account_analytic_account_6
@@ -602,6 +660,9 @@ msgid ""
 "environment. (<strong><font class=\"text-o-color-1\">Accounting App</font></"
 "strong>)"
 msgstr ""
+"Автоматизируйте бухгалтерский учет благодаря бесшовной интеграции всех "
+"процессов. (<strong><font class=\"text-o-color-1\">Модуль Бухгалтерия</font>"
+"</strong>)"
 
 #. module: software_reseller
 #: model:uom.uom,name:software_reseller.uom_uom_31
@@ -643,7 +704,7 @@ msgstr "Стандартное внедрение Odoo"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as:"
-msgstr ""
+msgstr "Odoo предлагает вам бесконечные возможности, такие как:"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -686,7 +747,7 @@ msgstr "Лицензии Oracle Database"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "Reach us"
-msgstr ""
+msgstr "Связаться с нами"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -730,6 +791,9 @@ msgid ""
 "Start receiving orders directly in Odoo or go live with your <strong><font "
 "class=\"text-o-color-1\">E-shop</font></strong> in a few minutes."
 msgstr ""
+"Начните получать заказы прямо в Odoo или запустите свой <strong><font "
+"class=\"text-o-color-1\">Интернет-магазин</font></strong> за считанные "
+"минуты."
 
 #. module: software_reseller
 #: model:project.project,label_tasks:software_reseller.project_project_4
@@ -759,6 +823,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
+"Все это доступно бесплатно в вашей текущей подписке; не стесняйтесь "
+"исследовать! 🙃"
 
 #. module: software_reseller
 #: model_terms:ir.actions.act_window,help:software_reseller.by_software_act_window
@@ -832,6 +898,8 @@ msgstr "Версия: 20.0.1"
 msgid ""
 "Would you like to discuss your Odoo setup with us or explore more features?"
 msgstr ""
+"Хотите обсудить с нами настройку Odoo или узнать больше о возможностях "
+"системы?"
 
 #. module: software_reseller
 #: model:uom.uom,name:software_reseller.uom_uom_29
@@ -859,6 +927,8 @@ msgid ""
 "instructions, even including additional documents such as license setup "
 "procedure."
 msgstr ""
+"Вы можете дополнить шаблон письма важными деталями и инструкциями, включая "
+"вложения, например, процедуру настройки лицензии."
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
@@ -866,6 +936,8 @@ msgid ""
 "You completed that demo use case! There are millions of other ways to adapt "
 "your Odoo setup to fit your business needs."
 msgstr ""
+"Тестовый сценарий успешно пройден! Существует множество других способов "
+"адаптировать конфигурацию Odoo под специфику ваших бизнес-процессов."
 
 #. module: software_reseller
 #: model:mail.template,subject:software_reseller.mail_template_48
@@ -875,27 +947,27 @@ msgstr "Ваша новая лицензия"
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "academy"
-msgstr ""
+msgstr "академию"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "and"
-msgstr ""
+msgstr "и"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "documentation"
-msgstr ""
+msgstr "документацию"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "if you need help!"
-msgstr ""
+msgstr "если вам нужна помощь!"
 
 #. module: software_reseller
 #: model_terms:ir.ui.view,arch_db:software_reseller.welcome_article_body
 msgid "request a demo"
-msgstr ""
+msgstr "запросить демо"
 
 #~ msgid "From the planning, click on the \"Plan Existing\" icon;"
 #~ msgstr ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-20 09:31+0000\n"
-"PO-Revision-Date: 2026-03-04 16:54+0000\n"
+"PO-Revision-Date: 2026-04-24 19:38+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "mental_therapy/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
@@ -214,8 +214,8 @@ msgid ""
 "Website </font></strong>in a few clicks. Get new leads or direct appointment"
 " online in a few clicks."
 msgstr ""
-"Бесплатный, персонализированный, интегрированный<strong><font class=\"text-o-"
-"color-1\"> вебсайт </font></strong> в несколько кликов. Находите новых лидов "
+"Бесплатный, персонализированный, интегрированный <strong><font class=\"text-"
+"o-color-1\">вебсайт</font></strong> в несколько кликов. Находите новых лидов "
 "и откройте онлайн-запись на процедуры."
 
 #. module: mental_therapy
@@ -342,7 +342,7 @@ msgstr ""
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
 msgid "Discover more about Odoo by diving into our"
-msgstr "Узнайте больше об Odoo, погрузившись в нашу"
+msgstr "Узнайте больше об Odoo, изучив нашу"
 
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
@@ -462,8 +462,8 @@ msgid ""
 "color-1\">SMS Marketing </font></strong>."
 msgstr ""
 "Управляйте всеми коммуникационными каналами в одном месте с помощью модулей "
-"Odoo<strong><font class=\"text-o-color-1\"> Автоматизация маркетинга </font>"
-"</strong>,<strong><font class=\"text-o-color-1\">E-mail рассылки</font></"
+"Odoo <strong><font class=\"text-o-color-1\">Автоматизация маркетинга</font></"
+"strong>, <strong><font class=\"text-o-color-1\">E-mail рассылки</font></"
 "strong>, <strong><font class=\"text-o-color-1\">SMM</font></strong> и "
 "<strong><font class=\"text-o-color-1\">СМС рассылки</font></strong>."
 
@@ -484,8 +484,8 @@ msgid ""
 "Manage your team's and integrate them in all processes by adding "
 "the<strong><font class=\"text-o-color-1\"> Employees App</font></strong>."
 msgstr ""
-"Управляйте своей командой и интегрируйте ее в процессы, добавив "
-"модуль<strong><font class=\"text-o-color-1\"> Сотрудники</font></strong>."
+"Управляйте своей командой и интегрируйте ее в процессы, добавив модуль "
+"<strong><font class=\"text-o-color-1\">Сотрудники</font></strong>."
 
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
@@ -804,7 +804,7 @@ msgstr ""
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
 msgid "academy"
-msgstr "академия"
+msgstr "академию"
 
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
@@ -814,7 +814,7 @@ msgstr "и"
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
 msgid "documentation"
-msgstr "документация"
+msgstr "документацию"
 
 #. module: mental_therapy
 #: model_terms:ir.ui.view,arch_db:mental_therapy.welcome_article_body
