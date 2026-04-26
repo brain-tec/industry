@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:44+0000\n"
-"PO-Revision-Date: 2026-03-16 14:22+0000\n"
+"PO-Revision-Date: 2026-04-25 12:06+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s19-1/"
 "veterinary_clinic/ar/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_line_ids_field
@@ -595,7 +595,7 @@ msgstr "<strong>قم بزيارة منصّة التعلم الإلكتروني �
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_1
 msgid "Abyssinian"
-msgstr ""
+msgstr "الأبيسينية"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.active_illnesses_model_field
@@ -625,7 +625,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_aggressive
 msgid "Aggressive"
-msgstr ""
+msgstr "عدواني"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_2
@@ -645,17 +645,17 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_2
 msgid "Antibiotics"
-msgstr ""
+msgstr "المضادات الحيوية"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_5
 msgid "Antifugal"
-msgstr ""
+msgstr "مضاد الفطريات"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_4
 msgid "Antiparasitic"
-msgstr ""
+msgstr "مضاد للطفيليات"
 
 #. module: veterinary_clinic
 #: model:product.template,name:veterinary_clinic.product_template_7
@@ -720,7 +720,7 @@ msgstr "مؤرشف"
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_8
 msgid "Arthritis"
-msgstr ""
+msgstr "التهاب المفاصل"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_avatar_image_pets_model_field
@@ -735,22 +735,22 @@ msgstr "المتأخرات"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_3
 msgid "Bengal"
-msgstr ""
+msgstr "بنغالي"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_bloodwork_pets_line_field
 msgid "Bloodwork"
-msgstr ""
+msgstr "فحوصات الدم"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_bloodwork_filename_pets_line_field
 msgid "Bloodwork "
-msgstr ""
+msgstr "فحوصات الدم"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_4
 msgid "Bombay"
-msgstr ""
+msgstr "بومباي"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -773,13 +773,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:veterinary_clinic.x_name_species_line_model_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_default
 msgid "Breed"
-msgstr ""
+msgstr "السلالة"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_race_species_model_field
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_default
 msgid "Breeds"
-msgstr ""
+msgstr "السلالات"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_5
@@ -794,7 +794,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_6
 msgid "Burmese"
-msgstr ""
+msgstr "البورمية"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -816,12 +816,12 @@ msgstr ""
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_6
 #: model:x_species,x_name:veterinary_clinic.x_species_1
 msgid "Cat"
-msgstr ""
+msgstr "قطة"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_10
 msgid "Cat flu"
-msgstr ""
+msgstr "إنفلونزا القطط"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
@@ -831,7 +831,7 @@ msgstr "كتالوج"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_15
 msgid "Chihuahua"
-msgstr ""
+msgstr "تشيواوا"
 
 #. module: veterinary_clinic
 #: model:sign.template,redirect_url_text:veterinary_clinic.sign_template_2
@@ -857,7 +857,7 @@ msgstr "اللون"
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
 msgid "Compassion"
-msgstr ""
+msgstr "التعاطف"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -926,7 +926,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_18
 msgid "Dachshund"
-msgstr ""
+msgstr "كلب ألماني"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_date_of_birth_pets_model_field
@@ -936,7 +936,7 @@ msgstr "تاريخ الميلاد"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_defensive
 msgid "Defensive"
-msgstr ""
+msgstr "دفاعي"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_3
@@ -953,7 +953,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_9
 msgid "Dental disease"
-msgstr ""
+msgstr "أمراض الأسنان"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_dental_health_pets_line_model_field
@@ -985,7 +985,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_14
 msgid "Diabetes"
-msgstr ""
+msgstr "مرض السكري"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_diet_nutrition_pets_line_model_field
@@ -996,7 +996,7 @@ msgstr ""
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_6
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_2
 msgid "Distemper"
-msgstr ""
+msgstr "داء الكلب"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1007,12 +1007,12 @@ msgstr "أتود التعمق أكثر؟"
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_7
 #: model:x_species,x_name:veterinary_clinic.x_species_2
 msgid "Dog"
-msgstr ""
+msgstr "كلب"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_5
 msgid "Ear Infenction"
-msgstr ""
+msgstr "التهاب الأذن"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_ear_health_pets_line_model_field
@@ -1077,7 +1077,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_12
 msgid "Feline Immunodeficiency virus"
-msgstr ""
+msgstr "فيروس نقص المناعة لدى القطط"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_8
@@ -1087,7 +1087,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_11
 msgid "Feline Leukemia Virus"
-msgstr ""
+msgstr "فيروس اللوكيميا القططية"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_gender_pets_model_field_selection_female
@@ -1108,7 +1108,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_17
 msgid "Fleas"
-msgstr ""
+msgstr "البراغيث"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1164,7 +1164,7 @@ msgstr "ابق على تواصل"
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_3
 msgid "Hamster"
-msgstr ""
+msgstr "هامستر"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1198,17 +1198,17 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_6
 msgid "Heartworm disease"
-msgstr ""
+msgstr "مرض دودة القلب"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_12
 msgid "Heloise"
-msgstr ""
+msgstr "هيلويز"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_5
 msgid "Horse"
-msgstr ""
+msgstr "حصان"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1218,12 +1218,12 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_15
 msgid "Hyperthyroidism"
-msgstr ""
+msgstr "فرط نشاط الغدة الدرقية"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "Identifiers"
-msgstr ""
+msgstr "المعرفات"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1241,7 +1241,7 @@ msgstr ""
 #: model:ir.ui.menu,name:veterinary_clinic.menu_pets_illnesses
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_illnesses
 msgid "Illnesses"
-msgstr ""
+msgstr "الأمراض"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
@@ -1266,7 +1266,7 @@ msgstr "التعليمات"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_intact
 msgid "Intact"
-msgstr ""
+msgstr "سليم"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1292,17 +1292,17 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_3
 msgid "Kennel Cough (Bordetella)"
-msgstr ""
+msgstr "سعال الكلاب (بورديتيلا)"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_6
 msgid "Ket"
-msgstr ""
+msgstr "كيت"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_16
 msgid "Kidney disease"
-msgstr ""
+msgstr "أمراض الكلى"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
@@ -1312,12 +1312,12 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_3
 msgid "Leptospirosis"
-msgstr ""
+msgstr "الليبتوسبيروسيس"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_2
 msgid "Lucie"
-msgstr ""
+msgstr "لوسي"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_5
@@ -1327,17 +1327,17 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_4
 msgid "Lyme disease"
-msgstr ""
+msgstr "مرض لايم"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_mri_pets_line_model_field
 msgid "MRI"
-msgstr ""
+msgstr "الرنين المغناطيسي"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_mri_filename_pets_line_model_field
 msgid "MRI "
-msgstr ""
+msgstr "الرنين المغناطيسي "
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_gender_pets_model_field_selection_male
@@ -1347,7 +1347,7 @@ msgstr "ذكر"
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_3
 msgid "Marcel"
-msgstr ""
+msgstr "مارسيل"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1368,17 +1368,17 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_1
 msgid "Milos"
-msgstr ""
+msgstr "ميلوس"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_8
 msgid "Mitsi"
-msgstr ""
+msgstr "Mitsi"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_4
 msgid "Miyu"
-msgstr ""
+msgstr "ميو"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
@@ -1411,7 +1411,7 @@ msgstr "الاسم..."
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_neutered
 msgid "Neutered"
-msgstr ""
+msgstr "مخصي"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1431,7 +1431,7 @@ msgstr "لا شيء"
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_5
 msgid "Nori"
-msgstr ""
+msgstr "نوري"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_nose_health_pets_line_model_field
@@ -1450,7 +1450,7 @@ msgstr "الملاحظات"
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_7
 msgid "Obesity"
-msgstr ""
+msgstr "السمنة"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_observed_illnesses_pets_line_model_field
@@ -1525,28 +1525,28 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_22
 msgid "Papillon"
-msgstr ""
+msgstr "بابيون"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_7
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_1
 msgid "Parvovirus"
-msgstr ""
+msgstr "فيروس بارفو"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_passive
 msgid "Passive"
-msgstr ""
+msgstr "هادئ"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_21
 msgid "Pekingese"
-msgstr ""
+msgstr "كلب بكيني"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_sale_order_field
 msgid "Pet"
-msgstr ""
+msgstr "حيوان أليف"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
@@ -1601,7 +1601,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.kanban_custom_view_for_x_pets
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.res_partner_custom_form_view
 msgid "Pets"
-msgstr ""
+msgstr "الحيوانات الأليفة"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.pets_default_owner_window_action
@@ -1631,7 +1631,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_16
 msgid "Pomeranian"
-msgstr ""
+msgstr "بوميرانيان"
 
 #. module: veterinary_clinic
 #: model:project.task.type,name:veterinary_clinic.project_task_type_3
@@ -1666,13 +1666,13 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_4
 msgid "Rabbit"
-msgstr ""
+msgstr "أرنب"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_5
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_1
 msgid "Rabies"
-msgstr ""
+msgstr "داء الكلب"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1941,7 +1941,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_18
 msgid "Ticks"
-msgstr ""
+msgstr "القراد"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_tolerant
@@ -1989,7 +1989,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_13
 msgid "Urinary Tract Infection"
-msgstr ""
+msgstr "التهاب المسالك البولية"
 
 #. module: veterinary_clinic
 #: model:appointment.answer,name:veterinary_clinic.appointment_answer_5
@@ -2094,7 +2094,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_19
 msgid "Worms"
-msgstr ""
+msgstr "الديدان"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body

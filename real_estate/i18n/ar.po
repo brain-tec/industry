@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 19:32+0000\n"
-"PO-Revision-Date: 2026-01-13 16:55+0000\n"
+"POT-Creation-Date: 2026-04-24 18:34+0000\n"
+"PO-Revision-Date: 2026-04-25 12:05+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-s19-1/"
 "real_estate/ar/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3163,7 +3163,7 @@ msgstr ""
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_east
 msgid "East"
-msgstr ""
+msgstr "الشرق"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_2
@@ -3209,11 +3209,6 @@ msgstr "استكشف عقاراتنا"
 #: model:ir.model.fields,field_description:real_estate.field_product_template_reference_ids
 msgid "External References"
 msgstr "مراجع خارجية"
-
-#. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "مساحة الأرض"
 
 #. module: real_estate
 #: model:sign.item.type,tip:real_estate.sign_item_type_14
@@ -3509,8 +3504,8 @@ msgstr "ليمبورغ"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "المساحة المعيشية"
+msgid "Livable Area"
+msgstr ""
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3535,6 +3530,11 @@ msgstr ""
 #: model:product.attribute.value,name:real_estate.product_attribute_value_27
 msgid "Loft"
 msgstr "شقة علوية"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr ""
 
 #. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
@@ -3668,7 +3668,7 @@ msgstr "لا"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_north
 msgid "North"
-msgstr ""
+msgstr "الشمال"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_notary_id
@@ -4081,7 +4081,7 @@ msgstr "المبيعات"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_south
 msgid "South"
-msgstr ""
+msgstr "الجنوب"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_32
@@ -4375,7 +4375,7 @@ msgstr "مرحباً بك في منزل أحلامك"
 #. module: real_estate
 #: model:ir.model.fields.selection,name:real_estate.field_product_template_orientation_selection_west
 msgid "West"
-msgstr ""
+msgstr "الغرب"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_10
@@ -4515,6 +4515,12 @@ msgstr "🎓 الموقع الإلكتروني"
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_16
 msgid "🛏️ Renovate the outbuildings into a boutique B&amp;B or guesthouse"
 msgstr "🛏️ قم بترميم المباني الملحقة وتحويلها إلى فنادق صغيرة أو بيوت ضيافة."
+
+#~ msgid "Field Surface"
+#~ msgstr "مساحة الأرض"
+
+#~ msgid "Living Surface"
+#~ msgstr "المساحة المعيشية"
 
 #~ msgid "+1 555-555-5556"
 #~ msgstr "+1 555-555-5556"
