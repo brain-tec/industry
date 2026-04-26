@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:00+0000\n"
-"PO-Revision-Date: 2026-04-04 22:50+0000\n"
+"PO-Revision-Date: 2026-04-25 11:00+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-3/"
 "event_management/fi/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -558,9 +558,9 @@ msgid ""
 "tools like Google Calendar or Outlook, follow these steps to sync them with "
 "Odoo:"
 msgstr ""
-"<strong>Ulkoisten kalenterien synkronointi</strong>: Jos tapahtuman johtajat "
+"<strong>Ulkoisten kalenterien synkronointi</strong>: Jos tapahtumapäälliköt "
 "käyttävät esimerkiksi Google-kalenteria tai Outlookia, noudata näitä ohjeita "
-"kalenterien synkronointiin Odoon kanssa."
+"synkonoidaksesi ne Odoon kanssa:"
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_1
@@ -930,8 +930,8 @@ msgid ""
 "Cancellation policy: Free until 30 days before. 50% refundable up to 15 days "
 "prior."
 msgstr ""
-"Peruutusehdot: Maksuton peruutus 30 päivää ennen tapahtumaa. 50 % hyvitys 15 "
-"päivää ennen tapahtumaa."
+"Peruutusehdot: Maksuton peruutus 30 päivää ennen tapahtumaa. 50% hyvitys "
+"vähintään 15 päivää ennen tapahtumaa peruutettaessa."
 
 #. module: event_management
 #: model:project.task.type,name:event_management.project_task_type_18
@@ -1073,9 +1073,7 @@ msgstr "Muunna saapuvat tiedustelut tapahtumamahdollisuuksiksi."
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid ""
 "Coordinate stock, rentals, repairs, and availability for your event inventory"
-msgstr ""
-"Koordinoi varastoa, vuokrauksia, korjauksia ja saatavuutta "
-"tapahtumainventaariossasi."
+msgstr "Koordinoi tapahtumasi varastoa, vuokria, korjauksia ja saatavuutta"
 
 #. module: event_management
 #: model:crm.tag,name:event_management.crm_tag_4
@@ -1261,14 +1259,13 @@ msgid ""
 "                    sports sessions, team building events, monthly drink, "
 "and much more"
 msgstr ""
-"Jokaisella työntekijällä on mahdollisuus nähdä työnsä vaikutus.\n"
-"                            Voit antaa todellisen panoksen yrityksen "
-"menestykseen.\n"
+"Jokainen työntekijä näkee työnsä vaikutuksen.\n"
+"                            Voit todella vaikuttaa yrityksen menestykseen.\n"
 "                           <br>\n"
-"                            Usein järjestetään useita toimintoja ympäri "
-"vuoden, kuten viikoittaisia\n"
-"                            urheilutilaisuudet, tiiminrakennustapahtumat, "
-"kuukausittaiset juomat ja paljon muuta."
+"                            Valitse useista aktiviteeteista, kuten "
+"viikoittaisista\n"
+"                            urheilutunneista, ryhmäytymistapahtumista, "
+"kuukausittaisista afterworkeista ja monista muista"
 
 #. module: event_management
 #: model_terms:hr.job,website_description:event_management.hr_job_1
@@ -1855,7 +1852,7 @@ msgstr ""
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Manage your agenda with the calendar app"
-msgstr "Hallinnoi agendaasi Kalenteri-sovelluksella."
+msgstr "Hallinnoi agendaasi Kalenteri-sovelluksella"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2219,7 +2216,7 @@ msgstr "Vastaanottovastaava (Reception manager)"
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
 msgid "Refer to the following guides for detailed steps:"
-msgstr "Katso seuraavat oppaat saadaksesi tarkemmat ohjeet."
+msgstr "Löydät vaiheittaiset ohjeet seuraavista oppaista:"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.welcome_article_body
@@ -2505,7 +2502,8 @@ msgid ""
 "Tell us about your vision and get a personalized quote tailored to your "
 "needs.&amp;nbsp;"
 msgstr ""
-"Kerro meille visiostasi ja saat räätälöidyn tarjouksen tarpeidesi mukaan. "
+"Kerro meille visiostasi ja saat tarpeidesi mukaan räätälöidyn "
+"tarjouksen.&amp;nbsp;"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.contactus
@@ -2622,8 +2620,8 @@ msgid ""
 "Turn confirmed bookings into structured event plans with <strong>Project.</"
 "strong>"
 msgstr ""
-"Muuta vahvistetut varaukset jäsennellyiksi tapahtumasuunnitelmiksi "
-"<strong>Projekti-sovelluksen</strong> avulla."
+"Muuta vahvistetut varaukset jäsennellyiksi tapahtumasuunnitelmiksi <strong>"
+"Projekti-sovelluksella.</strong>"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
