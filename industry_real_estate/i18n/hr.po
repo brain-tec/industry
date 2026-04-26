@@ -13,15 +13,15 @@
 # Vladimir Vrgoč, 2025
 # Bole <bole@dajmi5.com>, 2025
 # Luka Carević <luka@uvid.hr>, 2025
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Ana Matulin <ana@uvid.hr>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-17 11:42+0000\n"
-"PO-Revision-Date: 2025-12-06 18:50+0000\n"
-"Last-Translator: Ana Matulin <ana@uvid.hr>\n"
+"PO-Revision-Date: 2026-04-24 07:52+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "industry_real_estate/hr/>\n"
 "Language: hr\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -212,6 +212,8 @@ msgstr "zgrada"
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.default_form_view_building
 msgid "Buildings"
 msgstr ""
+"\n"
+"Građevine"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -344,7 +346,7 @@ msgstr ""
 #. module: industry_real_estate
 #: model:ir.actions.server,name:industry_real_estate.action_server_set_usage_meter_reading
 msgid "Execute Code"
-msgstr ""
+msgstr "Izvrši kod"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body

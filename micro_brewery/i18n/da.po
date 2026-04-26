@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:05+0000\n"
-"PO-Revision-Date: 2026-02-27 05:16+0000\n"
+"PO-Revision-Date: 2026-04-25 18:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "micro_brewery/da/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -123,7 +123,7 @@ msgstr "<span class=\"h1-fs\">Vil du tage det et skridt videre?</span>"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<span class=\"h3-fs\"><strong>Analyse your sales.</strong></span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\"><strong>Analysér dine salg.</strong></span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -136,6 +136,8 @@ msgstr ""
 msgid ""
 "<span class=\"h3-fs\"><strong>Take an order at the Bar</strong></span> <br/>"
 msgstr ""
+"<span class=\"h3-fs\"><strong>Tag imod en bestilling i baren</strong></span> "
+"<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -143,6 +145,8 @@ msgid ""
 "<span class=\"h3-fs\"><strong>Visit the website and make an order.</strong></"
 "span>"
 msgstr ""
+"<span class=\"h3-fs\"><strong>Besøg hjemmesiden, og afgiv en ordre.</strong>"
+"</span>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.contactus
@@ -222,7 +226,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong><font class=\"text-o-color-1\">Ecommerce</font></strong> (B2C)"
-msgstr ""
+msgstr "<strong><font class=\"text-o-color-1\">E-handel</font></strong> (B2C)"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -232,7 +236,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong><span class=\"h3-fs\">Rental</span></strong>"
-msgstr ""
+msgstr "<strong><span class=\"h3-fs\">Udlejning</span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -240,6 +244,8 @@ msgid ""
 "<strong><span class=\"h3-fs\">Schedule a visit from the website.</span></"
 "strong> <br/>"
 msgstr ""
+"<strong><span class=\"h3-fs\">Book et besøg via hjemmesiden.</span></strong> "
+"<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -247,6 +253,8 @@ msgid ""
 "<strong><span class=\"h3-fs\">Sell your products and deliver it to a bar</"
 "span></strong>"
 msgstr ""
+"<strong><span class=\"h3-fs\">Sælg dine produkter, og levér dem til en bar</"
+"span></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -273,6 +281,8 @@ msgstr ""
 msgid ""
 "<strong>Create and add the By-product</strong>s, for example:Spent Grain"
 msgstr ""
+"<strong>Opret og tilføj biprodukter</strong>, for eksempel: mask fra "
+"bryggerier"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -280,6 +290,8 @@ msgid ""
 "<strong>Create the operations</strong> of your recipe with the right work "
 "center, for example:"
 msgstr ""
+"<strong>Opret processerne</strong> i din opskrift med den rigtige "
+"arbejdsplads, f.eks.:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -287,6 +299,8 @@ msgid ""
 "<strong>Indicate if there are instructions</strong> the operator should do "
 "during some operation, for example:"
 msgstr ""
+"<strong></strong> Angiv eventuelle instruktioner, som operatøren skal følge "
+"under en bestemt operation, for eksempel:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -295,6 +309,9 @@ msgid ""
 "your recipe and the quantity that should be produced with the recipe. for "
 "example:"
 msgstr ""
+"<strong>Angiv, hvad det færdige produkt vil være </strong>i slutningen af "
+"din opskrift, samt den mængde, der skal produceres med opskriften. For "
+"eksempel:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -312,6 +329,8 @@ msgid ""
 "Add products in your cart and pay using the payment method \"Demo\" which is "
 "a fake payment method you can use to test flows."
 msgstr ""
+"Læg produkter i din indkøbskurv og betal med den fiktive betalingsform "
+"\"Demo\", som kan bruges til at teste betalingsforløb."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -319,6 +338,8 @@ msgid ""
 "After (or during) the meeting, you can use the button \"New Quotation\" to "
 "create an offer for the customer. Once it is done, send it to the customer."
 msgstr ""
+"Under eller efter mødet kan du bruge knappen \"Nyt tilbud\" til at oprette "
+"et tilbud til kunden. Når det er færdigt, skal du sende det til kunden."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -328,6 +349,9 @@ msgid ""
 "create a product to sell in your bar/restaurant (e.g. Draft beer, "
 "snack, ...)."
 msgstr ""
+"Efter besøget er det altid dejligt for gæsterne at kunne hygge sig sammen "
+"over en god øl. Gå ind i \"POS\"-appen, og opret et produkt, der skal sælges "
+"i din bar/restaurant (f.eks. fadøl, snack osv.)."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_15
@@ -355,6 +379,8 @@ msgid ""
 "At any time you can select a table and register the payment to close the "
 "table."
 msgstr ""
+"Du kan til enhver tid vælge en tabel og registrere betalingen for at lukke "
+"tabellen."
 
 #. module: micro_brewery
 #: model:base.automation,name:micro_brewery.auto_production
@@ -382,16 +408,18 @@ msgid ""
 "Bar &amp; Shop at the Brewery (B2C) - Using the <strong><font class=\"text-o-"
 "color-1\">Point of Sales App</font></strong>"
 msgstr ""
+"Bar og butik på bryggeriet (B2C) – Brug af <strong><font class=\"text-o-"
+"color-1\">POS-appen</font></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Beer bottle (33cl), 3000 units (+- 10hL)"
-msgstr ""
+msgstr "Ølflaske (33 cl), 3.000 enheder (+- 10 hL)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_90_product_template
 msgid "Beer cooler with tap - for 1 x 50 litre keg "
-msgstr ""
+msgstr "Ølkøler med taphane – til 1 x 50 liters fustage "
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_10
@@ -438,35 +466,35 @@ msgstr "Lys øl"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_30_product_template
 msgid "Blond Beer (25cl)"
-msgstr ""
+msgstr "Lys øl (25 cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_29
 msgid "Blond Beer (50cl)"
-msgstr ""
+msgstr "Lys øl (50 cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_2
 msgid "Blond Beer - Bottle"
-msgstr ""
+msgstr "Lys øl – Flaske"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_3
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_4
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_8
 msgid "Blond Beer - Box"
-msgstr ""
+msgstr "Lys øl – kasse"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_17
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_9
 msgid "Blond Beer - Keg 20L"
-msgstr ""
+msgstr "Lys øl – fustage 20 l"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_1
 msgid "Blond Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "Lys øl – Fustage 20 l indeholder 24 x 33 cl"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_6
@@ -476,7 +504,7 @@ msgstr "Blå"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Boiling - Work center: Kettle"
-msgstr ""
+msgstr "Koger – Arbejdscenter: kedel"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -486,18 +514,18 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:appointment.type,message_intro:micro_brewery.appointment_type_1
 msgid "Book your spot now and raise a glass to a memorable brewery experience!"
-msgstr ""
+msgstr "Reservér din plads nu, og skål for en uforglemmelig bryggerioplevelse!"
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_6
 #: model:uom.uom,name:micro_brewery.uom_uom_29
 msgid "Bottle"
-msgstr ""
+msgstr "Flaske"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bottling - Work center: Bottler"
-msgstr ""
+msgstr "Aftapning – Arbejdscenter: Aftapper"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_16
@@ -513,40 +541,40 @@ msgstr "Brun"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_21
 msgid "Brown Beer"
-msgstr ""
+msgstr "Mørk øl"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_35_product_template
 msgid "Brown Beer (25cl)"
-msgstr ""
+msgstr "Mørk øl (25 cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_36_product_template
 msgid "Brown Beer (50cl)"
-msgstr ""
+msgstr "Mørk øl (50 cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_14
 msgid "Brown Beer - Bottle"
-msgstr ""
+msgstr "Mørk øl – Flaske"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_16
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_11
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_5
 msgid "Brown Beer - Box"
-msgstr ""
+msgstr "Mørk øl – Kasse"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_18
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_12
 msgid "Brown Beer - Keg 20L"
-msgstr ""
+msgstr "Mørk øl – Fustage 20 l"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_3
 msgid "Brown Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "Mørk øl – Fustage 20 l indeholder 24 x 33 cl"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_24
@@ -560,6 +588,9 @@ msgid ""
 "but you can edit the page and change the behavior of the submit button to "
 "create a lead into the CRM application instead."
 msgstr ""
+"Som standard sender siden \"Kontakt os\" på hjemmesiden en e-mail, men du "
+"kan redigere siden og ændre afsend-knappens funktion, så den i stedet "
+"opretter et lead i CRM-appen."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -591,6 +622,10 @@ msgid ""
 "be\n"
 "        reflected on his invoice or issue a credit note."
 msgstr ""
+"Indkassér pant, når du leverer til dine kunder – det er helt enkelt. Når du "
+"bekræfter leveringen, kan du straks angive en \"retur\" og præcist opgøre "
+"antallet af pantbeløb, som kunden har betalt. Dette registreres automatisk "
+"på kundens faktura, eller der udstedes en kreditnota."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.product_attribute_3
@@ -629,6 +664,8 @@ msgid ""
 "Crafting Beer - Using mainly the <font class=\"text-o-"
 "color-1\"><strong>Manufacture App</strong></font>"
 msgstr ""
+"Håndværksøl – Bruger hovedsageligt <font class=\"text-o-color-1\"><strong>"
+"Produktionsappen</strong></font>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -738,6 +775,10 @@ msgid ""
 "shirt, sweet shirt, beer glass, ...) that will be bought by your fans that "
 "will become your ambassadors."
 msgstr ""
+"E-handel kan bruges til at opbygge et brand, der rækker ud over selve øllen. "
+"Det kan også understøtte krydssalg ved at tilføje merchandise som T-shirts, "
+"sweatshirts og ølglas, som dine fans kan købe og dermed blive ambassadører "
+"for dit brand."
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
@@ -784,16 +825,19 @@ msgid ""
 "a behind-the-scenes look at our brewing process, sample our best brews, and "
 "learn from our experts."
 msgstr ""
+"Oplev kunsten at brygge øl på traditionel vis på vores 90-minutters "
+"rundvisning på bryggeriet. Få et kig bag kulisserne i vores brygningsproces, "
+"smag vores bedste øl og lær af vores eksperter."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Fermenting - Work center: Fermentation Vessel"
-msgstr ""
+msgstr "Gæring – Arbejdscenter: Gæringsbeholder"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Filtering - Work center: Fermentation Vessel"
-msgstr ""
+msgstr "Filtrering – Arbejdscenter: Gæringsbeholder"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.our-beers
@@ -832,6 +876,10 @@ msgid ""
 "all your beers already in it. You can also create pricelists that you can "
 "assign on your customers too;"
 msgstr ""
+"Fra salgsappen kan du oprette standardiserede tilbud for at effektivisere "
+"tilbudsoprettelsen. Du kan for eksempel have en skabelon, hvor alle dine øl "
+"allerede er inkluderet. Du kan også oprette prislister, som kan tildeles "
+"dine kunder;"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -841,11 +889,15 @@ msgid ""
 "a product to land on the product page, customize it then publish it so "
 "visitors can start ordering it."
 msgstr ""
+"Via hjemmesideappen kan du gå til siden \"Butik\". Her vil du muligvis se, "
+"at dine produkter endnu ikke er offentliggjort. Klik på et produkt for at "
+"åbne produktsiden, tilpas den, og offentliggør den derefter, så besøgende "
+"kan bestille produktet."
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_25_product_template
 msgid "Glass"
-msgstr ""
+msgstr "Glas"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -854,6 +906,9 @@ msgid ""
 "the components you need to execute your recipe. Make sure you buy enough "
 "quantity of each components and validate the order."
 msgstr ""
+"Åbn indkøbsappen, og opret en ny ordre med alle de varer, du skal bruge til "
+"din opskrift. Sørg for at bestille tilstrækkelige mængder af hver vare, og "
+"bekræft derefter ordren."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -861,11 +916,13 @@ msgid ""
 "Go on the delivery order and indicate the quantity you received and create "
 "the lot numbers for each components."
 msgstr ""
+"Gå til leveringsordren, angiv den mængde, du har modtaget, og opret "
+"partinumre for hver komponent."
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_2
 msgid "Goodies"
-msgstr ""
+msgstr "Godbidder"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_7
@@ -875,7 +932,7 @@ msgstr "Grøn"
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_31
 msgid "Half-Pint"
-msgstr ""
+msgstr "Halv pint"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -885,12 +942,12 @@ msgstr "Hejsa!"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_5_product_template
 msgid "Hops"
-msgstr ""
+msgstr "Humle"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Hops - Goods, inventory tracking by lot."
-msgstr ""
+msgstr "Humle – Varer, lagersporing efter parti."
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_14
@@ -904,6 +961,10 @@ msgid ""
 "strong>, ensure your unit of measure and products are correctly configured "
 "and use the Pivot Table in Sales App &gt; Reporting &gt; Sales."
 msgstr ""
+"Hvis du har brug for at angive dine <strong>periodiske salg i et samlet "
+"volumen</strong>, skal du sikre dig, at dine måleenheder og produkter er "
+"korrekt konfigureret, og derefter bruge pivottabellen i salgsappen &gt; "
+"Rapportering &gt; Salg."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -932,6 +993,9 @@ msgid ""
 "App and discover how you can manage your rental schedule easily and provide "
 "a great extended service to your customers."
 msgstr ""
+"Hvis du ønsker at udleje øltappeanlæg til dine kunder, kan du bruge "
+"udlejningsappen til nemt at administrere din udlejningsplan og tilbyde dine "
+"kunder en udvidet serviceoplevelse."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -943,6 +1007,12 @@ msgid ""
 "Website\" to see the website page where future visitors can book online a "
 "visit of the brewery."
 msgstr ""
+"I appen \"Aftaler\" kan du oprette en kalender for rundvisninger på "
+"bryggeriet. Du kan angive, hvilken medarbejder der skal stå for "
+"rundvisningen, og du kan tilknytte en forudgående betaling for at reservere "
+"og knytte produktet \"Rundvisning på bryggeriet\". Når alt er sat op, kan du "
+"offentliggøre det og derefter klikke på knappen \"Gå til hjemmeside\" for at "
+"åbne siden på din hjemmeside, hvor besøgende kan booke rundvisninger online."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -950,6 +1020,8 @@ msgid ""
 "In the manufacturing application, you can create a bill of materials to "
 "define how the beer should be crafted."
 msgstr ""
+"I produktionsappen kan du oprette en stykliste for at definere, hvordan "
+"øllet skal fremstilles."
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
@@ -968,6 +1040,9 @@ msgid ""
 "simply some pack of beers after the visit. You can have both a bar/"
 "restaurant and a shop or you can manage both from the same"
 msgstr ""
+"Det kunne også være interessant for dine kunder at købe souvenirs, gaver "
+"eller blot en kasse øl efter besøget. Du kan have både en bar/restaurant og "
+"en butik – eller drive begge dele under samme tag"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -976,66 +1051,69 @@ msgid ""
 "machines for the kegging but it is possible to create a separate bill of "
 "Materials with the type subcontracting, if the bottling is made externally."
 msgstr ""
+"Det er værd at nævne, at mange mikrobryggerier ikke selv har udstyr til "
+"tapning på fustager, men det er muligt at oprette en separat stykliste, hvor "
+"en underleverandør angives, hvis tapningen udføres eksternt."
 
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_4
 #: model:uom.uom,name:micro_brewery.uom_uom_28
 msgid "Keg"
-msgstr ""
+msgstr "Fustage"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
 #: model:website.base.unit,name:micro_brewery.base_unit_litre
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
 msgid "Lager Beer"
-msgstr ""
+msgstr "Lagerøl"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_38_product_template
 msgid "Lager Beer (25cl)"
-msgstr ""
+msgstr "Lagerøl (25 cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_37_product_template
 msgid "Lager Beer (50cl)"
-msgstr ""
+msgstr "Lagerøl (50 cl)"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_13
 msgid "Lager Beer - Bottle"
-msgstr ""
+msgstr "Lagerøl – Flaske"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_15
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_14
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_6
 msgid "Lager Beer - Box"
-msgstr ""
+msgstr "Lagerøl – Kasse"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_19
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_15
 msgid "Lager Beer - Keg 20L"
-msgstr ""
+msgstr "Lagerøl – Fustage 20 l"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_2
 msgid "Lager Beer - Keg 20L Contains 24 x 33cl"
-msgstr ""
+msgstr "Lagerøl – Fustage 20 l indeholder 24 x 33 cl"
 
 #. module: micro_brewery
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_13
 msgid "Lagger"
-msgstr ""
+msgstr "Lager"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Lautering - Work center: Lauter tun"
-msgstr ""
+msgstr "Lagring – Arbejdscenter: Sikar"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1055,17 +1133,17 @@ msgstr "Lokalt mærke"
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
 msgid "Malt"
-msgstr ""
+msgstr "Malt"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Malt - Goods, inventory tracking by lot. <br/>"
-msgstr ""
+msgstr "Malt – Varer, lagersporing efter parti. <br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1073,6 +1151,8 @@ msgid ""
 "Manage Internal Projects and research and development in the <strong><font "
 "class=\"text-o-color-1\">Project App</font></strong>."
 msgstr ""
+"Administrér interne projekter samt forskning og udvikling i <strong><font "
+"class=\"text-o-color-1\">Projekterappen</font></strong>."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1108,7 +1188,7 @@ msgstr "Håndtér pant mere præcist og effektivt end nogensinde før."
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Mashing - Work center: Mash tun"
-msgstr ""
+msgstr "Indmæskning – Arbejdscenter: Mæskekar"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_12
@@ -1163,7 +1243,7 @@ msgstr "Min virksomhed"
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_volume_sold
 msgid "New Decimal"
-msgstr ""
+msgstr "Ny decimal"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_16
@@ -1177,6 +1257,9 @@ msgid ""
 "bar (or restaurant), indicate how much cash you have when opening the bar. "
 "An now you are ready to take an order."
 msgstr ""
+"Gå nu tilbage til \"POS\"-dashboardet, og start en session for baren (eller "
+"restauranten). Angiv, hvor mange kontanter du har ved åbning af baren. Nu er "
+"du klar til at tage imod en bestilling."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1185,6 +1268,9 @@ msgid ""
 "that it is now a confirmed order and a delivery order has been created. Go "
 "on that delivery order and validate it."
 msgstr ""
+"Når du åbner tilbuddet i salgsappen, kan du se, at det nu er blevet til en "
+"bekræftet ordre, og at der er oprettet en leveringsordre. Gå til "
+"leveringsordren, og godkend den."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1193,6 +1279,9 @@ msgid ""
 "will see that if you don't have the components to create your beer, you will "
 "need to purchase the required components."
 msgstr ""
+"Nu hvor opskriften er klar, kan du oprette en produktionsordre. Du vil dog "
+"opdage, at du skal købe de nødvendige ingredienser, hvis du ikke allerede "
+"har dem på lager til at brygge din øl."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1201,6 +1290,9 @@ msgid ""
 "brewing beer. In the manufacturing application, create a new manufacturing "
 "order for the bill of materials you made for your recipe."
 msgstr ""
+"Nu hvor du har alle de nødvendige komponenter til ølbrygningen, kan du gå i "
+"gang med produktionen. Opret en ny produktionsordre i produktionsappen for "
+"den stykliste, du har oprettet til din opskrift."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1210,11 +1302,14 @@ msgid ""
 "lead, you can exchange email with the customer directly with the chatter and "
 "finally you can schedule a meeting with him."
 msgstr ""
+"Du kan nu generere et nyt lead ved at indsende formularen og derefter finde "
+"den i CRM-appen. Som den ansvarlige sælger kan du udveksle e-mails med "
+"kunden direkte via chatværktøjet og til sidst aftale et møde med vedkommende."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Odoo for Microbrewery"
-msgstr ""
+msgstr "Odoo til mikrobryggerier"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1239,6 +1334,8 @@ msgid ""
 "can consult the dashboard application to follow the volume of Sales you have "
 "made."
 msgstr ""
+"Ud over de rapporter, du finder i de forskellige apps, kan du bruge "
+"dashboardappen til at følge dit salg."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1246,6 +1343,8 @@ msgid ""
 "Once it is confirmed a delivery order should have been created meaning you "
 "are waiting for the vendor to deliver the goods."
 msgstr ""
+"Så snart ordren er bekræftet, bør der være oprettet en leveringsordre, "
+"hvilket betyder, at du afventer, at leverandøren leverer varerne."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1253,6 +1352,8 @@ msgid ""
 "Once you finished all the operations, you should now be ready to sell your "
 "crafted beer."
 msgstr ""
+"Når du har gennemført alle trin, bør du nu være klar til at sælge dit "
+"hjemmebryggede øl."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1309,6 +1410,8 @@ msgid ""
 "Outside Sales (B2B - Bar &amp; Retail) - Using the <strong><font "
 "class=\"text-o-color-1\">Sales App</font></strong>"
 msgstr ""
+"Eksterne salg (B2B – Bar &amp; Detailhandel) – Bruger <strong><font "
+"class=\"text-o-color-1\">Salgsappen</font></strong>"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_parent_product_bom
@@ -1319,7 +1422,7 @@ msgstr "Overordnede produkt"
 #. module: micro_brewery
 #: model:uom.uom,name:micro_brewery.uom_uom_30
 msgid "Pint"
-msgstr ""
+msgstr "Pint"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1336,11 +1439,13 @@ msgstr "Rød"
 msgid ""
 "Register the quantity of spent grain produced at the end of the lautering."
 msgstr ""
+"Registrér mængden af mask fra bryggerier, der er produceret ved afslutningen "
+"af filtreringen."
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.micro_brewery_custom_appointment_heading
@@ -1350,7 +1455,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:appointment.type,message_confirmation:micro_brewery.appointment_type_1
 msgid "See you soon"
-msgstr ""
+msgstr "Vi ses snart"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1358,6 +1463,8 @@ msgid ""
 "Select a table (inside or outside), then select the ordered products and "
 "confirm the order."
 msgstr ""
+"Vælg et bord (inde eller ude), vælg derefter de bestilte produkter, og "
+"bekræft bestillingen."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1382,7 +1489,7 @@ msgstr "Størrelse"
 #: model:product.template,name:micro_brewery.product_product_10_product_template
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Spent Grain"
-msgstr ""
+msgstr "Mask fra bryggerier"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_4
@@ -1402,7 +1509,7 @@ msgstr "Sukker"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_24
 msgid "Sweat Shirt"
-msgstr ""
+msgstr "Sweatshirt"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_23
@@ -1415,6 +1522,7 @@ msgid ""
 "Thank you for visiting us, we are waiting for you now and hope you will "
 "enjoy the visit and our beers!"
 msgstr ""
+"Tak for dit besøg! Vi glæder os og håber, du vil nyde besøget og vores øl!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1422,6 +1530,9 @@ msgid ""
 "The appointment app can also be used to share your availability with a "
 "customer or a vendor if you want him to book a meeting with you."
 msgstr ""
+"Aftalerappen kan også bruges til at dele din tilgængelighed med en kunde "
+"eller en leverandør, hvis du ønsker, at vedkommende skal booke et møde med "
+"dig."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1440,6 +1551,9 @@ msgid ""
 "required and you can also indicate in which operation it will be consumed, "
 "for example:"
 msgstr ""
+"Derefter <strong>opretter du komponenter </strong>og tilføjer de nødvendige "
+"komponenter samt den krævede mængde. Du kan også angive, i hvilken proces de "
+"forbruges, for eksempel:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1447,6 +1561,8 @@ msgid ""
 "Then, from the \"Shop Floor\" application, execute the different operations "
 "and follow the instruction as you were the operator."
 msgstr ""
+"Udfør derefter de forskellige trin i appen \"Værksted\", og følg "
+"instruktionerne, som om du var operatøren."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1463,6 +1579,10 @@ msgid ""
 "see how Odoo can support all these critical activities for a microbrewery to "
 "help people so they can be efficient and spend more time on what matters."
 msgstr ""
+"Denne artikel giver dig et indblik i forretningsgangene i et mikrobryggeri "
+"og viser, hvordan Odoo kan understøtte alle de centrale aktiviteter, så "
+"medarbejderne kan arbejde effektivt og få mere tid til det, der virkelig "
+"betyder noget."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1497,12 +1617,12 @@ msgstr "Opdatér moms"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Validate the delivery and check your inventory, now you have everything"
-msgstr ""
+msgstr "Bekræft modtagelsen og tjek dit lager, så har du det hele"
 
 #. module: micro_brewery
 #: model:appointment.type,name:micro_brewery.appointment_type_1
 msgid "Visit of Brewery"
-msgstr ""
+msgstr "Rundvisning på bryggeri"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1510,11 +1630,13 @@ msgid ""
 "Visit of the Brewery (B2C) - Managed via the <strong><font class=\"text-o-"
 "color-1\">Appointment App</font></strong>"
 msgstr ""
+"Rundvisning på bryggeriet (B2C) – administreres via <strong><font "
+"class=\"text-o-color-1\">Aftalerappen</font></strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Want to know more about unit of measures ?"
-msgstr ""
+msgstr "Vil du vide mere om måleenheder?"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_9_product_template
@@ -1525,7 +1647,7 @@ msgstr "Vand"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Water - Good, no inventory tracking - Mashing"
-msgstr ""
+msgstr "Vand – Godt, ingen lagerstyring – Mæskning"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1573,12 +1695,12 @@ msgstr "XS"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_6_product_template
 msgid "Yeast"
-msgstr ""
+msgstr "Gær"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Yeast - Goods, inventory tracking by lot."
-msgstr ""
+msgstr "Gær – Varer, lagerstyring efter parti."
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_15
@@ -1611,16 +1733,19 @@ msgid ""
 "selecting \"Product categories\" in X axis and \"Order date &gt; Month\" in "
 "Y axis."
 msgstr ""
+"Du kan oprette en månedlig omsætningsoversigt ved hjælp af nøgletallet "
+"\"Volumen\" ved at vælge \"Produktkategorier\" på X-aksen og \"Ordredato > "
+"Måned\" på Y-aksen."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "You can now finalize the flow by creating the invoice."
-msgstr ""
+msgstr "Du kan nu afslutte processen ved at oprette fakturaen."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "You can pick a time and pay to finalize the booking."
-msgstr ""
+msgstr "Du kan vælge et tidspunkt og betale for at gennemføre reservationen."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1628,6 +1753,8 @@ msgid ""
 "You can then use the \"Preview\" button on the offer to see the result and "
 "accept it as if you were the customer!"
 msgstr ""
+"Du kan derefter bruge knappen ‘Forhåndsvisning’ på tilbuddet til at se "
+"resultatet og acceptere det, som var du kunden!"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1659,6 +1786,9 @@ msgid ""
 "You just installed the Odoo for Microbrewery package. By doing so, we have "
 "installed a bunch of necessary apps to run your Microbrewery efficiently."
 msgstr ""
+"Du har netop installeret Odoos pakke til mikrobryggerier, som automatisk har "
+"installeret en række nødvendige apps, så dit mikrobryggeri kan drives "
+"effektivt."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1728,7 +1858,7 @@ msgstr "anmode om en demo"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "🎓 Units of measure"
-msgstr ""
+msgstr "🎓 Måleenheder"
 
 #~ msgid "+1 (650) 555-0111"
 #~ msgstr "+1 (650) 555-0111"
