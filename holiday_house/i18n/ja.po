@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 19:25+0000\n"
+"POT-Creation-Date: 2026-04-24 18:16+0000\n"
 "PO-Revision-Date: 2026-04-23 11:52+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
@@ -275,6 +275,11 @@ msgstr ""
 "を確認してください。"
 
 #. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid "Access to more details clicking the slot."
+msgstr ""
+
+#. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.homepage
 msgid ""
 "Accommodation were exactly what we needed for a family moment.<br/>Many "
@@ -413,6 +418,14 @@ msgstr ""
 #: model:product.template,name:holiday_house.product_template_14
 msgid "Beach House"
 msgstr "ビーチハウス"
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your holiday houses. It provides a 500-day horizon to anticipate "
+"market trends, manage risks, and optimize your revenue."
+msgstr ""
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -798,6 +811,11 @@ msgstr "<strong>連絡アプリ</strong>で顧客を管理しましょう"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid "Managing scarcity with availability"
+msgstr ""
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Managing your businesses"
 msgstr "ビジネスの管理"
 
@@ -807,6 +825,11 @@ msgstr "ビジネスの管理"
 #: model_terms:product.template,website_description:holiday_house.product_template_14
 msgid "Map"
 msgstr "マップ"
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid "Monitoring success with occupancy"
+msgstr ""
 
 #. module: holiday_house
 #: model_terms:product.template,description_ecommerce:holiday_house.product_template_12
@@ -1007,6 +1030,16 @@ msgstr ""
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid "Open the Steering menu and select Availability."
+msgstr ""
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr ""
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid ""
 "Open the door for more custom workflows and actions with the power of "
 "<strong>Studio App</strong>."
@@ -1038,9 +1071,9 @@ msgid ""
 "your housekeeping and eliminate calendar gaps."
 msgstr ""
 "繁忙期の稼働状況を最大化するために週単位の入れ替えを最適化するには、予約を週"
-"単位のレンタルパターン(例：土曜日から土曜日)に合わせることができます。"
-"チェックインとチェックアウトを特定の日に限定することで、ハウスキーピングの"
-"スケジュールを調整し、カレンダー上の空き期間をなくすことができます。"
+"単位のレンタルパターン(例：土曜日から土曜日)に合わせることができます。チェッ"
+"クインとチェックアウトを特定の日に限定することで、ハウスキーピングのスケ"
+"ジュールを調整し、カレンダー上の空き期間をなくすことができます。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1151,6 +1184,27 @@ msgstr ""
 "お楽しみいただけます。自然のありのままの美しさとミニマルな快適さが調和し、自"
 "然の力強さと近さを全身で感じられる、思い出に残る隠れ家での滞在をお約束しま"
 "す。"
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
+msgstr ""
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my holiday houses?</i>"
+msgstr ""
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1268,13 +1322,21 @@ msgstr ""
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
+msgstr ""
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid ""
 "With the create slot for this resource, no overlapping booking slot would be "
 "created.<br/>Care about the start and end time or this blockage to make to "
 "re-open when suited."
 msgstr ""
-"このリソースのスロットを使用する場合、重複する予約スロットは作成されません"
-"。<br/>開始時間と終了時間を確認し、適切なタイミングでこのブロックを解除して再"
-"開してください。"
+"このリソースのスロットを使用する場合、重複する予約スロットは作成されません。"
+"<br/>開始時間と終了時間を確認し、適切なタイミングでこのブロックを解除して再開"
+"してください。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1289,8 +1351,8 @@ msgid ""
 "season break?<br/>Let's have this reflected in your schedule!"
 msgstr ""
 "住宅の修繕やご家族の滞在など、予約を受け付けたくない期間はありますか?<br/>あ"
-"るいは、閑散期に1週間休業される予定はありますか?<br/>そうした予定を"
-"スケジュールに反映させましょう!"
+"るいは、閑散期に1週間休業される予定はありますか?<br/>そうした予定をスケジュー"
+"ルに反映させましょう!"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1352,8 +1414,8 @@ msgid ""
 "You just installed the Odoo for Holiday House package. By doing so, we have "
 "installed a bunch of necessary apps to run your business efficiently."
 msgstr ""
-"Odooホリデーハウスパッケージのインストールが完了しました。これにより、"
-"ビジネスを効率的に運営するために必要な様々なアプリがインストールされました。"
+"Odooホリデーハウスパッケージのインストールが完了しました。これにより、ビジネ"
+"スを効率的に運営するために必要な様々なアプリがインストールされました。"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1530,6 +1592,11 @@ msgstr "🗓️ 予約管理"
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 ゲストをお迎えしましょう"
+
+#. module: holiday_house
+#: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
+msgid "🚀 Strategic Oversight"
+msgstr ""
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
