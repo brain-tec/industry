@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 19:16+0000\n"
-"PO-Revision-Date: 2026-04-11 09:36+0000\n"
+"PO-Revision-Date: 2026-04-21 22:26+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-19/"
 "guest_house/fr/>\n"
@@ -239,7 +239,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Access to more details clicking the slot."
-msgstr ""
+msgstr "Cliquez sur le créneau pour obtenir plus de détails."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -388,6 +388,10 @@ msgid ""
 "Bridge\" of your guest house. It provides a 500-day horizon to anticipate "
 "market trends, manage risks, and optimize your revenue."
 msgstr ""
+"Au-delà des opérations quotidiennes, le menu Pilotage constitue le \"poste "
+"de commandement\" de votre maison d’hôtes. Il offre une visibilité sur 500 "
+"jours pour anticiper les tendances du marché, gérer les risques et optimiser "
+"vos revenus."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -834,7 +838,7 @@ msgstr "Gérez vos clients depuis l’app <strong>Contacts</strong>"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Managing scarcity with availability"
-msgstr ""
+msgstr "Gérer la rareté via les disponibilités"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -844,7 +848,7 @@ msgstr "Gérer vos entreprises"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Monitoring success with occupancy"
-msgstr ""
+msgstr "Suivre la performance via le taux d’occupation"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_19
@@ -1051,12 +1055,12 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the Steering menu and select Availability."
-msgstr ""
+msgstr "Ouvrez le menu pilotage et sélectionnez disponibilité."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the Steering menu and select Occupancy."
-msgstr ""
+msgstr "Ouvrez le menu pilotage et sélectionnez taux d’occupation."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1269,6 +1273,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the availability for you to "
 "work on filling in."
 msgstr ""
+"Le diagramme de Gantt est codé par couleur pour refléter les disponibilités "
+"afin de vous aider à les combler."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1276,6 +1282,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the occupancy, the higher the "
 "better."
 msgstr ""
+"Le diagramme de Gantt est codé par couleur pour refléter le taux "
+"d’occupation : plus il est élevé, mieux c’est."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1283,6 +1291,9 @@ msgid ""
 "The Occupancy view allows you to visualize your \"Sales Success\". It "
 "answers one simple question: <i>How well am I filling my guest house?</i>"
 msgstr ""
+"La vue taux d’occupation vous permet de visualiser votre \"performance "
+"commerciale\". Elle répond à une question simple : <i>Dans quelle mesure ma "
+"maison d’hôtes est-elle remplie ?</i>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1421,6 +1432,10 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Alors que le taux d’occupation se concentre sur ce qui est complet, la vue "
+"des disponibilités se concentre sur ce qu’il reste à vendre. C’est votre "
+"principal outil pour la sécurité opérationnelle et la tarification de la "
+"rareté."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1726,7 +1741,7 @@ msgstr "😎 Accueillez vos clients"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🚀 Strategic Oversight"
-msgstr ""
+msgstr "🚀 Supervision stratégique"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body

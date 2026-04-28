@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:44+0000\n"
-"PO-Revision-Date: 2026-03-13 10:09+0000\n"
+"PO-Revision-Date: 2026-04-24 19:39+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
 "student_organization/ru/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -128,7 +128,7 @@ msgstr ""
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.homepage
 msgid "<span class=\"h1-fs\">&amp;amp; what do we do?</span>"
-msgstr "<span class=\"h1-fs\">&amp;amp;чем мы занимаемся?</span>"
+msgstr "<span class=\"h1-fs\">&amp;amp; чем мы занимаемся?</span>"
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body
@@ -468,7 +468,7 @@ msgid ""
 "embedded\n"
 "                    ticket sales."
 msgstr ""
-"<strong>Веб-сайт</strong>: Продвигайте свое мероприятие с помощью эффектных "
+"<strong>Вебсайт</strong>: Продвигайте свое мероприятие с помощью эффектных "
 "страниц и встроенной\n"
 "                    системы продажи билетов."
 
@@ -533,8 +533,8 @@ msgid ""
 "Amazing community<font style=\"background-color: rgba(107, 173, 222, 0.6);\">​"
 "</font>"
 msgstr ""
-"Крутое сообщество<font style=\"background-color: rgba(107, 173, 222, 0.6);\">​"
-"</font>"
+"Невероятное комьюнити<font style=\"background-color: rgba(107, 173, 222, 0.6)"
+";\">​</font>"
 
 #. module: student_organization
 #: model:product.attribute,name:student_organization.product_attribute_10
@@ -936,8 +936,7 @@ msgstr "Логотип компании MyCompany"
 msgid ""
 "Logo placement on all event materials (posters, banners, social media, and "
 "website)"
-msgstr ""
-"Размещение логотипа на всех материалах (афиши, баннеры, соцсети и сайт)"
+msgstr "Размещение логотипа на всех материалах (афиши, баннеры, соцсети и сайт)"
 
 #. module: student_organization
 #: model:product.attribute.value,name:student_organization.product_attribute_value_8
@@ -1315,8 +1314,7 @@ msgstr ""
 msgid ""
 "Warm and comfortable hoodie with the student union logo. Available in "
 "multiple sizes."
-msgstr ""
-"Теплое и уютное худи с логотипом студсоюза. Доступно в разных размерах."
+msgstr "Теплое и уютное худи с логотипом студсоюза. Доступно в разных размерах."
 
 #. module: student_organization
 #: model_terms:ir.ui.view,arch_db:student_organization.welcome_article_body

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 19:26+0000\n"
-"PO-Revision-Date: 2026-04-04 09:55+0000\n"
+"PO-Revision-Date: 2026-04-24 19:26+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "machine_tool_rental/de/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_398
@@ -502,8 +502,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
-"Entdecken Sie die Grundlagen dieses Pakets und erkunden Sie alle "
-"Möglichkeiten, die Odoo bietet, um Ihre Erfahrung zu verbessern."
+"Erkunden Sie die Grundlagen dieses Pakets und alle Möglichkeiten, die Odoo "
+"bietet, um Ihre Erfahrung zu verbessern."
 
 #. module: machine_tool_rental
 #: model:product.template,name:machine_tool_rental.product_product_9_product_template
@@ -616,7 +616,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: machine_tool_rental
 #: model_terms:product.template,description:machine_tool_rental.product_product_4_product_template
@@ -780,7 +780,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: machine_tool_rental
 #: model_terms:product.template,description:machine_tool_rental.product_product_8_product_template
@@ -800,8 +801,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Sie können über Ihr Hauptdashboard auf jede in Ihrer Odoo-Datenbank "
-"installierte App zugreifen."
+"Sie können auf jede installierte App in Ihrer Odoo-Datenbank über Ihr "
+"Hauptdashboard zugreifen."
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -810,7 +811,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: machine_tool_rental
@@ -936,7 +937,7 @@ msgstr "✅ Qualität"
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "﻿, and feel free to﻿"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -966,7 +967,7 @@ msgstr ", wenn Sie Hilfe benötigen!"
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "﻿request a demo﻿"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body

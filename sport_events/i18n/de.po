@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:42+0000\n"
-"PO-Revision-Date: 2026-04-18 09:35+0000\n"
+"PO-Revision-Date: 2026-04-24 19:37+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "sport_events/de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: sport_events
 #: model:event.event.ticket,name:sport_events.event_event_ticket_4
@@ -28,7 +28,7 @@ msgstr "+ Becher"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: sport_events
 #: model:survey.question.answer,value:sport_events.survey_question_answer_1
@@ -1141,7 +1141,7 @@ msgstr "Erfahren Sie mehr zu Odoo in unserer"
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Möchten Sie noch weiter gehen?"
+msgstr "Möchten Sie noch weitergehen?"
 
 #. module: sport_events
 #: model:project.task.type,name:sport_events.project_task_type_3
@@ -1297,7 +1297,8 @@ msgstr ""
 #: code:addons/sport_events/static/src/js/my_tour.js:0
 msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
-"Los geht’s! Entdecken Sie hier unsere Empfehlungen für die Nutzung von Odoo!"
+"Los geht’s! Entdecken Sie hier unsere Empfehlungen, um Odoo optimal zu "
+"nutzen!"
 
 #. module: sport_events
 #: model_terms:event.event,description:sport_events.event_event_2
@@ -1614,7 +1615,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -2219,8 +2220,8 @@ msgid ""
 "You can access every installed app in your Odoo database from your main "
 "dashboard."
 msgstr ""
-"Sie können über Ihr Hauptdashboard auf jede in Ihrer Odoo-Datenbank "
-"installierte App zugreifen."
+"Sie können auf jede installierte App in Ihrer Odoo-Datenbank über Ihr "
+"Hauptdashboard zugreifen."
 
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
@@ -2229,7 +2230,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: sport_events
@@ -2318,7 +2319,7 @@ msgstr ""
 #. module: sport_events
 #: model_terms:ir.ui.view,arch_db:sport_events.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: sport_events
 #: model:event.question.answer,name:sport_events.event_question_answer_2

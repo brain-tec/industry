@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 20:07+0000\n"
-"PO-Revision-Date: 2026-04-18 09:34+0000\n"
+"PO-Revision-Date: 2026-04-24 19:37+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "wellness_practitioner/de/>\n"
@@ -23,12 +23,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid ", and feel free to"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -289,9 +289,10 @@ msgid ""
 "Website </font></strong>in a few clicks. Get new leads or direct appointment "
 "online in a few clicks."
 msgstr ""
-"Eine kostenlose, personalisierte, integrierte <strong><font class=\"text-o-"
-"color-1\">Website </font></strong> in wenigen Klicks. Erhalten Sie mit "
-"wenigen Klicks neue Leads oder vereinbaren Sie direkt online einen Termin."
+"Erstellen Sie eine kostenlose, personalisierte, integrierte <strong><font "
+"class=\"text-o-color-1\">Website </font></strong> in wenigen Klicks. "
+"Erhalten Sie mit wenigen Klicks neue Leads oder vereinbaren Sie direkt "
+"online einen Termin."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -516,8 +517,8 @@ msgid ""
 "strong>)"
 msgstr ""
 "Verwalten Sie Ihre Buchhaltung einfach denn je zuvor in einer vollständig "
-"integrierten Umgebung. (<strong><font class=\"text-o-"
-"color-1\">Buchhaltungsapp</font></strong>)"
+"integrierten Umgebung. (<strong><font class=\"text-o-color-1\">"
+"Buchhaltungsapp</font></strong>)"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -552,7 +553,7 @@ msgid ""
 msgstr ""
 "Das ist natürlich nur eine Übersicht über die Funktionen, die in diesem "
 "Paket enthalten sind. Sie können gerne neue Apps hinzufügen, Demodaten "
-"löschen/anpassen und etwas herumspielen."
+"löschen oder anpassen und etwas herumspielen."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -617,7 +618,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -723,8 +725,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Sie können über Ihr Hauptdashboard auf jede in Ihrer Odoo-Datenbank "
-"installierte App zugreifen."
+"Sie können auf jede installierte App in Ihrer Odoo-Datenbank über Ihr "
+"Hauptdashboard zugreifen."
 
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
@@ -761,7 +763,7 @@ msgid ""
 "your Odoo setup to fit your business needs."
 msgstr ""
 "Sie haben diesen Demo-Anwendungsfall abgeschlossen! Es gibt Millionen "
-"anderer Möglichkeiten, Ihre Odoo-Einrichtung an Ihre geschäftlichen "
+"anderer Möglichkeiten, Ihre Odoo-Konfiguration an Ihre geschäftlichen "
 "Anforderungen anzupassen."
 
 #. module: wellness_practitioner
@@ -826,7 +828,7 @@ msgstr ", wenn Sie Hilfe benötigen!<br/>"
 #. module: wellness_practitioner
 #: model_terms:ir.ui.view,arch_db:wellness_practitioner.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #~ msgid ""
 #~ "<b>Appointments App</b>: Offer seamless online booking for consultations "

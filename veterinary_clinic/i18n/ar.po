@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:51+0000\n"
-"PO-Revision-Date: 2026-01-06 09:31+0000\n"
+"PO-Revision-Date: 2026-04-24 19:28+0000\n"
 "Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19/"
 "veterinary_clinic/ar/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_line_ids_field
@@ -1223,12 +1223,12 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_15
 msgid "Hyperthyroidism"
-msgstr ""
+msgstr "فرط نشاط الغدة الدرقية"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
 msgid "Identifiers"
-msgstr ""
+msgstr "المعرفات"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body

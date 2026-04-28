@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:56+0000\n"
-"PO-Revision-Date: 2026-04-04 09:57+0000\n"
+"PO-Revision-Date: 2026-04-24 19:38+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19/"
 "construction_developer/ko/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.project_form_view_extension
@@ -51,7 +51,7 @@ msgstr ""
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_active_field_x_work_item
 msgid "Active"
-msgstr ""
+msgstr "활성화"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.action_window_add_work_item
@@ -89,7 +89,7 @@ msgstr "결재 완료"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_search_view
 msgid "Archived"
-msgstr ""
+msgstr "보관됨"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_margin_report_analysis_list
@@ -99,7 +99,7 @@ msgstr ""
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_x_remark_x_state_selection_canceled
 msgid "Canceled"
-msgstr ""
+msgstr "취소됨"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_70
@@ -109,7 +109,7 @@ msgstr "차고"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Categories"
-msgstr ""
+msgstr "카테고리"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_cost_nature_analysis_report_x_category_id
@@ -118,7 +118,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:construction_developer.field_x_work_item_line_x_category_id
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_cost_nature_analysis_report_search
 msgid "Category"
-msgstr ""
+msgstr "카테고리"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_category_form
@@ -133,12 +133,12 @@ msgstr ""
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Closed"
-msgstr ""
+msgstr "마감됨"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_category_x_color
 msgid "Color"
-msgstr ""
+msgstr "색상"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_65
@@ -148,7 +148,7 @@ msgstr "다짐 모래층"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "Components"
-msgstr ""
+msgstr "구성 요소"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_80
@@ -412,7 +412,7 @@ msgstr ""
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_work_item_line_x_consumed
 msgid "Consumed"
-msgstr ""
+msgstr "사용량"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_sol_contract_type
@@ -458,7 +458,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:construction_developer.x_currency_id_field_x_work_item
 #: model:ir.model.fields,field_description:construction_developer.x_currency_id_field_x_work_item_line
 msgid "Currency"
-msgstr ""
+msgstr "통화"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_current_progress
@@ -473,13 +473,13 @@ msgstr ""
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_date
 msgid "Date"
-msgstr ""
+msgstr "날짜"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_date_deadline
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Deadline"
-msgstr ""
+msgstr "마감일 "
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_delivered_progress
@@ -491,7 +491,7 @@ msgstr "진전 상황 전달"
 #: model:ir.model.fields,field_description:construction_developer.x_name_field_x_work_item
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_form
 msgid "Description"
-msgstr ""
+msgstr "설명"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_sale_order_line_x_display_button
@@ -501,7 +501,7 @@ msgstr "섹션/하위 섹션 버튼 표시"
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_x_remark_x_state_selection_done
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_72
@@ -523,17 +523,17 @@ msgstr "배수 시스템"
 #: model:ir.model.fields.selection,name:construction_developer.selection_field_x_cost_nature_analysis_report_x_cost_nature_equipment
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_cost_nature_analysis_report_search
 msgid "Equipment"
-msgstr ""
+msgstr "장비"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_event_id
 msgid "Event"
-msgstr ""
+msgstr "행사"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_is_margin_fixed_field_x_work_item
 msgid "Fixed"
-msgstr ""
+msgstr "고정"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_line_sol_contract_type_selection_fixed_price
@@ -554,7 +554,7 @@ msgstr "청구서 발행 완료"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Future"
-msgstr ""
+msgstr "향후"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_63
@@ -612,7 +612,7 @@ msgstr "배송 불가능 품목 여부"
 #: model:ir.model.fields.selection,name:construction_developer.selection_field_x_cost_nature_analysis_report_x_cost_nature_labour
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_cost_nature_analysis_report_search
 msgid "Labour"
-msgstr ""
+msgstr "작업"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_account_move_line_x_reference
@@ -624,7 +624,7 @@ msgstr ""
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_location
 msgid "Location"
-msgstr ""
+msgstr "위치"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_x_remark_x_priority_selection_0
@@ -652,7 +652,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:construction_developer.selection_field_x_cost_nature_analysis_report_x_cost_nature_material
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_cost_nature_analysis_report_search
 msgid "Material"
-msgstr ""
+msgstr "재료"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_68
@@ -674,7 +674,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_stage_x_name
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_name
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
@@ -705,7 +705,7 @@ msgstr "시작하지 않음"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Open"
-msgstr ""
+msgstr "열기"
 
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_sale_order_line_sol_contract_type_selection_open_book
@@ -722,14 +722,14 @@ msgstr "주문"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Overdue"
-msgstr ""
+msgstr "기한 초과"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_partner_id
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_form
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Owner"
-msgstr ""
+msgstr "소유자"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_71
@@ -764,12 +764,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_priority
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Priority"
-msgstr ""
+msgstr "우선순위"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.quick_create_remark_form
 msgid "Private"
-msgstr ""
+msgstr "비공개"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.action_project_x_work_item_line_view_from_menu
@@ -823,7 +823,7 @@ msgstr "진척 단위"
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_project_id
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Project"
-msgstr ""
+msgstr "프로젝트"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_71
@@ -838,7 +838,7 @@ msgstr ""
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_stage_x_project_ids
 msgid "Projects"
-msgstr ""
+msgstr "프로젝트"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_list_view
@@ -859,7 +859,7 @@ msgstr "수량 증가"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
 msgid "Recompute"
-msgstr ""
+msgstr "재계산"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
@@ -875,7 +875,7 @@ msgstr "참조"
 #. module: construction_developer
 #: model:ir.model,name:construction_developer.model_x_remark
 msgid "Remark"
-msgstr ""
+msgstr "비고"
 
 #. module: construction_developer
 #: model:ir.actions.act_window,name:construction_developer.menu_action_x_remark_category_list_view
@@ -925,7 +925,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_calendar_event_form_inherit
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Remarks"
-msgstr ""
+msgstr "비고"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_69
@@ -1001,7 +1001,7 @@ msgstr ""
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Stage"
-msgstr ""
+msgstr "단계"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_stage_form
@@ -1011,7 +1011,7 @@ msgstr ""
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_state
 msgid "State"
-msgstr ""
+msgstr "상태"
 
 #. module: construction_developer
 #: model:product.template,name:construction_developer.product_template_76
@@ -1087,7 +1087,7 @@ msgstr ""
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Today"
-msgstr ""
+msgstr "오늘"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.field_x_cost_nature_analysis_report_x_total_cost
@@ -1113,7 +1113,7 @@ msgstr ""
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Unassigned"
-msgstr ""
+msgstr "미지정"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_unit_id_field_x_work_item
@@ -1152,7 +1152,7 @@ msgstr "배송 업데이트"
 #. module: construction_developer
 #: model:ir.model.fields.selection,name:construction_developer.field_x_remark_x_priority_selection_3
 msgid "Urgent"
-msgstr ""
+msgstr "긴급"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.x_work_item_form_view
@@ -1216,7 +1216,7 @@ msgstr "m²"
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.project_template_view_form_inherit
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #~ msgid "S00003 - Project Template"
 #~ msgstr "S00003 - 프로젝트 템플릿"
