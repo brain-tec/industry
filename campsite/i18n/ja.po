@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 18:47+0000\n"
+"POT-Creation-Date: 2026-04-24 17:46+0000\n"
 "PO-Revision-Date: 2026-04-23 11:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
@@ -284,6 +284,11 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Access to more details clicking the slot."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Add a line with Plancha or a Fan."
 msgstr "プランチャまたは扇風機で明細を追加します。"
 
@@ -449,6 +454,14 @@ msgstr "滞在終了時に、お客様にすべての追加料金をお支払い
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Bar &amp; Restaurant and extra services"
 msgstr "バー・レストランおよび追加サービス"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"Beyond daily operations, the Steering menu serves as the \"Captain’s "
+"Bridge\" of your campsite. It provides a 500-day horizon to anticipate "
+"market trends, manage risks, and optimize your revenue."
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -953,8 +966,18 @@ msgstr "<strong>連絡先アプリ</strong>で顧客を管理しましょう"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Managing scarcity with availability"
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Managing your businesses"
 msgstr "ビジネスの管理"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Monitoring success with occupancy"
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1193,6 +1216,16 @@ msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Steering menu and select Availability."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "Open the Steering menu and select Occupancy."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid ""
 "Open the door for more custom workflows and actions with the power of "
 "<strong>Studio\n"
@@ -1221,9 +1254,9 @@ msgid ""
 "your housekeeping and eliminate calendar gaps."
 msgstr ""
 "繁忙期の稼働状況を最大化するために週単位の入れ替えを最適化するには、予約を週"
-"単位のレンタルパターン(例：土曜日から土曜日)に合わせることができます。"
-"チェックインとチェックアウトを特定の日に限定することで、ハウスキーピングの"
-"スケジュールを調整し、カレンダー上の空き期間をなくすことができます。"
+"単位のレンタルパターン(例：土曜日から土曜日)に合わせることができます。チェッ"
+"クインとチェックアウトを特定の日に限定することで、ハウスキーピングのスケ"
+"ジュールを調整し、カレンダー上の空き期間をなくすことができます。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1380,6 +1413,27 @@ msgstr "Tentalo(テンタロ)"
 #: model:product.public.category,name:campsite.product_public_category_10
 msgid "Tentalos"
 msgstr "Tentalo(テンタロ)"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the availability for you to "
+"work on filling in."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Gantt chart is color-coded to reflect on the occupancy, the higher the "
+"better."
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"The Occupancy view allows you to visualize your \"Sales Success\". It "
+"answers one simple question: <i>How well am I filling my campsite?</i>"
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.homepage
@@ -1561,6 +1615,14 @@ msgstr "すべての滞在が、心と体のリトリートに。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid ""
+"While Occupancy focuses on what is full, the Availability view focuses on "
+"what is left to sell. It is your primary tool for operational safety and "
+"\"Scarcity Pricing.\""
+msgstr ""
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "Willing to upgrade a booking?"
 msgstr "ご予約のアップグレードをご希望ですか?"
 
@@ -1578,9 +1640,9 @@ msgid ""
 "created.<br/>Care about the start and end time or this blockage to make to "
 "re-open when suited."
 msgstr ""
-"このリソースのスロットを使用する場合、重複する予約スロットは作成されません"
-"。<br/>開始時間と終了時間を確認し、適切なタイミングでこのブロックを解除して再"
-"開してください。"
+"このリソースのスロットを使用する場合、重複する予約スロットは作成されません。"
+"<br/>開始時間と終了時間を確認し、適切なタイミングでこのブロックを解除して再開"
+"してください。"
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
@@ -1932,6 +1994,11 @@ msgstr "🗓️ 予約管理"
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
 msgid "😎 Welcome guests"
 msgstr "😎 ゲストをお迎えしましょう"
+
+#. module: campsite
+#: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
+msgid "🚀 Strategic Oversight"
+msgstr ""
 
 #. module: campsite
 #: model_terms:ir.ui.view,arch_db:campsite.welcome_article_body
