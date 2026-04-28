@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:56+0000\n"
-"PO-Revision-Date: 2026-04-11 13:20+0000\n"
+"PO-Revision-Date: 2026-04-25 12:03+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-s19-1/construction/es_419/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
@@ -793,6 +793,9 @@ msgid ""
 "well as from the <strong>Inventory App</strong> and the Project Top Bar "
 "<strong>\"Needs\" button</strong>"
 msgstr ""
+"Accede a tus requisitos consolidados desde el botón inteligente "
+"Aprovisionamiento, así como desde la aplicación <strong>Inventario</strong> "
+"y el botón <strong>\"Necesidades\"</strong> en la barra superior del proyecto"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11
@@ -904,7 +907,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Automated extraction:"
-msgstr ""
+msgstr "Extracción automatizada:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1189,6 +1192,11 @@ msgid ""
 "required for your project by decomposing your Work Items into a consolidated "
 "shopping list."
 msgstr ""
+"Elimina la entrada manual y las suposiciones al transformar tus cotizaciones "
+"técnicas en datos de aprovisionamiento accionables.\n"
+"        Esta función extrae cada tornillo, ladrillo y viga que tu proyecto "
+"requiere de forma automática al descomponer los elementos de trabajo en una "
+"lista de compras consolidada."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_32
@@ -1451,6 +1459,8 @@ msgid ""
 "Identical materials across different sections are summed up, giving you "
 "total volumes for better supplier negotiations."
 msgstr ""
+"Los materiales idénticos en distintas secciones se suman, lo que te da "
+"volúmenes totales para mejorar las negociaciones con los proveedores."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1781,6 +1791,10 @@ msgid ""
 "filtering components by the Material Cost Nature, ensuring your list isn't "
 "cluttered with labor or equipment hours."
 msgstr ""
+"Odoo analiza cada componente de tus elementos de trabajo para encontrar "
+"necesidades subyacentes, filtra los componentes por la naturaleza de costo "
+"de los materiales y asegura que tu lista no incluya horas de mano de obra ni "
+"de equipo."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2042,6 +2056,8 @@ msgid ""
 "Prepare your Sale Order with structured sections and articles containing "
 "Work Items."
 msgstr ""
+"Prepara tu orden de venta con secciones estructuradas y artículos que "
+"incluyan elementos de trabajo."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
@@ -3039,7 +3055,7 @@ msgstr "🔍 Lleva seguimiento preciso del tiempo utilizado"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🛒 Material Shopping List (Construction Developer)"
-msgstr ""
+msgstr "🛒 Lista de compras de materiales (promotor inmobiliario)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:42+0000\n"
-"PO-Revision-Date: 2026-02-16 08:43+0000\n"
+"PO-Revision-Date: 2026-04-25 12:03+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-s19-1/textile_manufacturing/zh_Hant/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.homepage
@@ -1707,7 +1707,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_7
 msgid "Indigo"
-msgstr ""
+msgstr "靛藍色"
 
 #. module: textile_manufacturing
 #: model:product.template,name:textile_manufacturing.product_template_17
@@ -1739,7 +1739,7 @@ msgstr "John"
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_16
 msgid "Magenta"
-msgstr ""
+msgstr "洋紅色"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.contactus
@@ -1904,7 +1904,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_17
 msgid "Premium"
-msgstr ""
+msgstr "高級"
 
 #. module: textile_manufacturing
 #: model:project.tags,name:textile_manufacturing.project_tags_2
@@ -1975,7 +1975,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_19
 msgid "Rework"
-msgstr ""
+msgstr "修改"
 
 #. module: textile_manufacturing
 #: model:documents.document,name:textile_manufacturing.documents_document_17
@@ -2046,7 +2046,7 @@ msgstr ""
 #. module: textile_manufacturing
 #: model:product.attribute.value,name:textile_manufacturing.product_attribute_value_18
 msgid "Standard"
-msgstr ""
+msgstr "標準"
 
 #. module: textile_manufacturing
 #: model_terms:ir.ui.view,arch_db:textile_manufacturing.welcome_article_body
