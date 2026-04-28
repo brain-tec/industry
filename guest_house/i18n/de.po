@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 19:16+0000\n"
-"PO-Revision-Date: 2026-04-04 09:43+0000\n"
+"PO-Revision-Date: 2026-04-24 19:37+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "guest_house/de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -237,7 +237,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Access to more details clicking the slot."
-msgstr ""
+msgstr "Weitere Details erhalten Sie durch Klicken auf das Zeitfenster."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -393,6 +393,10 @@ msgid ""
 "Bridge\" of your guest house. It provides a 500-day horizon to anticipate "
 "market trends, manage risks, and optimize your revenue."
 msgstr ""
+"Über den täglichen Betrieb hinaus dient das Menü „Steuerung“ als „"
+"Kommandobrücke“ Ihres Gästehauses. Es bietet einen 500-Tage-Horizont, um "
+"Markttrends zu antizipieren, Risiken zu managen und Ihre Einnahmen zu "
+"optimieren."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -846,7 +850,7 @@ msgstr "Verwalten Sie Ihre Kunden über die <strong>Kontakte-App</strong>."
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Managing scarcity with availability"
-msgstr ""
+msgstr "Umgang mit Knappheit und Verfügbarkeit"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -856,7 +860,7 @@ msgstr "Unternehmen verwalten"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Monitoring success with occupancy"
-msgstr ""
+msgstr "Erfolgsmessung anhand der Auslastung"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_19
@@ -1069,12 +1073,12 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the Steering menu and select Availability."
-msgstr ""
+msgstr "Öffnen Sie das Menü „Steuerung“ und wählen Sie „Verfügbarkeit“."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the Steering menu and select Occupancy."
-msgstr ""
+msgstr "Öffnen Sie das Menü „Steuerung“ und wählen Sie „Belegung“."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1289,6 +1293,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the availability for you to "
 "work on filling in."
 msgstr ""
+"Das Gantt-Diagramm ist farblich gekennzeichnet, um die Verfügbarkeit der "
+"Felder anzuzeigen, die Sie ausfüllen können."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1296,6 +1302,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the occupancy, the higher the "
 "better."
 msgstr ""
+"Das Gantt-Diagramm ist farblich gekennzeichnet, um die Auslastung "
+"widerzuspiegeln; je höher, desto besser."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1303,6 +1311,9 @@ msgid ""
 "The Occupancy view allows you to visualize your \"Sales Success\". It "
 "answers one simple question: <i>How well am I filling my guest house?</i>"
 msgstr ""
+"Die Ansicht „Belegung“ ermöglicht es Ihnen, Ihren „Verkaufserfolg“ zu "
+"visualisieren. Sie beantwortet eine einfache Frage: <i>Wie gut ist mein "
+"Gästehaus ausgelastet?</i>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1318,7 +1329,8 @@ msgstr ""
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"Sie sind alle in Ihrem aktuellen Abonnement enthalten. Entdecken Sie sie! 🙃"
+"All diese Apps sind in Ihrem aktuellen Abonnement enthalten. Erkunden Sie "
+"sie! 🙃"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1442,6 +1454,10 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Während sich die Belegungsansicht darauf konzentriert, was ausgebucht ist, "
+"konzentriert sich die Verfügbarkeitsansicht darauf, was noch zu verkaufen "
+"ist. Sie ist Ihr wichtigstes Werkzeug für die Betriebssicherheit und die „"
+"Preisgestaltung bei Knappheit“."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1484,8 +1500,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
-"Sie können über Ihr Hauptdashboard auf jede in Ihrer Odoo-Datenbank "
-"installierte App zugreifen."
+"Sie können auf jede installierte App in Ihrer Odoo-Datenbank über Ihr "
+"Hauptdashboard zugreifen."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1661,7 +1677,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "request a demo"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1752,7 +1768,7 @@ msgstr "😎 Gäste begrüßen"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🚀 Strategic Oversight"
-msgstr ""
+msgstr "🚀 Strategische Aufsicht"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body

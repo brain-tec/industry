@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:55+0000\n"
-"PO-Revision-Date: 2026-04-04 09:36+0000\n"
+"PO-Revision-Date: 2026-04-24 19:34+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19/"
 "construction/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
@@ -789,6 +789,9 @@ msgid ""
 "well as from the <strong>Inventory App</strong> and the Project Top Bar "
 "<strong>\"Needs\" button</strong>"
 msgstr ""
+"Greifen Sie auf Ihre konsolidierten Anforderungen über die intelligente "
+"Schaltfläche „Beschaffung“ sowie über die <strong>Lagerapp</strong> und die "
+"<strong>Schaltfläche „Bedarf“</strong> in der oberen Projektleiste."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_11
@@ -901,7 +904,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Automated extraction:"
-msgstr ""
+msgstr "Automatische Entnahme:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1114,7 +1117,7 @@ msgstr "Spülstation"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Do You Want to Go Further?"
-msgstr "Möchten Sie noch weiter gehen?"
+msgstr "Möchten Sie noch weitergehen?"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1185,6 +1188,11 @@ msgid ""
 "required for your project by decomposing your Work Items into a consolidated "
 "shopping list."
 msgstr ""
+"Vermeiden Sie manuelle Eingaben und Spekulationen, indem Sie Ihre "
+"technischen Angebote in verwertbare Daten der Beschaffung umwandeln.\n"
+"            Diese Funktion entnimmt automatisch jede Schraube, jeden "
+"Ziegelstein und jeden Balken, die für Ihr Projekt benötigt werden, indem sie "
+"Ihre Arbeitsaufgaben in eine konsolidierte Einkaufsliste aufschlüsselt."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_32
@@ -1444,6 +1452,9 @@ msgid ""
 "Identical materials across different sections are summed up, giving you "
 "total volumes for better supplier negotiations."
 msgstr ""
+"Identische Materialien in verschiedenen Abschnitten werden zusammengefasst, "
+"sodass Sie Gesamtmengen erhalten, die Ihnen bessere Verhandlungen mit "
+"Lieferanten ermöglichen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1767,6 +1778,10 @@ msgid ""
 "filtering components by the Material Cost Nature, ensuring your list isn't "
 "cluttered with labor or equipment hours."
 msgstr ""
+"Odoo scannt jede Komponente in Ihren Arbeitsaufträgen, um zugrunde liegende "
+"Anforderungen zu ermitteln, und filtert die Komponenten nach der "
+"Materialkostenart, um sicherzustellen, dass Ihre Liste nicht mit Arbeits- "
+"oder Maschinenstunden überladen ist."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2029,6 +2044,8 @@ msgid ""
 "Prepare your Sale Order with structured sections and articles containing "
 "Work Items."
 msgstr ""
+"Bereiten Sie Ihren Verkaufsauftrag mit strukturierten Abschnitten und "
+"Artikeln vor, die Arbeitselemente enthalten."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
@@ -2823,7 +2840,7 @@ msgstr "﻿  und ﻿"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿ , and feel free to ﻿"
-msgstr "und"
+msgstr "und Sie können"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2861,7 +2878,7 @@ msgstr "hier"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "﻿request a demo﻿"
-msgstr "bitten Sie um eine Demo"
+msgstr "eine Demo buchen"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3036,7 +3053,7 @@ msgstr "🔍 Die aufgewendete Zeit genau nachverfolgen"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🛒 Material Shopping List (Construction Developer)"
-msgstr ""
+msgstr "🛒 Material-Einkaufsliste (Bauunternehmer)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body

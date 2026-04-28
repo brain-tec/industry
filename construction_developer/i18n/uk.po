@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:56+0000\n"
-"PO-Revision-Date: 2026-04-16 20:10+0000\n"
-"Last-Translator: Vlad Patenko <vlad.patenko@gmail.com>\n"
+"PO-Revision-Date: 2026-04-24 19:30+0000\n"
+"Last-Translator: Lohushchenko <nadiia.lohushchenko@self-erp.com>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-19/"
 "construction_developer/uk/>\n"
 "Language: uk\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.project_form_view_extension
@@ -593,7 +593,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:construction_developer.field_x_remark_x_state_selection_in_progress
 #: model_terms:ir.ui.view,arch_db:construction_developer.sale_order_filter
 msgid "In Progress"
-msgstr ""
+msgstr "В процесі"
 
 #. module: construction_developer
 #: model:ir.model.fields,field_description:construction_developer.x_is_template_field_x_work_item
@@ -826,7 +826,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:construction_developer.field_x_remark_x_project_id
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "Project"
-msgstr ""
+msgstr "Проєкт"
 
 #. module: construction_developer
 #: model:sale.order.template.line,name:construction_developer.sale_order_template_line_71
