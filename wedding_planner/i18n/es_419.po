@@ -3,15 +3,15 @@
 # * wedding_planner
 #
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
-# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
 # "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:18+0000\n"
-"PO-Revision-Date: 2026-01-27 22:44+0000\n"
-"Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
+"PO-Revision-Date: 2026-05-02 09:33+0000\n"
+"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19/wedding_planner/es_419/>\n"
 "Language: es_419\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: wedding_planner
 #: model_terms:ir.ui.view,arch_db:wedding_planner.welcome_article_body
@@ -122,7 +122,7 @@ msgid ""
 "            <br/>"
 msgstr ""
 "<span class=\"display-4-fs\">\n"
-"                <strong>Planeador de bodas</strong>\n"
+"                <strong>Organizador de bodas</strong>\n"
 "            </span>\n"
 "            <br/>"
 
@@ -401,9 +401,9 @@ msgid ""
 "An ideal pre-configured module for your Wedding Planner needs in Odoo, from "
 "lead management to project planning and budgeting."
 msgstr ""
-"Un módulo preconfigurado perfecto para sus necesidades de planeación de "
-"bodas en Odoo, desde la gestión de leads hasta la planeación de proyecto y "
-"la elaboración del presupuesto."
+"Un módulo preconfigurado ideal para tus necesidades de organización de bodas "
+"en Odoo, desde la gestión de leads hasta la planeación del proyecto y la "
+"elaboración del presupuesto."
 
 #. module: wedding_planner
 #: model:sale.order.template.line,name:wedding_planner.sale_order_template_line_26
@@ -782,7 +782,7 @@ msgstr "Todavía puede hacerlo si actualiza su paquete en Aplicaciones."
 msgid ""
 "Your Odoo Wedding Planner Package helps you streamline your operations by:"
 msgstr ""
-"Con su paquete de Planeación de bodas de Odoo podrá optimizar sus "
+"Con tu paquete de Organizadores de bodas de Odoo podrás optimizar tus "
 "operaciones al:"
 
 #. module: wedding_planner

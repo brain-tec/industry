@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-17 11:20+0000\n"
-"PO-Revision-Date: 2026-01-07 09:02+0000\n"
+"PO-Revision-Date: 2026-05-02 09:39+0000\n"
 "Last-Translator: Tomáš Píšek <Tomas.Pisek@seznam.cz>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-19/"
 "account_pos_settle_due/sk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: account_pos_settle_due
 #: model:base.automation,name:account_pos_settle_due.account_pos_settle_due_on_invoice_confirmation
@@ -28,7 +28,7 @@ msgstr "Účtovníctvo POS Vyrovnanie zostatku: Pri potvrdení faktúry"
 #. module: account_pos_settle_due
 #: model:base.automation,name:account_pos_settle_due.account_pos_settle_due_on_invoice_creation
 msgid "Account POS Settle Due: On Invoice Creation"
-msgstr ""
+msgstr "Vyrovnať splatné: Pri vytvorení faktúry"
 
 #. module: account_pos_settle_due
 #: model:ir.actions.server,name:account_pos_settle_due.account_pos_settle_due_balance_customer_account

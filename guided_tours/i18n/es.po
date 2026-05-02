@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:16+0000\n"
-"PO-Revision-Date: 2026-03-21 09:52+0000\n"
+"PO-Revision-Date: 2026-05-02 09:32+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "guided_tours/es/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.homepage
@@ -76,7 +76,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:guided_tours.ir_ui_view_3838
 msgid "<i class=\"fa fa-long-arrow-left me-2\"/>All Private Tours"
 msgstr ""
-"<i class=\"fa fa-long-arrow-left me-2\"/>Todas las excursiones privadas"
+"<i class=\"fa fa-long-arrow-left me-2\"/>Todas las visitas guiadas privadas"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -120,7 +120,7 @@ msgid ""
 "<span class=\"display-4-fs\"><strong>Odoo for Guided Tours</strong></"
 "span><br/>"
 msgstr ""
-"<span class=\"display-4-fs\"><strong>Odoo para excursiones guiadas</strong></"
+"<span class=\"display-4-fs\"><strong>Odoo para visitas guiadas</strong></"
 "span><br/>"
 
 #. module: guided_tours
@@ -231,8 +231,8 @@ msgid ""
 "<strong>Accounting</strong>: Automate invoices, reconcile payments, and "
 "track profitability per tour type"
 msgstr ""
-"<strong>Contabilidad</strong>: automatice sus facturas, concilie pagos y "
-"lleve control de la rentabilidad de cada tipo de excursión"
+"<strong>Contabilidad</strong>: automatiza tus facturas, concilia pagos y "
+"lleva control de la rentabilidad de cada tipo de visita"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -251,6 +251,10 @@ msgid ""
 "Cathedral of Our Lady, and stroll through the dynamic streets of this port "
 "city where tradition meets modern creativity."
 msgstr ""
+"<strong>Amberes</strong> deslumbra por su espíritu vanguardista y su rico "
+"patrimonio artístico. Explora el legado de Rubens, maravíllate ante la "
+"catedral gótica de Nuestra Señora y pasea por las enérgicas calles de esta "
+"ciudad portuaria donde la tradición se une a la creatividad moderna."
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -258,6 +262,8 @@ msgid ""
 "<strong>Appointments</strong>: Allow customers to book private tours based "
 "on availability and language preferences."
 msgstr ""
+"<strong>Citas</strong>: permite que los clientes reserven tours privados en "
+"función de la disponibilidad y las preferencias de idioma."
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -272,12 +278,17 @@ msgid ""
 "opulent Grand Place to the surreal world of Magritte, this city is a must-"
 "see for culture lovers and history buffs alike."
 msgstr ""
+"<strong>Bruselas</strong>, el corazón de Europa, te da la bienvenida con su "
+"grandiosa arquitectura, sus calles empedradas y un ambiente vibrante. Desde "
+"la opulenta Grand Place hasta el mundo surrealista de Magritte, esta ciudad "
+"es una visita obligatoria tanto para los amantes de la cultura como para los "
+"aficionados de la historia."
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid ""
 "<strong>Create services</strong> for each destination &amp; language pair"
-msgstr ""
+msgstr "<strong>Crea servicios</strong> para cada destino e idioma"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -285,6 +296,8 @@ msgid ""
 "<strong>Create visually rich pages</strong> with images, videos, and tour "
 "descriptions"
 msgstr ""
+"<strong>Crea páginas visualmente atractivas</strong> con imágenes, vídeos y "
+"descripciones de los tours"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -292,11 +305,15 @@ msgid ""
 "<strong>Customers book online</strong> and receive <strong>automated "
 "reminders</strong>"
 msgstr ""
+"<strong>Los clientes reservan online</strong> y reciben <strong>"
+"recordatorios automáticos</strong>"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid "<strong>Customize layouts easily</strong> using drag-and-drop editor"
 msgstr ""
+"<strong>Personaliza fácilmente los diseños</strong> utilizando el editor de "
+"arrastrar y soltar"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
@@ -304,12 +321,16 @@ msgid ""
 "<strong>Dashboards</strong>: Visualize your KPIs—bookings per guide, top-"
 "selling tours, revenue trends"
 msgstr ""
+"<strong>Tableros</strong>: visualiza tus KPI (reservas por guía, tours más "
+"vendidos, tendencias de ingresos)"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
 msgid ""
 "<strong>Define each tour</strong> as an event with time slots and capacities"
 msgstr ""
+"<strong>Define cada visita guiada</strong> como un evento con franjas "
+"horarias y aforo"
 
 #. module: guided_tours
 #: model_terms:ir.ui.view,arch_db:guided_tours.welcome_article_body
