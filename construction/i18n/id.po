@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-24 17:53+0000\n"
-"PO-Revision-Date: 2026-04-11 14:09+0000\n"
+"PO-Revision-Date: 2026-04-28 14:35+0000\n"
 "Last-Translator: \"Nurul Aini Akrima Sabila (nuaas)\" <nuaas@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-2/"
 "construction/id/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
@@ -32,7 +32,7 @@ msgstr "10kW reversible system"
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "30% deposit, 70% on completion"
-msgstr ""
+msgstr "30% deposit, 70% saat selesai"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_45
@@ -51,6 +51,9 @@ msgid ""
 "ensuring that the latest versions are\n"
 "                    always available to the team."
 msgstr ""
+"<b>Aplikasi Dokumen</b>: Kumpulkan cetak biru, kontrak, dan izin di satu "
+"tempat untuk memastikan versi terbaru\n"
+"                    selalu tersedia bagi tim."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -67,6 +70,9 @@ msgid ""
 "multiple sites or warehouses,\n"
 "                    reducing loss and theft."
 msgstr ""
+"<b>Aplikasi Inventaris</b>: Pantau alat, perlengkapan, dan bahan habis pakai "
+"di berbagai lokasi atau gudang\n"
+"                    untuk mengurangi risiko kehilangan dan pencurian."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -91,6 +97,9 @@ msgid ""
 "managing RFQs and purchase orders to\n"
 "                    ensure timely delivery to the site."
 msgstr ""
+"<b>Aplikasi Purchase</b>: Otomatiskan pengadaan bahan bangunan, kelola RFQ "
+"dan surat pembelian untuk\n"
+"                    memastikan pengiriman tepat waktu ke lokasi."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
