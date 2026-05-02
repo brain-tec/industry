@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 19:15+0000\n"
-"PO-Revision-Date: 2026-04-04 12:59+0000\n"
+"PO-Revision-Date: 2026-05-02 11:32+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
-"Language-Team: Spanish <https://translate.odoo.com/projects/odoo-s19-2/"
+"Language-Team: Spanish <https://translate.odoo.com/projects/odoo-s19-3/"
 "metal_fabricator/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
@@ -32,6 +32,10 @@ msgid ""
 "<b>on-site installation</b> and meticulous project management, ensuring a "
 "smooth and successful completion from start to finish."
 msgstr ""
+"&amp;nbsp;Para proyectos de mayor envergadura, ofrecemos servicios "
+"integrales que incluyen <b>instalación in situ</b> y una gestión meticulosa "
+"del proyecto, lo que garantiza una ejecución fluida y satisfactoria de "
+"principio a fin."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
@@ -41,6 +45,11 @@ msgid ""
 "in sectors like <b>agriculture</b>, <b>automotive</b>, and "
 "<b>pharmaceuticals</b>, ensuring we meet the unique demands of each project."
 msgstr ""
+"&amp;nbsp;Nuestra experiencia abarca diversos sectores. Ofrecemos servicios "
+"personalizados de fabricación de metales tanto para <b>particulares</b> como "
+"para <b>empresas</b> en sectores como la <b>agricultura</b>, la <b>"
+"automoción</b> y la industria <b>farmacéutica</b>, asegurando que cumplimos "
+"con las necesidades específicas de cada proyecto."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
@@ -48,6 +57,8 @@ msgid ""
 "<a class=\"btn btn-secondary mb-2 o_translate_inline\" href=\"/"
 "contactus\">Get your project started</a>"
 msgstr ""
+"<a class=\"btn btn-secondary mb-2 o_translate_inline\" href=\"/contactus\">"
+"Pongamos en marcha tu proyecto</a>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -55,16 +66,20 @@ msgid ""
 "<b>Accounting:</b> Automatically log payments, close sessions, and generate "
 "tax reports."
 msgstr ""
+"<b>Contabilidad:</b> registra automáticamente los pagos, cierra sesiones y "
+"genera informes fiscales."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Adjust the expected arrival date</b> as needed."
-msgstr ""
+msgstr "<b>Ajusta la fecha de llegada prevista</b> según sea necesario."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Buy:</b> Select this if the product is purchased from a vendor."
 msgstr ""
+"<b>Comprar:</b> selecciona esta opción si el producto se compra a un "
+"proveedor."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -72,17 +87,22 @@ msgid ""
 "<b>Combine RFQs:</b> If you have multiple requests for quotation (RFQs) from "
 "the same vendor, you can group them into a single order."
 msgstr ""
+"<b>Combina solicitudes de presupuesto:</b> si tienes varias solicitudes de "
+"presupuesto (SdP) del mismo proveedor, puedes agruparlas en un único pedido."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid ""
 "<b>Create a purchase order</b> and add the products and services you need."
 msgstr ""
+"<b>Crea un pedido de compra</b> y añade los productos y servicios que "
+"necesites."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Field Service:</b> Plan and monitor on-site installations."
 msgstr ""
+"<b>Servicio de campo:</b> planifica y supervisa las instalaciones in situ."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -94,6 +114,14 @@ msgid ""
 "validated on time. If you wish to implement inventory tracking, you can find "
 "more information in the official documentation."
 msgstr ""
+"<b>Seguimiento de inventario:</b> aunque Odoo ofrece esta funcionalidad, en "
+"esta base de datos hemos decidido no realizar el seguimiento de los "
+"productos mediante un sistema de gestión de almacenes. Si bien el "
+"seguimiento de inventario mejora la precisión de las existencias y la "
+"previsión, también requiere más tareas administrativas para garantizar que "
+"todas las operaciones se validen a tiempo. Si quieres implementar el "
+"seguimiento de inventario, puedes encontrar más información en la "
+"documentación oficial."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -101,16 +129,20 @@ msgid ""
 "<b>Inventory:</b> Track and manage all your products within a custom-"
 "designed warehouse."
 msgstr ""
+"<b>Inventario:</b> realiza el seguimiento y gestiona todos tus productos en "
+"un almacén diseñado a medida."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Manufacture:</b> Choose this if the product is made in-house."
 msgstr ""
+"<b>Fabricación:</b> selecciona esta opción si el producto se fabrica "
+"internamente/en la empresa."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Open the Manufacturing Order</b> and add the necessary components."
-msgstr ""
+msgstr "<b>Abre la orden de fabricación</b> y añade los componentes necesarios."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -125,12 +157,12 @@ msgstr ""
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Setting up the Purchase App</b>"
-msgstr ""
+msgstr "<b>Configurar la aplicación Compra</b>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<b>Validate the order</b> to confirm it."
-msgstr ""
+msgstr "<b>Valida el pedido</b> para confirmarlo."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -139,6 +171,9 @@ msgid ""
 "product and service charges for your clients, creating detailed quotations "
 "for bespoke items."
 msgstr ""
+"Aplicaciones <font class=\"text-o-color-1\"><b>CRM y Ventas </b>:</font> "
+"gestiona todos los cargos de producto y servicio para tus clientes y crea "
+"presupuestos detallados para artículos personalizados."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -147,6 +182,9 @@ msgid ""
 "control over your raw metals, hardware, and finished components across your "
 "warehouse and production floor."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Inventario</b>:</font> mantén "
+"un control estricto sobre sus materias primas, hardware y componentes "
+"acabados en todo tu almacén y planta de producción."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -155,6 +193,9 @@ msgid ""
 "all your invoices, handling progress billing for long-term projects or "
 "standard invoicing for direct sales."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Facturación</b>:</font> lleva un control "
+"de todas tus facturas, gestiona la facturación por hitos para proyectos a "
+"largo plazo o la facturación estándar para ventas directas."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -163,6 +204,9 @@ msgid ""
 "creation of all your products, managing bills of materials (BoMs) and work "
 "centers for everything from cutting to welding."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Fabricación</b>:</font> "
+"gestiona la creación de todos tus productos, lista de materiales y centros "
+"de trabajo para todo el proceso, desde el corte hasta la soldadura."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -171,6 +215,9 @@ msgid ""
 "fabrication projects that involve multiple production stages and "
 "installation phases efficiently."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Proyectos</b>:</font> gestiona "
+"de forma eficiente proyectos de fabricación complejos que requieran varias "
+"etapas de producción y fases de instalación."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -179,6 +226,10 @@ msgid ""
 "inventory replenishment for raw materials and track <b>subcontracting "
 "services</b> for specialized treatments like galvanizing."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación Compra</b>:</font> garantiza "
+"una reposición precisa del inventario de materias primas y realiza el "
+"seguimiento de los <b>⁣servicios de subcontratación</b> para tratamientos "
+"especializados como la galvanización."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -187,6 +238,10 @@ msgid ""
 "showroom to display your past projects and specialized capabilities, serving "
 "as a powerful tool for generating new leads."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Aplicación web</b>:</font> actúa como una "
+"sala de exposición virtual para mostrar tus proyectos anteriores y "
+"capacidades especializadas, así como una potente herramienta para generar "
+"nuevos clientes potenciales."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -264,42 +319,43 @@ msgstr "<span class=\"h1-fs\"><strong>Básicos</strong></span>"
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h2-fs\">Invoicing Your Clients💲</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Facturar a tus clientes 💲</span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage Quotation and Sales Order🤝</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gestiona presupuestos y pedidos de venta🤝</span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your Production🛠️</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gestiona tu producción 🛠️</span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h2-fs\">Manage your website🌐</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gestiona tu sitio web 🌐</span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h2-fs\">Managing Receipts &amp; Deliveries</span>🚛"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Gestión de recepciones y entregas </span>🚛"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h2-fs\">Track Your Purchases</span>🛒"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Realiza un seguimiento de tus compras</span>🛒"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h4-fs\"><strong>Creating Production Order</strong></span>"
 msgstr ""
+"<span class=\"h4-fs\"><strong>Crear una orden de producción</strong></span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h4-fs\"><strong>Creating Purchase Order</strong></span>"
-msgstr ""
+msgstr "<span class=\"h4-fs\"><strong>Crea un pedido de compra</strong></span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -307,11 +363,13 @@ msgid ""
 "<span class=\"h4-fs\"><strong>Creating a Sales Order from the CRM</strong></"
 "span>"
 msgstr ""
+"<span class=\"h4-fs\"><strong>Crear un pedido de venta desde el CRM</strong>"
+"</span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "<span class=\"h6-fs\">Manual Management</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">Gestión manual</span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -322,6 +380,12 @@ msgid ""
 "deliveries. With this complete solution, you can boost efficiency and "
 "improve customer satisfaction across all your production services.</span>"
 msgstr ""
+"<span class=\"h6-fs\">Este módulo está diseñado para optimizar tu producción "
+"diaria, de principio a fin. Te ayuda a gestionar las relaciones con los "
+"clientes, a preparar la producción, adquirir materias primas y gestionar las "
+"entregas. Con esta solución integral, puedes aumentar la eficiencia y "
+"mejorar la satisfacción del cliente en todos tus servicios de producción.</"
+"span>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -329,6 +393,9 @@ msgid ""
 "<span class=\"h6-fs\">Welcome to the <strong><font style=\"color: rgb(113, "
 "75, 103);\">Odoo Metal Fabricator package</font></strong>!</span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">¡Te damos la bienvenida al <strong><font "
+"style=\"color: rgb(113, 75, 103);\">paquete de Odoo para la industria de "
+"fabricación metálica</font></strong>!</span><br/>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -400,6 +467,8 @@ msgstr ""
 msgid ""
 "<strong><span class=\"display-4-fs\">Metal Fabricator</span></strong><br/>"
 msgstr ""
+"<strong><span class=\"display-4-fs\">Fabricación metálica</span></strong>"
+"<br/>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -407,6 +476,8 @@ msgid ""
 "<strong>Send the final quotation</strong> to the client, making sure to "
 "attach any plans from your drawing software."
 msgstr ""
+"<strong>Envía el presupuesto final</strong> al cliente y asegúrate de "
+"adjuntar cualquier plano de tu software de dibujo."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.footer
@@ -424,22 +495,22 @@ msgstr ""
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
 msgid "All industries&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Todos los sectores&amp;nbsp;<br/>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
 msgid "All our fabrication services"
-msgstr ""
+msgstr "Todos nuestros servicios de fabricación"
 
 #. module: metal_fabricator
 #: model:product.template,name:metal_fabricator.product_product_4_product_template
 msgid "Aluminium Bar 14*14*220"
-msgstr ""
+msgstr "Barra de aluminio 14*14*220"
 
 #. module: metal_fabricator
 #: model:product.template,name:metal_fabricator.product_product_7_product_template
 msgid "Aluminium Plate 2mm"
-msgstr ""
+msgstr "Placa de aluminio de 2 mm"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
@@ -447,16 +518,18 @@ msgid ""
 "As a custom metal fabricator, we specialize in creating bespoke metal "
 "solutions tailored to your exact specifications."
 msgstr ""
+"Como fabricantes de metal a medida, nos especializamos en crear soluciones "
+"metálicas personalizadas que se adaptan a tus especificaciones."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "Automatic Creation from a Sales Order"
-msgstr ""
+msgstr "Creación automática a partir de un pedido de venta"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "Automatic Creation:"
-msgstr ""
+msgstr "Creación automática:"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -479,7 +552,7 @@ msgstr ""
 #: model:sale.order.template.line,name:metal_fabricator.sale_order_template_line_6
 #: model:sale.order.template.line,name:metal_fabricator.sale_order_template_line_7
 msgid "Change the Description here"
-msgstr ""
+msgstr "Cambia la descripción aquí"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -487,11 +560,14 @@ msgid ""
 "Choose the <strong>customer</strong> from your list. If they're a new "
 "client, you can add their information directly in the customer field."
 msgstr ""
+"Selecciona el <strong>cliente</strong> de tu lista. Si se trata de un "
+"cliente nuevo, puedes añadir su información directamente en el campo "
+"correspondiente."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
 msgid "Click <b>Validate</b>."
-msgstr ""
+msgstr "Haz clic en <b>Validar</b>."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -499,6 +575,8 @@ msgid ""
 "Click <strong>\"Create\"</strong> to start a new <strong>opportunity</"
 "strong>."
 msgstr ""
+"Haz clic en <strong> «Crear»</strong> para iniciar una nueva <strong>"
+"oportunidad</strong>."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.contactus
@@ -512,6 +590,9 @@ msgid ""
 "                        We'll do our best to get back to you as soon as "
 "possible."
 msgstr ""
+"Contacta con nosotros si quieres hablar sobre nuestra empresa o nuestros "
+"servicios.<br/>\n"
+"                      Te responderemos lo antes posible."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -520,21 +601,24 @@ msgid ""
 "Inventory Tab</b>. This determines how the product will be restocked. You "
 "have two main options:"
 msgstr ""
+"Crea los productos necesarios y elige su <b>ruta en la pestaña Inventario</b>"
+". Esto determina cómo se repondrá el producto. Tienes dos opciones "
+"principales:"
 
 #. module: metal_fabricator
 #: model:product.template,name:metal_fabricator.product_product_6_product_template
 msgid "Custom Laser Cutting INOX"
-msgstr ""
+msgstr "Corte por láser personalizado INOX"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
 msgid "Custom Metal Product&amp;nbsp;<br/>"
-msgstr ""
+msgstr "Producto metálico personalizado&amp;nbsp;<br/>"
 
 #. module: metal_fabricator
 #: model:product.template,name:metal_fabricator.product_product_3_product_template
 msgid "Custom Product"
-msgstr ""
+msgstr "Producto personalizado"
 
 #. module: metal_fabricator
 #: model:product.category,name:metal_fabricator.product_category_5
@@ -768,6 +852,12 @@ msgid ""
 "assemblies have been produced. Otherwise, it will remain yellow (labeled "
 "<b>MO Pending</b> in the filters)."
 msgstr ""
+"En la vista general de Fabricación, el estado <b>«Disponible»</b> de un "
+"pedido solo se pondrá en verde (con la etiqueta <b>Orden de fabricación "
+"lista</b> en los filtros) una vez que se hayan recibido en el stock todos "
+"los artículos comprados necesarios y se hayan producido todos los "
+"subensamblajes. De lo contrario, seguirá apareciendo en amarillo (con la "
+"etiqueta como <b>Orden de fabricación pendiente</b> en los filtros)."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -894,6 +984,10 @@ msgid ""
 "Its main purpose is to automatically generate all the necessary <b>sub-"
 "assemblies</b> and <b>purchase orders</b> linked to your production needs."
 msgstr ""
+"La aplicación <b>Fabricación</b> es el centro principal para la gestión de "
+"la producción. Su objetivo principal es generar automáticamente todos los <b>"
+"subensamblajes</b> necesarios y los <b>pedidos de compra</b> vinculados a "
+"tus necesidades de producción."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body

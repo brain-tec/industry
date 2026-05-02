@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 17:43+0000\n"
-"PO-Revision-Date: 2026-02-13 14:46+0000\n"
+"PO-Revision-Date: 2026-04-30 07:13+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
-"Language-Team: Polish <https://translate.odoo.com/projects/odoo-s19-1/"
+"Language-Team: Polish <https://translate.odoo.com/projects/odoo-s19-3/"
 "booking_engine/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_guest1
@@ -58,7 +58,7 @@ msgstr "4 os."
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.custom_add_cart_name
 msgid "<i class=\"fa fa-shopping-cart me-2\"/>Book"
-msgstr ""
+msgstr "<i class=\"fa fa-shopping-cart me-2\"/>Zarezerwuj"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.product_form_view
@@ -69,17 +69,17 @@ msgstr "<span invisible=\"id\">Zapisz ten produkt, aby edytować zasoby.</span>"
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 msgid "<span>Available:</span>"
-msgstr ""
+msgstr "<span>Dostępne:</span>"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 msgid "<span>Booked:</span>"
-msgstr ""
+msgstr "<span>Zarezerwowane:</span>"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 msgid "<span>Total Units:</span>"
-msgstr ""
+msgstr "<span>Łączna liczba jednostek:</span>"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.res_config_settings_form_view_inherited
@@ -99,7 +99,7 @@ msgstr "Aktywuj usługi sprzątania"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_active_field_x_availability
 msgid "Active"
-msgstr ""
+msgstr "Aktywne"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.product_form_view
@@ -130,7 +130,7 @@ msgstr "Wszystkie pokoje"
 #: model:base.automation,name:booking_engine.industry_on_slot_fix_resources
 #: model:ir.actions.server,name:booking_engine.industry_limit_slot_resources
 msgid "Allow only one resource per slot for rooms"
-msgstr ""
+msgstr "Zezwól tylko na jeden zasób na slot pokoju"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.apply_rental_check_out
@@ -168,7 +168,7 @@ msgstr "Atrybuty"
 #: model:ir.model.fields,field_description:booking_engine.x_availability_ids_field_planning_slot
 #: model:ir.model.fields,field_description:booking_engine.x_availability_ids_field_resource_calendar_leaves
 msgid "Availabilities"
-msgstr ""
+msgstr "Dostępności"
 
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.action_window_availability_availability
@@ -178,12 +178,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_availability_gantt
 #: model_terms:ir.ui.view,arch_db:booking_engine.view_x_availability_form
 msgid "Availability"
-msgstr ""
+msgstr "Dostępność"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_availability_color_field_x_availability
 msgid "Availability Color"
-msgstr ""
+msgstr "Kolor dostępności"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_available_field_x_availability
@@ -221,7 +221,7 @@ msgstr "Konsola"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_booked_field_x_availability
 msgid "Booked"
-msgstr ""
+msgstr "Zarezerwowane"
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_menu_root
@@ -241,97 +241,109 @@ msgstr "Ustawienia systemu rezerwacji"
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_helper_compute_new_avails_to_recompute
 msgid "Booking Engine: Availability Helper - Compute New Availabilities M2M"
-msgstr ""
+msgstr "Silnik rezerwacji: Pomocnik dostępności - oblicz nowe dostępności M2M"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_calendar_leaves
 msgid "Booking Engine: Availability Leave Modify Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: Logika modyfikacji dostępności"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_product_template
 msgid "Booking Engine: Availability Offer Modify Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: Logika modyfikacji oferty dostępności"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_resource
 msgid "Booking Engine: Availability Room Modify Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: logika modyfikacji dostępności pokoi"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_planning_slot
 msgid "Booking Engine: Availability Slot Modify Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: logika modyfikacji przedziałów dostępności"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_create_500_days_availability
 msgid "Booking Engine: Daily availability creation"
-msgstr ""
+msgstr "Silnik rezerwacji: Tworzenie dziennej dostępności"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_calendar_leaves_delete
 msgid "Booking Engine: Leave Delete Availability Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: Logika usuwania dostępności"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Leave Change"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępności do ponownego obliczenia: Zmiana "
+"niedostępności"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Leave Delete"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępność do ponownego obliczenia: Usuń "
+"niedostępność"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_product_template_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Offer Change"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępności do ponownego obliczenia: Zmiana oferty"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_product_template_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Offer Delete"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępności do ponownego obliczania: Usuń ofertę"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_resource_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Room Change"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępności do ponownego obliczenia: Zmiana pokoju"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_resource_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Room Delete"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępności do ponownego obliczania: Usuń pokój"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_planning_slot_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Slot Change"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępności do ponownego obliczenia: Zmiana "
+"przedziału czasowego"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_planning_slot_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Slot Delete"
 msgstr ""
+"Silnik rezerwacji: Oznacz dostępności do ponownego obliczania: Usuń "
+"przedział czasowy"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_resource_delete
 msgid "Booking Engine: Room Delete Availability Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: Logika dostępności usunięcia pokoju"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_planning_slot_delete
 msgid "Booking Engine: Slot Delete Availability Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: Logika usuwania dostępności przedziału"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_product_template_delete
 msgid "Booking Engine: Stay Offer Delete Availability Logic"
-msgstr ""
+msgstr "Silnik rezerwacji: Logika usuwania dostępności oferty pobytu"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availabilities
 msgid "Booking Engine: Update Availabilities"
-msgstr ""
+msgstr "Silnik rezerwacji: Aktualizacja dostępności"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_21
@@ -451,7 +463,7 @@ msgstr "Klient"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_date_field_x_availability
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_unset
@@ -461,7 +473,7 @@ msgstr "Dezaktywuj usługi sprzątania"
 #. module: booking_engine
 #: model:product.pricelist,name:booking_engine.product_pricelist_1
 msgid "Default"
-msgstr ""
+msgstr "Domyślne"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_resource_form
@@ -527,7 +539,7 @@ msgstr "Edytuj nazwę roli podczas modyfikacji oferty pobytu"
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_product_pricelist_item_view_form
 msgid "Eg: Christmas"
-msgstr ""
+msgstr "Np. Boże narodzenie"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_employee_id_field_project_task
@@ -752,7 +764,7 @@ msgstr "Duże podwójne łóżko"
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_resource_calendar_leaves_action
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_leaves_menu
 msgid "Leaves"
-msgstr ""
+msgstr "Urlopy"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_18
@@ -772,7 +784,7 @@ msgstr "N/A"
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_product_pricelist_item_view_list
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.base_model_res_partner_x_nationality_field
@@ -877,17 +889,17 @@ msgstr "Rola planowania"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.field_product_pricelist_item_x_name
 msgid "Pricelist Item Name"
-msgstr ""
+msgstr "Nazwa elementu cennika"
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_pricelist_menu
 msgid "Pricelists"
-msgstr ""
+msgstr "Cenniki"
 
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_prices
 msgid "Prices"
-msgstr ""
+msgstr "Ceny"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_value_4
@@ -919,7 +931,7 @@ msgstr "Opublikowano"
 #: model:ir.ui.menu,name:booking_engine.booking_engine_rooms_pricelist_item_menu
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_product_pricelist_item_view_calendar
 msgid "Rates"
-msgstr ""
+msgstr "Stawki"
 
 #. module: booking_engine
 #: model:project.task.type,name:booking_engine.project_task_type_18
@@ -1043,7 +1055,7 @@ msgstr "Status"
 #: model:ir.model.fields,field_description:booking_engine.x_stay_offer_field_x_availability
 #: model:product.category,name:booking_engine.product_category_6
 msgid "Stay Offer"
-msgstr ""
+msgstr "Oferta pobytu"
 
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_rooms_offers_action
@@ -1079,7 +1091,7 @@ msgstr "Pobyty"
 #. module: booking_engine
 #: model:ir.ui.menu,name:booking_engine.menu_availability_steering
 msgid "Steering"
-msgstr ""
+msgstr "Sterowanie"
 
 #. module: booking_engine
 #: model:ir.model.fields.selection,name:booking_engine.product_model_product_template_x_offer_type_selection_6
@@ -1142,7 +1154,7 @@ msgstr "Do czyszczenia"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_to_recompute_field_x_availability
 msgid "To Recompute"
-msgstr ""
+msgstr "Do ponownego obliczenia"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
@@ -1157,7 +1169,7 @@ msgstr "Suma"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_total_units_field_x_availability
 msgid "Total Units"
-msgstr ""
+msgstr "Całkowita liczba jednostek"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_17
@@ -1231,4 +1243,4 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_resource_list
 #: model_terms:ir.ui.view,arch_db:booking_engine.resource_resource_form_view_extension
 msgid "Working Schedule"
-msgstr ""
+msgstr "Grafik pracy"
