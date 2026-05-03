@@ -7,13 +7,14 @@
 # Larissa Manderfeld, 2025
 #
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:20+0000\n"
-"PO-Revision-Date: 2025-08-12 23:51+0000\n"
-"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"PO-Revision-Date: 2026-05-02 22:51+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-s18-3/"
 "outdoor_activities/es/>\n"
 "Language: es\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -100,8 +101,8 @@ msgid ""
 "<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@divetours-"
 "industry.odoo.com"
 msgstr ""
-"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/"
-">info@industriadeexcursióndebuceo.odoo.com"
+"<i class=\"fa fa-1x fa-fw fa-envelope me-2\"/>info@divetours-"
+"industry.odoo.com"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
@@ -710,7 +711,7 @@ msgstr ""
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.homepage
 msgid "Book a dive trip"
-msgstr "Reservar una excursión de buceo"
+msgstr "Reservar una inmersión"
 
 #. module: outdoor_activities
 #: model_terms:ir.ui.view,arch_db:outdoor_activities.welcome_article_body
@@ -1277,10 +1278,10 @@ msgid ""
 "            documentation on the subject."
 msgstr ""
 "Perfecto, el cliente ha confirmado el presupuesto y podemos enviar el pedido "
-"de de venta. ¡Enhorabuena por vender venta de esa excursión privada! "
-"Consulte nuestra documentación oficial sobre el tema para obtener más "
-"detalles sobre la creación y envío de presupuestos\n"
-"            desde la aplicación CRM."
+"de venta. ¡Enhorabuena por la venta de una visita privada! Para obtener más "
+"información sobre cómo crear y enviar presupuestos desde la aplicación CRM, "
+"consulte nuestra\n"
+"            documentación oficial al respecto."
 
 #. module: outdoor_activities
 #: model:crm.tag,name:outdoor_activities.crm_tag_6
