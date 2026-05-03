@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 19:16+0000\n"
+"POT-Creation-Date: 2026-05-01 18:10+0000\n"
 "PO-Revision-Date: 2026-04-04 12:55+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
@@ -34,6 +34,11 @@ msgstr "，也欢迎随时"
 #: model:uom.uom,name:food_distribution.uom_uom_32
 msgid "1/6Gn Dispenser"
 msgstr "1/6 加仑分配器"
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_38
+msgid "250g Tub"
+msgstr ""
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_29
@@ -156,6 +161,14 @@ msgid ""
 msgstr ""
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_sale_order_form_view
+msgid ""
+"<span>Warning: Some products use the MTO route while the delivery date is "
+"not set. Adjust the delivery date to customer needs to ensure manufacturing "
+"just in time!</span>"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>基础知识</strong>"
@@ -257,10 +270,25 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"As a result, a single MO includes all manufacturing needs for the coming "
+"days, ensuring customers will be delivered fresh products while you batch "
+"their production!"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "As an Inventory Manager you need to make sure that the production team never "
 "runs out of\n"
 "          supply!"
 msgstr "作为一名库存经理，您需要确保生产团队永远不会断供！"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Assuming you received some ingredients and weeks after the supplier notifies "
+"you of a quality alert about the lot PLE-001 of pasteurized liquid eggs."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
@@ -274,6 +302,11 @@ msgid ""
 "organized in FIFO."
 msgstr ""
 "在生产和交付之间，默认情况下，产品拣货是按“先进先出”（FIFO）的原则组织的。"
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_39
+msgid "Box 8x 250g Tub"
+msgstr ""
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_9
@@ -410,6 +443,11 @@ msgstr "这样，您就生成了一个新的制造订单，您的操作员现在
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Downstream Traceability Report"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Drag and drop manufacturing orders to spread evenly the load between "
 "Mayonnaise\n"
@@ -496,6 +534,11 @@ msgid "Food distribution"
 msgstr "食品分销"
 
 #. module: food_distribution
+#: model:product.template,name:food_distribution.product_template_14
+msgid "Fresh Potato Salad 250g"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "From the <strong>Sales App</strong>, you can manage your orders."
 msgstr "通过<strong>销售应用程序</strong>，您可以管理您的订单。"
@@ -547,6 +590,13 @@ msgstr "在这里您可以找到一些物流数据，以优化您的交付流程
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"Hit the Transfers smart button to generate a full distribution list of "
+"impacted end-customers!"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo\n"
 "          data and try the Demo - Use Case (In the next Knowledge Article)"
@@ -557,8 +607,24 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"In food distribution, you need to efficiently identify lots contaminated by "
+"non-compliant ingredients, contact impacted customers and scrap those."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "In food industry, ingredients and nutritional facts matter and shall be "
 "captured on labels."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"In this case, we take the example of fresh potato salad which does not last "
+"much.<br/>Basically, you want to make sure to produce only the necessary "
+"amount for your customers based on their orders, eventually anticipating "
+"production over 2 or more days to batch production."
 msgstr ""
 
 #. module: food_distribution
@@ -588,6 +654,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:food_distribution.field_product_template_is_allergen
 #: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_is_allergen
 msgid "Is Allergen"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_sale_order_is_mto_without_date
+msgid "Is MTO without date"
 msgstr ""
 
 #. module: food_distribution
@@ -694,6 +765,11 @@ msgstr ""
 "交付，并为下个月留出一些缓冲。"
 
 #. module: food_distribution
+#: model:stock.scrap.reason.tag,name:food_distribution.stock_scrap_reason_tag_1
+msgid "Non-compliance"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Now Send the Request For Quotation to your supplier if willing to iterate on "
@@ -786,6 +862,20 @@ msgstr "打开<strong>采购应用</strong>和最近创建的采购订单。"
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"Open the Inventory or Manufacturing App, and open the identified non-"
+"compliant serial from the Products, Lots/Serial Numbers menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Open the Manufacturing App and open the Manufacturing Orders from the "
+"Operations menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "Open the Master Production Schedule from the Planning menu.<br/>Don't panic, "
 "this will become\n"
 "        your best buddy to optimize your production!"
@@ -833,6 +923,11 @@ msgid "Pallet 250x 1/6Gn Dispenser"
 msgstr "货板 250 件 × 1/6 加仑给液器瓶装"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_40
+msgid "Pallet 50x Box 8x 250g Tub"
+msgstr ""
+
+#. module: food_distribution
 #: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_parent
 msgid "Parent"
 msgstr ""
@@ -845,6 +940,11 @@ msgstr "巴氏杀菌液体蛋"
 #. module: food_distribution
 #: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_per_100g
 msgid "Per 100g"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Perishable production / Make to order (MTO)"
 msgstr ""
 
 #. module: food_distribution
@@ -905,6 +1005,11 @@ msgid "Raw Material"
 msgstr ""
 
 #. module: food_distribution
+#: model:product.template,name:food_distribution.product_template_16
+msgid "Raw Potatoes"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Reach us"
 msgstr "联系我们"
@@ -939,8 +1044,20 @@ msgstr "为您经常接触的客户群体准备相应的报价单模板，以节
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Scraping the non-compliant ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Select a quotation template to save time for an installation."
 msgstr "选择一个报价单模板以节省安装时间。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Select the corresponding product, add the lot number and quantity to scrap, "
+"tick the replenish box if needed and select the appropriate scrap reason."
+msgstr ""
 
 #. module: food_distribution
 #: model:product.category,name:food_distribution.product_category_5
@@ -973,6 +1090,11 @@ msgstr ""
 "        </strong>及<strong>\n"
 "          <font class=\"text-o-color-1\">客户关系应用程序</font>\n"
 "        </strong>，免费设立您的公司网站，省时省力地获取潜在客户！"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Shelf-stable production / Make to stock (MTS)"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1035,6 +1157,13 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"The last 3 MO capture recent confirmed orders for potato salads with a start "
+"date allowing to manufacture just in time."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "The nutritional fact list is available from the Inventory App, Configuration "
 "menu."
 msgstr ""
@@ -1052,6 +1181,11 @@ msgstr ""
 "您触发的补货规则中的产品会在此列出，\n"
 "但在当前阶段并非所有产品都有补货规则。对于您需要的某些产品或其他供应商，\n"
 "您可以选择将它们手动添加到采购订单，甚至创建新的采购订单。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Then go to the Operations &gt; Scrap menu and create a new entry."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1090,6 +1224,20 @@ msgstr "这很好，但您生产的蛋黄酱可能比您计划包装的要多...
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"This setup relies on Odoo's standard MTO capability: Potato Fresh Salad "
+"operation routes include the MTO route."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"To bundle MO expected on close dates, select them from the list and fire the "
+"Merge command from the Actions menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "To save time and prevent mistake of typo in the Lot inputs, you might want "
 "to work with <strong>Barcode\n"
 "          App</strong>!"
@@ -1100,6 +1248,11 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
 msgid "Traceability"
+msgstr ""
+
+#. module: food_distribution
+#: model:product.template,name:food_distribution.product_template_15
+msgid "Tub 250g"
 msgstr ""
 
 #. module: food_distribution
@@ -1127,9 +1280,25 @@ msgid "Validate the delivery to your customer to complete the job."
 msgstr "验证给客户的交付单以完成此项工作。"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Validate the scrap order ensuring total isolation of the contaminated batch "
+"from your supply chain."
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_4
 msgid "Vinegar"
 msgstr "醋"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"We take the example of the mayonnaise here.<br/>Instead of producing buckets "
+"when your customers ask for it, you anticipate the trends over the coming "
+"weeks and months to always have some available and smoothen the production "
+"workload."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1157,18 +1326,6 @@ msgid ""
 msgstr ""
 "当货车到达并且您将货物添加入库时，请验证交付单以更新您的库存水平。不要忘记在"
 "交付单明细行中设置批号参考。现在，您可以生产一段时间的蛋黄酱了！"
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Whether you want to plan your production based on existing sales orders, or "
-"based on a\n"
-"      forecast, you can use the master production schedule from the "
-"<strong>Manufacturing App</strong>\n"
-"      ."
-msgstr ""
-"无论您是想根据现有销售订单还是根据预测来规划生产，都可以使用<strong>制造应用"
-"程序</strong>中的主生产计划。"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1289,6 +1446,14 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"You might distribute different types of products, shelf-stable and "
+"perishable, and therefore we have different ways to help you with "
+"<strong>Manufacturing App</strong>."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "You might have tested this package with or without demo data. In any case, "
 "you may have\n"
 "      written records in journals which are not deletable and which might be "
@@ -1341,6 +1506,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "request a demo"
 msgstr "请求演示"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"🎓\n"
+"         Inventory"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1407,5 +1579,20 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "🚨 Identifying lots to recall"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🥘 Manufacturing quality products"
 msgstr ""
+
+#~ msgid ""
+#~ "Whether you want to plan your production based on existing sales orders, "
+#~ "or based on a\n"
+#~ "      forecast, you can use the master production schedule from the "
+#~ "<strong>Manufacturing App</strong>\n"
+#~ "      ."
+#~ msgstr ""
+#~ "无论您是想根据现有销售订单还是根据预测来规划生产，都可以使用<strong>制造应"
+#~ "用程序</strong>中的主生产计划。"
