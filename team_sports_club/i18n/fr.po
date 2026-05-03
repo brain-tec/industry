@@ -3,13 +3,14 @@
 # * team_sports_club
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:11+0000\n"
-"PO-Revision-Date: 2025-11-17 10:50+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-05-02 23:51+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 "Language-Team: French <https://translate.odoo.com/projects/odoo-s18-4/"
 "team_sports_club/fr/>\n"
 "Language: fr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -25,26 +26,28 @@ msgid ""
 "<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/"
 "contactus\">Get Involved</a>"
 msgstr ""
+"<a class=\"btn btn-lg btn-primary o_translate_inline\" href=\"/contactus\">"
+"Participez</a>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "<font class=\"text-o-color-1\">Season Ticket Sales</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Vente d'abonnements saisonniers</font>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "<font class=\"text-o-color-1\">Skyline FC Youth Academy</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Académie de jeunes Skyline FC</font>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "<font class=\"text-o-color-1\">Skyline Football Club</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Club de football Skyline</font>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "<font class=\"text-o-color-1\">Stadium Renovation Project</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Projet de rénovation du stade</font>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -52,6 +55,8 @@ msgid ""
 "<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> AVAILABLE FOR "
 "NEW SIGNINGS&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> DISPONIBLE "
+"POUR NOUVELLES INSCRIPTIONS&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -96,6 +101,9 @@ msgid ""
 "                        <strong>Tips for Success</strong>\n"
 "                    </span>"
 msgstr ""
+"<span class=\"h3-fs\">\n"
+"                        <strong>Des conseils pour réussir</strong>\n"
+"                    </span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -105,16 +113,20 @@ msgid ""
 "team committed to excellence and fostering strong relationships with our "
 "supporters.</span>"
 msgstr ""
+"<span class=\"h3-fs\">Notre approche repose sur le travail d'équipe et le "
+"dévouement. Ce qui a commencé comme un club local est devenu une équipe de "
+"football portée par la communauté, engagée vers l'excellence et le "
+"développement de relations solides avec nos supporters.</span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "<span style=\"font-size: 34px;\">Basics</span>"
-msgstr ""
+msgstr "<span style=\"font-size: 34px;\">Les bases</span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "<span style=\"font-size: 34px;\">Want to Go Further?</span>"
-msgstr ""
+msgstr "<span style=\"font-size: 34px;\">Vous voulez aller plus loin ?</span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -123,6 +135,9 @@ msgid ""
 "                <strong>Team Sport Clubs</strong>\n"
 "            </span>"
 msgstr ""
+"<span style=\"font-size: 56px;\">\n"
+"                            <strong>Clubs de sports d'équipe</strong>\n"
+"            </span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -132,11 +147,16 @@ msgid ""
 "font>\n"
 "                      </strong>"
 msgstr ""
+"<strong>\n"
+"                        <font class=\"text-o-color-1\">NOTRE PHILOSOPHIE</"
+"font>\n"
+"                      </strong>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "<strong>CRM</strong> — Manage sponsors and sales opportunities."
 msgstr ""
+"<strong>CRM</strong> — gérez les sponsors et les opportunités commerciales."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -144,6 +164,8 @@ msgid ""
 "<strong>Dashboards</strong> to monitor sponsorship revenue, ticket sales, "
 "recruitment pipeline, and bookings."
 msgstr ""
+"<strong>Tableaux de bord</strong> pour surveiller les revenus de sponsoring, "
+"les ventes de billets, le pipeline de recrutement et les réservations."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -151,6 +173,9 @@ msgid ""
 "<strong>Engage fans</strong>: Add newsletter signup and match highlights to "
 "your website to boost retention."
 msgstr ""
+"<strong>Fildélisez vos fans</strong> : ajoutez un formulaire d’inscription à "
+"la newsletter et les temps forts des matchs sur votre site web pour "
+"améliorer la fidélisation."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -158,6 +183,8 @@ msgid ""
 "<strong>Events</strong> — Handle match tickets, special events, and "
 "registrations."
 msgstr ""
+"<strong>Événements</strong> — gérez les billets de match, les événements "
+"spéciaux et les inscriptions."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -165,6 +192,8 @@ msgid ""
 "<strong>Invoicing</strong> — Invoice sponsors, ticket purchases, and shop "
 "orders."
 msgstr ""
+"<strong>Facturation</strong> — facturez les sponsors, les achats de tickets "
+"et les commandes de la boutique."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -172,6 +201,8 @@ msgid ""
 "<strong>Keep sponsor data fresh</strong>: Use CRM activity templates for "
 "scheduled check-ins or renewals."
 msgstr ""
+"<strong>Maintenez les données des sponsors à jour</strong> : utilisez les "
+"modèles d'activités CRM pour planifier des suivis ou des renouvellements."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -179,12 +210,17 @@ msgid ""
 "<strong>Keep your eCommerce slick</strong>: Use bundled offers—e.g., season "
 "pass + team kit—to drive value."
 msgstr ""
+"<strong>Maintenez votre eCommerce performant</strong> : utilisez des offres "
+"groupées - par exemple un abonnement saisonnier + une tenue - pour augmenter "
+"la valeur."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid ""
 "<strong>Marketing Automation</strong> to engage fans and sponsors over time."
 msgstr ""
+"<strong>Marketing Automation</strong> pour engager les fans et sponsors sur "
+"le long terme."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -192,6 +228,8 @@ msgid ""
 "<strong>Membership/subscription services</strong> with recurring billing via "
 "Recurring Invoices."
 msgstr ""
+"<strong>Services d'adhésion/abonnement</strong> avec facturation récurrente "
+"via des factures récurrentes."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -199,18 +237,24 @@ msgid ""
 "<strong>Organize recruitment</strong>: Standardize evaluation forms in "
 "Projects to compare prospects easily."
 msgstr ""
+"<strong>Organisez le recrutement</strong> : standardisez les formulaires "
+"d'évaluation dans Projets pour comparer facilement les candidats."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid ""
 "<strong>Planning</strong> — Schedule and manage field or court bookings."
 msgstr ""
+"<strong>Planification</strong> — planifiez et gérez les réservations de "
+"terrains ou de courts."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid ""
 "<strong>Point of Sale</strong> — Operate the club bar and merchandise sales."
 msgstr ""
+"<strong>Point de Vente</strong> — gérez les ventes au bar du club et les "
+"ventes de merchandising."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -218,6 +262,8 @@ msgid ""
 "<strong>Project &amp; Appointments</strong> — Coordinate player recruitment, "
 "trials, and evaluations."
 msgstr ""
+"<strong>Projets &amp; Rendez-vous</strong> — coordonnez le recrutement des "
+"joueurs, les essais et les évaluations."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -225,6 +271,8 @@ msgid ""
 "<strong>Promote events early</strong>: Link your Events app with your "
 "website to boost ticket sales."
 msgstr ""
+"<strong>Faites la promotion des événements en avance</strong> : reliez votre "
+"app Événements à votre site web pour stimuler les ventes de billets."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -232,6 +280,8 @@ msgid ""
 "<strong>SMS Marketing</strong> for last-minute match alerts or ticket "
 "promotions."
 msgstr ""
+"<strong>SMS Marketing</strong> pour les alertes de match de dernière minute "
+"ou les promotions de billets."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -239,6 +289,8 @@ msgid ""
 "<strong>Sales</strong> — Create sponsorship offers and annual contribution "
 "proposals."
 msgstr ""
+"<strong>Ventes</strong> — créez des offres de sponsoring et des propositions "
+"de contributions annuelles."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -246,6 +298,8 @@ msgid ""
 "<strong>Sign app</strong> to facilitate digital agreements with sponsors or "
 "suppliers."
 msgstr ""
+"<strong>Signature</strong> pour faciliter les accords numériques avec les "
+"sponsors ou fournisseurs."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -253,17 +307,22 @@ msgid ""
 "<strong>Simplify bookings</strong>: Share Planning booking links with "
 "members or locals to reduce admin overhead."
 msgstr ""
+"<strong>Simplifiez les réservations</strong> : partagez des liens de "
+"réservation Planification avec les membres ou le public pour réduire la "
+"charge administrative."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid ""
 "<strong>Teams</strong> — Organize players, rosters, and team assignments."
 msgstr ""
+"<strong>Équipes</strong> — organisez les joueurs, les effectifs et les "
+"affectations d’équipe."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "<strong>We are Skyline FC.</strong>"
-msgstr ""
+msgstr "<strong>Nous sommes Skyline FC.</strong>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -271,11 +330,15 @@ msgid ""
 "<strong>Website &amp; eCommerce</strong> — Showcase the club, teams, events, "
 "shop items, tickets, and facilitate enrollments."
 msgstr ""
+"<strong>Site Web &amp; eCommerce</strong> — présentez le club, les équipes, "
+"les événements, les articles de la boutique, les billets et facilitez les "
+"inscriptions."
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "<strong>⚽ U5 Football Match: Odoo vs. Football Club Industry</strong>"
 msgstr ""
+"<strong>⚽ Match de football U5 : Odoo vs Football Club Industry</strong>"
 
 #. module: team_sports_club
 #: model:product.public.category,name:team_sports_club.product_public_category_3
@@ -285,17 +348,19 @@ msgstr "Accessoires"
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_11
 msgid "Additional Pack"
-msgstr ""
+msgstr "Pack supplémentaire"
 
 #. module: team_sports_club
 #: model_terms:product.template,description_ecommerce:team_sports_club.product_template_18
 msgid "Adjustable baseball cap with embroidered club logo."
-msgstr ""
+msgstr "Casquette ajustable avec logo du club brodé."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Allow fans to enroll or register players for next season or camps."
 msgstr ""
+"Permettre aux fans de s'inscrire ou d'enregistrer des joueurs pour la "
+"prochaine saison ou les camps."
 
 #. module: team_sports_club
 #: model_terms:product.template,description_ecommerce:team_sports_club.product_template_15
@@ -303,6 +368,8 @@ msgid ""
 "Alternate club jersey in a bold design for away games. Same quality and "
 "personalization as the home version."
 msgstr ""
+"Maillot alternatif du club avec un design audacieux pour les matchs à "
+"l'extérieur. Même qualité et personnalisation que la version domicile."
 
 #. module: team_sports_club
 #: model:product.public.category,name:team_sports_club.product_public_category_1
@@ -313,21 +380,25 @@ msgstr "Vêtements"
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Assign players to teams, track positions, and manage roster changes."
 msgstr ""
+"Assigner les joueurs aux équipes, suivre leurs positions et gérer les "
+"changements d'effectif."
 
 #. module: team_sports_club
 #: model:project.task.type,name:team_sports_club.project_task_type_4
 msgid "Assigned to a team"
-msgstr ""
+msgstr "Assigné à une équipe"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Avoid scheduling conflicts with clear, live availability."
 msgstr ""
+"Éviter les conflits de planification grâce à des disponibilités claires et "
+"en temps réel."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_15
 msgid "Away Jersey"
-msgstr ""
+msgstr "Maillot extérieur"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
@@ -335,6 +406,8 @@ msgid ""
 "Bring your energy, your team colors, and your cheers — let’s make this a day "
 "to remember for our future stars!"
 msgstr ""
+"Apportez votre énergie, les couleurs de votre équipe et vos encouragements — "
+"faisons de cette journée un moment inoubliable pour nos futurs talents !"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -342,6 +415,8 @@ msgid ""
 "Build professional sponsorship proposals (e.g., Platinum, Gold, Silver "
 "tiers)."
 msgstr ""
+"Créer des propositions de sponsoring professionnelles (par exemple niveaux "
+"Platinum, Gold et Silver)."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.contri_form_view_custom
@@ -351,27 +426,27 @@ msgstr "Annuler"
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_18
 msgid "Cap"
-msgstr ""
+msgstr "Casquette"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_10
 msgid "Center Back"
-msgstr ""
+msgstr "Défenseur central"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_13
 msgid "Central Midfielder"
-msgstr ""
+msgstr "Milieu central"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Club Bar &amp; Merchandise Sales 🍻"
-msgstr ""
+msgstr "Ventes au bar &amp; merchandising 🍻"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Club Presence, Shop &amp; Enrollment 🌐"
-msgstr ""
+msgstr "Présence du club, boutique &amp; inscriptions 🌐"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_2
@@ -384,18 +459,19 @@ msgstr "Mentor"
 #: model:product.pricelist,name:team_sports_club.product_pricelist_10
 #: model:res.partner.grade,name:team_sports_club.res_partner_grade_14
 msgid "Coaches"
-msgstr ""
+msgstr "Entraîneurs"
 
 #. module: team_sports_club
 #: model_terms:product.template,description_ecommerce:team_sports_club.product_template_19
 msgid ""
 "Comfortable cotton hoodie with large front pocket and embroidered crest."
 msgstr ""
+"Sweat à capuche en coton confortable avec grande poche avant et logo brodé."
 
 #. module: team_sports_club
 #: model_terms:product.public.category,website_description:team_sports_club.product_public_category_3
 msgid "Complete your look with must-have team gear."
-msgstr ""
+msgstr "Complétez votre tenue avec des articles indispensables de l'équipe."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -407,50 +483,53 @@ msgstr ""
 #: model:ir.model,name:team_sports_club.model_x_contribution
 #: model:product.template,name:team_sports_club.product_template_9
 msgid "Contribution"
-msgstr ""
+msgstr "Contribution"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid ""
 "Convert sponsorship agreements, ticket orders, or shop sales into invoices."
 msgstr ""
+"Convertir les accords de sponsoring, commandes de billets ou ventes en "
+"boutique en factures."
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.base_model_res_partner_x_cotisation_requested_field
 msgid "Cotisation requested"
-msgstr ""
+msgstr "Cotisation demandée"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.contri_form_view_custom
 msgid "Create SO"
-msgstr ""
+msgstr "Créer une commande client"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Create and manage matches or fundraising event pages."
 msgstr ""
+"Créer et gérer des matchs ou des pages d'événements de collecte de fonds."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Create and manage teams for different age groups or levels."
-msgstr ""
+msgstr "Créer et gérer des équipes pour différents groupes d'âge ou niveaux."
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_5
 #: model:res.partner.category,name:team_sports_club.res_partner_category_18
 #: model:res.partner.grade,name:team_sports_club.res_partner_grade_9
 msgid "D1"
-msgstr ""
+msgstr "D1"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_19
 msgid "D2"
-msgstr ""
+msgstr "D2"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_12
 msgid "Defensive Midfielder"
-msgstr ""
+msgstr "Milieu défensif"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -458,16 +537,18 @@ msgid ""
 "Discover our merchandising collection and support your club on a daily "
 "basis.&amp;nbsp;"
 msgstr ""
+"Découvrez notre collection de merchandising et soutenez votre club au "
+"quotidien.&amp;nbsp;"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.header_call_to_action
 msgid "Enrollment"
-msgstr ""
+msgstr "Inscription"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_6
 msgid "Entrainement NOK"
-msgstr ""
+msgstr "Entraînement NOK"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_2
@@ -497,17 +578,17 @@ msgstr "Exécuter le code"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Expand club management with:"
-msgstr ""
+msgstr "Développez davantage la gestion du club avec :"
 
 #. module: team_sports_club
 #: model:event.event,name:team_sports_club.event_event_2
 msgid "FC Barcelone P2"
-msgstr ""
+msgstr "FC Barcelone P2"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Field Bookings 📅"
-msgstr ""
+msgstr "Réservations de terrains 📅"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -519,42 +600,51 @@ msgid ""
 "the correct product, assign a tag corresponding to the period, and generate "
 "all the Sales Orders."
 msgstr ""
+"Pour les contributions annuelles, vous pouvez facilement gérer des prix "
+"spécifiques pour chaque équipe en configurant des listes de prix. Une fois "
+"cela configuré dans l'app Équipes, vous pouvez sélectionner tous les joueurs "
+"auxquels vous souhaitez envoyer une demande de contribution. Un bouton "
+"intelligent, <em>Demander une contribution</em>, apparaîtra. Cliquez dessus "
+"pour sélectionner le bon produit, attribuer une étiquette correspondant à la "
+"période et générer toutes les commandes client."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Generate quotation templates for swift turnaround."
-msgstr ""
+msgstr "Générer des modèles de devis pour un traitement rapide."
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_8
 msgid "Goalkeeper"
-msgstr ""
+msgstr "Gardien"
 
 #. module: team_sports_club
 #: model_terms:product.public.category,website_description:team_sports_club.product_public_category_4
 msgid "Grab unique items that celebrate our club's legacy."
-msgstr ""
+msgstr "Achetez des articles uniques qui célèbrent l'héritage de notre club."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Handle cash, card, or digital payments."
-msgstr ""
+msgstr "Gérer les paiements en espèces, par carte ou numériques."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_14
 msgid "Home Jersey"
-msgstr ""
+msgstr "Maillot domicile"
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_19
 msgid "Hoodie"
-msgstr ""
+msgstr "Sweat à capuche"
 
 #. module: team_sports_club
 #: model_terms:product.template,description_ecommerce:team_sports_club.product_template_17
 msgid ""
 "Iconic club scarf, perfect for waving on match day or staying warm in winter."
 msgstr ""
+"Écharpe de club iconique, parfaite pour être agitée les jours de match ou "
+"pour rester au chaud en hiver."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -568,12 +658,12 @@ msgstr ""
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Interested in joining us?"
-msgstr ""
+msgstr "Envie de nous rejoindre ?"
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.partnership_model_res_partner_grade_x_is_a_team_field
 msgid "Is a team"
-msgstr ""
+msgstr "Est une équipe"
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.base_model_res_partner_x_jersey_field
@@ -583,12 +673,12 @@ msgstr "Jersey"
 #. module: team_sports_club
 #: model:product.public.category,name:team_sports_club.product_public_category_4
 msgid "Jerseys"
-msgstr ""
+msgstr "Maillots"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Join our fan club"
-msgstr ""
+msgstr "Rejoignez notre fan club"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
@@ -596,6 +686,8 @@ msgid ""
 "Join us for an exciting U5 football showdown as <strong>Odoo U5</strong> "
 "takes on <strong>Football Club Industry U5</strong>!"
 msgstr ""
+"Rejoignez-nous pour un match de football U5 palpitant où <strong>Odoo U5</"
+"strong> affronte <strong>Football Club Industry U5</strong> !"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_2
@@ -620,37 +712,41 @@ msgstr "En retard"
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_11
 msgid "Left Back"
-msgstr ""
+msgstr "Arrière gauche"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_16
 msgid "Left Winger"
-msgstr ""
+msgstr "Ailier gauche"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Let's discuss how we can enhance your matchday experience<br/><br/>"
 msgstr ""
+"Discutons de la manière dont nous pouvons améliorer votre expérience les "
+"jours de match<br/><br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Leverage the <strong>POS app</strong> to:"
-msgstr ""
+msgstr "Utilisez l'app <strong>Point de Vente</strong> :"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Manage proposal stages: initial outreach → negotiation → closed deal."
 msgstr ""
+"Gérer les étapes des propositions : premier contact → négociation → affaire "
+"conclue."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Manage recruitment using:"
-msgstr ""
+msgstr "Gérez le recrutement avec :"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Match &amp; Special Event Ticketing 🎟️"
-msgstr ""
+msgstr "Billetterie des matchs &amp; événements spéciaux 🎟️"
 
 #. module: team_sports_club
 #: model:project.task.type,name:team_sports_club.project_task_type_1
@@ -660,12 +756,12 @@ msgstr "Nouveau"
 #. module: team_sports_club
 #: model:appointment.type,name:team_sports_club.appointment_type_1
 msgid "New Player Test"
-msgstr ""
+msgstr "Test pour nouveaux joueurs"
 
 #. module: team_sports_club
 #: model:event.event,name:team_sports_club.event_event_1
 msgid "Odoo D1"
-msgstr ""
+msgstr "Odoo D1"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -678,21 +774,23 @@ msgid ""
 "Official match-day jersey with club crest, sponsor logos, and player "
 "customization options."
 msgstr ""
+"Maillot officiel de match avec logo du club, logos des sponsors et options "
+"de personnalisation pour les joueurs."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.products
 msgid "Our Fan Shop"
-msgstr ""
+msgstr "Notre fanshop"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Our achievements"
-msgstr ""
+msgstr "Nos réalisations"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Our merchandising"
-msgstr ""
+msgstr "Notre merchandising"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -701,34 +799,37 @@ msgid ""
 "beginnings, we've grown into a club focused on achieving success and "
 "building lasting connections with our fans."
 msgstr ""
+"Notre histoire a commencé avec une passion pour le football et la "
+"communauté. Partis de débuts modestes, nous sommes devenus un club axé sur "
+"la réussite et la création de liens durables avec nos supporters."
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_6
 #: model:res.partner.category,name:team_sports_club.res_partner_category_17
 #: model:res.partner.grade,name:team_sports_club.res_partner_grade_10
 msgid "P1"
-msgstr ""
+msgstr "P1"
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_7
 #: model:res.partner.category,name:team_sports_club.res_partner_category_20
 #: model:res.partner.grade,name:team_sports_club.res_partner_grade_11
 msgid "P2"
-msgstr ""
+msgstr "P2"
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_8
 #: model:res.partner.category,name:team_sports_club.res_partner_category_21
 #: model:res.partner.grade,name:team_sports_club.res_partner_grade_12
 msgid "P3"
-msgstr ""
+msgstr "P3"
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_9
 #: model:res.partner.category,name:team_sports_club.res_partner_category_22
 #: model:res.partner.grade,name:team_sports_club.res_partner_grade_13
 msgid "P4"
-msgstr ""
+msgstr "P4"
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.crm_model_crm_lead_x_partner_level_field
@@ -743,7 +844,7 @@ msgstr "Partenaires"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Payments &amp; Accounts 💰"
-msgstr ""
+msgstr "Paiements &amp; Comptabilité 💰"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -751,32 +852,36 @@ msgid ""
 "Plan follow-up actions (calls, emails, meetings) to nurture sponsorship "
 "relationships."
 msgstr ""
+"Planifier des actions de suivi (appels, e-mails, réunions) pour entretenir "
+"les relations avec les sponsors."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Player Recruitment &amp; Trials 📝"
-msgstr ""
+msgstr "Recrutement des joueurs &amp; essais 📝"
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.project_model_project_project_x_player_recruitement_field
 msgid "Player recruitement"
-msgstr ""
+msgstr "Recrutement de joueurs"
 
 #. module: team_sports_club
 #: model:ir.actions.act_window,name:team_sports_club.players_menu_action
 #: model:ir.ui.menu,name:team_sports_club.teams_players_menu
 msgid "Players"
-msgstr ""
+msgstr "Joueurs"
 
 #. module: team_sports_club
 #: model:project.project,name:team_sports_club.project_project_1
 msgid "Players Recruitement"
-msgstr ""
+msgstr "Recrutement de joueurs"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Process on-site bar and shop purchases during matches or club events."
 msgstr ""
+"Traiter les achats au bar et en boutique sur place lors des matchs ou "
+"événements du club."
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.x_contribution_model_x_product_id_field
@@ -797,6 +902,8 @@ msgstr "Contactez-nous"
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Reconcile payments with sponsorship contracts and membership dues."
 msgstr ""
+"Lettrer les paiements avec les contrats de sponsoring et les cotisations des "
+"membres."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_39
@@ -807,34 +914,34 @@ msgstr "Inscription"
 #: model:event.event.ticket,name:team_sports_club.event_event_ticket_3
 #: model:product.template,name:team_sports_club.product_template_13
 msgid "Registration + Bus"
-msgstr ""
+msgstr "Inscription + bus"
 
 #. module: team_sports_club
 #: model:event.event.ticket,name:team_sports_club.event_event_ticket_1
 #: model:event.event.ticket,name:team_sports_club.event_event_ticket_2
 msgid "Registration for U5 vs Odoo U5"
-msgstr ""
+msgstr "Inscription pour U5 vs Odoo U5"
 
 #. module: team_sports_club
 #: model:ir.actions.act_window,name:team_sports_club.request_contibution_act_window
 #: model_terms:ir.ui.view,arch_db:team_sports_club.res_partner_list_view
 msgid "Request Contribution"
-msgstr ""
+msgstr "Demander une contribution"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_9
 msgid "Right Back"
-msgstr ""
+msgstr "Arrière droit"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_14
 msgid "Right Winger"
-msgstr ""
+msgstr "Ailier droit"
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_17
 msgid "Scarf"
-msgstr ""
+msgstr "Écharpe"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -853,36 +960,46 @@ msgid ""
 "new smart button. This allows you to easily schedule trainings for the "
 "entire year and invite your players to register for each session."
 msgstr ""
+"Sélectionnez l'événement '<em>événement à créneaux multiples</em>' et "
+"accédez aux calendriers via le bouton intelligent. Cela vous permet de "
+"planifier facilement les entraînements pour toute l'année et d'inviter vos "
+"joueurs à s'inscrire à chaque session."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sell and validate tickets online or on-site."
-msgstr ""
+msgstr "Vendre et valider les billets en ligne ou sur place."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sell merchandise (jerseys, accessories) and event tickets online."
 msgstr ""
+"Vendre des produits (maillots, accessoires) et des billets d'événements en "
+"ligne."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Send invoices immediately and track payments."
-msgstr ""
+msgstr "Envoyer les factures immédiatement et suivre les paiements."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Set up available time slots for field or court usage."
 msgstr ""
+"Configurer des créneaux disponibles pour l'utilisation des terrains ou des "
+"courts."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Set up recurring offers for annual club contributions or memberships."
 msgstr ""
+"Configurer des offres récurrentes pour les contributions annuelles du club "
+"ou les adhésions."
 
 #. module: team_sports_club
 #: model_terms:product.public.category,website_description:team_sports_club.product_public_category_1
 msgid "Show your team spirit with our exclusive clothing line."
-msgstr ""
+msgstr "Montrez votre esprit d'équipe avec notre ligne de vêtements exclusive."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -890,46 +1007,52 @@ msgid ""
 "Showcase club history, mission, teams, coaching staff, and calendar of "
 "events."
 msgstr ""
+"Présenter l'histoire du club, sa mission, ses équipes, ses entraîneurs et "
+"son calendrier d'événements."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Some of the latest matches we had the pleasure to play"
-msgstr ""
+msgstr "Quelques-uns des derniers matchs que nous avons eu le plaisir de jouer"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sponsor Management 🤝"
-msgstr ""
+msgstr "Gestion des sponsors 🤝"
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_21
 msgid "Sponsorship Gold"
-msgstr ""
+msgstr "Sponsoring Gold"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sponsorship Offers &amp; Membership Contributions 📄"
-msgstr ""
+msgstr "Offres de sponsoring &amp; contributions des membres 📄"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_15
 msgid "Striker"
-msgstr ""
+msgstr "Attaquant"
 
 #. module: team_sports_club
 #: model_terms:product.template,description_ecommerce:team_sports_club.product_template_20
 msgid "Stylish or sporty socks in club colors, ideal for fans and players."
 msgstr ""
+"Chaussettes élégantes ou sportives aux couleurs du club, idéales pour les "
+"fans et les joueurs."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Supported by passionate fans"
-msgstr ""
+msgstr "Soutenu par des fans passionnés"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sync inventory for on-the-fly restocking and managing stock levels."
 msgstr ""
+"Synchroniser le stock pour réapprovisionner à la volée et gérer les niveaux "
+"de stock."
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.x_contribution_model_x_tag_ids_field
@@ -962,7 +1085,7 @@ msgstr "Équipes"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Teams: Roster Management 🏅"
-msgstr ""
+msgstr "Équipes : gestion des effectifs 🏅"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -970,11 +1093,13 @@ msgid ""
 "The <strong>Appointments app</strong> for scheduling trials, interviews, or "
 "training sessions with prospective players."
 msgstr ""
+"L'app <strong>Rendez-vous</strong> pour planifier des essais, des entretiens "
+"ou des séances d'entraînement avec des joueurs potentiels."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "The <strong>Invoicing app</strong> helps you:"
-msgstr ""
+msgstr "L'app <strong>Facturation</strong> vous aide à :"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -982,16 +1107,18 @@ msgid ""
 "The <strong>Project app</strong> to track each recruit’s progress, "
 "documents, communications, and evaluation steps."
 msgstr ""
+"L'app <strong>Projets</strong> pour suivre la progression de chaque nouvelle "
+"recrue, ainsi que ses documents, communications et étapes d’évaluation."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "The <strong>Sales app</strong> enables you to:"
-msgstr ""
+msgstr "L'app <strong>Ventes</strong> vous permet de :"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "The <strong>Teams app</strong> empowers you to:"
-msgstr ""
+msgstr "L'app <strong>Équipes</strong> vous permet de :"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
@@ -1000,6 +1127,9 @@ msgid ""
 "youngest talents as they show off their skills, teamwork, and passion for "
 "the game."
 msgstr ""
+"Ce match amical mais animé est l'occasion parfaite de soutenir nos plus "
+"jeunes talents pendant qu'ils montrent leurs compétences, leur esprit "
+"d'équipe et leur passion pour le jeu."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1007,21 +1137,24 @@ msgid ""
 "This guide helps you manage your club end-to-end—from sponsorships and "
 "events to player management, fan engagement, and bookings."
 msgstr ""
+"Ce guide vous aide à gérer votre club de bout en bout : du sponsoring et des "
+"événements à la gestion des joueurs, à l'engagement des fans et aux "
+"réservations."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Track attendance and issue reminders or notifications."
-msgstr ""
+msgstr "Suivre les présences et envoyer des rappels ou des notifications."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Track potential sponsors, categorize and track their interest."
-msgstr ""
+msgstr "Suivre les sponsors potentiels, les catégoriser et suivre leur intérêt."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_20
 msgid "Training Jersey"
-msgstr ""
+msgstr "Maillot d'entraînement"
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.partnership_model_res_partner_grade_x_type_field
@@ -1031,57 +1164,57 @@ msgstr "Type"
 #. module: team_sports_club
 #: model:planning.role,name:team_sports_club.planning_role_5
 msgid "U15"
-msgstr ""
+msgstr "U15"
 
 #. module: team_sports_club
 #: model:planning.role,name:team_sports_club.planning_role_4
 msgid "U16"
-msgstr ""
+msgstr "U16"
 
 #. module: team_sports_club
 #: model:planning.role,name:team_sports_club.planning_role_3
 msgid "U17"
-msgstr ""
+msgstr "U17"
 
 #. module: team_sports_club
 #: model:planning.role,name:team_sports_club.planning_role_1
 msgid "U18"
-msgstr ""
+msgstr "U18"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Use the <strong>CRM app</strong> to:"
-msgstr ""
+msgstr "Utilisez l'app <strong>CRM</strong> pour :"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Use the <strong>Events app</strong> to:"
-msgstr ""
+msgstr "Utilisez l'app <strong>Événements</strong> pour :"
 
 #. module: team_sports_club
 #: model:project.task.type,name:team_sports_club.project_task_type_2
 msgid "Verifications"
-msgstr ""
+msgstr "Vérifications"
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_11
 msgid "Volunteers"
-msgstr ""
+msgstr "Bénévoles"
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_10
 msgid "Welcome Pack"
-msgstr ""
+msgstr "Pack de bienvenue"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Welcome to the Odoo Team Sport Clubs package!"
-msgstr ""
+msgstr "Bienvenue dans le pack Odoo pour les clubs de sports d'équipe !"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "With the <strong>Planning app</strong>, you can:"
-msgstr ""
+msgstr "Avec l'app <strong>Planification</strong>, vous pouvez :"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1098,6 +1231,9 @@ msgid ""
 "feature.<br/> To be successful, your content needs to resonate with our fans "
 "and community.<br/><br/>"
 msgstr ""
+"Écrivez un ou deux paragraphes décrivant votre club, ses valeurs ou une "
+"caractéristique spécifique.<br/>Pour réussir, votre contenu doit résonner "
+"auprès de vos fans et de votre communauté.<br/><br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1105,6 +1241,8 @@ msgid ""
 "You can also use the Events app to plan recurring trainings and matches with "
 "the Slots system."
 msgstr ""
+"Vous pouvez également utiliser l'app Événements pour planifier des "
+"entraînements et des matchs récurrents avec le système de créneaux."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1117,6 +1255,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Your <strong>Website &amp; eCommerce setup</strong> allows you to:"
 msgstr ""
+"Votre configuration <strong>Site Web &amp; eCommerce</strong> vous permet de "
+":"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -1133,6 +1273,9 @@ msgid ""
 "Your Odoo <strong>Team Sport Clubs package</strong> includes all the "
 "essential apps to centralize and simplify your club operations:"
 msgstr ""
+"Votre pack Odoo <strong>Clubs de sports d'équipe</strong> comprend toutes "
+"les apps essentielles pour centraliser et simplifier les activités de votre "
+"club :"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1182,22 +1325,22 @@ msgstr "🎓 Site web"
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "🎟️ <strong>Entry:</strong> 5€ - 10€ with bus from our club."
-msgstr ""
+msgstr "🎟️ <strong>Entrée :</strong> 5 € - 10 € avec bus depuis notre club."
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "📍 <strong>Location: Away - Odoo Football Club</strong>"
-msgstr ""
+msgstr "📍 <strong>Lieu : match à l'extérieur - Odoo Football Club</strong>"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "🕒 <strong>Time: 2:00 PM to 4:00 PM</strong>"
-msgstr ""
+msgstr "🕒 <strong>Heure : 14:00 à 16:00</strong>"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "🗓️ <strong>Date:</strong> 02.08.2025"
-msgstr ""
+msgstr "🗓️ <strong>Date :</strong> 02.08.2025"
 
 #~ msgid "2019"
 #~ msgstr "2019"
