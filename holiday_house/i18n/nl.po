@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 18:18+0000\n"
-"PO-Revision-Date: 2026-04-23 11:51+0000\n"
+"PO-Revision-Date: 2026-04-30 07:11+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
-"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-2/"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-3/"
 "holiday_house/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -275,7 +275,7 @@ msgstr ""
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Access to more details clicking the slot."
-msgstr ""
+msgstr "Bekijk meer details door op het slot te klikken."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.homepage
@@ -425,6 +425,10 @@ msgid ""
 "Bridge\" of your holiday houses. It provides a 500-day horizon to anticipate "
 "market trends, manage risks, and optimize your revenue."
 msgstr ""
+"Naast de dagelijkse activiteiten dient het menu 'Strategisch overzicht' als "
+"de kapiteinsbrug van je vakantieverblijven. Het biedt een overzicht van 500 "
+"dagen om markttrends te anticiperen, risico's te beheren en je omzet te "
+"optimaliseren."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -819,7 +823,7 @@ msgstr "Beheer je klanten vanuit de <strong>Contacten-app</strong>"
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Managing scarcity with availability"
-msgstr ""
+msgstr "Schaarste beheren met Beschikbaarheid"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -836,7 +840,7 @@ msgstr "Kaart"
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Monitoring success with occupancy"
-msgstr ""
+msgstr "Succes meten aan de hand van de bezettingsgraad"
 
 #. module: holiday_house
 #: model_terms:product.template,description_ecommerce:holiday_house.product_template_12
@@ -1047,12 +1051,12 @@ msgstr ""
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Open the Steering menu and select Availability."
-msgstr ""
+msgstr "Open het menu 'Strategisch overzicht' en selecteer 'Beschikbaarheid'."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "Open the Steering menu and select Occupancy."
-msgstr ""
+msgstr "Open het menu 'Strategisch overzicht' en selecteer 'Bezetting'."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1210,6 +1214,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the availability for you to "
 "work on filling in."
 msgstr ""
+"De Gantt-grafiek bevat kleuren om de beschikbaarheden weer te geven die nog "
+"opgevuld moeten worden."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1217,6 +1223,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the occupancy, the higher the "
 "better."
 msgstr ""
+"De Gantt-grafiek bevat kleuren om de bezettingsgraad aan te duiden. Hoe "
+"hoger, hoe beter."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1224,6 +1232,8 @@ msgid ""
 "The Occupancy view allows you to visualize your \"Sales Success\". It "
 "answers one simple question: <i>How well am I filling my holiday houses?</i>"
 msgstr ""
+"De weergave 'Bezetting' visualiseert je verkoopsucces en beantwoordt een "
+"belangrijke vraag: <i>In welke mate is mijn vakantiehuis bezet? </i>"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1351,6 +1361,9 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Terwijl de bezettingsweergave toont wat al geboekt is, focust de "
+"beschikbaarheidsweergave op wat nog te verkopen is. Het is je belangrijkste "
+"tool voor operationele zekerheid en 'schaarsteprijzen'."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1359,6 +1372,9 @@ msgid ""
 "created.<br/>Care about the start and end time or this blockage to make to "
 "re-open when suited."
 msgstr ""
+"Bij het aanmaken van sloten voor deze resource kunnen er geen overlappende "
+"boekingen worden aangemaakt.<br/>Let op de begin- en einddatum van deze "
+"blokkering opdat de resource terug beschikbaar wordt wanneer je dat wenst."
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
@@ -1619,7 +1635,7 @@ msgstr "😎 Gasten verwelkomen"
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body
 msgid "🚀 Strategic Oversight"
-msgstr ""
+msgstr "🚀 Strategisch overzicht"
 
 #. module: holiday_house
 #: model_terms:ir.ui.view,arch_db:holiday_house.welcome_article_body

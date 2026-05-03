@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 17:53+0000\n"
-"PO-Revision-Date: 2026-04-11 14:10+0000\n"
+"PO-Revision-Date: 2026-04-30 07:11+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
-"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-2/"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-3/"
 "construction/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
@@ -32,7 +32,7 @@ msgstr "10 kW aircondtioning"
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "30% deposit, 70% on completion"
-msgstr ""
+msgstr "30% aanbetaling, 70% bij oplevering"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_45
@@ -619,6 +619,8 @@ msgid ""
 "<strong>Timesheets App</strong> helps track time spent, enabling managers to "
 "measure performance and costs in real-time."
 msgstr ""
+"De <strong>Urenstaten-app</strong> helpt bij het bijhouden van bestede tijd, "
+"waardoor managers prestaties en kosten realtime kunnen meten."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -686,6 +688,9 @@ msgid ""
 "idea of where you stand comparing the allocated time in the quantity column "
 "and the spent time in the delivered one."
 msgstr ""
+"Een verkooporder met productfacturatie op basis van urenstaten geeft je ook "
+"een idee van waar je staat door de toegewezen tijd in de kolom 'Hoeveelheid' "
+"te vergelijken met de bestede tijd in de kolom 'Bestede tijd'."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -703,6 +708,8 @@ msgid ""
 "A typical progress management approach is to manually update delivery, on a "
 "monthly basis for example."
 msgstr ""
+"Een typische aanpak voor voortgangsbeheer is het handmatig bijwerken van de "
+"vooruitgang, bijvoorbeeld op maandelijkse basis."
 
 #. module: construction
 #: model:product.category,name:construction.product_category_14
@@ -716,11 +723,14 @@ msgid ""
 "well as from the <strong>Inventory App</strong> and the Project Top Bar "
 "<strong>\"Needs\" button</strong>"
 msgstr ""
+"Bekijk je samengevoegde benodigdheden via de slimme knop 'Inkoop', maar ook "
+"via de <strong>Voorraad-app</strong> en de <strong>knop 'Benodigdheden'</"
+"strong> in de bovenbalk van het project"
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_7
 msgid "Accessibility"
-msgstr ""
+msgstr "Toegankelijkheid"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_43
@@ -730,7 +740,7 @@ msgstr "Toegankelijke wc's installeren"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Accurately track the time spent"
-msgstr ""
+msgstr "Bestede tijd nauwkeurig bijhouden"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_54
@@ -745,12 +755,12 @@ msgstr "Aangepaste wc"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Add lines for missing employees, projects and tasks."
-msgstr ""
+msgstr "Voeg regels toe voor ontbrekende werknemers, projecten en taken."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Add lines for missing projects and tasks."
-msgstr ""
+msgstr "Voeg regels toe voor ontbrekende projecten en taken."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -765,7 +775,7 @@ msgstr "Administratief & juridisch"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Advanced quote computations with the calculator"
-msgstr ""
+msgstr "🧮 Geavanceerde offerteberekeningen met de calculator"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_3
@@ -818,6 +828,8 @@ msgid ""
 "As site manager, on the other hand, you might record time for your whole "
 "team at the end of the week."
 msgstr ""
+"Als werfleider daarentegen registreer je misschien aan het einde van de week "
+"de uren voor je hele team."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -825,6 +837,8 @@ msgid ""
 "As soon as it's updated, you can create a regular invoice to expense your "
 "customer for the delivered work."
 msgstr ""
+"Zodra het wordt bijgewerkt, kun je een gewone factuur aanmaken om je klant "
+"de kosten voor het geleverde werk in rekening te brengen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -844,17 +858,17 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Automated cost update (Construction Developer)"
-msgstr ""
+msgstr "Automatisch kostprijs bijwerken (Projectontwikkelaar)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Automated extraction:"
-msgstr ""
+msgstr "Geautomatiseerde extractie:"
 
 #. module: construction
 #: model:documents.document,name:construction.document_5
 msgid "BEFORE.jpg"
-msgstr ""
+msgstr "VOOR.jpg"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -906,6 +920,7 @@ msgstr "Geannuleerd"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Capturing data is great but leveraging it is better."
 msgstr ""
+"Gegevens vastleggen is geweldig, maar er gebruik van maken is nog beter."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -930,12 +945,12 @@ msgstr "Cementdekvloer voor restaurant"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Centralize all the important information"
-msgstr ""
+msgstr "Alle belangrijke informatie centraliseren"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Change orders &amp; extras"
-msgstr ""
+msgstr "Verkooporderwijzigingen &amp; extra's"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_51
@@ -960,12 +975,12 @@ msgstr "Koelcel + koelkasten"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Come back to the task view and switch to its list view."
-msgstr ""
+msgstr "Ga terug naar de taakweergave en schakel over naar de lijstweergave."
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_9
 msgid "Commercial"
-msgstr ""
+msgstr "Commercieel"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_32
@@ -975,7 +990,7 @@ msgstr "Communicatie"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_6
 msgid "Compliance"
-msgstr ""
+msgstr "Conformiteit"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_23
@@ -1002,6 +1017,9 @@ msgid ""
 "Configuring your products to create tasks allows you to record time on those "
 "for profitability monitoring and to plan tasks from a project."
 msgstr ""
+"Door je producten te configureren om taken aan te maken, kun je tijd "
+"registreren voor winstgevendheidsmonitoring en taken vanuit een Project "
+"plannen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1040,7 +1058,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Cost nature analysis (Construction Developer)"
-msgstr ""
+msgstr "Analyse van de aard van de kosten (Projectontwikkelaar)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1082,17 +1100,17 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Create the milestones you need."
-msgstr ""
+msgstr "Maak de benodigde mijlpalen aan."
 
 #. module: construction
 #: model:documents.document,name:construction.document_7
 msgid "DONE.jpg"
-msgstr ""
+msgstr "KLAAR.jpg"
 
 #. module: construction
 #: model:documents.document,name:construction.document_6
 msgid "DURING.jpg"
-msgstr ""
+msgstr "TIJDENS.jpg"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1100,6 +1118,8 @@ msgid ""
 "Define your products as services creating tasks and with an invoicing policy "
 "based on milestones."
 msgstr ""
+"Definieer je producten als diensten die taken genereren en met een "
+"facturatiebeleid op basis van mijlpalen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1107,6 +1127,8 @@ msgid ""
 "Define your products as services creating tasks and with an invoicing policy "
 "based on time sheets."
 msgstr ""
+"Definieer je producten als diensten die taken genereren en met een beleid "
+"voor facturatie op basis van urenstaten."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1114,21 +1136,23 @@ msgid ""
 "Define your products as services with an invoicing policy based on manual "
 "delivery."
 msgstr ""
+"Definieer je producten als diensten met een beleid voor facturatie op basis "
+"van handmatige voltooiing."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Define your products as services with fixed price."
-msgstr ""
+msgstr "Definieer je producten als diensten met een vaste prijs."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Delivery remarks (Construction Developer)"
-msgstr ""
+msgstr "Opmerkingen bij de oplevering (Projectontwikkelaar)"
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_18
 msgid "Development"
-msgstr ""
+msgstr "Ontwikkeling"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_20
@@ -1192,7 +1216,7 @@ msgstr "Grondverzet"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Easily create beautiful quotations"
-msgstr ""
+msgstr "Eenvoudig mooie offertes maken"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1206,7 +1230,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Efficiently schedule the work"
-msgstr ""
+msgstr "Het werk efficiënt plannen"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_34
@@ -1233,6 +1257,11 @@ msgid ""
 "required for your project by decomposing your Work Items into a consolidated "
 "shopping list."
 msgstr ""
+"Maak een einde aan handmatige invoer en giswerk door je technische offertes "
+"om te zetten in bruikbare inkoopgegevens.\n"
+"            Deze functie haalt automatisch elke bout, baksteen en balk die "
+"nodig is voor je project eruit door je werkitems op te splitsen in een "
+"geconsolideerde boodschappenlijst."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_32
@@ -1250,11 +1279,14 @@ msgid ""
 "Employees can self record their time sheets for managers to save time.<br/>\n"
 "            You may even leverage the approval process."
 msgstr ""
+"Werknemers kunnen zelf hun urenstaten registreren, zodat managers tijd "
+"besparen.<br/>\n"
+"            Je kunt zelfs gebruikmaken van het goedkeuringsproces."
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_19
 msgid "Energy Saving"
-msgstr ""
+msgstr "Energiebesparing"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_30
@@ -1274,7 +1306,7 @@ msgstr "Benodigdheden + lay-out"
 #. module: construction
 #: model:product.template,name:construction.product_template_80
 msgid "Estimated Labour"
-msgstr ""
+msgstr "Geschatte arbeidsuren"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_79
@@ -1292,16 +1324,18 @@ msgid ""
 "Expose the Milestone column from the parameter (🎚️) button at then end of the "
 "list title line."
 msgstr ""
+"Maak de kolom 'Mijlpaal' zichtbaar via de parameterknop (🎚️) aan het einde "
+"van de titelregel van de lijst."
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_11
 msgid "Exterior"
-msgstr ""
+msgstr "Buiten"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_12
 msgid "Exterior & Landscaping"
-msgstr ""
+msgstr "Tuinarchitectuur"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_4
@@ -1337,11 +1371,14 @@ msgstr "Buitendienst ﻿"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Fill in the grid view day by day to capture spent time the same way."
 msgstr ""
+"Vul de rasterweergave dag voor dag in om de bestede tijd op dezelfde manier "
+"vast te leggen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Fill in the grid view day by day to capture spent time."
 msgstr ""
+"Vul de rasterweergave dag voor dag in om de bestede tijd vast te leggen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1386,7 +1423,7 @@ msgstr "Brandwerende scheidingswanden"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "First quote in record time leveraging the work items (Construction Developer)"
-msgstr ""
+msgstr "Eerste offerte in recordtijd dankzij werkitems (Projectontwikkelaar)"
 
 #. module: construction
 #: model:documents.document,name:construction.document_3
@@ -1401,7 +1438,7 @@ msgstr "Fittings"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_163
 msgid "Floor"
-msgstr ""
+msgstr "Vloer"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1409,6 +1446,8 @@ msgid ""
 "For each order line, adjust the increment fields to capture delivered work "
 "since last invoice."
 msgstr ""
+"Pas voor elke orderregel de voortgangsvelden aan om het geleverde werk sinds "
+"de laatste factuur vast te leggen."
 
 #. module: construction
 #: model:product.category,name:construction.product_category_49
@@ -1422,6 +1461,9 @@ msgid ""
 "the top bar and smart buttons in the project form allow you to quickly "
 "capture time consumption."
 msgstr ""
+"In een project waarbij productfacturatie op basis van Urenstaten "
+"plaatsvindt, kun je met snelkoppelingen in de bovenbalk en slimme knoppen in "
+"het projectformulier snel de bestede tijd vastleggen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1474,6 +1516,8 @@ msgid ""
 "From your Timesheets App, you have access to reports to understand where was "
 "time spent by employee, project, task and billing type."
 msgstr ""
+"In de Urenstaten-app heb je toegang tot rapporten om inzicht te krijgen in "
+"waaraan tijd is besteed per werknemer, project, taak en facturatietype."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1481,6 +1525,8 @@ msgid ""
 "From your sale order, update the delivered quantity to reflect your progress "
 "for specific products."
 msgstr ""
+"Werk vanuit je verkooporder de geleverde hoeveelheden bij om je voortgang "
+"voor specifieke producten weer te geven."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_10
@@ -1512,7 +1558,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Generate quotations adding your terms in the foot notes."
-msgstr ""
+msgstr "Genereer offertes en voeg je voorwaarden toe in de voetnoten."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_9
@@ -1532,7 +1578,7 @@ msgstr "Gastenkamers & gang"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_8
 msgid "HVAC"
-msgstr ""
+msgstr "HVAC"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_40
@@ -1547,7 +1593,7 @@ msgstr "Handgereedschap & verbruiksartikelen"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_167
 msgid "Hardscaping"
-msgstr ""
+msgstr "Bestrating"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_25
@@ -1573,7 +1619,7 @@ msgstr ""
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_16
 msgid "Heritage"
-msgstr ""
+msgstr "Erfgoed"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_37
@@ -1604,6 +1650,8 @@ msgid ""
 "Identical materials across different sections are summed up, giving you "
 "total volumes for better supplier negotiations."
 msgstr ""
+"Identieke materialen in verschillende secties worden samengevat, waardoor je "
+"de totale hoeveelheden ziet, voor betere onderhandelingen met leveranciers."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1707,6 +1755,8 @@ msgid ""
 "In the Billing section adjust the Invoicing Policy to Validated timesheets "
 "only."
 msgstr ""
+"Pas in het gedeelte 'Facturatie' het facturatiebeleid aan naar 'Alleen "
+"gevalideerde urenstaten'."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1720,12 +1770,12 @@ msgstr ""
 msgid ""
 "In your project, make sure to activate from the project settings the "
 "Milestones."
-msgstr ""
+msgstr "Activeer mijlpalen in de instellingen van je project."
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_14
 msgid "Industrial"
-msgstr ""
+msgstr "Industrieel"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_28
@@ -1745,7 +1795,7 @@ msgstr "Installatiewerken"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_17
 msgid "Insulation"
-msgstr ""
+msgstr "Isolatie"
 
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
@@ -1755,7 +1805,7 @@ msgstr "Verzekeringscertificaat bijgevoegd"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_20
 msgid "Interior"
-msgstr ""
+msgstr "Binnenhuis"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_32
@@ -1771,12 +1821,12 @@ msgstr "Intern"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_5
 msgid "Internal Infrastructure"
-msgstr ""
+msgstr "Interne infrastructuur"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Invoice the right amount at the right time"
-msgstr ""
+msgstr "Het juiste bedrag op het juiste moment factureren"
 
 #. module: construction
 #: model:mail.activity.type,name:construction.mail_activity_type_20
@@ -1823,12 +1873,12 @@ msgstr "Junior/Leerling"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Keep an eye on materials"
-msgstr ""
+msgstr "Materialen in het oog houden"
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_10
 msgid "Kitchen"
-msgstr ""
+msgstr "Keuken"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_10
@@ -1899,7 +1949,7 @@ msgstr "Logistiek & Afval"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_5
 msgid "Luxury"
-msgstr ""
+msgstr "Luxe"
 
 #. module: construction
 #: model:documents.document,name:construction.documents_document_33
@@ -1909,7 +1959,7 @@ msgstr "Onderhoud & oplevering"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Make your customers happy"
-msgstr ""
+msgstr "Maak je klanten blij"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1931,7 +1981,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Manage your construction project with ease"
-msgstr ""
+msgstr "Je bouwproject moeiteloos beheren"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_18
@@ -1941,7 +1991,7 @@ msgstr "Beheer & Overhead"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Manager recording"
-msgstr ""
+msgstr "Registratie door manager"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_17
@@ -1951,12 +2001,12 @@ msgstr "Handgereedschap"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Manual delivery"
-msgstr ""
+msgstr "Handmatige voltooiing"
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_2
 msgid "Masonry"
-msgstr ""
+msgstr "Metselwerk"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_2
@@ -1981,7 +2031,7 @@ msgstr "Materiaal"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Material Shopping List (Construction Developer)"
-msgstr ""
+msgstr "Materiaalboodschappenlijst (Projectontwikkelaar)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2001,7 +2051,7 @@ msgstr "Metal stud + gipsplaat"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Milestone-based invoicing"
-msgstr ""
+msgstr "Facturatie op basis van mijlpalen"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_1
@@ -2016,12 +2066,12 @@ msgstr "Lijsten, wandbeschermingen"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Monitoring"
-msgstr ""
+msgstr "Monitoring"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Multiple orders turning into one bill"
-msgstr ""
+msgstr "Meerdere orders in één factuur samennemen"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2034,7 +2084,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Never miss an opportunity"
-msgstr ""
+msgstr "Mis geen enkele kans"
 
 #. module: construction
 #: model:project.task.type,name:construction.planning_project_stage_0
@@ -2044,7 +2094,7 @@ msgstr "Nieuw"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_3
 msgid "New Build"
-msgstr ""
+msgstr "Nieuwbouw"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_43
@@ -2087,6 +2137,9 @@ msgid ""
 "filtering components by the Material Cost Nature, ensuring your list isn't "
 "cluttered with labor or equipment hours."
 msgstr ""
+"Odoo scant elk onderdeel binnen je werkitems om onderliggende behoeften te "
+"vinden, waarbij onderdelen worden gefilterd op kostenaard van materialen, "
+"zodat je lijst niet vol staat met arbeids- of apparatuurtijden."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2154,6 +2207,9 @@ msgid ""
 "Once reaching agreed upon terms, create an invoice selecting the down "
 "payment option and the share to invoice."
 msgstr ""
+"Zodra er overeenstemming is bereikt over de voorwaarden, maak je een "
+"verkoopfactuur aan door de optie voor aanbetaling en het te factureren deel "
+"te selecteren."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2162,6 +2218,9 @@ msgid ""
 "delivery update.<br/>This will update sale orders to capture those "
 "increments."
 msgstr ""
+"Zodra het moment van periodieke facturering is aangebroken, selecteer je die "
+"regels en activeer je de voortgangsupdate.<br/>Dit zal de verkooporders "
+"bijwerken om die vorderingen vast te leggen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2201,21 +2260,24 @@ msgid ""
 "Open the Progress view from the top bar shortcuts. It captures all sale "
 "order lines associated to this project."
 msgstr ""
+"Open de voortgangsweergave via de snelkoppelingen in de bovenbalk. Hierin "
+"worden alle verkooporderregels weergegeven die aan dit project zijn "
+"gekoppeld."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the Timesheets App and reach the All Timesheets view."
-msgstr ""
+msgstr "Open de Urenstaten-app en ga naar 'Alle urenstaten'."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the Timesheets App settings."
-msgstr ""
+msgstr "Open de instellingen van de Urenstaten-app."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the Timesheets App to reach My Timesheets."
-msgstr ""
+msgstr "Open de Urenstaten-app en ga naar 'Mijn urenstaten'."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2303,7 +2365,7 @@ msgstr "Parket"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_145
 msgid "Partition & Insulation"
-msgstr ""
+msgstr "Partitie & Isolatie"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_36
@@ -2382,6 +2444,8 @@ msgid ""
 "Prepare your Sale Order with structured sections and articles containing "
 "Work Items."
 msgstr ""
+"Bereid je verkooporder voor met gestructureerde secties en artikelen die "
+"werkitems bevatten."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
@@ -2394,11 +2458,15 @@ msgid ""
 "Pro tip: If working regularly with such invoicing strategy, consider setting "
 "the Milestone setting on the project template!"
 msgstr ""
+"Pro-tip: Als je regelmatig met een dergelijke facturatie-strategie werkt, "
+"overweeg dan om de Mijlpaal-instelling in het projectjabloon in te stellen!"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Pro tip: Set progress increment directly on a section to go faster!"
 msgstr ""
+"Pro-tip: Stel de voortgangsstijging rechtstreeks in op een sectie om sneller "
+"te gaan!"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_13
@@ -2419,12 +2487,12 @@ msgstr "Projectsjabloon"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Project management"
-msgstr ""
+msgstr "Projectbeheer"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Project template"
-msgstr ""
+msgstr "Projectsjabloon"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_58
@@ -2466,6 +2534,8 @@ msgstr "Ontvangst"
 msgid ""
 "Record time spent on tasks as detailed in 🔍 Accurately track the time spent."
 msgstr ""
+"Registreer de tijd die aan taken is besteed, zoals beschreven in 'Bestede "
+"tijd nauwkeurig bijhouden'."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_17
@@ -2480,13 +2550,14 @@ msgstr "Versterkingsbalken"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_1
 msgid "Renovation"
-msgstr ""
+msgstr "Renovatie"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "Replicate such setup as you need following S00001 - Martinez / Wall Masonry."
 msgstr ""
+"Pas deze opzet naar behoefte toe volgens S00001 - Martinez / Wall Masonry."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2494,11 +2565,13 @@ msgid ""
 "Replicate such setup as you need following S00002 - Davis / Guest House "
 "Renovation."
 msgstr ""
+"Pas deze opzet toe zoals nodig volgens S00002 - Davis / Renovatie "
+"Gastenverblijf."
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_4
 msgid "Residential"
-msgstr ""
+msgstr "Residentieel"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_29
@@ -2602,7 +2675,7 @@ msgstr "Selecteer alle verkooporders die je wilt factureren."
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Select multiple tasks to assign them a given milestone."
-msgstr ""
+msgstr "Selecteer meerdere taken om ze aan een bepaalde mijlpaal toe te wijzen."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2614,7 +2687,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Self recording"
-msgstr ""
+msgstr "Je eigen tijd registreren"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_19
@@ -2641,7 +2714,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Simple down payment increments"
-msgstr ""
+msgstr "Aanbetalingen in eenvoudige stappen"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_27
@@ -2716,6 +2789,10 @@ msgid ""
 "they as well are the lever to charge your customers.<br/>Those are defined "
 "as service products with invoicing based on time sheets."
 msgstr ""
+"Een deel van je werk wordt gefactureerd op basis van de bestede tijd. <br/>\n"
+"            De urenstaten helpen je niet alleen om je kosten bij te houden, "
+"maar ook om je klanten te factureren.<br/>Dit kan bij dienstproducten met "
+"facturatie op basis van urenstaten."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_58
@@ -2735,12 +2812,12 @@ msgstr "Speciale apparatuur"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Specific tax discount"
-msgstr ""
+msgstr "Specifieke belastingkorting"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Specify the contract type (Construction Developer)"
-msgstr ""
+msgstr "Contracttype specificeren (Projectontwikkelaar)"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_18
@@ -2796,12 +2873,12 @@ msgstr "Fornuis, oven, plancha"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Streamlined delivery for progress management (Construction Developer)"
-msgstr ""
+msgstr "Gestroomlijnd voortgangsbeheer (projectontwikkelaar)"
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_13
 msgid "Structural"
-msgstr ""
+msgstr "Structureel"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_46
@@ -2909,6 +2986,11 @@ msgid ""
 "                    You can however easily introduce a time sheet approval "
 "process for manager to confirm and correct recorded time:"
 msgstr ""
+"De standaardinstelling voor facturatie is om alle geregistreerde urenstaten "
+"te factureren, zodat je werk direct kan worden gefactureerd.\n"
+"                    Je kunt echter eenvoudig een goedkeuringsproces voor "
+"urenstaten invoeren, zodat een manager de geregistreerde uren kan bevestigen "
+"en corrigeren:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2953,7 +3035,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Then from the project task view, open the Milestones from the top bar."
-msgstr ""
+msgstr "Open vervolgens de mijlpalen in de bovenbalk van projecttaakweergave."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_54
@@ -3001,7 +3083,7 @@ msgstr "Aanpassing van houten frames"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Time sheet based invoicing"
-msgstr ""
+msgstr "Facturatie op basis van urenstaten"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3014,6 +3096,8 @@ msgid ""
 "Timesheets to validate are then waiting for managers in the Timesheets App "
 "prior being expensable."
 msgstr ""
+"Te valideren Urenstaten wachten vervolgens op managers in de Urenstaten-app "
+"voordat ze kunnen worden gefactureerd."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3043,7 +3127,7 @@ msgstr "Triggers:"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_15
 msgid "Trimming, leveling"
-msgstr ""
+msgstr "Maaien, egaliseren"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3051,6 +3135,9 @@ msgid ""
 "Typically, products might be priced in a scale-able fashion and billed based "
 "on delivered quantity, allowing invoicing of partially delivered order lines."
 msgstr ""
+"Doorgaans worden producten op een schaalbare manier geprijsd en gefactureerd "
+"op basis van de geleverde hoeveelheden, waardoor facturatie van gedeeltelijk "
+"voltooide factuurregels mogelijk is."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3060,7 +3147,7 @@ msgstr "Use case"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_166
 msgid "Utilities"
-msgstr ""
+msgstr "Nutsvoorzieningen"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_27
@@ -3075,7 +3162,7 @@ msgstr "Afbraak muren en vloeren"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_165
 msgid "Wall Finishes"
-msgstr ""
+msgstr "Wandafwerkingen"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_47
@@ -3117,6 +3204,8 @@ msgid ""
 "When reaching the end of the work, simply create a regular invoice to bill "
 "the remaining due."
 msgstr ""
+"Wanneer het werk voltooid is, maak je gewoon een gewone factuur aan om het "
+"resterende bedrag te factureren."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3142,6 +3231,9 @@ msgid ""
 "When you then set a milestone to reach, the related sale order lines "
 "(through their tasks) are delivered and can then be invoiced!"
 msgstr ""
+"Wanneer je vervolgens een mijlpaal instelt om te bereiken, worden de "
+"bijbehorende verkooporderregels (via hun taken) geleverd en kunnen ze "
+"vervolgens worden gefactureerd!"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_50
@@ -3221,6 +3313,8 @@ msgid ""
 "You may want to formalize the project progress through milestones and bill "
 "reached ones."
 msgstr ""
+"Je kunt de voortgang van het project vastleggen aan de hand van mijlpalen, "
+"die je kunt factureren wanneer ze zijn bereikt."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3228,6 +3322,8 @@ msgid ""
 "You may want to keep things simple and simply split your invoices based on "
 "agreed upon terms."
 msgstr ""
+"Misschien wil je het simpel houden en je facturen splitsen op basis van "
+"overeengekomen voorwaarden."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body

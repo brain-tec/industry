@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 18:48+0000\n"
+"POT-Creation-Date: 2026-04-29 17:56+0000\n"
 "PO-Revision-Date: 2026-04-04 12:54+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-s19-2/"
@@ -1348,7 +1348,7 @@ msgstr "Tạo và quản lý các tòa nhà tạo nên chung cư này<br>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Create the buildings that compounds the"
+msgid "Create the buildings that compounds the condominium"
 msgstr ""
 
 #. module: condominium
@@ -1752,18 +1752,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Finally, for condominiums organised with a general meter for the condominium "
-"to be expenses and then with meters for each owners to split the expenses, "
+"to be expensed and then with meters for each owner to split the expenses, "
 "the distribution key based on meter is relevant and requires period inputs "
 "and\n"
 "                associated meter readings for each property to be "
 "representative."
 msgstr ""
-"Cuối cùng, đối với các khu chung cư được tổ chức với một đồng hồ đo chung "
-"cho toàn khu chung cư để tính toán chi phí, sau đó sử dụng các đồng hồ đo "
-"riêng cho từng chủ sở hữu để chia sẻ chi phí, phương pháp phân bổ dựa trên "
-"đồng hồ đo là phù hợp và yêu cầu nhập liệu định kỳ\n"
-"                cùng với các chỉ số đồng hồ đo tương ứng cho từng căn hộ để "
-"đảm bảo tính đại diện."
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
@@ -3741,3 +3735,18 @@ msgstr "🎓 Bán hàng"
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid "🎓 Subscription"
 msgstr "🎓 Đăng ký"
+
+#~ msgid ""
+#~ "Finally, for condominiums organised with a general meter for the "
+#~ "condominium to be expenses and then with meters for each owners to split "
+#~ "the expenses, the distribution key based on meter is relevant and "
+#~ "requires period inputs and\n"
+#~ "                associated meter readings for each property to be "
+#~ "representative."
+#~ msgstr ""
+#~ "Cuối cùng, đối với các khu chung cư được tổ chức với một đồng hồ đo chung "
+#~ "cho toàn khu chung cư để tính toán chi phí, sau đó sử dụng các đồng hồ đo "
+#~ "riêng cho từng chủ sở hữu để chia sẻ chi phí, phương pháp phân bổ dựa "
+#~ "trên đồng hồ đo là phù hợp và yêu cầu nhập liệu định kỳ\n"
+#~ "                cùng với các chỉ số đồng hồ đo tương ứng cho từng căn hộ "
+#~ "để đảm bảo tính đại diện."
