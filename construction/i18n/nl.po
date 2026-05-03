@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:56+0000\n"
-"PO-Revision-Date: 2026-04-11 13:21+0000\n"
+"PO-Revision-Date: 2026-05-02 12:03+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s19-1/"
 "construction/nl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_33
@@ -855,7 +855,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Automated extraction:"
-msgstr ""
+msgstr "Geautomatiseerde extractie:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1131,6 +1131,11 @@ msgid ""
 "required for your project by decomposing your Work Items into a consolidated "
 "shopping list."
 msgstr ""
+"Maak een einde aan handmatige invoer en giswerk door je technische offertes "
+"om te zetten in bruikbare inkoopgegevens.\n"
+"            Deze functie haalt automatisch elke bout, baksteen en balk die "
+"nodig is voor je project eruit door je werkitems op te splitsen in een "
+"geconsolideerde boodschappenlijst."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_32
@@ -1379,6 +1384,8 @@ msgid ""
 "Identical materials across different sections are summed up, giving you "
 "total volumes for better supplier negotiations."
 msgstr ""
+"Identieke materialen in verschillende secties worden samengevat, waardoor je "
+"de totale hoeveelheden ziet, voor betere onderhandelingen met leveranciers."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1697,6 +1704,9 @@ msgid ""
 "filtering components by the Material Cost Nature, ensuring your list isn't "
 "cluttered with labor or equipment hours."
 msgstr ""
+"Odoo scant elk onderdeel binnen je werkitems om onderliggende behoeften te "
+"vinden, waarbij onderdelen worden gefilterd op kostenaard van materialen, "
+"zodat je lijst niet vol staat met arbeids- of apparatuurtijden."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -1947,6 +1957,8 @@ msgid ""
 "Prepare your Sale Order with structured sections and articles containing "
 "Work Items."
 msgstr ""
+"Bereid je verkooporder voor met gestructureerde secties en artikelen die "
+"werkitems bevatten."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_36
@@ -2852,7 +2864,7 @@ msgstr "🏁 Voortgang handmatig beheren (Projectontwikkelaar)"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🏗️ Manage your construction project with ease"
-msgstr "🏗️ Je bouwproject met gemak beheren"
+msgstr "🏗️ Je bouwproject moeiteloos beheren"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2917,7 +2929,7 @@ msgstr "🔍 Houd de bestede tijd nauwkeurig bij"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "🛒 Material Shopping List (Construction Developer)"
-msgstr ""
+msgstr "🛒 Materiaalboodschappenlijst (Projectontwikkelaar)"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
