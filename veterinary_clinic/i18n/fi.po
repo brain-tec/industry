@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:51+0000\n"
-"PO-Revision-Date: 2026-04-14 13:50+0000\n"
+"PO-Revision-Date: 2026-05-02 09:40+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "veterinary_clinic/fi/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pets_line_ids_field
@@ -829,7 +829,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_6
 msgid "Burmese"
-msgstr ""
+msgstr "Burma"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -961,7 +961,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_18
 msgid "Dachshund"
-msgstr ""
+msgstr "Mäyräkoira"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_date_of_birth_pets_model_field
@@ -971,7 +971,7 @@ msgstr "Syntymäaika"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_defensive
 msgid "Defensive"
-msgstr ""
+msgstr "Varautunut"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_3
@@ -1031,7 +1031,7 @@ msgstr ""
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_6
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_2
 msgid "Distemper"
-msgstr ""
+msgstr "Penikkatauti"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1226,7 +1226,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_12
 msgid "Heloise"
-msgstr ""
+msgstr "Heloise"
 
 #. module: veterinary_clinic
 #: model:x_species,x_name:veterinary_clinic.x_species_5
@@ -1241,7 +1241,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_15
 msgid "Hyperthyroidism"
-msgstr ""
+msgstr "Kilpirauhasen liikatoiminta"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets
@@ -1289,7 +1289,7 @@ msgstr "Ohjeet"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_intact
 msgid "Intact"
-msgstr ""
+msgstr "Ehjä"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1320,7 +1320,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_6
 msgid "Ket"
-msgstr ""
+msgstr "Ket"
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_16
@@ -1335,12 +1335,12 @@ msgstr "Laboratoriotutkimukset & Diagnostiikka"
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_3
 msgid "Leptospirosis"
-msgstr ""
+msgstr "Leptospiroosi"
 
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_2
 msgid "Lucie"
-msgstr ""
+msgstr "Lucie"
 
 #. module: veterinary_clinic
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_5
@@ -1434,7 +1434,7 @@ msgstr "Nimi..."
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_neutered
 msgid "Neutered"
-msgstr ""
+msgstr "Leikattu"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1546,13 +1546,13 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_22
 msgid "Papillon"
-msgstr ""
+msgstr "Papillon"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_7
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_1
 msgid "Parvovirus"
-msgstr ""
+msgstr "Parvovirus"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_passive
@@ -1562,7 +1562,7 @@ msgstr "Passiivinen"
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_21
 msgid "Pekingese"
-msgstr ""
+msgstr "Pekingiläinen"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_pet_sale_order_field
@@ -1652,7 +1652,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_16
 msgid "Pomeranian"
-msgstr ""
+msgstr "Pomeranian"
 
 #. module: veterinary_clinic
 #: model:project.task.type,name:veterinary_clinic.project_task_type_3
@@ -1662,7 +1662,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:project.task.type,name:veterinary_clinic.project_task_type_2
 msgid "Pre-Surgery"
-msgstr ""
+msgstr "Leikkausta edeltävä"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_products_pets_line_model_field
@@ -1693,7 +1693,7 @@ msgstr "Jänis"
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_5
 #: model:x_vaccines,x_name:veterinary_clinic.x_vaccines_1
 msgid "Rabies"
-msgstr ""
+msgstr "Vesikauhu"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1764,7 +1764,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_12
 msgid "Savannah"
-msgstr ""
+msgstr "Savannah"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.homepage
@@ -1804,7 +1804,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_13
 msgid "Siamese"
-msgstr ""
+msgstr "Siamilainen"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -1819,7 +1819,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_reproductive_status_pets_model_field_selection_spayed
 msgid "Spayed"
-msgstr ""
+msgstr "Steriloitu"
 
 #. module: veterinary_clinic
 #: model:product.attribute.value,name:veterinary_clinic.product_attribute_value_1
@@ -1839,12 +1839,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_illnesses_default
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.search_view_for_x_pets_default
 msgid "Species"
-msgstr ""
+msgstr "Laji"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_14
 msgid "Sphynx"
-msgstr ""
+msgstr "Sfinx"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.contactus
@@ -1966,7 +1966,7 @@ msgstr "Punkit"
 #. module: veterinary_clinic
 #: model:ir.model.fields.selection,name:veterinary_clinic.x_aggression_level_pets_model_field_selection_tolerant
 msgid "Tolerant"
-msgstr ""
+msgstr "Suvaitsevainen"
 
 #. module: veterinary_clinic
 #: model:sale.order.template.line,name:veterinary_clinic.sale_order_template_line_13
@@ -1999,12 +1999,12 @@ msgstr "Ultraääni "
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_urinalysis_pets_line_model_field
 msgid "Urinalysis"
-msgstr ""
+msgstr "Virtsakoe"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_urinalysis_filename_pets_line_model_field
 msgid "Urinalysis "
-msgstr ""
+msgstr "Virtsakoe "
 
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_13
@@ -2063,7 +2063,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_pets,x_name:veterinary_clinic.x_pets_9
 msgid "Vanya"
-msgstr ""
+msgstr "Vanya"
 
 #. module: veterinary_clinic
 #: model:ir.actions.act_window,name:veterinary_clinic.veterinary_visits_window_action
@@ -2114,7 +2114,7 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:x_illnesses,x_name:veterinary_clinic.x_illnesses_19
 msgid "Worms"
-msgstr ""
+msgstr "Matoja"
 
 #. module: veterinary_clinic
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.welcome_article_body
@@ -2137,12 +2137,12 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_ray_filename_pets_line_model_field
 msgid "X-Ray"
-msgstr ""
+msgstr "Röntgen"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_x_ray_pets_line_model_field
 msgid "X-ray"
-msgstr ""
+msgstr "Röntgen"
 
 #. module: veterinary_clinic
 #: model:x_species_line,x_name:veterinary_clinic.x_species_line_19
@@ -2163,7 +2163,7 @@ msgstr "katalogi"
 #: model:ir.model,name:veterinary_clinic.x_pets_line_model_record
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_pets_line_model
 msgid "pets_line"
-msgstr ""
+msgstr "pets_line"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_link_pets_line_model_field
@@ -2173,18 +2173,18 @@ msgstr ""
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_sale_order_line_count_pets_line_model_field
 msgid "sale_order_line_count"
-msgstr ""
+msgstr "sale_order_line_count"
 
 #. module: veterinary_clinic
 #: model:ir.model,name:veterinary_clinic.x_species_line_model
 #: model_terms:ir.ui.view,arch_db:veterinary_clinic.form_view_for_x_species_line
 msgid "species_line"
-msgstr ""
+msgstr "species_line"
 
 #. module: veterinary_clinic
 #: model:ir.model.fields,field_description:veterinary_clinic.x_total_sale_price_pets_line_model_field
 msgid "total_sale_price"
-msgstr ""
+msgstr "total_sale_price"
 
 #. module: veterinary_clinic
 #: model_terms:appointment.type,message_intro:veterinary_clinic.appointment_type_1
