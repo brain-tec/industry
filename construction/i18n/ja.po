@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-24 17:53+0000\n"
-"PO-Revision-Date: 2026-04-23 11:50+0000\n"
+"PO-Revision-Date: 2026-04-29 10:08+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
 "construction/ja/>\n"
@@ -32,7 +32,7 @@ msgstr "10kW リバーシブルシステム"
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "30% deposit, 70% on completion"
-msgstr ""
+msgstr "30% デポジット、70% 完了時"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_45
@@ -611,6 +611,9 @@ msgid ""
 "<strong>Timesheets App</strong> helps track time spent, enabling managers to "
 "measure performance and costs in real-time."
 msgstr ""
+"<strong>タイムシートアプリ</strong> 」は、費やした時間の追跡をサポート。"
+"マネジャーがパフォーマンスとコストの指標をリアルタイムで測定できるようにしま"
+"す。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -682,6 +685,8 @@ msgid ""
 "idea of where you stand comparing the allocated time in the quantity column "
 "and the spent time in the delivered one."
 msgstr ""
+"タイムシートに基づく請求が設定された受注では、「数量」列の予定時間と「納品済"
+"」列の実績時間を比較することで、進捗状況を把握する目安にもなります。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -698,6 +703,8 @@ msgid ""
 "A typical progress management approach is to manually update delivery, on a "
 "monthly basis for example."
 msgstr ""
+"一般的な進捗管理のアプローチとしては、例えば毎月、手動で納期情報を更新する方"
+"法があります。"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_14
@@ -718,7 +725,7 @@ msgstr ""
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_7
 msgid "Accessibility"
-msgstr ""
+msgstr "アクセシビリティ"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_43
@@ -728,7 +735,7 @@ msgstr "バリアフリートイレの設置"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Accurately track the time spent"
-msgstr ""
+msgstr "費やした時間を正確に追跡"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_54
@@ -743,12 +750,12 @@ msgstr "バリアフリー対応トイレ"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Add lines for missing employees, projects and tasks."
-msgstr ""
+msgstr "従業員、プロジェクト、タスクが未設定の場合は、明細を追加してください。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Add lines for missing projects and tasks."
-msgstr ""
+msgstr "未設定のプロジェクトやタスクについては、明細を追加してください。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -763,7 +770,7 @@ msgstr "管理・法務"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Advanced quote computations with the calculator"
-msgstr ""
+msgstr "🧮 計算機による高度な見積もり計算"
 
 #. module: construction
 #: model:planning.role,name:construction.planning_role_3
@@ -819,6 +826,8 @@ msgid ""
 "As site manager, on the other hand, you might record time for your whole "
 "team at the end of the week."
 msgstr ""
+"一方、サイトマネジャーとしては、週末にチーム全体の作業時間を記録することもあ"
+"るでしょう。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -826,6 +835,8 @@ msgid ""
 "As soon as it's updated, you can create a regular invoice to expense your "
 "customer for the delivered work."
 msgstr ""
+"更新が完了したら、通常の請求書を作成して、納品した作業分を顧客に請求できます"
+"。"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -845,8 +856,9 @@ msgstr ""
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
+#, fuzzy
 msgid "Automated cost update (Construction Developer)"
-msgstr ""
+msgstr "コストの自動更新（建設デベロッパー）"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -856,7 +868,7 @@ msgstr "自動抽出:"
 #. module: construction
 #: model:documents.document,name:construction.document_5
 msgid "BEFORE.jpg"
-msgstr ""
+msgstr "BEFORE.jpg"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body

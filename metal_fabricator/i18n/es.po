@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 19:15+0000\n"
-"PO-Revision-Date: 2026-04-04 12:59+0000\n"
+"PO-Revision-Date: 2026-05-02 12:31+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-s19-2/"
 "metal_fabricator/es/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.homepage
@@ -329,6 +329,9 @@ msgid ""
 "<span class=\"h6-fs\">Welcome to the <strong><font style=\"color: rgb(113, "
 "75, 103);\">Odoo Metal Fabricator package</font></strong>!</span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">¡Te damos la bienvenida al <strong><font "
+"style=\"color: rgb(113, 75, 103);\">paquete de Odoo para la industria de "
+"fabricación metálica</font></strong>!</span><br/>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -400,6 +403,8 @@ msgstr ""
 msgid ""
 "<strong><span class=\"display-4-fs\">Metal Fabricator</span></strong><br/>"
 msgstr ""
+"<strong><span class=\"display-4-fs\">Fabricación metálica</span></strong>"
+"<br/>"
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -447,6 +452,8 @@ msgid ""
 "As a custom metal fabricator, we specialize in creating bespoke metal "
 "solutions tailored to your exact specifications."
 msgstr ""
+"Como fabricantes de metal a medida, nos especializamos en crear soluciones "
+"metálicas personalizadas que se adaptan a tus especificaciones."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -768,6 +775,12 @@ msgid ""
 "assemblies have been produced. Otherwise, it will remain yellow (labeled "
 "<b>MO Pending</b> in the filters)."
 msgstr ""
+"En la vista general de Fabricación, el estado <b>«Disponible»</b> de un "
+"pedido solo se pondrá en verde (con la etiqueta <b>Orden de fabricación "
+"lista</b> en los filtros) una vez que se hayan recibido en el stock todos "
+"los artículos comprados necesarios y se hayan producido todos los "
+"subensamblajes. De lo contrario, seguirá apareciendo en amarillo (con la "
+"etiqueta como <b>Orden de fabricación pendiente</b> en los filtros)."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body
@@ -894,6 +907,10 @@ msgid ""
 "Its main purpose is to automatically generate all the necessary <b>sub-"
 "assemblies</b> and <b>purchase orders</b> linked to your production needs."
 msgstr ""
+"La aplicación <b>Fabricación</b> es el centro principal para la gestión de "
+"la producción. Su objetivo principal es generar automáticamente todos los <b>"
+"subensamblajes</b> necesarios y los <b>pedidos de compra</b> vinculados a "
+"tus necesidades de producción."
 
 #. module: metal_fabricator
 #: model_terms:ir.ui.view,arch_db:metal_fabricator.welcome_article_body

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 19:01+0000\n"
-"PO-Revision-Date: 2026-04-04 12:47+0000\n"
+"PO-Revision-Date: 2026-04-28 14:34+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-s19-2/"
 "construction_developer/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.project_form_view_extension
@@ -1082,7 +1082,7 @@ msgstr ""
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
 msgid "This Week"
-msgstr ""
+msgstr "Esta semana"
 
 #. module: construction_developer
 #: model_terms:ir.ui.view,arch_db:construction_developer.view_x_remark_search
