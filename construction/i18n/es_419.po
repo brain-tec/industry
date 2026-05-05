@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 17:53+0000\n"
-"PO-Revision-Date: 2026-04-23 11:52+0000\n"
-"Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
+"PO-Revision-Date: 2026-04-30 15:32+0000\n"
+"Last-Translator: \"Patricia Gutiérrez (pagc)\" <pagc@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
-"odoo-s19-2/construction/es_419/>\n"
+"odoo-s19-3/construction/es_419/>\n"
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgstr "Sistema reversible de 10 kW"
 #. module: construction
 #: model_terms:sale.order.template,note:construction.sale_order_template_1
 msgid "30% deposit, 70% on completion"
-msgstr ""
+msgstr "30% de anticipo, 70% al finalizar"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_45
@@ -2248,6 +2248,8 @@ msgid ""
 "Once reaching agreed upon terms, create an invoice selecting the down "
 "payment option and the share to invoice."
 msgstr ""
+"Una vez que se hayan cumplido los términos acordados, selecciona la opción "
+"de anticipo para crear una factura y compartirla."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2256,6 +2258,9 @@ msgid ""
 "delivery update.<br/>This will update sale orders to capture those "
 "increments."
 msgstr ""
+"Cuando llegue el momento de la facturación, selecciona esas líneas y activa "
+"la actualización de la entrega.<br/>Esto actualizará las órdenes de venta "
+"para capturar esos incrementos."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2297,21 +2302,24 @@ msgid ""
 "Open the Progress view from the top bar shortcuts. It captures all sale "
 "order lines associated to this project."
 msgstr ""
+"Abre la vista de progreso en los atajos de la barra superior. Aquí se "
+"capturan todas las líneas de órdenes de venta asociadas a este proyecto."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the Timesheets App and reach the All Timesheets view."
 msgstr ""
+"Abre la aplicación Registro de horas y ve a la vista Todos los registros."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the Timesheets App settings."
-msgstr ""
+msgstr "Abre los ajustes de la aplicación Registro de horas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Open the Timesheets App to reach My Timesheets."
-msgstr ""
+msgstr "Abre la aplicación Registro de horas y ve a Mis registros de horas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2401,7 +2409,7 @@ msgstr "Entarimado"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_145
 msgid "Partition & Insulation"
-msgstr ""
+msgstr "Particiones y aislamiento"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_36
@@ -2494,11 +2502,15 @@ msgid ""
 "Pro tip: If working regularly with such invoicing strategy, consider setting "
 "the Milestone setting on the project template!"
 msgstr ""
+"Consejo: Si habitualmente trabajas con esta estrategia de facturación, "
+"considera establecer un objetivo en la plantilla del proyecto."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Pro tip: Set progress increment directly on a section to go faster!"
 msgstr ""
+"Consejo: Define el incremento del progreso directamente en una sección para "
+"avanzar más rápido."
 
 #. module: construction
 #: model:product.category,name:construction.product_category_13
@@ -2519,12 +2531,12 @@ msgstr "Plantilla de proyecto"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Project management"
-msgstr ""
+msgstr "Gestión de proyectos"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Project template"
-msgstr ""
+msgstr "Plantilla del proyecto"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_58
@@ -2566,6 +2578,8 @@ msgstr "Recepción"
 msgid ""
 "Record time spent on tasks as detailed in 🔍 Accurately track the time spent."
 msgstr ""
+"Registra el tiempo invertido en las tareas como se detalla en 🔍 Llevar un "
+"seguimiento preciso del tiempo utilizado."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_17
@@ -2580,13 +2594,15 @@ msgstr "Vigas de refuerzo"
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_1
 msgid "Renovation"
-msgstr ""
+msgstr "Renovación"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid ""
 "Replicate such setup as you need following S00001 - Martinez / Wall Masonry."
 msgstr ""
+"Replica la configuración como sea necesario después de S00001 - Martinez / "
+"Muro de mampostería."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2594,11 +2610,13 @@ msgid ""
 "Replicate such setup as you need following S00002 - Davis / Guest House "
 "Renovation."
 msgstr ""
+"Replica la configuración como sea necesario después de S00002 - Davis / "
+"Renovación de la casa de huéspedes."
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_4
 msgid "Residential"
-msgstr ""
+msgstr "Residencial"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_29
@@ -2704,7 +2722,7 @@ msgstr "Selecciona todas las órdenes de venta que quieres facturar."
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Select multiple tasks to assign them a given milestone."
-msgstr ""
+msgstr "Selecciona varias tareas y asígnalas a un objetivo específico."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -2716,7 +2734,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Self recording"
-msgstr ""
+msgstr "Gestión propia"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_19
@@ -2742,7 +2760,7 @@ msgstr ""
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Simple down payment increments"
-msgstr ""
+msgstr "Incrementos simples de anticipo"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_27
@@ -2817,6 +2835,11 @@ msgid ""
 "they as well are the lever to charge your customers.<br/>Those are defined "
 "as service products with invoicing based on time sheets."
 msgstr ""
+"Facturas tu trabajo según las horas invertidas en él. <br/>\n"
+"            El registro de horas no solo te ayuda a llevar un registro de "
+"tus costos, sino que también te ayuda a cobrarle a los clientes.<br/>Estos "
+"productos se definen como productos de servicio con facturación según los "
+"registros de horas."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_58
@@ -2836,12 +2859,12 @@ msgstr "Equipo de especialidad"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Specific tax discount"
-msgstr ""
+msgstr "Descuento fiscal específico"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Specify the contract type (Construction Developer)"
-msgstr ""
+msgstr "Especifica el tipo de contrato (promotor inmobiliario)"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_18
@@ -2901,11 +2924,12 @@ msgstr "Estufa, horno, plancha"
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Streamlined delivery for progress management (Construction Developer)"
 msgstr ""
+"Entregas optimizadas para la gestión del progreso (promotor inmobiliario)"
 
 #. module: construction
 #: model:crm.tag,name:construction.crm_tag_13
 msgid "Structural"
-msgstr ""
+msgstr "Estructural"
 
 #. module: construction
 #: model:product.category,name:construction.product_category_46
@@ -3018,6 +3042,11 @@ msgid ""
 "                    You can however easily introduce a time sheet approval "
 "process for manager to confirm and correct recorded time:"
 msgstr ""
+"El ajuste predeterminado para facturación es facturar todos los registros de "
+"hora para que tu trabajo se pueda facturar bien.\n"
+"                    Fácilmente puedes introducir un proceso de aprobación "
+"para registro de horas para que un gerente confirme y corrija el tiempo "
+"registrado:"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3063,6 +3092,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Then from the project task view, open the Milestones from the top bar."
 msgstr ""
+"Luego, desde la vista de tareas del proyecto, abre los objetivos desde la "
+"barra superior."
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_54
@@ -3110,7 +3141,7 @@ msgstr "Ajuste de estructura de madera"
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
 msgid "Time sheet based invoicing"
-msgstr ""
+msgstr "Facturación según los registros de horas"
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3123,6 +3154,8 @@ msgid ""
 "Timesheets to validate are then waiting for managers in the Timesheets App "
 "prior being expensable."
 msgstr ""
+"Los gerentes pueden validar los registros de horas en la aplicación Registro "
+"de horas antes de que se puedan facturar."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3152,7 +3185,7 @@ msgstr "Activadores:"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_15
 msgid "Trimming, leveling"
-msgstr ""
+msgstr "Recortes y nivelación "
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3160,6 +3193,9 @@ msgid ""
 "Typically, products might be priced in a scale-able fashion and billed based "
 "on delivered quantity, allowing invoicing of partially delivered order lines."
 msgstr ""
+"Por lo general, los productos tendrán precios escalables y se facturarán "
+"según la cantidad entregada, lo que permite facturar las líneas de la orden "
+"parcialmente entregadas."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3169,7 +3205,7 @@ msgstr "Caso de uso"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_166
 msgid "Utilities"
-msgstr ""
+msgstr "Servicios públicos"
 
 #. module: construction
 #: model:product.template,name:construction.product_template_27
@@ -3184,7 +3220,7 @@ msgstr "Demolición de muros y pisos"
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_165
 msgid "Wall Finishes"
-msgstr ""
+msgstr "Acabado de pared"
 
 #. module: construction
 #: model:sale.order.template.line,name:construction.sale_order_template_line_47
@@ -3227,6 +3263,8 @@ msgid ""
 "When reaching the end of the work, simply create a regular invoice to bill "
 "the remaining due."
 msgstr ""
+"Al terminar el trabajo, crea una factura normal para facturar el total "
+"adeudado."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3252,6 +3290,8 @@ msgid ""
 "When you then set a milestone to reach, the related sale order lines "
 "(through their tasks) are delivered and can then be invoiced!"
 msgstr ""
+"Cuando estableces un objetivo que lograr, las órdenes de venta relacionadas "
+"(junto con sus tareas) se entregan y se pueden facturar."
 
 #. module: construction
 #: model:product.template,name:construction.product_template_50
@@ -3335,6 +3375,8 @@ msgid ""
 "You may want to formalize the project progress through milestones and bill "
 "reached ones."
 msgstr ""
+"Lo mejor es formalizar el progreso del proyecto mediante objetivos y "
+"facturar los que se hayan alcanzado."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
@@ -3342,6 +3384,8 @@ msgid ""
 "You may want to keep things simple and simply split your invoices based on "
 "agreed upon terms."
 msgstr ""
+"Es posible que no quieras complicar las cosas y solo dividir tus facturas "
+"según los términos acordados."
 
 #. module: construction
 #: model_terms:ir.ui.view,arch_db:construction.welcome_article_body
