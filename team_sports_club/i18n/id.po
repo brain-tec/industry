@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:44+0000\n"
-"PO-Revision-Date: 2026-04-23 11:52+0000\n"
+"PO-Revision-Date: 2026-04-30 14:48+0000\n"
 "Last-Translator: \"Nurul Aini Akrima Sabila (nuaas)\" <nuaas@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-2/"
 "team_sports_club/id/>\n"
@@ -48,7 +48,7 @@ msgstr "<font class=\"text-o-color-1\">Skyline Football Club</font>"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "<font class=\"text-o-color-1\">Stadium Renovation Project</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-1\">Proyek Renovasi Stadion</font>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -56,6 +56,8 @@ msgid ""
 "<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> AVAILABLE FOR "
 "NEW SIGNINGS&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-circle text-success\" aria-hidden=\"true\"/> TERSEDIA UNTUK "
+"KONTRAK BARU&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -100,6 +102,9 @@ msgid ""
 "                        <strong>Tips for Success</strong>\n"
 "                    </span>"
 msgstr ""
+"<span class=\"h3-fs\">\n"
+"                        <strong>Tips Kesuksesan</strong>\n"
+"                    </span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -109,16 +114,20 @@ msgid ""
 "team committed to excellence and fostering strong relationships with our "
 "supporters.</span>"
 msgstr ""
+"<span class=\"h3-fs\">Pendekatan kami berakar dari kerja sama tim dan "
+"dedikasi. Yang awalnya dimulai sebagai klub lokal, kini telah berkembang "
+"menjadi tim sepak bola berlandaskan komunitas, berkomitmen pada keunggulan, "
+"dan memupuk hubungan yang kuat dengan para pendukung.</span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "<span style=\"font-size: 34px;\">Basics</span>"
-msgstr ""
+msgstr "<span style=\"font-size: 34px;\">Dasar-dasar</span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "<span style=\"font-size: 34px;\">Want to Go Further?</span>"
-msgstr ""
+msgstr "<span style=\"font-size: 34px;\">Ingin Melangkah Lebih Jauh?</span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -127,6 +136,9 @@ msgid ""
 "                <strong>Team Sport Clubs</strong>\n"
 "            </span>"
 msgstr ""
+"<span style=\"font-size: 56px;\">\n"
+"                <strong>Klub Olahraga Tim</strong>\n"
+"            </span>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -136,6 +148,9 @@ msgid ""
 "font>\n"
 "                      </strong>"
 msgstr ""
+"<strong>\n"
+"                        <font class=\"text-o-color-1\">FILOSOFI KAMI</font>\n"
+"                      </strong>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -144,6 +159,9 @@ msgid ""
 "potential sponsors and managing\n"
 "                    sponsorship deals effectively.<br/>"
 msgstr ""
+"<strong><b>Aplikasi CRM</b>: </strong>Buat penggalangan dana Anda tampak "
+"profesional dengan melacak calon sponsor dan mengelola\n"
+"                    kesepakatan sponsor secara efektif.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -152,6 +170,9 @@ msgid ""
 "tickets and managing registrations\n"
 "                    for tournaments or social events online.<br/>"
 msgstr ""
+"<strong><b>Aplikasi Event</b>: </strong>Libatkan fanbase Anda dengan menjual "
+"tiket pertandingan dan mengelola pendaftaran\n"
+"                    untuk turnamen atau acara sosial secara online.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -160,6 +181,9 @@ msgid ""
 "invoicing members and sponsors\n"
 "                    and tracking incoming payments.<br/>"
 msgstr ""
+"<strong><b>Aplikasi Faktur</b>: </strong>Jaga kesehatan keuangan klub dengan "
+"menerbitkan faktur untuk anggota dan sponsor\n"
+"                    serta melacak pembayaran masuk.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -168,6 +192,9 @@ msgid ""
 "field and court bookings to\n"
 "                    prevent conflicts between teams.<br/>"
 msgstr ""
+"<strong><b>Aplikasi Perencanaan</b>: </strong>Optimalkan fasilitas Anda "
+"dengan menjadwalkan pemesanan lapangan untuk\n"
+"                    mencegah konflik antar tim.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -176,6 +203,9 @@ msgid ""
 "merchandise shop efficiently, handling\n"
 "                    sales of drinks, snacks, and team jerseys.<br/>"
 msgstr ""
+"<strong><b>Aplikasi POS</b>: </strong>Kelola bar atau toko merchandise klub "
+"Anda dengan efisien, menangani\n"
+"                    penjualan minuman, makanan ringan, dan jersey tim.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -184,6 +214,9 @@ msgid ""
 "player recruitment drives and trial\n"
 "                    days with clear tasks and timelines.<br/>"
 msgstr ""
+"<strong><b>Aplikasi Project</b>: </strong>Koordinasikan aktivitas kompleks "
+"seperti kampanye perekrutan pemain dan hari uji coba\n"
+"                    dengan tugas dan jadwal yang jelas.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -192,6 +225,9 @@ msgid ""
 "and formal contribution requests\n"
 "                    to secure revenue.<br/>"
 msgstr ""
+"<strong><b>Aplikasi Sales</b>: </strong>Buat penawaran sponsor yang "
+"profesional dan permohonan kontribusi yang formal\n"
+"                    untuk mengamankan pendapatan.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -200,6 +236,9 @@ msgid ""
 "managing rosters, assigning players to\n"
 "                    specific squads, and tracking team compositions.<br/>"
 msgstr ""
+"<strong><b>Aplikasi Tim</b>: </strong>Atur struktur klub Anda dengan "
+"mengelola daftar pemain, menugaskan pemain ke\n"
+"                    skuad tertentu, dan melacak komposisi tim.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -208,6 +247,9 @@ msgid ""
 "showcase team profiles, sell\n"
 "                    merchandise, and manage online enrollments.<br/>"
 msgstr ""
+"<strong><b>Aplikasi Website</b>: </strong>Bangun rumah digital untuk klub "
+"Anda untuk menampilkan profil tim, menjual\n"
+"                    merchandise, dan mengelola pendaftaran online.<br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -215,6 +257,8 @@ msgid ""
 "<strong>Dashboards</strong> to monitor sponsorship revenue, ticket sales, "
 "recruitment pipeline, and bookings."
 msgstr ""
+"<strong>Dashboard</strong> untuk memantau pendapatan sponsor, penjualan "
+"tiket, alur perekrutan, dan pemesanan."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -222,6 +266,8 @@ msgid ""
 "<strong>Engage fans</strong>: Add newsletter signup and match highlights to "
 "your website to boost retention."
 msgstr ""
+"<strong>Interaksi penggemar</strong>: Tambahkan pendaftaran surat kabar dan "
+"sorotan pertandingan ke website Anda untuk meningkatkan retensi."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -229,6 +275,8 @@ msgid ""
 "<strong>Keep sponsor data fresh</strong>: Use CRM activity templates for "
 "scheduled check-ins or renewals."
 msgstr ""
+"<strong>Perbarui data sponsor secara berkala</strong>: Gunakan template "
+"aktivitas CRM untuk pemeriksaan rutin atau perpanjangan."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -236,12 +284,16 @@ msgid ""
 "<strong>Keep your eCommerce slick</strong>: Use bundled offers—e.g., season "
 "pass + team kit—to drive value."
 msgstr ""
+"<strong>Pastikan eCommerce tetap menarik</strong>: Gunakan penawaran paket—"
+"misalnya, tiket musiman + kit tim—untuk meningkatkan nilai jual."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid ""
 "<strong>Marketing Automation</strong> to engage fans and sponsors over time."
 msgstr ""
+"<strong>Otomatisasi Marketing</strong> untuk melibatkan penggemar dan "
+"sponsor dari waktu ke waktu."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -249,6 +301,8 @@ msgid ""
 "<strong>Membership/subscription services</strong> with recurring billing via "
 "Recurring Invoices."
 msgstr ""
+"<strong>Layanan keanggotaan/langganan</strong> dengan penagihan berulang "
+"melalui Faktur Rutin."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -256,6 +310,8 @@ msgid ""
 "<strong>Organize recruitment</strong>: Standardize evaluation forms in "
 "Projects to compare prospects easily."
 msgstr ""
+"<strong>Atur perekrutan</strong>: Buat standar baku untuk formulir evaluasi "
+"di aplikasi Project untuk membandingkan calon pemain dengan praktis."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -263,6 +319,8 @@ msgid ""
 "<strong>Promote events early</strong>: Link your Events app with your "
 "website to boost ticket sales."
 msgstr ""
+"<strong>Promosikan acara lebih awal</strong>: Hubungkan aplikasi Event "
+"dengan website Anda untuk meningkatkan penjualan tiket."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -270,6 +328,8 @@ msgid ""
 "<strong>SMS Marketing</strong> for last-minute match alerts or ticket "
 "promotions."
 msgstr ""
+"<strong>SMS Marketing</strong> untuk pemberitahuan pertandingan atau promosi "
+"tiket di detik-detik terakhir."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -277,6 +337,8 @@ msgid ""
 "<strong>Sign app</strong> to facilitate digital agreements with sponsors or "
 "suppliers."
 msgstr ""
+"<strong>Aplikasi Tanda Tangan</strong> untuk memfasilitasi perjanjian "
+"digital dengan sponsor atau supplier."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -284,16 +346,21 @@ msgid ""
 "<strong>Simplify bookings</strong>: Share Planning booking links with "
 "members or locals to reduce admin overhead."
 msgstr ""
+"<strong>Sederhanakan pemesanan</strong>: Bagikan tautan pemesanan di "
+"aplikasi Perencanaan kepada anggota atau penduduk setempat untuk mengurangi "
+"beban administrasi."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "<strong>We are Skyline FC.</strong>"
-msgstr ""
+msgstr "<strong>Kami adalah Skyline FC.</strong>"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "<strong>⚽ U5 Football Match: Odoo vs. Football Club Industry</strong>"
 msgstr ""
+"<strong>⚽ Pertandingan Sepak Bola U5: Odoo vs. Industri Klub Sepak Bola</"
+"strong>"
 
 #. module: team_sports_club
 #: model:product.public.category,name:team_sports_club.product_public_category_3
@@ -314,6 +381,8 @@ msgstr "Topi baseball yang dapat disesuaikan dengan logo klub yang disulam."
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Allow fans to enroll or register players for next season or camps."
 msgstr ""
+"Izinkan penggemar untuk mendaftarkan diri atau daftarkan pemain ke musim "
+"atau kamp berikutnya."
 
 #. module: team_sports_club
 #: model_terms:product.template,description_ecommerce:team_sports_club.product_template_15
@@ -333,16 +402,18 @@ msgstr "Pakaian"
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Assign players to teams, track positions, and manage roster changes."
 msgstr ""
+"Masukkan pemain ke tim, lacak posisi, dan kelola perubahan susunan pemain."
 
 #. module: team_sports_club
 #: model:project.task.type,name:team_sports_club.project_task_type_4
 msgid "Assigned to a team"
-msgstr ""
+msgstr "Ditetapkan ke tim"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Avoid scheduling conflicts with clear, live availability."
 msgstr ""
+"Hindari konflik penjadwalan dengan ketersediaan yang jelas dan real-time."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_15
@@ -355,6 +426,8 @@ msgid ""
 "Bring your energy, your team colors, and your cheers — let’s make this a day "
 "to remember for our future stars!"
 msgstr ""
+"Bawa semangatmu, warna timmu, dan sorakanmu — mari jadikan hari ini tak "
+"terlupakan bagi bintang-bintang masa depan kita!"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -362,6 +435,8 @@ msgid ""
 "Build professional sponsorship proposals (e.g., Platinum, Gold, Silver "
 "tiers)."
 msgstr ""
+"Buat proposal sponsor profesional (misalnya dengan tingkatan Platinum, Gold, "
+"Silver)."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.contri_form_view_custom
@@ -376,22 +451,22 @@ msgstr "Topi"
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_10
 msgid "Center Back"
-msgstr ""
+msgstr "Bek Tengah"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_13
 msgid "Central Midfielder"
-msgstr ""
+msgstr "Gelandang Tengah"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Club Bar &amp; Merchandise Sales 🍻"
-msgstr ""
+msgstr "Club Bar &amp; Penjualan Merchandise🍻"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Club Presence, Shop &amp; Enrollment 🌐"
-msgstr ""
+msgstr "Eksistensi Klub, Toko, &amp; Pendaftaran 🌐"
 
 #. module: team_sports_club
 #: model:ir.model.fields.selection,name:team_sports_club.partnership_model_res_partner_grade_x_type_field_selection_coach
@@ -436,21 +511,22 @@ msgstr "Kontribusi"
 msgid ""
 "Convert sponsorship agreements, ticket orders, or shop sales into invoices."
 msgstr ""
+"Ubah perjanjian sponsor, pesanan tiket, atau penjualan toko menjadi faktur."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.contri_form_view_custom
 msgid "Create SO"
-msgstr ""
+msgstr "Buat SO"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Create and manage matches or fundraising event pages."
-msgstr ""
+msgstr "Buat dan kelola halaman untuk acara penggalangan dana."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Create and manage teams for different age groups or levels."
-msgstr ""
+msgstr "Buat dan kelola tim untuk berbagai kelompok usia atau level."
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_5
@@ -462,12 +538,12 @@ msgstr "D1"
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_19
 msgid "D2"
-msgstr ""
+msgstr "D2"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_12
 msgid "Defensive Midfielder"
-msgstr ""
+msgstr "Gelandang Bertahan"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -475,16 +551,17 @@ msgid ""
 "Discover our merchandising collection and support your club on a daily "
 "basis.&amp;nbsp;"
 msgstr ""
+"Temukan koleksi merchandise kami dan dukung klub Anda setiap hari.&amp;nbsp;"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.header_call_to_action
 msgid "Enrollment"
-msgstr ""
+msgstr "Pendaftaran"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_6
 msgid "Entrainement NOK"
-msgstr ""
+msgstr "Entrainement NOK"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_2
@@ -513,7 +590,7 @@ msgstr "Jalankan Kode"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Expand club management with:"
-msgstr ""
+msgstr "Perluas pengelolaan klub dengan:"
 
 #. module: team_sports_club
 #: model:event.event,name:team_sports_club.event_event_2
@@ -523,7 +600,7 @@ msgstr "FC Barcelone P2"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Field Bookings 📅"
-msgstr ""
+msgstr "Pemesanan Lapangan 📅"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -535,16 +612,22 @@ msgid ""
 "the correct product, assign a tag corresponding to the period, and generate "
 "all the Sales Orders."
 msgstr ""
+"Untuk kontribusi tahunan, Anda dapat dengan mudah mengelola harga spesifik "
+"untuk setiap tim dengan mengatur daftar harga. Setelah diatur di aplikasi "
+"Tim, Anda dapat memilih semua pemain yang ingin dikirimi permintaan "
+"kontribusi. Tombol cerdas, <em>Minta Kontribusi</em>, akan muncul. Klik "
+"tombol tersebut untuk memilih produk yang benar, tetapkan tag yang sesuai "
+"dengan periodenya, dan buat semua Sales Order."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Generate quotation templates for swift turnaround."
-msgstr ""
+msgstr "Buat template surat penawaran untuk turnaround yang cepat."
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_8
 msgid "Goalkeeper"
-msgstr ""
+msgstr "Kiper"
 
 #. module: team_sports_club
 #: model_terms:product.public.category,website_description:team_sports_club.product_public_category_4
@@ -554,7 +637,7 @@ msgstr "Grab unique items that celebrate our club's legacy."
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Handle cash, card, or digital payments."
-msgstr ""
+msgstr "Tangani pembayaran dengan uang tunai, kartu, atau digital."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_14
@@ -586,7 +669,7 @@ msgstr ""
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Interested in joining us?"
-msgstr ""
+msgstr "Tertarik bergabung dengan kami?"
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.partnership_model_res_partner_grade_x_is_a_team_field
@@ -606,7 +689,7 @@ msgstr "Jersey"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Join our fan club"
-msgstr ""
+msgstr "Gabung dengan klub penggemar kami"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
@@ -614,6 +697,9 @@ msgid ""
 "Join us for an exciting U5 football showdown as <strong>Odoo U5</strong> "
 "takes on <strong>Football Club Industry U5</strong>!"
 msgstr ""
+"Bergabunglah untuk pertandingan sepak bola U5 yang seru, dengan <strong>Odoo "
+"U5</strong> yang berhadapan dengan <strong>Football Club Industry U5</strong>"
+"!"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_2
@@ -637,37 +723,38 @@ msgstr "Terlambat"
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_11
 msgid "Left Back"
-msgstr ""
+msgstr "Bek Kiri"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_16
 msgid "Left Winger"
-msgstr ""
+msgstr "Sayap Kiri"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Let's discuss how we can enhance your matchday experience<br/><br/>"
 msgstr ""
+"Mari bahas cara meningkatkan pengalaman hari pertandingan Anda<br/><br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Leverage the <strong>POS app</strong> to:"
-msgstr ""
+msgstr "Manfaatkan <strong>aplikasi POS</strong> untuk:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Manage proposal stages: initial outreach → negotiation → closed deal."
-msgstr ""
+msgstr "Kelola tahap proposal: outreach awal → negosiasi → kesepakatan ditutup."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Manage recruitment using:"
-msgstr ""
+msgstr "Kelola perekrutan dengan:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Match &amp; Special Event Ticketing 🎟️"
-msgstr ""
+msgstr "Tiket Pertandingan &amp; Acara Spesial 🎟️"
 
 #. module: team_sports_club
 #: model:project.task.type,name:team_sports_club.project_task_type_1
@@ -701,22 +788,22 @@ msgstr ""
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.products
 msgid "Our Fan Shop"
-msgstr ""
+msgstr "Toko Penggemar Kami"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.partners_website_page
 msgid "Our Players"
-msgstr ""
+msgstr "Pemain Kami"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Our achievements"
-msgstr ""
+msgstr "Prestasi kami"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Our merchandising"
-msgstr ""
+msgstr "Kerchandising kami"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -725,6 +812,10 @@ msgid ""
 "beginnings, we've grown into a club focused on achieving success and "
 "building lasting connections with our fans."
 msgstr ""
+"Kisah kami bermula dari rasa cinta terhadap sepak bola dan komunitas. Dari "
+"awal yang sederhana, kami telah berkembang menjadi klub yang berfokus pada "
+"mencapai kesuksesan dan menjalin hubungan yang langgeng dengan penggemar "
+"kami."
 
 #. module: team_sports_club
 #: model:product.pricelist,name:team_sports_club.product_pricelist_6
@@ -762,7 +853,7 @@ msgstr "Rekanan"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Payments &amp; Accounts 💰"
-msgstr ""
+msgstr "Pembayaran &amp; Akun 💰"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -770,11 +861,13 @@ msgid ""
 "Plan follow-up actions (calls, emails, meetings) to nurture sponsorship "
 "relationships."
 msgstr ""
+"Rencanakan tindakan follow-up (panggilan, email, rapat) untuk memelihara "
+"hubungan dengan sponsor."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Player Recruitment &amp; Trials 📝"
-msgstr ""
+msgstr "Perekrutan Pemain &amp; Uji Coba 📝"
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.project_model_project_project_x_player_recruitement_field
@@ -796,6 +889,7 @@ msgstr "Rekrutmen Pemain"
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Process on-site bar and shop purchases during matches or club events."
 msgstr ""
+"Proses pembelian on-site di bar dan toko selama pertandingan atau acara klub."
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.x_contribution_model_x_product_id_field
@@ -815,7 +909,7 @@ msgstr "Hubungi kami"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Reconcile payments with sponsorship contracts and membership dues."
-msgstr ""
+msgstr "Rekonsiliasi pembayaran dengan kontrak sponsor dan iuran keanggotaan."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_39
@@ -843,12 +937,12 @@ msgstr "Permintaan Kontribusi"
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_9
 msgid "Right Back"
-msgstr ""
+msgstr "Bek Kanan"
 
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_14
 msgid "Right Winger"
-msgstr ""
+msgstr "Sayap Kanan"
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_17
@@ -872,31 +966,35 @@ msgid ""
 "new smart button. This allows you to easily schedule trainings for the "
 "entire year and invite your players to register for each session."
 msgstr ""
+"Pilih <em>Acara Multi-slot</em> dan akses kalender slot melalui tombol "
+"cerdas baru. Dengan begitu, Anda dapat dengan mudah menjadwalkan pelatihan "
+"untuk sepanjang tahun dan mengundang pemain Anda untuk mendaftar di setiap "
+"sesi."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sell and validate tickets online or on-site."
-msgstr ""
+msgstr "Jual dan validasi tiket secara online atau on-site."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sell merchandise (jerseys, accessories) and event tickets online."
-msgstr ""
+msgstr "Jual merchandise (jersey, aksesori) dan tiket acara secara online."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Send invoices immediately and track payments."
-msgstr ""
+msgstr "Kirim faktur segera dan lacak pembayaran."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Set up available time slots for field or court usage."
-msgstr ""
+msgstr "Atur slot waktu yang tersedia untuk penggunaan lapangan."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Set up recurring offers for annual club contributions or memberships."
-msgstr ""
+msgstr "Atur penawaran berulang untuk iuran tahunan klub atau keanggotaan."
 
 #. module: team_sports_club
 #: model_terms:product.public.category,website_description:team_sports_club.product_public_category_1
@@ -908,17 +1006,17 @@ msgstr "Show your team spirit with our exclusive clothing line."
 msgid ""
 "Showcase club history, mission, teams, coaching staff, and calendar of "
 "events."
-msgstr ""
+msgstr "Tampilkan sejarah klub, misi, tim, staf pelatih, dan kalender acara."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Some of the latest matches we had the pleasure to play"
-msgstr ""
+msgstr "Beberapa pertandingan terkini yang kami nikmati"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sponsor Management 🤝"
-msgstr ""
+msgstr "Manajemen Sponsor 🤝"
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_21
@@ -928,12 +1026,12 @@ msgstr "Sponsorship Gold"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sponsorship Offers &amp; Membership Contributions 📄"
-msgstr ""
+msgstr "Penawaran Sponsorship &amp; Kontribusi Keanggotaan 📄"
 
 #. module: team_sports_club
 #: model:product.category,name:team_sports_club.product_category_8
 msgid "Sponsorships"
-msgstr ""
+msgstr "Sponsorship"
 
 #. module: team_sports_club
 #: model:ir.model.fields.selection,name:team_sports_club.partnership_model_res_partner_grade_x_type_field_selection_staff
@@ -950,7 +1048,7 @@ msgstr "Staff"
 #. module: team_sports_club
 #: model:res.partner.category,name:team_sports_club.res_partner_category_15
 msgid "Striker"
-msgstr ""
+msgstr "Striker"
 
 #. module: team_sports_club
 #: model_terms:product.template,description_ecommerce:team_sports_club.product_template_20
@@ -961,12 +1059,14 @@ msgstr ""
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
 msgid "Supported by passionate fans"
-msgstr ""
+msgstr "Didukung oleh penggemar antusias"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Sync inventory for on-the-fly restocking and managing stock levels."
 msgstr ""
+"Sinkronisasi inventaris untuk pengisian ulang secara langsung dan "
+"pengelolaan level stok."
 
 #. module: team_sports_club
 #: model:ir.model.fields,field_description:team_sports_club.x_contribution_model_x_tag_ids_field
@@ -999,7 +1099,7 @@ msgstr "Tim"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Teams: Roster Management 🏅"
-msgstr ""
+msgstr "Tim: Manajemen Daftar Pemain 🏅"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1007,11 +1107,13 @@ msgid ""
 "The <strong>Appointments app</strong> for scheduling trials, interviews, or "
 "training sessions with prospective players."
 msgstr ""
+"<strong>Aplikasi Appointment</strong> untuk menjadwalkan uji coba, "
+"wawancara, atau sesi pelatihan dengan calon pemain."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "The <strong>Invoicing app</strong> helps you:"
-msgstr ""
+msgstr "<strong>Aplikasi Faktur</strong> membantu Anda:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1019,16 +1121,18 @@ msgid ""
 "The <strong>Project app</strong> to track each recruit’s progress, "
 "documents, communications, and evaluation steps."
 msgstr ""
+"<strong>Aplikasi Project</strong> untuk melacak kemajuan, dokumen, "
+"komunikasi, dan tahap evaluasi setiap rekrutan."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "The <strong>Sales app</strong> enables you to:"
-msgstr ""
+msgstr "<strong>Aplikasi Sales</strong> memungkinkan Anda untuk:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "The <strong>Teams app</strong> empowers you to:"
-msgstr ""
+msgstr "<strong>Aplikasi Tim</strong> memungkinkan Anda untuk:"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
@@ -1037,6 +1141,9 @@ msgid ""
 "youngest talents as they show off their skills, teamwork, and passion for "
 "the game."
 msgstr ""
+"Pertandingan bersahabat yang tetap penuh semangat ini adalah kesempatan yang "
+"pas untuk mendukung talenta-talenta muda kami memamerkan keterampilan, kerja "
+"sama tim, dan semangat mereka terhadap permainan."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1044,16 +1151,19 @@ msgid ""
 "This guide helps you manage your club end-to-end—from sponsorships and "
 "events to player management, fan engagement, and bookings."
 msgstr ""
+"Panduan ini membantu Anda mengelola klub secara menyeluruh, mulai dari "
+"sponsor dan acara hingga manajemen pemain, interaksi penggemar, dan "
+"pemesanan."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Track attendance and issue reminders or notifications."
-msgstr ""
+msgstr "Lacak kehadiran dan kirim pengingat atau pemberitahuan."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Track potential sponsors, categorize and track their interest."
-msgstr ""
+msgstr "Lacak calon sponsor, kategorikan, dan identifikasi minat mereka."
 
 #. module: team_sports_club
 #: model:product.template,name:team_sports_club.product_template_20
@@ -1088,17 +1198,17 @@ msgstr "U18"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Use the <strong>CRM app</strong> to:"
-msgstr ""
+msgstr "Gunakan <strong>aplikasi CRM</strong> untuk:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Use the <strong>Events app</strong> to:"
-msgstr ""
+msgstr "Gunakan <strong>aplikasi Event</strong> untuk:"
 
 #. module: team_sports_club
 #: model:project.task.type,name:team_sports_club.project_task_type_2
 msgid "Verifications"
-msgstr ""
+msgstr "Verifikasi"
 
 #. module: team_sports_club
 #: model:ir.model.fields.selection,name:team_sports_club.partnership_model_res_partner_grade_x_type_field_selection_volunteer
@@ -1118,12 +1228,12 @@ msgstr "Welcome Pack"
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Welcome to the Odoo Team Sport Clubs package!"
-msgstr ""
+msgstr "Selamat datang di paket Odoo Team Sport Clubs!"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "With the <strong>Planning app</strong>, you can:"
-msgstr ""
+msgstr "Dengan <strong>aplikasi Perencanaan</strong> , Anda dapat:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1140,6 +1250,9 @@ msgid ""
 "feature.<br/> To be successful, your content needs to resonate with our fans "
 "and community.<br/><br/>"
 msgstr ""
+"Tulis satu dua paragraf yang menjelaskan klub Anda, nilai-nilainya, atau "
+"fitur tertentu.<br/> Agar berhasil, konten Anda harus dapat menarik minat "
+"penggemar dan komunitas.<br/><br/>"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1147,6 +1260,8 @@ msgid ""
 "You can also use the Events app to plan recurring trainings and matches with "
 "the Slots system."
 msgstr ""
+"Anda juga dapat menggunakan aplikasi Event untuk merencanakan pelatihan dan "
+"pertandingan berulang dengan sistem Slot."
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1156,7 +1271,7 @@ msgstr "Anda masih dapat melakukannya dengan membarui paket Anda di Aplikasi."
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
 msgid "Your <strong>Website &amp; eCommerce setup</strong> allows you to:"
-msgstr ""
+msgstr "<strong>Setup Website &amp; eCommerce</strong> Anda memungkinkan:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.ir_ui_view_2179
@@ -1173,6 +1288,8 @@ msgid ""
 "Your Odoo <strong>Team Sport Clubs package</strong> includes all the "
 "essential apps to centralize and simplify your club operations:"
 msgstr ""
+"<strong>Paket Team Sport Clubs</strong> Odoo mencakup semua aplikasi penting "
+"untuk memusatkan dan menyederhanakan operasional klub Anda:"
 
 #. module: team_sports_club
 #: model_terms:ir.ui.view,arch_db:team_sports_club.welcome_article_body
@@ -1222,22 +1339,22 @@ msgstr "🎓 Website"
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "🎟️ <strong>Entry:</strong> 5€ - 10€ with bus from our club."
-msgstr ""
+msgstr "🎟️ <strong>Tiket Masuk:</strong> 5€ - 10€ dengan bus dari klub kami."
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "📍 <strong>Location: Away - Odoo Football Club</strong>"
-msgstr ""
+msgstr "📍 <strong>Lokasi: Away - Odoo Football Club</strong>"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "🕒 <strong>Time: 2:00 PM to 4:00 PM</strong>"
-msgstr ""
+msgstr "🕒 <strong>Waktu: 14.00 hingga 16.00</strong>"
 
 #. module: team_sports_club
 #: model_terms:event.event,description:team_sports_club.event_event_1
 msgid "🗓️ <strong>Date:</strong> 02.08.2025"
-msgstr ""
+msgstr "🗓️ <strong>Tanggal:</strong> 02.08.2025"
 
 #~ msgid "2019"
 #~ msgstr "2019"
