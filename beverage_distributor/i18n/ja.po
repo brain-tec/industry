@@ -15,10 +15,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 17:40+0000\n"
-"PO-Revision-Date: 2026-04-23 11:52+0000\n"
+"POT-Creation-Date: 2026-04-29 17:41+0000\n"
+"PO-Revision-Date: 2026-04-30 15:29+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
-"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-2/"
+"Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s19-3/"
 "beverage_distributor/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -34,8 +34,8 @@ msgstr "$ 32M"
 
 #. module: beverage_distributor
 #: model:x_excise_report,x_name:beverage_distributor.excise_report_1
-msgid "26W16"
-msgstr ""
+msgid "26W17"
+msgstr "26W17"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1493,3 +1493,6 @@ msgstr "🎓 販売"
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 ウェブサイト"
+
+#~ msgid "26W16"
+#~ msgstr "26W16"

@@ -8,22 +8,23 @@
 # Fernanda Alvarez, 2024
 # "Dylan Kiss (dyki)" <dyki@odoo.com>, 2025.
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
+# "Patricia Gutiérrez (pagc)" <pagc@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 18:17+0000\n"
-"PO-Revision-Date: 2026-03-19 13:50+0000\n"
+"PO-Revision-Date: 2026-05-02 11:32+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
-"odoo-s19-2/headhunter/es_419/>\n"
+"odoo-s19-3/headhunter/es_419/>\n"
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: headhunter
 #: model_terms:hr.job,job_details:headhunter.hr_job_10
@@ -62,7 +63,7 @@ msgstr ""
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_4
 msgid "12 days / year, including <br>6 of your choice."
-msgstr ""
+msgstr "12 días al año,<br>con 6 de tu elección."
 
 #. module: headhunter
 #: model_terms:hr.job,job_details:headhunter.hr_job_10
@@ -86,21 +87,23 @@ msgid ""
 "<a href=\"/\" class=\"btn btn-primary o_translate_inline\" "
 "target=\"_blank\"><small><b>READ</b></small></a>"
 msgstr ""
+"<a href=\"/\" class=\"btn btn-primary o_translate_inline\" target=\"_blank\">"
+"<small><b>MÁS INFORMACIÓN</b></small></a>"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>1. Creation &amp; Initial Contact</b>"
-msgstr ""
+msgstr "<b>1. Creación y contacto inicial</b>"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>2. Screening &amp; Data Enrichment</b>"
-msgstr ""
+msgstr "<b>2. Evaluación y enriquecimiento de datos</b>"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>3. Interview Scheduling</b>"
-msgstr ""
+msgstr "<b>3. Programación de entrevistas</b>"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -108,6 +111,8 @@ msgid ""
 "<b><font class=\"text-o-color-1\">CRM</font>:</b> Streamlines daily "
 "discussions with potential clients."
 msgstr ""
+"<b><font class=\"text-o-color-1\">CRM</font>:</b> Optimiza las "
+"conversaciones diarias con tus clientes potenciales."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -115,6 +120,8 @@ msgid ""
 "<b><font class=\"text-o-color-1\">Recruitment App:</font></b> Tracks all "
 "talent and their applications within a clear pipeline"
 msgstr ""
+"<b><font class=\"text-o-color-1\">Reclutamiento:</font></b> Lleva "
+"seguimiento de todo el talento y sus postulaciones en un flujo claro"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -123,6 +130,9 @@ msgid ""
 "Maintains a clear, automated record of all\n"
 "                financial transactions."
 msgstr ""
+"<b><font class=\"text-o-color-1\">Ventas y Facturación</font>:</b> Mantiene "
+"un registro claro y automatizado de todas\n"
+"            las transacciones financieras."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -130,6 +140,8 @@ msgid ""
 "<b><font class=\"text-o-color-1\">Website App:</font></b> Drives visibility "
 "about open positions"
 msgstr ""
+"<b><font class=\"text-o-color-1\">Sitio web:</font></b> Aumenta la "
+"visibilidad de las vacantes abiertas"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -137,6 +149,8 @@ msgid ""
 "<b>Activate:</b> After the quotation is signed, update the Job Position "
 "status to <b>Open</b>."
 msgstr ""
+"<b>Activar:</b> Después de firmar la cotización, actualiza el estado del "
+"puesto de trabajo a <b>Abierto</b>."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -152,6 +166,8 @@ msgid ""
 "<b>Add to Pool:</b> Select the application and click the <b>Add to Pool</b> "
 "button."
 msgstr ""
+"<b>Agregar a la base de talentos:</b> Selecciona la postulación y haz clic "
+"en el botón \"<b>Agregar a la base de talentos</b>\"."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -159,6 +175,8 @@ msgid ""
 "<b>Applicants:</b> Track active candidates through the recruitment pipeline "
 "for each job position."
 msgstr ""
+"<b>Postulantes:</b> Lleva seguimiento de los candidatos activos a través del "
+"flujo de reclutamiento para cada puesto de trabajo."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -220,12 +238,12 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>Define</b> key skills required for the job"
-msgstr ""
+msgstr "<b>Define</b> las habilidades clave necesarias para el puesto"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>Document Management:</b>"
-msgstr ""
+msgstr "<b>Gestión de documentos:</b>"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -333,7 +351,7 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>Login:</b> john.smith@fifth.example.com <b>Password:</b> john"
-msgstr ""
+msgstr "<b>Usuario:</b> john.smith@fifth.ejemplo.com <b>Contraseña:</b> john"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2313,7 +2331,7 @@ msgstr ""
 #. module: headhunter
 #: model:hr.job,name:headhunter.hr_job_7
 msgid "Project Manager"
-msgstr ""
+msgstr "Gerente de proyecto"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.services
@@ -2328,7 +2346,7 @@ msgstr ""
 #. module: headhunter
 #: model:ir.model.fields,field_description:headhunter.x_is_published_field
 msgid "Published CV"
-msgstr ""
+msgstr "CV publicado"
 
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_4
@@ -2339,7 +2357,7 @@ msgstr "Evaluar las necesidades del cliente"
 #. module: headhunter
 #: model:ir.model.fields,field_description:headhunter.x_quotation_sales_order_field
 msgid "Quotation/Sales order"
-msgstr ""
+msgstr "Cotización/Orden de venta"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2349,6 +2367,10 @@ msgid ""
 "                    your business. Please refer to our documentation to "
 "create and tailor them to your specific requirements"
 msgstr ""
+"Las cotizaciones y las facturas son completamente personalizables, lo que te "
+"permite agregar información detallada que es esencial\n"
+"                    para tu empresa. Consulta nuestra documentación para "
+"crear y personalizarlas a tus necesidades específicas"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.homepage
@@ -2374,22 +2396,22 @@ msgstr ""
 #. module: headhunter
 #: model:ir.model.fields,field_description:headhunter.x_recruitment_type_field
 msgid "Recruitment Type"
-msgstr ""
+msgstr "Tipo de reclutamiento"
 
 #. module: headhunter
 #: model:mail.template,name:headhunter.mail_template_60
 msgid "Recruitment: Send CV"
-msgstr ""
+msgstr "Reclutamiento: Enviar CV"
 
 #. module: headhunter
 #: model:crm.tag,name:headhunter.crm_tag_3
 msgid "Remote"
-msgstr ""
+msgstr "Remoto"
 
 #. module: headhunter
 #: model:crm.tag,name:headhunter.crm_tag_19
 msgid "Renewables"
-msgstr ""
+msgstr "Renovables"
 
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_10
@@ -2413,11 +2435,13 @@ msgid ""
 "Review the CV to update the candidate’s skill set, experience, and any "
 "additional metadata required for the role."
 msgstr ""
+"Revisa el CV para actualizar las habilidades, experiencia y cualquier "
+"metadato adicional del candidato requerido para el puesto."
 
 #. module: headhunter
 #: model:ir.actions.server,name:headhunter.cv_sent_applicants_route
 msgid "Route displaying CV Sent Applicants"
-msgstr ""
+msgstr "Ruta que muestra CV enviado por los postulantes"
 
 #. module: headhunter
 #: model:hr.department,name:headhunter.hr_department_3
@@ -2430,7 +2454,7 @@ msgstr "Ventas"
 #: model_terms:ir.ui.view,arch_db:headhunter.view_hr_job_form_inherit_view
 #: model_terms:ir.ui.view,arch_db:headhunter.view_hr_job_kanban_inherit_view
 msgid "Sales Order"
-msgstr ""
+msgstr "Orden de venta"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.homepage
@@ -2440,12 +2464,12 @@ msgstr "Ventas y marketing"
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "Schedule a demo"
-msgstr ""
+msgstr "Programar una demostración"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_cv_sent_applicant_search
 msgid "Search CV Sent Applicants"
-msgstr ""
+msgstr "Buscar los CV enviados de los candidatos"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2454,11 +2478,14 @@ msgid ""
 "management, recruitment pipelines, and\n"
 "            interview scheduling"
 msgstr ""
+"También optimiza el <b>proceso de búsqueda de talento</b> y abarca la "
+"gestión del talento, los procesos de reclutamiento, y\n"
+"            programación de entrevistas."
 
 #. module: headhunter
 #: model:crm.tag,name:headhunter.crm_tag_13
 msgid "Security"
-msgstr ""
+msgstr "Seguridad"
 
 #. module: headhunter
 #: model:ir.actions.server,name:headhunter.ir_actions_server_for_email_pop_up
@@ -2466,18 +2493,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:headhunter.hr_kanban_view_applicant_inherit_view
 #: model_terms:ir.ui.view,arch_db:headhunter.jobs_recruitment_customization_form_view
 msgid "Send CV"
-msgstr ""
+msgstr "Enviar CV"
 
 #. module: headhunter
 #: model:base.automation,name:headhunter.base_automation_to_send_mail
 #: model:ir.actions.server,name:headhunter.ir_actions_server_to_send_mail
 msgid "Send mail"
-msgstr ""
+msgstr "Enviar correo"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.crm_lead_customization_form_view
 msgid "Sent CV'S"
-msgstr ""
+msgstr "CV enviados"
 
 #. module: headhunter
 #: model:hr.department,name:headhunter.hr_department_4
@@ -2490,7 +2517,7 @@ msgstr "Servicios"
 #. module: headhunter
 #: model:ir.model.fields,field_description:headhunter.x_is_shared_cv_field
 msgid "Shared CV"
-msgstr ""
+msgstr "CV compartido"
 
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_4
@@ -2519,13 +2546,13 @@ msgstr "Enviar"
 #: model:crm.tag,name:headhunter.crm_tag_15
 #: model:hr.talent.pool,name:headhunter.hr_talent_pool_3
 msgid "Supply Chain"
-msgstr ""
+msgstr "Cadena de suministro"
 
 #. module: headhunter
 #: model:base.automation,name:headhunter.uninstall_hook_base_automation
 #: model:ir.actions.server,name:headhunter.uninstall_hook_action_server
 msgid "Talent Acquisition: Uninstall Hook"
-msgstr ""
+msgstr "Adquisición de talento: Desinstalar hook"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2537,6 +2564,12 @@ msgid ""
 "            they become a \"Talent\" who can be easily matched to multiple "
 "job positions."
 msgstr ""
+"Las bases de talento te ayudan a categorizar y fomentar candidatos "
+"potenciales fuera de postulaciones específicas. Puedes crear\n"
+"            estas bases de forma manual u obteniendo a los mejores "
+"candidatos a los puestos abiertos. Una vez que un candidato entre a la base\n"
+"            se convierte en un \"talento\" que puede enviarse a varios "
+"puestos de trabajo."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.services
@@ -2560,31 +2593,33 @@ msgstr "Tecnología"
 msgid ""
 "The Recruitment app provides a central hub for managing three core areas:"
 msgstr ""
+"La aplicación Reclutamiento es un centro de operaciones desde el cual puedes "
+"gestionar tres áreas principales:"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "The Synchronization with the banks."
-msgstr ""
+msgstr "La sincronización con los bancos."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "The customer reminders."
-msgstr ""
+msgstr "Los recordatorios de clientes."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "The financial reporting."
-msgstr ""
+msgstr "Los reportes financieros."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "The vendor bills payment."
-msgstr ""
+msgstr "Los pagos de las facturas de proveedores."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.portal_cv_sent_applicants
 msgid "There are currently no published applicants for your account."
-msgstr ""
+msgstr "Por el momento no hay candidatos publicados para tu cuenta."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2595,6 +2630,12 @@ msgid ""
 "requirements and managing quotations to sales orders and\n"
 "            invoicing."
 msgstr ""
+"Esta solución holística gestiona todo el ciclo de vida de la adquisición de "
+"talento y optimiza los dos flujos principales.\n"
+"            Primero, gestiona <b>las relaciones con el cliente</b>, desde la "
+"captación de requisitos y gestión de cotizaciones hasta las órdenes de venta "
+"y\n"
+"            facturación."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2603,6 +2644,9 @@ msgid ""
 "open job positions, create an\n"
 "                    'Open Application' job position"
 msgstr ""
+"Para permitir que un talento te contacte incluso si no les interesa ninguno "
+"de los puestos de trabajo abiertos, crea un\n"
+"                    puesto de trabajo de \"Postulación abierta\""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2610,6 +2654,8 @@ msgid ""
 "To ensure client expectations are consistently met, please follow this "
 "standardized workflow:"
 msgstr ""
+"Para que las expectativas del cliente se cumplan constantemente, sigue este "
+"flujo de trabajo estandarizado:"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2618,6 +2664,9 @@ msgid ""
 "can execute the following flows and\n"
 "            configure the settings to suit your Talent Acquisition business."
 msgstr ""
+"Para entender el proceso que este paquete de Odoo ofrece, puedes realizar "
+"los flujos a continuación y\n"
+"            configurar los ajustes para que encajen con tu empresa."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2625,6 +2674,8 @@ msgid ""
 "To preview the interface, please log in to your database using the following "
 "credentials:"
 msgstr ""
+"Para previsualizar la interfaz, inicia sesión a tu base de datos con las "
+"credenciales a continuación:"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2634,6 +2685,10 @@ msgid ""
 "                    dedicated 'Spontaneous Outreach' job position for each "
 "target client."
 msgstr ""
+"Para compartir talento de forma proactiva con un cliente potencial, puedes "
+"directamente enviar un perfil o crear un\n"
+"                    puesto de trabajo específico \"Contacto específico\" "
+"para cada cliente objetivo."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2644,6 +2699,12 @@ msgid ""
 "extracts key candidate information, saving you\n"
 "                    manual data entry time (requires available credits)."
 msgstr ""
+"Para optimizar tus procesos, activa la función <b>Digitalización de "
+"currículum (OCR)</b> en los ajustes de Reclutamiento. Esta\n"
+"                    es una función de IA que automáticamente escanea los CV "
+"que se suban y obtiene información clave del candidato, lo que te ahorrará\n"
+"                    tiempo en la entrada manual de datos (esta función "
+"requiere créditos disponibles)."
 
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_4
@@ -2666,17 +2727,18 @@ msgstr ""
 #: model:ir.actions.server,name:headhunter.action_unpublish_cv
 #: model:ir.actions.server,name:headhunter.action_unpublish_cv_sent_model
 msgid "Unpublish CV"
-msgstr ""
+msgstr "CV sin publicar"
 
 #. module: headhunter
 #: model:crm.tag,name:headhunter.crm_tag_4
 msgid "Urgent"
-msgstr ""
+msgstr "Urgente"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "Use the <strong>Accounting</strong> app to easily handle:"
 msgstr ""
+"Usa la aplicación <strong>Contabilidad</strong> para gestionar fácilmente:"
 
 #. module: headhunter
 #: model:sign.item.role,name:headhunter.sign_item_role_user
@@ -2692,27 +2754,27 @@ msgstr "Permiso de trabajo válido para Bélgica"
 #. module: headhunter
 #: model:ir.actions.server,name:headhunter.ir_actions_server_view_applicants
 msgid "View Applicants"
-msgstr ""
+msgstr "Ver postulantes"
 
 #. module: headhunter
 #: model:ir.actions.server,name:headhunter.ir_actions_server_view_job_positions
 msgid "View Job Positions"
-msgstr ""
+msgstr "Ver puestos de trabajo"
 
 #. module: headhunter
 #: model:ir.actions.server,name:headhunter.ir_actions_server_view_opportunity
 msgid "View Opportunity"
-msgstr ""
+msgstr "Ver oportunidad"
 
 #. module: headhunter
 #: model:ir.actions.server,name:headhunter.ir_actions_server_view_sales_order
 msgid "View Sales Order"
-msgstr ""
+msgstr "Ver orden de venta"
 
 #. module: headhunter
 #: model:ir.actions.server,name:headhunter.ir_actions_server_view_sent_cvs
 msgid "View sent cv's"
-msgstr ""
+msgstr "Ver currículums enviados"
 
 #. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_10
@@ -2793,6 +2855,9 @@ msgid ""
 "automatically emails them a link to the\n"
 "            recruiter’s calendar to book a meeting."
 msgstr ""
+"Cuando un candidato llega a la etapa <b>Primera entrevista</b>, el sistema "
+"en automático les envía un correo con el enlace al\n"
+"            calendario del reclutador para que agenden una reunión."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.services
@@ -2817,7 +2882,7 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
-msgstr ""
+msgstr "¿Te gustaría que te ayudemos con tu configuración de Odoo?"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.homepage
@@ -2830,6 +2895,8 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr ""
+"Puede acceder a todas las aplicaciones instaladas en su base de datos de "
+"Odoo desde el tablero principal."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2840,6 +2907,11 @@ msgid ""
 "of your workflow or any unique exceptions, your data\n"
 "                    remains accurately connected"
 msgstr ""
+"Puedes generar órdenes de venta directamente desde un puesto de trabajo o "
+"vincular oportunidades, órdenes de venta y puestos\n"
+"                    de trabajo de forma manual. La flexibilidad asegura que "
+"tus datos se mantengan conectados sin importar tu flujo\n"
+"                    de trabajo o cuestiones específicas."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2848,6 +2920,9 @@ msgid ""
 "&gt; Upgrade your Talent Acquisition\n"
 "                    package and select the relevant checkbox"
 msgstr ""
+"¿No importaste los datos de demostración? Todavía puedes hacerlo. Ve a "
+"Aplicaciones&gt; Industrias &gt; Actualizar tu paquete de Adquisición\n"
+"                    de talento y selecciona la opción relevante."
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.contact_us
@@ -2860,25 +2935,25 @@ msgstr ""
 #: model:base.automation,name:headhunter.status_update_base_automation
 #: model:ir.actions.server,name:headhunter.ir_actions_server_706
 msgid "headhunter: Job Status Update"
-msgstr ""
+msgstr "Cazatalentos: Actualización del estado de trabajo"
 
 #. module: headhunter
 #: model:base.automation,name:headhunter.base_automation_sale_linked_to_job_position
 #: model:ir.actions.server,name:headhunter.ir_actions_server_link_to_job
 msgid "headhunter: Link to Job"
-msgstr ""
+msgstr "cazatalentos: Vincular al trabajo"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "🎓 Accounting"
-msgstr ""
+msgstr "🎓 Contabilidad"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "🎓 Documents"
-msgstr ""
+msgstr "﻿🎓 Documentos﻿"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "🎓 Sign"
-msgstr ""
+msgstr "🎓 Firma electrónica"

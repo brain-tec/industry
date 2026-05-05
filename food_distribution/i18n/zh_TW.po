@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 19:02+0000\n"
+"POT-Creation-Date: 2026-05-01 18:11+0000\n"
 "PO-Revision-Date: 2026-04-04 12:55+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -21,6 +21,11 @@ msgstr ""
 "X-Generator: Weblate 5.16.2\n"
 
 #. module: food_distribution
+#: model:ir.actions.report,print_report_name:food_distribution.mrp_bom_product_label_action_report
+msgid "'Products Labels - %s' % (object.name)"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ", and feel free to"
 msgstr "，亦歡迎隨時"
@@ -29,6 +34,11 @@ msgstr "，亦歡迎隨時"
 #: model:uom.uom,name:food_distribution.uom_uom_32
 msgid "1/6Gn Dispenser"
 msgstr "1/6 加侖給液器瓶裝"
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_38
+msgid "250g Tub"
+msgstr ""
 
 #. module: food_distribution
 #: model:uom.uom,name:food_distribution.uom_uom_29
@@ -144,6 +154,21 @@ msgstr ""
 "normal\" aria-label=\"橫幅警告\">⚠️</i>"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid ""
+"<span>Batch/Lot: </span>\n"
+"                                                                        <br/>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_sale_order_form_view
+msgid ""
+"<span>Warning: Some products use the MTO route while the delivery date is "
+"not set. Adjust the delivery date to customer needs to ensure manufacturing "
+"just in time!</span>"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Basics</strong>"
 msgstr "<strong>基礎知識</strong>"
@@ -169,6 +194,21 @@ msgstr ""
 "            新資料庫，供實際使用。</strong>"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Ingredients: </strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Nutritional Fact</strong>"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "<strong>Per 100g</strong>"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>使用例子</strong>"
@@ -188,8 +228,25 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Activate the Food &amp; Drinks Labels settings in the Food Distribution "
+"section."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_active
+msgid "Active"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Add some Salt and Sugar to secure suppliers for longer on those sides."
 msgstr "可以增加一些鹽及糖，確保能夠更長時間向這些供應商採購。"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_4
+msgid "Added Sugar"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -207,6 +264,19 @@ msgid "Also order the Mayonnaise so you can fill those buckets with sauce."
 msgstr "還有，要訂購蛋黃醬，以便將桶子裝滿醬汁。"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_search_view
+msgid "Archived"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"As a result, a single MO includes all manufacturing needs for the coming "
+"days, ensuring customers will be delivered fresh products while you batch "
+"their production!"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "As an Inventory Manager you need to make sure that the production team never "
@@ -219,9 +289,26 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"Assuming you received some ingredients and weeks after the supplier notifies "
+"you of a quality alert about the lot PLE-001 of pasteurized liquid eggs."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "B.b."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "Between production and deliveries, by default, the product picking is "
 "organized in FIFO."
 msgstr "由生產至交付之間的產品揀貨，預設是採用「先進先出」（FIFO）方式運作。"
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_39
+msgid "Box 8x 250g Tub"
+msgstr ""
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_9
@@ -237,6 +324,17 @@ msgid ""
 msgstr ""
 "上載此模組的模擬數據後，你的資料庫已填入一些產品記錄、銷售單\n"
 "      等資料。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid ""
+"Capture food and drink data on product and leverage them in printed labels."
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_3
+msgid "Carbohydrates"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -289,6 +387,16 @@ msgstr ""
 "        多張較小型的訂單。"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Lot/SN"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Demo Product"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Depending on your current stock level, an appropriate replenishment "
@@ -300,6 +408,16 @@ msgstr ""
 "系統會根據目前的庫存水平，\n"
 "        為最終製成品及其間接需求的組件，提供適當的補貨建議。例如，\n"
 "        預測蛋黃醬庫存時，也會計算盛載的桶及給液器。"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_name
+msgid "Description"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_5
+msgid "Dietary Fibre"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -333,6 +451,11 @@ msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Downstream Traceability Report"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Drag and drop manufacturing orders to spread evenly the load between "
 "Mayonnaise\n"
@@ -344,9 +467,24 @@ msgstr ""
 "產了！"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_1
+msgid "Energy"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Exp."
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Expiration Dates"
 msgstr "到期日"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_6
+msgid "Fat"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -384,9 +522,31 @@ msgid "Follow the step from each operation to prepare your Mayonnaise batch."
 msgstr "按照每項生產操作的步驟，製作這批蛋黃醬。"
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_res_company_x_module_food_drinks_labels
+#: model:ir.model.fields,field_description:food_distribution.field_res_config_setting_x_module_food_drinks_labels
+msgid "Food & Drinks Labels"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Food Distribution"
+msgstr ""
+
+#. module: food_distribution
+#: model:base.automation,name:food_distribution.automation_toggle_food_drinks_labels
+#: model:ir.actions.server,name:food_distribution.action_toggle_food_drinks_labels
+msgid "Food Distribution: Toggle Food & Drinks Labels"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Food distribution"
 msgstr "食品分銷"
+
+#. module: food_distribution
+#: model:product.template,name:food_distribution.product_template_14
+msgid "Fresh Potato Salad 250g"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -402,6 +562,11 @@ msgid ""
 msgstr ""
 "在已確認的銷售單頂部，有一個智能按鈕，\n"
 "        可直接查看相關發貨。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "From your product form, open the Labels tab."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -438,12 +603,52 @@ msgstr "此處提供一些物流數據，協助你優化配送安排。"
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"Hit the Transfers smart button to generate a full distribution list of "
+"impacted end-customers!"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "If you want to execute a practical guided tour of this module, you should "
 "Import demo\n"
 "          data and try the Demo - Use Case (In the next Knowledge Article)"
 msgstr ""
 "如果想執行此模組的實際操作導覽，你應該匯入模擬\n"
 "          資料，然後試試使用「演示 - 使用例子」（詳見下一篇知識庫文章）。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"In food distribution, you need to efficiently identify lots contaminated by "
+"non-compliant ingredients, contact impacted customers and scrap those."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"In food industry, ingredients and nutritional facts matter and shall be "
+"captured on labels."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"In this case, we take the example of fresh potato salad which does not last "
+"much.<br/>Basically, you want to make sure to produce only the necessary "
+"amount for your customers based on their orders, eventually anticipating "
+"production over 2 or more days to batch production."
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_ingredient_id
+msgid "Ingredient"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_ingredients
+msgid "Ingredients"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -457,6 +662,33 @@ msgstr ""
 "          <font class=\"text-o-color-1\">品質管理應用程式</font>\n"
 "        </strong>，引入更多功能及提升業務產能，\n"
 "        以滿足市場需要。"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_is_allergen
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_is_allergen
+msgid "Is Allergen"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_sale_order_is_mto_without_date
+msgid "Is MTO without date"
+msgstr ""
+
+#. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_36
+msgid "Kcal"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_product_template_only_form_view
+msgid "Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_label_note
+#: model_terms:ir.ui.view,arch_db:food_distribution.food_distribution_inherit_report_lot_label
+msgid "Label Note"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -509,9 +741,19 @@ msgid "Mayonnaise Dispenser 2.6L"
 msgstr "蛋黃醬 2.6 公升給液器瓶裝"
 
 #. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_8
+msgid "Mono saturated fatty acids"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_5
 msgid "Mustard"
 msgstr "芥末醬"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Name..."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -543,6 +785,11 @@ msgstr ""
 "          又可以為下月初期預留一些緩衝。"
 
 #. module: food_distribution
+#: model:stock.scrap.reason.tag,name:food_distribution.stock_scrap_reason_tag_1
+msgid "Non-compliance"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
 "Now Send the Request For Quotation to your supplier if willing to iterate on "
@@ -570,6 +817,20 @@ msgid ""
 "Now let's see how spread the work load from the resulting manufacturing "
 "orders."
 msgstr "現在，我們看看如何分配由這些製造訂單引起的工作量。"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_nutritional_fact_id
+msgid "Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.act_window,name:food_distribution.act_window_x_nutritional_facts
+#: model:ir.model,name:food_distribution.model_x_nutritional_facts
+#: model:ir.model.fields,field_description:food_distribution.field_product_template_nutritional_facts
+#: model:ir.ui.menu,name:food_distribution.inventory_nutritional_facts_menu
+#: model_terms:ir.ui.view,arch_db:food_distribution.x_nutritional_facts_form_view
+msgid "Nutritional Facts"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -626,6 +887,20 @@ msgstr "開啟<strong>採購應用程式</strong>，以及最近建立的採購�
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"Open the Inventory or Manufacturing App, and open the identified non-"
+"compliant serial from the Products, Lots/Serial Numbers menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Open the Manufacturing App and open the Manufacturing Orders from the "
+"Operations menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "Open the Master Production Schedule from the Planning menu.<br/>Don't panic, "
 "this will become\n"
 "        your best buddy to optimize your production!"
@@ -674,9 +949,34 @@ msgid "Pallet 250x 1/6Gn Dispenser"
 msgstr "貨板 250 件 × 1/6 加侖給液器瓶裝"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_40
+msgid "Pallet 50x Box 8x 250g Tub"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_parent
+msgid "Parent"
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_8
 msgid "Pasteurised Liquid Egg"
 msgstr "蛋液（巴士德消毒）"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_per_100g
+msgid "Per 100g"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Perishable production / Make to order (MTO)"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_9
+msgid "Poly saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -691,6 +991,37 @@ msgstr ""
 "面的工作。"
 
 #. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_product_template_id
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_product_template_id
+msgid "Product"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.actions.report,name:food_distribution.mrp_bom_product_label_action_report
+msgid "Product Label"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_ingredients
+msgid "Product Template Ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model,name:food_distribution.model_x_product_template_nutritional_fact
+msgid "Product Template Nutritional Fact"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_share
+msgid "Proportion (%)"
+msgstr ""
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_2
+msgid "Protein"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Purchase Orders"
 msgstr "採購訂單"
@@ -698,6 +1029,11 @@ msgstr "採購訂單"
 #. module: food_distribution
 #: model:product.category,name:food_distribution.product_category_4
 msgid "Raw Material"
+msgstr ""
+
+#. module: food_distribution
+#: model:product.template,name:food_distribution.product_template_16
+msgid "Raw Potatoes"
 msgstr ""
 
 #. module: food_distribution
@@ -717,8 +1053,14 @@ msgstr "銷售"
 
 #. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_6
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_10
 msgid "Salt"
 msgstr "鹽"
+
+#. module: food_distribution
+#: model:x_nutritional_facts,x_name:food_distribution.x_nutritional_facts_7
+msgid "Saturated fatty acids"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -729,8 +1071,20 @@ msgstr "報價單範本會自動對應你最常用的目標客群，協助你節
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Scraping the non-compliant ingredients"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Select a quotation template to save time for an installation."
 msgstr "選擇報價單範本，節省報價時間。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Select the corresponding product, add the lot number and quantity to scrap, "
+"tick the replenish box if needed and select the appropriate scrap reason."
+msgstr ""
 
 #. module: food_distribution
 #: model:product.category,name:food_distribution.product_category_5
@@ -741,6 +1095,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "Send your quotation for online signature."
 msgstr "傳送報價單，供客戶線上簽名。"
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_ingredients_sequence
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_sequence
+msgid "Sequence"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -756,6 +1117,11 @@ msgstr ""
 "        </strong>及<strong>\n"
 "          <font class=\"text-o-color-1\">客戶關係應用程式</font>\n"
 "        </strong>，免費設立你的公司網站，省時省力地獲取潛在客戶！"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Shelf-stable production / Make to stock (MTS)"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -821,6 +1187,20 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"The last 3 MO capture recent confirmed orders for potato salads with a start "
+"date allowing to manufacture just in time."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"The nutritional fact list is available from the Inventory App, Configuration "
+"menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "The products from the Replenishment Rules you triggered are here but not all "
 "products have\n"
 "        Replenishment Rules at this stage. For some products or other "
@@ -831,6 +1211,11 @@ msgstr ""
 "你觸發的補貨規則的相關產品已加入至此處，但並非所有產品\n"
 "        都已設定補貨規則。就你所需的部份產品或其他供應商，\n"
 "        你可選擇手動將它們加入至採購訂單，甚或可以建立新的採購訂單。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "Then go to the Operations &gt; Scrap menu and create a new entry."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -869,12 +1254,42 @@ msgstr "看似不錯，但生產出來的蛋黃醬，可能超過你計劃包裝
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"This setup relies on Odoo's standard MTO capability: Potato Fresh Salad "
+"operation routes include the MTO route."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"To bundle MO expected on close dates, select them from the list and fire the "
+"Merge command from the Actions menu."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "To save time and prevent mistake of typo in the Lot inputs, you might want "
 "to work with <strong>Barcode\n"
 "          App</strong>!"
 msgstr ""
 "為節省時間，同時預防批次號碼輸入錯誤，<strong>條碼\n"
 "          應用程式</strong>可能幫到你！"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.res_config_settings_form_view_inherited
+msgid "Traceability"
+msgstr ""
+
+#. module: food_distribution
+#: model:product.template,name:food_distribution.product_template_15
+msgid "Tub 250g"
+msgstr ""
+
+#. module: food_distribution
+#: model:ir.model.fields,field_description:food_distribution.field_x_nutritional_facts_unit
+#: model:ir.model.fields,field_description:food_distribution.field_x_product_template_nutritional_fact_unit
+msgid "Unit"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -895,9 +1310,25 @@ msgid "Validate the delivery to your customer to complete the job."
 msgstr "驗證送貨單，確認貨品已交付給客戶，以圓滿完成工作。"
 
 #. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"Validate the scrap order ensuring total isolation of the contaminated batch "
+"from your supply chain."
+msgstr ""
+
+#. module: food_distribution
 #: model:product.template,name:food_distribution.product_template_4
 msgid "Vinegar"
 msgstr "醋"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"We take the example of the mayonnaise here.<br/>Instead of producing buckets "
+"when your customers ask for it, you anticipate the trends over the coming "
+"weeks and months to always have some available and smoothen the production "
+"workload."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -927,20 +1358,6 @@ msgstr ""
 "貨車到達後，將貨物加入至庫存中，然後驗證收貨單，確認該次收貨，以更新\n"
 "        庫存水平。記得在送貨資料行中，設定批次編號。\n"
 "        現在，有足夠材料可以生產蛋黃醬一段時間了！"
-
-#. module: food_distribution
-#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
-msgid ""
-"Whether you want to plan your production based on existing sales orders, or "
-"based on a\n"
-"      forecast, you can use the master production schedule from the "
-"<strong>Manufacturing App</strong>\n"
-"      ."
-msgstr ""
-"無論你想根據目前已有的銷售單去規劃生產，還是\n"
-"      根據預測數字去計劃，都可利用<strong>製造管理應用程式</strong>的「主生產"
-"計劃」\n"
-"      。"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -986,6 +1403,13 @@ msgid ""
 "You can access every installed App in your Odoo database on your main "
 "dashboard."
 msgstr "你可在主要 Dashboard 上，存取 Odoo 資料庫內所有已安裝的應用程式。"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"You can easily maintain from here for each product its list of ingredients, "
+"the nutritional facts and specific notes to add to the label."
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1072,6 +1496,14 @@ msgstr ""
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid ""
+"You might distribute different types of products, shelf-stable and "
+"perishable, and therefore we have different ways to help you with "
+"<strong>Manufacturing App</strong>."
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
 "You might have tested this package with or without demo data. In any case, "
 "you may have\n"
 "      written records in journals which are not deletable and which might be "
@@ -1124,9 +1556,21 @@ msgid "if you need help!"
 msgstr "以尋求協助！"
 
 #. module: food_distribution
+#: model:uom.uom,name:food_distribution.uom_uom_37
+msgid "mg"
+msgstr ""
+
+#. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "request a demo"
 msgstr "預約功能演示"
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid ""
+"🎓\n"
+"         Inventory"
+msgstr ""
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
@@ -1187,10 +1631,32 @@ msgstr "📦 管理供貨"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "🖨️ Labels with ingredients and nutritional facts"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🗓️ Planning your production"
 msgstr "🗓️ 規劃生產"
 
 #. module: food_distribution
 #: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
+msgid "🚨 Identifying lots to recall"
+msgstr ""
+
+#. module: food_distribution
+#: model_terms:ir.ui.view,arch_db:food_distribution.welcome_article_body
 msgid "🥘 Manufacturing quality products"
 msgstr "🥘 生產優質產品"
+
+#~ msgid ""
+#~ "Whether you want to plan your production based on existing sales orders, "
+#~ "or based on a\n"
+#~ "      forecast, you can use the master production schedule from the "
+#~ "<strong>Manufacturing App</strong>\n"
+#~ "      ."
+#~ msgstr ""
+#~ "無論你想根據目前已有的銷售單去規劃生產，還是\n"
+#~ "      根據預測數字去計劃，都可利用<strong>製造管理應用程式</strong>的「主"
+#~ "生產計劃」\n"
+#~ "      。"
