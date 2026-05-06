@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-27 19:23+0000\n"
-"PO-Revision-Date: 2026-04-04 12:30+0000\n"
+"PO-Revision-Date: 2026-05-02 12:05+0000\n"
 "Last-Translator: \"Nurul Aini Akrima Sabila (nuaas)\" <nuaas@odoo.com>\n"
 "Language-Team: Indonesian <https://translate.odoo.com/projects/odoo-s19-1/"
 "industry_real_estate/id/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -67,8 +67,8 @@ msgid ""
 "<b>Create a Contract:</b> Click \"New\" and select the tenant as the "
 "\"Customer\" and add the Rental fee product."
 msgstr ""
-"<b>Create a Contract:</b> Click \"New\" and select the tenant as the "
-"\"Customer\" and add the Rental fee product."
+"<b>Buat Kontrak:</b> Klik \"Baru\" dan pilih penyewa sebagai \"Pelanggan\", "
+"lalu tambahkan produk Biaya Sewa."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -76,8 +76,8 @@ msgid ""
 "<b>Create a Property:</b> Click \"New\" to create a unit. Fill in its "
 "building, location and other details."
 msgstr ""
-"<b>Create a Property:</b> Click \"New\" to create a unit. Fill in its "
-"building, location and other details."
+"<b>Buat Properti:</b> Klik \"Baru\" untuk membuat unit. Isi detail gedung, "
+"lokasi, dan detail lainnya."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -85,8 +85,8 @@ msgid ""
 "<b>Documents App:</b> Store signed leases, property deeds, and insurance "
 "certificates with expiration alerts."
 msgstr ""
-"<b>Documents App:</b> Store signed leases, property deeds, and insurance "
-"certificates with expiration alerts."
+"<b>Aplikasi Dokumen:</b> Simpan kontrak sewa yang sudah ditandatangani, akta "
+"properti, dan sertifikat asuransi dengan pemberitahuan kedaluwarsa."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -96,10 +96,10 @@ msgid ""
 "                time of the tenant's entry to ensure accurate utility re-"
 "billing later."
 msgstr ""
-"<b>Move-in Logs:</b> Utilize the dedicated property tab to record meter "
-"readings (water, electricity) at the\n"
-"                time of the tenant's entry to ensure accurate utility re-"
-"billing later."
+"<b>Log Masuk:</b> Gunakan tab properti khusus untuk mencatat pembacaan meter "
+"(air, listrik) pada\n"
+"                saat penyewa masuk untuk memastikan penagihan ulang utilitas "
+"yang akurat di kemudian hari."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -108,9 +108,9 @@ msgid ""
 "navigate through the app menu\n"
 "                Availability."
 msgstr ""
-"<b>Open the Availability</b>: Open the <strong>Properties App</strong> and "
-"navigate through the app menu\n"
-"                Availability."
+"<b>Buka Ketersediaan</b>: Buka <strong>Aplikasi Properti</strong>, kemudian "
+"buka menu aplikasi\n"
+"                Ketersediaan."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -118,8 +118,8 @@ msgid ""
 "<b>Open the Contracts</b>: Open the <strong>Properties App</strong> to reach "
 "the Subscriptions."
 msgstr ""
-"<b>Open the Contracts</b>: Open the <strong>Properties App</strong> to reach "
-"the Subscriptions."
+"<b>Buka Kontrak</b>: Buka <strong>Aplikasi Properti</strong> untuk mengakses "
+"Langganan."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -128,8 +128,8 @@ msgid ""
 "through the app menu Properties /\n"
 "                Properties."
 msgstr ""
-"<b>Open the Properties: </b>Open the <b>Properties App </b>and navigate "
-"through the app menu Properties /\n"
+"<b>Buka Properti: </b>Buka <b>Aplikasi Properti, </b>kemudian buka menu "
+"aplikasi Properti /\n"
 "                Properties."
 
 #. module: industry_real_estate
@@ -139,9 +139,9 @@ msgid ""
 "by clicking on an empty slot in\n"
 "                    the timeline."
 msgstr ""
-"<b>Pro Tip:</b> You can create a new rental contract directly from this view "
-"by clicking on an empty slot in\n"
-"                    the timeline."
+"<b>Pro Tip:</b> Anda dapat membuat kontrak sewa baru langsung dari tampilan "
+"ini dengan mengklik slot kosong di\n"
+"                    timeline."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -150,9 +150,9 @@ msgid ""
 "manage property listings, contracts, and\n"
 "                availability status."
 msgstr ""
-"<b>Properties App: </b>Organize your portfolio with a dedicated app to "
-"manage property listings, contracts, and\n"
-"                availability status."
+"<b>Aplikasi Properti: </b>Atur portofolio Anda dengan aplikasi khusus untuk "
+"mengelola daftar properti, kontrak, dan\n"
+"                status ketersediaan."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -161,14 +161,14 @@ msgid ""
 "professional quotations and digital\n"
 "                signatures."
 msgstr ""
-"<b>Sales App: </b>Handle offers, negotiations, and closing deals with "
-"professional quotations and digital\n"
-"                signatures."
+"<b>Aplikasi Sales: </b>Tangani penawaran, negosiasi, dan penutupan "
+"kesepakatan dengan surat penawaran profesional\n"
+"                dan tanda tangan digital."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<b>Select the Property:</b> Select the \"Property\" to rent."
-msgstr "<b>Select the Property:</b> Select the \"Property\" to rent."
+msgstr "<b>Pilih Properti:</b> Pilih \"Properti\" yang akan disewakan."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -176,8 +176,8 @@ msgid ""
 "<b>Sign App:</b> Send lease agreements for legally binding electronic "
 "signatures."
 msgstr ""
-"<b>Sign App:</b> Send lease agreements for legally binding electronic "
-"signatures."
+"<b>Aplikasi Tanda Tangan:</b> Kirim perjanjian sewa-menyewa untuk tanda "
+"tangan elektronik yang mengikat secara hukum."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -187,10 +187,10 @@ msgid ""
 "                cycles, ensuring consistent cash flow and effortless lease "
 "renewals."
 msgstr ""
-"<b>Subscriptions App: </b>Automate the collection of recurring rent and "
-"service charges with flexible billing\n"
-"                cycles, ensuring consistent cash flow and effortless lease "
-"renewals."
+"<b>Aplikasi Langganan: </b>Otomatiskan penagihan sewa dan biaya layanan "
+"berulang dengan siklus penagihan yang fleksibel\n"
+"                untuk memastikan arus kas yang konsisten dan perpanjangan "
+"sewa yang praktis."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -199,9 +199,9 @@ msgid ""
 "quarterly, etc.) and the expiration of\n"
 "                the contract."
 msgstr ""
-"<b>Timeline:</b> Specify the start date, the recurring period (monthly, "
-"quarterly, etc.) and the expiration of\n"
-"                the contract."
+"<b>Timeline:</b> Tentukan tanggal mulai, periode berulang (bulanan, "
+"triwulanan, dll.), dan masa berlaku\n"
+"                kontrak."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -210,9 +210,9 @@ msgid ""
 "beautiful, mobile-responsive\n"
 "                property management portal."
 msgstr ""
-"<b>Website App: </b>Drive qualified traffic by promoting your listings on a "
-"beautiful, mobile-responsive\n"
-"                property management portal."
+"<b>Aplikasi Website: </b>Tingkatkan traffic berkualitas dengan mempromosikan "
+"daftar properti Anda di portal properti yang indah dan responsif\n"
+"                 untuk perangkat seluler."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.homepage
@@ -223,7 +223,7 @@ msgid ""
 "                                    </font>"
 msgstr ""
 "<font style=\"font-size: 62px;\">\n"
-"                                        <b>— Property Management&amp;nbsp;—</"
+"                                        <b>— Manajemen Properti&amp;nbsp;—</"
 "b>\n"
 "                                    </font>"
 
@@ -307,8 +307,8 @@ msgid ""
 "<i>Note: Only properties with at least one current or future contract will "
 "appear in this visualization.</i>"
 msgstr ""
-"<i>Note: Only properties with at least one current or future contract will "
-"appear in this visualization.</i>"
+"<i>Catatan: Hanya properti dengan minimal satu kontrak berjalan atau "
+"mendatang yang akan muncul dalam visualisasi ini.</i>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.default_form_view_building
@@ -392,24 +392,24 @@ msgid ""
 "with a completely integrated\n"
 "                environment."
 msgstr ""
-"<strong>Accounting App: </strong>Manage your accounting easier than ever "
-"with a completely integrated\n"
-"                environment."
+"<strong>Aplikasi Akuntansi: </strong>Permudah pengelolaan akuntansi Anda "
+"dengan lingkungan yang sepenuhnya\n"
+"                terintegrasi."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Do you want to go further?</strong>"
-msgstr "<strong>Do you want to go further?</strong>"
+msgstr "<strong>Ingin melangkah lebih jauh?</strong>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Odoo offers you infinite possibilities, such as:</strong>"
-msgstr "<strong>Odoo offers you infinite possibilities, such as:</strong>"
+msgstr "<strong>Odoo menawarkan kemungkinan tak terbatas, seperti:</strong>"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "<strong>Use case</strong>"
-msgstr "<strong>Use case</strong>"
+msgstr "<strong>Kasus penggunaan</strong>"
 
 #. module: industry_real_estate
 #: model:website.menu,name:industry_real_estate.website_menu_10
@@ -529,7 +529,7 @@ msgstr "Kota"
 msgid ""
 "Click on the <b>Availability</b> to view your portfolio in a Gantt view."
 msgstr ""
-"Click on the <b>Availability</b> to view your portfolio in a Gantt view."
+"Klik <b>Ketersediaan</b> untuk melihat portofolio Anda dalam tampilan Gantt."
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_type_selection_commercial_space
@@ -619,8 +619,8 @@ msgid ""
 "Discover the basics of this package and explore all the possibilities Odoo "
 "offers to improve your experience."
 msgstr ""
-"Discover the basics of this package and explore all the possibilities Odoo "
-"offers to improve your experience."
+"Temukan standar paket ini dan temukan semua tawaran Odoo untuk meningkatkan "
+"pengalaman Anda."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -660,8 +660,8 @@ msgid ""
 "From the <b>Properties App</b>, you can define the physical assets you "
 "manage."
 msgstr ""
-"From the <b>Properties App</b>, you can define the physical assets you "
-"manage."
+"Dari <b>Aplikasi Properti</b>, Anda dapat mendefinisikan aset fisik yang "
+"dikelola."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.property_form_view
@@ -1120,15 +1120,16 @@ msgid ""
 "The <b>Subscriptions App</b> handles the legal and financial bridge between "
 "the property and the tenant."
 msgstr ""
-"The <b>Subscriptions App</b> handles the legal and financial bridge between "
-"the property and the tenant."
+"<b>Aplikasi Langganan</b> menjadi perantara aspek hukum dan keuangan antara "
+"pemilik properti dan penyewa."
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid ""
 "These all go free in your current subscription; feel free to explore! 🙃"
 msgstr ""
-"These all go free in your current subscription; feel free to explore! 🙃"
+"Semua ini bisa diakses gratis dengan langganan Anda saat ini. Jangan ragu "
+"untuk menjelajahinya! 🙃"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
@@ -1136,8 +1137,8 @@ msgid ""
 "This screen visualizes all active rental contracts and identifies vacancies "
 "at a glance."
 msgstr ""
-"This screen visualizes all active rental contracts and identifies vacancies "
-"at a glance."
+"Layar ini menampilkan semua kontrak sewa yang aktif dan mengidentifikasi "
+"properti yang tersedia dalam sekali lihat."
 
 #. module: industry_real_estate
 #: model:ir.model.fields.selection,name:industry_real_estate.field_property_invoice_status_selection_to_invoice
@@ -1299,17 +1300,17 @@ msgstr "request a demo"
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "🏠 Managing Properties &amp; Products"
-msgstr "🏠 Managing Properties &amp; Products"
+msgstr "🏠 Mengelola Properti &amp; Produk"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "📄 Managing Rental Contracts"
-msgstr "📄 Managing Rental Contracts"
+msgstr "📄 Mengelola Kontrak Sewa"
 
 #. module: industry_real_estate
 #: model_terms:ir.ui.view,arch_db:industry_real_estate.welcome_article_body
 msgid "📅 Availability &amp; Occupancy Tracking"
-msgstr "📅 Availability &amp; Occupancy Tracking"
+msgstr "📅 Melacak Ketersediaan &amp; Status Hunian"
 
 #~ msgid ""
 #~ "<font style=\"font-size: 62px;\">\n"

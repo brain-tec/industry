@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-24 18:08+0000\n"
-"PO-Revision-Date: 2026-04-11 13:22+0000\n"
+"PO-Revision-Date: 2026-05-02 12:09+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
 "Language-Team: Italian <https://translate.odoo.com/projects/odoo-s19-1/"
 "guest_house/it/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.homepage
@@ -246,7 +246,7 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Access to more details clicking the slot."
-msgstr ""
+msgstr "Accedi a ulteriori dettagli cliccando sullo slot."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -403,6 +403,10 @@ msgid ""
 "Bridge\" of your guest house. It provides a 500-day horizon to anticipate "
 "market trends, manage risks, and optimize your revenue."
 msgstr ""
+"Al di là delle operazioni quotidiane, il menu di controllo funge da \"ponte "
+"di comando\" della vostra Casa degli ospiti. Offre un orizzonte temporale di "
+"500 giorni per anticipare le tendenze di mercato, gestire i rischi e "
+"ottimizzare i ricavi."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -845,7 +849,7 @@ msgstr "Gestisci i clienti tramite l'app <strong>Contatti</strong>"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Managing scarcity with availability"
-msgstr ""
+msgstr "Gestire la scarsità con la disponibilità"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -855,7 +859,7 @@ msgstr "Gestire i business"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Monitoring success with occupancy"
-msgstr ""
+msgstr "Monitoraggio del successo con l'occupazione"
 
 #. module: guest_house
 #: model_terms:product.template,description_ecommerce:guest_house.product_template_19
@@ -1076,12 +1080,12 @@ msgstr ""
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the Steering menu and select Availability."
-msgstr ""
+msgstr "Apri il menu di controllo e seleziona Disponibilità."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "Open the Steering menu and select Occupancy."
-msgstr ""
+msgstr "Apri il menu di controllo e seleziona Capienza."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1297,6 +1301,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the availability for you to "
 "work on filling in."
 msgstr ""
+"Il diagramma di Gantt è codificato a colori per indicare la disponibilità a "
+"lavorare sulla compilazione."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1304,6 +1310,8 @@ msgid ""
 "The Gantt chart is color-coded to reflect on the occupancy, the higher the "
 "better."
 msgstr ""
+"Il diagramma di Gantt è codificato a colori per riflettere l'occupazione: "
+"più alto è, meglio è."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1311,6 +1319,9 @@ msgid ""
 "The Occupancy view allows you to visualize your \"Sales Success\". It "
 "answers one simple question: <i>How well am I filling my guest house?</i>"
 msgstr ""
+"La vista Capienza ti permette di visualizzare il tuo \"Successo di "
+"vendita\". Risponde a una semplice domanda: <i>Quanto sto riempiendo la mia "
+"casa degli ospiti?</i>"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1446,6 +1457,9 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Mentre la vista Capienza si concentra su ciò che è pieno, la vista "
+"Disponibilità si concentra su ciò che resta da vendere. È il tuo strumento "
+"principale per la sicurezza operativa e lo \"scarcity pricing\"."
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
@@ -1762,7 +1776,7 @@ msgstr "😎 Dare il benvenuto agli ospiti"
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
 msgid "🚀 Strategic Oversight"
-msgstr ""
+msgstr "🚀 Supervisione strategica"
 
 #. module: guest_house
 #: model_terms:ir.ui.view,arch_db:guest_house.welcome_article_body
