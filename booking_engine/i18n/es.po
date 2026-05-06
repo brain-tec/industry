@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 18:44+0000\n"
-"PO-Revision-Date: 2026-04-21 22:26+0000\n"
+"PO-Revision-Date: 2026-05-02 09:45+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19/"
 "booking_engine/es/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: booking_engine
 #: model:product.attribute.value,name:booking_engine.product_attribute_guest1
@@ -275,61 +275,82 @@ msgstr "Motor de reservas: lógica de eliminación de bloqueos"
 #: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Leave Change"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"modificación de vacaciones"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_calendar_leaves_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Leave Delete"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"eliminación de vacaciones"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_product_template_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Offer Change"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"modificación de ofertas"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_product_template_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Offer Delete"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"eliminación de ofertas"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_resource_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Room Change"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"modificación de habitaciones"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_resource_resource_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Room Delete"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"eliminación de habitaciones"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_planning_slot_change
 msgid "Booking Engine: Mark Availabilities To Recompute: Slot Change"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"modificación de franjas"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.automation_on_planning_slot_delete
 msgid "Booking Engine: Mark Availabilities To Recompute: Slot Delete"
 msgstr ""
+"Motor de reservas: Marcar disponibilidades para volver a calcular: "
+"eliminación de franjas"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_resource_resource_delete
 msgid "Booking Engine: Room Delete Availability Logic"
 msgstr ""
+"Motor de reservas: lógica de eliminación de disponibilidad de las "
+"habitaciones"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_planning_slot_delete
 msgid "Booking Engine: Slot Delete Availability Logic"
 msgstr ""
+"Motor de reservas: lógica de eliminación de disponibilidad de las franjas"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availability_for_product_template_delete
 msgid "Booking Engine: Stay Offer Delete Availability Logic"
 msgstr ""
+"Motor de reservas: lógica de eliminación de disponibilidad de ofertas de "
+"estancia"
 
 #. module: booking_engine
 #: model:ir.actions.server,name:booking_engine.server_action_update_availabilities
 msgid "Booking Engine: Update Availabilities"
-msgstr ""
+msgstr "Motor de reservas: Actualizar disponibilidades"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_21
@@ -449,7 +470,7 @@ msgstr "Cliente"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_date_field_x_availability
 msgid "Date"
-msgstr ""
+msgstr "Fecha"
 
 #. module: booking_engine
 #: model:base.automation,name:booking_engine.base_automation_on_house_keeping_setting_unset
@@ -1009,7 +1030,7 @@ msgstr "Estado"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_stay_offer_field_x_availability
 msgid "Stay Offer"
-msgstr ""
+msgstr "Oferta de estancia"
 
 #. module: booking_engine
 #: model:ir.actions.act_window,name:booking_engine.booking_engine_rooms_offers_action
@@ -1108,7 +1129,7 @@ msgstr "Por limpiar"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_to_recompute_field_x_availability
 msgid "To Recompute"
-msgstr ""
+msgstr "A recalcular"
 
 #. module: booking_engine
 #: model_terms:ir.ui.view,arch_db:booking_engine.booking_engine_order_search
@@ -1123,7 +1144,7 @@ msgstr "Total"
 #. module: booking_engine
 #: model:ir.model.fields,field_description:booking_engine.x_total_units_field_x_availability
 msgid "Total Units"
-msgstr ""
+msgstr "Total de unidades"
 
 #. module: booking_engine
 #: model:product.attribute,name:booking_engine.product_attribute_17

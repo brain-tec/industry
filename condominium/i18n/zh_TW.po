@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 14:31+0000\n"
+"POT-Creation-Date: 2026-05-01 17:53+0000\n"
 "PO-Revision-Date: 2026-01-16 08:34+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -1275,7 +1275,7 @@ msgstr "建立及管理構成此公寓的建築物<br>"
 
 #. module: condominium
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
-msgid "Create the buildings that compounds the"
+msgid "Create the buildings that compounds the condominium"
 msgstr ""
 
 #. module: condominium
@@ -1645,7 +1645,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
 msgid ""
 "Finally, for condominiums organised with a general meter for the condominium "
-"to be expenses and then with meters for each owners to split the expenses, "
+"to be expensed and then with meters for each owner to split the expenses, "
 "the distribution key based on meter is relevant and requires period inputs "
 "and\n"
 "                associated meter readings for each property to be "

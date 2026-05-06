@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 19:26+0000\n"
-"PO-Revision-Date: 2026-03-28 09:35+0000\n"
+"PO-Revision-Date: 2026-05-02 09:34+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-19/"
 "machine_tool_rental/fi/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_398
@@ -761,7 +761,7 @@ msgstr "toimitus"
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_395
 msgid "forklift"
-msgstr ""
+msgstr "trukki"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_388
@@ -771,42 +771,42 @@ msgstr ""
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_403
 msgid "last-minute"
-msgstr ""
+msgstr "viime hetken"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_384
 msgid "long-term"
-msgstr ""
+msgstr "pitkäaikainen"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_392
 msgid "monthly-contract"
-msgstr ""
+msgstr "kuukausisopimus"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_385
 msgid "planning"
-msgstr ""
+msgstr "suunnittelu"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_405
 msgid "project-manager"
-msgstr ""
+msgstr "projektipäällikkö"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_396
 msgid "quality-check"
-msgstr ""
+msgstr "laatutarkastus"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_393
 msgid "recurring"
-msgstr ""
+msgstr "toistuva"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_389
 msgid "rush"
-msgstr ""
+msgstr "kiire"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_401
@@ -816,12 +816,12 @@ msgstr "turvallisuus"
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_397
 msgid "serial-tracking"
-msgstr ""
+msgstr "sarjanumeron seuranta"
 
 #. module: machine_tool_rental
 #: model:crm.tag,name:machine_tool_rental.crm_tag_387
 msgid "urgent"
-msgstr ""
+msgstr "kiireellinen"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
@@ -841,17 +841,17 @@ msgstr ""
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "﻿academy﻿"
-msgstr ""
+msgstr "akatemia"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "﻿and﻿"
-msgstr ""
+msgstr "﻿ja﻿"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
 msgid "﻿documentation﻿"
-msgstr ""
+msgstr "dokumentaatio"
 
 #. module: machine_tool_rental
 #: model_terms:ir.ui.view,arch_db:machine_tool_rental.welcome_article_body
