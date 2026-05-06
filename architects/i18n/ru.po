@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-24 17:36+0000\n"
+"POT-Creation-Date: 2026-05-01 17:37+0000\n"
 "PO-Revision-Date: 2026-01-31 19:51+0000\n"
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19/"
@@ -203,6 +203,13 @@ msgstr ""
 "                        Телефон"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Info\">💡</i>"
+msgstr ""
+
+#. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid ""
 "<span class=\"h3-fs\">Our approach is rooted in creativity and innovation. "
@@ -314,83 +321,107 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid ""
 "<span style=\"font-size: 14px\">\n"
-"                    Automated actions have been created to create activities "
-"at appropriated times (an action to call the lead\n"
-"                    is created when there's a new opportunity, a to-do "
-"action is generated when the opportunity is at the \"needs\n"
-"                    analysis stage\", a reminder and activity to cancel "
-"opportunity are created when the quotation is sent)\n"
-"                </span>"
+"                        <span style=\"font-size: 14px\">Learn more on how to "
+"automate your business using <strong>Odoo Studio</strong></span>\n"
+"                    </span>\n"
+"                    <br/>"
 msgstr ""
-"<span style=\"font-size: 14px\">\n"
-"                    Были созданы автоматические действия для создания дел в "
-"соответствующие моменты времени (дело «Позвонить потенциальному клиенту»\n"
-"                    создается при появлении новой возможности, дело «Задача» "
-"генерируется, когда возможность находится на этапе «Анализ\n"
-"                    потребностей», напоминание и дело по отмене возможности "
-"создаются при отправке коммерческого предложения).\n"
-"               </span>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid ""
 "<span style=\"font-size: 14px\">\n"
-"                    From the opportunity, a quote can simply be created "
-"using the \"create quote\" button, and using one of the\n"
-"                    pre-created quotation template (services and quantities "
-"can be suited to the client's request)\n"
-"                </span>"
-msgstr ""
-"<span style=\"font-size: 14px\">\n"
-"                    Коммерческое предложение можно создать напрямую из "
-"карточки возможности, нажав кнопку «Создать коммерческое предложение» и "
-"используя один из\n"
-"                    предварительно созданных шаблонов КП (услуги и "
-"количества могут быть адаптированы к запросу клиента).\n"
-"                </span>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"<span style=\"font-size: 14px\">\n"
-"                    Set a cost on each employee and use the Expense "
-"application to record project expenses. It's not just\n"
-"                    about labor and materials, but also about tracking the "
-"costs of those undercover subcontractors and any\n"
-"                    other project-related expenses. Open up the "
-"profitability report for your project, and there you'll see\n"
-"                    budgeted costs, actual costs, revenues, and profit "
-"margins. This will help you to figure out how to boost\n"
-"                    your profit.\n"
+"                <span style=\"font-size: 14px\">\n"
+"                    It's the heart of your architectural work. It's where "
+"you'll track the advancement of the various tasks,\n"
+"                    generate new invoices (if needed), and assign tasks to "
+"employees and contractors alike. Track your\n"
+"                    timesheets, margins, purchase orders, and more using the "
+"project menu to quickly access relevant information.\n"
 "                </span>\n"
-"                <br/>"
+"            </span>"
 msgstr ""
-"<span style=\"font-size: 14px\">\n"
-"                    Установите себестоимость для каждого сотрудника и "
-"используйте модуль Расходы для учета расходов по проектам. Речь идет не "
-"только\n"
-"                    о трудозатратах и материальных затратах, но и об "
-"отслеживании расходов на субподрядчиков и любых\n"
-"                    других расходов, связанных с проектами. Откройте отчет о "
-"прибыльности ваших проектов, и вы увидите\n"
-"                    запланированные расходы, фактические расходы, доходы и "
-"маржу прибыли. Это поможет вам понять, как увеличить\n"
-"                    свою прибыль.\n"
-"                </span>\n"
-"                <br/>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
 msgid ""
-"<span style=\"font-size: 14px\">Thanks to the services configuration, a "
-"project gets created automatically once the quote is confirmed by\n"
-"                    the customer. A set of tasks are created in this "
-"project, based on the sale order lines.</span>"
+"<span style=\"font-size: 14px\">\n"
+"                <span style=\"font-size: 14px\">\n"
+"                    Use the documents app to store and share all project "
+"documents. Sub-workspaces get created for each project, and link to these "
+"sub-workspace can be shared with customers so that they have a direct access "
+"to all produced documents.\n"
+"                </span>\n"
+"            </span>"
 msgstr ""
-"<span style=\"font-size: 14px\">Благодаря настройкам проект создается "
-"автоматически после подтверждения коммерческого предложения\n"
-"                    клиентом. В этом проекте формируется набор задач на "
-"основе строк заказа на продажу.</span>"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">\n"
+"                <span style=\"font-size: 14px\">A set of architectural "
+"services have already been created and can be edited to match the "
+"architects'\n"
+"                    services.\n"
+"                </span>\n"
+"            </span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">\n"
+"                The CRM App is designed to let architecture firms easily "
+"manage new prospects, called \"Opportunities\" in Odoo. Track expected "
+"revenue, manage communications, and never forget to reach out to interested "
+"parties. Opportunities get created in the CRM by filling the \"Contact us\" "
+"form on the website, or manually by a salesperson.\n"
+"            </span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\"><span style=\"font-size: 14px\">Use the "
+"Project Menu to quickly access</span></span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">A reminder to cancel the opportunity is "
+"created when the quotation is sent</span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">Create automated actions to never forget to "
+"execute your next steps to keep your business growing, for\n"
+"                        example:</span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">Once a quotation has been confirmed, a "
+"project is automatically generated in the Project app, with associated "
+"tasks.\n"
+"            </span>"
+msgstr ""
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"<span style=\"font-size: 14px\">When it's time to provide the customer with "
+"an estimate, a quote can be created by clicking the \"New Quotation\"\n"
+"                button on the opportunity. These can also be pre-filled "
+"using the Quotation Template feature. Quotation\n"
+"                Templates allow you to quickly choose a preset that contains "
+"sections and their products - especially useful\n"
+"                when you're working with similar, elaborate templates.\n"
+"            </span>"
+msgstr ""
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
@@ -407,11 +438,6 @@ msgstr ""
 "эскизное проектирование, разработка дизайна, сопровождение стройплощадки, "
 "оценка энергоэффективности.\n"
 "            </span>"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
-msgstr "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -433,12 +459,15 @@ msgstr "<strong>Мы – ArchiDesign.</strong>"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"A set of architectural services have already been created and can be edited "
-"to match the architects' services."
+msgid "A phone call activity is created when there's a new opportunity"
 msgstr ""
-"Набор архитектурных услуг уже создан и может быть отредактирован в "
-"соответствии с перечнем услуг архитектора."
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid ""
+"A to-do activity is created when the opportunity moves to the \"needs "
+"analysis\" stage\""
+msgstr ""
 
 #. module: architects
 #: model:planning.role,name:architects.planning_role_1
@@ -466,6 +495,11 @@ msgstr "Архитектурный дизайнер"
 #: model:project.project,name:architects.project_project_3
 msgid "Architectural Project"
 msgstr "Архитектурный проект"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Architectural Projects"
+msgstr ""
 
 #. module: architects
 #: model:ir.model.fields.selection,name:architects.crm_lead_project_type_selection_design
@@ -514,6 +548,11 @@ msgid "Business flows"
 msgstr "Бизнес-процессы"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "CRM Documentation"
+msgstr ""
+
+#. module: architects
 #: model:ir.model.fields,field_description:architects.project_cadastral_number
 msgid "Cadastral number"
 msgstr "Кадастровый номер"
@@ -558,6 +597,11 @@ msgstr ""
 "контракта"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Create Quotations"
+msgstr ""
+
+#. module: architects
 #: model:base.automation,name:architects.base_automation_2
 msgid "Create activity to send quote"
 msgstr "Создать дело для отправки коммерческого предложения"
@@ -566,11 +610,6 @@ msgstr "Создать дело для отправки коммерческог
 #: model:ir.actions.server,name:architects.create_activity_quote_server_action
 msgid "Create activity to send quote -server actions"
 msgstr "Создать задачу для отправки предложения - серверные действия"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Create quote"
-msgstr "Создать коммерческое предложение"
 
 #. module: architects
 #: model:product.template,name:architects.product_product_24_product_template
@@ -588,6 +627,11 @@ msgid "Detailed plans, elevations, 3D visuals, pre-permit package"
 msgstr ""
 "Подробные планы, фасады, 3D-визуализации, пакет документов для получения "
 "разрешения"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Documentation"
+msgstr ""
 
 #. module: architects
 #: model:project.task.type,name:architects.project_task_type_15
@@ -625,11 +669,6 @@ msgstr ""
 #: model:documents.document,name:architects.documents_document_35
 msgid "First Floor Plan.jpg"
 msgstr "План первого этажа.jpg"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Follow project profitability"
-msgstr "Отслеживание рентабельности проекта"
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
@@ -688,15 +727,6 @@ msgid "Lead Architect"
 msgstr "Ведущий архитектор"
 
 #. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"Leads get created in the CRM by filling the \"Contact us\" form of the "
-"website or manually by the salesperson."
-msgstr ""
-"Лиды создаются в модуле CRM при заполнении формы «Связаться с нами» на сайте "
-"или вручную менеджером по продажам."
-
-#. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.contactus
 msgid "Let's Connect"
 msgstr "Давайте свяжемся"
@@ -708,18 +738,8 @@ msgstr "Давайте обсудим, как мы можем воплотить
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Manage documents"
-msgstr "Управление документами"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Manage leads"
-msgstr "Управление лидами"
-
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid "Manage projects"
-msgstr "Управление проектами"
+msgid "Manage leads in the CRM"
+msgstr ""
 
 #. module: architects
 #: model:base.automation,name:architects.base_automation_3
@@ -831,6 +851,11 @@ msgid "Project Coordinator"
 msgstr "Координатор проектов"
 
 #. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Project Documentation"
+msgstr ""
+
+#. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Project Manager"
 msgstr "Менеджер проекта"
@@ -879,6 +904,11 @@ msgstr "Детали запроса"
 #: model:ir.model.fields,field_description:architects.crm_lead_request_date
 msgid "Request date"
 msgstr "Дата запроса"
+
+#. module: architects
+#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
+msgid "Sales Documentation"
+msgstr ""
 
 #. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
@@ -961,18 +991,6 @@ msgid "Tendering (ACT)"
 msgstr "Тендер (ACT)"
 
 #. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"There is also a map view for the projects (projects are assigned a partner "
-"based on the projects location,\n"
-"                either with the address or with the geolocation if there's "
-"no assigned address yet)"
-msgstr ""
-"Визуализируйте географию проектов. Система автоматически закрепляет "
-"ответственного партнера на основе местоположения объекта –\n"
-"                по точному адресу или геолокации, если адрес еще не присвоен."
-
-#. module: architects
 #: model_terms:ir.ui.view,arch_db:architects.homepage
 msgid "Trusted by industry leaders"
 msgstr "Нам доверяют лидеры индустрии"
@@ -1034,26 +1052,142 @@ msgstr ""
 msgid "plan.jpg"
 msgstr "план.jpg"
 
-#. module: architects
-#: model_terms:ir.ui.view,arch_db:architects.welcome_article_body
-msgid ""
-"​\n"
-"                <span style=\"font-size: 14px\">\n"
-"                    Use the documents app to store and share all project "
-"documents. Sub-workspaces get created for each project,\n"
-"                    and link to these sub-workspace can be shared with "
-"customers so that they have a direct access to all\n"
-"                    produced documents.\n"
-"                </span>"
-msgstr ""
-"​<span style=\"font-size: 14px\">\n"
-"                    Используйте модуль Документооборот для хранения и обмена "
-"всеми проектными файлами. Для каждого проекта создаются рабочие "
-"пространства,\n"
-"                    а ссылки на них можно передавать клиентам для прямого "
-"доступа ко всем\n"
-"                    подготовленным документам.\n"
-"                </span>"
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Automated actions have been created to create "
+#~ "activities at appropriated times (an action to call the lead\n"
+#~ "                    is created when there's a new opportunity, a to-do "
+#~ "action is generated when the opportunity is at the \"needs\n"
+#~ "                    analysis stage\", a reminder and activity to cancel "
+#~ "opportunity are created when the quotation is sent)\n"
+#~ "                </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Были созданы автоматические действия для создания дел "
+#~ "в соответствующие моменты времени (дело «Позвонить потенциальному "
+#~ "клиенту»\n"
+#~ "                    создается при появлении новой возможности, дело "
+#~ "«Задача» генерируется, когда возможность находится на этапе «Анализ\n"
+#~ "                    потребностей», напоминание и дело по отмене "
+#~ "возможности создаются при отправке коммерческого предложения).\n"
+#~ "               </span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    From the opportunity, a quote can simply be created "
+#~ "using the \"create quote\" button, and using one of the\n"
+#~ "                    pre-created quotation template (services and "
+#~ "quantities can be suited to the client's request)\n"
+#~ "                </span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Коммерческое предложение можно создать напрямую из "
+#~ "карточки возможности, нажав кнопку «Создать коммерческое предложение» и "
+#~ "используя один из\n"
+#~ "                    предварительно созданных шаблонов КП (услуги и "
+#~ "количества могут быть адаптированы к запросу клиента).\n"
+#~ "                </span>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Set a cost on each employee and use the Expense "
+#~ "application to record project expenses. It's not just\n"
+#~ "                    about labor and materials, but also about tracking "
+#~ "the costs of those undercover subcontractors and any\n"
+#~ "                    other project-related expenses. Open up the "
+#~ "profitability report for your project, and there you'll see\n"
+#~ "                    budgeted costs, actual costs, revenues, and profit "
+#~ "margins. This will help you to figure out how to boost\n"
+#~ "                    your profit.\n"
+#~ "                </span>\n"
+#~ "                <br/>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">\n"
+#~ "                    Установите себестоимость для каждого сотрудника и "
+#~ "используйте модуль Расходы для учета расходов по проектам. Речь идет не "
+#~ "только\n"
+#~ "                    о трудозатратах и материальных затратах, но и об "
+#~ "отслеживании расходов на субподрядчиков и любых\n"
+#~ "                    других расходов, связанных с проектами. Откройте "
+#~ "отчет о прибыльности ваших проектов, и вы увидите\n"
+#~ "                    запланированные расходы, фактические расходы, доходы "
+#~ "и маржу прибыли. Это поможет вам понять, как увеличить\n"
+#~ "                    свою прибыль.\n"
+#~ "                </span>\n"
+#~ "                <br/>"
+
+#~ msgid ""
+#~ "<span style=\"font-size: 14px\">Thanks to the services configuration, a "
+#~ "project gets created automatically once the quote is confirmed by\n"
+#~ "                    the customer. A set of tasks are created in this "
+#~ "project, based on the sale order lines.</span>"
+#~ msgstr ""
+#~ "<span style=\"font-size: 14px\">Благодаря настройкам проект создается "
+#~ "автоматически после подтверждения коммерческого предложения\n"
+#~ "                    клиентом. В этом проекте формируется набор задач на "
+#~ "основе строк заказа на продажу.</span>"
+
+#~ msgid "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
+#~ msgstr "<span style=\"width: 40px\" class=\"oe-tabs\"/>​<br/>"
+
+#~ msgid ""
+#~ "A set of architectural services have already been created and can be "
+#~ "edited to match the architects' services."
+#~ msgstr ""
+#~ "Набор архитектурных услуг уже создан и может быть отредактирован в "
+#~ "соответствии с перечнем услуг архитектора."
+
+#~ msgid "Create quote"
+#~ msgstr "Создать коммерческое предложение"
+
+#~ msgid "Follow project profitability"
+#~ msgstr "Отслеживание рентабельности проекта"
+
+#~ msgid ""
+#~ "Leads get created in the CRM by filling the \"Contact us\" form of the "
+#~ "website or manually by the salesperson."
+#~ msgstr ""
+#~ "Лиды создаются в модуле CRM при заполнении формы «Связаться с нами» на "
+#~ "сайте или вручную менеджером по продажам."
+
+#~ msgid "Manage documents"
+#~ msgstr "Управление документами"
+
+#~ msgid "Manage leads"
+#~ msgstr "Управление лидами"
+
+#~ msgid "Manage projects"
+#~ msgstr "Управление проектами"
+
+#~ msgid ""
+#~ "There is also a map view for the projects (projects are assigned a "
+#~ "partner based on the projects location,\n"
+#~ "                either with the address or with the geolocation if "
+#~ "there's no assigned address yet)"
+#~ msgstr ""
+#~ "Визуализируйте географию проектов. Система автоматически закрепляет "
+#~ "ответственного партнера на основе местоположения объекта –\n"
+#~ "                по точному адресу или геолокации, если адрес еще не "
+#~ "присвоен."
+
+#~ msgid ""
+#~ "​\n"
+#~ "                <span style=\"font-size: 14px\">\n"
+#~ "                    Use the documents app to store and share all project "
+#~ "documents. Sub-workspaces get created for each project,\n"
+#~ "                    and link to these sub-workspace can be shared with "
+#~ "customers so that they have a direct access to all\n"
+#~ "                    produced documents.\n"
+#~ "                </span>"
+#~ msgstr ""
+#~ "​<span style=\"font-size: 14px\">\n"
+#~ "                    Используйте модуль Документооборот для хранения и "
+#~ "обмена всеми проектными файлами. Для каждого проекта создаются рабочие "
+#~ "пространства,\n"
+#~ "                    а ссылки на них можно передавать клиентам для прямого "
+#~ "доступа ко всем\n"
+#~ "                    подготовленным документам.\n"
+#~ "                </span>"
 
 #~ msgid "2019"
 #~ msgstr "2019"
