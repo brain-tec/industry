@@ -1,6 +1,6 @@
 {
     "projects": {
-        "odoo-s19-2": [
+        "odoo-master": [
             {
                 "name": "3pl_logistic_company",
                 "filemask": "3pl_logistic_company/i18n/*.po",
@@ -417,6 +417,11 @@
                 "new_base": "personal_trainer/i18n/personal_trainer.pot"
             },
             {
+                "name": "pet_groomer",
+                "filemask": "pet_groomer/i18n/*.po",
+                "new_base": "pet_groomer/i18n/pet_groomer.pot"
+            },
+            {
                 "name": "pharmacy_retail",
                 "filemask": "pharmacy_retail/i18n/*.po",
                 "new_base": "pharmacy_retail/i18n/pharmacy_retail.pot"
@@ -435,6 +440,11 @@
                 "name": "product_conversion",
                 "filemask": "product_conversion/i18n/*.po",
                 "new_base": "product_conversion/i18n/product_conversion.pot"
+            },
+            {
+                "name": "property_assets_distribution",
+                "filemask": "property_assets_distribution/i18n/*.po",
+                "new_base": "property_assets_distribution/i18n/property_assets_distribution.pot"
             },
             {
                 "name": "real_estate",
