@@ -649,6 +649,7 @@ class BookingEngineAutomationsTestCase(TransactionCase):
         resource_2 = self.env['resource.resource'].create({
             'name': 'Test Room 2',
             'resource_type': 'material',
+            'calendar_id': False,
         })
 
         tmpl = self.product.product_tmpl_id
