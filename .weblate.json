@@ -97,11 +97,6 @@
                 "new_base": "bowling/i18n/bowling.pot"
             },
             {
-                "name": "cake_shop",
-                "filemask": "cake_shop/i18n/*.po",
-                "new_base": "cake_shop/i18n/cake_shop.pot"
-            },
-            {
                 "name": "campsite",
                 "filemask": "campsite/i18n/*.po",
                 "new_base": "campsite/i18n/campsite.pot"
@@ -140,11 +135,6 @@
                 "name": "clothing_boutique",
                 "filemask": "clothing_boutique/i18n/*.po",
                 "new_base": "clothing_boutique/i18n/clothing_boutique.pot"
-            },
-            {
-                "name": "coal_petroleum",
-                "filemask": "coal_petroleum/i18n/*.po",
-                "new_base": "coal_petroleum/i18n/coal_petroleum.pot"
             },
             {
                 "name": "concert_halls",
@@ -560,11 +550,6 @@
                 "name": "wedding_planner",
                 "filemask": "wedding_planner/i18n/*.po",
                 "new_base": "wedding_planner/i18n/wedding_planner.pot"
-            },
-            {
-                "name": "wellness_practitioner",
-                "filemask": "wellness_practitioner/i18n/*.po",
-                "new_base": "wellness_practitioner/i18n/wellness_practitioner.pot"
             },
             {
                 "name": "wine_merchant",
