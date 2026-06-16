@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 19:23+0000\n"
-"PO-Revision-Date: 2026-02-07 22:51+0000\n"
+"POT-Creation-Date: 2026-04-24 18:07+0000\n"
+"PO-Revision-Date: 2026-06-13 22:51+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-s18-3/"
 "real_estate/ja/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3189,11 +3189,6 @@ msgid "External References"
 msgstr " 外部参照"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "敷地面積"
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_3
 msgid "Flemish Brabant"
 msgstr " フラームス＝ブラバント州"
@@ -3209,7 +3204,7 @@ msgstr ""
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.ir_ui_view_3154
 msgid "Follow us"
-msgstr "よかったらフォローお願いします"
+msgstr "フォローする"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
@@ -3513,8 +3508,8 @@ msgstr "リンブルフ"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "居住面積"
+msgid "Livable Area"
+msgstr ""
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3525,6 +3520,11 @@ msgstr "リエージュ"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_27
 msgid "Loft"
 msgstr "ロフト"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr ""
 
 #. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
@@ -4114,7 +4114,7 @@ msgstr "町名番地"
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_38
 msgid "Studio"
-msgstr "スタジオ"
+msgstr "ワンルーム"
 
 #. module: real_estate
 #: model_terms:product.template,description_ecommerce:real_estate.product_template_27
@@ -4511,6 +4511,12 @@ msgstr "🎓 販売"
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 ウェブサイト"
+
+#~ msgid "Field Surface"
+#~ msgstr "敷地面積"
+
+#~ msgid "Living Surface"
+#~ msgstr "居住面積"
 
 #~ msgid "+1 555-555-5556"
 #~ msgstr "+1 555-555-5556"

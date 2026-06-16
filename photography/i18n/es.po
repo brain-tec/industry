@@ -7,13 +7,14 @@
 # Wil Odoo, 2025
 #
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:22+0000\n"
-"PO-Revision-Date: 2025-08-20 23:51+0000\n"
-"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
+"PO-Revision-Date: 2026-06-13 22:51+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-s18-3/"
 "photography/es/>\n"
 "Language: es\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.homepage
@@ -671,11 +672,11 @@ msgid ""
 "                  <span style=\"font-size: 24px;\"> through the lens of our "
 "cameras.</span>"
 msgstr ""
-"<span style=\"font-size: 24px;\">Bienvenido a Frozen Moments, donde cada "
-"clic congela un momento en el tiempo. Nos especializamos </span>\n"
+"<span style=\"font-size: 24px;\">Le damos la bienvenida a Frozen Moments, "
+"donde cada fotografía cuenta una historia. Nos especializamos </span>\n"
 "                  <strong>\n"
-"                    <span style=\"font-size: 24px;\"> en capturar la esencia "
-"de los momentos más hermosos de la vida</span>\n"
+"                    <span style=\"font-size: 24px;\"> en capturar los "
+"momentos más bonitos de la vida</span>\n"
 "                  </strong>\n"
 "                  <span style=\"font-size: 24px;\"> a través del objetivo de "
 "nuestras cámaras.</span>"
@@ -834,7 +835,6 @@ msgstr ""
 
 #. module: photography
 #: model:documents.document,name:photography.documents_document_15
-#, fuzzy
 msgid "Andrew Moore - S00002"
 msgstr "Andrew Moore - S00002"
 
@@ -884,15 +884,14 @@ msgid ""
 "professional photographer at your service to advise you and make all your "
 "wishes come true."
 msgstr ""
-"Porque su boda será uno de los días más importantes y hermosos de su vida. "
-"Porque usted es una persona única. Mi objetivo es personalizar su reportaje "
-"al máximo y entregarle unas fotografías y un álbum que le permitan revivir, "
-"una y otra vez, cada emoción de ese día tan especial. Durante nuestras "
-"reuniones, usted podrá contarme sobre sí mismo, sobre su boda, sus gustos y, "
-"especialmente, lo que espera del fotógrafo que se encargará de documentar "
-"este momento irrepetible. Por mi parte, pondré toda mi experiencia como "
-"fotógrafo profesional a su servicio para asesorarle en cada detalle y hacer "
-"realidad todos sus deseos."
+"Porque su boda será uno de los días más bonitos de su vida. Porque cada "
+"pareja es única. Mi objetivo es crear un reportaje totalmente personalizado, "
+"con fotografías y un álbum que les permitan revivir una y otra vez cada "
+"emoción de ese día tan especial. Durante nuestras reuniones, me hablarán "
+"sobre ustedes, sobre cómo imaginan su gran día, sus gustos y, sobre todo, lo "
+"que esperan del fotógrafo que inmortalizará ese momento tan especial. Por mi "
+"parte, pondré toda mi experiencia como fotógrafo profesional a su servicio "
+"para asesorarles y convertir sus ideas en realidad."
 
 #. module: photography
 #: model:website.menu,name:photography.website_menu_7
@@ -1334,7 +1333,6 @@ msgstr "S00001 - Sesión para eventos"
 
 #. module: photography
 #: model:documents.document,name:photography.documents_document_11
-#, fuzzy
 msgid "S00002 - Studio Session"
 msgstr "S00002 - Sesión de estudio"
 
@@ -1448,12 +1446,12 @@ msgid ""
 "            clients (weddings, family events, pregnancy shoots, pet shoots, "
 "etc.)."
 msgstr ""
-"Esta industria está diseñada tanto para pequeños estudios de fotografía como "
-"para trabajadores independientes y pequeñas organizaciones. Su propósito es "
-"ayudar a atender a empresas (eventos de integración de equipos, eventos "
-"profesionales, fotografía de producto) y\n"
-"            personas (bodas, eventos familiares, sesiones de embarazo, "
-"sesiones para mascotas, etc.)."
+"Este paquete para el sector de la fotografía está diseñado para pequeños "
+"estudios de fotografía, incluidos autónomos y pequeñas empresas. Está "
+"pensado para atender tanto a empresas (actividades de team building, eventos "
+"profesionales y fotografía de producto) como a\n"
+"            clientes particulares (bodas, eventos familiares, sesiones de "
+"embarazo, sesiones para mascotas, etc.)."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body
@@ -1517,7 +1515,7 @@ msgstr "Bodas, compromisos, baby showers — inmortalice momentos únicos."
 #. module: photography
 #: model_terms:web_tour.tour,rainbow_man_message:photography.knowledge_tour
 msgid "Welcome! Happy exploring."
-msgstr "¡Bienvenido! Disfrute del sitio."
+msgstr "¡Le damos la bienvenida! Disfrute explorando."
 
 #. module: photography
 #: model_terms:ir.ui.view,arch_db:photography.welcome_article_body

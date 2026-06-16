@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 19:23+0000\n"
+"POT-Creation-Date: 2026-04-24 18:07+0000\n"
 "PO-Revision-Date: 2026-03-18 08:29+0000\n"
 "Last-Translator: \"Ujjawal Pathak (pauj)\" <pauj@odoo.com>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-s18-3/"
@@ -3183,11 +3183,6 @@ msgid "External References"
 msgstr "बाहरी रेफ़रेंस"
 
 #. module: real_estate
-#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
-msgid "Field Surface"
-msgstr "फ़ील्ड सरफ़ेस"
-
-#. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_3
 msgid "Flemish Brabant"
 msgstr "फ्लेमिश ब्राबांत"
@@ -3501,8 +3496,8 @@ msgstr "लिम्बर्ग"
 
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
-msgid "Living Surface"
-msgstr "लिविंग सरफ़ेस"
+msgid "Livable Area"
+msgstr ""
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3513,6 +3508,11 @@ msgstr "लीज"
 #: model:product.attribute.value,name:real_estate.product_attribute_value_27
 msgid "Loft"
 msgstr "लॉफ़्ट"
+
+#. module: real_estate
+#: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
+msgid "Lot Size"
+msgstr ""
 
 #. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
@@ -4496,6 +4496,12 @@ msgstr "🎓 सेल्स"
 #: model_terms:ir.ui.view,arch_db:real_estate.welcome_article_body
 msgid "🎓 Website"
 msgstr "🎓 वेबसाइट"
+
+#~ msgid "Field Surface"
+#~ msgstr "फ़ील्ड सरफ़ेस"
+
+#~ msgid "Living Surface"
+#~ msgstr "लिविंग सरफ़ेस"
 
 #, fuzzy
 #~ msgid "+1 555-555-5556"
