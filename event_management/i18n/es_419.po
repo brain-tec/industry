@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:51+0000\n"
-"PO-Revision-Date: 2026-04-18 23:50+0000\n"
+"PO-Revision-Date: 2026-05-16 23:50+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-s18-4/event_management/es_419/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: event_management
 #: model_terms:ir.ui.view,arch_db:event_management.homepage
@@ -1263,11 +1263,11 @@ msgid ""
 "and much more"
 msgstr ""
 "Todos los empleados pueden ver lo importante que es su trabajo.\n"
-"                     Contribuya al éxito de la empresa.\n"
+"                     Contribuye al éxito de la empresa.\n"
 "                    <br>\n"
 "                    Organizamos varias actividades a lo largo del año, como "
 "actividades deportivas\n"
-"                     semanales, eventos para fomentar el trabajo en equipo, "
+"                     semanales, eventos de integración de equipos, "
 "convivencias mensuales y más."
 
 #. module: event_management
@@ -2974,8 +2974,8 @@ msgid ""
 "You should be able to execute the following flows to have an overview of "
 "various flows you can quickly execute with this package using Odoo."
 msgstr ""
-"Lleve a cabo los siguientes flujos para tener una visión general de varios "
-"de los flujos que puede ejecutar con este paquete de Odoo."
+"Realiza los siguientes flujos para comprender mejor varios de los flujos con "
+"los que puedes trabajar con este paquete de Odoo."
 
 #. module: event_management
 #: model_terms:event.event,description:event_management.event_event_2

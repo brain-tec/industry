@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
-"PO-Revision-Date: 2026-03-28 23:51+0000\n"
+"PO-Revision-Date: 2026-05-30 23:51+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-4/"
 "beverage_distributor/fi/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -119,7 +119,7 @@ msgid ""
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
+"label=\"Banner Warning\" aria-label=\"Varoitusbanneri\">⚠️</i>"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -435,17 +435,17 @@ msgstr "Talletus 4.5"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Deposit Management 🍻"
-msgstr "4. Vakuusmaksujen hallinta 🍻"
+msgstr "Panttien hallinta 🍻"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.field_deposit_product_1
 msgid "Deposit product"
-msgstr "Vakuusmaksutuote"
+msgstr "Panttituote"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "Deposit product must be set in Deposit category"
-msgstr "Vakuusmaksutuote on asetettava Vakuus-kategoriaan"
+msgstr "Panttituote on määritettävä Panttikategoriassa"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -530,7 +530,7 @@ msgstr "Suorita koodi"
 #. module: beverage_distributor
 #: model:ir.actions.server,name:beverage_distributor.update_state
 msgid "Execute Existing Actions"
-msgstr "Suorita olemassa oleva toiminto"
+msgstr "Suorita olemassa olevia toimintoja"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -680,12 +680,12 @@ msgstr "Varastonhallinta 📦"
 #: model:ir.model.fields,field_description:beverage_distributor.account_tax_group_is_deposit
 #: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit
 msgid "Is a deposit"
-msgstr "On vakuus"
+msgstr "On talletus"
 
 #. module: beverage_distributor
 #: model:ir.model.fields,field_description:beverage_distributor.x_is_a_deposit_category
 msgid "Is a deposit category"
-msgstr "On vakuusluokka"
+msgstr "On talletuskategoria"
 
 #. module: beverage_distributor
 #: model:product.attribute.value,name:beverage_distributor.product_attribute_value_23
@@ -764,7 +764,7 @@ msgstr "Toimittajasuhteiden hallinta"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
-msgstr "Hallinnoi talletuksiasi tarkemmin ja tehokkaammin kuin koskaan ennen."
+msgstr "Hallinnoi panttejasi tarkemmin ja tehokkaammin kuin koskaan ennen."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1200,8 +1200,8 @@ msgid ""
 "Transfer is here to handle the transfers between multiple fiscal deposit "
 "warehouses of yours."
 msgstr ""
-"Siirrot auttavat sinua käsittelemään siirrot, jotka tapahtuvat useiden omien "
-"verotalletusvarastojesi välillä."
+"Siirrot auttavat sinua käsittelemään useiden omien verotalletusvarastojesi "
+"välisiä siirtoja."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -1263,7 +1263,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Utilize the Fleet app to manage your delivery vehicles efficiently"
 msgstr ""
-"Hyödynnä Ajokalusto-sovellusta jakeluajoneuvojen tehokkaaseen hallintaan"
+"Käytä Kuljetuskalusto-sovellusta hallinnoidaksesi jakeluajoneuvojasi "
+"tehokkaasti"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1400,8 +1401,8 @@ msgid ""
 "You can also collect deposit directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
-"Voit myös kerätä vakuuden suoraan kassastasi. Valitse oikea tuote ja syötä "
-"negatiivinen määrä."
+"Voit kerätä pantteja myös suoraan kassajärjestelmässäsi. Valitse oikea tuote "
+"ja koodaa negatiivinen määrä."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1442,7 +1443,7 @@ msgstr "verkkokaupan verkkosivusto 🌐"
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.product_template_form_custom
 msgid "ex. Delta I.P.A. - 33cl"
-msgstr "ex. Delta I.P.A. - 33cl"
+msgstr "esim. Delta I.P.A. - 33cl"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-20 14:50+0000\n"
-"PO-Revision-Date: 2026-04-11 14:56+0000\n"
+"PO-Revision-Date: 2026-06-13 23:51+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "climbing_gym/da/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
@@ -288,11 +288,11 @@ msgid ""
 "class=\"o_small-fs\"><font class=\"text-800\">Before 4 PM and after 9 "
 "PM </font></span>"
 msgstr ""
-"<span class=\"h3-fs\"><strong>66 €</strong></span><span class=\"h5-fs\""
-"><strong> / måned til happy hour<br/><span class=\"h3-fs\"><strong>666 "
-"€</strong></span><span class=\"h5-fs\"><strong> / år til happy "
-"hour</strong></span></strong></span><br/><span class=\"o_small-fs\"><font "
-"class=\"text-800\">Inden kl. 16 og efter kl. 21 </font></span>"
+"<span class=\"h3-fs\"><strong>66 €</strong></span><span class=\"h5-fs\">"
+"<strong> / måned til happy hour<br/><span class=\"h3-fs\"><strong>666 €</"
+"strong></span><span class=\"h5-fs\"><strong> / år til happy hour</strong></"
+"span></strong></span><br/><span class=\"o_small-fs\"><font class=\"text-"
+"800\">Inden kl. 16 og efter kl. 21 </font></span>"
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.homepage
@@ -830,9 +830,9 @@ msgid ""
 "free to explore<strong> Inventory App</strong> to setup the appropriate "
 "products and benefit from capabilities which meet your needs."
 msgstr ""
-"I denne konfiguration kan produktmængder ikke spores. Gå til "
-"<strong>Lagerappen</strong> for at konfigurere tilsvarende produkter og "
-"bruge funktioner, der passer til dine behov."
+"I denne konfiguration kan produktmængder ikke spores. Gå til <strong>"
+"Lagerappen</strong> for at konfigurere tilsvarende produkter og bruge "
+"funktioner, der passer til dine behov."
 
 #. module: climbing_gym
 #: model_terms:event.event,description:climbing_gym.event_event_2
@@ -1499,8 +1499,9 @@ msgid ""
 " App.<br/>In this case, you would handle the payment on the side as you "
 "please."
 msgstr ""
-"Du kan oprette fakturaer direkte fra en bekræftet salgsordre i Salgsappen.<"
-"br/>I dette tilfælde håndterer du betalingen separat, som det passer dig."
+"Du kan oprette fakturaer direkte fra en bekræftet salgsordre i "
+"Salgsappen.<br/>I dette tilfælde håndterer du betalingen separat, som det "
+"passer dig."
 
 #. module: climbing_gym
 #: model_terms:ir.ui.view,arch_db:climbing_gym.welcome_article_body
