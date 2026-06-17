@@ -7,13 +7,14 @@
 # Tony Ng, 2025
 #
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:03+0000\n"
-"PO-Revision-Date: 2026-01-24 23:52+0000\n"
-"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"PO-Revision-Date: 2026-06-13 23:51+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-s18-4/micro_brewery/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -361,7 +362,7 @@ msgstr "<strong>使用例子</strong>"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "<strong>Visiting the Brewery 🎫</strong>"
-msgstr ""
+msgstr "<strong>參觀啤酒廠 🎫</strong>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -429,6 +430,8 @@ msgid ""
 "Assign the relevant excise category, input the Excise Amount and the Excise "
 "Quantity in the reporting unit and then save your product."
 msgstr ""
+"設定適當的消費稅類別，在報告單位中輸入消費稅金額及消費稅數量，然後儲存產品資"
+"訊。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -481,7 +484,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Beer bottle (33cl), 3000 units (+- 10hL)"
-msgstr "啤酒 - 瓶裝（330 毫升），3,000 件（+- 1 公升）"
+msgstr "啤酒 - 樽裝（330 毫升），3,000 件（+- 1 公升）"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_90_product_template
@@ -528,7 +531,7 @@ msgstr "金啤酒（500 毫升）"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_2
 msgid "Blond Beer - Bottle"
-msgstr "金啤酒 - 瓶裝"
+msgstr "金啤酒 - 樽裝"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_3
@@ -571,7 +574,7 @@ msgstr "立即預約參觀名額，舉杯慶祝難忘的啤酒廠體驗！"
 #. module: micro_brewery
 #: model:product.public.category,name:micro_brewery.product_public_category_6
 msgid "Bottle"
-msgstr "支/瓶"
+msgstr "樽裝"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -581,12 +584,12 @@ msgstr "裝瓶 - 工作中心：裝瓶器"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bown Beer - Bottle in 33cl is the unit sale product"
-msgstr ""
+msgstr "「棕色啤酒 - 樽裝 330 毫升」是單位銷售產品。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Bown Beer - Box in 24x33cl is your main product"
-msgstr ""
+msgstr "「棕色啤酒 - 箱裝 24×330 毫升」是你的主要產品。"
 
 #. module: micro_brewery
 #: model:product.attribute,name:micro_brewery.beverage_product_attribute_16
@@ -597,7 +600,7 @@ msgstr "品牌"
 #: model:product.attribute.value,name:micro_brewery.beverage_product_attribute_value_3
 #: model:sale.order.template.line,name:micro_brewery.sale_order_template_line_10
 msgid "Brown"
-msgstr "啡色"
+msgstr "棕色啤酒"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_21
@@ -617,12 +620,12 @@ msgstr "棕色啤酒（500 毫升）"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_14
 msgid "Brown Beer - Bottle"
-msgstr "棕色啤酒 - 瓶裝"
+msgstr "棕色啤酒 - 樽裝"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_92
 msgid "Brown Beer - Bottle unit"
-msgstr ""
+msgstr "棕色啤酒 - 樽裝單位"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_16
@@ -708,7 +711,7 @@ msgstr "顏色"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "Come visit the brewery&amp;nbsp;<br/>"
-msgstr ""
+msgstr "來參觀我們啤酒廠吧！<br/>"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
@@ -751,7 +754,7 @@ msgstr ""
 msgid ""
 "Create a new excise category defining its name, description and reporting "
 "unit following the legislation which applies."
-msgstr ""
+msgstr "按照適用的法律，建立一個新的消費稅類別，設定其名稱、描述及報告單位。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -761,7 +764,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Create deposit products for each different type of consigns."
-msgstr ""
+msgstr "為各類寄售貨物建立訂金產品。"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_01_purchase
@@ -784,7 +787,7 @@ msgstr "DEP 2.4"
 #: model:account.tax,name:micro_brewery.account_tax_46_purchase
 #: model:account.tax,name:micro_brewery.account_tax_46_sale
 msgid "DEP 35"
-msgstr ""
+msgstr "DEP 35"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_45_purchase
@@ -799,8 +802,9 @@ msgstr "訂金預設欄位"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Define the required product fields."
-msgstr ""
+msgstr "設定必填的產品欄位。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -826,7 +830,7 @@ msgstr "訂金 2.1"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit 2.1 is the empty deposit product"
-msgstr ""
+msgstr "「訂金 2.1」是空白的訂金產品。"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_53
@@ -843,7 +847,7 @@ msgstr "訂金 4.5"
 msgid ""
 "Deposit 4.5 is the complete deposit product (deposits of all bottles and "
 "crate)"
-msgstr ""
+msgstr "「訂金 4.5」是完整的訂金產品（包括該箱子及所有瓶子的訂金）。"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
@@ -857,8 +861,9 @@ msgstr "訂金管理 🍻"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Deposit assignation"
-msgstr ""
+msgstr "訂金分配"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
@@ -872,8 +877,9 @@ msgstr "訂金產品必須先在訂金類別中設定"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Deposit return from customers"
-msgstr ""
+msgstr "客戶訂金退款"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -923,11 +929,14 @@ msgstr "空白訂金產品"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Entry from FD corresponds to products entering you fiscal deposit warehouse "
 "from the fiscal deposit of a supplier. To define such suppliers, adapt their "
 "fiscal position to handle excise tax."
 msgstr ""
+"從 FD 入庫的產品，是指從供應商財政儲備進入你財政儲備的產品。若要設定此類供應"
+"商，請調整其財務規則至可以處理消費稅。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -955,8 +964,9 @@ msgstr "消費稅管理 🧾"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid "Excise management consists in two dimensions in this package:"
-msgstr ""
+msgstr "此套裝的消費稅管理工作，包括兩個層面："
 
 #. module: micro_brewery
 #: model:ir.actions.server,name:micro_brewery.action_make_deposit_storable_delivery_invoice
@@ -1040,11 +1050,14 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "From the <strong>Inventory app</strong>, open the Excise categories from the "
 "menu Configuration / Excise Categories. <br/>Here you can define new and "
 "maintain existing excise categories."
 msgstr ""
+"在<strong>庫存</strong>應用程式中，點選「配置 / 消費稅類別」選單，以開啟「消"
+"費稅類別」。<br/>你可在此處設立新的消費稅類別，並管理現有的消費稅類別。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1170,9 +1183,10 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Imagine you create a new category of products which need excise management..."
-msgstr ""
+msgstr "假設你建立了一個需要進行消費稅管理的新產品類別⋯"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1252,7 +1266,7 @@ msgstr ""
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
 #: model:website.base.unit,name:micro_brewery.base_unit_litre
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1272,12 +1286,12 @@ msgstr "拉格啤酒（500 毫升）"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_13
 msgid "Lager Beer - Bottle"
-msgstr "拉格啤酒 - 瓶裝"
+msgstr "拉格啤酒 - 樽裝"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_93
 msgid "Lager Beer - Bottle unit"
-msgstr ""
+msgstr "拉格啤酒 - 樽裝單位"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_15
@@ -1326,7 +1340,7 @@ msgstr "本土品牌"
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
@@ -1476,11 +1490,14 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "On a regular basis, excises need to be declared. To support you with this "
 "duty, a report is setup to reach the quantity by excise category entering "
 "and exiting your fiscal deposit warehouse."
 msgstr ""
+"消費稅需要定期申報，為協助你履行此責任，系統會設定一份報告，按消費稅類別，交"
+"代你財政儲備倉庫的貨物進出數量。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1508,10 +1525,11 @@ msgstr "完成所有操作後，你現在應該準備好售賣你的手工精釀
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Open the <strong>Inventory app</strong> and reach from the Reporting menu "
 "the Excises."
-msgstr ""
+msgstr "開啟<strong>庫存</strong>應用程式，點選「報告」選單，並按一下「消費稅」。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1586,10 +1604,11 @@ msgstr "聯絡我們"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Receipts and Deliveries from and to Partners having no Fiscal Position "
 "defined are handled with the product taxes."
-msgstr ""
+msgstr "對於未有設定財務規則的合作夥伴，相關的收貨及送貨會以產品稅方式處理。"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_8
@@ -1615,7 +1634,7 @@ msgstr ""
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. module: micro_brewery
 #: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
@@ -1650,7 +1669,7 @@ msgid ""
 "Set a deposit product on your product to apply these taxes. This will ensure "
 "that you invoice correctly the price of consigns."
 msgstr ""
-"為產品設定「訂金產品」，以套用這些稅項。這可確保你正確開立寄售物品價格的發"
+"為產品設定「訂金產品」，以套用這些稅項。這可確保你為寄售物品開立價格正確的發"
 "票。"
 
 #. module: micro_brewery
@@ -1744,7 +1763,7 @@ msgstr ""
 msgid ""
 "The default breakdown is done by week and you can configure it to be by "
 "month if needed."
-msgstr ""
+msgstr "預設細分方式是按星期劃分。如有需要，可設定為按月細分。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1774,17 +1793,19 @@ msgstr ""
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "The maintenance of excise categories and the assignation of excises to "
 "products"
-msgstr ""
+msgstr "管理消費稅類別、將消費稅分配至產品"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "The reporting of received and delivered excise concerned products, a legal "
 "implication for any fiscal deposit"
-msgstr ""
+msgstr "已收貨及已發貨的消費稅貨品報告，涉及任何財政儲備倉庫的法律申報責任"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1862,10 +1883,11 @@ msgstr "網站頂層選單 1"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "Transfer is here to handle the transfers between multiple fiscal deposit "
 "warehouses of yours."
-msgstr ""
+msgstr "「轉移」功能可處理不同財政儲備倉庫之間的貨物轉移及調撥。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1909,7 +1931,7 @@ msgstr ""
 #. module: micro_brewery
 #: model:website.menu,name:micro_brewery.website_menu_11
 msgid "Visit the brewery"
-msgstr ""
+msgstr "參觀啤酒廠"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1969,11 +1991,14 @@ msgstr "WhatsApp"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
+#, fuzzy
 msgid ""
 "When installing this module, all Fiscal Positions are set as Fiscal Deposit."
 "<br/>Adjust the Fiscal Positions which are not to consider the Excise Taxes "
 "in your orders."
 msgstr ""
+"安裝此模組時，所有財務規則都會預設為財政儲備。<br/>請自行調整訂單內無需考慮消"
+"費稅的財務規則。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2000,7 +2025,7 @@ msgstr ""
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_4
 msgid "White"
-msgstr "白"
+msgstr "白色"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -2022,8 +2047,9 @@ msgstr "想與我們討論如何設定你的 Odoo 配置，甚至想探索更多
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+#, fuzzy
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
@@ -2131,7 +2157,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "You now have the keys to easily report those to the relevant authorities!"
-msgstr ""
+msgstr "現在，你已掌握向有關部門輕鬆申報這些資料的方法！"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-10 18:35+0000\n"
+"POT-Creation-Date: 2026-04-24 17:35+0000\n"
 "PO-Revision-Date: 2025-09-01 12:51+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
@@ -745,7 +745,6 @@ msgstr "项目参考"
 
 #. module: architects
 #: model:ir.model.fields,field_description:architects.crm_lead_project_type
-#: model:ir.model.fields,field_description:architects.project_project_type
 msgid "Project type"
 msgstr "项目类型"
 

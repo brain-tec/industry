@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
-"PO-Revision-Date: 2026-04-11 14:53+0000\n"
+"PO-Revision-Date: 2026-06-13 23:51+0000\n"
 "Last-Translator: \"Kira Petersen François (peti)\" <peti@odoo.com>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-s18-4/"
 "beverage_distributor/da/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -193,8 +193,8 @@ msgid ""
 "Assign the relevant excise category, input the Excise Amount and the Excise "
 "Quantity in the reporting unit and then save your product."
 msgstr ""
-"Tildel den relevante punktafgiftskategori, indtast punktafgiftsbeløb og "
-"-mængde i rapporteringsenheden, og gem derefter produktet."
+"Tildel den relevante punktafgiftskategori, indtast punktafgiftsbeløb og -"
+"mængde i rapporteringsenheden, og gem derefter produktet."
 
 #. module: beverage_distributor
 #: model:base.automation,name:beverage_distributor.auto_production
@@ -563,8 +563,9 @@ msgid ""
 "Experience top-tier beverage solutions designed to streamline distribution,"
 "<br/> boost efficiency, and drive innovation for your business."
 msgstr ""
-"Oplev topkvalitative drikkevareløsninger, der effektiviserer distributionen,"
-"<br/> øger produktiviteten og styrker innovationen i din virksomhed."
+"Oplev topkvalitative drikkevareløsninger, der effektiviserer "
+"distributionen,<br/> øger produktiviteten og styrker innovationen i din "
+"virksomhed."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.homepage
@@ -650,8 +651,7 @@ msgstr ""
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
 msgid "Implement the Quality app to ensure consistent product quality"
-msgstr ""
-"Implementér Kvalitetsappen for at sikre en konstant høj produktkvalitet"
+msgstr "Implementér Kvalitetsappen for at sikre en konstant høj produktkvalitet"
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1017,8 +1017,8 @@ msgid ""
 "Set a deposit product on your product to apply these taxes. This will ensure "
 "that you invoice correctly the price of consigns."
 msgstr ""
-"Angiv en pant på dit produkt for at anvende disse skatter. Dette sikrer, at "
-"du fakturerer forsendelser korrekt."
+"Angiv pant på dit produkt for at anvende disse skatter. Dette sikrer, at du "
+"fakturerer forsendelser korrekt."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body
@@ -1342,9 +1342,9 @@ msgid ""
 "<br/>Adjust the Fiscal Positions which are not to consider the Excise Taxes "
 "in your orders."
 msgstr ""
-"Når dette modul installeres, markeres alle skattepositioner som afgiftslager."
-"<br/>Tilpas de skattepositioner, hvor punktafgifter ikke skal medtages i "
-"dine ordrer."
+"Når dette modul installeres, markeres alle skattepositioner som "
+"afgiftslager.<br/>Tilpas de skattepositioner, hvor punktafgifter ikke skal "
+"medtages i dine ordrer."
 
 #. module: beverage_distributor
 #: model_terms:ir.ui.view,arch_db:beverage_distributor.welcome_article_body

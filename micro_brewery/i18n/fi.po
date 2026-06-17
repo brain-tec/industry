@@ -10,13 +10,14 @@
 # Jessica Jakara, 2025
 # "Jessica Tuulia Sade Jäkärä (jtsj)" <jtsj@odoo.com>, 2025.
 # Saara Hakanen <sahak@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:03+0000\n"
-"PO-Revision-Date: 2026-04-04 23:51+0000\n"
-"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
+"PO-Revision-Date: 2026-06-13 23:51+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-s18-4/"
 "micro_brewery/fi/>\n"
 "Language: fi\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -883,32 +884,32 @@ msgstr ""
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_39_product_template
 msgid "Deposit Keg"
-msgstr "Talletustynnyri"
+msgstr "Panttitynnyri"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit Management 🍻"
-msgstr "4. Vakuusmaksujen hallinta 🍻"
+msgstr "Panttien hallinta 🍻"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit assignation"
-msgstr "Talletuksen siirto"
+msgstr "Pantin määritys"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.field_deposit_product_1
 msgid "Deposit product"
-msgstr "Vakuusmaksutuote"
+msgstr "Panttituote"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
 msgid "Deposit product must be set in Deposit category"
-msgstr "Vakuusmaksutuote on asetettava Vakuus-kategoriaan"
+msgstr "Panttituote on määritettävä Panttikategoriassa"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Deposit return from customers"
-msgstr "Asiakkaiden talletusten palautus"
+msgstr "Asiakkaiden panttien palautus"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1016,7 +1017,7 @@ msgstr "Suorita koodi"
 #. module: micro_brewery
 #: model:ir.actions.server,name:micro_brewery.update_state
 msgid "Execute Existing Actions"
-msgstr "Suorita olemassa oleva toiminto"
+msgstr "Suorita olemassa olevia toimintoja"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1283,12 +1284,12 @@ msgstr ""
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit
 msgid "Is a deposit"
-msgstr "On vakuus"
+msgstr "On talletus"
 
 #. module: micro_brewery
 #: model:ir.model.fields,field_description:micro_brewery.x_is_a_deposit_category
 msgid "Is a deposit category"
-msgstr "On vakuusluokka"
+msgstr "On talletuskategoria"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1330,8 +1331,9 @@ msgstr "Vain pakkaus / Pulloissa oleva varasto"
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
 #: model:website.base.unit,name:micro_brewery.base_unit_litre
+#, fuzzy
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1404,8 +1406,9 @@ msgstr "Paikallinen tuotemerkki"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
+#, fuzzy
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
@@ -1435,12 +1438,12 @@ msgid ""
 "class=\"text-o-color-1\">Social Media Marketing</font></strong>, and "
 "<strong><font class=\"text-o-color-1\">SMS Marketing</font></strong>."
 msgstr ""
-"Hallinnoi kaikkia viestintäkanavia yhdestä paikasta Odoon <strong><font "
-"class=\"text-o-color-1\">Markkinointiautomaation</font></strong>, "
-"<strong><font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></"
-"strong>, <strong><font class=\"text-o-color-1\">Some- markkinoinnin</font></"
-"strong> ja <strong><font class=\"text-o-color-1\">Tekstiviestimarkkinoinnin</"
-"font></strong> avulla."
+"Hallitse kaikkia viestintäkanaviasi yhdestä paikasta Odoon <strong><font "
+"class=\"text-o-color-1\">Markkinoinnin automaation</font></strong>, <strong>"
+"<font class=\"text-o-color-1\">Sähköpostimarkkinoinnin</font></strong>, "
+"<strong><font class=\"text-o-color-1\">Somemarkkinoinnin</font></strong> ja "
+"<strong><font class=\"text-o-color-1\">Tekstiviestimarkkinoinnin</font></"
+"strong> avulla."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1456,7 +1459,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Manage your deposit more precisely and efficiently than ever before."
-msgstr "Hallinnoi talletuksiasi tarkemmin ja tehokkaammin kuin koskaan ennen."
+msgstr "Hallinnoi panttejasi tarkemmin ja tehokkaammin kuin koskaan ennen."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1548,7 +1551,7 @@ msgstr "Odoo mikropanimolle"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Odoo offers you infinite possibilities, such as :"
-msgstr "Odoo tarjoaa sinulle rajattomia mahdollisuuksia, kuten:"
+msgstr "Odoo tarjoaa sinulle rajattoman määrän mahdollisuuksia, esimerkiksi:"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1717,8 +1720,9 @@ msgstr ""
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
+#, fuzzy
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. module: micro_brewery
 #: model:x_excise_category,x_name:micro_brewery.x_excise_category_S005
@@ -1728,7 +1732,7 @@ msgstr "S005"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
 msgid "See All"
-msgstr "Näytä kaikki"
+msgstr "Katso kaikki"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.homepage
@@ -1991,8 +1995,8 @@ msgid ""
 "Transfer is here to handle the transfers between multiple fiscal deposit "
 "warehouses of yours."
 msgstr ""
-"Siirrot auttavat sinua käsittelemään siirrot, jotka tapahtuvat useiden omien "
-"verotalletusvarastojesi välillä."
+"Siirrot auttavat sinua käsittelemään useiden omien verotalletusvarastojesi "
+"välisiä siirtoja."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2123,8 +2127,8 @@ msgid ""
 "When moving boxes from a place to another using box product, in practice, "
 "beer bottles and deposits are moved (see corresponding deliveries)."
 msgstr ""
-"Kun siirrät laatikoita paikasta toiseen laatikkotuotteina, käytännössä siis "
-"olutpulloja ja talletuksia siirretään (katso vastaavat toimitukset)."
+"Kun siirrät laatikoita paikasta toiseen laatikkotuotteina, käytännössä "
+"siirrät siis olutpulloja ja pantteja (katso vastaavat toimitukset)."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2171,8 +2175,9 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3686
 #: model_terms:ir.ui.view,arch_db:micro_brewery.ir_ui_view_3854
+#, fuzzy
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_13
@@ -2214,8 +2219,8 @@ msgid ""
 "You can also collect deposit directly on your Point of Sale. Select the "
 "correct product and encode a negative quantity."
 msgstr ""
-"Voit myös kerätä vakuuden suoraan kassastasi. Valitse oikea tuote ja syötä "
-"negatiivinen määrä."
+"Voit kerätä pantteja myös suoraan kassajärjestelmässäsi. Valitse oikea tuote "
+"ja koodaa negatiivinen määrä."
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2324,7 +2329,7 @@ msgstr "dokumentaatio"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.product_template_form_custom
 msgid "ex. Delta I.P.A. - 33cl"
-msgstr "ex. Delta I.P.A. - 33cl"
+msgstr "esim. Delta I.P.A. - 33cl"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -2344,12 +2349,12 @@ msgstr "o-beer"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "removing the deposit products from the bill of materials"
-msgstr "talletustuotteiden poistaminen materiaaliluettelosta"
+msgstr "panttituotteiden poistaminen materiaaliluettelosta"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "removing the tracking of deposit products (in the product form"
-msgstr "talletustuotteiden seurannan poistaminen (tuotelomakkeessa"
+msgstr "panttituotteiden seurannan poistaminen (tuotelomakkeessa"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
