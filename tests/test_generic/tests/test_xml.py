@@ -208,6 +208,8 @@ class TestEnv(IndustryCase):
                     self._check_base_records_update(tree, file_name, module)
                     if not is_studio_required:
                         is_studio_required = self._check_studio(tree, file_name)
+            if "/demo" in root:
+                self._check_main_company_inherit_is_present(root, files, module)
         self._check_manifest(manifest_content, is_studio_required, escape_studio_test=module in ESCAPE_STUDIO_TEST)
         self._check_records_without_user_id(checked_records_with_user)
         self._check_uninitialized_sessions(uninitialized_sessions, session_functions)
@@ -393,12 +395,18 @@ class TestEnv(IndustryCase):
                 )
 
     def _check_knowledge_article_is_locked(self, root, file_name):
+        all_ids, locked_ids = set(), set()
         for record in root.xpath("//record[@model='knowledge.article']"):
-            is_locked_fields = record.xpath(".//field[@name='is_locked']/@eval")
-            if not is_locked_fields:
-                _logger.warning(
-                    f"Knowledge article in {file_name} should have 'is_locked' set to True."
-                )
+            if record_id := record.get("id"):
+                all_ids.add(record_id)
+                if record.xpath(".//field[@name='is_locked']/@eval") in [["True"], ["1"]]:
+                    locked_ids.add(record_id)
+        for record_id in all_ids - locked_ids:
+            _logger.warning(
+                "Knowledge article %s in %s should have 'is_locked' set to True.",
+                record_id,
+                file_name,
+            )
 
     def _check_is_published_false(self, root, file_name):
         for record in root.xpath("//record"):
@@ -817,3 +825,28 @@ class TestEnv(IndustryCase):
             cond2 = any((val := f.xpath('//value')) and val[0].get('eval', '') for f in session_functions)
             if not (cond1 or cond2):
                 error_message(u[0], u[1])
+
+    def _check_main_company_inherit_is_present(self, root, files, module):
+        if module not in self.installed_industries:
+            return
+        for file in files:
+            file_path = os.path.join(root, file)
+            encoded_content = pathlib.Path(file_path).read_bytes()
+            try:
+                tree = etree.fromstring(encoded_content)
+            except etree.XMLSyntaxError as e:
+                _logger.error("XML syntax error in file %s: %s", file, e)
+                return
+            for company in tree.xpath("//record[@model='res.company' and @id='base.main_company']"):
+                company_logo = company.xpath(".//field[@name='logo']")
+                if not company_logo or company_logo[0].get("file", "") != module + "/static/description/icon.png":
+                    _logger.warning(
+                        "The main company in the module %s is not using the industry logo as its logo.",
+                        module,
+                    )
+                return
+        _logger.warning(
+            "The module %s does not contain an extension of main_company. It should change the name \
+            and logo of the company to the industry ones.",
+            module,
+        )
