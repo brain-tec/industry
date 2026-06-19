@@ -1,0 +1,918 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * gardening
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-08 05:47+0000\n"
+"PO-Revision-Date: 2026-05-23 18:51+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/gardening/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"*This list will, of course, depend on your installed apps and configuration."
+msgstr ""
+"*ແນ່ນອນວ່າ, ລາຍການນີ້ຈະຂຶ້ນກັບແອັບທີ່ທ່ານຕິດຕັ້ງ ແລະ ການກຳນົດຄ່າຂອງທ່ານ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">🚀</i>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"<span class=\"display-4-fs\"><strong>Odoo for Gardeners</strong></span><br/>"
+msgstr ""
+"<span class=\"display-4-fs\"><strong>Odoo ສຳລັບຄົນເຮັດສວນ</strong></span><br/>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Accounting made easy 🧮</strong></span>"
+msgstr ""
+"<span class=\"h2-fs\"><strong>ການບັນຊີທີ່ເຮັດໃຫ້ເປັນເລື່ອງງ່າຍ 🧮</strong></span>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Employees 🧑‍🤝‍🧑</strong></span>"
+msgstr "<span class=\"h2-fs\"><strong>ພະນັກງານ 🧑‍🤝‍🧑</strong></span>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Equipment 🛠️</strong></span>"
+msgstr "<span class=\"h2-fs\"><strong>ອຸປະກອນ 🛠️</strong></span>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Helpdesk &amp; services 🆘</strong></span>"
+msgstr ""
+"<span class=\"h2-fs\"><strong>ໜ່ວຍງານຊ່ວຍເຫຼືອ ແລະ ການບໍລິການ 🆘</strong></span>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<span class=\"h2-fs\"><strong>Subscriptions ↩️</strong></span>"
+msgstr "<span class=\"h2-fs\"><strong>ການສະໝັກສະມາຊິກ ↩️</strong></span>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"<strong><span class=\"h2-fs\">Create an attractive website 🌐</span></strong>"
+msgstr "<strong><span class=\"h2-fs\">ສ້າງເວັບໄຊທີ່ໜ້າສົນໃຈ 🌐</span></strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Basics</strong>"
+msgstr "<strong>ພື້ນຖານ</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Do you want to go further?</strong>"
+msgstr "<strong>ທ່ານຕ້ອງການໄປຕໍ່ອີກບໍ່?</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Inventory 📦</strong>"
+msgstr "<strong>ຄັງສິນຄ້າ 📦</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Invoicing 📈</strong>"
+msgstr "<strong>ການອອກໃບແຈ້ງໜີ້ 📈</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Opportunities 🎯</strong>"
+msgstr "<strong>ໂອກາດ 🎯</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Planning and timesheets 📆</strong>"
+msgstr "<strong>ການວາງແຜນ ແລະ ໃບບັນທຶກເວລາ 📆</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Projects  🌱️</strong>"
+msgstr "<strong>ໂໂຄງການ 🌱️</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "<strong>Quotations💲</strong>"
+msgstr "<strong>ໃບສະເໜີລາຄາ💲</strong>"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"A link to reach the online quotation from where the customer can"
+"                                                confirm and sign it."
+msgstr ""
+"ລິ້ງສຳລັບເຂົ້າເບິ່ງໃບສະເໜີລາຄາອອນລາຍ ເຊິ່ງລູກຄ້າສາມາດຢືນຢັນ ແລະ ເຊັນຊື່ໄດ້."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"All these components will give you an accurate overview on the project\n"
+"                                profitability."
+msgstr ""
+"ສ່ວນປະກອບທັງໝົດເຫຼົ່ານີ້ຈະຊ່ວຍໃຫ້ທ່ານເຫັນພາບລວມທີ່ຊັດເຈນ ກ່ຽວກັບຜົນກຳໄລຂອງໂໂຄງການ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Amazing employees deserve amazing equipment. Make the sure all your tools\n"
+"                                are fit and well by tracking their health in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Maintenance</font>\n"
+"                                </strong>\n"
+"                                app."
+msgstr ""
+"ພະນັກງານທີ່ດີເລີດສົມຄວນໄດ້ຮັບອຸປະກອນທີ່ດີເລີດ. ໃຫ້ແນ່ໃຈວ່າເຄື່ອງມືທັງໝົດຂອງທ່ານຢູ່ໃນສະພາບທີ່ພ້ອມໃຊ້ງານ ໂດ"
+"ຍການຕິດຕາມສະພາບຂອງພວກມັນໃນແອັບ <strong><font class=\"text-o-color-1\">ການບຳລຸງຮັກສ"
+"າ</font></strong>."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Analytic Items ➡️ Track any cost using Analytic Items from the Accounting "
+"App"
+msgstr "ລາຍການວິເຄາະ ➡️ ຕິດຕາມຕົ້ນທຶນຕ່າງໆ ໂດຍໃຊ້ລາຍການວິເຄາະ ຈາກແອັບການບັນຊີ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Architect"
+msgstr "ສະຖາປະນິກ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"As the first invoicing step, create a down payment from the sales order.\n"
+"                                This will generate the first invoice in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Invoicing</font>\n"
+"                                </strong>\n"
+"                                app. Then, schedule one or several \"Invoicing Schedule\" activities\n"
+"                                on the sales order with the aim to never forget to send an\n"
+"                                intermediary invoice in order to sustain your cash flow."
+msgstr ""
+"ໃນຂັ້ນຕອນທຳອິດຂອງການອອກໃບແຈ້ງໜີ້, ໃຫ້ສ້າງເງິນຈ່າຍລ່ວງໜ້າຈາກໃບສັ່ງຂາຍ. ນີ້ຈະສ້າງໃບແຈ້ງໜີ້ທຳອິດໃນແອັ"
+"ບ <strong><font class=\"text-o-color-1\">ການອອກໃບແຈ້ງໜີ້</font></strong>. ຈາກນັ້"
+"ນ, ກຳນົດກິດຈະກຳ \"ຕາຕະລາງການອອກໃບແຈ້ງໜີ້\" ໜຶ່ງ ຫຼື ຫຼາຍລາຍການໃນໃບສັ່ງຂາຍ ເພື່ອບໍ່ໃຫ້ພາດການສົ່ງໃ"
+"ບແຈ້ງໜີ້ລະຫວ່າງກາງ ເພື່ອຮັກສາກະແສເງິນສົດຂອງທ່ານ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Assign the tasks to the right responsible and easily check the progress\n"
+"                                in the Kanban view."
+msgstr ""
+"ມອບໝາຍໜ້າວຽກໃຫ້ຜູ້ຮັບຜິດຊອບທີ່ຖືກຕ້ອງ ແລະ ກວດສອບຄວາມຄືບໜ້າໄດ້ຢ່າງງ່າຍດາຍໃນມຸມມອງ Kanban."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"At any time, you can create from an opportunity a beautiful and tailor-made"
+"                                        quotation that displays the price, "
+"the discount, the unit of                                        measure, "
+"and the tax of each:"
+msgstr ""
+"ທ່ານສາມາດສ້າງໃບສະເໜີລາຄາທີ່ສວຍງາມ ແລະ ເໝາະສົມກັບລູກຄ້າໄດ້ທຸກເວລາຈາກໂອກາດການຂາຍ ເຊິ່ງຈະສະແດ"
+"ງລາຄາ, ສ່ວນຫຼຸດ, ຫົວໜ່ວຍວັດແທກ ແລະ ພາສີຂອງແຕ່ລະລາຍການ:"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Basics"
+msgstr "ພື້ນຖານ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Before generating an intermediary invoice in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Invoicing</font>\n"
+"                                </strong>\n"
+"                                app, freeze the project status in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Project</font>\n"
+"                                </strong>\n"
+"                                app to get an overview on the progress in terms of:"
+msgstr ""
+"ກ່ອນທີ່ຈະສ້າງໃບແຈ້ງໜີ້ລະຫວ່າງກາງໃນແອັບ <strong><font class=\"text-o-color-1\">ການອອກໃບ"
+"ແຈ້ງໜີ້</font></strong>, ໃຫ້ກວດສອບສະຖານະໂຄງການໃນແອັບ <strong><font class=\"text-o-"
+"color-1\">ໂຄງການ</font></strong> ເພື່ອເບິ່ງພາບລວມຂອງຄວາມຄືບໜ້າໃນດ້ານ:"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Before starting the project, make sure you have enough stock. The\n"
+"                                confirmation of the quotation also triggers the creation of a\n"
+"                                delivery in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Inventory</font>\n"
+"                                </strong>\n"
+"                                app where you can check the stock levels of each needed storable\n"
+"                                product."
+msgstr ""
+"ກ່ອນເລີ່ມໂຄງການ, ໃຫ້ແນ່ໃຈວ່າທ່ານມີສິນຄ້າໃນສາງພຽງພໍ. ການຢືນຢັນໃບສະເໜີລາຄາຍັງຈະກະຕຸ້ນການສ້າງລາຍກາ"
+"ນຈັດສົ່ງໃນແອັບ <strong><font class=\"text-o-color-1\">ຄັງສິນຄ້າ</font></strong> ເຊິ່ງທ່"
+"ານສາມາດກວດສອບລະດັບສິນຄ້າໃນສາງຂອງແຕ່ລະຜະລິດຕະພັນທີ່ຕ້ອງການໄດ້."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Bills of Materials"
+msgstr "ລາຍການວັດສະດຸ (BOM)"
+
+#. module: gardening
+#: model:product.attribute.value,name:gardening.product_attribute_value_5
+msgid "Clay"
+msgstr "ດິນໜຽວ"
+
+#. module: gardening
+#: model:product.template,name:gardening.product_template_4
+msgid "Compost (50KG)"
+msgstr "ຝຸ່ນບົ່ມ (50 ກິໂລ)"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Create an opportunity each time you faced a potential customer,\n"
+"                                        receive a phone call, etc."
+msgstr ""
+"ສ້າງໂອກາດການຂາຍທຸກຄັ້ງທີ່ທ່ານພົບລູກຄ້າທີ່ມີທ່າແຮງ, ໄດ້ຮັບສາຍໂທລະສັບ ແລະ ອື່ນໆ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Dashboard ➡️ Your project's status at a glance."
+msgstr "ແຜງຄວບຄຸມ ➡️ ສະຖານະໂຄງການຂອງທ່ານໃນພິບຕາ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Do you want to go further?"
+msgstr "ທ່ານຕ້ອງການໄປຕໍ່ອີກບໍ່?"
+
+#. module: gardening
+#: model:project.task.type,name:gardening.project_task_type_16
+msgid "Done"
+msgstr "ສຳເລັດແລ້ວ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Down Payment"
+msgstr "ເງິນຈ່າຍລ່ວງໜ້າ"
+
+#. module: gardening
+#: model:product.template,name:gardening.product_template_5
+msgid "Fertilizers (5L)"
+msgstr "ຝຸ່ນ (5 ລິດ)"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"For each ordered material, don't forget to fill the analytic distribution\n"
+"                                in which you will be able to set for which project it will be used."
+msgstr ""
+"ສຳລັບວັດສະດຸທີ່ສັ່ງຊື້ແຕ່ລະຢ່າງ, ຢ່າລືມລະບຸການແຈກຢາຍການວິເຄາະ ເພື່ອໃຫ້ທ່ານສາມາດກຳນົດໄດ້ວ່າຈະນຳໄປໃຊ້ໃ"
+"ນໂຄງການໃດ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "From WH ➡️ Deliveries from your warehouse to this specific customer"
+msgstr "ຈາກຄັງສິນຄ້າ ➡️ ການຈັດສົ່ງຈາກຄັງສິນຄ້າຂອງທ່ານໄປຫາລູກຄ້າສະເພາະຄົນນີ້"
+
+#. module: gardening
+#: model:product.template,name:gardening.product_product_10_product_template
+msgid "Garden Renewal Project Management"
+msgstr "ການຈັດການໂຄງການປັບປຸງສວນ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Helpdesk &amp; services 🆘"
+msgstr "ໜ່ວຍງານຊ່ວຍເຫຼືອ ແລະ ການບໍລິການ 🆘"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"If the customer replies to the email, the answer is automatically logged in "
+"the chatter on the right of the screen. Thereby, all the discussions "
+"regarding the quotation, its updates, and its fine tuning are attached, and "
+"the history can be easily consulted by all the"
+"                                        involved users."
+msgstr ""
+"ຖ້າລູກຄ້າຕອບກັບອີເມວ, ຄຳຕອບຈະຖືກບັນທຶກໄວ້ໃນລະບົບການສົນທະນາ (Chatter) ຢູ່ເບື້ອງຂວາຂອງໜ້າຈໍໂດຍອັດ"
+"ຕະໂນມັດ. ດັ່ງນັ້ນ, ທຸກການສົນທະນາກ່ຽວກັບໃບສະເໜີລາຄາ, ການອັບເດດ ແລະ ການປັບແຕ່ງຕ່າງໆ ຈະຖືກແນບໄ"
+"ວ້ ແລະ ຜູ້ໃຊ້ທີ່ກ່ຽວຂ້ອງທັງໝົດສາມາດກວດສອບປະຫວັດໄດ້ຢ່າງງ່າຍດາຍ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"If the stock levels are too low, resupply the materials from the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Purchase</font>\n"
+"                                </strong>\n"
+"                                app by creating a purchase order linked to the right vendor. In the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Contact</font>\n"
+"                                </strong>\n"
+"                                app, you can easily manage all your preferred vendors and don't\n"
+"                                hesitate to set a warning to remind if there is a minimum amount to\n"
+"                                get free transport costs."
+msgstr ""
+"ຖ້າລະດັບສິນຄ້າໃນສາງຕໍ່າເກີນໄປ, ໃຫ້ຕື່ມວັດສະດຸຈາກແອັບ <strong><font class=\"text-o-color-"
+"1\">ການຈັດຊື້</font></strong> ໂດຍການສ້າງໃບສັ່ງຊື້ທີ່ເຊື່ອມໂຍງກັບຜູ້ສະໜອງທີ່ຖືກຕ້ອງ. ໃນແອັບ "
+"<strong><font class=\"text-o-color-1\">ຜູ້ຕິດຕໍ່</font></strong>, ທ່ານສາມາດຈັດການຜູ້ສະ"
+"ໜອງທີ່ທ່ານຕ້ອງການໄດ້ຢ່າງງ່າຍດາຍ ແລະ ຢ່າລືມຕັ້ງການແຈ້ງເຕືອນຫາກມີຍອດສັ່ງຊື້ຂັ້ນຕໍ່າເພື່ອຮັບຄ່າຂົນສົ່ງຟຣີ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"If you want to push your quotation building much further and add all the "
+"power of Spreadsheet beneath any line of your Sales Orders, use the quote "
+"calculation feature."
+msgstr ""
+"ຖ້າທ່ານຕ້ອງການຍົກລະດັບການສ້າງໃບສະເໜີລາຄາຂອງທ່ານ ແລະ ນຳໃຊ້ປະສິດທິພາບຂອງ Spreadsheet ໃນແຕ່ລ"
+"ະລາຍການຂອງໃບສັ່ງຂາຍ, ໃຫ້ໃຊ້ຄຸນສົມບັດການຄິດໄລ່ລາຄາ."
+
+#. module: gardening
+#: model:project.task.type,name:gardening.project_task_type_15
+msgid "In progress"
+msgstr "ກຳລັງດຳເນີນການ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Increase you visibility and get more leads by creating a beautiful <strong>\n"
+"                                        <font class=\"text-o-color-1\">Website</font></strong>!\n"
+"                                When a potential customer sends a request through the contact form,\n"
+"                                it could automatically create an opportunity in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">CRM</font>\n"
+"                                </strong>\n"
+"                                app."
+msgstr ""
+"ເພີ່ມການເບິ່ງເຫັນ ແລະ ຫາລູກຄ້າໃໝ່ໆ ໂດຍການສ້າງ <strong><font class=\"text-o-color-1\">ເ"
+"ວັບໄຊ</font></strong> ທີ່ສວຍງາມ! ເມື່ອລູກຄ້າສົ່ງຄຳຮ້ອງຂໍຜ່ານແບບຟອມຕິດຕໍ່, ມັນສາມາດສ້າງໂອກາດການ"
+"ຂາຍໃນແອັບ <strong><font class=\"text-o-color-1\">CRM</font></strong> ໂດຍອັດຕະໂນ"
+"ມັດ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Inventory 📦"
+msgstr "ຄັງສິນຄ້າ 📦"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Invoices"
+msgstr "ໃບແຈ້ງໜີ້"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Invoicing 📈"
+msgstr "ການອອກໃບແຈ້ງໜີ້ 📈"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Know the skills of each employee by filling them in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Employees</font>\n"
+"                                </strong>\n"
+"                                app. This will help you to find the right person to make a good\n"
+"                                work."
+msgstr ""
+"ຮັບຮູ້ທັກສະຂອງພະນັກງານແຕ່ລະຄົນໂດຍການລະບຸໄວ້ໃນແອັບ <strong><font class=\"text-o-color-"
+"1\">ພະນັກງານ</font></strong>. ນີ້ຈະຊ່ວຍໃຫ້ທ່ານຊອກຫາຄົນທີ່ເໝາະສົມເພື່ອສ້າງຜົນງານທີ່ດີ."
+
+#. module: gardening
+#: model:sale.order.template.line,name:gardening.sale_order_template_section_2
+msgid "Labour"
+msgstr "ແຮງງານ"
+
+#. module: gardening
+#: model:product.template,name:gardening.product_product_13_product_template
+msgid "Labour (Hours)"
+msgstr "ແຮງງານ (ຊົ່ວໂມງ)"
+
+#. module: gardening
+#: model:product.attribute.value,name:gardening.product_attribute_value_3
+msgid "Loam"
+msgstr "ດິນຮ່ວນ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Manage recurring products and automate renewal with the <strong><font "
+"class=\"text-o-color-1\">Subscription</font></strong> app."
+msgstr ""
+"ຈັດການຜະລິດຕະພັນທີ່ມີການຊື້ຊໍ້າ ແລະ ຕໍ່ອາຍຸອັດຕະໂນມັດດ້ວຍແອັບ <strong><font class=\"text-o-"
+"color-1\">ການສະໝັກສະມາຊິກ</font></strong>."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Manufacturing Orders"
+msgstr "ໃບສັ່ງຜະລິດ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Material that will be used to build the project."
+msgstr "ວັດສະດຸທີ່ຈະຖືກນຳໃຊ້ເຂົ້າໃນການສ້າງໂຄງການ."
+
+#. module: gardening
+#: model:sale.order.template.line,name:gardening.sale_order_template_section_1
+msgid "Materials"
+msgstr "ວັດສະດຸ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Materials purchased."
+msgstr "ວັດສະດຸທີ່ຈັດຊື້ແລ້ວ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Materials sold."
+msgstr "ວັດສະດຸທີ່ຂາຍແລ້ວ."
+
+#. module: gardening
+#: model:product.template,name:gardening.product_product_11_product_template
+msgid "Mowing (Hours)"
+msgstr "ການຕັດຫຍ້າ (ຊົ່ວໂມງ)"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Never miss nor forgot an opportunity. The <strong>\n"
+"                                        <font class=\"text-o-color-1\">CRM</font>\n"
+"                                </strong>\n"
+"                                centralizes everything and allows you to ensure the\n"
+"                                follow-up of each request. If the request becomes concrete, create\n"
+"                                the customer in the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Contact</font>\n"
+"                                </strong>\n"
+"                                app."
+msgstr ""
+"ບໍ່ພາດ ແລະ ບໍ່ລືມທຸກໂອກາດການຂາຍ. ແອັບ <strong><font class=\"text-o-color-1\">CRM</"
+"font></strong> ຈະລວບລວມທຸກຢ່າງໄວ້ຢູ່ບ່ອນດຽວ ແລະ ຊ່ວຍໃຫ້ທ່ານຕິດຕາມທຸກຄຳຮ້ອງຂໍໄດ້. ຫາກການຮ້ອງຂໍ"
+"ນັ້ນຊັດເຈນແລ້ວ, ໃຫ້ສ້າງຂໍ້ມູນລູກຄ້າໃນແອັບ <strong><font class=\"text-o-color-1\">ຜູ້ຕິດຕໍ່</"
+"font></strong>."
+
+#. module: gardening
+#: model:project.task.type,name:gardening.project_task_type_14
+msgid "New"
+msgstr "ໃໝ່"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Odoo empowers you to effortlessly and efficiently manage every aspect of your gardening projects, \n"
+"                        ensuring unparalleled success and client satisfaction thanks to its suite of integrated applications."
+msgstr ""
+"Odoo ຊ່ວຍໃຫ້ທ່ານຈັດການທຸກດ້ານຂອງໂຄງການເຮັດສວນຂອງທ່ານໄດ້ຢ່າງງ່າຍດາຍ ແລະ ມີປະສິດທິພາບ, ຮັບປະກັນ"
+"ຄວາມສຳເລັດ ແລະ ຄວາມເພິ່ງພໍໃຈຂອງລູກຄ້າ ດ້ວຍຊຸດແອັບພລິເຄຊັນທີ່ເຊື່ອມໂຍງເຂົ້າກັນ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Of course, feel free to create all the products you use often."
+"                                        This will save you time when "
+"preparing when preparing your next quotations."
+msgstr ""
+"ແນ່ນອນວ່າ, ທ່ານສາມາດສ້າງຜະລິດຕະພັນທັງໝົດທີ່ທ່ານໃຊ້ເລື້ອຍໆໄດ້. ນີ້ຈະຊ່ວຍປະຢັດເວລາໃນການກະກຽມໃບສະເໜີ"
+"ລາຄາຄັ້ງຕໍ່ໄປຂອງທ່ານ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Of course, these default tasks can be adapted in the Project Template\n"
+"                                according to your personal way of managing a gardening project."
+msgstr ""
+"ແນ່ນອນວ່າ, ໜ້າວຽກເລີ່ມຕົ້ນເຫຼົ່ານີ້ສາມາດປັບປ່ຽນໄດ້ໃນແມ່ແບບໂຄງການ ຕາມຮູບແບບການຈັດການສ່ວນຕົວຂອງທ່ານ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Once confirmed, the quotation becomes a sales order. All quotations and "
+"sales orders are centralized in the <strong><font class=\"text-o-"
+"color-1\">Sales</font>                                        </strong>"
+"                                        app."
+msgstr ""
+"ເມື່ອຢືນຢັນແລ້ວ, ໃບສະເໜີລາຄາຈະກາຍເປັນໃບສັ່ງຂາຍ. ທຸກໆໃບສະເໜີລາຄາ ແລະ ໃບສັ່ງຂາຍ ຈະຖືກລວບລວມໄວ້"
+"ໃນແອັບ <strong><font class=\"text-o-color-1\">ການຂາຍ</font></strong>."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Opportunities 🎯"
+msgstr "ໂອກາດ 🎯"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Planification"
+msgstr "ການວາງແຜນ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Planning"
+msgstr "ການວາງແຜນ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Planning and timesheets 📆"
+msgstr "ການວາງແຜນ ແລະ ໃບບັນທຶກເວລາ 📆"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Projects  🌱️"
+msgstr "ໂຄງການ 🌱️"
+
+#. module: gardening
+#: model:product.template,name:gardening.product_product_12_product_template
+msgid "Pruning (Hours)"
+msgstr "ການຕັດແຕ່ງກິ່ງ (ຊົ່ວໂມງ)"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Purchase Orders"
+msgstr "ໃບສັ່ງຊື້"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Quotations💲"
+msgstr "ໃບສະເໜີລາຄາ💲"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Receipt"
+msgstr "ໃບຮັບສິນຄ້າ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Record your employees' time spent on each project using the Timesheets app. "
+"On the employee form, remember to define an hourly cost."
+msgstr ""
+"ບັນທຶກເວລາທີ່ພະນັກງານຂອງທ່ານໃຊ້ໃນແຕ່ລະໂຄງການໂດຍໃຊ້ແອັບ ໃບບັນທຶກເວລາ. ໃນແບບຟອມພະນັກງານ, ຢ່າລື"
+"ມກຳນົດຕົ້ນທຶນຕໍ່ຊົ່ວໂມງ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Redirect the emails sent to"
+msgstr "ປ່ຽນທິດທາງອີເມວທີ່ສົ່ງຫາ"
+
+#. module: gardening
+#: model:product.attribute.value,name:gardening.product_attribute_value_1
+msgid "Regular"
+msgstr "ປົກກະຕິ"
+
+#. module: gardening
+#: model:account.analytic.account,name:gardening.account_analytic_account_4
+msgid "S00001"
+msgstr "S00001"
+
+#. module: gardening
+#: model:project.project,name:gardening.project_project_4
+msgid "S00001 - Garden Renewal"
+msgstr "S00001 - ການປັບປຸງສວນ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Sales Orders"
+msgstr "ໃບສັ່ງຂາຍ"
+
+#. module: gardening
+#: model:product.attribute.value,name:gardening.product_attribute_value_4
+msgid "Sandy"
+msgstr "ດິນຊາຍ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Save time by directly sending the quotation by email to your"
+"                                        customer. The personalized email "
+"provides:"
+msgstr ""
+"ປະຢັດເວລາໂດຍການສົ່ງໃບສະເໜີລາຄາທາງອີເມວຫາລູກຄ້າໂດຍກົງ. ອີເມວທີ່ປັບແຕ່ງມາສະເພາະຈະໃຫ້ຂໍ້ມູນ:"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Schedule a demo"
+msgstr "ກຳນົດເວລານຳສະເໜີຕົວຢ່າງ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Service such as labor hours, traveling costs, etc."
+msgstr "ການບໍລິການ ເຊັ່ນ: ຊົ່ວໂມງແຮງງານ, ຄ່າເດີນທາງ ແລະ ອື່ນໆ."
+
+#. module: gardening
+#: model:product.template,name:gardening.product_template_6
+msgid "Soil (50KG)"
+msgstr "ດິນ (50 ກິໂລ)"
+
+#. module: gardening
+#: model:project.project,label_tasks:gardening.project_project_3
+#: model:project.project,label_tasks:gardening.project_project_4
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Tasks"
+msgstr "ໜ້າວຽກ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Thanks to the invoicing policy set on delivered quantities, the generated\n"
+"                                invoice is always the reflect of the reality on the field and it is\n"
+"                                fair for the customer."
+msgstr ""
+"ດ້ວຍນະໂຍບາຍການອອກໃບແຈ້ງໜີ້ຕາມຈຳນວນທີ່ຈັດສົ່ງ, ໃບແຈ້ງໜີ້ທີ່ສ້າງຂຶ້ນຈະສະທ້ອນເຖິງຄວາມເປັນຈິງຂອງວຽກທີ່ເຮັ"
+"ດ ແລະ ມີຄວາມຍຸຕິທຳສຳລັບລູກຄ້າ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"The <font class=\"text-o-color-1\">\n"
+"                                        <strong>CRM</strong>\n"
+"                                </font>\n"
+"                                application allow you to collect the requests from your\n"
+"                                potential customers by aggregating several sources:"
+msgstr ""
+"ແອັບພລິເຄຊັນ <font class=\"text-o-color-1\">\n"
+"                                        <strong>CRM</strong>\n"
+"                                </font>\n"
+"                                ຊ່ວຍໃຫ້ທ່ານສາມາດເກັບກຳຄຳຮ້ອງຂໍຈາກລູກຄ້າທີ່ມີທ່າແຮງຂອງທ່ານ "
+"ໂດຍການລວບລວມເອົາຈາກຫຼາຍໆແຫຼ່ງຂໍ້ມູນ:"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"The confirmation of the quotation automatically triggers the creation of\n"
+"                                a dedicated project in the... <strong>\n"
+"                                        <font class=\"text-o-color-1\">Project</font>\n"
+"                                </strong>\n"
+"                                app! Each project is initiated with several default tasks such as:"
+msgstr ""
+"ການຢືນຢັນໃບສະເໜີລາຄາຈະກະຕຸ້ນການສ້າງໂຄງການສະເພາະໃນແອັບ <strong><font class=\"text-o-"
+"color-1\">ໂຄງການ</font></strong> ໂດຍອັດຕະໂນມັດ! ແຕ່ລະໂຄງການຈະເລີ່ມຕົ້ນດ້ວຍໜ້າວຽກເລີ່ມຕົ້ນຫຼ"
+"າຍຢ່າງ ເຊັ່ນ:"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "The customer reminders."
+msgstr "ການແຈ້ງເຕືອນລູກຄ້າ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "The financial reporting."
+msgstr "ການລາຍງານທາງການເງິນ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "The quotation in PDF format."
+msgstr "ໃບສະເໜີລາຄາໃນຮູບແບບ PDF."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "The synchronisation with the banks."
+msgstr "ການເຊື່ອມຕໍ່ກັບທະນາຄານ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "The vendor bills payment."
+msgstr "ການຈ່າຍໃບເກັບເງິນຂອງຜູ້ສະໜອງ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"This industry is tailored for gardening businesses that excel in managing gardening projects. \n"
+"                        It encompasses project conceptualization, accurate quotations, seamless project kick-off, meticulous planning, \n"
+"                        streamlined (re)supply, flawless execution, effective collaboration with third parties, meticulous budget follow-up, \n"
+"                        prompt invoicing, and exceptional customer service."
+msgstr ""
+"ອຸດສາຫະກໍານີ້ຖືກອອກແບບມາສໍາລັບທຸລະກິດເຮັດສວນທີ່ມີຄວາມຊ່ຽວຊານໃນການຈັດການໂຄງການເຮັດສວນ. ມັນກວມເອົ"
+"າຕັ້ງແຕ່ການອອກແບບແນວຄວາມຄິດຂອງໂຄງການ, ການສ້າງໃບສະເໜີລາຄາທີ່ຊັດເຈນ, ການເລີ່ມຕົ້ນໂຄງການທີ່ລຽບງ່"
+"າຍ, ການວາງແຜນຢ່າງລະອຽດ, ການຕື່ມວັດສະດຸ, ການປະຕິບັດງານທີ່ສົມບູນແບບ, ການຮ່ວມມືກັບບຸກຄົນທີສາມຢ່າງມີ"
+"ປະສິດທິພາບ, ການຕິດຕາມງົບປະມານຢ່າງໃກ້ຊິດ, ການອອກໃບແຈ້ງໜີ້ທີ່ວ່ອງໄວ ແລະ ການບໍລິການລູກຄ້າທີ່ດີເລີດ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Time spent on the project."
+msgstr "ເວລາທີ່ໃຊ້ໃນໂຄງການ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Timesheets"
+msgstr "ໃບບັນທຶກເວລາ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "To WH ➡️ Products sent back to your warehouse"
+msgstr "ຫາຄັງສິນຄ້າ ➡️ ຜະລິດຕະພັນທີ່ຖືກສົ່ງກັບຄືນຫາຄັງສິນຄ້າຂອງທ່ານ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"To manage your various tasks that doesn't require a project (Mowing, pruning...), directly create a\n"
+"                                 task in the <strong>\n"
+"                                         <font class=\"text-o-color-1\">Field Service</font>\n"
+"                                 </strong>\n"
+"                                 project. Then assign it and schedule it to when it suits you in the main planning. Your employee will be able to use some\n"
+"                                 material to execute the tasks and to find all relevant info in it. Then these materials and the time spent\n"
+"                                 could be invoiced to the customer."
+msgstr ""
+"ເພື່ອຈັດການໜ້າວຽກຕ່າງໆທີ່ບໍ່ຕ້ອງໃຊ້ໂຄງການ (ການຕັດຫຍ້າ, ການຕັດແຕ່ງກິ່ງ...), ໃຫ້ສ້າງໜ້າວຽກໂດຍກົງໃນໂຄ"
+"ງການ <strong><font class=\"text-o-color-1\">ການບໍລິການນອກສະຖານທີ່</font></strong>"
+". ຈາກນັ້ນມອບໝາຍ ແລະ ກຳນົດເວລາຕາມທີ່ທ່ານຕ້ອງການໃນແຜນວຽກຫຼັກ. ພະນັກງານຂອງທ່ານຈະສາມາດໃຊ້ວັດສະ"
+"ດຸເພື່ອປະຕິບັດວຽກ ແລະ ຄົ້ນຫາຂໍ້ມູນທີ່ກ່ຽວຂ້ອງໄດ້. ຈາກນັ້ນ ວັດສະດຸເຫຼົ່ານີ້ ແລະ ເວລາທີ່ໃຊ້ໄປສາມາດນຳມາອອກໃ"
+"ບແຈ້ງໜີ້ໃຫ້ລູກຄ້າໄດ້."
+
+#. module: gardening
+#: model:product.attribute,name:gardening.product_attribute_9
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Use the <strong>\n"
+"                                        <font class=\"text-o-color-1\">Accounting</font>\n"
+"                                </strong>\n"
+"                                app to easily handle:"
+msgstr ""
+"ໃຊ້ແອັບ <strong><font class=\"text-o-color-1\">ການບັນຊີ</font></strong> ເພື່ອຈັດການສິ່"
+"ງເຫຼົ່ານີ້ໄດ້ຢ່າງງ່າຍດາຍ:"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Use the Planning in the Field Service <strong><font class=\"text-o-color-1\">​</font>\n"
+"                                </strong>\n"
+"                                app to organize the work of your employees. Define which project\n"
+"                                and when they have to work. Easily manage shift\n"
+"                                conflicts, workload, and replacements in case of leaves."
+msgstr ""
+"ໃຊ້ການວາງແຜນໃນແອັບ <strong><font class=\"text-o-color-1\">ການບໍລິການນອກສະຖານທີ່</"
+"font></strong> ເພື່ອຈັດລະບຽບການເຮັດວຽກຂອງພະນັກງານ. ກຳນົດວ່າເຂົາເຈົ້າຕ້ອງເຮັດໂຄງການໃດ ແລະ "
+"ເວລາໃດ. ຈັດການຂໍ້ຂັດແຍ່ງຂອງກະວຽກ, ປະລິມານວຽກ ແລະ ການຫາຄົນມາແທນໃນກໍລະນີລາພັກໄດ້ຢ່າງງ່າຍດາຍ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"Use the Website app to create a contact form that will redirect\n"
+"                                        all the requests to the <strong>\n"
+"                                                <font class=\"text-o-color-1\">CRM</font>\n"
+"                                        </strong>\n"
+"                                ."
+msgstr ""
+"ໃຊ້ແອັບເວັບໄຊເພື່ອສ້າງແບບຟອມຕິດຕໍ່ ເຊິ່ງຈະປ່ຽນທິດທາງທຸກຄຳຮ້ອງຂໍໄປຫາ <strong><font "
+"class=\"text-o-color-1\">CRM</font></strong>."
+
+#. module: gardening
+#: model_terms:web_tour.tour,rainbow_man_message:gardening.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "ຍິນດີຕ້ອນຮັບ! ຂໍໃຫ້ມ່ວນກັບການສຳຫຼວດ."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Work"
+msgstr "ວຽກ"
+
+#. module: gardening
+#: model:product.attribute.value,name:gardening.product_attribute_value_2
+msgid "Worm"
+msgstr "ໄສ້ເດືອນ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "Would you like to discuss your Odoo setup with us or go even further?"
+msgstr ""
+"ທ່ານຕ້ອງການປຶກສາກ່ຽວກັບການຕັ້ງຄ່າ Odoo ຂອງທ່ານກັບພວກເຮົາ ຫຼື ຕ້ອງການໄປໃຫ້ໄກກວ່ານີ້ບໍ່?"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"You can adapt your overview for each project by selecting the small "
+"\"Sliders\" icon at the top right of your screen. It will allow you to add a"
+" bunch of practical views to get the complete overview of your project, "
+"including* :"
+msgstr ""
+"ທ່ານສາມາດປັບແຕ່ງພາບລວມຂອງແຕ່ລະໂຄງການໄດ້ໂດຍການເລືອກໄອຄອນ \"Sliders\" ນ້ອຍໆຢູ່ເບື້ອງຂວາເທິງ"
+"ຂອງໜ້າຈໍ. ມັນຈະຊ່ວຍໃຫ້ທ່ານເພີ່ມມຸມມອງທີ່ເປັນປະໂຫຍດເພື່ອເບິ່ງພາບລວມຂອງໂຄງການໄດ້ຢ່າງຄົບຖ້ວນ, ລວມທັ"
+"ງ*:"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"You can add other views with specific filters and ease your construction "
+"project follow-up."
+msgstr ""
+"ທ່ານສາມາດເພີ່ມມຸມມອງອື່ນໆ ພ້ອມກັບຕົວກັ່ນຕອງສະເພາະ ເພື່ອໃຫ້ການຕິດຕາມໂຄງການກໍ່ສ້າງຂອງທ່ານງ່າຍຂຶ້ນ."
+
+#. module: gardening
+#: model:project.project,name:gardening.project_project_3
+msgid "[Template] Garden Renewal"
+msgstr "[ແມ່ແບບ] ການປັບປຸງສວນ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "info@my-gardening-business.com"
+msgstr "info@my-gardening-business.com"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"to the <strong>\n"
+"                                                <font class=\"text-o-color-1\">CRM</font>\n"
+"                                        </strong>\n"
+"                                ."
+msgstr "ໄປຫາ <strong><font class=\"text-o-color-1\">CRM</font></strong>."
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                         Field Service"
+msgstr "🎓 ການບໍລິການນອກສະຖານທີ່"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Accounting"
+msgstr "🎓 ການບັນຊີ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Activities"
+msgstr "🎓 ກິດຈະກຳ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Inventory"
+msgstr "🎓 ຄັງສິນຄ້າ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Invoicing"
+msgstr "🎓 ການອອກໃບແຈ້ງໜີ້"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Maintenance"
+msgstr "🎓 ການບຳລຸງຮັກສາ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Project"
+msgstr "🎓 ໂໂຄງການ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Purchase"
+msgstr "🎓 ການຈັດຊື້"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Sales"
+msgstr "🎓 ການຂາຍ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Timesheets"
+msgstr "🎓 ໃບບັນທຶກເວລາ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                        Website"
+msgstr "🎓 ເວັບໄຊ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid ""
+"🎓\n"
+"                                CRM"
+msgstr "🎓 CRM"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "🎓 Employees"
+msgstr "🎓 ພະນັກງານ"
+
+#. module: gardening
+#: model_terms:ir.ui.view,arch_db:gardening.welcome_article_body
+msgid "🎓 Subscriptions"
+msgstr "🎓 ການສະໝັກສະມາຊິກ"
