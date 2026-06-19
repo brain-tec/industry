@@ -1,6 +1,6 @@
 {
     'name': 'Talent Acquisition',
-    'version': '1.4',
+    'version': '1.5',
     'category': 'Services',
     'depends': [
         'account',
@@ -52,6 +52,7 @@
     ],
     'demo': [
         'demo/res_users.xml',
+        'demo/res_company.xml',
         'demo/res_partner.xml',
         'demo/calendar_event.xml',
         'demo/crm_tag.xml',
