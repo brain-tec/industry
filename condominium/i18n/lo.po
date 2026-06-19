@@ -1,0 +1,2218 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * condominium
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-17 18:47+0000\n"
+"PO-Revision-Date: 2026-05-23 18:51+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/condominium/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+".\n"
+"            As soon as a bill is booked, you can use the button \"Distribute Cost\" to automatically reflect the cost per property according to the distribution key."
+msgstr ""
+".\n"
+"            ທັນທີທີ່ໃບເກັບເງິນຖືກບັນທຶກ, ທ່ານສາມາດໃຊ້ປຸ່ມ \"ປັນສ່ວນຕົ້ນທຶນ\" ເພື່ອສະທ້ອນຕົ້ນທຶນຕໍ່ແຕ່ລະຊັ"
+"ບສິນໂດຍອັດຕະໂນມັດຕາມຫຼັກເກນການປັນສ່ວນ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+msgstr "<i class=\"o_editor_banner_icon mb-3 fst-normal\">💡</i>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "<span class=\"fw-bold\">Address</span>"
+msgstr "<span class=\"fw-bold\">ທີ່ຢູ່</span>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"A condominium works like a company. It gets revenues from the owners. These "
+"are collected in two bank accounts that can be directly integrated with the "
+"bank:"
+msgstr ""
+"ຄອນໂດມິນຽມເຮັດວຽກຄືກັບບໍລິສັດ. ມັນມີລາຍໄດ້ຈາກບັນດາເຈົ້າຂອງ. ເຊິ່ງຈະຖືກເກັບໄວ້ໃນສອງບັນຊີທະນາຄານທີ່ສາ"
+"ມາດເຊື່ອມຕໍ່ກັບທະນາຄານໄດ້ໂດຍກົງ:"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"A name to identify the property, for example the post box or the "
+"identification code."
+msgstr "ຊື່ເພື່ອລະບຸຊັບສິນ, ຕົວຢ່າງ: ຕູ້ໄປສະນີ ຫຼື ລະຫັດປະຈຳຕົວ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Accounting opening/handover<br/>"
+msgstr "ການເປີດບັນຊີ/ການມອບໂອນບັນຊີ<br/>"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Act analysis"
+msgstr "ການວິເຄາະນິຕິກຳ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.active_buildings
+#: model:ir.model.fields,field_description:condominium.active_properties_type
+#: model:ir.model.fields,field_description:condominium.active_ratios_field
+msgid "Active"
+msgstr "ເປີດໃຊ້ງານ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Add the corresponding product(s): \"Working Fund\", \"Reserve Fund\", "
+"\"Service Fees\", etc."
+msgstr ""
+"ເພີ່ມສິນຄ້າທີ່ກ່ຽວຂ້ອງ: \"ກອງທຶນໝູນວຽນ\", \"ກອງທຶນສຳຮອງ\", \"ຄ່າທຳນຽມບໍລິການ\", ແລະ ອື່ນໆ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Again, feel free to edit and/or create new tasks to never forget a step "
+"during the kick-off process."
+msgstr ""
+"ນອກຈາກນັ້ນ, ທ່ານສາມາດແກ້ໄຂ ແລະ/ຫຼື ສ້າງວຽກໃໝ່ໄດ້ຕາມໃຈ ເພື່ອບໍ່ໃຫ້ພາດຂັ້ນຕອນໃດໜຶ່ງໃນລະຫວ່າງຂະບວນກ"
+"ານເລີ່ມຕົ້ນ."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_714_product_template
+msgid "Air and smoke extractors"
+msgstr "ເຄື່ອງດູດອາກາດ ແລະ ຄວັນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_713_product_template
+msgid "Air conditioning and air treatment"
+msgstr "ລະບົບປັບອາກາດ ແລະ ການບຳບັດອາກາດ"
+
+#. module: condominium
+#: model:product.template,description_sale:condominium.product_product_7_product_template
+msgid ""
+"All other extra services will be invoiced at the hourly rate, See Terms & "
+"Condition for further information about the hourly rate"
+msgstr ""
+"ການບໍລິການເພີ່ມເຕີມອື່ນໆທັງໝົດຈະຖືກອອກໃບເກັບເງິນຕາມອັດຕາລາຍຊົ່ວໂມງ, ເບິ່ງຂໍ້ກຳນົດ ແລະ ເງື່ອນໄຂ ສຳລັບ"
+"ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບອັດຕາລາຍຊົ່ວໂມງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_698_product_template
+msgid "Allocations (provisions)"
+msgstr "ການປັນສ່ວນ (ເງິນສຳຮອງ)"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_696_product_template
+msgid "Amortization on intangible assets"
+msgstr "ຄ່າຕັດຈ່າຍຊັບສິນທີ່ບໍ່ມີຕົວຕົນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_697_product_template
+msgid "Amortization on tangible assets"
+msgstr "ຄ່າເສື່ອມລາຄາຊັບສິນທີ່ມີຕົວຕົນ"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_1
+msgid "Apartment"
+msgstr "ອາພາດເມັນ"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_12
+msgid "Apartment A0"
+msgstr "ອາພາດເມັນ A0"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_14
+msgid "Apartment A1"
+msgstr "ອາພາດເມັນ A1"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_15
+msgid "Apartment A2"
+msgstr "ອາພາດເມັນ A2"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_17
+msgid "Apartment B0"
+msgstr "ອາພາດເມັນ B0"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_19
+msgid "Apartment B1.1"
+msgstr "ອາພາດເມັນ B1.1"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_18
+msgid "Apartment B1.2"
+msgstr "ອາພາດເມັນ B1.2"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+msgid "Apartment..."
+msgstr "ອາພາດເມັນ..."
+
+#. module: condominium
+#: model:product.template,description_sale:condominium.product_product_15_product_template
+#: model:product.template,description_sale:condominium.product_product_3_product_template
+msgid ""
+"Approximately $80 per property per month, See Terms & Condition for further "
+"information about the coverage of the Service Fees"
+msgstr ""
+"ປະມານ $80 ຕໍ່ຊັບສິນຕໍ່ເດືອນ, ເບິ່ງຂໍ້ກຳນົດ ແລະ ເງື່ອນໄຂ ສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບຂອບເຂດຂອງຄ່າທຳນຽມກ"
+"ານບໍລິການ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_784_product_template
+msgid "Architect/engineer fees"
+msgstr "ຄ່າທຳນຽມສະຖາປະນິກ/ວິສະວະກອນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_building
+#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_for_x_ratios
+#: model_terms:ir.ui.view,arch_db:condominium.default_search_view_property_type
+msgid "Archived"
+msgstr "ຈັດເກັບແລ້ວ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_808_product_template
+msgid "Archives fees"
+msgstr "ຄ່າທຳນຽມການຈັດເກັບເອກະສານ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_area_field
+#: model:ir.model.fields,field_description:condominium.x_area_related_field
+msgid "Area"
+msgstr "ເນື້ອທີ່"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+msgid "Area as distribution key"
+msgstr "ໃຊ້ເນື້ອທີ່ເປັນຫຼັກເກນການປັນສ່ວນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Artificial Intelligence"
+msgstr "ປັນຍາປະດິດ (AI)"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"As soon as a condominium reaches out to you to get a quote, quickly send them an overview of your services and fees by creating\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Quotations</font> in the Sales application where you can directly use the \"Kick-Off Quote\" quotation template. This will automatically fill the quote by adding the kick-off fees\n"
+"            and also the price of all the extra services such as the recurring contribution, the hourly rate, etc. Don't forget to attach the terms &amp; conditions as well. Of course, the price of each service and the content of the\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Quotation Templates</font> can be adapted accordingly."
+msgstr ""
+"ທັນທີທີ່ຄອນໂດມິນຽມຕິດຕໍ່ຫາທ່ານເພື່ອຂໍໃບສະເໜີລາຄາ, ໃຫ້ສົ່ງພາບລວມຂອງການບໍລິການ ແລະ ຄ່າທຳນຽມຂອງທ່ານຢ່"
+"າງວ່ອງໄວໂດຍການສ້າງ\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">ໃບສ"
+"ະເໜີລາຄາ</font> ໃນລະບົບການຂາຍ ເຊິ່ງທ່ານສາມາດໃຊ້ແມ່ແບບ \"Kick-Off Quote\" ໄດ້ໂດຍກົງ. ສິ່ງ"
+"ນີ້ຈະຕື່ມຂໍ້ມູນໃນໃບສະເໜີລາຄາອັດຕະໂນມັດ ໂດຍການເພີ່ມຄ່າທຳນຽມເລີ່ມຕົ້ນ\n"
+"            ແລະ ລາຄາຂອງການບໍລິການເພີ່ມເຕີມທັງໝົດ ເຊັ່ນ: ເງິນສົມທົບແບບຕໍ່ເນື່ອງ, ອັດຕາລາຍຊົ່ວໂມງ "
+"ແລະ ອື່ນໆ. ຢ່າລືມຄັດຕິດຂໍ້ກຳນົດ ແລະ ເງື່ອນໄຂໄປນຳ. ແນ່ນອນວ່າ ລາຄາຂອງແຕ່ລະການບໍລິການ ແລະ ເນື້ອໃນຂ"
+"ອງ\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">ແມ່ແ"
+"ບບໃບສະເໜີລາຄາ</font> ສາມາດປັບປ່ຽນໄດ້ຕາມຄວາມເໝາະສົມ."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.meter_image
+msgid "Attachment"
+msgstr "ສິ່ງຄັດຕິດ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Audit"
+msgstr "ການກວດສອບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_712_product_template
+msgid "Auxiliary groups"
+msgstr "ກຸ່ມສຳຮອງ/ກຸ່ມຊ່ວຍ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_667_product_template
+msgid "Bank fees and debt charges"
+msgstr "ຄ່າທຳນຽມທະນາຄານ ແລະ ຄ່າທຳນຽມໜີ້ສິນ"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_5
+msgid "Basement"
+msgstr "ຊັ້ນໃຕ້ດິນ"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_16
+msgid "Basement AB"
+msgstr "ຊັ້ນໃຕ້ດິນ AB"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_753_product_template
+msgid "Basement maintenance"
+msgstr "ການບຳລຸງຮັກສາຊັ້ນໃຕ້ດິນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_710_product_template
+msgid "Bell and intercom maintenance"
+msgstr "ການບຳລຸງຮັກສາກະດິ່ງ ແລະ ອິນເຕີຄອມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_811_product_template
+msgid "Boiler maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາໝໍ້ຕົ້ມນ້ຳຮ້ອນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Book the right numbers 🧮"
+msgstr "ບັນທຶກຕົວເລກໃຫ້ຖືກຕ້ອງ 🧮"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_building_field
+#: model:ir.model.fields,field_description:condominium.x_building_related_field
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "Building"
+msgstr "ອາຄານ"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_6
+msgid "Building 1"
+msgstr "ອາຄານ 1"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_7
+msgid "Building 2"
+msgstr "ອາຄານ 2"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_condominium_account_analytic_account_count
+msgid "Building Condominium count"
+msgstr "ຈຳນວນອາຄານຄອນໂດມິນຽມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_732_product_template
+msgid "Building cleaning under contract"
+msgstr "ການອະນາໄມອາຄານຕາມສັນຍາ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_x_building_account_analytic_account_count_field
+msgid "Building count"
+msgstr "ຈຳນວນອາຄານ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.bu_act_window
+#: model:ir.actions.act_window,name:condominium.buildings_act_window
+#: model:ir.model,name:condominium.model_buildings
+#: model:ir.ui.menu,name:condominium.building_menu
+#: model:ir.ui.menu,name:condominium.conf_building_menu
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Buildings"
+msgstr "ອາຄານ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.buildings_tags_act_window
+#: model:ir.model,name:condominium.model_buildings_tags
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
+msgid "Buildings Tags"
+msgstr "ແທັກອາຄານ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Business Flows"
+msgstr "ຂະບວນການທາງທຸລະກິດ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"By the end of the period, easily generate the legal reporting such as "
+"Balance Sheet and Profit &amp; Loss for each condominium."
+msgstr ""
+"ເມື່ອສິ້ນສຸດໄລຍະເວລາ, ສາມາດສ້າງລາຍງານທາງກົດໝາຍໄດ້ຢ່າງງ່າຍດາຍ ເຊັ່ນ: ໃບສະຫຼຸບຊັບສົມບັດ ແລະ ໃບລາ"
+"ຍງານຜົນໄດ້ຮັບ (ກຳໄລ-ຂາດທຶນ) ສຳລັບແຕ່ລະຄອນໂດມິນຽມ."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_781_product_template
+msgid "Cable distribution"
+msgstr "ການຕິດຕັ້ງສາຍເຄເບິນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Call for working and reserve funds"
+msgstr "ການຮຽກເກັບເງິນກອງທຶນໝູນວຽນ ແລະ ກອງທຶນສຳຮອງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_664_product_template
+msgid "Capital losses on the realization of receivables"
+msgstr "ການຂາດທຶນຈາກການຊຳລະໜີ້ຕ້ອງຮັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_726_product_template
+msgid "Carpentry maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາວຽກຊ່າງໄມ້"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Check if everything is correct. If yes, select all the quotations and, under"
+" the \"Actions\" button, click on \"Confirm\"."
+msgstr ""
+"ກວດສອບວ່າທຸກຢ່າງຖືກຕ້ອງແລ້ວບໍ່. ຖ້າຖືກຕ້ອງແລ້ວ, ໃຫ້ເລືອກໃບສະເໜີລາຄາທັງໝົດ ແລະ ພາຍໃຕ້ປຸ່ມ \"ການດຳເ"
+"ນີນການ (Actions)\", ໃຫ້ຄລິກໃສ່ \"ຢືນຢັນ (Confirm)\"."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_752_product_template
+msgid "Chimney and ventilation duct maintenance"
+msgstr "ການບຳລຸງຮັກສາກ້ອງໄຟ ແລະ ທໍ່ລະບາຍອາກາດ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.city
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "City"
+msgstr "ເມືອງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_678_product_template
+msgid "Civil liability"
+msgstr "ຄວາມຮັບຜິດຊອບທາງແພ່ງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_735_product_template
+msgid "Cleaning equipment"
+msgstr "ອຸປະກອນເຮັດຄວາມສະອາດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_734_product_template
+msgid "Cleaning products"
+msgstr "ຜະລິດຕະພັນເຮັດຄວາມສະອາດ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Click on \"Split per Property\" button: this will cancel the current "
+"quotation and will create as many quotations as there are properties in the "
+"condominium for which the costs are shared."
+msgstr ""
+"ຄລິກໃສ່ປຸ່ມ \"ແຍກຕາມຊັບສິນ\": ສິ່ງນີ້ຈະຍົກເລີກໃບສະເໜີລາຄາປະຈຸບັນ ແລະ ຈະສ້າງໃບສະເໜີລາຄາໃໝ່ຕາມຈຳນ"
+"ວນຊັບສິນທີ່ມີຢູ່ໃນຄອນໂດມິນຽມທີ່ມີການແບ່ງປັນຕົ້ນທຶນ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Click on the \"Sales Orders\" buttons to access all the generated "
+"quotations."
+msgstr ""
+"ຄລິກໃສ່ປຸ່ມ \"ໃບສັ່ງຊື້ (Sales Orders)\" ເພື່ອເຂົ້າເຖິງໃບສະເໜີລາຄາທັງໝົດທີ່ຖືກສ້າງຂຶ້ນ."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.color_buildings_tags
+#: model:ir.model.fields,field_description:condominium.color_properties_tag
+msgid "Color"
+msgstr "ສີ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_9_product_template
+msgid "Communication of information to the notary"
+msgstr "ການແຈ້ງຂໍ້ມູນໃຫ້ກັບນາຍທະບຽນ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.company_buildings
+#: model:ir.model.fields,field_description:condominium.company_ratios_field
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_company_partner_id
+msgid "Company partner"
+msgstr "ບໍລິສັດຄູ່ຄ້າ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_788_product_template
+msgid "Compensation for members of the internal council and internal auditor"
+msgstr "ຄ່າຕອບແທນສຳລັບສະມາຊິກສະພາພາຍໃນ ແລະ ຜູ້ກວດສອບພາຍໃນ"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_actions_server_compute_ratio
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+msgid "Compute Ratios"
+msgstr "ຄິດໄລ່ອັດຕາສ່ວນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_693_product_template
+msgid "Concierge charges"
+msgstr "ຄ່າບໍລິການພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_694_product_template
+msgid "Concierge maintenance"
+msgstr "ການບຳລຸງຮັກສາພື້ນທີ່ພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.condo_act_window
+#: model:ir.model.fields,field_description:condominium.building_condominium
+#: model:ir.model.fields,field_description:condominium.x_condominium_field
+#: model:ir.ui.menu,name:condominium.condo_menu
+#: model:ir.ui.menu,name:condominium.infra_condo_menu
+msgid "Condominium"
+msgstr "ຄອນໂດມິນຽມ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.condominium_property_ids
+msgid "Condominium Properties"
+msgstr "ຊັບສິນໃນຄອນໂດມິນຽມ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Condominium creation in Odoo (see <em>Quickly Set Up a Condominium 🚀 "
+"</em>section)"
+msgstr ""
+"ການສ້າງຄອນໂດມິນຽມໃນ Odoo (ເບິ່ງພາກ <em>ຕັ້ງຄ່າຄອນໂດມິນຽມຢ່າງວ່ອງໄວ 🚀 </em>)"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_select_custom
+msgid "Condominiums"
+msgstr "ຄອນໂດມິນຽມ"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.config_menu
+msgid "Configuration"
+msgstr "ການກຳນົດຄ່າ"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_act_server_confirm_action
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Contacts"
+msgstr "ຜູ້ຕິດຕໍ່"
+
+#. module: condominium
+#: model:product.template,description_sale:condominium.product_product_4_product_template
+msgid ""
+"Contracts establishment\n"
+"    Co-ownership creation in the software\n"
+"    Act analysis\n"
+"    Insurance analysis\n"
+"    Identification forms creation\n"
+"    Audit\n"
+"    Opening/handover bank account(s) and company number\n"
+"    Meters reading\n"
+"    Call for funds and provisions\n"
+"    Organization of general meeting"
+msgstr ""
+"ການຈັດເຮັດສັນຍາ\n"
+"    ການສ້າງຂໍ້ມູນກຳມະສິດຮ່ວມໃນຊອບແວ\n"
+"    ການວິເຄາະນິຕິກຳ\n"
+"    ການວິເຄາະປະກັນໄພ\n"
+"    ການສ້າງແບບຟອມລະບຸຕົວຕົນ\n"
+"    ການກວດສອບ\n"
+"    ການເປີດ/ມອບໂອນບັນຊີທະນາຄານ ແລະ ເລກທະບຽນບໍລິສັດ\n"
+"    ການອ່ານຄ່າມີເຕີ\n"
+"    ການຮຽກເກັບເງິນກອງທຶນ ແລະ ເງິນສຳຮອງ\n"
+"    ການຈັດຕັ້ງການປະຊຸມໃຫຍ່"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Contracts establishment<br/>"
+msgstr "ການຈັດເຮັດສັນຍາ<br/>"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.country
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Country"
+msgstr "ປະເທດ"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_action_create_condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Create Condominium"
+msgstr "ສ້າງຄອນໂດມິນຽມ"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.buildings_act_window
+msgid "Create and manage the buildings that compose this condominium<br>"
+msgstr "ສ້າງ ແລະ ບໍລິຫານຈັດການອາຄານທີ່ປະກອບເປັນຄອນໂດມິນຽມນີ້<br>"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.properties_act_window
+msgid "Create and manage the properties that compose this condominium"
+msgstr "ສ້າງ ແລະ ບໍລິຫານຈັດການຊັບສິນທີ່ປະກອບເປັນຄອນໂດມິນຽມນີ້"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Create the buildings that compounds the condominium."
+msgstr "ສ້າງອາຄານທີ່ປະກອບເປັນຄອນໂດມິນຽມ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Create the properties that compounds the buildings: apartment, studio, flat,"
+" penthouse, garage, etc."
+msgstr ""
+"ສ້າງຊັບສິນທີ່ປະກອບຢູ່ໃນອາຄານ: ອາພາດເມັນ, ຫ້ອງສະຕູດີໂອ, ຫ້ອງແຖວ, ເພັນເຮົາສ໌, ໂຮງລົດ, ແລະ ອື່ນໆ."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meters_currency
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_686_product_template
+#: model:product.template,name:condominium.product_product_810_product_template
+msgid "Damages or expenses not covered by insurance"
+msgstr "ຄວາມເສຍຫາຍ ຫຼື ຄ່າໃຊ້ຈ່າຍທີ່ປະກັນໄພບໍ່ຄຸ້ມຄອງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_date
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_684_product_template
+msgid "Deductible (insurance)"
+msgstr "ຄ່າເສຍຫາຍສ່ວນທຳອິດ (ປະກັນໄພ)"
+
+#. module: condominium
+#: model:product.pricelist,name:condominium.product_pricelist_1
+msgid "Default"
+msgstr "ຄ່າເລີ່ມຕົ້ນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_670_product_template
+msgid "Deferred values"
+msgstr "ມູນຄ່າຄ້າງຈ່າຍ/ລໍຖ້າການຮັບຮູ້"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Define a recurring plan, monthly or yearly."
+msgstr "ກຳນົດແຜນການແບບຕໍ່ເນື່ອງ, ເປັນລາຍເດືອນ ຫຼື ລາຍປີ."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.description_building
+#: model:ir.model.fields,field_description:condominium.description_property_types
+#: model:ir.model.fields,field_description:condominium.description_ratios_field
+#: model:ir.model.fields,field_description:condominium.field_meters_name
+#: model:ir.model.fields,field_description:condominium.field_meters_reading_description
+msgid "Description"
+msgstr "ຄຳອະທິບາຍ"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_actions_server_distribute_costs
+#: model_terms:ir.ui.view,arch_db:condominium.account_move_custom_form_view
+msgid "Distribute Costs"
+msgstr "ປັນສ່ວນຕົ້ນທຶນ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_distribution_key_field
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_list_custom_view
+#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+msgid "Distribution Key"
+msgstr "ຫຼັກເກນການປັນສ່ວນ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.distribution_keys_act_window
+#: model:ir.ui.menu,name:condominium.infra_distribution_menu
+msgid "Distribution Keys"
+msgstr "ຫຼັກເກນການປັນສ່ວນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_799_product_template
+msgid "Document translation"
+msgstr "ການແປເອກະສານ"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.owners_docs_menu
+msgid "Documents"
+msgstr "ເອກະສານ"
+
+#. module: condominium
+#: model:helpdesk.team,name:condominium.helpdesk_team_4
+msgid "Dominican Condominium"
+msgstr "ຄອນໂດມິນຽມ ໂດມິນິກັນ"
+
+#. module: condominium
+#: model:project.task.type,name:condominium.project_task_type_18
+msgid "Done"
+msgstr "ສຳເລັດແລ້ວ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_723_product_template
+msgid "Drainage, sewers, and pumping installations maintenance"
+msgstr "ການບຳລຸງຮັກສາລະບົບລະບາຍນ້ຳ, ທໍ່ນ້ຳເສຍ ແລະ ການຕິດຕັ້ງຈັກສູບນ້ຳ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"During the general meetings, counting the votes depending on the ownership percentage could be painful. From the properties screen, select all the properties of the corresponding condominium and insert them in a spreadsheet by using the\n"
+"            said feature under the Actions menu."
+msgstr ""
+"ໃນລະຫວ່າງການປະຊຸມໃຫຍ່, ການນັບຄະແນນສຽງຕາມເປີເຊັນກຳມະສິດອາດເປັນເລື່ອງຍາກ. ຈາກໜ້າຈໍຊັບສິນ, ໃຫ້ເ"
+"ລືອກຊັບສິນທັງໝົດຂອງຄອນໂດມິນຽມທີ່ກ່ຽວຂ້ອງ ແລະ ນຳພວກມັນໄປໃສ່ໃນຕາຕະລາງ (Spreadsheet) ໂດຍການໃ"
+"ຊ້\n"
+"            ຄຸນສົມບັດດັ່ງກ່າວພາຍໃຕ້ເມນູ \"ການດຳເນີນການ (Actions)\"."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Each owner has to pay recurring fees:"
+msgstr "ເຈົ້າຂອງແຕ່ລະຄົນຕ້ອງຈ່າຍຄ່າທຳນຽມແບບຕໍ່ເນື່ອງ:"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Each property is characterized by:"
+msgstr "ຊັບສິນແຕ່ລະແຫ່ງມີລັກສະນະດັ່ງນີ້:"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Easily convert the condominiums 🖋️"
+msgstr "ປ່ຽນຮູບແບບຄອນໂດມິນຽມໄດ້ຢ່າງງ່າຍດາຍ 🖋️"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Efficiently count the votes 🙋‍♂️"
+msgstr "ນັບຄະແນນສຽງຢ່າງມີປະສິດທິພາບ 🙋‍♂️"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_707_product_template
+msgid "Electrical installations inspections"
+msgstr "ການກວດສອບການຕິດຕັ້ງໄຟຟ້າ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_708_product_template
+msgid "Electrical installations maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາການຕິດຕັ້ງໄຟຟ້າ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_711_product_template
+msgid "Electrical installations renovation"
+msgstr "ການປັບປຸງການຕິດຕັ້ງໄຟຟ້າ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_772_product_template
+msgid "Electricity for common areas"
+msgstr "ໄຟຟ້າສຳລັບສ່ວນກາງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_688_product_template
+msgid "Electricity for concierge"
+msgstr "ໄຟຟ້າສຳລັບພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_705_product_template
+msgid "Elevator adaptation work"
+msgstr "ວຽກງານການປັບປຸງລິຟ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_773_product_template
+msgid "Elevator electricity"
+msgstr "ໄຟຟ້າສຳລັບລິຟ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_701_product_template
+msgid "Elevator inspections"
+msgstr "ການກວດສອບລິຟ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_703_product_template
+msgid "Elevator maintenance and repairs not covered by contracts"
+msgstr "ການບຳລຸງຮັກສາ ແລະ ສ້ອມແປງລິຟທີ່ບໍ່ໄດ້ລະບຸໃນສັນຍາ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_702_product_template
+msgid "Elevator maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາລິຟ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_704_product_template
+msgid "Emergency elevator phone"
+msgstr "ໂທລະສັບສຸກເສີນໃນລິຟ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.employees_act_window
+#: model:ir.ui.menu,name:condominium.purchase_employee_menu
+msgid "Employees"
+msgstr "ພະນັກງານ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_660_product_template
+msgid "Employer contributions for extra-legal insurance"
+msgstr "ເງິນສົມທົບຂອງນາຍຈ້າງສຳລັບປະກັນໄພນອກເໜືອກົດໝາຍກຳນົດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_659_product_template
+msgid "Employer contributions for social insurance"
+msgstr "ເງິນສົມທົບຂອງນາຍຈ້າງສຳລັບປະກັນສັງຄົມ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Every year, a general meeting is scheduled to talk about the financial statements, to take important decisions and so on. This event can easily be scheduled in the Calendar app by creating\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Meetings</font>. To invite all the owners of a condominium, use the \"Search More\" on \"Attendees\" and type the name of the condominium in... \"Condominiums\"."
+msgstr ""
+"ໃນແຕ່ລະປີ, ຈະມີການກຳນົດການປະຊຸມໃຫຍ່ເພື່ອສົນທະນາກ່ຽວກັບລາຍງານການເງິນ, ການຕັດສິນໃຈທີ່ສຳຄັນ ແລະ ອື່"
+"ນໆ. ກິດຈະກຳນີ້ສາມາດກຳນົດເວລາໄດ້ຢ່າງງ່າຍດາຍໃນແອັບປະຕິທິນໂດຍການສ້າງ\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">ການ"
+"ປະຊຸມ</font>. ເພື່ອເຊີນເຈົ້າຂອງຄອນໂດມິນຽມທັງໝົດ, ໃຫ້ໃຊ້ \"ຄົ້ນຫາເພີ່ມເຕີມ\" ໃນສ່ວນ \"ຜູ້ເຂົ້າຮ່ວ"
+"ມ\" ແລະ ພິມຊື່ຂອງຄອນໂດມິນຽມໃນ... \"ຄອນໂດມິນຽມ\"."
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_server_set_usage_meter_reading
+msgid "Execute Code"
+msgstr "ປະຕິບັດການລະຫັດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_785_product_template
+msgid "Expert fees"
+msgstr "ຄ່າທຳນຽມຜູ້ຊ່ຽວຊານ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_674_product_template
+msgid "Extension work"
+msgstr "ວຽກງານການຕໍ່ເຕີມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_786_product_template
+msgid "External auditor fees"
+msgstr "ຄ່າທຳນຽມຜູ້ກວດສອບພາຍນອກ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_728_product_template
+msgid "External carpentry maintenance"
+msgstr "ການບຳລຸງຮັກສາວຽກຊ່າງໄມ້ພາຍນອກ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_8_product_template
+msgid "Extraordinary General Meeting"
+msgstr "ການປະຊຸມໃຫຍ່ວິສາມັນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_669_product_template
+msgid "Extraordinary work expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍວຽກງານພິເສດ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Fairly split the costs ⚖️"
+msgstr "ປັນສ່ວນຕົ້ນທຶນຢ່າງຍຸຕິທຳ ⚖️"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_749_product_template
+msgid "Façade maintenance"
+msgstr "ການບຳລຸງຮັກສາດ້ານໜ້າອາຄານ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Finally, you can also define the distribution keys per property. The goal is"
+" to assign a ratio for each property that will be used for splitting the "
+"fees per owner and for distributing the costs."
+msgstr ""
+"ສຸດທ້າຍ, ທ່ານຍັງສາມາດກຳນົດຫຼັກເກນການປັນສ່ວນຕໍ່ຊັບສິນ. ເປົ້າໝາຍແມ່ນເພື່ອມອບໝາຍອັດຕາສ່ວນໃຫ້ແກ່ແຕ່ລະຊັບສິ"
+"ນ ເຊິ່ງຈະຖືກນຳໃຊ້ໃນການແຍກຄ່າທຳນຽມຕໍ່ເຈົ້າຂອງ ແລະ ການປັນສ່ວນຕົ້ນທຶນ."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_677_product_template
+msgid "Fire insurance"
+msgstr "ປະກັນໄພອັກຄີໄພ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_10_product_template
+msgid "First Reminder"
+msgstr "ການແຈ້ງເຕືອນຄັ້ງທີ 1"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_776_product_template
+msgid "Fixed fee and gas consumption"
+msgstr "ຄ່າທຳນຽມຄົງທີ່ ແລະ ການຊົມໃຊ້ກ໊າສ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_766_product_template
+msgid "Fixed fee and water consumption"
+msgstr "ຄ່າທຳນຽມຄົງທີ່ ແລະ ການຊົມໃຊ້ນ້ຳ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_floor_field
+#: model:ir.model.fields,field_description:condominium.x_floor_related_field
+msgid "Floor"
+msgstr "ຊັ້ນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"For example, to collect the cotisations, the selected company must be the condominium and the customer must be the condominium too. If you want to invoice your services, the selected company must be yours and the customer must be the\n"
+"            condominium to be invoiced."
+msgstr ""
+"ຕົວຢ່າງ: ເພື່ອເກັບເງິນສົມທົບ, ບໍລິສັດທີ່ເລືອກຕ້ອງແມ່ນຄອນໂດມິນຽມ ແລະ ລູກຄ້າກໍຕ້ອງແມ່ນຄອນໂດມິນຽມເຊັ່ນກັ"
+"ນ. ຖ້າທ່ານຕ້ອງການອອກໃບເກັບເງິນສຳລັບການບໍລິການຂອງທ່ານ, ບໍລິສັດທີ່ເລືອກຕ້ອງແມ່ນບໍລິສັດຂອງທ່ານ ແລະ ລູກ"
+"ຄ້າຕ້ອງແມ່ນ\n"
+"            ຄອນໂດມິນຽມທີ່ຈະຖືກອອກໃບເກັບເງິນ."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_748_product_template
+msgid "Foundation maintenance"
+msgstr "ການບຳລຸງຮັກສາພື້ນຖານອາຄານ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"From the Settings, create a new company in <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Companies</font>. Once done, it will appear on the top right of all screens with the aim to quickly switch between your company and the\n"
+"            different condominiums."
+msgstr ""
+"ຈາກການຕັ້ງຄ່າ, ໃຫ້ສ້າງບໍລິສັດໃໝ່ໃນ <font class=\"text-o-color-1\" style=\"font-"
+"weight: bolder;\">ບໍລິສັດ (Companies)</font>. ເມື່ອສຳເລັດແລ້ວ, ມັນຈະປະກົດຂຶ້ນຢູ່ມຸມຂວາເທິງຂອ"
+"ງທຸກໜ້າຈໍ ເພື່ອໃຫ້ທ່ານສະຫຼັບລະຫວ່າງບໍລິສັດຂອງທ່ານ ແລະ\n"
+"            ຄອນໂດມິນຽມຕ່າງໆໄດ້ຢ່າງວ່ອງໄວ."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_780_product_template
+msgid "Fuel oil deliveries"
+msgstr "ການຈັດສົ່ງນ້ຳມັນເຊື້ອໄຟ"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_4
+msgid "Garage"
+msgstr "ໂຮງລົດ"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_13
+msgid "Garage AG"
+msgstr "ໂຮງລົດ AG"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_727_product_template
+msgid "Garage door maintenance"
+msgstr "ການບຳລຸງຮັກສາປະຕູໂຮງລົດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_743_product_template
+msgid "Garden and immediate surroundings layout"
+msgstr "ການຈັດວາງສວນ ແລະ ບໍລິເວນອ້ອມຂ້າງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_741_product_template
+msgid "Garden and immediate surroundings maintenance under contract"
+msgstr "ການບຳລຸງຮັກສາສວນ ແລະ ບໍລິເວນອ້ອມຂ້າງຕາມສັນຍາ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_690_product_template
+msgid "Gas for concierge"
+msgstr "ກ໊າສສຳລັບພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:helpdesk.team,name:condominium.helpdesk_team_1
+msgid "Green Island Property"
+msgstr "ຊັບສິນ ກຣີນໄອແລນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_754_product_template
+msgid "Hall, stairwell, and corridor maintenance work"
+msgstr "ວຽກງານບຳລຸງຮັກສາຫ້ອງໂຖງ, ຂັ້ນໄດ ແລະ ທາງຍ່າງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_774_product_template
+msgid "Heating and sanitary electricity"
+msgstr "ໄຟຟ້າສຳລັບລະບົບເຮັດຄວາມຮ້ອນ ແລະ ສຸຂາພິບານ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_691_product_template
+msgid "Heating for concierge"
+msgstr "ລະບົບເຮັດຄວາມຮ້ອນສຳລັບພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_716_product_template
+msgid "Heating installations inspections"
+msgstr "ການກວດສອບການຕິດຕັ້ງລະບົບເຮັດຄວາມຮ້ອນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_717_product_template
+msgid "Heating maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາລະບົບເຮັດຄວາມຮ້ອນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_721_product_template
+msgid "Heating pipes maintenance"
+msgstr "ການບຳລຸງຮັກສາທໍ່ເຮັດຄວາມຮ້ອນ"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.owners_help_menu
+msgid "Helpdesk"
+msgstr "ຝ່າຍຊ່ວຍເຫຼືອ (Helpdesk)"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_7_product_template
+msgid "Hourly Rate"
+msgstr "ອັດຕາລາຍຊົ່ວໂມງ"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_2
+msgid "House"
+msgstr "ເຮືອນ"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_20
+msgid "House C1"
+msgstr "ເຮືອນ C1"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_738_product_template
+msgid "Household waste / PMC / paper and glass products"
+msgstr "ຂີ້ເຫຍື້ອໃນຄົວເຮືອນ / PMC / ຜະລິດຕະພັນເຈ້ຍ ແລະ ແກ້ວ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_736_product_template
+msgid "Household waste / PMC / paper and glass under contract"
+msgstr "ການຈັດການຂີ້ເຫຍື້ອໃນຄົວເຮືອນ / PMC / ເຈ້ຍ ແລະ ແກ້ວ ຕາມສັນຍາ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"If there is no distribution keys set, the area will be used as default key."
+msgstr ""
+"ຖ້າບໍ່ມີການຕັ້ງຄ່າຫຼັກເກນການປັນສ່ວນ, ເນື້ອທີ່ຈະຖືກໃຊ້ເປັນຫຼັກເກນເລີ່ມຕົ້ນ."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.image_buildings
+msgid "Image"
+msgstr "ຮູບພາບ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In case of recurring fees, the invoices will be automatically generated by "
+"Odoo at the right date. If not, you can manually post them in mass. Then "
+"just send them using your preferred way!"
+msgstr ""
+"ໃນກໍລະນີຂອງຄ່າທຳນຽມແບບຕໍ່ເນື່ອງ, Odoo ຈະສ້າງໃບເກັບເງິນໂດຍອັດຕະໂນມັດຕາມວັນທີທີ່ກຳນົດ. ຖ້າບໍ່ດັ່ງນັ້ນ, "
+"ທ່ານສາມາດລົງລາຍການດ້ວຍຕົນເອງເປັນຈຳນວນຫຼາຍ. ຈາກນັ້ນກໍພຽງແຕ່ສົ່ງພວກມັນຜ່ານຊ່ອງທາງທີ່ທ່ານຕ້ອງການ!"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "In case of recurring fees:"
+msgstr "ໃນກໍລະນີຂອງຄ່າທຳນຽມແບບຕໍ່ເນື່ອງ:"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In the Sales application, create a quotation and set the condominium as "
+"customer."
+msgstr "ໃນແອັບພລິເຄຊັນການຂາຍ, ໃຫ້ສ້າງໃບສະເໜີລາຄາ ແລະ ຕັ້ງຄອນໂດມິນຽມເປັນລູກຄ້າ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"In their day to day, the owners and the tenants can face some issues. In order to collect and centralize them, use the <strong><font class=\"text-o-color-1\">Helpdesk</font></strong> application. Thereby, each member can send an email\n"
+"            that will be caught in the right helpdesk team. This eases the follow-up and the invoicing in case the time spent is not covered by the service fees."
+msgstr ""
+"ໃນແຕ່ລະວັນ, ເຈົ້າຂອງ ແລະ ຜູ້ເຊົ່າອາດປະສົບບັນຫາບາງຢ່າງ. ເພື່ອລວບລວມ ແລະ ຈັດການບັນຫາເຫຼົ່ານັ້ນໄວ້ບ່ອນ"
+"ດຽວ, ໃຫ້ໃຊ້ແອັບພລິເຄຊັນ <strong><font class=\"text-o-color-1\">ຝ່າຍຊ່ວຍເຫຼືອ "
+"(Helpdesk)</font></strong>. ດ້ວຍວິທີນີ້, ສະມາຊິກແຕ່ລະຄົນສາມາດສົ່ງອີເມວ\n"
+"            ເຊິ່ງຈະຖືກສົ່ງໄປຫາທີມງານຊ່ວຍເຫຼືອທີ່ຖືກຕ້ອງ. ສິ່ງນີ້ຊ່ວຍໃຫ້ການຕິດຕາມ ແລະ ການອອກໃບເກັບເ"
+"ງິນງ່າຍຂຶ້ນ ໃນກໍລະນີທີ່ເວລາທີ່ໃຊ້ໄປບໍ່ໄດ້ກວມເອົາໃນຄ່າທຳນຽມການບໍລິການ."
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.condominium_act_window
+#: model:ir.ui.menu,name:condominium.infra_menu
+msgid "Infrastructure"
+msgstr "ໂຄງລ່າງພື້ນຖານ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_681_product_template
+msgid "Insurance for members of the internal council and auditor"
+msgstr "ປະກັນໄພສຳລັບສະມາຊິກສະພາພາຍໃນ ແລະ ຜູ້ກວດສອບ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Insurances analysis"
+msgstr "ການວິເຄາະປະກັນໄພ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_729_product_template
+msgid "Internal carpentry maintenance"
+msgstr "ການບຳລຸງຮັກສາວຽກຊ່າງໄມ້ພາຍໃນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_806_product_template
+msgid "Internet information communication"
+msgstr "ການສື່ສານຂໍ້ມູນຜ່ານອິນເຕີເນັດ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_is_a_property
+msgid "Is a property"
+msgstr "ແມ່ນຊັບສິນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_4_product_template
+msgid "Kick-Off Fees"
+msgstr "ຄ່າທຳນຽມເລີ່ມຕົ້ນ"
+
+#. module: condominium
+#: model:project.project,name:condominium.project_project_4
+msgid "Kick-Off Template"
+msgstr "ແມ່ແບບການເລີ່ມຕົ້ນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Kick-off meeting"
+msgstr "ການປະຊຸມເລີ່ມຕົ້ນ (Kick-off meeting)"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_763_product_template
+msgid "Laundry charges"
+msgstr "ຄ່າບໍລິການຊັກລີດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_783_product_template
+msgid "Lawyer fees"
+msgstr "ຄ່າທຳນຽມທະນາຍຄວາມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_683_product_template
+msgid "Legal assistance"
+msgstr "ການຊ່ວຍເຫຼືອທາງກົດໝາຍ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_800_product_template
+msgid "Legal fees for recovering co-owners' arrears"
+msgstr "ຄ່າທຳນຽມທາງກົດໝາຍໃນການຕິດຕາມໜີ້ຄ້າງຊຳລະຂອງເຈົ້າຂອງຮ່ວມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_700_product_template
+msgid "Maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Make sure that the products added are recurring."
+msgstr "ກວດສອບໃຫ້ແນ່ໃຈວ່າສິນຄ້າທີ່ເພີ່ມເຂົ້ານັ້ນເປັນແບບຕໍ່ເນື່ອງ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Manage Companies"
+msgstr "ບໍລິຫານຈັດການບໍລິສັດ"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.employees_act_window
+msgid "Manage the employees working for this condominium<br>"
+msgstr "ບໍລິຫານຈັດການພະນັກງານທີ່ເຮັດວຽກໃຫ້ຄອນໂດມິນຽມນີ້<br>"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.owners_act_window
+msgid "Manage the owners of this condominium<br>"
+msgstr "ບໍລິຫານຈັດການເຈົ້າຂອງຄອນໂດມິນຽມນີ້<br>"
+
+#. module: condominium
+#: model_terms:ir.actions.act_window,help:condominium.vendors_act_window
+msgid "Manage the vendors related to this condominium<br>"
+msgstr "ບໍລິຫານຈັດການຜູ້ສະໜອງທີ່ກ່ຽວຂ້ອງກັບຄອນໂດມິນຽມນີ້<br>"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_796_product_template
+msgid "Meeting consumables"
+msgstr "ວັດສະດຸສິ້ນເປືອງສຳລັບການປະຊຸມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_795_product_template
+msgid "Meeting room usage"
+msgstr "ການໃຊ້ຫ້ອງປະຊຸມ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_meter_id
+msgid "Meter"
+msgstr "ມີເຕີ"
+
+#. module: condominium
+#: model:ir.model,name:condominium.model_meter_reading
+msgid "Meter Reading"
+msgstr "ການອ່ານຄ່າມີເຕີ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_property_meter_reading_ids
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+msgid "Meter Readings"
+msgstr "ການອ່ານຄ່າມີເຕີ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_724_product_template
+msgid "Meter readings"
+msgstr "ການອ່ານຄ່າມີເຕີ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.action_configuration_meters
+#: model:ir.model,name:condominium.model_meters
+#: model:ir.ui.menu,name:condominium.condo_meters
+msgid "Meters"
+msgstr "ມີເຕີ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Meters reading"
+msgstr "ການອ່ານຄ່າມີເຕີ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_665_product_template
+msgid "Miscellaneous expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍເບັດເຕັດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_15_product_template
+msgid "Monthly Service Fees"
+msgstr "ຄ່າທຳນຽມການບໍລິການລາຍເດືອນ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.name_buildings_tags
+#: model:ir.model.fields,field_description:condominium.name_properties_tags
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Name or reference..."
+msgstr "ຊື່ ຫຼື ລະຫັດອ້າງອີງ..."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building_tags
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
+msgid "Name..."
+msgstr "ຊື່..."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Never forget a task 📑"
+msgstr "ບໍ່ພາດທຸກໜ້າວຽກ 📑"
+
+#. module: condominium
+#: model:project.task.type,name:condominium.project_task_type_26
+msgid "New"
+msgstr "ໃໝ່"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "New condominiums should be created as companies from the settings"
+msgstr "ຄອນໂດມິນຽມໃໝ່ຄວນຖືກສ້າງເປັນບໍລິສັດຈາກການຕັ້ງຄ່າ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_682_product_template
+msgid "Non-professional trustee liability"
+msgstr "ຄວາມຮັບຜິດຊອບຂອງຜູ້ດູແລທີ່ບໍ່ແມ່ນມືອາຊີບ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.notes_buildings
+msgid "Notes"
+msgstr "ໝາຍເຫດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_5_product_template
+msgid "Offboarding"
+msgstr "ຂະບວນການສິ້ນສຸດການຮ່ວມງານ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"On the one hand, the funds requests are sent by the condominium to the "
+"owners. On the other hand, the service fees can be invoiced by \"My "
+"Condominium Management\" to the owners. Here are the steps to follow:"
+msgstr ""
+"ໃນດ້ານໜຶ່ງ, ການຮຽກເກັບເງິນກອງທຶນຈະຖືກສົ່ງໂດຍຄອນໂດມິນຽມຫາເຈົ້າຂອງ. ໃນອີກດ້ານໜຶ່ງ, ຄ່າທຳນຽມການບໍລິ"
+"ການສາມາດອອກໃບເກັບເງິນໂດຍ \"My Condominium Management\" ຫາເຈົ້າຂອງ. ນີ້ແມ່ນຂັ້ນຕອນທີ່ຕ້ອງປ"
+"ະຕິບັດ:"
+
+#. module: condominium
+#: model:sale.order.template.line,name:condominium.sale_order_template_line_7
+msgid "On-Demand Fees"
+msgstr "ຄ່າທຳນຽມຕາມຄວາມຕ້ອງການ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Once done, it is time to create the composition of the condominium by "
+"selecting the right one on the top right of the screen. Then, open the "
+"<strong><font class=\"text-o-color-1\">Condominium</font></strong> app where"
+" you can:"
+msgstr ""
+"ເມື່ອສຳເລັດແລ້ວ, ກໍເຖິງເວລາສ້າງໂຄງປະກອບຂອງຄອນໂດມິນຽມໂດຍການເລືອກບໍລິສັດທີ່ຖືກຕ້ອງຢູ່ມຸມຂວາເທິງຂອງໜ້"
+"າຈໍ. ຈາກນັ້ນ, ໃຫ້ເປີດແອັບ <strong><font class=\"text-o-color-1\">ຄອນໂດມິນຽມ</font></"
+"strong> ເຊິ່ງທ່ານສາມາດ:"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Once the quotation is confirmed, it automatically creates <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Projects</font> including several tasks to properly start the collaboration. This is based on the\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">Kick-Off Template</font> Template project:"
+msgstr ""
+"ເມື່ອໃບສະເໜີລາຄາຖືກຢືນຢັນແລ້ວ, ມັນຈະສ້າງ <font class=\"text-o-color-1\" style=\"font-"
+"weight: bolder;\">ໂຄງການ (Projects)</font> ໂດຍອັດຕະໂນມັດ ເຊິ່ງລວມມີຫຼາຍໜ້າວຽກເພື່ອເລີ່ມຕົ້"
+"ນການຮ່ວມງານຢ່າງຖືກຕ້ອງ. ສິ່ງນີ້ອີງຕາມ\n"
+"            <font class=\"text-o-color-1\" style=\"font-weight: bolder;\">ແມ່ແ"
+"ບບການເລີ່ມຕົ້ນ (Kick-Off Template)</font> ຂອງໂຄງການ:"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Once the quotation is confirmed, the condominium should be created in Odoo. "
+"Basically, a<strong> </strong>condominium is like a company that is funded "
+"by the owners and that has to pay for operating costs."
+msgstr ""
+"ເມື່ອໃບສະເໜີລາຄາຖືກຢືນຢັນແລ້ວ, ຄວນສ້າງຄອນໂດມິນຽມໃນ Odoo. ໂດຍພື້ນຖານແລ້ວ, a<strong> </"
+"strong>ຄອນໂດມິນຽມກໍຄືກັບບໍລິສັດທີ່ໄດ້ຮັບທຶນຈາກເຈົ້າຂອງ ແລະ ຕ້ອງຈ່າຍຄ່າໃຊ້ຈ່າຍໃນການດຳເນີນງານ."
+
+#. module: condominium
+#: model:sale.order.template.line,name:condominium.sale_order_template_line_4
+msgid "One-Time Fees"
+msgstr "ຄ່າທຳນຽມຈ່າຍຄັ້ງດຽວ"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.action_view_company_partner
+msgid "Open company partner form view"
+msgstr "ເປີດເບິ່ງແບບຟອມບໍລິສັດຄູ່ຄ້າ"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_7
+msgid "Other"
+msgstr "ອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_733_product_template
+msgid "Other building cleaning"
+msgstr "ການອະນາໄມອາຄານອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_731_product_template
+msgid "Other carpentry work"
+msgstr "ວຽກຊ່າງໄມ້ອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_695_product_template
+msgid "Other concierge expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍອື່ນໆຂອງພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_790_product_template
+msgid "Other condominium council expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍອື່ນໆຂອງສະພາຄອນໂດມິນຽມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_709_product_template
+msgid "Other electrical installations maintenance"
+msgstr "ການບຳລຸງຮັກສາການຕິດຕັ້ງໄຟຟ້າອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_775_product_template
+msgid "Other electricity expenses"
+msgstr "ຄ່າໄຟຟ້າອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_706_product_template
+msgid "Other elevator charges"
+msgstr "ຄ່າທຳນຽມລິຟອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_787_product_template
+msgid "Other fees"
+msgstr "ຄ່າທຳນຽມອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_742_product_template
+msgid "Other garden and immediate surroundings maintenance"
+msgstr "ການບຳລຸງຮັກສາສວນ ແລະ ບໍລິເວນອ້ອມຂ້າງອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_777_product_template
+msgid "Other gas expenses"
+msgstr "ຄ່າກ໊າສອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_718_product_template
+msgid "Other heating maintenance"
+msgstr "ການບຳລຸງຮັກສາລະບົບເຮັດຄວາມຮ້ອນອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_737_product_template
+msgid "Other household waste / PMC / paper and glass"
+msgstr "ຂີ້ເຫຍື້ອໃນຄົວເຮືອນອື່ນໆ / PMC / ເຈ້ຍ ແລະ ແກ້ວ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_685_product_template
+msgid "Other insurance"
+msgstr "ປະກັນໄພອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_801_product_template
+msgid "Other legal fees"
+msgstr "ຄ່າທຳນຽມທາງກົດໝາຍອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_809_product_template
+msgid "Other management fees"
+msgstr "ຄ່າທຳນຽມການບໍລິຫານອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_797_product_template
+msgid "Other meeting expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍອື່ນໆໃນການປະຊຸມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_745_product_template
+msgid "Other parking, paths, and surroundings maintenance"
+msgstr "ການບຳລຸງຮັກສາບ່ອນຈອດລົດ, ທາງຍ່າງ ແລະ ບໍລິເວນອ້ອມຂ້າງອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_661_product_template
+msgid "Other personnel expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍບຸກຄະລາກອນອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_805_product_template
+msgid "Other property transfer fees"
+msgstr "ຄ່າທຳນຽມການໂອນຊັບສິນອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_725_product_template
+msgid "Other sanitary and heating maintenance"
+msgstr "ການບຳລຸງຮັກສາລະບົບສຸຂາພິບານ ແລະ ລະບົບເຮັດຄວາມຮ້ອນອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_676_product_template
+msgid "Other supplies"
+msgstr "ວັດສະດຸອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_769_product_template
+msgid "Other supplies for water softener"
+msgstr "ວັດສະດຸອື່ນໆສຳລັບເຄື່ອງເຮັດນ້ຳອ່ອນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_761_product_template
+msgid "Other swimming pool expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍສະລອຍນ້ຳອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_757_product_template
+msgid "Other swimming pool/technical installations maintenance"
+msgstr "ການບຳລຸງຮັກສາສະລອຍນ້ຳ/ການຕິດຕັ້ງທາງເຕັກນິກອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_794_product_template
+msgid "Other trustee expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍອື່ນໆຂອງຜູ້ດູແລ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_740_product_template
+msgid "Other waste cleaning and treatment"
+msgstr "ການອະນາໄມ ແລະ ບຳບັດຂີ້ເຫຍື້ອອື່ນໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_771_product_template
+msgid "Other water expenses"
+msgstr "ຄ່ານ້ຳອື່ນໆ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_owner_field
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "Owner"
+msgstr "ເຈົ້າຂອງ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.owners_act_window
+#: model:ir.ui.menu,name:condominium.owners_menu
+#: model:ir.ui.menu,name:condominium.owners_owners_menu
+msgid "Owners"
+msgstr "ເຈົ້າຂອງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_parent_field
+msgid "Parent"
+msgstr "ຊັບສິນຫຼັກ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_parent_account_analytic_account_count
+msgid "Parent count"
+msgstr "ຈຳນວນຊັບສິນຫຼັກ"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_6
+msgid "Parking"
+msgstr "ບ່ອນຈອດລົດ"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_21
+msgid "Parking CP"
+msgstr "ບ່ອນຈອດລົດ CP"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_744_product_template
+msgid "Parking, paths, and surroundings maintenance under contract"
+msgstr "ການບຳລຸງຮັກສາບ່ອນຈອດລົດ, ທາງຍ່າງ ແລະ ບໍລິເວນອ້ອມຂ້າງຕາມສັນຍາ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_746_product_template
+msgid "Parking, paths, and surroundings renovation works"
+msgstr "ວຽກງານປັບປຸງບ່ອນຈອດລົດ, ທາງຍ່າງ ແລະ ບໍລິເວນອ້ອມຂ້າງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.partner_company_ids
+msgid "Partner's Companies"
+msgstr "ບໍລິສັດຂອງຄູ່ຄ້າ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meters_price
+msgid "Price"
+msgstr "ລາຄາ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_pricelist_field
+msgid "Pricelist"
+msgstr "ລາຍການລາຄາ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_666_product_template
+msgid "Private expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍສ່ວນຕົວ"
+
+#. module: condominium
+#: model:account.analytic.plan,name:condominium.account_analytic_plan_2
+#: model:ir.actions.act_window,name:condominium.properties_act_window
+#: model:ir.actions.act_window,name:condominium.properties_act_window_view
+#: model:ir.actions.act_window,name:condominium.properties_parent_act_window
+#: model:ir.actions.act_window,name:condominium.props_build_act_window
+#: model:ir.model.fields,field_description:condominium.x_properties_ids
+#: model:ir.ui.menu,name:condominium.conf_prop_menu
+#: model:ir.ui.menu,name:condominium.infra_properties_menu
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Properties"
+msgstr "ຊັບສິນ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.properties_tags_act_window
+#: model:ir.model,name:condominium.model_properties_tags
+msgid "Properties Tags"
+msgstr "ແທັກຊັບສິນ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.property_types_act_window
+#: model:ir.model,name:condominium.model_properties_types
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_property_type
+msgid "Properties Types"
+msgstr "ປະເພດຊັບສິນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Properties creation in Odoo (see <em>Know the stakeholders 🔎</em> section)"
+msgstr "ການສ້າງຊັບສິນໃນ Odoo (ເບິ່ງພາກ <em>ຮູ້ຈັກກັບຜູ້ມີສ່ວນຮ່ວມ 🔎</em>)"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_account_analytic_account
+#: model:ir.model.fields,field_description:condominium.x_property_field
+msgid "Property"
+msgstr "ຊັບສິນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Property Owner Association"
+msgstr "ສະມາຄົມເຈົ້າຂອງຊັບສິນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_807_product_template
+msgid "Property accession fees"
+msgstr "ຄ່າທຳນຽມການເຂົ້າເຖິງຊັບສິນ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_is_a_property_plan
+msgid "Property plan"
+msgstr "ແຜນຜັງຊັບສິນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Provide the best customer service 🆘"
+msgstr "ມອບການບໍລິການລູກຄ້າທີ່ດີທີ່ສຸດ 🆘"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.purchase_menu
+msgid "Purchase"
+msgstr "ການຈັດຊື້"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_quantity
+msgid "Quantity"
+msgstr "ຈຳນວນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Quickly set up a condominium 🚀"
+msgstr "ຕັ້ງຄ່າຄອນໂດມິນຽມຢ່າງວ່ອງໄວ 🚀"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_730_product_template
+msgid "Railings and terrace separation partitions"
+msgstr "ຮາວຮົ້ວ ແລະ ສາກກັ້ນແຍກລະບຽງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_ratio_field
+msgid "Ratio"
+msgstr "ອັດຕາສ່ວນ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.ratios_act_window
+#: model:ir.model,name:condominium.ratios_model
+#: model:ir.model.fields,field_description:condominium.x_ratios_field
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_for_x_ratios
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+msgid "Ratios"
+msgstr "ອັດຕາສ່ວນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_764_product_template
+msgid "Recreational charges (playgrounds, tennis, fitness, billiards, etc.)"
+msgstr ""
+"ຄ່າທຳນຽມສິ່ງອຳນວຍຄວາມສະດວກ (ເດີ່ນເດັກຫຼິ້ນ, ເທັນນິດ, ຟິດເນສ, ບີລ່ຽດ ແລະ ອື່ນໆ)"
+
+#. module: condominium
+#: model:sale.order.template.line,name:condominium.sale_order_template_line_5
+msgid "Recurring Fees"
+msgstr "ຄ່າທຳນຽມແບບຕໍ່ເນື່ອງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_672_product_template
+msgid "Renovation work"
+msgstr "ວຽກງານການປັບປຸງສ້ອມແປງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_14_product_template
+msgid "Reserve Fund"
+msgstr "ກອງທຶນສຳຮອງ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Reserve Fund: to collect all the money that will be used in case of "
+"exceptional expense."
+msgstr ""
+"ກອງທຶນສຳຮອງ: ເພື່ອເກັບລວບລວມເງິນທີ່ຈະຖືກນຳໃຊ້ໃນກໍລະນີທີ່ມີຄ່າໃຊ້ຈ່າຍພິເສດ."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_662_product_template
+msgid "Retirement and survivor pensions"
+msgstr "ເງິນບຳນານຫຼັງກະສຽນອາຍຸ ແລະ ເງິນສົງເຄາະຄອບຄົວ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_699_product_template
+msgid "Reversals (provisions)"
+msgstr "ການໂອນກັບລາຍການ (ເງິນສຳຮອງ)"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_751_product_template
+msgid "Roof maintenance"
+msgstr "ການບຳລຸງຮັກສາຫຼັງຄາ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_658_product_template
+msgid "Salaries and direct social benefits"
+msgstr "ເງິນເດືອນ ແລະ ສະຫວັດດີການສັງຄົມໂດຍກົງ"
+
+#. module: condominium
+#: model:ir.ui.menu,name:condominium.owners_sales_menu
+msgid "Sales"
+msgstr "ການຂາຍ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.sale_order_button_action
+#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+msgid "Sales Orders"
+msgstr "ໃບສັ່ງຂາຍ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Schedule the meetings 📅"
+msgstr "ກຳນົດເວລາການປະຊຸມ 📅"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_11_product_template
+msgid "Second Reminder"
+msgstr "ການແຈ້ງເຕືອນຄັ້ງທີ 2"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"See the information of the condominium and fill the vendors to build an "
+"address book."
+msgstr ""
+"ເບິ່ງຂໍ້ມູນຂອງຄອນໂດມິນຽມ ແລະ ຕື່ມຂໍ້ມູນຜູ້ສະໜອງເພື່ອສ້າງສະໝຸດລາຍຊື່ທີ່ຢູ່."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Select the right company from which the fees will be invoiced (see "
+"<em>Quickly set up a condominium 🚀</em> section to see how to switch the "
+"company)."
+msgstr ""
+"ເລືອກບໍລິສັດທີ່ຖືກຕ້ອງທີ່ຈະອອກໃບເກັບເງິນຄ່າທຳນຽມ (ເບິ່ງພາກ <em>ຕັ້ງຄ່າຄອນໂດມິນຽມຢ່າງວ່ອງໄວ 🚀</"
+"em> ເພື່ອເບິ່ງວິທີການສະຫຼັບບໍລິສັດ)."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meters_sequence
+#: model:ir.model.fields,field_description:condominium.sequence_buildings
+#: model:ir.model.fields,field_description:condominium.sequence_field
+#: model:ir.model.fields,field_description:condominium.sequence_properties_types
+msgid "Sequence"
+msgstr "ລຳດັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_3_product_template
+msgid "Service Fees"
+msgstr "ຄ່າທຳນຽມການບໍລິການ"
+
+#. module: condominium
+#: model:base.automation,name:condominium.automation_set_usage_meter_reading
+msgid "Set Usage in Meter Readings"
+msgstr "ກຳນົດການຊົມໃຊ້ໃນການອ່ານຄ່າມີເຕີ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set the recurring plan start date."
+msgstr "ກຳນົດວັນທີເລີ່ມຕົ້ນຂອງແຜນການແບບຕໍ່ເນື່ອງ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set the right (recurring) price."
+msgstr "ກຳນົດລາຄາ (ແບບຕໍ່ເນື່ອງ) ທີ່ຖືກຕ້ອງ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Set the right distribution key."
+msgstr "ກຳນົດຫຼັກເກນການປັນສ່ວນທີ່ຖືກຕ້ອງ."
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_798_product_template
+msgid "Simultaneous translation for meetings"
+msgstr "ການແປພາສາແບບສະໝໍ່າສະເໝີ (Simultaneous translation) ສຳລັບການປະຊຸມ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "Some tags to add extra visual information."
+msgstr "ບາງແທັກເພື່ອເພີ່ມຂໍ້ມູນທີ່ຊ່ວຍໃນການເບິ່ງເຫັນ."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.source_sales_order_field
+msgid "Source Sales Order"
+msgstr "ໃບສັ່ງຂາຍຕົ້ນທາງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.source_sales_order
+msgid "Source Sales Order count"
+msgstr "ຈຳນວນໃບສັ່ງຂາຍຕົ້ນທາງ"
+
+#. module: condominium
+#: model:ir.actions.server,name:condominium.ir_act_server_split_per_property
+#: model_terms:ir.ui.view,arch_db:condominium.sale_order_form_custom
+msgid "Split per Owner"
+msgstr "ແຍກຕາມເຈົ້າຂອງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.country_state
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "State"
+msgstr "ແຂວງ/ລັດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_803_product_template
+msgid "Statute modification"
+msgstr "ການແກ້ໄຂກົດລະບຽບ/ຂໍ້ບັງຄັບ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.street
+msgid "Street"
+msgstr "ຖະໜົນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Street 2..."
+msgstr "ຖະໜົນ 2..."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Street..."
+msgstr "ຖະໜົນ..."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.street2
+msgid "Street2"
+msgstr "ຖະໜົນ 2"
+
+#. module: condominium
+#: model:x_properties_types,x_name:condominium.x_properties_types_3
+msgid "Studio"
+msgstr "ຫ້ອງສະຕູດີໂອ"
+
+#. module: condominium
+#: model:account.analytic.account,name:condominium.account_analytic_account_22
+msgid "Studio CS"
+msgstr "ຫ້ອງສະຕູດີໂອ CS"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_671_product_template
+msgid "Study and supervision fees"
+msgstr "ຄ່າທຳນຽມການສຶກສາ ແລະ ການຄວບຄຸມງານ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+msgid "Sum of Area"
+msgstr "ເນື້ອທີ່ທັງໝົດ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.product_pricelist_custom_view
+msgid "Sum of Ratio"
+msgstr "ອັດຕາສ່ວນທັງໝົດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_675_product_template
+msgid "Supplies to the association"
+msgstr "ວັດສະດຸອຸປະກອນສຳລັບສະມາຄົມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_755_product_template
+msgid "Swimming pool inspections"
+msgstr "ການກວດສອບສະລອຍນ້ຳ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_756_product_template
+msgid "Swimming pool maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາສະລອຍນ້ຳ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_758_product_template
+msgid "Swimming pool product supplies"
+msgstr "ວັດສະດຸອຸປະກອນສຳລັບສະລອຍນ້ຳ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_759_product_template
+msgid "Swimming pool supervision"
+msgstr "ການຄວບຄຸມດູແລສະລອຍນ້ຳ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_760_product_template
+msgid "Swimming pool/technical installations repairs"
+msgstr "ການສ້ອມແປງສະລອຍນ້ຳ/ການຕິດຕັ້ງທາງເຕັກນິກ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_692_product_template
+msgid "TV distribution for concierge"
+msgstr "ລະບົບໂທລະພາບສຳລັບພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.tags_buildings
+#: model:ir.model.fields,field_description:condominium.x_tags_field
+#: model:ir.ui.menu,name:condominium.conf_prop_tag_menu
+#: model:ir.ui.menu,name:condominium.conf_tags_menu
+msgid "Tags"
+msgstr "ແທັກ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_778_product_template
+msgid "Tank inspections"
+msgstr "ການກວດສອບຖັງນ້ຳ/ຖັງເກັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_779_product_template
+msgid "Tank maintenance"
+msgstr "ການບຳລຸງຮັກສາຖັງນ້ຳ/ຖັງເກັບ"
+
+#. module: condominium
+#: model:project.project,label_tasks:condominium.project_project_4
+msgid "Tasks"
+msgstr "ໜ້າວຽກ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_663_product_template
+msgid "Taxes and fees"
+msgstr "ພາສີ ແລະ ຄ່າທຳນຽມ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_687_product_template
+msgid "Telephone - Internet - concierge cell phone"
+msgstr "ໂທລະສັບ - ອິນເຕີເນັດ - ໂທລະສັບມືຖືຂອງພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_tenant_field
+msgid "Tenant"
+msgstr "ຜູ້ເຊົ່າ"
+
+#. module: condominium
+#: model_terms:res.company,sign_terms:condominium.res_company_2
+#: model_terms:res.company,sign_terms:condominium.res_company_3
+#: model_terms:res.company,sign_terms_html:condominium.res_company_2
+#: model_terms:res.company,sign_terms_html:condominium.res_company_3
+msgid "Terms &amp; Conditions"
+msgstr "ຂໍ້ກຳນົດ &amp; ເງື່ອນໄຂ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_750_product_template
+msgid "Terrace maintenance"
+msgstr "ການບຳລຸງຮັກສາລະບຽງ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The area."
+msgstr "ເນື້ອທີ່."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The building to which the property belongs."
+msgstr "ອາຄານທີ່ຊັບສິນນັ້ນຂຶ້ນກັບ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The floor."
+msgstr "ຊັ້ນ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The owner of the property."
+msgstr "ເຈົ້າຂອງຊັບສິນ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The parent property, for example to indicate that a garage is linked with an"
+" apartment."
+msgstr "ຊັບສິນຫຼັກ, ຕົວຢ່າງ: ເພື່ອລະບຸວ່າໂຮງລົດເຊື່ອມຕໍ່ກັບອາພາດເມັນ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The reserve fund that is a savings account used in case of exceptional "
+"expenses such as a severe repair, an investment in equipment, etc."
+msgstr ""
+"ກອງທຶນສຳຮອງ ເຊິ່ງເປັນບັນຊີເງິນຝາກປະຢັດທີ່ໃຊ້ໃນກໍລະນີທີ່ມີຄ່າໃຊ້ຈ່າຍພິເສດ ເຊັ່ນ: ການສ້ອມແປງຄັ້ງໃຫຍ່, ການ"
+"ລົງທຶນໃນອຸປະກອນ ແລະ ອື່ນໆ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The services provided by the condominium management company."
+msgstr "ການບໍລິການທີ່ສະໜອງໃຫ້ໂດຍບໍລິສັດບໍລິຫານຈັດການຄອນໂດມິນຽມ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The tenant if relevant."
+msgstr "ຜູ້ເຊົ່າ (ຖ້າມີ)."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "The type to easily classify it."
+msgstr "ປະເພດເພື່ອໃຫ້ງ່າຍໃນການຈັດແບ່ງ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"The working fund that is used to pay the common charges such as monthly "
+"expenses (water, electricity, gas, etc.), insurances, maintenance, repairs, "
+"cleaning of common areas, etc."
+msgstr ""
+"ກອງທຶນໝູນວຽນ ເຊິ່ງໃຊ້ເພື່ອຈ່າຍຄ່າສ່ວນກາງ ເຊັ່ນ: ຄ່າໃຊ້ຈ່າຍລາຍເດືອນ (ນ້ຳ, ໄຟຟ້າ, ກ໊າສ ແລະ ອື່ນໆ), ປ"
+"ະກັນໄພ, ການບຳລຸງຮັກສາ, ການສ້ອມແປງ, ການອະນາໄມສ່ວນກາງ ແລະ ອື່ນໆ."
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"These will be used to pay the <strong><font class=\"text-o-color-1\">Vendor "
+"Bills</font></strong> that can be uploaded and automatically filled thanks "
+"to"
+msgstr ""
+"ສິ່ງເຫຼົ່ານີ້ຈະຖືກໃຊ້ເພື່ອຈ່າຍ <strong><font class=\"text-o-color-1\">ໃບເກັບເງິນຈາກຜູ້ສະໜອງ "
+"(Vendor Bills)</font></strong> ເຊິ່ງສາມາດອັບໂຫຼດ ແລະ ຕື່ມຂໍ້ມູນອັດຕະໂນມັດໄດ້ຍ້ອນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_12_product_template
+msgid "Third Reminder"
+msgstr "ການແຈ້ງເຕືອນຄັ້ງທີ 3"
+
+#. module: condominium
+#: model:product.template,description_sale:condominium.product_product_11_product_template
+msgid "This does not include the fees from the ushers"
+msgstr "ສິ່ງນີ້ບໍ່ລວມຄ່າທຳນຽມຈາກເຈົ້າໜ້າທີ່ບັງຄັບຄະດີ"
+
+#. module: condominium
+#: model:product.template,description_sale:condominium.product_product_12_product_template
+msgid "This does not include the fees from the ushers, lawyers, experts, etc."
+msgstr ""
+"ສິ່ງນີ້ບໍ່ລວມຄ່າທຳນຽມຈາກເຈົ້າໜ້າທີ່ບັງຄັບຄະດີ, ທະນາຍຄວາມ, ຜູ້ຊ່ຽວຊານ ແລະ ອື່ນໆ."
+
+#. module: condominium
+#: model:project.task.type,name:condominium.project_task_type_17
+msgid "To Do"
+msgstr "ສິ່ງທີ່ຕ້ອງເຮັດ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_673_product_template
+msgid "Transformation work"
+msgstr "ວຽກງານການດັດແປງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_789_product_template
+msgid ""
+"Travel expenses for members of the internal council and internal auditor"
+msgstr "ຄ່າໃຊ້ຈ່າຍໃນການເດີນທາງສຳລັບສະມາຊິກສະພາພາຍໃນ ແລະ ຜູ້ກວດສອບພາຍໃນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_782_product_template
+msgid "Trustee fees"
+msgstr "ຄ່າທຳນຽມຜູ້ດູແລ (Trustee fees)"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_802_product_template
+msgid "Trustee nomination publication"
+msgstr "ການປະກາດແຕ່ງຕັ້ງຜູ້ດູແລ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_791_product_template
+msgid "Trustee office and office supplies"
+msgstr "ຫ້ອງການຜູ້ດູແລ ແລະ ວັດສະດຸຫ້ອງການ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_793_product_template
+msgid "Trustee phone"
+msgstr "ໂທລະສັບຜູ້ດູແລ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_792_product_template
+msgid "Trustee stamps"
+msgstr "ກາປະທັບຜູ້ດູແລ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.x_type_field
+#: model:ir.model.fields,field_description:condominium.x_type_related_field
+#: model:ir.ui.menu,name:condominium.conf_prop_type
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "Type down your notes here..."
+msgstr "ພິມໝາຍເຫດຂອງທ່ານທີ່ນີ້..."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.field_meter_reading_usage
+msgid "Usage"
+msgstr "ການຊົມໃຊ້"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "VAT"
+msgstr "ເລກປະຈຳຕົວຜູ້ເສຍພາສີ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_765_product_template
+msgid "Various controls and monitoring"
+msgstr "ການຄວບຄຸມ ແລະ ການຕິດຕາມຕ່າງໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_668_product_template
+msgid "Various financial charges"
+msgstr "ຄ່າທຳນຽມທາງການເງິນຕ່າງໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_762_product_template
+msgid "Various maintenance contracts"
+msgstr "ສັນຍາບຳລຸງຮັກສາຕ່າງໆ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_747_product_template
+msgid "Various works"
+msgstr "ວຽກງານຕ່າງໆ"
+
+#. module: condominium
+#: model:ir.actions.act_window,name:condominium.vendors_act_window
+#: model:ir.model.fields,field_description:condominium.vendor_ids
+#: model:ir.ui.menu,name:condominium.purchase_vendor_menu
+#: model_terms:ir.ui.view,arch_db:condominium.res_partner_form_view
+msgid "Vendors"
+msgstr "ຜູ້ສະໜອງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.vendor_company_ids
+msgid "Vendors Companies"
+msgstr "ບໍລິສັດຜູ້ສະໜອງ"
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.vendor_condominium_ids
+msgid "Vendors Condominiums"
+msgstr "ຄອນໂດມິນຽມຂອງຜູ້ສະໜອງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_715_product_template
+msgid "Video surveillance"
+msgstr "ລະບົບກ້ອງວົງຈອນປິດ (CCTV)"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_680_product_template
+msgid "Volunteer insurance"
+msgstr "ປະກັນໄພສຳລັບອາສາສະໝັກ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_739_product_template
+msgid "Waste cleaning and treatment controls"
+msgstr "ການຄວບຄຸມການອະນາໄມ ແລະ ບຳບັດຂີ້ເຫຍື້ອ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_719_product_template
+msgid "Water booster maintenance"
+msgstr "ການບຳລຸງຮັກສາຈັກສູບນ້ຳເພີ່ມແຮງດັນ (Water booster)"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_767_product_template
+msgid "Water for common areas"
+msgstr "ນ້ຳສຳລັບສ່ວນກາງ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_689_product_template
+msgid "Water for concierge"
+msgstr "ນ້ຳສຳລັບພະນັກງານຕ້ອນຮັບ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_722_product_template
+msgid "Water pipes maintenance"
+msgstr "ການບຳລຸງຮັກສາທໍ່ນ້ຳ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_720_product_template
+msgid "Water softener and water treatment maintenance"
+msgstr "ການບຳລຸງຮັກສາເຄື່ອງເຮັດນ້ຳອ່ອນ ແລະ ລະບົບບຳບັດນ້ຳ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_768_product_template
+msgid "Water softener salt"
+msgstr "ເກືອສຳລັບເຄື່ອງເຮັດນ້ຳອ່ອນ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_770_product_template
+msgid "Water treatment supplies"
+msgstr "ອຸປະກອນບຳບັດນ້ຳ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Welcome to your Odoo Property Owner Association package! This guide will "
+"help you manage the condominiums efficiently, from setting up to general "
+"meetings."
+msgstr ""
+"ຍິນດີຕ້ອນຮັບເຂົ້າສູ່ຊຸດໂປຣແກຣມ Odoo ສຳລັບສະມາຄົມເຈົ້າຂອງຊັບສິນ! ຄູ່ມືນີ້ຈະຊ່ວຍໃຫ້ທ່ານບໍລິຫານຈັດການຄອນໂດ"
+"ມິນຽມໄດ້ຢ່າງມີປະສິດທິພາບ, ຕັ້ງແຕ່ການຕັ້ງຄ່າໄປຈົນເຖິງການປະຊຸມໃຫຍ່."
+
+#. module: condominium
+#: model_terms:web_tour.tour,rainbow_man_message:condominium.knowledge_tour
+msgid "Welcome! Happy exploring."
+msgstr "ຍິນດີຕ້ອນຮັບ! ຂໍໃຫ້ມ່ວນກັບການສຳຫຼວດ."
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_1
+msgid "Wing A"
+msgstr "ປີກອາຄານ A"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_4
+msgid "Wing B"
+msgstr "ປີກອາຄານ B"
+
+#. module: condominium
+#: model:x_buildings,x_name:condominium.x_buildings_5
+msgid "Wing C"
+msgstr "ປີກອາຄານ C"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_679_product_template
+msgid "Work accident insurance"
+msgstr "ປະກັນໄພອຸບັດຕິເຫດແຮງງານ"
+
+#. module: condominium
+#: model:product.template,name:condominium.product_product_13_product_template
+msgid "Working Fund"
+msgstr "ກອງທຶນໝູນວຽນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid ""
+"Working Fund: to collect all the money that will be used to pay the "
+"recurring fees."
+msgstr ""
+"ກອງທຶນໝູນວຽນ: ເພື່ອເກັບລວບລວມເງິນທີ່ຈະຖືກນຳໃຊ້ເຂົ້າໃນການຈ່າຍຄ່າທຳນຽມແບບຕໍ່ເນື່ອງ."
+
+#. module: condominium
+#: model_terms:res.company,sign_terms:condominium.res_company_2
+#: model_terms:res.company,sign_terms:condominium.res_company_3
+#: model_terms:res.company,sign_terms_html:condominium.res_company_2
+#: model_terms:res.company,sign_terms_html:condominium.res_company_3
+msgid "Your conditions..."
+msgstr "ເງື່ອນໄຂຂອງທ່ານ..."
+
+#. module: condominium
+#: model:ir.model.fields,field_description:condominium.zip
+#: model_terms:ir.ui.view,arch_db:condominium.default_form_view_building
+msgid "ZIP"
+msgstr "ລະຫັດໄປສະນີ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "e.g. Apartment"
+msgstr "ຕົວຢ່າງ: ອາພາດເມັນ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_form_view
+#: model_terms:ir.ui.view,arch_db:condominium.analytic_account_custom_kanban_view
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "e.g. Apartment A0"
+msgstr "ຕົວຢ່າງ: ອາພາດເມັນ A0"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.quick_create_account_form
+msgid "e.g. John Smith"
+msgstr "ຕົວຢ່າງ: ສົມຈິດ ບຸນມີ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Accounting"
+msgstr "🎓 ການບັນຊີ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Companies"
+msgstr "🎓 ບໍລິສັດ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Helpdesk"
+msgstr "🎓 ຝ່າຍຊ່ວຍເຫຼືອ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Quotation Template"
+msgstr "🎓 ແມ່ແບບໃບສະເໜີລາຄາ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Sales"
+msgstr "🎓 ການຂາຍ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Spreadsheet"
+msgstr "🎓 ຕາຕະລາງ"
+
+#. module: condominium
+#: model_terms:ir.ui.view,arch_db:condominium.welcome_article_body
+msgid "🎓 Subscription"
+msgstr "🎓 ການສະໝັກສະມາຊິກ"

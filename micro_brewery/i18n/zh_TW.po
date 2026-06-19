@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:05+0000\n"
-"PO-Revision-Date: 2026-04-11 18:50+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-04-24 07:52+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-18/micro_brewery/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -365,7 +365,7 @@ msgstr "橙酒"
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Apply DEP XX taxes to these consigns."
-msgstr "對這些貨物徵收 DEP XX 稅。"
+msgstr "對這些寄售貨物徵收 DEP XX 稅。"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -406,7 +406,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Beer bottle (33cl), 3000 units (+- 10hL)"
-msgstr "啤酒 - 瓶裝（330 毫升），3,000 件（+- 1 公升）"
+msgstr "啤酒 - 樽裝（330 毫升），3,000 件（+- 1 公升）"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_90_product_template
@@ -468,7 +468,7 @@ msgstr "金啤酒（500 毫升）"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_2
 msgid "Blond Beer - Bottle"
-msgstr "金啤酒 - 瓶裝"
+msgstr "金啤酒 - 樽裝"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_3
@@ -512,7 +512,7 @@ msgstr "立即預約參觀名額，舉杯慶祝難忘的啤酒廠體驗！"
 #: model:product.public.category,name:micro_brewery.product_public_category_6
 #: model:uom.uom,name:micro_brewery.uom_uom_29
 msgid "Bottle"
-msgstr "支/瓶"
+msgstr "樽裝"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -548,7 +548,7 @@ msgstr "棕色啤酒（500 毫升）"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_14
 msgid "Brown Beer - Bottle"
-msgstr "棕色啤酒 - 瓶裝"
+msgstr "棕色啤酒 - 樽裝"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_16
@@ -658,7 +658,7 @@ msgstr ""
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid "Create deposit products for each different type of consigns"
-msgstr "為每種不同類型的貨物建立訂金產品"
+msgstr "為各類寄售貨物建立訂金產品"
 
 #. module: micro_brewery
 #: model:account.tax,name:micro_brewery.account_tax_01_purchase
@@ -1055,7 +1055,7 @@ msgstr "拉格啤酒（500 毫升）"
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_13
 msgid "Lager Beer - Bottle"
-msgstr "拉格啤酒 - 瓶裝"
+msgstr "拉格啤酒 - 樽裝"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_15
@@ -1442,7 +1442,7 @@ msgid ""
 "Set a deposit product on your product to apply these taxes. This will ensure "
 "that you invoice correctly the price of consigns."
 msgstr ""
-"為產品設定「訂金產品」，以套用這些稅項。這可確保你正確開立寄售物品價格的發"
+"為產品設定「訂金產品」，以套用這些稅項。這可確保你為寄售物品開立價格正確的發"
 "票。"
 
 #. module: micro_brewery
@@ -1638,7 +1638,7 @@ msgstr "歡迎！請享受探索過程。"
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_4
 msgid "White"
-msgstr "白"
+msgstr "白色"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1759,13 +1759,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "[EMPTY 33 BIN] Regular 24x33 Bin is the empty deposit product (2.1$ value)"
-msgstr "[空載 33 箱子] 常規 24×33 箱子，是空的訂金產品（價值 $2.1）"
+msgstr "[空載 33 箱子] 常規 24×33 箱子，是空白的訂金產品（價值 $2.1）"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
 msgid ""
 "[FULL 33 BIN] Regular 24x33 Bin is the complete deposit product (4.5$ value)"
-msgstr "[滿載 33 箱子] 常規 24×33 箱子，是完成的訂金產品（價值 $4.5）"
+msgstr "[滿載 33 箱子] 常規 24×33 箱子，是完整的訂金產品（價值 $4.5）"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body

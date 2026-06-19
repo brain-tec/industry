@@ -8,13 +8,14 @@
 # Jessica Jakara, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 # Saara Hakanen <sahak@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:44+0000\n"
-"PO-Revision-Date: 2026-04-04 18:50+0000\n"
-"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
+"PO-Revision-Date: 2026-05-02 18:51+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "clothing_boutique/fi/>\n"
 "Language: fi\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: clothing_boutique
 #: model:product.template,name:clothing_boutique.product_template_51
@@ -507,7 +508,7 @@ msgstr "Kurta-setti"
 #. module: clothing_boutique
 #: model:product.attribute.value,name:clothing_boutique.product_attribute_value_9
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. module: clothing_boutique
 #: model_terms:ir.ui.view,arch_db:clothing_boutique.homepage
@@ -556,7 +557,7 @@ msgstr ""
 #. module: clothing_boutique
 #: model:product.attribute.value,name:clothing_boutique.product_attribute_value_8
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #. module: clothing_boutique
 #: model:loyalty.program,name:clothing_boutique.loyalty_program_2
