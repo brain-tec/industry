@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 19:10+0000\n"
-"PO-Revision-Date: 2026-01-17 21:50+0000\n"
+"PO-Revision-Date: 2026-05-02 21:50+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s18-2/"
 "micro_brewery/nl/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.welcome_article_body
@@ -1091,7 +1091,7 @@ msgstr "Vat"
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_12
 #: model:website.base.unit,name:micro_brewery.base_unit_litre
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_template_22
@@ -1159,7 +1159,7 @@ msgstr "Lokaal merk"
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_11
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #. module: micro_brewery
 #: model:product.template,name:micro_brewery.product_product_4_product_template
@@ -1493,7 +1493,7 @@ msgstr "Registreer het aantal graanafval aan het einde van de lautering."
 #. module: micro_brewery
 #: model:product.attribute.value,name:micro_brewery.product_attribute_value_10
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. module: micro_brewery
 #: model_terms:ir.ui.view,arch_db:micro_brewery.micro_brewery_custom_appointment_heading
