@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-17 19:15+0000\n"
-"PO-Revision-Date: 2026-01-31 21:50+0000\n"
+"PO-Revision-Date: 2026-05-02 21:50+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-s18-2/"
 "real_estate/nl/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: real_estate
 #: model_terms:ir.ui.view,arch_db:real_estate.homepage
@@ -3531,7 +3531,7 @@ msgstr "Limburg"
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_living_surface
 msgid "Livable Area"
-msgstr ""
+msgstr "Bewoonbare oppervlakte"
 
 #. module: real_estate
 #: model:product.attribute.value,name:real_estate.product_attribute_value_5
@@ -3546,7 +3546,7 @@ msgstr "Loft"
 #. module: real_estate
 #: model:ir.model.fields,field_description:real_estate.field_product_template_field_surface
 msgid "Lot Size"
-msgstr ""
+msgstr "Grondoppervlakte"
 
 #. module: real_estate
 #: model:product.template,name:real_estate.product_template_27
