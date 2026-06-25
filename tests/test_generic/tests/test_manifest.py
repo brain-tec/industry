@@ -8,10 +8,11 @@ from pathlib import Path
 from odoo.addons.test_lint.tests.test_manifests import ManifestLinter
 from odoo.modules.module import MANIFEST_NAMES, Manifest
 
-from .industry_case import CATEGORIES, IndustryCase, get_industry_path
+from .industry_case import IndustryCase, get_industry_path
 
 _logger = logging.getLogger(__name__)
 
+CATEGORIES = {'Services', 'Retail', 'Construction', 'Hospitality', 'Health and Fitness', 'Supply Chain'}
 
 MANDATORY_KEYS = {
     'author': 'Odoo S.A.',
@@ -23,6 +24,7 @@ MANDATORY_KEYS = {
 }
 
 MANDATORY_KEYS_INDUSTRIES = {
+    'application': True,
     'cloc_exclude': [],
     'demo': [],
     'images': ['images/main.png'],
@@ -64,8 +66,6 @@ class ManifestTest(ManifestLinter, IndustryCase):
                 if key == 'license' and not any(mod in manifest_data.get('depends', []) for mod in ['base_industry_data', 'knowledge', 'web_studio']):
                     expected_value = 'LGPL-3'
                 self.assertEqual(value, expected_value, f"Wrong {key} '{value}' in manifest, it should be {expected_value}")
-            if key in ['data', 'demo']:
-                self.assertTrue(all(val.startswith(f'{key}/') for val in value), f"Files must be in '{key}/' directory")
             if is_industry:
                 if key == 'category':
                     self.assertIn(value, CATEGORIES, f"Invalid category '{value}' not in {CATEGORIES}")
@@ -80,6 +80,8 @@ class ManifestTest(ManifestLinter, IndustryCase):
         self._test_files_in_manifest(manifest_data, 'data')
         if manifest_data.get('demo'):
             self._test_files_in_manifest(manifest_data, 'demo')
+        self._test_no_orphaned_files(manifest_data)
+        self._test_website_xml_order(manifest_data)
         self._validate_assets(module, manifest_data)
         self._test_cloc_exclude_files(manifest_data)
         self._test_dependencies(manifest_data)
@@ -97,30 +99,60 @@ class ManifestTest(ManifestLinter, IndustryCase):
                 file_path = self.module_path / file.replace(f"{module}/", "")
                 self.assertTrue(file_path.exists(), f"Asset file not found: {file}")
 
-    def _test_files_in_manifest(self, manifest_data, folder_name):
-        data_folder = self.module_path / folder_name
-        self.assertTrue(data_folder.exists(), f"No folder {folder_name} found")
-
-        data_files_list = [str(file.relative_to(data_folder.parent)) for file in data_folder.glob('*') if file.is_file()]
-        data_files = set(data_files_list)
-
-        manifest_files_list = manifest_data.get(folder_name, [])
+    def _test_files_in_manifest(self, manifest_data, manifest_key):
+        manifest_files_list = manifest_data.get(manifest_key, [])
         manifest_files = set(manifest_files_list)
 
         if (duplicates := {item for item in manifest_files_list if manifest_files_list.count(item) > 1}):
-            _logger.warning("Duplicated in %s in the manifest: %s", folder_name, ', '.join(duplicates))
-        if (duplicates := {item for item in data_files_list if data_files_list.count(item) > 1}):
-            _logger.warning("Duplicated in %s folder: %s", folder_name, ', '.join(duplicates))
+            _logger.warning("Duplicated in %s in the manifest: %s", manifest_key, ', '.join(duplicates))
 
-        if (not_listed := data_files - manifest_files):
-            _logger.warning("Files not listed in manifest %s: %s", folder_name, ', '.join(not_listed))
-        if (not_found := manifest_files - data_files):
-            _logger.error("Files listed in manifest %s not found: %s", folder_name, ', '.join(not_found))
+        # Check if the files listed in the manifest actually exist in the module
+        if (not_found := {file_path for file_path in manifest_files if not (self.module_path / file_path).is_file()}):
+            _logger.error("Files listed in manifest %s not found: %s", manifest_key, ', '.join(not_found))
 
-        website_xml = f"{folder_name}/website.xml"
-        if website_xml in manifest_files_list:
-            if manifest_files_list[-1] != website_xml:
-                _logger.error(f"{website_xml} must be the last entry in the '{folder_name}' list of the manifest")
+    def _test_no_orphaned_files(self, manifest_data):
+        listed_files = set()
+        for key in ['data', 'demo']:
+            listed_files.update(manifest_data.get(key, []))
+
+        actual_files = set()
+        for ext in ['*.xml', '*.csv']:
+            for file in self.module_path.rglob(ext):
+                if any(excluded in file.parts for excluded in ['static', 'tests', '__pycache__']):
+                    continue
+                actual_files.add(str(file.relative_to(self.module_path).as_posix()))
+
+        if (unlisted := actual_files - listed_files):
+            _logger.warning("Files found in module but not listed in manifest: %s", ', '.join(unlisted))
+
+    def _test_website_xml_order(self, manifest_data):
+        """Ensure website.xml is loaded last if a theme is loaded in the module."""
+        theme_loaded = False
+
+        # rglob('*website_*') finds any file containing 'website_' in its name, anywhere in the module
+        for file_path in self.module_path.rglob('*website_*'):
+            if file_path.is_file():
+                try:
+                    if 'button_choose_theme' in file_path.read_text(encoding='utf-8'):
+                        theme_loaded = True
+                        break
+                except UnicodeDecodeError:
+                    pass  # skip any binary/compiled files that might get caught in the glob
+
+        if not theme_loaded:
+            return
+
+        # Enforce website.xml is the last entry in the manifest lists where it appears
+        for manifest_key in ['data', 'demo']:
+            manifest_files_list = manifest_data.get(manifest_key, [])
+            website_xml_files = [f for f in manifest_files_list if f.endswith('website.xml')]
+
+            if website_xml_files:
+                if not manifest_files_list[-1].endswith('website.xml'):
+                    _logger.error(
+                        "A website.xml file must be the last entry in the '%s' list of the manifest because a theme is loaded.",
+                        manifest_key,
+                    )
 
     def _test_dependencies(self, manifest_data):
         dependencies = manifest_data.get('depends', [])
