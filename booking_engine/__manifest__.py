@@ -1,6 +1,6 @@
 {
     'name': 'Booking',
-    'version': '1.22',
+    'version': '1.23',
     'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
@@ -14,7 +14,6 @@
         'web_studio',
         'website_appointment',
         'website_sale_renting_planning',
-        'website_sale_stock_renting',
     ],
     'data': [
         'data/product_pricelist.xml',
