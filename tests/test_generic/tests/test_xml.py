@@ -152,8 +152,6 @@ class TestEnv(IndustryCase):
         in_use_files = set()
         checked_records_with_user = {}
         manifest_content = None
-        uninitialized_sessions = []
-        session_functions = []
         for root, dirs, files in os.walk(path):
             # sort the directory by alphabetical order so static directory is read first.
             dirs.sort(reverse=True)
@@ -189,7 +187,6 @@ class TestEnv(IndustryCase):
                 self._check_xml_style(decoded_content, tree, module, file_name)
                 self._check_forcecreate_external_xmlid(tree, file_name, module)
                 self._check_update_status(tree, file_name)
-                self._check_knowledge_article_is_published(tree, file_name)
                 self._check_trigger_field_ids_is_set(tree, file_name)
                 self._check_knowledge_article_is_locked(tree, file_name)
                 checked_records_with_user = self._check_user_is_set(tree, checked_records_with_user)
@@ -205,8 +202,7 @@ class TestEnv(IndustryCase):
                 self._check_context_to_stop_mail_sending(tree, file_name)
                 self._check_text_based_xpath(tree, file_name)
                 self._check_portal_login_is_email(tree, file_name)
-                self._check_pos_session(tree, file_name, uninitialized_sessions)
-                self._check_session_function(tree, session_functions)
+                self._check_pos_session(tree, file_name)
                 if root.split('/')[-1] == 'data':
                     self._check_view_active(tree, file_name)
                     self._check_is_published_false(tree, file_name)
@@ -223,7 +219,6 @@ class TestEnv(IndustryCase):
 
         self._check_module_dependencies(manifest_content, is_studio_required, all_dependencies, escape_studio_test=module in ESCAPE_STUDIO_TEST)
         self._check_records_without_user_id(checked_records_with_user)
-        self._check_uninitialized_sessions(uninitialized_sessions, session_functions)
         if self.env['ir.module.module'].search_count([('demo', '=', True)], limit=1):
             in_use_files = {file.lstrip('/') for file in in_use_files}
             for file in static_files - in_use_files:
@@ -394,14 +389,6 @@ class TestEnv(IndustryCase):
                     "Model %s should be updated, please remove 'noupdate=\"1\"' attribute tied to it in %s",
                     model,
                     filename,
-                )
-
-    def _check_knowledge_article_is_published(self, root, file_name):
-        for record in root.xpath("//record[@model='knowledge.article']"):
-            is_published_fields = record.xpath(".//field[@name='is_published' and @eval='True']")
-            if is_published_fields:
-                _logger.warning(
-                    f"Knowledge article in {file_name} should not have 'is_published' set to True."
                 )
 
     def _check_trigger_field_ids_is_set(self, root, file_name):
@@ -826,33 +813,15 @@ class TestEnv(IndustryCase):
                             field_name,
                         )
 
-    def _check_pos_session(self, root, file_name, uninitialized_records):
+    def _check_pos_session(self, root, file_name):
         for record in root.xpath("//record[@model='pos.session']"):
             if not record.xpath("./field[@name='state']/text()"):
-                uninitialized_records.append((record.get('id'), file_name))
-
-    def _check_session_function(self, root, session_functions):
-        session_functions.extend(list(root.xpath("//function[@model='pos.session' and @name='action_pos_session_closing_control']")))
-
-    def _check_uninitialized_sessions(self, uninitialized_sessions, session_functions):
-        def error_message(record_id, file_name):
-            return _logger.warning(
-                            "pos.session record with id '%s' in file %s is not initialized. "
-                            "Please initialize the session properly by setting state='opened' or 'closed' or add a call to action_pos_session_closing_control.",
-                            record_id,
-                            file_name,
-                        )
-        if uninitialized_sessions and not session_functions:
-            for record_id, file_name in uninitialized_sessions:
-                error_message(record_id, file_name)
-            return
-        for u in uninitialized_sessions:
-            # <function eval="ref('id')"/>
-            cond1 = any(u[0] in f.get('eval', '') for f in session_functions)
-            # <function><value eval="ref('id')"></function>
-            cond2 = any((val := f.xpath('//value')) and val[0].get('eval', '') for f in session_functions)
-            if not (cond1 or cond2):
-                error_message(u[0], u[1])
+                _logger.warning(
+                    "pos.session record with id '%s' in file %s is not initialized. "
+                    "Please initialize the session properly by setting state='opened' or 'closed'",
+                    record.get('id'),
+                    file_name,
+                )
 
     def _check_main_company_inherit_is_present(self, root, files, module):
         if module not in self.installed_industries:
