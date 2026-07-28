@@ -1,6 +1,6 @@
 {
     'name': 'Veterinary Clinic',
-    'version': '1.2',
+    'version': '1.4',
     'category': 'Health and Fitness',
     'author': 'Odoo S.A.',
     'depends': [
@@ -8,7 +8,6 @@
         'crm_enterprise',
         'documents_sign',
         'industry_fsm_sale_report',
-        'knowledge',
         'pos_online_payment',
         'sale_crm',
         'sale_planning',
