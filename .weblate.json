@@ -122,11 +122,6 @@
                 "new_base": "cleaning_services/i18n/cleaning_services.pot"
             },
             {
-                "name": "climbing_gym",
-                "filemask": "climbing_gym/i18n/*.po",
-                "new_base": "climbing_gym/i18n/climbing_gym.pot"
-            },
-            {
                 "name": "clothing_boutique",
                 "filemask": "clothing_boutique/i18n/*.po",
                 "new_base": "clothing_boutique/i18n/clothing_boutique.pot"
@@ -455,6 +450,11 @@
                 "name": "real_estate",
                 "filemask": "real_estate/i18n/*.po",
                 "new_base": "real_estate/i18n/real_estate.pot"
+            },
+            {
+                "name": "property_listing",
+                "filemask": "property_listing/i18n/*.po",
+                "new_base": "property_listing/i18n/property_listing.pot"
             },
             {
                 "name": "recurring_rental_billing",
