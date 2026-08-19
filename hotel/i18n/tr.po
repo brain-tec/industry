@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.5a1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 18:27+0000\n"
-"PO-Revision-Date: 2026-07-28 07:15+0000\n"
+"POT-Creation-Date: 2026-08-07 18:29+0000\n"
+"PO-Revision-Date: 2026-08-13 11:11+0000\n"
 "Last-Translator: Burkay Yıldızhan <seyil@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-s19-3/hotel/"
 "tr/>\n"
@@ -428,6 +428,10 @@ msgid ""
 "comfort, a stylish seating area, and peaceful mountain surroundings all "
 "crafted to elevate your stay.</span>"
 msgstr ""
+"<span class=\"text-o-color-4\">La Maria, çağdaş bir estetik ve lüks "
+"detaylarla donatılmış, güzel tasarlanmış bir dinlenme mekanıdır. "
+"Konaklamanızı daha da keyifli hale getirmek için tasarlanmış geniş konfor, "
+"şık oturma alanı ve huzurlu dağ manzarasının tadını çıkarın.</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_page_home
@@ -437,6 +441,10 @@ msgid ""
 "curated decor, premium bedding, and high-end comforts create a serene "
 "environment for true rest.</span>"
 msgstr ""
+"<span class=\"text-o-color-4\">La Nina, çağdaş zarafeti dağ yaşamının "
+"cazibesiyle birleştiren sofistike bir sığınaktır. Özenle seçilmiş dekoru, "
+"birinci sınıf yatak takımları ve lüks konforu, gerçek bir dinlenme için "
+"huzurlu bir ortam yaratır.</span>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_page_contactus
@@ -564,6 +572,10 @@ msgid ""
 "members, ensuring that maintenance\n"
 "                requests or special guest needs are shared instantly.<br/>"
 msgstr ""
+"<strong><b></b>'i Mesajlaşma: Personel üyeleri arasındaki iletişimi "
+"kolaylaştırarak, bakım\n"
+"                taleplerinin veya misafirlerin özel ihtiyaçlarının anında "
+"paylaşılmasını sağlar. </strong><br/>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -573,6 +585,10 @@ msgid ""
 "                charges, extra services, and automatically computed city "
 "taxes."
 msgstr ""
+"<strong><b>Faturalama Uygulaması</b>: </strong>Oda\n"
+"                ücretleri, ek hizmetler ve otomatik olarak hesaplanan şehir "
+"vergilerini içeren profesyonel faturalar oluşturarak faturalandırma işlemini "
+"basitleştirin."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -589,6 +605,10 @@ msgid ""
 "models, ensuring that every booking is\n"
 "                tracked and double-bookings are impossible.<br/>"
 msgstr ""
+"<strong><b>Kiralık Uygulaması</b>: </strong>Oda müsaitlik durumunu ve "
+"fiyatlandırma modellerini yöneterek, her rezervasyonun\n"
+"                takip edilmesini ve çifte rezervasyonun imkansız olmasını "
+"sağlayın.<br/>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -659,6 +679,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "<strong>Use case</strong>"
 msgstr "<strong>Kullanım durumu</strong>"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"A price at 0 combined with the setting \"Hide Add To Cart\" prevents "
+"bookings from your website!"
+msgstr ""
 
 #. module: hotel
 #: model_terms:product.template,description_ecommerce:hotel.product_template_12
@@ -1056,6 +1083,8 @@ msgid ""
 "Create a new leave the same way as previously, but this time specify the "
 "resource this applies to."
 msgstr ""
+"Daha önce olduğu gibi yeni bir izin oluşturun, ancak bu sefer bunun hangi "
+"kaynağa uygulanacağını belirtin."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1064,6 +1093,9 @@ msgid ""
 "a result, they are available from all companies and branches, as well as all "
 "websites from those."
 msgstr ""
+"Oluşturulan tekliflere herhangi bir şirket veya şube atanmaz (varsayılan "
+"davranış).<br/>Sonuç olarak, bu teklifler tüm şirketler ve şubelerden, "
+"ayrıca bunların tüm Websitelerinden erişilebilir durumdadır."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1108,6 +1140,14 @@ msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid ""
+"Don't forget to replicate the Booking Blocker rule on all your pricelists "
+"and to specify the website this applies to.<br/>On a regular basis postpone "
+"this booking blocker start date season after season to unlock your calendar."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "Don't forget to send them their invoice!"
 msgstr ""
 
@@ -1136,9 +1176,9 @@ msgid ""
 msgstr ""
 "Her bir taş çevredeki kayalıklardan oyulmuş, her bir karaçam kirişi "
 "katırlarla yamaçlardan yukarı taşınmıştı. Mimari, <b><span class=\"text-o-"
-"color-1\">Belle Époque zarafeti</span></b> ile <b><span class=\"text-o-color-"
-"1\">dağların özgünlüğünü</span></b> harmanlayarak, hem görkemli hem de son "
-"derece samimi bir atmosfer yaratıyordu."
+"color-1\">Belle Époque zarafeti</span></b> ile <b><span class=\"text-o-"
+"color-1\">dağların özgünlüğünü</span></b> harmanlayarak, hem görkemli hem de "
+"son derece samimi bir atmosfer yaratıyordu."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1198,6 +1238,8 @@ msgid ""
 "From the Roles sections, you can select the companies and branches this "
 "employee shall have access to as well as the default one."
 msgstr ""
+"\"Roller\" bölümünden, bu çalışanın erişebileceği şirketleri ve şubeleri ile "
+"varsayılan seçeneği belirleyebilirsiniz."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1253,10 +1295,10 @@ msgid ""
 msgstr ""
 "Burada doğa hüküm sürer. Sabahlar karaçam kokusu ve uzaktaki şelalelerin "
 "sesiyle başlar; akşamlar ise şehir ışıklarının ulaşmadığı yıldızlarla kaplı "
-"gökyüzü altında sona erer. Sarayın terasları, <span class=\"text-o-color-1\">"
-"<b>Mont Blanc masifi</b></span> ve <b><span class=\"text-o-color-1\">Trient "
-"Buzulu</span></b>'nun nefes kesici manzarasına açılır ve neredeyse kutsal "
-"denebilecek bir huzur hissi sunar."
+"gökyüzü altında sona erer. Sarayın terasları, <span class=\"text-o-"
+"color-1\"><b>Mont Blanc masifi</b></span> ve <b><span class=\"text-o-"
+"color-1\">Trient Buzulu</span></b>'nun nefes kesici manzarasına açılır ve "
+"neredeyse kutsal denebilecek bir huzur hissi sunar."
 
 #. module: hotel
 #: model:website.page,name:hotel.page_home
@@ -1294,6 +1336,9 @@ msgid ""
 "                    approvers can check each room and set their state to "
 "ready to close the tasks."
 msgstr ""
+"\"Housekeeping\" onaylayıcı ayarını kullanıyorsanız, atanan\n"
+"                    onaylayıcılar her odayı kontrol edebilir ve görevleri "
+"kapatmak için durumlarını \"hazır\" olarak ayarlayabilir."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1474,13 +1519,10 @@ msgstr ""
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid ""
-"Now that they relax, you can offer extra services to make your guests fill "
+"Now that they relax, you can offer extra services to make your guests feel "
 "even more\n"
 "            comfortable!"
 msgstr ""
-"Artık rahatladıklarına göre, konuklarınızı daha da memnun etmek için ekstra "
-"hizmetler\n"
-"            sunabilirsiniz!"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1489,6 +1531,9 @@ msgid ""
 "employees to access only to some of them in case they always work in some of "
 "your places."
 msgstr ""
+"Artık birkaç şirketiniz veya şubeniz olduğuna göre, bazı çalışanlarınızın "
+"her zaman belirli şubelerinizde çalıştığı durumlarda, yalnızca bunlara "
+"erişebilmelerini isteyebilirsiniz."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1539,6 +1584,10 @@ msgid ""
 "selector at the top right of your screen.<br/>This will expose depending on "
 "where you are, only the selected companies and branches data."
 msgstr ""
+"Tanımlama işlemi tamamlandıktan sonra, ekranınızın sağ üst köşesindeki "
+"şirket seçiciyi kullanarak şirketler veya şubeler arasında geçiş "
+"yapabilirsiniz.<br/>Bu işlem, bulunduğunuz yere bağlı olarak yalnızca "
+"seçilen şirketlerin ve şubelerin verilerini gösterecektir."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1617,6 +1666,11 @@ msgid ""
 "Open the Board from the accommodation app, House Keeping menu.<br/>Here you "
 "have an\n"
 "                overview of the cleanness state of your resources."
+msgstr ""
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Open the Default pricelist from the configuration menu."
 msgstr ""
 
 #. module: hotel
@@ -1724,6 +1778,16 @@ msgid ""
 "color-1\">Grand Norris Palace</span></b> enjoys one of the most breathtaking "
 "settings in the Alps.&amp;nbsp;"
 msgstr ""
+"<b><span class=\"text-o-color-1\">'in Orsières</span></b> vadisinin "
+"yükseklerinde, İsviçre'nin büyüleyici <b><span class=\"text-o-color-1\">"
+"Valais bölgesinde</span></b> yer alan <b><span class=\"text-o-color-1\">"
+"Grand Norris Palace</span></b>, Alpler'in en nefes kesici manzaralarından "
+"birine sahiptir.&amp;nbsp;"
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "Prevent bookings year in advance"
+msgstr ""
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -1760,6 +1824,13 @@ msgstr "Ekstra hizmetlerle birlikte siparişi kaydedin."
 msgid ""
 "See that for demo purpose we setup typical uplift and discount rules to "
 "adjust your prices during key periods."
+msgstr ""
+"Görüyorsunuz ki, demo amacıyla önemli dönemlerde fiyatlarınızı ayarlamak "
+"için tipik satış artırma ve indirim kuralları oluşturduk."
+
+#. module: hotel
+#: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
+msgid "See that it contains a rule booking blocker setting price to 0."
 msgstr ""
 
 #. module: hotel
@@ -1862,11 +1933,12 @@ msgid ""
 msgstr ""
 "Mülk, bir zamanlar İtalya’ya geçen çobanlar ve tüccarlar tarafından "
 "kullanılan eski dağ yollarının kesiştiği noktada yer almaktadır. Günümüzde, "
-"dünyanın gürültüsünden uzak, ancak <b><span class=\"text-o-color-1\">"
-"Verbier, Montreux veya Cenevre’den kolayca ulaşılabilen, sessiz ve ihtişamlı "
-"bir yer olmaya devam etmektedir</span></b>. Konuklar, viraj viraj saf bir "
-"harikalar manzarası ortaya çıkaran dolambaçlı bir dağ yolundan gelirler — ta "
-"ki sonunda Grand Norris Palace’ın kuleleri gökyüzüne karşı belirene kadar."
+"dünyanın gürültüsünden uzak, ancak <b><span class=\"text-o-"
+"color-1\">Verbier, Montreux veya Cenevre’den kolayca ulaşılabilen, sessiz ve "
+"ihtişamlı bir yer olmaya devam etmektedir</span></b>. Konuklar, viraj viraj "
+"saf bir harikalar manzarası ortaya çıkaran dolambaçlı bir dağ yolundan "
+"gelirler — ta ki sonunda Grand Norris Palace’ın kuleleri gökyüzüne karşı "
+"belirene kadar."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_page_home
@@ -1904,6 +1976,8 @@ msgid ""
 "They as well share the same pricing, defined at the stay offer level, which "
 "has its pros and cons."
 msgstr ""
+"Ayrıca, konaklama teklifi düzeyinde belirlenen aynı fiyatlandırmayı "
+"paylaşırlar; bunun da avantajları ve dezavantajları vardır."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -2029,6 +2103,9 @@ msgid ""
 "what is left to sell. It is your primary tool for operational safety and "
 "\"Scarcity Pricing.\""
 msgstr ""
+"Doldurulma Oranı, neyin dolu olduğuna odaklanırken, Müsaitlik görünümü ise "
+"satılabilecek ne kaldığına odaklanır. Bu, operasyonel güvenlik ve \"Kıtlık "
+"Fiyatlandırması\" için temel aracınızdır."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -2165,6 +2242,9 @@ msgid ""
 "You may want to uplift your margin during high season and be attractive "
 "during low one playing on price.<br/>To do so, let's define price rules."
 msgstr ""
+"Yoğun sezonda kâr marjınızı artırmak ve düşük sezonda fiyatlandırma "
+"stratejisiyle müşterileri çekmek isteyebilirsiniz.<br/>Bunu yapmak için "
+"fiyat kurallarını belirleyelim."
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
@@ -2384,6 +2464,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.welcome_article_body
 msgid "🧽 Managing house keeping"
 msgstr ""
+
+#~ msgid ""
+#~ "Now that they relax, you can offer extra services to make your guests "
+#~ "fill even more\n"
+#~ "            comfortable!"
+#~ msgstr ""
+#~ "Artık rahatladıklarına göre, konuklarınızı daha da memnun etmek için "
+#~ "ekstra hizmetler\n"
+#~ "            sunabilirsiniz!"
 
 #~ msgid ""
 #~ "<a class=\"btn btn-primary btn-lg o_translate_inline\" href=\"/"

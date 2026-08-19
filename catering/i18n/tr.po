@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 17:45+0000\n"
-"PO-Revision-Date: 2026-07-29 08:11+0000\n"
+"PO-Revision-Date: 2026-08-13 11:10+0000\n"
 "Last-Translator: Burkay Yıldızhan <seyil@odoo.com>\n"
 "Language-Team: Turkish <https://translate.odoo.com/projects/odoo-s19-3/"
 "catering/tr/>\n"
@@ -104,6 +104,8 @@ msgid ""
 "<b>Guaranteed Guest Count Deadline:</b> The date by which the final, non-"
 "adjustable guest count must be confirmed (often 1-2 weeks prior)."
 msgstr ""
+"<b>Garantili Konuk Sayısı Son Tarihi:</b> Değiştirilemeyen nihai konuk "
+"sayısının teyit edilmesi gereken tarih (genellikle 1-2 hafta öncesidir)."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -158,6 +160,9 @@ msgid ""
 "<font class=\"text-o-color-1\"><b>The Website App:</b></font> Use this app "
 "as a virtual showroom and a powerful tool for generating new leads."
 msgstr ""
+"<font class=\"text-o-color-1\"><b>Websitesi Uygulaması:</b></font> Bu "
+"uygulamayı sanal bir showroom ve yeni potansiyel müşteriler oluşturmak için "
+"güçlü bir araç olarak kullanın."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.homepage
@@ -339,6 +344,10 @@ msgid ""
 "service committed to delivering exceptional food and personalized service "
 "for every occasion.</span>"
 msgstr ""
+"<span class=\"h3-fs\">Yaklaşımımız kalite ve yaratıcılık üzerine "
+"odaklanmaktadır. Küçük bir mutfakta başlayan serüvenimiz, her türlü etkinlik "
+"için olağanüstü yemekler ve kişiselleştirilmiş hizmet sunmaya kendini adamış "
+"bir catering hizmetine dönüşmüştür.</span>"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -489,6 +498,9 @@ msgid ""
 "to guarantee that every shift is covered and to <b>prevent any double "
 "booking</b> across simultaneous events."
 msgstr ""
+"Vardiyaları oluşturduktan sonra, <b>bunları uygun çalışanlara atayın</b> "
+"böylece her vardiyanın doldurulduğundan emin olun ve <b>eşzamanlı "
+"etkinlikler arasında</b> çakışmaların önlenmesini sağlayın."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -627,6 +639,9 @@ msgid ""
 "registered in Odoo, creating a clear checklist and reminders for every "
 "necessary stock operation linked to the event."
 msgstr ""
+"Bu adımları izleyerek, tüm giriş ve çıkışlarınız Odoo'ya kaydedilecek ve "
+"etkinlikle bağlantılı her gerekli stok işlemi için net bir kontrol listesi "
+"ve hatırlatıcılar oluşturulacaktır."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -965,6 +980,9 @@ msgid ""
 "Menu Design,\"</b> are set to <b>\"Create Task,\"</b> which adds a "
 "corresponding task with the same name to the new project."
 msgstr ""
+"Ayrıca, teklifte listelenen belirli hizmetler, örneğin <b>\"Özel Menü "
+"Tasarımı\",</b>, <b>\"Görev Oluştur\"</b> olarak ayarlanmıştır; bu, yeni "
+"projeye aynı isimde bir görev ekler."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1021,6 +1039,9 @@ msgid ""
 "are for planning purposes, are <b>not Odoo users</b>, and <b>do not generate "
 "extra Odoo costs</b>.)"
 msgstr ""
+"Tüm <b>çalışanlarını</b> yapılandırmaya girin. (Not: Bu çalışanlar planlama "
+"amaçlıdır, <b>Odoo kullanıcısı değildir</b> ve <b>ekstra Odoo maliyeti "
+"oluşturmaz</b>.)"
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.homepage
@@ -1222,6 +1243,9 @@ msgid ""
 "package. Feel free to add new apps, delete/modify demo data, and test "
 "everything around!"
 msgstr ""
+"Elbette, bu sadece bu pakette bulunan özelliklerin genel bir özetidir. Yeni "
+"uygulamalar ekleyebilir, demo verilerini silebilir/değiştirebilir ve her "
+"şeyi test edebilirsiniz!"
 
 #. module: catering
 #: model:crm.tag,name:catering.crm_tag_26
@@ -1244,6 +1268,9 @@ msgid ""
 "Once shifts are assigned, <b>publish and send them</b> to ensure every "
 "employee receives a confirmation email detailing their schedule."
 msgstr ""
+"Vardiyalar atandıktan sonra, <b>bunları yayınlayıp</b> adresine gönderin; "
+"böylece her çalışanın kendi programını ayrıntılı olarak içeren bir onay e-"
+"postası almasını sağlayın."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1497,6 +1524,9 @@ msgid ""
 "Starting with version 19.1, you can use predefined meeting templates to "
 "automatically fill in details like location and email reminders."
 msgstr ""
+"19.1 sürümünden itibaren, önceden tanımlanmış toplantı şablonlarını "
+"kullanarak konum ve e-posta hatırlatıcıları gibi ayrıntıları otomatik olarak "
+"doldurabilirsiniz."
 
 #. module: catering
 #: model:product.template,name:catering.product_product_109_product_template
@@ -1614,6 +1644,8 @@ msgid ""
 "planning by enabling the <b>prior configuration of all necessary settings</"
 "b>."
 msgstr ""
+"Planlama uygulaması, <b>tüm gerekli ayarların <b>önceden yapılandırılmasını</"
+"b> sağlayarak proje planlamasında verimliliği artırır</b>."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1632,6 +1664,9 @@ msgid ""
 "documents</b>—to collect specific information exactly where it's needed "
 "within the template."
 msgstr ""
+"Bu, şablon içinde tam olarak ihtiyaç duyulan yerlerde belirli bilgileri "
+"toplamak için <b>metin alanları, resimler veya belgeler</b>gibi özel alanlar "
+"eklemenize olanak tanır."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1696,6 +1731,9 @@ msgid ""
 "this process. For a simple example, use the <b>Sarah Davis Sales order</b> "
 "found in the <b>Demo Data</b>."
 msgstr ""
+"<b>Teklif / Proje</b> iş akışınızı etkili bir şekilde otomatikleştirmek için "
+"bu süreci izleyin. Basit bir örnek olarak, <b>Demo Verileri</b> içinde "
+"bulunan <b>Sarah Davis Satış Siparişi</b> dosyasını kullanın."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1704,6 +1742,9 @@ msgid ""
 "delivery date</b> is automatically set to match the <b>last date of the "
 "generated project</b>."
 msgstr ""
+"Tüm görevlerde doğru tarih hesaplamasının sağlanması için, <b>Satış Siparişi "
+"teslim tarihi</b>, oluşturulan projenin <b>son tarihi</b> ile eşleşecek "
+"şekilde otomatik olarak ayarlanır."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1712,6 +1753,9 @@ msgid ""
 "can execute the following flows and configure the settings to suit your "
 "catering business."
 msgstr ""
+"Bu Odoo paketinin sunduğu süreçleri hızlı bir şekilde anlamak için aşağıdaki "
+"akışları çalıştırabilir ve ayarları catering işletmenize uygun şekilde "
+"yapılandırabilirsiniz."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1726,6 +1770,8 @@ msgid ""
 "To see the pre-existing plan and the shifts that still require scheduling, "
 "please select an additional 40 days, now that the demo data is uploaded."
 msgstr ""
+"Mevcut planı ve hâlâ planlanması gereken vardiyaları görmek için, demo "
+"verileri yüklendiğine göre lütfen ek 40 gün seçin."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1741,6 +1787,10 @@ msgid ""
 "quote creation. Additionally, the <b>Catalog</b> feature is an excellent "
 "tool for quickly adding all required products to each section of your quote."
 msgstr ""
+"Satış sürecinizi hızlandırmak için, hızlı teklif oluşturmaya yönelik <b>"
+"Teklif Şablonları</b> 'u kullanın. Ayrıca, <b>Katalog</b> özelliği, "
+"teklifinizin her bölümüne gerekli tüm ürünleri hızla eklemek için mükemmel "
+"bir araçtır."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1771,6 +1821,10 @@ msgid ""
 "by clicking on the <b>⚙️ icon</b> from the project or a task and choose "
 "<b>Edit Properties</b>."
 msgstr ""
+"<b>'ın Özellikler (</b> ) özelliğini kullanarak gerekli tüm verileri "
+"aldığınızdan emin olun. Bunun için Proje veya bir görevden \" <b>\" ⚙️ "
+"simgesine</b> tıklayın ve \" <b>\" (Özellikleri Düzenle)</b> seçeneğini "
+"seçin."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1797,6 +1851,8 @@ msgid ""
 "Use this process for food and materials that have been prepared at your "
 "workshop and need to be delivered to the event venue."
 msgstr ""
+"Atölyenizde hazırlanmış ve etkinlik mekanına teslim edilmesi gereken yiyecek "
+"ve malzemeler için bu süreci uygulayın."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1804,6 +1860,8 @@ msgid ""
 "Use this process for items that need to be delivered to your workshop for "
 "food preparation or storage."
 msgstr ""
+"Yiyecek hazırlığı veya depolama amacıyla atölyenize teslim edilmesi gereken "
+"ürünler için bu süreci kullanın."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1915,6 +1973,9 @@ msgid ""
 "order allows you to set specific <b>payment terms and conditions</b> "
 "tailored to that client or project."
 msgstr ""
+"<b>'daki Satış Siparişi'nden (</b>) müşterilere doğrudan kolayca fatura "
+"kesebilirsiniz. Her sipariş, o müşteriye veya Projeye özel <b>ödeme şart ve "
+"koşullarını</b> belirlemenize olanak tanır."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.welcome_article_body
@@ -1941,6 +2002,8 @@ msgid ""
 "You need to duplicate several times the same shift? Press Ctrl and move the "
 "shift, it will duplicate it automatically."
 msgstr ""
+"Aynı kaydırmayı birkaç kez kopyalamanız mı gerekiyor? Ctrl tuşuna basıp "
+"kaydırmayı hareket ettirin, otomatik olarak kopyalanacaktır."
 
 #. module: catering
 #: model_terms:ir.ui.view,arch_db:catering.homepage

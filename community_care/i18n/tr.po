@@ -1,19 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* community_care
+# * community_care
 #
+# Burkay Yıldızhan <seyil@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~19.3+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-31 17:51+0000\n"
-"PO-Revision-Date: 2026-07-31 17:51+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2026-08-13 11:11+0000\n"
+"Last-Translator: Burkay Yıldızhan <seyil@odoo.com>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-s19-3/"
+"community_care/tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -50,6 +54,11 @@ msgid ""
 "                handovers. This ensures that the night shift knows exactly what happened during the\n"
 "                day."
 msgstr ""
+"<b>Günlük İrtibat Kayıtları:</b> Bilgi Birikimini kullanarak anekdotları ve "
+"vardiya\n"
+"                devir teslimlerini kaydedin. Bu, gece vardiyasının gün "
+"boyunca neler olduğunu tam olarak\n"
+"                bilmesini sağlar."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -64,6 +73,9 @@ msgid ""
 "<b>Employee Records:</b> Store mandatory certifications and training records in the\n"
 "                Employees App to ensure compliance with local care regulations."
 msgstr ""
+"<b>Çalışan Kayıtları:</b> Yerel bakım yönetmeliklerine uyumu sağlamak için "
+"zorunlu sertifikaları ve eğitim kayıtlarını\n"
+"                Çalışanlar Uygulamasında saklayın."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -80,6 +92,13 @@ msgid ""
 "                    dates to recalculate the entire report instantly. This is perfect for answering\n"
 "                    retro-active funding disputes or state audits from 6 months ago."
 msgstr ""
+"<b>Etkileşimli Denetim Modu:</b>                    Gösterge Paneli'nin "
+"arkasındaki temel elektronik tabloya erişerek \"Otomatik\" moddan \"Manuel\" "
+"moda geçin. Herhangi bir geçmiş\n"
+"                    tarihi girerek raporun tamamını anında yeniden "
+"hesaplayın. Bu özellik,\n"
+"                    6 ay öncesine ait geriye dönük finansman "
+"anlaşmazlıklarını veya eyalet denetimlerini yanıtlamak için mükemmeldir."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -88,6 +107,11 @@ msgid ""
 "                residents based on their actual overnight stays, simplifying front-desk collections\n"
 "                and cash management."
 msgstr ""
+"<b>Faturalama Uygulaması:</b> Konukların gerçek geceleme sürelerine göre "
+"makbuzlar veya aylık faturalar oluşturun ve doğrudan\n"
+"                konuklara gönderin; böylece resepsiyondaki tahsilat "
+"işlemlerini\n"
+"                ve nakit yönetimini basitleştirin."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -103,6 +127,11 @@ msgid ""
 "                        alerts. This visual cue is the fastest way to prevent errors during meal\n"
 "                        times or activities."
 msgstr ""
+"<b>Renk Etiketlerinden Yararlanın:</b> Alerji ve İlaç\n"
+"                        uyarıları için parlak renkler kullanın. Bu görsel "
+"ipucu, yemek\n"
+"                        zamanlarında veya etkinlikler sırasında hataları "
+"önlemenin en hızlı yoludur."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -123,6 +152,9 @@ msgid ""
 "<b>Mentorship Planning:</b> Document long-term \"Life Paths\" and collaborative goals\n"
 "                between mentors and residents, tracking progress through the Project App."
 msgstr ""
+"<b>Mentorluk Planlaması:</b> Uzun vadeli \"Yaşam Yolları\"nı ve mentorlarla "
+"asistanlar arasındaki ortak hedefleri belgelemek\n"
+"                ve Proje App aracılığıyla ilerlemeyi takip etmek."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -131,6 +163,11 @@ msgid ""
 "                stays for the previous month. The built-in mathematical engine handles ongoing stays\n"
 "                (empty departure dates) flawlessly, eliminating manual night-by-night counting."
 msgstr ""
+"<b>Aylık konaklamalar:</b> Bir önceki aya ait konaklamaların\n"
+"                ad listelerini otomatik olarak oluşturur. Yerleşik matematik "
+"motoru, devam eden konaklamaları\n"
+"                (boş çıkış tarihleri) kusursuz bir şekilde işler ve her gece "
+"için manuel sayım ihtiyacını ortadan kaldırır."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -196,6 +233,11 @@ msgid ""
 "                        permissions to ensure that sensitive legal data is only accessible to\n"
 "                        authorized \"Need to Know\" staff."
 msgstr ""
+"<b>Klasörlerinizi Güvenli Hale Getirin:</b> Hassas hukuki verilere yalnızca\n"
+"                        yetkili \"Bilmesi Gereken\" personelin "
+"erişebilmesini sağlamak için\n"
+"                        Belgeler Uygulaması klasörünün izinlerini düzenli "
+"olarak denetleyin."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -233,6 +275,12 @@ msgid ""
 "                distinct income account in your chart of accounts, completely isolating\n"
 "                micro-revenues from state subsidies, public grants, and philanthropic funds."
 msgstr ""
+"<b>Sübvansiyon ayrımı:</b> Yerleşik katılımcılardan elde edilen tüm "
+"gelirleri,\n"
+"                hesap planınızdaki ayrı bir gelir hesabına yönlendirin; "
+"böylece\n"
+"                mikro gelirleri devlet sübvansiyonlarından, kamu "
+"hibelerinden ve hayırseverlik fonlarından tamamen ayırın."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -241,6 +289,11 @@ msgid ""
 "                contribution product by default, ensuring full compliance with non-profit legal\n"
 "                frameworks without contaminating commercial sales tax workflows."
 msgstr ""
+"<b>Vergiden muaf yapılandırma:</b> Bağış ürününüze varsayılan olarak 0% "
+"tvergi veya \"Muaf\" statüsü uygulayarak,\n"
+"                ticari satış vergisi iş akışlarını etkilemeden kar amacı "
+"gütmeyen kuruluşlara ilişkin yasal\n"
+"                çerçevelere tam uyum sağlayın."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -269,6 +322,10 @@ msgid ""
 "<b>Timesheets:</b> Staff can log hours against specific care activities, providing\n"
 "                management with clear data on administrative vs. direct-care time."
 msgstr ""
+"<b>Çalışma Çizelgeleri:</b> Personel, belirli bakım faaliyetlerine ilişkin "
+"çalışma saatlerini kaydedebilir ve böylece\n"
+"                yönetime idari zaman ile doğrudan bakım zamanı hakkında net "
+"veriler sunar."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -277,6 +334,10 @@ msgid ""
 "                        status to get an instant bird's-eye view of your facility's demographic and\n"
 "                        legal landscape."
 msgstr ""
+"<b>Kanban Gruplamasını kullanın:</b> Residents App'inizi yaşa veya yasal\n"
+"                        duruma göre gruplandırarak, tesisinizin demografik "
+"ve\n"
+"                        yasal yapısına anında genel bir bakış elde edin."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.view_family_unit_form
@@ -603,6 +664,11 @@ msgid ""
 "                26-59, 60+) calculated against the beginning of the observed period, protecting\n"
 "                historical accuracy for funding tied to minors or young adults."
 msgstr ""
+"Gözlemlenen dönemin başlangıcına göre hesaplanan yasal bakım yaş gruplarını "
+"(0-3, 4-11, 12-17, 18-25,\n"
+"                26-59, 60+) kullanan demografik piramit,\n"
+"                reşit olmayanlar veya genç yetişkinlere bağlı fonlamada "
+"tarihsel doğruluğu korur."
 
 #. module: community_care
 #: model:ir.model.fields,field_description:community_care.field_stay_departure_reason
@@ -1035,6 +1101,11 @@ msgid ""
 "            apps, care homes can maximize operational efficiency, improve resident outcomes, and\n"
 "            maintain regulatory compliance."
 msgstr ""
+"Odoo, kuruluşunuzla birlikte büyüyen ölçeklenebilir çözümler sunar. Bu\n"
+"            uygulamaları entegre ederek, bakım evleri operasyonel "
+"verimliliği en üst düzeye çıkarabilir, sakinlerin sonuçlarını "
+"iyileştirebilir ve\n"
+"            yasal düzenlemelere uyumu sağlayabilir."
 
 #. module: community_care
 #: model:base.automation,name:community_care.automation_on_edit_shortcut_inputs
@@ -1164,6 +1235,11 @@ msgid ""
 "            allows staff to log daily observations, record meeting outcomes, and share mentorship\n"
 "            strategies in real-time."
 msgstr ""
+"Dağınık not defterlerini, işbirliğine dayalı <b>Bilgi Birikimi</b> ile "
+"değiştirin. Bu süreç,\n"
+"            personelin günlük gözlemlerini kaydetmesine, toplantı "
+"sonuçlarını belgelemesine ve mentorluk\n"
+"            stratejilerini gerçek zamanlı olarak paylaşmasına olanak tanır."
 
 #. module: community_care
 #: model:ir.model.fields,field_description:community_care.field_stay_resident_id
@@ -1239,6 +1315,12 @@ msgid ""
 "            seamlessly using a specialized service product, keeping your general ledger perfectly\n"
 "            structured and audit-ready."
 msgstr ""
+"Sakinlerin mali katılımını kurumsal hibelerden ayırın ve\n"
+"            idari çakışmayı sıfıra indirin. Bu akış, gecelik katkı "
+"paylarının özel bir hizmet ürünü kullanılarak\n"
+"            sorunsuz bir şekilde faturalandırılmasını sağlar; böylece genel "
+"muhasebe defteriniz mükemmel bir şekilde\n"
+"            yapılandırılmış ve denetime hazır halde kalır."
 
 #. module: community_care
 #: model:ir.model.fields,field_description:community_care.field_family_unit_sequence
@@ -1360,6 +1442,15 @@ msgid ""
 "            unified \"Single Source of Truth\" that handles the complexity of social care with the\n"
 "            simplicity of a modern utility."
 msgstr ""
+"Toplum Bakımı sektörü şu anda bir dijital devrimden geçiyor. Bu Odoo\n"
+"            sektör paketi, eğitimcileri ve bakım görevlilerini \"idari\n"
+"            yük\"ten kurtarmak için tasarlanmıştır — kağıt dosyalar ve "
+"dağınık elektronik tablolara harcanan ve aslında\n"
+"            bakım sakinleriyle geçirilmesi gereken o yorucu saatlerden. "
+"Odoo’yu sektör odaklı hale getirerek, sosyal bakımın karmaşıklığını modern "
+"bir\n"
+"            uygulamanın basitliğiyle ele alan, profesyonelleştirilmiş ve\n"
+"            birleştirilmiş bir “Tek Doğruluk Kaynağı” sunuyoruz."
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.view_family_unit_search
@@ -1428,6 +1519,16 @@ msgid ""
 "            Ultimately, we are giving care teams the tools to refocus on their true mission: <b>providing\n"
 "            a safe, supportive environment for every resident, not just managing clicks.</b>"
 msgstr ""
+"Dünya çapında küçük bakım tesislerinde yaşayan milyonlarca sakinle birlikte, "
+"güvenli ve\n"
+"            entegre bir sisteme olan ihtiyaç hiç bu kadar yüksek olmamıştı. "
+"Bu paket, Odoo’nun güçlü temel\n"
+"            modüllerinden yararlanarak küçük bakım evlerinin personel, yasal "
+"kayıtlar ve günlük bakım yönetimini dönüştürür.\n"
+"            Nihayetinde, bakım ekiplerine asıl görevlerine yeniden "
+"odaklanmaları için gerekli araçları sunuyoruz: <b>sadece tıklamaları "
+"yönetmek değil,\n"
+"            her sakin için güvenli ve destekleyici bir ortam sağlamak.</b>"
 
 #. module: community_care
 #: model_terms:ir.ui.view,arch_db:community_care.welcome_article_body
@@ -1448,6 +1549,11 @@ msgid ""
 "            have written records which are not deletable and which might be an issue for your\n"
 "            traceability."
 msgstr ""
+"Bu paketi demo verileriyle veya demolarız test etmiş olabilirsiniz. <br/> "
+"Her halükarda,\n"
+"            silinemeyen ve izlenebilirliğiniz açısından sorun teşkil "
+"edebilecek\n"
+"            kayıtlarınız olabilir."
 
 #. module: community_care
 #: model:ir.model.fields,field_description:community_care.field_res_partner_youth_child_care
