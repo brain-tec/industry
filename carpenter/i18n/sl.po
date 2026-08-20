@@ -3,13 +3,15 @@
 # * carpenter
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# NEDŽAD BEUS <nedzad.beus@implex.si>, 2026.
+# Žiga Trček <ziga.trcek@implex.si>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.4+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 05:59+0000\n"
-"PO-Revision-Date: 2025-11-17 11:12+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-08-08 10:07+0000\n"
+"Last-Translator: Žiga Trček <ziga.trcek@implex.si>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-19/"
 "carpenter/sl/>\n"
 "Language: sl\n"
@@ -18,122 +20,176 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Add Project Management</b>: Add the \"Carpentry project\" service to "
 "track the entire quotation within a dedicated project."
 msgstr ""
+"<b>Dodaj upravljanje projektov</b>: Dodajte storitev \"Carpentry project\" "
+"za spremljanje celotne ponudbe znotraj namenskega projekta."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Automate Replenishment:</b> Set up reordering rules for key products so "
 "you never run out of stock."
 msgstr ""
+"<b>Avtomatizirano dopolnjevanje:</b> Nastavite pravila za ponovno naročanje "
+"ključnih izdelkov, da zaloga nikoli ne zmanjka."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Build the Quote</b>: Select a <b>quotation template</b>, add the required "
 "products and any extra services. Use the <b>quote calculator</b> to price "
 "each item based on the customer's specifications. The product tabs are "
 "organized by their sequence on the sales lines."
 msgstr ""
+"<b>Izdelava ponudbe</b>: Izberite <b>predlogo ponudbe</b>, dodajte zahtevane "
+"izdelke in morebitne dodatne storitve. Uporabite <b>kalkulator ponudbe</b> "
+"za določanje cene vsakega artikla na podlagi specifikacij stranke. Zavihki "
+"izdelkov so razvrščeni glede na njihovo zaporedje v prodajnih vrsticah."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Communicate and Understand Needs</b>: Use the <b>chatter feature</b> to "
 "communicate with the client. This helps you clarify their specific "
 "requirements for the project."
 msgstr ""
+"<b>Komunicirajte in razumite potrebe</b>: Uporabite <b>funkcijo chatter</b>, "
+"da komunicirate s stranko. To vam pomaga razjasniti njihove specifične "
+"zahteve za projekt."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Confirm Delivery</b>: Once you validate this operation, the products will "
 "be automatically removed from your inventory, and the delivery can be "
 "completed."
 msgstr ""
+"<b>Potrdi dostavo</b>: Ko to potrdite, se bodo izdelki samodejno odstranili "
+"iz vaše zaloge in dostava se lahko zaključi."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Create a Delivery Order</b>: Go to the <b>Project App</b> and create a "
 "new <b>\"From WH\" (Warehouse) operation</b>. This acts as a delivery order, "
 "listing all the finished products that need to be taken from your stock and "
 "delivered to the customer."
 msgstr ""
+"<b>Ustvari dobavni nalog</b>: Pojdite v <b>aplikacijo Projekt</b> in "
+"ustvarite novo <b>\"From WH\" (Skladišče) operacijo</b>. To deluje kot "
+"dobavni nalog, ki prikazuje vse končne izdelke, ki jih je treba vzeti iz "
+"vaše zaloge in dostaviti stranki."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Create an Opportunity</b>: Click <b>\"Create\"</b> to start a new sales "
 "opportunity."
 msgstr ""
+"<b>Ustvarite priložnost</b>: Kliknite <b>\"Ustvari\"</b>, da začnete novo "
+"prodajno priložnost."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<b>Creating a Sales Order from the CRM</b>"
-msgstr ""
+msgstr "<b>Ustvarjanje prodajnega naloga iz CRM</b>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Define Lead Times:</b> Set lead times for all your products to ensure "
 "accurate stock planning."
 msgstr ""
+"<b>Določite roke dobave:</b> Nastavite roke dobave za vse svoje izdelke, da "
+"zagotovite natančno načrtovanje zalog."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<b>Drag and drop tasks</b> to different stages for easy tracking."
 msgstr ""
+"<b>Povlecite in spustite opravila</b> na različne faze za lažje sledenje."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Finalize Details</b>: Update the <b>delivery date</b> to ensure deadlines "
 "are met and deliveries are scheduled correctly."
 msgstr ""
+"<b>Dokončaj podrobnosti</b>: Posodobi <b>datum dostave</b>, da bodo roki "
+"izpolnjeni in dobave pravilno razporejene."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Generate a Manufacturing Order</b>: Within your project, create a new "
 "<b>Manufacturing Order</b>. Add all the necessary components that will be "
 "used, whether they are from your current stock or are new costs."
 msgstr ""
+"<b>Ustvarite proizvodni nalog</b>: Znotraj svojega projekta ustvarite nov <b>"
+"Proizvodni nalog</b>. Dodajte vse potrebne komponente, ki bodo uporabljene, "
+"ne glede na to, ali izvirajo iz vaše trenutne zaloge ali so novi stroški."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Generate a Quotation</b>: Once you understand their needs, generate a "
 "quotation from the opportunity."
 msgstr ""
+"<b>Ustvari predračun</b>: Ko boste razumeli njihove potrebe, ustvarite "
+"predračun iz priložnosti."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Implement a real-time quality check.</b> You can add quality checks for "
 "specific products at critical moments in the manufacturing process. This "
 "ensures that any defects are caught early, reducing waste and the cost of "
 "rework."
 msgstr ""
+"<b>Izvedite preverjanje kakovosti v realnem času.</b> Specifične izdelke "
+"lahko opremite s kontrolami kakovosti v ključnih trenutkih proizvodnega "
+"procesa. To zagotavlja, da se morebitne napake odkrijejo pravočasno, s čimer "
+"se zmanjšajo odpadki in stroški ponovne obdelave."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Manage By-Products:</b> Use the <b>by-products</b> feature in the "
 "Manufacturing app to reuse any remaining product parts after a production "
 "run. This lets you track and manage leftover materials that are created "
 "during production, reducing waste and improving efficiency."
 msgstr ""
+"<b>Upravljanje stranskih izdelkov:</b> Uporabite funkcijo <b>stranskih "
+"izdelkov</b> v aplikaciji Proizvodnja za ponovno uporabo vseh preostalih "
+"delov izdelka po proizvodnem ciklu. To vam omogoča spremljanje in "
+"upravljanje preostalih materialov, ki nastanejo med proizvodnjo, s čimer se "
+"zmanjšujejo odpadki in izboljšuje učinkovitost."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Manage product variations efficiently.</b> To handle different versions "
 "of a product, such as a table made from various types of wood, you can use a "
@@ -142,58 +198,88 @@ msgid ""
 "saving time and preventing errors in inventory management and production "
 "planning."
 msgstr ""
+"<b>Učinkovito upravljajte različice izdelkov.</b> Za obvladovanje različnih "
+"različic izdelka, kot je miza iz različnih vrst lesa, lahko uporabite sistem "
+"<b>variant izdelka</b>. To vam omogoča ponovno uporabo istega <b>seznama "
+"materialov</b> (BOM), vendar z manjšimi prilagoditvami za različne vrste "
+"materialov, s čimer prihranite čas in preprečite napake v upravljanju zaloge "
+"in načrtovanju proizvodnje."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Record time on specific tasks</b> (like \"External Help\"), and that time "
 "will be used to calculate your project's profitability."
 msgstr ""
+"<b>Beležite čas pri določenih opravilih</b> (kot je \"Zunanja pomoč\"), ta "
+"čas pa bo uporabljen za izračun donosnosti vašega projekta."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Select a Client</b>: Choose an existing customer from your list or add a "
 "new one directly into the customer field."
 msgstr ""
+"<b>Izberite stranko</b>: Izberite obstoječo stranko s seznama ali dodajte "
+"novo neposredno v polje stranke."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Send the Quote</b>: Send the final quotation to the client, making sure "
 "to attach any plans from your drawing software."
 msgstr ""
+"<b>Pošlji ponudbo</b>: Stranki pošljite končno ponudbo in se prepričajte, da "
+"ste priložili vse načrte iz svoje programske opreme za risanje."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Use a shopfloor app.</b> If you have a growing team, a digital shopfloor "
 "app can ensure that every employee receives the right information at the "
 "right time. It can provide work instructions, track progress, and facilitate "
 "communication, leading to smoother operations and fewer errors."
 msgstr ""
+"<b>Uporabite aplikacijo za delavnico.</b> Če imate naraščajočo ekipo, "
+"digitalna aplikacija za delavnico lahko zagotovi, da vsak kader prejme prave "
+"informacije ob pravem času. Lahko nudi delovna navodila, spremlja napredek "
+"in olajšuje komunikacijo, kar vodi do gladkejšega delovanja in manj napak."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Use the Replenishment Dashboard:</b> Get a clear overview of exactly what "
 "you need to order."
 msgstr ""
+"<b>Uporabite nadzorno ploščo za dopolnjevanje:</b> Dobite jasen pregled "
+"tega, kaj točno morate naročiti."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>Validate Production</b>: Once you've completed the manufacturing process, "
 "validate the order to finalize it."
 msgstr ""
+"<b>Potrdi proizvodnjo</b>: Ko končate proizvodni proces, potrdite naročilo, "
+"da ga dokončno zaključite."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<b>View a profitability dashboard</b> that gives you a clear overview of "
 "your project's financial performance once you've properly configured all "
 "costs from timesheets, production, and purchases.<b/><br/>"
 msgstr ""
+"<b>Oglejte si nadzorno ploščo donosnosti</b>, ki vam omogoča jasen pregled "
+"finančne uspešnosti vašega projekta, ko pravilno konfigurirate vse stroške "
+"iz časovnih listov, proizvodnje in nabav.<b/><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -233,10 +319,13 @@ msgstr ""
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
 "normal\">💡</i>"
 msgstr ""
+"<i data-oe-aria-label=\"Banner Info\" class=\"o_editor_banner_icon mb-3 fst-"
+"normal\">💡</i>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -249,8 +338,9 @@ msgstr ""
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h1-fs\"><strong>Activities</strong></span><br/>"
-msgstr ""
+msgstr "<span class=\"h1-fs\"><strong>Aktivnosti</strong></span><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -261,73 +351,93 @@ msgstr ""
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h2-fs\">Centralize all the important information 📝</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Centralizirajte vse pomembne informacije 📝</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h2-fs\">Invoice at the right time</span> 📈"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Račun ob pravem času</span> 📈"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h2-fs\">Manage Quotation and Sales Order 🤝</span>"
 msgstr ""
+"<span class=\"h2-fs\">Upravljanje predračunov in prodajnih nalogov 🤝</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h2-fs\">Manage purchasing &amp; dropship on site 🛒</span>"
 msgstr ""
+"<span class=\"h2-fs\">Upravljajte nabavo in dropshipping na spletu 🛒</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h2-fs\">Manage your project️ 📏</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Upravljajte svoj projekt️ 📏</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h2-fs\">Manage your stock and production 🔨</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Upravljajte svojo zalogo in proizvodnjo 🔨</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h5-fs\"><strong>Create a Finish product</strong></span>"
-msgstr ""
+msgstr "<span class=\"h5-fs\"><strong>Ustvari končni izdelek</strong></span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h5-fs\"><strong>Creating a New Purchase Order</strong></span>"
 msgstr ""
+"<span class=\"h5-fs\"><strong>Ustvarjanje novega nabavnega naloga</strong></"
+"span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h6-fs\"><b>Expanding Your Workshop</b></span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\"><b>Širjenje vaše delavnice</b></span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h6-fs\"><strong>Efficiently schedule the work </strong></span>"
 "📆"
 msgstr ""
+"<span class=\"h6-fs\"><strong>Učinkovito razporedite delo </strong></span>📆"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h6-fs\">Optimize Your Inventory<span class=\"oe-tabs\" "
 "style=\"width: 35px;\">\t</span>​</span>"
 msgstr ""
+"<span class=\"h6-fs\">Optimizirajte svojo zalogo<span class=\"oe-tabs\" "
+"style=\"width: 35px;\">\\t</span>\\u200b</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h6-fs\">Optimize Your Production</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">Optimizirajte svojo proizvodnjo</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h6-fs\">This module is designed to simplify daily project "
 "management, helping you effortlessly handle customer relationships, prepare "
@@ -335,51 +445,69 @@ msgid ""
 "calendar. The result is improved efficiency and happier customers across all "
 "your production services.</span>"
 msgstr ""
+"<span class=\"h6-fs\">Ta modul je zasnovan za poenostavitev vsakodnevnega "
+"vodenja projektov, saj vam pomaga enostavno upravljati odnose s strankami, "
+"pripravljati gradbišča, voditi nabavo materialov in organizirati projektni "
+"koledar. Rezultat je večja učinkovitost in večje zadovoljstvo strank v vseh "
+"vaših proizvodnih storitvah.</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "<span class=\"h6-fs\">Welcome to the <strong><font style=\"color: rgb(113, "
 "75, 103);\">Odoo Carpenter package</font></strong>!</span><br/>"
 msgstr ""
+"<span class=\"h6-fs\">Dobrodošli v <strong><font style=\"color: rgb(113, 75, "
+"103);\">paketu Odoo za mizarje</font></strong>!</span><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h6-fs\">Within the Manufacturing App</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">V aplikaciji Proizvodnja</span>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<span class=\"h6-fs\">​</span><br/>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">​</span><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<strong><span class=\"display-4-fs\">Carpenter</span></strong><br/>"
-msgstr ""
+msgstr "<strong><span class=\"display-4-fs\">Tesar</span></strong><br/>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<strong>Accounting made easy 🧮</strong>"
-msgstr ""
+msgstr "<strong>Računovodstvo poenostavljeno 🧮</strong>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "<strong>Create an attractive website 🌐</strong>"
-msgstr ""
+msgstr "<strong>Ustvarite privlačno spletno stran 🌐</strong>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "A <b>bigger workshop</b>  provides more space for machinery, materials, and "
 "a more efficient layout. This can significantly increase production capacity "
 "and improve workflow by reducing clutter and bottlenecks."
 msgstr ""
+"Večja <b>delavnica</b>  zagotavlja več prostora za stroje, materiale in "
+"učinkovitejšo razporeditev. To lahko pomembno poveča proizvodno zmogljivost "
+"in izboljša potek dela z zmanjšanjem nereda in ozkih grl."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "Add all the products or services you need to purchase."
-msgstr ""
+msgstr "Dodajte vse izdelke ali storitve, ki jih morate kupiti."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -390,6 +518,7 @@ msgstr "Vse te komponente vam bodo dale natančen pregled donosnosti projekta."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "As the first invoicing step, create a down payment from the sales order. "
 "This will generate the first invoice in the <strong>Invoicing</strong> app. "
@@ -397,19 +526,29 @@ msgid ""
 "order with the aim to never forget to send an intermediary invoice in order "
 "to sustain your cash flow."
 msgstr ""
+"Kot prvi korak pri izstavljanju računov ustvarite predplačilo iz prodajnega "
+"naročila. To bo ustvarilo prvi račun v aplikaciji <strong>Izdajanje računov</"
+"strong>. Nato na prodajnem naročilu načrtujte eno ali več dejavnosti "
+"\"Razpored izstavljanja računov\" z namenom, da nikoli ne pozabite poslati "
+"vmesnega računa in tako ohranite svoj denarni tok."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_12_product_template
+#, fuzzy
 msgid "Batten 28/38"
-msgstr ""
+msgstr "Letve 28/38"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Before generating an intermediary invoice in the <strong>Invoicing</strong> "
 "app, freeze the project status in the <strong>Project</strong> app to get an "
 "overview on the progress in terms of:"
 msgstr ""
+"Preden ustvarite vmesni račun v aplikaciji <strong>Izdajanje računov</strong>"
+", zamrznite stanje projekta v aplikaciji <strong>Projekt</strong>, da dobite "
+"pregled napredka v smislu:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -422,32 +561,40 @@ msgstr ""
 
 #. module: carpenter
 #: model:project.project,name:carpenter.project_project_1
+#, fuzzy
 msgid "Carpenter Project"
-msgstr ""
+msgstr "Tesarni projekt"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_3_product_template
+#, fuzzy
 msgid "Carpentry project"
-msgstr ""
+msgstr "Projekt tesarstva"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Confirming a quotation automatically creates a dedicated project in the "
 "Project app. Each new project comes with several default tasks to get you "
 "started."
 msgstr ""
+"Potrditev ponudbe samodejno ustvari namenski projekt v aplikaciji Projekt. "
+"Vsak nov projekt vsebuje več privzetih opravil, ki vam pomagajo začeti."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_13_product_template
+#, fuzzy
 msgid "Counter batten 18/28 "
-msgstr ""
+msgstr "Kontra-letvica 18/28 "
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Create a <strong>bill of materials (BOM) </strong>for each finished product."
 msgstr ""
+"Ustvarite <strong>seznam materialov (BOM) </strong>za vsak končni izdelek."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -456,10 +603,13 @@ msgstr "Ali želite iti še dlje?"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Don't worry, even if your customer changes their plan, all "
 "<strong>historical sales orders </strong>are saved in the chatter.<b/><br/>"
 msgstr ""
+"Brez skrbi, tudi če vaša stranka spremeni svoj paket, so vsa <strong>"
+"zgodovinska prodajna naročila </strong>shranjena v klepetu.<b/><br/>"
 
 #. module: carpenter
 #: model:project.task.type,name:carpenter.project_task_type_3
@@ -468,11 +618,13 @@ msgstr "Opravljeno"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_14_product_template
+#, fuzzy
 msgid "Double roll tile"
-msgstr ""
+msgstr "Dvojna valjna ploščica"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Effectively managing your sales process starts with a good system. By using "
 "a <b>CRM (Customer Relationship Management) app</b>, you can easily track "
@@ -480,6 +632,12 @@ msgid ""
 "CRM's built-in tools allow you to customize prices for each client, turning "
 "generic products into personalized solutions."
 msgstr ""
+"Učinkovito upravljanje prodajnega procesa se začne z dobrim sistemom. Z "
+"uporabo aplikacije <b>CRM (upravljanje odnosov s strankami)</b> lahko "
+"preprosto sledite stikom, upravljate komunikacijo in ustvarjate "
+"profesionalne ponudbe. Vgrajena orodja CRM-ja vam omogočajo prilagajanje cen "
+"za vsako stranko ter spreminjanje generičnih izdelkov v personalizirane "
+"rešitve."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -488,73 +646,100 @@ msgstr "Obogatite osnovne aplikacije z namestitvijo naslednjih."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_24_product_template
+#, fuzzy
 msgid "Fasteners"
-msgstr ""
+msgstr "Pripenjala"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_19_product_template
+#, fuzzy
 msgid "Finish Product"
-msgstr ""
+msgstr "Končan izdelek"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Follow these steps to generate a new sales order directly from your CRM app:"
 msgstr ""
+"Sledite tem korakom, da ustvarite nov prodajni nalog neposredno iz "
+"aplikacije CRM:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "For direct-to-client delivery, choose <b>dropship delivery</b> and select "
 "the customer's address."
 msgstr ""
+"Za neposredno dostavo stranki izberite <b>dostavo po sistemu dropshipping</"
+"b> in izberite naslov stranke."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_22_product_template
+#, fuzzy
 msgid "Hinges"
-msgstr ""
+msgstr "Šarke"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "If you are manually invoicing for timesheet hours from an external resource, "
 "do not also link those hours to the project in your system. This will "
 "prevent the costs from being counted twice on your profitability dashboard."
 msgstr ""
+"Če ročno zaračunavate ure časovnice iz zunanjega vira, teh ur ne povežite "
+"tudi z projektom v vašem sistemu. To bo preprečilo, da bi se stroški šteli "
+"dvakrat na vaši nadzorni plošči donosnosti."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "If you don't need to track inventory but still want to monitor costs, "
 "purchases, and production, you can simply <b>disable the tracking option</b> "
 "in the product settings."
 msgstr ""
+"Če vam ni treba slediti zalogi, vendar še vedno želite spremljati stroške, "
+"nakupe in proizvodnjo, lahko preprosto <b>onemogočite možnost sledenja</b> v "
+"nastavitvah izdelka."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "If your projects are diverse, you can create different project templates to "
 "suit your needs."
 msgstr ""
+"Če so vaši projekti raznoliki, lahko ustvarite različne predloge projektov, "
+"ki ustrezajo vašim potrebam."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "In the Project app, you can:"
-msgstr ""
+msgstr "V aplikaciji Projekt lahko:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Increase your visibility and get more leads by creating a beautiful "
 "<strong>Website</strong>! When a potential customer sends a request through "
 "the contact form, it could automatically create an opportunity in the "
 "<strong>CRM</strong> app."
 msgstr ""
+"Povečajte svojo prepoznavnost in pridobite več potencialnih strank z "
+"ustvarjanjem čudovite <strong>Spletne strani</strong>! Ko potencialna "
+"stranka pošlje zahtevo prek kontaktnega obrazca, se lahko samodejno ustvari "
+"priložnost v aplikaciji <strong>CRM</strong>."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_23_product_template
+#, fuzzy
 msgid "Latch"
-msgstr ""
+msgstr "Zapah"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -573,15 +758,19 @@ msgstr "Prodani materiali."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_7_product_template
+#, fuzzy
 msgid "Metal brackets"
-msgstr ""
+msgstr "Kovinski nosilci"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Odoo is entirely integrated into an App. Download it to <b>manage your "
 "entire business from your phone</b>.<s><br/></s>"
 msgstr ""
+"Odoo je popolnoma integriran v aplikacijo. Prenesite ga, da <b>upravljate "
+"celotno poslovanje z vašega telefona</b>.<s><br/></s>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -595,10 +784,13 @@ msgstr ""
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Once confirmed, a receipt will be automatically generated, ready for you to "
 "confirm upon delivery."
 msgstr ""
+"Ko se potrdi, se bo samodejno ustvarila prejemnica, pripravljena, da jo "
+"potrdite ob dostavi."
 
 #. module: carpenter
 #: model:project.task.type,name:carpenter.project_task_type_2
@@ -607,18 +799,21 @@ msgstr "V teku"
 
 #. module: carpenter
 #: model:product.template,description_sale:carpenter.product_product_5_product_template
+#, fuzzy
 msgid "Price per unit per day"
-msgstr ""
+msgstr "Cena na enoto na dan"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_16_product_template
+#, fuzzy
 msgid "Rafter 50x63"
-msgstr ""
+msgstr "Špirovina 50x63"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_10_product_template
+#, fuzzy
 msgid "Rainscreen"
-msgstr ""
+msgstr "Dežni zaslon"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -627,23 +822,27 @@ msgstr "Preusmerite e-poštna sporočila, poslana na"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_4_product_template
+#, fuzzy
 msgid "Removal of the existing equipment"
-msgstr ""
+msgstr "Odstranitev obstoječe opreme"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_18_product_template
+#, fuzzy
 msgid "Rough Sawn 40x110 (2m )"
-msgstr ""
+msgstr "Grobo žagan 40x110 (2m )"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_8_product_template
+#, fuzzy
 msgid "Sandpaper"
-msgstr ""
+msgstr "Brusni papir"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_5_product_template
+#, fuzzy
 msgid "Scaffolding rental"
-msgstr ""
+msgstr "Najem odrov"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -652,33 +851,45 @@ msgstr "Načrtujte predstavitev"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "Select the <b>vendor</b> and <b>expected delivery date</b>."
-msgstr ""
+msgstr "Izberite <b>dobavitelja</b> in <b>pričakovani datum dobave</b>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Set the inventory <strong>route to \"Manufacture\"</strong> for all "
 "manufactured products."
 msgstr ""
+"Za vse proizvedene izdelke nastavite <strong>pot zaloge na \"Proizvodnja\"</"
+"strong>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Since Odoo is not a design tool, all necessary drawings must be created in a "
 "dedicated drawing program."
 msgstr ""
+"Ker Odoo ni orodje za načrtovanje, je treba vse potrebne risbe izdelati v "
+"namenskem programu za risanje."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Speed up the signing process thanks to the <strong>Sign</strong> app. Once "
 "again, all the signed documents will be stored in the <strong>Documents</"
 "strong> app."
 msgstr ""
+"Pospešite postopek podpisovanja z aplikacijo <strong>Podpis</strong>. Vsi "
+"podpisani dokumenti bodo ponovno shranjeni v aplikaciji <strong>Dokumenti</"
+"strong>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Starting a construction project implies a lot of important documents such as "
 "contracts, building plans, instructions for use, subcontracting agreements, "
@@ -686,6 +897,11 @@ msgid ""
 "computer, attach them in the chatter and they will be automatically "
 "centralized in the <strong>Documents</strong> app."
 msgstr ""
+"Začetek gradbenega projekta pomeni veliko pomembnih dokumentov, kot so "
+"pogodbe, gradbeni načrti, navodila za uporabo, podizvajalske pogodbe itd. "
+"Namesto razmetavanja po vaši e-pošti, storitvah za shranjevanje ali "
+"računalniku jih priložite v chatter in bodo samodejno centralizirani v "
+"aplikaciji <strong>Dokumenti</strong>."
 
 #. module: carpenter
 #: model:project.project,label_tasks:carpenter.project_project_1
@@ -694,41 +910,59 @@ msgstr "Opravila"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "The <b>Manufacturing and Inventory app</b> is designed to help you manage "
 "your in-house production and keep a close eye on the stock levels of your "
 "raw materials."
 msgstr ""
+"Aplikacija <b>Proizvodnja in Zaloga</b> je zasnovana, da vam pomaga "
+"upravljati vašo notranjo proizvodnjo in natančno spremljati ravni zaloge "
+"vaših surovin."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "The <strong><font class=\"text-o-color-1\">Document and Sign app</font></"
 "strong> centralizes your important documents, allowing you to sign them "
 "directly within the app."
 msgstr ""
+"<strong><font class=\"text-o-color-1\">Aplikacija Dokumenti in podpisovanje</"
+"font></strong> centralizira vaše pomembne dokumente, saj vam omogoča, da jih "
+"podpišete neposredno znotraj aplikacije."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "The <strong><font style=\"color: rgb(113, 75, 103);\">Invoice App</font></"
 "strong> helps you keep track of all your invoices."
 msgstr ""
+"Aplikacija <strong><font style=\"color: rgb(113, 75, 103);\">Računi</font></"
+"strong> vam pomaga slediti vsem vašim računom."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "The <strong><font style=\"color: rgb(113, 75, 103);\">Project App</font></"
 "strong> provides a clear overview of every aspect of your project management"
 msgstr ""
+"<strong><font style=\"color: rgb(113, 75, 103);\">Projektna aplikacija</font>"
+"</strong> zagotavlja jasen pregled vseh vidikov vašega upravljanja projektov"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "The <strong><font style=\"color: rgb(113, 75, 103);\">Purchase App</"
 "font><font class=\"text-o-color-1\"> </font></strong>ensures accurate "
 "inventory replenishment and tracks subcontracting services."
 msgstr ""
+"<strong><font style=\"color: rgb(113, 75, 103);\">Aplikacija za nabavo</font>"
+"<font class=\"text-o-color-1\"> </font></strong>zagotavlja natančno "
+"dopolnjevanje zaloge in spremlja storitve podizvajalcev."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -742,11 +976,13 @@ msgstr "Finančno poročanje."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "The synchronization with the banks."
-msgstr ""
+msgstr "Sinhronizacija z bankami."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "The top bar of your project gives you quick access to all essential aspects, "
 "such as purchase orders, manufacturing orders, and invoices. You can also "
@@ -754,6 +990,11 @@ msgid ""
 "the \"Purchase\" button, you can create a new purchase order that will be "
 "automatically linked to your project and factored into its profitability."
 msgstr ""
+"Zgornja vrstica vašega projekta vam omogoča hiter dostop do vseh ključnih "
+"področij, kot so nabavni nalogi, proizvodni nalogi in računi. Tudi lahko "
+"neposredno iz aplikacije Projekt ustvarite nove dokumente. Na primer, s "
+"klikom na gumb \"Nakup\" lahko ustvarite nov nabavni nalog, ki bo samodejno "
+"povezan z vašim projektom in upoštevan pri izračunu njegove donosnosti."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -762,10 +1003,14 @@ msgstr "Plačilo računov dobavitelja."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "The<strong> <font style=\"color: rgb(113, 75, 103);\">CRM &amp; Sales app</"
 "font></strong> Manages all product and service charges for your clients."
 msgstr ""
+"Ta<strong> <font style=\"color: rgb(113, 75, 103);\">CRM in prodajna "
+"aplikacija</font></strong> upravlja vse stroške izdelkov in storitev za vaše "
+"stranke."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_21_product_template
@@ -784,82 +1029,114 @@ msgstr "Opravek"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "To avoid double-counting costs and ensure an accurate profitability "
 "dashboard, be careful with how you link expenses to your projects."
 msgstr ""
+"Da se izognete podvajanju stroškov in zagotovite natančno nadzorno ploščo "
+"dobičkonosnosti, bodite pozorni, kako povežete stroške s svojimi projekti."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "To create a finished product, follow these steps:"
-msgstr ""
+msgstr "Za izdelavo končnega izdelka sledite tem korakom:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "To dive deeper into the quote calculator, feel free to"
-msgstr ""
+msgstr "Če želite podrobneje raziskati kalkulator ponudbe, se lahko"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "To get a rapid understanding of the processes this Odoo package offers, you "
 "can execute the following flows and configure the settings to suit your "
 "library."
 msgstr ""
+"Za hitro razumevanje procesov, ki jih ta Odoo paket ponuja, lahko izvedete "
+"naslednje poteke in nastavite nastavitve, ki ustrezajo vaši knjižnici."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_11_product_template
+#, fuzzy
 msgid "Treated timber 6/4"
-msgstr ""
+msgstr "Impregniran les 6/4"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Use a single generic product entry for <strong>custom finished products, "
 "using lots</strong> to distinguish between them."
 msgstr ""
+"Uporabite en sam generični vnos izdelka za <strong>prilagojene končne "
+"izdelke, pri čemer uporabite lotove za razlikovanje med njimi</strong>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "Use the <strong>Accounting</strong> app to easily handle:"
 msgstr ""
+"Uporabite aplikacijo <strong>Računovodstvo</strong> za enostavno upravljanje:"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Use the <strong>Planning</strong> app to organize the work of your "
 "employees. Define on which project and when they have to work. Easily manage "
 "shift conflicts, workload and replacements in case of leaves."
 msgstr ""
+"Uporabite aplikacijo <strong>Načrtovanje</strong> za organizacijo dela vaših "
+"zaposlenih. Določite, na katerem projektu in kdaj morajo delati. Preprosto "
+"upravljajte konflikte izmen, delovno obremenitev in nadomeščanja v primeru "
+"odsotnosti."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Use the Website app to create a contact form that will redirect all the "
 "requests to the <strong>CRM.</strong>"
 msgstr ""
+"Z aplikacijo Spletna stran ustvarite kontaktni obrazec, ki bo vse zahteve "
+"preusmeril v <strong>CRM.</strong>"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_15_product_template
+#, fuzzy
 msgid "Ventilation pipe 2m"
-msgstr ""
+msgstr "Prezračevalna cev 2m"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "Want to make your quotes stand out? Try the <b>PDF quote builder.</b>"
 msgstr ""
+"Želite, da vaši predračuni izstopajo? Preizkusite <b>PDF orodje za izdelavo "
+"predračunov.</b>"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "When purchasing components for a new product, you can create a purchase "
 "order that isn't directly linked to the project. Then, link only the "
 "<b>receipt</b> to the project. This gives you a clear overview of your "
 "purchases while ensuring the cost is counted just once."
 msgstr ""
+"Ko nabavljate komponente za nov izdelek, lahko ustvarite nabavno naročilo, "
+"ki ni neposredno povezano s projektom. Nato s projektom povežite samo <b>"
+"prejem</b>. Tako dobite jasen pregled nad svojimi nakupi, hkrati pa "
+"zagotovite, da se strošek upošteva samo enkrat."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "Within the <b>Project app</b>, you can use the <b>Purchase</b> button to "
 "create all the purchases your project needs. You have the flexibility to "
@@ -867,21 +1144,29 @@ msgid ""
 "site using dropshipping. Additionally, if you need to subcontract any "
 "activities, you can add service products directly to your purchase lines."
 msgstr ""
+"V <b>aplikaciji Projekt</b> lahko z gumbom <b>Nabava</b> ustvarite vse "
+"nabave, ki jih potrebuje vaš projekt. Izdelke lahko dostavite v svojo "
+"proizvodno delavnico ali neposredno na lokacijo stranke z uporabo "
+"dropshippinga. Poleg tega, če je potrebno podizvajati kakšno aktivnost, "
+"lahko storitvene izdelke neposredno dodate v vrstice nabave."
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_20_product_template
+#, fuzzy
 msgid "Wood Plank"
-msgstr ""
+msgstr "Lesena deska"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_9_product_template
+#, fuzzy
 msgid "Wood Screw 6/120"
-msgstr ""
+msgstr "Lesni vijak 6/120"
 
 #. module: carpenter
 #: model:product.template,name:carpenter.product_product_6_product_template
+#, fuzzy
 msgid "Wood glue"
-msgstr ""
+msgstr "Lesno lepilo"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -899,35 +1184,44 @@ msgstr ""
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid ""
 "You didn't import demo data? You can still do it. Go to Apps &gt; Industries "
 "&gt; Upgrade your Library package and select the relevant checkbox"
 msgstr ""
+"Niste uvozili predstavitvenih podatkov? Še vedno lahko uvozite. Pojdite v "
+"Aplikacije &gt; Industrije &gt; Nadgradite svoj paket knjižnice in označite "
+"ustrezno potrditveno polje"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "about its features and capabilities."
-msgstr ""
+msgstr "o njegovih funkcijah in zmogljivostih."
 
 #. module: carpenter
 #: model:documents.document,name:carpenter.documents_document_1
+#, fuzzy
 msgid "door.jpg"
-msgstr ""
+msgstr "door.jpg"
 
 #. module: carpenter
 #: model:documents.document,name:carpenter.documents_document_2
+#, fuzzy
 msgid "garden shed.jpeg"
-msgstr ""
+msgstr "vrtna lopa.jpeg"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "info@your-business.com"
-msgstr ""
+msgstr "info@your-business.com"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "to the <strong>CRM</strong>."
-msgstr ""
+msgstr "na <strong>CRM</strong>."
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -936,13 +1230,15 @@ msgstr "🎓 Računovodstvo"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "🎓 CRM &amp; Sales"
-msgstr ""
+msgstr "🎓 CRM &amp; Prodaja"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "🎓 Document"
-msgstr ""
+msgstr "🎓 Dokument"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -966,13 +1262,15 @@ msgstr "🎓 Nabava"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "🎓 Quality"
-msgstr ""
+msgstr "🎓 Kakovost"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "🎓 Shopfloor"
-msgstr ""
+msgstr "🎓 Delavnica"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
@@ -981,8 +1279,9 @@ msgstr "🎓 Podpis"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
+#, fuzzy
 msgid "🎓 Variants"
-msgstr ""
+msgstr "🎓 Različice"
 
 #. module: carpenter
 #: model_terms:ir.ui.view,arch_db:carpenter.welcome_article_body
