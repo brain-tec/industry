@@ -1,6 +1,6 @@
 {
     'name': 'Construction Developer',
-    'version': '2.0',
+    'version': '2.1',
     'category': 'Construction',
     'depends': [
         'base_industry_data',
@@ -17,6 +17,7 @@
 
         'features/remarks/project_project.xml',
         'features/remarks/project_task.xml',
+        'features/remarks/menus_and_task_override.xml',
         'data/project_tags.xml',
 
         'features/sale/sol_numbering.xml',
@@ -31,6 +32,7 @@
         'features/stock/so_worksite_loc/bridge_so_bom_cost_updates.xml',
         'features/stock/so_stock.xml',
         'features/purchase/po_confirm_link_picking.xml',
+        'features/project/so_o2m.xml',
         'features/mrp/delivery_progress.xml',
         'features/sale/contract_type.xml',
         'features/mrp/work_breakdown_structure/override_deadline_with_custom_field.xml',
@@ -40,6 +42,7 @@
         'features/product/cost_nature.xml',
         'data/product_category.xml',
 
+        'features/spreadsheet_dashboard/progress_approver.xml',
         'features/spreadsheet_dashboard/reports.xml',
 
         'data/views_standard.xml',
