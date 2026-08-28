@@ -104,6 +104,25 @@
                     careful not to double book a resource with such change!</p>
             </div>
         </div>
+        <h4>Prevent bookings year in advance</h4>
+        <ul>
+            <li>Open the Default pricelist from the configuration menu.</li>
+            <li>See that it contains a rule booking blocker setting price to 0.</li>
+        </ul>
+        <div data-oe-role="status"
+            class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-success pb-0 pt-3">
+            <i data-oe-aria-label="Banner Success" class="o_editor_banner_icon mb-3 fst-normal">✅</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+                <p>A price at 0 combined with the setting "Hide Add To Cart" prevents bookings from your website!</p>
+            </div>
+        </div>
+        <div data-oe-role="status"
+            class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-warning pb-0 pt-3">
+            <i data-oe-aria-label="Banner Warning" class="o_editor_banner_icon mb-3 fst-normal">⚠️</i>
+            <div class="o_editor_banner_content o-contenteditable-true w-100 px-3">
+                <p>Don't forget to replicate the Booking Blocker rule on all your pricelists and to specify the website this applies to.<br/>On a regular basis postpone this booking blocker start date season after season to unlock your calendar.</p>
+            </div>
+        </div>
         <h4>Enforcing weekly turnover</h4>
         <p>Optimizing weekly turnover to maximize occupancy during peak season, you can align your bookings to a weekly rental pattern (e.g., Saturday to Saturday). By restricting check-ins and check-outs to specific days, you synchronize your housekeeping and eliminate calendar gaps.</p>
         <ul>
@@ -185,7 +204,7 @@
                     fields at your convenience with studio. Just be careful, such customizations can
                     quickly become messy.</p>
             </div>
-        </div><h4 >Deliver extra services</h4><p>Now that they relax, you can offer extra services to make your guests fill even more
+        </div><h4 >Deliver extra services</h4><p>Now that they relax, you can offer extra services to make your guests feel even more
             comfortable!</p><ul>
             <li>At any time during their stay, open their rental order from the Campsite App.</li>
             <li>Add a line with Plancha or a Fan.</li>
@@ -207,7 +226,13 @@
             <li>Open the POS App and select one of the register, the Bar for example.</li>
             <li>Add some products to the ongoing order and send it to the preparation display and bring them to your guests.</li>
             <li>When they ask for the bill, you can charge them directly or add the bill to their order associating their stay resource.<br/>To do so, open the corresponding order from the table or from the order list and select the customer to charge.<br/>Select the Checkout Payment method and validate to close the POS order and capture this expense on customer order; which you can charge them for during the check out.</li>
-        </ul><p>Don't be limited to those examples, you could have a gym area available to members or a spa with massages!</p><p><a href="https://www.odoo.com/documentation/latest/applications/sales/point_of_sale.html" class="btn btn-fill-secondary">🎓
+        </ul><p>Don't be limited to those examples, you could have a gym area available to members or a spa with massages!</p>
+        <div class="o_editor_banner user-select-none lh-1 d-flex align-items-center alert alert-warning pb-0 pt-3 o-contenteditable-false" data-oe-role="status" contenteditable="false" role="status">
+            <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Warning" aria-label="Banner Warning">⚠️</i>
+            <div class="w-100 px-3 o_editor_banner_content o-contenteditable-true" contenteditable="true">
+                <p>Don't forget to add resources available for payment at checkout from the POS payment methods.<br/>Beware this is not possible when a POS session is open.</p>
+            </div>
+        </div><p><a href="https://www.odoo.com/documentation/latest/applications/sales/point_of_sale.html" class="btn btn-fill-secondary">🎓
             POS</a> <a class="btn btn-secondary" href="https://www.odoo.com/documentation/latest/applications/sales/point_of_sale/preparation.html">🎓 Preparation Display</a></p><p>
             <br/>
         </p><h3 >👋 Wave your guests</h3><hr/><p>Again, the <strong>Campsite App </strong>helps you manage the end of the stay!</p><h4 >Check guests out</h4><ul>
