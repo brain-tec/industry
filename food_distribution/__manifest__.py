@@ -1,6 +1,6 @@
 {
     'name': 'Food Distribution',
-    'version': '1.4',
+    'version': '1.5',
     'category': 'Supply Chain',
     'author': 'Odoo S.A.',
     'depends': [
@@ -20,6 +20,7 @@
         'web_studio',
     ],
     'data': [
+        'data/ir_module_module_dependency.xml',
         'data/ir_model.xml',
         'data/ir_access.xml',
         'data/ir_model_fields.xml',
@@ -67,8 +68,10 @@
     ],
     'license': 'OEEL-1',
     'cloc_exclude': [
+        'data/ir_module_module_dependency.xml',
         'data/knowledge_article.xml',
         'data/qweb_view.xml',
+        'data/res_config_settings.xml',
     ],
     'application': True,
     'images': [
