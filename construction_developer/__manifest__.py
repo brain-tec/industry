@@ -1,6 +1,6 @@
 {
     'name': 'Property Developer',
-    'version': '2.5',
+    'version': '2.6',
     'category': 'Construction',
     'depends': [
         'base_industry_data',
@@ -10,6 +10,7 @@
         'web_studio',
     ],
     'data': [
+        'data/ir_module_module_dependency.xml',
         'data/res_config_settings.xml',
         'data/stock_location.xml',
 
@@ -60,18 +61,13 @@
         'demo/product_pricelist.xml',
         'demo/stock_location.xml',
         'demo/res_company.xml',
-        'demo/sale_order_post.xml',
         'demo/project_project.xml',
         'demo/carport_showcase.xml',
         'demo/remarks.xml',
         'demo/ir_attachment.xml',
     ],
-    'assets': {
-        'web.assets_backend': [
-            'construction_developer/static/src/js/sol_numbering.js',
-        ],
-    },
     'cloc_exclude': [
+        'data/ir_module_module_dependency.xml',
         'data/qweb_view.xml',
     ],
     'images': ['images/main.png'],
