@@ -9,12 +9,13 @@
 # ievaputnina <ievai.putninai@gmail.com>, 2025
 # Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Aleksejs Ivanovs <ai@myacc.pro>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:54+0000\n"
-"PO-Revision-Date: 2026-07-11 17:20+0000\n"
+"PO-Revision-Date: 2026-08-11 17:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Latvian <https://translate.odoo.com/projects/odoo-18/florist/"
 "lv/>\n"
@@ -143,7 +144,7 @@ msgstr ""
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.ir_ui_view_3596
 msgid "<small>Free Returns and Standard Shipping</small>"
-msgstr ""
+msgstr "<small>Bezmaksas preču atgriešana un standarta piegāde</small>"
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.homepage
@@ -338,6 +339,9 @@ msgid ""
 "<strong>Take orders in Point of Sale</strong>: Open a register and process "
 "in-store purchases such as bouquets, flowers, cards, and more."
 msgstr ""
+"<strong>Pieņemiet pasūtījumus tirdzniecības vietā</strong>: Atveriet kasi un "
+"apstrādājiet pirkumus veikalā, piemēram, pušķus, ziedus, apsveikuma kartītes "
+"un citus produktus."
 
 #. module: florist
 #: model_terms:ir.ui.view,arch_db:florist.welcome_article_body
