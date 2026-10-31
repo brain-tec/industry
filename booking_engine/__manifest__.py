@@ -1,13 +1,13 @@
 {
     'name': 'Booking',
-    'version': '1.34',
+    'version': '1.35',
     'category': 'Hospitality',
     'author': 'Odoo S.A.',
     'depends': [
         'base_automation',
         'contacts',
         'knowledge',
-        'planning_hr_skills',
+        'planning',
         'sale_project',
         'survey',
         'web_gantt',
