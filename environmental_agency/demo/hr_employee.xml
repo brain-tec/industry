@@ -10,13 +10,12 @@
         <field name="name">Sarah Thompson</field>
         <field name="department_id" ref="hr_department_2"/>
         <field name="address_id" ref="base.main_partner"/>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">sarah.thompson@MyEnvironmentalAgency.example.com</field>
         <field name="parent_id" ref="hr.employee_admin"/>
         <field name="coach_id" ref="hr.employee_admin"/>
         <field name="hourly_cost">40.0</field>
         <field name="job_id" ref="hr_job_1"/>
-        <field name="job_title">Sales Manager</field>
         <field name="sex">female</field>
         <field name="wage">3450.00</field>
         <field name="employee_type_id" ref="hr.contract_type_employee"/>
@@ -26,13 +25,12 @@
         <field name="name">David Miller</field>
         <field name="department_id" ref="hr_department_2"/>
         <field name="address_id" ref="base.main_partner"/>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">david.miller@MyEnvironmentalAgency.example.com</field>
         <field name="parent_id" ref="hr_employee_2"/>
         <field name="coach_id" ref="hr_employee_2"/>
         <field name="hourly_cost">40.0</field>
         <field name="job_id" ref="hr_job_1"/>
-        <field name="job_title">Sales Manager</field>
         <field name="sex">male</field>
         <field name="wage">3500.00</field>
         <field name="employee_type_id" ref="hr.contract_type_interim"/>
@@ -42,13 +40,12 @@
         <field name="name">Robert Wilson</field>
         <field name="department_id" ref="hr_department_2"/>
         <field name="address_id" ref="base.main_partner"/>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">robert.wilson@MyEnvironmentalAgency.example.com</field>
         <field name="parent_id" ref="hr.employee_admin"/>
         <field name="coach_id" ref="hr.employee_admin"/>
         <field name="hourly_cost">40.0</field>
         <field name="job_id" ref="hr_job_2"/>
-        <field name="job_title">Customer Success Manager</field>
         <field name="sex">male</field>
         <field name="employee_type_id" ref="hr.contract_type_employee"/>
     </record>
@@ -57,13 +54,12 @@
         <field name="name">Jessica Rodriguez</field>
         <field name="department_id" ref="hr_department_2"/>
         <field name="address_id" ref="base.main_partner"/>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">jessica.rodriguez@MyEnvironmentalAgency.example.com</field>
         <field name="parent_id" ref="hr_employee_6"/>
         <field name="coach_id" ref="hr_employee_6"/>
         <field name="hourly_cost">40.0</field>
         <field name="job_id" ref="hr_job_2"/>
-        <field name="job_title">Customer Success Manager</field>
         <field name="sex">female</field>
         <field name="wage">3650.00</field>
         <field name="employee_type_id" ref="hr.contract_type_employee"/>
@@ -73,13 +69,12 @@
         <field name="name">Michael Demo</field>
         <field name="department_id" ref="hr_department_2"/>
         <field name="address_id" ref="base.main_partner"/>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">michael.demo@MyEnvironmentalAgency.example.com</field>
         <field name="parent_id" ref="hr_employee_2"/>
         <field name="coach_id" ref="hr_employee_2"/>
         <field name="hourly_cost">40.0</field>
         <field name="job_id" ref="hr_job_1"/>
-        <field name="job_title">Sales Manager</field>
         <field name="sex">male</field>
         <field name="wage">3400.00</field>
         <field name="employee_type_id" ref="hr.contract_type_interim"/>

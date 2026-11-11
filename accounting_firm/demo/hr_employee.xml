@@ -6,8 +6,8 @@
     <record id="hr_employee_4" model="hr.employee">
         <field name="name">David Miller</field>
         <field name="department_id" ref="hr_department_2" />
-        <field name="job_title">Senior Accountant</field>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="job_id" ref="hr_job_1" />
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">david.miller@MyAccountingFirm.example.com</field>
         <field name="parent_id" ref="hr.employee_admin" />
         <field name="hourly_cost">35.0</field>
@@ -18,8 +18,8 @@
     <record id="hr_employee_5" model="hr.employee">
         <field name="name">Jessica Rodriguez</field>
         <field name="department_id" ref="hr_department_2" />
-        <field name="job_title">Senior Accountant</field>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="job_id" ref="hr_job_1" />
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">jessica.rodriguez@MyAccountingFirm.example.com</field>
         <field name="parent_id" ref="hr.employee_admin" />
         <field name="hourly_cost">35.0</field>
@@ -30,8 +30,8 @@
     <record id="hr_employee_6" model="hr.employee">
         <field name="name">Robert Wilson</field>
         <field name="department_id" ref="hr_department_2" />
-        <field name="job_title">Junior Accountant</field>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="job_id" ref="hr_job_2" />
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">robert.wilson@MyAccountingFirm.example.com</field>
         <field name="parent_id" ref="hr.employee_admin" />
         <field name="hourly_cost">32.0</field>
@@ -42,8 +42,8 @@
     <record id="hr_employee_2" model="hr.employee">
         <field name="name">Sarah Thompson</field>
         <field name="department_id" ref="hr_department_2" />
-        <field name="job_title">Junior Accountant</field>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="job_id" ref="hr_job_2" />
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">sarah.thompson@MyAccountingFirm.example.com</field>
         <field name="parent_id" ref="hr.employee_admin" />
         <field name="planning_role_ids" eval="[(6, 0, [ref('planning_role_2')])]"/>
@@ -55,9 +55,9 @@
         <field name="image_1920" type="bytes" file="accounting_firm/static/src/binary/hr_employee/4-image_1920"/>
         <field name="name">Michael Demo</field>
         <field name="department_id" ref="hr_department_2"/>
-        <field name="job_title">Junior Accountant</field>
+        <field name="job_id" ref="hr_job_2"/>
         <field name="address_id" ref="base.main_partner"/>
-        <field name="work_phone">+1 650-691-3277</field>
+        <field name="work_phone">+1 650-555-0101</field>
         <field name="work_email">michael.demo@MyAccountingFirm.example.com</field>
         <field name="parent_id" ref="hr.employee_admin"/>
         <field name="coach_id" ref="hr.employee_admin"/>
